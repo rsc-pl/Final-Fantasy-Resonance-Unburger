@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ExpressionParser",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ExpressionParser:BinaryExecutionError:800569f7",
+      "source": {
+        "set": "set-02",
+        "namespace": "ExpressionParser",
+        "key": "BinaryExecutionError",
+        "jp_record_id": "switch:locres:set-01:ExpressionParser:BinaryExecutionError:800569f7",
+        "official_en_record_id": "switch:locres:set-01:ExpressionParser:BinaryExecutionError:800569f7",
+        "jp_sha256": "f9917f23b76dd1471f94a5ec8deff64a5a31c698c9bf419c4e84f20905f1f496",
+        "official_en_sha256": "5dfa22fc53947492e1f73f908ae54bf5942f828ed05403f7d3a80b71adaaca83"
+      },
+      "text": {
+        "jp": "バイナリ演算子 {0} は {1} と {2} で処理できません",
+        "official_en": "Binary operator {0} cannot operate on {1} and {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ExpressionParser:SyntaxError_InvalidExpression:ab3ebb4b",
+      "source": {
+        "set": "set-02",
+        "namespace": "ExpressionParser",
+        "key": "SyntaxError_InvalidExpression",
+        "jp_record_id": "switch:locres:set-01:ExpressionParser:SyntaxError_InvalidExpression:ab3ebb4b",
+        "official_en_record_id": "switch:locres:set-01:ExpressionParser:SyntaxError_InvalidExpression:ab3ebb4b",
+        "jp_sha256": "275f0db18582da57232a4a10ef1e9d110b45411677a57df408a5c5b630f2f9c4",
+        "official_en_sha256": "3f1aba0050d4a6f65d12671f617542b57c27882cb3578910d84c9f58643c7dd8"
+      },
+      "text": {
+        "jp": "式を評価できませんでした",
+        "official_en": "Could not evaluate expression",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ExpressionParser:SyntaxError_NoUnaryOperand:5e2dc66b",
+      "source": {
+        "set": "set-02",
+        "namespace": "ExpressionParser",
+        "key": "SyntaxError_NoUnaryOperand",
+        "jp_record_id": "switch:locres:set-01:ExpressionParser:SyntaxError_NoUnaryOperand:5e2dc66b",
+        "official_en_record_id": "switch:locres:set-01:ExpressionParser:SyntaxError_NoUnaryOperand:5e2dc66b",
+        "jp_sha256": "4ae1b8e6e26f9faf5d414b3113a26df28d938b1988eb886d8a2dff1060066886",
+        "official_en_sha256": "b1c9b1d2fc6b8ab97d780febd449adb051e62ab5f076930eb21478a2d42ba680"
+      },
+      "text": {
+        "jp": "単項演算子 {0} のオペランドがありません",
+        "official_en": "No operand for unary operator {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ExpressionParser:SyntaxError_NotEnoughOperandsBinary:854d2aa8",
+      "source": {
+        "set": "set-02",
+        "namespace": "ExpressionParser",
+        "key": "SyntaxError_NotEnoughOperandsBinary",
+        "jp_record_id": "switch:locres:set-01:ExpressionParser:SyntaxError_NotEnoughOperandsBinary:854d2aa8",
+        "official_en_record_id": "switch:locres:set-01:ExpressionParser:SyntaxError_NotEnoughOperandsBinary:854d2aa8",
+        "jp_sha256": "e36adc6552ebfff82e0255e77c6a68084770cba5b7d1009419056a58754c89d4",
+        "official_en_sha256": "b730b03c6dfdf60e6e9b38bfd42317780ea92fae9ad0632400effd11400079d7"
+      },
+      "text": {
+        "jp": "二項演算子 {0} のオペランドが不足しています",
+        "official_en": "Not enough operands for binary operator {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ExpressionParser:PostUnaryExecutionError:d9ce0fc1",
+      "source": {
+        "set": "set-02",
+        "namespace": "ExpressionParser",
+        "key": "PostUnaryExecutionError",
+        "jp_record_id": "switch:locres:set-01:ExpressionParser:PostUnaryExecutionError:d9ce0fc1",
+        "official_en_record_id": "switch:locres:set-01:ExpressionParser:PostUnaryExecutionError:d9ce0fc1",
+        "jp_sha256": "7f629dd2ad517bb72677c0ac13f70fc0efbf83eda5a9de4f40632b0c52e2e32a",
+        "official_en_sha256": "dda4aaff3ce521c4090506e5292b331a391e139198b20717e7723469a9e294c1"
+      },
+      "text": {
+        "jp": "後置単項演算子 {0} は {1} で処理できません",
+        "official_en": "Post-unary operator {0} cannot operate on {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ExpressionParser:PreUnaryExecutionError:d3afd447",
+      "source": {
+        "set": "set-02",
+        "namespace": "ExpressionParser",
+        "key": "PreUnaryExecutionError",
+        "jp_record_id": "switch:locres:set-01:ExpressionParser:PreUnaryExecutionError:d3afd447",
+        "official_en_record_id": "switch:locres:set-01:ExpressionParser:PreUnaryExecutionError:d3afd447",
+        "jp_sha256": "9cac183b6230d850d9675448e2c4fe59734fc3b84e78e376087960aff88e56e6",
+        "official_en_sha256": "fcf8261ec506b8aca3e537b381ceb4f3c50d11e23af171ee1511bce2998bfbec"
+      },
+      "text": {
+        "jp": "前置単項演算子 {0} は {1} で処理できません",
+        "official_en": "Pre-unary operator {0} cannot operate on {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ExpressionParser:SyntaxError_NoBinaryOperand:a22e2122",
+      "source": {
+        "set": "set-02",
+        "namespace": "ExpressionParser",
+        "key": "SyntaxError_NoBinaryOperand",
+        "jp_record_id": "switch:locres:set-01:ExpressionParser:SyntaxError_NoBinaryOperand:a22e2122",
+        "official_en_record_id": "switch:locres:set-01:ExpressionParser:SyntaxError_NoBinaryOperand:a22e2122",
+        "jp_sha256": "ac95f310e170435df698ef9f06622f8555d58f3311bf46553f0cb8ac51e51972",
+        "official_en_sha256": "a96bb06847b79fb41abe1f87f69bbcbd613b8d0ee5d679a866591e7fc60f2bf2"
+      },
+      "text": {
+        "jp": "構文エラー:演算子 '{0}' のオペランドが指定されていません",
+        "official_en": "Syntax error: No operand specified for operator '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ExpressionParser:SyntaxError_UnmatchedGroup:3db01655",
+      "source": {
+        "set": "set-02",
+        "namespace": "ExpressionParser",
+        "key": "SyntaxError_UnmatchedGroup",
+        "jp_record_id": "switch:locres:set-01:ExpressionParser:SyntaxError_UnmatchedGroup:3db01655",
+        "official_en_record_id": "switch:locres:set-01:ExpressionParser:SyntaxError_UnmatchedGroup:3db01655",
+        "jp_sha256": "eee33f09fe0d4d3dae86f3d8ddd7aa44dc78b65f31eef76468f984a29c3a3923",
+        "official_en_sha256": "25b7098cf4d6ad50881bfb827fd879e7754ddb3832ce7f3b52e04f0f7c9bc1d5"
+      },
+      "text": {
+        "jp": "構文エラー:グループエンド '{0}' の一致前に式が終点に達しました({1}:{2} 行目)",
+        "official_en": "Syntax error: Reached end of expression before matching end of group '{0}' at line {1}:{2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ExpressionParser:LexicalError:6617bdf2",
+      "source": {
+        "set": "set-02",
+        "namespace": "ExpressionParser",
+        "key": "LexicalError",
+        "jp_record_id": "switch:locres:set-01:ExpressionParser:LexicalError:6617bdf2",
+        "official_en_record_id": "switch:locres:set-01:ExpressionParser:LexicalError:6617bdf2",
+        "jp_sha256": "81202ed0a3bc89a00d40d6d883fc03612a73190153241a71b14b575a0f102a99",
+        "official_en_sha256": "bdf1630ca0bd2352b8882624245809969103b92c17436235ab1ade8533038a9a"
+      },
+      "text": {
+        "jp": "キャラクター '{0}' の認識できないトークン {1}",
+        "official_en": "Unrecognized token '{0}' at character {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

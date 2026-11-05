@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_SubEv_C01_Castle_01",
+    "scene_id": "ST_SubEv_C01_Castle_01",
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C01_Castle_01:SubEv_C01_Castle_01_001:bbf19dde",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C01_Castle_01",
+        "key": "SubEv_C01_Castle_01_001",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C01_Castle_01:SubEv_C01_Castle_01_001:bbf19dde",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C01_Castle_01:SubEv_C01_Castle_01_001:bbf19dde",
+        "jp_sha256": "ab09d113de466ff251ce4bae8102c0cb32f052469648279797929a9345f7ed26",
+        "official_en_sha256": "c1cb1b1ec2c37e33417f852a8b0ceb6fa03d640d43a655a150882761601dedce"
+      },
+      "text": {
+        "jp": "きゃーーー！",
+        "official_en": "AHHHHHH!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C01_Castle_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "女性",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0028",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C01_Castle_01/SubEv_C01_Castle_01_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C01_Castle_01:SubEv_C01_Castle_01_002:7867654c",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C01_Castle_01",
+        "key": "SubEv_C01_Castle_01_002",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C01_Castle_01:SubEv_C01_Castle_01_002:7867654c",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C01_Castle_01:SubEv_C01_Castle_01_002:7867654c",
+        "jp_sha256": "d1995882e8ceaf8911796725f1a774049ef120be78ab24147d98377e7b1d2e5c",
+        "official_en_sha256": "61db697a1e063074e1a70633ff93f7acb16ba39e0ee483b9b523621b8fd397be"
+      },
+      "text": {
+        "jp": "今助ける！",
+        "official_en": "Hang on, we’re coming!",
+        "real_en": "I'm coming to help!"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C01_Castle_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "レイン",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0002",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C01_Castle_01/SubEv_C01_Castle_01_002"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

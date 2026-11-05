@@ -1,0 +1,604 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SProductionListPanel",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SProductionListPanel:ProductionNameAlreadyExistsMessage:60efff91",
+      "source": {
+        "set": "set-02",
+        "namespace": "SProductionListPanel",
+        "key": "ProductionNameAlreadyExistsMessage",
+        "jp_record_id": "switch:locres:set-01:SProductionListPanel:ProductionNameAlreadyExistsMessage:60efff91",
+        "official_en_record_id": "switch:locres:set-01:SProductionListPanel:ProductionNameAlreadyExistsMessage:60efff91",
+        "jp_sha256": "87fd2dc636d33d205852a218979473fbdaec1f732d713fb5fa32ff8bedc06404",
+        "official_en_sha256": "266639cd02f7894d064ec729a7c2e39c838a47975a3c0440d3e89349a5c5ddb4"
+      },
+      "text": {
+        "jp": "{0} という名前のプロダクションはすでに存在します。このプロダクションのインポートを続行しますか？",
+        "official_en": "A Production named {0} already exists. Do you still want to import this production?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SProductionListPanel:ExistingNameErrorMessage:19985681",
+      "source": {
+        "set": "set-02",
+        "namespace": "SProductionListPanel",
+        "key": "ExistingNameErrorMessage",
+        "jp_record_id": "switch:locres:set-01:SProductionListPanel:ExistingNameErrorMessage:19985681",
+        "official_en_record_id": "switch:locres:set-01:SProductionListPanel:ExistingNameErrorMessage:19985681",
+        "jp_sha256": "ed2fa36ef760efba869688610e2340ae57d42c9f6a7b128504034a0eb42f7602",
+        "official_en_sha256": "d2d73c56bdf76d2808cf9018673e6c33798d47e38f45ab960d36020b165e5104"
+      },
+      "text": {
+        "jp": "同じ名前のプロダクションがあります",
+        "official_en": "A production already exists with this name",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SProductionListPanel:CreateNewProductionButton:36e80e45",
+      "source": {
+        "set": "set-02",
+        "namespace": "SProductionListPanel",
+        "key": "CreateNewProductionButton",
+        "jp_record_id": "switch:locres:set-01:SProductionListPanel:CreateNewProductionButton:36e80e45",
+        "official_en_record_id": "switch:locres:set-01:SProductionListPanel:CreateNewProductionButton:36e80e45",
+        "jp_sha256": "8703d4d24bc4997d588155ea52c78916b53390152b904d6cbaf349976d756dc4",
+        "official_en_sha256": "02fdbf98ad35238b75e38c9c061e8e199c35282082a07d101acd11b1a5bd0e37"
+      },
+      "text": {
+        "jp": "新規プロダクションを作成",
+        "official_en": "Create a New Production",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SProductionListPanel:DeleteProductionButtonToolTip:27423f00",
+      "source": {
+        "set": "set-02",
+        "namespace": "SProductionListPanel",
+        "key": "DeleteProductionButtonToolTip",
+        "jp_record_id": "switch:locres:set-01:SProductionListPanel:DeleteProductionButtonToolTip:27423f00",
+        "official_en_record_id": "switch:locres:set-01:SProductionListPanel:DeleteProductionButtonToolTip:27423f00",
+        "jp_sha256": "14b44d84ddf588182171add572cf353ab4b0764096442d60d5c01ff3db41ed15",
+        "official_en_sha256": "b04603d89271edf60888854f4c59bce6c2e2edcb45d969870435d542b5b275de"
+      },
+      "text": {
+        "jp": "プロダクションを削除",
+        "official_en": "Delete Production",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SProductionListPanel:DuplicateProduction:451393c8",
+      "source": {
+        "set": "set-02",
+        "namespace": "SProductionListPanel",
+        "key": "DuplicateProduction",
+        "jp_record_id": "switch:locres:set-01:SProductionListPanel:DuplicateProduction:451393c8",
+        "official_en_record_id": "switch:locres:set-01:SProductionListPanel:DuplicateProduction:451393c8",
+        "jp_sha256": "bb6dad578c8142ad5a005137914b721cc3d8d2dd1e9e95423b0213398de58b91",
+        "official_en_sha256": "02cdaabfca805d6ab75d81043998bdc733451b9ea48958ebf8098022d102ba2e"
+      },
+      "text": {
+        "jp": "複製",
+        "official_en": "Duplicate",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SProductionListPanel:DuplicateProductionToolTip:ddf9eef0",
+      "source": {
+        "set": "set-02",
+        "namespace": "SProductionListPanel",
+        "key": "DuplicateProductionToolTip",
+        "jp_record_id": "switch:locres:set-01:SProductionListPanel:DuplicateProductionToolTip:ddf9eef0",
+        "official_en_record_id": "switch:locres:set-01:SProductionListPanel:DuplicateProductionToolTip:ddf9eef0",
+        "jp_sha256": "788e6ef2dc7fd6f6b4630c23d7547c497a99f29ca1eea58b73b257877317dead",
+        "official_en_sha256": "9333c01f63cf227c6d3a4b6b06dadfcb79999ad669dc7fdb83369e6d0c79184b"
+      },
+      "text": {
+        "jp": "プロダクションを複製します",
+        "official_en": "Duplicate production",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SProductionListPanel:ExportProductionButtonToolTip:07f39074",
+      "source": {
+        "set": "set-02",
+        "namespace": "SProductionListPanel",
+        "key": "ExportProductionButtonToolTip",
+        "jp_record_id": "switch:locres:set-01:SProductionListPanel:ExportProductionButtonToolTip:07f39074",
+        "official_en_record_id": "switch:locres:set-01:SProductionListPanel:ExportProductionButtonToolTip:07f39074",
+        "jp_sha256": "3915ab07299fad64d269c414c90e3c1581d08cb32857785b2f35d9fe1db888da",
+        "official_en_sha256": "e1eb218e9b5a86585b996662df301f224e3f97e9679e693fcb73798eeebfdd72"
+      },
+      "text": {
+        "jp": "プロダクションをエクスポート",
+        "official_en": "Export Production",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SProductionListPanel:ImportProductionButton:f7f7aecf",
+      "source": {
+        "set": "set-02",
+        "namespace": "SProductionListPanel",
+        "key": "ImportProductionButton",
+        "jp_record_id": "switch:locres:set-01:SProductionListPanel:ImportProductionButton:f7f7aecf",
+        "official_en_record_id": "switch:locres:set-01:SProductionListPanel:ImportProductionButton:f7f7aecf",
+        "jp_sha256": "64dddd114dee44975779129d4daf538edc364216dda00be9db181c2b394425c8",
+        "official_en_sha256": "b57dc5b8df4a5afc3d99829c9eb62ea90f88d2307da71cce18f11f3630407d8a"
+      },
+      "text": {
+        "jp": "プロダクションをインポート",
+        "official_en": "Import Production",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SProductionListPanel:EmptyNameErrorMessage:0d6c764a",
+      "source": {
+        "set": "set-02",
+        "namespace": "SProductionListPanel",
+        "key": "EmptyNameErrorMessage",
+        "jp_record_id": "switch:locres:set-01:SProductionListPanel:EmptyNameErrorMessage:0d6c764a",
+        "official_en_record_id": "switch:locres:set-01:SProductionListPanel:EmptyNameErrorMessage:0d6c764a",
+        "jp_sha256": "580649e8bf93f06b675c607cd966468cc0feccf08b3d107b9ed93d79114e2dae",
+        "official_en_sha256": "fc533b3a426756df5470e419af6089212b440299220b545936876266f651fd75"
+      },
+      "text": {
+        "jp": "プロダクション名を指定してください",
+        "official_en": "Please provide a name for the production",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SProductionListPanel:ProductionsHeading:dd5b87e9",
+      "source": {
+        "set": "set-02",
+        "namespace": "SProductionListPanel",
+        "key": "ProductionsHeading",
+        "jp_record_id": "switch:locres:set-01:SProductionListPanel:ProductionsHeading:dd5b87e9",
+        "official_en_record_id": "switch:locres:set-01:SProductionListPanel:ProductionsHeading:dd5b87e9",
+        "jp_sha256": "4f120aa29b0045807a7173d907d0eef58af5e5c26e90997c90828a0c2c77d318",
+        "official_en_sha256": "910c1bc61f4f2fe60f899f7ba9f187248f0164a4987396c47250716efcbee2f5"
+      },
+      "text": {
+        "jp": "プロダクション",
+        "official_en": "Productions",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SProductionListPanel:RenameProduction:ecfe0b5e",
+      "source": {
+        "set": "set-02",
+        "namespace": "SProductionListPanel",
+        "key": "RenameProduction",
+        "jp_record_id": "switch:locres:set-01:SProductionListPanel:RenameProduction:ecfe0b5e",
+        "official_en_record_id": "switch:locres:set-01:SProductionListPanel:RenameProduction:ecfe0b5e",
+        "jp_sha256": "c18eeebdc39513a59d8341863feb1cfaa336803712369584fe63167bf1e325cd",
+        "official_en_sha256": "3064d79a295cefe4b384b8fe5cb29fd6b06d7eb1ad94b8895f4148039d06b330"
+      },
+      "text": {
+        "jp": "名前を変更する",
+        "official_en": "Rename",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SProductionListPanel:RenameProductionToolTip:0f9b098a",
+      "source": {
+        "set": "set-02",
+        "namespace": "SProductionListPanel",
+        "key": "RenameProductionToolTip",
+        "jp_record_id": "switch:locres:set-01:SProductionListPanel:RenameProductionToolTip:0f9b098a",
+        "official_en_record_id": "switch:locres:set-01:SProductionListPanel:RenameProductionToolTip:0f9b098a",
+        "jp_sha256": "197d72d303b6866b4048441bf9e641a18319aaa37f7dc439ac530270a2513f99",
+        "official_en_sha256": "e43437ff06389f5ab1e5b9e47b187e0ed92662f4b589e23a293ceac632d41000"
+      },
+      "text": {
+        "jp": "プロダクション名を変更",
+        "official_en": "Rename production",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SProductionListPanel:GenericImportErrorMessage:98b78832",
+      "source": {
+        "set": "set-02",
+        "namespace": "SProductionListPanel",
+        "key": "GenericImportErrorMessage",
+        "jp_record_id": "switch:locres:set-01:SProductionListPanel:GenericImportErrorMessage:98b78832",
+        "official_en_record_id": "switch:locres:set-01:SProductionListPanel:GenericImportErrorMessage:98b78832",
+        "jp_sha256": "582f73f8485b481fe36eae3b5fbbc11824df7fbcbad9fffe1958cae31ab1ef4d",
+        "official_en_sha256": "5b0f863d1f9e0967eea5da9f2a9505d365000de5cdfb69f29c04d2b7bf5ddc4f"
+      },
+      "text": {
+        "jp": "選択したファイルのインポートに失敗しました。\n\nJSON ファイルの形式が正しくない可能性があります",
+        "official_en": "The selected file failed to import.\n\nThe JSON file may be incorrectly formatted.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SProductionListPanel:SpecificImportErrorMessage:6c2fbf25",
+      "source": {
+        "set": "set-02",
+        "namespace": "SProductionListPanel",
+        "key": "SpecificImportErrorMessage",
+        "jp_record_id": "switch:locres:set-01:SProductionListPanel:SpecificImportErrorMessage:6c2fbf25",
+        "official_en_record_id": "switch:locres:set-01:SProductionListPanel:SpecificImportErrorMessage:6c2fbf25",
+        "jp_sha256": "a1486e66ccadbbb06a1280545ffa8c9bccf463b837c77af3ad39c8fdbde78855",
+        "official_en_sha256": "d7b189d13c70b923d217c4f9a4d6e702000f9a362b043044a281eff37184bf96"
+      },
+      "text": {
+        "jp": "選択したファイルのインポートに失敗しました。\n\n{0}",
+        "official_en": "The selected file failed to import.\n\n{0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SProductionListPanel:ProductionsTitle:2729d6c3",
+      "source": {
+        "set": "set-02",
+        "namespace": "SProductionListPanel",
+        "key": "ProductionsTitle",
+        "jp_record_id": "switch:locres:set-01:SProductionListPanel:ProductionsTitle:2729d6c3",
+        "official_en_record_id": "switch:locres:set-01:SProductionListPanel:ProductionsTitle:2729d6c3",
+        "jp_sha256": "abd0901235eba3a1c3e1c136cd222dfb1d1eec8e135f101cdd02b691d09339ff",
+        "official_en_sha256": "cd2cc704e62ad46fa48d26e88424f014b070fd63fce15d26016e5b455bb8c771"
+      },
+      "text": {
+        "jp": "ユーザーセットアップ",
+        "official_en": "User Setup",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SProductionListPanel:ProductionsInfoText:a528a303",
+      "source": {
+        "set": "set-02",
+        "namespace": "SProductionListPanel",
+        "key": "ProductionsInfoText",
+        "jp_record_id": "switch:locres:set-01:SProductionListPanel:ProductionsInfoText:a528a303",
+        "official_en_record_id": "switch:locres:set-01:SProductionListPanel:ProductionsInfoText:a528a303",
+        "jp_sha256": "9fa9fb76ad63d4a8b3b922425719162eeaf87018636d6cf2f0b990e419226895",
+        "official_en_sha256": "8764b3a215edc7e8cb4b663142b8586286cbbadf4c377f3cbb536de06dff4104"
+      },
+      "text": {
+        "jp": "複数のショーに Unreal プロジェクトを使用し、それぞれのショーに異なる設定を割り当てることができます。\nそれぞれのショーにここでプロダクションを作成してから、アクティブ プロダクションとして 1 つを選択します",
+        "official_en": "You can use this Unreal project for multiple shows, and assign different settings for each show.\nCreate a production here for each show, then choose one to be the active production.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

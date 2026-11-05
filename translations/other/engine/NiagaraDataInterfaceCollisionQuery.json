@@ -1,0 +1,1751 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NiagaraDataInterfaceCollisionQuery",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ScenePartialDepthSignatureEpxMessage:33d3788f",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "ScenePartialDepthSignatureEpxMessage",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ScenePartialDepthSignatureEpxMessage:33d3788f",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ScenePartialDepthSignatureEpxMessage:33d3788f",
+        "jp_sha256": "00e55029bfaaf2f5a2ba37cff99af6f605b2c80c0abd73ab36c81cf8255c950b",
+        "official_en_sha256": "d868a5c6c75a52688c2725e66b8a081bc1638fefbd52b3a28b0ec9920700e0db"
+      },
+      "text": {
+        "jp": "注意：このノードを使用するとシーン深度のコピーが行われるため、一部のプラットフォームではベース パスの速度が低下する場合があります",
+        "official_en": "Careful: using this node involve a scene depth copy that might slow down the base pass on some platform.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CreateAsync_RayTraceDescription:4ab465f0",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "CreateAsync_RayTraceDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CreateAsync_RayTraceDescription:4ab465f0",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CreateAsync_RayTraceDescription:4ab465f0",
+        "jp_sha256": "904d8548e2148dc295c2ee355ca773bde532e6fef6f28a2673afc62e5595ca43",
+        "official_en_sha256": "f8035fe0c5544f29653741a0c13c32c212e01dcbd5208f6ece3b7f9c02e8567b"
+      },
+      "text": {
+        "jp": "次のフレームで利用できる結果を使用してGPUレイトレースを作成します (インデックスが返される)",
+        "official_en": "Creates a GPU raytrace with the result being available the following frame (index is returned)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:AsyncTraceChannelDescription:661a0cae",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "AsyncTraceChannelDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:AsyncTraceChannelDescription:661a0cae",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:AsyncTraceChannelDescription:661a0cae",
+        "jp_sha256": "8df6915b69b24e48a9668ab4d6bbc9d3261e93b8c2cab5afef92eb810f078e73",
+        "official_en_sha256": "6a51eeebeafa02b380e3c3d5572dc98800f841b393d0e664a3e6381a4adedc69"
+      },
+      "text": {
+        "jp": "現在は使用していません。トレースでテスト対象のジオメトリに対するトレースチャンネルを表します。",
+        "official_en": "Currently unused, will represent the trace channels for which geometry the trace should test against",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:IssueAsync_RayTraceDescription:2c13f0ac",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "IssueAsync_RayTraceDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:IssueAsync_RayTraceDescription:2c13f0ac",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:IssueAsync_RayTraceDescription:2c13f0ac",
+        "jp_sha256": "9ecfe2684d6f7af444cce001b03b39b8d22f02e888713be3572287aec4c9839d",
+        "official_en_sha256": "39f5385c2f89c0de27b149d82903244c64cec320444627df0e60930915e2542d"
+      },
+      "text": {
+        "jp": "次のフレームで利用できる結果でGPUレイトレースをエンキューします",
+        "official_en": "Enqueues a GPU raytrace with the result being available the following frame",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CollisionMaterialFrictionDescription:ed4be6fa",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "CollisionMaterialFrictionDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CollisionMaterialFrictionDescription:ed4be6fa",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CollisionMaterialFrictionDescription:ed4be6fa",
+        "jp_sha256": "7bcbd3ff077c6e5946b5524cc473225d08f92d89d72a4c36081fd176706794c3",
+        "official_en_sha256": "eea249688119002e47d1e0dda62c5e15900eaf899429ee5f2819fe280bc1c830"
+      },
+      "text": {
+        "jp": "サーフェスの摩擦値。このサーフェスで物体がどれだけ容易に滑走できるのかを制御します (0 が摩擦なし、値が高くなるほど摩擦量が上昇)。",
+        "official_en": "Friction value of surface, controls how easily things can slide on this surface (0 is frictionless, higher values increase the amount of friction).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CollisionPosWorldDescription:7ef1921b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "CollisionPosWorldDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CollisionPosWorldDescription:7ef1921b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CollisionPosWorldDescription:7ef1921b",
+        "jp_sha256": "f934b23feb9fc272d1f82e6d4fd2e352074f27636230baea46755af1377b8db8",
+        "official_en_sha256": "3e0b9601fc087b172a843c726a8e014303fc633d0b88df54a662c199086b035b"
+      },
+      "text": {
+        "jp": "コリジョンが有効な場合、ブロッキング ヒットの場所を返します。",
+        "official_en": "If the collision is valid, this returns the location of the blocking hit.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CollisionNormalDescription:ea69d703",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "CollisionNormalDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CollisionNormalDescription:ea69d703",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CollisionNormalDescription:ea69d703",
+        "jp_sha256": "aada9b2924e0d991caadf82dfe35cd504699970e4bc866b8ab570fff931057a8",
+        "official_en_sha256": "80a948663f8531a98b244dc095d070b527f303b1d8ceea9757d4c96dccc42cbd"
+      },
+      "text": {
+        "jp": "コリジョンが有効な場合、ブロッキング ヒットの位置の法線を返します。",
+        "official_en": "If the collision is valid, this returns the normal at the position of the blocking hit.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:DistanceToNearestSurfaceDescription:5c1a591d",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "DistanceToNearestSurfaceDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:DistanceToNearestSurfaceDescription:5c1a591d",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:DistanceToNearestSurfaceDescription:5c1a591d",
+        "jp_sha256": "69b3c19dfbfce2a5cc46d6387a4af933699971ca845e35f80a11c521b97472f4",
+        "official_en_sha256": "eb54e2d2fd3353a6f883376e409adf4d70b9bdb94ebd1bf39ecd31b1cf0d6e1a"
+      },
+      "text": {
+        "jp": "クエリが成功すると、最も近いサーフェスへの距離を返します。それ以外の場合は、0 を返します。",
+        "official_en": "If the query was successful this returns the distance to the nearest surface, otherwise returns 0.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:FieldGradientDescription:73f37571",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "FieldGradientDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:FieldGradientDescription:73f37571",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:FieldGradientDescription:73f37571",
+        "jp_sha256": "93182dca1ac0b6e197f474f9070e76426e2550aacc1d8ca86e05485ddc06e69b",
+        "official_en_sha256": "9c342d95fa84d587bfd18dbd515ca0f3d98ca88dffa88ca682da611017a310aa"
+      },
+      "text": {
+        "jp": "クエリが成功すると、最も近いサーフェスへの正規化されていない方向を返します。それ以外の場合は、(0, 0, 0) を返します。",
+        "official_en": "If the query was successful this returns the non-normalized direction to the nearest surface, otherwise returns (0, 0, 0).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SceneDepthDescription:449a474e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "SceneDepthDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SceneDepthDescription:449a474e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SceneDepthDescription:449a474e",
+        "jp_sha256": "eca10b2c87f8ea5c641a152f34d3655b88ca419423fb9b228b08a288866df347",
+        "official_en_sha256": "36fe401818cc483c82f69f4bab1111b5818fd715c7b1fe8edf488ca6643c7fac"
+      },
+      "text": {
+        "jp": "クエリが成功すると、シーンの奥行を返します。そうでない場合は、-1 を返します。",
+        "official_en": "If the query was successful this returns the scene depth, otherwise -1.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SampleWorldNormalDescription:537203df",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "SampleWorldNormalDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SampleWorldNormalDescription:537203df",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SampleWorldNormalDescription:537203df",
+        "jp_sha256": "3e8a8651a331e46f98fdd5c8c61dc0229ba4aaab2ff9b714b5bb3c57ae1736b6",
+        "official_en_sha256": "61d8a8bedb9bf8bee8f263a2928ac4b93cc5a9f34b42ab205fe586a9f92f420d"
+      },
+      "text": {
+        "jp": "クエリが成功すると、サンプル ポイントでのワールド法線を返します。そうでない場合は、(0, 0, 1) を返します。",
+        "official_en": "If the query was successful, this returns the world normal at the sample point. Otherwise returns (0, 0, 1).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SamplePosWorldDescription:e97a87db",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "SamplePosWorldDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SamplePosWorldDescription:e97a87db",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SamplePosWorldDescription:e97a87db",
+        "jp_sha256": "6374c4bb92c1c687fc67625f2016ab490efadfc17bb11266bea7564ac7932698",
+        "official_en_sha256": "b227cb556f30c9ac3313276afdfad65d22a4ebcd33eeab918afc2b81c031d262"
+      },
+      "text": {
+        "jp": "クエリが成功すると、シーンの奥行から再計算したワールド位置を返します。そうでない場合は、(0, 0, 0) を返します。",
+        "official_en": "If the query was successful, this returns the world position that was recalculated from the scene depth. Otherwise returns (0, 0, 0).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:IsTraceInsideMeshDescription:5f57f98b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "IsTraceInsideMeshDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:IsTraceInsideMeshDescription:5f57f98b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:IsTraceInsideMeshDescription:5f57f98b",
+        "jp_sha256": "370277a08da979fc5111b184cb2c99baad8918c8ecb662a8991c04aa2e17be27",
+        "official_en_sha256": "246025888b84eebe41f7b8946f4a7d5183d5e3f59ce06d9208f080088851f92a"
+      },
+      "text": {
+        "jp": "True の場合は、貫通で、つまり、初期のブロッキングオーバーラップでトレースが開始されます。",
+        "official_en": "If true then the trace started in penetration, i.e. with an initial blocking overlap.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SkipTraceDescription:d3cf340c",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "SkipTraceDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SkipTraceDescription:d3cf340c",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SkipTraceDescription:d3cf340c",
+        "jp_sha256": "20df21416c5281c67a395edda7236559c2fc08a4f0ea56c89820096bf0648eaa",
+        "official_en_sha256": "5e946db862a6b922c057041b17f8bb5c99aa02d5484b2fd530e1fd9d95561a46"
+      },
+      "text": {
+        "jp": "True の場合、トレースを完全にスキップします。\nグラフ内の Branch ノードはまだすべてのパスを実行するため、パフォーマンスの最適化に使用できます。",
+        "official_en": "If true then the trace will be skipped completely.\nThis can be used as a performance optimization, as branch nodes in the graph still execute every path.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:TraceComplexDescription:37446fcf",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "TraceComplexDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:TraceComplexDescription:37446fcf",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:TraceComplexDescription:37446fcf",
+        "jp_sha256": "d47ad4107f1280fc8b69e1d2617013e0c7d6ec33db7124472a734eee4072299f",
+        "official_en_sha256": "f510fc312351f70f1d628961b3e62753dbd99f54fd40a615e99695bf52595399"
+      },
+      "text": {
+        "jp": "true であれば、トレースは複雑なコリジョンにヒットします",
+        "official_en": "If true then the trace will hit complex collision.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReserveAsync_QueryIDDescription:81047fac",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "ReserveAsync_QueryIDDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReserveAsync_QueryIDDescription:81047fac",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReserveAsync_QueryIDDescription:81047fac",
+        "jp_sha256": "a90d90b41e9b6597f56f32ffcdd12e7bc81b9a2ec525bf4443f66853607c05bb",
+        "official_en_sha256": "3e64c7e2a468e86373ae472b80efb46e578cb2c8790d664083eeff1a0ccb9047"
+      },
+      "text": {
+        "jp": "予約する非同期レイトレースリクエストスロットの数",
+        "official_en": "Number of async raytrace requests to be reserved",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CustomDepthDescription:f773706f",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "CustomDepthDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CustomDepthDescription:f773706f",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CustomDepthDescription:f773706f",
+        "jp_sha256": "0a2dc415c557fe9ae6ba149464b6065c37c77cc2accd64398ded51d465598606",
+        "official_en_sha256": "456f048a6f1cdd7de6dac619fe2e646d15acc551835dda2771c6c7e25898c8c8"
+      },
+      "text": {
+        "jp": "与えられたワールド位置をビュー空間に投影し、その位置のカスタム深度バッファをクエリします。",
+        "official_en": "Projects a given world position to view space and then queries the custom depth buffer with that position.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SceneDepthSignatureDescription:81cc1fe5",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "SceneDepthSignatureDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SceneDepthSignatureDescription:81cc1fe5",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SceneDepthSignatureDescription:81cc1fe5",
+        "jp_sha256": "4d4758b482b0792bf8194851a95e1cc9809cdc2fb64a4ce285db2133777ab6bc",
+        "official_en_sha256": "13cf94fa333a8a79c8ffedb89501d89225681676769fe9c81bb01965525164ae"
+      },
+      "text": {
+        "jp": "与えられたワールド位置をビュー空間に投影し、その位置の深度バッファをクエリします。",
+        "official_en": "Projects a given world position to view space and then queries the depth buffer with that position.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ScenePartialDepthSignatureDescription:627c13f6",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "ScenePartialDepthSignatureDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ScenePartialDepthSignatureDescription:627c13f6",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ScenePartialDepthSignatureDescription:627c13f6",
+        "jp_sha256": "85b9e5dd09287086ace6342795a789bb621a951926e1827575031d199534c291",
+        "official_en_sha256": "417c094dda0d5f7aa25919823fa45656a70079ce3739990ae5f7e058cfb8ff8b"
+      },
+      "text": {
+        "jp": "与えられたワールド位置をビュー空間に投影し、その位置の部分的な深度バッファをクエリします (この関数を使用する不透明型エミッタはこの深度バッファに含まれません)",
+        "official_en": "Projects a given world position to view space and then queries the partial depth buffer (opaque emitter using this function are not in this depth buffer) with that position.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:DistanceFieldDescription:4ab4780c",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "DistanceFieldDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:DistanceFieldDescription:4ab4780c",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:DistanceFieldDescription:4ab4780c",
+        "jp_sha256": "16ca1c75654aaea5cb707ed19cfab4059e2b0b936a79d11b3ab1ec5352f391b7",
+        "official_en_sha256": "d118ae04fed722456647ca14a5a56d161d5218546ff8e1387b8c42fd9e668606"
+      },
+      "text": {
+        "jp": "与えられたワールド位置のグローバルディスタンスフィールドをクエリします。\nディスタンスフィールド解像度は、クエリされる位置がカメラから遠くなるほど低くなることに留意してください。",
+        "official_en": "Queries the global distance field for a given world position.\nPlease note that the distance field resolution gets lower the farther away the queried position is from the camera.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:TraceEndWorldDescription:dff382e6",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "TraceEndWorldDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:TraceEndWorldDescription:dff382e6",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:TraceEndWorldDescription:dff382e6",
+        "jp_sha256": "e3905619bfd738c30d4c8965d6c0c1d7929778fb654fdaaf77d098f123bca21f",
+        "official_en_sha256": "4d9ca2aeb3a9ef08d74296c605cc8a763ac451141ad97e95ce1724bedf7d7ab3"
+      },
+      "text": {
+        "jp": "ワールド空間のレイの終点",
+        "official_en": "Ray end point in world space",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:TraceStartWorldDescription:568ba962",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "TraceStartWorldDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:TraceStartWorldDescription:568ba962",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:TraceStartWorldDescription:568ba962",
+        "jp_sha256": "2094704f50c6ca92636901ac956ffc28f3b17f39ddd18ae1cc8b7065f5879f58",
+        "official_en_sha256": "8ecbbea8c8a7fd49838fa6dc4ecd08ac815b9bdd7216e1dea43115b5d18d5fca"
+      },
+      "text": {
+        "jp": "ワールド空間のレイの始点",
+        "official_en": "Ray starting point in world space",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReadAsync_RayTraceDescription:36544176",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "ReadAsync_RayTraceDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReadAsync_RayTraceDescription:36544176",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReadAsync_RayTraceDescription:36544176",
+        "jp_sha256": "941f0fd4e993b5d188c03d942704aaeb35f917c390d4ae1662a4a01419e0eaca",
+        "official_en_sha256": "703638d3f24e0994d7e23c5829ad6dc19921cb962154098ed742b9b7df2fc3e8"
+      },
+      "text": {
+        "jp": "前にエンキューしたGPUレイトレースの結果を読み取ります",
+        "official_en": "Reads the results of a previously enqueued GPU ray trace",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReserveAsync_RayTraceDescription:3d28e038",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "ReserveAsync_RayTraceDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReserveAsync_RayTraceDescription:3d28e038",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReserveAsync_RayTraceDescription:3d28e038",
+        "jp_sha256": "5579143151bb847cf692ef2286a3ba0a755fc37d5c7a1a8945d173772ca74c04",
+        "official_en_sha256": "b015d1972001530e4b560e662ecc278eef5784d1556e31fb4d29a012bc92ed43"
+      },
+      "text": {
+        "jp": "いくつかのレイトレースリクエストスロットを予約します",
+        "official_en": "Reserves a number of ray trace request slots",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CollisionMaterialRestitutionDescription:27da62c1",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "CollisionMaterialRestitutionDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CollisionMaterialRestitutionDescription:27da62c1",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CollisionMaterialRestitutionDescription:27da62c1",
+        "jp_sha256": "ff9f6473a5a4fd50da216a6bb876ef814e9e2db7528b7957253e33df3d54abef",
+        "official_en_sha256": "7030e93a71ae90687ed3ec715eebe4e011a5a5ad707199e65e51269a84d89b72"
+      },
+      "text": {
+        "jp": "このサーフェスの反発 (弾力)、0 (弾力なし) と 1 (反発前後の速度が同じ)。",
+        "official_en": "Restitution or 'bounciness' of this surface, between 0 (no bounce) and 1 (outgoing velocity is same as incoming)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CameraPosWorldDescription:2aaf02d3",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "CameraPosWorldDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CameraPosWorldDescription:2aaf02d3",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CameraPosWorldDescription:2aaf02d3",
+        "jp_sha256": "e55d2a515a76348e14a9db2d0c4deb95621203bbba5ddf2bcb3cdd9c0152d7a1",
+        "official_en_sha256": "63a454ac52f338f66dcd3d455ad76f866b50528c674b01836541d7def80fac3c"
+      },
+      "text": {
+        "jp": "ワールド空間での現在のカメラ位置を返します。",
+        "official_en": "Returns the current camera position in world space.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CollisionMaterialIndexDescription:c438a699",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "CollisionMaterialIndexDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CollisionMaterialIndexDescription:c438a699",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CollisionMaterialIndexDescription:c438a699",
+        "jp_sha256": "97cb043cf07807e27709b12e828aaa89f145710a9fb62583644cb4b99c69e8fe",
+        "official_en_sha256": "206cabaa930f754b3e87a06a2eaa673cf53bd8ef5bb1a4c9369b484ed992b03d"
+      },
+      "text": {
+        "jp": "ProjectSettings/Physics/PhysicalSurface セクションで定義されたサーフェスのインデックスを返します",
+        "official_en": "Returns the index of the surface as defined in the ProjectSettings/Physics/PhysicalSurface section",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReadAsync_CollisionValidDescription:879964eb",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "ReadAsync_CollisionValidDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReadAsync_CollisionValidDescription:879964eb",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReadAsync_CollisionValidDescription:879964eb",
+        "jp_sha256": "7d535eed3c0f6149d9c7b792ead8cf496db444d7047f68dc65ca7dcae7bdc606",
+        "official_en_sha256": "d683c158f9a36699475d1dbe3284ea32ee6e9e8cde84e896b9545c1688d53334"
+      },
+      "text": {
+        "jp": "ヒットが検出されていればtrueを返します",
+        "official_en": "Returns true if a Hit was encountered",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:IsDistanceFieldValidDescription:fee3fafa",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "IsDistanceFieldValidDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:IsDistanceFieldValidDescription:fee3fafa",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:IsDistanceFieldValidDescription:fee3fafa",
+        "jp_sha256": "4f725abce92f539e776108efa0e943a21ea26e5764fed5ebda0d822b858b0601",
+        "official_en_sha256": "9c8c2ce5504a8573b2c01c170b7eb639cdf5a574224593123db1346820fdb629"
+      },
+      "text": {
+        "jp": "グローバルディスタンスフィールドが利用可能で、与えられたサンプル位置のために取得した有効な値がある場合、True を返します。",
+        "official_en": "Returns true if the global distance field is available and there was a valid value retrieved for the given sample position.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:IsInsideViewDescription:d9fa9a80",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "IsInsideViewDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:IsInsideViewDescription:d9fa9a80",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:IsInsideViewDescription:d9fa9a80",
+        "jp_sha256": "f14a5a16362056e9708a535d3864cb0f8acc4c80a39dda1a4ebe4eb4fb149167",
+        "official_en_sha256": "fb55458e94e4474ba1f5de36e30aad5326a3f451a67bc982cfad35bde469995c"
+      },
+      "text": {
+        "jp": "クエリの位置が有効な画面座標に投影できた場合、True を返します。",
+        "official_en": "Returns true if the query position could be projected to valid screen coordinates.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:IsQueryValidDescription:8a854816",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "IsQueryValidDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:IsQueryValidDescription:8a854816",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:IsQueryValidDescription:8a854816",
+        "jp_sha256": "46078b39e89bb56f7f1e933b55000e5c994d0051f0bcbad943b00c548607a816",
+        "official_en_sha256": "c899953e93627b93f6ece159fdb61f5d708bd76c604812d4016162e364272622"
+      },
+      "text": {
+        "jp": "クエリがエンキューされた場合は trueを返します",
+        "official_en": "Returns true if the query was enqueued",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReserveAsync_IsQueryValidDescription:121fb5e1",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "ReserveAsync_IsQueryValidDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReserveAsync_IsQueryValidDescription:121fb5e1",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReserveAsync_IsQueryValidDescription:121fb5e1",
+        "jp_sha256": "8572eb2fb3e03bb73d1b8a143b817afef3c6f290a645cb8eabcce4fce7a81c62",
+        "official_en_sha256": "4d5488809eec84d59aaa406d11e4a5df77a1107d0b83b10acbbbcfc65e2472e4"
+      },
+      "text": {
+        "jp": "リクエストしたインデックスが予約されていればtrueを返します",
+        "official_en": "Returns true if the requested indices were reserved",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CollisionValidDescription:22140d64",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "CollisionValidDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CollisionValidDescription:22140d64",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:CollisionValidDescription:22140d64",
+        "jp_sha256": "d9d4e698252098cf5ff879dc2cadf32b58dc78ce4010b10d00ef279b2af5af84",
+        "official_en_sha256": "f8586721a0de1de39a36adb13d3d79f4f39a7f8d028a60320e5c97d8b99b0578"
+      },
+      "text": {
+        "jp": "トレースがスキップされず、ワールド ジオメトリにブロックされた場合、True を返します。",
+        "official_en": "Returns true if the trace was not skipped and the trace was blocked by some world geometry.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReadAsync_CollisionDistanceDescription:ba7253c4",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "ReadAsync_CollisionDistanceDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReadAsync_CollisionDistanceDescription:ba7253c4",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReadAsync_CollisionDistanceDescription:ba7253c4",
+        "jp_sha256": "95b8ac14b2c54a15db0135ff0f5711a1140beaf7edd50aa38c01d77aa8c73be6",
+        "official_en_sha256": "eedd14b8a5419614d76e08d0d47cdf000ea0245c9b4fedbf5ad285be13c5c08a"
+      },
+      "text": {
+        "jp": "ワールド空間でレイの始点から交差までの距離",
+        "official_en": "The distance in world space from the ray starting point to the intersection",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReserveAsync_TraceChannelDescription:1cfcccd7",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "ReserveAsync_TraceChannelDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReserveAsync_TraceChannelDescription:1cfcccd7",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReserveAsync_TraceChannelDescription:1cfcccd7",
+        "jp_sha256": "7e73d184f62a1f8d8dded3d9508bc31c90d25220e899d316732ce34522b0344b",
+        "official_en_sha256": "8e3ce39978622aee8a09ae4aff4e0f375aa24f5d505d5324e1e8ca803d0c39d6"
+      },
+      "text": {
+        "jp": "このセルを使用して予約されている、ブロック内の最初のインデックス",
+        "official_en": "The first index in the block reserved through this call",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReadAsync_PreviousFrameQueryIDDescription:0e902e2f",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "ReadAsync_PreviousFrameQueryIDDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReadAsync_PreviousFrameQueryIDDescription:0e902e2f",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReadAsync_PreviousFrameQueryIDDescription:0e902e2f",
+        "jp_sha256": "d4295a202cde4837ced1dbc87655f48ac4fe61ef61cbb72d2122dfc0bcf57f6b",
+        "official_en_sha256": "29a1bc61839936fbfc2b1249dc8074e076605c1ad67322f52a8fb0a755f12ff2"
+      },
+      "text": {
+        "jp": "取得する結果のインデックス",
+        "official_en": "The index of the results being retrieved",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:NiagaraDistanceFieldNotEnabledMsg:d19f9d04",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "NiagaraDistanceFieldNotEnabledMsg",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:NiagaraDistanceFieldNotEnabledMsg:d19f9d04",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:NiagaraDistanceFieldNotEnabledMsg:d19f9d04",
+        "jp_sha256": "95ff2fa8dde2dead5fb15120e66c169cedc82158f7888ae3a326b92e99e0ee8c",
+        "official_en_sha256": "c0bcb70ee82906a99ba271751b551e5abacf6a7cb48db3f70c2a5feee70e3a1b"
+      },
+      "text": {
+        "jp": "メッシュの距離フィールド生成が現在は有効になっていません。プロジェクト設定を確認してください。\n有効になっていない場合、Niagara が距離をクエリすることができません。",
+        "official_en": "The mesh distance field generation is currently not enabled, please check the project settings.\nNiagara cannot query the distance field otherwise.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReadAsync_CollisionPosWorldDescription:fca70be8",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "ReadAsync_CollisionPosWorldDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReadAsync_CollisionPosWorldDescription:fca70be8",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReadAsync_CollisionPosWorldDescription:fca70be8",
+        "jp_sha256": "504dd1b7ddf0fd45d42248ff0c23986e00e0e70b131d497d0cfca637c03ac7c8",
+        "official_en_sha256": "3e3fa3b29c86226f85c545945e93b50c86e4dc75f4143ac133c54b173894e00e"
+      },
+      "text": {
+        "jp": "交差が起こるワールド空間のポイント",
+        "official_en": "The point in world space where the intersection occured",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:TraceAsync_PreviousFrameQueryIDDescription:95c2316b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "TraceAsync_PreviousFrameQueryIDDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:TraceAsync_PreviousFrameQueryIDDescription:95c2316b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:TraceAsync_PreviousFrameQueryIDDescription:95c2316b",
+        "jp_sha256": "9ab8085d76e15037c6e4254f924a52f9ee65a6415f701f74449ccac903e98fea",
+        "official_en_sha256": "8b4964d4d107947133b1f7ecb77dcd1885141bb3f7f713c4c534f3a4651bcf2a"
+      },
+      "text": {
+        "jp": "クエリ ID は最後のフレームの非同期トレースの呼び出しから返します。\n有効な ID かどうかにかかわらず、この関数呼び出しは新しい非同期ライン トレースを発効しますが、有効な ID の結果のみを返します。",
+        "official_en": "The query ID returned from the last frame's async trace call.\nRegardless if it is a valid ID or not this function call with issue a new async line trace, but it will only return results with a valid ID.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:TraceAsync_NextFrameQueryIDDescription:c9e67e89",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "TraceAsync_NextFrameQueryIDDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:TraceAsync_NextFrameQueryIDDescription:c9e67e89",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:TraceAsync_NextFrameQueryIDDescription:c9e67e89",
+        "jp_sha256": "bd4dc72f9e71e1317a40f2611a46c0c851a8f465fc66e8193101fce6b1a69450",
+        "official_en_sha256": "9593f5a42665c0ab59fd87cf794e896393e0180cc749ab29156521861d163790"
+      },
+      "text": {
+        "jp": "クエリ ID を保存し、次のフレームでこの関数の入力値として使用します。",
+        "official_en": "The query ID to save and use as input to this function in the next frame.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReadAsync_CollisionNormalDescription:a9e0fb1b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "ReadAsync_CollisionNormalDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReadAsync_CollisionNormalDescription:a9e0fb1b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:ReadAsync_CollisionNormalDescription:a9e0fb1b",
+        "jp_sha256": "533be8c09d43f89db0ef2cf1eb6fe26bd5a5ac1b993eda75b310eff9be62bec4",
+        "official_en_sha256": "ad71593fd452687a111b9045909adc786e6cacc1910d6dc32d01c49e7e675739"
+      },
+      "text": {
+        "jp": "交差点でのワールドジオメトリのサーフェス法線",
+        "official_en": "The surface normal of the world geometry at the point of intersection",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:TraceChannelDescription:7449dd42",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "TraceChannelDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:TraceChannelDescription:7449dd42",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:TraceChannelDescription:7449dd42",
+        "jp_sha256": "10c0116b54e7db773d89f019ee8b22f3c97644888240ac95356010ac91074420",
+        "official_en_sha256": "7e5e7eec806dd48c646bb3c961c3add75f17411d7b604d7fa703061cc3abd37e"
+      },
+      "text": {
+        "jp": "衝突するトレースチャネル。 トレースチャネルは、プロジェクト設定で構成できます。",
+        "official_en": "The trace channel to collide against. Trace channels can be configured in the project settings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:DepthSamplePosWorldDescription:20e9b2ff",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "DepthSamplePosWorldDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:DepthSamplePosWorldDescription:20e9b2ff",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:DepthSamplePosWorldDescription:20e9b2ff",
+        "jp_sha256": "ca290150beaefe1fb466595358df9d04c3a021adf623df17c68e199ba5afc1c3",
+        "official_en_sha256": "da17d6c9cbd5f35e3dc8566dd6712eed52e3907c6cbb4e2115d3114e46dbd638"
+      },
+      "text": {
+        "jp": "深度がクエリされるワールド位置。深度バッファをクエリするために、位置は自動的にビュー空間にトランスフォームされます。",
+        "official_en": "The world position where the depth should be queried. The position gets automatically transformed to view space to query the depth buffer.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:FieldSamplePosWorldDescription:d4e15990",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "FieldSamplePosWorldDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:FieldSamplePosWorldDescription:d4e15990",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:FieldSamplePosWorldDescription:d4e15990",
+        "jp_sha256": "0f570d141bb35ea3c7c15ab7fdc004f11e0a2bfa6f44980c85038da57a45e216",
+        "official_en_sha256": "36d092f6b4fdba3156a6a91630e985ce5598281abcd97dee0c06eb03c20624f3"
+      },
+      "text": {
+        "jp": "距離フィールドがクエリされるワールド位置。",
+        "official_en": "The world position where the distance field should be queried.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SigCpuAsyncDescription:9ca01c22",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "SigCpuAsyncDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SigCpuAsyncDescription:9ca01c22",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SigCpuAsyncDescription:9ca01c22",
+        "jp_sha256": "f75fef28566154ef8e1cc509402e803b31d2233bfb0e2d0f17d1ceb5634682ce",
+        "official_en_sha256": "db1cfae26b57b15e9bb0d9bbd56abddc13ef0e3fa5cbf51cd5d49f1c59280b23"
+      },
+      "text": {
+        "jp": "特定のチャンネルを使用してワールドに対するレイをトレースし、最初のブロッキング ヒットを次のフレームに返します。\nこれはトレース関数の非同期バージョンであり、つまり、すぐに結果が返ってくるわけではなく、1 フレーム分遅れて返ることに留意してください。",
+        "official_en": "Traces a ray against the world using a specific channel and return the first blocking hit the next frame.\nNote that this is the ASYNC version of the trace function, meaning it will not returns the result right away, but with one frame latency.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SigCpuSyncDescription:9610fe00",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "SigCpuSyncDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SigCpuSyncDescription:9610fe00",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:SigCpuSyncDescription:9610fe00",
+        "jp_sha256": "a046a0e9affc7afe337d97949d4b0ced1210856b4d254fa0818366bac01a692b",
+        "official_en_sha256": "808f0df27a8488789b828da251905a9574e1809bcf8d7735d9006cf71cabdfba"
+      },
+      "text": {
+        "jp": "特定のチャンネルを使用してワールドに対するレイをトレースし、最初のブロッキング ヒットを返します。",
+        "official_en": "Traces a ray against the world using a specific channel and return the first blocking hit.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:QueryIDDescription:7b4da659",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCollisionQuery",
+        "key": "QueryIDDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:QueryIDDescription:7b4da659",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCollisionQuery:QueryIDDescription:7b4da659",
+        "jp_sha256": "d9edcbfba9e15801486051fe52a551bdba6fd6a77cc7a3398de0a73a68ad01a9",
+        "official_en_sha256": "78a2e39ec6daa1f9187fafc43da8ee31607cab94b94c5af4a94633aa17569322"
+      },
+      "text": {
+        "jp": "エンキューされているクエリの(このフレームに対する)固有のインデックス(結果を取得するために後続のフレームで使用)。MaxRayTraceCountより小さい値が必要です",
+        "official_en": "Unique (for this frame) index of the query being enqueued (used in subsequent frames to retrieve results).  Must be less than MaxRayTraceCount",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

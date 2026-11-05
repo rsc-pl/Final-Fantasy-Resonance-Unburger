@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "StackFunctionInputBinder",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:StackFunctionInputBinder:MiddingDefaultError:2e28dcc6",
+      "source": {
+        "set": "set-02",
+        "namespace": "StackFunctionInputBinder",
+        "key": "MiddingDefaultError",
+        "jp_record_id": "switch:locres:set-01:StackFunctionInputBinder:MiddingDefaultError:2e28dcc6",
+        "official_en_record_id": "switch:locres:set-01:StackFunctionInputBinder:MiddingDefaultError:2e28dcc6",
+        "jp_sha256": "86e69d93d6ae55b892283e2f78f68114ae7ee6ce693235ba52bc778d652cb8a8",
+        "official_en_sha256": "7dfbe56955d045274a55d4709d991bb9d8089fbb632a00d65dbd74049cc82f2d"
+      },
+      "text": {
+        "jp": "ソース グラフのこのインプットのデフォルトのピンが見つかりませんでした。スタティック スイッチによって非表示になっている可能性があります。",
+        "official_en": "Could not find the default pin for this input in the source graph, it may be hidden by a static switch.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StackFunctionInputBinder:InputOverriddenError:00cfafde",
+      "source": {
+        "set": "set-02",
+        "namespace": "StackFunctionInputBinder",
+        "key": "InputOverriddenError",
+        "jp_record_id": "switch:locres:set-01:StackFunctionInputBinder:InputOverriddenError:00cfafde",
+        "official_en_record_id": "switch:locres:set-01:StackFunctionInputBinder:InputOverriddenError:00cfafde",
+        "jp_sha256": "129e85c1d600358571bf66dd1933de6264fd05b38071bcbf9670de84c48c5fcf",
+        "official_en_sha256": "0ac2c84be44723199c22ddd019305a17f43ae578f991d6fd9f28aba5811ca59e"
+      },
+      "text": {
+        "jp": "入力はスタックでオーバーライドされます。ローカル値の設定はサポートしていません。",
+        "official_en": "Input is overridden in the stack and doesn't support setting a local value.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StackFunctionInputBinder:TypeErrorFormat:d4b404b7",
+      "source": {
+        "set": "set-02",
+        "namespace": "StackFunctionInputBinder",
+        "key": "TypeErrorFormat",
+        "jp_record_id": "switch:locres:set-01:StackFunctionInputBinder:TypeErrorFormat:d4b404b7",
+        "official_en_record_id": "switch:locres:set-01:StackFunctionInputBinder:TypeErrorFormat:d4b404b7",
+        "jp_sha256": "24f37089bd3c33b4ebbfc4cc6bc86f453c5cb2ac01fde636351078bb62049929",
+        "official_en_sha256": "99cd2c72d21088b53ecfa452ebe1b8704a3704c2c6d0c75e7c20956efe8aa0c7"
+      },
+      "text": {
+        "jp": "入力のタイプ {0} が必要なタイプ {1} に一致しませんでした。",
+        "official_en": "Input type {0} didn't match the required type {1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StackFunctionInputBinder:RequiredButNotFoundErrorFormat:b5170bac",
+      "source": {
+        "set": "set-02",
+        "namespace": "StackFunctionInputBinder",
+        "key": "RequiredButNotFoundErrorFormat",
+        "jp_record_id": "switch:locres:set-01:StackFunctionInputBinder:RequiredButNotFoundErrorFormat:b5170bac",
+        "official_en_record_id": "switch:locres:set-01:StackFunctionInputBinder:RequiredButNotFoundErrorFormat:b5170bac",
+        "jp_sha256": "7e8ce07d18946f8ba4eb8deaf86463778d7390f4719bd601c3b42a2e487ddad7",
+        "official_en_sha256": "f6cf14a811dc8e2a6aa649ffa755a1b18ffb380d812d96785f406c5ad7b9b7ba"
+      },
+      "text": {
+        "jp": "{0} に入力が見つかりません",
+        "official_en": "No input found with {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StackFunctionInputBinder:MetadataMatchDescriptionFormat:89f2a0da",
+      "source": {
+        "set": "set-02",
+        "namespace": "StackFunctionInputBinder",
+        "key": "MetadataMatchDescriptionFormat",
+        "jp_record_id": "switch:locres:set-01:StackFunctionInputBinder:MetadataMatchDescriptionFormat:89f2a0da",
+        "official_en_record_id": "switch:locres:set-01:StackFunctionInputBinder:MetadataMatchDescriptionFormat:89f2a0da",
+        "jp_sha256": "d98213dd4227e4db481f83030c014eebb5c3c0037c5673e85d466458f96eb3b1",
+        "official_en_sha256": "80cd3e3f7a77bf517f3d6d82572c82b07df807cabb88f5c6a0659edf14aada94"
+      },
+      "text": {
+        "jp": "メタデータキー= 「{0}」と値=「{1}」",
+        "official_en": "metadata key = '{0}' and value = '{1}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StackFunctionInputBinder:NameMatchDescriptionFormat:28142cab",
+      "source": {
+        "set": "set-02",
+        "namespace": "StackFunctionInputBinder",
+        "key": "NameMatchDescriptionFormat",
+        "jp_record_id": "switch:locres:set-01:StackFunctionInputBinder:NameMatchDescriptionFormat:28142cab",
+        "official_en_record_id": "switch:locres:set-01:StackFunctionInputBinder:NameMatchDescriptionFormat:28142cab",
+        "jp_sha256": "8a6baf55d6c535c89adb5474ec7ca1c4a76cccabf7064945d27fc3b84bbe572e",
+        "official_en_sha256": "489f95d418b48d50a9f69fe49b8f35c8d244193f17b33fa94c83bc5f9a703a92"
+      },
+      "text": {
+        "jp": "名前= 「{0}」",
+        "official_en": "name = '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

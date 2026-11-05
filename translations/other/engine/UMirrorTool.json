@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UMirrorTool",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UMirrorTool:MirrorDestroyTitle:492bff8d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UMirrorTool",
+        "key": "MirrorDestroyTitle",
+        "jp_record_id": "switch:locres:set-01:UMirrorTool:MirrorDestroyTitle:492bff8d",
+        "official_en_record_id": "switch:locres:set-01:UMirrorTool:MirrorDestroyTitle:492bff8d",
+        "jp_sha256": "e6dfc1260abe166d64f450c5f9b11af320d7cab853b512a34a05b3942285c6cc",
+        "official_en_sha256": "b93112bdbc84ee90ed768d914f42500492482c6fbb3cee4d948fb783ce0c7bac"
+      },
+      "text": {
+        "jp": "メッシュ コンポーネントを削除しますか？",
+        "official_en": "Delete mesh components?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UMirrorTool:ToolName:cdd87859",
+      "source": {
+        "set": "set-02",
+        "namespace": "UMirrorTool",
+        "key": "ToolName",
+        "jp_record_id": "switch:locres:set-01:UMirrorTool:ToolName:cdd87859",
+        "official_en_record_id": "switch:locres:set-01:UMirrorTool:ToolName:cdd87859",
+        "jp_sha256": "332040fb1fed07e9f78c9856cc09acb99e1d3d243acdb37c76af7fb84d2f7166",
+        "official_en_sha256": "90fade6fb78eaa0e6a7ca3cbe357fc645498c39e1207dbb915bd6aeddcdb4e15"
+      },
+      "text": {
+        "jp": "ミラー",
+        "official_en": "Mirror",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UMirrorTool:MirrorToolTransactionName:cf4cf71f",
+      "source": {
+        "set": "set-02",
+        "namespace": "UMirrorTool",
+        "key": "MirrorToolTransactionName",
+        "jp_record_id": "switch:locres:set-01:UMirrorTool:MirrorToolTransactionName:cf4cf71f",
+        "official_en_record_id": "switch:locres:set-01:UMirrorTool:MirrorToolTransactionName:cf4cf71f",
+        "jp_sha256": "4bc9145e0a7a8ac31e7cb9b7f7a8ec9ddf6184864c1ae6039c307e9b1561d23b",
+        "official_en_sha256": "395599371b70b0e01197d141a543762fb2708e6229583cbb03bbfd75abf91a10"
+      },
+      "text": {
+        "jp": "ミラー ツール",
+        "official_en": "Mirror Tool",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UMirrorTool:OnStartMirrorTool:e7aa0ece",
+      "source": {
+        "set": "set-02",
+        "namespace": "UMirrorTool",
+        "key": "OnStartMirrorTool",
+        "jp_record_id": "switch:locres:set-01:UMirrorTool:OnStartMirrorTool:e7aa0ece",
+        "official_en_record_id": "switch:locres:set-01:UMirrorTool:OnStartMirrorTool:e7aa0ece",
+        "jp_sha256": "b7beab272896310768de5fb896dc2530f7b4686a4a8a43415ba36921aa8b8d1e",
+        "official_en_sha256": "e5d564d2ebd9c2c98eadd09c014ced4279397c2c7651b86b74fd2c6b27730b80"
+      },
+      "text": {
+        "jp": "1 つまたは複数のメッシュを平面間でミラーリングします。オリジナル メッシュのスポットで Ctrl [shift] を押しながらクリックすると、そこに平面が配置されます。ボタンでそれをリセットします",
+        "official_en": "Mirror one or more meshes across a plane. Ctrl+[shift+]clicking on a spot on the original mesh will place the plane there. Buttons will reset it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UMirrorTool:MirrorDestroyQuestion:b4678ece",
+      "source": {
+        "set": "set-02",
+        "namespace": "UMirrorTool",
+        "key": "MirrorDestroyQuestion",
+        "jp_record_id": "switch:locres:set-01:UMirrorTool:MirrorDestroyQuestion:b4678ece",
+        "official_en_record_id": "switch:locres:set-01:UMirrorTool:MirrorDestroyQuestion:b4678ece",
+        "jp_sha256": "838d7611c34b8c6131ad7de9dd6c03c95c1a4a34e703c18f76bb873d4c53f1e9",
+        "official_en_sha256": "bd46b4c231199a1a08560535619db4c01fb446b117d2999a3c0ac3d8c4eecc38"
+      },
+      "text": {
+        "jp": "ミラー平面のトリミングでは、1 つ以上のメッシュが完全に切り取られます。これらのメッシュ コンポーネントを削除してよろしいですか?いずれにしろすべてのアクタはそのままで、完全に切り取られていないメッシュは通常どおりミラー化されることに注意してください。",
+        "official_en": "The mirror plane cropping has entirely cut away at least one mesh. Do you actually want to delete these mesh components? Note that either way all actors will remain, and meshes that are not fully cut away will still be mirrored as normal.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UMirrorTool:MirrorMultipleAssetsWithSameSource:70cd8907",
+      "source": {
+        "set": "set-02",
+        "namespace": "UMirrorTool",
+        "key": "MirrorMultipleAssetsWithSameSource",
+        "jp_record_id": "switch:locres:set-01:UMirrorTool:MirrorMultipleAssetsWithSameSource:70cd8907",
+        "official_en_record_id": "switch:locres:set-01:UMirrorTool:MirrorMultipleAssetsWithSameSource:70cd8907",
+        "jp_sha256": "f6b98bfbafa238c9ab7be9c8f7fb46b0c46cef82f2f897747c39ff5cc506754f",
+        "official_en_sha256": "581fb78c007cf45e7e08198a358c9b3071a62d43bbf9d190faa16c512db9dab2"
+      },
+      "text": {
+        "jp": "注意：選択項目の中の複数のメッシュで同一のソース アセットが使用されています。サポートされているのは [新規アセットを作成] の保存モードのみです。",
+        "official_en": "WARNING: Multiple meshes in your selection use the same source asset! Only the \"Create New Assets\" save mode is supported.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UMirrorTool:MirrorNonUniformScaledAsset:dd76787e",
+      "source": {
+        "set": "set-02",
+        "namespace": "UMirrorTool",
+        "key": "MirrorNonUniformScaledAsset",
+        "jp_record_id": "switch:locres:set-01:UMirrorTool:MirrorNonUniformScaledAsset:dd76787e",
+        "official_en_record_id": "switch:locres:set-01:UMirrorTool:MirrorNonUniformScaledAsset:dd76787e",
+        "jp_sha256": "f9cfcedad0e9a2f7b293464a77399ed661c81f8053c635210e823db5855e2a45",
+        "official_en_sha256": "5552e46f5682a9d237c98d72dbb84de566ef2fe214f50bcfef650855fa752b6e"
+      },
+      "text": {
+        "jp": "警告：アイテム「{0}」に、スケーリングが均一ではないトランスフォームがあります。ミラーがワールド空間に適用されます。したがってベースのアセットにミラーの対称性がありません。ミラーリングの前にスケールをベイクすることを検討してください",
+        "official_en": "WARNING: The item \"{0}\" has a non-uniform scaling transform. The mirror will be applied in world-space, so the underlying asset will not have mirror symmetry. Consider instead baking the scale before mirroring.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UMirrorTool:MirrorZeroScaledAsset:2df1bf64",
+      "source": {
+        "set": "set-02",
+        "namespace": "UMirrorTool",
+        "key": "MirrorZeroScaledAsset",
+        "jp_record_id": "switch:locres:set-01:UMirrorTool:MirrorZeroScaledAsset:2df1bf64",
+        "official_en_record_id": "switch:locres:set-01:UMirrorTool:MirrorZeroScaledAsset:2df1bf64",
+        "jp_sha256": "31ad5917c641ea91f6be2e4bef036396cec54e57c691b993011f112e3414ac8c",
+        "official_en_sha256": "8498b548df53f7bcc3dce3b17ed8fd0017d839007f9c522371d2cf4f1a7e940c"
+      },
+      "text": {
+        "jp": "警告：アイテム「{0}」は少なくとも 1 つの軸でスケールがゼロです。この場合、ミラーリングが正しく適用されません。ミラーリングの前にスケールをベイクすることを検討してください",
+        "official_en": "WARNING: The item \"{0}\" has a zero-scale on at least one axis. Mirroring cannot be correctly applied in this case. Consider instead baking the scale before mirroring.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UMirrorTool:CombinedWarnings:24e41f18",
+      "source": {
+        "set": "set-02",
+        "namespace": "UMirrorTool",
+        "key": "CombinedWarnings",
+        "jp_record_id": "switch:locres:set-01:UMirrorTool:CombinedWarnings:24e41f18",
+        "official_en_record_id": "switch:locres:set-01:UMirrorTool:CombinedWarnings:24e41f18",
+        "jp_sha256": "7fc9c5a1ce0a4aa492556c80cdf6e16469e656e5f228a93aee09e94be62a475d",
+        "official_en_sha256": "7fc9c5a1ce0a4aa492556c80cdf6e16469e656e5f228a93aee09e94be62a475d"
+      },
+      "text": {
+        "jp": "{0}\n\n{1}",
+        "official_en": "{0}\n\n{1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NiagaraScriptVersionWidget",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NiagaraScriptVersionWidget:SaveVersionAsAssetTitle:b0573347",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraScriptVersionWidget",
+        "key": "SaveVersionAsAssetTitle",
+        "jp_record_id": "switch:locres:set-01:NiagaraScriptVersionWidget:SaveVersionAsAssetTitle:b0573347",
+        "official_en_record_id": "switch:locres:set-01:NiagaraScriptVersionWidget:SaveVersionAsAssetTitle:b0573347",
+        "jp_sha256": "375ed7dad9c9d6287af6b0cdcdef5a836a0874a4c100ea889f61ae290a075693",
+        "official_en_sha256": "14d4696c176be609c7f28c8d80cd02782c042dad7d3e323571ac9b6545de07cd"
+      },
+      "text": {
+        "jp": "種類を選択してスクリプトを作成",
+        "official_en": "Create Script As",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraScriptVersionWidget:NiagaraManageVersionInfoHeader:48ccd0e1",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraScriptVersionWidget",
+        "key": "NiagaraManageVersionInfoHeader",
+        "jp_record_id": "switch:locres:set-01:NiagaraScriptVersionWidget:NiagaraManageVersionInfoHeader:48ccd0e1",
+        "official_en_record_id": "switch:locres:set-01:NiagaraScriptVersionWidget:NiagaraManageVersionInfoHeader:48ccd0e1",
+        "jp_sha256": "a737503d28a467ff51b4276a560ac84747092b0eda91d64cd77a3db8aae40a0b",
+        "official_en_sha256": "fb147baf9a44e9fba29855070284255884fe2f5fe935ca6eee7e1e24c78dd228"
+      },
+      "text": {
+        "jp": "ここでは、利用可能なスクリプト バージョンを確認し管理できます。バージョンを追加することによって、既存のアセットを壊すことなく変更することができます。\nモジュール、関数、動的入力をスタックに追加する時にユーザーに表示されるのは、公開済みバージョンです。公開済みバージョンにアセットで使われているものよりも新しいメジャー バージョンがある場合、ユーザーには新しいバージョンへのアップグレードを促すメッセージが表示されます。",
+        "official_en": "Here you can see and manage available script versions. Adding versions allows you to make changes without breaking existing assets.\nThe exposed version is the one that users will see when adding the module, function or dynamic input to the stack. If the exposed version has a higher major version than the one used in an asset, the user will see a prompt to upgrade to the new version.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraScriptVersionWidget:NiagaraManageVersionInfoHeaderDisabled:5145ce88",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraScriptVersionWidget",
+        "key": "NiagaraManageVersionInfoHeaderDisabled",
+        "jp_record_id": "switch:locres:set-01:NiagaraScriptVersionWidget:NiagaraManageVersionInfoHeaderDisabled:5145ce88",
+        "official_en_record_id": "switch:locres:set-01:NiagaraScriptVersionWidget:NiagaraManageVersionInfoHeaderDisabled:5145ce88",
+        "jp_sha256": "f6a4286fef19e7c824611e4ee9c9ea6062883c38aca1c231712ceba46c58b4c6",
+        "official_en_sha256": "203a3b9122245bcb5e06f52f2b8b6616a283b0b0dc1ba4cbede109d4bd62107f"
+      },
+      "text": {
+        "jp": "このスクリプトではバージョン管理はまだ有効になっていません。バージョン管理を有効にすると、既存の使用状態を壊すことなくモジュールに変更を加えることができるようになります。ただし、変更内容が自動的にはプッシュされなくなるため、ユーザーが手動で新しいバージョンにアップグレードする必要があります\n\nこのスクリプトでバージョン管理を有効にしますか？有効にすると、現在のスクリプトがバージョン 1.0 に変換され、自動的に公開されます",
+        "official_en": "Versioning is not yet enabled for this script. Enabling versioning allows you to make changes to the module without breaking exising usages. But it also forces users to manually upgrade to new versions, as changes are no longer pushed out automatically.\n\nDo you want to enable versioning for this script? This will convert the current script to version 1.0 and automatically exposes it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

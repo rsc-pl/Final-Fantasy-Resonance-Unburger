@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MLDeformerMorphModelDetails",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:MorphCompressionGroupLabel:0e0f8426",
+      "source": {
+        "set": "set-02",
+        "namespace": "MLDeformerMorphModelDetails",
+        "key": "MorphCompressionGroupLabel",
+        "jp_record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:MorphCompressionGroupLabel:0e0f8426",
+        "official_en_record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:MorphCompressionGroupLabel:0e0f8426",
+        "jp_sha256": "91b7b6dd76ba56c3c44d33a7ff1badef6f42d78c71f60084ef424e6fd2c8068c",
+        "official_en_sha256": "278b1b2a9c84730f37f6d36630281494544a27e37168b4c6e45859667777f609"
+      },
+      "text": {
+        "jp": "圧縮",
+        "official_en": "Compression",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:FinalizeMorphTargetsButtonTooltip:a2bab117",
+      "source": {
+        "set": "set-02",
+        "namespace": "MLDeformerMorphModelDetails",
+        "key": "FinalizeMorphTargetsButtonTooltip",
+        "jp_record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:FinalizeMorphTargetsButtonTooltip:a2bab117",
+        "official_en_record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:FinalizeMorphTargetsButtonTooltip:a2bab117",
+        "jp_sha256": "7aa4c633b4d96c8cf634a106617eb55f7a1b135fc400f277b303b3e16c4cf951",
+        "official_en_sha256": "e93a56986e7af7668e12563d97c056834b863d8e90ac5681350ba4663cd892f1"
+      },
+      "text": {
+        "jp": "主にエディタ アセットをクック済みアセットに変換することで、未加工の頂点デルタを削除します。\nこれによって、クック済みでないアセットのディスク サイズが減少しますが、モデルの再トレーニングが完了するまでモーフィング ターゲットのマスクと圧縮設定が編集できなくなります。\nファイナライズは必須ではありませんが、ソース コントロールに送信するファイルのサイズを削減するために利用できます",
+        "official_en": "Delete the raw vertex deltas, basically turning the editor asset into a cooked asset.\nThis will reduce the disk size of the uncooked asset, but will make morph target mask and compression settings uneditable until the model is retrained again.\nFinalizing isn't required, but can be used to reduce the size of the files you submit to source control.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:MorphDeltaCountMismatch:110903d8",
+      "source": {
+        "set": "set-02",
+        "namespace": "MLDeformerMorphModelDetails",
+        "key": "MorphDeltaCountMismatch",
+        "jp_record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:MorphDeltaCountMismatch:110903d8",
+        "official_en_record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:MorphDeltaCountMismatch:110903d8",
+        "jp_sha256": "929561a081edfafebee4d852bef1cd67a2f30fddeb79d3615f5d4f16d217a3df",
+        "official_en_sha256": "b652c136cef5c1ec03bc36997c215ebc706944a8de9729a22401eb1a81404f66"
+      },
+      "text": {
+        "jp": "動的モーフィング ターゲットの更新は、再トレーニングされるまで無効になります。これは、モデルのトレーニング後に頂点数が変更されたためです",
+        "official_en": "Dynamic morph target updates disabled until retrained. This is because the vertex count changed after the model was trained.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:FinalizeMorphTargetsButton:86cdaa6e",
+      "source": {
+        "set": "set-02",
+        "namespace": "MLDeformerMorphModelDetails",
+        "key": "FinalizeMorphTargetsButton",
+        "jp_record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:FinalizeMorphTargetsButton:86cdaa6e",
+        "official_en_record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:FinalizeMorphTargetsButton:86cdaa6e",
+        "jp_sha256": "89cf5652807d4529e25691d056914f3e5f88b83276e609b695a20449d4e1803c",
+        "official_en_sha256": "d251b6badf66300b80f37805be3d3848ce6c7ba6402cb98addb1c4cc7b26aace"
+      },
+      "text": {
+        "jp": "モーフターゲットを確定",
+        "official_en": "Finalize Morph Targets",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:FinalizeMorphTargetsButtonText:254e2a3d",
+      "source": {
+        "set": "set-02",
+        "namespace": "MLDeformerMorphModelDetails",
+        "key": "FinalizeMorphTargetsButtonText",
+        "jp_record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:FinalizeMorphTargetsButtonText:254e2a3d",
+        "official_en_record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:FinalizeMorphTargetsButtonText:254e2a3d",
+        "jp_sha256": "89cf5652807d4529e25691d056914f3e5f88b83276e609b695a20449d4e1803c",
+        "official_en_sha256": "d251b6badf66300b80f37805be3d3848ce6c7ba6402cb98addb1c4cc7b26aace"
+      },
+      "text": {
+        "jp": "モーフターゲットを確定",
+        "official_en": "Finalize Morph Targets",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:FinalizeMorphsWarningDialogTitle:e2d8c50b",
+      "source": {
+        "set": "set-02",
+        "namespace": "MLDeformerMorphModelDetails",
+        "key": "FinalizeMorphsWarningDialogTitle",
+        "jp_record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:FinalizeMorphsWarningDialogTitle:e2d8c50b",
+        "official_en_record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:FinalizeMorphsWarningDialogTitle:e2d8c50b",
+        "jp_sha256": "c5f1514e1d63a4136e1ee72957e7b1f265e8f000cd9e9cff9927423cb3f40326",
+        "official_en_sha256": "709c97ee8b6e0af0c4d0d7e3ef2e95b9d790c04be2bba6746825d88776c36dc2"
+      },
+      "text": {
+        "jp": "モーフ ターゲットを確定しますか？",
+        "official_en": "Finalize morph targets?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:MorphMaskGroupLabel:36bbccbd",
+      "source": {
+        "set": "set-02",
+        "namespace": "MLDeformerMorphModelDetails",
+        "key": "MorphMaskGroupLabel",
+        "jp_record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:MorphMaskGroupLabel:36bbccbd",
+        "official_en_record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:MorphMaskGroupLabel:36bbccbd",
+        "jp_sha256": "edfcab597a3fcd5235fc08caa93509687fd6215c75aa62f1609ed16131a85dcb",
+        "official_en_sha256": "479568ed294d1da49398ccaa0f7e8283926770594c858de8c64f86661f72fa9e"
+      },
+      "text": {
+        "jp": "マスキング",
+        "official_en": "Masking",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:MorphGlobalMaskWeightMapError:4fa5104f",
+      "source": {
+        "set": "set-02",
+        "namespace": "MLDeformerMorphModelDetails",
+        "key": "MorphGlobalMaskWeightMapError",
+        "jp_record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:MorphGlobalMaskWeightMapError:4fa5104f",
+        "official_en_record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:MorphGlobalMaskWeightMapError:4fa5104f",
+        "jp_sha256": "0c2dded0cec8cfd2ff1ae9eb861ec1175e864504301a302d322e63a5efb84ceb",
+        "official_en_sha256": "179a372eca634397208885c2d74e823129ea58c611f6c7743886ad94eb89952d"
+      },
+      "text": {
+        "jp": "指定されたウェイト マップ属性はスケルタルメッシュ上に存在しません",
+        "official_en": "The weight map attribute you specified does not exist on the skeletal mesh.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:CannotRunMLDeformerErrorMessage:62c107f3",
+      "source": {
+        "set": "set-02",
+        "namespace": "MLDeformerMorphModelDetails",
+        "key": "CannotRunMLDeformerErrorMessage",
+        "jp_record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:CannotRunMLDeformerErrorMessage:62c107f3",
+        "official_en_record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:CannotRunMLDeformerErrorMessage:62c107f3",
+        "jp_sha256": "c36b8d5f242d4eb459a90b9c21efeff43dda385a9e0664a8e33df695a0e04291",
+        "official_en_sha256": "79a1d6d5552371ce917b9f8e878c6110942214ec7948247174c6861d95c9e747"
+      },
+      "text": {
+        "jp": "この ML デフォーマーは、以下の理由により適切に動作しません。\n\n- デフォーマー グラフが使用されていません。\n- プロジェクト設定またはスケルタルメッシュでスキン キャッシュが無効になっています。\n- 「モーフ ターゲットで使用」プロパティが無効になっているマテリアルがあります。\n\nこれは、視覚的なシェーディング アーティファクトやまったく機能しないデフォーマーの原因となる可能性があります。\n詳細については、ログを確認してください。\n\nこれを修正するには、デフォーマー グラフを使用するか、スキン キャッシュを有効にするか、または上記のマテリアル プロパティを有効にしてください",
+        "official_en": "This ML Deformer cannot work properly because:\n\n- No deformer graph is used.\n- Skin cache is disabled in the project settings or the Skeletal Mesh.\n- There are materials that have the 'Used with morph targets' property disabled.\n\nThis can lead to visual shading artifacts or the deformer not working at all.\nSee the log for more details.\n\nTo fix this, either use a deformer graph, enable skin cache, or enable the mentioned material property.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:FinalizeMorphsWarningMessage:89941484",
+      "source": {
+        "set": "set-02",
+        "namespace": "MLDeformerMorphModelDetails",
+        "key": "FinalizeMorphsWarningMessage",
+        "jp_record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:FinalizeMorphsWarningMessage:89941484",
+        "official_en_record_id": "switch:locres:set-01:MLDeformerMorphModelDetails:FinalizeMorphsWarningMessage:89941484",
+        "jp_sha256": "e0357736850d73b750fb98babce1ba7bafe40ac159b844dce9900162cd78fa96",
+        "official_en_sha256": "5768b482645b6335b576775d7c6d13ce951187a9aca3f6b670cadc8bebe2348d"
+      },
+      "text": {
+        "jp": "これにより、アセットのクック時と同様に、未加工の未圧縮のトレーニング済みモーフ ターゲットのデルタが削除されます。これを実行すると、ソース コントロールに送信する未クックのアセットがはるかに小さくなります。\n\nただし、その実行後は、モーフ ターゲット カテゴリで設定を変更しても、モデルを再度トレーニングするまで効果がありません。これは、ランタイム時の変形に影響を及ぼしません。\n\n続行すると、この操作を元に戻すことはできません。未圧縮のデルタを元に戻すには、モデルを再トレーニングする必要があります。\n\nこのまま続けますか？",
+        "official_en": "This will remove the raw uncompressed trained morph target deltas, just like when cooking the asset. Doing this will make the uncooked asset that you submit to source control a lot smaller.\n\nHowever, after doing this, changing settings in the morph target category will not have an effect until you retrain the model again. It does not impact how the deformation performs at runtime.\n\nIf you proceed, you cannot undo this operation. To get the uncompressed deltas back you have to train the model again.\n\nWould you like to continue?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

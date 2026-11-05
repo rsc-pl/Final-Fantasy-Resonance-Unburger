@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "DaySequenceEditorActorSpawner",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:DaySequenceEditorActorSpawner:ClassWithin:0becc721",
+      "source": {
+        "set": "set-02",
+        "namespace": "DaySequenceEditorActorSpawner",
+        "key": "ClassWithin",
+        "jp_record_id": "switch:locres:set-01:DaySequenceEditorActorSpawner:ClassWithin:0becc721",
+        "official_en_record_id": "switch:locres:set-01:DaySequenceEditorActorSpawner:ClassWithin:0becc721",
+        "jp_sha256": "1b6c102fe33720e3522f58eb1b7f67a3f2a2e789ee8258f42c239198d4900c9f",
+        "official_en_sha256": "ab6a8ae962159fa81ddb541bd677a7934110708e356b8c1422bd3663a1323763"
+      },
+      "text": {
+        "jp": "外部クラス「{0}」が必須のため、タイプ「{1}」のクラスのスポーン可能なものを追加できません",
+        "official_en": "Unable to add spawnable for class of type '{0}' since it has a required outer class '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DaySequenceEditorActorSpawner:NotAnActorClass:0b4ae693",
+      "source": {
+        "set": "set-02",
+        "namespace": "DaySequenceEditorActorSpawner",
+        "key": "NotAnActorClass",
+        "jp_record_id": "switch:locres:set-01:DaySequenceEditorActorSpawner:NotAnActorClass:0b4ae693",
+        "official_en_record_id": "switch:locres:set-01:DaySequenceEditorActorSpawner:NotAnActorClass:0b4ae693",
+        "jp_sha256": "eda690a4dafea39e0b27fe434ce45d3e0ea88f416af3b5d7bed0b6283b4e1cbf",
+        "official_en_sha256": "3983dbccf586072b00d28ebc03bb8076c430429803785bc3d61d5e8bf4bb1ac8"
+      },
+      "text": {
+        "jp": "無効なアクタ クラスのため、タイプ「{0}」のクラスのスポーン可能なものを追加できません",
+        "official_en": "Unable to add spawnable for class of type '{0}' since it is not a valid actor class.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DaySequenceEditorActorSpawner:UnknownClassError:c7f6e28b",
+      "source": {
+        "set": "set-02",
+        "namespace": "DaySequenceEditorActorSpawner",
+        "key": "UnknownClassError",
+        "jp_record_id": "switch:locres:set-01:DaySequenceEditorActorSpawner:UnknownClassError:c7f6e28b",
+        "official_en_record_id": "switch:locres:set-01:DaySequenceEditorActorSpawner:UnknownClassError:c7f6e28b",
+        "jp_sha256": "a758afc62b7f5e833ff316c0028dd5501f2ffe137aac2c43dc458cbaa7fbb175",
+        "official_en_sha256": "d98f4e499281b741382f17047c4d036698a8c80c9773eda924af28fb3ceefdb8"
+      },
+      "text": {
+        "jp": "{0} から新規にスポーン可能なオブジェクトを作成できません",
+        "official_en": "Unable to create a new spawnable object from {0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DaySequenceEditorActorSpawner:CannotCreateActorFromAsset:bc48c95a",
+      "source": {
+        "set": "set-02",
+        "namespace": "DaySequenceEditorActorSpawner",
+        "key": "CannotCreateActorFromAsset",
+        "jp_record_id": "switch:locres:set-01:DaySequenceEditorActorSpawner:CannotCreateActorFromAsset:bc48c95a",
+        "official_en_record_id": "switch:locres:set-01:DaySequenceEditorActorSpawner:CannotCreateActorFromAsset:bc48c95a",
+        "jp_sha256": "4766a4d4c45b489c022e9b74698da1d95cb3adce8e75d7e5af206bf155b730ca",
+        "official_en_sha256": "9c330f8b428cb407415b54edeef791f55fe2e90b4253b213ff72bc30064df66f"
+      },
+      "text": {
+        "jp": "アセット「{0}」からスポーン可能なものを作成できません",
+        "official_en": "Unable to create spawnable from  asset '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DaySequenceEditorActorSpawner:CannotCreateActorFromAsset_Ex:f6fd0653",
+      "source": {
+        "set": "set-02",
+        "namespace": "DaySequenceEditorActorSpawner",
+        "key": "CannotCreateActorFromAsset_Ex",
+        "jp_record_id": "switch:locres:set-01:DaySequenceEditorActorSpawner:CannotCreateActorFromAsset_Ex:f6fd0653",
+        "official_en_record_id": "switch:locres:set-01:DaySequenceEditorActorSpawner:CannotCreateActorFromAsset_Ex:f6fd0653",
+        "jp_sha256": "6127a797f3f96546f5034972fda305222cfb6ee7fa5a3a9691362606570b3e25",
+        "official_en_sha256": "f523a58ff179ee45a32f0d89d700b35f5a106bc827004bb3d207639a2033e615"
+      },
+      "text": {
+        "jp": "アセット「{0}」からスポーン可能なものを作成できません{1}.",
+        "official_en": "Unable to create spawnable from  asset '{0}'. {1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DaySequenceEditorActorSpawner:CouldNotFindFactory:a52baecc",
+      "source": {
+        "set": "set-02",
+        "namespace": "DaySequenceEditorActorSpawner",
+        "key": "CouldNotFindFactory",
+        "jp_record_id": "switch:locres:set-01:DaySequenceEditorActorSpawner:CouldNotFindFactory:a52baecc",
+        "official_en_record_id": "switch:locres:set-01:DaySequenceEditorActorSpawner:CouldNotFindFactory:a52baecc",
+        "jp_sha256": "0ac9b311a4c727fa0dd4d2ce1eedefa11533a6a35bae5cc9e1921b6e376ca9fb",
+        "official_en_sha256": "c22f9f7a0ee11032219a913b5e534e722af70e2b819b592c59c045bf2f782df6"
+      },
+      "text": {
+        "jp": "アセット「{0}」からスポーン可能なものを作成できません。有効なファクトリが見つかりませんでした",
+        "official_en": "Unable to create spawnable from asset '{0}' - no valid factory could be found.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

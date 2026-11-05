@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_SubEv_C08_NoEntry",
+    "scene_id": "ST_SubEv_C08_NoEntry",
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C08_NoEntry:SubEv_C08_NoEntry_001:ea1f4b74",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C08_NoEntry",
+        "key": "SubEv_C08_NoEntry_001",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C08_NoEntry:SubEv_C08_NoEntry_001:ea1f4b74",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C08_NoEntry:SubEv_C08_NoEntry_001:ea1f4b74",
+        "jp_sha256": "8487242182dd5747d3e713a59dff38e038e7524edba0bddb42f69a06d846e081",
+        "official_en_sha256": "3c52c47d9d437d66fea4a3a79b68e7450fa5452edb16248692a8ecd689506e4f"
+      },
+      "text": {
+        "jp": "このままでは混沌の闇に世界が飲み込まれてしまう。",
+        "official_en": "Should we fail to act swiftly, Chaotic Darkness will consume the entire world.",
+        "real_en": "If this goes on, Chaotic Darkness will swallow the whole world."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C08_NoEntry",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "サクラ",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0085",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C08_NoEntry/SubEv_C08_NoEntry_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C08_NoEntry:SubEv_C08_NoEntry_002:ce408240",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C08_NoEntry",
+        "key": "SubEv_C08_NoEntry_002",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C08_NoEntry:SubEv_C08_NoEntry_002:ce408240",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C08_NoEntry:SubEv_C08_NoEntry_002:ce408240",
+        "jp_sha256": "369fe4fb49976a3be47d34fdb687c76ce04016c523af39ff9663b46c67565ce5",
+        "official_en_sha256": "c2ca85c8b0a32dae461f4244230b3e6dfbae23f265a8611b5f89dea145e851d1"
+      },
+      "text": {
+        "jp": "頂上へ急ごう。\r\n混沌の闇を倒すんだ。",
+        "official_en": "Let’s get to the top of the tower and strike it down!",
+        "real_en": "Let's hurry to the top and defeat Chaotic Darkness!"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C08_NoEntry",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "レイン",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0002",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C08_NoEntry/SubEv_C08_NoEntry_002"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

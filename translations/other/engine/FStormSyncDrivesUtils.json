@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "FStormSyncDrivesUtils",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_RootPath_Level:216e320e",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncDrivesUtils",
+        "key": "ValidationError_RootPath_Level",
+        "jp_record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_RootPath_Level:216e320e",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_RootPath_Level:216e320e",
+        "jp_sha256": "9d1171d6140163da8c1ad6306462b297075199053c2b1a6bf4f71c1986a4b302",
+        "official_en_sha256": "a497227900a1b397e75abce5fdc677eb4bccdc008aab30ba062cc179b0d046d0"
+      },
+      "text": {
+        "jp": "「{0}」は有効なルート パスではありません/Game 内でない場合は、1 レベルのみでなければなりません (/Example など)",
+        "official_en": "\"{0}\" is not a valid root path. It must be one level only (eg. /Example) when not within /Game.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_SingleSlash:5cdba743",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncDrivesUtils",
+        "key": "ValidationError_SingleSlash",
+        "jp_record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_SingleSlash:5cdba743",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_SingleSlash:5cdba743",
+        "jp_sha256": "8eb24aca9260275934b5e17dab56fe33ad27a59d989b6139e5b697c31458e0eb",
+        "official_en_sha256": "1e83a00e18c7b3c5a9bcdb77625812fcdb905fd296e056e9766ea6ac8ba3198f"
+      },
+      "text": {
+        "jp": "「/」ルート パスのディレクトリをマウントできません",
+        "official_en": "Cannot mount a directory on the \"/\" Root Path",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_Invalid_Directory:27471a43",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncDrivesUtils",
+        "key": "ValidationError_Invalid_Directory",
+        "jp_record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_Invalid_Directory:27471a43",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_Invalid_Directory:27471a43",
+        "jp_sha256": "4fa4e465c3dcdc29a3be7ac5248ab15d88d2140f78670c011b699ac46f210db3",
+        "official_en_sha256": "ecf60d4de7375eef437d89e79122db854c39152e27fd9a142c366753ca10208b"
+      },
+      "text": {
+        "jp": "ディレクトリ「{0}」が存在しません",
+        "official_en": "Directory '{0}' does not exist.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_Empty_Directory:eb9b4de4",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncDrivesUtils",
+        "key": "ValidationError_Empty_Directory",
+        "jp_record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_Empty_Directory:eb9b4de4",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_Empty_Directory:eb9b4de4",
+        "jp_sha256": "9e205786a88beaab7d0e4110c3ea93f25d34175594a266846e5501f36cb3cd34",
+        "official_en_sha256": "838ea4b8fc8ced87ca62a1ddda74e926a6874b7fb24a055f7beffbc7498a3643"
+      },
+      "text": {
+        "jp": "ディレクトリのパスは空です",
+        "official_en": "Directory Path is empty",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_Directory_Duplicate:591991c9",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncDrivesUtils",
+        "key": "ValidationError_Directory_Duplicate",
+        "jp_record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_Directory_Duplicate:591991c9",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_Directory_Duplicate:591991c9",
+        "jp_sha256": "00bdc5df79e740c2494301b0410348a8438a10afef80cceb580eaeb868390cef",
+        "official_en_sha256": "00c2bcd486714c6fca4a83a047cb40d2a4250ba46306a2509e45cd0c49f79883"
+      },
+      "text": {
+        "jp": "マウント ディレクトリ値は一意である必要があります",
+        "official_en": "Mount Directory values must be unique.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_RootPaths_Duplicate:aadef552",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncDrivesUtils",
+        "key": "ValidationError_RootPaths_Duplicate",
+        "jp_record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_RootPaths_Duplicate:aadef552",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_RootPaths_Duplicate:aadef552",
+        "jp_sha256": "c56ea8b977577a174cb36b27092466b14d1c1d58ccb4cdc3dc2e30174c48842c",
+        "official_en_sha256": "cab8a995c7635a9f2a4545893b18913b613e23fc97c7fbe05a4c22e80e1c8440"
+      },
+      "text": {
+        "jp": "マウント ポイント値は一意である必要があります",
+        "official_en": "Mount Point values must be unique.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_Duplicate:dc07353a",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncDrivesUtils",
+        "key": "ValidationError_Duplicate",
+        "jp_record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_Duplicate:dc07353a",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_Duplicate:dc07353a",
+        "jp_sha256": "9179d1e3b791b427e46fc682d07163c3e6cac34dbfb01be3429412be1f702af5",
+        "official_en_sha256": "fa2ab487379f5730d9b406bc3f649ab6cc03df8dffaa81189e8d1cdc1c7be3c4"
+      },
+      "text": {
+        "jp": "インデックス {0} のマウントポイントには重複するエントリ (マウントポイント：{1}、マウントディレクトリ：{2}) - {3}が含まれています",
+        "official_en": "MountPoint at index {0} contains a duplicate entry (MountPoint: {1}, MountDirectory: {2}) - {3}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_Empty_RootPath:00898033",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncDrivesUtils",
+        "key": "ValidationError_Empty_RootPath",
+        "jp_record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_Empty_RootPath:00898033",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncDrivesUtils:ValidationError_Empty_RootPath:00898033",
+        "jp_sha256": "0e672cdc208f4d8d6d32361d5732484e11c8a4edcce36c4a226fc15ed0eb4b6d",
+        "official_en_sha256": "bae6bc96d2c5fe4c78f17539bddea11616563346f17afd866792b8a981c30314"
+      },
+      "text": {
+        "jp": "ルート パスは空です",
+        "official_en": "Root Path is empty",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

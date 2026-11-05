@@ -1,0 +1,1011 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AssetViewUtils",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:RenameFolderAlreadyExists:59666fc5",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "RenameFolderAlreadyExists",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:RenameFolderAlreadyExists:59666fc5",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:RenameFolderAlreadyExists:59666fc5",
+        "jp_sha256": "cffacf5d3389244fa9ed2bf7163a724687b45162c773bee8f193dd5855a0cf49",
+        "official_en_sha256": "d99eb38c4c147f14aa68318249abadaeaa82de49b4115294e63e08e4978b2993"
+      },
+      "text": {
+        "jp": "この場所には、同じ名前のフォルダがすでに存在します。",
+        "official_en": "A folder already exists at this location with this name.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:InvalidFolderName_InvalidCharacters:46a11e7a",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "InvalidFolderName_InvalidCharacters",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:InvalidFolderName_InvalidCharacters:46a11e7a",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:InvalidFolderName_InvalidCharacters:46a11e7a",
+        "jp_sha256": "b785a8f3c7e2382f010cbc6979759fefcf2dec75c21bf3c66211df46b4388194",
+        "official_en_sha256": "0d165e9e1eb44eb1eca8782124e1cd144f2477c19833111b22f83f4b72a08ec4"
+      },
+      "text": {
+        "jp": "フォルダ名には次の文字は使用できません。{0}",
+        "official_en": "A folder name may not contain any of the following characters: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:LoadingManyAssets:671fe9c1",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "LoadingManyAssets",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:LoadingManyAssets:671fe9c1",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:LoadingManyAssets:671fe9c1",
+        "jp_sha256": "adc98526e14339dd10e1cdf6f907df65655240c03af2d9a301d809c19c2c0324",
+        "official_en_sha256": "5efefbff00a10a240699496ff84e0ce21b8b1c0b9e254d6431ef25616dec651a"
+      },
+      "text": {
+        "jp": "{0} アセットをロードします。続行してよろしいですか?",
+        "official_en": "About to load {0} assets. Are you sure you want to continue?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:RenameAssetAlreadyExists:58b736b8",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "RenameAssetAlreadyExists",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:RenameAssetAlreadyExists:58b736b8",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:RenameAssetAlreadyExists:58b736b8",
+        "jp_sha256": "b3996ba34fabcafe03b9f92e066b1d617705cd13e598bfe048b2ac3ccaf033ff",
+        "official_en_sha256": "83eb3a4001d4fe35fd54d48573bea04bdfe2cf67cae6e3c506b3d54d839f3aa3"
+      },
+      "text": {
+        "jp": "「'{0}'」という名前のアセットがすでにこの場所に存在します。",
+        "official_en": "An asset already exists at this location with the name '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:RenameAssetOtherTypeAlreadyExists:0beaae64",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "RenameAssetOtherTypeAlreadyExists",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:RenameAssetOtherTypeAlreadyExists:0beaae64",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:RenameAssetOtherTypeAlreadyExists:0beaae64",
+        "jp_sha256": "cfd1c79b424568e9c74095d51096606790b00ab86a93c5fb83657fb8fe2dff3d",
+        "official_en_sha256": "bb9bbb008e6dd2de4300c8ba98b9306b459467da7b971b6c17f5f2b9848183c5"
+      },
+      "text": {
+        "jp": "この場所には、「{1}」という名前の {0} タイプのアセットがすでに存在します。",
+        "official_en": "An asset of type '{0}' already exists at this location with the name '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:SomeLoadsFailed:66201b28",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "SomeLoadsFailed",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:SomeLoadsFailed:66201b28",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:SomeLoadsFailed:66201b28",
+        "jp_sha256": "3dee81838a2fd747ee8fb227cf608098a067d7c16ea6ded19a6d7b3a75ad5c62",
+        "official_en_sha256": "530dfc106ee5d44d51da6b5178e2b1738d5f251d0f199e35f00f698f35b327cc"
+      },
+      "text": {
+        "jp": "一部のアセットをロードできませんでした",
+        "official_en": "Failed to load some assets",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:InvalidFolderName_TooLongForCooking:40153acd",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "InvalidFolderName_TooLongForCooking",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:InvalidFolderName_TooLongForCooking:40153acd",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:InvalidFolderName_TooLongForCooking:40153acd",
+        "jp_sha256": "78bd489d13e28562a3fdd5aad35604bfd47611de67e3627d5d07235422f704b3",
+        "official_en_sha256": "cfe43181fec5769289a8958d4af35210874471440ad4cdb0860babe749529a43"
+      },
+      "text": {
+        "jp": "ファイル名「{0}」が長すぎるため、コンソール用のクック処理が正常に行われない可能性があります。Unreal でのファイル名は {1} 文字以下である必要があります。",
+        "official_en": "Filename '{0}' is too long; this may interfere with cooking for consoles. Unreal filenames should be no longer than {1} characters.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:LoadingAssets:3a6a6d85",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "LoadingAssets",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:LoadingAssets:3a6a6d85",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:LoadingAssets:3a6a6d85",
+        "jp_sha256": "6a9d4406547ad9e1e3c4f4866c5f72deb8dd6b07e544299a185c0cad9fcf480b",
+        "official_en_sha256": "cc2ba7443f23c827261dabf8bc8bb6932e8759ca147dde9792313c95bddb195e"
+      },
+      "text": {
+        "jp": "アセットをロードしています...",
+        "official_en": "Loading Assets...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:LoadingManyAssetsTitle:3ea0b004",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "LoadingManyAssetsTitle",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:LoadingManyAssetsTitle:3ea0b004",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:LoadingManyAssetsTitle:3ea0b004",
+        "jp_sha256": "a3ac8a1c7671839ffc14ea3c54430fdb1f99f663eb311b9dd0c2a159748b4dcb",
+        "official_en_sha256": "14dab0db7cf91df2b9e207eaf95b18ec4792d532b6c0502c005e6ae50036d448"
+      },
+      "text": {
+        "jp": "多数のアセットをロード",
+        "official_en": "Loading Many Assets",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:LoadingPackages:457b27f4",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "LoadingPackages",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:LoadingPackages:457b27f4",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:LoadingPackages:457b27f4",
+        "jp_sha256": "fc0c4257d7b3165883a85b416c4ca9f9917f72002fef8e675403c211862ab0a6",
+        "official_en_sha256": "15dc699837c6e3d0bb319cb32b3a46445bda17dc3df82782a09a29fbeedbc395"
+      },
+      "text": {
+        "jp": "パッケージをロードしています...",
+        "official_en": "Loading Packages...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:FolderDragDrop_Loading:34517aac",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "FolderDragDrop_Loading",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:FolderDragDrop_Loading:34517aac",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:FolderDragDrop_Loading:34517aac",
+        "jp_sha256": "1d36be536b7ce0fb2ac7fce22fbb7f461f5e75348202839a52fc60416b7e2ce9",
+        "official_en_sha256": "1c1f1d28176d307bc7d02cceee054512749d676f7ff4777ec599f52f98a8dde9"
+      },
+      "text": {
+        "jp": "フォルダをロードしています",
+        "official_en": "Loading folders",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:LoadingAsset:6601e7b2",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "LoadingAsset",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:LoadingAsset:6601e7b2",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:LoadingAsset:6601e7b2",
+        "jp_sha256": "7e36efe8badd1568ee23785473473611eca7178c1c65678e7c629002ccfa4a99",
+        "official_en_sha256": "2bab0f6be2ecfecf53cef5b7a7b0459db8bbbd97d979f3fb9d8bfcdc172d6c8a"
+      },
+      "text": {
+        "jp": "{0} をロードしています...",
+        "official_en": "Loading {0}...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:ConvertToFilename:51f5c1ff",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "ConvertToFilename",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:ConvertToFilename:51f5c1ff",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:ConvertToFilename:51f5c1ff",
+        "jp_sha256": "23cff4b8df3372ae4102f654054e479bbf61930a860c20b581233d058b9646b0",
+        "official_en_sha256": "8fd14738498722406bc3ae4a28a99a73c5949dc508d1a606b4b7bc280b22ebd7"
+      },
+      "text": {
+        "jp": "パッケージ名をファイル名に変換できませんでした。",
+        "official_en": "Package name could not be converted to file name.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:InvalidFolderName_IsTooShort:6f8b884d",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "InvalidFolderName_IsTooShort",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:InvalidFolderName_IsTooShort:6f8b884d",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:InvalidFolderName_IsTooShort:6f8b884d",
+        "jp_sha256": "abe24cc74f7c5dfba5406419e80dc500c252b243c73badc889ec4dd77f4c6514",
+        "official_en_sha256": "730ab7cdd1156d0bfe489a0aef96b1a666e05deb00e475e5f4a34ef4da21605c"
+      },
+      "text": {
+        "jp": "このフォルダの名前を指定してください。",
+        "official_en": "Please provide a name for this folder.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:LoadObjectHyperlink:38f50d4c",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "LoadObjectHyperlink",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:LoadObjectHyperlink:38f50d4c",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:LoadObjectHyperlink:38f50d4c",
+        "jp_sha256": "87d67637931ce7b21a93a9701531bfaee06c915655e5debc0922ea39f61a1f0c",
+        "official_en_sha256": "f0da053015ee9ba4eb68bae0695c1cea7eca53efb665a60a78504fcfcb4cf252"
+      },
+      "text": {
+        "jp": "メッセージ ログを表示",
+        "official_en": "Show Message Log",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:SyncDependenciesButton:af85faa5",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "SyncDependenciesButton",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:SyncDependenciesButton:af85faa5",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:SyncDependenciesButton:af85faa5",
+        "jp_sha256": "0ba8b412c1a3a40ddee70ea9f53cdc72c4241f76c4e870ddcfead7e2b76a0734",
+        "official_en_sha256": "8d261a372fde1461cc4a5f53e938b337cfe335e2bd6d4e58d866ab97c5556052"
+      },
+      "text": {
+        "jp": "同期",
+        "official_en": "Sync",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:SyncAssetDependenciesTitle:b119e9ba",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "SyncAssetDependenciesTitle",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:SyncAssetDependenciesTitle:b119e9ba",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:SyncAssetDependenciesTitle:b119e9ba",
+        "jp_sha256": "6974d53a85f4c4d7befe05e7327e14c314eafe47ce819b4624b3e0bf08367a02",
+        "official_en_sha256": "3f11a9727365977542e0e67c8830d467b3aef37a58c462fc625d451066813784"
+      },
+      "text": {
+        "jp": "アセットの依存関係を同期",
+        "official_en": "Sync Asset Dependencies",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:SyncDependenciesButtonTip:160a41a9",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "SyncDependenciesButtonTip",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:SyncDependenciesButtonTip:160a41a9",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:SyncDependenciesButtonTip:160a41a9",
+        "jp_sha256": "cc8be93ad02a27204f8ed9482deb8e5c061d5c0e072607dc5cae9b6ecb7ec770",
+        "official_en_sha256": "41e087664a75f0e673a50e152917b836e124e255cbf6e31d707a5825fdb7b46a"
+      },
+      "text": {
+        "jp": "選択した依存関係を含んだ状態で同期します",
+        "official_en": "Sync with the selected dependencies included",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:LocalizationFolderReserved:b0174745",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "LocalizationFolderReserved",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:LocalizationFolderReserved:b0174745",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:LocalizationFolderReserved:b0174745",
+        "jp_sha256": "5ab46e6846894df875950ce4694f04cc603f755494f4b46e6681de3b572f66b0",
+        "official_en_sha256": "c072532264c4aba6a1f5b3934ba0c5c3c64432d2647bf80c6328dd2961849e70"
+      },
+      "text": {
+        "jp": "「L10N」フォルダは、ローカライズされたコンテンツ用に予約されており、現在は非表示になっています。",
+        "official_en": "The L10N folder is reserved for localized content and is currently hidden.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:AssetPathTooLong:ad7e45a8",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "AssetPathTooLong",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:AssetPathTooLong:ad7e45a8",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:AssetPathTooLong:ad7e45a8",
+        "jp_sha256": "04909f933350cf0212e00fa4b95b7f687afd3de1acbb2eef512412f38d70a06f",
+        "official_en_sha256": "14c9994ec386dff8c0f015128d1bdc1386bf0f24d433d892476f606662fe030d"
+      },
+      "text": {
+        "jp": "アセットのファイルの絶対パスが長すぎます。最大パス長は {0} 文字です。\nアセットの名前を短くするか、上位のフォルダに作成してください。",
+        "official_en": "The absolute file path for the asset is too long, the maximum is '{0}'. \nPlease choose a shorter name for the asset or create it in a shallower folder structure.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:SyncAssetDependenciesMessage:4192b757",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "SyncAssetDependenciesMessage",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:SyncAssetDependenciesMessage:4192b757",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:SyncAssetDependenciesMessage:4192b757",
+        "jp_sha256": "22d80e432174b07c680094b842fd13434670a2b64ac785040dfd535fc39e807f",
+        "official_en_sha256": "e0140c8a97ab11e13c0149a0e91e8b98f6a06dae8cfc9cde01c36925c38eb5e4"
+      },
+      "text": {
+        "jp": "以下のアセットには利用可能な新しいバージョンがありますが、同期するように選択されていません。\n更新されたパッケージがロードされる可能性があるという問題を避けるには、同期する追加の依存関係を選択します。",
+        "official_en": "The following assets have newer versions available, but aren't selected to be synced.\nSelect any additional dependencies you would like to sync in order to avoid potential issues loading the updated packages.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:RenameFolderPathTooLong:76cc6208",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "RenameFolderPathTooLong",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:RenameFolderPathTooLong:76cc6208",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:RenameFolderPathTooLong:76cc6208",
+        "jp_sha256": "1c1ba0cf5657c1de5b44ec933c2b40f7e369520b2db0ca99b842db97fe6a35e1",
+        "official_en_sha256": "0c43db9d8ee0168fc7790d010b66aaa675eee83bb36ce39cdab8d5899d2a5858"
+      },
+      "text": {
+        "jp": "フォルダのフル パスが長すぎます。最大パス長は {0} 文字です。フォルダの名前を短くするか、上位のフォルダに作成してください。",
+        "official_en": "The full path for the folder is too deep, the maximum is '{0}'. Please choose a shorter name for the folder or create it in a shallower folder structure.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:AssetCookingPathTooLongForBuildMachine:42f61a3c",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "AssetCookingPathTooLongForBuildMachine",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:AssetCookingPathTooLongForBuildMachine:42f61a3c",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:AssetCookingPathTooLongForBuildMachine:42f61a3c",
+        "jp_sha256": "4f9803b7063882dfd25b02dcb71ad3b1d459d5da3b73c2e8076c87ab51e885b9",
+        "official_en_sha256": "6a20586c6881cde7e5aa9e5546997197e652688c549d38b5d76ffb0e97767daa"
+      },
+      "text": {
+        "jp": "ビルド マシンでクック処理を行うには、アセットのパスが長すぎます ({0} 文字)。最大パス長は {1} 文字です。\nアセットの名前を短くするか、上位のフォルダに短いフォルダ名で作成してください。",
+        "official_en": "The path to the asset is too long '{0}' for cooking by the build machines, the maximum is '{1}'\nPlease choose a shorter name for the asset or create it in a shallower folder structure with shorter folder names.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:AssetCookingPathTooLong:4c0e1586",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "AssetCookingPathTooLong",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:AssetCookingPathTooLong:4c0e1586",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:AssetCookingPathTooLong:4c0e1586",
+        "jp_sha256": "bc6b44706560a04f86d43b92d66e659af7c320e32a842d602610010f6c494303",
+        "official_en_sha256": "09c4c9369fa3f063c825a567d7014df5c9f61186ba356355e84acf362fa7d6bf"
+      },
+      "text": {
+        "jp": "アセットのパスが長すぎます ({0} 文字)。クック処理の最大パス長は {1} 文字です。\nアセットの名前を短くするか、上位のフォルダに短いフォルダ名で作成してください。",
+        "official_en": "The path to the asset is too long '{0}', the maximum for cooking is '{1}'\nPlease choose a shorter name for the asset or create it in a shallower folder structure with shorter folder names.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:AssetNameTooLong:fb4c0918",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "AssetNameTooLong",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:AssetNameTooLong:fb4c0918",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:AssetNameTooLong:fb4c0918",
+        "jp_sha256": "e722f5da53a3af54777a28565d6826c25dee894c5ac21fd2f589bb251ae76778",
+        "official_en_sha256": "7a622d4c64ec531da57e8b7f7eaecf1a715bc895686c66fd6fe745009dbbd2b1"
+      },
+      "text": {
+        "jp": "このアセット名は長すぎます。短い名前を選択してください。",
+        "official_en": "This asset name is too long. Please choose a shorter name.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:ConfirmLoadAssets:308d3f66",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "ConfirmLoadAssets",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:ConfirmLoadAssets:308d3f66",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:ConfirmLoadAssets:308d3f66",
+        "jp_sha256": "c10f73fb10f0b10b86cb84f43d68d979232e62c44009f38148183e2bf38ede3e",
+        "official_en_sha256": "6c4aeb05fb56384f8d8f9edd0e7886e09c34be0b521a64ed70559e41f2799916"
+      },
+      "text": {
+        "jp": "{0} 個のアセットをロードしようとしています。続行しますか？",
+        "official_en": "You are about to load {0} assets. Would you like to proceed?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetViewUtils:AssetsDroppedCopy:8c0208ee",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetViewUtils",
+        "key": "AssetsDroppedCopy",
+        "jp_record_id": "switch:locres:set-01:AssetViewUtils:AssetsDroppedCopy:8c0208ee",
+        "official_en_record_id": "switch:locres:set-01:AssetViewUtils:AssetsDroppedCopy:8c0208ee",
+        "jp_sha256": "6c780cedd6862e8fc0bd5d7709a4a791d383c56baee7eb95c8d777aff8303c77",
+        "official_en_sha256": "2a2baf4809e1084063d52be34536c525bd40da45a844f0690cc51673cfb5fbfe"
+      },
+      "text": {
+        "jp": "{Number} 個のアセットがコピーされました。",
+        "official_en": "{Number} asset(s) copied",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

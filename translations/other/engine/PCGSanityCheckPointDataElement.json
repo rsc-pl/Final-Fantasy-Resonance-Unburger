@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGSanityCheckPointDataElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGSanityCheckPointDataElement:NotEnoughPoints:e12f5347",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGSanityCheckPointDataElement",
+        "key": "NotEnoughPoints",
+        "jp_record_id": "switch:locres:set-01:PCGSanityCheckPointDataElement:NotEnoughPoints:e12f5347",
+        "official_en_record_id": "switch:locres:set-01:PCGSanityCheckPointDataElement:NotEnoughPoints:e12f5347",
+        "jp_sha256": "53b2848ae416c2464fed351862ba8d23817ad3be7d23372f813cd65dee419287",
+        "official_en_sha256": "c39ff0ab3be939f4200ce72881d045d60cd6f4a25e955a97961f1dfe41b53fda"
+      },
+      "text": {
+        "jp": "少なくとも {0} 個のポイントが必要です ({1} 個検出)",
+        "official_en": "Expected at least {0} Points, found {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGSanityCheckPointDataElement:TooManyPoints:73336d04",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGSanityCheckPointDataElement",
+        "key": "TooManyPoints",
+        "jp_record_id": "switch:locres:set-01:PCGSanityCheckPointDataElement:TooManyPoints:73336d04",
+        "official_en_record_id": "switch:locres:set-01:PCGSanityCheckPointDataElement:TooManyPoints:73336d04",
+        "jp_sha256": "398ba7f2ae50864bb10777654f1c2973cec0f175e654cb3502c1e7a9b8bb194d",
+        "official_en_sha256": "0443190edd80d0632e5daeab67a4ed7340adc2c40db620b5a309c7cdf18a5272"
+      },
+      "text": {
+        "jp": "{0} 個未満のポイントが必要です ({1} 個検出)",
+        "official_en": "Expected less than {0} Points, found {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

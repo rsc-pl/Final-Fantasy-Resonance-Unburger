@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "tutorial",
+    "namespace": "ST_Tutorial_Buff_Debuff",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_008:83174f58",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_Tutorial_Buff_Debuff",
+        "key": "Tutorial_Buff_Debuff_008",
+        "jp_record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_008:83174f58",
+        "official_en_record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_008:83174f58",
+        "jp_sha256": "0bd884a80c962a748021254aedf74e62c65ac5f3a05b67b63d72f5c3f09b127d",
+        "official_en_sha256": "05cedb0496332ce9ea1443398ab6b2a0690b78a405ac9b050d6bbe8e6699e08a"
+      },
+      "text": {
+        "jp": "デブレイ　：物理攻撃ダウン\r\nデフェイ　：魔法攻撃ダウン\r\nデプロテ　：物理防御ダウン\r\nデシェル　：魔法防御ダウン\r\nブレイク防御ダウン　：受けるブレイクダメージ上昇",
+        "official_en": "<text style=\"bold\">Debrave:</> Decreases physical attack.\r\n<text style=\"bold\">Defaith:</> Decreases magic attack.\r\n<text style=\"bold\">Deprotect:</> Decreases physical defense.\r\n<text style=\"bold\">Deshell:</> Decreases magic defense.\r\n<text style=\"bold\">Stagger defense down:</> Increases stagger power taken.",
+        "real_en": "<text style=\"bold\">Debrave:</> Decreases physical attack.\r\n<text style=\"bold\">Defaith:</> Decreases magic attack.\r\n<text style=\"bold\">Deprotect:</> Decreases physical defense.\r\n<text style=\"bold\">Deshell:</> Decreases magic defense.\r\n<text style=\"bold\">Break defense down:</> Increases Break damage taken."
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "tutorial",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_006:77c3376e",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_Tutorial_Buff_Debuff",
+        "key": "Tutorial_Buff_Debuff_006",
+        "jp_record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_006:77c3376e",
+        "official_en_record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_006:77c3376e",
+        "jp_sha256": "321e5bda56c63bffdc7468f3cccda65f1ff399bf6f3aa4ab226a117aaad99b70",
+        "official_en_sha256": "799bfe86915621add681594cb54f36489f8c1fe914d662cf7b58934a1424cf22"
+      },
+      "text": {
+        "jp": "ブレイブ　：物理攻撃アップ\r\nフェイス　：魔法攻撃アップ\r\nプロテス　：物理防御アップ\r\nシェル　　：魔法防御アップ",
+        "official_en": "<text style=\"bold\">Brave:</> Increases physical attack.\r\n<text style=\"bold\">Faith:</> Increases magic attack.\r\n<text style=\"bold\">Protect:</> Increases physical defense.\r\n<text style=\"bold\">Shell:</> Increases magic defense.",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "tutorial",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_004:6bbffd80",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_Tutorial_Buff_Debuff",
+        "key": "Tutorial_Buff_Debuff_004",
+        "jp_record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_004:6bbffd80",
+        "official_en_record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_004:6bbffd80",
+        "jp_sha256": "b873826826c96b4eadf1a9c776516c38cbe0963fb9f761b37d0729164bb17c68",
+        "official_en_sha256": "c0ef78262adb96ee34088460f03aa8cf5d0e4ff7b8cf8aae9e918de349010e3e"
+      },
+      "text": {
+        "jp": "リジェネ　：毎行動時にHPが回復する\r\nリフレク　：魔法を跳ね返す（キャラクター専用の魔法攻撃を除く）\r\nリレイズ　：一度だけ戦闘不能になっても蘇る\r\nヘイスト　：速度アップ\r\nスロウ　　：速度ダウン",
+        "official_en": "<text style=\"bold\">Regen:</> Restores health each turn.\r\n<text style=\"bold\">Reflect:</> Reflects magic back\r\n(excluding magic unique to certain characters).\r\n<text style=\"bold\">Reraise:</> Revives a KO’d character once during battle.\r\n<text style=\"bold\">Haste:</> Increases speed.\r\n<text style=\"bold\">Slow:</> Decreases speed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "tutorial",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_002:8f7dc187",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_Tutorial_Buff_Debuff",
+        "key": "Tutorial_Buff_Debuff_002",
+        "jp_record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_002:8f7dc187",
+        "official_en_record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_002:8f7dc187",
+        "jp_sha256": "fbfd1a227486f4e84167c1ef75b140a747668293417085b4d32a30b60a3ff3a9",
+        "official_en_sha256": "ebedef70062fc7b777b97cf58cbae482a7d83d1ccb76d0b01dd86178f731aa38"
+      },
+      "text": {
+        "jp": "味方の魔法や敵の魔法などにより、\r\n「強化効果」または「弱体効果」がかかることがあります。\r\n\r\n戦況に大きく関わるため、うまくコントロールしましょう。\r\n\r\n「弱体効果」は、「状態異常」と異なり\r\n「エスナ」やアイテムで回復することができません。",
+        "official_en": "Certain magic can apply buffs or debuffs on characters.\r\nBe sure to monitor them, as they can greatly sway the outcome of a battle.\r\n\r\nUnlike status ailments, debuffs cannot be removed by\r\nEsuna or items.",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "tutorial",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_001:a86639f8",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_Tutorial_Buff_Debuff",
+        "key": "Tutorial_Buff_Debuff_001",
+        "jp_record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_001:a86639f8",
+        "official_en_record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_001:a86639f8",
+        "jp_sha256": "3316b8469404d62fdc7670b479cec8604d5eafa20aa7d8bb6174189a6d56da01",
+        "official_en_sha256": "29c2979968fd8024d0e395ecfc3af7b07600a7f44fb9a899af84a44b2d7f6372"
+      },
+      "text": {
+        "jp": "強化・弱体効果",
+        "official_en": "Buffs and Debuffs",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "tutorial",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_003:a573c8eb",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_Tutorial_Buff_Debuff",
+        "key": "Tutorial_Buff_Debuff_003",
+        "jp_record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_003:a573c8eb",
+        "official_en_record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_003:a573c8eb",
+        "jp_sha256": "0a46edb3c7a20a47714aa109fd15347286ffb7aa559f109c678549c94cfe142c",
+        "official_en_sha256": "259a98d7e8866e18499f7799ddedeb0843e96c49f3409bfa478a63988b1e058b"
+      },
+      "text": {
+        "jp": "強化・弱体効果　その1",
+        "official_en": "Buff and Debuff Effects (Part 1)",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "tutorial",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_005:e3efe8e6",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_Tutorial_Buff_Debuff",
+        "key": "Tutorial_Buff_Debuff_005",
+        "jp_record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_005:e3efe8e6",
+        "official_en_record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_005:e3efe8e6",
+        "jp_sha256": "1e2edd2ba44296c9b7cbe4130843e31cbe176ff5e4302678c1579e3c7e0537f4",
+        "official_en_sha256": "b02ade298ca421c4ba97f6acad0846d70c148e817e08c92921c772d3d1031f68"
+      },
+      "text": {
+        "jp": "強化・弱体効果　その2",
+        "official_en": "Buff and Debuff Effects (Part 2)",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "tutorial",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_007:b68f7b4f",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_Tutorial_Buff_Debuff",
+        "key": "Tutorial_Buff_Debuff_007",
+        "jp_record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_007:b68f7b4f",
+        "official_en_record_id": "switch:locres:set-02:ST_Tutorial_Buff_Debuff:Tutorial_Buff_Debuff_007:b68f7b4f",
+        "jp_sha256": "5c3f0a193d4fc2c04d8f8133206e43adecda4b3e1bb54021456de299c4cc63d2",
+        "official_en_sha256": "a1ee2f0c1c49008410073bb6e003799984e8213cecfc88082562097d5b61ba2c"
+      },
+      "text": {
+        "jp": "強化・弱体効果　その3",
+        "official_en": "Buff and Debuff Effects (Part 3)",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "tutorial",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

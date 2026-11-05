@@ -1,0 +1,826 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "IKRetargetExporter",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:CancelButtonLabel:63471b8a",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "CancelButtonLabel",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:CancelButtonLabel:63471b8a",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:CancelButtonLabel:63471b8a",
+        "jp_sha256": "bca84ea5c65fee0eccd1f23a972b95cce908f83977c65b4e8b32ca72a772a9a5",
+        "official_en_sha256": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27"
+      },
+      "text": {
+        "jp": "キャンセル",
+        "official_en": "Cancel",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:ExportRetargetPoseDialogTitle:670bedc2",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "ExportRetargetPoseDialogTitle",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:ExportRetargetPoseDialogTitle:670bedc2",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:ExportRetargetPoseDialogTitle:670bedc2",
+        "jp_sha256": "56c4c98c3fc8ea915622f3271bcf5c87f30371182350384c6602c25106289327",
+        "official_en_sha256": "20eb2255c7504563438439b2c9c87e780e005806d8c46d45c1e6cc0d34406050"
+      },
+      "text": {
+        "jp": "リターゲティングポーズをエクスポート",
+        "official_en": "Export Retarget Pose",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:IKRigExportPoseCancelled:c4b54425",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "IKRigExportPoseCancelled",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:IKRigExportPoseCancelled:c4b54425",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:IKRigExportPoseCancelled:c4b54425",
+        "jp_sha256": "be2ed366781fae372582fb2cd127673ca083389ae0655937ecd3e2179a808175",
+        "official_en_sha256": "00c23e9ae0e540d1b9ac4da162005ddf84977f39c0e8da04e0dd2d43f6cefa74"
+      },
+      "text": {
+        "jp": "ポーズのエクスポートがキャンセルされました",
+        "official_en": "Export pose cancelled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:IKRigExportPoseFailed:8e69b976",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "IKRigExportPoseFailed",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:IKRigExportPoseFailed:8e69b976",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:IKRigExportPoseFailed:8e69b976",
+        "jp_sha256": "c1614b33100f9542bc88fc8d953e93db870e441bdaa68f418630e5062758d02a",
+        "official_en_sha256": "77a20f643ea1eafeb32b2e678680e7113496b68664437b5325b70b4b6ac8838b"
+      },
+      "text": {
+        "jp": "ポーズをエクスポートできませんでした。メッシュが見つかりません",
+        "official_en": "Export pose failed. No mesh found.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:IKRigExportPoseSuccess:e55e107d",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "IKRigExportPoseSuccess",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:IKRigExportPoseSuccess:e55e107d",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:IKRigExportPoseSuccess:e55e107d",
+        "jp_sha256": "8a140145cd31fbf88f893d4771f031b45a8bcd79cbc5b17ab20cec92359a2f72",
+        "official_en_sha256": "462152b209e692c6301de0b1ce10399c31cb3bcf66d71bb02ba88d7bdb60617e"
+      },
+      "text": {
+        "jp": "エクスポートされたポーズアセット:ポーズ「{1}」がある{0}",
+        "official_en": "Exported Pose Asset: {0} with pose, '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:ArrayIndex:38b30134",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "ArrayIndex",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:ArrayIndex:38b30134",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:ArrayIndex:38b30134",
+        "jp_sha256": "ae5bb5fa77d868425964c2c209b793fb8759421f93a4e85641da1fb7abd8b734",
+        "official_en_sha256": "e36a242f43358da4190b690b37bcf124d14a770280845a7b4b98b9de7ae116f5"
+      },
+      "text": {
+        "jp": "ポーズのインポート元であるシーケンスのフレーム",
+        "official_en": "Frame of sequence to import pose from.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:ImportFailedNoIKRig:057fd9da",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "ImportFailedNoIKRig",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:ImportFailedNoIKRig:057fd9da",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:ImportFailedNoIKRig:057fd9da",
+        "jp_sha256": "da868951ba943a4bf0b1ba91cd55f24f321ab9bcd89eb180a217a6dec9aeb7e0",
+        "official_en_sha256": "ad8239e97e8eb320ef58edcf1fc7cab8da280c225a2960d3d49a10b246301da0"
+      },
+      "text": {
+        "jp": "IK リグが見つかりません。インポートが中断されました",
+        "official_en": "IK Rig not found. Import aborted.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:ImportAsRetargetPoseButtonLabel:b1087361",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "ImportAsRetargetPoseButtonLabel",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:ImportAsRetargetPoseButtonLabel:b1087361",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:ImportAsRetargetPoseButtonLabel:b1087361",
+        "jp_sha256": "40bc14133d31756a4ccbf0c8b22e12e1d7e011e6dc94d81b5f1699d19b1c1d9c",
+        "official_en_sha256": "0e3f291092f49b1548cf1039547dbf0abb5d9e6e6c8dbbd341dd19be2dee2eee"
+      },
+      "text": {
+        "jp": "新しいリターゲティングポーズをインポート",
+        "official_en": "Import New Retarget Pose",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:ImportNewRetargetPoseButtonLabel:b0529be9",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "ImportNewRetargetPoseButtonLabel",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:ImportNewRetargetPoseButtonLabel:b0529be9",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:ImportNewRetargetPoseButtonLabel:b0529be9",
+        "jp_sha256": "40bc14133d31756a4ccbf0c8b22e12e1d7e011e6dc94d81b5f1699d19b1c1d9c",
+        "official_en_sha256": "0e3f291092f49b1548cf1039547dbf0abb5d9e6e6c8dbbd341dd19be2dee2eee"
+      },
+      "text": {
+        "jp": "新しいリターゲティングポーズをインポート",
+        "official_en": "Import New Retarget Pose",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:ImportRetargetPose_Label:afcb0da7",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "ImportRetargetPose_Label",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:ImportRetargetPose_Label:afcb0da7",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:ImportRetargetPose_Label:afcb0da7",
+        "jp_sha256": "acf2d23458e63a044f815ced7260b8e3c19bae35104601aceabec9381aa60f72",
+        "official_en_sha256": "7931396bd7e1655e8c484df3c68796c31e909bd5fb1d8a8620fde1c50bb01305"
+      },
+      "text": {
+        "jp": "リターゲティングポーズをインポート",
+        "official_en": "Import Retarget Pose",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:ImportRetargetPoseFromSequenceAsset_Label:b80647f8",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "ImportRetargetPoseFromSequenceAsset_Label",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:ImportRetargetPoseFromSequenceAsset_Label:b80647f8",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:ImportRetargetPoseFromSequenceAsset_Label:b80647f8",
+        "jp_sha256": "74e091e202b1a1dc62e9c9a4a0a2b4dc027bd30af542827fab26685f843ae598",
+        "official_en_sha256": "9782e9ae6bef40e5d7810244ca8e61a9c3527b8d19f982a6d37073baea2b17ef"
+      },
+      "text": {
+        "jp": "リターゲティングポーズをシーケンスアセットからインポート",
+        "official_en": "Import Retarget Pose from Sequence Asset",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:ImportSuccess:1052310a",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "ImportSuccess",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:ImportSuccess:1052310a",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:ImportSuccess:1052310a",
+        "jp_sha256": "28d522fa5dddc1a816abae9b6e4440bc6d1b39468e1428bf178e7cff05d793fa",
+        "official_en_sha256": "dbdb97d83bdc71bd0952e759b6936cbbb6db3eeeb686ec0400e4f12e3426b68d"
+      },
+      "text": {
+        "jp": "インポートされた新しいリターゲティング ポーズ：{0}",
+        "official_en": "Imported new retarget pose: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:ImportedRetargetPoseName:8167fc53",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "ImportedRetargetPoseName",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:ImportedRetargetPoseName:8167fc53",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:ImportedRetargetPoseName:8167fc53",
+        "jp_sha256": "da465900f4c6c547c48be92dfc96ac7a16b9b7700466724ecccfef6e17adc1ba",
+        "official_en_sha256": "da465900f4c6c547c48be92dfc96ac7a16b9b7700466724ecccfef6e17adc1ba"
+      },
+      "text": {
+        "jp": "ImportedRetargetPose",
+        "official_en": "ImportedRetargetPose",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:NoPoseToImport:d74b3fbc",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "NoPoseToImport",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:NoPoseToImport:d74b3fbc",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:NoPoseToImport:d74b3fbc",
+        "jp_sha256": "c372d53bd55e474603b163e6fbb21c8673f6e8b8781cd4c31e093dc4fbdc3083",
+        "official_en_sha256": "cae23f9780242a680c774e25131db3e8842d05799e1da3d497419ac5e5623778"
+      },
+      "text": {
+        "jp": "ポーズ アセットが指定されていません。インポートが中断されました",
+        "official_en": "No pose asset specified. Import aborted.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:PoseNotSelected:f6c61165",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "PoseNotSelected",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:PoseNotSelected:f6c61165",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:PoseNotSelected:f6c61165",
+        "jp_sha256": "3622d9e13cfb7301981dab3e502c40ca91aa6ecb21037178e17de425a3d4577b",
+        "official_en_sha256": "dbcc4ed5ee833feaeecd9079b09687e33950259ea51b24c14e1994530b98260e"
+      },
+      "text": {
+        "jp": "ロードするポーズが指定されていません。インポートが中断されました",
+        "official_en": "No pose was specified to load. Import aborted.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:ImportFailedNoSequence:a2be96bb",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "ImportFailedNoSequence",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:ImportFailedNoSequence:a2be96bb",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:ImportFailedNoSequence:a2be96bb",
+        "jp_sha256": "f539298ecbb99d1c12eeaa1e484593351b6c1093bc70f66cfc88300276f05ce4",
+        "official_en_sha256": "cd78ba3c0b47705388769d8aeb650cac73cc1579cf1f827892c59922ba3991bc"
+      },
+      "text": {
+        "jp": "シーケンスが選択されていません。インポートが中断されました",
+        "official_en": "No sequence selected. Import aborted.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:ImportName_Label:b04170fc",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "ImportName_Label",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:ImportName_Label:b04170fc",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:ImportName_Label:b04170fc",
+        "jp_sha256": "d81688aaa6a4baed64e4270a2efe20283006b20019621bf0cd87f01508413096",
+        "official_en_sha256": "dd3fdf97093c8c87aa0d839446dd5c96c07245370e13028185d3ba5f3b844156"
+      },
+      "text": {
+        "jp": "ポーズ名: ",
+        "official_en": "Pose Name: ",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:PoseLoadFailed:d14c33be",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "PoseLoadFailed",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:PoseLoadFailed:d14c33be",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:PoseLoadFailed:d14c33be",
+        "jp_sha256": "46893b54b1eb772f84b6294895400eb42b027d886943eae728236da76dd4f90b",
+        "official_en_sha256": "8aee31d64c42081e62b05f27e9c31fe176642616051e34011515d0f24f042390"
+      },
+      "text": {
+        "jp": "ポーズ アセットをロードできませんでした。インポートが中断されました",
+        "official_en": "Pose asset could not be loaded. Import aborted.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:ImportFrame_Label:680c2894",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "ImportFrame_Label",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:ImportFrame_Label:680c2894",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:ImportFrame_Label:680c2894",
+        "jp_sha256": "13814e1ff11ad4baa9a2dbcb873bfc7ae759ff8b20c2ed833ee792c98b0d4a7d",
+        "official_en_sha256": "64ad62caa44da663d3c449b8f7d9c80265595d1793b0a05232e90df9453539bb"
+      },
+      "text": {
+        "jp": "シーケンスフレーム: ",
+        "official_en": "Sequence Frame: ",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:ImportFailedSeqNotLoaded:f6e9f92d",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "ImportFailedSeqNotLoaded",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:ImportFailedSeqNotLoaded:f6e9f92d",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:ImportFailedSeqNotLoaded:f6e9f92d",
+        "jp_sha256": "07e8355e3fc5b1683de6311bdbbcbb14ad05db903d6f4f8fbcff624ad839c64d",
+        "official_en_sha256": "3460d09a5dbdd9f7d2b82187ac3bcd9625eaf5fce1ebe98dd073e6254e0ac533"
+      },
+      "text": {
+        "jp": "シーケンスをロードできませんでした。インポートが中断されました",
+        "official_en": "Sequence could not be loaded. Import aborted.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:ImportFailedNoMesh:4c520a24",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "ImportFailedNoMesh",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:ImportFailedNoMesh:4c520a24",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:ImportFailedNoMesh:4c520a24",
+        "jp_sha256": "2dade3b00717c7f59b4cc72c6838f4c4993e2144f5e85bbde92a4d2c985dab1e",
+        "official_en_sha256": "75995cf5b91bc8f6d3d4c39ee37405bdba476a136118d27efe31d24f89ed6047"
+      },
+      "text": {
+        "jp": "スケルタル メッシュが見つかりません。インポートが中断されました",
+        "official_en": "Skeletal Mesh not found. Import aborted.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetExporter:PoseNotInAsset:b9c9c197",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetExporter",
+        "key": "PoseNotInAsset",
+        "jp_record_id": "switch:locres:set-01:IKRetargetExporter:PoseNotInAsset:b9c9c197",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetExporter:PoseNotInAsset:b9c9c197",
+        "jp_sha256": "a3cbb7a2dacf7b805935dae27a4041886b8c050f184be524675c196ec40fa159",
+        "official_en_sha256": "5554ae7ea3f8b042f28e0399c5b727e661209cd5eadc31aa97f702bfbe2444b2"
+      },
+      "text": {
+        "jp": "指定されたポーズがポーズ アセットにありません。インポートが中断されました",
+        "official_en": "Specified pose not found in the pose asset. Import aborted.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "GitSourceControl",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:GitSourceControl:CommitMessage:5d4bf5cd",
+      "source": {
+        "set": "set-02",
+        "namespace": "GitSourceControl",
+        "key": "CommitMessage",
+        "jp_record_id": "switch:locres:set-01:GitSourceControl:CommitMessage:5d4bf5cd",
+        "official_en_record_id": "switch:locres:set-01:GitSourceControl:CommitMessage:5d4bf5cd",
+        "jp_sha256": "78323eba1bb6cce2d66894b9b9e305e8a5b8dab27eb3549ce566dbe31d544513",
+        "official_en_sha256": "25dd6146da82b60a6a171d10c2796de61b4861af00b560fc53dfc6e8b247ff62"
+      },
+      "text": {
+        "jp": "{0} をコミットしました。",
+        "official_en": "Commited {0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GitSourceControl:Executables:9b33b082",
+      "source": {
+        "set": "set-02",
+        "namespace": "GitSourceControl",
+        "key": "Executables",
+        "jp_record_id": "switch:locres:set-01:GitSourceControl:Executables:9b33b082",
+        "official_en_record_id": "switch:locres:set-01:GitSourceControl:Executables:9b33b082",
+        "jp_sha256": "7708451b6be5a9c2685490d24ede4d7db1475086426d9e4e211801b5fd5b5167",
+        "official_en_sha256": "517ee2c89a19e52fe25e4280e7e2e6959e6c2a82d237f0c031203d45360ba7ba"
+      },
+      "text": {
+        "jp": "実行可能ファイル",
+        "official_en": "Executables",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GitSourceControl:NotAGitRepository:37bbf476",
+      "source": {
+        "set": "set-02",
+        "namespace": "GitSourceControl",
+        "key": "NotAGitRepository",
+        "jp_record_id": "switch:locres:set-01:GitSourceControl:NotAGitRepository:37bbf476",
+        "official_en_record_id": "switch:locres:set-01:GitSourceControl:NotAGitRepository:37bbf476",
+        "jp_sha256": "cfc24e9f2a727d4b482e5549e52777147e02f6ee3b8d9bae9b1f81352bcc6bd0",
+        "official_en_sha256": "5178c61e01745a95d4afb6e28f245196941e0d1fb7e20ec422261221d3da761d"
+      },
+      "text": {
+        "jp": "Git リビジョン コントロールを有効にできませんでした。まず、プロジェクトをGitリポジトリとして初期化する必要があります。",
+        "official_en": "Failed to enable Git revision control. You need to initialize the project as a Git repository first.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GitSourceControl:GitNotFound:36775161",
+      "source": {
+        "set": "set-02",
+        "namespace": "GitSourceControl",
+        "key": "GitNotFound",
+        "jp_record_id": "switch:locres:set-01:GitSourceControl:GitNotFound:36775161",
+        "official_en_record_id": "switch:locres:set-01:GitSourceControl:GitNotFound:36775161",
+        "jp_sha256": "3fe9f52220fb2dae9a571f27d31459173a216888aad3f67791a2c8982475570e",
+        "official_en_sha256": "fd3a5e9c5f904d3988d9f33b37b2b548bd4298606b61a65923203f8aee3f00ca"
+      },
+      "text": {
+        "jp": "Git リビジョン コントロールを有効にできませんでした。Gitをインストールし、git実行可能ファイルへの有効なパスを指定する必要があります。",
+        "official_en": "Failed to enable Git revision control. You need to install Git and specify a valid path to git executable.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GitSourceControl:UnsupportedOperation:d92dd0d1",
+      "source": {
+        "set": "set-02",
+        "namespace": "GitSourceControl",
+        "key": "UnsupportedOperation",
+        "jp_record_id": "switch:locres:set-01:GitSourceControl:UnsupportedOperation:d92dd0d1",
+        "official_en_record_id": "switch:locres:set-01:GitSourceControl:UnsupportedOperation:d92dd0d1",
+        "jp_sha256": "7b94db5f8546fd43da7b292f5c6860e4cf192551356ac16572b4d247fc42bb89",
+        "official_en_sha256": "850ceecbeb12609461ef4a1d3aaa53cc2d752b207aa99fb69005e2c3409b4a95"
+      },
+      "text": {
+        "jp": "操作「{OperationName}」はリビジョン コントロール プロバイダ「{ProviderName}」でサポートされていません",
+        "official_en": "Operation '{OperationName}' not supported by revision control provider '{ProviderName}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GitSourceControl:CommitMessageUnknown:c328b860",
+      "source": {
+        "set": "set-02",
+        "namespace": "GitSourceControl",
+        "key": "CommitMessageUnknown",
+        "jp_record_id": "switch:locres:set-01:GitSourceControl:CommitMessageUnknown:c328b860",
+        "official_en_record_id": "switch:locres:set-01:GitSourceControl:CommitMessageUnknown:c328b860",
+        "jp_sha256": "c869785c452e0a882402df8df8d43ccb48c0b46b5575f1e10e9f90755b2868af",
+        "official_en_sha256": "f2f6814a6efdaa3dda2334f7b055976d5412cd9533e56ebdfeb4bbbd8dd114f6"
+      },
+      "text": {
+        "jp": "修正を送信しました。",
+        "official_en": "Submitted revision.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GitSourceControl:NoSCCThreads:aec16d57",
+      "source": {
+        "set": "set-02",
+        "namespace": "GitSourceControl",
+        "key": "NoSCCThreads",
+        "jp_record_id": "switch:locres:set-01:GitSourceControl:NoSCCThreads:aec16d57",
+        "official_en_record_id": "switch:locres:set-01:GitSourceControl:NoSCCThreads:aec16d57",
+        "jp_sha256": "702f108cbb005544aad0d042236e1f27745fcd801038132dc22e56bb359ceb04",
+        "official_en_sha256": "7c7c9eab187d6af057ea612e2e9dd678fcdf5dea8b76ef04217757f2be020b74"
+      },
+      "text": {
+        "jp": "リビジョン コントロール コマンドの処理に利用できるスレッドがありません",
+        "official_en": "There are no threads available to process the revision control command.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

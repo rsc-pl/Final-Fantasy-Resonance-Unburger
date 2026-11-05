@@ -1,0 +1,567 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "Interchange",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:Interchange:Warning_LargeTextureVTDisabled:319e5586",
+      "source": {
+        "set": "set-02",
+        "namespace": "Interchange",
+        "key": "Warning_LargeTextureVTDisabled",
+        "jp_record_id": "switch:locres:set-01:Interchange:Warning_LargeTextureVTDisabled:319e5586",
+        "official_en_record_id": "switch:locres:set-01:Interchange:Warning_LargeTextureVTDisabled:319e5586",
+        "jp_sha256": "2e0aac7f75907aa3461fe3429dbc180e182c526e7fc48db16f3f60df59cfbda0",
+        "official_en_sha256": "eca14f0079eca9a259a7f209587c4c5cb18ab3b16b154a9ff403e1485b02ecbd"
+      },
+      "text": {
+        "jp": "\n警告：このプロジェクトでは仮想テクスチャは無効です",
+        "official_en": "\nWarning: Virtual Textures are disabled in this project.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Interchange:Warning_LargeTextureImport:7b5cd195",
+      "source": {
+        "set": "set-02",
+        "namespace": "Interchange",
+        "key": "Warning_LargeTextureImport",
+        "jp_record_id": "switch:locres:set-01:Interchange:Warning_LargeTextureImport:7b5cd195",
+        "official_en_record_id": "switch:locres:set-01:Interchange:Warning_LargeTextureImport:7b5cd195",
+        "jp_sha256": "06c75e475587b769fcc7b5d9b5efe751078b57d3ecdb3c43a0b17d79c35554bd",
+        "official_en_sha256": "daa22ae51dbf58022baaf52244e03f9819478646674249d669fd745678301326"
+      },
+      "text": {
+        "jp": "{0} x {1} テクスチャのインポートを試みています。続けますか？\nサポートされている最大の非 VT テクスチャサイズは以下のとおりです。{2} x {3}{4}",
+        "official_en": "Attempting to import {0} x {1} texture, proceed?\nLargest supported non-VT texture size: {2} x {3}{4}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Interchange:Warning_TextureNotAPowerOfTwo:6ed61570",
+      "source": {
+        "set": "set-02",
+        "namespace": "Interchange",
+        "key": "Warning_TextureNotAPowerOfTwo",
+        "jp_record_id": "switch:locres:set-01:Interchange:Warning_TextureNotAPowerOfTwo:6ed61570",
+        "official_en_record_id": "switch:locres:set-01:Interchange:Warning_TextureNotAPowerOfTwo:6ed61570",
+        "jp_sha256": "310beffa37df46808cc9ad4180dce7970ca0fe882d14051884aa94acdc45b25d",
+        "official_en_sha256": "3ff2570519a9f2659032bda8b54085c3438a53b422a658f93923f3bd30b5ee52"
+      },
+      "text": {
+        "jp": "次元が 2 の累乗ではないテクスチャはインポートできません",
+        "official_en": "Cannot import texture with non-power of two dimensions",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Interchange:Asynchronous_import_canceled:5941b0ec",
+      "source": {
+        "set": "set-02",
+        "namespace": "Interchange",
+        "key": "Asynchronous_import_canceled",
+        "jp_record_id": "switch:locres:set-01:Interchange:Asynchronous_import_canceled:5941b0ec",
+        "official_en_record_id": "switch:locres:set-01:Interchange:Asynchronous_import_canceled:5941b0ec",
+        "jp_sha256": "355ec0c7f1b4e6b933fa672cf0848b858db4659cbc62c8ac96a8b8aaa46478fa",
+        "official_en_sha256": "8745438bbeaeed6f1c4c0a34e43700b77979300173670e83981d8401c33a365c"
+      },
+      "text": {
+        "jp": "インポートがキャンセルされました",
+        "official_en": "Import Canceled",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Interchange:PipelineConfigurationGenericTitleContent:b240958e",
+      "source": {
+        "set": "set-02",
+        "namespace": "Interchange",
+        "key": "PipelineConfigurationGenericTitleContent",
+        "jp_record_id": "switch:locres:set-01:Interchange:PipelineConfigurationGenericTitleContent:b240958e",
+        "official_en_record_id": "switch:locres:set-01:Interchange:PipelineConfigurationGenericTitleContent:b240958e",
+        "jp_sha256": "b54579998757c640b00c4f0db3fd5fdccdddd0717f15a093e3c87bcbf8b427dd",
+        "official_en_sha256": "0d8c9094ca8b2b98c63fc9bde80d908ba46c94bec59f61305df0712b17c7fabb"
+      },
+      "text": {
+        "jp": "ImportContent",
+        "official_en": "Import Content",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Interchange:Asynchronous_import_end:45e40a3b",
+      "source": {
+        "set": "set-02",
+        "namespace": "Interchange",
+        "key": "Asynchronous_import_end",
+        "jp_record_id": "switch:locres:set-01:Interchange:Asynchronous_import_end:45e40a3b",
+        "official_en_record_id": "switch:locres:set-01:Interchange:Asynchronous_import_end:45e40a3b",
+        "jp_sha256": "6b477d4dcb9532ab54072d7ec3be2e6b2262970323c200ee2393dd0cafeb62de",
+        "official_en_sha256": "d58f271f0e8b80cf7d8e3d50ccc5f5a6ef5001f52900ecf8347c21d8401655cf"
+      },
+      "text": {
+        "jp": "インポート終了",
+        "official_en": "Import Done",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Interchange:Asynchronous_import_failed:c81608b7",
+      "source": {
+        "set": "set-02",
+        "namespace": "Interchange",
+        "key": "Asynchronous_import_failed",
+        "jp_record_id": "switch:locres:set-01:Interchange:Asynchronous_import_failed:c81608b7",
+        "official_en_record_id": "switch:locres:set-01:Interchange:Asynchronous_import_failed:c81608b7",
+        "jp_sha256": "8142c2c06b572a23ed92780c63d3de2639ff5e518ceeb00aaa3217590e7449af",
+        "official_en_sha256": "09876dabd9db71a6eb5c55acf6113e739abb75aeac529f7a85f93e5399d9d110"
+      },
+      "text": {
+        "jp": "インポートできませんでした",
+        "official_en": "Import Failed",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Interchange:PipelineConfigurationGenericTitleScene:011dbaeb",
+      "source": {
+        "set": "set-02",
+        "namespace": "Interchange",
+        "key": "PipelineConfigurationGenericTitleScene",
+        "jp_record_id": "switch:locres:set-01:Interchange:PipelineConfigurationGenericTitleScene:011dbaeb",
+        "official_en_record_id": "switch:locres:set-01:Interchange:PipelineConfigurationGenericTitleScene:011dbaeb",
+        "jp_sha256": "c31fd3163fb36030eba4e0ee869dbda3458c2cf00faa13a8a83d5ba7ff42560a",
+        "official_en_sha256": "b4c9426d2c2aba8d836ee194c92b6a83efb99d056fdaebad1924d76b1a23a2b1"
+      },
+      "text": {
+        "jp": "シーンをインポート",
+        "official_en": "Import Scene",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Interchange:Asynchronous_import_start:26367d7e",
+      "source": {
+        "set": "set-02",
+        "namespace": "Interchange",
+        "key": "Asynchronous_import_start",
+        "jp_record_id": "switch:locres:set-01:Interchange:Asynchronous_import_start:26367d7e",
+        "official_en_record_id": "switch:locres:set-01:Interchange:Asynchronous_import_start:26367d7e",
+        "jp_sha256": "f3cc38e8bf4839dd40e27001d4ba1b788bfcdb931011712e2b8fbcd0564a71af",
+        "official_en_sha256": "d252fffacbf0370776d720324538a0e7f77d2a01267bbeef6cd43378dc68605b"
+      },
+      "text": {
+        "jp": "インポートしています",
+        "official_en": "Importing",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Interchange:GraphInspectorTitle:95187f1e",
+      "source": {
+        "set": "set-02",
+        "namespace": "Interchange",
+        "key": "GraphInspectorTitle",
+        "jp_record_id": "switch:locres:set-01:Interchange:GraphInspectorTitle:95187f1e",
+        "official_en_record_id": "switch:locres:set-01:Interchange:GraphInspectorTitle:95187f1e",
+        "jp_sha256": "1ec1351aa6cd4414a781ab6886fe4959fcf1bddb526c01a6a91ce7b0c4157122",
+        "official_en_sha256": "7fac2a30f90d30b135befd301facad986d222ac760c6ebb8c2d6216fe9b4724b"
+      },
+      "text": {
+        "jp": "交換ノードグラフインスペクタ",
+        "official_en": "Interchange node graph inspector",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Interchange:PipelineConfigurationGenericTitlePipelineConfiguration:201c33db",
+      "source": {
+        "set": "set-02",
+        "namespace": "Interchange",
+        "key": "PipelineConfigurationGenericTitlePipelineConfiguration",
+        "jp_record_id": "switch:locres:set-01:Interchange:PipelineConfigurationGenericTitlePipelineConfiguration:201c33db",
+        "official_en_record_id": "switch:locres:set-01:Interchange:PipelineConfigurationGenericTitlePipelineConfiguration:201c33db",
+        "jp_sha256": "6cbc18cd5d8e7f6ba332fb92fe007235f8287148c9cb0284cd74736d6a5f8af1",
+        "official_en_sha256": "0eadf52c749fbe721ad1c7f436ddd3e12d3a53559a3db2b879bc9e022af11e55"
+      },
+      "text": {
+        "jp": "パイプライン構成",
+        "official_en": "Pipeline Configuration",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Interchange:PipelineConfigurationGenericTitleReimportContent:213dcdf7",
+      "source": {
+        "set": "set-02",
+        "namespace": "Interchange",
+        "key": "PipelineConfigurationGenericTitleReimportContent",
+        "jp_record_id": "switch:locres:set-01:Interchange:PipelineConfigurationGenericTitleReimportContent:213dcdf7",
+        "official_en_record_id": "switch:locres:set-01:Interchange:PipelineConfigurationGenericTitleReimportContent:213dcdf7",
+        "jp_sha256": "dcc8497452951863bf4bf2e3054bd3684f18a5c70fc715a15e6baf68ad70e73e",
+        "official_en_sha256": "9a026f00a9be08275e98d14885684394d9093a774b34843335c8cbd3532625db"
+      },
+      "text": {
+        "jp": "コンテンツを再インポート",
+        "official_en": "Reimport Content",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Interchange:Warning_TextureSizeZero:7be72896",
+      "source": {
+        "set": "set-02",
+        "namespace": "Interchange",
+        "key": "Warning_TextureSizeZero",
+        "jp_record_id": "switch:locres:set-01:Interchange:Warning_TextureSizeZero:7be72896",
+        "official_en_record_id": "switch:locres:set-01:Interchange:Warning_TextureSizeZero:7be72896",
+        "jp_sha256": "77477f3a12625ba37989ac2dd0396e8bb246ef35815eb2b71ef71d24a9bde21b",
+        "official_en_sha256": "b09c5b5e41eb3d4d2cfca5c14ec2c4ee167e32e47552c86d3d47c8a2706c647f"
+      },
+      "text": {
+        "jp": "テクスチャの幅または高さがゼロです",
+        "official_en": "Texture has zero width or height",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Interchange:Warning_TextureSizeTooLargeOrInvalid:b126bcfe",
+      "source": {
+        "set": "set-02",
+        "namespace": "Interchange",
+        "key": "Warning_TextureSizeTooLargeOrInvalid",
+        "jp_record_id": "switch:locres:set-01:Interchange:Warning_TextureSizeTooLargeOrInvalid:b126bcfe",
+        "official_en_record_id": "switch:locres:set-01:Interchange:Warning_TextureSizeTooLargeOrInvalid:b126bcfe",
+        "jp_sha256": "f9c3fce1ff7a42a9868f3d32dfcf92e30bbd9caee9fa4163163e05b758879c1b",
+        "official_en_sha256": "1b57c440f3a365874e1289206055a549b80ec15c81795bc5f65c051168964f3d"
+      },
+      "text": {
+        "jp": "テクスチャが大きすぎてインポートできないか、解像度が無効です",
+        "official_en": "Texture is too large to import or it has an invalid resolution.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Interchange:LogAndNotify:e6960104",
+      "source": {
+        "set": "set-02",
+        "namespace": "Interchange",
+        "key": "LogAndNotify",
+        "jp_record_id": "switch:locres:set-01:Interchange:LogAndNotify:e6960104",
+        "official_en_record_id": "switch:locres:set-01:Interchange:LogAndNotify:e6960104",
+        "jp_sha256": "3e59cc99dfd9227022e394394473edf6b425c5523b03542f77904fa15768f677",
+        "official_en_sha256": "fa4e6bfb30c5b5de7a0e82c07c17e928f4f339cf829bbec3e0c2373f943da050"
+      },
+      "text": {
+        "jp": "インポートに問題が発生しました",
+        "official_en": "There were issues with the import.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

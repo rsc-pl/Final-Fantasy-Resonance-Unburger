@@ -1,0 +1,604 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SMoviePipelineQueuePanel",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:CurrentQueueFormat:53501bd7",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineQueuePanel",
+        "key": "CurrentQueueFormat",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:CurrentQueueFormat:53501bd7",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:CurrentQueueFormat:53501bd7",
+        "jp_sha256": "924a3a2671038bf09b57fcc885b583b10b7ca91a586e18da6c194bfda64e8893",
+        "official_en_sha256": "f51112977241e26559da8f1dd25d14a42926e8614a87afb86c2ab12157380bd3"
+      },
+      "text": {
+        "jp": "現在のキュー: {0}",
+        "official_en": "Current Queue: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:QueueManagementButton_Tooltip:b6217827",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineQueuePanel",
+        "key": "QueueManagementButton_Tooltip",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:QueueManagementButton_Tooltip:b6217827",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:QueueManagementButton_Tooltip:b6217827",
+        "jp_sha256": "99bbfba72ca727c819b592f9642762434162914fbae69808fe9fe26c2cfe8daa",
+        "official_en_sha256": "6382f534e3b82a51315adfe5b7d9f4d24a0157e034bc15b678ab3579c8c01634"
+      },
+      "text": {
+        "jp": "現在のキューをアセットにエクスポートするか、以前に保存したキューをロードします。",
+        "official_en": "Export the current queue to an asset, or load a previously saved queue.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:LoadQueue_MenuSection:44bf5aa0",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineQueuePanel",
+        "key": "LoadQueue_MenuSection",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:LoadQueue_MenuSection:44bf5aa0",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:LoadQueue_MenuSection:44bf5aa0",
+        "jp_sha256": "eccf0c5aaf339d4b50751f0ff95a130ba01cc0a597a31c23125f72e11fcf5c02",
+        "official_en_sha256": "f48a793d286a3b18806681b9286a8ed459445d5c62f35eaea7ef72b006393117"
+      },
+      "text": {
+        "jp": "キューをインポート",
+        "official_en": "Import Queue",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:NoQueueAssets_Warning:3a2a5e32",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineQueuePanel",
+        "key": "NoQueueAssets_Warning",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:NoQueueAssets_Warning:3a2a5e32",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:NoQueueAssets_Warning:3a2a5e32",
+        "jp_sha256": "7bad7a772428c4ddb125ba685b474134e4ad0ea044c652f44ee32b22ecde9237",
+        "official_en_sha256": "bf9c634648f2d3c2e4c919893c9eec5e92f3621848c9589083297573c56c24ff"
+      },
+      "text": {
+        "jp": "キューが見つかりません",
+        "official_en": "No Queues Found",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:NoLoadedQueue:4b092d6a",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineQueuePanel",
+        "key": "NoLoadedQueue",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:NoLoadedQueue:4b092d6a",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:NoLoadedQueue:4b092d6a",
+        "jp_sha256": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+        "official_en_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91"
+      },
+      "text": {
+        "jp": "なし",
+        "official_en": "None",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:RenderQueueLocal_Text:07a5693b",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineQueuePanel",
+        "key": "RenderQueueLocal_Text",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:RenderQueueLocal_Text:07a5693b",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:RenderQueueLocal_Text:07a5693b",
+        "jp_sha256": "a5eeabbd6ee15e74b5aa476598c8fc67dd951ab71a856df43c8d37365c5d3e35",
+        "official_en_sha256": "ff85103dedb555e0d65987b68270900c472bbb0b6642c0ed63975b6b4104fead"
+      },
+      "text": {
+        "jp": "レンダリング(ローカル)",
+        "official_en": "Render (Local)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:RenderQueueRemote_Text:18978dab",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineQueuePanel",
+        "key": "RenderQueueRemote_Text",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:RenderQueueRemote_Text:18978dab",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:RenderQueueRemote_Text:18978dab",
+        "jp_sha256": "be76b9112bad4f4515b452a1fa258efacd2f09d21ec265aa991156775299ea83",
+        "official_en_sha256": "7fcaee5b4f8f8c7369aadce5974343175ed1c22dc56331226cf3c91f1c257452"
+      },
+      "text": {
+        "jp": "レンダリング(リモート)",
+        "official_en": "Render (Remote)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:RenderQueueRemote_Tooltip:53e0e8ec",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineQueuePanel",
+        "key": "RenderQueueRemote_Tooltip",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:RenderQueueRemote_Tooltip:53e0e8ec",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:RenderQueueRemote_Tooltip:53e0e8ec",
+        "jp_sha256": "10ca8b41622523c1edbce221f2a08ef4c020fa00e81490a9c3e8d2d770b67af0",
+        "official_en_sha256": "7fa1309ef41eacb5f389db10024805d354c0732b7918f130ef5d79905e779b46"
+      },
+      "text": {
+        "jp": "別のプロセスで現在のキューをレンダリングします。",
+        "official_en": "Renders the current queue in a separate process.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:RenderQueueLocal_Tooltip:54bb7d90",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineQueuePanel",
+        "key": "RenderQueueLocal_Tooltip",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:RenderQueueLocal_Tooltip:54bb7d90",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:RenderQueueLocal_Tooltip:54bb7d90",
+        "jp_sha256": "ae18691ec2177a66f01ede1a6c554821c1bb4524b729f06280c8b72adbef6bd4",
+        "official_en_sha256": "93d5e4f3ba9fef23e7a818f7af884c44ba693c7898a4c9b5e522df52916bea1b"
+      },
+      "text": {
+        "jp": "PIE を使用して現在のプロセスの現在のキューをレンダリングします。",
+        "official_en": "Renders the current queue in the current process using Play in Editor.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:SaveQueue_Text:2e29ee43",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineQueuePanel",
+        "key": "SaveQueue_Text",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:SaveQueue_Text:2e29ee43",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:SaveQueue_Text:2e29ee43",
+        "jp_sha256": "dd1f7591c4070527c7d84a34bbf5d9a9b7e457831a1bd275e1aeab262bae7b25",
+        "official_en_sha256": "c77052a3f668121699963fe1fbd73103794d6c8c10fe57759d94c2f0f5371444"
+      },
+      "text": {
+        "jp": "キューを保存",
+        "official_en": "Save Queue",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:SaveAsQueue_Text:e53a532d",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineQueuePanel",
+        "key": "SaveAsQueue_Text",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:SaveAsQueue_Text:e53a532d",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:SaveAsQueue_Text:e53a532d",
+        "jp_sha256": "1ee64f25ae18d1c0e48b421e7ef63ac1531d8468c47dcd2e809a01aa1814428b",
+        "official_en_sha256": "18a5d2b755cdae8ccf898b4138885ec7c1dbbba3384cf4ef60b29170a25515ec"
+      },
+      "text": {
+        "jp": "名前を付けてキューを保存",
+        "official_en": "Save Queue As",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:SaveQueueAssetDialogTitle:7fb1bc13",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineQueuePanel",
+        "key": "SaveQueueAssetDialogTitle",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:SaveQueueAssetDialogTitle:7fb1bc13",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:SaveQueueAssetDialogTitle:7fb1bc13",
+        "jp_sha256": "1c4854856655197db6e6e2529d52b3751bbad9e2223d05fc142d0539acedd386",
+        "official_en_sha256": "072f477fa3ab7e0e9eb8d46d8bda74b12f0fb2f6710beb70b58a3a9008c8f4d1"
+      },
+      "text": {
+        "jp": "キュー アセットを保存",
+        "official_en": "Save Queue Asset",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:SaveAsQueue_Tip:b0b60588",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineQueuePanel",
+        "key": "SaveAsQueue_Tip",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:SaveAsQueue_Tip:b0b60588",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:SaveAsQueue_Tip:b0b60588",
+        "jp_sha256": "ec15842764dd260289b0129126b8f95ab4806b9986d79e3f49728b2fb7beee1b",
+        "official_en_sha256": "a766edc29de78678ce2a9b331f6ea2c326ca79653bddb8904002cef9290df4d4"
+      },
+      "text": {
+        "jp": "現在のコンフィギュレーションを、複数のジョブ間で共有できる新規プリセットとして保存するか、新規コンフィギュレーションのベースとして後でインポートします。",
+        "official_en": "Save the current configuration as a new preset that can be shared between multiple jobs, or imported later as the base of a new configuration.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:SaveQueue_Tip:576a638a",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineQueuePanel",
+        "key": "SaveQueue_Tip",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:SaveQueue_Tip:576a638a",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:SaveQueue_Tip:576a638a",
+        "jp_sha256": "d1863de84bdd34595333e30b05cdda4c4be1b061b8ad2e20cfc22a88db64e560",
+        "official_en_sha256": "f15d159a45453c441e90f11b8c1ab391990097b30d4115130da1f1a582afc78d"
+      },
+      "text": {
+        "jp": "現在のコンフィギュレーションを、複数のジョブ間で共有できる、または新規コンフィギュレーションのベースとして後でインポートできる、既存プリセットとして保存します",
+        "official_en": "Save the current configuration in its existing preset which can be shared between multiple jobs, or imported later as the base of a new configuration.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:NoJobSelected:ce70f348",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineQueuePanel",
+        "key": "NoJobSelected",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:NoJobSelected:ce70f348",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:NoJobSelected:ce70f348",
+        "jp_sha256": "263c663cd6758b9777389f067558e9001d03cad2a64e5271f0f641e4f0d08487",
+        "official_en_sha256": "f6998cc05679a9af20829890db43c294fb3884f6f51f3c43d4e7aa62e6fd3eab"
+      },
+      "text": {
+        "jp": "詳細を表示するには、ジョブを選択してください。",
+        "official_en": "Select a job to view details.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:QueueSaveMenuUnsavedConfig_Text:561d21e4",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineQueuePanel",
+        "key": "QueueSaveMenuUnsavedConfig_Text",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:QueueSaveMenuUnsavedConfig_Text:561d21e4",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineQueuePanel:QueueSaveMenuUnsavedConfig_Text:561d21e4",
+        "jp_sha256": "4adcfabec804c713686f9c5c0cc8f34a1c97967ea5960724705304211982478e",
+        "official_en_sha256": "4a27325439e12d908ab28fa915c7981b00805980e56b201eecaf5a2d1206efa2"
+      },
+      "text": {
+        "jp": "未保存のキュー",
+        "official_en": "Unsaved Queue",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

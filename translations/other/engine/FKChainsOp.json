@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "FKChainsOp",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:FKChainsOp:FKChainInvalid:df012de2",
+      "source": {
+        "set": "set-02",
+        "namespace": "FKChainsOp",
+        "key": "FKChainInvalid",
+        "jp_record_id": "switch:locres:set-01:FKChainsOp:FKChainInvalid:df012de2",
+        "official_en_record_id": "switch:locres:set-01:FKChainsOp:FKChainInvalid:df012de2",
+        "jp_sha256": "7ec3aa5c139becce9ea274b2a05b25700ccb724e8916a64525cc02044873dae0",
+        "official_en_sha256": "b159693e5a282e0c7e375d9c5259599fb7611761b68230a2e965a0b02ee207cb"
+      },
+      "text": {
+        "jp": "FK チェーン操作で、ソース チェーン「{0}」をターゲット チェーン、「{1}」にリターゲティングできません",
+        "official_en": "FK Chain Op unable to retarget source chain, {0} to target chain, {1}.'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FKChainsOp:FKChainOpMissingChain:e3cb8970",
+      "source": {
+        "set": "set-02",
+        "namespace": "FKChainsOp",
+        "key": "FKChainOpMissingChain",
+        "jp_record_id": "switch:locres:set-01:FKChainsOp:FKChainOpMissingChain:e3cb8970",
+        "official_en_record_id": "switch:locres:set-01:FKChainsOp:FKChainOpMissingChain:e3cb8970",
+        "jp_sha256": "d254318f1f219572dcde88c4ef0641d9548f6213101d196e7cf82de271f3abf3",
+        "official_en_sha256": "33a3b7ef78c8b5d31106f4af55068ff7d09621a9a3b92a3be178e4f45b3aace5"
+      },
+      "text": {
+        "jp": "FK チェーン操作：チェーン データが IK Rig と同期していません。ターゲット チェーン「{0}」がありません",
+        "official_en": "FK Chain Op: chain data is out of sync with IK Rig. Missing target chain, '{0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FKChainsOp:FKChainOpBadChain:54c3e08a",
+      "source": {
+        "set": "set-02",
+        "namespace": "FKChainsOp",
+        "key": "FKChainOpBadChain",
+        "jp_record_id": "switch:locres:set-01:FKChainsOp:FKChainOpBadChain:54c3e08a",
+        "official_en_record_id": "switch:locres:set-01:FKChainsOp:FKChainOpBadChain:54c3e08a",
+        "jp_sha256": "825bfde282e17fa3d6eadc6d89c841551d0fcbd1b9a5dba66c10972c4005b2ad",
+        "official_en_sha256": "4e9239aa98cb239430f08336703f3ad7494715015af8185fbd48d96ef283778b"
+      },
+      "text": {
+        "jp": "FK チェーン操作：マップされたリターゲティング チェーン「{0}」を初期化できませんでした",
+        "official_en": "FK Chain Op: could not initialize a mapped retarget chain, '{0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

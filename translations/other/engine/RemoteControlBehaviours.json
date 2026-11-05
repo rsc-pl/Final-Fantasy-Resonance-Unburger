@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "RemoteControlBehaviours",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:RemoteControlBehaviours:BehaviorNameBind:78049075",
+      "source": {
+        "set": "set-02",
+        "namespace": "RemoteControlBehaviours",
+        "key": "BehaviorNameBind",
+        "jp_record_id": "switch:locres:set-01:RemoteControlBehaviours:BehaviorNameBind:78049075",
+        "official_en_record_id": "switch:locres:set-01:RemoteControlBehaviours:BehaviorNameBind:78049075",
+        "jp_sha256": "f909597b6c19da01c925dd26bd94e008aa5e6255d4fb9d8ebce9daa96ac14bed",
+        "official_en_sha256": "56b9b63d2831804be5c23a83d6d2e4e19c3124f546890b0628e839c9806c0e00"
+      },
+      "text": {
+        "jp": "バインド",
+        "official_en": "Bind",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RemoteControlBehaviours:BehaviorDescBind:12133646",
+      "source": {
+        "set": "set-02",
+        "namespace": "RemoteControlBehaviours",
+        "key": "BehaviorDescBind",
+        "jp_record_id": "switch:locres:set-01:RemoteControlBehaviours:BehaviorDescBind:12133646",
+        "official_en_record_id": "switch:locres:set-01:RemoteControlBehaviours:BehaviorDescBind:12133646",
+        "jp_sha256": "d426e2ec05beafc541a3e0c93cb44deecc43e3a1582587dbbdea7fdf3cf48132",
+        "official_en_sha256": "445913cc5141c837c2fe2e6b713baa35a3ee7629336dbca03bdab6f648fada7b"
+      },
+      "text": {
+        "jp": "公開されているプロパティをバインドして、コントローラーの値と照合します。アクション リストに追加されているプロパティは入力値を受け取りません",
+        "official_en": "Bind exposed properties to match the value of the controller. Properties added to the action list will not receive input values",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RemoteControlBehaviours:BehaviorNameConditional:d2f04236",
+      "source": {
+        "set": "set-02",
+        "namespace": "RemoteControlBehaviours",
+        "key": "BehaviorNameConditional",
+        "jp_record_id": "switch:locres:set-01:RemoteControlBehaviours:BehaviorNameConditional:d2f04236",
+        "official_en_record_id": "switch:locres:set-01:RemoteControlBehaviours:BehaviorNameConditional:d2f04236",
+        "jp_sha256": "eae43fc4fa344d260d7d01f5b9cc5ab512d1e2487fda4a26668a30591fbf80a9",
+        "official_en_sha256": "f0d15abed6bcb93681a0b9d81a2941f3611b994d244ea017889bc05654f92c32"
+      },
+      "text": {
+        "jp": "条件付き",
+        "official_en": "Conditional",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RemoteControlBehaviours:BehaviorDescConditional:1598f27f",
+      "source": {
+        "set": "set-02",
+        "namespace": "RemoteControlBehaviours",
+        "key": "BehaviorDescConditional",
+        "jp_record_id": "switch:locres:set-01:RemoteControlBehaviours:BehaviorDescConditional:1598f27f",
+        "official_en_record_id": "switch:locres:set-01:RemoteControlBehaviours:BehaviorDescConditional:1598f27f",
+        "jp_sha256": "01c2a03b02245cddec7afde9ebf2af1c3ea43e7f3b4157e54a79d63a9d553254",
+        "official_en_sha256": "0f7b4414feeb513cf905e747204b8cdaf6203fc1ea5f2d1663ae051f63aaaf9a"
+      },
+      "text": {
+        "jp": "値が、設定されている条件と一致すれば、アクション リストが適用されます",
+        "official_en": "If value matches a set condition, apply action list.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

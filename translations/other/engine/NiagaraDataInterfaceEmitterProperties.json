@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NiagaraDataInterfaceEmitterProperties",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceEmitterProperties:GetEmitterBounds:e34ab036",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceEmitterProperties",
+        "key": "GetEmitterBounds",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceEmitterProperties:GetEmitterBounds:e34ab036",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceEmitterProperties:GetEmitterBounds:e34ab036",
+        "jp_sha256": "2a965b347fbebf2e57600d675ce52e504d5be4faf198020d33897bef67925a44",
+        "official_en_sha256": "4ed740b157e05f66ddaa066eec4c41c4d8d4723ac4402c82f338dd52fb03c839"
+      },
+      "text": {
+        "jp": "エミッタにローカル空間に固定した境界を取得します。これは、最後のフレームから計算された境界で、設定内容により動的または固定した境界になります。",
+        "official_en": "Get local space bounds for the emitter, this is the bounds calculated from the last frame, either dynamic or fixed bounds depending on what is set.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceEmitterProperties:GetEmitterFixedBounds:24bf2a1a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceEmitterProperties",
+        "key": "GetEmitterFixedBounds",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceEmitterProperties:GetEmitterFixedBounds:24bf2a1a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceEmitterProperties:GetEmitterFixedBounds:24bf2a1a",
+        "jp_sha256": "074c89f8873dc56ba01760774fb204442a4fd5e9ec50caf3740b024f290bde23",
+        "official_en_sha256": "94359b4bad186dcfb94a72cf9a5accc42a7c8df6f31082eaedd8dfbd89449918"
+      },
+      "text": {
+        "jp": "このエミッタのランタイム セット ローカル空間の固定境界を取得します。  Valid が false であれば、ランタイム固定境界は設定されていないため、エミッタはアセットの固定境界を使用するか、境界を動的に生成します",
+        "official_en": "Get the runtime set local space fixed bounds for the emitter.  If Valid is false then no runtime fixed bounds has been set, the emitter will be use the asset fixed bounds or dynamically generated bounds.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceEmitterProperties:GetEmitterLocalSpace:6aaa1b81",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceEmitterProperties",
+        "key": "GetEmitterLocalSpace",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceEmitterProperties:GetEmitterLocalSpace:6aaa1b81",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceEmitterProperties:GetEmitterLocalSpace:6aaa1b81",
+        "jp_sha256": "1701194644beab2f696bed870706ebe22239648434071c6017c8b2253094f36f",
+        "official_en_sha256": "51b9104e97ec8ae9b6884c6103ef8c1e60033630fdf8a0f2dc0ce46918dcdee9"
+      },
+      "text": {
+        "jp": "エミッタがローカル空間を使用しているかワールド空間を使用しているかを返します。",
+        "official_en": "Returns if the emitter is using local space or world space.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceEmitterProperties:SetEmitterFixedBounds:f76d95c9",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceEmitterProperties",
+        "key": "SetEmitterFixedBounds",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceEmitterProperties:SetEmitterFixedBounds:f76d95c9",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceEmitterProperties:SetEmitterFixedBounds:f76d95c9",
+        "jp_sha256": "609c5eb1fa9c54eca088d717901dfb187d4a1a155de0c1abcb7f84ac1245d6fd",
+        "official_en_sha256": "647c1d2bf7223098e9017c20b67d3357bd5b60f4605fc1eff01aa6a84202a0d4"
+      },
+      "text": {
+        "jp": "エミッタにランタイムローカル空間に固定した境界を設定します。これは、ブループリントから設定されたすべての固定した境界を無効にします。  有効性を False に設定すると、エミッタはアセットの境界セットアップ (固定/動的/プラグラム可能) にフォールバックします",
+        "official_en": "Set the runtime local space fixed bounds for the emitter, this stomps any fixed bounds set from Blueprint.  If Valid is set to false the emitter will fallback to the asset bounds setup, i.e. fixed / dynamic / programmable.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceEmitterProperties:SourceEmitterNotFoundSummary:95ed0059",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceEmitterProperties",
+        "key": "SourceEmitterNotFoundSummary",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceEmitterProperties:SourceEmitterNotFoundSummary:95ed0059",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceEmitterProperties:SourceEmitterNotFoundSummary:95ed0059",
+        "jp_sha256": "b99ed7a07f2274309b1eb2a74b224e0ad8576bdfc1c937d4c65710d97289daaa",
+        "official_en_sha256": "97af30d5100c646280aece1c438577867a6510453a24e73734f6755dc2a7fad5"
+      },
+      "text": {
+        "jp": "ソースエミッタ「{0}」が見つかりません",
+        "official_en": "Source emitter '{0}' could not be found",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceEmitterProperties:SourceEmitterNotFound:666d1405",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceEmitterProperties",
+        "key": "SourceEmitterNotFound",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceEmitterProperties:SourceEmitterNotFound:666d1405",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceEmitterProperties:SourceEmitterNotFound:666d1405",
+        "jp_sha256": "5f20389f35fb6b4525e100f19f5122d2c2d7c4773f5f6dbdacb709e41db4047f",
+        "official_en_sha256": "83b8c83b331b300f6f7dda7551c1d8a60001b11a06d77d6c73efd42288f992b2"
+      },
+      "text": {
+        "jp": "ソースエミッタが見つかりませんでした。",
+        "official_en": "Source emitter was not found.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

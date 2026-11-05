@@ -1,0 +1,752 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "Mover",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:Mover:InvalidBackendClassError:23e8d992",
+      "source": {
+        "set": "set-02",
+        "namespace": "Mover",
+        "key": "InvalidBackendClassError",
+        "jp_record_id": "switch:locres:set-01:Mover:InvalidBackendClassError:23e8d992",
+        "official_en_record_id": "switch:locres:set-01:Mover:InvalidBackendClassError:23e8d992",
+        "jp_sha256": "0552e0dcdeb9da646383b1cb18c62acc0bc83c29e5d17c78538b494ddc01e5f5",
+        "official_en_sha256": "2b445492b461858423024b4652ad85b0ddc19d0a8a23c69bcc346d71eae5b2d1"
+      },
+      "text": {
+        "jp": "BackendClass {0} ({1}) は IMoverBackendLiaisonInterface を実装していません。ムーバー アクタは機能しません",
+        "official_en": "BackendClass {0} on {1} does not implement IMoverBackendLiaisonInterface. Mover actor will not function.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Mover:MoverComponent_GetActiveLayeredMove_UnresolvedTarget:7cbf9a92",
+      "source": {
+        "set": "set-02",
+        "namespace": "Mover",
+        "key": "MoverComponent_GetActiveLayeredMove_UnresolvedTarget",
+        "jp_record_id": "switch:locres:set-01:Mover:MoverComponent_GetActiveLayeredMove_UnresolvedTarget:7cbf9a92",
+        "official_en_record_id": "switch:locres:set-01:Mover:MoverComponent_GetActiveLayeredMove_UnresolvedTarget:7cbf9a92",
+        "jp_sha256": "0e95a717b516c38b5fafcdba29b0f3b6554678606cc1d6d51b827f71e866cd32",
+        "official_en_sha256": "e3e241d918005ad23e860ca408ba3cc1fb03161a38729a73cc5f79475db9c5c7"
+      },
+      "text": {
+        "jp": "GetActiveLayeredMove に対して OutLayeredMove の解決に失敗しました",
+        "official_en": "Failed to resolve the OutLayeredMove for GetActiveLayeredMove",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Mover:MoverComponent_GetActiveLayeredMove_TargetNotStruct:06355216",
+      "source": {
+        "set": "set-02",
+        "namespace": "Mover",
+        "key": "MoverComponent_GetActiveLayeredMove_TargetNotStruct",
+        "jp_record_id": "switch:locres:set-01:Mover:MoverComponent_GetActiveLayeredMove_TargetNotStruct:06355216",
+        "official_en_record_id": "switch:locres:set-01:Mover:MoverComponent_GetActiveLayeredMove_TargetNotStruct:06355216",
+        "jp_sha256": "0e07fff24ce3443a390ae8f5726ea99ff7f5abbeac6e678179faf38b1a4538eb",
+        "official_en_sha256": "fc318c1a63361e4118cf284563e033451e7e6e4435052b8d92fa858c586101e2"
+      },
+      "text": {
+        "jp": "GetActiveLayeredMove：OutLayeredMove のターゲットは有効な型ではありません。構造体であり、FLayeredMoveBase の子であることが必要です",
+        "official_en": "GetActiveLayeredMove: Target for OutLayeredMove is not a valid type. It must be a Struct and a child of FLayeredMoveBase.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Mover:MoverComponent_GetActiveLayeredMove_BadType:d021438a",
+      "source": {
+        "set": "set-02",
+        "namespace": "Mover",
+        "key": "MoverComponent_GetActiveLayeredMove_BadType",
+        "jp_record_id": "switch:locres:set-01:Mover:MoverComponent_GetActiveLayeredMove_BadType:d021438a",
+        "official_en_record_id": "switch:locres:set-01:Mover:MoverComponent_GetActiveLayeredMove_BadType:d021438a",
+        "jp_sha256": "98af539aa0e425fb53eb3b0c7416e9467ed04cf1941810636e292c2f9137f83b",
+        "official_en_sha256": "c3414276df2df31cfb22fa3dc63a2e33df32bfa075c912cc6edfa166028414ff"
+      },
+      "text": {
+        "jp": "GetActiveLayeredMove：OutLayeredMove のターゲットは有効な型ではありません。FLayeredMoveBase の子であることが必要です",
+        "official_en": "GetActiveLayeredMove: Target for OutLayeredMove is not a valid type. Must be a child of FLayeredMoveBase.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Mover:InvalidStartingModeError:f2baa8b2",
+      "source": {
+        "set": "set-02",
+        "namespace": "Mover",
+        "key": "InvalidStartingModeError",
+        "jp_record_id": "switch:locres:set-01:Mover:InvalidStartingModeError:f2baa8b2",
+        "official_en_record_id": "switch:locres:set-01:Mover:InvalidStartingModeError:f2baa8b2",
+        "jp_sha256": "b1724ec65cf6c7d0e770ac26e339873e72c13a74325c22134386f44eb27268ac",
+        "official_en_sha256": "d7ba7d9c90dad9291c5160df4e91a5c615689fe5f0098859a8e8adcc357fddf6"
+      },
+      "text": {
+        "jp": "無効な StartingMovementMode {0} が {1} に指定されています。ムーバー アクタは機能しません",
+        "official_en": "Invalid StartingMovementMode {0} specified on {1}. Mover actor will not function.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Mover:InvalidMovementModeError:ab97f2ca",
+      "source": {
+        "set": "set-02",
+        "namespace": "Mover",
+        "key": "InvalidMovementModeError",
+        "jp_record_id": "switch:locres:set-01:Mover:InvalidMovementModeError:ab97f2ca",
+        "official_en_record_id": "switch:locres:set-01:Mover:InvalidMovementModeError:ab97f2ca",
+        "jp_sha256": "8e0c3603bd282cabf4e0fadc27f8ae75d16fbd1dde165864cace21397cdbf694",
+        "official_en_sha256": "ae1741afc505b59fff2ddd5470773fd94baa31aa996f2258ff3b6987764cb34e"
+      },
+      "text": {
+        "jp": "{0} ({1} としてマップ) に無効な移動モードがあります。ムーバー アクタは機能しません",
+        "official_en": "Invalid movement mode on {0}, mapped as {1}. Mover actor will not function.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Mover:InvalidTransitionOnModeError:6c28a2be",
+      "source": {
+        "set": "set-02",
+        "namespace": "Mover",
+        "key": "InvalidTransitionOnModeError",
+        "jp_record_id": "switch:locres:set-01:Mover:InvalidTransitionOnModeError:6c28a2be",
+        "official_en_record_id": "switch:locres:set-01:Mover:InvalidTransitionOnModeError:6c28a2be",
+        "jp_sha256": "6023deb672c1eeb27c0cd044ed4ae0356b23c85e89c2ef801dbf2bb61632c573",
+        "official_en_sha256": "9ba05812addfcef73e7403e6f055aa09f0cb920e87cf2cdae4a1693cf4f2066f"
+      },
+      "text": {
+        "jp": "タイプ {0} のモードでトランジション オブジェクトが無効であるか、欠落しています。トランジション配列をクリーンアップしてください",
+        "official_en": "Invalid or missing transition object on mode of type {0}. Clean up the Transitions array.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Mover:InvalidTransitionError:e448dccb",
+      "source": {
+        "set": "set-02",
+        "namespace": "Mover",
+        "key": "InvalidTransitionError",
+        "jp_record_id": "switch:locres:set-01:Mover:InvalidTransitionError:e448dccb",
+        "official_en_record_id": "switch:locres:set-01:Mover:InvalidTransitionError:e448dccb",
+        "jp_sha256": "9a088907b007a2ff2a4e39a5fc4f9432c6b2b2c96ab1016d2bd041ae9ecce45b",
+        "official_en_sha256": "b4af35878e5606d07b92acc589de597c0845819bfb47859804cfdee42f1a4450"
+      },
+      "text": {
+        "jp": "{0} でトランジション オブジェクトが無効であるか、欠落しています。トランジション配列をクリーンアップしてください",
+        "official_en": "Invalid or missing transition object on {0}. Clean up the Transitions array.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Mover:InvalidModeAsyncSupportsError:c8ebbb98",
+      "source": {
+        "set": "set-02",
+        "namespace": "Mover",
+        "key": "InvalidModeAsyncSupportsError",
+        "jp_record_id": "switch:locres:set-01:Mover:InvalidModeAsyncSupportsError:c8ebbb98",
+        "official_en_record_id": "switch:locres:set-01:Mover:InvalidModeAsyncSupportsError:c8ebbb98",
+        "jp_sha256": "85c1b7229deb4624be0dcb64a1fe8067672c48a5266e81ce0f7e80effe34e4f4",
+        "official_en_sha256": "1bdc05aafc14e7f0a6855d39e25ada1f35375200b4f6123eb1c6b3056a80625d"
+      },
+      "text": {
+        "jp": "{0} ({1} としてマップ) の移動モードは非同期をサポートしていませんが、バックエンドが非同期になっています",
+        "official_en": "Movement mode on {0}, mapped as {1} does not support asynchrony but its backend is asynchronous",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Mover:InvalidModeSettingsError:96db4d73",
+      "source": {
+        "set": "set-02",
+        "namespace": "Mover",
+        "key": "InvalidModeSettingsError",
+        "jp_record_id": "switch:locres:set-01:Mover:InvalidModeSettingsError:96db4d73",
+        "official_en_record_id": "switch:locres:set-01:Mover:InvalidModeSettingsError:96db4d73",
+        "jp_sha256": "ea09c32106067068ce5d6b67d35d06019bfaf9d416c6460c1199b99a57f5a713",
+        "official_en_sha256": "9c1d2cf85a0f81a59f4e94c0d63458129b432def538c4063e849c16c9b151afe"
+      },
+      "text": {
+        "jp": "{0} の移動モード ({1} としてマッピングされている) に無効な SharedSettingsClass があります。場合によっては、その無効な設定クラスを削除する必要があります",
+        "official_en": "Movement mode on {0}, mapped as {1}, has an invalid SharedSettingsClass. You may need to remove the invalid settings class.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Mover:MissingModeSettingsError:27e54fa6",
+      "source": {
+        "set": "set-02",
+        "namespace": "Mover",
+        "key": "MissingModeSettingsError",
+        "jp_record_id": "switch:locres:set-01:Mover:MissingModeSettingsError:27e54fa6",
+        "official_en_record_id": "switch:locres:set-01:Mover:MissingModeSettingsError:27e54fa6",
+        "jp_sha256": "c3fa067d27da038688c80525d77a3f018cf5fc94a45a22cb8a2f9b15507ef856",
+        "official_en_sha256": "b15328917aabc2481ee59c9dc4339e9885f56437e823d07e5267e0f1b858e0c6"
+      },
+      "text": {
+        "jp": "{0} ({1} としてマップ) の移動モードに必要な SharedSettingsClass {2} がありません。アセットの保存または再コンパイルが必要です",
+        "official_en": "Movement mode on {0}, mapped as {1}, is missing its desired SharedSettingsClass {2}. You may need to save the asset and/or recompile.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Mover:MissingBackendClassError:e9a1ca56",
+      "source": {
+        "set": "set-02",
+        "namespace": "Mover",
+        "key": "MissingBackendClassError",
+        "jp_record_id": "switch:locres:set-01:Mover:MissingBackendClassError:e9a1ca56",
+        "official_en_record_id": "switch:locres:set-01:Mover:MissingBackendClassError:e9a1ca56",
+        "jp_sha256": "d7a33ff240b6c4158101a57d67d8d105d5bd2b81ee0999f2dbb61d81d9dc0289",
+        "official_en_sha256": "1d826f0debcac935a7c988995376d67271057357b1660083bbf32c90d51fa72d"
+      },
+      "text": {
+        "jp": "BackendClass プロパティが {0} に指定されていません。ムーバー アクタは機能しません",
+        "official_en": "No BackendClass property specified on {0}. Mover actor will not function.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Mover:InvalidSyncStateTypeError:1067154b",
+      "source": {
+        "set": "set-02",
+        "namespace": "Mover",
+        "key": "InvalidSyncStateTypeError",
+        "jp_record_id": "switch:locres:set-01:Mover:InvalidSyncStateTypeError:1067154b",
+        "official_en_record_id": "switch:locres:set-01:Mover:InvalidSyncStateTypeError:1067154b",
+        "jp_sha256": "4bc338da9111607d5d14b9d063b802eabfeb6cbe31070eff0cb196524d5545dc",
+        "official_en_sha256": "1c83fe2ac981d023cc23cac27cc7bb891aebe5ea02ae680a042fdbbb9d493ea7"
+      },
+      "text": {
+        "jp": "RequiredType「{0}」は有効な型ではない、または存在しません。FMoverDataStructBase の子であることが必要です",
+        "official_en": "RequiredType '{0}' is not a valid type or is missing. Must be a child of FMoverDataStructBase.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Mover:RequiresReplicateMovementProperty:9b14b891",
+      "source": {
+        "set": "set-02",
+        "namespace": "Mover",
+        "key": "RequiresReplicateMovementProperty",
+        "jp_record_id": "switch:locres:set-01:Mover:RequiresReplicateMovementProperty:9b14b891",
+        "official_en_record_id": "switch:locres:set-01:Mover:RequiresReplicateMovementProperty:9b14b891",
+        "jp_sha256": "f8435c9e965465216f825d3358dada9dd625843c15b1f9fdbf358ccf4fe219e2",
+        "official_en_sha256": "b4231391b58347a75738151bb25cc87aa6c63ee0d17c22177e08a68c6c52f3ff"
+      },
+      "text": {
+        "jp": "所有アクタ ({0}) で、ReplicateMovement プロパティが有効になっていません。これは Chaos ネットワーク対応物理と併用するために必要であり、有効になっていないと低品質の移動が発生します。これを有効にしてください",
+        "official_en": "The owning actor ({0}) does not have the ReplicateMovement property enabled. This is required for use with Chaos Networked Physics and poor quality movement with occur without it. Please enable it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Mover:ConflictingReplicateMovementProperty:7b54ab23",
+      "source": {
+        "set": "set-02",
+        "namespace": "Mover",
+        "key": "ConflictingReplicateMovementProperty",
+        "jp_record_id": "switch:locres:set-01:Mover:ConflictingReplicateMovementProperty:7b54ab23",
+        "official_en_record_id": "switch:locres:set-01:Mover:ConflictingReplicateMovementProperty:7b54ab23",
+        "jp_sha256": "a5ae9b6d441dc1e7bd2dbda09541496e41bf9663af4b0d68b92a5d8c2799efe9",
+        "official_en_sha256": "899a330e37bf78f6e5615420781a06125812170edb78094389ff307f9e0f48cd"
+      },
+      "text": {
+        "jp": "所有アクタ ({0}) で、ReplicateMovement プロパティが有効になっています。これはネットワーク予測と競合し、低品質の移動が発生します。これを無効にしてください",
+        "official_en": "The owning actor ({0}) has the ReplicateMovement property enabled. This will conflict with Network Prediction and cause poor quality movement. Please disable it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Mover:InvalidModeTransitionAsyncSupportError:b641ac99",
+      "source": {
+        "set": "set-02",
+        "namespace": "Mover",
+        "key": "InvalidModeTransitionAsyncSupportError",
+        "jp_record_id": "switch:locres:set-01:Mover:InvalidModeTransitionAsyncSupportError:b641ac99",
+        "official_en_record_id": "switch:locres:set-01:Mover:InvalidModeTransitionAsyncSupportError:b641ac99",
+        "jp_sha256": "3bd4c62f6922abef4dda658eed1944eb14311b92781b56624af0257ec5117862",
+        "official_en_sha256": "371f389da90ce28534dccf03b9553a26fc793ec1ce342afdcf3fb12ffd2f69b7"
+      },
+      "text": {
+        "jp": "{0} ({1} としてマップ) の移行は非同期をサポートしていませんが、バックエンドが非同期になっています",
+        "official_en": "Transition on mode {0} on {1} does not support asynchrony but its backend is asynchronous",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Mover:InvalidModeTransitionSettingsError:b6fb7a56",
+      "source": {
+        "set": "set-02",
+        "namespace": "Mover",
+        "key": "InvalidModeTransitionSettingsError",
+        "jp_record_id": "switch:locres:set-01:Mover:InvalidModeTransitionSettingsError:b6fb7a56",
+        "official_en_record_id": "switch:locres:set-01:Mover:InvalidModeTransitionSettingsError:b6fb7a56",
+        "jp_sha256": "90cb8a2d851eed605a804e2bd5acd32332832f4e514e9c2083d64a1a2ca1304a",
+        "official_en_sha256": "f9269786f4f571e366dcbfca7a7164e72886a649872e11080e8d64f6ee58324e"
+      },
+      "text": {
+        "jp": "{1} でのモード {0} のトランジションに無効な SharedSettingsClass があります。場合によっては、その無効な設定クラスを削除する必要があります",
+        "official_en": "Transition on mode {0} on {1}, has an invalid SharedSettingsClass. You may need to remove the invalid settings class.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Mover:MissingModeTransitionSettingsError:92949acd",
+      "source": {
+        "set": "set-02",
+        "namespace": "Mover",
+        "key": "MissingModeTransitionSettingsError",
+        "jp_record_id": "switch:locres:set-01:Mover:MissingModeTransitionSettingsError:92949acd",
+        "official_en_record_id": "switch:locres:set-01:Mover:MissingModeTransitionSettingsError:92949acd",
+        "jp_sha256": "c4236e368dd1c8bf697ba9b49fde8b8fc19f0daa4ff21d5ac01d75e29a8749d5",
+        "official_en_sha256": "5fce30410527e062e83174ba530acd60c376d51726c3724b87a3752f7da7c77b"
+      },
+      "text": {
+        "jp": "{1} でのモード {0} のトランジションに、目的とする SharedSettingsClass {2} がありません。場合によっては、アセットの保存や再コンパイルが必要です",
+        "official_en": "Transition on mode {0} on {1}, is missing its desired SharedSettingsClass {2}. You may need to save the asset and/or recompile.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Mover:InvalidTransitionSettingsError:bbf75ac0",
+      "source": {
+        "set": "set-02",
+        "namespace": "Mover",
+        "key": "InvalidTransitionSettingsError",
+        "jp_record_id": "switch:locres:set-01:Mover:InvalidTransitionSettingsError:bbf75ac0",
+        "official_en_record_id": "switch:locres:set-01:Mover:InvalidTransitionSettingsError:bbf75ac0",
+        "jp_sha256": "ab3c87ad5afcf47c9d864cc6fe605034588d754f587e2ad9a094aabf35e0957d",
+        "official_en_sha256": "055aa8e968bc5601a9c637e15cb51c6242370695cfe12846ba255701a64a7861"
+      },
+      "text": {
+        "jp": "{0} のトランジションに無効な SharedSettingsClass があります。場合によっては、その無効な設定クラスを削除する必要があります",
+        "official_en": "Transition on {0}, has an invalid SharedSettingsClass. You may need to remove the invalid settings class.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Mover:MissingTransitionSettingsError:53e26850",
+      "source": {
+        "set": "set-02",
+        "namespace": "Mover",
+        "key": "MissingTransitionSettingsError",
+        "jp_record_id": "switch:locres:set-01:Mover:MissingTransitionSettingsError:53e26850",
+        "official_en_record_id": "switch:locres:set-01:Mover:MissingTransitionSettingsError:53e26850",
+        "jp_sha256": "aedb7626ac974691bdfb6f0d18082041860b07f2b7f74befc3a43e6cb2b1549a",
+        "official_en_sha256": "32a5ec3157c12ba26a2a0f120f5a46f6657ddd02a42c66d0c1382e6219a7f178"
+      },
+      "text": {
+        "jp": "{0} のトランジションに、目的とする SharedSettingsClass {2} がありません。場合によっては、アセットの保存や再コンパイルが必要です",
+        "official_en": "Transition on {0}, is missing its desired SharedSettingsClass {2}. You may need to save the asset and/or recompile.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

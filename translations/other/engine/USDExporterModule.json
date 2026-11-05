@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "USDExporterModule",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:USDExporterModule:FailedExportLayerOpenSubText:cc1ddf79",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDExporterModule",
+        "key": "FailedExportLayerOpenSubText",
+        "jp_record_id": "switch:locres:set-01:USDExporterModule:FailedExportLayerOpenSubText:cc1ddf79",
+        "official_en_record_id": "switch:locres:set-01:USDExporterModule:FailedExportLayerOpenSubText:cc1ddf79",
+        "jp_sha256": "596368e2f5c1e8f037dfea3b25520f3f06ff630db7f66ada8911734fdf168102",
+        "official_en_sha256": "21115e64f7f0c175dc2b64664a6a1acb4a9104a95e5dde6bc82f146ac5cc605f"
+      },
+      "text": {
+        "jp": "USD レイヤー「{0}」にエクスポートできません。この識別子のレイヤーは別の USD ステージで開かれているためです。異なるファイル パスを使用する、または他の USD ステージを閉じて、再びエクスポートを試します",
+        "official_en": "Failed to export to the USD layer '{0}' as a layer with this identifier is already open in another USD Stage. Please use a different file path or try closing that other USD stage and exporting again.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDExporterModule:FailedExportLayerOpenText:6a7f4d5e",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDExporterModule",
+        "key": "FailedExportLayerOpenText",
+        "jp_record_id": "switch:locres:set-01:USDExporterModule:FailedExportLayerOpenText:6a7f4d5e",
+        "official_en_record_id": "switch:locres:set-01:USDExporterModule:FailedExportLayerOpenText:6a7f4d5e",
+        "jp_sha256": "877472261ba61f66a716006c292e0fe039c47f4e5a0f78f672d5a592d99dafa6",
+        "official_en_sha256": "8692b4d0065c45289b567a73b38f335a66e7413d0e4295482aefa8be9b9c3ad0"
+      },
+      "text": {
+        "jp": "USD:エクスポートに失敗",
+        "official_en": "USD: Export failure",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

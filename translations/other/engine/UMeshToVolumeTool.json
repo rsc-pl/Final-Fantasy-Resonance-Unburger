@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UMeshToVolumeTool",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UMeshToVolumeTool:OnStartTool:8e696701",
+      "source": {
+        "set": "set-02",
+        "namespace": "UMeshToVolumeTool",
+        "key": "OnStartTool",
+        "jp_record_id": "switch:locres:set-01:UMeshToVolumeTool:OnStartTool:8e696701",
+        "official_en_record_id": "switch:locres:set-01:UMeshToVolumeTool:OnStartTool:8e696701",
+        "jp_sha256": "7d903fb34c6f78934e0325cca727f28f281b9c5f34186b713481b290e0a95100",
+        "official_en_sha256": "43c29ecbb6067b35d6f39210b293a0f15b26faacf3e6cd623d256d5d573a81b2"
+      },
+      "text": {
+        "jp": "スタティック メッシュをボリュームに変換するか、既存のボリュームを更新します",
+        "official_en": "Convert a Static Mesh to a Volume, or update an existing Volume",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UMeshToVolumeTool:MeshToVolumeToolTransactionName:ca29f081",
+      "source": {
+        "set": "set-02",
+        "namespace": "UMeshToVolumeTool",
+        "key": "MeshToVolumeToolTransactionName",
+        "jp_record_id": "switch:locres:set-01:UMeshToVolumeTool:MeshToVolumeToolTransactionName:ca29f081",
+        "official_en_record_id": "switch:locres:set-01:UMeshToVolumeTool:MeshToVolumeToolTransactionName:ca29f081",
+        "jp_sha256": "1a46ca103fab4a2e0bdae7074426988c42bb9e3b41f595a12fe64eba16e7400d",
+        "official_en_sha256": "bbac66dc1e3138a07806f5c679db61642145a58bbd8dcd6264cef20408050379"
+      },
+      "text": {
+        "jp": "ボリュームを作成",
+        "official_en": "Create Volume",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UMeshToVolumeTool:OpenBoundaryEdges:37c436c2",
+      "source": {
+        "set": "set-02",
+        "namespace": "UMeshToVolumeTool",
+        "key": "OpenBoundaryEdges",
+        "jp_record_id": "switch:locres:set-01:UMeshToVolumeTool:OpenBoundaryEdges:37c436c2",
+        "official_en_record_id": "switch:locres:set-01:UMeshToVolumeTool:OpenBoundaryEdges:37c436c2",
+        "jp_sha256": "bf8aed2c9e3ec311d088b5d43cc461ffbb91f06c4e141b970622bef85a798cf8",
+        "official_en_sha256": "32e85b017cb0c17ec0308ddff12efe52f17dade31efcc1aadfafa9953b04eee4"
+      },
+      "text": {
+        "jp": "入力メッシュが閉じたメッシュではないため、破損したボリュームが生成される可能性があります",
+        "official_en": "Input Mesh is non-Closed and may produce a broken Volume",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UMeshToVolumeTool:MeshToVolumeToolName:9dde9c42",
+      "source": {
+        "set": "set-02",
+        "namespace": "UMeshToVolumeTool",
+        "key": "MeshToVolumeToolName",
+        "jp_record_id": "switch:locres:set-01:UMeshToVolumeTool:MeshToVolumeToolName:9dde9c42",
+        "official_en_record_id": "switch:locres:set-01:UMeshToVolumeTool:MeshToVolumeToolName:9dde9c42",
+        "jp_sha256": "63f797acf4abd13588da4094954990add1cb2b0bec2634b5fd17c518b464e6cc",
+        "official_en_sha256": "71009f2b2d582f6369c1066e8b11ef0452e57a6ec8d65c0768eed39a956b6c55"
+      },
+      "text": {
+        "jp": "メッシュからボリューム",
+        "official_en": "Mesh To Volume",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UMeshToVolumeTool:LargeFaceCount:d64407fc",
+      "source": {
+        "set": "set-02",
+        "namespace": "UMeshToVolumeTool",
+        "key": "LargeFaceCount",
+        "jp_record_id": "switch:locres:set-01:UMeshToVolumeTool:LargeFaceCount:d64407fc",
+        "official_en_record_id": "switch:locres:set-01:UMeshToVolumeTool:LargeFaceCount:d64407fc",
+        "jp_sha256": "cc39a8b36739ad10db1a490c8ba80dd655c43e660c0b21f8535a7f67db164232",
+        "official_en_sha256": "f800608225b298502af1facfad812a920f5cb70bd4c389184c5d18f7f59a2552"
+      },
+      "text": {
+        "jp": "メッシュにあるフェース数が多いため、出力ボリューム表現が自動的に単純化されました",
+        "official_en": "Mesh has large face count; output Volume representation has been automatically simplified",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

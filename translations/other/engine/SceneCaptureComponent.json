@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SceneCaptureComponent",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SceneCaptureComponent:CaptureScene:309ccee9",
+      "source": {
+        "set": "set-02",
+        "namespace": "SceneCaptureComponent",
+        "key": "CaptureScene",
+        "jp_record_id": "switch:locres:set-01:SceneCaptureComponent:CaptureScene:309ccee9",
+        "official_en_record_id": "switch:locres:set-01:SceneCaptureComponent:CaptureScene:309ccee9",
+        "jp_sha256": "6973f6d58abcae8ec545e62220fac8fdabc9d67a189b53d6a262acf6d58c0cea",
+        "official_en_sha256": "864c5d7e1608dbe2dedee5d5dda790290ec6adbdb1fd60abd8097daaa90aacbe"
+      },
+      "text": {
+        "jp": "CaptureScene:bCaptureEveryFrameを有効にしたシーンキャプチャを更新するように指示されました - これは効率性が大幅に低下します。",
+        "official_en": "CaptureScene: Scene capture with bCaptureEveryFrame enabled was told to update - major inefficiency.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SceneCaptureComponent:MapCheck_Message_UseFauxOrthoViewPosDeprecation:47b02aa5",
+      "source": {
+        "set": "set-02",
+        "namespace": "SceneCaptureComponent",
+        "key": "MapCheck_Message_UseFauxOrthoViewPosDeprecation",
+        "jp_record_id": "switch:locres:set-01:SceneCaptureComponent:MapCheck_Message_UseFauxOrthoViewPosDeprecation:47b02aa5",
+        "official_en_record_id": "switch:locres:set-01:SceneCaptureComponent:MapCheck_Message_UseFauxOrthoViewPosDeprecation:47b02aa5",
+        "jp_sha256": "653becad462704ed5ef308406a4554ebaeff6b1c33757d904356067a7ee72333",
+        "official_en_sha256": "f004f64773042a099e61aa332e1f3aa99825b5186db99504c273ab6ee564cd5a"
+      },
+      "text": {
+        "jp": "bUseFauxOrthoViewPos は true ですが、非推奨になりました。このフラグのこのカスタムの使用法が影響を受けない限り、設定は false に設定する必要があります",
+        "official_en": "bUseFauxOrthoViewPos is true but has been deprecated. The setting should be set to false unless any custom usage of this flag is not affected.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

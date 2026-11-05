@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AvaViewportPostProcessVisualizer",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AvaViewportPostProcessVisualizer:AlphaChannelInPostProcessingRequiredTitle:2a3388a0",
+      "source": {
+        "set": "set-02",
+        "namespace": "AvaViewportPostProcessVisualizer",
+        "key": "AlphaChannelInPostProcessingRequiredTitle",
+        "jp_record_id": "switch:locres:set-01:AvaViewportPostProcessVisualizer:AlphaChannelInPostProcessingRequiredTitle:2a3388a0",
+        "official_en_record_id": "switch:locres:set-01:AvaViewportPostProcessVisualizer:AlphaChannelInPostProcessingRequiredTitle:2a3388a0",
+        "jp_sha256": "30aabafa109ced27904e0e018627af365d0a5be4888e2ed67727911b5c4c27d8",
+        "official_en_sha256": "9ea229df151d094eec1fa4275f530b917449e4e1100b04baec179a4d05d38524"
+      },
+      "text": {
+        "jp": "プロジェクト設定が必要です",
+        "official_en": "Project Setting Required",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AvaViewportPostProcessVisualizer:AlphaChannelInPostProcessingRequiredMessage:55c57e4a",
+      "source": {
+        "set": "set-02",
+        "namespace": "AvaViewportPostProcessVisualizer",
+        "key": "AlphaChannelInPostProcessingRequiredMessage",
+        "jp_record_id": "switch:locres:set-01:AvaViewportPostProcessVisualizer:AlphaChannelInPostProcessingRequiredMessage:55c57e4a",
+        "official_en_record_id": "switch:locres:set-01:AvaViewportPostProcessVisualizer:AlphaChannelInPostProcessingRequiredMessage:55c57e4a",
+        "jp_sha256": "2ef92d5cad53d544f553c3925bc099ca02d316d76b77dec9e6d568cb09f03e66",
+        "official_en_sha256": "c1dd7d0d7500b3d42e7aed8773e6e854c5c3b2f21df563eb722d35b8567adf28"
+      },
+      "text": {
+        "jp": "このポストプロセス エフェクトが機能するのは、[プロジェクト設定] > [エンジン] > [レンダリング] > [デフォルト設定] > [アルファ出力] でアルファ出力が有効になっている場合だけです。警告：更新すると、レンダラのパフォーマンス コストが増える場合があります。\n\nこの設定を「DefaultEngine.ini」で今すぐ有効にしますか？",
+        "official_en": "This Post Process effect will not work without enabling Alpha Output via Project Settings > Engine > Rendering > Default Settings > 'Alpha Ouput'. Warning: update can add renderer performance costs.\n\nEnable this setting in DefaultEngine.ini now?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

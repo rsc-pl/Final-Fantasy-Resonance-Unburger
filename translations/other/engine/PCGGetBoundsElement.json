@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGGetBoundsElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGGetBoundsElement:NodeTooltip:1d57e470",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGetBoundsElement",
+        "key": "NodeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGGetBoundsElement:NodeTooltip:1d57e470",
+        "official_en_record_id": "switch:locres:set-01:PCGGetBoundsElement:NodeTooltip:1d57e470",
+        "jp_sha256": "5a55e171edaee46189dcf5b812bf9b79158bda2c8fba762c1d5213b1617d6e41",
+        "official_en_sha256": "9d60f62bc3bcdbcf6f49e9706394e38262f3bd643589d45503db3118bb4b3c45"
+      },
+      "text": {
+        "jp": "入力の境界を属性として計算します",
+        "official_en": "Computes the bounds of the inputs as attributes.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGetBoundsElement:NodeTitle:68ac32c9",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGetBoundsElement",
+        "key": "NodeTitle",
+        "jp_record_id": "switch:locres:set-01:PCGGetBoundsElement:NodeTitle:68ac32c9",
+        "official_en_record_id": "switch:locres:set-01:PCGGetBoundsElement:NodeTitle:68ac32c9",
+        "jp_sha256": "06ae822d346a30b307423bf34ecb977982b7bb281ff875bef5074d9433da688c",
+        "official_en_sha256": "bfe401fc73d9a9355c9f04ee030ca6d5a5dbc223aec085707b8061f8e1e60164"
+      },
+      "text": {
+        "jp": "境界を取得",
+        "official_en": "Get Bounds",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGetBoundsElement:InvalidBoundsOnInput:f58f306a",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGetBoundsElement",
+        "key": "InvalidBoundsOnInput",
+        "jp_record_id": "switch:locres:set-01:PCGGetBoundsElement:InvalidBoundsOnInput:f58f306a",
+        "official_en_record_id": "switch:locres:set-01:PCGGetBoundsElement:InvalidBoundsOnInput:f58f306a",
+        "jp_sha256": "17821d5bdac682bcf0a205dbd881ba46b965ed09b7d7b6070095053939b46790",
+        "official_en_sha256": "46f54332c432768c3630d27be428845f51832ecbca0b5753e34c8f64a5e8f9d7"
+      },
+      "text": {
+        "jp": "スキップされた、無効な境界がある空間データ",
+        "official_en": "Skipped spatial data that had invalid bounds.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGetBoundsElement:UnboundedInput:fe5baf21",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGetBoundsElement",
+        "key": "UnboundedInput",
+        "jp_record_id": "switch:locres:set-01:PCGGetBoundsElement:UnboundedInput:fe5baf21",
+        "official_en_record_id": "switch:locres:set-01:PCGGetBoundsElement:UnboundedInput:fe5baf21",
+        "jp_sha256": "ea714bab65f8b266154601635d70409121008e0b2f5e678544b71c130d29f201",
+        "official_en_sha256": "d7b05cf5ac99734755535540e2f076ba56bec64eee5620854abe6eefbe6a247a"
+      },
+      "text": {
+        "jp": "スキップされた、境界のない空間データ",
+        "official_en": "Skipped unbounded spatial data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

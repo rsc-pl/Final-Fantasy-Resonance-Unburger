@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MaterialValidator",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MaterialValidator:MaterialValidator_EstimatedPSOverPlatformLimit:322bbbb4",
+      "source": {
+        "set": "set-02",
+        "namespace": "MaterialValidator",
+        "key": "MaterialValidator_EstimatedPSOverPlatformLimit",
+        "jp_record_id": "switch:locres:set-01:MaterialValidator:MaterialValidator_EstimatedPSOverPlatformLimit:322bbbb4",
+        "official_en_record_id": "switch:locres:set-01:MaterialValidator:MaterialValidator_EstimatedPSOverPlatformLimit:322bbbb4",
+        "jp_sha256": "48b00997ccb701187bf177f57f648b3544c8e1478ee6f1fd610535464f5842d5",
+        "official_en_sha256": "210ce36e963ab212d1b13f1bdf8c7fb2a3d946f70c4509b20adb44f17e8db136"
+      },
+      "text": {
+        "jp": "PS サンプラの推定数 ({0}) がサポートされているシェーダー プラットフォーム ({1}) よりも多く、シェーダーは、シェーダー プラットフォーム「{2}」用にコンパイルされない可能性があります",
+        "official_en": "Estimated amount of PS samplers ({0}) is larger than supported on shader platform ({1}), shader will likely not compile for a shader platform '{2}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MaterialValidator:MaterialValidator_EstimatedVSOverPlatformLimit:d086e09f",
+      "source": {
+        "set": "set-02",
+        "namespace": "MaterialValidator",
+        "key": "MaterialValidator_EstimatedVSOverPlatformLimit",
+        "jp_record_id": "switch:locres:set-01:MaterialValidator:MaterialValidator_EstimatedVSOverPlatformLimit:d086e09f",
+        "official_en_record_id": "switch:locres:set-01:MaterialValidator:MaterialValidator_EstimatedVSOverPlatformLimit:d086e09f",
+        "jp_sha256": "ab31da726deea2179f3c4a0deade58e24a7d8ed139a17aa90a75060796cb1aac",
+        "official_en_sha256": "02b30fc47031c1aaacb9cdb2d84fdda258da3473a1fdec4370299d445194f8cf"
+      },
+      "text": {
+        "jp": "VS サンプラの推定数 ({0}) がサポートされているシェーダー プラットフォーム ({1}) よりも多く、シェーダーは、シェーダー プラットフォーム「{2}」用にコンパイルされない可能性があります",
+        "official_en": "Estimated amount of VS samplers ({0}) is larger than supported on shader platform ({1}), shader will likely not compile for a shader platform '{2}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MaterialValidator:MaterialValidator_CompilationError:d1ff4c5b",
+      "source": {
+        "set": "set-02",
+        "namespace": "MaterialValidator",
+        "key": "MaterialValidator_CompilationError",
+        "jp_record_id": "switch:locres:set-01:MaterialValidator:MaterialValidator_CompilationError:d1ff4c5b",
+        "official_en_record_id": "switch:locres:set-01:MaterialValidator:MaterialValidator_CompilationError:d1ff4c5b",
+        "jp_sha256": "368df2d788b31a1df30684538726f74b03cdec48cfd93eebc3645bd2f04c3d06",
+        "official_en_sha256": "b46c3325d70965abf08e52e6b1a3e380d75a121d541b2b9c7d3084912d0cb134"
+      },
+      "text": {
+        "jp": "「{1}」のため、プラットフォーム {0} のマテリアルをコンパイルできませんでした",
+        "official_en": "Failed to compile Material for platform {0} due to '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MaterialValidator:MaterialValidator_TranslationError:bb5aaef2",
+      "source": {
+        "set": "set-02",
+        "namespace": "MaterialValidator",
+        "key": "MaterialValidator_TranslationError",
+        "jp_record_id": "switch:locres:set-01:MaterialValidator:MaterialValidator_TranslationError:bb5aaef2",
+        "official_en_record_id": "switch:locres:set-01:MaterialValidator:MaterialValidator_TranslationError:bb5aaef2",
+        "jp_sha256": "5046c00b0d6086b746e9c4b6b34c17204c75a241916d2cb609b453d672ab9367",
+        "official_en_sha256": "520dba8195defab83d33e4b33213801c3575952a8cf63f7acc29ac579cf92de6"
+      },
+      "text": {
+        "jp": "「{1}」のため、プラットフォーム {0} のマテリアルを移動できませんでした",
+        "official_en": "Failed to translate Material for platform {0} due to '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MaterialValidator:MaterialValidator_TranslationFailedButNoError:30acd4a6",
+      "source": {
+        "set": "set-02",
+        "namespace": "MaterialValidator",
+        "key": "MaterialValidator_TranslationFailedButNoError",
+        "jp_record_id": "switch:locres:set-01:MaterialValidator:MaterialValidator_TranslationFailedButNoError:30acd4a6",
+        "official_en_record_id": "switch:locres:set-01:MaterialValidator:MaterialValidator_TranslationFailedButNoError:30acd4a6",
+        "jp_sha256": "0d2e6cf17570e76097349b3d886f848827439dc0fcdacfea3da7a12d06dc7805",
+        "official_en_sha256": "d9a583f2073b710edebce864a08a1602d503652bbe1ffc2629b2f8ff4b4c3901"
+      },
+      "text": {
+        "jp": "マテリアルの移動は、エラーが発生して失敗しました",
+        "official_en": "Material translation failed with no error.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

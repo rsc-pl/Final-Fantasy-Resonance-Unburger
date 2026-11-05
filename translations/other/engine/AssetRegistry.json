@@ -1,0 +1,493 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AssetRegistry",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AssetRegistry:CommandText_GetByClass:e01d29c7",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRegistry",
+        "key": "CommandText_GetByClass",
+        "jp_record_id": "switch:locres:set-01:AssetRegistry:CommandText_GetByClass:e01d29c7",
+        "official_en_record_id": "switch:locres:set-01:AssetRegistry:CommandText_GetByClass:e01d29c7",
+        "jp_sha256": "ab4720e6e571ea164dc1e198e924a825584448733a5eb86787311fdb4871154b",
+        "official_en_sha256": "6a7e85eaf0241c5ce09424f002747152b08b1db2521f76d0c59a2d6f3e4bed39"
+      },
+      "text": {
+        "jp": "<ClassName> //提供クラスと一致するアセットに対しアセットレジストリのクエリを実行します",
+        "official_en": "<ClassName> //Query the asset registry for assets matching the supplied class",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRegistry:CommandText_GetReferencers:1821d239",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRegistry",
+        "key": "CommandText_GetReferencers",
+        "jp_record_id": "switch:locres:set-01:AssetRegistry:CommandText_GetReferencers:1821d239",
+        "official_en_record_id": "switch:locres:set-01:AssetRegistry:CommandText_GetReferencers:1821d239",
+        "jp_sha256": "65e39bdfd21e134e7e50917b311347a40c6ebb2dda737d9cee80204811558d53",
+        "official_en_sha256": "e5a47b15df91c670e84eb03cdcb8541db29ba6274924edd9d5a0c282968cc69a"
+      },
+      "text": {
+        "jp": "<ObjectPath> //提供パッケージのリファレンサに対しアセットレジストリのクエリを実行します",
+        "official_en": "<ObjectPath> //Query the asset registry for referencers for the specified package",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRegistry:CommandText_GetByName:f3b89038",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRegistry",
+        "key": "CommandText_GetByName",
+        "jp_record_id": "switch:locres:set-01:AssetRegistry:CommandText_GetByName:f3b89038",
+        "official_en_record_id": "switch:locres:set-01:AssetRegistry:CommandText_GetByName:f3b89038",
+        "jp_sha256": "9f88037953160083577c8cd5692502776c892086be44e179545f3242d2b3f82a",
+        "official_en_sha256": "35cd5370c7f1462ed2a493a3abcdfea7cb5220ec8a60f4bd90f2e21df04fab4d"
+      },
+      "text": {
+        "jp": "<PackageName> //指定パッケージ名と一致するアセットに対しアセットレジストリのクエリを実行します",
+        "official_en": "<PackageName> //Query the asset registry for assets matching the supplied package name",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRegistry:CommandText_GetDependencies:1b8c7e86",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRegistry",
+        "key": "CommandText_GetDependencies",
+        "jp_record_id": "switch:locres:set-01:AssetRegistry:CommandText_GetDependencies:1b8c7e86",
+        "official_en_record_id": "switch:locres:set-01:AssetRegistry:CommandText_GetDependencies:1b8c7e86",
+        "jp_sha256": "66a156803513d710818b10645549d1946faebbc9f6fa6fbcb6b25cc1b7006e84",
+        "official_en_sha256": "33293c056625b0ce14f483afec57f23483a748e6b3f86159fc72b0fecfb87907"
+      },
+      "text": {
+        "jp": "<PackageName> //提供パッケージとの依存関係に対しアセットレジストリのクエリを実行します",
+        "official_en": "<PackageName> //Query the asset registry for dependencies for the specified package",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRegistry:CommandText_GetByPath:cf156c3c",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRegistry",
+        "key": "CommandText_GetByPath",
+        "jp_record_id": "switch:locres:set-01:AssetRegistry:CommandText_GetByPath:cf156c3c",
+        "official_en_record_id": "switch:locres:set-01:AssetRegistry:CommandText_GetByPath:cf156c3c",
+        "jp_sha256": "ab98781f6027afeacbef82938b4cec4f875f257ee896c14f5d5894d02a8f5b00",
+        "official_en_sha256": "47bb8d536df6977e6e35d73061d823ae5e82f79b65286930a8c1c7e79929efcd"
+      },
+      "text": {
+        "jp": "<Path> //提供パッケージ パスと一致するアセットに対しアセットレジストリのクエリを実行します",
+        "official_en": "<Path> //Query the asset registry for assets matching the supplied package path",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRegistry:CommandText_ScanPath:c5e32a78",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRegistry",
+        "key": "CommandText_ScanPath",
+        "jp_record_id": "switch:locres:set-01:AssetRegistry:CommandText_ScanPath:c5e32a78",
+        "official_en_record_id": "switch:locres:set-01:AssetRegistry:CommandText_ScanPath:c5e32a78",
+        "jp_sha256": "40b97c114848e79ca8e8b657d54aacbebf2b0ce21ee0cc3078e9b30bcc4988e2",
+        "official_en_sha256": "10ade43f78e9c0926d62a32b524158ca50ae9edd95aa73f3d8ca065a2771d22f"
+      },
+      "text": {
+        "jp": "<PathToScan> //パッケージファイルのディレクタ名または指定ファイル名をスキャンし、アセット レジストリにロードします。追加の文字列パラメータ：-forcerescan, -ignoreDenyLists, -asfile, -asdir",
+        "official_en": "<PathToScan> //Scan the given filename or directoryname for package files and load them into the assetregistry. Extra string parameters: -forcerescan, -ignoreDenyLists, -asfile, -asdir",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRegistry:CommandText_GetByTag:e59a76f8",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRegistry",
+        "key": "CommandText_GetByTag",
+        "jp_record_id": "switch:locres:set-01:AssetRegistry:CommandText_GetByTag:e59a76f8",
+        "official_en_record_id": "switch:locres:set-01:AssetRegistry:CommandText_GetByTag:e59a76f8",
+        "jp_sha256": "3ae9ca5f28debba9e5497163f9a6b9636acb0a4a334e86e7554b49f08ab00345",
+        "official_en_sha256": "8bcdb5b4af2b8e69d074365eb1be6a599861e7a77618102db396979b22741c4d"
+      },
+      "text": {
+        "jp": "<TagName> <TagValue> //提供タグと値に一致するアセットに対しアセットレジストリのクエリを実行します",
+        "official_en": "<TagName> <TagValue> //Query the asset registry for assets matching the supplied tag and value",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRegistry:CommandText_DumpAllocatedSize:7a1fece4",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRegistry",
+        "key": "CommandText_DumpAllocatedSize",
+        "jp_record_id": "switch:locres:set-01:AssetRegistry:CommandText_DumpAllocatedSize:7a1fece4",
+        "official_en_record_id": "switch:locres:set-01:AssetRegistry:CommandText_DumpAllocatedSize:7a1fece4",
+        "jp_sha256": "93291e44e173b1cb0a9f5276d1f0a8be9a598a30569b507f078e33dfe0dfb74b",
+        "official_en_sha256": "44581161cd13c88f1a4ecd24a5e33cd62dc9b32f627661926154786806be5fe4"
+      },
+      "text": {
+        "jp": "アセットレジストリのアロケーション状態をログにダンプ",
+        "official_en": "Dump the allocations of the asset registry state to the log",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRegistry:CommandText_DumpState:9cd35698",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRegistry",
+        "key": "CommandText_DumpState",
+        "jp_record_id": "switch:locres:set-01:AssetRegistry:CommandText_DumpState:9cd35698",
+        "official_en_record_id": "switch:locres:set-01:AssetRegistry:CommandText_DumpState:9cd35698",
+        "jp_sha256": "96a986301fd65ff7678dd35b7eaedd08049b82b8ca7583a97e1baf5069c6d9f8",
+        "official_en_sha256": "cd850f151269dd61926cbb1dbeeaf0e7b82a814625974c22fa33e1987d67c952"
+      },
+      "text": {
+        "jp": "アセット レジストリの状態をファイルにダンプします。ログにもタンプ出力するために -log を指定します。追加の文字列パラメータ：All、ObjectPath、PackageName、Path、Class、Tag、Dependencies、DependencyDetails、PackageData、AssetBundles、AssetTags",
+        "official_en": "Dump the state of the asset registry to a file. Pass -log to dump to the log as well. Extra string parameters: All, ObjectPath, PackageName, Path, Class, Tag, Dependencies, DependencyDetails, PackageData, AssetBundles, AssetTags",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRegistry:CommandText_FindInvalidUAssets:1c0f45e0",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRegistry",
+        "key": "CommandText_FindInvalidUAssets",
+        "jp_record_id": "switch:locres:set-01:AssetRegistry:CommandText_FindInvalidUAssets:1c0f45e0",
+        "official_en_record_id": "switch:locres:set-01:AssetRegistry:CommandText_FindInvalidUAssets:1c0f45e0",
+        "jp_sha256": "7841211be68bbaf189964925670949b065f3dff740063cca1da0eb52fd2a81fb",
+        "official_en_sha256": "06d13b53bf4b0edd668969df5936b26974c13b75a218b796ac9f3c0430f4f3ca"
+      },
+      "text": {
+        "jp": "「UAsset」ファイルに存在し、パッケージの名前を共有しない全アセットのリストを検索します",
+        "official_en": "Finds a list of all assets which are in UAsset files but do not share the name of the package",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRegistry:SerializeNameMapInvalidNameOffset:5c23b62f",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRegistry",
+        "key": "SerializeNameMapInvalidNameOffset",
+        "jp_record_id": "switch:locres:set-01:AssetRegistry:SerializeNameMapInvalidNameOffset:5c23b62f",
+        "official_en_record_id": "switch:locres:set-01:AssetRegistry:SerializeNameMapInvalidNameOffset:5c23b62f",
+        "jp_sha256": "a7322b3601ce3b297cee0be0a52529f7e611868ba667a6978e586717e039f02f",
+        "official_en_sha256": "56357dbc61e061b6ae7ab34b156e545521961480e931c6426aa56dba42052184"
+      },
+      "text": {
+        "jp": "パッケージをアンロードできません：{FileName}。理由：名前テーブルのオフセット {NameOffset} をサイズ {PackageSize} のパッケージでシークできませんでした",
+        "official_en": "Package is unloadable: {FileName}. Reason: Failed to seek to name table offset {NameOffset} in package of size {PackageSize}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRegistry:SerializeNameMapInvalidName:bb90ef1f",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRegistry",
+        "key": "SerializeNameMapInvalidName",
+        "jp_record_id": "switch:locres:set-01:AssetRegistry:SerializeNameMapInvalidName:bb90ef1f",
+        "official_en_record_id": "switch:locres:set-01:AssetRegistry:SerializeNameMapInvalidName:bb90ef1f",
+        "jp_sha256": "1e05f43e485eb2f22eaae459ca39c665fe9972b7c1550afdcdc2649063d26c5d",
+        "official_en_sha256": "6357d2de2b17eaa45edf410291b19c312739010b10a0c7edca6ebe0f6ca02b9a"
+      },
+      "text": {
+        "jp": "パッケージをアンロードできません：{FileName}。理由：インデックス {NameIndex} の名前が無効です",
+        "official_en": "Package is unloadable: {FileName}. Reason: Invalid name at index {NameIndex}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRegistry:SerializeNameMapInvalidNameCount:f5467aed",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRegistry",
+        "key": "SerializeNameMapInvalidNameCount",
+        "jp_record_id": "switch:locres:set-01:AssetRegistry:SerializeNameMapInvalidNameCount:f5467aed",
+        "official_en_record_id": "switch:locres:set-01:AssetRegistry:SerializeNameMapInvalidNameCount:f5467aed",
+        "jp_sha256": "22bb13b49bf3566aabd6167796f3a53c21b009b79204ade2b271c78d913cf1ce",
+        "official_en_sha256": "d09cca91d1a0fb14de22f9603963fdb00b393ca08e66232d4618a3b51356980e"
+      },
+      "text": {
+        "jp": "パッケージをアンロードできません：{FileName}。理由：名前テーブルのカウント {NameCount} は、サイズ {PackageSize} のパッケージの名前オフセット {NameOffset} にあります",
+        "official_en": "Package is unloadable: {FileName}. Reason: Name table count {NameCount} in package of size {PackageSize} at name offset {NameOffset}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

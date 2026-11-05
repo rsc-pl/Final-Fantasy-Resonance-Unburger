@@ -1,0 +1,1122 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "GameplayTagEditor",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:AddTagSource:cf53c963",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "AddTagSource",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:AddTagSource:cf53c963",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:AddTagSource:cf53c963",
+        "jp_sha256": "90dc9acb87bf158e59ea361ce9d296602277c8c3c454b39b25b0938240a0b96d",
+        "official_en_sha256": "500bc7ecd272fa4c4539308d9ea4840023f5fcad11451304fec5eb07ab25d357"
+      },
+      "text": {
+        "jp": "新しいタグの保存用にソースとして、追加された {0}",
+        "official_en": "Added {0} as a source for saving new tags",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTagFailureNoSource:0e1bb43f",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "RemoveTagFailureNoSource",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTagFailureNoSource:0e1bb43f",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTagFailureNoSource:0e1bb43f",
+        "jp_sha256": "3f8fb9b3eb21d4daa53209581f39eabc0fd525f5c2c834420c9f27783494fcaa",
+        "official_en_sha256": "39d8c7744870772934da9b4ec28e996a6ca92f4aa7261f45b475b17515d8406a"
+      },
+      "text": {
+        "jp": "暗黙的であるため、タグ {0} を削除できません。子を手動で削除してください",
+        "official_en": "Cannot delete tag {0} as it is implicit, remove children manually",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTagFailureBadSource:b07ad777",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "RemoveTagFailureBadSource",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTagFailureBadSource:b07ad777",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTagFailureBadSource:b07ad777",
+        "jp_sha256": "9b685338b1ddc8b0e55ac4ed50d3a3452973fc939caa68a187ee35aee5576de8",
+        "official_en_sha256": "fff93771be3cb075b2ea8fc9fd3d7978b99eaae97e5f102264fbb1e62dd6f0f7"
+      },
+      "text": {
+        "jp": "ソース {1} からタグ {0} を削除できません。手動で削除してください",
+        "official_en": "Cannot delete tag {0} from source {1}, remove manually",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTagFailureNoTag:ebadfa17",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "RemoveTagFailureNoTag",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTagFailureNoTag:ebadfa17",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTagFailureNoTag:ebadfa17",
+        "jp_sha256": "fe45cc83e941a05ae7d2ed5e7a162b4ba6df773950e025d8b3f083de563fac07",
+        "official_en_sha256": "4cf6a8ab1cedb685cc17908042d7596b89cfe4819e5deaf7917cee07517b97b6"
+      },
+      "text": {
+        "jp": "タグ {0} は存在しないため削除できません！",
+        "official_en": "Cannot delete tag {0}, does not exist!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTagFailureBadSource_Referenced:7426192c",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "RemoveTagFailureBadSource_Referenced",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTagFailureBadSource_Referenced:7426192c",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTagFailureBadSource_Referenced:7426192c",
+        "jp_sha256": "d9c56fde09a58d96fa12fbbd2e2422b3847a074930357e00652471212d79bef6",
+        "official_en_sha256": "9b7f9295a1b913a788e41f38330a0477521f8cfc8e342736c36d835e977036b0"
+      },
+      "text": {
+        "jp": "引き続き {1} によって参照されている(およびその他によって参照されている可能性もある)ため、タグ {0} を削除できません。",
+        "official_en": "Cannot delete tag {0}, still referenced by {1} and possibly others",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:ToggleAllowNonRestrictedChildrenFailure:1b8bf7cc",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "ToggleAllowNonRestrictedChildrenFailure",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:ToggleAllowNonRestrictedChildrenFailure:1b8bf7cc",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:ToggleAllowNonRestrictedChildrenFailure:1b8bf7cc",
+        "jp_sha256": "47f7d8215b9dd0329c1d7b33121bfc626cb80af9bc4efd36686704ea2b16d5e3",
+        "official_en_sha256": "dca1b7b513ea94373872f80668367390b0f14f44e2f876ca6fd0cf062a3f88a7"
+      },
+      "text": {
+        "jp": "すでに複数存在しているため、非制限の子を防止できません！先にそのような非制限の子を削除してください。",
+        "official_en": "Cannot prevent non-restricted children since some already exist! Delete them first.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:FailedToMakeWritable:13379d92",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "FailedToMakeWritable",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:FailedToMakeWritable:13379d92",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:FailedToMakeWritable:13379d92",
+        "jp_sha256": "f439de77a204b3344ce0ea3ed1a914c74dc5d57c8074be093426e269576011ab",
+        "official_en_sha256": "3b1054808f06622f80258e1267978b8ffb89c23bef236105577e22294500b48d"
+      },
+      "text": {
+        "jp": "{0} を書き込み可能にできませんでした。",
+        "official_en": "Could not make {0} writable.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTagChildrenExist:751f85ce",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "RemoveTagChildrenExist",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTagChildrenExist:751f85ce",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTagChildrenExist:751f85ce",
+        "jp_sha256": "6426ad6718a5727f6ffeebf065acc926be8aadb02991848de8d98b23a5d6ffee",
+        "official_en_sha256": "92ae514c54331d54a1f9b528d0fc4bddd7b1461e278e8e7a958d43e33eaae260"
+      },
+      "text": {
+        "jp": "明示的なタグ {0} を削除しましたが、子のために引き続き暗黙的に存在します",
+        "official_en": "Deleted explicit tag {0}, still exists implicitly due to children",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTagRedirect:f160b92b",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "RemoveTagRedirect",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTagRedirect:f160b92b",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTagRedirect:f160b92b",
+        "jp_sha256": "df00d434cad61e44bbe7db5f400159bbdb0f50d9f7b186bee96d001d513bfdbf",
+        "official_en_sha256": "96150136501f5a7dc8290ea14f94e255484a05b4192d265715f5be0efb20f060"
+      },
+      "text": {
+        "jp": "タグ リダイレクト {0} を削除しました",
+        "official_en": "Deleted tag redirect {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTag:9b2c5336",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "RemoveTag",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTag:9b2c5336",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:RemoveTag:9b2c5336",
+        "jp_sha256": "62c96a7af36613746c018ba453bb71a5f0dd531143aeed9cc57602ee3ea22f1f",
+        "official_en_sha256": "e8428b2b894f98e90b5e5e756e96072bc52bb7eb3e9afeabf52e95f74a5fb087"
+      },
+      "text": {
+        "jp": "タグ {0} を削除しました",
+        "official_en": "Deleted tag {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:AddTagFailure:e6c08037",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "AddTagFailure",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:AddTagFailure:e6c08037",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:AddTagFailure:e6c08037",
+        "jp_sha256": "3708235090b5aef04cc94e1f6a33844f8cb931d515df0213b0c22469f19d55a9",
+        "official_en_sha256": "d0b6b23bbf614741cdad40a7d0e977ce1162cd9fa9253f19f76b5e24683fed2c"
+      },
+      "text": {
+        "jp": "ゲームプレイタグ {0} をディレクトリ「{1}」に追加できませんでした！",
+        "official_en": "Failed to add gameplay tag {0} to dictionary {1}!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:AddTagFailure_AlreadyExists:ac2ee336",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "AddTagFailure_AlreadyExists",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:AddTagFailure_AlreadyExists:ac2ee336",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:AddTagFailure_AlreadyExists:ac2ee336",
+        "jp_sha256": "21f817a445a796559e97dad61c62e1c2ad39c51686c833999cda532cc8e27bc9",
+        "official_en_sha256": "d8279e58e46c2eb3aa62c819523a1447cee8d419fe2e10a82966dcd5efd441a0"
+      },
+      "text": {
+        "jp": "すでに存在しているため、ゲームプレイ タグ {0} を追加できませんでした！",
+        "official_en": "Failed to add gameplay tag {0}, already exists!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:AddTagFailure_RestrictedTag:eb0bd5c4",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "AddTagFailure_RestrictedTag",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:AddTagFailure_RestrictedTag:eb0bd5c4",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:AddTagFailure_RestrictedTag:eb0bd5c4",
+        "jp_sha256": "39357bf3db56003dce973891468df6e1f9b0d430e7d4e11ae605a5f01d5f2e80",
+        "official_en_sha256": "0eabc1cafa47ef9551946f28607332b9cbbd295ea9ebfacca0da1e07044a1981"
+      },
+      "text": {
+        "jp": "{1} は制限タグであり、非制限の子が許可されないため、ゲームプレイタグ {0} を追加できませんでした",
+        "official_en": "Failed to add gameplay tag {0}, {1} is a restricted tag and does not allow non-restricted children",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:AddTagFailure_BadString:c99184e7",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "AddTagFailure_BadString",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:AddTagFailure_BadString:c99184e7",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:AddTagFailure_BadString:c99184e7",
+        "jp_sha256": "3546550695eb65ad118cb8f890555c786953e86a0abfa5eb5b5649a1e3bb1cea",
+        "official_en_sha256": "05dc763dd0ec75c4231d90d0cfcf15e9bf195dee6eb319df1c2fc65c16c7e9da"
+      },
+      "text": {
+        "jp": "ゲームプレイ タグ{0}を追加できませんでした：{1}、代わりに {2} を試行してください!",
+        "official_en": "Failed to add gameplay tag {0}: {1}, try {2} instead!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:AddRestrictedTagFailure:d0457ed8",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "AddRestrictedTagFailure",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:AddRestrictedTagFailure:d0457ed8",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:AddRestrictedTagFailure:d0457ed8",
+        "jp_sha256": "28fdc134686bea61cd3747419824af450a9e57dd72a64f649b607c0f9087ccc0",
+        "official_en_sha256": "7921e36fd7cda4c3a59ca393c445597d4a80d1f74939f06eb604d5d376d59d73"
+      },
+      "text": {
+        "jp": "制限されたゲームプレイ タグ {0} を追加できませんでした。{1} は制限タグではありません",
+        "official_en": "Failed to add restricted gameplay tag {0}, {1} is not a restricted tag",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:MoveTagsFailure_UnknownTarget:d4bd3fc9",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "MoveTagsFailure_UnknownTarget",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:MoveTagsFailure_UnknownTarget:d4bd3fc9",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:MoveTagsFailure_UnknownTarget:d4bd3fc9",
+        "jp_sha256": "9a927ff2a282b4d147955ad0b19153fa1d5aaed856c6af61133dcda5c76e9654",
+        "official_en_sha256": "74c80e541f4f2f02d166ac9d9c4b763594708f408c9fd241e1c0c1572089ce18"
+      },
+      "text": {
+        "jp": "ターゲット {0} が見つからなかったため、タグを移動できませんでした",
+        "official_en": "Failed to move tags as target {0} could not be found",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:GameplayTagPicker_ManagerTitle:0dc73a28",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "GameplayTagPicker_ManagerTitle",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:GameplayTagPicker_ManagerTitle:0dc73a28",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:GameplayTagPicker_ManagerTitle:0dc73a28",
+        "jp_sha256": "4f82bc83e7fe619cdfe92586ee32baefa38e39db630393e41e06643c6430ef9c",
+        "official_en_sha256": "af2a609a9d621487dc505edb9b39157eea33794990d3a66a683ba5cbd3b1dc9b"
+      },
+      "text": {
+        "jp": "ゲームプレイタグマネージャー",
+        "official_en": "Gameplay Tag Manager",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:GameplayTagSettingsNameDesc:b9a8d137",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "GameplayTagSettingsNameDesc",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:GameplayTagSettingsNameDesc:b9a8d137",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:GameplayTagSettingsNameDesc:b9a8d137",
+        "jp_sha256": "51aa4006213d012e6e73b4606f2ef4b4a838bc4ca0555b53ff3c876d74207a2c",
+        "official_en_sha256": "1fcdd334641cdc7516158befc12d8c6b90ab986f5857dcbb51f41a3a0f52e0da"
+      },
+      "text": {
+        "jp": "GameplayTag 設定",
+        "official_en": "GameplayTag Settings",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:GameplayTagSettingsName:05b4ddd2",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "GameplayTagSettingsName",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:GameplayTagSettingsName:05b4ddd2",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:GameplayTagSettingsName:05b4ddd2",
+        "jp_sha256": "bb8bc787cc1925d844bf2d43724686d41e4c82561bfbc7b86f761edc04ab66a5",
+        "official_en_sha256": "bb8bc787cc1925d844bf2d43724686d41e4c82561bfbc7b86f761edc04ab66a5"
+      },
+      "text": {
+        "jp": "GameplayTags",
+        "official_en": "GameplayTags",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:MoveTagsFailure_InvalidSource:b6a344b3",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "MoveTagsFailure_InvalidSource",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:MoveTagsFailure_InvalidSource:b6a344b3",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:MoveTagsFailure_InvalidSource:b6a344b3",
+        "jp_sha256": "8409a36538d645b765f4f9b4cebd7b94c26cb4768525ceeb48798db4d4b0276a",
+        "official_en_sha256": "32038be55e64f77c7727730f6249042326cba38ca634d4e64da853dd49cc7108"
+      },
+      "text": {
+        "jp": "「{0}」のソースが無効です！タグの移動元にできるのは、DefaultTagList および TagList のソースのみです",
+        "official_en": "Invalid source for `{0}`! Tags can only be moved from DefaultTagList and TagList sources.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:MoveTagsFailure_UnsupportedTarget:691f8d2e",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "MoveTagsFailure_UnsupportedTarget",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:MoveTagsFailure_UnsupportedTarget:691f8d2e",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:MoveTagsFailure_UnsupportedTarget:691f8d2e",
+        "jp_sha256": "2f1efe8ac00627d864c4c039f8c4624f4a8d78cdfc380b6ae38ad12654c2a5d0",
+        "official_en_sha256": "cbfa060a7229ba0eadedc973994a732f6c70a530d8bfb975ba172f9c7b7068fe"
+      },
+      "text": {
+        "jp": "ターゲット ソース `{0}` が無効です！タグの移動先にできるのは、DefaultTagList および TagList のターゲット ソースのみです",
+        "official_en": "Invalid target source `{0}`! Tags can only be moved to DefaultTagList and TagList target sources.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:MigrationText:1ae3b933",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "MigrationText",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:MigrationText:1ae3b933",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:MigrationText:1ae3b933",
+        "jp_sha256": "156ccc10828b78b6bb2dfaa60670987e53e1e9b7086973b874e48b435ad3ebe6",
+        "official_en_sha256": "1317ff426bf66d63225da19217578287524f15644e63b597c9434b9a0605b1c5"
+      },
+      "text": {
+        "jp": "移行したタグ設定については、チェックイン前に「DefaultEngine.ini」を確認してください！",
+        "official_en": "Migrated Tag Settings, check DefaultEngine.ini before checking in!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:PopulatingUnusedTags:02d2ace6",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "PopulatingUnusedTags",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:PopulatingUnusedTags:02d2ace6",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:PopulatingUnusedTags:02d2ace6",
+        "jp_sha256": "2d18e6d913d8c43b4e246c819c135f885f6f9db4d2a3b0e830e00bbbf2dfd84c",
+        "official_en_sha256": "0c33e9582a2f00bfeb1f75784e0191eda322697bd7640580f949b710f1729b73"
+      },
+      "text": {
+        "jp": "未使用タグの取り込み中",
+        "official_en": "Populating Unused Tags",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:RemovingTags:d2a3beda",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "RemovingTags",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:RemovingTags:d2a3beda",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:RemovingTags:d2a3beda",
+        "jp_sha256": "155fb75c73177f218949340eea8248192dc6c1e88a6ab9c7fbb0f7430d8a95a7",
+        "official_en_sha256": "5f9b63770a96e93bade142df35f30365339c07d24d5c73a33428d8be324aface"
+      },
+      "text": {
+        "jp": "タグの削除中",
+        "official_en": "Removing Tags",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:AddTagRedirect:c461c84b",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "AddTagRedirect",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:AddTagRedirect:c461c84b",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:AddTagRedirect:c461c84b",
+        "jp_sha256": "8bfe715c20a4229df53095244e721425bca6dac1aaa00af274d7c6d965ec94e4",
+        "official_en_sha256": "a4095b004225598c82389a62d7d6d0312a489fb238f8991a29f69ab90f4049ca"
+      },
+      "text": {
+        "jp": "タグの名前を {0} から {1} に変更しました",
+        "official_en": "Renamed tag {0} to {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:MoveTagsFailure_RestrictedTag:6bf8b4c4",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "MoveTagsFailure_RestrictedTag",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:MoveTagsFailure_RestrictedTag:6bf8b4c4",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:MoveTagsFailure_RestrictedTag:6bf8b4c4",
+        "jp_sha256": "23301d9832d1836b41c7724352aa54af384d948cad0ac0521a0413397d650052",
+        "official_en_sha256": "224d887209303c68b16470a86498efdd19fb08d9f4a3b8b7180d344a444fa1ba"
+      },
+      "text": {
+        "jp": "制限されたタグ {0} を移動することはできません",
+        "official_en": "Restriced Tag {0} cannot be moved",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:MoveTagsFailure_TagNotFound:9b65a1bb",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "MoveTagsFailure_TagNotFound",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:MoveTagsFailure_TagNotFound:9b65a1bb",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:MoveTagsFailure_TagNotFound:9b65a1bb",
+        "jp_sha256": "4d546323a49ac30baa090b8dec87c3d4a64302cf7f08f0114d9cb29ef130de25",
+        "official_en_sha256": "e7eaa4ecd301ed6ef24de8cf6994ab77b7403a8638afe6c76d32b94e9f03360a"
+      },
+      "text": {
+        "jp": "タグ {0} が、ソース タグ リスト {0} で見つかりませんでした",
+        "official_en": "Tag {0} could not be found in the source tag list {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:RenameFailure:6e845bfe",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "RenameFailure",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:RenameFailure:6e845bfe",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:RenameFailure:6e845bfe",
+        "jp_sha256": "37208e46f6d32acb567403294cf750aa19c870245501da31f7bc1377ec300334",
+        "official_en_sha256": "324112874974939595993814195c8f58b54289c10ca1a811a55c4f736280ca08"
+      },
+      "text": {
+        "jp": "タグ {0} のリダイレクタは作成されましたが、元のタグは子を含むため破壊されていません",
+        "official_en": "Tag {0} redirector was created but original tag was not destroyed as it has children",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:MoveTagsFailure_UnknownSource:20c59b59",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "MoveTagsFailure_UnknownSource",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:MoveTagsFailure_UnknownSource:20c59b59",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:MoveTagsFailure_UnknownSource:20c59b59",
+        "jp_sha256": "1953797f58b10b4f8ae69e83945cacd28b6e4c3ef86dc357d69e900a117eb7c3",
+        "official_en_sha256": "8a8864db43bf93f7b9ad56f55b6d1162f02add3b291407ebe2faa3afe858f97d"
+      },
+      "text": {
+        "jp": "タグ {0} のソースが見つかりませんでした",
+        "official_en": "Tag {0} sources could not be found",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTagEditor:UpdateTagSourcesAfterDelete:520b7c79",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTagEditor",
+        "key": "UpdateTagSourcesAfterDelete",
+        "jp_record_id": "switch:locres:set-01:GameplayTagEditor:UpdateTagSourcesAfterDelete:520b7c79",
+        "official_en_record_id": "switch:locres:set-01:GameplayTagEditor:UpdateTagSourcesAfterDelete:520b7c79",
+        "jp_sha256": "e0f6f8ce476faf051e6bb0dabf27e84be27552c0d8da71b24af2f3123efe3c8b",
+        "official_en_sha256": "9b9c001f7487e3f7bf72cbb4820ec047d3f0adcd602f1e53872d2a4c15b73c3d"
+      },
+      "text": {
+        "jp": "タグソースの更新中",
+        "official_en": "Updating Tag Sources",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

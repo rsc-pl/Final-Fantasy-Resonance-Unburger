@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "KismetProcMeshLibrary",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:KismetProcMeshLibrary:GetSectionFromStaticMeshStart:82eef228",
+      "source": {
+        "set": "set-02",
+        "namespace": "KismetProcMeshLibrary",
+        "key": "GetSectionFromStaticMeshStart",
+        "jp_record_id": "switch:locres:set-01:KismetProcMeshLibrary:GetSectionFromStaticMeshStart:82eef228",
+        "official_en_record_id": "switch:locres:set-01:KismetProcMeshLibrary:GetSectionFromStaticMeshStart:82eef228",
+        "jp_sha256": "c8bc1395bf5853d7cb835460d061c8da066f224cfbddb28355bf5a2bd676c51d",
+        "official_en_sha256": "a8780f97deb290a5e0558cfe489a39f92768e2c6c053f7e82eb6710a245cb53d"
+      },
+      "text": {
+        "jp": "GetSectionFromStaticMeshを呼び出す",
+        "official_en": "Calling GetSectionFromStaticMesh on",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:KismetProcMeshLibrary:GetSectionFromStaticMeshEnd:03bfb1e6",
+      "source": {
+        "set": "set-02",
+        "namespace": "KismetProcMeshLibrary",
+        "key": "GetSectionFromStaticMeshEnd",
+        "jp_record_id": "switch:locres:set-01:KismetProcMeshLibrary:GetSectionFromStaticMeshEnd:03bfb1e6",
+        "official_en_record_id": "switch:locres:set-01:KismetProcMeshLibrary:GetSectionFromStaticMeshEnd:03bfb1e6",
+        "jp_sha256": "4338267df0bbef196b630f63ac4757417a6175e2422640776b9824db2749624c",
+        "official_en_sha256": "4fb8fa0c2b49a5e844e188e4da2db196abaacc505539794f44c9bed314b5a515"
+      },
+      "text": {
+        "jp": "ただし、[CPUアクセスを許可]が有効になっていません。これはクック済みビルドでStaticMeshをProceduralMeshComponentに変換するために必要です。",
+        "official_en": "but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

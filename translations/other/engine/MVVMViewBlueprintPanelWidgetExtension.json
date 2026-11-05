@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MVVMViewBlueprintPanelWidgetExtension",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:CouldNotCreateSourceFieldPath:842f187b",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMViewBlueprintPanelWidgetExtension",
+        "key": "CouldNotCreateSourceFieldPath",
+        "jp_record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:CouldNotCreateSourceFieldPath:842f187b",
+        "official_en_record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:CouldNotCreateSourceFieldPath:842f187b",
+        "jp_sha256": "09c016e1dfb7d07bb69e7ecb7a019f930765791c5f620dde8fca6340fcc10901",
+        "official_en_sha256": "a6447d3a30258177f6e3e4f76a7b436490f85ad122e95c9f56a679c609d32ea5"
+      },
+      "text": {
+        "jp": "ソースのフィールド パス「{0}」を作成できませんでした。{1}.「{0}」が「可変である」とマークされていることを確認してください",
+        "official_en": "Couldn't create the source field path '{0}'. {1}. Make sure '{0}' is marked as 'Is Variable'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:PreCompileMVVMWidgetExtensionEntryHasNoView:8889f967",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMViewBlueprintPanelWidgetExtension",
+        "key": "PreCompileMVVMWidgetExtensionEntryHasNoView",
+        "jp_record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:PreCompileMVVMWidgetExtensionEntryHasNoView:8889f967",
+        "official_en_record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:PreCompileMVVMWidgetExtensionEntryHasNoView:8889f967",
+        "jp_sha256": "4ea8e3c6dc8f1dea356f6d726c2ed2746886f4ca33de11514d358339ce2c149d",
+        "official_en_sha256": "d3e040a66094848a84d5d19ddda3269388d88c2cbc577d34f63853f73efb2d83"
+      },
+      "text": {
+        "jp": "エントリ ウィジェット {0} にはビューがありません。バインディングを追加することを検討するか、含まれているウィジェット {1} で MVVM 拡張機能を削除してください",
+        "official_en": "Entry widget {0} doesn't have a View. Consider adding a binding to it or remove the MVVM extension on the containing widget {1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:PreCompileMVVMWidgetExtensionNoSetterBindingFound:2a75b74d",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMViewBlueprintPanelWidgetExtension",
+        "key": "PreCompileMVVMWidgetExtensionNoSetterBindingFound",
+        "jp_record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:PreCompileMVVMWidgetExtensionNoSetterBindingFound:2a75b74d",
+        "official_en_record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:PreCompileMVVMWidgetExtensionNoSetterBindingFound:2a75b74d",
+        "jp_sha256": "5c791185f19446b2f92f559c4f9e8fe5095e2138d6ee3ffe02c923d83caad046",
+        "official_en_sha256": "ad2e17b1c1927c552579d1cda655f8deb40fc5a1d8f1a044a30daceff8073509"
+      },
+      "text": {
+        "jp": "バインディングがビューモデルの配列から {0} -> SetItems に見つかりません。ルート ウィジェットで {0} を見つけ、このバインディングを追加するか、詳細パネルからウィジェット {1} のビューモデル拡張機能を削除してください",
+        "official_en": "No binding found from an array of viewmodels to {0} -> SetItems. Please find {0} on the root widget and add this binding or remove the Viewmodel extension on widget {1} from its details panel.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:PreCompileMVVMWidgetExtensionEntryVMDeleted:e5428f92",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMViewBlueprintPanelWidgetExtension",
+        "key": "PreCompileMVVMWidgetExtensionEntryVMDeleted",
+        "jp_record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:PreCompileMVVMWidgetExtensionEntryVMDeleted:e5428f92",
+        "official_en_record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:PreCompileMVVMWidgetExtensionEntryVMDeleted:e5428f92",
+        "jp_sha256": "2643bd0ead473e6b458069aaa19279252bcaa4765461d85e64f3a23014707d99",
+        "official_en_sha256": "83e9c9db4d11c33ea096d4723fc4a2365f9cd95ecc9a2982289c4b8d679ef946"
+      },
+      "text": {
+        "jp": "エントリ ウィジェット {0} にビューモデルが選択されていません。詳細パネルでビューモデルを選択するか、含まれているウィジェット {1}のビューモデル拡張機能 を削除してください",
+        "official_en": "No viewmodel selected for Entry widget {0}. Please select a viewmodel for it via the details panel or remove the Viewmodel extension on the containing widget {1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:EntryViewModelTypeMismatch:0ad8a188",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMViewBlueprintPanelWidgetExtension",
+        "key": "EntryViewModelTypeMismatch",
+        "jp_record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:EntryViewModelTypeMismatch:0ad8a188",
+        "official_en_record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:EntryViewModelTypeMismatch:0ad8a188",
+        "jp_sha256": "76e099192c5ae4cb14d6047a029d3c8acb644c2c4a3c0eacde704528a0a93233",
+        "official_en_sha256": "714f3646c1a83cdfb5dcab4185c4d8000fe6c1974c21c15abb9ac248fa96572c"
+      },
+      "text": {
+        "jp": "エントリ ビューモデル タイプ {0} がタイプ {1} のビューモデルの配列と一致しません",
+        "official_en": "The entry viewmodel type {0} does not match the array of viewmodels of type {1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:CompiledFieldPathForWidgetNotGenerated:d640e901",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMViewBlueprintPanelWidgetExtension",
+        "key": "CompiledFieldPathForWidgetNotGenerated",
+        "jp_record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:CompiledFieldPathForWidgetNotGenerated:d640e901",
+        "official_en_record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:CompiledFieldPathForWidgetNotGenerated:d640e901",
+        "jp_sha256": "8fbdd1bdc8c558616b63161f83aa1b5806aafae83ec4ed268188fd24dae52ccd",
+        "official_en_sha256": "dce4a5269a7eebbd40bd23b7e4a2859bb28238f02ae6d9f8c0015e0525b5a8d6"
+      },
+      "text": {
+        "jp": "ウィジェット {0} のフィールド パスが生成されていません",
+        "official_en": "The field path for widget {0} was not generated.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:PreCompileMVVMWidgetExtensionInvalidWidgetName:7fa68937",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMViewBlueprintPanelWidgetExtension",
+        "key": "PreCompileMVVMWidgetExtensionInvalidWidgetName",
+        "jp_record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:PreCompileMVVMWidgetExtensionInvalidWidgetName:7fa68937",
+        "official_en_record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:PreCompileMVVMWidgetExtensionInvalidWidgetName:7fa68937",
+        "jp_sha256": "d317eb845a280f0395969ed1cabe452b211fefe76d2851cdea6b2ad7ae953bbe",
+        "official_en_sha256": "c39cd9e6163529413dd2c15a2d6a1bc5cf204ca7cbcae64ed1a9fba5d4c95552"
+      },
+      "text": {
+        "jp": "名前が {0} のウィジェットはウィジェット ブループリントに存在しませんが、ビューモデルのウィジェット拡張機能がアタッチされています",
+        "official_en": "Widget with name {0} doesn't exist in the widget blueprint but a viewmodel widget extension exists that is attached to it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:PreCompileMVVMWidgetExtensionWidgetNoEntryClass:3720812e",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMViewBlueprintPanelWidgetExtension",
+        "key": "PreCompileMVVMWidgetExtensionWidgetNoEntryClass",
+        "jp_record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:PreCompileMVVMWidgetExtensionWidgetNoEntryClass:3720812e",
+        "official_en_record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:PreCompileMVVMWidgetExtensionWidgetNoEntryClass:3720812e",
+        "jp_sha256": "7972daffaff2d4c6304ed05d6d0ddf84422192cf988172d75a3a95570d3fd154",
+        "official_en_sha256": "59e9c74af62d7847f48fc6178cdc85fb62894eb5817fff25931d02d4057e967e"
+      },
+      "text": {
+        "jp": "ウィジェット {0} にエントリ ウィジェット クラスがありません。[詳細] パネルで割り当てる、またはウィジェットのビューモデル拡張を削除することを検討してください",
+        "official_en": "Widget {0} doesn't have an entry widget class. Consider assigning it in the details panel or remove the Viewmodel extension on the widget.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:PreCompileMVVMWidgetExtensionWidgetNotPanelWidget:168c7891",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMViewBlueprintPanelWidgetExtension",
+        "key": "PreCompileMVVMWidgetExtensionWidgetNotPanelWidget",
+        "jp_record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:PreCompileMVVMWidgetExtensionWidgetNotPanelWidget:168c7891",
+        "official_en_record_id": "switch:locres:set-01:MVVMViewBlueprintPanelWidgetExtension:PreCompileMVVMWidgetExtensionWidgetNotPanelWidget:168c7891",
+        "jp_sha256": "441fab20194bb105c44777b517d147c97e2dce1dd75e47755d6ad1b8f5d7a31b",
+        "official_en_sha256": "66b4026ad3a371445722c3af799520006b90f635e3a0b97e2cdaa781db2b81f7"
+      },
+      "text": {
+        "jp": "ウィジェット {0} は UPanelWidgeではありませんが、MVVMViewBlueprintPanelWidgetExtension があります",
+        "official_en": "Widget {0} is not a UPanelWidget but has a MVVMViewBlueprintPanelWidgetExtension.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

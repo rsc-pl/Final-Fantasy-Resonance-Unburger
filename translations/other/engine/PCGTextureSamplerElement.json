@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGTextureSamplerElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGTextureSamplerElement:InvalidTextureIndex:a38fffdc",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGTextureSamplerElement",
+        "key": "InvalidTextureIndex",
+        "jp_record_id": "switch:locres:set-01:PCGTextureSamplerElement:InvalidTextureIndex:a38fffdc",
+        "official_en_record_id": "switch:locres:set-01:PCGTextureSamplerElement:InvalidTextureIndex:a38fffdc",
+        "jp_sha256": "ba3f23f916c448015be0cf0e15f104151cfaf6999c6179a227df41410f08b038",
+        "official_en_sha256": "c9390f655221e9dec11310b5a8c2148fb2b110c2fb51d03d5ac00b0ba2469ed2"
+      },
+      "text": {
+        "jp": "配列インデックス {0} は、パス「{1}」にある TextureArray の範囲外でした",
+        "official_en": "Array index {0} was out of bounds for TextureArray at path '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGTextureSamplerElement:TextureInitFailed:66f6a67d",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGTextureSamplerElement",
+        "key": "TextureInitFailed",
+        "jp_record_id": "switch:locres:set-01:PCGTextureSamplerElement:TextureInitFailed:66f6a67d",
+        "official_en_record_id": "switch:locres:set-01:PCGTextureSamplerElement:TextureInitFailed:66f6a67d",
+        "jp_sha256": "1cced51699f912d1aebedef6bf9797c59363dfb06f5c22670a89ac982b413342",
+        "official_en_sha256": "7baa5aa17520130a9557a862ed94a106a1199068f5141e6156da6a8612368059"
+      },
+      "text": {
+        "jp": "データをこのテクスチャから取得できません。初期化に失敗しました",
+        "official_en": "Data could not be retrieved for this texture, initialization failed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGTextureSamplerElement:TextureDataInitFailed:351c3c17",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGTextureSamplerElement",
+        "key": "TextureDataInitFailed",
+        "jp_record_id": "switch:locres:set-01:PCGTextureSamplerElement:TextureDataInitFailed:351c3c17",
+        "official_en_record_id": "switch:locres:set-01:PCGTextureSamplerElement:TextureDataInitFailed:351c3c17",
+        "jp_sha256": "8999c2ac1c3c8391eb23d34312db8f892f6c9d23b4e90450cc1162178344afd2",
+        "official_en_sha256": "5e3f1090e005fd8abf83f970ff52654c8061c78db7ef8252123258aa9976fb42"
+      },
+      "text": {
+        "jp": "テクスチャのデータを初期化できませんでした",
+        "official_en": "Failed to initialize texture data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGTextureSamplerElement:NodeTooltip:39e0e82b",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGTextureSamplerElement",
+        "key": "NodeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGTextureSamplerElement:NodeTooltip:39e0e82b",
+        "official_en_record_id": "switch:locres:set-01:PCGTextureSamplerElement:NodeTooltip:39e0e82b",
+        "jp_sha256": "5c9ee973eeaa906e09736662026cd84a317dbda930d812cfd144fad66575eed1",
+        "official_en_sha256": "236bd4c1fab2002701596be97131504051db7681460fac849844f3cff4b81f7d"
+      },
+      "text": {
+        "jp": "所定のテクスチャのサンプリングによりポイントを生成します。テクスチャが CPU からアクセス可能な場合、サンプラはテクスチャの CPU バージョンを優先します。それ以外の場合、テクスチャは GPU が存在する場合 GPU から読み戻されます",
+        "official_en": "Generates points by sampling the given texture.\nIf the texture is CPU-accessible, the sampler will prefer the CPU version of the texture.\nOtherwise, the texture will be read back from the GPU if one is present.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGTextureSamplerElement:CouldNotResolveTexture:21a507d3",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGTextureSamplerElement",
+        "key": "CouldNotResolveTexture",
+        "jp_record_id": "switch:locres:set-01:PCGTextureSamplerElement:CouldNotResolveTexture:21a507d3",
+        "official_en_record_id": "switch:locres:set-01:PCGTextureSamplerElement:CouldNotResolveTexture:21a507d3",
+        "jp_sha256": "30089a6cc63975f20b1eeae2f9e84cce724e0e9445db1c15be0606550a9416e6",
+        "official_en_sha256": "7758b0e7d1e88dcb751ad5e5af0227cabea7490c54e40ba3d81fa176461afab7"
+      },
+      "text": {
+        "jp": "パス「{0}」のテクスチャを読み込めませんでした",
+        "official_en": "Texture at path '{0}' could not be loaded",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGTextureSamplerElement:InvalidTextureType:9076b4eb",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGTextureSamplerElement",
+        "key": "InvalidTextureType",
+        "jp_record_id": "switch:locres:set-01:PCGTextureSamplerElement:InvalidTextureType:9076b4eb",
+        "official_en_record_id": "switch:locres:set-01:PCGTextureSamplerElement:InvalidTextureType:9076b4eb",
+        "jp_sha256": "57e9c9193466c0e6eab508374e374e2474972c863b74b3740173ccf8df19893e",
+        "official_en_sha256": "9d392374528d371be92ea10a001a52cc15e2507c3e249cedcda605ffe6ae3da9"
+      },
+      "text": {
+        "jp": "パス「{0}」にあるテクスチャは有効な型ではありません。UTexture2D、UTexture2DArray、UTextureRenderTarget2D のいずれかの型である必要があります",
+        "official_en": "Texture at path '{0}' is not a valid type. Must be one of the following types: UTexture2D, UTexture2DArray, UTextureRenderTarget2D.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

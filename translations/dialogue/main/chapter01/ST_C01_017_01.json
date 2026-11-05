@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_C01_017_01",
+    "scene_id": "ST_C01_017_01",
+    "chapter": "chapter01",
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_C01_017_01:017_01_001:19d1d42d",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_C01_017_01",
+        "key": "017_01_001",
+        "jp_record_id": "switch:locres:set-02:ST_C01_017_01:017_01_001:19d1d42d",
+        "official_en_record_id": "switch:locres:set-02:ST_C01_017_01:017_01_001:19d1d42d",
+        "jp_sha256": "1576c1bc13a579f21bbea50dc135c164661cb53ebab7728f75f2322ad7696c20",
+        "official_en_sha256": "95590f9d9016458f1c2afb6e66081d8e66fcbd246422a6f2124a7466e0fcc7a7"
+      },
+      "text": {
+        "jp": "グランシェルト城が……！",
+        "official_en": "No! The castle!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_C01_017_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "レイン",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0002",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_C01_017_01/017_01_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_C01_017_01:017_01_002:3927285a",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_C01_017_01",
+        "key": "017_01_002",
+        "jp_record_id": "switch:locres:set-02:ST_C01_017_01:017_01_002:3927285a",
+        "official_en_record_id": "switch:locres:set-02:ST_C01_017_01:017_01_002:3927285a",
+        "jp_sha256": "919ce600ddbbd89d16affdfa6124ae0297b3cc8d72ade2ad9aae1dc563c3b45c",
+        "official_en_sha256": "e1ac05572ba1b17485a48679a6df7ec33a09411f83e007dd6ba4501ddc0af789"
+      },
+      "text": {
+        "jp": "陛下の安否が心配だ！\r\n城内へ急ごう！",
+        "official_en": "The king may be in danger! We need to get inside, quickly!",
+        "real_en": "I’m worried about His Majesty!\r\nLet’s hurry inside the castle!"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_C01_017_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "ラスウェル",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0003",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_C01_017_01/017_01_002"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

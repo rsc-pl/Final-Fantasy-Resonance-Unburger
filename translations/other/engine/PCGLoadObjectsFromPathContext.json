@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGLoadObjectsFromPathContext",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGLoadObjectsFromPathContext:AttributeNotFound:7b867b32",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLoadObjectsFromPathContext",
+        "key": "AttributeNotFound",
+        "jp_record_id": "switch:locres:set-01:PCGLoadObjectsFromPathContext:AttributeNotFound:7b867b32",
+        "official_en_record_id": "switch:locres:set-01:PCGLoadObjectsFromPathContext:AttributeNotFound:7b867b32",
+        "jp_sha256": "81f4b7116fb634b4737de2167a3e8f7ec84fab996bc1a28438a6a41569d79fce",
+        "official_en_sha256": "99dd70ce7d91837317c187ae363c0cb4f28c93b7f66407ff1ec5cad41f2ee798"
+      },
+      "text": {
+        "jp": "属性/プロパティ「{0}」が入力 {1} に存在しません",
+        "official_en": "Attribute/Property '{0}' does not exist on input {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLoadObjectsFromPathContext:InvalidAttribute:89204ef7",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLoadObjectsFromPathContext",
+        "key": "InvalidAttribute",
+        "jp_record_id": "switch:locres:set-01:PCGLoadObjectsFromPathContext:InvalidAttribute:89204ef7",
+        "official_en_record_id": "switch:locres:set-01:PCGLoadObjectsFromPathContext:InvalidAttribute:89204ef7",
+        "jp_sha256": "097a64ea9ecf4aa2855e77c4384059430f79c6bb975f27a9db575511b453f40a",
+        "official_en_sha256": "e18e433bc59e920273188631113fade8440e86d09cc03529890b8dabd76d9f35"
+      },
+      "text": {
+        "jp": "属性/プロパティ「{0}」({1}) は入力 {2} の SoftObjectPath に変換できません",
+        "official_en": "Attribute/Property '{0}'({1}) is not convertible to a SoftObjectPath on input {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLoadObjectsFromPathContext:InvalidData:060e271e",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLoadObjectsFromPathContext",
+        "key": "InvalidData",
+        "jp_record_id": "switch:locres:set-01:PCGLoadObjectsFromPathContext:InvalidData:060e271e",
+        "official_en_record_id": "switch:locres:set-01:PCGLoadObjectsFromPathContext:InvalidData:060e271e",
+        "jp_sha256": "f0689e412de270f12ad6266f87b11e2c55ed27a905f392bd1a57bdfc28296893",
+        "official_en_sha256": "746ecf88c5f65eb4b67a6d0612fbcaede7c0a9a5c16b6cc2f25f728f926f9d4b"
+      },
+      "text": {
+        "jp": "入力 {0} には無効なデータです",
+        "official_en": "Invalid data for input {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLoadObjectsFromPathContext:InvalidPath:cf67209c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLoadObjectsFromPathContext",
+        "key": "InvalidPath",
+        "jp_record_id": "switch:locres:set-01:PCGLoadObjectsFromPathContext:InvalidPath:cf67209c",
+        "official_en_record_id": "switch:locres:set-01:PCGLoadObjectsFromPathContext:InvalidPath:cf67209c",
+        "jp_sha256": "ff210feb3dafed58f80ef27886fae94078421357a6b2b10f7674458f2968e8c6",
+        "official_en_sha256": "e9503e8ca9144832103453f9d99c2510cecbce51d2dfb6987095e39fda3b556b"
+      },
+      "text": {
+        "jp": "入力 {2}の属性/プロパティ「{1}」に対する値番号 {0} は有効なパスではないか null です。無視されます",
+        "official_en": "Value number {0} for Attribute/Property '{1}' on input {2} is not a valid path or is null. Will be ignored.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

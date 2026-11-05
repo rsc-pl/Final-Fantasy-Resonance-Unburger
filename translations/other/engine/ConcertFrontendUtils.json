@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ConcertFrontendUtils",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ConcertFrontendUtils:Now:ef3bc267",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertFrontendUtils",
+        "key": "Now",
+        "jp_record_id": "switch:locres:set-01:ConcertFrontendUtils:Now:ef3bc267",
+        "official_en_record_id": "switch:locres:set-01:ConcertFrontendUtils:Now:ef3bc267",
+        "jp_sha256": "83aeddd37528580b70fce851c83c2cc1904a76f701df59ac56d227bad1b96887",
+        "official_en_sha256": "fe18013d93d22f4f2a70344d30c00fe62d2ef29189ae5d25ccbda81fbd9c92b0"
+      },
+      "text": {
+        "jp": "現在",
+        "official_en": "Now",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertFrontendUtils:Days:303e7dc2",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertFrontendUtils",
+        "key": "Days",
+        "jp_record_id": "switch:locres:set-01:ConcertFrontendUtils:Days:303e7dc2",
+        "official_en_record_id": "switch:locres:set-01:ConcertFrontendUtils:Days:303e7dc2",
+        "jp_sha256": "ba1cea25692820ea33ad060da207b8d03be7462d8715f6963aaed3fd53e02ab1",
+        "official_en_sha256": "8e81729c4581739069f58626b8b01b0736c90c782b5ded809df9c742cc6fb346"
+      },
+      "text": {
+        "jp": "{0} 日前",
+        "official_en": "{0} {0}|plural(one=Day,other=Days) Ago",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertFrontendUtils:DaysHours:77f61ecf",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertFrontendUtils",
+        "key": "DaysHours",
+        "jp_record_id": "switch:locres:set-01:ConcertFrontendUtils:DaysHours:77f61ecf",
+        "official_en_record_id": "switch:locres:set-01:ConcertFrontendUtils:DaysHours:77f61ecf",
+        "jp_sha256": "6d58a530abfd7f4319c97b35a6dc0f0e33b973410de2cb46ee42c84f4de5595b",
+        "official_en_sha256": "d56b86a258d544c4cabd4f7b08dcd65c810d3045920e8bef85efafae857498fd"
+      },
+      "text": {
+        "jp": "{0} 日、{1} 時間前",
+        "official_en": "{0} {0}|plural(one=Day,other=Days), {1} {1}|plural(one=Hour,other=Hours) Ago",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertFrontendUtils:Hours:19d00ced",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertFrontendUtils",
+        "key": "Hours",
+        "jp_record_id": "switch:locres:set-01:ConcertFrontendUtils:Hours:19d00ced",
+        "official_en_record_id": "switch:locres:set-01:ConcertFrontendUtils:Hours:19d00ced",
+        "jp_sha256": "20412cc7a5a087f8c39ab5820b74128b717858f543a053a63a943a9146ec41e8",
+        "official_en_sha256": "f5356085d0e7322ab0d6b5533c18c75b5bc933a8700896a49893149f96867cbe"
+      },
+      "text": {
+        "jp": "{0} 時間前",
+        "official_en": "{0} {0}|plural(one=Hour,other=Hours) Ago",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertFrontendUtils:HoursMins:56abd13e",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertFrontendUtils",
+        "key": "HoursMins",
+        "jp_record_id": "switch:locres:set-01:ConcertFrontendUtils:HoursMins:56abd13e",
+        "official_en_record_id": "switch:locres:set-01:ConcertFrontendUtils:HoursMins:56abd13e",
+        "jp_sha256": "0f88d6b2eaf22bdc77ffcaed31db95a63debc4e5d97fcde17e5f01e5333a52ff",
+        "official_en_sha256": "75785cbd31e526ba992bd61aac582e9d8bb903deec2c760f52b9acebef7f55dc"
+      },
+      "text": {
+        "jp": "{0} 時間、{1}分前",
+        "official_en": "{0} {0}|plural(one=Hour,other=Hours), {1} {1}|plural(one=Minute,other=Minutes) Ago",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertFrontendUtils:Mins:0b4643de",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertFrontendUtils",
+        "key": "Mins",
+        "jp_record_id": "switch:locres:set-01:ConcertFrontendUtils:Mins:0b4643de",
+        "official_en_record_id": "switch:locres:set-01:ConcertFrontendUtils:Mins:0b4643de",
+        "jp_sha256": "ea52897c8ea5bf4e22cbd0211b0f7fee3652bfbffb94bf2719bd65be0be989bd",
+        "official_en_sha256": "656cfa153ad85932e00fd090007bd5be6a04c0d99f9afede737c565b72d45a9d"
+      },
+      "text": {
+        "jp": "{0} 分前",
+        "official_en": "{0} {0}|plural(one=Minute,other=Minutes) Ago",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertFrontendUtils:MinsSecs:90b8e81a",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertFrontendUtils",
+        "key": "MinsSecs",
+        "jp_record_id": "switch:locres:set-01:ConcertFrontendUtils:MinsSecs:90b8e81a",
+        "official_en_record_id": "switch:locres:set-01:ConcertFrontendUtils:MinsSecs:90b8e81a",
+        "jp_sha256": "d5bd6e567482afa2dde766dbd56349386c8012250fbf40427d4fa81dc3217568",
+        "official_en_sha256": "ab3e3fd1bceb0867c8c1e795141738a5179e2039fcd5c4fe8ff41f451b243527"
+      },
+      "text": {
+        "jp": "{0} 分、 {1} 秒前",
+        "official_en": "{0} {0}|plural(one=Minute,other=Minutes), {1} {1}|plural(one=Second,other=Seconds) Ago",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertFrontendUtils:Secs:7ebd3e54",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertFrontendUtils",
+        "key": "Secs",
+        "jp_record_id": "switch:locres:set-01:ConcertFrontendUtils:Secs:7ebd3e54",
+        "official_en_record_id": "switch:locres:set-01:ConcertFrontendUtils:Secs:7ebd3e54",
+        "jp_sha256": "99d07e4f62c8334bc6ec60d9bdf2922c111fccb85ba49d05b2d6f8d8a56fbc6a",
+        "official_en_sha256": "e8f84e7c19a8f47b625416813e7b9633b9a8f3c8e61ad9ed3739e06ca892bd8e"
+      },
+      "text": {
+        "jp": "{0} 秒前",
+        "official_en": "{0} {0}|plural(one=Second,other=Seconds) Ago",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

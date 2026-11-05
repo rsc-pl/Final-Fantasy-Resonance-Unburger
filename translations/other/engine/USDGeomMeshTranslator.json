@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "USDGeomMeshTranslator",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:USDGeomMeshTranslator:EmpytMeshData:c6994ece",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDGeomMeshTranslator",
+        "key": "EmpytMeshData",
+        "jp_record_id": "switch:locres:set-01:USDGeomMeshTranslator:EmpytMeshData:c6994ece",
+        "official_en_record_id": "switch:locres:set-01:USDGeomMeshTranslator:EmpytMeshData:c6994ece",
+        "jp_sha256": "62f4a8d23d275ba0e8753fd2471500a612770b70ccda7197f8e8de3b879bee35",
+        "official_en_sha256": "b894badb0928251e67a15b72d684c9365bf1c013a8de2036147028124811d5a4"
+      },
+      "text": {
+        "jp": "プリミティブ「{1}」の LOD{0} に対して収集されたメッシュ データは空のため、無視されます。プリミティブは非表示ですか？",
+        "official_en": "Ignoring mesh data collected for LOD{0} of prim '{1}' as it is empty. Is the prim invisible?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDGeomMeshTranslator:NaniteSlotWarning:fc3bb2ce",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDGeomMeshTranslator",
+        "key": "NaniteSlotWarning",
+        "jp_record_id": "switch:locres:set-01:USDGeomMeshTranslator:NaniteSlotWarning:fc3bb2ce",
+        "official_en_record_id": "switch:locres:set-01:USDGeomMeshTranslator:NaniteSlotWarning:fc3bb2ce",
+        "jp_sha256": "a7843e74182d3855831ecf71863e4677d0fbf2a12a05ae908652b28b8becb040",
+        "official_en_sha256": "9107732bccceee5024b9d28c1caeec3b619db5dbeb553bef9eefb25ed6aaef2b"
+      },
+      "text": {
+        "jp": "LOD0 には「{1}」マテリアル スロットがあり、これは Nanite の上限である「{2}」を超えているため、プリミティブ「{0}」に対して生成されたメッシュの Nanite は有効化されません",
+        "official_en": "Not enabling Nanite for mesh generated for prim '{0}' as LOD0 has '{1}' material slots, which is above the Nanite limit of '{2}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDGeomMeshTranslator:NaniteRuntimeWarning:a173faa2",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDGeomMeshTranslator",
+        "key": "NaniteRuntimeWarning",
+        "jp_record_id": "switch:locres:set-01:USDGeomMeshTranslator:NaniteRuntimeWarning:a173faa2",
+        "official_en_record_id": "switch:locres:set-01:USDGeomMeshTranslator:NaniteRuntimeWarning:a173faa2",
+        "jp_sha256": "9a32f3f468a356c3d21a13ca9ee5560e2795d5f9bf892b8bb8549d116e416f68",
+        "official_en_sha256": "669fba793f6a2d6c1f43d423cdcd9bf04d4a41af50f6fa974e14350c748217ff"
+      },
+      "text": {
+        "jp": "Nanite をランタイム時にセットアップできないため、プリミティブ「{0}」に対して生成されたメッシュの Nanite は有効化されません",
+        "official_en": "Not enabling Nanite for mesh generated for prim '{0}' as we can't setup Nanite during runtime",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UKismetMathLibrary",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UKismetMathLibrary:ClampDaysToMaxTimespan:e99897e3",
+      "source": {
+        "set": "set-02",
+        "namespace": "UKismetMathLibrary",
+        "key": "ClampDaysToMaxTimespan",
+        "jp_record_id": "switch:locres:set-01:UKismetMathLibrary:ClampDaysToMaxTimespan:e99897e3",
+        "official_en_record_id": "switch:locres:set-01:UKismetMathLibrary:ClampDaysToMaxTimespan:e99897e3",
+        "jp_sha256": "d5cc5996a326b5959c95064d5647ca9635f5ed4bbcc451e2bb2713a21f7dce7b",
+        "official_en_sha256": "cbd72b11ed3e5fcdf93f92233d94e13d87eff4fa352c701249e7701c23a04aa6"
+      },
+      "text": {
+        "jp": "日の値である {DaysValue} がTimeSpanで表現できる最大日数を超えています。MaxValueに固定します。",
+        "official_en": "Days value {DaysValue} is greater than maximum days TimeSpan can represent. Clamping to MaxValue.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UKismetMathLibrary:ClampDaysToMinTimespan:87b9f446",
+      "source": {
+        "set": "set-02",
+        "namespace": "UKismetMathLibrary",
+        "key": "ClampDaysToMinTimespan",
+        "jp_record_id": "switch:locres:set-01:UKismetMathLibrary:ClampDaysToMinTimespan:87b9f446",
+        "official_en_record_id": "switch:locres:set-01:UKismetMathLibrary:ClampDaysToMinTimespan:87b9f446",
+        "jp_sha256": "e126ae9432c8a31d22fab20c926bdfe323e4315d615ad7f1fe4a034da27abbac",
+        "official_en_sha256": "19f45ae0b6fcaee68d4e4dabf4b5bbfd352fb9bbeca40e608acb51f28a92a6b9"
+      },
+      "text": {
+        "jp": "日の値である {DaysValue} がTimeSpanで表現できる最小日数を超えています。MinValueに固定します。",
+        "official_en": "Days value {DaysValue} is less than minimum days TimeSpan can represent. Clamping to MinValue.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UKismetMathLibrary:DivideByZeroWarning:8a8b1c60",
+      "source": {
+        "set": "set-02",
+        "namespace": "UKismetMathLibrary",
+        "key": "DivideByZeroWarning",
+        "jp_record_id": "switch:locres:set-01:UKismetMathLibrary:DivideByZeroWarning:8a8b1c60",
+        "official_en_record_id": "switch:locres:set-01:UKismetMathLibrary:DivideByZeroWarning:8a8b1c60",
+        "jp_sha256": "f4e08e9b2c3030ac527aad072b8cbc286f8008ec53ac069e4dcce6435e8344e4",
+        "official_en_sha256": "b20d4eb24e283d07141929626b75df80a3467b3784eb3dafe39ad5dd78c07e34"
+      },
+      "text": {
+        "jp": "ゼロ除算",
+        "official_en": "Divide by zero",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UKismetMathLibrary:ClampHoursToMaxTimespan:37ea65e6",
+      "source": {
+        "set": "set-02",
+        "namespace": "UKismetMathLibrary",
+        "key": "ClampHoursToMaxTimespan",
+        "jp_record_id": "switch:locres:set-01:UKismetMathLibrary:ClampHoursToMaxTimespan:37ea65e6",
+        "official_en_record_id": "switch:locres:set-01:UKismetMathLibrary:ClampHoursToMaxTimespan:37ea65e6",
+        "jp_sha256": "cf531b8b9fcc0d30afc1393b9d03789b800f4563d0a599851c1f96010d842908",
+        "official_en_sha256": "c0fda2ac3fd7d271cf02003aed339ed129853ae36fa10d911bac53513c749e8e"
+      },
+      "text": {
+        "jp": "時間の値である {HoursValue} がTimeSpanで表現可能な最大時間数を超えています。MaxValueに固定します。",
+        "official_en": "Hours value {HoursValue} is greater than maximum hours TimeSpan can represent. Clamping to MaxValue.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UKismetMathLibrary:ClampHoursToMinTimespan:2e19de9c",
+      "source": {
+        "set": "set-02",
+        "namespace": "UKismetMathLibrary",
+        "key": "ClampHoursToMinTimespan",
+        "jp_record_id": "switch:locres:set-01:UKismetMathLibrary:ClampHoursToMinTimespan:2e19de9c",
+        "official_en_record_id": "switch:locres:set-01:UKismetMathLibrary:ClampHoursToMinTimespan:2e19de9c",
+        "jp_sha256": "376adf07cda3beaef112d88fe1b7e5d8d832dab5d968e5bd11a71a2280a3bd9f",
+        "official_en_sha256": "a1ed3e4aa5690f259c95cb54f7f86d73bb562f482962b7d3b08e1989134df600"
+      },
+      "text": {
+        "jp": "時間の値である {HoursValue} がTimeSpanで表現可能な最小時間数を超えています。MaxValueに固定します。",
+        "official_en": "Hours value {HoursValue} is less than minimum hours TimeSpan can represent. Clamping to MinValue.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UKismetMathLibrary:InvalidDateWarning:74ff90f4",
+      "source": {
+        "set": "set-02",
+        "namespace": "UKismetMathLibrary",
+        "key": "InvalidDateWarning",
+        "jp_record_id": "switch:locres:set-01:UKismetMathLibrary:InvalidDateWarning:74ff90f4",
+        "official_en_record_id": "switch:locres:set-01:UKismetMathLibrary:InvalidDateWarning:74ff90f4",
+        "jp_sha256": "41df057ff57196c8ac10e4f37ad25d368413217aa8bf4456f6ac096d1eb774f2",
+        "official_en_sha256": "c02613a595d35dbeb60758e429fd05a57d03c3184291a364d8fb16a6ec6f157e"
+      },
+      "text": {
+        "jp": "不正な日付の警告",
+        "official_en": "Invalid date warning",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UKismetMathLibrary:InvalidIndexConversionParameterWarning:1aa3bc50",
+      "source": {
+        "set": "set-02",
+        "namespace": "UKismetMathLibrary",
+        "key": "InvalidIndexConversionParameterWarning",
+        "jp_record_id": "switch:locres:set-01:UKismetMathLibrary:InvalidIndexConversionParameterWarning:1aa3bc50",
+        "official_en_record_id": "switch:locres:set-01:UKismetMathLibrary:InvalidIndexConversionParameterWarning:1aa3bc50",
+        "jp_sha256": "6b9853b41824bb91e71bc718bd861f6614c5443cbfa5f4343f18181b505bb44f",
+        "official_en_sha256": "c270b9c56a2436094e5f81ed30ff8e1504aa540bdc81985ef8428a1d66573703"
+      },
+      "text": {
+        "jp": "無効なインデックス変換パラメータの警告",
+        "official_en": "Invalid index conversion parameter warning",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UKismetMathLibrary:ClampMillisecondsToMaxTimespan:29f59f9f",
+      "source": {
+        "set": "set-02",
+        "namespace": "UKismetMathLibrary",
+        "key": "ClampMillisecondsToMaxTimespan",
+        "jp_record_id": "switch:locres:set-01:UKismetMathLibrary:ClampMillisecondsToMaxTimespan:29f59f9f",
+        "official_en_record_id": "switch:locres:set-01:UKismetMathLibrary:ClampMillisecondsToMaxTimespan:29f59f9f",
+        "jp_sha256": "9eaaecd2769ad00c35a0c996fd4d8dfd9219f8e628d0c0150f4b9d515c75afb6",
+        "official_en_sha256": "b073bc06edbab61d8f4984b1b1efc39ef8ef94bdf250bc3090f795998784ad07"
+      },
+      "text": {
+        "jp": "ミリ秒値である {MillisecondsValue} がTimeSpanの表現できる最大ミリ秒を超えています。MaxValueに固定します。",
+        "official_en": "Milliseconds value {MillisecondsValue} is greater than maximum milliseconds TimeSpan can represent. Clamping to MaxValue.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UKismetMathLibrary:ClampMillisecondsToMinTimespan:418a1d93",
+      "source": {
+        "set": "set-02",
+        "namespace": "UKismetMathLibrary",
+        "key": "ClampMillisecondsToMinTimespan",
+        "jp_record_id": "switch:locres:set-01:UKismetMathLibrary:ClampMillisecondsToMinTimespan:418a1d93",
+        "official_en_record_id": "switch:locres:set-01:UKismetMathLibrary:ClampMillisecondsToMinTimespan:418a1d93",
+        "jp_sha256": "057c0abe3c0918d4924ed7cbfae8d857dea8632d66df5187e391e8dec2b25c10",
+        "official_en_sha256": "1c23c1a75f160c7817c745e2327324cf09a2ecc93cb052e78ef309e3452a9a7e"
+      },
+      "text": {
+        "jp": "ミリ秒値である {MillisecondsValue} がTimeSpanの表現できる最小ミリ秒未満です。MinValueに固定します。",
+        "official_en": "Milliseconds value {MillisecondsValue} is less than minimum milliseconds TimeSpan can represent. Clamping to MinValue.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UKismetMathLibrary:ClampMinutesToMaxTimespan:b54c39d0",
+      "source": {
+        "set": "set-02",
+        "namespace": "UKismetMathLibrary",
+        "key": "ClampMinutesToMaxTimespan",
+        "jp_record_id": "switch:locres:set-01:UKismetMathLibrary:ClampMinutesToMaxTimespan:b54c39d0",
+        "official_en_record_id": "switch:locres:set-01:UKismetMathLibrary:ClampMinutesToMaxTimespan:b54c39d0",
+        "jp_sha256": "f3c40c27792bec2ee4df34e2332cc8685d876225c0aac1c67860eb7f64b65f92",
+        "official_en_sha256": "2e9ca49953e5c5146309825ad212b4a7cf317794b71bdbfca1e7eaab87fbb1b3"
+      },
+      "text": {
+        "jp": "分の値である {MinutesValue} がTimeSpanの表現できる最大分数を超えています。MaxValueに固定します。",
+        "official_en": "Minutes value {MinutesValue} is greater than maximum minutes TimeSpan can represent. Clamping to MaxValue.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UKismetMathLibrary:ClampMinutesToMinTimespan:c66d36b8",
+      "source": {
+        "set": "set-02",
+        "namespace": "UKismetMathLibrary",
+        "key": "ClampMinutesToMinTimespan",
+        "jp_record_id": "switch:locres:set-01:UKismetMathLibrary:ClampMinutesToMinTimespan:c66d36b8",
+        "official_en_record_id": "switch:locres:set-01:UKismetMathLibrary:ClampMinutesToMinTimespan:c66d36b8",
+        "jp_sha256": "16bd36d0c10d6be1911e79aa6b86011a5bf609b12e818d33f29cda68263ad920",
+        "official_en_sha256": "1ef8a80ca7aeefa1ae6e6826bd0bf3c1477daa2e88a502912f3815e7abd95dc0"
+      },
+      "text": {
+        "jp": "分の値である {MinutesValue} がTimeSpanの表現できる最小分数未満です。MinValueに固定します。",
+        "official_en": "Minutes value {MinutesValue} is less than minimum minutes TimeSpan can represent. Clamping to MinValue.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UKismetMathLibrary:ZeroLengthProjectionWarning:640b62ff",
+      "source": {
+        "set": "set-02",
+        "namespace": "UKismetMathLibrary",
+        "key": "ZeroLengthProjectionWarning",
+        "jp_record_id": "switch:locres:set-01:UKismetMathLibrary:ZeroLengthProjectionWarning:640b62ff",
+        "official_en_record_id": "switch:locres:set-01:UKismetMathLibrary:ZeroLengthProjectionWarning:640b62ff",
+        "jp_sha256": "597a1a2bd9dc29f3099785b4ebc8e99000b61b7eb7c678d82b475552f5b5c2ee",
+        "official_en_sha256": "a50e8c470e2febf86ecb17b8a416f0cdb4193bf061bdb6aaa1f6dd69692493b2"
+      },
+      "text": {
+        "jp": "長さゼロのベクターへの投影",
+        "official_en": "Projection onto vector of zero length",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UKismetMathLibrary:ClampSecondsToMaxTimespan:46287e02",
+      "source": {
+        "set": "set-02",
+        "namespace": "UKismetMathLibrary",
+        "key": "ClampSecondsToMaxTimespan",
+        "jp_record_id": "switch:locres:set-01:UKismetMathLibrary:ClampSecondsToMaxTimespan:46287e02",
+        "official_en_record_id": "switch:locres:set-01:UKismetMathLibrary:ClampSecondsToMaxTimespan:46287e02",
+        "jp_sha256": "d0516fb3c49dbd11480df7a17d52c300d0dfa87bf0ee1239e7e51d1bd3a1c643",
+        "official_en_sha256": "143a50b843e64fda1c4463ce834288d82d3dc672227e439ae49063892922b68c"
+      },
+      "text": {
+        "jp": "秒の値 {SecondsValue} がTimeSpanが表現できる最大秒値を超えています。MaxValueに固定します。",
+        "official_en": "Seconds value {SecondsValue} is greater than maximum seconds TimeSpan can represent. Clamping to MaxValue.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UKismetMathLibrary:ClampSecondsToMinTimespan:ea423fab",
+      "source": {
+        "set": "set-02",
+        "namespace": "UKismetMathLibrary",
+        "key": "ClampSecondsToMinTimespan",
+        "jp_record_id": "switch:locres:set-01:UKismetMathLibrary:ClampSecondsToMinTimespan:ea423fab",
+        "official_en_record_id": "switch:locres:set-01:UKismetMathLibrary:ClampSecondsToMinTimespan:ea423fab",
+        "jp_sha256": "d55754d0c83762f6c74eb49e387f7db0008b771a6abeece500f4cb526a164524",
+        "official_en_sha256": "0903db84f37655e4a0abc1f664c6d5c60d2c83a353d20c92f8f87056f3e0c856"
+      },
+      "text": {
+        "jp": "秒の値 {SecondsValue} がTimeSpanが表現できる最小秒値に足りません。MinValueに固定します。",
+        "official_en": "Seconds value {SecondsValue} is less than minimum seconds TimeSpan can represent. Clamping to MinValue.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UKismetMathLibrary:NegativeSqrtWarning:361b917d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UKismetMathLibrary",
+        "key": "NegativeSqrtWarning",
+        "jp_record_id": "switch:locres:set-01:UKismetMathLibrary:NegativeSqrtWarning:361b917d",
+        "official_en_record_id": "switch:locres:set-01:UKismetMathLibrary:NegativeSqrtWarning:361b917d",
+        "jp_sha256": "a19cd5c88017882d7cc10fa03f756a742744f8181bf5aec218093a0b90093112",
+        "official_en_sha256": "67a8ee0b95d833ed5edfc27585f6da71caf87e3096eabe8679e50a7ab115bde1"
+      },
+      "text": {
+        "jp": "負の数の平方根",
+        "official_en": "Square root of negative number",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

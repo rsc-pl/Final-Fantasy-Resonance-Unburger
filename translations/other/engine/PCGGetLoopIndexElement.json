@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGGetLoopIndexElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGGetLoopIndexElement:NodeTitle:e77c12b7",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGetLoopIndexElement",
+        "key": "NodeTitle",
+        "jp_record_id": "switch:locres:set-01:PCGGetLoopIndexElement:NodeTitle:e77c12b7",
+        "official_en_record_id": "switch:locres:set-01:PCGGetLoopIndexElement:NodeTitle:e77c12b7",
+        "jp_sha256": "98e1ada1e3e64ed15fe43df5cf46e86fa5d047c7d123fc7f542113c54b0a17cf",
+        "official_en_sha256": "98e1ada1e3e64ed15fe43df5cf46e86fa5d047c7d123fc7f542113c54b0a17cf"
+      },
+      "text": {
+        "jp": "Get Loop Index",
+        "official_en": "Get Loop Index",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGetLoopIndexElement:NotRunningALoop:5310d106",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGetLoopIndexElement",
+        "key": "NotRunningALoop",
+        "jp_record_id": "switch:locres:set-01:PCGGetLoopIndexElement:NotRunningALoop:5310d106",
+        "official_en_record_id": "switch:locres:set-01:PCGGetLoopIndexElement:NotRunningALoop:5310d106",
+        "jp_sha256": "6f854678c66b9d3914292d8e808178ddf240888118736f32dfb87033b1510888",
+        "official_en_sha256": "2e38acfc29615f8edfafc6cd747bd7e93ee9fe4c16a651b6cacd79723048f6a6"
+      },
+      "text": {
+        "jp": "GetLoopIndex ノードはループの外で実行されました。問題ない場合、この警告をオフにすることを検討してください",
+        "official_en": "GetLoopIndex node executed outside of a loop. If this is okay, consider turning off this warning.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGetLoopIndexElement:GetLoopIndexTooltip:3c644d73",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGetLoopIndexElement",
+        "key": "GetLoopIndexTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGGetLoopIndexElement:GetLoopIndexTooltip:3c644d73",
+        "official_en_record_id": "switch:locres:set-01:PCGGetLoopIndexElement:GetLoopIndexTooltip:3c644d73",
+        "jp_sha256": "0bc4d3f86b7c5c2950f784963e85be27f9d965ef43a04ea58d3b9cc4eca314fd",
+        "official_en_sha256": "4f12a07634c5b7d93976616548659b2941f3a3d23db7ddd9c8ab084d33ea6292"
+      },
+      "text": {
+        "jp": "このサブグラフが実行しているループがある場合に、そのインデックスを返します",
+        "official_en": "Returns the index of the loop this subgraph is executing, if any.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGetLoopIndexElement:ContextHasNoExecutionStack:b3d80f27",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGetLoopIndexElement",
+        "key": "ContextHasNoExecutionStack",
+        "jp_record_id": "switch:locres:set-01:PCGGetLoopIndexElement:ContextHasNoExecutionStack:b3d80f27",
+        "official_en_record_id": "switch:locres:set-01:PCGGetLoopIndexElement:ContextHasNoExecutionStack:b3d80f27",
+        "jp_sha256": "937bfb4dc734c4b51bd1d72bb8dc0f6b0568ca10bfc795cea118278038b1f31c",
+        "official_en_sha256": "088e0c7043e2fcbd2b45cb74e69a90f10fc8374219ed86e7d636dd58be2b3998"
+      },
+      "text": {
+        "jp": "実行コンテキストが不正な形式であり、コール スタックがありません",
+        "official_en": "The execution context is malformed and has no call stack.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

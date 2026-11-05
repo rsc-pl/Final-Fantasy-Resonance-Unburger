@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MetasoundAdditiveSynthNode",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:Metasound_AdditiveSynthNodeDisplayName:23280470",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundAdditiveSynthNode",
+        "key": "Metasound_AdditiveSynthNodeDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:Metasound_AdditiveSynthNodeDisplayName:23280470",
+        "official_en_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:Metasound_AdditiveSynthNodeDisplayName:23280470",
+        "jp_sha256": "22a63364cef8afdcb4bdde0c62fb9d3920c787b6e17ffb8ad42f0363012ed275",
+        "official_en_sha256": "22a63364cef8afdcb4bdde0c62fb9d3920c787b6e17ffb8ad42f0363012ed275"
+      },
+      "text": {
+        "jp": "Additive Synth",
+        "official_en": "Additive Synth",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:AmplitudesDisplayName:2a84cc82",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundAdditiveSynthNode",
+        "key": "AmplitudesDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:AmplitudesDisplayName:2a84cc82",
+        "official_en_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:AmplitudesDisplayName:2a84cc82",
+        "jp_sha256": "1937c5f9295ecdc94cb75e4bd42bcfb5592968c0b87bcffe9ba4964bbe0568d8",
+        "official_en_sha256": "d5741b6d05a817545b1bf4fd70d689824f935ca9a7a2fb892c480c092a5a5f33"
+      },
+      "text": {
+        "jp": "Amplitude (振幅)",
+        "official_en": "Amplitudes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:HarmonicMultipliersTooltip:825e4b32",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundAdditiveSynthNode",
+        "key": "HarmonicMultipliersTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:HarmonicMultipliersTooltip:825e4b32",
+        "official_en_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:HarmonicMultipliersTooltip:825e4b32",
+        "jp_sha256": "2c6004ddc61ba03da5bfdabfa2ada7537c5a2b129fc6cd3a87a3eb6b52637187",
+        "official_en_sha256": "27fecc2e0c65f5f4133e586a97f046c132765c6e91b1e02a08153fbb86252e55"
+      },
+      "text": {
+        "jp": "基本周波数に適用される浮動小数の調和乗数の配列です。正弦波の使用数はこの配列のサイズによって異なります。0.0から最大値までにクランプされ、周波数がナイキスト周波数を超えないようにします。",
+        "official_en": "Array of float harmonic multipliers that will be applied to the base frequency. Number of sinusoids used depends on the size of this array. Clamped from 0.0 to a max such that the resulting frequency won't go above Nyquist.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:PanAmountsTooltip:f1554c2c",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundAdditiveSynthNode",
+        "key": "PanAmountsTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:PanAmountsTooltip:f1554c2c",
+        "official_en_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:PanAmountsTooltip:f1554c2c",
+        "jp_sha256": "c45a0f562d752b27b9a39bdcd2290926f654c5a828bc25a847897487c779c1c1",
+        "official_en_sha256": "4ffba81f25f8d16fcd34113706ec12cab9357d0a1e4a6f127f20b5db5c1d0445"
+      },
+      "text": {
+        "jp": "パン量の配列 (等乗則を使用。-1.0は完全に左、1.0は完全に右)。",
+        "official_en": "Array of pan amounts (using equal power law; -1.0 is full left, 1.0 is full right).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:AmplitudesTooltip:f0d0e762",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundAdditiveSynthNode",
+        "key": "AmplitudesTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:AmplitudesTooltip:f0d0e762",
+        "official_en_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:AmplitudesTooltip:f0d0e762",
+        "jp_sha256": "0fe06767636b91b24b2fcc8ee5d427177f8e2dcc54acec709f7d407f05359ef9",
+        "official_en_sha256": "53c61afb78865aa396de1c26bee2b15f1d98be379c6abdf0a517622f556b1785"
+      },
+      "text": {
+        "jp": "正弦波振幅の配列、0.0 - 1.0にクランプされます",
+        "official_en": "Array of sinusoid amplitudes, clamped to 0.0 - 1.0",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:PhasesTooltip:7d2b5dd6",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundAdditiveSynthNode",
+        "key": "PhasesTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:PhasesTooltip:7d2b5dd6",
+        "official_en_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:PhasesTooltip:7d2b5dd6",
+        "jp_sha256": "d347979fbcf9585b79e7865565abb26f97c30c36995358e8b1813632e42a96aa",
+        "official_en_sha256": "4ff5e48e42bc94565756af451d12d5b901319b9d52d3fb04697362328a55668b"
+      },
+      "text": {
+        "jp": "正弦波位相の配列 (度単位)、0.0 - 360.0にクランプされます",
+        "official_en": "Array of sinusoid phases in degrees, clamped to 0.0 - 360.0",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:BaseFrequencyDisplayName:04915fc7",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundAdditiveSynthNode",
+        "key": "BaseFrequencyDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:BaseFrequencyDisplayName:04915fc7",
+        "official_en_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:BaseFrequencyDisplayName:04915fc7",
+        "jp_sha256": "d08581b67f974f091d2691f461bacb87785ac2c4e8219cf75edb59f5d0fa410d",
+        "official_en_sha256": "c019289b17bee360e5507fb2ae15ba17a17a3b735d41b693438fd9a3514e0aa9"
+      },
+      "text": {
+        "jp": "Base Frequency (基本周波数)",
+        "official_en": "Base Frequency",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:HarmonicMultipliersDisplayName:b77e792e",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundAdditiveSynthNode",
+        "key": "HarmonicMultipliersDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:HarmonicMultipliersDisplayName:b77e792e",
+        "official_en_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:HarmonicMultipliersDisplayName:b77e792e",
+        "jp_sha256": "7909db90e7d9ffa2c5f0248366c4eedb353e1b9ddbd20438a872ac480aa721fd",
+        "official_en_sha256": "7909db90e7d9ffa2c5f0248366c4eedb353e1b9ddbd20438a872ac480aa721fd"
+      },
+      "text": {
+        "jp": "HarmonicMultipliers",
+        "official_en": "HarmonicMultipliers",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:LeftAudioOutTooltip:2ae7af29",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundAdditiveSynthNode",
+        "key": "LeftAudioOutTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:LeftAudioOutTooltip:2ae7af29",
+        "official_en_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:LeftAudioOutTooltip:2ae7af29",
+        "jp_sha256": "48cb7a8be780c22bd9d9a0b3a42131b9e7dd7bb5de88e85cc89a6227a4a643ad",
+        "official_en_sha256": "6dd7922557a33870d63e7dde000c0ff3b1dd9101e4543f0b3566b71bdc407915"
+      },
+      "text": {
+        "jp": "左出力合成オーディオ。",
+        "official_en": "Left output synthesized audio.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:LeftAudioOutDisplayName:e1861b3c",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundAdditiveSynthNode",
+        "key": "LeftAudioOutDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:LeftAudioOutDisplayName:e1861b3c",
+        "official_en_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:LeftAudioOutDisplayName:e1861b3c",
+        "jp_sha256": "3bcfc2c4fb580d85fca81e4ff3f76cfa372d4b58bc6bed8b7ff22d5f8e7ba1a5",
+        "official_en_sha256": "fe788defa798be66e48b3cdbbc14a0ac34319dfde5e8c3cb670c1f6b229fb44b"
+      },
+      "text": {
+        "jp": "Out Left Audio (左オーディオを出力)",
+        "official_en": "Out Left Audio",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:RightAudioOutDisplayName:6a6e176a",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundAdditiveSynthNode",
+        "key": "RightAudioOutDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:RightAudioOutDisplayName:6a6e176a",
+        "official_en_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:RightAudioOutDisplayName:6a6e176a",
+        "jp_sha256": "6c39c11d3ceac9d6c0e9a22abb2b410e2338d9be3bdd8ca53a4a4d786891f8e9",
+        "official_en_sha256": "60c4cd4ce8da27c7f51811c8453726d223101ff27a259574e4ab6314b5ffbd94"
+      },
+      "text": {
+        "jp": "Out Right Audio (右オーディオを出力)",
+        "official_en": "Out Right Audio",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:PanAmountsDisplayName:a5c88e68",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundAdditiveSynthNode",
+        "key": "PanAmountsDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:PanAmountsDisplayName:a5c88e68",
+        "official_en_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:PanAmountsDisplayName:a5c88e68",
+        "jp_sha256": "d42d00fada6f29ebe7ba21e2ce49b6d3fb5e0956e3dffd2afef79c3e7ace970a",
+        "official_en_sha256": "0f87c2c9a31d12bc5bb96846ca3be1df7e95d124af0c77c1d110ef1328485820"
+      },
+      "text": {
+        "jp": "パン量",
+        "official_en": "Pan Amounts",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:PhasesDisplayName:e7c6e4fe",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundAdditiveSynthNode",
+        "key": "PhasesDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:PhasesDisplayName:e7c6e4fe",
+        "official_en_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:PhasesDisplayName:e7c6e4fe",
+        "jp_sha256": "0ed085a88a775807957db7338261ee0ee660671af9a68e36206e32a619f6c1b5",
+        "official_en_sha256": "b4b0b75a774761b3c63ac250507efbb7ca51383efec56f30eb4cde9f7de2d613"
+      },
+      "text": {
+        "jp": "フェーズ",
+        "official_en": "Phases",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:RightAudioOutTooltip:a92d4c20",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundAdditiveSynthNode",
+        "key": "RightAudioOutTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:RightAudioOutTooltip:a92d4c20",
+        "official_en_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:RightAudioOutTooltip:a92d4c20",
+        "jp_sha256": "858da47e8229a0748869742584d16d2c0978c58ed0e049a698ab69114fc49bb5",
+        "official_en_sha256": "0ab0da38f366d4a0659eb52bd5b849f514423c69d26ca38a107e021619e66720"
+      },
+      "text": {
+        "jp": "右出力合成オーディオ。",
+        "official_en": "Right output synthesized audio.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:BaseFrequencyTooltip:f88e5712",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundAdditiveSynthNode",
+        "key": "BaseFrequencyTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:BaseFrequencyTooltip:f88e5712",
+        "official_en_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:BaseFrequencyTooltip:f88e5712",
+        "jp_sha256": "3f90da83080888a0acaf3cc392940621aa78bda5eec0faee8a9f60e653b54f18",
+        "official_en_sha256": "029f898a77081778847189e2799b7b6c5db512811e15708ff4a2ad409688bc1c"
+      },
+      "text": {
+        "jp": "0.0からナイキスト周波数までにクランプされる、高調波の基となる正弦波周波数。",
+        "official_en": "Sinusoid frequency that harmonics are based on, clamped to 0.0 - Nyquist.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:AdditiveSynthesisKeyword:6f231cb9",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundAdditiveSynthNode",
+        "key": "AdditiveSynthesisKeyword",
+        "jp_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:AdditiveSynthesisKeyword:6f231cb9",
+        "official_en_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:AdditiveSynthesisKeyword:6f231cb9",
+        "jp_sha256": "a5651442f1703b0efcea027f1b515478d35a8c9449888819ee91169b63489d08",
+        "official_en_sha256": "7de5a138fd9bbeda7a7b4dea75b30584e0cf3f6b3278c2e478f38e1f3fdf723b"
+      },
+      "text": {
+        "jp": "合成",
+        "official_en": "Synthesis",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:Metasound_AdditiveSynthNodeDescription:cb3a249e",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundAdditiveSynthNode",
+        "key": "Metasound_AdditiveSynthNodeDescription",
+        "jp_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:Metasound_AdditiveSynthNodeDescription:cb3a249e",
+        "official_en_record_id": "switch:locres:set-01:MetasoundAdditiveSynthNode:Metasound_AdditiveSynthNodeDescription:cb3a249e",
+        "jp_sha256": "57bf5c0ae951ad1c4c6aa91e282ff9ca0d874fa686c6deff95cba653910cc7be",
+        "official_en_sha256": "2c79d272ba2d91a16d7d8a03b01e4baf78de77417544a4720b570d21ffb13852"
+      },
+      "text": {
+        "jp": "指定された正弦波の入力配列でオーディオ出力を合成します。",
+        "official_en": "Synthesizes audio output given input array of sinusoids.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

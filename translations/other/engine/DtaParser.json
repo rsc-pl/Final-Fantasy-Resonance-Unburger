@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "DtaParser",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:DtaParser:DtaParserError:89b7ecfe",
+      "source": {
+        "set": "set-02",
+        "namespace": "DtaParser",
+        "key": "DtaParserError",
+        "jp_record_id": "switch:locres:set-01:DtaParser:DtaParserError:89b7ecfe",
+        "official_en_record_id": "switch:locres:set-01:DtaParser:DtaParserError:89b7ecfe",
+        "jp_sha256": "47abf0d7354914b0cedec67f2324b728c8f505094c8ca5627680018897cad3f4",
+        "official_en_sha256": "5e9ad62ef5613c2fed8ef8666dd343b42a013bbc211148f3a87cd77597b73c31"
+      },
+      "text": {
+        "jp": "DTA のパース中にエラーが発生しました",
+        "official_en": "Error parsing DTA",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DtaParser:DtaTokenizerError:4505d650",
+      "source": {
+        "set": "set-02",
+        "namespace": "DtaParser",
+        "key": "DtaTokenizerError",
+        "jp_record_id": "switch:locres:set-01:DtaParser:DtaTokenizerError:4505d650",
+        "official_en_record_id": "switch:locres:set-01:DtaParser:DtaTokenizerError:4505d650",
+        "jp_sha256": "c17b8c0934b247484c8856e622ed5ff8e420c31f50975f952f690c77a29a26ee",
+        "official_en_sha256": "a2f64d7db74d456ae50a54298567a0512e343f73c227bd8be5bd3976c58b7eea"
+      },
+      "text": {
+        "jp": "DTA のパース中にエラーが発生しました ({0} - {1})",
+        "official_en": "Error parsing DTA at {0} - {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DtaParser:DtaParserError_ParenMismatch:ef68d649",
+      "source": {
+        "set": "set-02",
+        "namespace": "DtaParser",
+        "key": "DtaParserError_ParenMismatch",
+        "jp_record_id": "switch:locres:set-01:DtaParser:DtaParserError_ParenMismatch:ef68d649",
+        "official_en_record_id": "switch:locres:set-01:DtaParser:DtaParserError_ParenMismatch:ef68d649",
+        "jp_sha256": "94850fe719e20c4bbcfb9cdd277097f3853307d6c71eebfeb7ca68d845460a58",
+        "official_en_sha256": "d61b248f219b85fa9c1df1607f25e8edcb9fb62fe221c7875d8c39d681809c7b"
+      },
+      "text": {
+        "jp": "丸括弧の不整合",
+        "official_en": "Paranthesis Mismatch",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DtaParser:DtaParserError_UnexpectedEOF:0a086094",
+      "source": {
+        "set": "set-02",
+        "namespace": "DtaParser",
+        "key": "DtaParserError_UnexpectedEOF",
+        "jp_record_id": "switch:locres:set-01:DtaParser:DtaParserError_UnexpectedEOF:0a086094",
+        "official_en_record_id": "switch:locres:set-01:DtaParser:DtaParserError_UnexpectedEOF:0a086094",
+        "jp_sha256": "242579a323815d653b97f272b4cf20ef0b2d40483c87d0f128147b94b9e5c510",
+        "official_en_sha256": "6e1295026d9e1a270a84d3daabf693ee0a0e0c14170188634e57dc4acd3d901d"
+      },
+      "text": {
+        "jp": "予期しないファイル終了が発生しました",
+        "official_en": "Unexpected End Of File",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DtaParser:DtaParserError_Unexpected:0884faa4",
+      "source": {
+        "set": "set-02",
+        "namespace": "DtaParser",
+        "key": "DtaParserError_Unexpected",
+        "jp_record_id": "switch:locres:set-01:DtaParser:DtaParserError_Unexpected:0884faa4",
+        "official_en_record_id": "switch:locres:set-01:DtaParser:DtaParserError_Unexpected:0884faa4",
+        "jp_sha256": "dc7fa6a1e5f966656db58cd4725651354611cee96aff1465deeab5d4c792f96b",
+        "official_en_sha256": "7113adc3f715b3dd7186fb5e90cba825cc51259082868330bd735d31204d623f"
+      },
+      "text": {
+        "jp": "予期しないエラーが発生しました",
+        "official_en": "Unexpected Error",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

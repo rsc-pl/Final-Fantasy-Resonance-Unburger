@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "OptimusDebugDrawDataInterface",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:OptimusDebugDrawDataInterface:Unsupported-Platform-Setting:6da3aeb4",
+      "source": {
+        "set": "set-02",
+        "namespace": "OptimusDebugDrawDataInterface",
+        "key": "Unsupported",
+        "jp_record_id": "switch:locres:set-01:OptimusDebugDrawDataInterface:Unsupported-Platform-Setting:6da3aeb4",
+        "official_en_record_id": "switch:locres:set-01:OptimusDebugDrawDataInterface:Unsupported-Platform-Setting:6da3aeb4",
+        "jp_sha256": "2fff722026ef415a92a3ea6e0e3b3db855d684eb2197890d6f110f37a150e7fb",
+        "official_en_sha256": "c4d586e3a1c3e4e5d915188aa2c1db8565f91bd570760ab3e741e216c37111a8"
+      },
+      "text": {
+        "jp": "デフォーマー グラフにはサポートされていない DebugDraw データ インターフェースが含まれているため、正常に機能しない可能性があります。[Project Settings (プロジェクト設定)] で DirectX 12 およびシェーダー モデル 6 が有効になっていることを確認するか、そのデータ インターフェースをグラフから完全に除去してください",
+        "official_en": "Deformer Graph contains unsupported DebugDraw Data Interface and may not function properly. Either make sure DirectX 12 and Shader Model 6 are enabled in Project Settings, or remove the data interface from your graph completely",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

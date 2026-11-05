@@ -1,0 +1,678 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NiagaraDataInterfaceSkeletalMesh_BoneSampling",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:IsValidBoneDesc:65679467",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_BoneSampling",
+        "key": "IsValidBoneDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:IsValidBoneDesc:65679467",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:IsValidBoneDesc:65679467",
+        "jp_sha256": "62307611655bd34ddfda7b636ae9e1be40de636cb88b7390c311dcba06871b3e",
+        "official_en_sha256": "d1fee69236d9c0042a22bb6b909edbe4172a05c39543b04220acaf6e9574e597"
+      },
+      "text": {
+        "jp": "このボーンインデックスがこのメッシュのスケルトンで有効であるかどうかを特定します。",
+        "official_en": "Determine if this bone index is valid for this mesh's skeleton.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredSocketOrBoneAtDesc:f0ba8424",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_BoneSampling",
+        "key": "GetFilteredSocketOrBoneAtDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredSocketOrBoneAtDesc:f0ba8424",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredSocketOrBoneAtDesc:f0ba8424",
+        "jp_sha256": "4a55656fd0e7e6664048013ba7bdba6d504a6cde004abb19c5a0b3f3eca2b496",
+        "official_en_sha256": "ccb5949eaeb8d4649110330bb3f92cb86c8938b388236d7de9280e399bb08975"
+      },
+      "text": {
+        "jp": "DIのリストからフィルタされたソケットまたはボーンの数を取得します。",
+        "official_en": "Gets a filtered socket or bone count from the DI's list.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetUnfilteredBoneAtDesc:b44e5307",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_BoneSampling",
+        "key": "GetUnfilteredBoneAtDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetUnfilteredBoneAtDesc:b44e5307",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetUnfilteredBoneAtDesc:b44e5307",
+        "jp_sha256": "6a5b2227dadb6458dbb3cea2075f93b9f66eacd97da282a125c18d13ace9373a",
+        "official_en_sha256": "33e3e329c0ffa3ca3ccbe83c7d46c652812930d5bf064e2edaeb7c6de599ffe8"
+      },
+      "text": {
+        "jp": "DIのフィルタのボーンリストの除外から渡されたインデックスのボーンを取得します。",
+        "official_en": "Gets the bone at the passed index from the exlusion of the DI's filter bones list.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredBoneAtDesc:d687a4c0",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_BoneSampling",
+        "key": "GetFilteredBoneAtDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredBoneAtDesc:d687a4c0",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredBoneAtDesc:d687a4c0",
+        "jp_sha256": "fa76fa9c406a579013be478729c407765b9a56e39a87c9c2a42fc006956df9ee",
+        "official_en_sha256": "2c43c0d2bd9d3c9f8c012ae56d3d61e644bcbdf35302d98ed5fe42bd78fad543"
+      },
+      "text": {
+        "jp": "DIフィルタのボーンリストで渡されたインデックスのボーンを取得します。",
+        "official_en": "Gets the bone at the passed index in the DI's filter bones list.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:RandomFilteredSocketOrBoneDesc:292106de",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_BoneSampling",
+        "key": "RandomFilteredSocketOrBoneDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:RandomFilteredSocketOrBoneDesc:292106de",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:RandomFilteredSocketOrBoneDesc:292106de",
+        "jp_sha256": "4f9a4892db82cf94bd3281df3eaacef6a93613eae17f040b396b070af2d8baaf",
+        "official_en_sha256": "bbb467ad4d2797ffc9064e8126375e852fe1224d1a38cf7aec012c62088315ea"
+      },
+      "text": {
+        "jp": "DIのリストからランダムにフィルタされたソケットまたはボーンを取得します。",
+        "official_en": "Gets the bone for a random filtered socket or bone from the DI's list.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:RandomFilteredSocketDesc:d404b814",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_BoneSampling",
+        "key": "RandomFilteredSocketDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:RandomFilteredSocketDesc:d404b814",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:RandomFilteredSocketDesc:d404b814",
+        "jp_sha256": "e5d45b0226e6bf2fd3979fed67aac44b8c4117392730abe79f05fd3cc5ace470",
+        "official_en_sha256": "f3dc46d04143df18502a0796d820a1d1945d5f4955879bfd8eac415e80f819b9"
+      },
+      "text": {
+        "jp": "DIのフィルタされたソケットリストにあるランダムソケットのボーンを取得します。",
+        "official_en": "Gets the bone for a random socket in the DI's filtered socket list.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredSocketBoneAtDesc:2c8df23c",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_BoneSampling",
+        "key": "GetFilteredSocketBoneAtDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredSocketBoneAtDesc:2c8df23c",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredSocketBoneAtDesc:2c8df23c",
+        "jp_sha256": "fc1960be62603c3e9b22215723fdcc277343474c2bd6132c099b405197eb36c7",
+        "official_en_sha256": "735b9b316f27e1e2da79118a266079a10876a6cd37d5faef8968d22248f8977d"
+      },
+      "text": {
+        "jp": "DIのフィルタされたソケットリストで渡されたインデックスのソケットのボーンを取得します。",
+        "official_en": "Gets the bone for the socket at the passed index in the DI's filtered socket list.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredSocketOrBoneCountDesc:a5c3ddd4",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_BoneSampling",
+        "key": "GetFilteredSocketOrBoneCountDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredSocketOrBoneCountDesc:a5c3ddd4",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredSocketOrBoneCountDesc:a5c3ddd4",
+        "jp_sha256": "e48a92f9a31b7e95de8c937b3cfbdbe5bdbfee2f60db69726cc4f72cde84fe7c",
+        "official_en_sha256": "96c25682da4686cede3d75119a17aeef0a5cbbf77d903fa36746d5f8256eb4eb"
+      },
+      "text": {
+        "jp": "DIのリストからフィルタされたソケットおよびボーンの総数を取得します。",
+        "official_en": "Gets the total filtered socket and bone count from the DI's list.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredSocketTransformDesc:3f456bc2",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_BoneSampling",
+        "key": "GetFilteredSocketTransformDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredSocketTransformDesc:3f456bc2",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredSocketTransformDesc:3f456bc2",
+        "jp_sha256": "ac02d54f6a10bc834c599bd5bb6dff61c66777e50c4df360d8727dc880cf7bfe",
+        "official_en_sha256": "54cc27d8da86179860422e95198d50e0f69e83323e132e84270beae0a90a55ad"
+      },
+      "text": {
+        "jp": "DIのフィルタされたソケットリストで渡されたインデックスにあるソケットのトランスフォームを取得します。ソースコンポーネントが設定されている場合、相対的なトランスフォーム空間も考慮されます。",
+        "official_en": "Gets the transform for the socket at the passed index in the DI's filtered socket list. If the Source component is set it will respect the Relative Transform Space as well..",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetOptionalSkinnedBoneDataDesc:f3bc7751",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_BoneSampling",
+        "key": "GetOptionalSkinnedBoneDataDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetOptionalSkinnedBoneDataDesc:f3bc7751",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetOptionalSkinnedBoneDataDesc:f3bc7751",
+        "jp_sha256": "2e4f2b14898a55ae8f4456ecb0dcf9e4e176a4d30dbf669d10b09aae8cfac95f",
+        "official_en_sha256": "5950f3709a29a58066c9eb2d3ebb19e5548733c825269098db6e2e9439dde793"
+      },
+      "text": {
+        "jp": "ボーンのスキニング依存データをローカル空間で返します。出力はすべてオプションであり、接続されていない場合はゼロから最小までの負荷が発生します",
+        "official_en": "Returns skinning dependant data for the bone in local space. All outputs are optional and you will incur zero to minimal cost if they are not connected.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetSkinnedBoneDataDesc:334ba43a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_BoneSampling",
+        "key": "GetSkinnedBoneDataDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetSkinnedBoneDataDesc:334ba43a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetSkinnedBoneDataDesc:334ba43a",
+        "jp_sha256": "91888ea4a342b4572b5361796c092a22e8ab81b72d3e9313afe17e9df9cbf973",
+        "official_en_sha256": "411168be0deb02d58c83563372bfeb185901bc9870dfdc79a1e9a90b1c864fd8"
+      },
+      "text": {
+        "jp": "ボーンのスキニング依存データをローカル空間で返します。このフレームと前のフレームの間を渡された補間係数に基づき補間しました。出力はすべてオプションであり、接続されていない場合はゼロから最小までの負荷が発生します",
+        "official_en": "Returns skinning dependant data for the bone in local space. Interpolated between this frame and the previous based on passed interpolation factor. All outputs are optional and you will incur zero to minimal cost if they are not connected.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetOptionalSkinnedBoneDataWSDesc:131ea18a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_BoneSampling",
+        "key": "GetOptionalSkinnedBoneDataWSDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetOptionalSkinnedBoneDataWSDesc:131ea18a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetOptionalSkinnedBoneDataWSDesc:131ea18a",
+        "jp_sha256": "09cfb5db3eb83cc9fb1a9594a0f913616be4c656e6952eedba750c5251b1b9ae",
+        "official_en_sha256": "a3e41bb5f142d96f329eebc54b1e4b54c091e8f5b8f768bc005830072e48807c"
+      },
+      "text": {
+        "jp": "ボーンのスキニング依存データをワールド空間で返します。出力はすべてオプションであり、接続されていない場合はゼロから最小までの負荷が発生します",
+        "official_en": "Returns skinning dependant data for the bone in world space. All outputs are optional and you will incur zero to minimal cost if they are not connected.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetSkinnedBoneDataWSDesc:9641832d",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_BoneSampling",
+        "key": "GetSkinnedBoneDataWSDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetSkinnedBoneDataWSDesc:9641832d",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetSkinnedBoneDataWSDesc:9641832d",
+        "jp_sha256": "7ff9bd6c76e5e51b6b68e4eb7907f3816cef9721e05e6d7b4abfb7cb6e600267",
+        "official_en_sha256": "3157c55845d7c1ae7f97934a7ffe26d74a4cf60bceaafe70ccb0980fbd97a866"
+      },
+      "text": {
+        "jp": "ボーンのスキニング依存データをワールド空間で返します。このフレームと前のフレームの間を渡された補間係数に基づき補間しました。出力はすべてオプションであり、接続されていない場合はゼロから最小までの負荷が発生します",
+        "official_en": "Returns skinning dependant data for the bone in world space. Interpolated between this frame and the previous based on passed interpolation factor. All outputs are optional and you will incur zero to minimal cost if they are not connected.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetBoneCountDesc:5ce2217e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_BoneSampling",
+        "key": "GetBoneCountDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetBoneCountDesc:5ce2217e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetBoneCountDesc:5ce2217e",
+        "jp_sha256": "3034b5ba2836b0a6e7330f46ff82ceb0ccc194cd7955b7cde8f02a8a7e223c28",
+        "official_en_sha256": "70bd6b19289acd7c4ece36f1a07fb3c32293507a2d8435ffb0bbce82b2ca8752"
+      },
+      "text": {
+        "jp": "スケルタルメッシュのボーンの数を返します。",
+        "official_en": "Returns the number of bones in the skeletal mesh.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredSocketCountDesc:617717fc",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_BoneSampling",
+        "key": "GetFilteredSocketCountDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredSocketCountDesc:617717fc",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredSocketCountDesc:617717fc",
+        "jp_sha256": "109258ba6c897e38851a1000cbf21418b3db55b04beaf521d919d69a7c30d7dc",
+        "official_en_sha256": "6ef402a42ed6a318973c224e4c33d59963c6ab8f3388a71a4d814d57ad68c164"
+      },
+      "text": {
+        "jp": "DIリストのフィルタされたソケットの数を返します。",
+        "official_en": "Returns the number of filtered Sockets in the DI list.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredBoneCountDesc:b6fc3fe8",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_BoneSampling",
+        "key": "GetFilteredBoneCountDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredBoneCountDesc:b6fc3fe8",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetFilteredBoneCountDesc:b6fc3fe8",
+        "jp_sha256": "e5c842cf8b61837fe85ff3de5987a2f9cf4d5ee48fac802bd3a97ca8b0b83ea1",
+        "official_en_sha256": "3db4100dd5bb486ddce58330b7258fd90e48b5211e473542b1052d0d98b3e526"
+      },
+      "text": {
+        "jp": "DIリストのフィルタされたボーンの数を返します。",
+        "official_en": "Returns the number of filtered bones in the DI list.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetUnfilteredBoneCountDesc:24a53147",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_BoneSampling",
+        "key": "GetUnfilteredBoneCountDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetUnfilteredBoneCountDesc:24a53147",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetUnfilteredBoneCountDesc:24a53147",
+        "jp_sha256": "72ecf76f99b9d0688ad22ef16f37697ebb3a81ec1baa6a62ba13757cb32fe2ce",
+        "official_en_sha256": "42aa208c408cde5bca80f9790c00752aa889b9ec3e80291b2c0a7d7a8f79084b"
+      },
+      "text": {
+        "jp": "DIリストのフィルタされていないボーンの数(つまり、フィルタされたボーンを除く)を返します。",
+        "official_en": "Returns the number of unfiltered bones (i.e. the exclusion of filtered bones) in the DI list.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetParentBoneDesc:98cddb98",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_BoneSampling",
+        "key": "GetParentBoneDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetParentBoneDesc:98cddb98",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_BoneSampling:GetParentBoneDesc:98cddb98",
+        "jp_sha256": "c0a33732cd4a2701b5fcd5c35c060eb4a534b834ce334c61b86399399384c82f",
+        "official_en_sha256": "11c14856c05e3e07aaaef14e9791a2b2c5f13ee842c4b4c910a08bea2d06e340"
+      },
+      "text": {
+        "jp": "指定ボーンの親ボーンインデックスを返します。親が存在しない場合は-1。",
+        "official_en": "Returns the parent bone index for the given bone, -1 if no parent exists.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "IKRig_LimbSolver",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:IKRig_LimbSolver:SolverName:b6cf94cd",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRig_LimbSolver",
+        "key": "SolverName",
+        "jp_record_id": "switch:locres:set-01:IKRig_LimbSolver:SolverName:b6cf94cd",
+        "official_en_record_id": "switch:locres:set-01:IKRig_LimbSolver:SolverName:b6cf94cd",
+        "jp_sha256": "3e72635a3b2648634e0f7de9365da1de0800bc3a1a5c28bf9f779315ca2657b9",
+        "official_en_sha256": "88e73ecdb25bbe5ab7629cbdd4ec9bfa80891e4a974c33cfa206bbe7ca9bf120"
+      },
+      "text": {
+        "jp": "手足 IK",
+        "official_en": "Limb IK",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRig_LimbSolver:MissingGoal:37eb6bb8",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRig_LimbSolver",
+        "key": "MissingGoal",
+        "jp_record_id": "switch:locres:set-01:IKRig_LimbSolver:MissingGoal:37eb6bb8",
+        "official_en_record_id": "switch:locres:set-01:IKRig_LimbSolver:MissingGoal:37eb6bb8",
+        "jp_sha256": "415e1634992eef94d3b35a3b0717336a84caca7c2cf201a1f19746d8535dc7ee",
+        "official_en_sha256": "d42f0dff656710ef2b26d4ee892e1e4f15fa0ae44af87bdbd40fe9c96d2b3faa"
+      },
+      "text": {
+        "jp": "目標が存在しません。",
+        "official_en": "Missing goal.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRig_LimbSolver:MissingRoot:a8e5148d",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRig_LimbSolver",
+        "key": "MissingRoot",
+        "jp_record_id": "switch:locres:set-01:IKRig_LimbSolver:MissingRoot:a8e5148d",
+        "official_en_record_id": "switch:locres:set-01:IKRig_LimbSolver:MissingRoot:a8e5148d",
+        "jp_sha256": "bd132cd063c60dd3e050fdf320045cd445246cac63a2e6bfef84d826b7f9ed77",
+        "official_en_sha256": "20e942d57ebeaf6acd736ab3b93167e3cd536dd4f9902196d67a5c863bf0ff18"
+      },
+      "text": {
+        "jp": "ルートが存在しません。",
+        "official_en": "Missing root.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRig_LimbSolver:Requires3BonesChain:50324b3c",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRig_LimbSolver",
+        "key": "Requires3BonesChain",
+        "jp_record_id": "switch:locres:set-01:IKRig_LimbSolver:Requires3BonesChain:50324b3c",
+        "official_en_record_id": "switch:locres:set-01:IKRig_LimbSolver:Requires3BonesChain:50324b3c",
+        "jp_sha256": "c6bb4749c34c236d304764a1df561f9680f30cf9b06b80f9ae25e611862879d6",
+        "official_en_sha256": "a6f01d1c037de6813d70d3650a556c48eea1b45175533cb66a74ba16e567edc1"
+      },
+      "text": {
+        "jp": "ルートと目標の間に少なくとも 3 個のボーンが必要です。",
+        "official_en": "Requires at least 3 bones between root and goal.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

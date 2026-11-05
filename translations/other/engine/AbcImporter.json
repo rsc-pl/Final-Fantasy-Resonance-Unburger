@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AbcImporter",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AbcImporter:ImportAsSkeletalMesh:579fd397",
+      "source": {
+        "set": "set-02",
+        "namespace": "AbcImporter",
+        "key": "ImportAsSkeletalMesh",
+        "jp_record_id": "switch:locres:set-01:AbcImporter:ImportAsSkeletalMesh:579fd397",
+        "official_en_record_id": "switch:locres:set-01:AbcImporter:ImportAsSkeletalMesh:579fd397",
+        "jp_sha256": "7dfa600210b4ea903778e80086526494eabcd3e914ddbb3808f8b78dfcb128f2",
+        "official_en_sha256": "bbc2748ce686298e6b60bc850d49e6f1774df4da88003cf9643c11f76ded6540"
+      },
+      "text": {
+        "jp": "Alembic アニメーションをインポートしています",
+        "official_en": "Importing Alembic Animation",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AbcImporter:AbcSkelMeshImportWarningTitle:8a23154f",
+      "source": {
+        "set": "set-02",
+        "namespace": "AbcImporter",
+        "key": "AbcSkelMeshImportWarningTitle",
+        "jp_record_id": "switch:locres:set-01:AbcImporter:AbcSkelMeshImportWarningTitle:8a23154f",
+        "official_en_record_id": "switch:locres:set-01:AbcImporter:AbcSkelMeshImportWarningTitle:8a23154f",
+        "jp_sha256": "86f236571c3840e9f6a8458393940a7bfbdd90bde76b2d0f0a5aeaffececc07f",
+        "official_en_sha256": "5260d030801e061e6322e39627c1143b7643a1ab78f82accceee96bd49972a23"
+      },
+      "text": {
+        "jp": "インポートを続行しますか？",
+        "official_en": "Proceed with import?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AbcImporter:NoMeshesToProcess:9d8ed31d",
+      "source": {
+        "set": "set-02",
+        "namespace": "AbcImporter",
+        "key": "NoMeshesToProcess",
+        "jp_record_id": "switch:locres:set-01:AbcImporter:NoMeshesToProcess:9d8ed31d",
+        "official_en_record_id": "switch:locres:set-01:AbcImporter:NoMeshesToProcess:9d8ed31d",
+        "jp_sha256": "9359ea4665fca78871c13e5d7a2d98a628a30cabeb2a6db1a3aa5ad95fd0f709",
+        "official_en_sha256": "e527719749f4eafbfb247ec7bbbd75b35978007ca0cec7b44a2f96a4b225d24b"
+      },
+      "text": {
+        "jp": "アニメーションデータの圧縮ができませんでした。頂点アニメーションを含む(定数トポロジを伴う)メッシュが見つかりません。また、マトリクスアニメーションがオフになっています。",
+        "official_en": "Unable to compress animation data, no meshes (with constant topology) found with Vertex Animation and baked Matrix Animation is turned off.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AbcImporter:HeterogeneousMeshesAndForceSingle:9aa2168e",
+      "source": {
+        "set": "set-02",
+        "namespace": "AbcImporter",
+        "key": "HeterogeneousMeshesAndForceSingle",
+        "jp_record_id": "switch:locres:set-01:AbcImporter:HeterogeneousMeshesAndForceSingle:9aa2168e",
+        "official_en_record_id": "switch:locres:set-01:AbcImporter:HeterogeneousMeshesAndForceSingle:9aa2168e",
+        "jp_sha256": "d2fe1841fad52602a557777c53ef8bfa7c73be41c197a5a061bec2242d5013cf",
+        "official_en_sha256": "8b12fb55295c5ccd1b67fd62030d28afe7acd4f588da2e460e13255f6396a3a1"
+      },
+      "text": {
+        "jp": "インポートされたトラックがトポロジの変数データを含むため、定数トポロジ最適化を実行できません。",
+        "official_en": "Unable to enforce constant topology optimizations as the imported tracks contain topology varying data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AbcImporter:AbcSkelMeshImportWarningMessage:399b91eb",
+      "source": {
+        "set": "set-02",
+        "namespace": "AbcImporter",
+        "key": "AbcSkelMeshImportWarningMessage",
+        "jp_record_id": "switch:locres:set-01:AbcImporter:AbcSkelMeshImportWarningMessage:399b91eb",
+        "official_en_record_id": "switch:locres:set-01:AbcImporter:AbcSkelMeshImportWarningMessage:399b91eb",
+        "jp_sha256": "1021f70d87203c9295568d6050aea9fdbabe9dcba279b1ad56a2e2f131ab5c49",
+        "official_en_sha256": "782883c610c8a94f979a8ce93a24b8081e4c62f8508874dca3886b0196d2504e"
+      },
+      "text": {
+        "jp": "警告：メッシュ サイズおよびアニメーションの長さにより、インポートには長時間かかり、メモリが不足してクラッシュが発生する可能性があります。続行しますか？これを行わない場合は、アニメーションのインポート範囲を少なくする (メモリ使用量が減る) か、基本計算のタイプに圧縮なしを使用する (高速になるがメモリ使用量が増える) か、ジオメトリ キャッシュとしてインポートします",
+        "official_en": "Warning: Due to the mesh size and animation length, the import may take a long time and may run out of memory and crash. Do you want to continue?\nIf not, you may try reducing the animation import range (will use less memory) or use No Compression as the Base Calculation Type (faster, but will use more memory) or import as Geometry Cache.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

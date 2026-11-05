@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "LaunchEngineLoop",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:LaunchEngineLoop:CompileGlobalShaderMap:f5b7cec6",
+      "source": {
+        "set": "set-02",
+        "namespace": "LaunchEngineLoop",
+        "key": "CompileGlobalShaderMap",
+        "jp_record_id": "switch:locres:set-01:LaunchEngineLoop:CompileGlobalShaderMap:f5b7cec6",
+        "official_en_record_id": "switch:locres:set-01:LaunchEngineLoop:CompileGlobalShaderMap:f5b7cec6",
+        "jp_sha256": "657df07ad1350bc2520f8c71f01a455a49339f6e3da1e1d67f4415b3d2ae012f",
+        "official_en_sha256": "8e148cb9813195dffee87180e965251cd845ab5f88dcad21a21db73db1e5d4d1"
+      },
+      "text": {
+        "jp": "グローバル シェーダをコンパイルしています...",
+        "official_en": "Compiling Global Shaders...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LaunchEngineLoop:RequiresGamePrefix:5728d226",
+      "source": {
+        "set": "set-02",
+        "namespace": "LaunchEngineLoop",
+        "key": "RequiresGamePrefix",
+        "jp_record_id": "switch:locres:set-01:LaunchEngineLoop:RequiresGamePrefix:5728d226",
+        "official_en_record_id": "switch:locres:set-01:LaunchEngineLoop:RequiresGamePrefix:5728d226",
+        "jp_sha256": "ac78fcb266f8062c3f752e1a5c178748a4a87724a105124aa8740490f91d8a2b",
+        "official_en_sha256": "111d366393b51f1b7f6db98b681da57dec8f7e0ab44e3723d2af0d6c95da6ebc"
+      },
+      "text": {
+        "jp": "エラー：UnrealEditor はプレイ イン ゲーム名に「ゲーム」を追加しません。\nフルネームを使う必要があります。\n「{0}」を指定した場合は、「{0}ゲーム」を使用してください。",
+        "official_en": "Error: UnrealEditor does not append 'Game' to the passed in game name.\nYou must use the full name.\nYou specified '{0}', use '{0}Game'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

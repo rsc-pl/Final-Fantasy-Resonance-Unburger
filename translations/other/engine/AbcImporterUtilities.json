@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AbcImporterUtilities",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AbcImporterUtilities:MaxUVs:6e8d0671",
+      "source": {
+        "set": "set-02",
+        "namespace": "AbcImporterUtilities",
+        "key": "MaxUVs",
+        "jp_record_id": "switch:locres:set-01:AbcImporterUtilities:MaxUVs:6e8d0671",
+        "official_en_record_id": "switch:locres:set-01:AbcImporterUtilities:MaxUVs:6e8d0671",
+        "jp_sha256": "09279e1f6e8be3c669f3cf0f86e72ce22c51c19b42371d01fc1f37c6baa168e1",
+        "official_en_sha256": "68d1a649e8ff8d19c43bf4511fb7cdbb27d831dada71f0655b2c74425af4e081"
+      },
+      "text": {
+        "jp": "4個を超えるUVセットが見つかりました。残りのUVセットは無視されます。",
+        "official_en": "More than 4 UV sets found. The remaining UV sets will be ignored.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AbcImporterUtilities:NoNormals:b018e40b",
+      "source": {
+        "set": "set-02",
+        "namespace": "AbcImporterUtilities",
+        "key": "NoNormals",
+        "jp_record_id": "switch:locres:set-01:AbcImporterUtilities:NoNormals:b018e40b",
+        "official_en_record_id": "switch:locres:set-01:AbcImporterUtilities:NoNormals:b018e40b",
+        "jp_sha256": "cde15060d11f8fc5a83b09ce98374fd09ef0e83be4492e421bcea30becf259ec",
+        "official_en_sha256": "9352fd45fcaff4c4cee2d0df3b293ec80a995e710858c4447402e3a05ab50947"
+      },
+      "text": {
+        "jp": "法線を使用することができますが、見つかりません。",
+        "official_en": "Normals were supposed to be available but none were found.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AbcImporterUtilities:FoundNGon:ec9746c0",
+      "source": {
+        "set": "set-02",
+        "namespace": "AbcImporterUtilities",
+        "key": "FoundNGon",
+        "jp_record_id": "switch:locres:set-01:AbcImporterUtilities:FoundNGon:ec9746c0",
+        "official_en_record_id": "switch:locres:set-01:AbcImporterUtilities:FoundNGon:ec9746c0",
+        "jp_sha256": "1dd6a515ae2f1bad2e016c5060a83469b6dc5a686420b1db363563f3a46b3f72",
+        "official_en_sha256": "9ccb716e80bc4dd758ae870917157039c70c639471a418bfe7ce2cd6a88a7123"
+      },
+      "text": {
+        "jp": "{0} 頂点を構成する面の影響でメッシュをインポートできません。三角ポリゴン(3)または四角ポリゴン(4)が存在しません。",
+        "official_en": "Unable to import mesh due to a face consisting of {0} vertices, expecting triangles (3) or quads (4).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AbcImporterUtilities:FoundInvalidIndex:a72cb08a",
+      "source": {
+        "set": "set-02",
+        "namespace": "AbcImporterUtilities",
+        "key": "FoundInvalidIndex",
+        "jp_record_id": "switch:locres:set-01:AbcImporterUtilities:FoundInvalidIndex:a72cb08a",
+        "official_en_record_id": "switch:locres:set-01:AbcImporterUtilities:FoundInvalidIndex:a72cb08a",
+        "jp_sha256": "0b023d3fa6f77a29225f48125592e633d521b779ff03e613961350dbfde36356",
+        "official_en_sha256": "2ed5e7130c162f27921d937b2b9dd96c1893b72823a3f0eaed141052232d49b2"
+      },
+      "text": {
+        "jp": "インデックスが範囲外に見つかったためにメッシュをインポートできません",
+        "official_en": "Unable to import mesh due to index out of bound found.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

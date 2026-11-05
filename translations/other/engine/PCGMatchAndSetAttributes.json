@@ -1,0 +1,900 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGMatchAndSetAttributes",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:AttributeDoesNotSupportDistance:0af40be0",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "AttributeDoesNotSupportDistance",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:AttributeDoesNotSupportDistance:0af40be0",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:AttributeDoesNotSupportDistance:0af40be0",
+        "jp_sha256": "7c60a36d175a3b3f8284ebb5266337f042153d8662e819bda93cd89961ab9a29",
+        "official_en_sha256": "b7b798aca89d751a3d75debfa73c8b7bfbda87827297c4906fc27b62c4cdd208"
+      },
+      "text": {
+        "jp": "属性「{0}」は、距離の計算をサポートしていません",
+        "official_en": "Attribute '{0}' does not support distance computation.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:CannotReuseDifferentTypedAttribute:e42d4800",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "CannotReuseDifferentTypedAttribute",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:CannotReuseDifferentTypedAttribute:e42d4800",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:CannotReuseDifferentTypedAttribute:e42d4800",
+        "jp_sha256": "5705144c82e96de2acf864c5621a950aa7a8ca441efe43d9e7a1ba7f4b1836d0",
+        "official_en_sha256": "29dfb19f716bc8555cd3d5ef596d8bcbfdd7201f92b41923ae85d1195dd21521"
+      },
+      "text": {
+        "jp": "出力データの属性「{0}」は、一致データに対して異なる型を持ち、「一致なしを維持」のデータの値をリセットします",
+        "official_en": "Attribute '{0}' on output data has a different type vs. the match data, and will reset the values of 'Keep Unmatched' data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:InvalidThresholdAttribute:9c98f543",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "InvalidThresholdAttribute",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:InvalidThresholdAttribute:9c98f543",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:InvalidThresholdAttribute:9c98f543",
+        "jp_sha256": "845b2de33b8effb4497cf44d07b1dcc61de6d701d05994bc4d0910bd209c9045",
+        "official_en_sha256": "71e42e40898e984eba74395b5c8feb36aed2c4bc05955ca34fe4cc496bdc1c2a"
+      },
+      "text": {
+        "jp": "最大距離の属性に使用されている「{0}」が無効です",
+        "official_en": "Attribute '{0}' used for max distance is invalid.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:OperationRequiredAttributeCast:21a4be16",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "OperationRequiredAttributeCast",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:OperationRequiredAttributeCast:21a4be16",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:OperationRequiredAttributeCast:21a4be16",
+        "jp_sha256": "fdce95cb6f8a7f09b546a8880f962fcd34494e05b7a149f892ed3984757a9744",
+        "official_en_sha256": "00520b3303268e4f142e1eef93587fbeae11406cffc3918da41ccff625aac940"
+      },
+      "text": {
+        "jp": "「一致なしを維持」オプションにより、属性「{0}」は一致データ型にキャストされました。この警告は設定でオフにすることができます",
+        "official_en": "Attribute '{0}' was cast to the match data type because of the 'Keep Unmatched' option. This warning can be turned off in the settings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:CannotFindAttribute:8d0fb89c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "CannotFindAttribute",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:CannotFindAttribute:8d0fb89c",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:CannotFindAttribute:8d0fb89c",
+        "jp_sha256": "ab30c8a5c010e1388cb7c999034539edf879e4038ba654b3027d9f27a1a9ad68",
+        "official_en_sha256": "59da8d3a1fc5601352713674dd023aa4d8d2941f918747adbdaf0d48175498ba"
+      },
+      "text": {
+        "jp": "ソース属性セットに属性「{0}」が見つかりません",
+        "official_en": "Cannot find attribute '{0}' in the source Attribute Set.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:CannotFindWeightAttribute:330c74ce",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "CannotFindWeightAttribute",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:CannotFindWeightAttribute:330c74ce",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:CannotFindWeightAttribute:330c74ce",
+        "jp_sha256": "73ea4a00c9548c5c0513ad1d8640337e9fb5bc8ca90becd7cc1a098e3b6ab21f",
+        "official_en_sha256": "703e78934881fd9463aba9a6d98b21930b2a05cc31af0efcceb97032865fce37"
+      },
+      "text": {
+        "jp": "ソース属性セットにウェイト属性「{0}」が見つかりません",
+        "official_en": "Cannot find weight attribute '{0}' in the source Attribute Set.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:CouldNotInitializeExecutionState:2342eada",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "CouldNotInitializeExecutionState",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:CouldNotInitializeExecutionState:2342eada",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:CouldNotInitializeExecutionState:2342eada",
+        "jp_sha256": "2e2e10db1461d578ca1607016661283c867736f84048d4d7e9a65c5bd97a8df2",
+        "official_en_sha256": "7676a83c9a387b2686bac7222533afb1109f5550547fece12f3ccf6a67778e31"
+      },
+      "text": {
+        "jp": "実行ごとのタイムスライス状態データを初期化できませんでした",
+        "official_en": "Could not initialize per-execution timeslice state data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:CouldNotInitializeStateData:425f0487",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "CouldNotInitializeStateData",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:CouldNotInitializeStateData:425f0487",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:CouldNotInitializeStateData:425f0487",
+        "jp_sha256": "11d2d3478a143a891cf63e1f1bd79ec908924b43036e2f1c071ad3b70c9f7f25",
+        "official_en_sha256": "7b18fbe477bf8753b0813ab98d3255e5518f7c3b979fb38259c07223aaaf1021"
+      },
+      "text": {
+        "jp": "タイムスライス状態データを初期化できませんでした",
+        "official_en": "Could not initialize timeslice state data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:InvalidConstantThresholdAttribute:329fd124",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "InvalidConstantThresholdAttribute",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:InvalidConstantThresholdAttribute:329fd124",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:InvalidConstantThresholdAttribute:329fd124",
+        "jp_sha256": "a331c889986892006eba3efda7b69bfef9032de3c17cb8a1571b5570b7a5780e",
+        "official_en_sha256": "8d73c45431ac1a3d534b1b299fe6e0bdb9fa5540ba132d9ec5974b40fdb941c2"
+      },
+      "text": {
+        "jp": "距離のしきい値が無効です",
+        "official_en": "Distance threshold is invalid.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:InvalidThresholdAttributeType:ebb3d5eb",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "InvalidThresholdAttributeType",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:InvalidThresholdAttributeType:ebb3d5eb",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:InvalidThresholdAttributeType:ebb3d5eb",
+        "jp_sha256": "14dbdda759d98a2d7d20604142339f2b5174a310bf1d4f2351f01344c610d374",
+        "official_en_sha256": "abe3dbbdc6e4b154fbc565c71d1611a00d56be9e9e5511237d6cc96fd4f7ecf0"
+      },
+      "text": {
+        "jp": "距離しきい値のタイプは属性「{0}」と互換性がありません",
+        "official_en": "Distance threshold type is not compatible with attribute '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:MatchDataTooltip:7d2e3237",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "MatchDataTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:MatchDataTooltip:7d2e3237",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:MatchDataTooltip:7d2e3237",
+        "jp_sha256": "36b527d038275a410e83f0c6ede5c9539fcd11367579e6f6e8ef285848b782a4",
+        "official_en_sha256": "3cbd1eb2a6d1864e7e901db33aca9566312ca6f669e8decdaabeb2327faafd40"
+      },
+      "text": {
+        "jp": "データが入っている入力が照合されてから、付随する属性値がコピーされます",
+        "official_en": "Input containing the data to match to, then copy the accompanying attribute values",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:MaxDistanceTooltip:b14ebedf",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "MaxDistanceTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:MaxDistanceTooltip:b14ebedf",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:MaxDistanceTooltip:b14ebedf",
+        "jp_sha256": "1766721011f4ebd7ae201e5593daa4a5e653ef009f81f20fbe4563280c6302cb",
+        "official_en_sha256": "7acada291f265acb6d228f445978943b78c07a6f5358a14afe6884d29216eb2c"
+      },
+      "text": {
+        "jp": "入力には、最大距離属性によって選択された、最近接探索で可能な最大距離が含まれています",
+        "official_en": "Input containing the maximum distance allowed for nearest search, selected by the Max Distance Attribute.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:MissingAttribute:98ee789b",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "MissingAttribute",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:MissingAttribute:98ee789b",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:MissingAttribute:98ee789b",
+        "jp_sha256": "210e78eb383beef112d0516f1f9f3d0fa1d42a5d8b72dac8b9a0d6e0f1a84f4c",
+        "official_en_sha256": "1a95e644ab70eb7340e2e4c685d6a66dd7b57bbb424ed8207dc4a96f617f85e8"
+      },
+      "text": {
+        "jp": "入力データに入力属性「{0}」がありません",
+        "official_en": "Input data does not have the input attribute '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:MissingWeightAttribute:b64c14d7",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "MissingWeightAttribute",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:MissingWeightAttribute:b64c14d7",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:MissingWeightAttribute:b64c14d7",
+        "jp_sha256": "8494ee32688202e154d05e8ec490b6b9a130cb8eba59de2bd92dd57926c6012d",
+        "official_en_sha256": "085002b406f3f19956368da2394b574b5e19179241301a54517aab441c5bf8c5"
+      },
+      "text": {
+        "jp": "入力データに入力ウェイト属性「{0}」がありません",
+        "official_en": "Input data does not have the input weight attribute '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:InvalidInputWeightAttributeType:51dc74cb",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "InvalidInputWeightAttributeType",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:InvalidInputWeightAttributeType:51dc74cb",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:InvalidInputWeightAttributeType:51dc74cb",
+        "jp_sha256": "08896fb8f243e31799ad685eba0448247956ae535cf85a056d29edd3b93cb995",
+        "official_en_sha256": "56c0ac5775c6add5ba627448b4072df12453827515dafd38d6d2a2c49f760c77"
+      },
+      "text": {
+        "jp": "入力ウェイト属性「{0}」が適切な型 (float、double のいずれか) ではありません",
+        "official_en": "Input weight attribute '{0}' does not have the proper type (float or double).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:InvalidInputDataType:aa20cb91",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "InvalidInputDataType",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:InvalidInputDataType:aa20cb91",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:InvalidInputDataType:aa20cb91",
+        "jp_sha256": "0cdb5304eb23a989404a59a9869a362116bcf1253e532aad563c18eaa1f08b0b",
+        "official_en_sha256": "f150126c3624c52948792f37b08aa42148c64e9fc14eff67aa12860608173262"
+      },
+      "text": {
+        "jp": "入力 {0}：入力データはポイント型またはパラメータである必要があります",
+        "official_en": "Input {0}: Input data must be of type Point or Param",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:NodeTitle:b8163852",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "NodeTitle",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:NodeTitle:b8163852",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:NodeTitle:b8163852",
+        "jp_sha256": "00d0858c76e436965aee0eb25df2abff09b9cc88af3b0bca44bc1fe9c0c9fe2a",
+        "official_en_sha256": "726bc5723de13798b01080a2c44156eb50522a76626d90d62e9da5156dbebc44"
+      },
+      "text": {
+        "jp": "属性を照合および設定",
+        "official_en": "Match And Set Attributes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:NotBasicAttribute:7d2e1a21",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "NotBasicAttribute",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:NotBasicAttribute:7d2e1a21",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:NotBasicAttribute:7d2e1a21",
+        "jp_sha256": "65dab190b34dcddf43ed23c58439253540132f707e8864f82477c3dcbbbeda35",
+        "official_en_sha256": "ae51a5de06a6a074870fd018a2f1962a09ec11dc0e9feefa73ca5676fd86e863"
+      },
+      "text": {
+        "jp": "マッチ属性 {0} やウェイト属性 {1} は基本属性ではありません。まだサポートされていないため、基本属性だけが使用されます",
+        "official_en": "Match attribute {0} and/or weight attribute {1} are not basic attributes. Not yet supported, we will only use the basic attribute.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:NodeTooltip:e0107117",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "NodeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:NodeTooltip:e0107117",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:NodeTooltip:e0107117",
+        "jp_sha256": "b80642d09c51c8530d612b6669a1ea8ebb8594aee5d0e39d4f3f835041fef34b",
+        "official_en_sha256": "e7bdfec3bf7fabedb1e2e8436eb3ee90f2b7306fdf3796345f47e86ccfde4adf"
+      },
+      "text": {
+        "jp": "属性セットからの値を入力データに、照合するか、ランダムに割り当てます。N (入力)：1 (一致データ) または N：N 構成をサポートします",
+        "official_en": "Matches or randomly assigns values from the Attribute Set to the input data. Supports N (input):1 (match data), or N:N configurations.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:NoMatchData:037cfed0",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "NoMatchData",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:NoMatchData:037cfed0",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:NoMatchData:037cfed0",
+        "jp_sha256": "59037597e71b930036e8b0aa1ebdd25c70ed9e4610462de26d6eda58ca081238",
+        "official_en_sha256": "d014be527001306c67ccfcf939fc1291ae1654d9217fe0fef37811fb194ce0ed"
+      },
+      "text": {
+        "jp": "照合元にする属性セットは 1 つだけである必要があります",
+        "official_en": "Must have exactly one Attribute Set to match against",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:EmptyCategory:f331ce88",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "EmptyCategory",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:EmptyCategory:f331ce88",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:EmptyCategory:f331ce88",
+        "jp_sha256": "e0d6b8f487ef830f9696fc3869379cbace73bb0361131a397d8ed7d2a1639d59",
+        "official_en_sha256": "bff10068d957b9f266890686dba99409dd304d8f6a02f74a7654eb782c2b60b3"
+      },
+      "text": {
+        "jp": "属性セットにある属性「{0}」の一部の一致エントリに、有効なウェイトが関連付けられていません",
+        "official_en": "Some match entries on Attribute '{0}' in the Attribute Set do not have any associated valid weight.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:AttributeDoesNotSupportMaxDistance:d198af52",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "AttributeDoesNotSupportMaxDistance",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:AttributeDoesNotSupportMaxDistance:d198af52",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:AttributeDoesNotSupportMaxDistance:d198af52",
+        "jp_sha256": "444629371a233214b338d16d1d3e1be4dd493828bb388a9f22c4bf31ef34ed24",
+        "official_en_sha256": "4e589d15da041f70e728038a3005f6af5059f814c212328e4466090333843027"
+      },
+      "text": {
+        "jp": "選択された属性「{0}」は距離の計算をサポートしていません",
+        "official_en": "The selected attribute '{0}' does not support computing distances.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:UnableToCreateAttribute:6eba2e4a",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "UnableToCreateAttribute",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:UnableToCreateAttribute:6eba2e4a",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:UnableToCreateAttribute:6eba2e4a",
+        "jp_sha256": "d5414e5142d94b5ab53e8cb7bf267b24e1cdf6ddeaef1cb5fa6bd033fec6fd86",
+        "official_en_sha256": "75259f6ed02a554c5a2947c2d8dc0fc66ea75744f029a30f2f548c8796055809"
+      },
+      "text": {
+        "jp": "属性「{0}」の出力データを作成できません",
+        "official_en": "Unable to create attribute '{0}' on output data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:InvalidWeightAttributeType:a18a3804",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMatchAndSetAttributes",
+        "key": "InvalidWeightAttributeType",
+        "jp_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:InvalidWeightAttributeType:a18a3804",
+        "official_en_record_id": "switch:locres:set-01:PCGMatchAndSetAttributes:InvalidWeightAttributeType:a18a3804",
+        "jp_sha256": "4e0befb917bb9a543b800f17564b40734f8212afccbabc2380b575669cc65cc6",
+        "official_en_sha256": "e90f9b242a72d4d0771f139e4daa606f195b51f2460a53fded27bb1c368a330c"
+      },
+      "text": {
+        "jp": "ウェイト属性「{0}」が適切な型 (int32、int64、float、double のいずれか) ではありません",
+        "official_en": "Weight attribute '{0}' does not have the proper type (int32, int64, float or double).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

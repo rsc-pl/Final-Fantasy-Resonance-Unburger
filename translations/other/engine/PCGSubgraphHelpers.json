@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGSubgraphHelpers",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGSubgraphHelpers:CycleDetected:16991509",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGSubgraphHelpers",
+        "key": "CycleDetected",
+        "jp_record_id": "switch:locres:set-01:PCGSubgraphHelpers:CycleDetected:16991509",
+        "official_en_record_id": "switch:locres:set-01:PCGSubgraphHelpers:CycleDetected:16991509",
+        "jp_sha256": "6a70d84654d876e825a0e7b513ecce9875353499e675aafdb68bb66834ee9c33",
+        "official_en_sha256": "c1f7979b5e7d152463dfd59900211f314e788e6fc825b5b30108eba7daeb904c"
+      },
+      "text": {
+        "jp": "折りたたむと、サイクルが生成されます (A -> B -> C では、A と C を折りたたむと、B が両端に接続されます)。中断します",
+        "official_en": "Collapsing would introduce a cycle (A -> B -> C situation when we try to collapse A and C, B would be connected to both ends). Abort.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGSubgraphHelpers:InvalidGraph:23f45469",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGSubgraphHelpers",
+        "key": "InvalidGraph",
+        "jp_record_id": "switch:locres:set-01:PCGSubgraphHelpers:InvalidGraph:23f45469",
+        "official_en_record_id": "switch:locres:set-01:PCGSubgraphHelpers:InvalidGraph:23f45469",
+        "jp_sha256": "02ff3fbaf2c5e3647e763a27c4c6da59f6cadd91a22718cd50b9e24704153b1e",
+        "official_en_sha256": "48d983d409bac6c9f54e3bf1c1c2f32ea97fa3826cadebcf691b3f6814e51240"
+      },
+      "text": {
+        "jp": "元のグラフが無効です",
+        "official_en": "Original Graph is invalid.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGSubgraphHelpers:ValidLessThanTwoNodes:9abe0ec0",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGSubgraphHelpers",
+        "key": "ValidLessThanTwoNodes",
+        "jp_record_id": "switch:locres:set-01:PCGSubgraphHelpers:ValidLessThanTwoNodes:9abe0ec0",
+        "official_en_record_id": "switch:locres:set-01:PCGSubgraphHelpers:ValidLessThanTwoNodes:9abe0ec0",
+        "jp_sha256": "bd84b4cd3a4b28c189bbc8d625f03682fc927877daedb25073f03c64702cbc41",
+        "official_en_sha256": "414904a3c59b43481c18fbfd7201d3aec629fca6c21120422c53ee0251fe80ea"
+      },
+      "text": {
+        "jp": "2 つ未満の PCG ノードが選択されています。中断します",
+        "official_en": "There were less than 2 PCG nodes selected, abort",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGSubgraphHelpers:CollapseLessThanTwoNodes:d7f84f73",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGSubgraphHelpers",
+        "key": "CollapseLessThanTwoNodes",
+        "jp_record_id": "switch:locres:set-01:PCGSubgraphHelpers:CollapseLessThanTwoNodes:d7f84f73",
+        "official_en_record_id": "switch:locres:set-01:PCGSubgraphHelpers:CollapseLessThanTwoNodes:d7f84f73",
+        "jp_sha256": "b71b9fed6324336fbb1fd13f19728432d12521a330d5736c183ec3c7b785d092",
+        "official_en_sha256": "359edec7f4f454b5df0d6617c70470230a83c5d9bf2a9c09c82f68c974877bbd"
+      },
+      "text": {
+        "jp": "2 つ未満のノードの折りたたみを試行します",
+        "official_en": "Try to collapse less than 2 nodes.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

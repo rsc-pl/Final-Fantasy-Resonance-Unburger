@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_C02_208_01",
+    "scene_id": "ST_C02_208_01",
+    "chapter": "chapter02",
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_C02_208_01:208_01_001:2110ef26",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_C02_208_01",
+        "key": "208_01_001",
+        "jp_record_id": "switch:locres:set-02:ST_C02_208_01:208_01_001:2110ef26",
+        "official_en_record_id": "switch:locres:set-02:ST_C02_208_01:208_01_001:2110ef26",
+        "jp_sha256": "3f5de55697f8cac6345134704a01148008ce257161300da479a8b78a0764b141",
+        "official_en_sha256": "e2f2ca6e44aa667195e723657ae51a0864395e819bc293b714a1b0ef36c93b9c"
+      },
+      "text": {
+        "jp": "よーし！\r\nさっさと退治しちゃいましょ！",
+        "official_en": "All right! Let’s give ’em what for!",
+        "real_en": "All right! Let's hurry up and get rid of it!"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_C02_208_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "リド",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0057",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_C02_208_01/208_01_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NiagaraDataInterface",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterface:DI-Function-Parameter-Mismatch:84bb4b65",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterface",
+        "key": "DI",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterface:DI-Function-Parameter-Mismatch:84bb4b65",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterface:DI-Function-Parameter-Mismatch:84bb4b65",
+        "jp_sha256": "06b093077314e86cbf9b77ab723a605366145a062ef4587589efcf5a5826deba",
+        "official_en_sha256": "74f03408de3ba68d74bc65242421c564bda68101f9252038f52ac7e06029f505"
+      },
+      "text": {
+        "jp": "データインターフェース関数が呼び出されましたが、そのパラメータは利用可能などの関数にも一致しません!\nこのデータインターフェース関数のAPIは変更されている可能性があり、グラフを更新する必要があります。\nインターフェース:{0}\n関数:{1}\n",
+        "official_en": "Data Interface function called but it's parameters do not match any available function!\nThe API for this data interface function has likely changed and you need to update your graphs.\nInterface: {0}\nFunction: {1}\n",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterface:Unknown-DI-Function:6185dbfb",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterface",
+        "key": "Unknown",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterface:Unknown-DI-Function:6185dbfb",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterface:Unknown-DI-Function:6185dbfb",
+        "jp_sha256": "e85342544f22e174bf892a3385c24b88f91cfc914d139cb24d6466b68507ba37",
+        "official_en_sha256": "5c8ac9680361f29db4d33b6c226b8c13c6ad95b6cf74b506844ad8ca8e2bbd0d"
+      },
+      "text": {
+        "jp": "不明なデータインターフェース関数が呼び出されました。\nこのデータインターフェースのAPIは変更されている可能性があり、グラフを更新する必要があります。\nインターフェース:{0}\n関数:{1}\n",
+        "official_en": "Unknown Data Interface function called!\nThe API for this data interface has likely changed and you need to update your graphs.\nInterface: {0}\nFunction: {1}\n",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

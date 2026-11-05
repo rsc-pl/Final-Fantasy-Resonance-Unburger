@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NiagaraNodeOp",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NiagaraNodeOp:AllStaticInvalidInput:b2956a7a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraNodeOp",
+        "key": "AllStaticInvalidInput",
+        "jp_record_id": "switch:locres:set-01:NiagaraNodeOp:AllStaticInvalidInput:b2956a7a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraNodeOp:AllStaticInvalidInput:b2956a7a",
+        "jp_sha256": "9317f2be5b2e9fb958e6da27333a64bd4626cc9bcb49fe330b21476e18b64ce6",
+        "official_en_sha256": "bfe83518f090823353f0e520782762c78462a312de8eeb38136865fa38cdd0cd"
+      },
+      "text": {
+        "jp": "スタティック出力を持つにはすべての入力がスタティックでなければいけません。スタティックは保持されません。",
+        "official_en": "All inputs must be static to have static outputs. Static will not be preserved.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraNodeOp:AllStaticInvalidOutput:dbf62307",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraNodeOp",
+        "key": "AllStaticInvalidOutput",
+        "jp_record_id": "switch:locres:set-01:NiagaraNodeOp:AllStaticInvalidOutput:dbf62307",
+        "official_en_record_id": "switch:locres:set-01:NiagaraNodeOp:AllStaticInvalidOutput:dbf62307",
+        "jp_sha256": "11f7ce5a9fb7f2f0287238bda87f218410b651946df4c7cbefe371f5374a870b",
+        "official_en_sha256": "d3db5656dbbb77e5fd042e8ab152b1097300e9b5e1e3df920ec6be1be0f1d920"
+      },
+      "text": {
+        "jp": "スタティック入力を持つにはすべての出力がスタティックでなければいけません。スタティックは保持されません。",
+        "official_en": "All outputs must be static to have static inputs. Static will not be preserved.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraNodeOp:InputErrorFormat:84e8b48f",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraNodeOp",
+        "key": "InputErrorFormat",
+        "jp_record_id": "switch:locres:set-01:NiagaraNodeOp:InputErrorFormat:84e8b48f",
+        "official_en_record_id": "switch:locres:set-01:NiagaraNodeOp:InputErrorFormat:84e8b48f",
+        "jp_sha256": "1d1d38298b1e6f0e684a501a4d75f3826c11a65beea2933c38c50b884d3379c9",
+        "official_en_sha256": "03e6306985ffcc32fade6f351782688f1a0166dc24adc06d100081a746420010"
+      },
+      "text": {
+        "jp": "{OpName} ノードの入力のコンパイル中にエラーが発生しました。",
+        "official_en": "Error compiling input on {OpName} node.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraNodeOp:InputTypeErrorFormatFloat:244a5301",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraNodeOp",
+        "key": "InputTypeErrorFormatFloat",
+        "jp_record_id": "switch:locres:set-01:NiagaraNodeOp:InputTypeErrorFormatFloat:244a5301",
+        "official_en_record_id": "switch:locres:set-01:NiagaraNodeOp:InputTypeErrorFormatFloat:244a5301",
+        "jp_sha256": "959140e6818be95b77678f7505ee93402b529c0138cd2e0f7690925e66d4c6e0",
+        "official_en_sha256": "5909cc5444294cd703aa43d906dcd8158769ba9f562505d52b4cc765f6845d34"
+      },
+      "text": {
+        "jp": "{OpName} ノードに浮動小数基準の数値入力ピンを含めることはできません。",
+        "official_en": "The {OpName} node cannot have float based numeric input pins.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraNodeOp:InputTypeErrorFormatInt:8474182e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraNodeOp",
+        "key": "InputTypeErrorFormatInt",
+        "jp_record_id": "switch:locres:set-01:NiagaraNodeOp:InputTypeErrorFormatInt:8474182e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraNodeOp:InputTypeErrorFormatInt:8474182e",
+        "jp_sha256": "89467b2d3c4d5af59a36e0e3218f29584f9681716f36708dd735d82246dc0e8b",
+        "official_en_sha256": "217a15a4223005085dfe73fc882b8666fc5d5dfd6bf95e9da0765cd23adc3033"
+      },
+      "text": {
+        "jp": "{OpName} ノードに整数基準の数値入力ピンを含めることはできません。",
+        "official_en": "The {OpName} node cannot have integer based numeric input pins.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraNodeOp:AllStaticNotSupported:7e295646",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraNodeOp",
+        "key": "AllStaticNotSupported",
+        "jp_record_id": "switch:locres:set-01:NiagaraNodeOp:AllStaticNotSupported:7e295646",
+        "official_en_record_id": "switch:locres:set-01:NiagaraNodeOp:AllStaticNotSupported:7e295646",
+        "jp_sha256": "379a9e5389adc8d5482e4b84f3007d5303154dfe6d2a3055f77989b4b9eeed5b",
+        "official_en_sha256": "a3f7b8cff6a9e5bc741a5161dfda691c0e774ab752bb3079d2fabe648f3b0e93"
+      },
+      "text": {
+        "jp": "このopはスタティック出力に完全に対応していません。スタティックは保持されません。",
+        "official_en": "This op doesn't fully support static outputs. Static will not be preserved.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraNodeOp:Unknown-opcode:13bb9665",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraNodeOp",
+        "key": "Unknown",
+        "jp_record_id": "switch:locres:set-01:NiagaraNodeOp:Unknown-opcode:13bb9665",
+        "official_en_record_id": "switch:locres:set-01:NiagaraNodeOp:Unknown-opcode:13bb9665",
+        "jp_sha256": "592916445e3dff648fd709e3572e5a05410130afb063f185afd2460be35dc612",
+        "official_en_sha256": "f0cc1111a8038fa28ae8aecb72d0419d474933b38d667684f553df7d5cfd6b1d"
+      },
+      "text": {
+        "jp": "{OpName} ノードに不明な opcode があります。",
+        "official_en": "Unknown opcode on {OpName} node.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraNodeOp:OpNodeDescStatic:09078169",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraNodeOp",
+        "key": "OpNodeDescStatic",
+        "jp_record_id": "switch:locres:set-01:NiagaraNodeOp:OpNodeDescStatic:09078169",
+        "official_en_record_id": "switch:locres:set-01:NiagaraNodeOp:OpNodeDescStatic:09078169",
+        "jp_sha256": "267cd5a66934ae070059bb1dbe18059f72b9baa6246b05e1c22c6f3537f44855",
+        "official_en_sha256": "b6580e7ad1dd11734a1ac611d966ee7a3e0fbce9443e6404a4fdca682da213a0"
+      },
+      "text": {
+        "jp": "{OpDesc}\r\n(スタティックバージョンに変換するには、すべての入力ピンをその他のスタティックピンに接続します。)",
+        "official_en": "{OpDesc}\r\n(To convert into a static version, connect all input pins to other static pins.)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraNodeOp:OpNodeNameStatic:88c1b91f",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraNodeOp",
+        "key": "OpNodeNameStatic",
+        "jp_record_id": "switch:locres:set-01:NiagaraNodeOp:OpNodeNameStatic:88c1b91f",
+        "official_en_record_id": "switch:locres:set-01:NiagaraNodeOp:OpNodeNameStatic:88c1b91f",
+        "jp_sha256": "ce33c0d69b461ec05e4703515cfb915f582c3ecc13b79cc27ee13ddd18d5a496",
+        "official_en_sha256": "ce33c0d69b461ec05e4703515cfb915f582c3ecc13b79cc27ee13ddd18d5a496"
+      },
+      "text": {
+        "jp": "{OpName} (Static)",
+        "official_en": "{OpName} (Static)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

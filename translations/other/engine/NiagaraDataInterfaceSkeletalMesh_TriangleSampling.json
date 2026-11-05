@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NiagaraDataInterfaceSkeletalMesh_TriangleSampling",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:IsValidDesc:e5df1436",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_TriangleSampling",
+        "key": "IsValidDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:IsValidDesc:e5df1436",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:IsValidDesc:e5df1436",
+        "jp_sha256": "179d53b9603495fc9dd3085886437c1fbd04e868d4632cad39f3290c59f0a150",
+        "official_en_sha256": "c645d674c2994121f0da04b53a5625d51bbac88109b01f963a73eb382fb31cc0"
+      },
+      "text": {
+        "jp": "このトライアングル座標のトライアングルインデックスがこのメッシュで有効であるかどうかを特定します。なお、これはメッシュインデックスバッファサイズのみを確認し、フィルタリング設定は含まれません。",
+        "official_en": "Determine if this tri coordinate's triangle index is valid for this mesh. Note that this only checks the mesh index buffer size and does not include any filtering settings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:GetTriangleDataDesc:6836096b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_TriangleSampling",
+        "key": "GetTriangleDataDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:GetTriangleDataDesc:6836096b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:GetTriangleDataDesc:6836096b",
+        "jp_sha256": "c0624fb7353410349940aef0da07d1b74ecb1c1f26eaec6efdcad06c02e5b002",
+        "official_en_sha256": "60451bd8d9e30e138b336a7dd46848dfa1984a1f9067b8e1176edb16737d889d"
+      },
+      "text": {
+        "jp": "頂点のバインド ポーズの三角ポリゴン データを返します。",
+        "official_en": "Returns bind pose triangle data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:GetOptionalSkinnedDataDesc:6229c0a1",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_TriangleSampling",
+        "key": "GetOptionalSkinnedDataDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:GetOptionalSkinnedDataDesc:6229c0a1",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:GetOptionalSkinnedDataDesc:6229c0a1",
+        "jp_sha256": "d782af53db21f5bb44fa6b7a4bc794c49eb59fbf2dbcde0f4fbb13a976a6f25e",
+        "official_en_sha256": "08c72a360d2fc392534f026b18846ac13f7e4437733cabc858987ae9eb1eade4"
+      },
+      "text": {
+        "jp": "渡されたMeshTriCoordのスキニング依存データをローカル空間で返します。出力はすべてオプションであり、接続されていない場合はゼロ最小負荷が発生します。",
+        "official_en": "Returns skinning dependant data for the pased MeshTriCoord in local space. All outputs are optional and you will incur zerp minimal cost if they are not connected.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:GetSkinnedDataDesc:d03b0022",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_TriangleSampling",
+        "key": "GetSkinnedDataDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:GetSkinnedDataDesc:d03b0022",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:GetSkinnedDataDesc:d03b0022",
+        "jp_sha256": "9a2e448b84a1b088846ad74d89b2de858b83543ad3e9fe8de62b12f37fbc2735",
+        "official_en_sha256": "43472bc6f05a497712109980d34c84dab034f3cb6084bd40e033a8b976bc12f2"
+      },
+      "text": {
+        "jp": "渡されたMeshTriCoordのスキニング依存データをローカル空間で返します。前のフレームと現在のフレームの間を補間します。出力はすべてオプションであり、接続されていない場合はゼロ最小負荷が発生します。",
+        "official_en": "Returns skinning dependant data for the pased MeshTriCoord in local space. Interpolates between previous and current frame. All outputs are optional and you will incur zerp minimal cost if they are not connected.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:GetOptionalSkinnedDataWSDesc:1d51a8e2",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_TriangleSampling",
+        "key": "GetOptionalSkinnedDataWSDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:GetOptionalSkinnedDataWSDesc:1d51a8e2",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:GetOptionalSkinnedDataWSDesc:1d51a8e2",
+        "jp_sha256": "e9a29e6adac214ea08598f8673024840abdb056e6220b98ec2253643333733f7",
+        "official_en_sha256": "30feaea6915305a837251699a6df2c31d11519502438221926701862441e8f3f"
+      },
+      "text": {
+        "jp": "渡されたMeshTriCoordのスキニング依存データをワールド空間で返します。出力はすべてオプションであり、接続されていない場合はゼロ最小負荷が発生します。",
+        "official_en": "Returns skinning dependant data for the pased MeshTriCoord in world space. All outputs are optional and you will incur zerp minimal cost if they are not connected.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:GetSkinnedDataWSDesc:ee8e36ed",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_TriangleSampling",
+        "key": "GetSkinnedDataWSDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:GetSkinnedDataWSDesc:ee8e36ed",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:GetSkinnedDataWSDesc:ee8e36ed",
+        "jp_sha256": "f98663e86ccf0816a0a3575e116541bd210ed9d5e67a3bce6968be1a859c1a77",
+        "official_en_sha256": "876d2588ef3c40cf632ebade5e7c2f70d8a8a180a84e4090963c7fab6ce9e163"
+      },
+      "text": {
+        "jp": "渡されたMeshTriCoordのスキニング依存データをワールド空間で返します。前のフレームと現在のフレームの間を補間します。出力はすべてオプションであり、接続されていない場合はゼロ最小負荷が発生します。",
+        "official_en": "Returns skinning dependant data for the pased MeshTriCoord in world space. Interpolates between previous and current frame. All outputs are optional and you will incur zerp minimal cost if they are not connected.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:GetTriCoordVetsName:d912b5df",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_TriangleSampling",
+        "key": "GetTriCoordVetsName",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:GetTriCoordVetsName:d912b5df",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_TriangleSampling:GetTriCoordVetsName:d912b5df",
+        "jp_sha256": "a211abc0d1ec5fce9a81b08bc25e890b355562e463b12a2c37b611926e3d881c",
+        "official_en_sha256": "bcbdc8c0b880cb8478db4945ff88c7240d5d152d73b6aab8410edbff83844da1"
+      },
+      "text": {
+        "jp": "MeshTriCoordからTriangleIndexを受け取り、その三角ポリゴンの頂点を返します。",
+        "official_en": "Takes the TriangleIndex from a MeshTriCoord and returns the vertices for that triangle.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SInputDeviceSelector",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SInputDeviceSelector:AllowAnalog.Label:b3047c1f",
+      "source": {
+        "set": "set-02",
+        "namespace": "SInputDeviceSelector",
+        "key": "AllowAnalog.Label",
+        "jp_record_id": "switch:locres:set-01:SInputDeviceSelector:AllowAnalog.Label:b3047c1f",
+        "official_en_record_id": "switch:locres:set-01:SInputDeviceSelector:AllowAnalog.Label:b3047c1f",
+        "jp_sha256": "c7cf7f3e32907168bd384438ebd8acaa44dc596964f76c56ff0d9ad86196a7db",
+        "official_en_sha256": "93ade017c0b9ef860547b24892ce5a08110cf3d66f3d8535cf007f81b43ea40f"
+      },
+      "text": {
+        "jp": "アナログの検出を許可",
+        "official_en": "Allow analog detection",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SInputDeviceSelector:KeySelector:8da35950",
+      "source": {
+        "set": "set-02",
+        "namespace": "SInputDeviceSelector",
+        "key": "KeySelector",
+        "jp_record_id": "switch:locres:set-01:SInputDeviceSelector:KeySelector:8da35950",
+        "official_en_record_id": "switch:locres:set-01:SInputDeviceSelector:KeySelector:8da35950",
+        "jp_sha256": "2eae1bfd2ea005cb06527eeabd78b034d3c314ce37c93d1cd46051ed39094cd2",
+        "official_en_sha256": "2e18216d1f6be3cb0e1a9c633a325b239821743a95ca4b987fc28aa0022c00d2"
+      },
+      "text": {
+        "jp": "入力デバイスのボタンを押してデバイス ID を選択します。\nアナログはデフォルトで無視されます。また、右側の歯車で有効にすることができます",
+        "official_en": "Press a button on an input device to select device ID.\nAnalog is ignored by default and is enabled with the cog wheel on the right.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SInputDeviceSelector:AllowAnalog.Tooltip:9529ae48",
+      "source": {
+        "set": "set-02",
+        "namespace": "SInputDeviceSelector",
+        "key": "AllowAnalog.Tooltip",
+        "jp_record_id": "switch:locres:set-01:SInputDeviceSelector:AllowAnalog.Tooltip:9529ae48",
+        "official_en_record_id": "switch:locres:set-01:SInputDeviceSelector:AllowAnalog.Tooltip:9529ae48",
+        "jp_sha256": "8ea2ce8402d09102da3d29f62c46f47e632b9f9a34aeecf009931a47b10d25f0",
+        "official_en_sha256": "f2166257c5016ab432068332c581ad6667615188b74e4fb7c94574d1ef5f8754"
+      },
+      "text": {
+        "jp": "一部のデバイスはアナログ イベントをティックごとに生成するため、自動生成に干渉する場合があります",
+        "official_en": "Some devices emit analog events every tick which would interfer with auto detection.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SpeedPlantingOp",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SpeedPlantingOp:MissingSpeedCurves:3eb9827e",
+      "source": {
+        "set": "set-02",
+        "namespace": "SpeedPlantingOp",
+        "key": "MissingSpeedCurves",
+        "jp_record_id": "switch:locres:set-01:SpeedPlantingOp:MissingSpeedCurves:3eb9827e",
+        "official_en_record_id": "switch:locres:set-01:SpeedPlantingOp:MissingSpeedCurves:3eb9827e",
+        "jp_sha256": "46c595fdae4dc3083c28062c0a7a99f764e12f9e5951317d83ed5343babf81b2",
+        "official_en_sha256": "9f629a15c8a16657b0b0be0e1cd1681441d53ac3427e77b14241eba05a40d9e7"
+      },
+      "text": {
+        "jp": "実行していますが、{0} 速度カーブがありません",
+        "official_en": "Running, but missing {0} speed curves.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SpeedPlantingOp:SpeedPlantingMissingChain:6d827d41",
+      "source": {
+        "set": "set-02",
+        "namespace": "SpeedPlantingOp",
+        "key": "SpeedPlantingMissingChain",
+        "jp_record_id": "switch:locres:set-01:SpeedPlantingOp:SpeedPlantingMissingChain:6d827d41",
+        "official_en_record_id": "switch:locres:set-01:SpeedPlantingOp:SpeedPlantingMissingChain:6d827d41",
+        "jp_sha256": "25176319382b1825a775faf50ea8877d3a64a458056f90113110dec3024d0d4f",
+        "official_en_sha256": "025177422717cd1992a8b3e1b51e555cfc1993058029b1adcd0b2e5ac876ccc7"
+      },
+      "text": {
+        "jp": "速度プランティング操作：チェーン データが IK リグと同期していません。ターゲット チェーン「{0}」がありません",
+        "official_en": "Speed Planting Op: chain data is out of sync with IK Rig. Missing target chain, '{0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SpeedPlantingOp:SpeedPlantingChainWithoutGoal:b25f871a",
+      "source": {
+        "set": "set-02",
+        "namespace": "SpeedPlantingOp",
+        "key": "SpeedPlantingChainWithoutGoal",
+        "jp_record_id": "switch:locres:set-01:SpeedPlantingOp:SpeedPlantingChainWithoutGoal:b25f871a",
+        "official_en_record_id": "switch:locres:set-01:SpeedPlantingOp:SpeedPlantingChainWithoutGoal:b25f871a",
+        "jp_sha256": "a0f5fbffb05701d042325ca889b5a46454be8fd4b687da9ce781e6a71f9cdeee",
+        "official_en_sha256": "6d375dc9f81c8238720b2218c3eb2d93bc85ae6b37b57540c42a0750e0633716"
+      },
+      "text": {
+        "jp": "速度プランティング操作：指定したチェーンに IK 目標がありません。「{0}」を速度プランティングできません",
+        "official_en": "Speed Planting Op: specified chain does not have an IK goal. Cannot speed plant, '{0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SpeedPlantingOp:SpeedPlantingRigWithoutGoal:c59a9e12",
+      "source": {
+        "set": "set-02",
+        "namespace": "SpeedPlantingOp",
+        "key": "SpeedPlantingRigWithoutGoal",
+        "jp_record_id": "switch:locres:set-01:SpeedPlantingOp:SpeedPlantingRigWithoutGoal:c59a9e12",
+        "official_en_record_id": "switch:locres:set-01:SpeedPlantingOp:SpeedPlantingRigWithoutGoal:c59a9e12",
+        "jp_sha256": "9b8241ca20c481133002a9735c07dd6da153dbdf4c3652f647c3523e0a9b552d",
+        "official_en_sha256": "b44446fbb0abfcbf4369740c1c3333c99cfc9174b485e4d1397e7768772b77b4"
+      },
+      "text": {
+        "jp": "速度プランティング操作：ターゲット チェーンは IK リグ「{0}」に存在しない目標を参照しています",
+        "official_en": "Speed Planting Op: target chain references a goal that is not present in the IK Rig, '{0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SpeedPlantingOp:MissingIKRig:c2b64f25",
+      "source": {
+        "set": "set-02",
+        "namespace": "SpeedPlantingOp",
+        "key": "MissingIKRig",
+        "jp_record_id": "switch:locres:set-01:SpeedPlantingOp:MissingIKRig:c2b64f25",
+        "official_en_record_id": "switch:locres:set-01:SpeedPlantingOp:MissingIKRig:c2b64f25",
+        "jp_sha256": "b8c43490edc783ea5cb4233ec716f0a5e3f2c969d8cd27967589e2ab641cb6a0",
+        "official_en_sha256": "c509f02184acc82d1ab4546e56cefdd674ae2593b93d6153dcfe1e5dabe08c5d"
+      },
+      "text": {
+        "jp": "{0} に IK リグがありません。どのチェーンもリターゲティングできません ",
+        "official_en": "{0}, is missing an IK rig. No chains can be retargeted. ",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

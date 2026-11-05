@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UDrawPolygonTool",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UDrawPolygonTool:DrawPolyAddPoint:18426d49",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolygonTool",
+        "key": "DrawPolyAddPoint",
+        "jp_record_id": "switch:locres:set-01:UDrawPolygonTool:DrawPolyAddPoint:18426d49",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolygonTool:DrawPolyAddPoint:18426d49",
+        "jp_sha256": "853a1b028a313e337ee3843c82abf71a7da33d63e330c693b589a15011a6d565",
+        "official_en_sha256": "d2bc119118ee937d5048e091b78c687cb4f7dabce465ae7239cfd7261bd40402"
+      },
+      "text": {
+        "jp": "ポイントを追加",
+        "official_en": "Add Point",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDrawPolygonTool:CreatePolygon:b60af655",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolygonTool",
+        "key": "CreatePolygon",
+        "jp_record_id": "switch:locres:set-01:UDrawPolygonTool:CreatePolygon:b60af655",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolygonTool:CreatePolygon:b60af655",
+        "jp_sha256": "681294b4ba7888813f26723ad1f441e76b71afdf3002804e63ae94ff08a4acf8",
+        "official_en_sha256": "a04eb83dd7a2b0ea3b313026f6d7a051c87f6caa3f93421afd72fbcf080a54c0"
+      },
+      "text": {
+        "jp": "ポリゴンを作成",
+        "official_en": "Create Polygon",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDrawPolygonTool:OnStartDraw:7577e5f1",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolygonTool",
+        "key": "OnStartDraw",
+        "jp_record_id": "switch:locres:set-01:UDrawPolygonTool:OnStartDraw:7577e5f1",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolygonTool:OnStartDraw:7577e5f1",
+        "jp_sha256": "112f330b2885ac4944228651baf9f67c7bc07952ae0c64ceff24683c8738f72e",
+        "official_en_sha256": "b1a630c1d18a6b8970688be058d81e5240d13b9b12442bc0d3655e0d1a0b168d"
+      },
+      "text": {
+        "jp": "描画面にポリゴンを描画して、押し出します。左クリックしてポリゴンの頂点を配置します。描画中にスナップを無視するには Shift を長押しします。",
+        "official_en": "Draw a polygon on the drawing plane, and extrude it. Left-click to place polygon vertices. Hold Shift to ignore snapping while drawing.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDrawPolygonTool:ToolName:b5750adc",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolygonTool",
+        "key": "ToolName",
+        "jp_record_id": "switch:locres:set-01:UDrawPolygonTool:ToolName:b5750adc",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolygonTool:ToolName:b5750adc",
+        "jp_sha256": "80d3727e174c0397fef5fc8c5848e2586c47de8d7ca1a4c4c14dd6ab056b97b3",
+        "official_en_sha256": "5d63b766bb6a14f381761db2ee13a32d0870657d4f85c066b9852c97fe5d5cac"
+      },
+      "text": {
+        "jp": "ポリゴン押し出し",
+        "official_en": "Polygon Extrude",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDrawPolygonTool:OnStartExtrude:35f3517a",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolygonTool",
+        "key": "OnStartExtrude",
+        "jp_record_id": "switch:locres:set-01:UDrawPolygonTool:OnStartExtrude:35f3517a",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolygonTool:OnStartExtrude:35f3517a",
+        "jp_sha256": "bab0352c476e592264403bce28ca281090b51d7cafad4f90b3453a1f53013a26",
+        "official_en_sha256": "aebde01374385cdd1eea50b48123330d9a583bdd15dce6376e4d33264f9a6d67"
+      },
+      "text": {
+        "jp": "押し出しボリューム上またはオブジェクト上にマウス カーソルを置いて、それらの高さにスナップして押し出しの高さを設定します。スナッピングを無視するには、Shift キーを押したままにします。",
+        "official_en": "Set the height of the extrusion by positioning the mouse over the extrusion volume, or over objects to snap to their heights. Hold Shift to ignore snapping.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDrawPolygonTool:ToggleGizmoVisibilityUIName:b663cabf",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolygonTool",
+        "key": "ToggleGizmoVisibilityUIName",
+        "jp_record_id": "switch:locres:set-01:UDrawPolygonTool:ToggleGizmoVisibilityUIName:b663cabf",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolygonTool:ToggleGizmoVisibilityUIName:b663cabf",
+        "jp_sha256": "c2ad0b048a4366507df7a8e656aef10b4aeef6f5deed766b44babf46d5c840fd",
+        "official_en_sha256": "bd64507aeae5e9f1c1d69c07aebfaef12bac90f4345ceadc79eb537d0cec01c9"
+      },
+      "text": {
+        "jp": "ギズモを切り替え",
+        "official_en": "Toggle Gizmo",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDrawPolygonTool:ToggleGizmoVisibilityTooltip:fe6822ab",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolygonTool",
+        "key": "ToggleGizmoVisibilityTooltip",
+        "jp_record_id": "switch:locres:set-01:UDrawPolygonTool:ToggleGizmoVisibilityTooltip:fe6822ab",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolygonTool:ToggleGizmoVisibilityTooltip:fe6822ab",
+        "jp_sha256": "c49d59bfde1a269e9872c20c853ef54a239290c642d792ca2a45e69784dbb4e2",
+        "official_en_sha256": "1460773b4295c7c380344d83f4716046b065dcff8e1215698dfcc1cc63123af8"
+      },
+      "text": {
+        "jp": "変換ギズモの表示/非表示を切り替えます",
+        "official_en": "Toggle visibility of the transformation gizmo",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

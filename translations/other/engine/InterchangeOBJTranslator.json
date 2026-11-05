@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "InterchangeOBJTranslator",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:InterchangeOBJTranslator:GetMeshPayloadData_ValidateMeshDescriptionFail:7bf2f3e1",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeOBJTranslator",
+        "key": "GetMeshPayloadData_ValidateMeshDescriptionFail",
+        "jp_record_id": "switch:locres:set-01:InterchangeOBJTranslator:GetMeshPayloadData_ValidateMeshDescriptionFail:7bf2f3e1",
+        "official_en_record_id": "switch:locres:set-01:InterchangeOBJTranslator:GetMeshPayloadData_ValidateMeshDescriptionFail:7bf2f3e1",
+        "jp_sha256": "c1ba196404c1b93c9f3432504cc552ea38e3042693a79c4b8147355d3256a3af",
+        "official_en_sha256": "82116f7f79aeef1b0c459ecb3b9f9fd104a9dcf0981f2ce1da35cee0d1fa73a2"
+      },
+      "text": {
+        "jp": "無効なメッシュ データ (NAN) が見つかりました。ゼロに修正します。メッシュ レンダリングが不正な可能性があります",
+        "official_en": "Invalid mesh data (NAN) was found and fix to zero. Mesh render can be bad.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeOBJTranslator:EmptyFileError:4f68762b",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeOBJTranslator",
+        "key": "EmptyFileError",
+        "jp_record_id": "switch:locres:set-01:InterchangeOBJTranslator:EmptyFileError:4f68762b",
+        "official_en_record_id": "switch:locres:set-01:InterchangeOBJTranslator:EmptyFileError:4f68762b",
+        "jp_sha256": "c09d47140f9ee54bffcf7e4722ae5a8b3faf527ca99f2578074792d40cea7ce7",
+        "official_en_sha256": "6f20925cd8ec7f49f6b1f0b60674be59ef1be34952a32f35c4c7bf2ae33adf15"
+      },
+      "text": {
+        "jp": "OBJ ファイルは空のようです",
+        "official_en": "The OBJ file appears to be empty.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

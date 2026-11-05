@@ -1,0 +1,1603 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:TagSetToolTipFmt:02473e1b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "TagSetToolTipFmt",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:TagSetToolTipFmt:02473e1b",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:TagSetToolTipFmt:02473e1b",
+        "jp_sha256": "8cd4fca0bb398cb892f58f6b93f0b51756a8fcf05dee907f6ef8e8c5c9d8e7eb",
+        "official_en_sha256": "ae805a19dd0ff9f335d24ee313f16db92df66aac64bff97724180d8ba3312682"
+      },
+      "text": {
+        "jp": "「{0}」タグセット\n\n選択されているタグ セットからのメモリ タグがツリー ビューに表示されます\n\n注：\n\tトレースデータはローレベル メモリ トラッカー システム (LLM) から発出されます。\n\tドキュメントの LLM_ALLOW_ASSETS_TAGS マクロと\n\t「-llm -llmtagsets=assets,assetclasses」コマンドライン パラメータを参照してください",
+        "official_en": "'{0}' Tag Set\n\nThe tree view shows memory tags from the selected tag set.\n\nNote:\n\tTrace data is emitted by the Low-Level Memory Tracker system (LLM).\n\tSee documentation about LLM_ALLOW_ASSETS_TAGS macro and\n\tabout \"-llm -llmtagsets=assets,assetclasses\" command line parameters.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateAllGraphTracks:eeb1d41e",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_CreateAllGraphTracks",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateAllGraphTracks:eeb1d41e",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateAllGraphTracks:eeb1d41e",
+        "jp_sha256": "b55eb06d25e14a36c179b5ab27d5f570f0f32d7ed970dffcdd8997ec022d0f9a",
+        "official_en_sha256": "a52ace420f2175d08b1577a1bea5445e36801229c074ef9ed6c55a73401fd9c2"
+      },
+      "text": {
+        "jp": "すべて",
+        "official_en": "All",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_RemoveAllGraphTracks:04e30020",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_RemoveAllGraphTracks",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_RemoveAllGraphTracks:04e30020",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_RemoveAllGraphTracks:04e30020",
+        "jp_sha256": "b55eb06d25e14a36c179b5ab27d5f570f0f32d7ed970dffcdd8997ec022d0f9a",
+        "official_en_sha256": "a52ace420f2175d08b1577a1bea5445e36801229c074ef9ed6c55a73401fd9c2"
+      },
+      "text": {
+        "jp": "すべて",
+        "official_en": "All",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:BudgetSettingsMenu_Section_Budget:738ae76d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "BudgetSettingsMenu_Section_Budget",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:BudgetSettingsMenu_Section_Budget:738ae76d",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:BudgetSettingsMenu_Section_Budget:738ae76d",
+        "jp_sha256": "1fc7509c866dd92d1074e17c829fcad539c34aa6a9df8414d31adbd807b530f6",
+        "official_en_sha256": "1c6225ec7092ad2f4a4acd79f8fc6854aa10653763fb053a6cf2bb2d2a4148ab"
+      },
+      "text": {
+        "jp": "バジェット",
+        "official_en": "Budget",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:BudgetSettingsText:cf214cd4",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "BudgetSettingsText",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:BudgetSettingsText:cf214cd4",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:BudgetSettingsText:cf214cd4",
+        "jp_sha256": "1fc7509c866dd92d1074e17c829fcad539c34aa6a9df8414d31adbd807b530f6",
+        "official_en_sha256": "1c6225ec7092ad2f4a4acd79f8fc6854aa10653763fb053a6cf2bb2d2a4148ab"
+      },
+      "text": {
+        "jp": "バジェット",
+        "official_en": "Budget",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:BudgetSettingsToolTip:e42e64ba",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "BudgetSettingsToolTip",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:BudgetSettingsToolTip:e42e64ba",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:BudgetSettingsToolTip:e42e64ba",
+        "jp_sha256": "1dae15e07d20102acff79907a331024c19072e0a5b49bb5a86ba3dac5a445640",
+        "official_en_sha256": "75d9f19c77f64bbb841834346e73bcb01179439123e0cec891431914748b7e06"
+      },
+      "text": {
+        "jp": "予算設定",
+        "official_en": "Budget Settings",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:LargeHeight_ToolTip:278ebdd0",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "LargeHeight_ToolTip",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:LargeHeight_ToolTip:278ebdd0",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:LargeHeight_ToolTip:278ebdd0",
+        "jp_sha256": "fbd046686f1225ddc76ae3ad4f6a772d1364841beec6e7bcb8fafa5d8042fcef",
+        "official_en_sha256": "63b3f2adf68e28d67971b7b6b58c5c3820138e26ee5c8a3c2910f8887e65a5fb"
+      },
+      "text": {
+        "jp": "すべての LLM タグのグラフ トラックの高さを [大] に変更します",
+        "official_en": "Change height of all LLM Tag graph tracks to Large.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:MediumHeight_ToolTip:4ad3eea5",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "MediumHeight_ToolTip",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:MediumHeight_ToolTip:4ad3eea5",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:MediumHeight_ToolTip:4ad3eea5",
+        "jp_sha256": "335f156bbc22ee5999b9b83d455eefccf6006c6d9a61430705a32c37b4cafc10",
+        "official_en_sha256": "be1467462ff2fdf44d3789de32a4d31bf3ca25544f341b417c39fd1dbff8c876"
+      },
+      "text": {
+        "jp": "すべての LLM タグのグラフ トラックの高さを [中] に変更します",
+        "official_en": "Change height of all LLM Tag graph tracks to Medium.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:SmallHeight_ToolTip:ac6ee88a",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "SmallHeight_ToolTip",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:SmallHeight_ToolTip:ac6ee88a",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:SmallHeight_ToolTip:ac6ee88a",
+        "jp_sha256": "015c3192c6921116ec2410db396d0752f5bf9d220a61bc1f8cdfaa4595601039",
+        "official_en_sha256": "9419d6e0657fd1c4b20344144cca27264e047c98965472c3a716e9cd99210bd0"
+      },
+      "text": {
+        "jp": "すべての LLM タグのグラフ トラックの高さを [小] に変更します",
+        "official_en": "Change height of all LLM Tag graph tracks to Small.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_EditColorForSelectedMemTags_Desc:a52e44dd",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_EditColorForSelectedMemTags_Desc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_EditColorForSelectedMemTags_Desc:a52e44dd",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_EditColorForSelectedMemTags_Desc:a52e44dd",
+        "jp_sha256": "8615a22ab984fcb1dce16f625dc4eafe7b599720b7df854b563f8242bf826ead",
+        "official_en_sha256": "7e2ccaf8c95a0e2f8c0b330388a29a5b00071f7e2e5a77ae90bedb71ba4c73ce"
+      },
+      "text": {
+        "jp": "選択されているメモリ タグの色を変更します",
+        "official_en": "Changes color for the selected memory tags.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:OpenBudgetFile_ToolTip:8fa51393",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "OpenBudgetFile_ToolTip",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:OpenBudgetFile_ToolTip:8fa51393",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:OpenBudgetFile_ToolTip:8fa51393",
+        "jp_sha256": "fe1c8341f7ffa4cb11a31f0f7a0c37d1601a00eec9c4ddb22a742ba22876792b",
+        "official_en_sha256": "b54ff62fcbadb868d9881391b3e57a5a88d150b69b21ab76509a8b9022bf577a"
+      },
+      "text": {
+        "jp": "バジェットファイルを選択...",
+        "official_en": "Choose budget file...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateGraphTracks_SubMenu:1f617d8f",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_CreateGraphTracks_SubMenu",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateGraphTracks_SubMenu:1f617d8f",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateGraphTracks_SubMenu:1f617d8f",
+        "jp_sha256": "7e8e8e57f0be53099a0db21d495c9c64e89bed386708559b8285d9d6a2d0c44e",
+        "official_en_sha256": "1306f91cfbd9be90470f2f6829069b53f63ee02e391c23b8e7cb82798625c894"
+      },
+      "text": {
+        "jp": "グラフ トラックを作成",
+        "official_en": "Create Graph Tracks",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:CreateGraphTracksForSelectedMemTags_ToolTip:c8d31f67",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "CreateGraphTracksForSelectedMemTags_ToolTip",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:CreateGraphTracksForSelectedMemTags_ToolTip:c8d31f67",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:CreateGraphTracksForSelectedMemTags_ToolTip:c8d31f67",
+        "jp_sha256": "06b19848227492d2c5131bc4b3e17ed3fd4c8f11155f25086a5dd6dcfc3990d3",
+        "official_en_sha256": "6a6b9b6020bf7557070dd498428df66ab564a33d103f9d4476d5425c3c3a79cd"
+      },
+      "text": {
+        "jp": "選択されているメモリ タグのメモリ グラフ トラック (LLM グラフ シリーズ) を作成します",
+        "official_en": "Create memory graph tracks (LLM graph series) for the selected memory tags.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateAllGraphTracks_Desc:5b73f1fa",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_CreateAllGraphTracks_Desc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateAllGraphTracks_Desc:5b73f1fa",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateAllGraphTracks_Desc:5b73f1fa",
+        "jp_sha256": "8007602c9d3306b35499eed669affa15ffca7061df3cfc56bb9a5046cabf2900",
+        "official_en_sha256": "31f24fdf91af9e2c636bd4a04af8963384023e79203404447f45798531d66624"
+      },
+      "text": {
+        "jp": "すべてのメモリ タグのメモリ グラフ トラック (LLM グラフ シリーズ) を作成します",
+        "official_en": "Creates memory graph tracks (LLM graph series) for all memory tags.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateGraphTracksForSelectedMemTags_Desc:a25a2536",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_CreateGraphTracksForSelectedMemTags_Desc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateGraphTracksForSelectedMemTags_Desc:a25a2536",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateGraphTracksForSelectedMemTags_Desc:a25a2536",
+        "jp_sha256": "06b19848227492d2c5131bc4b3e17ed3fd4c8f11155f25086a5dd6dcfc3990d3",
+        "official_en_sha256": "1924ba19c524af47958b6aeeecc8bc6645680f3b5b0c999faca5a55141039c95"
+      },
+      "text": {
+        "jp": "選択されているメモリ タグのメモリ グラフ トラック (LLM グラフ シリーズ) を作成します",
+        "official_en": "Creates memory graph tracks (LLM graph series) for the selected memory tags.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateGraphTracksForVisibleMemTags_Desc:af73047d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_CreateGraphTracksForVisibleMemTags_Desc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateGraphTracksForVisibleMemTags_Desc:af73047d",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateGraphTracksForVisibleMemTags_Desc:af73047d",
+        "jp_sha256": "2e6a7133e50cb2e874b02e99c91dc5592943db268c5cc573a2510c08a261c33c",
+        "official_en_sha256": "e8d45c78780e370a92c38224754883b16451971c47edba1afcd22c1a842367ff"
+      },
+      "text": {
+        "jp": "表示されているメモリ タグのメモリ グラフ トラック (LLM グラフ シリーズ) を作成します",
+        "official_en": "Creates memory graph tracks (LLM graph series) for the visible memory tags.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateGraphTracks_SubMenu_Desc:c417c890",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_CreateGraphTracks_SubMenu_Desc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateGraphTracks_SubMenu_Desc:c417c890",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateGraphTracks_SubMenu_Desc:c417c890",
+        "jp_sha256": "de12b52ac88d768aefd71353620b7b43f6177efa83eae016d9f6813108262a14",
+        "official_en_sha256": "c770105d91b410a967ff893e488437ba3e07b924977162ca757f3b1cd53c4a72"
+      },
+      "text": {
+        "jp": "メモリ グラフ トラック (LLM グラフ シリーズ) を作成します",
+        "official_en": "Creates memory graph tracks (LLM graph series).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_EditColorForSelectedMemTags:ccc83790",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_EditColorForSelectedMemTags",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_EditColorForSelectedMemTags:ccc83790",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_EditColorForSelectedMemTags:ccc83790",
+        "jp_sha256": "8b9f970f3e6aeb8a52e6505e5db20f5cbec1637f535f6ce6a21cfa1bcf411f17",
+        "official_en_sha256": "64029eec8c7fc14976c2d6a893fa4328258daa9698d598fe4b6afd48e7fb2d4e"
+      },
+      "text": {
+        "jp": "色を編集...",
+        "official_en": "Edit Color...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:BudgetSettingsMenu_Section_File:095de7b6",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "BudgetSettingsMenu_Section_File",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:BudgetSettingsMenu_Section_File:095de7b6",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:BudgetSettingsMenu_Section_File:095de7b6",
+        "jp_sha256": "2b39ec3da17eef3982b84bc544c1ee0010438b9f7480914d7382fad80c8504d1",
+        "official_en_sha256": "50009ce1da4d15e1c4a04024df691eed5f0d598e2c4c67092f205366d0adf99e"
+      },
+      "text": {
+        "jp": "ファイル",
+        "official_en": "File",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:TrackersMenuToolTip:4d0a7385",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "TrackersMenuToolTip",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:TrackersMenuToolTip:4d0a7385",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:TrackersMenuToolTip:4d0a7385",
+        "jp_sha256": "5b00eedd84143094782f4c23e7a37ce0a939a82c578fca040c7f02b6226b4cb1",
+        "official_en_sha256": "1f7cec955a065ffc49e96142f38f1656e017bc68870a45f20a769865da447460"
+      },
+      "text": {
+        "jp": "メモリ タグのリストを LLM トラッカーでフィルタリングします",
+        "official_en": "Filter the list of memory tags by LLM tracker.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_GenerateColorForSelectedMemTags:79acc312",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_GenerateColorForSelectedMemTags",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_GenerateColorForSelectedMemTags:79acc312",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_GenerateColorForSelectedMemTags:79acc312",
+        "jp_sha256": "b98d0d8535c46ae841911ce8f7d5ce1d54b64a38982908ee9756d519c7c2d576",
+        "official_en_sha256": "c88bd387a337caa0722e6076e77573e55a00147af6544e0e1864bdb1fcd39bfc"
+      },
+      "text": {
+        "jp": "色を新規生成",
+        "official_en": "Generate New Color",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_GenerateColorForSelectedMemTags_Desc:d6b30b94",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_GenerateColorForSelectedMemTags_Desc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_GenerateColorForSelectedMemTags_Desc:d6b30b94",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_GenerateColorForSelectedMemTags_Desc:d6b30b94",
+        "jp_sha256": "ad4381b7ca469b36c3589d386182de524abdd5249f0dd6bd6a43a2062d7b0668",
+        "official_en_sha256": "c6a351d2a91ad2feceaa8c305d32a562e534a1f6d8367fdb03fe1b5af7b0f87c"
+      },
+      "text": {
+        "jp": "選択されているメモリ タグの色を新規生成します",
+        "official_en": "Generates new color for the selected memory tags.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_LoadReportXML:f2c93a47",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_LoadReportXML",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_LoadReportXML:f2c93a47",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_LoadReportXML:f2c93a47",
+        "jp_sha256": "78350ee053eea2d88aed706525ce8503142a0f13fd169f53fb1c831aa88933b1",
+        "official_en_sha256": "692a9e0da6d00cecf92bebdc0b2c09b06ef88a7d136374a921bc0ed42b50e316"
+      },
+      "text": {
+        "jp": "レポートXMLをロード...",
+        "official_en": "Load Report XML...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_LoadReportXML_Desc:a415472c",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_LoadReportXML_Desc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_LoadReportXML_Desc:a415472c",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_LoadReportXML_Desc:a415472c",
+        "jp_sha256": "96ff17c1a97200a3592a3254ce632ec397793560bc0a17224026127f66fbd87f",
+        "official_en_sha256": "5ae87e037f979467029df454ddbae899fa64bc76735747a60729134de7d277c6"
+      },
+      "text": {
+        "jp": "レポート仕様ファイル (LLMReportTypes.xml) をロードします",
+        "official_en": "Loads a report specification file (LLMReportTypes.xml)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_Section_MemoryTag:4e2f90bb",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_Section_MemoryTag",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_Section_MemoryTag:4e2f90bb",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_Section_MemoryTag:4e2f90bb",
+        "jp_sha256": "273b8bacbcff2314a5e965b9e848d2d2e5a04b81c1196e7f97af4820de2fa5e9",
+        "official_en_sha256": "0be156dc08a0408a632757f5574d5043a9bdd2c93358850f97d864a4fff8e2ed"
+      },
+      "text": {
+        "jp": "メモリ タグ",
+        "official_en": "Memory Tag",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:NoSelectionStats:2866a392",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "NoSelectionStats",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:NoSelectionStats:2866a392",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:NoSelectionStats:2866a392",
+        "jp_sha256": "765023e8fe3fb156664d3602402d4de54c3d85ea9c5d348e549b73d848db827a",
+        "official_en_sha256": "67cca488fc4c784f5f35c1d0bc2cb2e5e487cbc0e372f05e6c1acb432fdb86a5"
+      },
+      "text": {
+        "jp": "メモリ タグが選択されていません",
+        "official_en": "No memory tag selected",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:OpenBudgetFile_Text:98b4bf8b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "OpenBudgetFile_Text",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:OpenBudgetFile_Text:98b4bf8b",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:OpenBudgetFile_Text:98b4bf8b",
+        "jp_sha256": "c843631f89f0cf332471db0136cb73a4fb3f2e450c767ca1df0c87fa2e993f5c",
+        "official_en_sha256": "429e4316917c06afd4be766908463bbd7a1d1f399e4e3cd4678fd5c98fcf688b"
+      },
+      "text": {
+        "jp": "ファイルを開きます…",
+        "official_en": "Open File...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:LoadReportXML_FileDesc:cb0f313d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "LoadReportXML_FileDesc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:LoadReportXML_FileDesc:cb0f313d",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:LoadReportXML_FileDesc:cb0f313d",
+        "jp_sha256": "e3c71cc60fc4033fc378a3ccead95dbf01a1e519b9bdfce151ad3c9f173db023",
+        "official_en_sha256": "2db7be504f5bd1cdb5b737f6dfdc02580744bddb35abb4d51a9a07cb283f97b8"
+      },
+      "text": {
+        "jp": "LLMReportTypes.xml ファイルを開きます...",
+        "official_en": "Open the LLMReportTypes.xml file...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:LoadBudgetFile_FileDesc:2db752bf",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "LoadBudgetFile_FileDesc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:LoadBudgetFile_FileDesc:2db752bf",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:LoadBudgetFile_FileDesc:2db752bf",
+        "jp_sha256": "a8d24d9d8258b68ec945529c53414627fca762c6175411ea0c78af665a947f3f",
+        "official_en_sha256": "d92421b7cff3b9f1f75505191b522c6519c0e01145cb3479231ac49005f4831f"
+      },
+      "text": {
+        "jp": "メモリ バジェットの .xml ファイルを開きます",
+        "official_en": "Open the Memory Budget .xml file...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:BudgetSettingsMenu_Section_Platform:4e38ff5b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "BudgetSettingsMenu_Section_Platform",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:BudgetSettingsMenu_Section_Platform:4e38ff5b",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:BudgetSettingsMenu_Section_Platform:4e38ff5b",
+        "jp_sha256": "4bf4082c3f317cf61d530d1aa6091dc56ad2700d9004c7cadbeada7e82b88616",
+        "official_en_sha256": "c78ffe19571018fbc93a78873969046fe1a80c3d21e5d20fbb2ca17c7c53a144"
+      },
+      "text": {
+        "jp": "プラットフォーム",
+        "official_en": "Platform",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_RemoveGraphTracks_SubMenu:d33ca97b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_RemoveGraphTracks_SubMenu",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_RemoveGraphTracks_SubMenu:d33ca97b",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_RemoveGraphTracks_SubMenu:d33ca97b",
+        "jp_sha256": "0bf4518c055a2fed3933ed2803eee2444516bce7df4d3255f83f7ed5e583ee7c",
+        "official_en_sha256": "5b9620cfc31fbd1493aaa76828782106c32a77682cd77320fcd1eb655e8bb49a"
+      },
+      "text": {
+        "jp": "メモリ グラフ トラックを削除",
+        "official_en": "Remove Graph Tracks",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:RemoveAllGraphTracks_ToolTip:f0aad809",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "RemoveAllGraphTracks_ToolTip",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:RemoveAllGraphTracks_ToolTip:f0aad809",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:RemoveAllGraphTracks_ToolTip:f0aad809",
+        "jp_sha256": "d394a499503d4bcfb4bdcd1e29ee83a3c4cbb20cfce35327fb62556d4b9bd46b",
+        "official_en_sha256": "46876dced17626d638648d5caac2442a7a9e5174e1903a012974cf8945672ca6"
+      },
+      "text": {
+        "jp": "すべてのメモリ タグのメモリ グラフ トラック (LLM グラフ シリーズ) を削除します",
+        "official_en": "Remove memory graph tracks (LLM graph series) for all memory tags.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_RemoveAllGraphTracks_Desc:098b5cdb",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_RemoveAllGraphTracks_Desc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_RemoveAllGraphTracks_Desc:098b5cdb",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_RemoveAllGraphTracks_Desc:098b5cdb",
+        "jp_sha256": "d394a499503d4bcfb4bdcd1e29ee83a3c4cbb20cfce35327fb62556d4b9bd46b",
+        "official_en_sha256": "617e74c3acb4b172ae3dec72822cc1f0ffd2ddfb9aa365e67f03bf51565c51c9"
+      },
+      "text": {
+        "jp": "すべてのメモリ タグのメモリ グラフ トラック (LLM グラフ シリーズ) を削除します",
+        "official_en": "Removes memory graph tracks (LLM graph series) for all memory tags.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_RemoveGraphTracksForSelectedMemTags_Desc:f666fdbf",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_RemoveGraphTracksForSelectedMemTags_Desc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_RemoveGraphTracksForSelectedMemTags_Desc:f666fdbf",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_RemoveGraphTracksForSelectedMemTags_Desc:f666fdbf",
+        "jp_sha256": "85ce688ad2f219ec2bd0fe8ad01830edceb075a51fc4628fad09aff17872dee2",
+        "official_en_sha256": "294968d679a0c6fd4cb80c71be6637b51fe2f9bae16c4d7b63104c3c6f99a2ed"
+      },
+      "text": {
+        "jp": "選択されているメモリ タグのメモリ グラフ トラック (LLM グラフ シリーズ) を削除します",
+        "official_en": "Removes memory graph tracks (LLM graph series) for the selected memory tags.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_RemoveGraphTracks_SubMenu_Desc:b32805cd",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_RemoveGraphTracks_SubMenu_Desc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_RemoveGraphTracks_SubMenu_Desc:b32805cd",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_RemoveGraphTracks_SubMenu_Desc:b32805cd",
+        "jp_sha256": "2d952529e8c6ddbddde5eb2bc07595629df072321c45922a5ce6bcfb422994f8",
+        "official_en_sha256": "bc9e56e477c5d332d5ace7a59368afbf692fa64838d6a338477e8556809b16fb"
+      },
+      "text": {
+        "jp": "メモリ グラフ トラック (LLM グラフ シリーズ) を削除します",
+        "official_en": "Removes memory graph tracks (LLM graph series).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateGraphTracksForSelectedMemTags:d58f3c7c",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_CreateGraphTracksForSelectedMemTags",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateGraphTracksForSelectedMemTags:d58f3c7c",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateGraphTracksForSelectedMemTags:d58f3c7c",
+        "jp_sha256": "71f9725a467994d927269f3e62d0c858f4f670291bc401eaffcd3fed94e71ff5",
+        "official_en_sha256": "57fd7a0cf33f2666eede69e44f8857159653f2f28e4fd7482a5e16d4af628d2a"
+      },
+      "text": {
+        "jp": "選択済み",
+        "official_en": "Selected",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_RemoveGraphTracksForSelectedMemTags:5a1578c6",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_RemoveGraphTracksForSelectedMemTags",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_RemoveGraphTracksForSelectedMemTags:5a1578c6",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_RemoveGraphTracksForSelectedMemTags:5a1578c6",
+        "jp_sha256": "71f9725a467994d927269f3e62d0c858f4f670291bc401eaffcd3fed94e71ff5",
+        "official_en_sha256": "57fd7a0cf33f2666eede69e44f8857159653f2f28e4fd7482a5e16d4af628d2a"
+      },
+      "text": {
+        "jp": "選択済み",
+        "official_en": "Selected",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:TimeMarkerSettingsVisibilityToolTip:3bbacc19",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "TimeMarkerSettingsVisibilityToolTip",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:TimeMarkerSettingsVisibilityToolTip:3bbacc19",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:TimeMarkerSettingsVisibilityToolTip:3bbacc19",
+        "jp_sha256": "05d23a6c2c4ed7478881664bd565b850ea11533f0c328df685279eba50d0aafb",
+        "official_en_sha256": "da35b6bad780cd410440f0c0129b19a529a293cee914ccd47766e167a572dcc9"
+      },
+      "text": {
+        "jp": "詳細タイム マーカー設定の表示/非表示を切り替えます",
+        "official_en": "Toggle visibility for the advanced Time Marker settings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:TrackersMenuText:58a6d4e2",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "TrackersMenuText",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:TrackersMenuText:58a6d4e2",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:TrackersMenuText:58a6d4e2",
+        "jp_sha256": "0e77db71a1dbf0654a195480a759c9b50b789cece43a15facf1223e628f73bd5",
+        "official_en_sha256": "06e77c75d768fd6e3cda059d6cb1a2955582c4d470b1056e11990e1e468094ed"
+      },
+      "text": {
+        "jp": "トラッカー",
+        "official_en": "Trackers",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateGraphTracksForVisibleMemTags:301c3d5c",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "ContextMenu_CreateGraphTracksForVisibleMemTags",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateGraphTracksForVisibleMemTags:301c3d5c",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:ContextMenu_CreateGraphTracksForVisibleMemTags:301c3d5c",
+        "jp_sha256": "17efc6654ed280c70117040bebd3d505951acc41c48335ad31e6c09ba86db84b",
+        "official_en_sha256": "8411f5abb4c710b176d8f28c735f55a5f1e1ac648a8a48432ce4c10014a9bb91"
+      },
+      "text": {
+        "jp": "表示",
+        "official_en": "Visible",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:LoadBudgetFile_FileFilter:992c3dba",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "LoadBudgetFile_FileFilter",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:LoadBudgetFile_FileFilter:992c3dba",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:LoadBudgetFile_FileFilter:992c3dba",
+        "jp_sha256": "9099be83ac39848a3733c7cb734a387502294856a3a6e1dff2e3e1a394cd81c9",
+        "official_en_sha256": "2aece2ae5c6e8cb172ea2eaceb56a77163dad0c2185c06088db5e4069e683246"
+      },
+      "text": {
+        "jp": "XML ファイル (*.xml)|*.xml|すべてのファイル (*.*)|*.*",
+        "official_en": "XML files (*.xml)|*.xml|All files (*.*)|*.*",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:LoadReportXML_FileFilter:a23659e7",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "LoadReportXML_FileFilter",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:LoadReportXML_FileFilter:a23659e7",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:LoadReportXML_FileFilter:a23659e7",
+        "jp_sha256": "9099be83ac39848a3733c7cb734a387502294856a3a6e1dff2e3e1a394cd81c9",
+        "official_en_sha256": "2aece2ae5c6e8cb172ea2eaceb56a77163dad0c2185c06088db5e4069e683246"
+      },
+      "text": {
+        "jp": "XML ファイル (*.xml)|*.xml|すべてのファイル (*.*)|*.*",
+        "official_en": "XML files (*.xml)|*.xml|All files (*.*)|*.*",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:SelectionStatsFmt:b65d2883",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemTagTreeView",
+        "key": "SelectionStatsFmt",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:SelectionStatsFmt:b65d2883",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemTagTreeView:SelectionStatsFmt:b65d2883",
+        "jp_sha256": "04061a2402996ade59a88655202b6f259ef66bc6cf527b88e1582a165999786e",
+        "official_en_sha256": "6e8e9f80934cf339a804282634d786eecb30ae95cbe7b9cfd672539f75f3fdb4"
+      },
+      "text": {
+        "jp": "{0}|plural(one=,other=) 個のタグが選択されています",
+        "official_en": "selected {0}|plural(one=tag,other=tags)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

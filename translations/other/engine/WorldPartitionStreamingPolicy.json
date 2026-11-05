@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "WorldPartitionStreamingPolicy",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:WorldPartitionStreamingPolicy:False:f423a6cc",
+      "source": {
+        "set": "set-02",
+        "namespace": "WorldPartitionStreamingPolicy",
+        "key": "False",
+        "jp_record_id": "switch:locres:set-01:WorldPartitionStreamingPolicy:False:f423a6cc",
+        "official_en_record_id": "switch:locres:set-01:WorldPartitionStreamingPolicy:False:f423a6cc",
+        "jp_sha256": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe",
+        "official_en_sha256": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe"
+      },
+      "text": {
+        "jp": "False",
+        "official_en": "False",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WorldPartitionStreamingPolicy:True:2de8975a",
+      "source": {
+        "set": "set-02",
+        "namespace": "WorldPartitionStreamingPolicy",
+        "key": "True",
+        "jp_record_id": "switch:locres:set-01:WorldPartitionStreamingPolicy:True:2de8975a",
+        "official_en_record_id": "switch:locres:set-01:WorldPartitionStreamingPolicy:True:2de8975a",
+        "jp_sha256": "3cbc87c7681f34db4617feaa2c8801931bc5e42d8d0f560e756dd4cd92885f18",
+        "official_en_sha256": "3cbc87c7681f34db4617feaa2c8801931bc5e42d8d0f560e756dd4cd92885f18"
+      },
+      "text": {
+        "jp": "True",
+        "official_en": "True",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WorldPartitionStreamingPolicy:WPStreamingCritical:7d393291",
+      "source": {
+        "set": "set-02",
+        "namespace": "WorldPartitionStreamingPolicy",
+        "key": "WPStreamingCritical",
+        "jp_record_id": "switch:locres:set-01:WorldPartitionStreamingPolicy:WPStreamingCritical:7d393291",
+        "official_en_record_id": "switch:locres:set-01:WorldPartitionStreamingPolicy:WPStreamingCritical:7d393291",
+        "jp_sha256": "85b110c6dee90ad3d3d2f4ae9022982cf0263be2835d4e20c5c98ece59fdaf75",
+        "official_en_sha256": "0204675794eb66336e4a6a3641b951ba9111699e53f48b5c535e6a436b8313f0"
+      },
+      "text": {
+        "jp": "[重大] WorldPartitionストリーミングパフォーマンス [ブロッキング:{0}]",
+        "official_en": "[Critical] WorldPartition Streaming Performance [Blocking:{0}]",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WorldPartitionStreamingPolicy:WPStreamingImmediate:7df1d199",
+      "source": {
+        "set": "set-02",
+        "namespace": "WorldPartitionStreamingPolicy",
+        "key": "WPStreamingImmediate",
+        "jp_record_id": "switch:locres:set-01:WorldPartitionStreamingPolicy:WPStreamingImmediate:7df1d199",
+        "official_en_record_id": "switch:locres:set-01:WorldPartitionStreamingPolicy:WPStreamingImmediate:7df1d199",
+        "jp_sha256": "94b18db27f8a0b5dcd113282c7d92ba106d11cba1f7803cf6021ba29dcba1590",
+        "official_en_sha256": "0c8f039cdffa1fd41a741bbe9495f37e46faa3d8fdedc675958a37d3d77c1c7c"
+      },
+      "text": {
+        "jp": "[即時] WorldPartitionストリーミングパフォーマンス [ブロッキング:{0}]",
+        "official_en": "[Immediate] WorldPartition Streaming Performance [Blocking:{0}]",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WorldPartitionStreamingPolicy:WPStreamingWarning:f497fc80",
+      "source": {
+        "set": "set-02",
+        "namespace": "WorldPartitionStreamingPolicy",
+        "key": "WPStreamingWarning",
+        "jp_record_id": "switch:locres:set-01:WorldPartitionStreamingPolicy:WPStreamingWarning:f497fc80",
+        "official_en_record_id": "switch:locres:set-01:WorldPartitionStreamingPolicy:WPStreamingWarning:f497fc80",
+        "jp_sha256": "4cea7fd7c6959e710389279a15cc70eca26dc84815b8001a921b6f73025995d8",
+        "official_en_sha256": "3edff2726219507e0b2657a8fab73e85c00a6d84f7599f3c71e5ccdb87e2ab60"
+      },
+      "text": {
+        "jp": "[低速] WorldPartitionストリーミングパフォーマンス [ブロッキング:{0}]",
+        "official_en": "[Slow] WorldPartition Streaming Performance [Blocking:{0}]",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

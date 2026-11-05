@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SSlateTraceFlags",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SSlateTraceFlags:InvalidateWidgetReasonFlagsTooltip:ffbfa718",
+      "source": {
+        "set": "set-02",
+        "namespace": "SSlateTraceFlags",
+        "key": "InvalidateWidgetReasonFlagsTooltip",
+        "jp_record_id": "switch:locres:set-01:SSlateTraceFlags:InvalidateWidgetReasonFlagsTooltip:ffbfa718",
+        "official_en_record_id": "switch:locres:set-01:SSlateTraceFlags:InvalidateWidgetReasonFlagsTooltip:ffbfa718",
+        "jp_sha256": "fbd6d3bf8836430b71be7793a9260621badc8c608e98e0d37bd182850ce7229f",
+        "official_en_sha256": "8eac31b87e904d9db210a6bd7b1af23abf38d8478a38fb7b8724141b665f67eb"
+      },
+      "text": {
+        "jp": "C:子の順序:子が追加または削除されました (それによってレイアウトが変化)。\nL:レイアウト:ウィジェットの望ましいサイズが変化しました。\nP:ペイント:ウィジェットの再ペイントが必要ですが、そのサイズは変化しません。\nV:変動性:ウィジェットの変動性が変化しました。\nR:レンダリングトランスフォーム:ウィジェットのレンダリングトランスフォームが変化しました。\nV:可視性:ウィジェットの可視性が変化しました (それによってレイアウトが変化)。\nA:属性の分解能:属性がバウンドまたはアンバウンドされました。\nP:プレパス:再帰的にこのウィジェットのすべての子の希望するサイズを再キャッシュします。",
+        "official_en": "C : Child Order : A child was added or removed (this implies layout).\nL : Layout : The widget desired size changed.\nP : Paint : The widget needs repainting but nothing affecting its size.\nV : Volatile : The widget volatility changed.\nR : Render Transform : The widget render transform changed.\nV : Visibility : The widget visibility changed (this implies layout).\nA : Attribute Registration : Attributes got bound or unbound.\nP : Prepass : Re-cache desired size of all of this widget's children recursively.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SSlateTraceFlags:UpdateFlagsTooltip:5bcbd613",
+      "source": {
+        "set": "set-02",
+        "namespace": "SSlateTraceFlags",
+        "key": "UpdateFlagsTooltip",
+        "jp_record_id": "switch:locres:set-01:SSlateTraceFlags:UpdateFlagsTooltip:5bcbd613",
+        "official_en_record_id": "switch:locres:set-01:SSlateTraceFlags:UpdateFlagsTooltip:5bcbd613",
+        "jp_sha256": "2c7589ae3076da66a15b0a9807d54ebef30040e80c5564209e490214c8f33c17",
+        "official_en_sha256": "0e4a5ab449cd8912a599055807e5511af6ac071e657c25717c029615da67869e"
+      },
+      "text": {
+        "jp": "T :",
+        "official_en": "T : Tick : The widget was updated/ticked.\nT : Active Timer Update : The widget had an active timer.\nP : Repaint : The widget was dirty and was repainted.\nV : Volatile Paint : The widget was volatile and was repainted.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

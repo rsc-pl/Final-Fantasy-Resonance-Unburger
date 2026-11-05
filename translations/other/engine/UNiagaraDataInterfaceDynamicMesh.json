@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UNiagaraDataInterfaceDynamicMesh",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:AllocateSectionTrianglesDesc:4fec3266",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraDataInterfaceDynamicMesh",
+        "key": "AllocateSectionTrianglesDesc",
+        "jp_record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:AllocateSectionTrianglesDesc:4fec3266",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:AllocateSectionTrianglesDesc:4fec3266",
+        "jp_sha256": "d2404d08a4057c442b1946021249a23418b56ed960ed4fc2e2c26077efccbc74",
+        "official_en_sha256": "d1a2abb80e72998a53e1e93c1102f2ef5430fd53076de476e7c0fbae99a6a4b0"
+      },
+      "text": {
+        "jp": "トライアングルの指定数をセクションからアロケートしますアロケートされた最初のトライアングルのインデックスおよび実際にアロケートされた数を返します",
+        "official_en": "Allocates the provided number of triangles from the section.  Returns the first triangle index allocated along with the number actually allocated.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:AppendTriangleDesc:1c0f3a28",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraDataInterfaceDynamicMesh",
+        "key": "AppendTriangleDesc",
+        "jp_record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:AppendTriangleDesc:1c0f3a28",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:AppendTriangleDesc:1c0f3a28",
+        "jp_sha256": "0a011966d4e1bad91cb9de574ddfc2dee6b2c49c31f0d7bb954d379f8ccba9ea",
+        "official_en_sha256": "d4756e8f30ffc0d6e9e2f8bc32dd99c82fb28c52f8b27a725b9a514245e6a356"
+      },
+      "text": {
+        "jp": "トライアングルをセクションに付加します。ここでの前提は、トライアングルがセクションに順に格納され、頂点の共有などがないことです",
+        "official_en": "Appends a triangle to the section.  This assumes that triangles are stored sequentially in the section, no vertex sharing, etc.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:ClearAllSectionTrianglesDesc:7a8f4451",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraDataInterfaceDynamicMesh",
+        "key": "ClearAllSectionTrianglesDesc",
+        "jp_record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:ClearAllSectionTrianglesDesc:7a8f4451",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:ClearAllSectionTrianglesDesc:7a8f4451",
+        "jp_sha256": "c6a69be75a00914830a0bb9866d5501f0306744a6bb064eaf2e021c44067cfe2",
+        "official_en_sha256": "41d2d2409b222a3358a6e60527e46a38df689d7a506bba262daf0b5e5283aec9"
+      },
+      "text": {
+        "jp": "すべてのセクション トライアングル カウントを 0 にクリア",
+        "official_en": "Clears all section triangle counts back to 0.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:ClearSectionTrianglesDesc:6d365e76",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraDataInterfaceDynamicMesh",
+        "key": "ClearSectionTrianglesDesc",
+        "jp_record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:ClearSectionTrianglesDesc:6d365e76",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:ClearSectionTrianglesDesc:6d365e76",
+        "jp_sha256": "122b80f8b071fe1716fbd5b5e1e43e7f8c8053276517de2558e7aa143ad5b961",
+        "official_en_sha256": "9a37895ad55209d79d5155e518883ad11e8fea5bc59d0eead5d36e00c944bc34"
+      },
+      "text": {
+        "jp": "対象セクション トライアングル カウントを 0 にクリア",
+        "official_en": "Clears the sections triangle count back to 0.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:SetMeshPropertiesDesc:75ec0b4f",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraDataInterfaceDynamicMesh",
+        "key": "SetMeshPropertiesDesc",
+        "jp_record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:SetMeshPropertiesDesc:75ec0b4f",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:SetMeshPropertiesDesc:75ec0b4f",
+        "jp_sha256": "2443ce51df31aed7d458865331e876449b56027e7cfab443d48abff1779ea229",
+        "official_en_sha256": "b20c8d624cba9924126ac6c4250e4e9eab2bf891094d58a230bf5fc85a94a50b"
+      },
+      "text": {
+        "jp": "メッシュ プロパティを変更すると、その変更により既存のメッシュ データがクリアされます",
+        "official_en": "Modifies the mesh proprties, any changes here will clear the existing mesh data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:SetSectionDataDesc:4bbff2b5",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraDataInterfaceDynamicMesh",
+        "key": "SetSectionDataDesc",
+        "jp_record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:SetSectionDataDesc:4bbff2b5",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:SetSectionDataDesc:4bbff2b5",
+        "jp_sha256": "84609bcd0b7f8d29fed21f751ff62a0faae9b3d63a19e7f51d3136d8bb5c553c",
+        "official_en_sha256": "816d97472038991d7898e737e978af23de273ebdeb7b2477aca4a7388b78dbd6"
+      },
+      "text": {
+        "jp": "メッシュ セクション データを設定すると、何らかの変更により既存のメッシュ データがクリアされます",
+        "official_en": "Sets the mesh section data, any changes here will clear existing mesh data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:SetSectionCountDesc:89a6cedc",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraDataInterfaceDynamicMesh",
+        "key": "SetSectionCountDesc",
+        "jp_record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:SetSectionCountDesc:89a6cedc",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraDataInterfaceDynamicMesh:SetSectionCountDesc:89a6cedc",
+        "jp_sha256": "f13d29313649dd7d89710da0a0854932c3551b59e6745d48dbd3f515818b8617",
+        "official_en_sha256": "cbcddff84d10fa6a0806b26b4186e8578c1c61cb14eeae186ef05371b7d27781"
+      },
+      "text": {
+        "jp": "メッシュに対するセクション数を設定すると、何らかの変更により既存のメッシュ データがクリアされます",
+        "official_en": "Sets the number of sections for the mesh, any changes here will clear existing mesh data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

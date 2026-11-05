@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PythonScriptRemoteExecution",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PythonScriptRemoteExecution:Message.FromJson.Error.MissingOrInvalidMagic:24dbb2c3",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptRemoteExecution",
+        "key": "Message.FromJson.Error.MissingOrInvalidMagic",
+        "jp_record_id": "switch:locres:set-01:PythonScriptRemoteExecution:Message.FromJson.Error.MissingOrInvalidMagic:24dbb2c3",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptRemoteExecution:Message.FromJson.Error.MissingOrInvalidMagic:24dbb2c3",
+        "jp_sha256": "134fc8ccaf77c8b04ab24a1e39fa121891d4481467117ac86676788f27b87781",
+        "official_en_sha256": "0b7537610fcc65e1bcbf0e628dd8975b40514a883a9a79d4b51b602864a0d27b"
+      },
+      "text": {
+        "jp": "'magic'がないか不正です('{0}' を取得しましたが、'{1}' が必要です)!",
+        "official_en": "'magic' is missing or incorrect (got '{0}', expected '{1}')!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptRemoteExecution:Message.ToJson.Error.SourceCannotBeEmpty:8b9004eb",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptRemoteExecution",
+        "key": "Message.ToJson.Error.SourceCannotBeEmpty",
+        "jp_record_id": "switch:locres:set-01:PythonScriptRemoteExecution:Message.ToJson.Error.SourceCannotBeEmpty:8b9004eb",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptRemoteExecution:Message.ToJson.Error.SourceCannotBeEmpty:8b9004eb",
+        "jp_sha256": "5c102bfbb6c5e3aff813de72a48d525f3b9ec6ef25452d176bb073a52a6266b7",
+        "official_en_sha256": "2f4e338ac82847628977ba653dff0700bf5a941dae5b688da881e63d0ec4ab69"
+      },
+      "text": {
+        "jp": "'ソース'を空にすることはできません!",
+        "official_en": "'source' cannot be empty!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptRemoteExecution:Message.FromJson.Error.MissingSource:32dfdb91",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptRemoteExecution",
+        "key": "Message.FromJson.Error.MissingSource",
+        "jp_record_id": "switch:locres:set-01:PythonScriptRemoteExecution:Message.FromJson.Error.MissingSource:32dfdb91",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptRemoteExecution:Message.FromJson.Error.MissingSource:32dfdb91",
+        "jp_sha256": "0c323e510d9b547bc32ec56e88f946bba82a4269bbbf97ace4228c911c841a67",
+        "official_en_sha256": "9f2006f515cc572c4bdd943841b02da40224bcd7cbd0df79eb6ad6e1ffc9d53a"
+      },
+      "text": {
+        "jp": "'ソース'が不足しています!",
+        "official_en": "'source' is missing!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptRemoteExecution:Message.ToJson.Error.TypeCannotBeEmpty:6e67637f",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptRemoteExecution",
+        "key": "Message.ToJson.Error.TypeCannotBeEmpty",
+        "jp_record_id": "switch:locres:set-01:PythonScriptRemoteExecution:Message.ToJson.Error.TypeCannotBeEmpty:6e67637f",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptRemoteExecution:Message.ToJson.Error.TypeCannotBeEmpty:6e67637f",
+        "jp_sha256": "6d920db0e625098a8e35bb87248e1cf2e5591d5c1cd9bd9c36250ac78a8efe99",
+        "official_en_sha256": "c8ace558108de3570b905c32de084d0d4574a8723ecc2193483d50302b8ca308"
+      },
+      "text": {
+        "jp": "'タイプ'を空にすることはできません",
+        "official_en": "'type' cannot be empty!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptRemoteExecution:Message.FromJson.Error.MissingType:a113f5ea",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptRemoteExecution",
+        "key": "Message.FromJson.Error.MissingType",
+        "jp_record_id": "switch:locres:set-01:PythonScriptRemoteExecution:Message.FromJson.Error.MissingType:a113f5ea",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptRemoteExecution:Message.FromJson.Error.MissingType:a113f5ea",
+        "jp_sha256": "de74e935fa044887607a9f195e19a55ed79024c077db1068c62e5dd001dcab16",
+        "official_en_sha256": "2257c0a16db70014d2eddb3f7b15d7ff149649f387331670f4199f280bf7336e"
+      },
+      "text": {
+        "jp": "'タイプ'が存在しません",
+        "official_en": "'type' is missing!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptRemoteExecution:Message.FromJson.Error.MissingOrInvalidVersion:ab9d779c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptRemoteExecution",
+        "key": "Message.FromJson.Error.MissingOrInvalidVersion",
+        "jp_record_id": "switch:locres:set-01:PythonScriptRemoteExecution:Message.FromJson.Error.MissingOrInvalidVersion:ab9d779c",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptRemoteExecution:Message.FromJson.Error.MissingOrInvalidVersion:ab9d779c",
+        "jp_sha256": "6a5ceb390ad72ea8e4728502a2608c926a1c7521659967c673a86a8ae2d670b5",
+        "official_en_sha256": "c27ca3da7ca49e9c019315bd3d299f1bd77cd9f3ef79c2c50cfad9bd35bdcc42"
+      },
+      "text": {
+        "jp": "'バージョン'がないか不正です({0} を取得しましたが、{1} が必要です)!",
+        "official_en": "'version' is missing or incorrect (got {0}, expected {1})!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptRemoteExecution:DeserializeJsonObject.Error.FailedToDeserialize:94076c7a",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptRemoteExecution",
+        "key": "DeserializeJsonObject.Error.FailedToDeserialize",
+        "jp_record_id": "switch:locres:set-01:PythonScriptRemoteExecution:DeserializeJsonObject.Error.FailedToDeserialize:94076c7a",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptRemoteExecution:DeserializeJsonObject.Error.FailedToDeserialize:94076c7a",
+        "jp_sha256": "5d364b72185c7a473e31f567ef396a331493f255c76c250000411d768a17a5f0",
+        "official_en_sha256": "40b56c5b879e7857f06b76bf3ebff55bb91b0e7ab77176a5318e14f1df71494e"
+      },
+      "text": {
+        "jp": "JSON オブジェクトのシリアル化を解除できませんでした!{0}",
+        "official_en": "Failed to deserialize JSON object! {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptRemoteExecution:SerializeJsonObject.Error.FailedToSerialize:71f7e6ee",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptRemoteExecution",
+        "key": "SerializeJsonObject.Error.FailedToSerialize",
+        "jp_record_id": "switch:locres:set-01:PythonScriptRemoteExecution:SerializeJsonObject.Error.FailedToSerialize:71f7e6ee",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptRemoteExecution:SerializeJsonObject.Error.FailedToSerialize:71f7e6ee",
+        "jp_sha256": "e708a1f81143393217493f3464f642e5e7a69c2ca40f2010be831924892fc281",
+        "official_en_sha256": "dea3cd55185e7bcad035ca595a1799898b8e05b435aed962024b9e3f86c7bd1d"
+      },
+      "text": {
+        "jp": "JSONオブジェクトをシリアル化できませんでした!",
+        "official_en": "Failed to serialize JSON object!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

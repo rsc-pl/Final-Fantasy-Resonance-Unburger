@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ConcertActivityStream",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ConcertActivityStream:InvalidClient:bb2fdb12",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertActivityStream",
+        "key": "InvalidClient",
+        "jp_record_id": "switch:locres:set-01:ConcertActivityStream:InvalidClient:bb2fdb12",
+        "official_en_record_id": "switch:locres:set-01:ConcertActivityStream:InvalidClient:bb2fdb12",
+        "jp_sha256": "2ba94d9531862230467dfeff0713109b686fb168ca0b8396694d201eb00906d8",
+        "official_en_sha256": "ccbe01b036fb2c0a0fdc8fc0a3e8ca9b987c6cb439bf5901bf06035222410b4f"
+      },
+      "text": {
+        "jp": "サーバーからアクティビティを取得できませんでした。コンサートクライアントポインタが無効化されました。",
+        "official_en": "Failed to fetch activities from the server. Concert client pointer was invalidated.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertActivityStream:ActivityRequestFailed:c372344c",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertActivityStream",
+        "key": "ActivityRequestFailed",
+        "jp_record_id": "switch:locres:set-01:ConcertActivityStream:ActivityRequestFailed:c372344c",
+        "official_en_record_id": "switch:locres:set-01:ConcertActivityStream:ActivityRequestFailed:c372344c",
+        "jp_sha256": "630e7aa84bf8caafeec8423712b6a6fa02918625792999d1112557d9425240a2",
+        "official_en_sha256": "4576c9ae38b6efd0bc9864dad6a715b8ca9e953d1c9fcde783c8be6615c02590"
+      },
+      "text": {
+        "jp": "セッション '{1}' から {0} アクティビティを取得できませんでした。理由:{2}",
+        "official_en": "Failed to retrieve {0} activities from session '{1}'. Reason: {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

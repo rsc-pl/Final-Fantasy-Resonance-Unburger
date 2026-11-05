@@ -1,0 +1,1233 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UAssetDefinition_StaticMesh",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Add-LOD-number:12bf9805",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "Add",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Add-LOD-number:12bf9805",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Add-LOD-number:12bf9805",
+        "jp_sha256": "25b3ee7443645e79539b2302cf479ba4b34c7ecc44430cad824ae161ca918e4a",
+        "official_en_sha256": "70a95932c3d76f889ddfe566b928190c1162053d97a01b2ea091736e6b4db7c7"
+      },
+      "text": {
+        "jp": "LOD {0} を追加",
+        "official_en": "Add LOD {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Import_HighResTip:521d7b52",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "Import_HighResTip",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Import_HighResTip:521d7b52",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Import_HighResTip:521d7b52",
+        "jp_sha256": "e080f24f8020c2f9b17b367fc25891e28da38cf0a45cebb7c92ac092910727cd",
+        "official_en_sha256": "3743d54bf4a4bd4a943473e41da515e87e974d2efa61060720a1eb51311a724c"
+      },
+      "text": {
+        "jp": "高解像度バージョンのメッシュを追加します。より詳細なジオメトリの恩恵を受けることのできるシステム (Nanite、モデリングなど) によって LOD0 の代わりに使用されます",
+        "official_en": "Adds a high resolution version of the mesh. Used instead of LOD0 by systems that can benefit from more detailed geometry (Nanite, modeling, etc.).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Warning_RemoveVertexColors:622557f2",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "Warning_RemoveVertexColors",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Warning_RemoveVertexColors:622557f2",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Warning_RemoveVertexColors:622557f2",
+        "jp_sha256": "9d7ce5e46715880ab77de913bbda35956d2bbc57e968816bf28d45d2dc5e6aec",
+        "official_en_sha256": "32b3be6f0e37b914b74bfcd797243d6fd62e45cf2e5bfd70ccb96ef822185f92"
+      },
+      "text": {
+        "jp": "選択したすべてのメッシュから頂点カラーを削除してよろしいですか?元に戻すことはできません。",
+        "official_en": "Are you sure you want to remove vertex colors from all selected meshes?  There is no undo available.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_CopyLODTooltip:5cd39bb0",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "StaticMesh_CopyLODTooltip",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_CopyLODTooltip:5cd39bb0",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_CopyLODTooltip:5cd39bb0",
+        "jp_sha256": "3ac3128fefb30bed8e13952b18c225715dd571e3708d5740ac764f93a5d485b5",
+        "official_en_sha256": "1464e9754c268804833cc7230bcc26230c5485dc520150f988b6c13a55d52d23"
+      },
+      "text": {
+        "jp": "選択したメッシュからLOD設定をコピーします",
+        "official_en": "Copies the LOD settings from the selected mesh.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_CopyLOD:75080481",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "StaticMesh_CopyLOD",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_CopyLOD:75080481",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_CopyLOD:75080481",
+        "jp_sha256": "154ba2ca0dc927b7156633ad3a619bd8888ed0f57b82f74a3d4885b542457e25",
+        "official_en_sha256": "f8750b7c7ef1e983bd46c259194631328695a01479e4d1436b9688c3b021379a"
+      },
+      "text": {
+        "jp": "LODをコピー",
+        "official_en": "Copy LOD",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteDisableAll:b0262b10",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "StaticMesh_NaniteDisableAll",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteDisableAll:b0262b10",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteDisableAll:b0262b10",
+        "jp_sha256": "05d500b0dae8fa78860ffbd3c7d59a9286f3b7f79743edc90130b7e07e5301fd",
+        "official_en_sha256": "cf8b04dc901c61f8e563078a7d37e42643365eda76eea6359802b2d144d39f30"
+      },
+      "text": {
+        "jp": "Naniteを無効化({0}個のメッシュ)",
+        "official_en": "Disable Nanite ({0} Meshes)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteDisableAllTooltip:e6f7f88f",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "StaticMesh_NaniteDisableAllTooltip",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteDisableAllTooltip:e6f7f88f",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteDisableAllTooltip:e6f7f88f",
+        "jp_sha256": "594d5ed341036878965f044d7974f14e421a22af180e02c2f5624c82e25679aa",
+        "official_en_sha256": "23055a94aa768e86087b939b7184549b1de1f781da26c4c73f0a1c8ae7d706a8"
+      },
+      "text": {
+        "jp": "選択済みのメッシュでの Nanite のサポートを無効化します",
+        "official_en": "Disables support for Nanite on the selected meshes.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteEnableAll:10834604",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "StaticMesh_NaniteEnableAll",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteEnableAll:10834604",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteEnableAll:10834604",
+        "jp_sha256": "db82116216bac719f07a645d1dc6389ba986b1dd5f4ab038f5fbb4e3f190d46f",
+        "official_en_sha256": "468be9c36273679812e36d30b534587ed5ed128f0df906a139edb47475f04bc3"
+      },
+      "text": {
+        "jp": "Naniteを有効化({0}個のメッシュ)",
+        "official_en": "Enable Nanite ({0} Meshes)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteEnableAllTooltip:9db2d0ad",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "StaticMesh_NaniteEnableAllTooltip",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteEnableAllTooltip:9db2d0ad",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteEnableAllTooltip:9db2d0ad",
+        "jp_sha256": "758c7eebf5c1d779b07a54fe053fe8827ffb8a3a034f6489adbd6430a700b0ad",
+        "official_en_sha256": "3553a3e2edb61dfc0c284cc1e34c68028439f18a53a4a13bb57bf2df77dfd38f"
+      },
+      "text": {
+        "jp": "選択済みのメッシュでの Nanite のサポートを有効化します",
+        "official_en": "Enables support for Nanite on the selected meshes.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Import_HighRes:5797c16d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "Import_HighRes",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Import_HighRes:5797c16d",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Import_HighRes:5797c16d",
+        "jp_sha256": "7474d170600edf72e2a024aa459b6c8a6092b99caae2a73c2e57193843a5b320",
+        "official_en_sha256": "4c036bb8288728b81759a24f0090e76d0ddd81560f7d19d53d91639d8ad5e173"
+      },
+      "text": {
+        "jp": "高解像度をインポート...",
+        "official_en": "Import High Res...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:NewImportTip:1f99472f",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "NewImportTip",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:NewImportTip:1f99472f",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:NewImportTip:1f99472f",
+        "jp_sha256": "252736b77357f86df26db1199470b329293c36ae04972a9a2a76f72eb72debb8",
+        "official_en_sha256": "f6236614d4fba7bea330f80942edd957e6343b8d7510b15af52455ade86821f6"
+      },
+      "text": {
+        "jp": "新規LODをインポートします",
+        "official_en": "Import new LOD",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_LODTooltip:fffcc2ea",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "StaticMesh_LODTooltip",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_LODTooltip:fffcc2ea",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_LODTooltip:fffcc2ea",
+        "jp_sha256": "6612448f055b989b08c21bd8d4bd2e9f7fa417031c8b3fa80061a253ac64502b",
+        "official_en_sha256": "0b111d6b65ab05c72d76401ddb60f862e655a5b0ef7b683a1a09cbc40e010bd9"
+      },
+      "text": {
+        "jp": "LOD設定とツール",
+        "official_en": "LOD Options and Tools",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_LODMenu:b8d43aca",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "StaticMesh_LODMenu",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_LODMenu:b8d43aca",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_LODMenu:b8d43aca",
+        "jp_sha256": "bf0dd156298c1469ed85594249b197680090fff3a49cdf4406cdae097a0f9dd0",
+        "official_en_sha256": "3cb12b5993852f391ee9ad99582851f70244aaba265e0995f1621316f68c5f36"
+      },
+      "text": {
+        "jp": "LOD",
+        "official_en": "Level Of Detail",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteMenu:36641026",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "StaticMesh_NaniteMenu",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteMenu:36641026",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteMenu:36641026",
+        "jp_sha256": "70e8641ffa6366f97a9c92390cfb46e23097e53960888be90dcec1728f321343",
+        "official_en_sha256": "70e8641ffa6366f97a9c92390cfb46e23097e53960888be90dcec1728f321343"
+      },
+      "text": {
+        "jp": "Nanite",
+        "official_en": "Nanite",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteToggle:30238db1",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "StaticMesh_NaniteToggle",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteToggle:30238db1",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteToggle:30238db1",
+        "jp_sha256": "70e8641ffa6366f97a9c92390cfb46e23097e53960888be90dcec1728f321343",
+        "official_en_sha256": "70e8641ffa6366f97a9c92390cfb46e23097e53960888be90dcec1728f321343"
+      },
+      "text": {
+        "jp": "Nanite",
+        "official_en": "Nanite",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteTooltip:285f78ac",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "StaticMesh_NaniteTooltip",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteTooltip:285f78ac",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteTooltip:285f78ac",
+        "jp_sha256": "47c74c3410b9343092b4a9475ef32272c03e38efc8de149855b176249bc48c04",
+        "official_en_sha256": "f9c6ed7ef8b7491093c271ace874f0e4487156d34271bc5eb3be23e3e0405c3c"
+      },
+      "text": {
+        "jp": "Nanite オプションとツール",
+        "official_en": "Nanite Options and Tools",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_PasteLOD:59929363",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "StaticMesh_PasteLOD",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_PasteLOD:59929363",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_PasteLOD:59929363",
+        "jp_sha256": "5519637c3aa9ac6e30eda81662ae566cc9b572774ba53013fb5b420fd1828dcd",
+        "official_en_sha256": "862cefc84626c945de58cb97b7928073357c226977f5f8205c0fb3a468cc284b"
+      },
+      "text": {
+        "jp": "LOD貼り付け",
+        "official_en": "Paste LOD",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_PasteLODWithName:c585a54a",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "StaticMesh_PasteLODWithName",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_PasteLODWithName:c585a54a",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_PasteLODWithName:c585a54a",
+        "jp_sha256": "4f252c93d741a976dc993e1d2a7f8a819a383fb4637ddfcf79e9490055664bd9",
+        "official_en_sha256": "654623ce66f3bcd1bc7f318e05155f4bb7f2223944f9b3b829dfce63bfccdefb"
+      },
+      "text": {
+        "jp": "{0}からLODを貼り付け",
+        "official_en": "Paste LOD from {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_PasteLODToltip:c4b801a9",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "StaticMesh_PasteLODToltip",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_PasteLODToltip:c4b801a9",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_PasteLODToltip:c4b801a9",
+        "jp_sha256": "57404076bb6bf1cd5fed37a8e365e04f73b313723afac9a089bca2a98e04271f",
+        "official_en_sha256": "4c05e39d27df1632c6e9627a014a4184100714c5c768ff06716fbadb3eaac799"
+      },
+      "text": {
+        "jp": "選択したメッシュにLOD設定を貼り付けます",
+        "official_en": "Pastes LOD settings to the selected mesh(es).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Reimport_HighRes:c96018cb",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "Reimport_HighRes",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Reimport_HighRes:c96018cb",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Reimport_HighRes:c96018cb",
+        "jp_sha256": "e6ae43ae056bf4cf2d16d7566d612535fc058771e3a761f1e4242b5e8dedba28",
+        "official_en_sha256": "2ea4ad33cba8fd7c12043ce2cf481e00aad83eb21befac500cf9f78c109facb5"
+      },
+      "text": {
+        "jp": "高解像度を再インポート",
+        "official_en": "Reimport High Res",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Reimport_HighRes_WithNewFile:1b687ab8",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "Reimport_HighRes_WithNewFile",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Reimport_HighRes_WithNewFile:1b687ab8",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Reimport_HighRes_WithNewFile:1b687ab8",
+        "jp_sha256": "0205739126d2e94f37d2fdec1cd688280cd4d4e517ea601e4852a7e95a29fe7c",
+        "official_en_sha256": "933835bb53ac80614a0fecac9b25500712fda7830584e28d6748ea7c87457f4e"
+      },
+      "text": {
+        "jp": "高解像度を新しいファイルで再インポート...",
+        "official_en": "Reimport High Res with new file...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Reimport-LOD-number:4791a463",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "Reimport",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Reimport-LOD-number:4791a463",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Reimport-LOD-number:4791a463",
+        "jp_sha256": "262881b33e3116df1df17b48aa2696b3412af01fb3e175f9b55d5381341df662",
+        "official_en_sha256": "1078d7fb681dd3386162ddb738dcae16159845f1345e3f11d121ad552c433a1f"
+      },
+      "text": {
+        "jp": "LOD {0} を再インポート",
+        "official_en": "Reimport LOD {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:ReimportTip:6cc0a9d9",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "ReimportTip",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:ReimportTip:6cc0a9d9",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:ReimportTip:6cc0a9d9",
+        "jp_sha256": "644cafd49a7ca0db9039b917573a5385111c7f5b8196d3dd0d19025aa4763a6f",
+        "official_en_sha256": "54206cac520c0aa271d792ed54dbbafe49fd2ef26a00d46b399e2941b39308f1"
+      },
+      "text": {
+        "jp": "既存LODに再インポートします",
+        "official_en": "Reimport over existing LOD",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Reimport_HighRes_Tip:7ea571c0",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "Reimport_HighRes_Tip",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Reimport_HighRes_Tip:7ea571c0",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Reimport_HighRes_Tip:7ea571c0",
+        "jp_sha256": "1753030ec97fdb5198871124eceaafe2401e432261098091adfbd3a08d590f4c",
+        "official_en_sha256": "77a9aaa814bb37aa50e480857ca1818620f0359a592bc2c496685c87d9704724"
+      },
+      "text": {
+        "jp": "既存の高解像度メッシュを再インポートします",
+        "official_en": "Reimport over existing the existing high res mesh.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Reimport_HighRes_WithNewFileTip:e34a10a6",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "Reimport_HighRes_WithNewFileTip",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Reimport_HighRes_WithNewFileTip:e34a10a6",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Reimport_HighRes_WithNewFileTip:e34a10a6",
+        "jp_sha256": "e677b632679c99884ab42bb6afacdad23a8ef7827e29bd9b5e7eaed22cd63039",
+        "official_en_sha256": "7deef85b692c7c86d6792d4efb12b4daa7aa180040f5e8fbba41a3cb63a7d133"
+      },
+      "text": {
+        "jp": "高解像度バージョンのメッシュを新しいファイルで再インポートします",
+        "official_en": "Reimport the high resolution version of the mesh with a new file.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Remove_HighRes:e57240d5",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "Remove_HighRes",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Remove_HighRes:e57240d5",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Remove_HighRes:e57240d5",
+        "jp_sha256": "f50206d819ca9737978406460d88dfe95427908d2d805d318fc72ae920c6e8de",
+        "official_en_sha256": "c0b3984c85dc0ca07282d25cdd376c6f0ee799b106324b9ccdeaaf8cb814da7b"
+      },
+      "text": {
+        "jp": "高解像度を除去",
+        "official_en": "Remove High Res",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:ObjectContext_ClearVertexColors:0916d699",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "ObjectContext_ClearVertexColors",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:ObjectContext_ClearVertexColors:0916d699",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:ObjectContext_ClearVertexColors:0916d699",
+        "jp_sha256": "2818969750f9f95e97611644d8da6b87a85f20b2eabb3593804050e5459f37f1",
+        "official_en_sha256": "f7d11d40863b5de7c4e49926857ce085e510e6a3debb8bc6854d215d083191ee"
+      },
+      "text": {
+        "jp": "頂点カラーを削除",
+        "official_en": "Remove Vertex Colors",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Remove_HighRes_Tip:c32bc2b8",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "Remove_HighRes_Tip",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Remove_HighRes_Tip:c32bc2b8",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:Remove_HighRes_Tip:c32bc2b8",
+        "jp_sha256": "7d866774c603d101d8480c631da827070d27923383f6f10e2f083b9a5ca19a9d",
+        "official_en_sha256": "00c13f0ccd7c897a1fdcfabc97ea97d241021e5a264cdee38e34c2db7663a9c6"
+      },
+      "text": {
+        "jp": "高解像度バージョンのメッシュを除去します",
+        "official_en": "Remove the high res version of the mesh",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:ObjectContext_ClearVertexColorsTooltip:d4a72e74",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "ObjectContext_ClearVertexColorsTooltip",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:ObjectContext_ClearVertexColorsTooltip:d4a72e74",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:ObjectContext_ClearVertexColorsTooltip:d4a72e74",
+        "jp_sha256": "aad8ae7397abea9ae778e519ec9bcaa9b5080138c8b516e634c9d481eda5ba62",
+        "official_en_sha256": "1d05baf84da0a812ead7a89fc22003223cd1aefc9ffa693b994ba801296cbd0c"
+      },
+      "text": {
+        "jp": "選択したすべてのメッシュ内のすべての LOD から頂点カラーを削除します",
+        "official_en": "Removes vertex colors from all LODS in all selected meshes.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:RemovingVertexColors:fc18a45b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "RemovingVertexColors",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:RemovingVertexColors:fc18a45b",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:RemovingVertexColors:fc18a45b",
+        "jp_sha256": "1a6185c49066fcde6a8a47db3b99c07665088a33c1841eee8cb7a3494707945a",
+        "official_en_sha256": "d7343565b6b1f7461535fda93983cba4d5dbbea6d48169c7a15d2317b4a91b87"
+      },
+      "text": {
+        "jp": "頂点カラーを削除しています",
+        "official_en": "Removing Vertex Colors",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:ObjectContext_SaveGeneratedLODsInPackageTooltip:fe1d11fa",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "ObjectContext_SaveGeneratedLODsInPackageTooltip",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:ObjectContext_SaveGeneratedLODsInPackageTooltip:fe1d11fa",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:ObjectContext_SaveGeneratedLODsInPackageTooltip:fe1d11fa",
+        "jp_sha256": "3baae1ba5740c680adc497999fe45a6f7e8e7a7611baee5f11d1a72026f00c07",
+        "official_en_sha256": "96ca02a312c596402ec6631039cb101b27ac93e20f0b2232349844f84b4f660b"
+      },
+      "text": {
+        "jp": "メッシュの削減を実行してパッケージの一部として生成したLODを保存します。",
+        "official_en": "Run the mesh reduce and save the generated LODs as part of the package.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:ObjectContext_SaveGeneratedLODsInPackage:318b06cb",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "ObjectContext_SaveGeneratedLODsInPackage",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:ObjectContext_SaveGeneratedLODsInPackage:318b06cb",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:ObjectContext_SaveGeneratedLODsInPackage:318b06cb",
+        "jp_sha256": "a41587b22dbafb58b00c528d2ecbddb5facebc21e24419c15addfbff32aea1b1",
+        "official_en_sha256": "2e39dd5280961326c5d3aed043419c53c2477aaf3271799a3f21dca4e68208a8"
+      },
+      "text": {
+        "jp": "生成したLODを保存します",
+        "official_en": "Save Generated LODs",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteToggleTooltip:7a277135",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_StaticMesh",
+        "key": "StaticMesh_NaniteToggleTooltip",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteToggleTooltip:7a277135",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_StaticMesh:StaticMesh_NaniteToggleTooltip:7a277135",
+        "jp_sha256": "a6e7404d8c7c21aecd5a6dc2fb1b61738596aafc311a3677695a9acaa9f75e74",
+        "official_en_sha256": "9ad584de193b65a0f2fbddfddc56ba259f8146d6b1d0edbd214cc4b5a308eeb9"
+      },
+      "text": {
+        "jp": "選択されているメッシュでの Nanite サポートを切り替えます",
+        "official_en": "Toggle Nanite support on the selected meshes.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

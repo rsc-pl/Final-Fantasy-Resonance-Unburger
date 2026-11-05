@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "DatasmithActorImporter",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:DatasmithActorImporter:ClothComponentCreationFailure:b4f713c3",
+      "source": {
+        "set": "set-02",
+        "namespace": "DatasmithActorImporter",
+        "key": "ClothComponentCreationFailure",
+        "jp_record_id": "switch:locres:set-01:DatasmithActorImporter:ClothComponentCreationFailure:b4f713c3",
+        "official_en_record_id": "switch:locres:set-01:DatasmithActorImporter:ClothComponentCreationFailure:b4f713c3",
+        "jp_sha256": "21af262d18e5b331e852b9fbeb2841038890fb3afb0e735cfdf5cb0880e8315b",
+        "official_en_sha256": "690e1db3c1ec252517774d30f0303560b310820d12636229bd702ad7d3fe37e5"
+      },
+      "text": {
+        "jp": "アクタ {1} で必要とされるアセット {0} のクロス コンポーネントを作成できません",
+        "official_en": "Cannot create cloth component for asset {0} required by actor {1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DatasmithActorImporter:MissingClass:25f80bdf",
+      "source": {
+        "set": "set-02",
+        "namespace": "DatasmithActorImporter",
+        "key": "MissingClass",
+        "jp_record_id": "switch:locres:set-01:DatasmithActorImporter:MissingClass:25f80bdf",
+        "official_en_record_id": "switch:locres:set-01:DatasmithActorImporter:MissingClass:25f80bdf",
+        "jp_sha256": "c969b65b9d7bbf61114ea3c3cd2099a7a00b0800cf826fa4b9d6de270a0fe57d",
+        "official_en_sha256": "9f844c4d493f36771fc6545c1291098f3fa82d5aa3cf9437d2dc3f1913501c82"
+      },
+      "text": {
+        "jp": "アクタ {1} にスポーンするクラス {0} が見つかりません。代わりに空のアクタがスポーンされます。",
+        "official_en": "Cannot find Class {0} to spawn actor {1}. An empty actor will be spawned instead.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DatasmithActorImporter:BadPropertyKey:07b5a104",
+      "source": {
+        "set": "set-02",
+        "namespace": "DatasmithActorImporter",
+        "key": "BadPropertyKey",
+        "jp_record_id": "switch:locres:set-01:DatasmithActorImporter:BadPropertyKey:07b5a104",
+        "official_en_record_id": "switch:locres:set-01:DatasmithActorImporter:BadPropertyKey:07b5a104",
+        "jp_sha256": "e6e85195c4f5acaa30b21171b876e40ffe79a7ae6af8cdac4ac0dba62b289bd7",
+        "official_en_sha256": "8ce74c3b36ed98f9771f7600799e5229181d502473d160cb9cd7e5eeb1a782b8"
+      },
+      "text": {
+        "jp": "プロパティ「{0}」をアクタ{1}上に見つけられません",
+        "official_en": "Cannot find Property '{0}' on actor {1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DatasmithActorImporter:FindStaticMesh:7a6cb7c8",
+      "source": {
+        "set": "set-02",
+        "namespace": "DatasmithActorImporter",
+        "key": "FindStaticMesh",
+        "jp_record_id": "switch:locres:set-01:DatasmithActorImporter:FindStaticMesh:7a6cb7c8",
+        "official_en_record_id": "switch:locres:set-01:DatasmithActorImporter:FindStaticMesh:7a6cb7c8",
+        "jp_sha256": "f9084cd12ccb8224f0a21be0fcd917e536b46910ec685205d576da37c8588309",
+        "official_en_sha256": "069f22fca3552d89f0ed37c7ac8b93ec7e3dd33dde6d6e5f311bf53775cd0139"
+      },
+      "text": {
+        "jp": "スタティックメッシュアクタ {1} のスタティックメッシュ {0} が見つかりません。",
+        "official_en": "Cannot find Static Mesh {0} for Static Mesh Actor {1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DatasmithActorImporter:MissingClothAsset:969501f3",
+      "source": {
+        "set": "set-02",
+        "namespace": "DatasmithActorImporter",
+        "key": "MissingClothAsset",
+        "jp_record_id": "switch:locres:set-01:DatasmithActorImporter:MissingClothAsset:969501f3",
+        "official_en_record_id": "switch:locres:set-01:DatasmithActorImporter:MissingClothAsset:969501f3",
+        "jp_sha256": "1bfc3f95e5a049a7dfdacea907fe1c7104ea2518a91f10ba2666a6d9f77a0b11",
+        "official_en_sha256": "d7153a4eead82d1ee376df444878676b97084c238601530b06d4249aa3e9047a"
+      },
+      "text": {
+        "jp": "アクタ{1}のクロス アセット{0}を見つけられません",
+        "official_en": "Cannot find cloth asset {0} for actor {1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DatasmithActorImporter:BadPropertyValue:803bd21e",
+      "source": {
+        "set": "set-02",
+        "namespace": "DatasmithActorImporter",
+        "key": "BadPropertyValue",
+        "jp_record_id": "switch:locres:set-01:DatasmithActorImporter:BadPropertyValue:803bd21e",
+        "official_en_record_id": "switch:locres:set-01:DatasmithActorImporter:BadPropertyValue:803bd21e",
+        "jp_sha256": "91db77d062e9060ede486f12d652626283b1b8a56dc94d8d9350bad56f8ba412",
+        "official_en_sha256": "1cb0791699a01f412e73593d2fd476875ef401132898dd8d075e3c0a4f508bf6"
+      },
+      "text": {
+        "jp": "値「{0}」をアクタ「{2}」のプロパティ「{1}」に適切にロードできません",
+        "official_en": "Cannot properly load value '{0}' on property '{1}' for actor {2}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DatasmithActorImporter:ComputeSceneComponentName:57a66004",
+      "source": {
+        "set": "set-02",
+        "namespace": "DatasmithActorImporter",
+        "key": "ComputeSceneComponentName",
+        "jp_record_id": "switch:locres:set-01:DatasmithActorImporter:ComputeSceneComponentName:57a66004",
+        "official_en_record_id": "switch:locres:set-01:DatasmithActorImporter:ComputeSceneComponentName:57a66004",
+        "jp_sha256": "3f09a212c3eae5a8549e95db505a2da6123bc1bcd6e389705aee7c9d3de1b77f",
+        "official_en_sha256": "5c47413495857a2c8cabf81c11a78ed29cc5a2685135b811ca3ef8ac9ebb5dbd"
+      },
+      "text": {
+        "jp": "シーン コンポーネントの名前{0}が検出されました。長い名前の可能性があります。切り捨てます...",
+        "official_en": "Detected potential long name, {0}, for scene component. Truncating...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DatasmithActorImporter:ImportActorFail_Scale:0325c8e1",
+      "source": {
+        "set": "set-02",
+        "namespace": "DatasmithActorImporter",
+        "key": "ImportActorFail_Scale",
+        "jp_record_id": "switch:locres:set-01:DatasmithActorImporter:ImportActorFail_Scale:0325c8e1",
+        "official_en_record_id": "switch:locres:set-01:DatasmithActorImporter:ImportActorFail_Scale:0325c8e1",
+        "jp_sha256": "ff1153b1dcb380cecca3008545de67175c200dc1af2e7cd70dd357720e43ccba",
+        "official_en_sha256": "98ef0b09081c28758329f293cbe0bc71e8a28f29df5cd34cce1002cd5b100cef"
+      },
+      "text": {
+        "jp": "スケールがゼロのため、アクタ\"{0}\"をインポートできませんでした",
+        "official_en": "Failed to import actor \"{0}\", scale is zero",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DatasmithActorImporter:HierarchicalInstancedStaticMeshComponentHasInvertedScale:e0a5bc40",
+      "source": {
+        "set": "set-02",
+        "namespace": "DatasmithActorImporter",
+        "key": "HierarchicalInstancedStaticMeshComponentHasInvertedScale",
+        "jp_record_id": "switch:locres:set-01:DatasmithActorImporter:HierarchicalInstancedStaticMeshComponentHasInvertedScale:e0a5bc40",
+        "official_en_record_id": "switch:locres:set-01:DatasmithActorImporter:HierarchicalInstancedStaticMeshComponentHasInvertedScale:e0a5bc40",
+        "jp_sha256": "3c1a17b461dadaf48ed3c243642235748fb0bf4d859d740b54ccf115059671d1",
+        "official_en_sha256": "2b1adbbbb7281f9f6d571e52b6810e7309622e9bce00786001ff1904c95f9b55"
+      },
+      "text": {
+        "jp": "{0} には、スケーリングが負の値であるためにサポートされていない反転したメッシュが生成されるインスタンスがあります。",
+        "official_en": "{0} has instances with negative scaling producing unsupported inverted meshes.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DatasmithActorImporter:MissingHierarchicalInstancedStaticMeshComponent:6a2dd7b4",
+      "source": {
+        "set": "set-02",
+        "namespace": "DatasmithActorImporter",
+        "key": "MissingHierarchicalInstancedStaticMeshComponent",
+        "jp_record_id": "switch:locres:set-01:DatasmithActorImporter:MissingHierarchicalInstancedStaticMeshComponent:6a2dd7b4",
+        "official_en_record_id": "switch:locres:set-01:DatasmithActorImporter:MissingHierarchicalInstancedStaticMeshComponent:6a2dd7b4",
+        "jp_sha256": "05283482d5c5ed3aac44276acac4d8578a77a04bb632089a54d9fa1cf91c0964",
+        "official_en_sha256": "1e1771b1f63e96da5980bc132fde13b82af14b849888521748946460ebafacb0"
+      },
+      "text": {
+        "jp": "{0} に階層インスタンス化スタティックメッシュコンポーネントがありません。",
+        "official_en": "{0} has no Hierarchical Instanced Static Mesh Component.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DatasmithActorImporter:MissingStaticMeshComponent:89edcfe8",
+      "source": {
+        "set": "set-02",
+        "namespace": "DatasmithActorImporter",
+        "key": "MissingStaticMeshComponent",
+        "jp_record_id": "switch:locres:set-01:DatasmithActorImporter:MissingStaticMeshComponent:89edcfe8",
+        "official_en_record_id": "switch:locres:set-01:DatasmithActorImporter:MissingStaticMeshComponent:89edcfe8",
+        "jp_sha256": "a9ec942b4cd28f458d8fbfd49201cdc7abe47695dfb546935f0b329cd64fe3bf",
+        "official_en_sha256": "383fd647e8a98fea5b8cbb09daae665e874ce95afd4f3e6c06387f8cf9c27e83"
+      },
+      "text": {
+        "jp": "{0} にスタティックメッシュコンポーネントがありません。",
+        "official_en": "{0} has no Static Mesh Component.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

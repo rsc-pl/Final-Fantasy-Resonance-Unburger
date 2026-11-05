@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UE::Insights::Filters",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-Filters:AllOf:7278dc31",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::Filters",
+        "key": "AllOf",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-Filters:AllOf:7278dc31",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-Filters:AllOf:7278dc31",
+        "jp_sha256": "e4f814ac568a70c360904955bef2852f7384d71ccf3e582a2a8d8ceb2e719e80",
+        "official_en_sha256": "37ae0322b9c3e357fd894f36e57c182d1e24eb84f63d18a13b9cbafb66f74eeb"
+      },
+      "text": {
+        "jp": "すべて (AND)",
+        "official_en": "All Of (AND)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-Filters:AllOfDesc:0b78ec29",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::Filters",
+        "key": "AllOfDesc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-Filters:AllOfDesc:0b78ec29",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-Filters:AllOfDesc:0b78ec29",
+        "jp_sha256": "342043493f246f62fdbf4993da2e2280d735dd846cd18a7074e83eece7a940f1",
+        "official_en_sha256": "d1fe3767b1c5117a2ad47c2c6b39b4ef96707b351d558cf42415c6ba5a11a02d"
+      },
+      "text": {
+        "jp": "グループが True を返すにはすべての子が True であることが必要です。AND 演算に相当します",
+        "official_en": "All of the children must be true for the group to return true. Equivalent to an AND operation.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-Filters:AnyOf:a79eb648",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::Filters",
+        "key": "AnyOf",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-Filters:AnyOf:a79eb648",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-Filters:AnyOf:a79eb648",
+        "jp_sha256": "72e00cc57d6904588a1c5d2c57e082230e43f052d44e3365027cd9751d2a0477",
+        "official_en_sha256": "79ec0a9205c44ec23ecfffcf2cc876720419975d01af16e2b4f3a67b9b3a39fe"
+      },
+      "text": {
+        "jp": "いずれか (OR)",
+        "official_en": "Any Of (OR)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-Filters:AnyOfDesc:46d44ff5",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::Filters",
+        "key": "AnyOfDesc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-Filters:AnyOfDesc:46d44ff5",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-Filters:AnyOfDesc:46d44ff5",
+        "jp_sha256": "1a2c49aee9952fc28c5890fb83e5f9f9fc57ac8cafa99aed9bf855c79d008a15",
+        "official_en_sha256": "2481c11a56586920e4ddd31c02b23db26edc42a3ea0c60f31264da936817f58e"
+      },
+      "text": {
+        "jp": "グループが True を返すにはいずれかの子が True であることが必要です。OR 演算に相当します",
+        "official_en": "Any of the children must be true for the group to return true. Equivalent to an OR operation.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-Filters:FilterWithSuggestionsValueConverterTooltip:909a17e7",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::Filters",
+        "key": "FilterWithSuggestionsValueConverterTooltip",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-Filters:FilterWithSuggestionsValueConverterTooltip:909a17e7",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-Filters:FilterWithSuggestionsValueConverterTooltip:909a17e7",
+        "jp_sha256": "3ef6137408bfeb461dd99c95b30e1dc75a380944315e02a0bd722360b6cfb3b5",
+        "official_en_sha256": "ccd84c465b01cc5b25bb1997f324147580a7f705f8b8b6be2a5f8365079debaa"
+      },
+      "text": {
+        "jp": "検索する値を入力します。このフィールドは自動補完します。入力を開始するか、上矢印キーまたは下矢印キーを押してオプションを表示します",
+        "official_en": "Enter the value to search for. This field has auto-complete. Start typing or press the arrow down or arrow up key to see options.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-Filters:FilterConfiguratorTabTitle:682bc28e",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::Filters",
+        "key": "FilterConfiguratorTabTitle",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-Filters:FilterConfiguratorTabTitle:682bc28e",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-Filters:FilterConfiguratorTabTitle:682bc28e",
+        "jp_sha256": "8925e3a925fe06a112692b6774e51dfc30d1004a01d3f37fbc53bf1c93ee52cc",
+        "official_en_sha256": "e8af0d82e4f96e004af48a4628267b7e191065b774cdc888dd6bca57804c2e5c"
+      },
+      "text": {
+        "jp": "フィルタコンフィギュレータ",
+        "official_en": "Filter Configurator",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-Filters:FilterWithSuggestionsValueConverterHint:4cc5be06",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::Filters",
+        "key": "FilterWithSuggestionsValueConverterHint",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-Filters:FilterWithSuggestionsValueConverterHint:4cc5be06",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-Filters:FilterWithSuggestionsValueConverterHint:4cc5be06",
+        "jp_sha256": "76a24bcdaafdb248b84c6d224166f8d44f78c57ea54235aa67302589cadd1a2b",
+        "official_en_sha256": "2201d2f6e503ab5a0a3389ef4c077de7e72bf5f25049f68c751e61a491744916"
+      },
+      "text": {
+        "jp": "入力を開始するか、上矢印または下矢印を押してオプションを表示します",
+        "official_en": "Start typing or press arrow down or up to see options.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

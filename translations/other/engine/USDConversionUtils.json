@@ -1,0 +1,604 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "USDConversionUtils",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:USDConversionUtils:DidNotFindPrimvar:08830efb",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDConversionUtils",
+        "key": "DidNotFindPrimvar",
+        "jp_record_id": "switch:locres:set-01:USDConversionUtils:DidNotFindPrimvar:08830efb",
+        "official_en_record_id": "switch:locres:set-01:USDConversionUtils:DidNotFindPrimvar:08830efb",
+        "jp_sha256": "4187338783e73c4a64f4329b9aea687e71056e94eb46da2f9440f081ad72c6a5",
+        "official_en_sha256": "9f86d562bd6a4fc6021e3201cb42039d1068bca30795035b6b05b9d1cf5fa5dd"
+      },
+      "text": {
+        "jp": "メッシュ「{1}」で、バインドされているマテリアルで使用されている primvar「{0}」が見つかりませんでした。",
+        "official_en": "Could not find primvar '{0}' on mesh '{1}', used by its bound material",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDConversionUtils:DontAskAgain:d9d8190b",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDConversionUtils",
+        "key": "DontAskAgain",
+        "jp_record_id": "switch:locres:set-01:USDConversionUtils:DontAskAgain:d9d8190b",
+        "official_en_record_id": "switch:locres:set-01:USDConversionUtils:DontAskAgain:d9d8190b",
+        "jp_sha256": "46e74c45b9a15b9e4f575bf2d7c4b24aeea7612a9a4eed19d595efcd7f6057f3",
+        "official_en_sha256": "7675ef04a7549fe846ec3967b670ab982b341b8e05811ebfb3c5ac535fbb28b1"
+      },
+      "text": {
+        "jp": "今後確認しない",
+        "official_en": "Don't prompt again",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDConversionUtils:FailToFindPrim:a12bd6df",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDConversionUtils",
+        "key": "FailToFindPrim",
+        "jp_record_id": "switch:locres:set-01:USDConversionUtils:FailToFindPrim:a12bd6df",
+        "official_en_record_id": "switch:locres:set-01:USDConversionUtils:FailToFindPrim:a12bd6df",
+        "jp_sha256": "3991b381bdb86c709889c002d6a2e9abe5549ebc226938063730f3ab06a9ff54",
+        "official_en_sha256": "cabd9227674de0e328f5ab825c7bb2a2de65ce8b091d7dac8543237252cc660b"
+      },
+      "text": {
+        "jp": "プリミティブ「{2}」のフィールド「{1}」に対するパス「{0}」の OpenVDBAsset プリミティブが見つかりませんでした",
+        "official_en": "Failed to find an OpenVDBAsset prim at path '{0}' for field '{1}' of prim '{2}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDConversionUtils:FailToFindFile:6109f493",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDConversionUtils",
+        "key": "FailToFindFile",
+        "jp_record_id": "switch:locres:set-01:USDConversionUtils:FailToFindFile:6109f493",
+        "official_en_record_id": "switch:locres:set-01:USDConversionUtils:FailToFindFile:6109f493",
+        "jp_sha256": "c87eedc2cedeac4788c1b1110bdf66cba0ac7c117eb0f495ae9c377392013682",
+        "official_en_sha256": "60bed17dfe45db4e3d559b1e3edad30a838f4d9e33fd1aa45caf288fcc4bbc9b"
+      },
+      "text": {
+        "jp": "パス「{1}」の OpenVDBAsset プリミティブによって参照されている VDB ファイル「{0}」が見つかりませんでした",
+        "official_en": "Failed to find the VDB file '{0}' referenced by OpenVDBAsset prim at path '{1}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDConversionUtils:MatchReferencerFail:c686ff8a",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDConversionUtils",
+        "key": "MatchReferencerFail",
+        "jp_record_id": "switch:locres:set-01:USDConversionUtils:MatchReferencerFail:c686ff8a",
+        "official_en_record_id": "switch:locres:set-01:USDConversionUtils:MatchReferencerFail:c686ff8a",
+        "jp_sha256": "e6814560256d9c865c738b4b32dd7ead9ffe483e276b177232e8a77f06a42cc3",
+        "official_en_sha256": "5a49501e76beb9cfc950312bdc61c02766c3c6a7d5fe5f7a64823061cdc21b93"
+      },
+      "text": {
+        "jp": "プリミティブ「{0}」への参照またはペイロードの追加時に、参照される型の一致に失敗しました。ターゲット プリミティブの仕様「{1}」には、不明な型「{2}」があります！代わりに、参照元の型はクリアされます",
+        "official_en": "Failed to match the referenced type when adding a reference or payload to prim '{0}', as the target prim spec '{1}' has an unknown type '{2}'! The referencer type will be cleared instead.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDConversionUtils:FailCustomAttributeMapping:3c6258d2",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDConversionUtils",
+        "key": "FailCustomAttributeMapping",
+        "jp_record_id": "switch:locres:set-01:USDConversionUtils:FailCustomAttributeMapping:3c6258d2",
+        "official_en_record_id": "switch:locres:set-01:USDConversionUtils:FailCustomAttributeMapping:3c6258d2",
+        "jp_sha256": "1a8f922f288dcce524bf98219789095f079f88635c59f2edc82abdfbdb6bd5ed",
+        "official_en_sha256": "7463388c1dd9ff5fcc9837e0aa8fe309576c7109f6506a258bb479d894dcb69f"
+      },
+      "text": {
+        "jp": "OpenVDBAsset プリミティブ「{0}」の属性マッピングに対するカスタム コンポーネントのパースに失敗しました：「{1}」および「{2}」属性は、同じ数のエントリを持っているはずですが、前者は {3} エントリである一方で、後者は「{4}」です",
+        "official_en": "Failed to parse custom component to attribute mapping from OpenVDBAsset prim '{0}': The '{1}' and '{2}' attributes should have the same number of entries, but the former has {3} entries while the latter has {4}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDConversionUtils:FailToParseMaterialMapping:8e630ea2",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDConversionUtils",
+        "key": "FailToParseMaterialMapping",
+        "jp_record_id": "switch:locres:set-01:USDConversionUtils:FailToParseMaterialMapping:8e630ea2",
+        "official_en_record_id": "switch:locres:set-01:USDConversionUtils:FailToParseMaterialMapping:8e630ea2",
+        "jp_sha256": "21c835f1142120441158435baae2a33f5a45cd39b757ea479ee646b798a8788c",
+        "official_en_sha256": "c9fa62fd2d5c16b7c3ca3ef3492a443961fd789d3d7c72ad4182238dd4936de7"
+      },
+      "text": {
+        "jp": "ボリューム プリミティブ「{0}」のマテリアル パラメータ マッピングに対するカスタムのパース済みテクスチャのパースに失敗しました：「{1}」および「{2}」属性は、同じ数のエントリを持っているはずですが、前者は {3} エントリである一方で、後者は「{4}」です",
+        "official_en": "Failed to parse custom parsed texture to material parameter mapping from volume prim '{0}': The '{1}' and '{2}' attributes should have the same number of entries, but the former has {3} entries while the latter has {4}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDConversionUtils:MultipleTargettingSameGrid:26f3a952",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDConversionUtils",
+        "key": "MultipleTargettingSameGrid",
+        "jp_record_id": "switch:locres:set-01:USDConversionUtils:MultipleTargettingSameGrid:26f3a952",
+        "official_en_record_id": "switch:locres:set-01:USDConversionUtils:MultipleTargettingSameGrid:26f3a952",
+        "jp_sha256": "14c213ee83b3a4c9a5b05f2ce566cbf64e6a1395d08dee8ca652dcdad809a817",
+        "official_en_sha256": "1ed11540f318416f1d8ab5e44894a70f12b63a37b4d233de9c82b8e8882a7ab0"
+      },
+      "text": {
+        "jp": "同じグリッド「{1}」をターゲットとする複数の OpenVDBAsset プリミティブ (「{0}」を含む) が見つかりましたが、まばらなボリューム テクスチャ属性チャンネル マッピングに対するグリッド コンポーネントが競合しています (たとえば、両方のコンポーネント「{2}」と「{3}」が同じチャンネル「{4}」にマッピングされているなど。これは許可されません)",
+        "official_en": "Found multiple OpenVDBAsset prims (including '{0}') targetting the same grid '{1}', but with with conflicting grid component to Sparse Volume Texture attribute channel mapping (for example, both components '{2}' and '{3}' are mapped to the same channel '{4}', which is not allowed)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDConversionUtils:InvalidChannelFormat:601fff14",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDConversionUtils",
+        "key": "InvalidChannelFormat",
+        "jp_record_id": "switch:locres:set-01:USDConversionUtils:InvalidChannelFormat:601fff14",
+        "official_en_record_id": "switch:locres:set-01:USDConversionUtils:InvalidChannelFormat:601fff14",
+        "jp_sha256": "e9d8355ca31c527e28c4ccf72cd58bd174748b0fcb30562d917c645067bc49cd",
+        "official_en_sha256": "1690c22388f40668ee1bdb23b43131ca3870dc6867ca899bf83a45e53b82e26a"
+      },
+      "text": {
+        "jp": "無効なまばらなボリューム テクスチャ属性チャンネル形式「{0}」。利用可能な形式：「unorm8」、「float16」、および「float32」",
+        "official_en": "Invalid Sparse Volume Texture attribute channel format '{0}'. Available formats: 'unorm8', 'float16' and 'float32'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDConversionUtils:MoreThanOnePrimvarForIndex:247ea979",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDConversionUtils",
+        "key": "MoreThanOnePrimvarForIndex",
+        "jp_record_id": "switch:locres:set-01:USDConversionUtils:MoreThanOnePrimvarForIndex:247ea979",
+        "official_en_record_id": "switch:locres:set-01:USDConversionUtils:MoreThanOnePrimvarForIndex:247ea979",
+        "jp_sha256": "803caa2d75942ed96f0b12dc75bb212d92ba40fbbfb41e3db3d8c820efcc0668",
+        "official_en_sha256": "c782c59bceded27be818c72937ca7d23ea045e968dfc4e4e9f42f5fdd4e0ba55"
+      },
+      "text": {
+        "jp": "メッシュ「{0}」には、インデックスが {1} である UV セットとして使用されている primvar が複数あります。この UV セットでは、primvar「{2}{3}」の値が使用されます。",
+        "official_en": "Mesh '{0}' has more than one primvar used as UV set with index '{1}'. The UV set will use the values from primvar '{2}'{3}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDConversionUtils:TooHighUVIndex:79861585",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDConversionUtils",
+        "key": "TooHighUVIndex",
+        "jp_record_id": "switch:locres:set-01:USDConversionUtils:TooHighUVIndex:79861585",
+        "official_en_record_id": "switch:locres:set-01:USDConversionUtils:TooHighUVIndex:79861585",
+        "jp_sha256": "9fd65a2562b4af3a6cf96fa909f77c1e8bd04b8e9513ba7086fa3a780d6e9de3",
+        "official_en_sha256": "ad3eb853a8d428dc0ae54f7abeaa1e33bb87274daf373e14f8dde2d3192ed53f"
+      },
+      "text": {
+        "jp": "メッシュ「{0}」には、有効な UV セット primvar ({1}) が複数あり、それらはサポートされている最大値 ({2}) を上回る UV インデックスを指しているため無視されます。",
+        "official_en": "Mesh '{0}' has some valid UV set primvars ({1}) that will be ignored because they target an UV index larger than the highest supported ({2})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDConversionUtils:OverridenOpinionMessageOk:8ee65e9f",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDConversionUtils",
+        "key": "OverridenOpinionMessageOk",
+        "jp_record_id": "switch:locres:set-01:USDConversionUtils:OverridenOpinionMessageOk:8ee65e9f",
+        "official_en_record_id": "switch:locres:set-01:USDConversionUtils:OverridenOpinionMessageOk:8ee65e9f",
+        "jp_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "official_en_sha256": "843ac01149cced785dfebd0028d3b03ba78e286e1c6f9517ebfcdb609d97af4c"
+      },
+      "text": {
+        "jp": "OK",
+        "official_en": "Ok",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDConversionUtils:DisagreeAttributeChannel:0d9aed98",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDConversionUtils",
+        "key": "DisagreeAttributeChannel",
+        "jp_record_id": "switch:locres:set-01:USDConversionUtils:DisagreeAttributeChannel:0d9aed98",
+        "official_en_record_id": "switch:locres:set-01:USDConversionUtils:DisagreeAttributeChannel:0d9aed98",
+        "jp_sha256": "52ba04df392de62a02983c821ef1c685b0e83542f9556f9afc2ca56477b0ed82",
+        "official_en_sha256": "bc82eb4d39bd6aae5b084faebc50253dffa388cd5131a83c3c289b21a8a0a016"
+      },
+      "text": {
+        "jp": "OpenVDBAsset プリミティブは、VDB ファイル「{0}」(「{1}」と「{2}」が発生) のために生成されたまばらなボリューム テクスチャの属性チャンネル形式と一致しません。異なる OpenVDBAsset プリミティブの属性チャンネル形式について複数の見解がある場合、それらすべてが一致している必要があります！",
+        "official_en": "OpenVDBAsset prims disagree on the attribute channel format for the Sparse Volume Texture generated for VDB file '{0}' (encountered '{1}' and '{2}'). If there are multiple opinions for the attribute channel formats from different OpenVDBAsset prims, they must all agree!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDConversionUtils:MismatchedTypeNamesSubText:1563e49b",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDConversionUtils",
+        "key": "MismatchedTypeNamesSubText",
+        "jp_record_id": "switch:locres:set-01:USDConversionUtils:MismatchedTypeNamesSubText:1563e49b",
+        "official_en_record_id": "switch:locres:set-01:USDConversionUtils:MismatchedTypeNamesSubText:1563e49b",
+        "jp_sha256": "4d1c0288ac69df0d72d9c11822056b7ed1e9f51559c4617174f009df7399bef8",
+        "official_en_sha256": "8cdb56b4e7aee1753a639468133c22a857a511bee9b3631005f7320716b1368c"
+      },
+      "text": {
+        "jp": "型「{1}」のプリミティブ「{0}」の参照またはペイロードを、型「{3}」のターゲット プリミティブ「{2}」に追加しようとしました。\n\nこれらの型は同一ではないため、作成されたプリミティブが意図したとおりの動作をしない可能性があります。\n\nどのように続行しますか？",
+        "official_en": "Tried to add a reference or payload from prim '{0}' with type '{1}', to target prim '{2}' with type '{3}'.\n\nSince these types are not identical, it is possible that the composed prim will not have the intended behaviour.\n\nHow do you wish to proceed?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDConversionUtils:IncompleteDuplicationText:93976968",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDConversionUtils",
+        "key": "IncompleteDuplicationText",
+        "jp_record_id": "switch:locres:set-01:USDConversionUtils:IncompleteDuplicationText:93976968",
+        "official_en_record_id": "switch:locres:set-01:USDConversionUtils:IncompleteDuplicationText:93976968",
+        "jp_sha256": "bc695f4ceb4b906714e916442a6450f47763faeff0875fe0eaf6f55b0a815d1a",
+        "official_en_sha256": "eb7dab35a5b06a54d8acf4ef3196849af563db72bf1067fec7bcb400058ad1a3"
+      },
+      "text": {
+        "jp": "USD:不完全な複製",
+        "official_en": "USD: Incomplete duplication",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDConversionUtils:IncompleteDuplicationSubText:d8b47512",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDConversionUtils",
+        "key": "IncompleteDuplicationSubText",
+        "jp_record_id": "switch:locres:set-01:USDConversionUtils:IncompleteDuplicationSubText:d8b47512",
+        "official_en_record_id": "switch:locres:set-01:USDConversionUtils:IncompleteDuplicationSubText:d8b47512",
+        "jp_sha256": "b8aecf017e4252b3e5a135974753400ad0857afaa4e9fb2b922f0a7266a28b93",
+        "official_en_sha256": "6ac9165c6e9290e65ec086cb4c76ee0e361d213e307d2ad0d4eac8eb02334536"
+      },
+      "text": {
+        "jp": "次の複製されたプリミティブ:\n\n{1}\n\nステージのローカル レイヤー スタックの外部にあるレイヤー内にいくつかの仕様があるため、複製されません\n\n参照されているレイヤーまたはペイロード レイヤーを変更する場合は、それらのレイヤーを USD ステージとして直接開いてください",
+        "official_en": "{0}|plural(one=This,other=These) duplicated {0}|plural(one=prim,other=prims):\n\n{1}\n\n{0}|plural(one=Has,other=Have) some specs within layers that are outside of the stage's local layer stack, and so will not be duplicated.\n\nIf you wish to modify referenced or payload layers, please open those layers as USD stages directly.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

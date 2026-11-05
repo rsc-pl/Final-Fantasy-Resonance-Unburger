@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "TextureRenderTarget2D",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:TextureRenderTarget2D:LargeTextureRenderTarget2DWarning:78c0c35b",
+      "source": {
+        "set": "set-02",
+        "namespace": "TextureRenderTarget2D",
+        "key": "LargeTextureRenderTarget2DWarning",
+        "jp_record_id": "switch:locres:set-01:TextureRenderTarget2D:LargeTextureRenderTarget2DWarning:78c0c35b",
+        "official_en_record_id": "switch:locres:set-01:TextureRenderTarget2D:LargeTextureRenderTarget2DWarning:78c0c35b",
+        "jp_sha256": "12b55dc5df9ac991435375fb82a9304975d13ea6ccbb7c1213b0880aec873f56",
+        "official_en_sha256": "1f9d506bf72f7f238aabe7b6020e264e90f00e770d03fb7c96644712950d06cc"
+      },
+      "text": {
+        "jp": "サイズが {0}x{1} の TextureRenderTarget2D は {2}MB を使用しますが、これによりパフォーマンスが非常に低下したり、ビデオメモリ不足によりクラッシュしたりする可能性があります\nよろしいですか？",
+        "official_en": "A TextureRenderTarget2D of size {0}x{1} will use {2}Mb, which may result in extremely poor performance or an Out Of Video Memory crash.\nAre you sure?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:TextureRenderTarget2D:InvalidSizeForConversionToTexture:7e59101c",
+      "source": {
+        "set": "set-02",
+        "namespace": "TextureRenderTarget2D",
+        "key": "InvalidSizeForConversionToTexture",
+        "jp_record_id": "switch:locres:set-01:TextureRenderTarget2D:InvalidSizeForConversionToTexture:7e59101c",
+        "official_en_record_id": "switch:locres:set-01:TextureRenderTarget2D:InvalidSizeForConversionToTexture:7e59101c",
+        "jp_sha256": "ad0df6471591720132021f081eed50bdaa463eaf8d7893fab96b71c4546b3e49",
+        "official_en_sha256": "b52945afff0174dc0794f635bf884b4ea2793a07c4cdbb0ed97fb2dda3eea1ff"
+      },
+      "text": {
+        "jp": "{2} を {3} に変換するのに無効なサイズ ({0},{1}) です",
+        "official_en": "Invalid size ({0},{1}) for converting {2} to {3}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

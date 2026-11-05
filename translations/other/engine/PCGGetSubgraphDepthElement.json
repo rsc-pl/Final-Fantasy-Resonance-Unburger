@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGGetSubgraphDepthElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGGetSubgraphDepthElement:RelativeDistanceTitle:a0cfc489",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGetSubgraphDepthElement",
+        "key": "RelativeDistanceTitle",
+        "jp_record_id": "switch:locres:set-01:PCGGetSubgraphDepthElement:RelativeDistanceTitle:a0cfc489",
+        "official_en_record_id": "switch:locres:set-01:PCGGetSubgraphDepthElement:RelativeDistanceTitle:a0cfc489",
+        "jp_sha256": "941b3a4a4ace6d905869a70e4d378bf4bf6f87c9618446c1a3dc94e8de9ff15b",
+        "official_en_sha256": "12b10915d133b56ef704ee2dcdfd6ae711d0c311050c9d6a9d7b3adaadefa20b"
+      },
+      "text": {
+        "jp": "{0} 上流グラフからの再帰深度を取得します",
+        "official_en": "Get Recursive Depth from {0}-Upstream Graph.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGetSubgraphDepthElement:NodeTitle:900ed9e0",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGetSubgraphDepthElement",
+        "key": "NodeTitle",
+        "jp_record_id": "switch:locres:set-01:PCGGetSubgraphDepthElement:NodeTitle:900ed9e0",
+        "official_en_record_id": "switch:locres:set-01:PCGGetSubgraphDepthElement:NodeTitle:900ed9e0",
+        "jp_sha256": "2e071e278942b100b94a22123c918dca611cef1a0ba5465dc32845331b31b29d",
+        "official_en_sha256": "3746810939a2b1106f56aae02ef2df4733533a695c823b3eb589639903a448e0"
+      },
+      "text": {
+        "jp": "サブグラフの深度を取得",
+        "official_en": "Get Subgraph Depth",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGetSubgraphDepthElement:InvalidDepthQuery:a741de37",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGetSubgraphDepthElement",
+        "key": "InvalidDepthQuery",
+        "jp_record_id": "switch:locres:set-01:PCGGetSubgraphDepthElement:InvalidDepthQuery:a741de37",
+        "official_en_record_id": "switch:locres:set-01:PCGGetSubgraphDepthElement:InvalidDepthQuery:a741de37",
+        "jp_sha256": "2766f7b9ccbb004f522409abe48a84ab700bc70f66f45f06a728a8ed2b95ab5b",
+        "official_en_sha256": "58df9586ea10d339019b594763c0c56c0320ab1c82bd769d03721c065ab6696e"
+      },
+      "text": {
+        "jp": "上流グラフまでの相対距離があるため、深度取得のクエリが失敗しました",
+        "official_en": "Get depth query failed because of the relative distance to the upstream graph.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGetSubgraphDepthElement:AdditionalTitle:96bf4020",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGetSubgraphDepthElement",
+        "key": "AdditionalTitle",
+        "jp_record_id": "switch:locres:set-01:PCGGetSubgraphDepthElement:AdditionalTitle:96bf4020",
+        "official_en_record_id": "switch:locres:set-01:PCGGetSubgraphDepthElement:AdditionalTitle:96bf4020",
+        "jp_sha256": "8e2849361b1ceaa7d0ca747ca3a5240054998619367cb728adcbefd60af874c3",
+        "official_en_sha256": "2db432a7964b8c013cd99f8dff4a9a6a2dafd415a5fb280f72a4596014ea477b"
+      },
+      "text": {
+        "jp": "{0} を取得",
+        "official_en": "Get {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGetSubgraphDepthElement:GetSubgraphDepthTooltip:592ba5bf",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGetSubgraphDepthElement",
+        "key": "GetSubgraphDepthTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGGetSubgraphDepthElement:GetSubgraphDepthTooltip:592ba5bf",
+        "official_en_record_id": "switch:locres:set-01:PCGGetSubgraphDepthElement:GetSubgraphDepthTooltip:592ba5bf",
+        "jp_sha256": "feef9cc71a191a53236c0d8a60ec919fae9562aee7d9dd56fa7384c450ea640c",
+        "official_en_sha256": "86eca9d60bc32ab30bc08618136a995c51be266ce0332220da36f7ce7edf5698"
+      },
+      "text": {
+        "jp": "このグラフの呼び出し深度を返します",
+        "official_en": "Returns the call depth of this graph.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGetSubgraphDepthElement:ContextHasNoExecutionStack:24484e02",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGetSubgraphDepthElement",
+        "key": "ContextHasNoExecutionStack",
+        "jp_record_id": "switch:locres:set-01:PCGGetSubgraphDepthElement:ContextHasNoExecutionStack:24484e02",
+        "official_en_record_id": "switch:locres:set-01:PCGGetSubgraphDepthElement:ContextHasNoExecutionStack:24484e02",
+        "jp_sha256": "937bfb4dc734c4b51bd1d72bb8dc0f6b0568ca10bfc795cea118278038b1f31c",
+        "official_en_sha256": "088e0c7043e2fcbd2b45cb74e69a90f10fc8374219ed86e7d636dd58be2b3998"
+      },
+      "text": {
+        "jp": "実行コンテキストが不正な形式であり、コール スタックがありません",
+        "official_en": "The execution context is malformed and has no call stack.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

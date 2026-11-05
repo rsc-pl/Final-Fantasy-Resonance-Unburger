@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "USDGeomMeshConversion",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:USDGeomMeshConversion:CancellingSubdiv:e2df3c46",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDGeomMeshConversion",
+        "key": "CancellingSubdiv",
+        "jp_record_id": "switch:locres:set-01:USDGeomMeshConversion:CancellingSubdiv:e2df3c46",
+        "official_en_record_id": "switch:locres:set-01:USDGeomMeshConversion:CancellingSubdiv:e2df3c46",
+        "jp_sha256": "ae301a5afa035138268e5c60a2b677f7c1fade832d21ac16fbc34d9e3fa5a7f1",
+        "official_en_sha256": "a5fbdac77cf55466edfc3f17118d7990f8fcb4fcbb034a549983c4468c886baf"
+      },
+      "text": {
+        "jp": "クランプ後のターゲット サブディビジョン レベルが {1} であるため、メッシュ「{0}」のサブディビジョンをキャンセルします (サブディビジョンごとに 1 以上である必要があります)",
+        "official_en": "Cancelling out of subdividing mesh '{0}' due to target subdivision level being {1} after clamping (it needs to be at least 1 for a round of subdivision)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDGeomMeshConversion:UnrealMaterialNotFound:4c8790b5",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDGeomMeshConversion",
+        "key": "UnrealMaterialNotFound",
+        "jp_record_id": "switch:locres:set-01:USDGeomMeshConversion:UnrealMaterialNotFound:4c8790b5",
+        "official_en_record_id": "switch:locres:set-01:USDGeomMeshConversion:UnrealMaterialNotFound:4c8790b5",
+        "jp_sha256": "4efe319d535a74cf880daeeb2885b81f25a21e5bf8b462a279f4dca5e4445f01",
+        "official_en_sha256": "916eacbb3a01497041b1a5bded69aa995502981e56123ae82b5e3a6dd474cbd1"
+      },
+      "text": {
+        "jp": "プリミティブ「{1}」によって unrealMaterial 属性のターゲットとされているパス「{0}」で有効なマテリアルが見つかりませんでした。マテリアルの割り当ては USD マテリアルにフォールバックし、カラー データを表示します",
+        "official_en": "Could not find a valid material at path '{0}', targetted by prim '{1}'s unrealMaterial attribute. Material assignment will fallback to USD materials and display color data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDGeomMeshConversion:ClampedSubdiv:140bfc02",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDGeomMeshConversion",
+        "key": "ClampedSubdiv",
+        "jp_record_id": "switch:locres:set-01:USDGeomMeshConversion:ClampedSubdiv:140bfc02",
+        "official_en_record_id": "switch:locres:set-01:USDGeomMeshConversion:ClampedSubdiv:140bfc02",
+        "jp_sha256": "d736a489915e9b9f3962c3571e7996db6d08597cba89e7ff6a68d78e9778ed17",
+        "official_en_sha256": "114568033f711e3d10d35f59ff9301157c768d992653aa7b7ab45974556ad3ab"
+      },
+      "text": {
+        "jp": "最大サブディビジョン レベルは {0} にクランプされました (cvar「{1}」によって制御)",
+        "official_en": "Max subdivision level was clamped to {0} (controlled by the cvar '{1}')",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDGeomMeshConversion:WrongPrimvarIndex:5ec5d5b0",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDGeomMeshConversion",
+        "key": "WrongPrimvarIndex",
+        "jp_record_id": "switch:locres:set-01:USDGeomMeshConversion:WrongPrimvarIndex:5ec5d5b0",
+        "official_en_record_id": "switch:locres:set-01:USDGeomMeshConversion:WrongPrimvarIndex:5ec5d5b0",
+        "jp_sha256": "54d421c1f7c6b69020e1da6a15e3780ee5114b5e6baa01cc33cde20dc14c3699",
+        "official_en_sha256": "893032fd754040fabecfa6bb291c02482e874fccc337ead9e32d00aa5bd1f7c9"
+      },
+      "text": {
+        "jp": "プリミティブ「{2}」からインデックス {1} の Primvar「{0}」を読み取ろうとしていますが、プリミティブには {3} 値しかありません！代わりにゼロを使用します",
+        "official_en": "Trying to read Primvar '{0}' at index {1} from prim '{2}' but the prim only has {3} values! Using zeros instead.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDGeomMeshConversion:WrongUVIndex:d815ac7e",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDGeomMeshConversion",
+        "key": "WrongUVIndex",
+        "jp_record_id": "switch:locres:set-01:USDGeomMeshConversion:WrongUVIndex:d815ac7e",
+        "official_en_record_id": "switch:locres:set-01:USDGeomMeshConversion:WrongUVIndex:d815ac7e",
+        "jp_sha256": "0f2b2cdb2affd9c3bb7d11b040cb4511b230b9b4376d3cb99165ffa27862e520",
+        "official_en_sha256": "76febba855bbd59cb58f08efaf1acddf066ec81679136abc292cebc3c78319a5"
+      },
+      "text": {
+        "jp": "プリミティブ「{1}」からインデックス {0} の UV を読み取ろうとしていますが、UV セット {2} には {3} 値しかありません！代わりにゼロを使用します",
+        "official_en": "Trying to read UV at index {0} from prim '{1}' but the UV set {2} only has {3} values! Using zeros instead.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDGeomMeshConversion:WrongDisplayColorIndex:1ebe8cf7",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDGeomMeshConversion",
+        "key": "WrongDisplayColorIndex",
+        "jp_record_id": "switch:locres:set-01:USDGeomMeshConversion:WrongDisplayColorIndex:1ebe8cf7",
+        "official_en_record_id": "switch:locres:set-01:USDGeomMeshConversion:WrongDisplayColorIndex:1ebe8cf7",
+        "jp_sha256": "d48e0bc1b0d6a9839636428f8dc3cb8ce5b1a59d387151e1a99e7a1f7b6421b7",
+        "official_en_sha256": "75c16328d9d1596bc23164e9662cfd8adb9856f599c88dc06b928ed6df4c44d7"
+      },
+      "text": {
+        "jp": "プリミティブ「{1}」からインデックス {0} の displayColor を読み取ろうとしていますが、プリミティブには {2} 値しかありません！代わりにゼロを使用します",
+        "official_en": "Trying to read displayColor at index {0} from prim '{1}' but the prim only has {2} values! Using zeros instead.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDGeomMeshConversion:WrongDisplayOpacityIndex:4826d892",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDGeomMeshConversion",
+        "key": "WrongDisplayOpacityIndex",
+        "jp_record_id": "switch:locres:set-01:USDGeomMeshConversion:WrongDisplayOpacityIndex:4826d892",
+        "official_en_record_id": "switch:locres:set-01:USDGeomMeshConversion:WrongDisplayOpacityIndex:4826d892",
+        "jp_sha256": "c211438c855864e4e7199d618bba0397fb9b0f183eddfebcfe617c39d4649a8f",
+        "official_en_sha256": "06496b1f45f9a3cdfb9f9608e66a2c1038038a03cd6cb267d2f4267852f6d9da"
+      },
+      "text": {
+        "jp": "プリミティブ「{1}」からインデックス {0} の displayOpacity を読み取ろうとしていますが、プリミティブには {2} 値しかありません！代わりにゼロを使用します",
+        "official_en": "Trying to read displayOpacity at index {0} from prim '{1}' but the prim only has {2} values! Using zeros instead.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDGeomMeshConversion:UnexpectedLODPrim:6c50bcd6",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDGeomMeshConversion",
+        "key": "UnexpectedLODPrim",
+        "jp_record_id": "switch:locres:set-01:USDGeomMeshConversion:UnexpectedLODPrim:6c50bcd6",
+        "official_en_record_id": "switch:locres:set-01:USDGeomMeshConversion:UnexpectedLODPrim:6c50bcd6",
+        "jp_sha256": "ac791447e681f3da37190f184625fa085d416a32bb12687a0599f991e6b2c253",
+        "official_en_sha256": "41571aca72e7042aae473ff43f0bfc50b8ff5c872447d522f5e43aeff2c5e50d"
+      },
+      "text": {
+        "jp": "LOD バリアント「{1}」内に予期しないプリミティブ「{0}」があります。LOD を自動パースするには、各 LOD バリアントにバリアントと同じ名前の単一のメッシュ プリミティブのみが含まれている必要があります！",
+        "official_en": "Unexpected prim '{0}' inside LOD variant '{1}'. For automatic parsing of LODs, each LOD variant should contain only a single Mesh prim named the same as the variant!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

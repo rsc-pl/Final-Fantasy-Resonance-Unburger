@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "DMXOutputPortConfigCustomization",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:InvalidPortConfigSearchString:5f565473",
+      "source": {
+        "set": "set-02",
+        "namespace": "DMXOutputPortConfigCustomization",
+        "key": "InvalidPortConfigSearchString",
+        "jp_record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:InvalidPortConfigSearchString:5f565473",
+        "official_en_record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:InvalidPortConfigSearchString:5f565473",
+        "jp_sha256": "383bbb5e8490445a209b509cb1df049413a7b9a53a859c268ffbd3e841b46a9d",
+        "official_en_sha256": "96c34a0719eb565c268a1626c44313a20de4f83927890933bd9b480849adb76c"
+      },
+      "text": {
+        "jp": "無効",
+        "official_en": "Invalid",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:InvalidPortConfigText:97719977",
+      "source": {
+        "set": "set-02",
+        "namespace": "DMXOutputPortConfigCustomization",
+        "key": "InvalidPortConfigText",
+        "jp_record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:InvalidPortConfigText:97719977",
+        "official_en_record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:InvalidPortConfigText:97719977",
+        "jp_sha256": "76505ed82e9d9aadc096e78c22ab51bf0005f087d0e09a890563d2a732946ad4",
+        "official_en_sha256": "4c5521cc4ed09d48150fce161ed4a6d819d2bc764b20407d8e112bf523689862"
+      },
+      "text": {
+        "jp": "Port Guid が無効です。このポートを使用できません。",
+        "official_en": "Invalid Port Guid. Cannot utilize this port.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:NoRegexMatchForDeviceAddress:74ef2d46",
+      "source": {
+        "set": "set-02",
+        "namespace": "DMXOutputPortConfigCustomization",
+        "key": "NoRegexMatchForDeviceAddress",
+        "jp_record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:NoRegexMatchForDeviceAddress:74ef2d46",
+        "official_en_record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:NoRegexMatchForDeviceAddress:74ef2d46",
+        "jp_sha256": "a96e3878dc9fa5d78e29d5860d2a07e78629a14ca36fa156ea57ce752c42d6db",
+        "official_en_sha256": "2de4132d9d7851033a8d7421ae8c6136bb236c3afd354603c80817d0d676c731"
+      },
+      "text": {
+        "jp": "一致するものがありません。「{0}」の使用",
+        "official_en": "No match. Using '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:IsExternUniverseEnabledWarningTooltip:09702a6b",
+      "source": {
+        "set": "set-02",
+        "namespace": "DMXOutputPortConfigCustomization",
+        "key": "IsExternUniverseEnabledWarningTooltip",
+        "jp_record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:IsExternUniverseEnabledWarningTooltip:09702a6b",
+        "official_en_record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:IsExternUniverseEnabledWarningTooltip:09702a6b",
+        "jp_sha256": "b330c2d5427ce22bba526dfca9fbba1db39e0a18a53a67c3a630bc47bec370eb",
+        "official_en_sha256": "fa5a7ac95fe19dfc89f1b3ecb5938160d086f3ad3a76ef9aee7aa1d84030de3c"
+      },
+      "text": {
+        "jp": "ローカル ユニバースの範囲 (ローカル ユニバースの開始からのユニバースの数) を、プロトコル レベルで別のユニバースのセットに再マップします。たとえば Art-Net の場合、これによりローカル ユニバース 1 を外部ユニバース 0 にマッピングできます",
+        "official_en": "Remaps the range of local Universes (Num Universes from Local Universe Start) to a different set of Universes at the Protocol level.\nFor example, for Art-Net this allows to map local Universe 1 to extern Universe 0.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:CommunicationTypeSelected:cb0daa1f",
+      "source": {
+        "set": "set-02",
+        "namespace": "DMXOutputPortConfigCustomization",
+        "key": "CommunicationTypeSelected",
+        "jp_record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:CommunicationTypeSelected:cb0daa1f",
+        "official_en_record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:CommunicationTypeSelected:cb0daa1f",
+        "jp_sha256": "87f3a4f9e9da0abf1f5106b3f790bb6f0e14dde26fe2c0d3896cac72341e6f62",
+        "official_en_sha256": "2ea449a98c5d575b52f7750623561b22643600e26ce0e43d886fea84a86f4a4c"
+      },
+      "text": {
+        "jp": "DMX出力ポート通信タイプを選択",
+        "official_en": "Select DMX Output Port Communication Type",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:ProtocolSelected:1af4bb0b",
+      "source": {
+        "set": "set-02",
+        "namespace": "DMXOutputPortConfigCustomization",
+        "key": "ProtocolSelected",
+        "jp_record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:ProtocolSelected:1af4bb0b",
+        "official_en_record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:ProtocolSelected:1af4bb0b",
+        "jp_sha256": "00fa2c785f22870adc9bb82612ecabe3aca2909d549fa9d38f97e829bf725df5",
+        "official_en_sha256": "b2d44af5efbd9ec2d3011530076b1544ffd60e7b9f71573638a9eaf8c4d5590e"
+      },
+      "text": {
+        "jp": "DMX出力ポートプロトコルを選択",
+        "official_en": "Select DMX Output Port Protocol",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:IPAddressSelected:6e97c5cc",
+      "source": {
+        "set": "set-02",
+        "namespace": "DMXOutputPortConfigCustomization",
+        "key": "IPAddressSelected",
+        "jp_record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:IPAddressSelected:6e97c5cc",
+        "official_en_record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:IPAddressSelected:6e97c5cc",
+        "jp_sha256": "6f20e79f32eb055d2b74dd679716b9f73549100a20336a516b83b1e20fcc84ce",
+        "official_en_sha256": "8e5b682e32a46b3ba40eab231ab46c7c46083ca4bc05d7010ae7c9c6199bf155"
+      },
+      "text": {
+        "jp": "選択されているDMX出力ポートのIPアドレス",
+        "official_en": "Selected DMX Output Port IP Address",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:DelalySecondsChange:ab176b17",
+      "source": {
+        "set": "set-02",
+        "namespace": "DMXOutputPortConfigCustomization",
+        "key": "DelalySecondsChange",
+        "jp_record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:DelalySecondsChange:ab176b17",
+        "official_en_record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:DelalySecondsChange:ab176b17",
+        "jp_sha256": "341d464f86f64f47e203327f30ca642ab21e6f16b9ae095729b2c3170d786af7",
+        "official_en_sha256": "35274d6baccf9eff289187644f4009077e0f13cf9d19530835131bbf1875ced8"
+      },
+      "text": {
+        "jp": "DMX出力ポートディレイを設定",
+        "official_en": "Set DMX Output Port Delay",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:DelayFrameRateChanged:697e57ec",
+      "source": {
+        "set": "set-02",
+        "namespace": "DMXOutputPortConfigCustomization",
+        "key": "DelayFrameRateChanged",
+        "jp_record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:DelayFrameRateChanged:697e57ec",
+        "official_en_record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:DelayFrameRateChanged:697e57ec",
+        "jp_sha256": "0e5548aa935627483305d5e84779a021079178300f0ecb831f826cc48799a268",
+        "official_en_sha256": "1ef1794c297046a9e1f54b5711ba418600d11c7b430dcfc7ed58f58d1c23ac6a"
+      },
+      "text": {
+        "jp": "DMX出力ポートディレイタイプを設定",
+        "official_en": "Set DMX Output Port Delay Type",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:AutoCompletedIPAddressText:a420b79e",
+      "source": {
+        "set": "set-02",
+        "namespace": "DMXOutputPortConfigCustomization",
+        "key": "AutoCompletedIPAddressText",
+        "jp_record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:AutoCompletedIPAddressText:a420b79e",
+        "official_en_record_id": "switch:locres:set-01:DMXOutputPortConfigCustomization:AutoCompletedIPAddressText:a420b79e",
+        "jp_sha256": "e972d42de9cdad5049f382945efe55f29a7aa34cd3da5f00c469ff0f84c38ed1",
+        "official_en_sha256": "fb1151180bf01e409af1091d7a367dbde8d620957ce02a1a45d202f361238219"
+      },
+      "text": {
+        "jp": "{0} (自動完了済み)",
+        "official_en": "{0} (auto-completed)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

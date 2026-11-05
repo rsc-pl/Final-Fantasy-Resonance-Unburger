@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGMeshSelectorBase",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGMeshSelectorBase:AttributeMissing:29dd614d",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMeshSelectorBase",
+        "key": "AttributeMissing",
+        "jp_record_id": "switch:locres:set-01:PCGMeshSelectorBase:AttributeMissing:29dd614d",
+        "official_en_record_id": "switch:locres:set-01:PCGMeshSelectorBase:AttributeMissing:29dd614d",
+        "jp_sha256": "06f2778fdac50a0458626d9867ca7ef135f3c4b4d4c7ede24eff98fc9c354963",
+        "official_en_sha256": "71fe619c036f2b93a19eb894c021cae5c8d9ef1d7d51f1f6a5c4dd54b4b2a3b4"
+      },
+      "text": {
+        "jp": "マテリアルのオーバーライドのための属性「{0}」は、メタデータ内に存在しません",
+        "official_en": "Attribute '{0}' for material overrides is not present in the metadata",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMeshSelectorBase:MetadataMissing:31e6368d",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMeshSelectorBase",
+        "key": "MetadataMissing",
+        "jp_record_id": "switch:locres:set-01:PCGMeshSelectorBase:MetadataMissing:31e6368d",
+        "official_en_record_id": "switch:locres:set-01:PCGMeshSelectorBase:MetadataMissing:31e6368d",
+        "jp_sha256": "40380ebedc12647d1537cecc73e3fb574a13dabaac5a99db564128663e1d3f49",
+        "official_en_sha256": "f0444aac0c016d74fadfff8740ee3a49662e2289ec1586cd30607695a739276a"
+      },
+      "text": {
+        "jp": "データにメタデータがありません",
+        "official_en": "Data has no metadata",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMeshSelectorBase:AttributeInvalidType:3a47b606",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMeshSelectorBase",
+        "key": "AttributeInvalidType",
+        "jp_record_id": "switch:locres:set-01:PCGMeshSelectorBase:AttributeInvalidType:3a47b606",
+        "official_en_record_id": "switch:locres:set-01:PCGMeshSelectorBase:AttributeInvalidType:3a47b606",
+        "jp_sha256": "a67c94767a7aeee549082acd9e28e3c2dc19d3c6a93eba37e229e9663389bb7a",
+        "official_en_sha256": "ec54ad33b8da2db1f72b02fb3ba9570791e996e34edb577ed6ac51f7163f348a"
+      },
+      "text": {
+        "jp": "マテリアルのオーバーライド属性が有効な型 (FSoftObjectPath または FString) ではありません",
+        "official_en": "Material override attribute is not of valid type (FSoftObjectPath or FString).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMeshSelectorBase:SelectMeshInstancesNotImplemented:0fd255b8",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMeshSelectorBase",
+        "key": "SelectMeshInstancesNotImplemented",
+        "jp_record_id": "switch:locres:set-01:PCGMeshSelectorBase:SelectMeshInstancesNotImplemented:0fd255b8",
+        "official_en_record_id": "switch:locres:set-01:PCGMeshSelectorBase:SelectMeshInstancesNotImplemented:0fd255b8",
+        "jp_sha256": "0d15987efc9ab10cf0a0d8f709adefceb42e23529d2a2842529aa2c4507ecee0",
+        "official_en_sha256": "dc10f8b15c6000e2392c01835953b00019004247d98a77ec99e34ae824edc653"
+      },
+      "text": {
+        "jp": "MeshSelector クラス「{0}」で SelectMeshInstances を実装することが必要です",
+        "official_en": "MeshSelector class '{0}' needs to implement SelectMeshInstances",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

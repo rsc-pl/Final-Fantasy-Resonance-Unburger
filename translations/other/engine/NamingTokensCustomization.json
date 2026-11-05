@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NamingTokensCustomization",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NamingTokensCustomization:CreateTokenGraph:d3186959",
+      "source": {
+        "set": "set-02",
+        "namespace": "NamingTokensCustomization",
+        "key": "CreateTokenGraph",
+        "jp_record_id": "switch:locres:set-01:NamingTokensCustomization:CreateTokenGraph:d3186959",
+        "official_en_record_id": "switch:locres:set-01:NamingTokensCustomization:CreateTokenGraph:d3186959",
+        "jp_sha256": "efa48bdc0d906fee2446d848908e6998fd706c3a91df7fdb0733fa732cdc09de",
+        "official_en_sha256": "418c78fb250357ff424bc13f85b113332e14662f343066f91cdfcb2e03264eca"
+      },
+      "text": {
+        "jp": "トークングラフを作成",
+        "official_en": "Create Token Graph",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NamingTokensCustomization:AddFunction:73833f92",
+      "source": {
+        "set": "set-02",
+        "namespace": "NamingTokensCustomization",
+        "key": "AddFunction",
+        "jp_record_id": "switch:locres:set-01:NamingTokensCustomization:AddFunction:73833f92",
+        "official_en_record_id": "switch:locres:set-01:NamingTokensCustomization:AddFunction:73833f92",
+        "jp_sha256": "d637945c3e5af810689ccc3029836498f3187dd9a73685f9f11d7bbb1079e386",
+        "official_en_sha256": "8aeb82a967f34c7c8ed557516b2a41eba9366cde65fbdfbf00d202b7e8526bb5"
+      },
+      "text": {
+        "jp": "トークン評価用の関数グラフを新規作成して割り当てます。\n有効なトークン キーが入力されている必要があります",
+        "official_en": "Create and assign a new function graph for evaluating tokens.\nThis requires a valid Token Key entered.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NamingTokensCustomization:ValueError:a09d6bcf",
+      "source": {
+        "set": "set-02",
+        "namespace": "NamingTokensCustomization",
+        "key": "ValueError",
+        "jp_record_id": "switch:locres:set-01:NamingTokensCustomization:ValueError:a09d6bcf",
+        "official_en_record_id": "switch:locres:set-01:NamingTokensCustomization:ValueError:a09d6bcf",
+        "jp_sha256": "7e7ca7ed8d4414c272c96bd40e8baee211ee596e193427bc95305986dd327e73",
+        "official_en_sha256": "ad659a59b119ef76ed487e96ad9b36339cbee80cd84071d17df1e187f56ce522"
+      },
+      "text": {
+        "jp": "エラー：{Error}。英数字と '_' 文字が許可されます",
+        "official_en": "Error: {Error}. Alphanumeric and '_' characters are allowed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

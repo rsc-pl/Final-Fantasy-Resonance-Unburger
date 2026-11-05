@@ -1,0 +1,1196 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "FMoviePipelineQuickRenderMenu",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:CommaDelim:d6f3f731",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "CommaDelim",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:CommaDelim:d6f3f731",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:CommaDelim:d6f3f731",
+        "jp_sha256": "0a07f659461970d8d8dcefe4fff96a1745599810dc7d47391e95c803b7b2072c",
+        "official_en_sha256": "0a07f659461970d8d8dcefe4fff96a1745599810dc7d47391e95c803b7b2072c"
+      },
+      "text": {
+        "jp": ", ",
+        "official_en": ", ",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:BeginQuickRender:1c55a526",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "BeginQuickRender",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:BeginQuickRender:1c55a526",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:BeginQuickRender:1c55a526",
+        "jp_sha256": "d82924a49ca0c9691a8fe9bcc91d11eb318b5b94c34a31a132ff8a0f307cbb41",
+        "official_en_sha256": "a19a21fb4f51a684e072e612660a5b049a038124b5e6e4da56088442fd6d9447"
+      },
+      "text": {
+        "jp": "レンダリングを開始\n\nモードは次の 2 つから選択します。\n- ムービー レンダー キュー。ムービー レンダー キュー エディタでアクティブであるジョブをレンダリングのソースとして使用します。\n\n- クイック レンダリング。キューおよびグラフを手動で設定することなくレンダリングが行われます。通常のクイック レンダリングでは、現在のマップとレベル シーケンス、レベル シーケンスの再生範囲、およびビューポートの外観を使用して、フレームが生成されます。クイック レンダリングで利用できるタイプがいくつかあります。オプション ドロップダウンを参照してください",
+        "official_en": "Begin Render\n\nThere are two modes to choose from:\n- Movie Render Queue. This uses the job(s) that are active in the Movie Render Queue editor as the source of the render.\n\n- Quick Render. This performs a render without having to manually configure a queue and a graph. A typical quick render uses the current map and level sequence, the level sequence's playback range, and the viewport's look, to generate frames. Several different types of quick renders are available -- see the options drop-down.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigurationSummary:5772535d",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderConfigurationSummary",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigurationSummary:5772535d",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigurationSummary:5772535d",
+        "jp_sha256": "c3c3dd4171b7f87a316efb27d19a40b76fd9e195c40da1cf30b0f730e860a01a",
+        "official_en_sha256": "3aaf5d486f1dd61004c8fd7df4c6b8df872a95e400b67e91c74aafc348285a14"
+      },
+      "text": {
+        "jp": "構成: <RichTextBlock.BoldHighlight>{0}</>\nレンダリング後: {1}\nビューポートの外観を適用: {2}\nシーケンサーフレーム範囲: {3}",
+        "official_en": "Configuration: <RichTextBlock.BoldHighlight>{0}</>\nAfter Render: {1}\nApply Viewport Look: {2}\nSequencer Frame Range: {3}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_DoNothing:d46c7599",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderConfigMenu_DoNothing",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_DoNothing:d46c7599",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_DoNothing:d46c7599",
+        "jp_sha256": "fe4999d8180aab0f5e0bc26953010f51db250d69f5c2375ce2717c967d0816a6",
+        "official_en_sha256": "91334f2a5fbfca882c9baca8238ed7a9655a3eb3d3ef4faff624d2f003b1e648"
+      },
+      "text": {
+        "jp": "何もしない",
+        "official_en": "Do Nothing",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_DontApply:b33cc804",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderConfigMenu_DontApply",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_DontApply:b33cc804",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_DontApply:b33cc804",
+        "jp_sha256": "74cf38d440cebc4c63fc1ceac2aa8f9b29fdba65f6cf6f32fa5fe5f49e07b416",
+        "official_en_sha256": "85d1d9712f470f2ad866adb002ee4f9def07571f51a590feb05380739a339fa7"
+      },
+      "text": {
+        "jp": "適用しない",
+        "official_en": "Don't Apply",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_InvalidGraph:f7700089",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderConfigMenu_InvalidGraph",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_InvalidGraph:f7700089",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_InvalidGraph:f7700089",
+        "jp_sha256": "383bbb5e8490445a209b509cb1df049413a7b9a53a859c268ffbd3e841b46a9d",
+        "official_en_sha256": "96c34a0719eb565c268a1626c44313a20de4f83927890933bd9b480849adb76c"
+      },
+      "text": {
+        "jp": "無効",
+        "official_en": "Invalid",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderModesSection:e1ec0f22",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderModesSection",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderModesSection:e1ec0f22",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderModesSection:e1ec0f22",
+        "jp_sha256": "99d01e5c2b5fd389d898f9e664473e7b09aeb371d474d1f0b03f4b8b6acc1273",
+        "official_en_sha256": "e9c29ff50cc72eb5c20c2db8e1f0e9b20c0612b046a312bc55c8c010e797c528"
+      },
+      "text": {
+        "jp": "モード",
+        "official_en": "Modes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderMode_MovieRenderQueueLabel:b05582ef",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderMode_MovieRenderQueueLabel",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderMode_MovieRenderQueueLabel:b05582ef",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderMode_MovieRenderQueueLabel:b05582ef",
+        "jp_sha256": "f323a43362a93f65ce25af69ca2360634e5b1df56441bc81836abb5274efaa0c",
+        "official_en_sha256": "7b7b761442e22843f9fdeb7bcc7e4aa87f5290a72404e7b5826cc329082830c7"
+      },
+      "text": {
+        "jp": "ムービー レンダー キュー",
+        "official_en": "Movie Render Queue",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_OCIO:ed673aaa",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderConfigMenu_OCIO",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_OCIO:ed673aaa",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_OCIO:ed673aaa",
+        "jp_sha256": "57339221a1a3247b6b536f59e3c7b4721d9e52b4494a865a7e4454a3c948116a",
+        "official_en_sha256": "57339221a1a3247b6b536f59e3c7b4721d9e52b4494a865a7e4454a3c948116a"
+      },
+      "text": {
+        "jp": "OCIO",
+        "official_en": "OCIO",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_OpenOutputDirectoryLabel:001e2c3a",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRender_OpenOutputDirectoryLabel",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_OpenOutputDirectoryLabel:001e2c3a",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_OpenOutputDirectoryLabel:001e2c3a",
+        "jp_sha256": "a7d02fbd05a0c5b2459b5af4300220b40453603cc1f415c2c6ad15767144e4e2",
+        "official_en_sha256": "ea580b688965907fe9d21173f249b2b25c4a650168d29602a63a12da18469926"
+      },
+      "text": {
+        "jp": "出力ディレクトリを開く",
+        "official_en": "Open Output Directory",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_OpenOutputDirectoryToolTip:a85dc34d",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRender_OpenOutputDirectoryToolTip",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_OpenOutputDirectoryToolTip:a85dc34d",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_OpenOutputDirectoryToolTip:a85dc34d",
+        "jp_sha256": "3549379920dc3dca1dc45b81d328e798c9c360efee74286af3da9531ba7981f3",
+        "official_en_sha256": "c58d2372d47510bedc63a2c4910728423ea31c0afb5142a43bddfd64c60dce4d"
+      },
+      "text": {
+        "jp": "現在クイック レンダリングのメディアの保存先として構成されている出力ディレクトリを開きます",
+        "official_en": "Open the output directory that Quick Render is currently configured to save media into.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_OpenSettingsToolTip:bef1e36d",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRender_OpenSettingsToolTip",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_OpenSettingsToolTip:bef1e36d",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_OpenSettingsToolTip:bef1e36d",
+        "jp_sha256": "fa0bdcec0ed688aa12c504af0ffda6ff379545bb765db7197bfb43e112ee2a17",
+        "official_en_sha256": "d1f0e0428736e48918b04e3e84d5bd0dbbcfc2452ec39d5a6340d94168d3588c"
+      },
+      "text": {
+        "jp": "クイック レンダリング設定が開きます",
+        "official_en": "Open the quick render settings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderOutput:3de71004",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderOutput",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderOutput:3de71004",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderOutput:3de71004",
+        "jp_sha256": "d38a2a54cf74a633f873b0b2c8bc3d791f8e6c3489d268e33a9af6a90e637e7d",
+        "official_en_sha256": "b2439bcb8dee14b685f137f294b0e0cb62f5aadf45143ce01d79777d435a93b4"
+      },
+      "text": {
+        "jp": "出力",
+        "official_en": "Output",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderMode_QuickRenderToolTip:b25ab713",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderMode_QuickRenderToolTip",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderMode_QuickRenderToolTip:b25ab713",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderMode_QuickRenderToolTip:b25ab713",
+        "jp_sha256": "9b27c95d077702d78db276398db6dd8743e8a557ce3245a5186b426c4277a82f",
+        "official_en_sha256": "62eaa5e59071ea8c904d8c3d4480014e727b9026b7df5938d0b63d311ad95254"
+      },
+      "text": {
+        "jp": "クイック レンダリング設定を使用してレンダリングを行います",
+        "official_en": "Performs a render using the Quick Render settings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderMode_MovieRenderQueueToolTip:f6083738",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderMode_MovieRenderQueueToolTip",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderMode_MovieRenderQueueToolTip:f6083738",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderMode_MovieRenderQueueToolTip:f6083738",
+        "jp_sha256": "3fb577bf6a14c55b0c32be1c925cb04287763b3931cbf34446a8ca7de06000e9",
+        "official_en_sha256": "68807bee6b042240d1e83ce023acc85fdf54ed6a5f1f24c6e16c4ef0f4dc0b8d"
+      },
+      "text": {
+        "jp": "ムービー レンダー キュー エディタで現在アクティブなジョブを使用して、レンダリングを行います",
+        "official_en": "Performs a render with the job(s) currently active in the Movie Render Queue editor.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_PlayLastRenderLabel:27efad37",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRender_PlayLastRenderLabel",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_PlayLastRenderLabel:27efad37",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_PlayLastRenderLabel:27efad37",
+        "jp_sha256": "96bcb584f3c65af8e85e1c2a0fa28a8f206caaaa3fb4d526e9f01c865d7b13d7",
+        "official_en_sha256": "57cfb5b906e26cc04ba22e69e07e7a2ea05687c08b01d583d0ac25762c7d7005"
+      },
+      "text": {
+        "jp": "最後のレンダーを再生",
+        "official_en": "Play Last Render",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_PlayRenderOutput:effc7fca",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderConfigMenu_PlayRenderOutput",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_PlayRenderOutput:effc7fca",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_PlayRenderOutput:effc7fca",
+        "jp_sha256": "63c68e77023655419222880a92bb66832587c3f80090861d5c448bfe5b7b8553",
+        "official_en_sha256": "5c84b157a8af3be05c87f867f87f05cef0faaba72d40c1490146bf4828ecc096"
+      },
+      "text": {
+        "jp": "レンダリング出力を再生",
+        "official_en": "Play Render Output",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_PlayLastRenderToolTip:b18f5635",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRender_PlayLastRenderToolTip",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_PlayLastRenderToolTip:b18f5635",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_PlayLastRenderToolTip:b18f5635",
+        "jp_sha256": "534990dfb7400dcadc81376d2a13d0f38894a58d077f2380142972b177c2065b",
+        "official_en_sha256": "0d9243f1ec8c70ac5a838bb363d02aed0a79124dd8072937e5f084b950b4c391"
+      },
+      "text": {
+        "jp": "クイック レンダリングを最後に実行した時間からメディアを再生します",
+        "official_en": "Play the media from the last time that Quick Render ran.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderButtonName:1fc6b2a2",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderButtonName",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderButtonName:1fc6b2a2",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderButtonName:1fc6b2a2",
+        "jp_sha256": "daacb567fc15cec79237adfa0fa637641f63a896e3032d508d445a31212caadc",
+        "official_en_sha256": "0c1397007729c1217cab5607d8ffdadddbdde5679d2b41342d104037d86557b5"
+      },
+      "text": {
+        "jp": "クイックレンダリング",
+        "official_en": "Quick Render",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderMode_QuickRenderLabel:fa040561",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderMode_QuickRenderLabel",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderMode_QuickRenderLabel:fa040561",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderMode_QuickRenderLabel:fa040561",
+        "jp_sha256": "daacb567fc15cec79237adfa0fa637641f63a896e3032d508d445a31212caadc",
+        "official_en_sha256": "0c1397007729c1217cab5607d8ffdadddbdde5679d2b41342d104037d86557b5"
+      },
+      "text": {
+        "jp": "クイックレンダリング",
+        "official_en": "Quick Render",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderSettingsWindow_QuickRenderButtonText:1d54cafe",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderSettingsWindow_QuickRenderButtonText",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderSettingsWindow_QuickRenderButtonText:1d54cafe",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderSettingsWindow_QuickRenderButtonText:1d54cafe",
+        "jp_sha256": "daacb567fc15cec79237adfa0fa637641f63a896e3032d508d445a31212caadc",
+        "official_en_sha256": "0c1397007729c1217cab5607d8ffdadddbdde5679d2b41342d104037d86557b5"
+      },
+      "text": {
+        "jp": "クイックレンダリング",
+        "official_en": "Quick Render",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderSettingsWindow_Title:723099a2",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderSettingsWindow_Title",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderSettingsWindow_Title:723099a2",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderSettingsWindow_Title:723099a2",
+        "jp_sha256": "daacb567fc15cec79237adfa0fa637641f63a896e3032d508d445a31212caadc",
+        "official_en_sha256": "0c1397007729c1217cab5607d8ffdadddbdde5679d2b41342d104037d86557b5"
+      },
+      "text": {
+        "jp": "クイックレンダリング",
+        "official_en": "Quick Render",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderType:47d727b0",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderType",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderType:47d727b0",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderType:47d727b0",
+        "jp_sha256": "daacb567fc15cec79237adfa0fa637641f63a896e3032d508d445a31212caadc",
+        "official_en_sha256": "0c1397007729c1217cab5607d8ffdadddbdde5679d2b41342d104037d86557b5"
+      },
+      "text": {
+        "jp": "クイックレンダリング",
+        "official_en": "Quick Render",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfiguration:dd994331",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderConfiguration",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfiguration:dd994331",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfiguration:dd994331",
+        "jp_sha256": "c8b0c5f1db1ffd59310b7f6b64257a14752079526349eddde71b6e40bfe57477",
+        "official_en_sha256": "fc063a8d356870cf862f15aa62f301a1ab2ab0cb1c2e4ea749cc6a09e19fe05e"
+      },
+      "text": {
+        "jp": "クイックレンダリング構成",
+        "official_en": "Quick Render Configuration",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderOptionsLabel:13046b49",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderOptionsLabel",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderOptionsLabel:13046b49",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderOptionsLabel:13046b49",
+        "jp_sha256": "b54d823d76e549a8559fa79ac3ca2408caa53789c67a180b1772f8ff33a156a6",
+        "official_en_sha256": "6af48704e4266a8078f3b43dc03c440ff378e388917d17bc26fc434e08cac76a"
+      },
+      "text": {
+        "jp": "クイックレンダリングのオプション",
+        "official_en": "Quick Render Options",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderOptionsToolTip:e8fdd782",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderOptionsToolTip",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderOptionsToolTip:e8fdd782",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderOptionsToolTip:e8fdd782",
+        "jp_sha256": "861b72292fff430090845806e7edd12dba00487489ebcc59a76b794dc90ce6ea",
+        "official_en_sha256": "6af48704e4266a8078f3b43dc03c440ff378e388917d17bc26fc434e08cac76a"
+      },
+      "text": {
+        "jp": "クイック レンダリングのオプション",
+        "official_en": "Quick Render Options",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_OpenSettingsLabel:7c23d229",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRender_OpenSettingsLabel",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_OpenSettingsLabel:7c23d229",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_OpenSettingsLabel:7c23d229",
+        "jp_sha256": "5d4c8bd7c3537d3c3d531bac9b2a612b7036d5c67178d4f2510be5577efa5063",
+        "official_en_sha256": "d8df7e0d29e33653fba4d12487f58e94c390c0e3eda30b570558b68972e09889"
+      },
+      "text": {
+        "jp": "クイックレンダリング設定",
+        "official_en": "Quick Render Settings",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_ShowFlags:82952200",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderConfigMenu_ShowFlags",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_ShowFlags:82952200",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_ShowFlags:82952200",
+        "jp_sha256": "96c257dff07e42eccf579c0da839a4de291caff22a88223af73c9f1d2018a447",
+        "official_en_sha256": "eabacb00ec53518f94ff671c742977f0692ec2ff9428a5f8f9bfb1ac3eacd210"
+      },
+      "text": {
+        "jp": "フラグを表示",
+        "official_en": "Show Flags",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_ShowSettingsBeforeLabel:d589ab14",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRender_ShowSettingsBeforeLabel",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_ShowSettingsBeforeLabel:d589ab14",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_ShowSettingsBeforeLabel:d589ab14",
+        "jp_sha256": "6eb423b0d465fbcb9793b1fc909709024eeafc1433a70d21750bc3810b22e018",
+        "official_en_sha256": "f4b9adb444e3f604dfd6413e371ec5c3514d3d45ac72623d120710094e949894"
+      },
+      "text": {
+        "jp": "クイックレンダリングの前に設定を表示",
+        "official_en": "Show Settings Before Quick Render",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_ShowSettingsBeforeToolTip:d90babea",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRender_ShowSettingsBeforeToolTip",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_ShowSettingsBeforeToolTip:d90babea",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRender_ShowSettingsBeforeToolTip:d90babea",
+        "jp_sha256": "e8374b4d4ccc17da7bb14a7e42aecbb99c4a70ab640ba60d848ba6301943b289",
+        "official_en_sha256": "60323cb141aa1152637af37478560bc9303976b3c54c684ae2052299429d8cad"
+      },
+      "text": {
+        "jp": "クイックレンダリングを開始する前にクイックレンダリング設定を表示します",
+        "official_en": "Show the quick render settings before starting a quick render.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:UnableToStartLocalRender:a8e84732",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "UnableToStartLocalRender",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:UnableToStartLocalRender:a8e84732",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:UnableToStartLocalRender:a8e84732",
+        "jp_sha256": "6c8da8f9ffd6a08dfad5cac38e16bfd6ee12f0574d5278fb70907e1d6b4fa3cc",
+        "official_en_sha256": "70cf4156015c76b30d4bf848d5c5045353fd0f3816bd006e1059825bf4e87ed3"
+      },
+      "text": {
+        "jp": "ローカル レンダリングを開始できません。ジョブがキューに存在すること、レンダリングが現在実行されていないこと、およびプロジェクト設定でエグゼキューターが指定されていることを確認してください",
+        "official_en": "Unable to start local render. Make sure a job is present in the queue, a render is not currently running, and an executor is specified in Project Settings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_ViewMode:735cc209",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMoviePipelineQuickRenderMenu",
+        "key": "QuickRenderConfigMenu_ViewMode",
+        "jp_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_ViewMode:735cc209",
+        "official_en_record_id": "switch:locres:set-01:FMoviePipelineQuickRenderMenu:QuickRenderConfigMenu_ViewMode:735cc209",
+        "jp_sha256": "3323dc2b96536db3e2f1c5590772912ecdae5b4848e25989be5e0b250f64c140",
+        "official_en_sha256": "955303856d4b689fdec870fb9ea0a00cf472ca1d4a050ad5a2e85d152c4f81fa"
+      },
+      "text": {
+        "jp": "表示モード",
+        "official_en": "View Mode",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

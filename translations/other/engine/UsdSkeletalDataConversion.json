@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UsdSkeletalDataConversion",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UsdSkeletalDataConversion:UnsupportedInbetweens:ed0a11e9",
+      "source": {
+        "set": "set-02",
+        "namespace": "UsdSkeletalDataConversion",
+        "key": "UnsupportedInbetweens",
+        "jp_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:UnsupportedInbetweens:ed0a11e9",
+        "official_en_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:UnsupportedInbetweens:ed0a11e9",
+        "jp_sha256": "b27665e80003c39ee31faceda26f7c18a29e6da9748245dab4d1d82f2df0d646",
+        "official_en_sha256": "1f32f0c6a8f89453bbeda074f57d4169c59c473651e93cc9e76b1c00ae869641"
+      },
+      "text": {
+        "jp": "中間値 (「{0}」など) を使用した BlendShape のコントロール リグ パラメータ セクションのベイクは現在サポートされていないため、メッシュ「{1}」のアニメーションの表示は正しくない可能性があります！中間値はあらかじめ別々の BlendShape に平坦化してください (インポートとエクスポートでこれを行えます)",
+        "official_en": "Baking Control Rig parameter sections for BlendShapes with inbetweens (like '{0}') is not currently supported, so animation for mesh '{1}' may look incorrect! Please flatten the inbetweens into separate BlendShapes beforehand (importing and exporting will do that).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UsdSkeletalDataConversion:OffsetNormalMismach:cd2ff311",
+      "source": {
+        "set": "set-02",
+        "namespace": "UsdSkeletalDataConversion",
+        "key": "OffsetNormalMismach",
+        "jp_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:OffsetNormalMismach:cd2ff311",
+        "official_en_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:OffsetNormalMismach:cd2ff311",
+        "jp_sha256": "557d9e14110fead781479f57a66aa1381342f3d3284e1a2024e4d7d2d4fac899",
+        "official_en_sha256": "fcde78f328905a1c5e82278c66280124942c702941fa433f61d7ec20f1558d78"
+      },
+      "text": {
+        "jp": "BlendShape「{0}」には一致しない数のオフセット ({1}) および normalOffset ({2}) があるため、無視されます",
+        "official_en": "BlendShape '{0}' has mismatching numbers of offsets ({1}) and normalOffsets ({2}) and will be ignored",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UsdSkeletalDataConversion:OffsetPointMismatch:b07adf65",
+      "source": {
+        "set": "set-02",
+        "namespace": "UsdSkeletalDataConversion",
+        "key": "OffsetPointMismatch",
+        "jp_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:OffsetPointMismatch:b07adf65",
+        "official_en_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:OffsetPointMismatch:b07adf65",
+        "jp_sha256": "b9ecde4d40126882fabf9352075cec1126670cf441ce9debd34aeabca7e078c4",
+        "official_en_sha256": "8ebde69e545276611df1d3bd13caa72741bafa39482353dfd5be826dcc6c2f65"
+      },
+      "text": {
+        "jp": "BlendShape「{0}」には一致しない数のオフセット ({1}) およびポイント インデックス ({2}) があるため、無視されます",
+        "official_en": "BlendShape '{0}' has mismatching numbers of offsets ({1}) and point indices ({2}) and will be ignored",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UsdSkeletalDataConversion:NoOffsets:faebdc1c",
+      "source": {
+        "set": "set-02",
+        "namespace": "UsdSkeletalDataConversion",
+        "key": "NoOffsets",
+        "jp_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:NoOffsets:faebdc1c",
+        "official_en_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:NoOffsets:faebdc1c",
+        "jp_sha256": "e930e6aa02792de879e073ae041c089b04152ff2da642508b554c08a6e2205c0",
+        "official_en_sha256": "b44e766e94c1d91e9eebead29a21c49a45be309793f82c270445057446d643b3"
+      },
+      "text": {
+        "jp": "BlendShape「{0}」は、ゼロ オフセットおよび normalOffset であるため、無視されます",
+        "official_en": "BlendShape '{0}' zero offsets and normalOffsets and will be ignored",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UsdSkeletalDataConversion:TimeCodesPerSecondIsZero:08492e57",
+      "source": {
+        "set": "set-02",
+        "namespace": "UsdSkeletalDataConversion",
+        "key": "TimeCodesPerSecondIsZero",
+        "jp_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:TimeCodesPerSecondIsZero:08492e57",
+        "official_en_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:TimeCodesPerSecondIsZero:08492e57",
+        "jp_sha256": "35d9ab51d81d614b1f70ebbc55dab6377ea2fe77d5c47376030baa31fdae198b",
+        "official_en_sha256": "c02546203b9f5de0db2f46d50935a0c803c3f94003cf7ffdc5528336366ace5c"
+      },
+      "text": {
+        "jp": "ステージで timeCodesPerSecond がゼロに設定されているため、スケルタル アニメーションをベイクできません。",
+        "official_en": "Cannot bake skeletal animations as the stage has timeCodesPerSecond set to zero!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UsdSkeletalDataConversion:NoChannelForPrimary:1157cc63",
+      "source": {
+        "set": "set-02",
+        "namespace": "UsdSkeletalDataConversion",
+        "key": "NoChannelForPrimary",
+        "jp_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:NoChannelForPrimary:1157cc63",
+        "official_en_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:NoChannelForPrimary:1157cc63",
+        "jp_sha256": "e658bd41f3e9b3631ebbf929891cdce0d368220b16975f2ef71739e308c16fd8",
+        "official_en_sha256": "3cfbe2d1d574447cbe1926105a2aeacffa78a8e26a303301aece3283fd90bb95"
+      },
+      "text": {
+        "jp": "プライマリ ブレンド形状「{0}」に適用する浮動小数点チャンネルが見つかりませんでした。",
+        "official_en": "Could not find a float channel to apply to primary blend shape '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UsdSkeletalDataConversion:FailedToRemapInbetweens:b0f56f73",
+      "source": {
+        "set": "set-02",
+        "namespace": "UsdSkeletalDataConversion",
+        "key": "FailedToRemapInbetweens",
+        "jp_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:FailedToRemapInbetweens:b0f56f73",
+        "official_en_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:FailedToRemapInbetweens:b0f56f73",
+        "jp_sha256": "fed99098f6925e1f8a39b856081a346f1ccbe3ed2920ebc0aceecdd4e457609d",
+        "official_en_sha256": "88066df2ad581d116d41437785cb713b3028d32206c85412f7c5c20ef942ce2c"
+      },
+      "text": {
+        "jp": "ブレンド形状「{0}」に対して中間浮動小数点カーブを再マッピングできませんでした。",
+        "official_en": "Failed to remap inbetween float curves for blend shape '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UsdSkeletalDataConversion:ImportUSDAnimData_Bracket:780f95f9",
+      "source": {
+        "set": "set-02",
+        "namespace": "UsdSkeletalDataConversion",
+        "key": "ImportUSDAnimData_Bracket",
+        "jp_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:ImportUSDAnimData_Bracket:780f95f9",
+        "official_en_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:ImportUSDAnimData_Bracket:780f95f9",
+        "jp_sha256": "4aac1553a42c3810da7402168224ea9795e36e0e13e8a8c39178dddf9ae5eef3",
+        "official_en_sha256": "99be3c0bfce9825225886674b70e19fdee44e791107f6fae1fb6bec0f7eb7b92"
+      },
+      "text": {
+        "jp": "USD アニメーション データをインポートしています",
+        "official_en": "Importing USD Animation Data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UsdSkeletalDataConversion:OverwritingMorphTargetCurves:0a2adb8d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UsdSkeletalDataConversion",
+        "key": "OverwritingMorphTargetCurves",
+        "jp_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:OverwritingMorphTargetCurves:0a2adb8d",
+        "official_en_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:OverwritingMorphTargetCurves:0a2adb8d",
+        "jp_sha256": "fbdc5818de115d23547572a4a86507d5f04be35a23219a1735a76cf85407b580",
+        "official_en_sha256": "1192e2f840c57fc8ca48a0268e3f53dbd808e2fad78697551de3ccbdd4a34abb"
+      },
+      "text": {
+        "jp": "モーフ ターゲット「{0}」のアニメーション カーブを異なるデータで上書きしています。スケルタル メッシュに複数の LOD がある場合は、特定のブレンド形状をアニメートする各 LOD のメッシュが、同じブレンド形状カーブを使用してアニメートされるようにします。",
+        "official_en": "Overwriting animation curve for morph target '{0}' with different data! If the Skeletal Mesh has multiple LODs, make sure each LOD mesh that wants to animate a certain blend shape does so with the same blend shape curve.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UsdSkeletalDataConversion:InvalidDisplayColorInterpolation:cef1b124",
+      "source": {
+        "set": "set-02",
+        "namespace": "UsdSkeletalDataConversion",
+        "key": "InvalidDisplayColorInterpolation",
+        "jp_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:InvalidDisplayColorInterpolation:cef1b124",
+        "official_en_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:InvalidDisplayColorInterpolation:cef1b124",
+        "jp_sha256": "3f62a4a11625b6469d750845e537d638711dbef4f22d98dc552873605125a484",
+        "official_en_sha256": "2072976c9184701d05996b252d7bbd096995d136ca5338b60d3369ff1b22b9c7"
+      },
+      "text": {
+        "jp": "プリミティブ「{0}」には、primvar 補間型「{1}」の無効な数の displayColor 値があります！({2} を想定していましたが、{3} が見つかりました)",
+        "official_en": "Prim '{0}' has invalid number of displayColor values for primvar interpolation type '{1}'! (expected {2}, found {3})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UsdSkeletalDataConversion:InvalidDisplayOpacityInterpolation:3a504113",
+      "source": {
+        "set": "set-02",
+        "namespace": "UsdSkeletalDataConversion",
+        "key": "InvalidDisplayOpacityInterpolation",
+        "jp_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:InvalidDisplayOpacityInterpolation:3a504113",
+        "official_en_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:InvalidDisplayOpacityInterpolation:3a504113",
+        "jp_sha256": "d3f82e97f9311e2ec6b0a9a99fbff6f6ca2f6101aa8c73d0a00a27e5681b9acf",
+        "official_en_sha256": "c0313084561194bffd7a775d3735d7297cee2cf98f7f9c07bd6064a1f413da9a"
+      },
+      "text": {
+        "jp": "プリミティブ「{0}」には、primvar 補間型「{1}」の無効な数の displayOpacity 値があります！({2} を想定していましたが、{3} が見つかりました)",
+        "official_en": "Prim '{0}' has invalid number of displayOpacity values for primvar interpolation type '{1}'! (expected {2}, found {3})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UsdSkeletalDataConversion:NoBonesInSkeleton:a0ad1c2d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UsdSkeletalDataConversion",
+        "key": "NoBonesInSkeleton",
+        "jp_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:NoBonesInSkeleton:a0ad1c2d",
+        "official_en_record_id": "switch:locres:set-01:UsdSkeletalDataConversion:NoBonesInSkeleton:a0ad1c2d",
+        "jp_sha256": "dcffee49eff582c608e51af26eab0712cfe3f541f868d426d27a792d2a6b75be",
+        "official_en_sha256": "a45229158a0df8c0e35ee2ef5095cade911228e71be9aedcd5bf3ff4eaa5f393"
+      },
+      "text": {
+        "jp": "スケルトン プリミティブ「{0}」にジョイントがありません。USkeletalMeshes に有効なスケルトンが必要なため、単一ルート ジョイントのある新規スケルトンを生成します。この新規スケルトンは、対応するアセットをエクスポートする際に USD ステージに書き戻される可能性があることに留意してください",
+        "official_en": "Skeleton prim '{0}' has no joints! A new skeleton with a single root joint will be generated as USkeletalMeshes require valid skeletons. Note that this new skeleton may be written back to the USD stage when exporting the corresponding asset.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

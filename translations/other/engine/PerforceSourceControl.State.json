@@ -1,0 +1,900 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PerforceSourceControl.State",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:Branched:c052eeed",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "Branched",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:Branched:c052eeed",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:Branched:c052eeed",
+        "jp_sha256": "f59bb90b09e0cf9d67693c6e6164017112d9e7b1b2855c2742eb13bacdc6bad1",
+        "official_en_sha256": "1a949d640a78a789da6583a52c2f8496638c53dcf38f9d056433398d2eb26593"
+      },
+      "text": {
+        "jp": "分岐",
+        "official_en": "Branched",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:CheckedOut:f74ce3bb",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "CheckedOut",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:CheckedOut:f74ce3bb",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:CheckedOut:f74ce3bb",
+        "jp_sha256": "4fad6d812c1effd704ba8d653fb7f5ee46db528af44f82a344b3b1a4cf60c0a2",
+        "official_en_sha256": "412c895987cfad8d3ecd84ba09656a1a52ca6d84a800cbd863f2ff8c14718d06"
+      },
+      "text": {
+        "jp": "チェックアウト済み",
+        "official_en": "Checked out",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:CheckedOutOther:934c619a",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "CheckedOutOther",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:CheckedOutOther:934c619a",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:CheckedOutOther:934c619a",
+        "jp_sha256": "7217889c785809eeadc8b498ed9d62b6ab5d23113ef1ee516d79b79dddc761b6",
+        "official_en_sha256": "8f9e0805fb104c2577679961f24c0272199df677d3238081251c9319dd93d90b"
+      },
+      "text": {
+        "jp": "チェックアウトしたユーザー:{0}",
+        "official_en": "Checked out by: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:CheckedOutOther_Tooltip:d7e00482",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "CheckedOutOther_Tooltip",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:CheckedOutOther_Tooltip:d7e00482",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:CheckedOutOther_Tooltip:d7e00482",
+        "jp_sha256": "26c01ed64553b419c9146c620bb2a638e31b6c2ea36ae099fc2005e8c3872f36",
+        "official_en_sha256": "8f9e0805fb104c2577679961f24c0272199df677d3238081251c9319dd93d90b"
+      },
+      "text": {
+        "jp": "{0} によってチェックアウトされています",
+        "official_en": "Checked out by: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:Conflicted:6a143de2",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "Conflicted",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:Conflicted:6a143de2",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:Conflicted:6a143de2",
+        "jp_sha256": "d4926f04b2d95441f47274968111697c3264e06574990af081d237e43898a4aa",
+        "official_en_sha256": "916a464e6cfffe51cd6f9bf41c551bb4eefe2cc6fd02b76446d0fc61c00a43dd"
+      },
+      "text": {
+        "jp": "競合が発生しました",
+        "official_en": "Conflicted",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:Ignore:35b9d4af",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "Ignore",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:Ignore:35b9d4af",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:Ignore:35b9d4af",
+        "jp_sha256": "f0f4a1bef8b0dc24f4303a84adba980b68198235d0ddf8d5c32d702759d63554",
+        "official_en_sha256": "fce77c34d3fec98733dd4c29f1592a92e60e93e43f0bfe8690c91160ae7efebe"
+      },
+      "text": {
+        "jp": "無視",
+        "official_en": "Ignore",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:MarkedForDelete:82004e50",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "MarkedForDelete",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:MarkedForDelete:82004e50",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:MarkedForDelete:82004e50",
+        "jp_sha256": "158fe1c03961ad6b4dcbc95b89c25105e2418fea2cc0cbb99fc48e74250ababb",
+        "official_en_sha256": "ab6b8a2f77f799d5d8f31529e737ccce2caed58201352c74588ff5ee8ba19670"
+      },
+      "text": {
+        "jp": "削除用にマークされています",
+        "official_en": "Marked for delete",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:ModifiedOtherBranch:7dff7058",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "ModifiedOtherBranch",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:ModifiedOtherBranch:7dff7058",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:ModifiedOtherBranch:7dff7058",
+        "jp_sha256": "79cd9342db614ea12c0bb2ed8b2169408b8cb45b42dc99975dcc5a4d85231cb6",
+        "official_en_sha256": "773993e881d6dc9baa1256ce1804d39d3ceeba60cc73f1e564258f929e3af48e"
+      },
+      "text": {
+        "jp": "ブランチでの変更:{0}",
+        "official_en": "Modified in branch: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:ModifiedOtherBranch_Tooltip:8977eb44",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "ModifiedOtherBranch_Tooltip",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:ModifiedOtherBranch_Tooltip:8977eb44",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:ModifiedOtherBranch_Tooltip:8977eb44",
+        "jp_sha256": "a13ea48d80630377277b720b7601a1d651ac1aacd15a864d6291f6c3ebd475c2",
+        "official_en_sha256": "ca44b467a4c2a4fe317f32638bcee35e2bbcfcadbd70a87d8824dafaaea5a737"
+      },
+      "text": {
+        "jp": "ブランチで次のように変更されました。 {0} CL:{1} ({2})",
+        "official_en": "Modified in branch: {0} CL:{1} ({2})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:NotCurrent:52594b9f",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "NotCurrent",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:NotCurrent:52594b9f",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:NotCurrent:52594b9f",
+        "jp_sha256": "042836bf61bf5e56086f9a661bdb21abd7893a43b1562b760e710f870084232d",
+        "official_en_sha256": "faf61c3b531ae768a972c3ade7c73a4ae812452d9c4b320e5cf692a029864feb"
+      },
+      "text": {
+        "jp": "現在のバージョンではありません",
+        "official_en": "Not current",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:NotInDepot:1b95130f",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "NotInDepot",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:NotInDepot:1b95130f",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:NotInDepot:1b95130f",
+        "jp_sha256": "ba97c5fec72678e4fcee9fac31c1e73e9e680738672f9dd05d3c85b0eda989f9",
+        "official_en_sha256": "a198b09c88b9af6e046ccb0b2239b69652068801476d84f1889f741bfc42c850"
+      },
+      "text": {
+        "jp": "デポにありません",
+        "official_en": "Not in depot",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:OpenedForAdd:e6a59260",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "OpenedForAdd",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:OpenedForAdd:e6a59260",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:OpenedForAdd:e6a59260",
+        "jp_sha256": "66a876d3eebbcf1d3664735740494101d45295dc26c96bc2d5ec28f73cb1076a",
+        "official_en_sha256": "2ddfff56169fa27d1929cd3ed6526f6225f1fd496dd187063b14513eaa331519"
+      },
+      "text": {
+        "jp": "追加のためにオープン済み",
+        "official_en": "Opened for add",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:ReadOnly:d1e74e14",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "ReadOnly",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:ReadOnly:d1e74e14",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:ReadOnly:d1e74e14",
+        "jp_sha256": "24ef40e810497a9eab29652fb631aa71a0c96d26d11def05c84432118936d7e4",
+        "official_en_sha256": "8ac767353080eae75227c457c3e6dc0a438f6d0c2593940355842685e3a548e3"
+      },
+      "text": {
+        "jp": "読み取り専用",
+        "official_en": "Read only",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:CheckedOut_Tooltip:25755b01",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "CheckedOut_Tooltip",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:CheckedOut_Tooltip:25755b01",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:CheckedOut_Tooltip:25755b01",
+        "jp_sha256": "785b339acf75c7397f931df9b85e0b561669795f6eafe37ee972489f48bedf68",
+        "official_en_sha256": "27628b30b27cdf86cbb1d5a9e8ab3c51f86871a9d725a412ac17c924c27bc1bb"
+      },
+      "text": {
+        "jp": "ファイルがチェックアウトされています",
+        "official_en": "The file(s) are checked out",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:Ignore_Tooltip:3b17267c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "Ignore_Tooltip",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:Ignore_Tooltip:3b17267c",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:Ignore_Tooltip:3b17267c",
+        "jp_sha256": "3411a6268e9130157cdbef48dc0a10311eb0732ad13eed6f97df941ad304afb9",
+        "official_en_sha256": "845c016c66d6649a7a7031472f653176a5ace9a6d2bfda91170d4a61301217b7"
+      },
+      "text": {
+        "jp": "ファイルは Perforce によって無視されます",
+        "official_en": "The file(s) are ignored by Perforce",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:MarkedForDelete_Tooltip:85506cdb",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "MarkedForDelete_Tooltip",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:MarkedForDelete_Tooltip:85506cdb",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:MarkedForDelete_Tooltip:85506cdb",
+        "jp_sha256": "1a84f0b069dc24915006c9ee52c259297361af06f8c396b5360b535bf47ffd9b",
+        "official_en_sha256": "42320b97bff3aed65199b8bb0aad5721bc77f42ddc9165943339c5241f610c95"
+      },
+      "text": {
+        "jp": "ファイルは削除対象としてマークされています",
+        "official_en": "The file(s) are marked for delete",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:ReadOnly_Tooltip:2d494dbd",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "ReadOnly_Tooltip",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:ReadOnly_Tooltip:2d494dbd",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:ReadOnly_Tooltip:2d494dbd",
+        "jp_sha256": "6c29a551f14b5ce77a241f036632b78417f5b765877b5463f24c82a738a8de68",
+        "official_en_sha256": "886aa9442ad47c80527a6b7a47be4173532464650626507ca765edfc2dc29739"
+      },
+      "text": {
+        "jp": "ファイルはローカルで読み取り専用としてマークされています",
+        "official_en": "The file(s) are marked locally as read-only",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:NotCurrent_Tooltip:6adbaa4d",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "NotCurrent_Tooltip",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:NotCurrent_Tooltip:6adbaa4d",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:NotCurrent_Tooltip:6adbaa4d",
+        "jp_sha256": "0c4dca66333706829b16134b835fca17c724a28e732e94b70c4de04a18a5856d",
+        "official_en_sha256": "628f794eb5f673794c08bd7133b690ec812f6f14387bc6f8d8f31c4fec1c8df7"
+      },
+      "text": {
+        "jp": "ファイルは最新リビジョンではありません",
+        "official_en": "The file(s) are not at the head revision",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:NotInDepot_Tooltip:012145cb",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "NotInDepot_Tooltip",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:NotInDepot_Tooltip:012145cb",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:NotInDepot_Tooltip:012145cb",
+        "jp_sha256": "777c7c2db2ae771fd3e1986ec644ab872014c015f83a8e32b3e4c08d577aad99",
+        "official_en_sha256": "263cf41a85e2dd3aea7c010307a6843a36ced53468477268c1dde39b7ac77d2d"
+      },
+      "text": {
+        "jp": "ファイルが Perforce デポに存在しません",
+        "official_en": "The file(s) are not present in the Perforce depot",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:OpenedForAdd_Tooltip:9ad57932",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "OpenedForAdd_Tooltip",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:OpenedForAdd_Tooltip:9ad57932",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:OpenedForAdd_Tooltip:9ad57932",
+        "jp_sha256": "ea95421a4b89f99da3ff96c304c36c7a19977e9ee62b6ee82763bdf744088c80",
+        "official_en_sha256": "f16ab8be26f0a440ce869dc4ef0d0d87e56c2dfc5faa1e502f6b17fca4b234e3"
+      },
+      "text": {
+        "jp": "追加用にファイルが開かれています。",
+        "official_en": "The file(s) are opened for add",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:Branched_Tooltip:213c4ad1",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "Branched_Tooltip",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:Branched_Tooltip:213c4ad1",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:Branched_Tooltip:213c4ad1",
+        "jp_sha256": "e33611210ea8a77cede00801bf7b73d077a309c5018b682f84a4d4921289ec11",
+        "official_en_sha256": "8a91eae3a806ee0a9f82d33f3bf7f3c2661aa5fab06e8ebc928aa0a67ae0daa8"
+      },
+      "text": {
+        "jp": "分岐のため、ファイルが開かれています",
+        "official_en": "The file(s) are opened for branching",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:Conflicted_Tooltip:6c9e4b79",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "Conflicted_Tooltip",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:Conflicted_Tooltip:6c9e4b79",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:Conflicted_Tooltip:6c9e4b79",
+        "jp_sha256": "1e42ed5d30f8ef0a45edd1ebd4dd32ad97aa09a6cb7253b54082f5d85f06a839",
+        "official_en_sha256": "c974211e4d3479f5c25d2d52a87b554d76779a03495afbc7b4dfb9fd28aac625"
+      },
+      "text": {
+        "jp": "このファイルには、Perforce デポにサブミットされる変更で解決する必要があるローカルな変更が加えられています",
+        "official_en": "The file(s) have local changes that need to be resolved with changes submitted to the Perforce depot",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:Unknown_Tooltip:423650d4",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "Unknown_Tooltip",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:Unknown_Tooltip:423650d4",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:Unknown_Tooltip:423650d4",
+        "jp_sha256": "092cc397925d71b8c6f87b5822d237bde4314c9e014f0e09e0ede9bc8b605cdc",
+        "official_en_sha256": "e43e377cc0e4d07a9adc17dc1ad81656a40ecf1ebbb9c7959e2c0511eacc18ca"
+      },
+      "text": {
+        "jp": "ファイルのステータスは不明です",
+        "official_en": "The file(s) status is unknown",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PerforceSourceControl.State:Unknown:988bae55",
+      "source": {
+        "set": "set-02",
+        "namespace": "PerforceSourceControl.State",
+        "key": "Unknown",
+        "jp_record_id": "switch:locres:set-01:PerforceSourceControl.State:Unknown:988bae55",
+        "official_en_record_id": "switch:locres:set-01:PerforceSourceControl.State:Unknown:988bae55",
+        "jp_sha256": "bd5a8814a3635ecb4ebc9785cbc8223ae32444a5a07329a811526c29cd45f77c",
+        "official_en_sha256": "b764cdc0eab7137467211272fa539f1260d1bf2e71bcf6ff3bdc960f5c16aa14"
+      },
+      "text": {
+        "jp": "不明",
+        "official_en": "Unknown",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

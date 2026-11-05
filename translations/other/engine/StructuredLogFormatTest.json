@@ -1,0 +1,1381 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "StructuredLogFormatTest",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:TextFormat:6b066361",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "TextFormat",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:TextFormat:6b066361",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:TextFormat:6b066361",
+        "jp_sha256": "9773c053c62ee24079bdaa4248046abda3a10f9d403f1e44d6b122bdbb22b3c0",
+        "official_en_sha256": "9773c053c62ee24079bdaa4248046abda3a10f9d403f1e44d6b122bdbb22b3c0"
+      },
+      "text": {
+        "jp": "FText bWorks={True}",
+        "official_en": "FText bWorks={True}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:EmitterSubheaderText:b0d62a7a",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "EmitterSubheaderText",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:EmitterSubheaderText:b0d62a7a",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:EmitterSubheaderText:b0d62a7a",
+        "jp_sha256": "4be195e3d4823bb4776f552c535d3679011bd928d80ed7fbec8090eeccad7ad8",
+        "official_en_sha256": "912dbbfac8deb3c43304c4040eef31524091dca7ad28ee17de9764fcde14b1a5"
+      },
+      "text": {
+        "jp": "{IntegerPositive} {IntegerPositive}|plural(other=個のエラー) が見つかりました",
+        "official_en": "Found {IntegerPositive} {IntegerPositive}|plural(one=error,other=errors)!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithNestedLocFormat:8d93ca99",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "ObjectWithNestedLocFormat",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithNestedLocFormat:8d93ca99",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithNestedLocFormat:8d93ca99",
+        "jp_sha256": "41bafaa56e9cb86486a42b70eff07e6780dba9305e7e2f7472dcb00b10515ace",
+        "official_en_sha256": "c5f2059cd21ca9ca805e5cd013c10e6f19448f6da2251e7af0417f88977a5f33"
+      },
+      "text": {
+        "jp": "ターゲット=({Point})、X={Point/X}",
+        "official_en": "Target=({Point}); X={Point/X}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectLocFormat:1b2a5004",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "ObjectLocFormat",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectLocFormat:1b2a5004",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectLocFormat:1b2a5004",
+        "jp_sha256": "6002a0d654e53fb9f59279c7f8aa4bf6d28dd361db61667f212279f3e22ba155",
+        "official_en_sha256": "f6289e54453402bc5a4c48d73d665e4cba9365e522be69a53813bfd05c43c383"
+      },
+      "text": {
+        "jp": "X={X}、Y={Y}、Z={Z}",
+        "official_en": "X={X};Y={Y};Z={Z}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithNestedLocFormatPoint:9a4c573d",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "ObjectWithNestedLocFormatPoint",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithNestedLocFormatPoint:9a4c573d",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithNestedLocFormatPoint:9a4c573d",
+        "jp_sha256": "6002a0d654e53fb9f59279c7f8aa4bf6d28dd361db61667f212279f3e22ba155",
+        "official_en_sha256": "f6289e54453402bc5a4c48d73d665e4cba9365e522be69a53813bfd05c43c383"
+      },
+      "text": {
+        "jp": "X={X}、Y={Y}、Z={Z}",
+        "official_en": "X={X};Y={Y};Z={Z}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectX:5e285e31",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "ObjectX",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectX:5e285e31",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectX:5e285e31",
+        "jp_sha256": "386ee1c002b920f547e5f034d8662209703232ec00dc3a15483d05f1763cd589",
+        "official_en_sha256": "1bed98630fc57e9fcebe4bf048ad22d07f46cfd44bfb534de973c0e55fa0fb34"
+      },
+      "text": {
+        "jp": "`{{Object/X}, {Object/Y}, {Object/Z}}`",
+        "official_en": "`{{Object/X}, {Object/Y}, {Object/Z}`}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:ArrayWithNestedFormat:aba2da78",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "ArrayWithNestedFormat",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:ArrayWithNestedFormat:aba2da78",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:ArrayWithNestedFormat:aba2da78",
+        "jp_sha256": "25217f0c25f194ec32e392fb884a05cc2e120103d639fdbad67972c35cee8892",
+        "official_en_sha256": "25217f0c25f194ec32e392fb884a05cc2e120103d639fdbad67972c35cee8892"
+      },
+      "text": {
+        "jp": "{ArrayWithNestedFormat}",
+        "official_en": "{ArrayWithNestedFormat}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:ArrayWithNestedLocFormatFmt:d52ab76d",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "ArrayWithNestedLocFormatFmt",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:ArrayWithNestedLocFormatFmt:d52ab76d",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:ArrayWithNestedLocFormatFmt:d52ab76d",
+        "jp_sha256": "ba40f695756e227cf1db3554d40496dc1712a2fb920258dddec52756aed526aa",
+        "official_en_sha256": "ba40f695756e227cf1db3554d40496dc1712a2fb920258dddec52756aed526aa"
+      },
+      "text": {
+        "jp": "{ArrayWithNestedLocFormat}",
+        "official_en": "{ArrayWithNestedLocFormat}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:ArrayWithNestedText:6c052af6",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "ArrayWithNestedText",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:ArrayWithNestedText:6c052af6",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:ArrayWithNestedText:6c052af6",
+        "jp_sha256": "c9f4d2a8a9b4157dfa5d0645d43771f1e223c13c06a79bebe513f623d6c4de5e",
+        "official_en_sha256": "c9f4d2a8a9b4157dfa5d0645d43771f1e223c13c06a79bebe513f623d6c4de5e"
+      },
+      "text": {
+        "jp": "{ArrayWithNestedText}",
+        "official_en": "{ArrayWithNestedText}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:Array:63190d26",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "Array",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:Array:63190d26",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:Array:63190d26",
+        "jp_sha256": "68ff906fb09d0d7f59dbaa2ce86dc1ae82e47c2b2d926183c996efb6e868e7c0",
+        "official_en_sha256": "68ff906fb09d0d7f59dbaa2ce86dc1ae82e47c2b2d926183c996efb6e868e7c0"
+      },
+      "text": {
+        "jp": "{Array}",
+        "official_en": "{Array}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:BinaryAttachment:55bfed43",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "BinaryAttachment",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:BinaryAttachment:55bfed43",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:BinaryAttachment:55bfed43",
+        "jp_sha256": "2c96c21617e98a878f282454450c0449bf881501f7b0976b5aca2ce9253cb473",
+        "official_en_sha256": "2c96c21617e98a878f282454450c0449bf881501f7b0976b5aca2ce9253cb473"
+      },
+      "text": {
+        "jp": "{BinaryAttachment}",
+        "official_en": "{BinaryAttachment}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:Binary:b290a667",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "Binary",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:Binary:b290a667",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:Binary:b290a667",
+        "jp_sha256": "8225e88059e5a191f34890ff02e053d93fd2e58b1c087f0e69bb6ed085170844",
+        "official_en_sha256": "8225e88059e5a191f34890ff02e053d93fd2e58b1c087f0e69bb6ed085170844"
+      },
+      "text": {
+        "jp": "{Binary}",
+        "official_en": "{Binary}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:CustomById:9f5b9f84",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "CustomById",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:CustomById:9f5b9f84",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:CustomById:9f5b9f84",
+        "jp_sha256": "712ec6276810da9e0d505cd364ba7fc70ff15fc673c123d3d56d7e1a565405f9",
+        "official_en_sha256": "712ec6276810da9e0d505cd364ba7fc70ff15fc673c123d3d56d7e1a565405f9"
+      },
+      "text": {
+        "jp": "{CustomById}",
+        "official_en": "{CustomById}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:CustomByName:d568c4ff",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "CustomByName",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:CustomByName:d568c4ff",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:CustomByName:d568c4ff",
+        "jp_sha256": "e0b6aff2e4480d33f46e52f7823a9e0728bbaded51dc1bd243cfca639e2a1c79",
+        "official_en_sha256": "e0b6aff2e4480d33f46e52f7823a9e0728bbaded51dc1bd243cfca639e2a1c79"
+      },
+      "text": {
+        "jp": "{CustomByName}",
+        "official_en": "{CustomByName}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:DateTime:330f7c5d",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "DateTime",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:DateTime:330f7c5d",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:DateTime:330f7c5d",
+        "jp_sha256": "ed2500e2242f73291e48eb7d3557544da07326e9062de5313040d015f8d0d565",
+        "official_en_sha256": "ed2500e2242f73291e48eb7d3557544da07326e9062de5313040d015f8d0d565"
+      },
+      "text": {
+        "jp": "{DateTime}",
+        "official_en": "{DateTime}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:Double:c3dcc8f8",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "Double",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:Double:c3dcc8f8",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:Double:c3dcc8f8",
+        "jp_sha256": "595d23e2e9e6c2d1de5d0576ee569f0a385ee87c74d11b121038405e72009c3f",
+        "official_en_sha256": "595d23e2e9e6c2d1de5d0576ee569f0a385ee87c74d11b121038405e72009c3f"
+      },
+      "text": {
+        "jp": "{Double}",
+        "official_en": "{Double}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:False:b50acef0",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "False",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:False:b50acef0",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:False:b50acef0",
+        "jp_sha256": "4e41e9225949c42364e0f777da553f2c2525e48d3c929288aa2b6aa52463b05c",
+        "official_en_sha256": "4e41e9225949c42364e0f777da553f2c2525e48d3c929288aa2b6aa52463b05c"
+      },
+      "text": {
+        "jp": "{False}",
+        "official_en": "{False}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:Float:61bbb36c",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "Float",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:Float:61bbb36c",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:Float:61bbb36c",
+        "jp_sha256": "b0c4a8fc1aaeedf80f18871eb7fd5b4b390aad109fa8d2bd8e5a5f0db59d1161",
+        "official_en_sha256": "b0c4a8fc1aaeedf80f18871eb7fd5b4b390aad109fa8d2bd8e5a5f0db59d1161"
+      },
+      "text": {
+        "jp": "{Float}",
+        "official_en": "{Float}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:Hash:2fdff753",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "Hash",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:Hash:2fdff753",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:Hash:2fdff753",
+        "jp_sha256": "e94246999049ed7d48191f1be68f17910e985df5050ee4b17c4e9a3c0cc07451",
+        "official_en_sha256": "e94246999049ed7d48191f1be68f17910e985df5050ee4b17c4e9a3c0cc07451"
+      },
+      "text": {
+        "jp": "{Hash}",
+        "official_en": "{Hash}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:IntegerNegative:76a8ef1a",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "IntegerNegative",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:IntegerNegative:76a8ef1a",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:IntegerNegative:76a8ef1a",
+        "jp_sha256": "cbf8390700094d07c925fbfefa92d5ca8d0144e82f0dd54bd4f8c90888d44a42",
+        "official_en_sha256": "cbf8390700094d07c925fbfefa92d5ca8d0144e82f0dd54bd4f8c90888d44a42"
+      },
+      "text": {
+        "jp": "{IntegerNegative}",
+        "official_en": "{IntegerNegative}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:IntegerPositive:49dcc8aa",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "IntegerPositive",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:IntegerPositive:49dcc8aa",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:IntegerPositive:49dcc8aa",
+        "jp_sha256": "eb7b74055b41f81c0628d1eb687cec0e1cbd7ce6b9bf31eb02ff4c320c7d6cc6",
+        "official_en_sha256": "eb7b74055b41f81c0628d1eb687cec0e1cbd7ce6b9bf31eb02ff4c320c7d6cc6"
+      },
+      "text": {
+        "jp": "{IntegerPositive}",
+        "official_en": "{IntegerPositive}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:Null:dc0847cd",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "Null",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:Null:dc0847cd",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:Null:dc0847cd",
+        "jp_sha256": "756ba1e9802469f5b87c2b3448fd615171f33d3fd5ffb925dc0664d3f59e8a74",
+        "official_en_sha256": "756ba1e9802469f5b87c2b3448fd615171f33d3fd5ffb925dc0664d3f59e8a74"
+      },
+      "text": {
+        "jp": "{Null}",
+        "official_en": "{Null}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectAttachment:674b95af",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "ObjectAttachment",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectAttachment:674b95af",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectAttachment:674b95af",
+        "jp_sha256": "1c6a5b7a7bbc6d647e9133584bd00df5a6f625396ebdffafd0d832f55b37b01b",
+        "official_en_sha256": "1c6a5b7a7bbc6d647e9133584bd00df5a6f625396ebdffafd0d832f55b37b01b"
+      },
+      "text": {
+        "jp": "{ObjectAttachment}",
+        "official_en": "{ObjectAttachment}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithFormat:de0c802f",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "ObjectWithFormat",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithFormat:de0c802f",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithFormat:de0c802f",
+        "jp_sha256": "e40cc84af69a20b00430f60f4d67cab4bf7be3ec753d6a70b839854289f1d882",
+        "official_en_sha256": "e40cc84af69a20b00430f60f4d67cab4bf7be3ec753d6a70b839854289f1d882"
+      },
+      "text": {
+        "jp": "{ObjectFormat}",
+        "official_en": "{ObjectFormat}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectId:dba47719",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "ObjectId",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectId:dba47719",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectId:dba47719",
+        "jp_sha256": "0e3da3745583b948457e75247b755f6441d13e4689b8463b34a04e607faedd7d",
+        "official_en_sha256": "0e3da3745583b948457e75247b755f6441d13e4689b8463b34a04e607faedd7d"
+      },
+      "text": {
+        "jp": "{ObjectId}",
+        "official_en": "{ObjectId}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithLocFormatFmt:c8aef3ea",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "ObjectWithLocFormatFmt",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithLocFormatFmt:c8aef3ea",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithLocFormatFmt:c8aef3ea",
+        "jp_sha256": "caaaf4cd728eb3a9c31a32bc3de7897557fa6a5c57104db84acb5f05fee5b705",
+        "official_en_sha256": "caaaf4cd728eb3a9c31a32bc3de7897557fa6a5c57104db84acb5f05fee5b705"
+      },
+      "text": {
+        "jp": "{ObjectLocFormat}",
+        "official_en": "{ObjectLocFormat}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectTextX:1c5f3b55",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "ObjectTextX",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectTextX:1c5f3b55",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectTextX:1c5f3b55",
+        "jp_sha256": "de0abf59d317c4d72a89168f927c36308900978c6c11317b8fb6d8222be2f572",
+        "official_en_sha256": "de0abf59d317c4d72a89168f927c36308900978c6c11317b8fb6d8222be2f572"
+      },
+      "text": {
+        "jp": "{ObjectText/X}",
+        "official_en": "{ObjectText/X}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectText:594a3dad",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "ObjectText",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectText:594a3dad",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectText:594a3dad",
+        "jp_sha256": "1f9e5e0e0cca1931eccd51ee6492a49b96d91a064c07823f3d3d961c9f0042d6",
+        "official_en_sha256": "1f9e5e0e0cca1931eccd51ee6492a49b96d91a064c07823f3d3d961c9f0042d6"
+      },
+      "text": {
+        "jp": "{ObjectText}",
+        "official_en": "{ObjectText}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithNestedFormat:2278dad3",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "ObjectWithNestedFormat",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithNestedFormat:2278dad3",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithNestedFormat:2278dad3",
+        "jp_sha256": "dc52a3e139d0d6b2e20f36e135093f5946852e580490744db2b8aeff78e282c4",
+        "official_en_sha256": "dc52a3e139d0d6b2e20f36e135093f5946852e580490744db2b8aeff78e282c4"
+      },
+      "text": {
+        "jp": "{ObjectWithNestedFormat}",
+        "official_en": "{ObjectWithNestedFormat}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithNestedLocFormatFmt:d999ef67",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "ObjectWithNestedLocFormatFmt",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithNestedLocFormatFmt:d999ef67",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithNestedLocFormatFmt:d999ef67",
+        "jp_sha256": "ea80e2015d2c8c0b615e161615ee0aeeb73a3a9a7882e5de003eb18605e4ffeb",
+        "official_en_sha256": "ea80e2015d2c8c0b615e161615ee0aeeb73a3a9a7882e5de003eb18605e4ffeb"
+      },
+      "text": {
+        "jp": "{ObjectWithNestedLocFormat}",
+        "official_en": "{ObjectWithNestedLocFormat}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithNestedTextX:cc85ef0b",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "ObjectWithNestedTextX",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithNestedTextX:cc85ef0b",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithNestedTextX:cc85ef0b",
+        "jp_sha256": "0666b79641d78fee37a6c1ea8a054f064d174314454eb44c92b0b7f005e9d6f5",
+        "official_en_sha256": "0666b79641d78fee37a6c1ea8a054f064d174314454eb44c92b0b7f005e9d6f5"
+      },
+      "text": {
+        "jp": "{ObjectWithNestedText/X}",
+        "official_en": "{ObjectWithNestedText/X}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithNestedText:153646ee",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "ObjectWithNestedText",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithNestedText:153646ee",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:ObjectWithNestedText:153646ee",
+        "jp_sha256": "5befd49409960412aea9ccf593a7271a1c625d347c87a7cbc779a77ab6fac734",
+        "official_en_sha256": "5befd49409960412aea9ccf593a7271a1c625d347c87a7cbc779a77ab6fac734"
+      },
+      "text": {
+        "jp": "{ObjectWithNestedText}",
+        "official_en": "{ObjectWithNestedText}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:Object:541617b9",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "Object",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:Object:541617b9",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:Object:541617b9",
+        "jp_sha256": "13d667efe1674a76d5fac6f159a4a0721521161e91b2b835a713d209c5965704",
+        "official_en_sha256": "13d667efe1674a76d5fac6f159a4a0721521161e91b2b835a713d209c5965704"
+      },
+      "text": {
+        "jp": "{Object}",
+        "official_en": "{Object}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:String:eca019f7",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "String",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:String:eca019f7",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:String:eca019f7",
+        "jp_sha256": "d37526cb1500434937ab6cc8a44a02352c2ed096ecde68f1141d6b142fb95583",
+        "official_en_sha256": "d37526cb1500434937ab6cc8a44a02352c2ed096ecde68f1141d6b142fb95583"
+      },
+      "text": {
+        "jp": "{String}",
+        "official_en": "{String}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:TimeSpan:f473ced5",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "TimeSpan",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:TimeSpan:f473ced5",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:TimeSpan:f473ced5",
+        "jp_sha256": "ed76ce967869de9bcdfd075a2df90803db46407b51a30e26a54d49f6a33a2ba9",
+        "official_en_sha256": "ed76ce967869de9bcdfd075a2df90803db46407b51a30e26a54d49f6a33a2ba9"
+      },
+      "text": {
+        "jp": "{TimeSpan}",
+        "official_en": "{TimeSpan}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:True:71ff1401",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "True",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:True:71ff1401",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:True:71ff1401",
+        "jp_sha256": "e888d7a30ab2450de17dd41bf93c724447c36bf554f250d7a4374c750ef6bc87",
+        "official_en_sha256": "e888d7a30ab2450de17dd41bf93c724447c36bf554f250d7a4374c750ef6bc87"
+      },
+      "text": {
+        "jp": "{True}",
+        "official_en": "{True}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StructuredLogFormatTest:Uuid:d103c98a",
+      "source": {
+        "set": "set-02",
+        "namespace": "StructuredLogFormatTest",
+        "key": "Uuid",
+        "jp_record_id": "switch:locres:set-01:StructuredLogFormatTest:Uuid:d103c98a",
+        "official_en_record_id": "switch:locres:set-01:StructuredLogFormatTest:Uuid:d103c98a",
+        "jp_sha256": "6c98d0f48c97252672d4bd52ed6cf9ed21a7d2bc0a21e24ff71e4a77af6d2fbd",
+        "official_en_sha256": "6c98d0f48c97252672d4bd52ed6cf9ed21a7d2bc0a21e24ff71e4a77af6d2fbd"
+      },
+      "text": {
+        "jp": "{Uuid}",
+        "official_en": "{Uuid}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

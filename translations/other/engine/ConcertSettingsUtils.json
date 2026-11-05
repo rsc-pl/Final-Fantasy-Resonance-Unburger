@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ConcertSettingsUtils",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ConcertSettingsUtils:SessionName_IllegalBlankLeading:0b8809a6",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertSettingsUtils",
+        "key": "SessionName_IllegalBlankLeading",
+        "jp_record_id": "switch:locres:set-01:ConcertSettingsUtils:SessionName_IllegalBlankLeading:0b8809a6",
+        "official_en_record_id": "switch:locres:set-01:ConcertSettingsUtils:SessionName_IllegalBlankLeading:0b8809a6",
+        "jp_sha256": "e4e5e0302f278e51691053278ec5585f1da9ce35192482c5f01501518380582e",
+        "official_en_sha256": "b91f8eec43d453cca132da4fe9ae0b645590655c31c9224d7ac4837cc41e7da6"
+      },
+      "text": {
+        "jp": "先頭に不正な空白があります!",
+        "official_en": "Illegal leading white space!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertSettingsUtils:SessionName_IllegalBlankTrailing:a1de9aaa",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertSettingsUtils",
+        "key": "SessionName_IllegalBlankTrailing",
+        "jp_record_id": "switch:locres:set-01:ConcertSettingsUtils:SessionName_IllegalBlankTrailing:a1de9aaa",
+        "official_en_record_id": "switch:locres:set-01:ConcertSettingsUtils:SessionName_IllegalBlankTrailing:a1de9aaa",
+        "jp_sha256": "3a4ded6ea5fffd5001f596575a07723fa1cfa777f53a762d62f5bd8653ed8c29",
+        "official_en_sha256": "9b39beb16be02742ad8c68a7fa3849bf2b75616713352472cbdf660ca6b31347"
+      },
+      "text": {
+        "jp": "末尾に不正な空白があります!",
+        "official_en": "Illegal trailing white space!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertSettingsUtils:SessionName_EmptyNameError:f88cfeea",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertSettingsUtils",
+        "key": "SessionName_EmptyNameError",
+        "jp_record_id": "switch:locres:set-01:ConcertSettingsUtils:SessionName_EmptyNameError:f88cfeea",
+        "official_en_record_id": "switch:locres:set-01:ConcertSettingsUtils:SessionName_EmptyNameError:f88cfeea",
+        "jp_sha256": "247bc51b37af7005f52d78e36c550d7a908711f1b9c1205365b95e325f60238f",
+        "official_en_sha256": "f9df0c291374e8dda081025b37d66555c2b5028881de934f7ab21d76ddde0994"
+      },
+      "text": {
+        "jp": "名前は空白にできません!",
+        "official_en": "Name cannot be left blank!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertSettingsUtils:DisplayName_TooLong:db902320",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertSettingsUtils",
+        "key": "DisplayName_TooLong",
+        "jp_record_id": "switch:locres:set-01:ConcertSettingsUtils:DisplayName_TooLong:db902320",
+        "official_en_record_id": "switch:locres:set-01:ConcertSettingsUtils:DisplayName_TooLong:db902320",
+        "jp_sha256": "444795ccf4e1f99363a9f1b985feb96fba97cd8866a22db1a583882faf28b4c2",
+        "official_en_sha256": "524547ddac7aef6d27cc973f8e8115eb23648682bca9ebc209158255b52f2094"
+      },
+      "text": {
+        "jp": "長すぎます。最大 {0} 文字です!",
+        "official_en": "Too long. Limited to {0} characters!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertSettingsUtils:SessionName_TooLong:8798278f",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertSettingsUtils",
+        "key": "SessionName_TooLong",
+        "jp_record_id": "switch:locres:set-01:ConcertSettingsUtils:SessionName_TooLong:8798278f",
+        "official_en_record_id": "switch:locres:set-01:ConcertSettingsUtils:SessionName_TooLong:8798278f",
+        "jp_sha256": "444795ccf4e1f99363a9f1b985feb96fba97cd8866a22db1a583882faf28b4c2",
+        "official_en_sha256": "524547ddac7aef6d27cc973f8e8115eb23648682bca9ebc209158255b52f2094"
+      },
+      "text": {
+        "jp": "長すぎます。最大 {0} 文字です!",
+        "official_en": "Too long. Limited to {0} characters!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertSettingsUtils:IllegalNameError:bc3fff15",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertSettingsUtils",
+        "key": "IllegalNameError",
+        "jp_record_id": "switch:locres:set-01:ConcertSettingsUtils:IllegalNameError:bc3fff15",
+        "official_en_record_id": "switch:locres:set-01:ConcertSettingsUtils:IllegalNameError:bc3fff15",
+        "jp_sha256": "a00644508de97e85263c9d0cd67e63d3c3b5d733bcaddc65b110e501ad5a7b73",
+        "official_en_sha256": "a00644508de97e85263c9d0cd67e63d3c3b5d733bcaddc65b110e501ad5a7b73"
+      },
+      "text": {
+        "jp": "{0}",
+        "official_en": "{0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

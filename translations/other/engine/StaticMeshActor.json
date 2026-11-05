@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "StaticMeshActor",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:StaticMeshActor:MapCheck_Message_StaticMeshComponent:0348e344",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMeshActor",
+        "key": "MapCheck_Message_StaticMeshComponent",
+        "jp_record_id": "switch:locres:set-01:StaticMeshActor:MapCheck_Message_StaticMeshComponent:0348e344",
+        "official_en_record_id": "switch:locres:set-01:StaticMeshActor:MapCheck_Message_StaticMeshComponent:0348e344",
+        "jp_sha256": "199fbc67609cc758191be74a7d014d77e3be449f409536a8559f45aee371089c",
+        "official_en_sha256": "41926d748003ae4c41d52796da41be33b40043274ad4cd99fd78be2926fb6e7e"
+      },
+      "text": {
+        "jp": "スタティックメッシュアクタ {ActorName} にはNULL StaticMeshComponentプロパティが含まれています。削除してください",
+        "official_en": "Static mesh actor {ActorName} has NULL StaticMeshComponent property - please delete",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMeshActor:MapCheck_Message_SameLocation:a5ee8347",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMeshActor",
+        "key": "MapCheck_Message_SameLocation",
+        "jp_record_id": "switch:locres:set-01:StaticMeshActor:MapCheck_Message_SameLocation:a5ee8347",
+        "official_en_record_id": "switch:locres:set-01:StaticMeshActor:MapCheck_Message_SameLocation:a5ee8347",
+        "jp_sha256": "6ea36b4a1f0b3bc399563e356ffba83a0a9f00b6bc5d236cafb17f1301216408",
+        "official_en_sha256": "5de821e91527e6756727b8fe1c7d4b4871db15011d94e92e1a0d779a4e064b0d"
+      },
+      "text": {
+        "jp": "{ActorName0} は {ActorName1} と同じ位置にあります",
+        "official_en": "{ActorName0} is in the same location as {ActorName1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMeshActor:MapCheck_Message_VertexColorsNotMatchOriginalMesh:c305f693",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMeshActor",
+        "key": "MapCheck_Message_VertexColorsNotMatchOriginalMesh",
+        "jp_record_id": "switch:locres:set-01:StaticMeshActor:MapCheck_Message_VertexColorsNotMatchOriginalMesh:c305f693",
+        "official_en_record_id": "switch:locres:set-01:StaticMeshActor:MapCheck_Message_VertexColorsNotMatchOriginalMesh:c305f693",
+        "jp_sha256": "eb8f13e15905e6a2c3c71c554b87dba0dcf83702eb4a79fe7c80c7e70b14876b",
+        "official_en_sha256": "4f1b9647d7e2e971f167db670aba3dc2fe23c5faaab2d5a34ca4f72988b40294"
+      },
+      "text": {
+        "jp": "{ActorName} (LOD {LODIndex}) にはもはやオリジナルのスタティックメッシュ ({StaticMeshName}) と一致しない手描きの頂点カラーがあります",
+        "official_en": "{ActorName} (LOD {LODIndex}) has hand-painted vertex colors that no longer match the original StaticMesh ({StaticMeshName})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

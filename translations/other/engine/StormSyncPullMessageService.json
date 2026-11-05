@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "StormSyncPullMessageService",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:StormSyncPullMessageService:State_In_Sync:e517a594",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncPullMessageService",
+        "key": "State_In_Sync",
+        "jp_record_id": "switch:locres:set-01:StormSyncPullMessageService:State_In_Sync:e517a594",
+        "official_en_record_id": "switch:locres:set-01:StormSyncPullMessageService:State_In_Sync:e517a594",
+        "jp_sha256": "b790693f98b7152de4d18802d1d37e645af50f14f7376b941f48f98f9ce61e84",
+        "official_en_sha256": "268a77d5677440a61633566c9b427315319a192511946476ad23f718aba77b03"
+      },
+      "text": {
+        "jp": "モディファイアの空のリストを検出しました。アセットは同じステートです",
+        "official_en": "Detected empty list of modifiers, meaning assets are in the same state.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StormSyncPullMessageService:FileDependencies_Error:5145970c",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncPullMessageService",
+        "key": "FileDependencies_Error",
+        "jp_record_id": "switch:locres:set-01:StormSyncPullMessageService:FileDependencies_Error:5145970c",
+        "official_en_record_id": "switch:locres:set-01:StormSyncPullMessageService:FileDependencies_Error:5145970c",
+        "jp_sha256": "72b30fe24dbd1c497f82df4e52ac99666c5011f542f90ff103336117de9bca12",
+        "official_en_sha256": "0a1eb6893eba5a718c496e6178f1f6c9e585b82630d1b8a9a3c332d634d0486f"
+      },
+      "text": {
+        "jp": "プルの前にエラーが発生しました：ファイルの依存関係配列が空です。問題が発生しました",
+        "official_en": "Error before pulling: File dependencies array is empty, something went wrong",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StormSyncPullMessageService:InvalidPullRequestMessage_Error:837fe3b7",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncPullMessageService",
+        "key": "InvalidPullRequestMessage_Error",
+        "jp_record_id": "switch:locres:set-01:StormSyncPullMessageService:InvalidPullRequestMessage_Error:837fe3b7",
+        "official_en_record_id": "switch:locres:set-01:StormSyncPullMessageService:InvalidPullRequestMessage_Error:837fe3b7",
+        "jp_sha256": "c300a40c8715a0f02a228a91582af002bdde3453f5d312cfe3dcb56b489dd591",
+        "official_en_sha256": "ddc314ead58c21ad87f1906df3708cd7902b1daf52f857f4121fa69a24eea339"
+      },
+      "text": {
+        "jp": "プルの前にエラーが発生しました：プル リクエスト メッセージが無効です",
+        "official_en": "Error before pulling: Pull request message is invalid",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StormSyncPullMessageService:InvalidMessageEndpoint_Error:38e74d33",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncPullMessageService",
+        "key": "InvalidMessageEndpoint_Error",
+        "jp_record_id": "switch:locres:set-01:StormSyncPullMessageService:InvalidMessageEndpoint_Error:38e74d33",
+        "official_en_record_id": "switch:locres:set-01:StormSyncPullMessageService:InvalidMessageEndpoint_Error:38e74d33",
+        "jp_sha256": "11cf58d96f625135ee23313484e2ab2066e6adf87b88be5ec6ef7f5452f24d23",
+        "official_en_sha256": "b61287e6f06bc1b23ff22a8fa2a82f8f77752587dc16c2074b077ec3ddb954d6"
+      },
+      "text": {
+        "jp": "プルの前にエラーが発生しました：メッセージのエンドポイントを取得できませんでした",
+        "official_en": "Error before pulling: Unable to get message endpoint",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StormSyncPullMessageService:Missing_Package_OnDisk:da50602b",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncPullMessageService",
+        "key": "Missing_Package_OnDisk",
+        "jp_record_id": "switch:locres:set-01:StormSyncPullMessageService:Missing_Package_OnDisk:da50602b",
+        "official_en_record_id": "switch:locres:set-01:StormSyncPullMessageService:Missing_Package_OnDisk:da50602b",
+        "jp_sha256": "46c375f71654be241c5e713e44de02035d13bc4c576a62d82fbc81b4fa4f9e93",
+        "official_en_sha256": "c50171d8889867a16301dc01ec234d85854a352e8f1da81528328ef80b1d6a2a"
+      },
+      "text": {
+        "jp": "パッケージ「{0}」でプルをリクエストしましたが、ディスクに存在しません",
+        "official_en": "Requesting a pull on package \"{0}\" which does not exist on disk",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StormSyncPullMessageService:Missing_Packages_OnDisk:0c4bd1d3",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncPullMessageService",
+        "key": "Missing_Packages_OnDisk",
+        "jp_record_id": "switch:locres:set-01:StormSyncPullMessageService:Missing_Packages_OnDisk:0c4bd1d3",
+        "official_en_record_id": "switch:locres:set-01:StormSyncPullMessageService:Missing_Packages_OnDisk:0c4bd1d3",
+        "jp_sha256": "46c375f71654be241c5e713e44de02035d13bc4c576a62d82fbc81b4fa4f9e93",
+        "official_en_sha256": "6cb7765182cf8e44480e262c08c49d7bf72afbe5b7c8499e606fe018c404c822"
+      },
+      "text": {
+        "jp": "パッケージ「{0}」でプルをリクエストしましたが、ディスクに存在しません",
+        "official_en": "Requesting a pull on packages \"{0}\" which do not exist on disk",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StormSyncPullMessageService:Error_Active_Connection:24a56101",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncPullMessageService",
+        "key": "Error_Active_Connection",
+        "jp_record_id": "switch:locres:set-01:StormSyncPullMessageService:Error_Active_Connection:24a56101",
+        "official_en_record_id": "switch:locres:set-01:StormSyncPullMessageService:Error_Active_Connection:24a56101",
+        "jp_sha256": "9854d5e42e8b5412235348201d5d088a7dea143860d9ced09f5c9712d6a850ad",
+        "official_en_sha256": "b722528b4bcb6adc8a55e278a01cea4e9347b9da814261e03f2ff1b977268bb9"
+      },
+      "text": {
+        "jp": "返されたアクティブな接続は、エンドポイント StartSendingBuffer() から無効です",
+        "official_en": "Returned active connection is invalid from endpoint StartSendingBuffer()",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StormSyncPullMessageService:Pull_Success_TransferComplete:899d5456",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncPullMessageService",
+        "key": "Pull_Success_TransferComplete",
+        "jp_record_id": "switch:locres:set-01:StormSyncPullMessageService:Pull_Success_TransferComplete:899d5456",
+        "official_en_record_id": "switch:locres:set-01:StormSyncPullMessageService:Pull_Success_TransferComplete:899d5456",
+        "jp_sha256": "bb0cc9d3c52316eff63d45fa7eba7525eab750e5ec08ef04416f942b5192e78f",
+        "official_en_sha256": "1f40f1862689f6b904e3099b01aede07a4af049cae08c176a31371d8e97f128a"
+      },
+      "text": {
+        "jp": "{0} パッケージ名のプルに成功しました",
+        "official_en": "Successfully pulled {0} package names",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGAssetExporterUtils",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGAssetExporterUtils:InvalidPackagePath:3fb55243",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAssetExporterUtils",
+        "key": "InvalidPackagePath",
+        "jp_record_id": "switch:locres:set-01:PCGAssetExporterUtils:InvalidPackagePath:3fb55243",
+        "official_en_record_id": "switch:locres:set-01:PCGAssetExporterUtils:InvalidPackagePath:3fb55243",
+        "jp_sha256": "eed60a177e977de03c7fb857d3f62c8752087d18ac096fe354f1f10735c8992c",
+        "official_en_sha256": "d5e99647e8dfe366560344d65c043759daecf5a39cc963b18b231dae367e1bf4"
+      },
+      "text": {
+        "jp": "無効なパッケージ パス「{0}」：{1}",
+        "official_en": "Invalid package path '{0}': {1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAssetExporterUtils:CannotExportInNonEditor:8a791cc5",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAssetExporterUtils",
+        "key": "CannotExportInNonEditor",
+        "jp_record_id": "switch:locres:set-01:PCGAssetExporterUtils:CannotExportInNonEditor:8a791cc5",
+        "official_en_record_id": "switch:locres:set-01:PCGAssetExporterUtils:CannotExportInNonEditor:8a791cc5",
+        "jp_sha256": "09d6ba75dcb372c3df652d5872edfae035416f6b71b829710e946048d96761fe",
+        "official_en_sha256": "3d34d800362996699fa2aec29d0b8ef56005dbcc71ba9a7bf53dca4b59141a0a"
+      },
+      "text": {
+        "jp": "PCG アセット エクスポータ ユーティリティは、非エディタ ビルドで使用できません",
+        "official_en": "PCG Asset Exporter Utils cannot be used in non-editor builds.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAssetExporterUtils:MissingAssetClass:019f9cf6",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAssetExporterUtils",
+        "key": "MissingAssetClass",
+        "jp_record_id": "switch:locres:set-01:PCGAssetExporterUtils:MissingAssetClass:019f9cf6",
+        "official_en_record_id": "switch:locres:set-01:PCGAssetExporterUtils:MissingAssetClass:019f9cf6",
+        "jp_sha256": "19743532b7265bfe7d81edab0caa505f38de1d54ab8503e352e55e46fd289cce",
+        "official_en_sha256": "a2fe2491ff9ae47f8426e7d2eb779809a2a60ab102683ff1d01226065ca25265"
+      },
+      "text": {
+        "jp": "クラスなしでアセットを作成できません",
+        "official_en": "Unable to create asset without a class.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAssetExporterUtils:MissingExporter:651349e4",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAssetExporterUtils",
+        "key": "MissingExporter",
+        "jp_record_id": "switch:locres:set-01:PCGAssetExporterUtils:MissingExporter:651349e4",
+        "official_en_record_id": "switch:locres:set-01:PCGAssetExporterUtils:MissingExporter:651349e4",
+        "jp_sha256": "32da46de493962de550930ce6a9be38c1a5d297b1676cc3c4c6368cb2d265fb2",
+        "official_en_sha256": "b1d58bad36d4fe21648126422689c315e7755c894c4aef41d2cdbf27dec72496"
+      },
+      "text": {
+        "jp": "エクスポータがないアセットを作成できません。またはエクスポータが正しくセットアップされていません",
+        "official_en": "Unable to create asset without an exporter, or exporter is not setup properly.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAssetExporterUtils:UnableToCreateExporter:d0e31b68",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAssetExporterUtils",
+        "key": "UnableToCreateExporter",
+        "jp_record_id": "switch:locres:set-01:PCGAssetExporterUtils:UnableToCreateExporter:d0e31b68",
+        "official_en_record_id": "switch:locres:set-01:PCGAssetExporterUtils:UnableToCreateExporter:d0e31b68",
+        "jp_sha256": "0511347f856870e41ba66e9f486f200490ee4c000acdbf30bd03b568ef3c99d3",
+        "official_en_sha256": "e3afacaaa0e06c14cba2255f2586ff45bd08b2f07fd68435a852c8b720b1a504"
+      },
+      "text": {
+        "jp": "更新処理中にアセット「{0}」のエクスポータを作成できません",
+        "official_en": "Unable to create exporter for asset '{0}' during update process.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAssetExporterUtils:UnableToCreatePackage:2ff84a5e",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAssetExporterUtils",
+        "key": "UnableToCreatePackage",
+        "jp_record_id": "switch:locres:set-01:PCGAssetExporterUtils:UnableToCreatePackage:2ff84a5e",
+        "official_en_record_id": "switch:locres:set-01:PCGAssetExporterUtils:UnableToCreatePackage:2ff84a5e",
+        "jp_sha256": "e4050b98ed76f0eb14d5ffb0a10524c560084ebb256f22bd5e1dfbaa36ba924e",
+        "official_en_sha256": "e08dce0b34c0b45736c01f11d6c4cef54c9271c5eeea8847efa805615faf9f55"
+      },
+      "text": {
+        "jp": "名前が「{0}」のパッケージを作成できません",
+        "official_en": "Unable to create the package with name '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAssetExporterUtils:InvalidExporterOnAsset:c91e9c26",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAssetExporterUtils",
+        "key": "InvalidExporterOnAsset",
+        "jp_record_id": "switch:locres:set-01:PCGAssetExporterUtils:InvalidExporterOnAsset:c91e9c26",
+        "official_en_record_id": "switch:locres:set-01:PCGAssetExporterUtils:InvalidExporterOnAsset:c91e9c26",
+        "jp_sha256": "f730e3cce9fa0853af8c3187452f52125e65f35cd7ccc255b56703326b5e5b36",
+        "official_en_sha256": "b6bf221ef0e29865e7a8f07dba7b70003c77f3ea4ea71d452cda26718b417e51"
+      },
+      "text": {
+        "jp": "アセット「{0}」を更新できません (エクスポータが有効ではないため)",
+        "official_en": "Unable to update asset '{0}' because exporter isn't valid.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

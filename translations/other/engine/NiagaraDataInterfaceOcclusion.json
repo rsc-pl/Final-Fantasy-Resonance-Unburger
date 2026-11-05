@@ -1,0 +1,604 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NiagaraDataInterfaceOcclusion",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:OnScreenFractionDescription:2ba9dba0",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceOcclusion",
+        "key": "OnScreenFractionDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:OnScreenFractionDescription:2ba9dba0",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:OnScreenFractionDescription:2ba9dba0",
+        "jp_sha256": "edbd5a30671f2f7c7bfadfcf5331aff01490ee6e3fb2848553bd34835e2d4b69",
+        "official_en_sha256": "5c715b143d9d81b5d30195558f40b74ee961cdec21f4a2b228139822c11720e7"
+      },
+      "text": {
+        "jp": "オンスクリーンのサンプル数に応じて、有効な 0..1 を返します。\nたとえば、有効な 0.3 は、サンプルの 70% がオフ オフスクリーンであり 30% がオンスクリーンであることを意味します",
+        "official_en": "Returns a valid 0..1 depending on how may of the samples are on screen.\nFor example, a valid of 0.3 means 70% of the samples are off screen and 30% are on screen.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:VisibilityFractionDescription:a559881a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceOcclusion",
+        "key": "VisibilityFractionDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:VisibilityFractionDescription:a559881a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:VisibilityFractionDescription:a559881a",
+        "jp_sha256": "2f23500c5409d6614c99d0d5dd460d96878f56cc2d5959afcb4c02eb99ccda9b",
+        "official_en_sha256": "c5d26f4072a9877dccec35cba5085abe857d937fc5c98014977ee84554333bbf"
+      },
+      "text": {
+        "jp": "画面上のオクルージョンされているサンプルの数に応じて、0 から 1 の値を返します。\n例えば、値が 0.3 の場合、表示されているサンプルの 70% がオクルージョンされていることを表します。\nSampleFractionが 0 の場合は、これも 0 を返します。",
+        "official_en": "Returns a value 0..1 depending on how many of the samples on the screen were occluded.\nFor example, a value of 0.3 means that 70% of visible samples were occluded.\nIf the sample fraction is 0 then this also returns 0.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:DepthPassFractionDescription:201a109c",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceOcclusion",
+        "key": "DepthPassFractionDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:DepthPassFractionDescription:201a109c",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:DepthPassFractionDescription:201a109c",
+        "jp_sha256": "c73df94eb60d02755a6eaa316940dec23825490eb8df1d646b070e62cb72ee2d",
+        "official_en_sha256": "9d1510b9684c2f03d64650f4eba418724e24be2678eddd2fa38501ad8944e056"
+      },
+      "text": {
+        "jp": "深度テストに合格したサンプル数に応じて、値 0..1 を返します。\nたとえば、値 0.3 は深度テスト サンプルの 70% が画面に近いことを意味します。\nこの割合にはオンスクリーン サンプルのみが含まれます",
+        "official_en": "Returns a value 0..1 depending on how many of the samples passed the depth test.\nFor example, a value of 0.3 means 70% of the depth test samples are closer to the screen.\nNote this fraction only includes on screen samples.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:SampleFractionDescription:83753938",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceOcclusion",
+        "key": "SampleFractionDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:SampleFractionDescription:83753938",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:SampleFractionDescription:83753938",
+        "jp_sha256": "ae03dc2d907331fb48bc40286c085787146f7592f5ea137bfde23928e1570832",
+        "official_en_sha256": "2df2e02114372444605f4865f7bd23e19e3db084e77cd9d81a5fd650bfcb68a3"
+      },
+      "text": {
+        "jp": "ビューポートの内側または外側にあったサンプルの数に応じて、0 から 1 の値を返します。\n例えば、値が 0.3 の場合、サンプルの 70% が現在のビューポートの外にあったため非表示だったことを表します。",
+        "official_en": "Returns a value 0..1 depending on how many samples were inside the viewport or outside of it.\nFor example, a value of 0.3 means that 70% of samples were outside the current viewport and therefore not visible.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:QueryCloudOcclusionWithCircleDescription:86cce6f3",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceOcclusion",
+        "key": "QueryCloudOcclusionWithCircleDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:QueryCloudOcclusionWithCircleDescription:86cce6f3",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:QueryCloudOcclusionWithCircleDescription:86cce6f3",
+        "jp_sha256": "79e17babdf5d459d32d69225a8fb5a513edeba4f75d32506bdf8d7f063acd007",
+        "official_en_sha256": "f217b0ad73d23f6e1ef2d6ec2460c97ba548d393f938619e2bbf809e88cce03b"
+      },
+      "text": {
+        "jp": "ワールド位置のクラウドのオクルージョン係数を返します ",
+        "official_en": "Returns the cloud occlusion factor for the world position. ",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:SamplesPerRingDescription:1b615809",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceOcclusion",
+        "key": "SamplesPerRingDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:SamplesPerRingDescription:1b615809",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:SamplesPerRingDescription:1b615809",
+        "jp_sha256": "a4ae11f83b6fa5ab68575d790e6e0e4700667cc5697c60f62dba4d8ff9c18aad",
+        "official_en_sha256": "6e50be8eb590380c1f15984f41e140a45de3fbf3a4850d72867eb4683e9ed07d"
+      },
+      "text": {
+        "jp": "円の内側の各リングのサンプルの数。\nサンプルの合計数は NumRings * SamplesPerRing です。",
+        "official_en": "The number of samples for each ring inside the circle.\nThe total number of samples is NumRings * SamplesPerRing.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:StepsPerLineDescription:22e94bbd",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceOcclusion",
+        "key": "StepsPerLineDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:StepsPerLineDescription:22e94bbd",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:StepsPerLineDescription:22e94bbd",
+        "jp_sha256": "15c766eb9b8b992f75c36cf0c0c4fb4009dcea11b56378247fb02653f07d2c78",
+        "official_en_sha256": "b083737ccc8d634213b8cd762caa1fc649bc5ec2ccd8fdf2ddcc940ce0a41844"
+      },
+      "text": {
+        "jp": "水平に採取するサンプル数。サンプルの合計数は、この値の二乗です。",
+        "official_en": "The number of samples to take horizontally. The total number of samples is this value squared.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:SampleWindowHeightWorldDescription:ae935379",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceOcclusion",
+        "key": "SampleWindowHeightWorldDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:SampleWindowHeightWorldDescription:ae935379",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:SampleWindowHeightWorldDescription:ae935379",
+        "jp_sha256": "bef4170532e3bf032c5c8fc65245e04f68b72c5ce815799a182fe70a29fe2b77",
+        "official_en_sha256": "f9b97935d2775854ee744b47fd83e507cc6d06510c49570356d82591e4518b07"
+      },
+      "text": {
+        "jp": "ワールド空間内のサンプルの矩形の高さの合計。\nパーティクルがカメラに正対するスプライトの場合、これはスプライトの高さです。",
+        "official_en": "The total height of the sample rectangle in world space.\nIf the particle is a camera-aligned sprite then this is the sprite height.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:SampleWindowWidthWorldDescription:e79e822d",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceOcclusion",
+        "key": "SampleWindowWidthWorldDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:SampleWindowWidthWorldDescription:e79e822d",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:SampleWindowWidthWorldDescription:e79e822d",
+        "jp_sha256": "b3511f9fdee4c5b9a28c4bbd8b34803217b9f7cc8b5f55fb5d94d674a320dcd9",
+        "official_en_sha256": "b3a7596aea2b5aa13be1dcb1cdec29b24efbd03ad0c33696087bb7287e369e92"
+      },
+      "text": {
+        "jp": "ワールド空間内のサンプルの矩形の幅の合計。\nパーティクルがカメラに正対するスプライトの場合、これはスプライトの幅です。",
+        "official_en": "The total width of the sample rectangle in world space.\nIf the particle is a camera-aligned sprite then this is the sprite width.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:SampleWindowDiameterDescription:dd15f612",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceOcclusion",
+        "key": "SampleWindowDiameterDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:SampleWindowDiameterDescription:dd15f612",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:SampleWindowDiameterDescription:dd15f612",
+        "jp_sha256": "4d8b4db2a4c2b8316cad093f960bffaf0e6416d3d47a5ebb11f0632c61dcf98b",
+        "official_en_sha256": "54ddc961e7e9a3513bed797661c669fde191f76309dfb0831e49a3498ec007b4"
+      },
+      "text": {
+        "jp": "サンプリングする円のワールド空間の直径。\nパーティクルが球形のスプライトの場合、これはスプライトのサイズです。",
+        "official_en": "The world space diameter of the circle to sample.\nIf the particle is a spherical sprite then this is the sprite size.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:GetCameraOcclusionRectFunctionDescription:c21055de",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceOcclusion",
+        "key": "GetCameraOcclusionRectFunctionDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:GetCameraOcclusionRectFunctionDescription:c21055de",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:GetCameraOcclusionRectFunctionDescription:c21055de",
+        "jp_sha256": "d817197f4e6aa4c1778e642b17a1382581f8bfd3c6ea9d0a75ea9c2991f62d3c",
+        "official_en_sha256": "f37a1f76782170dfcc1380a5183c852ea454b47afc4252595190f92434325af2"
+      },
+      "text": {
+        "jp": "この関数はスプライトのオクルージョン係数を返します。与えられたワールド位置周辺の長方形グリッド内にある深度バッファをサンプリングし、カメラ距離を使って各サンプルを比較します。",
+        "official_en": "This function returns the occlusion factor of a sprite. It samples the depth buffer in a rectangular grid around the given world position and compares each sample with the camera distance.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:QueryCameraOcclusionCircleDescription:5871b361",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceOcclusion",
+        "key": "QueryCameraOcclusionCircleDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:QueryCameraOcclusionCircleDescription:5871b361",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:QueryCameraOcclusionCircleDescription:5871b361",
+        "jp_sha256": "223492a7a982a73f59fdc970224aba325109329237d63ee95f87c838dcbcc9ae",
+        "official_en_sha256": "afff6dfdce14a8a8e196b12943cb14acb1dafa680253aca25732150f8468bebb"
+      },
+      "text": {
+        "jp": "この関数はスプライトのオクルージョン係数を返します。与えられたワールド位置周辺の渦巻きパターンにある深度バッファをサンプリングし、カメラ距離を使って各サンプルを比較します",
+        "official_en": "This function returns the occlusion factor of a sprite. It samples the depth buffer in a spiral pattern around the given world position and compares each sample with the camera distance.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:NumberOfSampleRingsDescription:029833f7",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceOcclusion",
+        "key": "NumberOfSampleRingsDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:NumberOfSampleRingsDescription:029833f7",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:NumberOfSampleRingsDescription:029833f7",
+        "jp_sha256": "8ea8fa5daca0acbfbd4b74f644e826a1f53b9e824e3a69c15b2be8add3a8c469",
+        "official_en_sha256": "3446142ce4b536ad6a0625b0a1ba77cb546a2921016422bee11a6915789581b3"
+      },
+      "text": {
+        "jp": "円の内側にサンプリングする同心円の数。\nサンプルの合計数は NumRings * SamplesPerRing です。",
+        "official_en": "This number of concentric rings to sample inside the circle.\nThe total number of samples is NumRings * SamplesPerRing.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:CircleCenterPosDescription:00f0f032",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceOcclusion",
+        "key": "CircleCenterPosDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:CircleCenterPosDescription:00f0f032",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:CircleCenterPosDescription:00f0f032",
+        "jp_sha256": "0c937648d09efb847def1dd3847b04ddcac2c62bddd0ff87127a8b00109a5c28",
+        "official_en_sha256": "f430a18eae3af6f3f5018f67c5ddbd7ef930d2972970e8e759d743a0c72837df"
+      },
+      "text": {
+        "jp": "サンプル サークルの中心があるワールド空間の位置。",
+        "official_en": "This world space position where the center of the sample circle should be.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:RectCenterPosDescription:c67e40f7",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceOcclusion",
+        "key": "RectCenterPosDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:RectCenterPosDescription:c67e40f7",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:RectCenterPosDescription:c67e40f7",
+        "jp_sha256": "ed186fb5ff0023960a2c948a1012c39cfd2aae8a9cd7f1c99fb6c6fe5b54e6c3",
+        "official_en_sha256": "52e79178f5c8891b65607ac288c7c60e4e83078d7213b13d9f3abe0a9c801c8a"
+      },
+      "text": {
+        "jp": "サンプル矩形の中心があるワールド空間の位置。",
+        "official_en": "This world space position where the center of the sample rectangle should be.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:IncludeCenterSampleDescription:d36caae9",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceOcclusion",
+        "key": "IncludeCenterSampleDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:IncludeCenterSampleDescription:d36caae9",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceOcclusion:IncludeCenterSampleDescription:d36caae9",
+        "jp_sha256": "0b86f2582121a377512e03ec15a98108a369ade75805502f32d5697fcd98e36e",
+        "official_en_sha256": "9483ed8bc1486b31f6f3ee201217a44dc8ca0649eb58644bc1b332c5ba3cf84f"
+      },
+      "text": {
+        "jp": "有効にすると、リングに加えてサークルの中心がサンプリングされます",
+        "official_en": "When enabled we sample the center of the circle in addition to the rings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

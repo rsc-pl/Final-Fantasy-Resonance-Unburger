@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "LevelSequenceExporterUSD",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:LevelSequenceExporterUSD:NonIdealComposition:16718d5a",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelSequenceExporterUSD",
+        "key": "NonIdealComposition",
+        "jp_record_id": "switch:locres:set-01:LevelSequenceExporterUSD:NonIdealComposition:16718d5a",
+        "official_en_record_id": "switch:locres:set-01:LevelSequenceExporterUSD:NonIdealComposition:16718d5a",
+        "jp_sha256": "bdcb5adb11545c26be698d2c4b09663498f2740eb7526a4ab1fa9771ef384470",
+        "official_en_sha256": "898c694afe932f122892f7db8fc8846344cd5b47dc168296450c21580d08cdd2"
+      },
+      "text": {
+        "jp": "プリミティブ「{0}」のエクスポートされたアニメーションは、レベル シーケンス「{2}」のエクスポートされたステージ上の参照レイヤー「{1}」のプリミティブと正しく合成されない可能性があります。最良の結果を得るには、参照されたレイヤーがディスクに保存されており (つまり匿名ではない)、defaultPrim セットアップがあり、アニメーション トラックは、defaultPrim の子孫であるプリミティブにのみバインドされていることを確認してください",
+        "official_en": "Exported animation for prim '{0}' may not compose correctly with the prims from referenced layer '{1}' on the exported stage for the LevelSequence '{2}'. For best results, make sure the referenced layer is saved to disk (i.e. not anonymous), has a defaultPrim setup, and that the animation tracks are only bound to prims that are descendents of the defaultPrim.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelSequenceExporterUSD:MultipleAudioTracks:cdc51d54",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelSequenceExporterUSD",
+        "key": "MultipleAudioTracks",
+        "jp_record_id": "switch:locres:set-01:LevelSequenceExporterUSD:MultipleAudioTracks:cdc51d54",
+        "official_en_record_id": "switch:locres:set-01:LevelSequenceExporterUSD:MultipleAudioTracks:cdc51d54",
+        "jp_sha256": "44f8eaf574d52e44e8f1b48f0bc0791fe3c017a0d1bbd8845125be44c71e4490",
+        "official_en_sha256": "238a89d1ee93e239c568fa5bdb6945d15bee574268b296309a92c9f7da7cb3d1"
+      },
+      "text": {
+        "jp": "複数のオーディオ トラック (「{0}」など) を同じプリミティブ (「{1}」) にエクスポートすることは、現時点ではサポートされておらず、正しくない出力になる可能性があります",
+        "official_en": "Exporting multiple audio tracks (like '{0}') to the same prim ('{1}') is currently not supported and may lead to incorrect output",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelSequenceExporterUSD:FileUpToDate:4d5ec64d",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelSequenceExporterUSD",
+        "key": "FileUpToDate",
+        "jp_record_id": "switch:locres:set-01:LevelSequenceExporterUSD:FileUpToDate:4d5ec64d",
+        "official_en_record_id": "switch:locres:set-01:LevelSequenceExporterUSD:FileUpToDate:4d5ec64d",
+        "jp_sha256": "d187e4ec2d46992b92b705a2f4d75ca5d2c1422b8d7efdac6ddc7af890a39b66",
+        "official_en_sha256": "9349f8ef1698e9afe9b9ab816ac5077153a421e541529bd3be74df6bfb5ac66b"
+      },
+      "text": {
+        "jp": "ターゲット ファイル「{1}」に最新のエクスポート済みデータがすでに含まれているため、アセット「{0}」のエクスポートをスキップします",
+        "official_en": "Skipping export of asset '{0}' as the target file '{1}' already contains up-to-date exported data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelSequenceExporterUSD:FileAlreadyExists:a3b85b00",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelSequenceExporterUSD",
+        "key": "FileAlreadyExists",
+        "jp_record_id": "switch:locres:set-01:LevelSequenceExporterUSD:FileAlreadyExists:a3b85b00",
+        "official_en_record_id": "switch:locres:set-01:LevelSequenceExporterUSD:FileAlreadyExists:a3b85b00",
+        "jp_sha256": "d06bb811a58897b6e2a673933781d21c2b3c7defad76e82a659af67cc51b42fe",
+        "official_en_sha256": "d80a13c208510e3599dc00be01afd049ee2cb91716e4e60f7528ad15b97ce0dc"
+      },
+      "text": {
+        "jp": "ターゲット ファイル「{1}」がすでに存在するため、アセット「{0}」のエクスポートをスキップします",
+        "official_en": "Skipping export of asset '{0}' as the target file '{1}' already exists.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelSequenceExporterUSD:MultipleAudioSections:b3736315",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelSequenceExporterUSD",
+        "key": "MultipleAudioSections",
+        "jp_record_id": "switch:locres:set-01:LevelSequenceExporterUSD:MultipleAudioSections:b3736315",
+        "official_en_record_id": "switch:locres:set-01:LevelSequenceExporterUSD:MultipleAudioSections:b3736315",
+        "jp_sha256": "6e3881753fe0a6b0b180200ecbb026f4a9d7c3033bd99c8ee27fd739510395c6",
+        "official_en_sha256": "57a848c97a0524a6fc3ed041ff4561c93c0e21fb104aba10f3539c822e2728c8"
+      },
+      "text": {
+        "jp": "オーディオ トラック「{0}」には{1} 個のセクションがありますが、現時点では、オーディオ トラックの最初のオーディオ セクションのみを USD に書き出すことができます",
+        "official_en": "The audio track '{0}' has {1} sections, but only the first audio section of an audio track can be written out to USD for now",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

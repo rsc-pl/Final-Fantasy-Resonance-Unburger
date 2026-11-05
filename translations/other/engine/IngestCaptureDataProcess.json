@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "IngestCaptureDataProcess",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:IngestCaptureDataProcess:StartIngestProcess_TakeMetadataFailure:5fdbe8c8",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestCaptureDataProcess",
+        "key": "StartIngestProcess_TakeMetadataFailure",
+        "jp_record_id": "switch:locres:set-01:IngestCaptureDataProcess:StartIngestProcess_TakeMetadataFailure:5fdbe8c8",
+        "official_en_record_id": "switch:locres:set-01:IngestCaptureDataProcess:StartIngestProcess_TakeMetadataFailure:5fdbe8c8",
+        "jp_sha256": "fa9b236b5ded0a08c6d950f4f6aaf23c2a92402ae6388f9976c1ff8eccf05a4f",
+        "official_en_sha256": "b10eba13b7b470caf58412d23a24875ab944dcd904cc150c4e5ecdb09b41ddcc"
+      },
+      "text": {
+        "jp": "キャプチャ データ ファイル メタデータを読み取れませんでした：{0} - {1}",
+        "official_en": "Failed to read capture data file metadata: {0} - {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestCaptureDataProcess:StartIngestProcess_TakeFileMissing:2456c192",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestCaptureDataProcess",
+        "key": "StartIngestProcess_TakeFileMissing",
+        "jp_record_id": "switch:locres:set-01:IngestCaptureDataProcess:StartIngestProcess_TakeFileMissing:2456c192",
+        "official_en_record_id": "switch:locres:set-01:IngestCaptureDataProcess:StartIngestProcess_TakeFileMissing:2456c192",
+        "jp_sha256": "a6ab4de753d8b61142570f6ac0f4a56805551cdbd9450af86d603f6d4c0eaf85",
+        "official_en_sha256": "9cd13236fbf3c0772594c65471aa82e01d50a360ae0f0271a8537e81c422d66f"
+      },
+      "text": {
+        "jp": "取り込みキャプチャ データ ファイルが見つかりません：{0}",
+        "official_en": "Ingest capture data file is not found: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "LODUtilities",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:LODUtilities:BuildingMorphTargetRenderDataStatus:877c66c8",
+      "source": {
+        "set": "set-02",
+        "namespace": "LODUtilities",
+        "key": "BuildingMorphTargetRenderDataStatus",
+        "jp_record_id": "switch:locres:set-01:LODUtilities:BuildingMorphTargetRenderDataStatus:877c66c8",
+        "official_en_record_id": "switch:locres:set-01:LODUtilities:BuildingMorphTargetRenderDataStatus:877c66c8",
+        "jp_sha256": "88cc6665653f238f905fd1e990391e88b8996d30d46d0be53d68afdc92aa5968",
+        "official_en_sha256": "f14d2a3b74d2107fae56c170a0e430fbe645183c901d666afe4c5d40ef27d1a7"
+      },
+      "text": {
+        "jp": "モーフターゲットのレンダリングデータをビルドしています:{NumCompleted} / {NumTasks}",
+        "official_en": "Building Morph Target Render Data: {NumCompleted} of {NumTasks}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LODUtilities:ImportingMorphTargetStatus:53894954",
+      "source": {
+        "set": "set-02",
+        "namespace": "LODUtilities",
+        "key": "ImportingMorphTargetStatus",
+        "jp_record_id": "switch:locres:set-01:LODUtilities:ImportingMorphTargetStatus:53894954",
+        "official_en_record_id": "switch:locres:set-01:LODUtilities:ImportingMorphTargetStatus:53894954",
+        "jp_sha256": "fcc14533238b39aa86fd7b7456c8e586b89550139e0f719f8335f99c709713c8",
+        "official_en_sha256": "be817e2437329f12640d1ab741e583eb21e65e13da1a1aa726492eadaf4e6f8c"
+      },
+      "text": {
+        "jp": "モーフターゲットをインポートしています:{NumCompleted} / {NumTasks}",
+        "official_en": "Importing Morph Target: {NumCompleted} of {NumTasks}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LODUtilities:BadTopologyMorphRemoveMessage:35638db4",
+      "source": {
+        "set": "set-02",
+        "namespace": "LODUtilities",
+        "key": "BadTopologyMorphRemoveMessage",
+        "jp_record_id": "switch:locres:set-01:LODUtilities:BadTopologyMorphRemoveMessage:35638db4",
+        "official_en_record_id": "switch:locres:set-01:LODUtilities:BadTopologyMorphRemoveMessage:35638db4",
+        "jp_sha256": "c3ba53153669709204178517a74d01fdc135dece5ff425f4edeb06c4965d32d3",
+        "official_en_sha256": "8e70df706bf98cf276334af292b3794bc8768a3bdf1c5afeaeabb4a7b1c738cb"
+      },
+      "text": {
+        "jp": "トポロジの変更により次のモーフ ターゲットが削除されました",
+        "official_en": "Morph target(s) removed because of topology changes:",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LODUtilities:BadTopologyMorphRemoveMessagePerMorphGenerated:a5b70cea",
+      "source": {
+        "set": "set-02",
+        "namespace": "LODUtilities",
+        "key": "BadTopologyMorphRemoveMessagePerMorphGenerated",
+        "jp_record_id": "switch:locres:set-01:LODUtilities:BadTopologyMorphRemoveMessagePerMorphGenerated:a5b70cea",
+        "official_en_record_id": "switch:locres:set-01:LODUtilities:BadTopologyMorphRemoveMessagePerMorphGenerated:a5b70cea",
+        "jp_sha256": "0de3dc9f005ec8156af7e3548ab3ae9d136337e5b3020390d3045518ce7f0ce6",
+        "official_en_sha256": "c651afd1193d28cd104fdf5bd988fc41211fc6ee39effb6226b22452ad2df395"
+      },
+      "text": {
+        "jp": "{0} [LOD {1}]エンジンツールによる生成",
+        "official_en": "{0} [LOD {1}] Generate by Engine tools",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LODUtilities:BadTopologyMorphRemoveMessagePerMorphCustomImport:f415f6f9",
+      "source": {
+        "set": "set-02",
+        "namespace": "LODUtilities",
+        "key": "BadTopologyMorphRemoveMessagePerMorphCustomImport",
+        "jp_record_id": "switch:locres:set-01:LODUtilities:BadTopologyMorphRemoveMessagePerMorphCustomImport:f415f6f9",
+        "official_en_record_id": "switch:locres:set-01:LODUtilities:BadTopologyMorphRemoveMessagePerMorphCustomImport:f415f6f9",
+        "jp_sha256": "e1c00a89aed10e99cbae78ea51e012d50ece69e7c7709fbe11bdc673b4e38b6a",
+        "official_en_sha256": "e1c00a89aed10e99cbae78ea51e012d50ece69e7c7709fbe11bdc673b4e38b6a"
+      },
+      "text": {
+        "jp": "{0} [LOD {1}] SourceFile:{2}",
+        "official_en": "{0} [LOD {1}] SourceFile:{2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

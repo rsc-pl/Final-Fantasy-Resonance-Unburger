@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AssetValidation",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AssetValidation:ElapsedTime:049c2eef",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetValidation",
+        "key": "ElapsedTime",
+        "jp_record_id": "switch:locres:set-01:AssetValidation:ElapsedTime:049c2eef",
+        "official_en_record_id": "switch:locres:set-01:AssetValidation:ElapsedTime:049c2eef",
+        "jp_sha256": "129452236ecb8de7cfa319d1e8149c658ef63a3cf0cdd23ba23b761474c6f506",
+        "official_en_sha256": "a7e88d865105ecc64cdca5b57dd5b847de05f7201ca53cb37eebe70d7f100ece"
+      },
+      "text": {
+        "jp": "{1} で {0} を確認するのに、{2} ms かかりました。",
+        "official_en": "Checking {0} with {1} took {2} ms.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetValidation:ShaderPlatform_MaxRHIShaderPlatform:abf602fa",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetValidation",
+        "key": "ShaderPlatform_MaxRHIShaderPlatform",
+        "jp_record_id": "switch:locres:set-01:AssetValidation:ShaderPlatform_MaxRHIShaderPlatform:abf602fa",
+        "official_en_record_id": "switch:locres:set-01:AssetValidation:ShaderPlatform_MaxRHIShaderPlatform:abf602fa",
+        "jp_sha256": "a21032ec7e7cd5335e53a56af2a61c53e2c9e882f8cef4f62a9ead64fc6c50ae",
+        "official_en_sha256": "bc4cdb10d186e349d3def909858e1d8a043ff16b7578552062218923fb26e0a9"
+      },
+      "text": {
+        "jp": "現在のRHI Maxシェーダープラットフォーム",
+        "official_en": "Current RHI Max Shader Platform",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetValidation:ShaderPlatform_Invalid:30d39627",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetValidation",
+        "key": "ShaderPlatform_Invalid",
+        "jp_record_id": "switch:locres:set-01:AssetValidation:ShaderPlatform_Invalid:30d39627",
+        "official_en_record_id": "switch:locres:set-01:AssetValidation:ShaderPlatform_Invalid:30d39627",
+        "jp_sha256": "383bbb5e8490445a209b509cb1df049413a7b9a53a859c268ffbd3e841b46a9d",
+        "official_en_sha256": "96c34a0719eb565c268a1626c44313a20de4f83927890933bd9b480849adb76c"
+      },
+      "text": {
+        "jp": "無効",
+        "official_en": "Invalid",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetValidation:LocalizationError_LocalizedAssetHasSourceRedirector:9a63e9d0",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetValidation",
+        "key": "LocalizationError_LocalizedAssetHasSourceRedirector",
+        "jp_record_id": "switch:locres:set-01:AssetValidation:LocalizationError_LocalizedAssetHasSourceRedirector:9a63e9d0",
+        "official_en_record_id": "switch:locres:set-01:AssetValidation:LocalizationError_LocalizedAssetHasSourceRedirector:9a63e9d0",
+        "jp_sha256": "a3953a290de20f445127f8133773d9674b13086c9a430032ab0873b515123797",
+        "official_en_sha256": "27305e27412ceaed19724a13e529421b3b40abb7bb7495762288e5fa54d1b3bc"
+      },
+      "text": {
+        "jp": "ローカライズされたアセットには、リダイレクタであるソース アセットがあります。ローカライズされたアセットの名前を変更し忘れましたか？",
+        "official_en": "Localized asset has a source asset that is a redirector. Did you forget to rename the localized assets too?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetValidation:LocalizationError_LocalizedTypeMismatchWithSourceAsset:08dd1bf3",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetValidation",
+        "key": "LocalizationError_LocalizedTypeMismatchWithSourceAsset",
+        "jp_record_id": "switch:locres:set-01:AssetValidation:LocalizationError_LocalizedTypeMismatchWithSourceAsset:08dd1bf3",
+        "official_en_record_id": "switch:locres:set-01:AssetValidation:LocalizationError_LocalizedTypeMismatchWithSourceAsset:08dd1bf3",
+        "jp_sha256": "820e4900a3c4c5dadb1b1ff1beb0bdbc12787b4bda4d05611f38dc209a51494f",
+        "official_en_sha256": "ce837477120ecb4ed4020167323ece814e48d48abbb5b209b3b3f8744a575ecc"
+      },
+      "text": {
+        "jp": "ローカライズされたアセットのタイプは「{0}」ですが、ソース アセットのタイプは「{1}」です。ローカライズされたアセットは、ソース アセットと同じタイプである必要があります！",
+        "official_en": "Localized asset is of type '{0}', but its source asset is of type '{1}'. A localized asset must have the same type as its source asset!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetValidation:LocalizationError_LocalizedAssetTypeCannotBeLocalized:75332244",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetValidation",
+        "key": "LocalizationError_LocalizedAssetTypeCannotBeLocalized",
+        "jp_record_id": "switch:locres:set-01:AssetValidation:LocalizationError_LocalizedAssetTypeCannotBeLocalized:75332244",
+        "official_en_record_id": "switch:locres:set-01:AssetValidation:LocalizationError_LocalizedAssetTypeCannotBeLocalized:75332244",
+        "jp_sha256": "083f68ab89faf252a5320ac320588e3ac34256999420ae19c209e04b6726ebd7",
+        "official_en_sha256": "7bb097f3f6fb5cdcec78e18b20f5f71514298dc1b9069171296be62efa2604bc"
+      },
+      "text": {
+        "jp": "ローカライズされたアセットはタイプ「{0}」であり、ローカライズできるタイプではありません！",
+        "official_en": "Localized asset is of type '{0}', which is not a type that can be localized!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetValidation:LocalizationError_SourceAssetTypeCannotBeLocalized:1e550c1e",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetValidation",
+        "key": "LocalizationError_SourceAssetTypeCannotBeLocalized",
+        "jp_record_id": "switch:locres:set-01:AssetValidation:LocalizationError_SourceAssetTypeCannotBeLocalized:1e550c1e",
+        "official_en_record_id": "switch:locres:set-01:AssetValidation:LocalizationError_SourceAssetTypeCannotBeLocalized:1e550c1e",
+        "jp_sha256": "ef3fa5da6d1ba9ee764ef8ccebc7ecb593381107f8759cbc03d865bc3e0839c9",
+        "official_en_sha256": "b6895aa0a10dbad6c04fa84c82218da4458a27ac850b9a7d50a4c290518a79aa"
+      },
+      "text": {
+        "jp": "ソース アセットには「{0}」のローカライズされたアセットがありますが、これはタイプ「{1}」で、ローカライズできません！",
+        "official_en": "Source asset has a localized asset for '{0}', but is of type '{1}' which is not a type that can be localized!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetValidation:LocalizationError_SourceIsRedirector:9c7d74b0",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetValidation",
+        "key": "LocalizationError_SourceIsRedirector",
+        "jp_record_id": "switch:locres:set-01:AssetValidation:LocalizationError_SourceIsRedirector:9c7d74b0",
+        "official_en_record_id": "switch:locres:set-01:AssetValidation:LocalizationError_SourceIsRedirector:9c7d74b0",
+        "jp_sha256": "4c8de4104d6032d07135be8ce40966218dae69fce5c0afe4dd1473b640fdce7e",
+        "official_en_sha256": "130cf10dd0c12a8e119dd6a6f2ef6fb42089b563c50b9a78e5b6a5314c42a9a6"
+      },
+      "text": {
+        "jp": "ソース アセットはリダイレクタですが、 「{0}」のローカライズされたアセットがあります。ローカライズされたアセットの名前を変更し忘れましたか？",
+        "official_en": "Source asset is a redirector but has a localized asset for '{0}'. Did you forget to rename the localized assets too?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetValidation:LocalizationError_SourceTypeMismatchWithLocalizedAsset:f1adb944",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetValidation",
+        "key": "LocalizationError_SourceTypeMismatchWithLocalizedAsset",
+        "jp_record_id": "switch:locres:set-01:AssetValidation:LocalizationError_SourceTypeMismatchWithLocalizedAsset:f1adb944",
+        "official_en_record_id": "switch:locres:set-01:AssetValidation:LocalizationError_SourceTypeMismatchWithLocalizedAsset:f1adb944",
+        "jp_sha256": "5fcf228ad5cdb0f643a24532f677a0da3c123e98e49c733b7d857a3071741fe7",
+        "official_en_sha256": "5aedf5589f5eb32f90fd75fe06989c29190ce5457edf2372687cac1c31c5547d"
+      },
+      "text": {
+        "jp": "ソース アセットのタイプは「{0}」ですが、「{1}」のローカライズされたアセットのタイプは「{2}」です。ローカライズされたアセットは、ソース アセットと同じタイプである必要があります！",
+        "official_en": "Source asset is of type '{0}', but its localized asset for '{1}' is of type '{2}'. A localized asset must have the same type as its source asset!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetValidation:bPassValidationFalse:b75c930b",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetValidation",
+        "key": "bPassValidationFalse",
+        "jp_record_id": "switch:locres:set-01:AssetValidation:bPassValidationFalse:b75c930b",
+        "official_en_record_id": "switch:locres:set-01:AssetValidation:bPassValidationFalse:b75c930b",
+        "jp_sha256": "705c98bd5a56d0c2d2d70263b7f61b3fbc47376739fe0ad53b769eef4a241af7",
+        "official_en_sha256": "499741f50a07ea9fb5f555892901c7d249d257436dfa1e854b1458f55bf9e86e"
+      },
+      "text": {
+        "jp": "bPassValidation が false です",
+        "official_en": "bPassValidation is false",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetValidation:AssetCheck_Message_Error:ce611f33",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetValidation",
+        "key": "AssetCheck_Message_Error",
+        "jp_record_id": "switch:locres:set-01:AssetValidation:AssetCheck_Message_Error:ce611f33",
+        "official_en_record_id": "switch:locres:set-01:AssetValidation:AssetCheck_Message_Error:ce611f33",
+        "jp_sha256": "7f6efc1951853c93f36badec220014a62b2f41b06df805ea0e68be41eeb0cf67",
+        "official_en_sha256": "cf5a3c73488d9a7a3df74b4d0471ebb51cb52ebc112bdfc4a0f52c8102a13d65"
+      },
+      "text": {
+        "jp": "{CustomMessage}。({ValidatorName})",
+        "official_en": "{CustomMessage}. ({ValidatorName})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetValidation:AssetCheck_Message_Warning:936c922d",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetValidation",
+        "key": "AssetCheck_Message_Warning",
+        "jp_record_id": "switch:locres:set-01:AssetValidation:AssetCheck_Message_Warning:936c922d",
+        "official_en_record_id": "switch:locres:set-01:AssetValidation:AssetCheck_Message_Warning:936c922d",
+        "jp_sha256": "7f6efc1951853c93f36badec220014a62b2f41b06df805ea0e68be41eeb0cf67",
+        "official_en_sha256": "cf5a3c73488d9a7a3df74b4d0471ebb51cb52ebc112bdfc4a0f52c8102a13d65"
+      },
+      "text": {
+        "jp": "{CustomMessage}。({ValidatorName})",
+        "official_en": "{CustomMessage}. ({ValidatorName})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

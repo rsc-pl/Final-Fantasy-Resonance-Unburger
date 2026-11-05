@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGPropertyHelpers",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGPropertyHelpers:ErrorCreatingAttribute:117b0f4c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGPropertyHelpers",
+        "key": "ErrorCreatingAttribute",
+        "jp_record_id": "switch:locres:set-01:PCGPropertyHelpers:ErrorCreatingAttribute:117b0f4c",
+        "official_en_record_id": "switch:locres:set-01:PCGPropertyHelpers:ErrorCreatingAttribute:117b0f4c",
+        "jp_sha256": "45f668762988f07fc8f0842c50f5966be394e2b9229f8ab24a9d360aae828219",
+        "official_en_sha256": "e98277dbd1248ba224e8ea18a5fac99d95370ca5d9dfa740d5b0ba56544be350"
+      },
+      "text": {
+        "jp": "プロパティ「{0}」の作成中にエラーが発生しました。プロパティの型が PCG にサポートされていないか、属性の作成に失敗しました",
+        "official_en": "Error while creating an attribute for property '{0}'. Either the property type is not supported by PCG or attribute creation failed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGPropertyHelpers:NoPropertiesFound:b6e62f2c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGPropertyHelpers",
+        "key": "NoPropertiesFound",
+        "jp_record_id": "switch:locres:set-01:PCGPropertyHelpers:NoPropertiesFound:b6e62f2c",
+        "official_en_record_id": "switch:locres:set-01:PCGPropertyHelpers:NoPropertiesFound:b6e62f2c",
+        "jp_sha256": "7d9b8972b34e2a6ba32e4092568b596590691b6b2f171918fe862fd8afd05245",
+        "official_en_sha256": "55cf467b45c07d1964f7742a3219c97849eeaa38953c08116a77ff6e34bdb127"
+      },
+      "text": {
+        "jp": "抽出するプロパティが見つかりませんでした",
+        "official_en": "No properties found to extract",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGPropertyHelpers:PropertyIsNotExtractable:e03674d5",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGPropertyHelpers",
+        "key": "PropertyIsNotExtractable",
+        "jp_record_id": "switch:locres:set-01:PCGPropertyHelpers:PropertyIsNotExtractable:e03674d5",
+        "official_en_record_id": "switch:locres:set-01:PCGPropertyHelpers:PropertyIsNotExtractable:e03674d5",
+        "jp_sha256": "ba6759eab588f22791f1c8337ddf11d9ff460fd190005d73635eb2ee0da8c6f8",
+        "official_en_sha256": "d66d68a0a863694f568d3632f6e7ad19c64addc1155d09b87de73118325eaf8e"
+      },
+      "text": {
+        "jp": "プロパティ「{0}」は {1} に存在しますが、抽出可能ではありません",
+        "official_en": "Property '{0}' does exist in {1}, but is not extractable.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGPropertyHelpers:PropertyExistsButNotVisible:8acee483",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGPropertyHelpers",
+        "key": "PropertyExistsButNotVisible",
+        "jp_record_id": "switch:locres:set-01:PCGPropertyHelpers:PropertyExistsButNotVisible:8acee483",
+        "official_en_record_id": "switch:locres:set-01:PCGPropertyHelpers:PropertyExistsButNotVisible:8acee483",
+        "jp_sha256": "2a6f83638e3b84d8fdab61704ed856f6d9ade83eb2136c8b42504757e342edab",
+        "official_en_sha256": "add70f92a1fe68c66baee5f2619954392502f6c9a9230110f616e47b83e0c124"
+      },
+      "text": {
+        "jp": "「{0}」は「{1}」に存在しますが、可視ではありません",
+        "official_en": "Property '{0}' does exist in {1}, but is not visible.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGPropertyHelpers:PropertyDoesNotExist:2d580ac8",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGPropertyHelpers",
+        "key": "PropertyDoesNotExist",
+        "jp_record_id": "switch:locres:set-01:PCGPropertyHelpers:PropertyDoesNotExist:2d580ac8",
+        "official_en_record_id": "switch:locres:set-01:PCGPropertyHelpers:PropertyDoesNotExist:2d580ac8",
+        "jp_sha256": "c3976fa7cd74bd3892770f484de3c66f4a9e24e78bf5dd8fde52a9b6e712b9b0",
+        "official_en_sha256": "ad8e6cbdf33852d0b373f251f95d028d2beca49adc31287a1ca32635c433a0b8"
+      },
+      "text": {
+        "jp": "プロパティ「{0}」は {1} に存在しません",
+        "official_en": "Property '{0}' does not exist in {1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGPropertyHelpers:NullPtrContainer:d969f29c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGPropertyHelpers",
+        "key": "NullPtrContainer",
+        "jp_record_id": "switch:locres:set-01:PCGPropertyHelpers:NullPtrContainer:d969f29c",
+        "official_en_record_id": "switch:locres:set-01:PCGPropertyHelpers:NullPtrContainer:d969f29c",
+        "jp_sha256": "efecd9a7680092c59b48cbc20eea97f5cd263c6f43421e9ca429138bbc42bbd5",
+        "official_en_sha256": "1a0a6aeea9d7a54b8e18cd145d31032ff4b8dc17b50394683c2b2834fe8b6c00"
+      },
+      "text": {
+        "jp": "一部の解決されたオブジェクトは割り当てられませんでした (null ポインタ)。一部の結果は破棄されました",
+        "official_en": "Some resolved objects were not assigned (null pointers), some results are discarded",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGPropertyHelpers:InvalidCardinality:1474e801",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGPropertyHelpers",
+        "key": "InvalidCardinality",
+        "jp_record_id": "switch:locres:set-01:PCGPropertyHelpers:InvalidCardinality:1474e801",
+        "official_en_record_id": "switch:locres:set-01:PCGPropertyHelpers:InvalidCardinality:1474e801",
+        "jp_sha256": "85a77b97987bc908ccc36f477c0eed46d07580b7a07cb0cb7543817ccb80e19c",
+        "official_en_sha256": "b0c59107c6464d6fe7dcdad5eb252eb3d05f55d183566c943bb8d4986ea8596f"
+      },
+      "text": {
+        "jp": "一部のプロパティのサイズが食い違っているため、抽出できません",
+        "official_en": "Unable to extract because some properties are of mismatched sizes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

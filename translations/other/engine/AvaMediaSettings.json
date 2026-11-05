@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AvaMediaSettings",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AvaMediaSettings:StartPlaybackClientQuestion:d6d073b8",
+      "source": {
+        "set": "set-02",
+        "namespace": "AvaMediaSettings",
+        "key": "StartPlaybackClientQuestion",
+        "jp_record_id": "switch:locres:set-01:AvaMediaSettings:StartPlaybackClientQuestion:d6d073b8",
+        "official_en_record_id": "switch:locres:set-01:AvaMediaSettings:StartPlaybackClientQuestion:d6d073b8",
+        "jp_sha256": "36f5c35cadee3a8a84ed5837d44ac09ad611053c85fbdb25bbaed127305d5534",
+        "official_en_sha256": "0a7a3dbca8ecdff15173306f7fcf765c8bb231d3926661685f0ddf8b995fe51a"
+      },
+      "text": {
+        "jp": "再生クライアントを今すぐ開始しますか？",
+        "official_en": "Do you want to start the playback client now?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AvaMediaSettings:StopPlaybackClientQuestion:db74745b",
+      "source": {
+        "set": "set-02",
+        "namespace": "AvaMediaSettings",
+        "key": "StopPlaybackClientQuestion",
+        "jp_record_id": "switch:locres:set-01:AvaMediaSettings:StopPlaybackClientQuestion:db74745b",
+        "official_en_record_id": "switch:locres:set-01:AvaMediaSettings:StopPlaybackClientQuestion:db74745b",
+        "jp_sha256": "1e2d62fc818e15dfccced83b8e85abc8b15adf6fc92454c067097cbf361ff60b",
+        "official_en_sha256": "e08f979a0e3d57296fec51d131234bddc0648c7dbb5e0f3d2b26626ff3f558d2"
+      },
+      "text": {
+        "jp": "再生クライアントは現在実行中です。今すぐ停止しますか？",
+        "official_en": "Playback Client is currently running. Do you want to stop it now?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "LandscapeTexturePatch",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:LandscapeTexturePatch:MarkDirtyButton:61f68df4",
+      "source": {
+        "set": "set-02",
+        "namespace": "LandscapeTexturePatch",
+        "key": "MarkDirtyButton",
+        "jp_record_id": "switch:locres:set-01:LandscapeTexturePatch:MarkDirtyButton:61f68df4",
+        "official_en_record_id": "switch:locres:set-01:LandscapeTexturePatch:MarkDirtyButton:61f68df4",
+        "jp_sha256": "f859f9d82cb93af0b951b7b5c9cf2de0604ffe3d7f2d26b4e26547338545966f",
+        "official_en_sha256": "75a11008f656a2690e09cbc85e9321773ff1e600af091bb9118016fb0cc1b149"
+      },
+      "text": {
+        "jp": "ダーティとマーク",
+        "official_en": "Mark dirty",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LandscapeTexturePatch:PatchAlignmentMightBeAdjusted:ffffe214",
+      "source": {
+        "set": "set-02",
+        "namespace": "LandscapeTexturePatch",
+        "key": "PatchAlignmentMightBeAdjusted",
+        "jp_record_id": "switch:locres:set-01:LandscapeTexturePatch:PatchAlignmentMightBeAdjusted:ffffe214",
+        "official_en_record_id": "switch:locres:set-01:LandscapeTexturePatch:PatchAlignmentMightBeAdjusted:ffffe214",
+        "jp_sha256": "c10578e783a3ca5a48d329aedcc5d0cba713ec92723d9246277cb52ad53b3281",
+        "official_en_sha256": "358cb26cd90b608fc677bb2b36e228e47ccc60f80c039388c73f757d77554946"
+      },
+      "text": {
+        "jp": "テクスチャ アセットのアライメント コードに小さなバグがあった場合に、パッチがテクスチャ アセットとともに保存されました。ランドスケープでの差異が無視できるほどのものであることを確認し、パッチを再保存してください。(パッケージ：{Package}、アクタ：{Actor})",
+        "official_en": "Patch was saved with a texture asset when alignment code for texture assets had a minor bug. Verify that difference in landscape is negligible, and resave the patch. (Package: {Package}, Actor: {Actor}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

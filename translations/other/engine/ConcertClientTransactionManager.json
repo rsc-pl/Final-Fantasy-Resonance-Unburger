@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ConcertClientTransactionManager",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ConcertClientTransactionManager:TransactionConflict:2f04bd69",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertClientTransactionManager",
+        "key": "TransactionConflict",
+        "jp_record_id": "switch:locres:set-01:ConcertClientTransactionManager:TransactionConflict:2f04bd69",
+        "official_en_record_id": "switch:locres:set-01:ConcertClientTransactionManager:TransactionConflict:2f04bd69",
+        "jp_sha256": "43e13396976368c8e0d203a0ec1eb455387c489b9f64058725723f273dc2b514",
+        "official_en_sha256": "5dc3443257b02961adeeace110e83c79c107f362a4f2e506332b73535c2dabc9"
+      },
+      "text": {
+        "jp": "送信保留のトランザクションでインバウンド トランザクション コンフリクトが発生。名前変更された {0} オブジェクトおよび除去された {1} オブジェクト",
+        "official_en": "Inbound transaction conflicts with transactions for pending send. Renamed {0} objects and removed {1} objects.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertClientTransactionManager:TransactionConflictRemovedObjects:75a7cab0",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertClientTransactionManager",
+        "key": "TransactionConflictRemovedObjects",
+        "jp_record_id": "switch:locres:set-01:ConcertClientTransactionManager:TransactionConflictRemovedObjects:75a7cab0",
+        "official_en_record_id": "switch:locres:set-01:ConcertClientTransactionManager:TransactionConflictRemovedObjects:75a7cab0",
+        "jp_sha256": "f83b1d6ede9ec70f47c93d831e01121cc4f9b4e3941b4b41019f800b14e4255b",
+        "official_en_sha256": "29827b61c9f25a9c613e4b1fa2a7816b76749996c30aadd7941412d817a8e4cd"
+      },
+      "text": {
+        "jp": "除去オブジェクト:",
+        "official_en": "Removed Objects:",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertClientTransactionManager:TransactionConflictRenamedObjects:bf3acb7b",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertClientTransactionManager",
+        "key": "TransactionConflictRenamedObjects",
+        "jp_record_id": "switch:locres:set-01:ConcertClientTransactionManager:TransactionConflictRenamedObjects:bf3acb7b",
+        "official_en_record_id": "switch:locres:set-01:ConcertClientTransactionManager:TransactionConflictRenamedObjects:bf3acb7b",
+        "jp_sha256": "6398c82e60456e80b710c337cbf5e928cc967600826b2a06b4e583fbc2ba7df8",
+        "official_en_sha256": "c3ee0ea5f381e040761a663600722031217fa63ce9d73a9af345db238f43b9c2"
+      },
+      "text": {
+        "jp": "名前変更オブジェクト:",
+        "official_en": "Renamed Objects:",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertClientTransactionManager:ReplayingTransactionFmt:89aea0e9",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertClientTransactionManager",
+        "key": "ReplayingTransactionFmt",
+        "jp_record_id": "switch:locres:set-01:ConcertClientTransactionManager:ReplayingTransactionFmt:89aea0e9",
+        "official_en_record_id": "switch:locres:set-01:ConcertClientTransactionManager:ReplayingTransactionFmt:89aea0e9",
+        "jp_sha256": "d586ef7109d09edd2ca21dec0f55c0c40db70f3fa37d840968a8c9ad298ffb39",
+        "official_en_sha256": "6ff675e592d29d0a0a27c2589614d8cfd379000b74f086b0510e1ee59e62489f"
+      },
+      "text": {
+        "jp": "トランザクション {0} をリプレイしています",
+        "official_en": "Replaying Transaction {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertClientTransactionManager:ReplayingTransactionForPackageFmt:80cb6336",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertClientTransactionManager",
+        "key": "ReplayingTransactionForPackageFmt",
+        "jp_record_id": "switch:locres:set-01:ConcertClientTransactionManager:ReplayingTransactionForPackageFmt:80cb6336",
+        "official_en_record_id": "switch:locres:set-01:ConcertClientTransactionManager:ReplayingTransactionForPackageFmt:80cb6336",
+        "jp_sha256": "e2c34096092377fe8da0edf7e7931e864070f1b009a6945b881449e949fc923d",
+        "official_en_sha256": "66c11a155bafbc49e5ec94987190310dbd8812c00c25deea42648f6881435713"
+      },
+      "text": {
+        "jp": "{1} のトランザクション {0} をリプレイしています",
+        "official_en": "Replaying Transaction {0} for {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertClientTransactionManager:ReplayingTransactionsForPackageFmt:11b29352",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertClientTransactionManager",
+        "key": "ReplayingTransactionsForPackageFmt",
+        "jp_record_id": "switch:locres:set-01:ConcertClientTransactionManager:ReplayingTransactionsForPackageFmt:11b29352",
+        "official_en_record_id": "switch:locres:set-01:ConcertClientTransactionManager:ReplayingTransactionsForPackageFmt:11b29352",
+        "jp_sha256": "702c4256d54eca562b2a09b35c0f0fc076b2954365cfb044299d11f78312e19c",
+        "official_en_sha256": "3ce97948df3b70f01d31776e6f204799e39ee468114745476b9273c239073b5c"
+      },
+      "text": {
+        "jp": "{0} のトランザクションをリプレイしています...",
+        "official_en": "Replaying Transactions for {0}...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertClientTransactionManager:ReplayingTransactions:73f98298",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertClientTransactionManager",
+        "key": "ReplayingTransactions",
+        "jp_record_id": "switch:locres:set-01:ConcertClientTransactionManager:ReplayingTransactions:73f98298",
+        "official_en_record_id": "switch:locres:set-01:ConcertClientTransactionManager:ReplayingTransactions:73f98298",
+        "jp_sha256": "f6c48954c63142961ec0b8be3c0dd84d0ba900fc0a8e70eb81bee966ed6d4e30",
+        "official_en_sha256": "97a50a91cab095b8e5ce7fb9403743ee07dc484a9c5737d89ef68bdea4265103"
+      },
+      "text": {
+        "jp": "トランザクションをリプレイしています...",
+        "official_en": "Replaying Transactions...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertClientTransactionManager:ConflictRenamedObject:7419849f",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertClientTransactionManager",
+        "key": "ConflictRenamedObject",
+        "jp_record_id": "switch:locres:set-01:ConcertClientTransactionManager:ConflictRenamedObject:7419849f",
+        "official_en_record_id": "switch:locres:set-01:ConcertClientTransactionManager:ConflictRenamedObject:7419849f",
+        "jp_sha256": "0edd41009f93496e77e7f3387075c1d9a619af8ed7dfb125965297d4232971f3",
+        "official_en_sha256": "0edd41009f93496e77e7f3387075c1d9a619af8ed7dfb125965297d4232971f3"
+      },
+      "text": {
+        "jp": "{0} -> {1}",
+        "official_en": "{0} -> {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

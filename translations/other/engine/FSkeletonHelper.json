@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "FSkeletonHelper",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:FSkeletonHelper:ProcessImportMeshSkeleton_InvalidSkeletonUniqueNames:a1ecdc13",
+      "source": {
+        "set": "set-02",
+        "namespace": "FSkeletonHelper",
+        "key": "ProcessImportMeshSkeleton_InvalidSkeletonUniqueNames",
+        "jp_record_id": "switch:locres:set-01:FSkeletonHelper:ProcessImportMeshSkeleton_InvalidSkeletonUniqueNames:a1ecdc13",
+        "official_en_record_id": "switch:locres:set-01:FSkeletonHelper:ProcessImportMeshSkeleton_InvalidSkeletonUniqueNames:a1ecdc13",
+        "jp_sha256": "a35711802928282d2a17c3f28dc617cee701bb3532baf651405eae31a09a16e1",
+        "official_en_sha256": "d5fc7f3c01bc6a515ca410028cc8e02fcfaaf6b6d8720c37de2fbae4862f5f56"
+      },
+      "text": {
+        "jp": "無効なスケルトンです。一意ではないボーン名 [{0}] のためです",
+        "official_en": "Invalid Skeleton because of non - unique bone names [{0}].",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FSkeletonHelper:ProcessImportMeshSkeleton__BonesAreMissingFromBindPose:c501e909",
+      "source": {
+        "set": "set-02",
+        "namespace": "FSkeletonHelper",
+        "key": "ProcessImportMeshSkeleton__BonesAreMissingFromBindPose",
+        "jp_record_id": "switch:locres:set-01:FSkeletonHelper:ProcessImportMeshSkeleton__BonesAreMissingFromBindPose:c501e909",
+        "official_en_record_id": "switch:locres:set-01:FSkeletonHelper:ProcessImportMeshSkeleton__BonesAreMissingFromBindPose:c501e909",
+        "jp_sha256": "f16315c8ff3e07bc0c89ff107a0336174a3a18d4079757072406575c9e035f0e",
+        "official_en_sha256": "b87e76f5f5e2dbab062ef80650379b262eee2db9366d1a98347001afaaa90308"
+      },
+      "text": {
+        "jp": "以下のボーンがバインドポーズに不足しています：\n{0}\nインポート後に正しい向きに置かれない場合、頂点に重みづけがされていないボーンに発生する可能性があります。\n「Use T0 as ref pose」オプションを設定するか、バインドポーズにボーンを追加してスケルタルメッシュを再インポートしてください。",
+        "official_en": "The following bones are missing from the bind pose:\n{0}\nThis can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,\nplease set the \"Use T0 as ref pose\" option or add them to the bind pose and reimport the skeletal mesh.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

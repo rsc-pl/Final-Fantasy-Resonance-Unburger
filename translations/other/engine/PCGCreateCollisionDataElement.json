@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGCreateCollisionDataElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGCreateCollisionDataElement:CreateCollisionTooltip:ab39d8e5",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCreateCollisionDataElement",
+        "key": "CreateCollisionTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGCreateCollisionDataElement:CreateCollisionTooltip:ab39d8e5",
+        "official_en_record_id": "switch:locres:set-01:PCGCreateCollisionDataElement:CreateCollisionTooltip:ab39d8e5",
+        "jp_sha256": "51d0c51a95f43043257e36b0f1b802efcc10be249f5c95d0498163de4ed872bc",
+        "official_en_sha256": "a89df848cc990a3793c61c7c3743de1ab9e4de67357cf99fa688e02daa4767a5"
+      },
+      "text": {
+        "jp": "ポイントに選択されたメッシュのコリジョンが存在するかのような、ボリュメトリック表現を作成します",
+        "official_en": "Creates a volumetric representation of the points as if they had their selected mesh collision.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCreateCollisionDataElement:FailedToAccessMeshes:a02fcdf3",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCreateCollisionDataElement",
+        "key": "FailedToAccessMeshes",
+        "jp_record_id": "switch:locres:set-01:PCGCreateCollisionDataElement:FailedToAccessMeshes:a02fcdf3",
+        "official_en_record_id": "switch:locres:set-01:PCGCreateCollisionDataElement:FailedToAccessMeshes:a02fcdf3",
+        "jp_sha256": "b94769f54a3d74a59078acf0316baffb7eca50ad8cdae7de53357980c58fda0f",
+        "official_en_sha256": "c551f5ff039051400ef4dc0527e6baca42f308411075f1a64b39b619852d334a"
+      },
+      "text": {
+        "jp": "入力されたメッシュ属性にアクセスできませんでした - ポイント データのように動作します",
+        "official_en": "Failed to access the mesh attribute provided - will behave like a PointData.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

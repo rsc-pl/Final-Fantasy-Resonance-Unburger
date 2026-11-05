@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PoseSearchDatabaseDataDetails",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:ChannelName_Header:e344f3df",
+      "source": {
+        "set": "set-02",
+        "namespace": "PoseSearchDatabaseDataDetails",
+        "key": "ChannelName_Header",
+        "jp_record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:ChannelName_Header:e344f3df",
+        "official_en_record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:ChannelName_Header:e344f3df",
+        "jp_sha256": "8d1e327213bf6018d449f9a9c8964a2287602d9f98ffb6610e7dea74aa7765d6",
+        "official_en_sha256": "4fef2ca62f12db7f23e747a914da79174943e8adccc224a76eb64accebb2ff85"
+      },
+      "text": {
+        "jp": "チャンネル名",
+        "official_en": "Channel Name",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:ChannelName_ToolTip:070e214b",
+      "source": {
+        "set": "set-02",
+        "namespace": "PoseSearchDatabaseDataDetails",
+        "key": "ChannelName_ToolTip",
+        "jp_record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:ChannelName_ToolTip:070e214b",
+        "official_en_record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:ChannelName_ToolTip:070e214b",
+        "jp_sha256": "8d1e327213bf6018d449f9a9c8964a2287602d9f98ffb6610e7dea74aa7765d6",
+        "official_en_sha256": "4fef2ca62f12db7f23e747a914da79174943e8adccc224a76eb64accebb2ff85"
+      },
+      "text": {
+        "jp": "チャンネル名",
+        "official_en": "Channel Name",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:DataOffset_Header:8d0bea4e",
+      "source": {
+        "set": "set-02",
+        "namespace": "PoseSearchDatabaseDataDetails",
+        "key": "DataOffset_Header",
+        "jp_record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:DataOffset_Header:8d0bea4e",
+        "official_en_record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:DataOffset_Header:8d0bea4e",
+        "jp_sha256": "4da17b10e6fb9f8391aaa12ac9613309ba0f602636f8d0d8a86d3d5ae5ba0eb0",
+        "official_en_sha256": "dceaa33cce43d6423b3ca930016740a5a0e84365c3b6b41db697595aaf5f19ea"
+      },
+      "text": {
+        "jp": "データオフセット",
+        "official_en": "Data Offset",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:Weight_ToolTip:c0fda66e",
+      "source": {
+        "set": "set-02",
+        "namespace": "PoseSearchDatabaseDataDetails",
+        "key": "Weight_ToolTip",
+        "jp_record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:Weight_ToolTip:c0fda66e",
+        "official_en_record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:Weight_ToolTip:c0fda66e",
+        "jp_sha256": "1e5fe62a1b91490ec85166ae5535d829984c684768025480971211a9cd35df50",
+        "official_en_sha256": "c121d64c18a496b27ae10a5db06e1838840e9b14efd5640d84da74dc13eaead7"
+      },
+      "text": {
+        "jp": "ポーズ比較へのフィーチャーの寄与の正規化されたウェイト。\nウェイトは、スキーマ内のチャンネルに設定されており、チャンネルではそのフィーチャーにウェイトが分配されます。\nその後に、すべての個々のフィーチャーのウェイトが、合計が 1 になるようにまとめて正規化されます",
+        "official_en": "Normalized weight of feature's contribution to pose comparisons.\nWeights are set on channels in the schema, and channels distribute weights over their features.\nWeights of all individual features are then normalized together so they sum to one.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:DataOffset_ToolTip:5b542908",
+      "source": {
+        "set": "set-02",
+        "namespace": "PoseSearchDatabaseDataDetails",
+        "key": "DataOffset_ToolTip",
+        "jp_record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:DataOffset_ToolTip:5b542908",
+        "official_en_record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:DataOffset_ToolTip:5b542908",
+        "jp_sha256": "de38df7072e4298e82d57bb93075b3e56299fafa25b7ddfb245044e5adf9b393",
+        "official_en_sha256": "4495ae996e9584107e8365c73ac0e3b3f851db945af1f2d5037b60b1d862af90"
+      },
+      "text": {
+        "jp": "フィーチャー データの先頭からのオフセット",
+        "official_en": "Offset from the beginning of the features data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:Query_Header:9a712448",
+      "source": {
+        "set": "set-02",
+        "namespace": "PoseSearchDatabaseDataDetails",
+        "key": "Query_Header",
+        "jp_record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:Query_Header:9a712448",
+        "official_en_record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:Query_Header:9a712448",
+        "jp_sha256": "b66f0ff1938d1c97c22eba941d759a1a29704044c80e0223fb98f080d9542303",
+        "official_en_sha256": "b80a37564fbb3c0753202a1f92d5da8ccfb906b244f2842bba2232cea9883abd"
+      },
+      "text": {
+        "jp": "クエリ",
+        "official_en": "Query",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:Query_ToolTip:26691b61",
+      "source": {
+        "set": "set-02",
+        "namespace": "PoseSearchDatabaseDataDetails",
+        "key": "Query_ToolTip",
+        "jp_record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:Query_ToolTip:26691b61",
+        "official_en_record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:Query_ToolTip:26691b61",
+        "jp_sha256": "c663bda5ee52bc9b5124532440283f1269484e7da78684e6fd47ad2c03175c83",
+        "official_en_sha256": "20b17d788ab154fa535f4f547bbda5c929d667fa8e666df6a6545ab343a22ca8"
+      },
+      "text": {
+        "jp": "値をクエリ",
+        "official_en": "Query Values",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:Weight_Header:de877899",
+      "source": {
+        "set": "set-02",
+        "namespace": "PoseSearchDatabaseDataDetails",
+        "key": "Weight_Header",
+        "jp_record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:Weight_Header:de877899",
+        "official_en_record_id": "switch:locres:set-01:PoseSearchDatabaseDataDetails:Weight_Header:de877899",
+        "jp_sha256": "d794124f7a7e176ef5b231c5a25da4a796581c654a1056993f841587b6f7fa83",
+        "official_en_sha256": "81d27ef6d5033c3e1d46b7b2b50868604fd432ddb77716b5ed9383c30c08432f"
+      },
+      "text": {
+        "jp": "ウェイト",
+        "official_en": "Weight",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

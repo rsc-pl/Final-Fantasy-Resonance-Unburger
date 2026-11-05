@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "LiveLinkFaceConnectionIngest",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_Communication:85d70780",
+      "source": {
+        "set": "set-02",
+        "namespace": "LiveLinkFaceConnectionIngest",
+        "key": "IngestError_Communication",
+        "jp_record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_Communication:85d70780",
+        "official_en_record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_Communication:85d70780",
+        "jp_sha256": "662643692631fd8d8dde3f7ea70490131130391389804951a90fad2d7139a122",
+        "official_en_sha256": "71cd65a264fa5d2c201c126a815b3cd155f03dabee88669658dbfc32d8b4561f"
+      },
+      "text": {
+        "jp": "データ転送中に通信エラーが発生しました",
+        "official_en": "Communication error while transferring data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_Connection:89ed79f5",
+      "source": {
+        "set": "set-02",
+        "namespace": "LiveLinkFaceConnectionIngest",
+        "key": "IngestError_Connection",
+        "jp_record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_Connection:89ed79f5",
+        "official_en_record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_Connection:89ed79f5",
+        "jp_sha256": "ea0ef7b0796d1d312fbc19ccd1ce42cbe285287d767395eb2116371e4b09332f",
+        "official_en_sha256": "5ac4f91c0456d4db97da79bb13ebe337e0525e06de06f0a659dbf7648909d35a"
+      },
+      "text": {
+        "jp": "データ転送中に通信エラーが発生しました。制御接続が失われました",
+        "official_en": "Communication error while transferring data: Control connection lost",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:ProgressBarPendingCaption:470e709f",
+      "source": {
+        "set": "set-02",
+        "namespace": "LiveLinkFaceConnectionIngest",
+        "key": "ProgressBarPendingCaption",
+        "jp_record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:ProgressBarPendingCaption:470e709f",
+        "official_en_record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:ProgressBarPendingCaption:470e709f",
+        "jp_sha256": "3f6b9944aa6ef2f0d0996ad7ff4e0bde39420115c71957ef3638cf57949e352e",
+        "official_en_sha256": "e2018b95eb90b15a0e6d47ce394bd70d19cf4e8c68d58e4f2c81e616763f9670"
+      },
+      "text": {
+        "jp": "保留中...",
+        "official_en": "Pending...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_UnsupportedCharactersInSlateName:02ace5f1",
+      "source": {
+        "set": "set-02",
+        "namespace": "LiveLinkFaceConnectionIngest",
+        "key": "IngestError_UnsupportedCharactersInSlateName",
+        "jp_record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_UnsupportedCharactersInSlateName:02ace5f1",
+        "official_en_record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_UnsupportedCharactersInSlateName:02ace5f1",
+        "jp_sha256": "b12453f201173cb493c36617c0e37d3f3971694bca15ffcc1e1bc2a03c142d1e",
+        "official_en_sha256": "86261d6567dadcad12542f435a3a4279c302ffc6d2becba6b8db7a8bdd3967fe"
+      },
+      "text": {
+        "jp": "スレート名「{0}」にサポートされていないテキスト文字が含まれています",
+        "official_en": "Slate name '{0}' contains unsupported text characters.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_UnsupportedWhiteSpaceCharactersInSlateName:c4b8eae0",
+      "source": {
+        "set": "set-02",
+        "namespace": "LiveLinkFaceConnectionIngest",
+        "key": "IngestError_UnsupportedWhiteSpaceCharactersInSlateName",
+        "jp_record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_UnsupportedWhiteSpaceCharactersInSlateName:c4b8eae0",
+        "official_en_record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_UnsupportedWhiteSpaceCharactersInSlateName:c4b8eae0",
+        "jp_sha256": "15b49fbe527d7325c7faf67908640c8aa3721f369e225fa0ff748fd4945f289b",
+        "official_en_sha256": "a7661ee8e47c91759ad402318c2408e1de8e1c47752d7f0ba675ba10833aa056"
+      },
+      "text": {
+        "jp": "スレート名「{0}」にサポートされていない空白文字が含まれています",
+        "official_en": "Slate name '{0}' contains unsupported white space character(s).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_UnsupportedCharactersInSubjectName:a61b4f79",
+      "source": {
+        "set": "set-02",
+        "namespace": "LiveLinkFaceConnectionIngest",
+        "key": "IngestError_UnsupportedCharactersInSubjectName",
+        "jp_record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_UnsupportedCharactersInSubjectName:a61b4f79",
+        "official_en_record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_UnsupportedCharactersInSubjectName:a61b4f79",
+        "jp_sha256": "816655e4d3f3c14b54ff08e5a941c485e1c0212e4c27767be21488004396093b",
+        "official_en_sha256": "ca98d647912778af9fa576eb90695c61f55aa2c2563c1d7eca277316eb87ed76"
+      },
+      "text": {
+        "jp": "サブジェクト名「{0}」にサポートされていないテキスト文字が含まれています",
+        "official_en": "Subject name '{0}' contains unsupported text characters.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_UnsupportedWhitespaceCharactersInSubjectName:9c5ecae1",
+      "source": {
+        "set": "set-02",
+        "namespace": "LiveLinkFaceConnectionIngest",
+        "key": "IngestError_UnsupportedWhitespaceCharactersInSubjectName",
+        "jp_record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_UnsupportedWhitespaceCharactersInSubjectName:9c5ecae1",
+        "official_en_record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_UnsupportedWhitespaceCharactersInSubjectName:9c5ecae1",
+        "jp_sha256": "6bcbd6ce02d1a378c798726ac81497cd9844dfa1c781eb993722706e0e999c5f",
+        "official_en_sha256": "c444f54409e9a32c451f5aab4d49ef0c2cdacb56e737b9b9d2ea80f3949df805"
+      },
+      "text": {
+        "jp": "サブジェクト名「{0}」にサポートされていないホワイト スペース文字が含まれています",
+        "official_en": "Subject name '{0}' contains unsupported white space character(s).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:ProgressBarDownloadingCaption:ff128afd",
+      "source": {
+        "set": "set-02",
+        "namespace": "LiveLinkFaceConnectionIngest",
+        "key": "ProgressBarDownloadingCaption",
+        "jp_record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:ProgressBarDownloadingCaption:ff128afd",
+        "official_en_record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:ProgressBarDownloadingCaption:ff128afd",
+        "jp_sha256": "66afe1585973cbd5453b39e9a74d953952f94bde27f8e9ced74dccbf75e0ff51",
+        "official_en_sha256": "c24da486da9925fea5c055bd62ba99f0dd14a7ef8e226a4b181cd6057f16d924"
+      },
+      "text": {
+        "jp": "転送中...",
+        "official_en": "Transferring...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_UnsupportedTakeFormat:27305599",
+      "source": {
+        "set": "set-02",
+        "namespace": "LiveLinkFaceConnectionIngest",
+        "key": "IngestError_UnsupportedTakeFormat",
+        "jp_record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_UnsupportedTakeFormat:27305599",
+        "official_en_record_id": "switch:locres:set-01:LiveLinkFaceConnectionIngest:IngestError_UnsupportedTakeFormat:27305599",
+        "jp_sha256": "c9666df2419f44c98717cda755928e76218fe8bc06d1a9f175714d6b35fd6c80",
+        "official_en_sha256": "b9da67fb6493b714d849733da2adf133477029a6950bc8500b53c1734c82bea5"
+      },
+      "text": {
+        "jp": "サポートされていないテイクの形式です",
+        "official_en": "Unsupported take format.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

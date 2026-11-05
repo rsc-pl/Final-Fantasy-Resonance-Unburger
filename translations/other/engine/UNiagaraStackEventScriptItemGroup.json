@@ -1,0 +1,567 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UNiagaraStackEventScriptItemGroup",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:CantDeleteInherited:4556d90b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEventScriptItemGroup",
+        "key": "CantDeleteInherited",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:CantDeleteInherited:4556d90b",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:CantDeleteInherited:4556d90b",
+        "jp_sha256": "cd111a2b5c8075271615086abce7b3bb49d745797cc1e446b1790aacd00eac3c",
+        "official_en_sha256": "a8c1227be84add09c3d543c1cd611c9a18ce665182e77cb900c7114bf18403c0"
+      },
+      "text": {
+        "jp": "継承されているため、このイベントハンドラは削除できません。",
+        "official_en": "Can not delete this event handler because it's inherited.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:CanDelete:443f3d58",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEventScriptItemGroup",
+        "key": "CanDelete",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:CanDelete:443f3d58",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:CanDelete:443f3d58",
+        "jp_sha256": "a638156710e02e6f05d59ce6ed38b131b28e9cc2647774e24c35f64a52ccdcf1",
+        "official_en_sha256": "7861b111dd334cde3a57b33f9f6a34a5ecffd2f971c9bf64b57539e7fcc06f7a"
+      },
+      "text": {
+        "jp": "このイベントハンドラを削除します。",
+        "official_en": "Delete this event handler.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:DeleteEventHandler:a65e3943",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEventScriptItemGroup",
+        "key": "DeleteEventHandler",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:DeleteEventHandler:a65e3943",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:DeleteEventHandler:a65e3943",
+        "jp_sha256": "ffe00ac347557477e017c51b59a1195571d4f1bd613cf73ec3ad5f293bda4b48",
+        "official_en_sha256": "d956e98e3b500e2dc102d39aad5bdf75d9fdbf3d4788cb0fe02648248c765cd9"
+      },
+      "text": {
+        "jp": "{0} を削除しました",
+        "official_en": "Deleted {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:EventGroupTooltip:39150535",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEventScriptItemGroup",
+        "key": "EventGroupTooltip",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:EventGroupTooltip:39150535",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:EventGroupTooltip:39150535",
+        "jp_sha256": "79f475b0338e5efc86b5973f0a563ada1739e7db492e67ee65b8eeb13509a64e",
+        "official_en_sha256": "b75ff677f4c0aecd92cf034c60ae10619c784822f3ac1d874787fdeaa5d4c0c8"
+      },
+      "text": {
+        "jp": "このエミッタが入力イベントにどのように応答するかを決定します。エミッタごとに複数のイベント ハンドラ ステージが存在する可能性があります。",
+        "official_en": "Determines how this Emitter responds to incoming events. There can be more than one event handler stage per Emitter.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:FormatEventScriptDisplayName:cd7f75aa",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEventScriptItemGroup",
+        "key": "FormatEventScriptDisplayName",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:FormatEventScriptDisplayName:cd7f75aa",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:FormatEventScriptDisplayName:cd7f75aa",
+        "jp_sha256": "ba791b4f25e0978e27f77869df4d6dee6a9b9468285dfd5040047e76dc51ff28",
+        "official_en_sha256": "8d00fa4637cc964f6dfd2e6c7d3ac6e4dee67bc98eb279a66c92844d44a560b4"
+      },
+      "text": {
+        "jp": "イベント ハンドラ - ソース：{0}",
+        "official_en": "Event Handler - Source: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:TempDisplayNameFormat:260c4054",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEventScriptItemGroup",
+        "key": "TempDisplayNameFormat",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:TempDisplayNameFormat:260c4054",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:TempDisplayNameFormat:260c4054",
+        "jp_sha256": "8f894648bf21b7bb53860e5d3cfe67456c576f48f56da992deab60bb1ae5bd02",
+        "official_en_sha256": "0388191997db0505b63d3fdb4220f756b8d8c3acbbb24487110dccd64d591d61"
+      },
+      "text": {
+        "jp": "イベントハンドラ - {0}",
+        "official_en": "Event Handler - {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:EventHandlerPropertiesDisplayName:38b13919",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEventScriptItemGroup",
+        "key": "EventHandlerPropertiesDisplayName",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:EventHandlerPropertiesDisplayName:38b13919",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:EventHandlerPropertiesDisplayName:38b13919",
+        "jp_sha256": "e273952a7b280ef38a7069a3e9ce4306ba0cb895a0d7c363d4e06fba8c76fd0a",
+        "official_en_sha256": "a19e6dcc978a37883d35c173ae84bcbfb6ce9920ecc387ab58ae792242cf1341"
+      },
+      "text": {
+        "jp": "イベント ハンドラ プロパティ",
+        "official_en": "Event Handler Properties",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:EventHandlersNotSupportedOnCPULong:870c61ad",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEventScriptItemGroup",
+        "key": "EventHandlersNotSupportedOnCPULong",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:EventHandlersNotSupportedOnCPULong:870c61ad",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:EventHandlersNotSupportedOnCPULong:870c61ad",
+        "jp_sha256": "c0fcea9bb4215403c673fad3ed3c6bfc41bce5bf0c3937fe0056f88248bd85f5",
+        "official_en_sha256": "6e97d4f31a2a273bf20dcb713ffcbac4a8409fddbcd363073d8d4b37e30742ce"
+      },
+      "text": {
+        "jp": "イベント ハンドラが現在 CPU でサポートされていません。無効化または削除してください",
+        "official_en": "Event Handlers are currently not supported on GPU, please disable or remove.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:EventHandlersNotSupportedOnCPU:4aff87dd",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEventScriptItemGroup",
+        "key": "EventHandlersNotSupportedOnCPU",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:EventHandlersNotSupportedOnCPU:4aff87dd",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:EventHandlersNotSupportedOnCPU:4aff87dd",
+        "jp_sha256": "3c36cd47ea5096af4239b2b7abb9507834e226e0b243e594b243db3cc7154567",
+        "official_en_sha256": "7cc3d865fdf3a191422d4a1409b48c9b7a775c01de15c29e21bcdce7a67eb1b1"
+      },
+      "text": {
+        "jp": "イベント ハンドラが CPU でサポートされていません",
+        "official_en": "Event Handlers are not supported on GPU",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:CanNotResetToBase:6e8483ae",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEventScriptItemGroup",
+        "key": "CanNotResetToBase",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:CanNotResetToBase:6e8483ae",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:CanNotResetToBase:6e8483ae",
+        "jp_sha256": "55612573c668a23704313f0bfc13bfc6947cec6cb2b7d3869f0665ff51914358",
+        "official_en_sha256": "d40793f5398a8755d796be7b96afa04494c43c9931355cbf5a7a8c71246f1b45"
+      },
+      "text": {
+        "jp": "リセットする親がないか、親と違いがありません。",
+        "official_en": "No parent to reset to, or not different from parent.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:CanResetToBase:ee4d0825",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEventScriptItemGroup",
+        "key": "CanResetToBase",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:CanResetToBase:ee4d0825",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:CanResetToBase:ee4d0825",
+        "jp_sha256": "e8be97e1d6659413e699c0e0be9129afc8505d9849eae2586aa3aa16011c8a50",
+        "official_en_sha256": "ee1bcd8ab6918c40b1708f60b5f8868a647815f5ee0c6902d434d7b8f9a50dfd"
+      },
+      "text": {
+        "jp": "イベントハンドラのプロパティを、親エミッタが定義した状態にリセットします。",
+        "official_en": "Reset the event handler properties to the state defined by the parent emitter.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:SetCpuSimulationFix:b116a52b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEventScriptItemGroup",
+        "key": "SetCpuSimulationFix",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:SetCpuSimulationFix:b116a52b",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:SetCpuSimulationFix:b116a52b",
+        "jp_sha256": "399cba2e504f1ab08fb925398ede99c777c01a6c1e46c269b0bbd511b89600c2",
+        "official_en_sha256": "ad3139295d6b7b7683e2018e5453764bd3334dd58cb696e058c73e32c87607dc"
+      },
+      "text": {
+        "jp": "CPUのシミュレーションの設定",
+        "official_en": "Set CPU simulation",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:SetCpuSimulation:7f193927",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEventScriptItemGroup",
+        "key": "SetCpuSimulation",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:SetCpuSimulation:7f193927",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:SetCpuSimulation:7f193927",
+        "jp_sha256": "399cba2e504f1ab08fb925398ede99c777c01a6c1e46c269b0bbd511b89600c2",
+        "official_en_sha256": "c641288343b2b0f507c974277cfb71f37abba6c70352fa942b9a131573c9fb0c"
+      },
+      "text": {
+        "jp": "CPUのシミュレーションの設定",
+        "official_en": "Set Cpu Simulation",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:EventGroupInheritanceMessage:5211292c",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEventScriptItemGroup",
+        "key": "EventGroupInheritanceMessage",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:EventGroupInheritanceMessage:5211292c",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:EventGroupInheritanceMessage:5211292c",
+        "jp_sha256": "6a1193003758f70e2b3b3c395d89f0415157bb65c25921cb4fa8cb6ce63aeb34",
+        "official_en_sha256": "a8f0f2b29599748e2557f9b4fa18ba833ca1da9b1d3722fbadaeaf112e2841df"
+      },
+      "text": {
+        "jp": "このイベントは親エミッタから継承されています。継承された\nイベントは親エミッタの編集中のみ削除することができます。",
+        "official_en": "This event handler is inherited from a parent emitter.  Inherited\nevent handlers can only be deleted while editing the parent emitter.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:UnassignedEventDisplayName:ac29e04d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEventScriptItemGroup",
+        "key": "UnassignedEventDisplayName",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:UnassignedEventDisplayName:ac29e04d",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEventScriptItemGroup:UnassignedEventDisplayName:ac29e04d",
+        "jp_sha256": "8cd5cb1def61116b16d886b8296e92a10e30400be604a84738ecc442d9446518",
+        "official_en_sha256": "adca73af7d3a094d81528c54b571eb72735ae6417cc438ff4d5a7c88702c7ea0"
+      },
+      "text": {
+        "jp": "割り当て解除されたイベント",
+        "official_en": "Unassigned Event",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

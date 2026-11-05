@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AnimNode_StateMachine",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AnimNode_StateMachine:InertializationRequestDescription:019fa22d",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNode_StateMachine",
+        "key": "InertializationRequestDescription",
+        "jp_record_id": "switch:locres:set-01:AnimNode_StateMachine:InertializationRequestDescription:019fa22d",
+        "official_en_record_id": "switch:locres:set-01:AnimNode_StateMachine:InertializationRequestDescription:019fa22d",
+        "jp_sha256": "30a6da6eb86ce1194c5d76d7154d46867a3d9b377fde44d6e24c6381cfb00632",
+        "official_en_sha256": "180b72c1663f4643c92e76bb1aa299085c82d7c1adb324c97c99c397e7d40a71"
+      },
+      "text": {
+        "jp": "「{0}」「{1}」から「{2}」へのトランジション",
+        "official_en": "\"{0}\" Transition from \"{1}\" to \"{2}\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNode_StateMachine:CurrentStateIsConduitWarning:76188d44",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNode_StateMachine",
+        "key": "CurrentStateIsConduitWarning",
+        "jp_record_id": "switch:locres:set-01:AnimNode_StateMachine:CurrentStateIsConduitWarning:76188d44",
+        "official_en_record_id": "switch:locres:set-01:AnimNode_StateMachine:CurrentStateIsConduitWarning:76188d44",
+        "jp_sha256": "dda941f22790b2c2d091e3d64e15fb68b7e8ab065a19a8de5d7ca104b7765757",
+        "official_en_sha256": "6a429ece05407875c3533afb76d09aae63b4ac3441b02607151bcf02cf2fa906"
+      },
+      "text": {
+        "jp": "現在のステートはコンジットで、参照ポーズにリセットされます。これは、コンジットがエントリ ステートにあり、選択する少なくとも 1 つの有効なトランジションがない場合に起こることがあります。ステートマシン ({0})、コンジット ({1})、AnimBlueprint ({2})",
+        "official_en": "Current state is a conduit and will reset to ref pose. This can happen if a conduit is an entry state and there isn't at least one valid transition to take. State Machine({0}), Conduit({1}), AnimBlueprint({2}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNode_StateMachine:InertialTransitionError:13f7a471",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNode_StateMachine",
+        "key": "InertialTransitionError",
+        "jp_record_id": "switch:locres:set-01:AnimNode_StateMachine:InertialTransitionError:13f7a471",
+        "official_en_record_id": "switch:locres:set-01:AnimNode_StateMachine:InertialTransitionError:13f7a471",
+        "jp_sha256": "f9ff88c2f0c17798ba79dc32af1b521294f06377b1ece0f4b4bf8a752fa26887",
+        "official_en_sha256": "58d414e4b8945d80929ff0664fab21d0c58dd194ecb8f9438c61198f98502fa6"
+      },
+      "text": {
+        "jp": "アニメーションブループリント '{3}' のステートマシン '{2}' で、移行 '{0}' から '{1}' へのリクエストに対応するInertializationノードが見つかりません。このステートマシンの後にInertializationノードを追加します。",
+        "official_en": "No Inertialization node found for request from transition '{0}' to '{1}' in state machine '{2}' in anim blueprint '{3}'. Add an Inertialization node after this state machine.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

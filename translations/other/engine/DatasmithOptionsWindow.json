@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "DatasmithOptionsWindow",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:DatasmithOptionsWindow:DatasmithOptionWindow_Version:98235c51",
+      "source": {
+        "set": "set-02",
+        "namespace": "DatasmithOptionsWindow",
+        "key": "DatasmithOptionWindow_Version",
+        "jp_record_id": "switch:locres:set-01:DatasmithOptionsWindow:DatasmithOptionWindow_Version:98235c51",
+        "official_en_record_id": "switch:locres:set-01:DatasmithOptionsWindow:DatasmithOptionWindow_Version:98235c51",
+        "jp_sha256": "27756486ceda702fbfd2609915b912c1dbd282712578a1f9ad3a7469529548fc",
+        "official_en_sha256": "adf434f287138ae00dfff3a319b8464014452d3c4d8308342416f461d6c605a8"
+      },
+      "text": {
+        "jp": " バージョン   {0}",
+        "official_en": " Version   {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DatasmithOptionsWindow:UpdateVersion_UnrealStudio:792196ff",
+      "source": {
+        "set": "set-02",
+        "namespace": "DatasmithOptionsWindow",
+        "key": "UpdateVersion_UnrealStudio",
+        "jp_record_id": "switch:locres:set-01:DatasmithOptionsWindow:UpdateVersion_UnrealStudio:792196ff",
+        "official_en_record_id": "switch:locres:set-01:DatasmithOptionsWindow:UpdateVersion_UnrealStudio:792196ff",
+        "jp_sha256": "236a6db50c8d2d6ede39ae922bd78ed561ba945d1e5c4d51da167ea274a624c2",
+        "official_en_sha256": "3d887f001dbcd62b81c234fcf9ca163c999bcfef089a03af61a451457b4b32e9"
+      },
+      "text": {
+        "jp": "最良の結果を得るためには、Unreal Studioバージョン {0} 以降をインストールしてください。",
+        "official_en": "For best results, install Unreal Studio version {0} or later.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DatasmithOptionsWindow:UpdateVersion_Datasmith:9c85c211",
+      "source": {
+        "set": "set-02",
+        "namespace": "DatasmithOptionsWindow",
+        "key": "UpdateVersion_Datasmith",
+        "jp_record_id": "switch:locres:set-01:DatasmithOptionsWindow:UpdateVersion_Datasmith:9c85c211",
+        "official_en_record_id": "switch:locres:set-01:DatasmithOptionsWindow:UpdateVersion_Datasmith:9c85c211",
+        "jp_sha256": "83d74db3de2be3bc91b16c01194211c384acd2e88a8c343e31f98356a1b2de3c",
+        "official_en_sha256": "7b098fa8676fa8ec1e4264adfc9ea6e709117b84fa4bdc03a0f81807442ba218"
+      },
+      "text": {
+        "jp": "最良の結果を得るには、可能であればDatasmithエクスポータプラグインを更新してください。",
+        "official_en": "For best results, update your Datasmith exporter plugin if possible.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DatasmithOptionsWindow:VersionWarning:7f645c16",
+      "source": {
+        "set": "set-02",
+        "namespace": "DatasmithOptionsWindow",
+        "key": "VersionWarning",
+        "jp_record_id": "switch:locres:set-01:DatasmithOptionsWindow:VersionWarning:7f645c16",
+        "official_en_record_id": "switch:locres:set-01:DatasmithOptionsWindow:VersionWarning:7f645c16",
+        "jp_sha256": "10505bac9ee64d2bd731ddc4342ebab057a2e938107ea5554af566a9590987af",
+        "official_en_sha256": "209c551e5ff7de247099e6c8e519c197fd408d226a6cd438b4bcd536b4087bf3"
+      },
+      "text": {
+        "jp": "選択したファイルは、お使いのUnreal Engineバージョン({1})と一致しないバージョンの{0}Datasmithエクスポータ(\n)によって作成されました。\n{2}",
+        "official_en": "The selected file was created with a version of a Datasmith exporter ({0})\nthat doesn't match your Unreal Engine version ({1}).\n{2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DatasmithOptionsWindow:DatasmithOptionWindow_SameOption:7ae9e6de",
+      "source": {
+        "set": "set-02",
+        "namespace": "DatasmithOptionsWindow",
+        "key": "DatasmithOptionWindow_SameOption",
+        "jp_record_id": "switch:locres:set-01:DatasmithOptionsWindow:DatasmithOptionWindow_SameOption:7ae9e6de",
+        "official_en_record_id": "switch:locres:set-01:DatasmithOptionsWindow:DatasmithOptionWindow_SameOption:7ae9e6de",
+        "jp_sha256": "9a0e04a801be751f8958955078fc8b14fe67de9868f9a08adc982e1a961dc71e",
+        "official_en_sha256": "a9b72df3f456a0650b50d0096a2de6fddc36a1a9a0af97beb534a545b10fde8b"
+      },
+      "text": {
+        "jp": "すべての要素に対してこれらのオプションを使用する",
+        "official_en": "Use those options for all elements",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

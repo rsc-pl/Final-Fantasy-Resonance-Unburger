@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_SubEv_C02_CanNotReturn",
+    "scene_id": "ST_SubEv_C02_CanNotReturn",
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C02_CanNotReturn:SubEv_C02_CanNotReturn_001:dd92feb6",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C02_CanNotReturn",
+        "key": "SubEv_C02_CanNotReturn_001",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C02_CanNotReturn:SubEv_C02_CanNotReturn_001:dd92feb6",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C02_CanNotReturn:SubEv_C02_CanNotReturn_001:dd92feb6",
+        "jp_sha256": "7e9c2f2c4113911f612a7f84d4c4222cc79079a3878b34b96d031d7c65584c8c",
+        "official_en_sha256": "151cc7ad6a4dfa71799f38839b758d732410a621a9c4d533bda56beec965bfff"
+      },
+      "text": {
+        "jp": "この先、特殊なイベントが進行するため\r\nセーブを行ってから\r\n先へ進まれることをおすすめします。",
+        "official_en": "A unique event will play beyond this point. Make sure to manually save your game before pressing on.",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C02_CanNotReturn",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

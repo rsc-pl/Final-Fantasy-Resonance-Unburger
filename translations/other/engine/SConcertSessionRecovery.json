@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SConcertSessionRecovery",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SConcertSessionRecovery:Cancel:a081bbce",
+      "source": {
+        "set": "set-02",
+        "namespace": "SConcertSessionRecovery",
+        "key": "Cancel",
+        "jp_record_id": "switch:locres:set-01:SConcertSessionRecovery:Cancel:a081bbce",
+        "official_en_record_id": "switch:locres:set-01:SConcertSessionRecovery:Cancel:a081bbce",
+        "jp_sha256": "bca84ea5c65fee0eccd1f23a972b95cce908f83977c65b4e8b32ca72a772a9a5",
+        "official_en_sha256": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27"
+      },
+      "text": {
+        "jp": "キャンセル",
+        "official_en": "Cancel",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SConcertSessionRecovery:CancelRecoveryTooltip:1bd20300",
+      "source": {
+        "set": "set-02",
+        "namespace": "SConcertSessionRecovery",
+        "key": "CancelRecoveryTooltip",
+        "jp_record_id": "switch:locres:set-01:SConcertSessionRecovery:CancelRecoveryTooltip:1bd20300",
+        "official_en_record_id": "switch:locres:set-01:SConcertSessionRecovery:CancelRecoveryTooltip:1bd20300",
+        "jp_sha256": "fd9e76e2517fa388fcf358c1953acbc53bd7544bcaa823ddc110718b1c82f755",
+        "official_en_sha256": "0011d54e0889912acfb89c4430fa512c119f51c17c338b4fe956d140cc8ced54"
+      },
+      "text": {
+        "jp": "アセットの回復可能なすべてのデータを破棄して、最後に保存した状態から続行します",
+        "official_en": "Discard any recoverable data for your assets and continue with their last saved state",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverAll:655aba10",
+      "source": {
+        "set": "set-02",
+        "namespace": "SConcertSessionRecovery",
+        "key": "RecoverAll",
+        "jp_record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverAll:655aba10",
+        "official_en_record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverAll:655aba10",
+        "jp_sha256": "5b5107200edb0dfa0637db63553fbb1504cada8b325777cd7db73e2d5d5c7baf",
+        "official_en_sha256": "d94b9996bf2d0ae206f6f427b0570849c78a1afadd85be7746334e25ccacca70"
+      },
+      "text": {
+        "jp": "すべて回復",
+        "official_en": "Recover All",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverAllWithIgnoredAndFilter_Tooltip:2a9cefc6",
+      "source": {
+        "set": "set-02",
+        "namespace": "SConcertSessionRecovery",
+        "key": "RecoverAllWithIgnoredAndFilter_Tooltip",
+        "jp_record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverAllWithIgnoredAndFilter_Tooltip:2a9cefc6",
+        "official_en_record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverAllWithIgnoredAndFilter_Tooltip:2a9cefc6",
+        "jp_sha256": "82481462dc2304986d106c1b305c50348e6a2bb88a9c5752b381fb9b81b43178",
+        "official_en_sha256": "c47b999209e085d24dd844c5e48467e24e8f9392ff67ed3db8bf9f7ec0d405fe"
+      },
+      "text": {
+        "jp": "すべてのアクティビティを回復します。回復不能なもの(グレー表示)は除外しますが、テキスト検索や表示オプションで現在除外されているものは含みます。",
+        "official_en": "Recover all activities, excluding unrecoverable ones (grayed out), but including those currently filtered out by a text search or a view option.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverAllWithIgnored_Tooltip:3e0d965a",
+      "source": {
+        "set": "set-02",
+        "namespace": "SConcertSessionRecovery",
+        "key": "RecoverAllWithIgnored_Tooltip",
+        "jp_record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverAllWithIgnored_Tooltip:3e0d965a",
+        "official_en_record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverAllWithIgnored_Tooltip:3e0d965a",
+        "jp_sha256": "e462606768fb90e0d4a9b9c679b24711cf524e5b66b8ed66935bfa2e69888fbd",
+        "official_en_sha256": "60d5e806331efd11842fdba05d25fa3a9488d7c7a342b772cbee8ce7eefcec44"
+      },
+      "text": {
+        "jp": "回復不能なもの(グレー表示)を除く、すべてのアクティビティを回復します。",
+        "official_en": "Recover all activities, excluding unrecoverable ones (grayed out).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverAllWithFilter_Tooltip:fe17c10a",
+      "source": {
+        "set": "set-02",
+        "namespace": "SConcertSessionRecovery",
+        "key": "RecoverAllWithFilter_Tooltip",
+        "jp_record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverAllWithFilter_Tooltip:fe17c10a",
+        "official_en_record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverAllWithFilter_Tooltip:fe17c10a",
+        "jp_sha256": "ed2ff2b751e52cc8707247d661a46fb13fdcfe5082abdc6711df3d4d0817e30c",
+        "official_en_sha256": "adaef887f5d3172257301b934bd0e29d0e17861af8c2f0a9b4616cfddc700c62"
+      },
+      "text": {
+        "jp": "テキスト検索や表示オプションで現在除外されているものを含む、すべてのアクティビティを回復します。",
+        "official_en": "Recover all activities, including the ones currently filtered out by a text search or a view option.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverAll_Tooltip:1956784b",
+      "source": {
+        "set": "set-02",
+        "namespace": "SConcertSessionRecovery",
+        "key": "RecoverAll_Tooltip",
+        "jp_record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverAll_Tooltip:1956784b",
+        "official_en_record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverAll_Tooltip:1956784b",
+        "jp_sha256": "c0238aeb65f9d3e9d8b5b8fe895508b3db61918395cfc5270644e7f1f5bef93e",
+        "official_en_sha256": "2829440b2ccd759b651b2ce2f275935a5376700d6e08f3daad1bd217a2fc0947"
+      },
+      "text": {
+        "jp": "すべてのアクティビティを回復します。",
+        "official_en": "Recover all activities.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverThroughWithIgnoredAndFilter_Tooltip:063d375b",
+      "source": {
+        "set": "set-02",
+        "namespace": "SConcertSessionRecovery",
+        "key": "RecoverThroughWithIgnoredAndFilter_Tooltip",
+        "jp_record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverThroughWithIgnoredAndFilter_Tooltip:063d375b",
+        "official_en_record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverThroughWithIgnoredAndFilter_Tooltip:063d375b",
+        "jp_sha256": "7ee7e255eed36dc4ac451c0dc537bfc79c757a4401a82b10b113d31d2870e500",
+        "official_en_sha256": "14a9b06349fbd5fd55bfc798c14a511fff8b59c39219085ebdfcc8e71dd1744a"
+      },
+      "text": {
+        "jp": "このアクティビティ全体で以前のアクティビティをすべて回復します。回復不能なもの(グレー表示)は除外しますが、テキスト検索や表示オプションで現在除外されているものは含みます。",
+        "official_en": "Recover all prior activities through this activity, excluding unrecoverable ones (grayed out), but including the those currently filtered out by a text search or a view option.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverThroughWithIgnored_Tooltip:1657769f",
+      "source": {
+        "set": "set-02",
+        "namespace": "SConcertSessionRecovery",
+        "key": "RecoverThroughWithIgnored_Tooltip",
+        "jp_record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverThroughWithIgnored_Tooltip:1657769f",
+        "official_en_record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverThroughWithIgnored_Tooltip:1657769f",
+        "jp_sha256": "14e7b56dfbff033c72f99c9b684d479270cf75930a8b4d0c13f18c4cffb2e04f",
+        "official_en_sha256": "6a0f6dc77b6f9c890c9a22c705bbfe161cdbc0d4288488f44a02ba6407fa9399"
+      },
+      "text": {
+        "jp": "回復不能なもの(グレー表示)を除き、このアクティビティ全体で以前のアクティビティをすべて回復します。",
+        "official_en": "Recover all prior activities through this activity, excluding unrecoverable ones (grayed out).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverThroughWithFilter_Tooltip:9a8ac634",
+      "source": {
+        "set": "set-02",
+        "namespace": "SConcertSessionRecovery",
+        "key": "RecoverThroughWithFilter_Tooltip",
+        "jp_record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverThroughWithFilter_Tooltip:9a8ac634",
+        "official_en_record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverThroughWithFilter_Tooltip:9a8ac634",
+        "jp_sha256": "6df3eec1aa72ec1c35bee812e2d29eb55ce06deac60cc2aa483c37c1f976b127",
+        "official_en_sha256": "64d0499acdd8d9d40971c0167093fb026e3a44460bb83188acf51b59e1d08d1b"
+      },
+      "text": {
+        "jp": "このアクティビティ全体で以前のアクティビティをすべて回復します。テキスト検索や表示オプションで現在除外されているものを含みます。",
+        "official_en": "Recover all prior activities through this activity, including the ones currently filtered out by a text search or a view option.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverThroughAll_Tooltip:af8896f8",
+      "source": {
+        "set": "set-02",
+        "namespace": "SConcertSessionRecovery",
+        "key": "RecoverThroughAll_Tooltip",
+        "jp_record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverThroughAll_Tooltip:af8896f8",
+        "official_en_record_id": "switch:locres:set-01:SConcertSessionRecovery:RecoverThroughAll_Tooltip:af8896f8",
+        "jp_sha256": "5c29700df506757cb62d7a9c3b558095bd5dbfa40e34a281722af66917dbfd73",
+        "official_en_sha256": "99bcbc4237431443f6c59955333ec5b1abd181994d8f7f506b3b88f6b8d24c6b"
+      },
+      "text": {
+        "jp": "このアクティビティを通じて以前のアクティビティをすべて回復します。",
+        "official_en": "Recover all prior activities through this activity.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SConcertSessionRecovery:SearchHint:4c101a65",
+      "source": {
+        "set": "set-02",
+        "namespace": "SConcertSessionRecovery",
+        "key": "SearchHint",
+        "jp_record_id": "switch:locres:set-01:SConcertSessionRecovery:SearchHint:4c101a65",
+        "official_en_record_id": "switch:locres:set-01:SConcertSessionRecovery:SearchHint:4c101a65",
+        "jp_sha256": "ae193d63fe3bf50521ff2d3a1017796a518dbfa54258a510d92eebf3e53527a3",
+        "official_en_sha256": "7f55382219f0202c1b4f56deb099e2fedcec87ee73fe2edb2105df5447323bc6"
+      },
+      "text": {
+        "jp": "検索...",
+        "official_en": "Search...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

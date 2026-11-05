@@ -1,0 +1,789 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MessageDialog",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:ReportCrash_Title:ae288613",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "ReportCrash_Title",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:ReportCrash_Title:ae288613",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:ReportCrash_Title:ae288613",
+        "jp_sha256": "cc59e128defda2d1e828c78576a9152771d421e7c54fe4dfb25a803fd335790c",
+        "official_en_sha256": "20d41ce6e137aa5adc1d2e924f41bc5e1f5712285da9e8719d1480959d2cf9b9"
+      },
+      "text": {
+        "jp": "アプリケーションのクラッシュを検出",
+        "official_en": "Application Crash Detected",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:ReportHangError_Title:6fb3434e",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "ReportHangError_Title",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:ReportHangError_Title:6fb3434e",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:ReportHangError_Title:6fb3434e",
+        "jp_sha256": "97c43680b4ab3968aedd4092e24615271667d94c38e400db6c9604637a88f31e",
+        "official_en_sha256": "84ddd914f272a51bbaed3b2ebacd396916bb3efa2033c7bef44403640239dbe8"
+      },
+      "text": {
+        "jp": "アプリケーションのハングアップを検出",
+        "official_en": "Application Hang Detected",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:MissingGlobalShaderLibraryFilesClient_Body:023e03a8",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "MissingGlobalShaderLibraryFilesClient_Body",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:MissingGlobalShaderLibraryFilesClient_Body:023e03a8",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:MissingGlobalShaderLibraryFilesClient_Body:023e03a8",
+        "jp_sha256": "1aef1e3a70b71814166169034806e6781a4ee0042ac03e1d162f7d90dbdd056a",
+        "official_en_sha256": "c6a5c80b3474dbe3038bc79f68784798103ba8921e2e347e19262223b7b63d1b"
+      },
+      "text": {
+        "jp": "ゲーム ファイルはグローバル シェーダーを初期化するために必要で、クックされたコンテンツはほとんど見つからない可能性があります。詳細についてはエンジン ログを確認してください",
+        "official_en": "Game files required to initialize the global shader and cooked content are most likely missing. Refer to Engine log for details.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:MissingGlobalShaderLibraryFiles_Body:5e037472",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "MissingGlobalShaderLibraryFiles_Body",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:MissingGlobalShaderLibraryFiles_Body:5e037472",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:MissingGlobalShaderLibraryFiles_Body:5e037472",
+        "jp_sha256": "fa33417935bc94e6f2f3a2e1823e6a8801f59d03943f0f5bbf56f01ea8d96173",
+        "official_en_sha256": "9d241f78cd8f21f1a6b14cafdfd922babf6550e16a2e4027fe453b8919a01a19"
+      },
+      "text": {
+        "jp": "グローバルシェーダライブラリの初期化に必要なゲームファイルがありません:\n\n{0}\n\nゲームが正しくインストールされていることを確認してください。",
+        "official_en": "Game files required to initialize the global shader library are missing from:\n\n{0}\n\nPlease make sure the game is installed correctly.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:DefaultMessageTitle:53889982",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "DefaultMessageTitle",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:DefaultMessageTitle:53889982",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:DefaultMessageTitle:53889982",
+        "jp_sha256": "94d14c42c7f3639f698c5ecd655994032f84545bee72d82edda1044b8c14a78c",
+        "official_en_sha256": "2f77668a9dfbf8d5848b9eeb4a7145ca94c6ed9236e4a773f6dcafa5132b2f91"
+      },
+      "text": {
+        "jp": "メッセージ",
+        "official_en": "Message",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:MissingGlobalShaderLibraryFiles_Title:63b2548a",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "MissingGlobalShaderLibraryFiles_Title",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:MissingGlobalShaderLibraryFiles_Title:63b2548a",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:MissingGlobalShaderLibraryFiles_Title:63b2548a",
+        "jp_sha256": "00e144a5f81d0ee6bb31a8191fd19ab16c6886347dc347b5a1cbc199a0a13ccf",
+        "official_en_sha256": "ec1f58fa0af6ccbfffe2378223e3d14a858c93be4ce2e17fd15c8041460d2a50"
+      },
+      "text": {
+        "jp": "ゲームファイルが存在しません",
+        "official_en": "Missing game files",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:UpdateMacOSX_Body:840d516b",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "UpdateMacOSX_Body",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:UpdateMacOSX_Body:840d516b",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:UpdateMacOSX_Body:840d516b",
+        "jp_sha256": "bb0466641e73d2191f8ff4623d08571ef84699d17eaac262ff82004890e4055d",
+        "official_en_sha256": "429789d232ff2d571508f85e5e8f43b484a81000f8aed4a9368a2730e4635408"
+      },
+      "text": {
+        "jp": "最高のパフォーマンスと安定性を得るために、macOSを最新バージョンにアップデートしてください。",
+        "official_en": "Please update to the latest version of macOS for best performance and stability.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:DefaultDebugMessageTitle:4dece816",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "DefaultDebugMessageTitle",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:DefaultDebugMessageTitle:4dece816",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:DefaultDebugMessageTitle:4dece816",
+        "jp_sha256": "c6a1f8530d7e9b16dd72ac1130752f30025d76e56f842e733dfd4830ae41d63f",
+        "official_en_sha256": "c6a1f8530d7e9b16dd72ac1130752f30025d76e56f842e733dfd4830ae41d63f"
+      },
+      "text": {
+        "jp": "ShowDebugMessagef",
+        "official_en": "ShowDebugMessagef",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:DefaultSystemErrorTitle:9a79ae18",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "DefaultSystemErrorTitle",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:DefaultSystemErrorTitle:9a79ae18",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:DefaultSystemErrorTitle:9a79ae18",
+        "jp_sha256": "350bed6e3deedb55465e70e6196f8a8fbfafd90203982123023d6ea75099980f",
+        "official_en_sha256": "7dd86aa7d93169fa946073df6634a5690dbf880219d695b0af3879d0a92aac00"
+      },
+      "text": {
+        "jp": "システムエラー",
+        "official_en": "System Error",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:ReportCrash_Body:869d8960",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "ReportCrash_Body",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:ReportCrash_Body:869d8960",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:ReportCrash_Body:869d8960",
+        "jp_sha256": "f54c6d6ab08e1acb05f5b416b8f7d7eb67b35d9dff8a068c8c5e2923b4875da9",
+        "official_en_sha256": "bde9b4162b58de66013dc261622bbddf773ae4f28b7ba71836eccb5952383951"
+      },
+      "text": {
+        "jp": "アプリケーションがクラッシュしたため強制終了します。ご不便をおかけして申し訳ありません。",
+        "official_en": "The application has crashed and will now close. We apologize for the inconvenience.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:ReportHangError_Body:58794591",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "ReportHangError_Body",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:ReportHangError_Body:58794591",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:ReportHangError_Body:58794591",
+        "jp_sha256": "858e9dbfc2d98d6e9d3bd9927c6d5e86388e7126204fac124ad72f9a85687cb9",
+        "official_en_sha256": "14a79d93c225978368d1121a3c3e9ff41bf656b20759ddb4ccdb11f4efdbc0df"
+      },
+      "text": {
+        "jp": "アプリケーションの応答が途絶したため強制終了します。ご不便をおかけして申し訳ありません。",
+        "official_en": "The application has hung and will now close. We apologize for the inconvenience.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:VideoCardDriverRHIIssueReport:d593ab15",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "VideoCardDriverRHIIssueReport",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:VideoCardDriverRHIIssueReport:d593ab15",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:VideoCardDriverRHIIssueReport:d593ab15",
+        "jp_sha256": "5d51b02dbaa29732577fa114c1e4d3c85e4bb9cd586196dde0f9ba4adbeddf3c",
+        "official_en_sha256": "0be3cd87afdd1ac9f0ffed1f73a079a7fcf94f818ea4c9dc4b33ff82ea6f78f1"
+      },
+      "text": {
+        "jp": "{Vendor}のグラフィックドライバーの最新バージョンには{RHI}の既知の問題があります。\n推奨のバージョンのドライバーをインストールするか、他のレンダリングAPIに変更してください。\n\n次のURLにアクセスしてドライバーをダウンロードしますか？\n\n{Hyperlink}\n\n{AdapterName}\nインストール済み: {InstalledVer}\n推奨: {RecommendedVer}",
+        "official_en": "The installed version of the {Vendor} graphics driver has known issues in {RHI}.\nPlease install the recommended driver version or switch to a different rendering API.\n\nWould you like to visit the following URL to download the driver?\n\n{Hyperlink}\n\n{AdapterName}\nInstalled: {InstalledVer}\nRecommended: {RecommendedVer}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:VideoCardDriverIssueReport:5a9fbfa0",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "VideoCardDriverIssueReport",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:VideoCardDriverIssueReport:5a9fbfa0",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:VideoCardDriverIssueReport:5a9fbfa0",
+        "jp_sha256": "9fdca1846a927bc1cff11327c252ee26c42b6316c336c4d35357d21284c8e341",
+        "official_en_sha256": "f52447cc938d2a310c1f61b45e10fcfcf8aed82907a9db1db9488cde24180638"
+      },
+      "text": {
+        "jp": "{Vendor}グラフィックドライバーのインストールしたバージョンに既知の問題があります。\n推奨のバージョンのドライバーをインストールしてください。\n\n次のURLにアクセスしてドライバーをダウンロードしますか？\n\n{Hyperlink}\n\n{AdapterName}\nインストール済み: {InstalledVer}\n推奨: {RecommendedVer}",
+        "official_en": "The installed version of the {Vendor} graphics driver has known issues.\nPlease install the recommended driver version.\n\nWould you like to visit the following URL to download the driver?\n\n{Hyperlink}\n\n{AdapterName}\nInstalled: {InstalledVer}\nRecommended: {RecommendedVer}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:AppHasCrashed:3945008d",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "AppHasCrashed",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:AppHasCrashed:3945008d",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:AppHasCrashed:3945008d",
+        "jp_sha256": "ae8c26a6b8a14e7d5d079533d50c332b0d7251d08cc0d9c5cca8c0d59110707a",
+        "official_en_sha256": "52d45994d6696c81ac942b1743e895be283f4a425e865aef866fafe431ea84cb"
+      },
+      "text": {
+        "jp": "{0} {1} がクラッシュしたため閉じられます",
+        "official_en": "The {0} {1} has crashed and will close",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:UpdateMacOSX_Title:a8a21a29",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "UpdateMacOSX_Title",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:UpdateMacOSX_Title:a8a21a29",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:UpdateMacOSX_Title:a8a21a29",
+        "jp_sha256": "073abcedabc0a565268a8d59fe2dfe61db28fc1db7512cfa97c6f04e60371a22",
+        "official_en_sha256": "58f21bce6c117f56d28836af52018af4810e3897cb21ab6f1dfb5e9a3acd925a"
+      },
+      "text": {
+        "jp": "macOSを更新する",
+        "official_en": "Update macOS",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:TitleVideoCardDriverIssue:e35b14c3",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "TitleVideoCardDriverIssue",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:TitleVideoCardDriverIssue:e35b14c3",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:TitleVideoCardDriverIssue:e35b14c3",
+        "jp_sha256": "2189639680de02040c12e38aa6e9b84d692d43d1ed1f85eafa07a8f4f8aee7a7",
+        "official_en_sha256": "a75322de5f86e4627bb0933e3e09f487c0923e5902fc8beea62c297275db5959"
+      },
+      "text": {
+        "jp": "警告:グラフィックドライバの既知の問題です",
+        "official_en": "WARNING: Known issues with graphics driver",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:DriverDownloadLinkIntel:1a988ae8",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "DriverDownloadLinkIntel",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:DriverDownloadLinkIntel:1a988ae8",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:DriverDownloadLinkIntel:1a988ae8",
+        "jp_sha256": "b3a793e4bd2bb0c8c55aae6885af7403cf5aae987825b153442418cd7549b78c",
+        "official_en_sha256": "ec314e4d6f9c81ed8decf2a554f05fd7136b7fe6519aac644537367a61e97c10"
+      },
+      "text": {
+        "jp": "https://www.intel.co.jp/content/www/jp/ja/support/products/80939/graphics.html",
+        "official_en": "https://downloadcenter.intel.com/product/80939/Graphics",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:DriverDownloadLinkAMD:a77483d5",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "DriverDownloadLinkAMD",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:DriverDownloadLinkAMD:a77483d5",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:DriverDownloadLinkAMD:a77483d5",
+        "jp_sha256": "1ca4963225e101705163388850ce9e58971d7ade292d47a0a4e7db184c15b700",
+        "official_en_sha256": "d37f7e90c492d67d1c3a5c4dba0ad9c8ccfd542516ef6fbb059900c3ff2b003d"
+      },
+      "text": {
+        "jp": "https://www.amd.com/ja/support",
+        "official_en": "https://www.amd.com/en/support",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:DriverDownloadLinkNVIDIA:662d8c49",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "DriverDownloadLinkNVIDIA",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:DriverDownloadLinkNVIDIA:662d8c49",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:DriverDownloadLinkNVIDIA:662d8c49",
+        "jp_sha256": "0c5ecd323e6540aa27876941b1240ad6f42a664191a91001774e4fbfd4e4a1a9",
+        "official_en_sha256": "4a987feea0db2b143a4ea9d2c42d6b413a33e469eed291d50985256e29903770"
+      },
+      "text": {
+        "jp": "https://www.nvidia.co.jp/Download/index.aspx?lang=jp",
+        "official_en": "https://www.nvidia.com/download/index.aspx",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:LatestDriver:5770746e",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "LatestDriver",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:LatestDriver:5770746e",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:LatestDriver:5770746e",
+        "jp_sha256": "a95aaa71773d5aeb75c1dc342391f0f93092fb020ec93308b43d39f4993d8238",
+        "official_en_sha256": "68ce92d7afae1282a4cd1218fe3f1b40dd385db17e4efa45a5b8e17718f692ac"
+      },
+      "text": {
+        "jp": "利用可能な最新のドライバー",
+        "official_en": "latest driver available",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MessageDialog:SuggestedDriverOrLatest:0c287daf",
+      "source": {
+        "set": "set-02",
+        "namespace": "MessageDialog",
+        "key": "SuggestedDriverOrLatest",
+        "jp_record_id": "switch:locres:set-01:MessageDialog:SuggestedDriverOrLatest:0c287daf",
+        "official_en_record_id": "switch:locres:set-01:MessageDialog:SuggestedDriverOrLatest:0c287daf",
+        "jp_sha256": "4ac64433c0d33af29aa97427029a19d4b2d755c11424b062d1313d06adb27d25",
+        "official_en_sha256": "8dbd6262a2ece118ceee91ce3d31739fe9c0b4fb137f8f48e2e4fddd03aef4af"
+      },
+      "text": {
+        "jp": "{0}、または利用可能な最新のドライバー",
+        "official_en": "{0} or latest driver available",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

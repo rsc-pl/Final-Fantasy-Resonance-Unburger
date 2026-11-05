@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "K2Node_HttpRequest",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest-OutHeader:b92174e3",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_HttpRequest",
+        "key": "HttpRequest",
+        "jp_record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest-OutHeader:b92174e3",
+        "official_en_record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest-OutHeader:b92174e3",
+        "jp_sha256": "ffdcb8adee34e7c426499022698aaaa24467ae2100ddd74c5493b7f2b22b2203",
+        "official_en_sha256": "ba5caa4285a84d88129280d2c3f6d796b4e2da069981e845bdaa55d9e6cfe7b5"
+      },
+      "text": {
+        "jp": "ヘッダ",
+        "official_en": "Header",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest_Category:7ded7bcb",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_HttpRequest",
+        "key": "HttpRequest_Category",
+        "jp_record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest_Category:7ded7bcb",
+        "official_en_record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest_Category:7ded7bcb",
+        "jp_sha256": "56d6f32151ad8474f40d7b939c2161ee2bbf10023f4af1dbb3e13260ebdc6342",
+        "official_en_sha256": "d17ab73b4b061e75f9036e617f9befb10378e27b12a58776349f8140d3acb0b6"
+      },
+      "text": {
+        "jp": "HTTP",
+        "official_en": "Http",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest_Title:d8e715a9",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_HttpRequest",
+        "key": "HttpRequest_Title",
+        "jp_record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest_Title:d8e715a9",
+        "official_en_record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest_Title:d8e715a9",
+        "jp_sha256": "f560e6c75b2e9c40750f1b4485877b9b6db1f92aff27330f02e9fe88da6563a0",
+        "official_en_sha256": "303f185735c2eb4dadd9bd542562d411e44259290a2f82ea5231dc13ae70787f"
+      },
+      "text": {
+        "jp": "HTTP {0}リクエスト",
+        "official_en": "Http {0} Request",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest_InvalidArgumentType_Input:bf92a3ac",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_HttpRequest",
+        "key": "HttpRequest_InvalidArgumentType_Input",
+        "jp_record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest_InvalidArgumentType_Input:bf92a3ac",
+        "official_en_record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest_InvalidArgumentType_Input:bf92a3ac",
+        "jp_sha256": "1e78e0b66025bd15f4f51675e654e45fb16485a339408dfbe55befcf6c951986",
+        "official_en_sha256": "c82b1573179bfc4895ed44f7a1a3f2692eca679aac2441f578eb8df4a08b058e"
+      },
+      "text": {
+        "jp": "入力ボディで使用できるのは String または Struct のみです",
+        "official_en": "Input Body may only be a string or struct",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_HttpRequest:Error_DeserializeIntoUnsupportedType:d19c6bed",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_HttpRequest",
+        "key": "Error_DeserializeIntoUnsupportedType",
+        "jp_record_id": "switch:locres:set-01:K2Node_HttpRequest:Error_DeserializeIntoUnsupportedType:d19c6bed",
+        "official_en_record_id": "switch:locres:set-01:K2Node_HttpRequest:Error_DeserializeIntoUnsupportedType:d19c6bed",
+        "jp_sha256": "546b3ce6914c43364684dfa2c051a79b2b19be1219d92e6eb7c14193e0b1e821",
+        "official_en_sha256": "9ea1462f081d576a644d7766248ea18910ea2783bbef45a7c3d6bfaa2b746904"
+      },
+      "text": {
+        "jp": "ノード @@ が Result Body のシリアル化を解除して @@ に変えようとしました。サポートされている型は String および Struct です",
+        "official_en": "Node @@ Attempted to deserialize the Result Body into a @@. The supported types are String and Struct",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_HttpRequest:Error_InputPinNotStringOrStruct:9fdd86cd",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_HttpRequest",
+        "key": "Error_InputPinNotStringOrStruct",
+        "jp_record_id": "switch:locres:set-01:K2Node_HttpRequest:Error_InputPinNotStringOrStruct:9fdd86cd",
+        "official_en_record_id": "switch:locres:set-01:K2Node_HttpRequest:Error_InputPinNotStringOrStruct:9fdd86cd",
+        "jp_sha256": "9179ef7bad2299f4f9d46be32aa54012c1dbbdb14b7cb9af0903072c608781bb",
+        "official_en_sha256": "2d7e60d82cf11d877387e63ac455d19cebc96f65eb237067a01e7f92e9719b3f"
+      },
+      "text": {
+        "jp": "ノード @@ が、String でも Struct でもない入力ボディピンを提供しようとしました",
+        "official_en": "Node @@ Attempted to supply a input body pin that was not a string or struct.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest_InvalidArgumentType_Output:2a242d22",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_HttpRequest",
+        "key": "HttpRequest_InvalidArgumentType_Output",
+        "jp_record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest_InvalidArgumentType_Output:2a242d22",
+        "official_en_record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest_InvalidArgumentType_Output:2a242d22",
+        "jp_sha256": "77572af4572ecb04065271e3b02abfcf87b99997e1f98537d816a4a62e2cb85b",
+        "official_en_sha256": "d2ec0efa40bf33ca818cec5781fd424baf9bdb878a6d535bc76e4fa8e670f449"
+      },
+      "text": {
+        "jp": "出力ボディで使用できるのは String または Struct のみです",
+        "official_en": "Output Body may only be a string or struct",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest_Tooltip:8f967e68",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_HttpRequest",
+        "key": "HttpRequest_Tooltip",
+        "jp_record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest_Tooltip:8f967e68",
+        "official_en_record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest_Tooltip:8f967e68",
+        "jp_sha256": "003d03e639c3f95e9ab1a6b12cab02dc5f659d7fe92d1dcb95a8507f0c2f47eb",
+        "official_en_sha256": "f523daa2d7786d6a77fcfe9f854b05a19245d2a6e6df636b017baad01884cd02"
+      },
+      "text": {
+        "jp": "HTTP リクエストを処理します ",
+        "official_en": "Processes a Http request ",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest-ThenPin:75b943c2",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_HttpRequest",
+        "key": "HttpRequest",
+        "jp_record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest-ThenPin:75b943c2",
+        "official_en_record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest-ThenPin:75b943c2",
+        "jp_sha256": "819afd97591de09092cb08243542d5c222ba3b0493e879021bbd7947fbe4b130",
+        "official_en_sha256": "007184ae77ea9ad60fc394c930382bebae3924db8176e20ada2117ef100323d9"
+      },
+      "text": {
+        "jp": "リクエストを処理中",
+        "official_en": "Request Processing",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest-FailurePin:0cff8854",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_HttpRequest",
+        "key": "HttpRequest",
+        "jp_record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest-FailurePin:0cff8854",
+        "official_en_record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest-FailurePin:0cff8854",
+        "jp_sha256": "0b725ce8f6ad78857c1a420c1a0bdd76e3bfbd07dbeb34d3e3d90c6652b6ccc4",
+        "official_en_sha256": "5d54a6469703fd9df1f5eb37c07dad7107b02a85f1aa4d61974fb244c33c0dbb"
+      },
+      "text": {
+        "jp": "リクエストが正常に処理されませんでした",
+        "official_en": "Request Was Not Successful",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest-SuccessPin:ebdf0df0",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_HttpRequest",
+        "key": "HttpRequest",
+        "jp_record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest-SuccessPin:ebdf0df0",
+        "official_en_record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest-SuccessPin:ebdf0df0",
+        "jp_sha256": "204a2bae53924a9faff3a41c16152ab5ec4075850623f2e13b3e8aec59b615c4",
+        "official_en_sha256": "3a7994815889fdd941063f21eb1bce6552b1edb3ac5b6756801de40ba8a5ce58"
+      },
+      "text": {
+        "jp": "リクエストが正常に処理されました",
+        "official_en": "Request Was Successful",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest-OutBodyPin:b0744bf4",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_HttpRequest",
+        "key": "HttpRequest",
+        "jp_record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest-OutBodyPin:b0744bf4",
+        "official_en_record_id": "switch:locres:set-01:K2Node_HttpRequest:HttpRequest-OutBodyPin:b0744bf4",
+        "jp_sha256": "b01e67ebcd0114cc07d278cc77690e6da289eb06558a2c868735895e1ba4b7b0",
+        "official_en_sha256": "37b847eb342274f95657b6a9bc6a3926c698d2cde435af38f2b6e4436b6e69b4"
+      },
+      "text": {
+        "jp": "リクエストによる応答",
+        "official_en": "The response from the request",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

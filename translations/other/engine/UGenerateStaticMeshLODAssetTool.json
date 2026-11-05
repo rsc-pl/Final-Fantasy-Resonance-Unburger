@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UGenerateStaticMeshLODAssetTool",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:ToolName:0934cf97",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGenerateStaticMeshLODAssetTool",
+        "key": "ToolName",
+        "jp_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:ToolName:0934cf97",
+        "official_en_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:ToolName:0934cf97",
+        "jp_sha256": "d72eb87176ba80e10c4dc92d3fe48e4fe2281ec6e80e93c311d19c1dba37b3ae",
+        "official_en_sha256": "d72eb87176ba80e10c4dc92d3fe48e4fe2281ec6e80e93c311d19c1dba37b3ae"
+      },
+      "text": {
+        "jp": "AutoLOD",
+        "official_en": "AutoLOD",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:GenerateStaticMeshLODAssetTool_NoStaticMesh:138d781b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGenerateStaticMeshLODAssetTool",
+        "key": "GenerateStaticMeshLODAssetTool_NoStaticMesh",
+        "jp_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:GenerateStaticMeshLODAssetTool_NoStaticMesh:138d781b",
+        "official_en_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:GenerateStaticMeshLODAssetTool_NoStaticMesh:138d781b",
+        "jp_sha256": "fd843e701aebd70eb7454d9471dd86eaff8e815d9a1c4945fe7132d241ab4faf",
+        "official_en_sha256": "c59c22311525d83c54216b8375031d544832f29fc70c2804114ab5b28ff8e53f"
+      },
+      "text": {
+        "jp": "選択した入力にスタティックメッシュがありません",
+        "official_en": "Could not find Static Mesh in selected input",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:OnStartStaticMeshLODAssetTool:20280d6c",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGenerateStaticMeshLODAssetTool",
+        "key": "OnStartStaticMeshLODAssetTool",
+        "jp_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:OnStartStaticMeshLODAssetTool:20280d6c",
+        "official_en_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:OnStartStaticMeshLODAssetTool:20280d6c",
+        "jp_sha256": "ab44024d86502e6844c97709a7f182129c7834102081969a13330ac082b4dafe",
+        "official_en_sha256": "974fc2c82795422e32ecfda956e1178cbcb8d8916acb2ffcbf5407703ad77e9b"
+      },
+      "text": {
+        "jp": "新しい LOD アセットを作成",
+        "official_en": "Create a new LOD asset",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:GenerateStaticMeshLODAssetTool_ErrorInitializing:491a78b1",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGenerateStaticMeshLODAssetTool",
+        "key": "GenerateStaticMeshLODAssetTool_ErrorInitializing",
+        "jp_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:GenerateStaticMeshLODAssetTool_ErrorInitializing:491a78b1",
+        "official_en_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:GenerateStaticMeshLODAssetTool_ErrorInitializing:491a78b1",
+        "jp_sha256": "3d4c0e22605f16d360e82f136cfbb3377e37d4522ef3a54ee37a52acad7212f8",
+        "official_en_sha256": "3163a97bf0eca9c410a78caf754348930cd8f1b5c3636ce70d77a0279d84d113"
+      },
+      "text": {
+        "jp": "ツールプロセスの初期化時のエラー:無効なスタティックメッシュ入力",
+        "official_en": "Error initializing tool process: invalid Static Mesh input",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:GroupNotFoundWarning:20448619",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGenerateStaticMeshLODAssetTool",
+        "key": "GroupNotFoundWarning",
+        "jp_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:GroupNotFoundWarning:20448619",
+        "official_en_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:GroupNotFoundWarning:20448619",
+        "jp_sha256": "3faf71e64cee7d754fd9f462030b2f5913d238582547eb0481c5eff56c32a8ac",
+        "official_en_sha256": "2be86f173da66f104ab1182e849ab28c9c8957a53846a3bab9e20ab5e2d2e835"
+      },
+      "text": {
+        "jp": "グループ{0}が入力メッシュで見つかりません",
+        "official_en": "Group {0} not found on input mesh",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:UGenerateStaticMeshLODAssetTool_Setup:c6f0324d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGenerateStaticMeshLODAssetTool",
+        "key": "UGenerateStaticMeshLODAssetTool_Setup",
+        "jp_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:UGenerateStaticMeshLODAssetTool_Setup:c6f0324d",
+        "official_en_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:UGenerateStaticMeshLODAssetTool_Setup:c6f0324d",
+        "jp_sha256": "9300694116c594a1b5d2ae8378bcf8dd381f9ecd6269114569a5a08ad4ca96ae",
+        "official_en_sha256": "cbdabc005a7063f1890283d544c07e0c6f31363bde140fc1b5291f775fcce2bd"
+      },
+      "text": {
+        "jp": "AutoLODジェネレータを初期化中...",
+        "official_en": "Initializing AutoLOD Generator ...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:GenerateStaticMeshLODAssetTool_NoPresetSelected:ae41e159",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGenerateStaticMeshLODAssetTool",
+        "key": "GenerateStaticMeshLODAssetTool_NoPresetSelected",
+        "jp_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:GenerateStaticMeshLODAssetTool_NoPresetSelected:ae41e159",
+        "official_en_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:GenerateStaticMeshLODAssetTool_NoPresetSelected:ae41e159",
+        "jp_sha256": "35981850c2d1b483d53be4532394ce238dd3d49bebf18a56c1747d3059679c3a",
+        "official_en_sha256": "018dffb7f4759755e8af285aaaaf9952f1e83c7fdb23fa57df3f946d54025231"
+      },
+      "text": {
+        "jp": "プリセットアセットがプリセット設定に現在ありません",
+        "official_en": "No Preset Asset is currently set in the Preset Settings",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:GenerateStaticMeshLODAssetTool_DifferentMaterials:3040e18d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGenerateStaticMeshLODAssetTool",
+        "key": "GenerateStaticMeshLODAssetTool_DifferentMaterials",
+        "jp_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:GenerateStaticMeshLODAssetTool_DifferentMaterials:3040e18d",
+        "official_en_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:GenerateStaticMeshLODAssetTool_DifferentMaterials:3040e18d",
+        "jp_sha256": "7f274eb97ffe1659e04765d32a8a73781d46601ad8d22964bcc670915a9c0156",
+        "official_en_sha256": "bee8a4c6a29598805c0f08a3768da33f4010456d552b0110b083a09f4be67603"
+      },
+      "text": {
+        "jp": "選択コンポーネントとStaticMeshアセットに異なるマテリアルセットがあります。アセットマテリアルが使用されます。",
+        "official_en": "Selected Component and StaticMesh Asset have different Material Sets. Asset Materials will be used.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:ShowOutputLogHyperlink:a67c58a7",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGenerateStaticMeshLODAssetTool",
+        "key": "ShowOutputLogHyperlink",
+        "jp_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:ShowOutputLogHyperlink:a67c58a7",
+        "official_en_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:ShowOutputLogHyperlink:a67c58a7",
+        "jp_sha256": "4ed9a33fb58a987ae708355c8984cd786ca325ac1c593f1e03f51aca79190648",
+        "official_en_sha256": "daab45904c7ea46d692b6712f4409e7e657016f0ac18e295c0afd53458c9ec0a"
+      },
+      "text": {
+        "jp": "出力ログを表示",
+        "official_en": "Show Output Log",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:CannotCreateEmptyMesh:f0acaeb7",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGenerateStaticMeshLODAssetTool",
+        "key": "CannotCreateEmptyMesh",
+        "jp_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:CannotCreateEmptyMesh:f0acaeb7",
+        "official_en_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:CannotCreateEmptyMesh:f0acaeb7",
+        "jp_sha256": "ceee7159a6b9507e79a6d39ce4ff92f771d89b9bd6123953c1892e314f927290",
+        "official_en_sha256": "5398df74cdcb9034ef974561249077abb01a14d715d46b4423aa34a90837ee53"
+      },
+      "text": {
+        "jp": "警告：ツールでは空のメッシュの作成が許可されません",
+        "official_en": "WARNING: Tool doesn't allow creation of an empty mesh.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:WeightMapNotFoundWarning:353fb84c",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGenerateStaticMeshLODAssetTool",
+        "key": "WeightMapNotFoundWarning",
+        "jp_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:WeightMapNotFoundWarning:353fb84c",
+        "official_en_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:WeightMapNotFoundWarning:353fb84c",
+        "jp_sha256": "3a8afc5a3f36cb4ae5c839608b43b36df1a64e77675c4ee92f8895ab3d319e6d",
+        "official_en_sha256": "17ad97fad8945ab5a1c3aeb012904bf76b2e15c054fde0ba7c108bbc854b6a5b"
+      },
+      "text": {
+        "jp": "ウェイトマップ{0}が入力メッシュで見つかりません",
+        "official_en": "Weight Map {0} not found on input mesh",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:WriteToPresetAction:4eb2d8ae",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGenerateStaticMeshLODAssetTool",
+        "key": "WriteToPresetAction",
+        "jp_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:WriteToPresetAction:4eb2d8ae",
+        "official_en_record_id": "switch:locres:set-01:UGenerateStaticMeshLODAssetTool:WriteToPresetAction:4eb2d8ae",
+        "jp_sha256": "cf9c883d2e7d40b3676f85442409c870ec41ad95922aa950e30057b70d2de447",
+        "official_en_sha256": "db1b0af2530f47bfa4e9124d5d63e0aa677e34d0463d2946dd3d54715e77f975"
+      },
+      "text": {
+        "jp": "プリセットの書き込み",
+        "official_en": "Write Preset",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

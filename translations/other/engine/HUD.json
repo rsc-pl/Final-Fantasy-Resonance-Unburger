@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "HUD",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:HUD:PIE_Warning_Message_CanvasCallOutsideOfDrawCanvas:c8cec43a",
+      "source": {
+        "set": "set-02",
+        "namespace": "HUD",
+        "key": "PIE_Warning_Message_CanvasCallOutsideOfDrawCanvas",
+        "jp_record_id": "switch:locres:set-01:HUD:PIE_Warning_Message_CanvasCallOutsideOfDrawCanvas:c8cec43a",
+        "official_en_record_id": "switch:locres:set-01:HUD:PIE_Warning_Message_CanvasCallOutsideOfDrawCanvas:c8cec43a",
+        "jp_sha256": "63cb0284d739de9d8ffe38eea8cd347ee6154feea7b4fa89146f49fbac371a0b",
+        "official_en_sha256": "c16155a2eeed5c1d1aeb93309c755bbe3a7e19fe8835e738cb4b86f5d4a62b30"
+      },
+      "text": {
+        "jp": "Canvas　Draw関数はDrawHUDイベントを処理中の時だけ呼び出しが許されます",
+        "official_en": "Canvas Draw functions may only be called during the handling of the DrawHUD event",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

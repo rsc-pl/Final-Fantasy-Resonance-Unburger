@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "LevelActor",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:LevelActor:MapCheck_Message_RepairedPaintedVertexColors:47174e0c",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelActor",
+        "key": "MapCheck_Message_RepairedPaintedVertexColors",
+        "jp_record_id": "switch:locres:set-01:LevelActor:MapCheck_Message_RepairedPaintedVertexColors:47174e0c",
+        "official_en_record_id": "switch:locres:set-01:LevelActor:MapCheck_Message_RepairedPaintedVertexColors:47174e0c",
+        "jp_sha256": "8c0854a0fdc06872b0dffce96ca362eec2f1e31e2cdca27fcd8caa864dbf54ae",
+        "official_en_sha256": "e4a288d69fdd86e326ee53a62392bab13bbc2564e19c47dd384f7b6e637e2fd5"
+      },
+      "text": {
+        "jp": "{LevelName} の {NumComponents} コンポーネントにある {LoadTime} のペイント済み頂点カラーを修復しました。マップを再保存して修正します。",
+        "official_en": "Repaired painted vertex colors in {LoadTime} for {NumComponents} components in {LevelName}.  Resave map to fix.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelActor:MapCheck_Message_SpentXRepairingPaintedVertexColors:7e98211d",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelActor",
+        "key": "MapCheck_Message_SpentXRepairingPaintedVertexColors",
+        "jp_record_id": "switch:locres:set-01:LevelActor:MapCheck_Message_SpentXRepairingPaintedVertexColors:7e98211d",
+        "official_en_record_id": "switch:locres:set-01:LevelActor:MapCheck_Message_SpentXRepairingPaintedVertexColors:7e98211d",
+        "jp_sha256": "18c648587c0dd6dae878d3e3ca3f919357c6067a7cb30a4aa73534ce61736ec1",
+        "official_en_sha256": "70f3b176ac7c66ab9a053a613334f15a2560753be750d94abfbd19e7e4da16fc"
+      },
+      "text": {
+        "jp": "スタティックメッシュの再インポートに伴い、ペイントされた頂点カラーの修復に {LoadTime} かかりました!マップが再保存されるまで、ロードごとにこの処理が発生します。",
+        "official_en": "Spent {LoadTime} repairing painted vertex colors due to static mesh re-imports!  This will happen every load until the maps are resaved.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

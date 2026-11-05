@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGAttributeReduceElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGAttributeReduceElement:NodeTitle:dc2b4c7a",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributeReduceElement",
+        "key": "NodeTitle",
+        "jp_record_id": "switch:locres:set-01:PCGAttributeReduceElement:NodeTitle:dc2b4c7a",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributeReduceElement:NodeTitle:dc2b4c7a",
+        "jp_sha256": "9b7bc9ff4a282f9fbb4a3e9c34724063abf0dcd7e11e22ab631034fe52bd7f2a",
+        "official_en_sha256": "9b7bc9ff4a282f9fbb4a3e9c34724063abf0dcd7e11e22ab631034fe52bd7f2a"
+      },
+      "text": {
+        "jp": "Attribute Reduce",
+        "official_en": "Attribute Reduce",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributeReduceElement:AttributeOperationFailed:78fd5977",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributeReduceElement",
+        "key": "AttributeOperationFailed",
+        "jp_record_id": "switch:locres:set-01:PCGAttributeReduceElement:AttributeOperationFailed:78fd5977",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributeReduceElement:AttributeOperationFailed:78fd5977",
+        "jp_sha256": "f1bcdd7182d158fdeab35e0f6a6130a1f8f6135b4248b7e07d930fa9bba5f742",
+        "official_en_sha256": "80e1e9f062c08c77ae13bcf51e51f9fb498db1bba0a752511c41b6c6db9f04e4"
+      },
+      "text": {
+        "jp": "演算が属性型 {0} と互換性がなかったか、入力 {2} の属性「{1}」を作成できませんでした",
+        "official_en": "Operation was not compatible with the attribute type {0} or could not create attribute '{1}' for input {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributeReduceElement:ReduceInputToOutputWithOperation:6f41b3cd",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributeReduceElement",
+        "key": "ReduceInputToOutputWithOperation",
+        "jp_record_id": "switch:locres:set-01:PCGAttributeReduceElement:ReduceInputToOutputWithOperation:6f41b3cd",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributeReduceElement:ReduceInputToOutputWithOperation:6f41b3cd",
+        "jp_sha256": "66d0d510a6e310b9863e6d46fd6a0a4eb5573ba63e9eedb2de47a413c4b410e3",
+        "official_en_sha256": "cbe0be65cee05622ca4a5842fbff1430629df73290180a7280288a0c6786b9d7"
+      },
+      "text": {
+        "jp": "{0} を {1} に減らします：{2}",
+        "official_en": "Reduce {0} to {1}: {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributeReduceElement:ReduceInplaceWithOperation:a46aea40",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributeReduceElement",
+        "key": "ReduceInplaceWithOperation",
+        "jp_record_id": "switch:locres:set-01:PCGAttributeReduceElement:ReduceInplaceWithOperation:a46aea40",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributeReduceElement:ReduceInplaceWithOperation:a46aea40",
+        "jp_sha256": "6a6739f55d39eebeeab77be47b9399e2da292b0e3c890640509d88906287f0c4",
+        "official_en_sha256": "711ce34d68412ca16f708e8ce5ecc120e3a015dee71e644affa8237afcb69923"
+      },
+      "text": {
+        "jp": "{0} を減らします：{1}",
+        "official_en": "Reduce {0}: {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

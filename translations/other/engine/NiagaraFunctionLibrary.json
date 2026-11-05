@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NiagaraFunctionLibrary",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NiagaraFunctionLibrary:FastUniqueRandomDesc:2726ea76",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraFunctionLibrary",
+        "key": "FastUniqueRandomDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraFunctionLibrary:FastUniqueRandomDesc:2726ea76",
+        "official_en_record_id": "switch:locres:set-01:NiagaraFunctionLibrary:FastUniqueRandomDesc:2726ea76",
+        "jp_sha256": "c6589386a5d1607624eabde7ea8931b86acc609f64303fa61a1c2020a80a0b26",
+        "official_en_sha256": "40c24bfb43b3c98c552b1a04123ecda49246e1f42514556fd5c56d1feb2829a2"
+      },
+      "text": {
+        "jp": "GetUniqueRandom関数のファストパス",
+        "official_en": "Fast path for GetUniqueRandom function.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraFunctionLibrary:FastMatrixToQuaternionDesc:95ed16a9",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraFunctionLibrary",
+        "key": "FastMatrixToQuaternionDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraFunctionLibrary:FastMatrixToQuaternionDesc:95ed16a9",
+        "official_en_record_id": "switch:locres:set-01:NiagaraFunctionLibrary:FastMatrixToQuaternionDesc:95ed16a9",
+        "jp_sha256": "c8d80c1bd13f10918ce99c72b9f6ff53c76a9b5cfc97a3c743155711b58e3264",
+        "official_en_sha256": "e0d38f29aacb9b8f14da08334534a203c338925c5ed322515181b926db68b4f8"
+      },
+      "text": {
+        "jp": "クォータニオンへのMatrix4のファストパス",
+        "official_en": "Fast path for Matrix4 to Quaternion",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraFunctionLibrary:FastPathTransformPositionDesc:bd7afc46",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraFunctionLibrary",
+        "key": "FastPathTransformPositionDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraFunctionLibrary:FastPathTransformPositionDesc:bd7afc46",
+        "official_en_record_id": "switch:locres:set-01:NiagaraFunctionLibrary:FastPathTransformPositionDesc:bd7afc46",
+        "jp_sha256": "080d963af53cfc8e33a9573bc8b53cd6c0d99913f4a3a0e6925c45380e00480a",
+        "official_en_sha256": "0822741457b8c914c140c3ee618680515ff4151c42e5e66c78598f5057b499c9"
+      },
+      "text": {
+        "jp": "Vector3の位置をトランスフォームするMatrix4のファストパス",
+        "official_en": "Fast path for Matrix4 transforming a Vector3 position",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraFunctionLibrary:FastPathDot4Desc:2e5cc88d",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraFunctionLibrary",
+        "key": "FastPathDot4Desc",
+        "jp_record_id": "switch:locres:set-01:NiagaraFunctionLibrary:FastPathDot4Desc:2e5cc88d",
+        "official_en_record_id": "switch:locres:set-01:NiagaraFunctionLibrary:FastPathDot4Desc:2e5cc88d",
+        "jp_sha256": "32a871adb85d91a47e1daabdc960e8efb61a718deb7759e133f36201914618cf",
+        "official_en_sha256": "1fed8bb16153b8295cacd32894346d29f89174a6544dfc46cd3773d2286a51dd"
+      },
+      "text": {
+        "jp": "Vector4ドット積のファストパスです。",
+        "official_en": "Fast path for Vector4 dot product.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraFunctionLibrary:IterationTooltip:9bd86bc9",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraFunctionLibrary",
+        "key": "IterationTooltip",
+        "jp_record_id": "switch:locres:set-01:NiagaraFunctionLibrary:IterationTooltip:9bd86bc9",
+        "official_en_record_id": "switch:locres:set-01:NiagaraFunctionLibrary:IterationTooltip:9bd86bc9",
+        "jp_sha256": "b47a83973d5976f1d13f2924c9876611aab9454b574ad11671c835a2189de7be",
+        "official_en_sha256": "f91235c6b2ddb2efe49759d7947cd628a7dbb99760a6626988a73a9bfd22b1a4"
+      },
+      "text": {
+        "jp": "イテレーションを増やすほど、エントロピーが高まりますがパフォーマンスは下がります",
+        "official_en": "More iterations increase entropy at the cost of performance",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraFunctionLibrary:UniqueValuesTooltip:cd395f12",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraFunctionLibrary",
+        "key": "UniqueValuesTooltip",
+        "jp_record_id": "switch:locres:set-01:NiagaraFunctionLibrary:UniqueValuesTooltip:cd395f12",
+        "official_en_record_id": "switch:locres:set-01:NiagaraFunctionLibrary:UniqueValuesTooltip:cd395f12",
+        "jp_sha256": "92b267c051fd828cbe50e2adfad047686d9e4cc32ce04e70f1d20636aaa40746",
+        "official_en_sha256": "f65e5d2d1553f1e7f0b8835f0230ce60f0d38aa5de4b6e2d11021903d7f76851"
+      },
+      "text": {
+        "jp": "描画元の固有な値の数。例：値 20 では 0 ～ 19 の値を生成します",
+        "official_en": "The number of unique values to draw from. Example: a value of 20 will generate numbers between [0..19].",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

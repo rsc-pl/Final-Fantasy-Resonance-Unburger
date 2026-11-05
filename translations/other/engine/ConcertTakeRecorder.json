@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ConcertTakeRecorder",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ConcertTakeRecorder:Warning_RevertChanges:d472dd18",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertTakeRecorder",
+        "key": "Warning_RevertChanges",
+        "jp_record_id": "switch:locres:set-01:ConcertTakeRecorder:Warning_RevertChanges:d472dd18",
+        "official_en_record_id": "switch:locres:set-01:ConcertTakeRecorder:Warning_RevertChanges:d472dd18",
+        "jp_sha256": "3637f36917266254b80bcb68c0f92fa9080d7471582f071b2a443c36ba5c3a81",
+        "official_en_sha256": "c208c614752bc61ef2c1247c75106f03463a11dfe37a5fa0fca586b29d8506ad"
+      },
+      "text": {
+        "jp": "テイク プリセットが変更されているため、同期テイクを開始できません。変更内容を元に戻すか、またはプリセットを保存してから、同期テイクを開始します。",
+        "official_en": "Cannot start a synchronized take since there are changes to the take preset. Either revert your changes or save the preset to start a synchronized take.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertTakeRecorder:ToggleTakeRecorderWarnNameTooltip:77912003",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertTakeRecorder",
+        "key": "ToggleTakeRecorderWarnNameTooltip",
+        "jp_record_id": "switch:locres:set-01:ConcertTakeRecorder:ToggleTakeRecorderWarnNameTooltip:77912003",
+        "official_en_record_id": "switch:locres:set-01:ConcertTakeRecorder:ToggleTakeRecorderWarnNameTooltip:77912003",
+        "jp_sha256": "bf5ed1851a8d697d3cedf9cfee6b7fb0551ba2b1f908a086aef25620c4dc2a94",
+        "official_en_sha256": "dce3804847fe60c92795e37364c7e830e3801ea4db31c0fc4495d2ff480aa788"
+      },
+      "text": {
+        "jp": "複数のマシンで記録されています。名前の競合を避けるために、テイクパスにマルチユーザー名が付加されます。",
+        "official_en": "Multiple machines are recording. To prevent name conflicts, the multi-user name will be appended to the take path.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConcertTakeRecorder:ToggleTakeRecorderSyncTooltip:263146df",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConcertTakeRecorder",
+        "key": "ToggleTakeRecorderSyncTooltip",
+        "jp_record_id": "switch:locres:set-01:ConcertTakeRecorder:ToggleTakeRecorderSyncTooltip:263146df",
+        "official_en_record_id": "switch:locres:set-01:ConcertTakeRecorder:ToggleTakeRecorderSyncTooltip:263146df",
+        "jp_sha256": "a342989eed78884d571ab50a3ae8d5c425def67d7cd15d7f864f0bc3d93f3603",
+        "official_en_sha256": "6e1b02efbc2659d122c4be55f5640b540869d15bb7aeddfcf64b1db7fd8d7579"
+      },
+      "text": {
+        "jp": "マルチユーザー Take Recorder の同期を切り替えます。このオプションが有効であれば、テイクの開始 / 停止 / キャンセルが他のマルチユーザー クライアントと同期します。",
+        "official_en": "Toggle Multi-User Take Recorder Sync. If the option is enabled, starting/stopping/canceling a take will be synchronized with other Multi-User clients.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

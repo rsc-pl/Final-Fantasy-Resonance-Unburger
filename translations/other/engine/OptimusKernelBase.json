@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "OptimusKernelBase",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:OptimusKernelBase:SecondaryGroupOnlySupportsDataInterfaceUnifiedDispatch:6f40ae7b",
+      "source": {
+        "set": "set-02",
+        "namespace": "OptimusKernelBase",
+        "key": "SecondaryGroupOnlySupportsDataInterfaceUnifiedDispatch",
+        "jp_record_id": "switch:locres:set-01:OptimusKernelBase:SecondaryGroupOnlySupportsDataInterfaceUnifiedDispatch:6f40ae7b",
+        "official_en_record_id": "switch:locres:set-01:OptimusKernelBase:SecondaryGroupOnlySupportsDataInterfaceUnifiedDispatch:6f40ae7b",
+        "jp_sha256": "18b5511ff27a9b68d86bf23092e8f53083150bc85809415716692d05d0807861",
+        "official_en_sha256": "c1347e6a84cc65fadcfed6050b3b48d46deb51dc2885b5516c2cc2924e18b2a6"
+      },
+      "text": {
+        "jp": "セカンダリ グループ入力のバインディング ピン「{0}」を、統合ディスパッチをサポートしないデータ インターフェースに接続できません。間にカーネルを挿入することを検討してください",
+        "official_en": "Cannot connect Secondary group input binding pin '{0}' to a data interface that does not support unified dispatch, consider inserting a kernel inbetween",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:OptimusKernelBase:InvalidInput_KernelOnlySupportsDataInterfaceUnifiedDispatch:3502855f",
+      "source": {
+        "set": "set-02",
+        "namespace": "OptimusKernelBase",
+        "key": "InvalidInput_KernelOnlySupportsDataInterfaceUnifiedDispatch",
+        "jp_record_id": "switch:locres:set-01:OptimusKernelBase:InvalidInput_KernelOnlySupportsDataInterfaceUnifiedDispatch:3502855f",
+        "official_en_record_id": "switch:locres:set-01:OptimusKernelBase:InvalidInput_KernelOnlySupportsDataInterfaceUnifiedDispatch:3502855f",
+        "jp_sha256": "edaa2b6662c10a851df7462aa489adeff5573b765bd9e55312800e2005b7f4f5",
+        "official_en_sha256": "9334345d2509ad08738c85bc49e81fda59e0ae55444c9e08d84cc875b7063e28"
+      },
+      "text": {
+        "jp": "入力バインディング ピン「{0}」を、統合ディスパッチをサポートしないデータ インターフェースに接続できません。単純なカーネル実行ドメインを使用するか、間にカーネルを挿入することを検討してください",
+        "official_en": "Cannot connect input binding pin '{0}' to a data interface that does not support unified dispatch, consider using a simple kernel execution domain or inserting a kernel inbetween",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:OptimusKernelBase:InvalidOutput_KernelOnlySupportsDataInterfaceUnifiedDispatch:42ae6706",
+      "source": {
+        "set": "set-02",
+        "namespace": "OptimusKernelBase",
+        "key": "InvalidOutput_KernelOnlySupportsDataInterfaceUnifiedDispatch",
+        "jp_record_id": "switch:locres:set-01:OptimusKernelBase:InvalidOutput_KernelOnlySupportsDataInterfaceUnifiedDispatch:42ae6706",
+        "official_en_record_id": "switch:locres:set-01:OptimusKernelBase:InvalidOutput_KernelOnlySupportsDataInterfaceUnifiedDispatch:42ae6706",
+        "jp_sha256": "5c4f8d59c22d56af7252e94f3dce401ededf3b08160f485c5e709137c450766c",
+        "official_en_sha256": "c049417931bcc5fef4e53334bb34604c2f5546527c37221d97c4c598b9e82784"
+      },
+      "text": {
+        "jp": "出力バインディング ピン「{0}」を、統合ディスパッチをサポートしないデータ インターフェースに接続できません。単純なカーネル実行ドメインを使用するか、間にカーネルを挿入することを検討してください",
+        "official_en": "Cannot connect output binding pin '{0}' to a data interface that does not support unified dispatch, consider using to a simple kernel execution domain or inserting a kernel inbetween",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:OptimusKernelBase:IncompatibleBindingsPinGroup:b190d0f4",
+      "source": {
+        "set": "set-02",
+        "namespace": "OptimusKernelBase",
+        "key": "IncompatibleBindingsPinGroup",
+        "jp_record_id": "switch:locres:set-01:OptimusKernelBase:IncompatibleBindingsPinGroup:b190d0f4",
+        "official_en_record_id": "switch:locres:set-01:OptimusKernelBase:IncompatibleBindingsPinGroup:b190d0f4",
+        "jp_sha256": "722c6908dd93fb270c6d45c1253026241c1001b8ca9c232055784ce23d1ea43f",
+        "official_en_sha256": "18edccde4ddca1b5991211fdec3b3fbf1811190824947da25923241d6cea45fb"
+      },
+      "text": {
+        "jp": "ピン「{0}」のコンポーネント バインディングが、そのグループの他のピンのコンポーネント バインディングと異なっています",
+        "official_en": "Component binding for pin '{0}' is different from the component bindings of the other pins in its group",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:OptimusKernelBase:DisconnectedStructPinUnsupported:9cf6415f",
+      "source": {
+        "set": "set-02",
+        "namespace": "OptimusKernelBase",
+        "key": "DisconnectedStructPinUnsupported",
+        "jp_record_id": "switch:locres:set-01:OptimusKernelBase:DisconnectedStructPinUnsupported:9cf6415f",
+        "official_en_record_id": "switch:locres:set-01:OptimusKernelBase:DisconnectedStructPinUnsupported:9cf6415f",
+        "jp_sha256": "1d6efd66529272bcf2da05650993e97cd8064bb2e7c7411c84883a4590662ac6",
+        "official_en_sha256": "84b817b4c4375a1cbf82cb12133a96794ed271a7d007e00526564ff0bb580472"
+      },
+      "text": {
+        "jp": "切断済み構造体タイプ ピン「{0}」はサポートされていません",
+        "official_en": "Disconnected struct type pin '{0}' is not supported",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:OptimusKernelBase:InvalidPinType:6939dc1a",
+      "source": {
+        "set": "set-02",
+        "namespace": "OptimusKernelBase",
+        "key": "InvalidPinType",
+        "jp_record_id": "switch:locres:set-01:OptimusKernelBase:InvalidPinType:6939dc1a",
+        "official_en_record_id": "switch:locres:set-01:OptimusKernelBase:InvalidPinType:6939dc1a",
+        "jp_sha256": "94cd06a7de2637591396525a2dcee4801d463e2495f9155edc045f218fe16d16",
+        "official_en_sha256": "7193b02a1321ba1ede59db2139da9e6f9c09720a984ce188e37ef061278fd0dd"
+      },
+      "text": {
+        "jp": "ピン「{0}」のデータ タイプが無効です",
+        "official_en": "Invalid data type on pin '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:OptimusKernelBase:InvalidPinValueType:3023ffae",
+      "source": {
+        "set": "set-02",
+        "namespace": "OptimusKernelBase",
+        "key": "InvalidPinValueType",
+        "jp_record_id": "switch:locres:set-01:OptimusKernelBase:InvalidPinValueType:3023ffae",
+        "official_en_record_id": "switch:locres:set-01:OptimusKernelBase:InvalidPinValueType:3023ffae",
+        "jp_sha256": "c4bbd16c5e95e1997cf970b5c2d6928ade9368550478e67b28cfc06e54c749e6",
+        "official_en_sha256": "55e3be303356539a90aa937992adbea799c83605923df95393d593c47cab16f4"
+      },
+      "text": {
+        "jp": "ピン「{0}」のシェーダー値タイプが無効です",
+        "official_en": "Invalid shader value type on pin '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:OptimusKernelBase:InvalidPinFriendlyName:6b58ab7f",
+      "source": {
+        "set": "set-02",
+        "namespace": "OptimusKernelBase",
+        "key": "InvalidPinFriendlyName",
+        "jp_record_id": "switch:locres:set-01:OptimusKernelBase:InvalidPinFriendlyName:6b58ab7f",
+        "official_en_record_id": "switch:locres:set-01:OptimusKernelBase:InvalidPinFriendlyName:6b58ab7f",
+        "jp_sha256": "7aeb3e8f353b918caf6a97d96f55bd6a5d8836e52bd76d76f2153cdd6899631a",
+        "official_en_sha256": "e97b9b49ae636515c350ea5f036f5715e159d82b8e14d2d3798084c302a5fa17"
+      },
+      "text": {
+        "jp": "ピン「{0}」の一意のフレンドリーネームが無効です",
+        "official_en": "Invalid unique friendly name on pin '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:OptimusKernelBase:NoExecutionDomain:8ddd8fa4",
+      "source": {
+        "set": "set-02",
+        "namespace": "OptimusKernelBase",
+        "key": "NoExecutionDomain",
+        "jp_record_id": "switch:locres:set-01:OptimusKernelBase:NoExecutionDomain:8ddd8fa4",
+        "official_en_record_id": "switch:locres:set-01:OptimusKernelBase:NoExecutionDomain:8ddd8fa4",
+        "jp_sha256": "5828afc2ebef09bf050db7bb56aad21fd4a39c33f028577c92b4fde4ffd735e6",
+        "official_en_sha256": "4555ef829ada23c0a12bfcf224846aebd838554044efb9ecb1349de7f490ea8d"
+      },
+      "text": {
+        "jp": "カーネルに未定義の実行ドメインがあります。[Details (詳細)] パネルで有効なドメインを選択してください",
+        "official_en": "Kernel has undefined Execution Domain, please use the Details panel to select a valid domain",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:OptimusKernelBase:MultipleBindingsOnPin:36b668d1",
+      "source": {
+        "set": "set-02",
+        "namespace": "OptimusKernelBase",
+        "key": "MultipleBindingsOnPin",
+        "jp_record_id": "switch:locres:set-01:OptimusKernelBase:MultipleBindingsOnPin:36b668d1",
+        "official_en_record_id": "switch:locres:set-01:OptimusKernelBase:MultipleBindingsOnPin:36b668d1",
+        "jp_sha256": "c3f2131f14732f2383a4588999d6a5af8309c43c9aa9a195dcfd06fac7090d27",
+        "official_en_sha256": "b2501db0964aaf69d0928672df54274c095e3a4474d92c50918d46e7a7af0eee"
+      },
+      "text": {
+        "jp": "複数のコンポーネント バインディングがピン「{0}」に入ってきています",
+        "official_en": "Multiple component bindings arriving into pin '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:OptimusKernelBase:NoPrimaryBinding:1e2183db",
+      "source": {
+        "set": "set-02",
+        "namespace": "OptimusKernelBase",
+        "key": "NoPrimaryBinding",
+        "jp_record_id": "switch:locres:set-01:OptimusKernelBase:NoPrimaryBinding:1e2183db",
+        "official_en_record_id": "switch:locres:set-01:OptimusKernelBase:NoPrimaryBinding:1e2183db",
+        "jp_sha256": "1bc322c3dd8d471ee4bcf3541e74f6bcd9503e69617bdd00497ddb1ea82e9437",
+        "official_en_sha256": "32d9821054feb45288776398071ed5458f2448b704d46ee94a3821443442662d"
+      },
+      "text": {
+        "jp": "プライマリ グループにコンポーネント バインディングがありません",
+        "official_en": "Primary Group has no Component Binding",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:OptimusKernelBase:ZeroOrMultiplePrimaryBindings:d7a4fa1b",
+      "source": {
+        "set": "set-02",
+        "namespace": "OptimusKernelBase",
+        "key": "ZeroOrMultiplePrimaryBindings",
+        "jp_record_id": "switch:locres:set-01:OptimusKernelBase:ZeroOrMultiplePrimaryBindings:d7a4fa1b",
+        "official_en_record_id": "switch:locres:set-01:OptimusKernelBase:ZeroOrMultiplePrimaryBindings:d7a4fa1b",
+        "jp_sha256": "6086f25c08135f73882b4fef4cdbca4a4c853fc2ab5e27b4f9ffe197c78b077c",
+        "official_en_sha256": "53f025ae81cba7ddfb2453747c493c5b1bd78316fd4b36c1093d549490e619c5"
+      },
+      "text": {
+        "jp": "プライマリ グループにコンポーネント バインディングが複数あるか、1 つもありません",
+        "official_en": "Primary Group has zero or more than one Component Bindings",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

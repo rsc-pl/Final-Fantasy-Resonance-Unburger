@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGWaitSettings",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGWaitSettings:NodeTitle:d9272c2b",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWaitSettings",
+        "key": "NodeTitle",
+        "jp_record_id": "switch:locres:set-01:PCGWaitSettings:NodeTitle:d9272c2b",
+        "official_en_record_id": "switch:locres:set-01:PCGWaitSettings:NodeTitle:d9272c2b",
+        "jp_sha256": "d794124f7a7e176ef5b231c5a25da4a796581c654a1056993f841587b6f7fa83",
+        "official_en_sha256": "26b83994dca8b4b483edc45464ba07a5bde05cb7e6c5c61bb2e66da9d1e15fc7"
+      },
+      "text": {
+        "jp": "ウェイト",
+        "official_en": "Wait",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWaitSettings:NodeTooltip:0cd3f693",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWaitSettings",
+        "key": "NodeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGWaitSettings:NodeTooltip:0cd3f693",
+        "official_en_record_id": "switch:locres:set-01:PCGWaitSettings:NodeTooltip:0cd3f693",
+        "jp_sha256": "e788843cf636711d65bc6d0732fca48f55fbf57959e68c830c389ce9db086ae6",
+        "official_en_sha256": "313a391d136408deedd17236161454a79eb24d4fbee60b8a50ae4f017f791d86"
+      },
+      "text": {
+        "jp": "一定時間か一定フレーム数 (またはその両方) の間待機します。非常に特別なケースを除き、プロダクションで使用するべきノードではありません",
+        "official_en": "Waits some time and/or frames. Not a node that should be used in production except in very special cases.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AssetManager",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AssetManager:BuildingManagementDatabase:d545cd86",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetManager",
+        "key": "BuildingManagementDatabase",
+        "jp_record_id": "switch:locres:set-01:AssetManager:BuildingManagementDatabase:d545cd86",
+        "official_en_record_id": "switch:locres:set-01:AssetManager:BuildingManagementDatabase:d545cd86",
+        "jp_sha256": "84e3625d725cd6ac961f11c5d26ca5e33fee9b63301c906f264be632eeb68f0b",
+        "official_en_sha256": "c1899e356953ea53741652c462a3b59b2fc43703d4bfb676e94cb49e67623fdd"
+      },
+      "text": {
+        "jp": "アセット管理データベースをビルドしています",
+        "official_en": "Building Asset Management Database",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetManager:DuplicateAssetId:fe366401",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetManager",
+        "key": "DuplicateAssetId",
+        "jp_record_id": "switch:locres:set-01:AssetManager:DuplicateAssetId:fe366401",
+        "official_en_record_id": "switch:locres:set-01:AssetManager:DuplicateAssetId:fe366401",
+        "jp_sha256": "3cf7e2647fee51cd86be248b8dd2377d71cff215899c314454120cd30b4a549f",
+        "official_en_sha256": "63222ea65f1c5b20ac44038b8fdba805eab2468e93d9533c036825c82a5104f7"
+      },
+      "text": {
+        "jp": "{1} と {2}が重複したアセットID{0}を使用しています。コンフリクトを避けるためにどちらかの名前を削除するか変更する必要があります!",
+        "official_en": "Duplicate Asset ID {0} used by both {1} and {2}, rename one to avoid a conflict.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

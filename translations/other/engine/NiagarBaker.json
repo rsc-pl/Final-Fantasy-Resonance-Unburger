@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NiagarBaker",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NiagarBaker:GetOrCreateAsset_PackageExistsOfWrongType:6cc8c181",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagarBaker",
+        "key": "GetOrCreateAsset_PackageExistsOfWrongType",
+        "jp_record_id": "switch:locres:set-01:NiagarBaker:GetOrCreateAsset_PackageExistsOfWrongType:6cc8c181",
+        "official_en_record_id": "switch:locres:set-01:NiagarBaker:GetOrCreateAsset_PackageExistsOfWrongType:6cc8c181",
+        "jp_sha256": "1cd04d78672dd94b407410200ac671e74b8a016970644bbedfb3b8475d421514",
+        "official_en_sha256": "7e9b92616b5502a12b0e0b8669db956ffa6aa183a2db30a4b459ffc10b2f1d72"
+      },
+      "text": {
+        "jp": "パッケージは存在しますが{1}ではないため、アセット「{0}」をベイクできませんでした\nこのアセットを削除するか、別の場所に出力してください",
+        "official_en": "Could not bake asset '{0}' as package exists but is not a {1}.\nPlease delete the asset or the output to a different location.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

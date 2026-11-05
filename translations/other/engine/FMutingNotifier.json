@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "FMutingNotifier",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:FMutingNotifier:MuteRequestFailed.Title:990809b9",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMutingNotifier",
+        "key": "MuteRequestFailed.Title",
+        "jp_record_id": "switch:locres:set-01:FMutingNotifier:MuteRequestFailed.Title:990809b9",
+        "official_en_record_id": "switch:locres:set-01:FMutingNotifier:MuteRequestFailed.Title:990809b9",
+        "jp_sha256": "db5d1497235e2cea491dc045ade684899accea23611097282372d4923146c062",
+        "official_en_sha256": "83ab30ec14d0fb7671eba317be7bdc40a149d775bbebda69186f4d1983225b2d"
+      },
+      "text": {
+        "jp": "一時停止/再開がサーバーによって拒否されました",
+        "official_en": "Pause / resume rejected by server.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FMutingNotifier:MuteRequestFailed.Subtext:ab51a0cc",
+      "source": {
+        "set": "set-02",
+        "namespace": "FMutingNotifier",
+        "key": "MuteRequestFailed.Subtext",
+        "jp_record_id": "switch:locres:set-01:FMutingNotifier:MuteRequestFailed.Subtext:ab51a0cc",
+        "official_en_record_id": "switch:locres:set-01:FMutingNotifier:MuteRequestFailed.Subtext:ab51a0cc",
+        "jp_sha256": "d409d6512b10c323867f8a227b06624c359d74c787f555e6c87f068626c38b51",
+        "official_en_sha256": "7592508fb9d6e574533acb1ffe2a66d9167546ad087353bfee3ba7a10f753e52"
+      },
+      "text": {
+        "jp": "サーバーとクライアントの状態の同期が解除されている可能性があります。\nもう一度試してしてください",
+        "official_en": "Server-client state was likely de-synched.\nTry again.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

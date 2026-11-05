@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "DataLayer",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:DataLayer:InvalidDataLayerLabel:7b45d7ed",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataLayer",
+        "key": "InvalidDataLayerLabel",
+        "jp_record_id": "switch:locres:set-01:DataLayer:InvalidDataLayerLabel:7b45d7ed",
+        "official_en_record_id": "switch:locres:set-01:DataLayer:InvalidDataLayerLabel:7b45d7ed",
+        "jp_sha256": "06d2a3b6c2f63c6d493ef4fdb2d5238ee6e4bb4feddf84021b6602bc29ecc1ff",
+        "official_en_sha256": "a06007ebed5c310556806d094d3a35ad0c8ebab15928f6afc7d52f0032b6b2af"
+      },
+      "text": {
+        "jp": "<なし>",
+        "official_en": "<None>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataLayer:InvalidDataLayerShortName:c01f355b",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataLayer",
+        "key": "InvalidDataLayerShortName",
+        "jp_record_id": "switch:locres:set-01:DataLayer:InvalidDataLayerShortName:c01f355b",
+        "official_en_record_id": "switch:locres:set-01:DataLayer:InvalidDataLayerShortName:c01f355b",
+        "jp_sha256": "06d2a3b6c2f63c6d493ef4fdb2d5238ee6e4bb4feddf84021b6602bc29ecc1ff",
+        "official_en_sha256": "a06007ebed5c310556806d094d3a35ad0c8ebab15928f6afc7d52f0032b6b2af"
+      },
+      "text": {
+        "jp": "<なし>",
+        "official_en": "<None>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataLayer:CantRemoveActorNotAssignedToDataLayer:f02a54dc",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataLayer",
+        "key": "CantRemoveActorNotAssignedToDataLayer",
+        "jp_record_id": "switch:locres:set-01:DataLayer:CantRemoveActorNotAssignedToDataLayer:f02a54dc",
+        "official_en_record_id": "switch:locres:set-01:DataLayer:CantRemoveActorNotAssignedToDataLayer:f02a54dc",
+        "jp_sha256": "12794d58f77e40808b4ffba1967b64d1c2d345ed7217100b09b1919a53c7c0f4",
+        "official_en_sha256": "75a81dfabd1233fd1cfcbb2ca8cd22c57d09655fb376bc8c804c32063cdef873"
+      },
+      "text": {
+        "jp": "アクタはデータ レイヤーに割り当てられていません",
+        "official_en": "Actor is not assigned to data layer.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataLayer:CantAddActorMismatchRootExternalDataLayer:3d46812b",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataLayer",
+        "key": "CantAddActorMismatchRootExternalDataLayer",
+        "jp_record_id": "switch:locres:set-01:DataLayer:CantAddActorMismatchRootExternalDataLayer:3d46812b",
+        "official_en_record_id": "switch:locres:set-01:DataLayer:CantAddActorMismatchRootExternalDataLayer:3d46812b",
+        "jp_sha256": "e7d62dca89345d66c02e0655a3c26805f8c68dc28dc47b3169e167b8d6154463",
+        "official_en_sha256": "e44d8c16afb4b07f6bca6da91abccce07a6dc1bc96e7c133f89bafa0b170f61f"
+      },
+      "text": {
+        "jp": "アクタにまだ割り当てられていない外部データ レイヤーの子データ レイヤーにそのアクタを割り当てることはできません",
+        "official_en": "Can't assign actors to a Data Layer child of an External Data Layer that is not already assigned to the actors",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataLayer:ParentIsThis:d8568cc1",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataLayer",
+        "key": "ParentIsThis",
+        "jp_record_id": "switch:locres:set-01:DataLayer:ParentIsThis:d8568cc1",
+        "official_en_record_id": "switch:locres:set-01:DataLayer:ParentIsThis:d8568cc1",
+        "jp_sha256": "f7daf5312950aecb986019fd3c61af05e091e9b982dcbc4aa797f990e4f5180b",
+        "official_en_sha256": "2d43c06c5477b1ea7b85178e65c340bab2a5347cdced4e2ac85ac5b5cf2bf636"
+      },
+      "text": {
+        "jp": "自身の親になることはできません",
+        "official_en": "Can't parent to itself",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataLayer:ParentHasDifferentRootExternalDataLayer:930c42f7",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataLayer",
+        "key": "ParentHasDifferentRootExternalDataLayer",
+        "jp_record_id": "switch:locres:set-01:DataLayer:ParentHasDifferentRootExternalDataLayer:930c42f7",
+        "official_en_record_id": "switch:locres:set-01:DataLayer:ParentHasDifferentRootExternalDataLayer:930c42f7",
+        "jp_sha256": "790b87e1ce369e02dd5e364dba1a45c2b4f70767ba36d46ec6e1d30c033ee867",
+        "official_en_sha256": "0e626432d695e838537c425ebbd7789b92db8bca17fb587e488c0b6c8a789456"
+      },
+      "text": {
+        "jp": "異なるルートの外部データ レイヤーでデータ レイヤーを再ペアレント化できません",
+        "official_en": "Can't reparent Data Layer in a different root External Data Layer",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataLayer:ChildDataLayerUnsuported:c07d320a",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataLayer",
+        "key": "ChildDataLayerUnsuported",
+        "jp_record_id": "switch:locres:set-01:DataLayer:ChildDataLayerUnsuported:c07d320a",
+        "official_en_record_id": "switch:locres:set-01:DataLayer:ChildDataLayerUnsuported:c07d320a",
+        "jp_sha256": "9e499c8b6c34ba47fac017ae48599251be20913a7af52360c19547f6daf41cf9",
+        "official_en_sha256": "f64140a37e71f714c0e5a34d960ac35800d1466d68641cf89a4e356a5c1ecf5b"
+      },
+      "text": {
+        "jp": "「{0}」データ レイヤーは子データ レイヤーをサポートしていません",
+        "official_en": "Data Layer \"{0}\" does not support child data layers",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataLayer:ParentDataLayerUnsupported:d35a08b4",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataLayer",
+        "key": "ParentDataLayerUnsupported",
+        "jp_record_id": "switch:locres:set-01:DataLayer:ParentDataLayerUnsupported:d35a08b4",
+        "official_en_record_id": "switch:locres:set-01:DataLayer:ParentDataLayerUnsupported:d35a08b4",
+        "jp_sha256": "7f939618528b2a88ecda84f9faf9c6ca1aee0928281fafe7d16ec8856c0da6d3",
+        "official_en_sha256": "f54e980848ee7873921800152c6f5ea2ff7dd9cd9e1b280a3cf747699205c08e"
+      },
+      "text": {
+        "jp": "「{0}」データ レイヤーは親データ レイヤーをサポートしていません",
+        "official_en": "Data Layer \"{0}\" does not support parent data layers",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataLayer:SameParent:d29ae41b",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataLayer",
+        "key": "SameParent",
+        "jp_record_id": "switch:locres:set-01:DataLayer:SameParent:d29ae41b",
+        "official_en_record_id": "switch:locres:set-01:DataLayer:SameParent:d29ae41b",
+        "jp_sha256": "1b3b16e3be3add0c6112189586af26d4fce2e5c40c5f0c871a6e781a72b8bde9",
+        "official_en_sha256": "186ddd6eeda5067b156b6214f016d458dcde5377109fbd268a496850a09c1d38"
+      },
+      "text": {
+        "jp": "データ レイヤーには、すでにこの親データ レイヤーがあります",
+        "official_en": "Data Layer already has this parent",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataLayer:DataLayerInstanceLocked:c9b841e1",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataLayer",
+        "key": "DataLayerInstanceLocked",
+        "jp_record_id": "switch:locres:set-01:DataLayer:DataLayerInstanceLocked:c9b841e1",
+        "official_en_record_id": "switch:locres:set-01:DataLayer:DataLayerInstanceLocked:c9b841e1",
+        "jp_sha256": "424fefe281b48848dd9cc28088b25f12d44198205f45f5d7d565efe174f54293",
+        "official_en_sha256": "ff58554dc5dcddd1888a5b88efbba852ba0d78a94a83543792b611a19400072d"
+      },
+      "text": {
+        "jp": "データレイヤー インスタンスがロックされています",
+        "official_en": "Data layer instance is locked.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataLayer:DataLayerInstanceReadOnlyInGameWorld:3266d14f",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataLayer",
+        "key": "DataLayerInstanceReadOnlyInGameWorld",
+        "jp_record_id": "switch:locres:set-01:DataLayer:DataLayerInstanceReadOnlyInGameWorld:3266d14f",
+        "official_en_record_id": "switch:locres:set-01:DataLayer:DataLayerInstanceReadOnlyInGameWorld:3266d14f",
+        "jp_sha256": "1d7473c2b20ef2989ab9676bdc1641100372fe3f76ab466e7b19db7fdd8d9dcd",
+        "official_en_sha256": "40b67f9180a0c7ce37b65800b6201f4f84a212fbd502f7ae8fc82f60f7253e66"
+      },
+      "text": {
+        "jp": "データレイヤー インスタンスはゲーム ワールドで読み取り専用です",
+        "official_en": "Data layer instance is read-only in game world.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataLayer:CantAddActorInvalidActor:bbf19109",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataLayer",
+        "key": "CantAddActorInvalidActor",
+        "jp_record_id": "switch:locres:set-01:DataLayer:CantAddActorInvalidActor:bbf19109",
+        "official_en_record_id": "switch:locres:set-01:DataLayer:CantAddActorInvalidActor:bbf19109",
+        "jp_sha256": "2159b7f6046de75524513634723dd2ed623ecddcb5216cc27e196fa2de0e8369",
+        "official_en_sha256": "15a713c657b2e98f9a4c07c767769b3641df15adfa0b9653d7a72a5731e97510"
+      },
+      "text": {
+        "jp": "無効なアクタ",
+        "official_en": "Invalid actor.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataLayer:CantRemoveActorInvalidActor:449dc857",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataLayer",
+        "key": "CantRemoveActorInvalidActor",
+        "jp_record_id": "switch:locres:set-01:DataLayer:CantRemoveActorInvalidActor:449dc857",
+        "official_en_record_id": "switch:locres:set-01:DataLayer:CantRemoveActorInvalidActor:449dc857",
+        "jp_sha256": "2159b7f6046de75524513634723dd2ed623ecddcb5216cc27e196fa2de0e8369",
+        "official_en_sha256": "15a713c657b2e98f9a4c07c767769b3641df15adfa0b9653d7a72a5731e97510"
+      },
+      "text": {
+        "jp": "無効なアクタ",
+        "official_en": "Invalid actor.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataLayer:DifferentOuterWorldDataLayer:e5049428",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataLayer",
+        "key": "DifferentOuterWorldDataLayer",
+        "jp_record_id": "switch:locres:set-01:DataLayer:DifferentOuterWorldDataLayer:e5049428",
+        "official_en_record_id": "switch:locres:set-01:DataLayer:DifferentOuterWorldDataLayer:e5049428",
+        "jp_sha256": "29d3f44e9bb6220d38f321025ad5dbeb2cbf2bf6d10640e3b46fc467cacf2448",
+        "official_en_sha256": "1dbe09f0df3b8e85def8e173a88aa091e93c38120b90ce981945e319d6316a62"
+      },
+      "text": {
+        "jp": "親ワールドデータレイヤーと子ワールドデータレイヤーは別ものです",
+        "official_en": "Parent WorldDataLayers is a different from child WorldDataLayers",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataLayer:DataLayerRuntimeDataLayerEditingNotAllowed:abea8be4",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataLayer",
+        "key": "DataLayerRuntimeDataLayerEditingNotAllowed",
+        "jp_record_id": "switch:locres:set-01:DataLayer:DataLayerRuntimeDataLayerEditingNotAllowed:abea8be4",
+        "official_en_record_id": "switch:locres:set-01:DataLayer:DataLayerRuntimeDataLayerEditingNotAllowed:abea8be4",
+        "jp_sha256": "778a6c2f083fd2ae8226172fd88ca1b6f97b528141bb162a02826836982c9cce",
+        "official_en_sha256": "fac78ffdf0617f1b1e20b0896390bf87759272ec8872618d31ba921ea8158d6b"
+      },
+      "text": {
+        "jp": "ランタイムデータレイヤーの編集は許可されていません",
+        "official_en": "Runtime data layer editing is not allowed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataLayer:ClientOrServerOnlyCantHaveParent:91780df2",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataLayer",
+        "key": "ClientOrServerOnlyCantHaveParent",
+        "jp_record_id": "switch:locres:set-01:DataLayer:ClientOrServerOnlyCantHaveParent:91780df2",
+        "official_en_record_id": "switch:locres:set-01:DataLayer:ClientOrServerOnlyCantHaveParent:91780df2",
+        "jp_sha256": "92ff2290500e23a8fd580d104fcdc4232bc57a9c4a0338844174d54c7141997e",
+        "official_en_sha256": "55c7c9a613343cc3c75072ed935189de231fef47a949ca9cb7143cd2e50f63df"
+      },
+      "text": {
+        "jp": "{0} データ レイヤーは子データ レイヤーになることはできません",
+        "official_en": "{0} Data Layer cannot be a child Data Layer",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataLayer:IncompatibleChildType:c6123c9d",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataLayer",
+        "key": "IncompatibleChildType",
+        "jp_record_id": "switch:locres:set-01:DataLayer:IncompatibleChildType:c6123c9d",
+        "official_en_record_id": "switch:locres:set-01:DataLayer:IncompatibleChildType:c6123c9d",
+        "jp_sha256": "933de265462be3dc0204d0d3b1a0ba23375d75971c43993abbc1b582283c4dce",
+        "official_en_sha256": "703ccd1824d4dc9c70dd646c85ec5859f95441988383a82bc35a7f269efe5d56"
+      },
+      "text": {
+        "jp": "{0} データ レイヤーが {1} 子データ レイヤーを持つことはできません",
+        "official_en": "{0} Data Layer cannot have {1} child Data Layers",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

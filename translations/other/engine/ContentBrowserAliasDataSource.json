@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ContentBrowserAliasDataSource",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ContentBrowserAliasDataSource:Error_FolderIsNotEditable:31c87b6d",
+      "source": {
+        "set": "set-02",
+        "namespace": "ContentBrowserAliasDataSource",
+        "key": "Error_FolderIsNotEditable",
+        "jp_record_id": "switch:locres:set-01:ContentBrowserAliasDataSource:Error_FolderIsNotEditable:31c87b6d",
+        "official_en_record_id": "switch:locres:set-01:ContentBrowserAliasDataSource:Error_FolderIsNotEditable:31c87b6d",
+        "jp_sha256": "46262fdee2ea5b10e3457f70840769dc5c057c6917e2cd00f48d77e475be848b",
+        "official_en_sha256": "31626ef172f41aa97f7647d3cea6a8be1ef8d2de1bc65e35c75a2adacd1458df"
+      },
+      "text": {
+        "jp": "エイリアス アセット「{0}」は、編集が許可されないフォルダ内にあります。読み取り専用のアセットは編集できません",
+        "official_en": "Alias asset '{0}' is in a folder that does not allow edits. Unable to edit read only assets.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ContentBrowserAliasDataSource:Error_FolderIsLocked:cd49e97a",
+      "source": {
+        "set": "set-02",
+        "namespace": "ContentBrowserAliasDataSource",
+        "key": "Error_FolderIsLocked",
+        "jp_record_id": "switch:locres:set-01:ContentBrowserAliasDataSource:Error_FolderIsLocked:cd49e97a",
+        "official_en_record_id": "switch:locres:set-01:ContentBrowserAliasDataSource:Error_FolderIsLocked:cd49e97a",
+        "jp_sha256": "eb11010c595b1eeeb528c15326bb63979cbdf319a0c2b37436dd43470f60b58a",
+        "official_en_sha256": "a129c52f0354c24910933733d8069acb42de277281e2d5ce9b14242f915ddd2e"
+      },
+      "text": {
+        "jp": "エイリアス アセット「{0}」は、読み取り専用フォルダ内にあります。読み取り専用のアセットは編集できません",
+        "official_en": "Alias asset '{0}' is in a read only folder. Unable to edit read only assets.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

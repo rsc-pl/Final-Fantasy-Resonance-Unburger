@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ProjectDescriptor",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ProjectDescriptor:FailedToWriteOutputFile:c84e63b6",
+      "source": {
+        "set": "set-02",
+        "namespace": "ProjectDescriptor",
+        "key": "FailedToWriteOutputFile",
+        "jp_record_id": "switch:locres:set-01:ProjectDescriptor:FailedToWriteOutputFile:c84e63b6",
+        "official_en_record_id": "switch:locres:set-01:ProjectDescriptor:FailedToWriteOutputFile:c84e63b6",
+        "jp_sha256": "444aecf718476e5bb262c64330c2cef3c6c92ae79d50ecf1bf2af8e916318853",
+        "official_en_sha256": "5ba7de2ecf87d10f9aa775508a9e37dcb9613cd611764ef18e697539d9a3eba6"
+      },
+      "text": {
+        "jp": "アウトプットファイル '{0}' の書き込みに失敗しました。ファイルが読み取り専用の可能性があります。",
+        "official_en": "Failed to write output file '{0}'. Perhaps the file is Read-Only?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ProjectDescriptor:FailedToWriteOutputFileSuppressed:92c68f51",
+      "source": {
+        "set": "set-02",
+        "namespace": "ProjectDescriptor",
+        "key": "FailedToWriteOutputFileSuppressed",
+        "jp_record_id": "switch:locres:set-01:ProjectDescriptor:FailedToWriteOutputFileSuppressed:92c68f51",
+        "official_en_record_id": "switch:locres:set-01:ProjectDescriptor:FailedToWriteOutputFileSuppressed:92c68f51",
+        "jp_sha256": "0753b778849f86df53055ef862b723ccaf0946e4550e5ecaebcf59248a89b9c9",
+        "official_en_sha256": "c2e23d4b969304cc273129ed36122f0118398cfc9a494f91520df3755ec0b104"
+      },
+      "text": {
+        "jp": "出力ファイル「{0}」に書き込むことができませんでした。プロジェクト ファイルの保存が抑止されています。",
+        "official_en": "Failed to write output file '{0}'. Project file saving is suppressed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ProjectDescriptor:ProjectFileVersionTooLarge:dc54bbee",
+      "source": {
+        "set": "set-02",
+        "namespace": "ProjectDescriptor",
+        "key": "ProjectFileVersionTooLarge",
+        "jp_record_id": "switch:locres:set-01:ProjectDescriptor:ProjectFileVersionTooLarge:dc54bbee",
+        "official_en_record_id": "switch:locres:set-01:ProjectDescriptor:ProjectFileVersionTooLarge:dc54bbee",
+        "jp_sha256": "34fa0a7d7d9eca37b7c3138fa7720620b087827131f40f2d47104048ffc0f9b6",
+        "official_en_sha256": "2a649fe3deb2dd968e68a574875badf95256788908e99d377016b5065445ddc8"
+      },
+      "text": {
+        "jp": "ファイルはロード可能なファイル形式よりも新しいバージョン ({0}) です(最大バージョン: {1})",
+        "official_en": "File appears to be in a newer version ({0}) of the file format that we can load (max version: {1}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ProjectDescriptor:InvalidProjectFileVersion:d6533a6f",
+      "source": {
+        "set": "set-02",
+        "namespace": "ProjectDescriptor",
+        "key": "InvalidProjectFileVersion",
+        "jp_record_id": "switch:locres:set-01:ProjectDescriptor:InvalidProjectFileVersion:d6533a6f",
+        "official_en_record_id": "switch:locres:set-01:ProjectDescriptor:InvalidProjectFileVersion:d6533a6f",
+        "jp_sha256": "fbb9d9e8dbea96d926ea1f7d95bbe45fe60ac87a0008e9eadd3691c81dfbfde7",
+        "official_en_sha256": "0af846391e2a19406b8666af31d242345f4b9f0bf3a8ec70c747142717392273"
+      },
+      "text": {
+        "jp": "ファイルに有効な 'FileVersion' 番号がありません",
+        "official_en": "File does not have a valid 'FileVersion' number.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NaniteFeedbackStatus",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NaniteFeedbackStatus:NaniteCandidateClusterOverflow:194384dd",
+      "source": {
+        "set": "set-02",
+        "namespace": "NaniteFeedbackStatus",
+        "key": "NaniteCandidateClusterOverflow",
+        "jp_record_id": "switch:locres:set-01:NaniteFeedbackStatus:NaniteCandidateClusterOverflow:194384dd",
+        "official_en_record_id": "switch:locres:set-01:NaniteFeedbackStatus:NaniteCandidateClusterOverflow:194384dd",
+        "jp_sha256": "8fa6969db233c2aa4a4e31f34b26b53a4ff99779665e373909d7849741e020a9",
+        "official_en_sha256": "6e94bd1d50bbba6083f7f669834bee2b861a4f2d210250652e8916595245707a"
+      },
+      "text": {
+        "jp": "Naniteの候補クラスタバッファオーバーフローが検出されました。{0} / {1}.ハイウォーターマークは{2}です。視覚的なアーティファクトが発生しないようにするため、r.Nanite.MaxCandidateClustersを増加してください。",
+        "official_en": "Nanite candidate cluster buffer overflow detected: {0} / {1}. High-water mark is {2}. Increase r.Nanite.MaxCandidateClusters to prevent potential visual artifacts.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NaniteFeedbackStatus:NaniteNodeOverflow:86e55453",
+      "source": {
+        "set": "set-02",
+        "namespace": "NaniteFeedbackStatus",
+        "key": "NaniteNodeOverflow",
+        "jp_record_id": "switch:locres:set-01:NaniteFeedbackStatus:NaniteNodeOverflow:86e55453",
+        "official_en_record_id": "switch:locres:set-01:NaniteFeedbackStatus:NaniteNodeOverflow:86e55453",
+        "jp_sha256": "041ba80d5f3a24679dcae5e9cdea013ea233119a571614b5f91fbe70c8e6ea04",
+        "official_en_sha256": "cc9227f91c93f603881e6cb46ec6ee3eebb8261cfb113e00ae6a3570aeb1bd74"
+      },
+      "text": {
+        "jp": "Naniteノードバッファオーバーフローが検出されました。{0} / {1}.ハイウォーターマークは{2}です。視覚的なアーティファクトが発生しないようにするため、r.Nanite.MaxNodesの値を増やしてください。",
+        "official_en": "Nanite node buffer overflow detected: {0} / {1}. High-water mark is {2}. Increase r.Nanite.MaxNodes to prevent potential visual artifacts.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NaniteFeedbackStatus:NaniteVisibleClusterOverflow:af142f0d",
+      "source": {
+        "set": "set-02",
+        "namespace": "NaniteFeedbackStatus",
+        "key": "NaniteVisibleClusterOverflow",
+        "jp_record_id": "switch:locres:set-01:NaniteFeedbackStatus:NaniteVisibleClusterOverflow:af142f0d",
+        "official_en_record_id": "switch:locres:set-01:NaniteFeedbackStatus:NaniteVisibleClusterOverflow:af142f0d",
+        "jp_sha256": "a8e3fce30c5acf22b0f0b08d853acdde80708ec497c2f6d5d4f2522f86c10297",
+        "official_en_sha256": "03a92c01d7cc79e80ff6ea44f20bbf76c8f5aa7927dc7d7538bf0be8b26f6735"
+      },
+      "text": {
+        "jp": "Naniteの可視クラスタバッファオーバーフローが検出されました。{0} / {1}.ハイウォーターマークは{2}です。視覚的なアーティファクトが発生しないようにするため、r.Nanite.MaxVisibleClustersの値を増やしてください。",
+        "official_en": "Nanite visible cluster buffer overflow detected: {0} / {1}. High-water mark is {2}. Increase r.Nanite.MaxVisibleClusters to prevent potential visual artifacts.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

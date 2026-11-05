@@ -1,0 +1,3231 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NiagaraValidationRules",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:TickDependencyCheckDetailedFormat:fa808ce0",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "TickDependencyCheckDetailedFormat",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:TickDependencyCheckDetailedFormat:fa808ce0",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:TickDependencyCheckDetailedFormat:fa808ce0",
+        "jp_sha256": "8fe115dfc5cab0e38639fcc069d0c8deb4e6a3d91419235ea27cd53a717f6db5",
+        "official_en_sha256": "18b6e293e4ab04b27384c212484f25ba4661079316461fae2ecf58ddd504f3d0"
+      },
+      "text": {
+        "jp": "「{0}」には、データ インターフェースで「RequireCurrentFrameData」をオフにすることで除去できるティック依存関係があります。そうするとレイテンシーのフレームが発生しますが、システムがそのフレームで即座に実行できるようになります。パラメータ名は「{1}」です",
+        "official_en": "'{0}' has a tick dependency that can removed by unchecking 'RequireCurrentFrameData' on the data interface.  This could introduce a frame of latency but will allow the system to execute immediatly in the frame.  Parameter Name '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:BannedRenderSummary:46b7e9fc",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "BannedRenderSummary",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:BannedRenderSummary:46b7e9fc",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:BannedRenderSummary:46b7e9fc",
+        "jp_sha256": "a0bde78c1e71fba3d56c9913a959ceadbf1dfb196476cdc1398ed780bff947c5",
+        "official_en_sha256": "68ef2633d615856f977e0c4619d1d6a2262834561e5cbc881c4f20b9e9411e88"
+      },
+      "text": {
+        "jp": "禁止されているレンダラが使用されています",
+        "official_en": "Banned renderers used.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:SwitchCollisionFix:90b2deea",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "SwitchCollisionFix",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:SwitchCollisionFix:90b2deea",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:SwitchCollisionFix:90b2deea",
+        "jp_sha256": "6b339cb8a800a0523a776c15a6f9c0c8eb65b1c326289a36a65d67c1ee0cff40",
+        "official_en_sha256": "4dcc1890151c54d5751905d6cb229175579e81ef59218d98d819ef3faa1ff936"
+      },
+      "text": {
+        "jp": "コリジョン タイプをディスタンス フィールドに変更します",
+        "official_en": "Change collision type to distance fields",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:ChangeSimTarget:cf24e589",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "ChangeSimTarget",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:ChangeSimTarget:cf24e589",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:ChangeSimTarget:cf24e589",
+        "jp_sha256": "ecd08532fbdadbbd5c4eff747b8280a098bcd3f0659c2f228e6d6a4f6a9dfbb2",
+        "official_en_sha256": "4d0cd74b6f75f6c1bc53611e5ab555277349007f026de73015cec9274f5da5fb"
+      },
+      "text": {
+        "jp": "エミッタシミュレーションターゲットを変更",
+        "official_en": "Change emitter sim target",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:SimTargetModuleErrorFix:690f3dbf",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "SimTargetModuleErrorFix",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:SimTargetModuleErrorFix:690f3dbf",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:SimTargetModuleErrorFix:690f3dbf",
+        "jp_sha256": "d3c5666d3fe1b313ca68f27931fab33521dd49932af31461f6204d8af74f5cfc",
+        "official_en_sha256": "e3f368e73d39f1aff599840c3f9875328740fd36fb0297132306bc599b830f5b"
+      },
+      "text": {
+        "jp": "エミッタ シミュレーション ターゲットを {0} に変更します",
+        "official_en": "Change emitter sim target to {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:BanndeModulesDescription:af11692f",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "BanndeModulesDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:BanndeModulesDescription:af11692f",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:BanndeModulesDescription:af11692f",
+        "jp_sha256": "21005982bf6da2b9c03ddfd1716da6723b6efd2c777517bfeb1172763bf684b7",
+        "official_en_sha256": "391c7460fc6291d8e2fed37f3295c36f9a37e1f7902410c36775a81ca788e619"
+      },
+      "text": {
+        "jp": "このモジュールを、エフェクト タイプの禁止モジュール バリデータと照合します",
+        "official_en": "Check this module against the Effect Type's Banned Modules validators",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:BannedDataInteraceSystemFormatDesc:d3035cc3",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "BannedDataInteraceSystemFormatDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:BannedDataInteraceSystemFormatDesc:d3035cc3",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:BannedDataInteraceSystemFormatDesc:d3035cc3",
+        "jp_sha256": "2c6087b5e4d444ffd330115340336c160fe2a1e000e37342328ade3e66852a52",
+        "official_en_sha256": "4d23dc5032d7adcb0175376e5a481293c7e8f41aa00e175b9d713f96d479b4f6"
+      },
+      "text": {
+        "jp": "DataInterface「{0} - {1}」は、現在有効になっているプラットフォームで禁止されています",
+        "official_en": "DataInterface '{0} - {1}' is banned on currently enabled platforms",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:BannedDataInteraceEmitterFormatDesc:6346e72e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "BannedDataInteraceEmitterFormatDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:BannedDataInteraceEmitterFormatDesc:6346e72e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:BannedDataInteraceEmitterFormatDesc:6346e72e",
+        "jp_sha256": "60b8171c798c0b4ef34ee72633c5c8f4d9af69eb0bc614fcb3aa122c1f7fef77",
+        "official_en_sha256": "5d7dd3d6b3e2369c89a5c40ccb3a1255ffcdc1ae6a914e93b3d74e7c4acf6135"
+      },
+      "text": {
+        "jp": "DataInterface「{0} - {1}」は、現在有効になっているプラットフォーム「{2}」で禁止されています",
+        "official_en": "DataInterface '{0} - {1}' is banned on currently enabled platforms '{2}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:BannedDataInteraceFormatWarn:d7e3ec88",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "BannedDataInteraceFormatWarn",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:BannedDataInteraceFormatWarn:d7e3ec88",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:BannedDataInteraceFormatWarn:d7e3ec88",
+        "jp_sha256": "370a146f767128dd9a7b4ca6fe5c86e2c82eefb239af41f4bae119b83fffc6b4",
+        "official_en_sha256": "566ad9e664c2c0f3ca0e733bd502dcd5c8b6c99d70a53532caff1e2c268c4769"
+      },
+      "text": {
+        "jp": "DataInterface「{0}」は、現在有効になっているプラットフォームで禁止されています",
+        "official_en": "DataInterface '{0}' is banned on currently enabled platforms",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:UserDataInterfaceDetailedFormat:57cac894",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "UserDataInterfaceDetailedFormat",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:UserDataInterfaceDetailedFormat:57cac894",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:UserDataInterfaceDetailedFormat:57cac894",
+        "jp_sha256": "f6e7342abc04bd57b61b3dccb57711121da745907c39e1dd378d7635f1da05ac",
+        "official_en_sha256": "bc343713dbe2153a3e1d89562b50f5dbff9c6b81fcad79f0c8a57cafed132d6d"
+      },
+      "text": {
+        "jp": "DataInterface「{0}」の「{1}」型は、UEFN に公開されると問題を引き起こし、インスタンス作成時のパフォーマンスを低下させる可能性があります。システム レベルに移行し、代わりにデータ インターフェースでオブジェクト パラメータ バインディングを使用することを検討してください",
+        "official_en": "DataInterface '{0}' type '{1}' may cause issues when exposed to UEFN and reduce performance when creating an instance.  Consider moving to system level and use object parameter binding on the data interface instead.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:DisableBannedModuleFix:bc6b724a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "DisableBannedModuleFix",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:DisableBannedModuleFix:bc6b724a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:DisableBannedModuleFix:bc6b724a",
+        "jp_sha256": "cc2e942ff698539a808183631d4fb0e2fad0e31dd852c7776f33537c981b3f2f",
+        "official_en_sha256": "4dbadf75df9528f53f58de47648d8b79ed5e1829c24a91616e634f861563d17b"
+      },
+      "text": {
+        "jp": "禁止されているモジュールを無効化",
+        "official_en": "Disable Banned Module",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:DisableBannedRendererFix:43438a38",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "DisableBannedRendererFix",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:DisableBannedRendererFix:43438a38",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:DisableBannedRendererFix:43438a38",
+        "jp_sha256": "d84f688595c91654e254c629256d296ca74b9ac09d78bdf4c831aa1e996724c6",
+        "official_en_sha256": "04ac5bcffc7294295b8e293676fe36d54d812113ea66ecff8a79888192a92cef"
+      },
+      "text": {
+        "jp": "禁止されているレンダラを無効化",
+        "official_en": "Disable Banned Renderer",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:RibbonRenderer_GpuInitErrorApplyFix:094bc3a6",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "RibbonRenderer_GpuInitErrorApplyFix",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:RibbonRenderer_GpuInitErrorApplyFix:094bc3a6",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:RibbonRenderer_GpuInitErrorApplyFix:094bc3a6",
+        "jp_sha256": "a1224614362a358dfbfc0c93bc94791da880ef2a66ebabee79207be2c0537872",
+        "official_en_sha256": "80f919b1dbdd26282596018371b88b5579242376488bcce38e76ed363eaba583"
+      },
+      "text": {
+        "jp": "GPU Initを無効化する",
+        "official_en": "Disable GPU Init",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:RibbonRenderer_GpuInitErrorFix:f1953d31",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "RibbonRenderer_GpuInitErrorFix",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:RibbonRenderer_GpuInitErrorFix:f1953d31",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:RibbonRenderer_GpuInitErrorFix:f1953d31",
+        "jp_sha256": "77476ce3f16da16599e1c8a1713f87dd5e0cdccfab6fb4cbc1f419d0467b8797",
+        "official_en_sha256": "ccab8b88131103036e5bdf9bb58db6da17c329196aa1946c7ce435000df54a99"
+      },
+      "text": {
+        "jp": "GPU initを無効化する",
+        "official_en": "Disable GPU init",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:TickDependencyCheckFix:58b71b76",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "TickDependencyCheckFix",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:TickDependencyCheckFix:58b71b76",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:TickDependencyCheckFix:58b71b76",
+        "jp_sha256": "74d63d26c650a51fbf75b5477461e88e726caa4d1cbe246b5d547b8b67afb09d",
+        "official_en_sha256": "d03e7ee22b9f6429f1aa0702d483de04c8f4b6c337ae345a1d548c51f060c63d"
+      },
+      "text": {
+        "jp": "システム プロパティにある RequireCurrentFrameData を無効にします",
+        "official_en": "Disable RequireCurrentFrameData in System Properties",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:DisableSorting:8c090b39",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "DisableSorting",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:DisableSorting:8c090b39",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:DisableSorting:8c090b39",
+        "jp_sha256": "21aee5c380c97b0804fd166dfe9b8ff5e8e9145dd307a5f06f5eff5045a532ec",
+        "official_en_sha256": "e10a39adf52d42d700ecfdcf55e4add1d2ac68036d997a380ab8a4d021528329"
+      },
+      "text": {
+        "jp": "ソートを無効にする",
+        "official_en": "Disable Sorting",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:GpuUsageInfoFix_DisablePlatforms:f87c479f",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "GpuUsageInfoFix_DisablePlatforms",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:GpuUsageInfoFix_DisablePlatforms:f87c479f",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:GpuUsageInfoFix_DisablePlatforms:f87c479f",
+        "jp_sha256": "b3a4a7636d3468f9b51fa68e7ca952be566f2a2c0c32b4dd5d18c2c9be7767d6",
+        "official_en_sha256": "b7f5f5af8404b4ab8fa403ae2b2f985da089faeacea7d2b8fa9c7f4af88c3eb5"
+      },
+      "text": {
+        "jp": "「{0}」のエミッタを無効にします",
+        "official_en": "Disable emitter on '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:SimTargetModuleErrorFixDisable:31e94b82",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "SimTargetModuleErrorFixDisable",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:SimTargetModuleErrorFixDisable:31e94b82",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:SimTargetModuleErrorFixDisable:31e94b82",
+        "jp_sha256": "2859c8da2f6965b88445d1d7b7f33303c9aa6be96bf4bf202069f7946f1c1af6",
+        "official_en_sha256": "7f55088509fd9516da26e572430001a9fdfc7a255e221d23b871b2080f880de5"
+      },
+      "text": {
+        "jp": "モジュールを無効化",
+        "official_en": "Disable module",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:SingletonModuleErrorFix:566993d7",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "SingletonModuleErrorFix",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:SingletonModuleErrorFix:566993d7",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:SingletonModuleErrorFix:566993d7",
+        "jp_sha256": "2859c8da2f6965b88445d1d7b7f33303c9aa6be96bf4bf202069f7946f1c1af6",
+        "official_en_sha256": "7f55088509fd9516da26e572430001a9fdfc7a255e221d23b871b2080f880de5"
+      },
+      "text": {
+        "jp": "モジュールを無効化",
+        "official_en": "Disable module",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:DisableSortingFix:a3376d63",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "DisableSortingFix",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:DisableSortingFix:a3376d63",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:DisableSortingFix:a3376d63",
+        "jp_sha256": "602ac4ef33eef97354afd0e3d31e0ced387dbaeba7420b4c39b34481fa3b7f4c",
+        "official_en_sha256": "b93953d841842f21148463cdee0199959542edef1c929f877d3c73fcf403e99a"
+      },
+      "text": {
+        "jp": "レンダラでソートを無効にします",
+        "official_en": "Disable sorting on the renderer",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:NoFixedDeltaTime:4e1538b4",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "NoFixedDeltaTime",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:NoFixedDeltaTime:4e1538b4",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:NoFixedDeltaTime:4e1538b4",
+        "jp_sha256": "62e2ba1a9ef184926839d374cb5d29ff9ef0c2349fb309f335bec6640787d7e4",
+        "official_en_sha256": "223151bdfd929d9e8cc811b9230360ab61c4add3e8a2362899acd097a3d3a268"
+      },
+      "text": {
+        "jp": "エフェクト タイプでは固定ティック デルタ時間は許容されていません",
+        "official_en": "Effect type does not allow fixed tick delta time",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:DeprecatedEmitterUsedTitle:f02db79e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "DeprecatedEmitterUsedTitle",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:DeprecatedEmitterUsedTitle:f02db79e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:DeprecatedEmitterUsedTitle:f02db79e",
+        "jp_sha256": "4ff68bbfd29ba085ab15a2343159a2445ee49df85b8af0b8181e633c662383de",
+        "official_en_sha256": "59ccb99fdd2e6c5a7ae058c00ef462032360f9155427ba45a7a98713dbed63c6"
+      },
+      "text": {
+        "jp": "エミッタ「{0}」は非推奨です",
+        "official_en": "Emitter '{0}' is deprecated.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:EmitterCountLimitExceededFmt:df4bcfe3",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "EmitterCountLimitExceededFmt",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:EmitterCountLimitExceededFmt:df4bcfe3",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:EmitterCountLimitExceededFmt:df4bcfe3",
+        "jp_sha256": "05736f0a9d8c25a8aa6f3e2cdd8d0ef68691ed6663b0bdcdcf5ce0bd97242a16",
+        "official_en_sha256": "210f9d1d39fa52393e9454da7c084844d2b8b03d6ba22ce0729e9a9bd0460427"
+      },
+      "text": {
+        "jp": "エミッタの数制限 {0} を超過しました",
+        "official_en": "Emitter count limit '{0}' exceeded",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:EmitterCountLimitExceeded:d6afdc14",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "EmitterCountLimitExceeded",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:EmitterCountLimitExceeded:d6afdc14",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:EmitterCountLimitExceeded:d6afdc14",
+        "jp_sha256": "e630083a0fa6759aaeab38f6715f4802119f9b4f46cfbdb2022e0de242cba343",
+        "official_en_sha256": "bcde571c2a1bbb04b4163b5f763d2a52decf24f3ed72a7483b26f3ad4cd8db9b"
+      },
+      "text": {
+        "jp": "エミッタの数制限を超過しました",
+        "official_en": "Emitter count limit exceeded",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:TooManySimStagesFormat:ff5698ae",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "TooManySimStagesFormat",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:TooManySimStagesFormat:ff5698ae",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:TooManySimStagesFormat:ff5698ae",
+        "jp_sha256": "3b715ee947482b0c4374ae39b9f0c46bdc56b3ae673f8a167af6abca101e69af",
+        "official_en_sha256": "a47262d037d85916395ee9ad12dcb081c914a3c848eb5dd3bd59ba79cbf90880"
+      },
+      "text": {
+        "jp": "エミッタでのシミュレーション ステージの数が多すぎます",
+        "official_en": "Emitter has too many simulation stages",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:SimStageTooManyTotalIterationsFormat:e762d282",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "SimStageTooManyTotalIterationsFormat",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:SimStageTooManyTotalIterationsFormat:e762d282",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:SimStageTooManyTotalIterationsFormat:e762d282",
+        "jp_sha256": "d573e723438dc887a980d0394f2bf4012b0334bbfd550bf85e299e24c33b4d70",
+        "official_en_sha256": "1e65623892dc02ef3f5c1c868137a1d96b9fc1dd97308aac38947435d12d5cc8"
+      },
+      "text": {
+        "jp": "エミッタでのシミュレーション ステージのイテレーションの合計が多すぎます",
+        "official_en": "Emitter has too many total simulation stage iterations",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:TooManySimStagesDetailedFormat:dc9cd629",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "TooManySimStagesDetailedFormat",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:TooManySimStagesDetailedFormat:dc9cd629",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:TooManySimStagesDetailedFormat:dc9cd629",
+        "jp_sha256": "6b03587cf8a451c847ce8a19d250435f00fc77a112c72cef146c89ac081d3c89",
+        "official_en_sha256": "95006ade52bdcc87e871574f88fb6dfb96e47274561e6964dd5d960da5c1c410"
+      },
+      "text": {
+        "jp": "エミッタに{0}のアクティブなシミュレーション ステージがありますが、許容されているのは{1}のみです",
+        "official_en": "Emitter has {0} simulation stages active and we only allow {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:SimStageTooManyTotalIterationsDetailedFormat:0c4fc233",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "SimStageTooManyTotalIterationsDetailedFormat",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:SimStageTooManyTotalIterationsDetailedFormat:0c4fc233",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:SimStageTooManyTotalIterationsDetailedFormat:0c4fc233",
+        "jp_sha256": "c24d3f1111aea1fbc7013c6fce7bd69e51bf1cbbd183a7e78d344ef061073d9d",
+        "official_en_sha256": "9d23c4156e90107eaf9f65501a8c3c61d27d6c0f586e84a293a189844b8e552e"
+      },
+      "text": {
+        "jp": "エミッタのシミュレーション ステージに合計で{0}のイテレーションがありますが、許容されているのは{1}のみです",
+        "official_en": "Emitter has {0} total simulation stage iterations and we only allow {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:NoEventsDesc:60d0f158",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "NoEventsDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:NoEventsDesc:60d0f158",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:NoEventsDesc:60d0f158",
+        "jp_sha256": "d1341d1151198658908746ee4b13566fd284aa0d2b9e4b73f21b75758e65e803",
+        "official_en_sha256": "6403eb7e47706dab3113abe715e98dbfca3024af80e9cb94486b2c5a6b146413"
+      },
+      "text": {
+        "jp": "「{0}」でイベントは許可されていません",
+        "official_en": "Events are not allowed on '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:NoEventsSummary:db1d5cfe",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "NoEventsSummary",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:NoEventsSummary:db1d5cfe",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:NoEventsSummary:db1d5cfe",
+        "jp_sha256": "fda8eb43b745670fb288e46632e831b0948b000cea07e00ecfc190c05082e8eb",
+        "official_en_sha256": "45bc5c8ca77169654b4f46029e62c75de91666305a8c613ab9ed97b6c9267e81"
+      },
+      "text": {
+        "jp": "イベントは許可されません",
+        "official_en": "Events are not allowed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:StatelessModuleNotAllowedDesc:03f205b4",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "StatelessModuleNotAllowedDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:StatelessModuleNotAllowedDesc:03f205b4",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:StatelessModuleNotAllowedDesc:03f205b4",
+        "jp_sha256": "687ebbaaff9a6631a2ba3a20b7cc1aa1cf63fbff479f19b3ca8143fc40dfc5d1",
+        "official_en_sha256": "33ab6c8f685eafc2fa5ecbefeb74a8f2c69ef2f26c0634677e7e061b1324b8b0"
+      },
+      "text": {
+        "jp": "実験的機能の軽量モジュール {0} は許可されていないため、無効にするか削除してください",
+        "official_en": "Experimental lightweight module {0} is not allowed, please disable or remove.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:StatelessModuleNotAllowed:58e78d9a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "StatelessModuleNotAllowed",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:StatelessModuleNotAllowed:58e78d9a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:StatelessModuleNotAllowed:58e78d9a",
+        "jp_sha256": "36d86cd73de1b57ea4ef0adb92e64f69f719fbe2bdc78136d1f6354e3ddf8954",
+        "official_en_sha256": "10d10a56462bca2d1bdb8f6930f12c46f1e7fdb88e0f97c0331b75f940565d7d"
+      },
+      "text": {
+        "jp": "実験的機能の軽量モジュールが使用されています",
+        "official_en": "Experimental lightweight modules are being used.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:GpuDynamicBoundsErrorSummary:6a50831c",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "GpuDynamicBoundsErrorSummary",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:GpuDynamicBoundsErrorSummary:6a50831c",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:GpuDynamicBoundsErrorSummary:6a50831c",
+        "jp_sha256": "9be7531e923dbb0da002aea9700ebacf655e82bcf60ad1c608a3eb7a763b27b1",
+        "official_en_sha256": "7988ceeda18e0184a9e7cf274e97a9a31f73b03d5a753800e236ca2fc0d239fd"
+      },
+      "text": {
+        "jp": "GPU エミッタでは動的境界はサポートされていません",
+        "official_en": "GPU emitters do not support dynamic bounds",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:GpuUsageInfo:aa46f58f",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "GpuUsageInfo",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:GpuUsageInfo:aa46f58f",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:GpuUsageInfo:aa46f58f",
+        "jp_sha256": "8c1efccbbc2ed9444a3fd0a45213cec68290f7ca430f35fbfa8e861feb438919",
+        "official_en_sha256": "b1578cf22c708e01e4f2b0d49d344b9eaa4a332458d4dfc7dfb0e72043cc9716"
+      },
+      "text": {
+        "jp": "GPU の使用率が想定どおりに機能しないことがあります",
+        "official_en": "GPU usage may not function as expected",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:GpuUsageInfoDetails:568ded29",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "GpuUsageInfoDetails",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:GpuUsageInfoDetails:568ded29",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:GpuUsageInfoDetails:568ded29",
+        "jp_sha256": "56e4f2513174a4c8d1f7f6a33b632481c875e6ac704bab8f7bf9e46e654ca842",
+        "official_en_sha256": "d03a190d8c09f992b480bd59a5531b690446d64b571e28e56028daaac7f4bd8a"
+      },
+      "text": {
+        "jp": "「{0}」で GPU の使用率が想定どおりに機能しないことがあります",
+        "official_en": "GPU usage may not function as expected on '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:GoToValidationRulesFix:5ae80aee",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "GoToValidationRulesFix",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:GoToValidationRulesFix:5ae80aee",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:GoToValidationRulesFix:5ae80aee",
+        "jp_sha256": "dded7e4336ca65044c936761600c378c0a27aafabee92c60bdfddcbc653873b1",
+        "official_en_sha256": "c478cbdce4d8228ead7c541a410542d6ab6cb7a32cebdd63c0443ecbb4a2d06c"
+      },
+      "text": {
+        "jp": "検証ルールに移動",
+        "official_en": "Go To Validation Rules",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:GpuDynamicBoundsErrorDescription:b53d11bd",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "GpuDynamicBoundsErrorDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:GpuDynamicBoundsErrorDescription:b53d11bd",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:GpuDynamicBoundsErrorDescription:b53d11bd",
+        "jp_sha256": "c878c80bfc36494ff9d8b431ad7539e4ba6c8c1a64ac8505e99d31a434c1a8e5",
+        "official_en_sha256": "cadc57f271e92a0187dccd4a119af0603a7ad7ea1b06f114e97e090bce3a4191"
+      },
+      "text": {
+        "jp": "GPU エミッタが動的モードではないか、システムに固定境界がある必要があります",
+        "official_en": "Gpu emitter should either not be in dynamic mode or the system must have fixed bounds.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:PositionLinkedVectorSummary:780598dc",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "PositionLinkedVectorSummary",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:PositionLinkedVectorSummary:780598dc",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:PositionLinkedVectorSummary:780598dc",
+        "jp_sha256": "aba257f54212eaf31397d0a33fc6ab58d67d9eaddf4648c427eaa375272a28d2",
+        "official_en_sha256": "084f7f8e0126cdddff63c95749dce4fe982b9058c3a875b3b9e18872c896bf4f"
+      },
+      "text": {
+        "jp": "入力「{0}」はベクター属性にリンクされています",
+        "official_en": "Input '{0}' is linked to a vector attribute",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:LocalPosInputSummary:35e2467a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "LocalPosInputSummary",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:LocalPosInputSummary:35e2467a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:LocalPosInputSummary:35e2467a",
+        "jp_sha256": "70539324edbf88e0b12ab7fc04c453e7643ade956029e2ed3e25030d82d3ea9b",
+        "official_en_sha256": "c01874ce13fcfaa7238446125fa8f79642ec962952927bd88b2262162ef2958a"
+      },
+      "text": {
+        "jp": "入力「{0}」に絶対値が設定されています",
+        "official_en": "Input '{0}' set to absolute value",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:InvalidEffectSummary:a1aae056",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "InvalidEffectSummary",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:InvalidEffectSummary:a1aae056",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:InvalidEffectSummary:a1aae056",
+        "jp_sha256": "424bb609bcdad0b1f471f5141b92afcb67b9ebc434b2827c1cdadc6230d8b739",
+        "official_en_sha256": "f5c0fc8c9dc88533385635210e0c3fc38f16eff4c0b2376c0515ab22482439f5"
+      },
+      "text": {
+        "jp": "無効なエフェクト タイプです",
+        "official_en": "Invalid Effect Type",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:StatelessNotAllowed:195a3e61",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "StatelessNotAllowed",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:StatelessNotAllowed:195a3e61",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:StatelessNotAllowed:195a3e61",
+        "jp_sha256": "7d740cbf85c01c1212023bd1b6a7f5e1444bdfc0ff89b1d4922a8a2c04769ae2",
+        "official_en_sha256": "bbc7c00c1c12122e3d37fc6810e07185d2b6da89adaf004fd89f6fea88a7ed0b"
+      },
+      "text": {
+        "jp": "軽量エミッタが使用されています",
+        "official_en": "Lightweight emitter is being used.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:StatelessNotAllowedDesc:72ebef4b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "StatelessNotAllowedDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:StatelessNotAllowedDesc:72ebef4b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:StatelessNotAllowedDesc:72ebef4b",
+        "jp_sha256": "9afb63be565b21f808f15da9bdc05a77ff890042ad6d5f222ce774900a873c2d",
+        "official_en_sha256": "0077e3e07237c7d989aa6a27dee6aaebdabe57f258b12c5c840ab68c7db2eed4"
+      },
+      "text": {
+        "jp": "軽量エミッタ {0} は許可されていないため、無効にするか削除してください",
+        "official_en": "Lightweight emitter {0} is not allowed, please disable or remove.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:NoMapForOnCpu:4ceb3436",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "NoMapForOnCpu",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:NoMapForOnCpu:4ceb3436",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:NoMapForOnCpu:4ceb3436",
+        "jp_sha256": "0a8a5939a3477e8db44d0cff3c4f3ded370d3dff961100665af84858eb3e6fa7",
+        "official_en_sha256": "e509b995f58a8e23104a7aaf7c8eb336de74b01ad2f395f748e933f047aef56f"
+      },
+      "text": {
+        "jp": "ノードのマップは CPU スクリプトで動作しません",
+        "official_en": "Map for node doesn't work in cpu scripts",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:SingletonModuleError:85c4c9da",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "SingletonModuleError",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:SingletonModuleError:85c4c9da",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:SingletonModuleError:85c4c9da",
+        "jp_sha256": "6fb1bced4bc0d0daa2ea7b59dc6205a50a4671cc3bab893cc7303fb7d3c039e4",
+        "official_en_sha256": "67651209366997eb78c787ff1e95e59629553e51a1aac025427f715e74bd1650"
+      },
+      "text": {
+        "jp": "モジュールはスタックごとに 1 回のみ使用できます",
+        "official_en": "Module can only be used once per stack",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:NoFixedDeltaTimeModule:dcdd0d91",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "NoFixedDeltaTimeModule",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:NoFixedDeltaTimeModule:dcdd0d91",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:NoFixedDeltaTimeModule:dcdd0d91",
+        "jp_sha256": "127ad37b39324a6f8c83e6c567feaaaa9318a23d539a7e544d12936261e102a0",
+        "official_en_sha256": "4505fc2e35fd234c1ba958624b56d42ba312333c9df6fe65368a92cef852a345"
+      },
+      "text": {
+        "jp": "モジュールでは固定ティック デルタ時間はサポートされていません",
+        "official_en": "Module does not support fixed tick delta time",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:SimTargetModuleError:1bbf13ea",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "SimTargetModuleError",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:SimTargetModuleError:1bbf13ea",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:SimTargetModuleError:1bbf13ea",
+        "jp_sha256": "fab5ba155abf7f12324f0fd1c2a4d036fa9d3d334c82980fba25f67b2700a6b9",
+        "official_en_sha256": "558d66b9f2c60aab2a39d996008984e68a67289555f7c0ae9e71b1d33fcc9d72"
+      },
+      "text": {
+        "jp": "このモジュールは現在のエミッタ シミュレーション ターゲットと互換性がありません",
+        "official_en": "Module is not compatible with the current emitter sim target",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:BannedModuleFormat:4b801d0d",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "BannedModuleFormat",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:BannedModuleFormat:4b801d0d",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:BannedModuleFormat:4b801d0d",
+        "jp_sha256": "59c159d2cecfad80f0e1575e71886f6d91e3f7074697780c4fb73ea2c6aa40bc",
+        "official_en_sha256": "cf29461e339626158abeb8700540fd791b1b61213fed4bdfdf651ebd071dc55b"
+      },
+      "text": {
+        "jp": "モジュール{0}は、現在有効になっている一部のプラットフォームで禁止されています",
+        "official_en": "Module {0} is banned on some currently enabled platforms",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:SystemNotUsingEffectTypeIssue:ec5fa3e8",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "SystemNotUsingEffectTypeIssue",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:SystemNotUsingEffectTypeIssue:ec5fa3e8",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:SystemNotUsingEffectTypeIssue:ec5fa3e8",
+        "jp_sha256": "f57b04a162e4bac378789a7e2d0758ef7d5290dec3a7286291491e46afb54337",
+        "official_en_sha256": "99194716389faf016af9d6de0720ece74907a5e4d2cb9e84f4f8b77c681203d2"
+      },
+      "text": {
+        "jp": "エフェクト タイプが指定されていません",
+        "official_en": "No Effect Type Specified",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:TickDependencyCheckFormat:56ee38e3",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "TickDependencyCheckFormat",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:TickDependencyCheckFormat:56ee38e3",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:TickDependencyCheckFormat:56ee38e3",
+        "jp_sha256": "309760381c2150e657d67e2db89f912ba9b107dc2cc488379916eb0b14fc273e",
+        "official_en_sha256": "d3d5f349ca7250a90adb84796c1b7318503c595a1dc63ba993404b0c0207a38f"
+      },
+      "text": {
+        "jp": "ゲーム スレッドでの待機を引き起こす可能性があるティックの遅れが原因で、パフォーマンスが低下する問題が発生します",
+        "official_en": "Performance issue due to late ticking which may cause waits on the game thread.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:BannedRenderDescription:78b1ad7d",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "BannedRenderDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:BannedRenderDescription:78b1ad7d",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:BannedRenderDescription:78b1ad7d",
+        "jp_sha256": "88c45c29b1b40dd4099ccf59bf33312ff1b82386a9f0ed7ef12f333aab53c1cd",
+        "official_en_sha256": "ab3581e19498fe495ccb9ac0fe161cbcc4e6d3ec0d792b66abeb4b6a082c4030"
+      },
+      "text": {
+        "jp": "システムのエフェクト タイプでの検証ルールに従って、許可されているレンダラのみが各プラットフォームで使用されるようにしてください",
+        "official_en": "Please ensure only allowed renderers are used for each platform according to the validation rules in the System's Effect Type.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:LocalPosInputDescription:5b8c5c34",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "LocalPosInputDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:LocalPosInputDescription:5b8c5c34",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:LocalPosInputDescription:5b8c5c34",
+        "jp_sha256": "fd2b7bbf187bb824a30c5021171aed117d118e99ac5a801f400a043457408268",
+        "official_en_sha256": "8a53688e4f7901c4800229d61c80d258aba605c197f4034bcb1ac479eca6f3b8"
+      },
+      "text": {
+        "jp": "Large World Coordinates の使用時に位置属性はオフセットになるため、位置属性に絶対値を設定してはなりません\n代わりに、Engine.Owner.Position のような既知の位置を基準として設定します",
+        "official_en": "Position attributes should never be set to an absolute values, because they will be offset when using large world coordinates.\nInstead, set them relative to a known position like Engine.Owner.Position.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:VecDILinkedToPosInputSummary:747e8d8a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "VecDILinkedToPosInputSummary",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:VecDILinkedToPosInputSummary:747e8d8a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:VecDILinkedToPosInputSummary:747e8d8a",
+        "jp_sha256": "17b6225e32dafc2bab970b29e10e5de1a433ca9499dfab352abecdb0265cb303",
+        "official_en_sha256": "4e0e34520558986f1253495aa9aa4da1fe8083b469fea960a7e57338c84dd609"
+      },
+      "text": {
+        "jp": "位置入力がベクター出力にリンクされています",
+        "official_en": "Position input is linked to a vector output",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:PositionLinkedVectorDescription:2bde7bb9",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "PositionLinkedVectorDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:PositionLinkedVectorDescription:2bde7bb9",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:PositionLinkedVectorDescription:2bde7bb9",
+        "jp_sha256": "f96884440751b51299301f61c4ee210548b1e54398ecb452aa631f757871b5ed",
+        "official_en_sha256": "f2b8ee010c6d874ce710f585df369bfe5d76dafc073c08aa56a4624a1eedd317"
+      },
+      "text": {
+        "jp": "位置タイプは位置属性にのみリンクされている必要があります。ここでは、位置タイプがベクター属性にリンクされているため、暗黙の変換によって Large World Coordinates で問題が生じる可能性があります",
+        "official_en": "Position types should only be linked to position attributes. In this case, it is linked to a vector attribute and the implicit conversion can cause problems with large world coordinates.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:NoOpaqueRenderMaterialSummary:118dbf5d",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "NoOpaqueRenderMaterialSummary",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:NoOpaqueRenderMaterialSummary:118dbf5d",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:NoOpaqueRenderMaterialSummary:118dbf5d",
+        "jp_sha256": "f895346aad59e902fa4cf9cef0eb1ff4222c25db6b29d118a0a0acc0e7efa967",
+        "official_en_sha256": "5d0ec4b8222b48018887c855b9133659411b46b8b764f7f38d881d9db08f3cd2"
+      },
+      "text": {
+        "jp": "レンダラ「{0}」に不透明型マテリアルがあります",
+        "official_en": "Renderer '{0}' has an opaque material",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:RendererCountLimitExceededFmt:e752fee0",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "RendererCountLimitExceededFmt",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:RendererCountLimitExceededFmt:e752fee0",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:RendererCountLimitExceededFmt:e752fee0",
+        "jp_sha256": "a097783de425aa78583f9fcba220c0537ace841471a3928ffa55773d488f5b39",
+        "official_en_sha256": "c6befb4a22fa8f083e1bf3c61f2cb3917b49c4b9eefe5da443bee8c732fd89ff"
+      },
+      "text": {
+        "jp": "レンダラの数制限「{0}」を超過しました",
+        "official_en": "Renderer count limit '{0}' exceeded",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:RendererCountLimitExceeded:56e3255a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "RendererCountLimitExceeded",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:RendererCountLimitExceeded:56e3255a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:RendererCountLimitExceeded:56e3255a",
+        "jp_sha256": "60f86af6860bb6bacbaaf6feb7c67c733598ca69a8bdb8e2a3fdbbbc855fab60",
+        "official_en_sha256": "a93e269d39e8f7eedfebe26e0461863fd15cb2c26f278c82a3abd49f325b68f4"
+      },
+      "text": {
+        "jp": "レンダラの数制限を超過しました",
+        "official_en": "Renderer count limit exceeded",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:RibbonRenderer_GpuInitError:d166ec7e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "RibbonRenderer_GpuInitError",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:RibbonRenderer_GpuInitError:d166ec7e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:RibbonRenderer_GpuInitError:d166ec7e",
+        "jp_sha256": "1ae9598bc9047291bf82df64e9d764b60c3de9f60409d2e30114263f2954efde",
+        "official_en_sha256": "2d67211ebb09b358c59b11fca3b36ce3776eedfe6005e57c60a2e76380941a4a"
+      },
+      "text": {
+        "jp": "リボンレンダラが GPU init で使用されます",
+        "official_en": "Ribbon Renderer is used with GPU init",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:RibbonRenderer_GpuInitErrorDetails:69ba998f",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "RibbonRenderer_GpuInitErrorDetails",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:RibbonRenderer_GpuInitErrorDetails:69ba998f",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:RibbonRenderer_GpuInitErrorDetails:69ba998f",
+        "jp_sha256": "c8447346ed7c0cd09efe12864d401dd1dbd11ff95f1f25efe309a82bdc238a62",
+        "official_en_sha256": "fcb031d0de47c6b16ed60e9b04543536f040c002b49c3acf61b880501520e925"
+      },
+      "text": {
+        "jp": "リボンレンダラが GPU init で使用されます。「{0}」でレンダラは想定どおりに機能しないことがあります",
+        "official_en": "Ribbon Renderer is used with GPU init and may not function as expected on '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:RibbonRenderer_GpuSimulationError:7fc4dbe9",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "RibbonRenderer_GpuSimulationError",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:RibbonRenderer_GpuSimulationError:7fc4dbe9",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:RibbonRenderer_GpuSimulationError:7fc4dbe9",
+        "jp_sha256": "94fb202e0a86f53e6beada6310fc163d2b6475950ea30eda1c39ecfbac39a2bc",
+        "official_en_sha256": "bc2c6ac0044c87873a784200d6eabeb3c04e7ef59010c944111aecc8109b559f"
+      },
+      "text": {
+        "jp": "リボンレンダラが GPU シミュレーションで使用されます",
+        "official_en": "Ribbon Renderer is used with GPU simulation",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:RibbonRenderer_GpuSimulationErrorDetails:790c9ec2",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "RibbonRenderer_GpuSimulationErrorDetails",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:RibbonRenderer_GpuSimulationErrorDetails:790c9ec2",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:RibbonRenderer_GpuSimulationErrorDetails:790c9ec2",
+        "jp_sha256": "2c9ff857e5c43168d80e0311994e0b028f88002953b8423fb2c6e086a6afc44c",
+        "official_en_sha256": "04d04fb16a6d312c22cc025b5366069ca175e4ea9498afd977f3601858fc9131"
+      },
+      "text": {
+        "jp": "リボンレンダラが GPU シミュレーションで使用されます。「{0}」で想定どおりに機能しないことがあります",
+        "official_en": "Ribbon Renderer is used with GPU simulation and may not function as expected on '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:SetCPUSim:39c32770",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "SetCPUSim",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:SetCPUSim:39c32770",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:SetCPUSim:39c32770",
+        "jp_sha256": "399cba2e504f1ab08fb925398ede99c777c01a6c1e46c269b0bbd511b89600c2",
+        "official_en_sha256": "44e4713ac1bbdc9747c9fc7fd552e72074c4745bb19ab57fee74a9d2d33b7fe4"
+      },
+      "text": {
+        "jp": "CPUのシミュレーションの設定",
+        "official_en": "Set CPU Simulation",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:GpuUsageInfoFix_SwitchToCput:25bf1504",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "GpuUsageInfoFix_SwitchToCput",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:GpuUsageInfoFix_SwitchToCput:25bf1504",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:GpuUsageInfoFix_SwitchToCput:25bf1504",
+        "jp_sha256": "5f5f82c4e0afd7920a8da637caa317bc6e2ee4b58037b96547e589e95b3b3fb0",
+        "official_en_sha256": "3fc8bd6b07da2f3ccf8601990439adf9d89b6bf21d71bf8f53b4c1d15db5b1e9"
+      },
+      "text": {
+        "jp": "エミッタをCPUに設定",
+        "official_en": "Set emitter to CPU",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:SimStageTooManyIterationsFormat:f43e0204",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "SimStageTooManyIterationsFormat",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:SimStageTooManyIterationsFormat:f43e0204",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:SimStageTooManyIterationsFormat:f43e0204",
+        "jp_sha256": "2790096c8cf1acaeb36adaf932a137ecd6124ff24932657f91dc37358d92129b",
+        "official_en_sha256": "23a82f438008f7f1520790f5bd9cdd691f876de9cf23a322c0b06cb15b860a44"
+      },
+      "text": {
+        "jp": "シミュレーション ステージ「{0}」でのイテレーションが多すぎます",
+        "official_en": "Simulation Stage '{0}' has too many iterations",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:SimStageTooManyIterationsDetailedFormat:bb4406b0",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "SimStageTooManyIterationsDetailedFormat",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:SimStageTooManyIterationsDetailedFormat:bb4406b0",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:SimStageTooManyIterationsDetailedFormat:bb4406b0",
+        "jp_sha256": "6b7ed1d912d4888479ad7bc7280e74b246a4e7fc5a05cc6971136120177a8d04",
+        "official_en_sha256": "99e2bb6643df859b1c1b3524222ae0e4ddfa5512bf0f300c451c1f1acad2eee6"
+      },
+      "text": {
+        "jp": "シミュレーション ステージ「{0}」に{1}のイテレーションがありますが、許容されているのは{2}のみです",
+        "official_en": "Simulation Stage '{0}' has {1} iterations and we only allow {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:RendererSortingEnabledDesc:cef7793c",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "RendererSortingEnabledDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:RendererSortingEnabledDesc:cef7793c",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:RendererSortingEnabledDesc:cef7793c",
+        "jp_sha256": "65cc539ee2e4940220f10385f7ac5d4020cdd805f15b2f04c66ed9a84a245289",
+        "official_en_sha256": "db62a1ebdef28a16749728606a4b62e035e26f5b78f310e471577a89136d0e2d"
+      },
+      "text": {
+        "jp": "レンダラでソートが有効になっているため、パフォーマンスが犠牲になります。ソートを無効にできるかどうかを検討します",
+        "official_en": "Sorting is enabled on the renderer, this costs performance consider if it can be disabled or not.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:RendererSortingEnabled:f11a5b99",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "RendererSortingEnabled",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:RendererSortingEnabled:f11a5b99",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:RendererSortingEnabled:f11a5b99",
+        "jp_sha256": "fb8811dd8ea0586c9b57ada9030e2a427e6dfabf90da1635eebd6e8138830a58",
+        "official_en_sha256": "30ab67621f6eacbd4bfa6ed2463d93315c37210eba00df3650583b1b87e39179"
+      },
+      "text": {
+        "jp": "レンダラでソートが有効になっています",
+        "official_en": "Sorting is enabled on the renderer.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:SwitchToDefaultEffectType:233521cc",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "SwitchToDefaultEffectType",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:SwitchToDefaultEffectType:233521cc",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:SwitchToDefaultEffectType:233521cc",
+        "jp_sha256": "5d3fefa198a5705a01b36c22f99a05420c7fd97c10fef3a668ffebf41d74789e",
+        "official_en_sha256": "62ef71446ef930857334a5c08f34e9f07ba3aa2f23046d6f150d739b57542096"
+      },
+      "text": {
+        "jp": "このプロジェクトのデフォルトのエフェクト タイプに切り替えます",
+        "official_en": "Switch to the default effect type for this project.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:FixtSystemRequireCurrentFrameData:3caf5e55",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "FixtSystemRequireCurrentFrameData",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:FixtSystemRequireCurrentFrameData:3caf5e55",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:FixtSystemRequireCurrentFrameData:3caf5e55",
+        "jp_sha256": "2bda1f4c31be10c5e6ba84e2a731f52fca7755dd7a16f120ad4a83c7a28703ac",
+        "official_en_sha256": "1b0449e7efb8c84bc0ca712e8a356e9222dc3f7d02e74f8a82edaf1465214d66"
+      },
+      "text": {
+        "jp": "システムで現在のフレーム データが無効になっている必要があります",
+        "official_en": "System Require Current Frame Data Disabled",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:WarmupDescription:0d93f26a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "WarmupDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:WarmupDescription:0d93f26a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:WarmupDescription:0d93f26a",
+        "jp_sha256": "64b1e567e29094bbae18ffbc72ed166659f68387149bc217480aa9879462b908",
+        "official_en_sha256": "2260af154468ed13b922407e3ed88ecf5a0484d43ea7aeef45c19b6c87ffe738"
+      },
+      "text": {
+        "jp": "エフェクトタイプが選択されているシステムでは、パフォーマンスが大幅に低下するため、ウォームアップ時間は許容されていません\nシステム プロパティでウォームアップ時間を 0 に設定してください",
+        "official_en": "Systems with the chosen effect type do not allow warmup time, as it costs too much performance.\nPlease set the warmup time to 0 in the system properties.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:InvalidEffectDescription:5fe05207",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "InvalidEffectDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:InvalidEffectDescription:5fe05207",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:InvalidEffectDescription:5fe05207",
+        "jp_sha256": "7d229c63404f03cac7e6666937f65e820d5cc3724030b9bb1aacd5cfd6624ac2",
+        "official_en_sha256": "5830495de5881f1ffcf791f216d44b4a2822f1add0626dd0ba87ad4befea4fda"
+      },
+      "text": {
+        "jp": "このシステムのエフェクト タイプは、プロダクション コンテンツでは無効とマークされており、プレースホルダーとしてのみ使用する必要があります",
+        "official_en": "The effect type on this system was marked as invalid for production content and should only be used as placeholder.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:DeprecatedEmitterUsedDescription:f655a986",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "DeprecatedEmitterUsedDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:DeprecatedEmitterUsedDescription:f655a986",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:DeprecatedEmitterUsedDescription:f655a986",
+        "jp_sha256": "2ebc318b9273a67778675278abe33cd0708f7fb30f1723137e1e4703d7538a01",
+        "official_en_sha256": "cfd55a1d98f74d09faaf776fcca8aff5121272923223fab4c40f6f0e88bc5587"
+      },
+      "text": {
+        "jp": "このエミッタは非推奨であるため使用せずに、置き換えることを検討してください",
+        "official_en": "The emitter is deprecated and should not be used. Consider replacing it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:VecDILinkedToPosInputDescription:1a435172",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "VecDILinkedToPosInputDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:VecDILinkedToPosInputDescription:1a435172",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:VecDILinkedToPosInputDescription:1a435172",
+        "jp_sha256": "011112d50ce6cb8223fcf4cb6a5aec03a3d3517ead395d852044fb4d7eaea252",
+        "official_en_sha256": "2a631a6f9f1bd0253396fcc05a0758837c4fd218066be6b8ca0accf41dd71155"
+      },
+      "text": {
+        "jp": "位置入力{0}が、ベクターを出力する動的入力にリンクされています\n代わりに、位置を出力する動的入力を使用するか、ベクターを位置タイプに明示的に変換してください",
+        "official_en": "The position input {0} is linked to a dynamic input that outputs a vector.\nPlease use a dynamic input that outputs a position instead or explicitly convert the vector to a position type.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:NoMapForOnCpuDetailed:a7bb4846",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "NoMapForOnCpuDetailed",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:NoMapForOnCpuDetailed:a7bb4846",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:NoMapForOnCpuDetailed:a7bb4846",
+        "jp_sha256": "4e6f9179343664aff58daf8fa95f1bf593a543bad7a0b9edd02bd338faa1ed73",
+        "official_en_sha256": "496460e987b6640a6c42d9c4f83dc62b27144b8a0b412bf6902f89a2c1309581"
+      },
+      "text": {
+        "jp": "このモジュールに、CPU スクリプトでまだ動作しないノードのマップが含まれます。\nノードのマップは、パーティクル GPU スクリプトでのみ動作します。システムおよびエミッタのスクリプトは常に CPU で動作します",
+        "official_en": "This module contains a map for node, which does not work yet for cpu scripts.\nMap for nodes only work in particle gpu scripts. System and emitter scripts always run on the cpu.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:SimTargetModuleErrorDetailed:d570f577",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "SimTargetModuleErrorDetailed",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:SimTargetModuleErrorDetailed:d570f577",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:SimTargetModuleErrorDetailed:d570f577",
+        "jp_sha256": "927944ef46b7a4241830ea530fa3bca1213e79662648d7c987942c50778f55c9",
+        "official_en_sha256": "d56eabf3ba6d69a87974c3ee296a7a35c60892ba04400576995f96ea68408a5e"
+      },
+      "text": {
+        "jp": "このモジュールにはエミッタ シミュレーション ターゲットに関する制限があるため、CPU エミッタと GPU エミッタの両方で実行することはできません",
+        "official_en": "This module has a restriction on the emitter sim target and can't run on both cpu/gpu emitters.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:SingletonModuleErrorDetailed:61c20aa8",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "SingletonModuleErrorDetailed",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:SingletonModuleErrorDetailed:61c20aa8",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:SingletonModuleErrorDetailed:61c20aa8",
+        "jp_sha256": "0ec1fefe871e16cc93ec0cd82b0cf8395ebd19510a7875daa10b4d1ffc51e6a9",
+        "official_en_sha256": "a7dc50135ca81f76f1d7494ec621b6a3dba40ed76faedf700939af7f90043898"
+      },
+      "text": {
+        "jp": "このモジュールはシングルトンとしての使用を想定しています。そのため、エミッタまたはシステム スタックごとに 1 回しか使用できません。\nこれは、通常、書き込まれた属性を共有するため、モジュール間でデータの依存関係がある場合に当てはまります",
+        "official_en": "This module is intended to be used as a singleton, so only once per emitter or system stack.\nThis is usually the case when there is a data dependency between modules because they share written attributes.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:SimTargetModuleCpuDetailedError:df09a0af",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "SimTargetModuleCpuDetailedError",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:SimTargetModuleCpuDetailedError:df09a0af",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:SimTargetModuleCpuDetailedError:df09a0af",
+        "jp_sha256": "6203153c95df37fe7f6ae89101e09edf908b9d0d514ec9638639fe5808fb5ea4",
+        "official_en_sha256": "f6fab6759881b00dd7ec0933a43a83ed325788a49f5e5465c2237caa5dfe3eea"
+      },
+      "text": {
+        "jp": "このモジュールはシステムまたはエミッタ スクリプト (常に CPU で実行される) で使用されていますが、このモジュールは GPU で実行される必要があります。このモジュールをパーティクル スクリプト、または GPU エミッタのシミュレーション ステージに配置してください",
+        "official_en": "This module is used in a system or emitter script (which are always executed on the cpu), but the module needs to run on the gpu. Place it in a particle script or simulation stage of a gpu emitter.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:SimTargetModuleCpuError:c7b4071e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "SimTargetModuleCpuError",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:SimTargetModuleCpuError:c7b4071e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:SimTargetModuleCpuError:c7b4071e",
+        "jp_sha256": "e8c017e6f6c733ffdfd449e29b37deb0041048e8e95a334cbb080464450cf07b",
+        "official_en_sha256": "0764965676e41cd8fdf5306af11750081e4daf96a990e10cf15e3c2246ef625b"
+      },
+      "text": {
+        "jp": "このモジュールでサポートされているのは、GPU シミュレーション ターゲットのみです",
+        "official_en": "This module only supports gpu sim targets",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:NoOpaqueRenderMaterialDescription:5b1734dd",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "NoOpaqueRenderMaterialDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:NoOpaqueRenderMaterialDescription:5b1734dd",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:NoOpaqueRenderMaterialDescription:5b1734dd",
+        "jp_sha256": "454001861031883ef99209f2f7699f66c45f27d7bd8310096af78c9cba4d93d0",
+        "official_en_sha256": "7c882351d167a4d8ed40f9e0c89272a350db8ef2ea7c514c4085a276989de35f"
+      },
+      "text": {
+        "jp": "このレンダラではマスク ブレンド モードまたは不透明ブレンド モードが使用されているため、深度バッファへの書き込みが行われます\nそうすると、コリジョン モジュールでも深度バッファのコリジョンが使用されている場合に、競合が発生します",
+        "official_en": "This renderer uses a material with a masked or opaque blend mode, which writes to the depth buffer.\nThis will cause conflicts when the collision module also uses depth buffer collisions.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:SystemNotUsingEffectTypeIssueLong:4624238c",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "SystemNotUsingEffectTypeIssueLong",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:SystemNotUsingEffectTypeIssueLong:4624238c",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:SystemNotUsingEffectTypeIssueLong:4624238c",
+        "jp_sha256": "5f34dbcc7e22df952142f2b1ac52b723e6c52a45cc96066d7e69497ff05298a3",
+        "official_en_sha256": "3f731538cdc31e6dca348ba3ceb3bd2fec1f76ba5add813e7b28577b6537ce1a"
+      },
+      "text": {
+        "jp": "このシステムではエフェクト タイプが割り当てられていません",
+        "official_en": "This system does not have an Effect Type assigned.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:NoFixedDeltaTimeModuleDetailed:1b7f601e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "NoFixedDeltaTimeModuleDetailed",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:NoFixedDeltaTimeModuleDetailed:1b7f601e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:NoFixedDeltaTimeModuleDetailed:1b7f601e",
+        "jp_sha256": "7fe3fe69102884263d3f0a808cc06637e9c7bc882fa2eb56e8e34fbd7daf1c0f",
+        "official_en_sha256": "1dca61314bf7b18a6df63bff1a7e1f79db24f17c5572d9f8148f2e3be3357472"
+      },
+      "text": {
+        "jp": "このシステムでは固定ティック デルタ時間が使用されるため、フレームごとに複数回ティックされることや、グローバル ティック レートに応じてティックがスキップされることがあります\nレンダー ターゲットやコリジョン データなどの外部アセットに依存するモジュールは、そのティックがエンジンのティックと異なっていると正しく動作しません\nそのため、固定ティック デルタ時間を無効にすることを検討してください",
+        "official_en": "This system uses a fixed tick delta time, which means it might tick multiple times per frame or might skip ticks depending on the global tick rate.\nModules that depend on external assets such as render targets or collision data will NOT work correctly when their tick is different from the engine tick.\nConsider disabling the fixed tick delta time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:NoFixedDeltaTimeDetailed:ce3ee4b0",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "NoFixedDeltaTimeDetailed",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:NoFixedDeltaTimeDetailed:ce3ee4b0",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:NoFixedDeltaTimeDetailed:ce3ee4b0",
+        "jp_sha256": "ccc9dd8289aed9f8f01a6055d9e08409bd756ad4e566c5ef14de7aff889f6c50",
+        "official_en_sha256": "21edb7ef0c8473f55ae16359d0b435d6113557dda8f431c58e1a7ace46a18239"
+      },
+      "text": {
+        "jp": "このシステムでは固定ティック デルタ時間が使用されるため、フレームごとに複数回ティックされることや、グローバル ティック レートに応じてティックがスキップされることがあります\n選択されているエフェクト タイプでは、固定ティック デルタ時間は許容されていません",
+        "official_en": "This system uses a fixed tick delta time, which means it might tick multiple times per frame or might skip ticks depending on the global tick rate.\nThe selected effect type does not allow fixed tick delta times.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:UserDataInterfaceFormat:c7e99c95",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "UserDataInterfaceFormat",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:UserDataInterfaceFormat:c7e99c95",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:UserDataInterfaceFormat:c7e99c95",
+        "jp_sha256": "6c8fe8c9ec52caf6405488c9378f92610eec58a05eac13cdc12cbd5037875f3c",
+        "official_en_sha256": "8bbb00055ffef23b24daa6aac6d76ed04adffeb8a54e27fadc4dd6411c95ba8e"
+      },
+      "text": {
+        "jp": "ユーザーの DataInterface「{0}」を削除する必要があります",
+        "official_en": "User DataInterface '{0}' should be removed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:WarumupSummary:4ca6a879",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "WarumupSummary",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:WarumupSummary:4ca6a879",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:WarumupSummary:4ca6a879",
+        "jp_sha256": "536e93c766fcb93d9876f3100d07a5547466f543ed749c6314faebb3dc417a1c",
+        "official_en_sha256": "58ccc72446d74e86a2a3af6266ff029ac5ebfe1068dacd771aab3d68b29691b8"
+      },
+      "text": {
+        "jp": "0 より大きいウォームアップ時間は許容されていません",
+        "official_en": "Warmuptime > 0 is not allowed",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:EmitterCountLimitDesc:86c275e1",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "EmitterCountLimitDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:EmitterCountLimitDesc:86c275e1",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:EmitterCountLimitDesc:86c275e1",
+        "jp_sha256": "9cba5b6f49acea706f90557b28200832a36819ba257fb49aadff3bdec39ac738",
+        "official_en_sha256": "86c831fc92773259b47f07d15422c528a58ace952d19ebf46b37e7da970f6a41"
+      },
+      "text": {
+        "jp": "プラットフォーム「{3}」で {0} {1}/{2} です。エミッタ数を減らしてパフォーマンスを改善してください",
+        "official_en": "{0} {1}/{2} for platforms '{3}' please reduce the emitter count to improve performance.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:RendererCountLimitDesc:402ca87a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "RendererCountLimitDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:RendererCountLimitDesc:402ca87a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:RendererCountLimitDesc:402ca87a",
+        "jp_sha256": "b224e857924a774ab5865db6279f110fbcc2ad34c3a7519f1274d42f0e5d6d42",
+        "official_en_sha256": "5e3917c1149b42101bb44608aea0daea0c00a616c920ee096e184ab8e616a309"
+      },
+      "text": {
+        "jp": "プラットフォーム「{3}」で {0} {1}/{2} です。レンダラ数を減らしてパフォーマンスを改善してください",
+        "official_en": "{0} {1}/{2} for platforms '{3}' please reduce the renderer count to improve performance.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:EmitterCountLimit:0f38fbac",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "EmitterCountLimit",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:EmitterCountLimit:0f38fbac",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:EmitterCountLimit:0f38fbac",
+        "jp_sha256": "704562d406c8a4830f1a93e3197cbfff128dfc37ca26fd0e367664823bd71697",
+        "official_en_sha256": "704562d406c8a4830f1a93e3197cbfff128dfc37ca26fd0e367664823bd71697"
+      },
+      "text": {
+        "jp": "{0} {1}/{2}.",
+        "official_en": "{0} {1}/{2}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraValidationRules:RendererCountLimit:dad3057f",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraValidationRules",
+        "key": "RendererCountLimit",
+        "jp_record_id": "switch:locres:set-01:NiagaraValidationRules:RendererCountLimit:dad3057f",
+        "official_en_record_id": "switch:locres:set-01:NiagaraValidationRules:RendererCountLimit:dad3057f",
+        "jp_sha256": "704562d406c8a4830f1a93e3197cbfff128dfc37ca26fd0e367664823bd71697",
+        "official_en_sha256": "704562d406c8a4830f1a93e3197cbfff128dfc37ca26fd0e367664823bd71697"
+      },
+      "text": {
+        "jp": "{0} {1}/{2}.",
+        "official_en": "{0} {1}/{2}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

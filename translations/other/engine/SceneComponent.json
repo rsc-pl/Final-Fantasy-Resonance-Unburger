@@ -1,0 +1,493 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SceneComponent",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SceneComponent:AttachCycleWarning:3d946c9f",
+      "source": {
+        "set": "set-02",
+        "namespace": "SceneComponent",
+        "key": "AttachCycleWarning",
+        "jp_record_id": "switch:locres:set-01:SceneComponent:AttachCycleWarning:3d946c9f",
+        "official_en_record_id": "switch:locres:set-01:SceneComponent:AttachCycleWarning:3d946c9f",
+        "jp_sha256": "6f0289b48598efd70cf21e60aa94e41a780ef5b0cd672b6fbf8572a5bc0acb7b",
+        "official_en_sha256": "5efca9bf63390b2de8d7489d461d92581fdca013ce3f2b79ae83105aff6ec8fc"
+      },
+      "text": {
+        "jp": "AttachTo: '{0}' は既に '{1}' に親子付けされているため周期が生じます。中止します。",
+        "official_en": "AttachTo: '{0}' already attached to '{1}', would form cycle. Aborting.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SceneComponent:AttachToSelfWarning:9c323a2a",
+      "source": {
+        "set": "set-02",
+        "namespace": "SceneComponent",
+        "key": "AttachToSelfWarning",
+        "jp_record_id": "switch:locres:set-01:SceneComponent:AttachToSelfWarning:9c323a2a",
+        "official_en_record_id": "switch:locres:set-01:SceneComponent:AttachToSelfWarning:9c323a2a",
+        "jp_sha256": "40d6f18081fd9a0cdede4a4c280152fe716bd02e2c85e8376507cb0f15edcd5b",
+        "official_en_sha256": "21c15ef62026819cd2ad7a8c01083b702482b6292a3719ffb108ca031b6b22f0"
+      },
+      "text": {
+        "jp": "AttachTo: '{0}' を自身に親子付けすることはできません",
+        "official_en": "AttachTo: '{0}' cannot be attached to itself. Aborting.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SceneComponent:NoStaticToDynamicWarning:965f8503",
+      "source": {
+        "set": "set-02",
+        "namespace": "SceneComponent",
+        "key": "NoStaticToDynamicWarning",
+        "jp_record_id": "switch:locres:set-01:SceneComponent:NoStaticToDynamicWarning:965f8503",
+        "official_en_record_id": "switch:locres:set-01:SceneComponent:NoStaticToDynamicWarning:965f8503",
+        "jp_sha256": "a8eba3657095d5a2534b20c268c45f9d850e02f9568dc0dce95663e64dbb5181",
+        "official_en_sha256": "546da36aff11fd5a0897206090e3bc44e274473cc6dd1d9d14b3e618962f90be"
+      },
+      "text": {
+        "jp": "AttachTo: '{0}' は静的 {1} ではありません。静的である '{2}' を親子付けすることはできません。中止します。",
+        "official_en": "AttachTo: '{0}' is not static {1}, cannot attach '{2}' which is static to it. Aborting.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SceneComponent:AttachToSelfRootWarning:c00f1515",
+      "source": {
+        "set": "set-02",
+        "namespace": "SceneComponent",
+        "key": "AttachToSelfRootWarning",
+        "jp_record_id": "switch:locres:set-01:SceneComponent:AttachToSelfRootWarning:c00f1515",
+        "official_en_record_id": "switch:locres:set-01:SceneComponent:AttachToSelfRootWarning:c00f1515",
+        "jp_sha256": "7e86ddd6621bd66962528247b7d0a52c67866410c7c273f6cfe449cc6cc4ff21",
+        "official_en_sha256": "f581ebe1cf6a65c682bec7015fea83e1f3ea14f28efa2ac54cb84b1e5a10c76d"
+      },
+      "text": {
+        "jp": "アタッチ先:'{0}' ルートコンポーネントは同じアクタ内の他のコンポーネントにアタッチできません。アボートしています。",
+        "official_en": "AttachTo: '{0}' root component cannot be attached to other components in the same actor. Aborting.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SceneComponent:MobilityAlteredSingularNotification:107f9ed1",
+      "source": {
+        "set": "set-02",
+        "namespace": "SceneComponent",
+        "key": "MobilityAlteredSingularNotification",
+        "jp_record_id": "switch:locres:set-01:SceneComponent:MobilityAlteredSingularNotification:107f9ed1",
+        "official_en_record_id": "switch:locres:set-01:SceneComponent:MobilityAlteredSingularNotification:107f9ed1",
+        "jp_sha256": "ca99d59a2252de8816c557c07956f181fb4e43eb575d42d1eb9497266a46ec65",
+        "official_en_sha256": "378c25d8f530fc99c593abed4811f56ed114d41d4df1cb47e7c2e3edb1e876f8"
+      },
+      "text": {
+        "jp": "1つのコンポーネントのモビリティに変更が加わりました",
+        "official_en": "Caused 1 component to also change Mobility",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SceneComponent:IsEditorOnlyAlteredSingularNotification:419bda2e",
+      "source": {
+        "set": "set-02",
+        "namespace": "SceneComponent",
+        "key": "IsEditorOnlyAlteredSingularNotification",
+        "jp_record_id": "switch:locres:set-01:SceneComponent:IsEditorOnlyAlteredSingularNotification:419bda2e",
+        "official_en_record_id": "switch:locres:set-01:SceneComponent:IsEditorOnlyAlteredSingularNotification:419bda2e",
+        "jp_sha256": "b398cafa819aea8c8dc52c99510c684f5d18d87dfa35514d303e63a1cd96236a",
+        "official_en_sha256": "5e7d2a98e78ef9a8e1aeeec8ba5722917d27ee45602986634d3eb82d3e471e2b"
+      },
+      "text": {
+        "jp": "1つのコンポーネントのIsEditorOnlyビヘイビアも変更されました",
+        "official_en": "Caused 1 component to also change its IsEditorOnly behaviour",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SceneComponent:MobilityAlteredPluralNotification:d5299282",
+      "source": {
+        "set": "set-02",
+        "namespace": "SceneComponent",
+        "key": "MobilityAlteredPluralNotification",
+        "jp_record_id": "switch:locres:set-01:SceneComponent:MobilityAlteredPluralNotification:d5299282",
+        "official_en_record_id": "switch:locres:set-01:SceneComponent:MobilityAlteredPluralNotification:d5299282",
+        "jp_sha256": "5498b870df26403d1bcee9cf63fee4c187bcd11722f1155c423599d85f6c7a06",
+        "official_en_sha256": "8cf92e4a99a1dd145d3465f0536a83ad73fddef080139287461a144add06b06c"
+      },
+      "text": {
+        "jp": "{0}つの他のコンポーネントのモビリティに変更が加わりました",
+        "official_en": "Caused {0} other components to also change Mobility",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SceneComponent:IsEditorOnlyAlteredPluralNotification:b3b18e61",
+      "source": {
+        "set": "set-02",
+        "namespace": "SceneComponent",
+        "key": "IsEditorOnlyAlteredPluralNotification",
+        "jp_record_id": "switch:locres:set-01:SceneComponent:IsEditorOnlyAlteredPluralNotification:b3b18e61",
+        "official_en_record_id": "switch:locres:set-01:SceneComponent:IsEditorOnlyAlteredPluralNotification:b3b18e61",
+        "jp_sha256": "5bfc3aae14fe72b1619d9923c1e1a8f6288372f2ccb906ce79870a140752feaf",
+        "official_en_sha256": "fc806dc8a33d323e5c144afdc9273b917901cb1a944c656d7b0b6c7fb407e01e"
+      },
+      "text": {
+        "jp": "他の {0} 個のコンポーネントのIsEditorOnlyビヘイビアも変更されました",
+        "official_en": "Caused {0} other components to also change their IsEditorOnly behaviour",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SceneComponent:ComponentDetachedFromParentDueToMobility:3794c454",
+      "source": {
+        "set": "set-02",
+        "namespace": "SceneComponent",
+        "key": "ComponentDetachedFromParentDueToMobility",
+        "jp_record_id": "switch:locres:set-01:SceneComponent:ComponentDetachedFromParentDueToMobility:3794c454",
+        "official_en_record_id": "switch:locres:set-01:SceneComponent:ComponentDetachedFromParentDueToMobility:3794c454",
+        "jp_sha256": "d803fc5ed16c1f8c6a1b7b7af2bf57a310b101dc39d2626738612b2ce61da6a9",
+        "official_en_sha256": "633d781312caeb2e24e9430bc46196fa1ca6675f92c5b88e95bd6d0c95865b8e"
+      },
+      "text": {
+        "jp": "スタティックが許可されていないため、{1} はその親 {0} との親子付けが解除されました",
+        "official_en": "Caused {0} to be detached from its parent {1} because it does not allow to be static",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SceneComponent:SceneComponent_AttachmentEditorOnlyMismatch:ff4afa5b",
+      "source": {
+        "set": "set-02",
+        "namespace": "SceneComponent",
+        "key": "SceneComponent_AttachmentEditorOnlyMismatch",
+        "jp_record_id": "switch:locres:set-01:SceneComponent:SceneComponent_AttachmentEditorOnlyMismatch:ff4afa5b",
+        "official_en_record_id": "switch:locres:set-01:SceneComponent:SceneComponent_AttachmentEditorOnlyMismatch:ff4afa5b",
+        "jp_sha256": "3ee56eff8c4036ef88c54fb1b8bbefc35cae28aa7f6274b5261a40a5ebf8eb69",
+        "official_en_sha256": "714c702101e08677c302f4f12c36e40bf7c34128db1403a6421ad83337e50901"
+      },
+      "text": {
+        "jp": "コンポーネント {0} はエディタ専用ですが、エディタ専用でない子 {1} コンポーネントがアタッチされています",
+        "official_en": "Component {0} is editor-only but it has an attached child {1} that is not",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SceneComponent:SceneComponent_AttachmentDetailLevelMismatch:a006e7b7",
+      "source": {
+        "set": "set-02",
+        "namespace": "SceneComponent",
+        "key": "SceneComponent_AttachmentDetailLevelMismatch",
+        "jp_record_id": "switch:locres:set-01:SceneComponent:SceneComponent_AttachmentDetailLevelMismatch:a006e7b7",
+        "official_en_record_id": "switch:locres:set-01:SceneComponent:SceneComponent_AttachmentDetailLevelMismatch:a006e7b7",
+        "jp_sha256": "04d8b99a9daca098532d27d58d3f2809ef806b6e7cf7b16ef76128f2fe1fb381",
+        "official_en_sha256": "ae0775f2a7c1224a958db20fac5a8604e8d6ce762d9d69abcbeb6ba7beff30c7"
+      },
+      "text": {
+        "jp": "詳細度 {3} の子コンポーネント {2} がアタッチされているため、詳細度 {1} のコンポーネント {0} を削除できません",
+        "official_en": "Component {0} of detail level {1} cannot be removed because it has an attached child {2} of detail level {3}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SceneComponent:InvalidMustBeMovable:c442948d",
+      "source": {
+        "set": "set-02",
+        "namespace": "SceneComponent",
+        "key": "InvalidMustBeMovable",
+        "jp_record_id": "switch:locres:set-01:SceneComponent:InvalidMustBeMovable:c442948d",
+        "official_en_record_id": "switch:locres:set-01:SceneComponent:InvalidMustBeMovable:c442948d",
+        "jp_sha256": "3aaf5ee44e14934d6df0f31b9d83e626d29236586cfe5c5fd8c32709d5220a97",
+        "official_en_sha256": "7613737d8667c46459d707a1aeb065d4ae276b19b4d2f726befee2b201a5a8e4"
+      },
+      "text": {
+        "jp": "{0} のモビリティ：{2} をしたい場合は、{1} は「ムーバブル」にする必要があります。 ",
+        "official_en": "Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. ",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SceneComponent:InvalidMove:ffc2b1d9",
+      "source": {
+        "set": "set-02",
+        "namespace": "SceneComponent",
+        "key": "InvalidMove",
+        "jp_record_id": "switch:locres:set-01:SceneComponent:InvalidMove:ffc2b1d9",
+        "official_en_record_id": "switch:locres:set-01:SceneComponent:InvalidMove:ffc2b1d9",
+        "jp_sha256": "de2596ff85520b36a78110aba0914c332db890cdc3bbd27e730b2b2c03408536",
+        "official_en_sha256": "683a62ce15fbabb1ac867022e56e6e4f4f581762d77c3abb2f8dc8b165b3b1b9"
+      },
+      "text": {
+        "jp": "移動",
+        "official_en": "move",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

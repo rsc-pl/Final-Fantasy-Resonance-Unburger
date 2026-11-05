@@ -1,0 +1,826 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "VerifyMetaHumanGroom",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:FoundSourceMesh:4d9d62cb",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "FoundSourceMesh",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:FoundSourceMesh:4d9d62cb",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:FoundSourceMesh:4d9d62cb",
+        "jp_sha256": "2c9c6e5096b24fc8969620ea9381390e39200fdda32520361ca4e595c3f872d8",
+        "official_en_sha256": "3e91c693fdbb59aac5a7cf9a7a42c4410235192cfb950103c2d74299ab34890d"
+      },
+      "text": {
+        "jp": "{AssetName} のソース メッシュとして使用されている {SourceSkelMesh} が見つかりました",
+        "official_en": "Found {SourceSkelMesh}, using as source mesh for {AssetName}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:UEFNStrandCountExceeded:11fcaa01",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "UEFNStrandCountExceeded",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:UEFNStrandCountExceeded:11fcaa01",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:UEFNStrandCountExceeded:11fcaa01",
+        "jp_sha256": "a57df7a5be702690bd46eda88c5642aa3fdb084bdba49dc8401b3af92617b0c5",
+        "official_en_sha256": "72871a5586b8eb07f1464080bc184f22de862722be9d05468bba0bb7d6c00a2b"
+      },
+      "text": {
+        "jp": "グルーム アセット {AssetName} には 2000 を超えるガイド カーブがあり、UEFN で使用するには適しません",
+        "official_en": "Groom Asset {AssetName} has more than 2000 guide curves making it unsuitable for use in UEFN",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingSourceMesh:94789a13",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "MissingSourceMesh",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingSourceMesh:94789a13",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingSourceMesh:94789a13",
+        "jp_sha256": "859b424e485aad99cdaaa0966185ddccd4d747f40f8d5d08c17f0f33e0ab5b77",
+        "official_en_sha256": "9be757e74efa39b699b4c60189ea40c731f793d453af9e48cdca9b6d64715b8e"
+      },
+      "text": {
+        "jp": "グルーム バインディング {AssetName} に、関連付けられているソース メッシュがありません",
+        "official_en": "Groom Binding {AssetName} does not have an associated source mesh.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingTargetMesh:37eeb4f5",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "MissingTargetMesh",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingTargetMesh:37eeb4f5",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingTargetMesh:37eeb4f5",
+        "jp_sha256": "6544e41082e385b3a717d72640330d76c5b8cd2af8f6b69639fac711e26f271b",
+        "official_en_sha256": "4f2b89c58e317800e6679cca3136adedf66cdb30a4631167a9a503281f5db458"
+      },
+      "text": {
+        "jp": "グルーム バインディング {AssetName} に、関連付けられているターゲット メッシュがありません",
+        "official_en": "Groom Binding {AssetName} does not have an associated target mesh.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:StrandsNotAlignedToSourceMesh:22450901",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "StrandsNotAlignedToSourceMesh",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:StrandsNotAlignedToSourceMesh:22450901",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:StrandsNotAlignedToSourceMesh:22450901",
+        "jp_sha256": "ecfa4b70b90c30fe646083c27a3ff88f4309fc44429f952ae58349662bdc9cd7",
+        "official_en_sha256": "fab023e1012fe98a3deb081d2510a60dee7fdcc3bf22a514ebc4ff0eeb5c28da"
+      },
+      "text": {
+        "jp": "グルーム アセット {AssetName} にあるグループ {GroupIndex} に、ソース メッシュに合わせたストランドがありません",
+        "official_en": "Group {GroupIndex} on Groom Asset {AssetName} does not have strands aligned with the source mesh",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:TooManyVerticesPerCurve:16ed9721",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "TooManyVerticesPerCurve",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:TooManyVerticesPerCurve:16ed9721",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:TooManyVerticesPerCurve:16ed9721",
+        "jp_sha256": "d0c38000f8dec8739dc26f085d7bb3726308af7f3c149b1fb51b7f74e4af512c",
+        "official_en_sha256": "ad10ae39bcc19d3f9153fd93ba4546cc1ad2c6195d9de0385891b62862228253"
+      },
+      "text": {
+        "jp": "グルーム アセット {AssetName} にあるグループ {GroupIndex} に、カーブあたり 255 を超える頂点があります",
+        "official_en": "Group {GroupIndex} on Groom Asset {AssetName} has more than 255 vertices per curve",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:TooManyCurves:3eb0e20a",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "TooManyCurves",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:TooManyCurves:3eb0e20a",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:TooManyCurves:3eb0e20a",
+        "jp_sha256": "3b867b6e6529075ad1632ff296cc4ffbf54b941645dfb19f778678d4745ff42d",
+        "official_en_sha256": "9cb43d4a1a4cf7a4b14c9f5de6e0d02752765b099ddec7ed0ff0d623e6cafe3a"
+      },
+      "text": {
+        "jp": "グルーム アセット {AssetName} のグループ {GroupIndex} のストランドに、{MaxNumCurves} を超えるカーブがあります",
+        "official_en": "Strands for Group {GroupIndex} on Groom Asset {AssetName} have more than {MaxNumCurves} curves",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:TooManyVertices:6a035b56",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "TooManyVertices",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:TooManyVertices:6a035b56",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:TooManyVertices:6a035b56",
+        "jp_sha256": "e7f2494277640270a7a0101abd09dbaa91390d82db914744718ee5449c5be714",
+        "official_en_sha256": "037c3b5ad1de7d15d16b9e8302d69534b963ed52016c4de428bf7f3ce6ef6ad5"
+      },
+      "text": {
+        "jp": "グルーム アセット {AssetName} のグループ {GroupIndex} のストランドに、{MaxNumPoints} を超える頂点があります",
+        "official_en": "Strands for Group {GroupIndex} on Groom Asset {AssetName} have more than {MaxNumPoints} vertices",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:GroomGroupsNotValid:53861a5d",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "GroomGroupsNotValid",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:GroomGroupsNotValid:53861a5d",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:GroomGroupsNotValid:53861a5d",
+        "jp_sha256": "5de862b0202f1d6b5bdad6a90260a91ef5eca0850fcaa66e23296fa662842c01",
+        "official_en_sha256": "069ab405584e0fae1f8386377ee754e6e706b10cc391100ff450bcfd5ed0b85d"
+      },
+      "text": {
+        "jp": "グルーム アセット {AssetName} には有効なグループがありません",
+        "official_en": "The Groom Asset {AssetName} does not have valid Groups",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:GroomNotValid:913ed6ac",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "GroomNotValid",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:GroomNotValid:913ed6ac",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:GroomNotValid:913ed6ac",
+        "jp_sha256": "10b36d664e6208cca25398297552dc6e156c12e47baf1c38881eb3855f97f69f",
+        "official_en_sha256": "794335f51f0173dd9269b53686aec89fb47452b9f93e0801c1e845aa26a999f3"
+      },
+      "text": {
+        "jp": "グルーム アセット {AssetName} は有効なグルームではありません",
+        "official_en": "The Groom Asset {AssetName} is not a valid Groom",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingGroom:ba2831dd",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "MissingGroom",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingGroom:ba2831dd",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingGroom:ba2831dd",
+        "jp_sha256": "b349ac6122187a582ddd6f2e019bed484c43d68bddf2548896c02ebca2bcf2ab",
+        "official_en_sha256": "61a77134bb2d3428c4afde2dc123da31e089e066418b50b3df367b5853074158"
+      },
+      "text": {
+        "jp": "グルーム バインディング {AssetName} には有効なグルームが割り当てられていません",
+        "official_en": "The Groom Binding {AssetName} does not have a valid Groom assigned",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingMaterial:6baced12",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "MissingMaterial",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingMaterial:6baced12",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingMaterial:6baced12",
+        "jp_sha256": "a6ecfe695c71065caaeac4102ed4e9962849b302834e3557a63b8410cfd19ca6",
+        "official_en_sha256": "45c35e8c8c13c3e74d30d1cfd2065583e63b702588b6770c70ca9b0eec511ca7"
+      },
+      "text": {
+        "jp": "グルーム アセット {AssetName} にあるマテリアル {MaterialIndex} に、マテリアルが設定されていません",
+        "official_en": "The Material {MaterialIndex} on Groom Asset {AssetName} has not got a material set",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:ObjectNotAGroomBinding:493c5edc",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "ObjectNotAGroomBinding",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:ObjectNotAGroomBinding:493c5edc",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:ObjectNotAGroomBinding:493c5edc",
+        "jp_sha256": "25ed5ae005f2da26d6f34256ca2f74b80296dfe6e872cfa88d031f15b6bdcc14",
+        "official_en_sha256": "73bc4ff0131d630165fa90eb98f1e6c473d4e961be77868091642253918faa27"
+      },
+      "text": {
+        "jp": "UObject {AssetName} は GroomBinding ではありません",
+        "official_en": "The UObject {AssetName} is not a GroomBinding",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingHairWidth:25b4197a",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "MissingHairWidth",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingHairWidth:25b4197a",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingHairWidth:25b4197a",
+        "jp_sha256": "cf8559b90560a15ce698c034d3b9471ff6ef50f243c9ce91e7df142c93897cf0",
+        "official_en_sha256": "1d54ccc3968ac9b08816a6c410abc756bd7be9df569806a53ee90c282512c25d"
+      },
+      "text": {
+        "jp": "グルーム アセット {AssetName} を生成するために使用される Alembic ファイルに groom_width 属性がありません",
+        "official_en": "The groom_width attribute was missing from the Alembic file used to generate Groom Asset {AssetName}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingWardrobeItem:aac332ac",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "MissingWardrobeItem",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingWardrobeItem:aac332ac",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingWardrobeItem:aac332ac",
+        "jp_sha256": "21c81aeb89f01bacb092a28138282521063c316513d12a8e72c532901b516a79",
+        "official_en_sha256": "4d712492ad074a205eb118ce136e09ab2185d467136719e39db94906278a1eed"
+      },
+      "text": {
+        "jp": "パッケージには、ワードローブ アイテムが含まれていません。一部の機能は動作しないか、デフォルト値のままになります",
+        "official_en": "The package does not contain a Wardrobe Item. Certain features will not work or will be at default values",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingRootUV:bd9190ef",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "MissingRootUV",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingRootUV:bd9190ef",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingRootUV:bd9190ef",
+        "jp_sha256": "49a9b6528bdb9f667c0afd0645ab89aa70baa016310f9d8d6b0d0be8dce18d94",
+        "official_en_sha256": "d588254a32ac580ef5c4da9ea14704e981c50853c1ffe80a6d46ad122f7f9393"
+      },
+      "text": {
+        "jp": "グルーム アセット {AssetName} を生成するために使用される Alembic ファイルに root_uv 属性がありません",
+        "official_en": "The root_uv attribute was missing from the Alembic file used to generate Groom Asset {AssetName}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:SourceMeshNotInCorrectLocation:1374abdd",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "SourceMeshNotInCorrectLocation",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:SourceMeshNotInCorrectLocation:1374abdd",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:SourceMeshNotInCorrectLocation:1374abdd",
+        "jp_sha256": "7a4ca2cacc4c818ba46314071303f6515f507d2fb977928071dfa16477562693",
+        "official_en_sha256": "6e0e1eccd1c8918db4dac3b8eeb9c2e1cad872bc003c00496cba53a8066065d4"
+      },
+      "text": {
+        "jp": "{AssetName} は、{SourceSkelMesh} と空間的にオーバーラップしていないため、ソース メッシュとして使用することはできません",
+        "official_en": "{AssetName} does not overlap spatially with {SourceSkelMesh} and so it can not be used as a source mesh.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:CardsNotAlignedToStrands:b37c5cd9",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "CardsNotAlignedToStrands",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:CardsNotAlignedToStrands:b37c5cd9",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:CardsNotAlignedToStrands:b37c5cd9",
+        "jp_sha256": "21664e173a8aad3ef97026339c15516dbac1ef4bd348199af56ce67efea4b80c",
+        "official_en_sha256": "af99d08de8e8232d1294883d689004f00da62a86e8268ebdf98130ec80defc79"
+      },
+      "text": {
+        "jp": "グルーム アセット {AssetName} にあるグループ {GroupIndex} の LOD {LodIndex} に割り当てられた {CardsMesh} には、ストランドに合わせたカードがありません",
+        "official_en": "{CardsMesh} Assigned to LOD {LodIndex} of Group {GroupIndex} on Groom Asset {AssetName} does not have cards aligned with the strands",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingCardUVs:dd4b5263",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "MissingCardUVs",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingCardUVs:dd4b5263",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MissingCardUVs:dd4b5263",
+        "jp_sha256": "8ac2e98f21c64fd2c01cca3e8c5e26d69616f088c4faec3be84298f93992d6b2",
+        "official_en_sha256": "86026fe9d6f6563365d0db96f00b613f63e2fd17bf52a4b1136406e000454011"
+      },
+      "text": {
+        "jp": "グルーム アセット {AssetName} にあるグループ {GroupIndex} の LOD {LodIndex} に割り当てられた {CardsMesh} には、有効な UV がありません",
+        "official_en": "{CardsMesh} Assigned to LOD {LodIndex} of Group {GroupIndex} on Groom Asset {AssetName} does not have valid UVs.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MeshesMissingUVs:315398ab",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "MeshesMissingUVs",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MeshesMissingUVs:315398ab",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MeshesMissingUVs:315398ab",
+        "jp_sha256": "a862b7a120ab1036c4551c9639f5f3c8e326a2d25b383167d4b04bd454072a84",
+        "official_en_sha256": "ae7976be9303a3240350952234bc3c0b2c8c9ded3e350b5884cc5726e31d13ab"
+      },
+      "text": {
+        "jp": "グルーム アセット {AssetName} にあるグループ {GroupIndex} の LOD {LodIndex} に割り当てられた {MeshName} には、UV がありません",
+        "official_en": "{MeshName} assigned to LOD {LodIndex} of Group {GroupIndex} on Groom Asset {AssetName} is missing UVs",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MeshesNotAlignedToStrands:e5b12070",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "MeshesNotAlignedToStrands",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MeshesNotAlignedToStrands:e5b12070",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:MeshesNotAlignedToStrands:e5b12070",
+        "jp_sha256": "5ea437919752d600d043b154ea4ff2922c8d615d12a465a6363f1c61425886dd",
+        "official_en_sha256": "00fa17262c8e0e0eb813a6c3b365383a27cb6562d74cd1f098d13ca05e4a760a"
+      },
+      "text": {
+        "jp": "グルーム アセット {AssetName} にあるグループ {GroupIndex} の LOD {LodIndex} に割り当てられた {MeshName} は、ストランドに合わせられていません",
+        "official_en": "{MeshName} assigned to LOD {LodIndex} of Group {GroupIndex} on Groom Asset {AssetName} is not aligned with the strands",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanGroom:SourceMeshNotConformal:82275752",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanGroom",
+        "key": "SourceMeshNotConformal",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:SourceMeshNotConformal:82275752",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanGroom:SourceMeshNotConformal:82275752",
+        "jp_sha256": "e0a89344082a1b379eb82d4c254778705ee7289cc2d1767d4625f2b6dd0807d7",
+        "official_en_sha256": "c5a1e4298030fb5b4b887775a2b6560d70427b25c735e2fcddb1cb00234e8c12"
+      },
+      "text": {
+        "jp": "{SourceSkelMesh} は MetaHuman の標準的なトポロジと合致していません",
+        "official_en": "{SourceSkelMesh} does not match the standard MetaHuman topology.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

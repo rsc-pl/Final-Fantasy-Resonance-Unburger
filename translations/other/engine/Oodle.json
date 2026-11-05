@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "Oodle",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:Oodle:OodleGenerateContinue:8f95e9ba",
+      "source": {
+        "set": "set-02",
+        "namespace": "Oodle",
+        "key": "OodleGenerateContinue",
+        "jp_record_id": "switch:locres:set-01:Oodle:OodleGenerateContinue:8f95e9ba",
+        "official_en_record_id": "switch:locres:set-01:Oodle:OodleGenerateContinue:8f95e9ba",
+        "jp_sha256": "405f8d4a1797e9cd6a72b1499e56aa48270afd28cf887918ce52a3cd0abe17d9",
+        "official_en_sha256": "aff03c4ae7c8ae8ea22e829c85abcbdfb91e6662d80236386e58050a69aebdef"
+      },
+      "text": {
+        "jp": "フォルダ「'{0}'」で辞書を生成できませんでした。続行しますか?",
+        "official_en": "Failed to generate dictionary for folder '{0}', continue anyway?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Oodle:OutputFileOverwrite:3516d63e",
+      "source": {
+        "set": "set-02",
+        "namespace": "Oodle",
+        "key": "OutputFileOverwrite",
+        "jp_record_id": "switch:locres:set-01:Oodle:OutputFileOverwrite:3516d63e",
+        "official_en_record_id": "switch:locres:set-01:Oodle:OutputFileOverwrite:3516d63e",
+        "jp_sha256": "73d1f286d6a3ea040c85ce7666e7e31ac5e714b7212d862c22cc3b7e375cadef",
+        "official_en_sha256": "3118bf5fee6ed516877f9cda980c22db1aafef1605e922ce7eb836eb86962643"
+      },
+      "text": {
+        "jp": "既存の出力ファイル「'{0}'」をオーバーライドしますか?",
+        "official_en": "Overwrite existing output file '{0}'?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Oodle:BadOodleNetworkDictionaryGen:c4f5f571",
+      "source": {
+        "set": "set-02",
+        "namespace": "Oodle",
+        "key": "BadOodleNetworkDictionaryGen",
+        "jp_record_id": "switch:locres:set-01:Oodle:BadOodleNetworkDictionaryGen:c4f5f571",
+        "official_en_record_id": "switch:locres:set-01:Oodle:BadOodleNetworkDictionaryGen:c4f5f571",
+        "jp_sha256": "16d34cbc8b3d581916edb8417a6cb32a85aeb7896482f9c622c78ccfa2c6c518",
+        "official_en_sha256": "427896ef1defb6d913965ec12b3e59cfd933612e4e5baa6be44ebfd09324a0e4"
+      },
+      "text": {
+        "jp": "生成された辞書のサイズが 64KB 未満です。サイズが異常に小さく、問題が発生していることを示しているため、プロダクションには使用しないでください。ファイルを削除しますか？",
+        "official_en": "The generated dictionary is less than 64KB. This is unusually small, indicating a problem - do NOT use for production! Delete the file?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

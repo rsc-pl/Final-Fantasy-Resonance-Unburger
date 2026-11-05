@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_SubEv_C01_Rain_Battle",
+    "scene_id": "ST_SubEv_C01_Rain_Battle",
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C01_Rain_Battle:SubEv_C01_Rain_Battle_001:7d2c0d54",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C01_Rain_Battle",
+        "key": "SubEv_C01_Rain_Battle_001",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C01_Rain_Battle:SubEv_C01_Rain_Battle_001:7d2c0d54",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C01_Rain_Battle:SubEv_C01_Rain_Battle_001:7d2c0d54",
+        "jp_sha256": "484c3b1d398f72fb0ae000773574f8928b7318959a598fe0a1851bac07beb9b7",
+        "official_en_sha256": "50d13bac71dde9a367bddabf1de76b28b84f80106029322cc10318e2a176c0d8"
+      },
+      "text": {
+        "jp": "おそらくこいつが寛解の雫を落とす魔物だ。",
+        "official_en": "This appears to be the monster we’re looking for. It should yield Dew of Reprieve.",
+        "real_en": "This is probably the monster that drops the Dew of Remission."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C01_Rain_Battle",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "ラスウェル",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0003",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C01_Rain_Battle/SubEv_C01_Rain_Battle_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C01_Rain_Battle:SubEv_C01_Rain_Battle_002:ad6078c9",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C01_Rain_Battle",
+        "key": "SubEv_C01_Rain_Battle_002",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C01_Rain_Battle:SubEv_C01_Rain_Battle_002:ad6078c9",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C01_Rain_Battle:SubEv_C01_Rain_Battle_002:ad6078c9",
+        "jp_sha256": "72595bba192a0ae1f2a05af1fd4be73f44d6c7669d4e786795ed2e7ab149cb32",
+        "official_en_sha256": "90c0fdd81658d887332474bc8ad275534ffd8cda227ef95c5343e8b298e65b11"
+      },
+      "text": {
+        "jp": "スコットのためだ。絶対に勝とう！",
+        "official_en": "Okay—let’s win this one for Scott!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C01_Rain_Battle",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "レイン",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0002",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C01_Rain_Battle/SubEv_C01_Rain_Battle_002"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PluginTemplateBrowser",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PluginTemplateBrowser:TemplateActions:3f69bd26",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginTemplateBrowser",
+        "key": "TemplateActions",
+        "jp_record_id": "switch:locres:set-01:PluginTemplateBrowser:TemplateActions:3f69bd26",
+        "official_en_record_id": "switch:locres:set-01:PluginTemplateBrowser:TemplateActions:3f69bd26",
+        "jp_sha256": "d579b2e4b2f230cfdf4c7ed2abdba05e557e5ae7d317e94b6cd322a3423ac787",
+        "official_en_sha256": "ff8059dc6752afdd30d275932b1d5031a2ec854b387a8c57ecc6689915293a43"
+      },
+      "text": {
+        "jp": "アクション",
+        "official_en": "Actions",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginTemplateBrowser:MountPluginTemplate_ContentNotExists:a19d3103",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginTemplateBrowser",
+        "key": "MountPluginTemplate_ContentNotExists",
+        "jp_record_id": "switch:locres:set-01:PluginTemplateBrowser:MountPluginTemplate_ContentNotExists:a19d3103",
+        "official_en_record_id": "switch:locres:set-01:PluginTemplateBrowser:MountPluginTemplate_ContentNotExists:a19d3103",
+        "jp_sha256": "596da7a101e14ad6824aa90252527299783d4c0ce580e7bdecb2d7dad5d728fa",
+        "official_en_sha256": "715cf859bf940cf07e9fd71c94019e9bb97622d5e3baa0513fb75b8fba43cd93"
+      },
+      "text": {
+        "jp": "コンテンツ パス：{0} は存在しません",
+        "official_en": "Content Path: {0} does not exist",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginTemplateBrowser:MountPluginTemplate_InvalidContentPath:6518206a",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginTemplateBrowser",
+        "key": "MountPluginTemplate_InvalidContentPath",
+        "jp_record_id": "switch:locres:set-01:PluginTemplateBrowser:MountPluginTemplate_InvalidContentPath:6518206a",
+        "official_en_record_id": "switch:locres:set-01:PluginTemplateBrowser:MountPluginTemplate_InvalidContentPath:6518206a",
+        "jp_sha256": "7555189a2f50676d3397a8ca5e921c19002c099cf2ec7ef99d70e23a719a052b",
+        "official_en_sha256": "68cf5ce8912c1df9d125d44c126d34382d0829dc37017e3fd02f31c201bb1f7b"
+      },
+      "text": {
+        "jp": "無効なコンテンツパスです。「/」で始めることはできません。 例：「../../../ProjectName/Content/」",
+        "official_en": "Invalid ContentPath, should not start with '/'! Example: '../../../ProjectName/Content/'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginTemplateBrowser:MountPluginTemplate_InvalidRootPath:694ebcda",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginTemplateBrowser",
+        "key": "MountPluginTemplate_InvalidRootPath",
+        "jp_record_id": "switch:locres:set-01:PluginTemplateBrowser:MountPluginTemplate_InvalidRootPath:694ebcda",
+        "official_en_record_id": "switch:locres:set-01:PluginTemplateBrowser:MountPluginTemplate_InvalidRootPath:694ebcda",
+        "jp_sha256": "f262dfd52e7c63bc6ecf8decf27374b61de07104cf1f3f179f9dff4e3ba2c809",
+        "official_en_sha256": "ea3a68e9b2cc995a485bb966c341c052a052bb128e5464dd800be599d402fff0"
+      },
+      "text": {
+        "jp": "無効なルートパスです。「/」で始める必要があります。 例：「/Game/」",
+        "official_en": "Invalid RootPath, should start with a '/'! Example: '/Game/'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginTemplateBrowser:Mount:3ae75f55",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginTemplateBrowser",
+        "key": "Mount",
+        "jp_record_id": "switch:locres:set-01:PluginTemplateBrowser:Mount:3ae75f55",
+        "official_en_record_id": "switch:locres:set-01:PluginTemplateBrowser:Mount:3ae75f55",
+        "jp_sha256": "612fd30f306659142182fed2baf420c05f7e165d49d04dcfd1fa3d37b0bc6e76",
+        "official_en_sha256": "d5605821c44ba5cb4cae8b0a284383cd55c01966ceca6cf8aa836c622e338767"
+      },
+      "text": {
+        "jp": "乗る",
+        "official_en": "Mount",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginTemplateBrowser:TemplatePath:39e1c502",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginTemplateBrowser",
+        "key": "TemplatePath",
+        "jp_record_id": "switch:locres:set-01:PluginTemplateBrowser:TemplatePath:39e1c502",
+        "official_en_record_id": "switch:locres:set-01:PluginTemplateBrowser:TemplatePath:39e1c502",
+        "jp_sha256": "100e75ae4aa4efe89ade36aba0b48375e5001c8fe2836e53cb53374ee9bef5d9",
+        "official_en_sha256": "62fa5a5b0d3c318835a213e22a4b335c42515443d598741d0413e8c47f9ecf67"
+      },
+      "text": {
+        "jp": "パス",
+        "official_en": "Path",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginTemplateBrowser:TemplateName:bd007624",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginTemplateBrowser",
+        "key": "TemplateName",
+        "jp_record_id": "switch:locres:set-01:PluginTemplateBrowser:TemplateName:bd007624",
+        "official_en_record_id": "switch:locres:set-01:PluginTemplateBrowser:TemplateName:bd007624",
+        "jp_sha256": "ee5b8eef33fb2c2d20e0a301509ad261490664218d9c1ecde7c707141f0b4d06",
+        "official_en_sha256": "0575f29df888a27e85b607111bd2fca420fd47432231bab2b9de8b81204ca4f2"
+      },
+      "text": {
+        "jp": "テンプレート",
+        "official_en": "Template",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginTemplateBrowser:UnableToMountPluginTemplate:b4f9e945",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginTemplateBrowser",
+        "key": "UnableToMountPluginTemplate",
+        "jp_record_id": "switch:locres:set-01:PluginTemplateBrowser:UnableToMountPluginTemplate:b4f9e945",
+        "official_en_record_id": "switch:locres:set-01:PluginTemplateBrowser:UnableToMountPluginTemplate:b4f9e945",
+        "jp_sha256": "7a1e16d04f7b00b9b5a43e13d3c37f66e8f748345a5287df3d47d0b9a2d01862",
+        "official_en_sha256": "08997a5e14f79868736a04f46869a2445a62c55ff499f3a26c05c15fac5a1f9c"
+      },
+      "text": {
+        "jp": "プラグイン テンプレートをマウントできません",
+        "official_en": "Unable to mount plugin template",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginTemplateBrowser:UnknownColumn:c78540d3",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginTemplateBrowser",
+        "key": "UnknownColumn",
+        "jp_record_id": "switch:locres:set-01:PluginTemplateBrowser:UnknownColumn:c78540d3",
+        "official_en_record_id": "switch:locres:set-01:PluginTemplateBrowser:UnknownColumn:c78540d3",
+        "jp_sha256": "46e8b823860d7b95c81813552e3c166a7dd880b77d93005ee981cc5a074544cc",
+        "official_en_sha256": "9c2c889ed5916e2d64a6eaa5755455835f3f6bbd9f527ba07186df530abbb2e6"
+      },
+      "text": {
+        "jp": "不明な列",
+        "official_en": "Unknown Column",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginTemplateBrowser:Unmount:1d2bace4",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginTemplateBrowser",
+        "key": "Unmount",
+        "jp_record_id": "switch:locres:set-01:PluginTemplateBrowser:Unmount:1d2bace4",
+        "official_en_record_id": "switch:locres:set-01:PluginTemplateBrowser:Unmount:1d2bace4",
+        "jp_sha256": "47b0d78f6744fe557bb4c2b9b20ccb79b8e00b1fdc537852ac544c1b6bba4cb7",
+        "official_en_sha256": "2ad51f6de35f38d6e0c434a4ab363ee5cab180f3382634d72a55a8aa8da54091"
+      },
+      "text": {
+        "jp": "マウント解除",
+        "official_en": "Unmount",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

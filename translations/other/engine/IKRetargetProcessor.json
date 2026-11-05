@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "IKRetargetProcessor",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:IKRetargetProcessor:MissingEndBone:b7443a1e",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetProcessor",
+        "key": "MissingEndBone",
+        "jp_record_id": "switch:locres:set-01:IKRetargetProcessor:MissingEndBone:b7443a1e",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetProcessor:MissingEndBone:b7443a1e",
+        "jp_sha256": "94038a43d1934ed5dbe9208dccc923659e2c16f570f21a173c58ddb8926627a5",
+        "official_en_sha256": "35468f5aac58f7c96e05f23b5bee9472a970c2f8c553433c2d61e149df6f0f20"
+      },
+      "text": {
+        "jp": "IK リターゲターのボーン チェーン{0}がメッシュ{2}で終了ボーン{1}を見つけることができませんでした",
+        "official_en": "IK Retargeter bone chain, {0}, could not find end bone, {1} in mesh {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetProcessor:MissingStartBone:a3a91abc",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetProcessor",
+        "key": "MissingStartBone",
+        "jp_record_id": "switch:locres:set-01:IKRetargetProcessor:MissingStartBone:a3a91abc",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetProcessor:MissingStartBone:a3a91abc",
+        "jp_sha256": "00dd4a29c339d9acdab2e0e93d711000f30ce89e1b400d510d27d2ca40941763",
+        "official_en_sha256": "698dc1b106ec31c60d6de25b1910abab51ecca39f00272f5c27b728dd6e875be"
+      },
+      "text": {
+        "jp": "IK リターゲターのボーン チェーン{0}がメッシュ{2}で開始ボーン{1}を見つけることができませんでした",
+        "official_en": "IK Retargeter bone chain, {0}, could not find start bone, {1} in mesh {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetProcessor:EndNotChildtOfStart:bd79a0dd",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetProcessor",
+        "key": "EndNotChildtOfStart",
+        "jp_record_id": "switch:locres:set-01:IKRetargetProcessor:EndNotChildtOfStart:bd79a0dd",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetProcessor:EndNotChildtOfStart:bd79a0dd",
+        "jp_sha256": "7b30d13173fb8942b602025671047eeee84ed96f3869b3bbf53821349842bf3b",
+        "official_en_sha256": "49e19a2e9c947df49003a558ac5649f862474feecaffab8265e4765a6911cfb1"
+      },
+      "text": {
+        "jp": "IK リターゲターのボーン チェーン{0}の終了ボーン「{1}」が、開始ボーン「{2}」の子ではありませんでした",
+        "official_en": "IK Retargeter bone chain, {0}, end bone, '{1}' was not a child of the start bone '{2}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetProcessor:FailedParamOfChain:8ad6a97f",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetProcessor",
+        "key": "FailedParamOfChain",
+        "jp_record_id": "switch:locres:set-01:IKRetargetProcessor:FailedParamOfChain:8ad6a97f",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetProcessor:FailedParamOfChain:8ad6a97f",
+        "jp_sha256": "174c4215de2e689826b0f2b256916591abacb528095665fe2d8949b9a733e92e",
+        "official_en_sha256": "35b040ebbc584df5f72a730ab22a7e77093de790c6931f80f11d2636f213120d"
+      },
+      "text": {
+        "jp": "IK リターゲッタのボーン チェーン、{0} を正規化できませんでした。チェーンが短すぎます",
+        "official_en": "IK Retargeter bone chain, {0}, was unable to be normalized. Chain too short.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetProcessor:MissingRetargetAsset:df6d170a",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetProcessor",
+        "key": "MissingRetargetAsset",
+        "jp_record_id": "switch:locres:set-01:IKRetargetProcessor:MissingRetargetAsset:df6d170a",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetProcessor:MissingRetargetAsset:df6d170a",
+        "jp_sha256": "d96263767176bbe022773197a87d71152922ddeb015f341afd4190962d15237c",
+        "official_en_sha256": "c3ff16600c9683ed23db5edef1b4e250b2fef602adaa57939cba5cdbabc29141"
+      },
+      "text": {
+        "jp": "IK リターゲッタ アセットが提供されていないため、IK リターゲッタを初期化できません",
+        "official_en": "IK Retargeter unable to initialize because no IK Retargeter asset was supplied.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetProcessor:MissingSourceMesh:44d22eeb",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetProcessor",
+        "key": "MissingSourceMesh",
+        "jp_record_id": "switch:locres:set-01:IKRetargetProcessor:MissingSourceMesh:44d22eeb",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetProcessor:MissingSourceMesh:44d22eeb",
+        "jp_sha256": "21369976c425ee3fee72fe1f6fc5fba0f170be3b5ffe62192f7a19aa851ac50b",
+        "official_en_sha256": "5080a2be5a726908d6aa7b1594a75e0ffa6435d0719463a910e2bff43c52b8d9"
+      },
+      "text": {
+        "jp": "IK リターゲターが初期化できませんソース スケルタル メッシュ アセットがありません",
+        "official_en": "IK Retargeter unable to initialize. Missing source Skeletal Mesh asset.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetProcessor:MissingTargetMesh:e0575895",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetProcessor",
+        "key": "MissingTargetMesh",
+        "jp_record_id": "switch:locres:set-01:IKRetargetProcessor:MissingTargetMesh:e0575895",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetProcessor:MissingTargetMesh:e0575895",
+        "jp_sha256": "5924eec1d6cb6b735c365fea975c278368f6b5e6a84e248b47bcd9e1c117ed9c",
+        "official_en_sha256": "ae19890819328cb095ccd122c310c97ae99f133fde6cd1cb76b0c10a32e93edc"
+      },
+      "text": {
+        "jp": "IK リターゲターが初期化できません。ターゲット スケルタル メッシュ アセットがありません",
+        "official_en": "IK Retargeter unable to initialize. Missing target Skeletal Mesh asset.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetProcessor:UnknownOP:5995489f",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetProcessor",
+        "key": "UnknownOP",
+        "jp_record_id": "switch:locres:set-01:IKRetargetProcessor:UnknownOP:5995489f",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetProcessor:UnknownOP:5995489f",
+        "jp_sha256": "82e2d9cc307a70cbb080f14175f76f758e84bd0ebef3c275aaa43dcef900a4c1",
+        "official_en_sha256": "4bd3dd13e3c69e3cf9ae4d46a5f3057bd2db868f5e780b7291543f2dcff9ab45"
+      },
+      "text": {
+        "jp": "IK リターゲッタ「{0}」内に null または不明な操作があります。アセットをリロードしてそれを除去してください",
+        "official_en": "IK Retargeter, '{0}' has null/unknown op in it. Please reload the asset to remove it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetProcessor:SuccessfulInit:0b4c0e7b",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetProcessor",
+        "key": "SuccessfulInit",
+        "jp_record_id": "switch:locres:set-01:IKRetargetProcessor:SuccessfulInit:0b4c0e7b",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetProcessor:SuccessfulInit:0b4c0e7b",
+        "jp_sha256": "5aa7d310f7cc0566881c167e2cbbb8a1c36b8e0696ae8d871f04bce3280e87be",
+        "official_en_sha256": "ec165e86c59f310fed697cd0438ee93abb90536ef998c04f9e6dd404c377978b"
+      },
+      "text": {
+        "jp": "成功!IK リターゲターはソース{0}からターゲット{1}にアニメーションを転送できる状態になっています",
+        "official_en": "Success! The IK Retargeter is ready to transfer animation from the source, {0} to the target, {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetProcessor:MissingSourceRootToCopyFrom:9990b534",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetProcessor",
+        "key": "MissingSourceRootToCopyFrom",
+        "jp_record_id": "switch:locres:set-01:IKRetargetProcessor:MissingSourceRootToCopyFrom:9990b534",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetProcessor:MissingSourceRootToCopyFrom:9990b534",
+        "jp_sha256": "465220ca1fcf5c5ce3bcb2d944f1e85351b56a6b6f2be816e00ae2153810956b",
+        "official_en_sha256": "ae70424a41b400874a018659f7c59af80dde5735dc159468209129cd98f0da01"
+      },
+      "text": {
+        "jp": "コピー元のルート ボーン {0} が、ソース メッシュ {1} で見つかりませんでした",
+        "official_en": "The root bone to copy from, {0} was not found in the source mesh {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRetargetProcessor:MissingTargetRootToCopyFrom:a3df2e5c",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRetargetProcessor",
+        "key": "MissingTargetRootToCopyFrom",
+        "jp_record_id": "switch:locres:set-01:IKRetargetProcessor:MissingTargetRootToCopyFrom:a3df2e5c",
+        "official_en_record_id": "switch:locres:set-01:IKRetargetProcessor:MissingTargetRootToCopyFrom:a3df2e5c",
+        "jp_sha256": "449c9410e917424b7d16dad48c66b32d6f696bf1e9d9d8b512ca67c1be5b4ff8",
+        "official_en_sha256": "bf2edb21097caa92380e951ee574e5ee29f0c0c38960a40fe60bfbd15a50380a"
+      },
+      "text": {
+        "jp": "コピー元のルート ボーン {0} が、ターゲット メッシュ {1} で見つかりませんでした",
+        "official_en": "The root bone to copy from, {0} was not found in the target mesh {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

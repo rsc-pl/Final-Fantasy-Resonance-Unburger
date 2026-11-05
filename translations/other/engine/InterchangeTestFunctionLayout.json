@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "InterchangeTestFunctionLayout",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:InterchangeTestFunctionLayout:SelectAssetClass:e39889bd",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeTestFunctionLayout",
+        "key": "SelectAssetClass",
+        "jp_record_id": "switch:locres:set-01:InterchangeTestFunctionLayout:SelectAssetClass:e39889bd",
+        "official_en_record_id": "switch:locres:set-01:InterchangeTestFunctionLayout:SelectAssetClass:e39889bd",
+        "jp_sha256": "6579d6925900a301e5861e023d8d740007e959a15a4f619c51b1efe31a2fc2e0",
+        "official_en_sha256": "c8ec9b6cb0b2b8d2ee9d1c32695b0fef89e8171c2974c84940f16e28936313e4"
+      },
+      "text": {
+        "jp": "<想定されているアセットクラス>",
+        "official_en": "<Expected asset class>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeTestFunctionLayout:SelectTest:22dab9e8",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeTestFunctionLayout",
+        "key": "SelectTest",
+        "jp_record_id": "switch:locres:set-01:InterchangeTestFunctionLayout:SelectTest:22dab9e8",
+        "official_en_record_id": "switch:locres:set-01:InterchangeTestFunctionLayout:SelectTest:22dab9e8",
+        "jp_sha256": "cdd25ec7a3052741f3d3a3d29fcad1ded581d622a280da226a5c9bd863f12a01",
+        "official_en_sha256": "ec52dba3c7383daf6d3c92042e340a65c5769a2aeffcd836b7f1241f3651e161"
+      },
+      "text": {
+        "jp": "<テストを1つ選択してください>",
+        "official_en": "<Please select a test>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeTestFunctionLayout:EditTestType:e144624d",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeTestFunctionLayout",
+        "key": "EditTestType",
+        "jp_record_id": "switch:locres:set-01:InterchangeTestFunctionLayout:EditTestType:e144624d",
+        "official_en_record_id": "switch:locres:set-01:InterchangeTestFunctionLayout:EditTestType:e144624d",
+        "jp_sha256": "f2b3f0987ccaf65f6c1db92424ac54d37584cb8cb7b4d6cf8464e90a8090768f",
+        "official_en_sha256": "591c649da94ffb13d38cc01f0c7fa25bc88129235c590b817d6da69c55470305"
+      },
+      "text": {
+        "jp": "実行するテストを変更",
+        "official_en": "Change test to perform",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeTestFunctionLayout:OptionalAssetNameTooltip:5a67bf0c",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeTestFunctionLayout",
+        "key": "OptionalAssetNameTooltip",
+        "jp_record_id": "switch:locres:set-01:InterchangeTestFunctionLayout:OptionalAssetNameTooltip:5a67bf0c",
+        "official_en_record_id": "switch:locres:set-01:InterchangeTestFunctionLayout:OptionalAssetNameTooltip:5a67bf0c",
+        "jp_sha256": "a3963397e03b715d8abe45ee0f9fc2c7a948133069539e79287ff47fbcc39a7a",
+        "official_en_sha256": "e2fb2158a6543ff497b874deb10d68e623665348c361b50162f727d0305e853c"
+      },
+      "text": {
+        "jp": "テスト対象として選択する同じタイプのアセットが複数個ある場合は、テスト対象とするインポートしたアセットの名前をこのフィールドに指定します",
+        "official_en": "Fill out this field with the name of an imported asset which you wish to test, if there are multiple assets of the same type to choose from.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeTestFunctionLayout:OptionalAssetName:d01ebe32",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeTestFunctionLayout",
+        "key": "OptionalAssetName",
+        "jp_record_id": "switch:locres:set-01:InterchangeTestFunctionLayout:OptionalAssetName:d01ebe32",
+        "official_en_record_id": "switch:locres:set-01:InterchangeTestFunctionLayout:OptionalAssetName:d01ebe32",
+        "jp_sha256": "9341b14a8d51dabf1c914d55c9cdc47a664111e82c01bf93c47665a750911114",
+        "official_en_sha256": "584fb6812422ed191da9694e5c4ca1c222360e5b9f2dfa272625a0f47799baaf"
+      },
+      "text": {
+        "jp": "オプションのアセット名",
+        "official_en": "Optional Asset Name",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeTestFunctionLayout:ResetParameterToDefault:231ee929",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeTestFunctionLayout",
+        "key": "ResetParameterToDefault",
+        "jp_record_id": "switch:locres:set-01:InterchangeTestFunctionLayout:ResetParameterToDefault:231ee929",
+        "official_en_record_id": "switch:locres:set-01:InterchangeTestFunctionLayout:ResetParameterToDefault:231ee929",
+        "jp_sha256": "87696d0f93300894264ed7abf6682b4461a5d587e384e9fdc0d73d45b788b64c",
+        "official_en_sha256": "3005e127ee29e3572a7502c70e1a7c35e1713520323d9721229a17de78c50f80"
+      },
+      "text": {
+        "jp": "{0}をデフォルトにリセット",
+        "official_en": "Reset {0} to Default",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

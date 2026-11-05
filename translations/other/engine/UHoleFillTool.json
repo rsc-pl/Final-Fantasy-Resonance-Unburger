@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UHoleFillTool",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UHoleFillTool:LoopFindError:c83ea7d2",
+      "source": {
+        "set": "set-02",
+        "namespace": "UHoleFillTool",
+        "key": "LoopFindError",
+        "jp_record_id": "switch:locres:set-01:UHoleFillTool:LoopFindError:c83ea7d2",
+        "official_en_record_id": "switch:locres:set-01:UHoleFillTool:LoopFindError:c83ea7d2",
+        "jp_sha256": "b2b97cc7d98c887b3a4222f43130f22927cc9ab37e9b70eb610a4e6fd2703b92",
+        "official_en_sha256": "b158a34829d6f171f828fff2c895bb5707eef4ee09f155ac65da2437e27bf129"
+      },
+      "text": {
+        "jp": "穴の境界ループの検出時のエラー。",
+        "official_en": "Error finding hole boundary loops.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UHoleFillTool:FillFailNotification:29ed5d28",
+      "source": {
+        "set": "set-02",
+        "namespace": "UHoleFillTool",
+        "key": "FillFailNotification",
+        "jp_record_id": "switch:locres:set-01:UHoleFillTool:FillFailNotification:29ed5d28",
+        "official_en_record_id": "switch:locres:set-01:UHoleFillTool:FillFailNotification:29ed5d28",
+        "jp_sha256": "76c396c45a5041639c57865a2472ebfacab9547bab06772d44c83a4dcf9964ea",
+        "official_en_sha256": "c8a883e04d06c0e5a4b50a80a57e33dd1d08a3c5f4a666dea3ce97223c4bebea"
+      },
+      "text": {
+        "jp": "{0} 穴を塗りつぶすことができませんでした。",
+        "official_en": "Failed to fill {0} holes.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UHoleFillTool:ToolName:02092636",
+      "source": {
+        "set": "set-02",
+        "namespace": "UHoleFillTool",
+        "key": "ToolName",
+        "jp_record_id": "switch:locres:set-01:UHoleFillTool:ToolName:02092636",
+        "official_en_record_id": "switch:locres:set-01:UHoleFillTool:ToolName:02092636",
+        "jp_sha256": "a4ad1deb94a06d7fb6fadf25de325126147b5f430def66fbfa1ddce8766ba7eb",
+        "official_en_sha256": "0160662912e7f9686e1836867335e349b04ee9887c12f675a49c95b45ab811a0"
+      },
+      "text": {
+        "jp": "穴を塗りつぶす",
+        "official_en": "Fill Holes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UHoleFillTool:HoleFillToolDescription:0eef8555",
+      "source": {
+        "set": "set-02",
+        "namespace": "UHoleFillTool",
+        "key": "HoleFillToolDescription",
+        "jp_record_id": "switch:locres:set-01:UHoleFillTool:HoleFillToolDescription:0eef8555",
+        "official_en_record_id": "switch:locres:set-01:UHoleFillTool:HoleFillToolDescription:0eef8555",
+        "jp_sha256": "6c478cff16aba25aefc49e9c16a99bb4d51c79294c96de2cdf164caa108fc59a",
+        "official_en_sha256": "3a579422b93a423f761e5f27981ebc71968f1b8db2f2f444071765fcad02f85d"
+      },
+      "text": {
+        "jp": "三角ポリゴンを追加することによって、選択したメッシュ内の穴を塗りつぶします。個々の穴をクリックして塗りつぶすか、または [すべて選択] ボタンをクリックしてすべての穴を塗りつぶします。",
+        "official_en": "Fill Holes in the selected Mesh by adding triangles. Click on individual holes to fill them, or use the Select All button to fill all holes.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UHoleFillTool:HoleFillToolTransactionName:f3150b30",
+      "source": {
+        "set": "set-02",
+        "namespace": "UHoleFillTool",
+        "key": "HoleFillToolTransactionName",
+        "jp_record_id": "switch:locres:set-01:UHoleFillTool:HoleFillToolTransactionName:f3150b30",
+        "official_en_record_id": "switch:locres:set-01:UHoleFillTool:HoleFillToolTransactionName:f3150b30",
+        "jp_sha256": "163c00b772f5ce61e41e8f9d54c39b8b724a7db71b4741d3add9215d100bb109",
+        "official_en_sha256": "b6f9573b65c4532c917ce93967230130b20c0201174db0386ea0b2ce69e36e3e"
+      },
+      "text": {
+        "jp": "穴塗りつぶしツール",
+        "official_en": "Hole Fill Tool",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UHoleFillTool:HoleFillToolHighlighted:dcac3663",
+      "source": {
+        "set": "set-02",
+        "namespace": "UHoleFillTool",
+        "key": "HoleFillToolHighlighted",
+        "jp_record_id": "switch:locres:set-01:UHoleFillTool:HoleFillToolHighlighted:dcac3663",
+        "official_en_record_id": "switch:locres:set-01:UHoleFillTool:HoleFillToolHighlighted:dcac3663",
+        "jp_sha256": "803db741ef498360ddc1ac01752d0d82092f3ed6463b57e0aec7c0d71619fdd5",
+        "official_en_sha256": "9cf072a410707b5a5a4639fbecde92bdd063a25753f695527b7b19d0e2a0954d"
+      },
+      "text": {
+        "jp": "メッシュ内の穴が強調表示されています。個々の穴をクリックして塗りつぶすか、[すべて選択] ボタンまたは [クリア] ボタンをクリックします。",
+        "official_en": "Holes in the mesh are highlighted. Select individual holes to fill or use the Select All or Clear buttons.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UHoleFillTool:NoHoleNotification:6b2aa1c4",
+      "source": {
+        "set": "set-02",
+        "namespace": "UHoleFillTool",
+        "key": "NoHoleNotification",
+        "jp_record_id": "switch:locres:set-01:UHoleFillTool:NoHoleNotification:6b2aa1c4",
+        "official_en_record_id": "switch:locres:set-01:UHoleFillTool:NoHoleNotification:6b2aa1c4",
+        "jp_sha256": "4d7b21f4815fbd2cba57edf1f0907ce4d69b7e0d218d010becf222acb21d2876",
+        "official_en_sha256": "62221a56d53af604eeaef56b20ecb4eb6779ddee864e4262d0018e26ec3c3608"
+      },
+      "text": {
+        "jp": "このメッシュには塗りつぶす穴がありません。",
+        "official_en": "This mesh has no holes to fill.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

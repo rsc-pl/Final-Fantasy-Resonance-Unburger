@@ -1,0 +1,567 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "FVariantManagerActorNode",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:FVariantManagerActorNode:ActorSectionText:f658fc3f",
+      "source": {
+        "set": "set-02",
+        "namespace": "FVariantManagerActorNode",
+        "key": "ActorSectionText",
+        "jp_record_id": "switch:locres:set-01:FVariantManagerActorNode:ActorSectionText:f658fc3f",
+        "official_en_record_id": "switch:locres:set-01:FVariantManagerActorNode:ActorSectionText:f658fc3f",
+        "jp_sha256": "94b3a76e3820c66be39cebb8d24876d8ee57424b5b54c1627f665246a8cf4f7a",
+        "official_en_sha256": "449995c4fe8fab389053dac72d77798c094dd4a3b7b3cfe69c4d78d119308dce"
+      },
+      "text": {
+        "jp": "アクタ",
+        "official_en": "Actor",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FVariantManagerActorNode:CanDrop_ActorsAlreadyBound:8d820abf",
+      "source": {
+        "set": "set-02",
+        "namespace": "FVariantManagerActorNode",
+        "key": "CanDrop_ActorsAlreadyBound",
+        "jp_record_id": "switch:locres:set-01:FVariantManagerActorNode:CanDrop_ActorsAlreadyBound:8d820abf",
+        "official_en_record_id": "switch:locres:set-01:FVariantManagerActorNode:CanDrop_ActorsAlreadyBound:8d820abf",
+        "jp_sha256": "6fe9fc7cfa0bba31c0dae264b60f83ab98a5b26b73e80126d6b29d390a1333dc",
+        "official_en_sha256": "7d623c56ab2d70f593aefac681bab8996807fd11dc7b63147801fac695dddd29"
+      },
+      "text": {
+        "jp": "アクタはすでにバリアント '{0}' にバインドされています!",
+        "official_en": "Actors already bound to variant '{0}'!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FVariantManagerActorNode:CanDrop_AllBindingsAlreadyExist:5e5bb4ee",
+      "source": {
+        "set": "set-02",
+        "namespace": "FVariantManagerActorNode",
+        "key": "CanDrop_AllBindingsAlreadyExist",
+        "jp_record_id": "switch:locres:set-01:FVariantManagerActorNode:CanDrop_AllBindingsAlreadyExist:5e5bb4ee",
+        "official_en_record_id": "switch:locres:set-01:FVariantManagerActorNode:CanDrop_AllBindingsAlreadyExist:5e5bb4ee",
+        "jp_sha256": "b4c6a1f7489b4042842bda88601a55080d5659827b38e14563bbbac5788d1638",
+        "official_en_sha256": "71d410682c1a99261c74da12826b3bb7c17f12549f4309c6ac5273842719bdc0"
+      },
+      "text": {
+        "jp": "バインディングはすべて、すでにバリアント '{0}' 上に存在しています!",
+        "official_en": "All bindings already exist on variant '{0}'!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FVariantManagerActorNode:CanDrop_BindActors:42e184a4",
+      "source": {
+        "set": "set-02",
+        "namespace": "FVariantManagerActorNode",
+        "key": "CanDrop_BindActors",
+        "jp_record_id": "switch:locres:set-01:FVariantManagerActorNode:CanDrop_BindActors:42e184a4",
+        "official_en_record_id": "switch:locres:set-01:FVariantManagerActorNode:CanDrop_BindActors:42e184a4",
+        "jp_sha256": "d07c4a4815d13b884416bd4df3df37e30a5bce8aebb22b55cf4613bd45071f90",
+        "official_en_sha256": "d7d0ba68e211389494ce31465687d2aed2f95f4734be750806cb9c49cadcfc78"
+      },
+      "text": {
+        "jp": "{0} 個のアクタをバリアント '{1}' にバインドします",
+        "official_en": "Bind {0} {0}|plural(one=actor,other=actors) to variant '{1}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FVariantManagerActorNode:FailedToResolveTooltip:d1174fde",
+      "source": {
+        "set": "set-02",
+        "namespace": "FVariantManagerActorNode",
+        "key": "FailedToResolveTooltip",
+        "jp_record_id": "switch:locres:set-01:FVariantManagerActorNode:FailedToResolveTooltip:d1174fde",
+        "official_en_record_id": "switch:locres:set-01:FVariantManagerActorNode:FailedToResolveTooltip:d1174fde",
+        "jp_sha256": "1f351f58664f5ded3627880d5e72af28ac691075f0807cdf3c5e8fe47895b16d",
+        "official_en_sha256": "d676c7acf362b19d006f544f8cb9e082e21b91a82c6b0c34355a14fc1c0070e1"
+      },
+      "text": {
+        "jp": "バインディングを解決できません。右クリックして別のアクタに再バインドする",
+        "official_en": "Binding can't be resolved. Right-click to rebind to another actor",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FVariantManagerActorNode:RebindToThisActorTooltipDisabled:803e7f30",
+      "source": {
+        "set": "set-02",
+        "namespace": "FVariantManagerActorNode",
+        "key": "RebindToThisActorTooltipDisabled",
+        "jp_record_id": "switch:locres:set-01:FVariantManagerActorNode:RebindToThisActorTooltipDisabled:803e7f30",
+        "official_en_record_id": "switch:locres:set-01:FVariantManagerActorNode:RebindToThisActorTooltipDisabled:803e7f30",
+        "jp_sha256": "02146c98fd0485889c3b3d3d213131ed27645380eab2b73ccc5782ddfb8fb97c",
+        "official_en_sha256": "67e80c2d65f728090f798683cbdab348bd3a1a9f74b724a5486e238f02b7ac3b"
+      },
+      "text": {
+        "jp": "この選択したアクタに再バインドできません",
+        "official_en": "Cannot rebind to this selected actor",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FVariantManagerActorNode:RebindActorName_Tooltip:94a2c961",
+      "source": {
+        "set": "set-02",
+        "namespace": "FVariantManagerActorNode",
+        "key": "RebindActorName_Tooltip",
+        "jp_record_id": "switch:locres:set-01:FVariantManagerActorNode:RebindActorName_Tooltip:94a2c961",
+        "official_en_record_id": "switch:locres:set-01:FVariantManagerActorNode:RebindActorName_Tooltip:94a2c961",
+        "jp_sha256": "ede90ec2d1a68ee1f0986f59399b381b9f96d029de0aeb616184b04d021c3372",
+        "official_en_sha256": "eb14752d7a1170b8772684876d6262df934314a166e4171aec4aa4e8c4031fdc"
+      },
+      "text": {
+        "jp": "このバインディングを別のアクタに接続して、キャプチャされたプロパティの再利用を試みてください",
+        "official_en": "Connect this binding to a different actor and try reusing the captured properties",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FVariantManagerActorNode:CanDrop_CopyActorBindings:8f985e64",
+      "source": {
+        "set": "set-02",
+        "namespace": "FVariantManagerActorNode",
+        "key": "CanDrop_CopyActorBindings",
+        "jp_record_id": "switch:locres:set-01:FVariantManagerActorNode:CanDrop_CopyActorBindings:8f985e64",
+        "official_en_record_id": "switch:locres:set-01:FVariantManagerActorNode:CanDrop_CopyActorBindings:8f985e64",
+        "jp_sha256": "5c3a48392e759c9af74d08bf332ccf58fc26d4b12ef841669a644af15e257c25",
+        "official_en_sha256": "cab0d58e4c54427762371c53cb70255bba3fd855910360ec04d6adf58bdfa1f1"
+      },
+      "text": {
+        "jp": "{0} 個のアクタバインディングをバリアント '{1}' にコピーします",
+        "official_en": "Copy {0} actor {0}|plural(one=binding,other=bindings) to variant '{1}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FVariantManagerActorNode:ActorNodeDropActors:4959fbbf",
+      "source": {
+        "set": "set-02",
+        "namespace": "FVariantManagerActorNode",
+        "key": "ActorNodeDropActors",
+        "jp_record_id": "switch:locres:set-01:FVariantManagerActorNode:ActorNodeDropActors:4959fbbf",
+        "official_en_record_id": "switch:locres:set-01:FVariantManagerActorNode:ActorNodeDropActors:4959fbbf",
+        "jp_sha256": "33e385805fde2b659ea1211860dbea1bf5bbcbb3552a62355453c0812f1afad2",
+        "official_en_sha256": "e79a3482483248ed1d1b110f1b44b62a97881e405c1e3b498886531aadf74d4c"
+      },
+      "text": {
+        "jp": "アクタバインディング '{1}' の近くに {0} 個のアクタ バインディングをドロップします",
+        "official_en": "Drop {0} actor {0}|plural(one=binding,other=bindings) near actor binding '{1}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FVariantManagerActorNode:ActorNodeDropSceneActors:0e2ec4da",
+      "source": {
+        "set": "set-02",
+        "namespace": "FVariantManagerActorNode",
+        "key": "ActorNodeDropSceneActors",
+        "jp_record_id": "switch:locres:set-01:FVariantManagerActorNode:ActorNodeDropSceneActors:0e2ec4da",
+        "official_en_record_id": "switch:locres:set-01:FVariantManagerActorNode:ActorNodeDropSceneActors:0e2ec4da",
+        "jp_sha256": "5e0ee8ad4d7597fc45254dddf3a01c2c551aa5d82ea736a576984dc56df10476",
+        "official_en_sha256": "fe7b5547645e054d2bd88dce291c65e29f6a20f85e89bb5712b40d53d50a30a2"
+      },
+      "text": {
+        "jp": "アクタバインディング '{1}' の近くに {0} 個のシーン アクタをドロップします",
+        "official_en": "Drop {0} scene {0}|plural(one=actor,other=actors) near actor binding '{1}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FVariantManagerActorNode:ActorEditSectionText:ba8ca1fb",
+      "source": {
+        "set": "set-02",
+        "namespace": "FVariantManagerActorNode",
+        "key": "ActorEditSectionText",
+        "jp_record_id": "switch:locres:set-01:FVariantManagerActorNode:ActorEditSectionText:ba8ca1fb",
+        "official_en_record_id": "switch:locres:set-01:FVariantManagerActorNode:ActorEditSectionText:ba8ca1fb",
+        "jp_sha256": "11f9049ddab593adbbeccbad6d070f959cb4d60f41351acce2a9ead4281028b8",
+        "official_en_sha256": "464c4ffd019e1e9691dcf0537c797353ef2b1c1d4833d3d463e5b74ae4547344"
+      },
+      "text": {
+        "jp": "編集",
+        "official_en": "Edit",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FVariantManagerActorNode:CanDrop_MoveActorBindings:85e6519e",
+      "source": {
+        "set": "set-02",
+        "namespace": "FVariantManagerActorNode",
+        "key": "CanDrop_MoveActorBindings",
+        "jp_record_id": "switch:locres:set-01:FVariantManagerActorNode:CanDrop_MoveActorBindings:85e6519e",
+        "official_en_record_id": "switch:locres:set-01:FVariantManagerActorNode:CanDrop_MoveActorBindings:85e6519e",
+        "jp_sha256": "0528a05e5e8fbc3f4c872eeec0db1f44ebd9cc49532229116463ad351e67071f",
+        "official_en_sha256": "4f09b6ebfb8356d6eab03ad87e46c2e7daf0c689f76f0059edaa12e60da443a6"
+      },
+      "text": {
+        "jp": "{0} 個のアクタバインディングをバリアント '{1}' に移動します",
+        "official_en": "Move {0} actor {0}|plural(one=binding,other=bindings) to variant '{1}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FVariantManagerActorNode:RebindToThisActorTooltipFound:72d81317",
+      "source": {
+        "set": "set-02",
+        "namespace": "FVariantManagerActorNode",
+        "key": "RebindToThisActorTooltipFound",
+        "jp_record_id": "switch:locres:set-01:FVariantManagerActorNode:RebindToThisActorTooltipFound:72d81317",
+        "official_en_record_id": "switch:locres:set-01:FVariantManagerActorNode:RebindToThisActorTooltipFound:72d81317",
+        "jp_sha256": "75c2278ceb224d1ce045788cf4917f322ac5b3c366e418d37e4d58a9ef56f190",
+        "official_en_sha256": "bf5f5121633c1cae6a4d30efe3d26a8b910d7ec41e4fd736964468b746a27cba"
+      },
+      "text": {
+        "jp": "'{0}' に再バインド",
+        "official_en": "Rebind to '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FVariantManagerActorNode:RebindActorName:e81516cf",
+      "source": {
+        "set": "set-02",
+        "namespace": "FVariantManagerActorNode",
+        "key": "RebindActorName",
+        "jp_record_id": "switch:locres:set-01:FVariantManagerActorNode:RebindActorName:e81516cf",
+        "official_en_record_id": "switch:locres:set-01:FVariantManagerActorNode:RebindActorName:e81516cf",
+        "jp_sha256": "8aaf3eb86e8a202204177b263d6b65aafe75b92f48c2607b53cc720e292dcba4",
+        "official_en_sha256": "22583c22e26d3c2521cb42c00dff16172776762cace05876f19ddb89d5684119"
+      },
+      "text": {
+        "jp": "他のアクタに再バインドします",
+        "official_en": "Rebind to other Actor",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FVariantManagerActorNode:RebindToActorTransaction:5a25c639",
+      "source": {
+        "set": "set-02",
+        "namespace": "FVariantManagerActorNode",
+        "key": "RebindToActorTransaction",
+        "jp_record_id": "switch:locres:set-01:FVariantManagerActorNode:RebindToActorTransaction:5a25c639",
+        "official_en_record_id": "switch:locres:set-01:FVariantManagerActorNode:RebindToActorTransaction:5a25c639",
+        "jp_sha256": "488ef29d9a613bb09c4f1c2d1b3c242526b7f91b8579317acd20e970cb48586c",
+        "official_en_sha256": "55834d0519953d46119e97700010dfbebd2d3ad9817637a2decacba8d6303902"
+      },
+      "text": {
+        "jp": "バリアントをアクタ '{0}' に再バインドします",
+        "official_en": "Rebind variant to actor '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

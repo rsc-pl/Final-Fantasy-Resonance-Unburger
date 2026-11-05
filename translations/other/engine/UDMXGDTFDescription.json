@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UDMXGDTFDescription",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UDMXGDTFDescription:TryLoadGDTFWithVersionNewThanEngineDialog:113c6652",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDMXGDTFDescription",
+        "key": "TryLoadGDTFWithVersionNewThanEngineDialog",
+        "jp_record_id": "switch:locres:set-01:UDMXGDTFDescription:TryLoadGDTFWithVersionNewThanEngineDialog:113c6652",
+        "official_en_record_id": "switch:locres:set-01:UDMXGDTFDescription:TryLoadGDTFWithVersionNewThanEngineDialog:113c6652",
+        "jp_sha256": "f149c4820c3add45d3860d5515903220deb76c8f580e84748b782624aa1cf764",
+        "official_en_sha256": "f195235e29cc97ffca493b3a258f6e92f6e36b59b5365360f87adf2b883ae1c4"
+      },
+      "text": {
+        "jp": "警告：GDTF のバージョン「{0}.{1}」は、エンジンでサポートされている GDTF バージョン「{2}.{3}」よりも新しいバージョンです。この GDTF のロードを試行してもよろしいですか (推奨されません)？",
+        "official_en": "Warning: Version '{0}.{1}' of GDTF is newer than the GDTF Version supported by the Engine, '{2}.{3}'. Do you want to try to load the GDTF anyway (not recommended)?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

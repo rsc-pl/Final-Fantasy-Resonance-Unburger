@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UserDefinedImageCaptureProtocol",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UserDefinedImageCaptureProtocol:InvalidBMPExport:7aaa5a0b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UserDefinedImageCaptureProtocol",
+        "key": "InvalidBMPExport",
+        "jp_record_id": "switch:locres:set-01:UserDefinedImageCaptureProtocol:InvalidBMPExport:7aaa5a0b",
+        "official_en_record_id": "switch:locres:set-01:UserDefinedImageCaptureProtocol:InvalidBMPExport:7aaa5a0b",
+        "jp_sha256": "81ea16c8d1115b98feb33c97261a3dbaf5ebe8e7bcd7dd8dd9c22c126d8b5388",
+        "official_en_sha256": "0f288c162f566aef858a8fb9ebb871850c9e976c8049e677f72cc36b07c91ec6"
+      },
+      "text": {
+        "jp": "指定されたレンダリングターゲット(ストリーム '{0}' は {1} ビット)をBMPとして書き込めません。BMPは8ビットのレンダリングターゲットとして指定する必要があります。",
+        "official_en": "Unable to write the specified render target (stream '{0}' is {1}bit) as BMP. BMPs must be supplied 8bit render targets.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UserDefinedImageCaptureProtocol:InvalidJPGExport:453925b6",
+      "source": {
+        "set": "set-02",
+        "namespace": "UserDefinedImageCaptureProtocol",
+        "key": "InvalidJPGExport",
+        "jp_record_id": "switch:locres:set-01:UserDefinedImageCaptureProtocol:InvalidJPGExport:453925b6",
+        "official_en_record_id": "switch:locres:set-01:UserDefinedImageCaptureProtocol:InvalidJPGExport:453925b6",
+        "jp_sha256": "88d3c4f755c9a16fedfd1670588cd123dfac0bd3cfd326f3ee83fbb1b19e54b9",
+        "official_en_sha256": "b16c0cfc997567d92bda135f3a37de5fd1229d9bec64ca58ba25cb34d9b14a65"
+      },
+      "text": {
+        "jp": "指定されたレンダリングターゲット(ストリーム '{0}' は {1}ビット)をJPGとして書き込めません。JPGは8ビットのレンダリングターゲットとして指定する必要があります。",
+        "official_en": "Unable to write the specified render target (stream '{0}' is {1}bit) as JPG. JPGs must be supplied 8bit render targets.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

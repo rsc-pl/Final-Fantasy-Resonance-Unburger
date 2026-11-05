@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SStreamRejectedNotification",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SStreamRejectedNotification:MainMessage:ce18c7d2",
+      "source": {
+        "set": "set-02",
+        "namespace": "SStreamRejectedNotification",
+        "key": "MainMessage",
+        "jp_record_id": "switch:locres:set-01:SStreamRejectedNotification:MainMessage:ce18c7d2",
+        "official_en_record_id": "switch:locres:set-01:SStreamRejectedNotification:MainMessage:ce18c7d2",
+        "jp_sha256": "d1e8f32c1eaab9c25ea614f869a8ae95a506716e23bfa65ad9b4df3a8e21de89",
+        "official_en_sha256": "7eb09f396d7c666c69d8f1d10f92924908b4be58dfde2308e400ec04cb7a328e"
+      },
+      "text": {
+        "jp": "ストリームの更新中にエラーが発生",
+        "official_en": "Errors updating stream",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SStreamRejectedNotification:RejectionsFmt:0ed90ab7",
+      "source": {
+        "set": "set-02",
+        "namespace": "SStreamRejectedNotification",
+        "key": "RejectionsFmt",
+        "jp_record_id": "switch:locres:set-01:SStreamRejectedNotification:RejectionsFmt:0ed90ab7",
+        "official_en_record_id": "switch:locres:set-01:SStreamRejectedNotification:RejectionsFmt:0ed90ab7",
+        "jp_sha256": "5cd1002c20bab8fc24a83c3388f049f0eed9ab161545187037fb6fb84b4af096",
+        "official_en_sha256": "b0bfc1e7045985a2d0c0632763bd250064f2a64ec44574b9a162f8fe9c0af76b"
+      },
+      "text": {
+        "jp": "ストリームの作成に失敗しました",
+        "official_en": "Failed to create stream",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SStreamRejectedNotification:ConflictsFmt:cc663150",
+      "source": {
+        "set": "set-02",
+        "namespace": "SStreamRejectedNotification",
+        "key": "ConflictsFmt",
+        "jp_record_id": "switch:locres:set-01:SStreamRejectedNotification:ConflictsFmt:cc663150",
+        "official_en_record_id": "switch:locres:set-01:SStreamRejectedNotification:ConflictsFmt:cc663150",
+        "jp_sha256": "507ca54de22f326fe9815a375cf8fba976cc1b944c417be6a3f96ad472c7fe71",
+        "official_en_sha256": "891362706fd3948c75fb56dc3fbbc60a6092dba9d3f381274d2a3b23b89a7a4e"
+      },
+      "text": {
+        "jp": "{0} {0}|plural(one=競合,other=競合) ({1} {1}|plural(one=オブジェクト,other=オブジェクト))",
+        "official_en": "{0} {0}|plural(one=Conflict,other=Conflicts) for {1} {1}|plural(one=Object,other=Objects)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SStreamRejectedNotification:SemanticErrorsFmt:0a17ffe5",
+      "source": {
+        "set": "set-02",
+        "namespace": "SStreamRejectedNotification",
+        "key": "SemanticErrorsFmt",
+        "jp_record_id": "switch:locres:set-01:SStreamRejectedNotification:SemanticErrorsFmt:0a17ffe5",
+        "official_en_record_id": "switch:locres:set-01:SStreamRejectedNotification:SemanticErrorsFmt:0a17ffe5",
+        "jp_sha256": "d790acb434170c78dd2eb964ecd8c1e1dc2db452e703eb335cc401cac7f7b5a3",
+        "official_en_sha256": "8e82d2ab51fb8ce5c3e3a1712514d17a73dec65c465fe51165663323fc79e5fa"
+      },
+      "text": {
+        "jp": "{0} {0}|plural(one=セマンティックエラー,other=セマンティックエラー) ({1} {1}|plural(one=オブジェクト,other=オブジェクト))",
+        "official_en": "{0} {0}|plural(one=Semantic Error,other=Semantic Errors) for {1} {1}|plural(one=Object,other=Objects)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SStreamRejectedNotification:TimeoutsFmt:c6491d68",
+      "source": {
+        "set": "set-02",
+        "namespace": "SStreamRejectedNotification",
+        "key": "TimeoutsFmt",
+        "jp_record_id": "switch:locres:set-01:SStreamRejectedNotification:TimeoutsFmt:c6491d68",
+        "official_en_record_id": "switch:locres:set-01:SStreamRejectedNotification:TimeoutsFmt:c6491d68",
+        "jp_sha256": "b5b8a4a6e23a8d40361ed03c94a7da81d778030d485383be622987df49886bdf",
+        "official_en_sha256": "9cdbf72fcaa4c6fa72bf936fee5de00162f46c7428d1d9944f5dcf36295b0009"
+      },
+      "text": {
+        "jp": "{0} {0}|plural(one=タイムアウト,other=タイムアウト)",
+        "official_en": "{0} {0}|plural(one=Timeout,other=Timeouts)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

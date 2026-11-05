@@ -1,0 +1,567 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "FastXml",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:FastXml:FileNotFound:cc82f2a6",
+      "source": {
+        "set": "set-02",
+        "namespace": "FastXml",
+        "key": "FileNotFound",
+        "jp_record_id": "switch:locres:set-01:FastXml:FileNotFound:cc82f2a6",
+        "official_en_record_id": "switch:locres:set-01:FastXml:FileNotFound:cc82f2a6",
+        "jp_sha256": "6e85437a5f8d1605572496afd2be8cf0d29c82d2ece2e24abaca1d369947c4ff",
+        "official_en_sha256": "6a70c4ed09c4d8f9b7cdd33000916fc803708663c1ea533191c292d3b48222fc"
+      },
+      "text": {
+        "jp": "指定されたXMLファイルはディスク上で見つかりませんでした",
+        "official_en": "Couldn't find the specified XML file on disk",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FastXml:ElementDataNotTerminated:28a86577",
+      "source": {
+        "set": "set-02",
+        "namespace": "FastXml",
+        "key": "ElementDataNotTerminated",
+        "jp_record_id": "switch:locres:set-01:FastXml:ElementDataNotTerminated:28a86577",
+        "official_en_record_id": "switch:locres:set-01:FastXml:ElementDataNotTerminated:28a86577",
+        "jp_sha256": "758ee8081b9a5801d4d1ea6c3aeac7ba1e69b6bee49a7721f4cdee3e067e4d98",
+        "official_en_sha256": "162b4112fd0a8406c0e3b5978a83df3dcfb171811020179f14aca544e9d1b91b"
+      },
+      "text": {
+        "jp": "エレメントのデータの一部が正常に消去されませんでした",
+        "official_en": "Data portion of an element wasn't terminated properly",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FastXml:TooManyAttributes:825f1c84",
+      "source": {
+        "set": "set-02",
+        "namespace": "FastXml",
+        "key": "TooManyAttributes",
+        "jp_record_id": "switch:locres:set-01:FastXml:TooManyAttributes:825f1c84",
+        "official_en_record_id": "switch:locres:set-01:FastXml:TooManyAttributes:825f1c84",
+        "jp_sha256": "62b06838b7d43300778e57ec3d59ac6aa7e07765301a712273b2436142ab70ee",
+        "official_en_sha256": "90deab57c55d526e53645b24f69233c742f4bb5ca79bd83e16cc3805b54eb095"
+      },
+      "text": {
+        "jp": "この構成要素が処理できるよりはるかに多いアトリビュートが一つのエレメントに直面しました",
+        "official_en": "Encountered too many attributes in a single element for this parser to handle",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FastXml:NoClosingQuoteForAttribute:42d0be03",
+      "source": {
+        "set": "set-02",
+        "namespace": "FastXml",
+        "key": "NoClosingQuoteForAttribute",
+        "jp_record_id": "switch:locres:set-01:FastXml:NoClosingQuoteForAttribute:42d0be03",
+        "official_en_record_id": "switch:locres:set-01:FastXml:NoClosingQuoteForAttribute:42d0be03",
+        "jp_sha256": "a151f3f99acbfba508a3a24602aeab07f4ea1dc5233296eb2cd631a12b10563d",
+        "official_en_sha256": "9af17f60dc8a63dde218b7b718376fddbd817d2d9a4f8d0da6ea0e830659f455"
+      },
+      "text": {
+        "jp": "アトリビュートの書き終わりのクオートが見つかりませんでした",
+        "official_en": "Failed to find closing quote for attribute",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FastXml:InvalidFileFormat:fc21a552",
+      "source": {
+        "set": "set-02",
+        "namespace": "FastXml",
+        "key": "InvalidFileFormat",
+        "jp_record_id": "switch:locres:set-01:FastXml:InvalidFileFormat:fc21a552",
+        "official_en_record_id": "switch:locres:set-01:FastXml:InvalidFileFormat:fc21a552",
+        "jp_sha256": "080e7b13a63a25fad1b3854cbdbd8dd0ca79029363f9ab57888f2a73673db7bf",
+        "official_en_sha256": "426dc97cf3e335365bc3981e9b536be377632af4e158e264b51ad15b0be1af02"
+      },
+      "text": {
+        "jp": "無効なファイルフォーマット",
+        "official_en": "Invalid file format",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FastXml:LoadingXML:5785bbb2",
+      "source": {
+        "set": "set-02",
+        "namespace": "FastXml",
+        "key": "LoadingXML",
+        "jp_record_id": "switch:locres:set-01:FastXml:LoadingXML:5785bbb2",
+        "official_en_record_id": "switch:locres:set-01:FastXml:LoadingXML:5785bbb2",
+        "jp_sha256": "afb79eb71b0a6a813d7eb936fd3c72f8a05e498a9f6d0fefd2c5e0077e0fc5dc",
+        "official_en_sha256": "3c687cf61a398a37b5a64f19ead8490f5f17d3c9d077407ae9a6fb8a5b688a0a"
+      },
+      "text": {
+        "jp": "XML ファイルの読み込み中...",
+        "official_en": "Loading XML file...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FastXml:OpenCloseTagsNotMatched:81d646e7",
+      "source": {
+        "set": "set-02",
+        "namespace": "FastXml",
+        "key": "OpenCloseTagsNotMatched",
+        "jp_record_id": "switch:locres:set-01:FastXml:OpenCloseTagsNotMatched:81d646e7",
+        "official_en_record_id": "switch:locres:set-01:FastXml:OpenCloseTagsNotMatched:81d646e7",
+        "jp_sha256": "568fb188313c7e8ee908d9c30d95a81c4603c16d5fd4c8b8a75658ce27b370df",
+        "official_en_sha256": "11df532f0ecfeb2f5eb4cff83052e1759d6962ec1138c45c6b7504d864898766"
+      },
+      "text": {
+        "jp": "始まりと終わりのタグが合いません",
+        "official_en": "Open and closing tags do not match",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FastXml:NoFileNameOrContentsPassedIn:2286e0f7",
+      "source": {
+        "set": "set-02",
+        "namespace": "FastXml",
+        "key": "NoFileNameOrContentsPassedIn",
+        "jp_record_id": "switch:locres:set-01:FastXml:NoFileNameOrContentsPassedIn:2286e0f7",
+        "official_en_record_id": "switch:locres:set-01:FastXml:NoFileNameOrContentsPassedIn:2286e0f7",
+        "jp_sha256": "fb12065da45181c48300e45854ced2a5434c95f42d71cb7c12d6e29259165a35",
+        "official_en_sha256": "45dfcf9a296286e92ca09158768e6dd5096ba2f309c069c2f969b40be23ca973"
+      },
+      "text": {
+        "jp": "XMLファイル名やXMLファイルコンテンツテキストバッファーが指定されていない状態で、ParseXmlFile()が呼び出されました。ParseXmlFile()を呼び出すには、XmlFilePathまたはXmlFileContentsのいずれかが有効である必要があります",
+        "official_en": "ParseXmlFile() was called without either an XML file name or an XML file contents text buffer supplied.  Either XmlFilePath or XmlFileContents must be valid in order to call ParseXmlFile()",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FastXml:ProcessingXML:ebb2f7fe",
+      "source": {
+        "set": "set-02",
+        "namespace": "FastXml",
+        "key": "ProcessingXML",
+        "jp_record_id": "switch:locres:set-01:FastXml:ProcessingXML:ebb2f7fe",
+        "official_en_record_id": "switch:locres:set-01:FastXml:ProcessingXML:ebb2f7fe",
+        "jp_sha256": "936484c32688857ae4d9e4d9571d142c02ffaf931456891f0033cbe683713233",
+        "official_en_sha256": "3d8510523b9d6b9cb551dbe480643736729b9b714f2b6f3ac802674e1e8fdb02"
+      },
+      "text": {
+        "jp": "XMLファイルの処理中...",
+        "official_en": "Processing XML file...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FastXml:LoadedXMLFileWasEmpty:ac73c7e2",
+      "source": {
+        "set": "set-02",
+        "namespace": "FastXml",
+        "key": "LoadedXMLFileWasEmpty",
+        "jp_record_id": "switch:locres:set-01:FastXml:LoadedXMLFileWasEmpty:ac73c7e2",
+        "official_en_record_id": "switch:locres:set-01:FastXml:LoadedXMLFileWasEmpty:ac73c7e2",
+        "jp_sha256": "c28e2888f2fa4ae96b5a868a2aa632e87a2ad05323ad032d7d8d5cf78a32b161",
+        "official_en_sha256": "1467ceb2ef652784a647f1f75e2d0e747f52876d8ed360bdb7dd10ec2368468e"
+      },
+      "text": {
+        "jp": "このXMLファイルは空です",
+        "official_en": "The XML file is empty",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FastXml:ErrorReadingFile:6a791e26",
+      "source": {
+        "set": "set-02",
+        "namespace": "FastXml",
+        "key": "ErrorReadingFile",
+        "jp_record_id": "switch:locres:set-01:FastXml:ErrorReadingFile:6a791e26",
+        "official_en_record_id": "switch:locres:set-01:FastXml:ErrorReadingFile:6a791e26",
+        "jp_sha256": "50a6a34675f9de56c94488d840f513a744f69585b72c0dbcee0019d3b9b006b8",
+        "official_en_sha256": "44f196d3e1f89d990aab25cbbf8fd417a6431d55bff137be83ac91dccc5089aa"
+      },
+      "text": {
+        "jp": "このXMLファイルは読み込めません",
+        "official_en": "Unable to load the XML file",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FastXml:UserAbortedOnAttribute:d605bcfc",
+      "source": {
+        "set": "set-02",
+        "namespace": "FastXml",
+        "key": "UserAbortedOnAttribute",
+        "jp_record_id": "switch:locres:set-01:FastXml:UserAbortedOnAttribute:d605bcfc",
+        "official_en_record_id": "switch:locres:set-01:FastXml:UserAbortedOnAttribute:d605bcfc",
+        "jp_sha256": "d5129a49211ca366d8fe9175f215312855c1cb80f13393b6e220e2a358b5700f",
+        "official_en_sha256": "f4b9ea9c40a313ccbcaa606cfed9f1b0ad71cfb2e6ccffee59f347054edcfdbc"
+      },
+      "text": {
+        "jp": "構文解析プロセスはユーザーによって中止されました",
+        "official_en": "User aborted the parsing process",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FastXml:UserAbortedOnComment:e86eb6f5",
+      "source": {
+        "set": "set-02",
+        "namespace": "FastXml",
+        "key": "UserAbortedOnComment",
+        "jp_record_id": "switch:locres:set-01:FastXml:UserAbortedOnComment:e86eb6f5",
+        "official_en_record_id": "switch:locres:set-01:FastXml:UserAbortedOnComment:e86eb6f5",
+        "jp_sha256": "d5129a49211ca366d8fe9175f215312855c1cb80f13393b6e220e2a358b5700f",
+        "official_en_sha256": "f4b9ea9c40a313ccbcaa606cfed9f1b0ad71cfb2e6ccffee59f347054edcfdbc"
+      },
+      "text": {
+        "jp": "構文解析プロセスはユーザーによって中止されました",
+        "official_en": "User aborted the parsing process",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FastXml:UserAbortedOnElement:368c0d88",
+      "source": {
+        "set": "set-02",
+        "namespace": "FastXml",
+        "key": "UserAbortedOnElement",
+        "jp_record_id": "switch:locres:set-01:FastXml:UserAbortedOnElement:368c0d88",
+        "official_en_record_id": "switch:locres:set-01:FastXml:UserAbortedOnElement:368c0d88",
+        "jp_sha256": "d5129a49211ca366d8fe9175f215312855c1cb80f13393b6e220e2a358b5700f",
+        "official_en_sha256": "f4b9ea9c40a313ccbcaa606cfed9f1b0ad71cfb2e6ccffee59f347054edcfdbc"
+      },
+      "text": {
+        "jp": "構文解析プロセスはユーザーによって中止されました",
+        "official_en": "User aborted the parsing process",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FastXml:UserAbortedOnFile:1ffc53cc",
+      "source": {
+        "set": "set-02",
+        "namespace": "FastXml",
+        "key": "UserAbortedOnFile",
+        "jp_record_id": "switch:locres:set-01:FastXml:UserAbortedOnFile:1ffc53cc",
+        "official_en_record_id": "switch:locres:set-01:FastXml:UserAbortedOnFile:1ffc53cc",
+        "jp_sha256": "45ee6f553ac712754ad584abe557536f28b6cdaae253342209cc8abb101b69fc",
+        "official_en_sha256": "3b7f9efb0d5f6c3ab55f368f8a2ca8ab9ed07ad30e0b5c98f2156b717de6f184"
+      },
+      "text": {
+        "jp": "このファイルの処理はユーザーによってキャンセルされました",
+        "official_en": "User cancelled processing of this file",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

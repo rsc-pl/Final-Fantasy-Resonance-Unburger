@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_SubEv_C05_TreasureRadar_03",
+    "scene_id": "ST_SubEv_C05_TreasureRadar_03",
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C05_TreasureRadar_03:SubEv_C05_TreasureRadar_03_001:edb79f49",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C05_TreasureRadar_03",
+        "key": "SubEv_C05_TreasureRadar_03_001",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C05_TreasureRadar_03:SubEv_C05_TreasureRadar_03_001:edb79f49",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C05_TreasureRadar_03:SubEv_C05_TreasureRadar_03_001:edb79f49",
+        "jp_sha256": "f0d3600b2bea124a902e6fd9b513949cd0d249ea0565aadb61f55773922c4642",
+        "official_en_sha256": "f4c0476b9e9b59267efd2573c783f8bbd9a6b63d062cb9e10f68de5d06c41f02"
+      },
+      "text": {
+        "jp": "ねえ、レイン。\r\nガベラダでもらった\r\n「魔導アンテナ」のことで話があるの。",
+        "official_en": "Hey, Rain. I’ve got something to tell you about that “magi-tenna” thing we got in Gaberada.",
+        "real_en": "Hey, Rain. I’ve got something to tell you about that “Magitek Antenna” thing we got in Gaberada."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C05_TreasureRadar_03",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "リド",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0057",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C05_TreasureRadar_03/SubEv_C05_TreasureRadar_03_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C05_TreasureRadar_03:SubEv_C05_TreasureRadar_03_002:396e0d40",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C05_TreasureRadar_03",
+        "key": "SubEv_C05_TreasureRadar_03_002",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C05_TreasureRadar_03:SubEv_C05_TreasureRadar_03_002:396e0d40",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C05_TreasureRadar_03:SubEv_C05_TreasureRadar_03_002:396e0d40",
+        "jp_sha256": "0bf41d0008925e5745c3a6c852ff80756eeceb212aad016350b98cf284186dd4",
+        "official_en_sha256": "b20ddce9adc43d03428f4a2dd675c300dec0886f567542bc9a160e044e00062c"
+      },
+      "text": {
+        "jp": "ブリッジで待ってるから\r\n時間ができたら、話しかけてくれる？",
+        "official_en": "I’ll be on the bridge. Can you stop by when you’re free?",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C05_TreasureRadar_03",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "リド",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0057",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C05_TreasureRadar_03/SubEv_C05_TreasureRadar_03_002"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

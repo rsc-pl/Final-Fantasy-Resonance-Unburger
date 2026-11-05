@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ConvertVideoNode",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ConvertVideoNode:ConvertVideoNode_Prepare_DirectoryMissing:833e62e0",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConvertVideoNode",
+        "key": "ConvertVideoNode_Prepare_DirectoryMissing",
+        "jp_record_id": "switch:locres:set-01:ConvertVideoNode:ConvertVideoNode_Prepare_DirectoryMissing:833e62e0",
+        "official_en_record_id": "switch:locres:set-01:ConvertVideoNode:ConvertVideoNode_Prepare_DirectoryMissing:833e62e0",
+        "jp_sha256": "541e9221d6b26d35f2de682b805d924767be77dd50e6cc8a27629a65fa26bf59",
+        "official_en_sha256": "cd86992654e2c5e359abd9c10c41218f1b243f9dd0d7e5b540e04ad176d4e955"
+      },
+      "text": {
+        "jp": "ベース ディレクトリ {0} を作成できませんでした",
+        "official_en": "Failed to create the base directory {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConvertVideoNode:ConvertVideoNode_Validate_EmptyDirectory:8a7a2b6f",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConvertVideoNode",
+        "key": "ConvertVideoNode_Validate_EmptyDirectory",
+        "jp_record_id": "switch:locres:set-01:ConvertVideoNode:ConvertVideoNode_Validate_EmptyDirectory:8a7a2b6f",
+        "official_en_record_id": "switch:locres:set-01:ConvertVideoNode:ConvertVideoNode_Validate_EmptyDirectory:8a7a2b6f",
+        "jp_sha256": "2d953b08e6c4dd650aaace2b9e3a545ccfc0d6a5788cdc83fa9fb766979afd37",
+        "official_en_sha256": "e9daca58849cfba650c24de2291fa531e1425dc594953b5b3836ec55c74e0acc"
+      },
+      "text": {
+        "jp": "フォルダは空です：{0}",
+        "official_en": "Folder is empty: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConvertVideoNode:ConvertVideoNode_Validate_InvalidFormat:1079eb90",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConvertVideoNode",
+        "key": "ConvertVideoNode_Validate_InvalidFormat",
+        "jp_record_id": "switch:locres:set-01:ConvertVideoNode:ConvertVideoNode_Validate_InvalidFormat:1079eb90",
+        "official_en_record_id": "switch:locres:set-01:ConvertVideoNode:ConvertVideoNode_Validate_InvalidFormat:1079eb90",
+        "jp_sha256": "8dd9a8071c33ea5098f88db43dcd2d1d02a69c6c7a905719392192e1a07fde5d",
+        "official_en_sha256": "9e3553b110e431f5d98334f9db20fd393c65435e4a7bf1b5aba974bc6a25082d"
+      },
+      "text": {
+        "jp": "画像は未サポート形式です (サポート形式は JPEG)",
+        "official_en": "The images are in an unsupported format (supported format is JPEG)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ConvertVideoNode:ConvertVideoNode_Validate_DirectoryMissing:78ac19d0",
+      "source": {
+        "set": "set-02",
+        "namespace": "ConvertVideoNode",
+        "key": "ConvertVideoNode_Validate_DirectoryMissing",
+        "jp_record_id": "switch:locres:set-01:ConvertVideoNode:ConvertVideoNode_Validate_DirectoryMissing:78ac19d0",
+        "official_en_record_id": "switch:locres:set-01:ConvertVideoNode:ConvertVideoNode_Validate_DirectoryMissing:78ac19d0",
+        "jp_sha256": "65a12d45411b7538ca08443978138cf78233266b951327a42281e232f2902aec",
+        "official_en_sha256": "9b783aa4c5cd5197aa00a4db81c4c08c1a13a2b22489fd3419a3b6bb0115c4b9"
+      },
+      "text": {
+        "jp": "出力ディレクトリは存在しません",
+        "official_en": "The output directory is missing",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "FDisplayClusterFillDerivedDataCacheModule",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:FDisplayClusterFillDerivedDataCacheModule:FillDerivedDataCache:ff021071",
+      "source": {
+        "set": "set-02",
+        "namespace": "FDisplayClusterFillDerivedDataCacheModule",
+        "key": "FillDerivedDataCache",
+        "jp_record_id": "switch:locres:set-01:FDisplayClusterFillDerivedDataCacheModule:FillDerivedDataCache:ff021071",
+        "official_en_record_id": "switch:locres:set-01:FDisplayClusterFillDerivedDataCacheModule:FillDerivedDataCache:ff021071",
+        "jp_sha256": "82ab0edb0e082cd30bff20776fc53e59752a54f09bb3cac213cee6bbe5d05259",
+        "official_en_sha256": "a0caa0a7493611980076603420b06944a33dc8cdd76880760c981e5ca83b114a"
+      },
+      "text": {
+        "jp": "派生データキャッシュを埋める (すべてのシェーダーを準備)",
+        "official_en": "Fill Derived Data Cache (Prepare all Shaders)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FDisplayClusterFillDerivedDataCacheModule:FillDerivedDataCacheTooltip:3a484de9",
+      "source": {
+        "set": "set-02",
+        "namespace": "FDisplayClusterFillDerivedDataCacheModule",
+        "key": "FillDerivedDataCacheTooltip",
+        "jp_record_id": "switch:locres:set-01:FDisplayClusterFillDerivedDataCacheModule:FillDerivedDataCacheTooltip:3a484de9",
+        "official_en_record_id": "switch:locres:set-01:FDisplayClusterFillDerivedDataCacheModule:FillDerivedDataCacheTooltip:3a484de9",
+        "jp_sha256": "e337e162466ac26e26df2f1b148d6591b358bb865affd6c19d62889c393d8d78",
+        "official_en_sha256": "e7608bfd3d607211b4b998cc509cc163e1c2c547d141e53c890be0b471878c4f"
+      },
+      "text": {
+        "jp": "[プロジェクト設定] > [対応プラットフォーム] でチェックされた全プラットフォームに対して、このプロジェクトにある全アセットを対象として、事前にすべてのシェーダーを準備して、Nanite と他の重いデータをプリプロセスします。レベルを開くか PIE/スタンドアロンで実行する際、シェーダー コンパイルの頻発を避けるのに役に立ちます。注意が必要なのは、プロジェクトのサイズによりますが、この処理は完了まで長時間かかり、多くのディスク容量が必要になることです",
+        "official_en": "Prepare all shaders and preprocess Nanite and other heavy data ahead of time for all assets in this project for all checked platforms in Project Settings > Supported Platforms. \nThis is useful to avoid shader compilation and pop-in when opening a level or running PIE/Standalone. \nNote that this operation can take a very long time to complete and can take up a lot of disk space, depending on the size of your project.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

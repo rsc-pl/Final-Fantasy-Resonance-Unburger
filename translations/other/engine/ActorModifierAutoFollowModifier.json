@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ActorModifierAutoFollowModifier",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ActorModifierAutoFollowModifier:InvalidReferenceActor:cad1cf8b",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierAutoFollowModifier",
+        "key": "InvalidReferenceActor",
+        "jp_record_id": "switch:locres:set-01:ActorModifierAutoFollowModifier:InvalidReferenceActor:cad1cf8b",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierAutoFollowModifier:InvalidReferenceActor:cad1cf8b",
+        "jp_sha256": "e2e58d5a479b97044dc57d54cb7553e24d5762176d03fd9310c517636ee7519d",
+        "official_en_sha256": "c3f8b12ae8ceed4ba8c71c5420d19b3eb1a84f5614c8f4542b60785d373adb1b"
+      },
+      "text": {
+        "jp": "追従されているアクタは、変更されたアクタの親になることはできません",
+        "official_en": "Followed actor cannot be a parent of modified actor",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorModifierAutoFollowModifier:ModifierDescription:a1e264e7",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierAutoFollowModifier",
+        "key": "ModifierDescription",
+        "jp_record_id": "switch:locres:set-01:ActorModifierAutoFollowModifier:ModifierDescription:a1e264e7",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierAutoFollowModifier:ModifierDescription:a1e264e7",
+        "jp_sha256": "c471cea112bb1d83a2322803b4bb5b991d4600f2196c719b4849f5513841f479",
+        "official_en_sha256": "b6add49e2d4df3cd7a37a1744d19fb5972268c6b64487b2c78562483699f3055"
+      },
+      "text": {
+        "jp": "別のアクタを基準にし、その境界を使用してアクタを配置します",
+        "official_en": "Positions an actor relative to another actor using their bounds",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

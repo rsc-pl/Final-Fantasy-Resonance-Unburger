@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "LandscapePatchManager",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:LandscapePatchManager:FixPatchesButton:a860f460",
+      "source": {
+        "set": "set-02",
+        "namespace": "LandscapePatchManager",
+        "key": "FixPatchesButton",
+        "jp_record_id": "switch:locres:set-01:LandscapePatchManager:FixPatchesButton:a860f460",
+        "official_en_record_id": "switch:locres:set-01:LandscapePatchManager:FixPatchesButton:a860f460",
+        "jp_sha256": "81ef32b4377bbf46411569c88174b5525df0f7c919e0de455153f5d068007405",
+        "official_en_sha256": "874d25484a23a451a8e8a5d091d88d442a04e819a72d09aec8c5b0fdd1069442"
+      },
+      "text": {
+        "jp": "パッチを修正",
+        "official_en": "Fix patches",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LandscapePatchManager:MigratePatchesTransaction:ad820829",
+      "source": {
+        "set": "set-02",
+        "namespace": "LandscapePatchManager",
+        "key": "MigratePatchesTransaction",
+        "jp_record_id": "switch:locres:set-01:LandscapePatchManager:MigratePatchesTransaction:ad820829",
+        "official_en_record_id": "switch:locres:set-01:LandscapePatchManager:MigratePatchesTransaction:ad820829",
+        "jp_sha256": "7e633a5e4846cddd27b9d4f8b201fb061266d35d5bc5d678aea64178ab70e6fd",
+        "official_en_sha256": "2d33efef31f5572d3cecbd3e56006aa245d5a1ff982e5cd7777beb4d92d56616"
+      },
+      "text": {
+        "jp": "パッチを移行",
+        "official_en": "Migrate Patches",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LandscapePatchManager:MigrateToGuidsButton:6899cdc3",
+      "source": {
+        "set": "set-02",
+        "namespace": "LandscapePatchManager",
+        "key": "MigrateToGuidsButton",
+        "jp_record_id": "switch:locres:set-01:LandscapePatchManager:MigrateToGuidsButton:6899cdc3",
+        "official_en_record_id": "switch:locres:set-01:LandscapePatchManager:MigrateToGuidsButton:6899cdc3",
+        "jp_sha256": "598372ffa1969d75368282a092d1825c6c1065e7740221a1bcccd605bbab2a4a",
+        "official_en_sha256": "0c82ec60f726bffd9c20f9b9b57d48e49fb0da1bc0b31f5fe09682fefea3ff40"
+      },
+      "text": {
+        "jp": "GUID システムに移行",
+        "official_en": "Migrate to guid system",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LandscapePatchManager:PatchesHaveIncorrectManagerPointer:08bb230c",
+      "source": {
+        "set": "set-02",
+        "namespace": "LandscapePatchManager",
+        "key": "PatchesHaveIncorrectManagerPointer",
+        "jp_record_id": "switch:locres:set-01:LandscapePatchManager:PatchesHaveIncorrectManagerPointer:08bb230c",
+        "official_en_record_id": "switch:locres:set-01:LandscapePatchManager:PatchesHaveIncorrectManagerPointer:08bb230c",
+        "jp_sha256": "aff4bbd9912e8f747fb8f536490b6ff70900a211ae98c3e972b80320bfd7e83f",
+        "official_en_sha256": "7723965c932f208317fd487ececd34d71e4f6b3a97ff9de165e051148b40013d"
+      },
+      "text": {
+        "jp": "パッチ マネージャーは、パッチ マネージャーのポインタが正しく設定されていないパッチを 1 つまたは複数保持しています。それらのパッチをマネージャーから除去する必要があります (パッケージ：{Package}、マネージャー：{Actor})",
+        "official_en": "Patch manager holds at least one patch whose patch manager pointer is set incorrectly. These patches should be removed from the manager.(Package: {Package}, Manager: {Actor}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LandscapePatchManager:UsingLegacyPatchList:68453050",
+      "source": {
+        "set": "set-02",
+        "namespace": "LandscapePatchManager",
+        "key": "UsingLegacyPatchList",
+        "jp_record_id": "switch:locres:set-01:LandscapePatchManager:UsingLegacyPatchList:68453050",
+        "official_en_record_id": "switch:locres:set-01:LandscapePatchManager:UsingLegacyPatchList:68453050",
+        "jp_sha256": "4a18bbf69145ef69a2e7f8aa7e42123a315eda1f88bc43958e1771e4b5a029a3",
+        "official_en_sha256": "a75cdc9102d72d0145d2e5fde8dda108040230d666ee0a497bb89e4d88d7b5b7"
+      },
+      "text": {
+        "jp": "パッチ マネージャーを使用してパッチの順序を決めることは、非推奨になりました。パッチでは、GUID によって特定の編集レイヤーを指し、順序付けには優先順位を使用する必要があります。これを修正するには LandscapePatch.MigrateLegacyListToPrioritySystem を使用します  (パッケージ：{Package}、マネージャー：{Actor})",
+        "official_en": "The use of the patch manager to determine patch ordering is deprecated. Patches should point to a specific edit layer via a guid and use Priority for ordering. You can use LandscapePatch.MigrateLegacyListToPrioritySystem to fix this. (Package: {Package}, Manager: {Actor}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

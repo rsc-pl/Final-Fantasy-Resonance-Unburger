@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_C03_310_01",
+    "scene_id": "ST_C03_310_01",
+    "chapter": "chapter03",
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_C03_310_01:310_01_002:5d4fea97",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_C03_310_01",
+        "key": "310_01_002",
+        "jp_record_id": "switch:locres:set-02:ST_C03_310_01:310_01_002:5d4fea97",
+        "official_en_record_id": "switch:locres:set-02:ST_C03_310_01:310_01_002:5d4fea97",
+        "jp_sha256": "de3faabb6465253f26b122c34755fd79fe64f011e41729f757e041a74751dbe6",
+        "official_en_sha256": "1a4484c64dd0ce241a6ffdfe313afb707fe1639db6c95cf302e5f35fc9b33139"
+      },
+      "text": {
+        "jp": "オルデリオンの人たちが危ない！\r\nみんないこう！",
+        "official_en": "The people are in danger. Let’s move it, guys!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_C03_310_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "レイン",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0002",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_C03_310_01/310_01_002"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_C03_310_01:310_01_001:9baf0b9d",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_C03_310_01",
+        "key": "310_01_001",
+        "jp_record_id": "switch:locres:set-02:ST_C03_310_01:310_01_001:9baf0b9d",
+        "official_en_record_id": "switch:locres:set-02:ST_C03_310_01:310_01_001:9baf0b9d",
+        "jp_sha256": "3401e67d18f22884da338c0fd40743d19ab224e911ab9d5d0fa156f847b2c720",
+        "official_en_sha256": "eb64bd0e07ca21bd60ac4107af63e2d87725d7eadfac1f2dd05e0e0c5ab8f75e"
+      },
+      "text": {
+        "jp": "市街地に魔物が……！",
+        "official_en": "There’re monsters in the city limits!",
+        "real_en": "Monsters have made it into the city...!"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_C03_310_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "リド",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0057",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_C03_310_01/310_01_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SMoviePipelineConfigSettings",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineConfigSettings:DeleteSelection:c53c7c2e",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineConfigSettings",
+        "key": "DeleteSelection",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineConfigSettings:DeleteSelection:c53c7c2e",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineConfigSettings:DeleteSelection:c53c7c2e",
+        "jp_sha256": "695a2845f39bbaa040a9f3d9d2d2a6f579e1a2240950b77df1543a2de1156508",
+        "official_en_sha256": "954f5c54b7d35df9c766d92035292bed67ab9680624fd7d223ab590984a3ec5e"
+      },
+      "text": {
+        "jp": "選択した{0} 個の設定を削除",
+        "official_en": "Delete Selected {0}|plural(one=Setting, other=Settings)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineConfigSettings:DisableSetting:26a12f4c",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineConfigSettings",
+        "key": "DisableSetting",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineConfigSettings:DisableSetting:26a12f4c",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineConfigSettings:DisableSetting:26a12f4c",
+        "jp_sha256": "c9a916b6ce010f2d9ed075ddf3eab343b02fefe87f64ca2228ddc53fd8cf7941",
+        "official_en_sha256": "63b3c85e73680a2a47a7dea588f766dda62a4b66bb905e95c298d7984f4cbe3a"
+      },
+      "text": {
+        "jp": "{0} 個の設定を無効化",
+        "official_en": "Disable {0}|plural(one=Setting, other=Settings)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineConfigSettings:EnableSetting:04a57013",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineConfigSettings",
+        "key": "EnableSetting",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineConfigSettings:EnableSetting:04a57013",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineConfigSettings:EnableSetting:04a57013",
+        "jp_sha256": "e6956754b03a509c2276d9ce23bcec665278a241065950e65667530669dda434",
+        "official_en_sha256": "b4be2cef47d2f14c22410981a3f6b3b05acf1a3bc7fb95ed36f27084fef62b22"
+      },
+      "text": {
+        "jp": "{0} 個の設定を有効化",
+        "official_en": "Enable {0}|plural(one=Setting, other=Settings)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineConfigSettings:ValidationSettingError_Tooltip:e107b2ea",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineConfigSettings",
+        "key": "ValidationSettingError_Tooltip",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineConfigSettings:ValidationSettingError_Tooltip:e107b2ea",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineConfigSettings:ValidationSettingError_Tooltip:e107b2ea",
+        "jp_sha256": "55f1d39b56844aa12d7cae0d68b4f929f688faa507b2213dbae1903b7c3a6912",
+        "official_en_sha256": "4cd8fde05918c71df5ef0d82cb0a85f012f917fa40ec42e4ab994f44c93ff6b5"
+      },
+      "text": {
+        "jp": "この設定には、レンダリング試行前に修正する必要のある無効な設定が含まれています。",
+        "official_en": "This setting has an invalid setting that must be corrected before attempting to render.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineConfigSettings:ValidationSettingWarning_Tooltip:c7e03583",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineConfigSettings",
+        "key": "ValidationSettingWarning_Tooltip",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineConfigSettings:ValidationSettingWarning_Tooltip:c7e03583",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineConfigSettings:ValidationSettingWarning_Tooltip:c7e03583",
+        "jp_sha256": "11aee0a4cc0ab34bade203eb81e29f88f72a5fd3647121539e7aeee352af1aca",
+        "official_en_sha256": "df3e26eaefb73553abd88251508181f837f7b8cc7162ad30e250b01172460d62"
+      },
+      "text": {
+        "jp": "この設定は、予期せぬ結果を生成する可能性のある方法で構成されています。",
+        "official_en": "This setting is configured in a way that may produce undesired results.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SMoviePipelineConfigSettings:CategoryFormatString:55c69524",
+      "source": {
+        "set": "set-02",
+        "namespace": "SMoviePipelineConfigSettings",
+        "key": "CategoryFormatString",
+        "jp_record_id": "switch:locres:set-01:SMoviePipelineConfigSettings:CategoryFormatString:55c69524",
+        "official_en_record_id": "switch:locres:set-01:SMoviePipelineConfigSettings:CategoryFormatString:55c69524",
+        "jp_sha256": "a00644508de97e85263c9d0cd67e63d3c3b5d733bcaddc65b110e501ad5a7b73",
+        "official_en_sha256": "a00644508de97e85263c9d0cd67e63d3c3b5d733bcaddc65b110e501ad5a7b73"
+      },
+      "text": {
+        "jp": "{0}",
+        "official_en": "{0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

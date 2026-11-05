@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AbilitiesGameplayEffectComponent",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AbilitiesGameplayEffectComponent:InstantDoesNotWorkWithGrantAbilities:918b3582",
+      "source": {
+        "set": "set-02",
+        "namespace": "AbilitiesGameplayEffectComponent",
+        "key": "InstantDoesNotWorkWithGrantAbilities",
+        "jp_record_id": "switch:locres:set-01:AbilitiesGameplayEffectComponent:InstantDoesNotWorkWithGrantAbilities:918b3582",
+        "official_en_record_id": "switch:locres:set-01:AbilitiesGameplayEffectComponent:InstantDoesNotWorkWithGrantAbilities:918b3582",
+        "jp_sha256": "a869df5775002fc765275a5ca47469cf0cef369e0e007d5b195ab80237dbcf43",
+        "official_en_sha256": "ffb9072b71ab62731f93835be1d28aaceb63ec277469bcceed2faa4194e3178d"
+      },
+      "text": {
+        "jp": "GrantAbilityConfigs はインスタント エフェクト：{0} では機能しません",
+        "official_en": "GrantAbilityConfigs does not work with Instant Effects: {0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AbilitiesGameplayEffectComponent:GrantAbilitiesMustBeUnique:2aa1e1a6",
+      "source": {
+        "set": "set-02",
+        "namespace": "AbilitiesGameplayEffectComponent",
+        "key": "GrantAbilitiesMustBeUnique",
+        "jp_record_id": "switch:locres:set-01:AbilitiesGameplayEffectComponent:GrantAbilitiesMustBeUnique:2aa1e1a6",
+        "official_en_record_id": "switch:locres:set-01:AbilitiesGameplayEffectComponent:GrantAbilitiesMustBeUnique:2aa1e1a6",
+        "jp_sha256": "6adc4052ea37231472837bd0586c31431f5da5af97a29abed4ff7616df703cd9",
+        "official_en_sha256": "ab9606a6d6b2f917fbc6f54b9a770cfa94dff54392bd5158f66897db4514f87f"
+      },
+      "text": {
+        "jp": "同じタイプの複数アビリティは、{0}で付与できません",
+        "official_en": "Multiple Abilities of the same type cannot be granted by {0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

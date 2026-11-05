@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SkinnedMeshComponent",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SkinnedMeshComponent:SkeletalMeshMissingHalfEdgeBuffer:c9e469ff",
+      "source": {
+        "set": "set-02",
+        "namespace": "SkinnedMeshComponent",
+        "key": "SkeletalMeshMissingHalfEdgeBuffer",
+        "jp_record_id": "switch:locres:set-01:SkinnedMeshComponent:SkeletalMeshMissingHalfEdgeBuffer:c9e469ff",
+        "official_en_record_id": "switch:locres:set-01:SkinnedMeshComponent:SkeletalMeshMissingHalfEdgeBuffer:c9e469ff",
+        "jp_sha256": "5b5a844943546fa1ff31e491e2a871c907926facc50a60c821e1bfde89b8bf2b",
+        "official_en_sha256": "11abe981b07b7353e399a3b82d16c3a477448b4e6a0cbbc511f20e9b9a4f704e"
+      },
+      "text": {
+        "jp": "デフォーマー グラフ {0} をスケルタルメッシュ アセット {1} の TargetMeshDeformers に追加して、デフォーマーで必要なエクストラ データが必ず非エディタ ビルドでクックされるようにしてください",
+        "official_en": "Please add Deformer Graph {0} to TargetMeshDeformers of Skeletal Mesh Asset {1} to make sure extra data required by the Deformer is cooked for non-editor builds.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SkinnedMeshComponent:InvalidDeformerIndexForLOD:c813c437",
+      "source": {
+        "set": "set-02",
+        "namespace": "SkinnedMeshComponent",
+        "key": "InvalidDeformerIndexForLOD",
+        "jp_record_id": "switch:locres:set-01:SkinnedMeshComponent:InvalidDeformerIndexForLOD:c813c437",
+        "official_en_record_id": "switch:locres:set-01:SkinnedMeshComponent:InvalidDeformerIndexForLOD:c813c437",
+        "jp_sha256": "e1bf14f5c7fb73133c2f5d4b4c02fb1c464942efce2354a67181abbadeb2ad2b",
+        "official_en_sha256": "0d2733080582bfeef609460fb203d3231b397974a07ee2554bf7ecae900e33de"
+      },
+      "text": {
+        "jp": "利用可能なデフォーマーは {2} 個のみであるため、スケルタルメッシュ アセット {1} のデフォーマー インデックス {0} は無効です",
+        "official_en": "The deformer index {0} is invalid for Skeletal Mesh Asset {1} as there are only {2} deformers available.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

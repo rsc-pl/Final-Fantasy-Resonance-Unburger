@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "RenderDocPlugin",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:RenderDocPlugin:HelpMessage:2203135d",
+      "source": {
+        "set": "set-02",
+        "namespace": "RenderDocPlugin",
+        "key": "HelpMessage",
+        "jp_record_id": "switch:locres:set-01:RenderDocPlugin:HelpMessage:2203135d",
+        "official_en_record_id": "switch:locres:set-01:RenderDocPlugin:HelpMessage:2203135d",
+        "jp_sha256": "095f7d7502e27a6d86f547255c74bd91cefa635071e63194dc4b90c3bee823f3",
+        "official_en_sha256": "3dcff27c7172e4d4005251971a1022a80eefc3ffa0a0b3ca9609ac404dacc54a"
+      },
+      "text": {
+        "jp": "<LargeText>UE RenderDoc プラグインを試用いただきありがとうございます。</>\n\nこのプラグインを使用すると、エンジン内のレンダリング処理をキャプチャし、RenderDoc を使用して調べることができます。\nフレームをキャプチャするには次の 3 つの方法があります。\n* ビューポートの右上にある<NormalText.Important>緑色の [キャプチャ] ボタン</>をクリックする。\n* コンソール コマンド <NormalText.Important>renderdoc.CaptureFrame</> を実行する。このコマンドはどこででも利用でき、パッケージ化されているビルド内のフレームをキャプチャするのに非常に便利です。\n* キャプチャ ホットキー (<NormalText.Important>Alt+F12</>) を使用する。このホットキーは、エディタ ウィンドウおよび Play-In-Editor セッションでのみ有効です。\n\nキャプチャで十分なデータが取得されないという問題がある場合は、キャプチャ設定を確認してください。\nキャプチャ設定は、<NormalText.Important>[編集] > [プロジェクト設定] > [プラグイン/RenderDoc]</> にあります。すべての設定には、それが何をするのかを詳細に示すツールヒントがあります。\n\nUE でのグラフィック デバッグについて学ぶには、<a id=\"browser\" href=\"https://docs.unrealengine.com/latest/INT/Programming/Rendering/ShaderDevelopment\" style=\"Hyperlink\">Epic レンダリング FAQ</> から始めることをお勧めします。\nこのドキュメントには、シェーダをデバッグする場合、できるだけ多くのデータを利用するために、どの CVar/ プロジェクト設定を設定する必要があるかについての情報が記載されています。\n\nこのプラグインに関するご質問やご提案がございましたら、メールまたは github ページでお問い合わせください。\n<NormalText.Important>temaran@gmail.com</>\n<a id=\"browser\" href=\"https://github.com/Temaran/UE4RenderDocPlugin\" style=\"Hyperlink\">https://github.com/Temaran/UE4RenderDocPlugin</>\n\nまた、RenderDoc の作成者である BaldurK に大いに感謝の意を表します。\n<a id=\"browser\" href=\"https://github.com/baldurk\" style=\"Hyperlink\">https://github.com/baldurk</>\nそして、このプロジェクトに多大な貢献をしてくれた Slomp にも感謝の意を表します。\n<a id=\"browser\" href=\"https://github.com/slomp\" style=\"Hyperlink\">https://github.com/slomp</>",
+        "official_en": "<LargeText>Hello and thank you for trying out the UE RenderDoc plugin!</>\n\nThis plugin will allow you to capture rendering operations in the engine, and inspect them using RenderDoc.\nThere are three ways of capturing a frame:\n* You can press the <NormalText.Important>green capture button</> in the top right of any viewport.\n* You can run the <NormalText.Important>renderdoc.CaptureFrame</> console command. This will work anywhere and is very useful for capturing frames in packaged builds.\n* You can use the capture hotkey (<NormalText.Important>Alt+F12</>). Please note that the hotkey is only active in editor windows and Play-In-Editor sessions.\n\nIf you are having trouble with not getting enough data in your captures, consider checking out the capture settings.\nThey can be found under <NormalText.Important>[Edit]->[Project Settings...]->[Plugins/RenderDoc]</>. All settings have tooltips that detail what they do.\n\nA good place to start learning graphics debugging in UE is the <a id=\"browser\" href=\"https://docs.unrealengine.com/latest/INT/Programming/Rendering/ShaderDevelopment\" style=\"Hyperlink\">Epic Rendering FAQ</>\nIt contains information on what CVar/project settings you should set when debugging shaders to get access to as much data as possible.\n\nIf you have any questions or suggestions regarding the plugin, please contact me via email or my github page:\n<NormalText.Important>temaran (at) gmail (dot) com</>\n\nI would also like to give major shoutouts to BaldurK, the author of RenderDoc:\n<a id=\"browser\" href=\"https://github.com/baldurk\" style=\"Hyperlink\">https://github.com/baldurk</>\nAnd Slomp, who has made many great contributions to the project:\n<a id=\"browser\" href=\"https://github.com/slomp\" style=\"Hyperlink\">https://github.com/slomp</>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RenderDocPlugin:CloseButton:3e415427",
+      "source": {
+        "set": "set-02",
+        "namespace": "RenderDocPlugin",
+        "key": "CloseButton",
+        "jp_record_id": "switch:locres:set-01:RenderDocPlugin:CloseButton:3e415427",
+        "official_en_record_id": "switch:locres:set-01:RenderDocPlugin:CloseButton:3e415427",
+        "jp_sha256": "f6c244f98893cd951392f88864ef16a239999b2e95a6cebf5f6aa8d670460637",
+        "official_en_sha256": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+      },
+      "text": {
+        "jp": "閉じる",
+        "official_en": "Close",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocLaunchRenderDocNotificationFailure:1ef0b4ef",
+      "source": {
+        "set": "set-02",
+        "namespace": "RenderDocPlugin",
+        "key": "RenderDocLaunchRenderDocNotificationFailure",
+        "jp_record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocLaunchRenderDocNotificationFailure:1ef0b4ef",
+        "official_en_record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocLaunchRenderDocNotificationFailure:1ef0b4ef",
+        "jp_sha256": "da540e6f13859655871fb510eb1ae81d1c916d0cbebd4ba11c92828142c0a671",
+        "official_en_sha256": "9a7e67a549435fa8bf0161ba2d8403da86147ba7b1c4c3090c19b2328f888928"
+      },
+      "text": {
+        "jp": "RenderDoc GUIを起動できませんでした",
+        "official_en": "Failed to launch RenderDoc GUI",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocLaunchRenderDocNotification:47b92b87",
+      "source": {
+        "set": "set-02",
+        "namespace": "RenderDocPlugin",
+        "key": "RenderDocLaunchRenderDocNotification",
+        "jp_record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocLaunchRenderDocNotification:47b92b87",
+        "official_en_record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocLaunchRenderDocNotification:47b92b87",
+        "jp_sha256": "a8ef8d4186cf8587e1cdb39d4acfa8e1094dc22bf5f7f5d945a5f15f7914b6ba",
+        "official_en_sha256": "da410774aaa4cba679f102e75d4f995b17dad918dacc71afa98f1b77df3d4185"
+      },
+      "text": {
+        "jp": "RenderDoc GUIを起動",
+        "official_en": "Launching RenderDoc GUI",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocLaunchRenderDocNotificationCompleted:1c262443",
+      "source": {
+        "set": "set-02",
+        "namespace": "RenderDocPlugin",
+        "key": "RenderDocLaunchRenderDocNotificationCompleted",
+        "jp_record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocLaunchRenderDocNotificationCompleted:1c262443",
+        "official_en_record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocLaunchRenderDocNotificationCompleted:1c262443",
+        "jp_sha256": "8b69188af311645b85ad3f46418edeb20ec26cd00be7fc6bce11706303e3e4f8",
+        "official_en_sha256": "10cc0eea1edccb86e808332c77df770e6987ff3b3ae444d1950ad057e1fefa46"
+      },
+      "text": {
+        "jp": "RenderDoc GUIが起動しました!",
+        "official_en": "RenderDoc GUI Launched!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocBeginCaptureNotification:73a7c8ba",
+      "source": {
+        "set": "set-02",
+        "namespace": "RenderDocPlugin",
+        "key": "RenderDocBeginCaptureNotification",
+        "jp_record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocBeginCaptureNotification:73a7c8ba",
+        "official_en_record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocBeginCaptureNotification:73a7c8ba",
+        "jp_sha256": "cfbeadbea1ecf172885498eaabd002622d9dccc32aee7ef0c18437d2f2fa4aa3",
+        "official_en_sha256": "d0a55479801d0c3905a575d61839a6ea299e00945a23353cb6ea74d80b979258"
+      },
+      "text": {
+        "jp": "RenderDocキャプチャを開始しました",
+        "official_en": "RenderDoc capture started",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocPendingCaptureNotification:b64a6071",
+      "source": {
+        "set": "set-02",
+        "namespace": "RenderDocPlugin",
+        "key": "RenderDocPendingCaptureNotification",
+        "jp_record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocPendingCaptureNotification:b64a6071",
+        "official_en_record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocPendingCaptureNotification:b64a6071",
+        "jp_sha256": "bada5aaab52207964ef800e91bef80a3aeec65c2c89d5addc2ef09e077a2680f",
+        "official_en_sha256": "4af9d1336b6c6cb6429fc5163327fd275e93130fe7371d4845d77054ede53f83"
+      },
+      "text": {
+        "jp": "{0} {1} で開始するRenderDocキャプチャ",
+        "official_en": "RenderDoc capture starting in {0} {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocCaptureInProgressNotification:294276f9",
+      "source": {
+        "set": "set-02",
+        "namespace": "RenderDocPlugin",
+        "key": "RenderDocCaptureInProgressNotification",
+        "jp_record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocCaptureInProgressNotification:294276f9",
+        "official_en_record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocCaptureInProgressNotification:294276f9",
+        "jp_sha256": "3c989d0a12df464e25a16a7f19506abb3583e3606ed309873a7b61183de9a4c2",
+        "official_en_sha256": "b95b5e2ef47776957a25b592b6a5de7ef5f8b6866504ee57d336be3a00665483"
+      },
+      "text": {
+        "jp": "RenderDocキャプチャフレーム番号 {0}",
+        "official_en": "RenderDoc capturing frame #{0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RenderDocPlugin:ShowHelpOnStartupText:f74ce82c",
+      "source": {
+        "set": "set-02",
+        "namespace": "RenderDocPlugin",
+        "key": "ShowHelpOnStartupText",
+        "jp_record_id": "switch:locres:set-01:RenderDocPlugin:ShowHelpOnStartupText:f74ce82c",
+        "official_en_record_id": "switch:locres:set-01:RenderDocPlugin:ShowHelpOnStartupText:f74ce82c",
+        "jp_sha256": "cfeea6b5ec2430636f86f78f5e5632ed5fdbb18f0ae463fa1da1e728095ab2ec",
+        "official_en_sha256": "f88d2f7ec8f929cd7e5c1a25871db6d6ec34b47ae72591b97d1c507b6ed936f6"
+      },
+      "text": {
+        "jp": "起動時に表示",
+        "official_en": "Show on startup",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocFrames:01bd71d5",
+      "source": {
+        "set": "set-02",
+        "namespace": "RenderDocPlugin",
+        "key": "RenderDocFrames",
+        "jp_record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocFrames:01bd71d5",
+        "official_en_record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocFrames:01bd71d5",
+        "jp_sha256": "4d9c2e5034e9e2a5f43c4e3de284a48806e6bee89d22c509a1e23dd941c290a1",
+        "official_en_sha256": "594cfd2607d4f09e1ce6241203e418cacfed545063792bc5eab7afaadbf0c4e0"
+      },
+      "text": {
+        "jp": "フレーム",
+        "official_en": "frames",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocSeconds:45ee76af",
+      "source": {
+        "set": "set-02",
+        "namespace": "RenderDocPlugin",
+        "key": "RenderDocSeconds",
+        "jp_record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocSeconds:45ee76af",
+        "official_en_record_id": "switch:locres:set-01:RenderDocPlugin:RenderDocSeconds:45ee76af",
+        "jp_sha256": "9dcdc2b289b9d23314e89a7830623090087aaeda0bffe3b606bdd466e61e98f1",
+        "official_en_sha256": "59f006d63bd009b7f1f1d7bd7e29e1f3b9db6505ce784ca3216ea90c6d6dcb11"
+      },
+      "text": {
+        "jp": "秒",
+        "official_en": "seconds",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

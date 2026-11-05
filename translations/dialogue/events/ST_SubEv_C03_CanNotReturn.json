@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_SubEv_C03_CanNotReturn",
+    "scene_id": "ST_SubEv_C03_CanNotReturn",
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C03_CanNotReturn:SubEv_C03_CanNotReturn_001:84af021c",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C03_CanNotReturn",
+        "key": "SubEv_C03_CanNotReturn_001",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C03_CanNotReturn:SubEv_C03_CanNotReturn_001:84af021c",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C03_CanNotReturn:SubEv_C03_CanNotReturn_001:84af021c",
+        "jp_sha256": "109dc34a036825e256fd919035ae3b5fac335196811b75953c88641b839e7622",
+        "official_en_sha256": "28906117b0fcf252bbef217a4910b34562d876a9b703336f1ac1a85d7f1ea566"
+      },
+      "text": {
+        "jp": "\r\nこの先へ進むと\r\n旧市街でのイベントが完了するまで\r\n戻ってくることができません。\r\n\r\n街で準備を整えてから\r\n先へ進まれることをおすすめします。\r\n\r\n\r\n※オートセーブは旧市街突入前の状態で\r\n維持されます。",
+        "official_en": "You will not be able to return until the event in\r\nOld Town is completed.\r\n\r\nMake sure you are fully prepared\r\nbefore pressing on.\r\n\r\nThe autosave will be maintained at the point before proceeding into Old Town.",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C03_CanNotReturn",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

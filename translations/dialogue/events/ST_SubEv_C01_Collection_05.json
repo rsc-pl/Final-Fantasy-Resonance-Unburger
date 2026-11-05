@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_SubEv_C01_Collection_05",
+    "scene_id": "ST_SubEv_C01_Collection_05",
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C01_Collection_05:SubEv_C01_Collection_05_001:1fdf9774",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C01_Collection_05",
+        "key": "SubEv_C01_Collection_05_001",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C01_Collection_05:SubEv_C01_Collection_05_001:1fdf9774",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C01_Collection_05:SubEv_C01_Collection_05_001:1fdf9774",
+        "jp_sha256": "d3d99523bf4db7a2624e3f125124d71a3358937c81c2eef74eb7760c2bac1d35",
+        "official_en_sha256": "5746adcba50bda8bf83b948b4b14ed55c451e6ed1b1c359866fd9c5d87f8e835"
+      },
+      "text": {
+        "jp": "現在の合計は{item}個、\r\nこれが{nextitem}個になったら、\r\n次の宝箱の鍵を開けるとしましょう。",
+        "official_en": "If thou art able to amass {nextitem} shards henceforth, I shall unlock the next cache in return.",
+        "real_en": "Your current total is {item}. Once you reach {nextitem}, I'll unlock the next treasure chest."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C01_Collection_05",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "謎の姫",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0239",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C01_Collection_05/SubEv_C01_Collection_05_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

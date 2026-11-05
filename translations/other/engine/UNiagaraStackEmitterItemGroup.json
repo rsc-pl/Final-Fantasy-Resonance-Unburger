@@ -1,0 +1,789 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UNiagaraStackEmitterItemGroup",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:GpuNoInterpolatedIncorrectLong:f4eff45b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "GpuNoInterpolatedIncorrectLong",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:GpuNoInterpolatedIncorrectLong:f4eff45b",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:GpuNoInterpolatedIncorrectLong:f4eff45b",
+        "jp_sha256": "8704a5108d06fae82eb3f17c7303d8b4cbade434f961a6c170150159431805fd",
+        "official_en_sha256": "516e34b36c4cb39857b60c4d67e753a18d220415ae2f7639d5ed042f112d28c6"
+      },
+      "text": {
+        "jp": "前の GPU ジェネレータの問題が原因で、補間スポーンが無効になっている場合にパーティクル スポーン時にパーティクル スポーンと更新スクリプトの両方が実行されていました。この問題は修正済みであり、新しいコンテンツでは、補間スポーンが無効になっている場合にのみパーティクル スポーンが実行されるという CPU での動作と一致するようになっています",
+        "official_en": "Due to a previous GPU codegen issue both particle spawn & update scripts were running on particle spawn when interpolated spawning is disabled.  This is now fixed for new content to match CPU behavior where only particle spawn will run when interpolated spawning is disabled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EditSummaryViewButtonLabel:34cf8a63",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "EditSummaryViewButtonLabel",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EditSummaryViewButtonLabel:34cf8a63",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EditSummaryViewButtonLabel:34cf8a63",
+        "jp_sha256": "69de7db84395df361148092829c613419b57a3f9d9a006e20120ce442e506430",
+        "official_en_sha256": "2d2eb4b30434df6f4681fe957064598ab84c5c01d2ba8688488beeabee7a4171"
+      },
+      "text": {
+        "jp": "サマリを編集",
+        "official_en": "Edit Summary",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EmitterPropertiesName:495d833c",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "EmitterPropertiesName",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EmitterPropertiesName:495d833c",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EmitterPropertiesName:495d833c",
+        "jp_sha256": "999150fbf9c8bd817feae1fcdfbd62350218e6756d61cd5417553d4a7efe09f8",
+        "official_en_sha256": "0f222483fdb8906152c0a440e484698962bf5de84511f9b3cb862b966a215beb"
+      },
+      "text": {
+        "jp": "エミッタのプロパティ",
+        "official_en": "Emitter Properties",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EmitterSummaryName:0fe13800",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "EmitterSummaryName",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EmitterSummaryName:0fe13800",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EmitterSummaryName:0fe13800",
+        "jp_sha256": "26b7fbfa05a59856935eaa7802c3f2e7ef00137bcf75414d9f072884a2f747cb",
+        "official_en_sha256": "723490b9e1bc08f3d241c195a4a6b6d8b80ca11640bb57072ed18ec0a44d72f4"
+      },
+      "text": {
+        "jp": "エミッタの概要",
+        "official_en": "Emitter Summary",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:FixGpuInterpolatedDisabled:fb6a4d8a",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "FixGpuInterpolatedDisabled",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:FixGpuInterpolatedDisabled:fb6a4d8a",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:FixGpuInterpolatedDisabled:fb6a4d8a",
+        "jp_sha256": "4e1c4ed141db4f72c9028095fa3b8f35d606d7739b6c2adb2540e3897e345bd0",
+        "official_en_sha256": "d407f1e4264469ecac6b1241b38116a69b39ffc9f808fd8cd958ecb043ea07a3"
+      },
+      "text": {
+        "jp": "パーティクル スポーン時にパーティクル更新スクリプトが実行されないように GPU エミッタを修正します",
+        "official_en": "Fix GPU emitter to not run particle update script on particle spawn",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:GpuNoInterpolatedIncorrect:725f9979",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "GpuNoInterpolatedIncorrect",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:GpuNoInterpolatedIncorrect:725f9979",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:GpuNoInterpolatedIncorrect:725f9979",
+        "jp_sha256": "2c9a988765f64ce753eeac2fbd65ae6527a8b6d1f0fd59c1115cbc24593feb75",
+        "official_en_sha256": "f08fea4286d20dcd59d093970be1286b6bcb90ddc41c0be5a5bd65d020751a39"
+      },
+      "text": {
+        "jp": "パーティクル スポーン時に GPU で誤ってパーティクル更新スクリプトが実行されています",
+        "official_en": "GPU is incorrectly running particle update script on particle spawn.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:InterpolatedSpawningDisabledInfo:d9f35838",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "InterpolatedSpawningDisabledInfo",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:InterpolatedSpawningDisabledInfo:d9f35838",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:InterpolatedSpawningDisabledInfo:d9f35838",
+        "jp_sha256": "f68c820445e4dec945567fed9f4b26a6b41d64fd171371888cab514d40ff6399",
+        "official_en_sha256": "ecabf45a14114ef18c1526b8e46d12a218f9c83cdf081d3b379483a46c507665"
+      },
+      "text": {
+        "jp": "補間スポーンが無効になっているため、先頭フレームでパーティクル更新は実行されません",
+        "official_en": "Interpolated spawning disabled, particle update will not run on the first frame.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:WarmupDeltaTimeExceedsEmitterDeltaTimeWarningText:78d798da",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "WarmupDeltaTimeExceedsEmitterDeltaTimeWarningText",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:WarmupDeltaTimeExceedsEmitterDeltaTimeWarningText:78d798da",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:WarmupDeltaTimeExceedsEmitterDeltaTimeWarningText:78d798da",
+        "jp_sha256": "73eacdfccadc4889b69ca72e4cf4382275ffb23259b68f51050922df2dc85017",
+        "official_en_sha256": "1844778daa6cfa3bd50b172296a6405567685d9a2a73f99a89200fc3c18d4a41"
+      },
+      "text": {
+        "jp": "[最大ティックデルタ時間] がシステムの [ウォームアップデルタ時間] の値を下回っています。そのため、このエミッタのウォームアップ時に意図しない結果になる可能性があります。最大ティック デルタ時間は、Niagara 設定で変更できます",
+        "official_en": "Max Tick Delta Time is smaller than the System's Warmup Delta Time. This could cause unintended results during warmup for this emitter.\nThe max tick delta time can be changed in the Niagara settings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EmitterSourcedWarning:e4c0faeb",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "EmitterSourcedWarning",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EmitterSourcedWarning:e4c0faeb",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EmitterSourcedWarning:e4c0faeb",
+        "jp_sha256": "ad180a10b540503ea01b6dbce7e1c4c7d1506a4949740a586e0e7587b5c6bddb",
+        "official_en_sha256": "d917a92af02a0b53a849b026895d775eb8fd3f40c88293244d55af0cf0248ee5"
+      },
+      "text": {
+        "jp": "固定した境界がありません",
+        "official_en": "Missing fixed bounds.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:MissingFixedBounds:38e531af",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "MissingFixedBounds",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:MissingFixedBounds:38e531af",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:MissingFixedBounds:38e531af",
+        "jp_sha256": "c6245340a28cb86898d90b27579d9efa24196656f5583856720e13e321fdc5e6",
+        "official_en_sha256": "d917a92af02a0b53a849b026895d775eb8fd3f40c88293244d55af0cf0248ee5"
+      },
+      "text": {
+        "jp": "固定した境界がありません。",
+        "official_en": "Missing fixed bounds.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:CanNotResetToBase:5538b6c0",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "CanNotResetToBase",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:CanNotResetToBase:5538b6c0",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:CanNotResetToBase:5538b6c0",
+        "jp_sha256": "55612573c668a23704313f0bfc13bfc6947cec6cb2b7d3869f0665ff51914358",
+        "official_en_sha256": "d40793f5398a8755d796be7b96afa04494c43c9931355cbf5a7a8c71246f1b45"
+      },
+      "text": {
+        "jp": "リセットする親がないか、親と違いがありません。",
+        "official_en": "No parent to reset to, or not different from parent.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EmitterPropertiesTooltip:54fcdb99",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "EmitterPropertiesTooltip",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EmitterPropertiesTooltip:54fcdb99",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EmitterPropertiesTooltip:54fcdb99",
+        "jp_sha256": "477775a551bc5d93aff142e81e8e7a0c852affc3014092f0eb08175c9580c075",
+        "official_en_sha256": "28fcf40152c0972deb2b15a8e15d1cfde5c9fcba49e71d223c1d634b40a8724d"
+      },
+      "text": {
+        "jp": "エミッタごとに処理されるプロパティです。ランタイムにこれらを変更できません。",
+        "official_en": "Properties that are handled per Emitter. These cannot change at runtime.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:FixWarmupDeltaTime:c2dee27e",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "FixWarmupDeltaTime",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:FixWarmupDeltaTime:c2dee27e",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:FixWarmupDeltaTime:c2dee27e",
+        "jp_sha256": "800fd8af43d8acc6b86d53a1c5aa5b3387cd3dceee0f8d4138a9aa1652519337",
+        "official_en_sha256": "ba27feab8258fc2393b1857c8901210739d2a387678c246b6f5b87e97b0bfae0"
+      },
+      "text": {
+        "jp": "システムの [ウォームアップデルタ時間] の値を減らします",
+        "official_en": "Reduce System Warmup Delta Time",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:CanResetToBase:cdcf4d8e",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "CanResetToBase",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:CanResetToBase:cdcf4d8e",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:CanResetToBase:cdcf4d8e",
+        "jp_sha256": "db03b635b69f815dcc9ed8dabac9ddbd7831a3f51a81a6de2d48be220ac3d4d0",
+        "official_en_sha256": "331673894a22cb363eacd1add43cd3ac79ebf4373ba6c51c040d38687b36d8bf"
+      },
+      "text": {
+        "jp": "エミッタのプロパティを、親エミッタが定義した状態にリセットします。",
+        "official_en": "Reset the emitter properties to the state defined by the parent emitter.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:InterpolatedSpawningDisabledInfoFix:6cd68a88",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "InterpolatedSpawningDisabledInfoFix",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:InterpolatedSpawningDisabledInfoFix:6cd68a88",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:InterpolatedSpawningDisabledInfoFix:6cd68a88",
+        "jp_sha256": "420a9cba1e3b040bc55bc478cc0c8c6af7ffed3deac495ce7970c01a03f5c4a8",
+        "official_en_sha256": "67a4598ee4502916b58ed064077cd175d99fd6b7d057940b603617cd685c00d7"
+      },
+      "text": {
+        "jp": "スポーン時に更新スクリプトを実行",
+        "official_en": "Run update script on spawn",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EmitterSummaryTooltip:3af70c17",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "EmitterSummaryTooltip",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EmitterSummaryTooltip:3af70c17",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EmitterSummaryTooltip:3af70c17",
+        "jp_sha256": "d02b6c5b009ef567b946b81f5fd277b59064859e0f150d670222a52e0a8a51f0",
+        "official_en_sha256": "8ec6c2ae20f79fa6347fb2e2398b0f1f8822f7155c87f9998404794cb790689d"
+      },
+      "text": {
+        "jp": "スタックからのパラメータのサブセット、アクセスを簡単にするためにここで概要を表示。",
+        "official_en": "Subset of parameters from the stack, summarized here for easier access.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EditSummaryViewButtonTooltip:c4c1d15c",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "EditSummaryViewButtonTooltip",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EditSummaryViewButtonTooltip:c4c1d15c",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EditSummaryViewButtonTooltip:c4c1d15c",
+        "jp_sha256": "dcfb6c545a0b8148c65ebbc62805fa54256409fccd7dbd37331fd8723535a30f",
+        "official_en_sha256": "24d0f2441327e4e8582f2cf03da7b82c969f947f59ba82fb21db55a4e1466cf3"
+      },
+      "text": {
+        "jp": "サマリ エディタを呼び出し、エミッタ サマリの表示時にどの入力、レンダラ、プロパティ、(およびその他) を表示するかを定義できます",
+        "official_en": "Summons the Summary Editor that lets you define what inputs, renderers and properties (and more) should be displayed when looking at the Emitter Summary.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:WarmupDeltaTimeExceedsEmitterDeltaTimeWarningSummary:191141d8",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "WarmupDeltaTimeExceedsEmitterDeltaTimeWarningSummary",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:WarmupDeltaTimeExceedsEmitterDeltaTimeWarningSummary:191141d8",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:WarmupDeltaTimeExceedsEmitterDeltaTimeWarningSummary:191141d8",
+        "jp_sha256": "a4f8db3a8d427febe6b40ff00a8a761ddaa291cac3a51150ec5c267955013c16",
+        "official_en_sha256": "89c21142a90fed9ff76b7d4d9ff51f5846c82f4117b17f583f6fd86e333c10d7"
+      },
+      "text": {
+        "jp": "システムの [ウォームアップデルタ時間] の値がエミッタの [最大デルタ時間] の値を上回っています",
+        "official_en": "System Warmup Delta Time Exceeds Emitter Max Delta Time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:RequiredFixedBoundsWarningFormat:91c584fc",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "RequiredFixedBoundsWarningFormat",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:RequiredFixedBoundsWarningFormat:91c584fc",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:RequiredFixedBoundsWarningFormat:91c584fc",
+        "jp_sha256": "e9a3e0cd115e859643e5eacddbfc523a6a3b50abb8b6b1a8298b2f531a36fd87",
+        "official_en_sha256": "07ae166b8ed1bec0832b1fd5372d3da737f206704d243fa0b58bb33e81430da2"
+      },
+      "text": {
+        "jp": "エミッタは GPU であり、動的境界モードを使用しています\r\nエミッタまたはシステムのプロパティを更新してください。更新していない場合、誤った境界になる可能性があります",
+        "official_en": "The emitter is GPU and is using dynamic bounds mode.\r\nPlease update the Emitter or System properties otherwise bounds may be incorrect.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EmitterSourcedWarningFormat:639ee071",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "EmitterSourcedWarningFormat",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EmitterSourcedWarningFormat:639ee071",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:EmitterSourcedWarningFormat:639ee071",
+        "jp_sha256": "e9a3e0cd115e859643e5eacddbfc523a6a3b50abb8b6b1a8298b2f531a36fd87",
+        "official_en_sha256": "190f0e2d508e93a8fed2d93b7ed2c8f4ddfd290377463ecaebf95132c7fc98fe"
+      },
+      "text": {
+        "jp": "エミッタは GPU であり、動的境界モードを使用しています\r\nエミッタまたはシステムのプロパティを更新してください。更新していない場合、誤った境界になる可能性があります",
+        "official_en": "The emitter is using dynamic bounds mode but only using Emitter sourced renderers.\r\nPlease update the Emitter or System properties otherwise bounds may be incorrect.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:InterpolatedSpawningDisabledDetailed:94bb7fea",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackEmitterItemGroup",
+        "key": "InterpolatedSpawningDisabledDetailed",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:InterpolatedSpawningDisabledDetailed:94bb7fea",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackEmitterItemGroup:InterpolatedSpawningDisabledDetailed:94bb7fea",
+        "jp_sha256": "f50de6c1c785d8658f29b70c183bb3bab2c434858002f16f7f65f987197773a9",
+        "official_en_sha256": "83cad20d6600159df8ace21a97ca9cd8bbb73a135eadadf5b18dbe07454d343f"
+      },
+      "text": {
+        "jp": "補間スポーンが無効になっていると、スポーン スクリプトは先頭フレームでのみ実行されます",
+        "official_en": "When interpolated spawning is disabled only the spawn script runs on the first frame.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

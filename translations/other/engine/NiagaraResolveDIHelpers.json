@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NiagaraResolveDIHelpers",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NiagaraResolveDIHelpers:CircularDependencyWarningFormat:31d4fe2b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraResolveDIHelpers",
+        "key": "CircularDependencyWarningFormat",
+        "jp_record_id": "switch:locres:set-01:NiagaraResolveDIHelpers:CircularDependencyWarningFormat:31d4fe2b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraResolveDIHelpers:CircularDependencyWarningFormat:31d4fe2b",
+        "jp_sha256": "288e4e935ce9a362376cc7be62198db584849f330a18de6fe077ef8deabdf543",
+        "official_en_sha256": "3390b807e4a2d4718f7023a00e270e0a48d59838e41e11fda4ebb9512207b4ed"
+      },
+      "text": {
+        "jp": "データ インターフェース パラメータの循環依存関係が見つかりました。シミュレーションで使用されているデータ インターフェースが正しくない可能性があります。ターゲットパラメータ：{0} 解決されたパラメータ：{1}",
+        "official_en": "A data interface parameter circular dependency was found.  The data interface used in the simulation may be incorrect.  Target Parameter: {0} Resolved Parameter: {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraResolveDIHelpers:MultipleAssignmentsFormat:392d2097",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraResolveDIHelpers",
+        "key": "MultipleAssignmentsFormat",
+        "jp_record_id": "switch:locres:set-01:NiagaraResolveDIHelpers:MultipleAssignmentsFormat:392d2097",
+        "official_en_record_id": "switch:locres:set-01:NiagaraResolveDIHelpers:MultipleAssignmentsFormat:392d2097",
+        "jp_sha256": "288ce795bf975dec635af7a61899cea14427a1221a37bec6b01f0688b4d81803",
+        "official_en_sha256": "fad74335428c12102d6769951a8c741f65b816a82e5aeda45e7c9e351186f7f6"
+      },
+      "text": {
+        "jp": "データ インターフェース パラメータは、単一システム内で複数回割り当てのターゲットとなっていました。シミュレーションで使用されているデータ インターフェースが正しくない可能性があります。ターゲットパラメータ：{0} 最初の割り当て：{1} 現在の割り当て：{2}",
+        "official_en": "A data interface parameter was the target of an assignment multiple times in a single system.  The data interface used in the simulation may be incorrect.  Target Parameter: {0} First Assignment: {1} Current Assignment: {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraResolveDIHelpers:MultipleBindingsFormat:1b463dcb",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraResolveDIHelpers",
+        "key": "MultipleBindingsFormat",
+        "jp_record_id": "switch:locres:set-01:NiagaraResolveDIHelpers:MultipleBindingsFormat:1b463dcb",
+        "official_en_record_id": "switch:locres:set-01:NiagaraResolveDIHelpers:MultipleBindingsFormat:1b463dcb",
+        "jp_sha256": "3c104a68a6c6ebaba842e1c2c7f829460d5efff2be4d9da94fbd2826d17b5f45",
+        "official_en_sha256": "406626b9c7c553100741bed419f752c9cc406d607fe8f31bd46b49deaa90c809"
+      },
+      "text": {
+        "jp": "データ インターフェース パラメータは、単一システム内で複数のバインディングのターゲットとなっていました。シミュレーションで使用されているデータ インターフェースが正しくない可能性があります。ターゲットパラメータ：{0} 最初の読み取り：{1} 現在の読み取り：{2}",
+        "official_en": "A data interface parameter was the target of multiple bindings in a single system.  The data interface used in the simulation may be incorrect.  Target Parameter: {0} First Read: {1} Current Read: {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

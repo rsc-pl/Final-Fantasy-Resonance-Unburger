@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "URevolveBoundaryTool",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:URevolveBoundaryTool:RevolveBoundaryToolTransactionName:f4293bc1",
+      "source": {
+        "set": "set-02",
+        "namespace": "URevolveBoundaryTool",
+        "key": "RevolveBoundaryToolTransactionName",
+        "jp_record_id": "switch:locres:set-01:URevolveBoundaryTool:RevolveBoundaryToolTransactionName:f4293bc1",
+        "official_en_record_id": "switch:locres:set-01:URevolveBoundaryTool:RevolveBoundaryToolTransactionName:f4293bc1",
+        "jp_sha256": "502fa8cb0fba1736f5d771c1cb629d62d53858b82c8e2a6695b1accac5d0913e",
+        "official_en_sha256": "beac3944033a9e181378b25ef0869835ef8826221b7407da50d147cac1178d35"
+      },
+      "text": {
+        "jp": "境界回転ツール",
+        "official_en": "Boundary Revolve Tool",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:URevolveBoundaryTool:ToolName:57f26470",
+      "source": {
+        "set": "set-02",
+        "namespace": "URevolveBoundaryTool",
+        "key": "ToolName",
+        "jp_record_id": "switch:locres:set-01:URevolveBoundaryTool:ToolName:57f26470",
+        "official_en_record_id": "switch:locres:set-01:URevolveBoundaryTool:ToolName:57f26470",
+        "jp_sha256": "7809f798d4e26930d53ea58b6b0a75b53974270e17ad3b7acc45ea82aa7982cf",
+        "official_en_sha256": "688ff2eaaab9f1a3565c4847ca1805d09c8db99b1027c83794b40c771f1f0889"
+      },
+      "text": {
+        "jp": "境界を回転",
+        "official_en": "Revolve Boundary",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:URevolveBoundaryTool:OnStartRevolveBoundaryTool:a53d7a2b",
+      "source": {
+        "set": "set-02",
+        "namespace": "URevolveBoundaryTool",
+        "key": "OnStartRevolveBoundaryTool",
+        "jp_record_id": "switch:locres:set-01:URevolveBoundaryTool:OnStartRevolveBoundaryTool:a53d7a2b",
+        "official_en_record_id": "switch:locres:set-01:URevolveBoundaryTool:OnStartRevolveBoundaryTool:a53d7a2b",
+        "jp_sha256": "002246858c35e273eb65a8654b168321cbb392c74ee082076d4b376f543aed56",
+        "official_en_sha256": "0aba96800cea410626afed7ceff419c9eb13a095e128d468fd3d0a553f467760"
+      },
+      "text": {
+        "jp": "軸の周りでオープン メッシュの境界ループを回転させて、新しいメッシュを作成します。",
+        "official_en": "Revolve an open mesh boundary loop around an axis to create a new mesh. Ctrl+Click to align the axis to a surface/edge.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:URevolveBoundaryTool:NoBoundaryLoops:2edc0fb9",
+      "source": {
+        "set": "set-02",
+        "namespace": "URevolveBoundaryTool",
+        "key": "NoBoundaryLoops",
+        "jp_record_id": "switch:locres:set-01:URevolveBoundaryTool:NoBoundaryLoops:2edc0fb9",
+        "official_en_record_id": "switch:locres:set-01:URevolveBoundaryTool:NoBoundaryLoops:2edc0fb9",
+        "jp_sha256": "0973e413c22c6e6fbf82436a47d77a11070a7cd1564f72bde5fbe8561bf3acb2",
+        "official_en_sha256": "c5ae3cf16b370c0b1d1a5f4fdb2ddf6e157fd8537933698573e1aa5c8d2e3e86"
+      },
+      "text": {
+        "jp": "このメッシュには、表示および回転する境界ループはありません。境界を作成するためフェースを削除するか、別のメッシュを使用してください。",
+        "official_en": "This mesh does not have any boundary loops to display and revolve. Delete faces to create a boundary or use a different mesh.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:URevolveBoundaryTool:OnStartRevolveBoundaryToolMultipleBoundaries:b7947464",
+      "source": {
+        "set": "set-02",
+        "namespace": "URevolveBoundaryTool",
+        "key": "OnStartRevolveBoundaryToolMultipleBoundaries",
+        "jp_record_id": "switch:locres:set-01:URevolveBoundaryTool:OnStartRevolveBoundaryToolMultipleBoundaries:b7947464",
+        "official_en_record_id": "switch:locres:set-01:URevolveBoundaryTool:OnStartRevolveBoundaryToolMultipleBoundaries:b7947464",
+        "jp_sha256": "14ba648203c528ec048ede90560357039519d0c319cd0a3338d73bd288409b3c",
+        "official_en_sha256": "8b02ee9b7c89919989206ce0e0b29bfbb17d1994f1ca6089a3edf1900ce1fd58"
+      },
+      "text": {
+        "jp": "メッシュに複数の境界があります。使用する境界を 1 つ選択してください",
+        "official_en": "Your mesh has multiple boundaries. Select the one you wish to use.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

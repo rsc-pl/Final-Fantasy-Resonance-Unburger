@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AvaSequencerObjectBinding",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AvaSequencerObjectBinding:AddSpecificActor:bbd5f0bb",
+      "source": {
+        "set": "set-02",
+        "namespace": "AvaSequencerObjectBinding",
+        "key": "AddSpecificActor",
+        "jp_record_id": "switch:locres:set-01:AvaSequencerObjectBinding:AddSpecificActor:bbd5f0bb",
+        "official_en_record_id": "switch:locres:set-01:AvaSequencerObjectBinding:AddSpecificActor:bbd5f0bb",
+        "jp_sha256": "3b12a161e094266ed5363a60453eb38fcdec82d5b7b97b591db6e7640dd9b7e4",
+        "official_en_sha256": "f9de38f2fe197c64af54ac8ce2deba595f196af2e153d735feffc30e2c374371"
+      },
+      "text": {
+        "jp": "「{0}」を追加",
+        "official_en": "Add '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AvaSequencerObjectBinding:AddActor_Label:f4ad85f4",
+      "source": {
+        "set": "set-02",
+        "namespace": "AvaSequencerObjectBinding",
+        "key": "AddActor_Label",
+        "jp_record_id": "switch:locres:set-01:AvaSequencerObjectBinding:AddActor_Label:f4ad85f4",
+        "official_en_record_id": "switch:locres:set-01:AvaSequencerObjectBinding:AddActor_Label:f4ad85f4",
+        "jp_sha256": "8be6105a0c2996eec77bf9e85f7791774046efca36ec94e8c05fb03a5481caaf",
+        "official_en_sha256": "7ae823012fec8801951f24c2db7fdd7ed4bc01bc303e3fd795163e60241ceb00"
+      },
+      "text": {
+        "jp": "アクタトラックを追加",
+        "official_en": "Add Actor Track",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AvaSequencerObjectBinding:AddCurrentActorSelection:4590ed65",
+      "source": {
+        "set": "set-02",
+        "namespace": "AvaSequencerObjectBinding",
+        "key": "AddCurrentActorSelection",
+        "jp_record_id": "switch:locres:set-01:AvaSequencerObjectBinding:AddCurrentActorSelection:4590ed65",
+        "official_en_record_id": "switch:locres:set-01:AvaSequencerObjectBinding:AddCurrentActorSelection:4590ed65",
+        "jp_sha256": "5f28fca9096c769a0068c8909321f33206c583a31d398b69f8e7dc33df96b830",
+        "official_en_sha256": "a941f75bd0482ca966fe611e3027d34fe8021598157048bf4d05c6c860970272"
+      },
+      "text": {
+        "jp": "現在の選択項目({0}個のアクタ)を追加",
+        "official_en": "Add Current Selection ({0} actors)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AvaSequencerObjectBinding:EmptyBindingTooltip:111373ce",
+      "source": {
+        "set": "set-02",
+        "namespace": "AvaSequencerObjectBinding",
+        "key": "EmptyBindingTooltip",
+        "jp_record_id": "switch:locres:set-01:AvaSequencerObjectBinding:EmptyBindingTooltip:111373ce",
+        "official_en_record_id": "switch:locres:set-01:AvaSequencerObjectBinding:EmptyBindingTooltip:111373ce",
+        "jp_sha256": "2e6cc518f94b43362b235cba0941ae5f7d4aa72f7087ea58d0c24fc232b388c0",
+        "official_en_sha256": "a01d0d2435f1d79eda34dba2745e0c098facca99a50f33aaf1628301a3fe6e1c"
+      },
+      "text": {
+        "jp": "シーケンサーに新しい空のバインディングを追加し、バインディング プロパティで後からオブジェクトまたはアクタに接続できるようにします",
+        "official_en": "Add a new empty binding to Sequencer which can be connected to an object or actor afterwards in the Binding Properties",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AvaSequencerObjectBinding:AddActor_ToolTip:eaa8e00b",
+      "source": {
+        "set": "set-02",
+        "namespace": "AvaSequencerObjectBinding",
+        "key": "AddActor_ToolTip",
+        "jp_record_id": "switch:locres:set-01:AvaSequencerObjectBinding:AddActor_ToolTip:eaa8e00b",
+        "official_en_record_id": "switch:locres:set-01:AvaSequencerObjectBinding:AddActor_ToolTip:eaa8e00b",
+        "jp_sha256": "a207b4f1e02a94d2087d09b3e33ed366d9a33fac84fb2a933620d57d79922d10",
+        "official_en_sha256": "791944c1a8d430297b8f9a7468f3dfa97e1e5376a689d1d14b6d3aa86186abf6"
+      },
+      "text": {
+        "jp": "シーケンサーが現在のレベルにすでに存在するアクタを所有することを許可します",
+        "official_en": "Allow sequencer to possess an actor that already exists in the current level.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AvaSequencerObjectBinding:ChooseActor:16b36efd",
+      "source": {
+        "set": "set-02",
+        "namespace": "AvaSequencerObjectBinding",
+        "key": "ChooseActor",
+        "jp_record_id": "switch:locres:set-01:AvaSequencerObjectBinding:ChooseActor:16b36efd",
+        "official_en_record_id": "switch:locres:set-01:AvaSequencerObjectBinding:ChooseActor:16b36efd",
+        "jp_sha256": "8c9a27e784c52205a04ca4e81f129de481b588269b12e2284f0d6f7fff343201",
+        "official_en_sha256": "2f8f0820e10dc720455d4b7df924ae66e2b30cba1e28d550d0e3729d1a45bbc3"
+      },
+      "text": {
+        "jp": "アクタを選択:",
+        "official_en": "Choose Actor:",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AvaSequencerObjectBinding:ActorTrackEditor_DisplayName:e3f3f09b",
+      "source": {
+        "set": "set-02",
+        "namespace": "AvaSequencerObjectBinding",
+        "key": "ActorTrackEditor_DisplayName",
+        "jp_record_id": "switch:locres:set-01:AvaSequencerObjectBinding:ActorTrackEditor_DisplayName:e3f3f09b",
+        "official_en_record_id": "switch:locres:set-01:AvaSequencerObjectBinding:ActorTrackEditor_DisplayName:e3f3f09b",
+        "jp_sha256": "245b80fed1ac9adb4fd7b6c8eccc2ab2d6119f7fdac44c050f4af6a67cc40ba3",
+        "official_en_sha256": "ea187f85a1c3d3e0718fb1ffb323b8acde57213a23604389a5cf14e909769a11"
+      },
+      "text": {
+        "jp": "モーションデザインアクタ",
+        "official_en": "Motion Design Actor",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AvaSequencerObjectBinding:EmptyBinding:6cdf1d68",
+      "source": {
+        "set": "set-02",
+        "namespace": "AvaSequencerObjectBinding",
+        "key": "EmptyBinding",
+        "jp_record_id": "switch:locres:set-01:AvaSequencerObjectBinding:EmptyBinding:6cdf1d68",
+        "official_en_record_id": "switch:locres:set-01:AvaSequencerObjectBinding:EmptyBinding:6cdf1d68",
+        "jp_sha256": "dbae191279b6cdaf7dfd4a3c3966665bf23ae9e4727cb65ff6983e3f2343996a",
+        "official_en_sha256": "37988c2d8ae73a83e3965ab7d4227f308d14b58e027b936aee4db480f2d40f9e"
+      },
+      "text": {
+        "jp": "新しい空のバインディング",
+        "official_en": "New Empty Binding",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

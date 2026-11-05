@@ -1,0 +1,1270 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "LevelInstanceSubsystem",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstanceLoopLink:10ea5fdc",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "LevelInstanceLoopLink",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstanceLoopLink:10ea5fdc",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstanceLoopLink:10ea5fdc",
+        "jp_sha256": "9e0362a8d998e4f5553335380b806114f34e75b9fcdff06d359b1cc0824c8505",
+        "official_en_sha256": "4de0e28703d95fae4d74261a32fa8f3152e19a7ec7c6b569a7e4873273337094"
+      },
+      "text": {
+        "jp": "->アクタ:{0}ロード",
+        "official_en": "-> Actor: {0} loads",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:BreakLevelInstance:a8b17aa8",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "BreakLevelInstance",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:BreakLevelInstance:a8b17aa8",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:BreakLevelInstance:a8b17aa8",
+        "jp_sha256": "d1d86a747a09306aaa4bbdb766ad566473396e905f54a9b789b7da983103477d",
+        "official_en_sha256": "f218f8f3703795fece9232e1578bab18ff4a227965be25872e944d42945bdbbf"
+      },
+      "text": {
+        "jp": "レベルインスタンスを分割",
+        "official_en": "Break Level Instance",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:CantDiscardMovedActors:07c6dcbf",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "CantDiscardMovedActors",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CantDiscardMovedActors:07c6dcbf",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CantDiscardMovedActors:07c6dcbf",
+        "jp_sha256": "b7e47fd95f29789802a3f7541acdb59607a1cfcee2057b6317756252b86ae479",
+        "official_en_sha256": "cf4a14ce777c14ff45dd12f75887f3d38de9e8c3af38c3123d8d72f0e7e7afd6"
+      },
+      "text": {
+        "jp": "編集中に一部のアクタがレベル間で移動されたため、編集を破棄できません。",
+        "official_en": "Can't discard edit because some actors were moved from/to level while editing.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:CantMoveActorUsingExternalDataLayer:8ab5e668",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "CantMoveActorUsingExternalDataLayer",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CantMoveActorUsingExternalDataLayer:8ab5e668",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CantMoveActorUsingExternalDataLayer:8ab5e668",
+        "jp_sha256": "72051c80d76e1cb6041585133d111c17c1e06a058108f4cba40b47e25f12f1fb",
+        "official_en_sha256": "a7659f5d25f887a2abf49916cbbebd7f3a3b63d96b981c3e7062fd2aa23ee89e"
+      },
+      "text": {
+        "jp": "外部データ レイヤーを使用してレベル インスタンス アクタを移動することができません",
+        "official_en": "Can't move Level Instance actor using External Data Layer",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:CantMoveActorLevelEditing:f55c660e",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "CantMoveActorLevelEditing",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CantMoveActorLevelEditing:f55c660e",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CantMoveActorLevelEditing:f55c660e",
+        "jp_sha256": "d83571d1772013da07293e3dfb2532ee153123ffaaca6ed34be049cc9f8cf9d0",
+        "official_en_sha256": "c9d59728952bdbaf327460496135fcb10c2f2ddc310a1cfba51ab6b78897d820"
+      },
+      "text": {
+        "jp": "編集中はレベル インスタンス アクタを移動できません",
+        "official_en": "Can't move Level Instance actor while it is being edited",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanMoveActorLevelPropertyOverries:e310de2f",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "CanMoveActorLevelPropertyOverries",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanMoveActorLevelPropertyOverries:e310de2f",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanMoveActorLevelPropertyOverries:e310de2f",
+        "jp_sha256": "4fec59849c4ac82dc91363f71f296aba632f5fb663cf1e7283c6f8214a463283",
+        "official_en_sha256": "9aeab0d2bf684d7f60c67902fa5df780c124557ecd7a97249f664ac9d14c0b1d"
+      },
+      "text": {
+        "jp": "プロパティのオーバーライド編集中はレベル インスタンス アクタを移動できません",
+        "official_en": "Can't move Level Instance actor while it is in property override edit",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:CantMoveActorToLevelChildEditing:a54b0fcd",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "CantMoveActorToLevelChildEditing",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CantMoveActorToLevelChildEditing:a54b0fcd",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CantMoveActorToLevelChildEditing:a54b0fcd",
+        "jp_sha256": "8c030e8a7a41ca9ff24ed862836c15f8620fdc67f4144140b2061f5662ee69fd",
+        "official_en_sha256": "56d6064c7f4936b1ffddbaf5a4f441700a4c9e14bc85125e2680545502e84096"
+      },
+      "text": {
+        "jp": "子レベル インスタンスの 1 つが編集中はレベル インスタンス アクタを移動できません",
+        "official_en": "Can't move Level Instance actor while one of its child Level Instance is being edited",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanMoveActorToLevelParentPropertyOverrides:8d92876c",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "CanMoveActorToLevelParentPropertyOverrides",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanMoveActorToLevelParentPropertyOverrides:8d92876c",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanMoveActorToLevelParentPropertyOverrides:8d92876c",
+        "jp_sha256": "8f239753438723595c4370660c74baec66a4a73b25cb9497fbf00bfd1a2d51af",
+        "official_en_sha256": "87fecf469e2e5f58e1e4a9793ca0f4983aa16fb76c1eaf55365a5e8f656ecd8e"
+      },
+      "text": {
+        "jp": "親のプロパティのオーバーライド編集中はアクタを移動できません",
+        "official_en": "Can't move actor while its parent is in property override edit",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstancePropertyOverride_ToolTip:a7adb002",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "LevelInstancePropertyOverride_ToolTip",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstancePropertyOverride_ToolTip:a7adb002",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstancePropertyOverride_ToolTip:a7adb002",
+        "jp_sha256": "76de3bc94f18279c494f8328465c1eebab57404e1e93a33ce28575f34bf32df2",
+        "official_en_sha256": "809139dd2e93b306f205a1356b65fb23a290fbd870e75759970bdf7c35c54041"
+      },
+      "text": {
+        "jp": "アクタをレベル インスタンス カラーで色付けします。緑はレベルにプロパティ オーバーライドがあることを意味し、オーバーライドがない場合は赤です。残りは白です",
+        "official_en": "Colorize actor with his level instance color, Green means the level has some property overrides, otherwise it will be Red. Rest is White.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstanceEditResetTrans:6eb7fb5b",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "LevelInstanceEditResetTrans",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstanceEditResetTrans:6eb7fb5b",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstanceEditResetTrans:6eb7fb5b",
+        "jp_sha256": "5a55469dece5f39eda615df746e35ba5459ffcdfa632121d28ae5100a4de203c",
+        "official_en_sha256": "3f2ef72d7bbabc41a1c6f04e110bf972cdce50741f9ad197c5596fc1c4443d01"
+      },
+      "text": {
+        "jp": "レベル インスタンスを編集",
+        "official_en": "Edit Level Instance",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanCreateLevelInstanceFromEmptyActorArray:513387d0",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "CanCreateLevelInstanceFromEmptyActorArray",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanCreateLevelInstanceFromEmptyActorArray:513387d0",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanCreateLevelInstanceFromEmptyActorArray:513387d0",
+        "jp_sha256": "cd238f5575da4ede498af26b01d956854b206bdf8abe6d2c166c2570c9bd0da1",
+        "official_en_sha256": "005c3a40f94d0983f7e0fa98c7322a3c2a3c03655c42ad18e3c17ef56e7790df"
+      },
+      "text": {
+        "jp": "アクタ配列からのレベル インスタンスの作成に失敗しました",
+        "official_en": "Failed to create Level Instance from actor array",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstancePropertyOverrideColorHandler:d6a7c861",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "LevelInstancePropertyOverrideColorHandler",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstancePropertyOverrideColorHandler:d6a7c861",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstancePropertyOverrideColorHandler:d6a7c861",
+        "jp_sha256": "f47bc92d2fcd02b6261072655aea94bf74678c3c382b6329ace400033123e16a",
+        "official_en_sha256": "913ba79abee14de70f83f40beb94314323f834a036ca113d998bb01daef9e2d7"
+      },
+      "text": {
+        "jp": "レベルインスタンスのプロパティオーバーライド",
+        "official_en": "Level Instance Property Override",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanEditLevelInstanceInvalidAsset:ef350d0a",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "CanEditLevelInstanceInvalidAsset",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanEditLevelInstanceInvalidAsset:ef350d0a",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanEditLevelInstanceInvalidAsset:ef350d0a",
+        "jp_sha256": "feefa36b538a6a395f24b63ff4e25d50e6d6d470f408fe6b1c52f884513deefd",
+        "official_en_sha256": "8e4fa4b97798ae70c54c74883b688923ca6a725647319d4e4a0d154614de4f6c"
+      },
+      "text": {
+        "jp": "レベルインスタンスアセットは無効です({0})。",
+        "official_en": "Level Instance asset is invalid ({0}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanEditLevelInstanceWithStreamingEnabled:dde1471c",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "CanEditLevelInstanceWithStreamingEnabled",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanEditLevelInstanceWithStreamingEnabled:dde1471c",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanEditLevelInstanceWithStreamingEnabled:dde1471c",
+        "jp_sha256": "9655b7c1c4f78c5077f163be1d6cd3b00ab2c0666806374ae6a7da5ad31d496a",
+        "official_en_sha256": "1ce18d7da90a7a8e475b4bd7637c6b57d82afc0189ca8f2b22f3233be9deb8d9"
+      },
+      "text": {
+        "jp": "レベル インスタンスは、その場で編集できません。ストリーミングが有効であるためです ({0})",
+        "official_en": "Level Instance can't be edited in place because it has streaming enabled ({0})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstanceNoSupportPropertyOverrides:5d6513d5",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "LevelInstanceNoSupportPropertyOverrides",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstanceNoSupportPropertyOverrides:5d6513d5",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstanceNoSupportPropertyOverrides:5d6513d5",
+        "jp_sha256": "e9c93aa1e1857c392bebbd7703439cbb2fdc915d55fa7af42c9358ac6c28c6c1",
+        "official_en_sha256": "ea04d137472164bef7105783db40938e10c435a93cad30aafbdd3d4290f2a6bb"
+      },
+      "text": {
+        "jp": "レベル インスタンスはプロパティのオーバーライドをサポートしていません",
+        "official_en": "Level Instance does not support property overrides",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanCommitLevelInstanceNotEditing:61a5b528",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "CanCommitLevelInstanceNotEditing",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanCommitLevelInstanceNotEditing:61a5b528",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanCommitLevelInstanceNotEditing:61a5b528",
+        "jp_sha256": "721dc5ef8ce2fa2397384131bc05ddfb1c78a531aca3b0be464fbefc4c3376a8",
+        "official_en_sha256": "f0fe1e3b903f7231ba8acd5b2e0d5cd4b1ebd0edacc763956d5f3bf1b15d3bd5"
+      },
+      "text": {
+        "jp": "レベル インスタンスは現在編集されていません",
+        "official_en": "Level Instance is not currently being edited",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanCommitLevelInstanceNotOverriding:15e2184a",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "CanCommitLevelInstanceNotOverriding",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanCommitLevelInstanceNotOverriding:15e2184a",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanCommitLevelInstanceNotOverriding:15e2184a",
+        "jp_sha256": "d7da3a976d8aa6651514d04e34e9e9ce7ba229014840fbcd1ff2f30cbf961372",
+        "official_en_sha256": "c7dbccabe2acbb0dc922e658b6928fc8b55166b9d9c83e62b2d9db936e6b6c6f"
+      },
+      "text": {
+        "jp": "レベル インスタンスは現在プロパティのオーバーライド編集中ではありません",
+        "official_en": "Level Instance is not currently in property override edit",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstanceNotEnabledPropertyOverrides:2fd06a3a",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "LevelInstanceNotEnabledPropertyOverrides",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstanceNotEnabledPropertyOverrides:2fd06a3a",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstanceNotEnabledPropertyOverrides:2fd06a3a",
+        "jp_sha256": "492a88031b5c6eb9dcd122bf1dafe7808102ea4a11e25b053fcc791563c3440c",
+        "official_en_sha256": "4b59de146040a1c796e7d087d0c521bccb93ebbd003dd394b50c2e611bd663be"
+      },
+      "text": {
+        "jp": "レベル インスタンス プロパティ オーバーライド機能が有効になっています",
+        "official_en": "Level Instance property override feature is not enabled",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:BeginEditLevelInstance:d8aaf9be",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "BeginEditLevelInstance",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:BeginEditLevelInstance:d8aaf9be",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:BeginEditLevelInstance:d8aaf9be",
+        "jp_sha256": "2989b706960f01618bcb57aed1d4b4bf530bb6577f77792504dce8f39c63fb7e",
+        "official_en_sha256": "5edfad9257710294760f82c8adb247b2f872d88eeb21f81047d0e222c230348f"
+      },
+      "text": {
+        "jp": "編集のためレベル インスタンスをロードしています...",
+        "official_en": "Loading Level Instance for edit...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:LoadingLevelInstance:3a1eb998",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "LoadingLevelInstance",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:LoadingLevelInstance:3a1eb998",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:LoadingLevelInstance:3a1eb998",
+        "jp_sha256": "06516207485daf3adafe1b40d1817b43fece3c142e811087ff293952dd4f68bc",
+        "official_en_sha256": "3a18042ee4c870ea6825f447dadbec4940de3d07a427cd2e8fb1d76aba3ec549"
+      },
+      "text": {
+        "jp": "レベル インスタンス{0}をロードしています",
+        "official_en": "Loading Level Instance {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstancePropertyOverridesWorldPartitionOnly:39a11e5b",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "LevelInstancePropertyOverridesWorldPartitionOnly",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstancePropertyOverridesWorldPartitionOnly:39a11e5b",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstancePropertyOverridesWorldPartitionOnly:39a11e5b",
+        "jp_sha256": "b20e51ec43c92935aec76dc6b4c1073c8c7349a143b7820a6b2d4569d6911714",
+        "official_en_sha256": "fd27947c1c513ad441e03e8a8635e022fa52dd64e7182d0e7ba3a537b83b29f6"
+      },
+      "text": {
+        "jp": "オーバーライドは、World Partition を使用しているレベルに対してのみサポートされています",
+        "official_en": "Overrides are only supported for levels that use World Partition.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstancePropertyOverridesNewlyCreated:e388fb5d",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "LevelInstancePropertyOverridesNewlyCreated",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstancePropertyOverridesNewlyCreated:e388fb5d",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:LevelInstancePropertyOverridesNewlyCreated:e388fb5d",
+        "jp_sha256": "20fa047843f19a0239c0f0ae732cd35242b9e91e1e8a637e744762856bf23798",
+        "official_en_sha256": "295bdac2d272044e0ec9ecd37e2bb72bb22b075fca9053fd7c7faf70082745aa"
+      },
+      "text": {
+        "jp": "オーバーライドは、保存済みレベルに対してのみサポートされています。まずレベルを保存してください",
+        "official_en": "Overrides are only supported for saved levels. Save the level first.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:CommitOrDiscardChangesTitle:f17dbf5d",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "CommitOrDiscardChangesTitle",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CommitOrDiscardChangesTitle:f17dbf5d",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CommitOrDiscardChangesTitle:f17dbf5d",
+        "jp_sha256": "a14e282e3dcb75814535c0b1f8984f838374713e6b7e06c0a4906df0d5a93a1d",
+        "official_en_sha256": "a241799a18cc0cd639ca184dd1aa73a5de44afcbe174ef3224c71e7ca632e5cb"
+      },
+      "text": {
+        "jp": "変更を保存しますか？",
+        "official_en": "Save changes?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:CommitOrDiscardPropertyOverrideChangesTitle:ce8ebc05",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "CommitOrDiscardPropertyOverrideChangesTitle",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CommitOrDiscardPropertyOverrideChangesTitle:ce8ebc05",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CommitOrDiscardPropertyOverrideChangesTitle:ce8ebc05",
+        "jp_sha256": "a14e282e3dcb75814535c0b1f8984f838374713e6b7e06c0a4906df0d5a93a1d",
+        "official_en_sha256": "a241799a18cc0cd639ca184dd1aa73a5de44afcbe174ef3224c71e7ca632e5cb"
+      },
+      "text": {
+        "jp": "変更を保存しますか？",
+        "official_en": "Save changes?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanEditLevelInstancePersistentLevel:e59adfc6",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "CanEditLevelInstancePersistentLevel",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanEditLevelInstancePersistentLevel:e59adfc6",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanEditLevelInstancePersistentLevel:e59adfc6",
+        "jp_sha256": "57ca84a371907b19224fe4c788769183830b8a666739a1d25eed2a400248e712",
+        "official_en_sha256": "fe15aba1585eb49aa8e4e261c30ec70000f80d399bec9042cc5e3ac1afdab1d7"
+      },
+      "text": {
+        "jp": "パーシスタント レベルとレベル インスタンスが同じです ({0})。",
+        "official_en": "The Persistent level and the Level Instance are the same ({0}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanEditLevelInstanceAlreadyExists:264bbe23",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "CanEditLevelInstanceAlreadyExists",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanEditLevelInstanceAlreadyExists:264bbe23",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanEditLevelInstanceAlreadyExists:264bbe23",
+        "jp_sha256": "9949d39353df0e4879b6f8ec27ea2e1d1578e1e9aa7c94a8330fbc92266f7af0",
+        "official_en_sha256": "608ebb508112373e2c59544f111e1e7cf7ad104dcac228c054e34e66aaa42fa5"
+      },
+      "text": {
+        "jp": "レベル インスタンス以外のワールドにも同じレベルが追加されました{0}。",
+        "official_en": "The same level was added to world outside of Level Instances ({0}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanEditLevelInstanceAlreadyBeingEdited:e08bd0bc",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "CanEditLevelInstanceAlreadyBeingEdited",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanEditLevelInstanceAlreadyBeingEdited:e08bd0bc",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanEditLevelInstanceAlreadyBeingEdited:e08bd0bc",
+        "jp_sha256": "2244a5826a3f04b3259fa8464451ce22f12fb3f24c3cffbb5c2eb73ffaa2f755",
+        "official_en_sha256": "d13b3d37bab0c0a3df60c9a9ebf6d0b106959fddf138a48688a26ce1f03154ae"
+      },
+      "text": {
+        "jp": "このレベル インスタンスはすでに編集中です。\n\nアセット パス：{0}",
+        "official_en": "This level instance is already being edited.\n\nAsset path: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanEditLevelInstanceAlreadyBeingOverriden:e0e6eafb",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "CanEditLevelInstanceAlreadyBeingOverriden",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanEditLevelInstanceAlreadyBeingOverriden:e0e6eafb",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CanEditLevelInstanceAlreadyBeingOverriden:e0e6eafb",
+        "jp_sha256": "9843c342dd3d013b2433094a10e5f4589226bace0af74884a97725c00b3964dc",
+        "official_en_sha256": "9985d79cbed7601a628303bf01e3f7aa60c741f12ff82ce387201ba083c12969"
+      },
+      "text": {
+        "jp": "このレベル インスタンスはすでにオーバーライドされています。\n\nアセット パス：{0}",
+        "official_en": "This level instance is already being overridden.\n\nAsset path: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:UnloadingLevelInstance:ceda78be",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "UnloadingLevelInstance",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:UnloadingLevelInstance:ceda78be",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:UnloadingLevelInstance:ceda78be",
+        "jp_sha256": "6a9d20c892afd7853cf6093105bb6899522fc185f0c76710566c79fc6bfaaf21",
+        "official_en_sha256": "7638c527e3cf8a95011d58a3965355ed10c7cd024533d0e133753f6f63ac7e23"
+      },
+      "text": {
+        "jp": "レベル インスタンスをアンロードしています",
+        "official_en": "Unloading Level Instance",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:UnloadingLevelInstances:016d06ce",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "UnloadingLevelInstances",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:UnloadingLevelInstances:016d06ce",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:UnloadingLevelInstances:016d06ce",
+        "jp_sha256": "02660c707c4ea34029af9a33a7cab8a6a8213dd6ca0f7fe62d5f50cd1ef27ad3",
+        "official_en_sha256": "55c7e6e73b703417e304ad57227083473d64d8d5d8c89b9b7705cc026073b02b"
+      },
+      "text": {
+        "jp": "レベル インスタンスをアンロードしています…",
+        "official_en": "Unloading Level Instances...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:EndEditLevelInstance:d1840250",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "EndEditLevelInstance",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:EndEditLevelInstance:d1840250",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:EndEditLevelInstance:d1840250",
+        "jp_sha256": "9fe5d540adbc3a35669e09e236bee59d815a51694431d0049603b6f2302d6c4c",
+        "official_en_sha256": "dec362f069136aecaf8c9fbf4832147651e21ec83e4dd56a69fb07b7f8e1fb23"
+      },
+      "text": {
+        "jp": "レベルをアンロードしています...",
+        "official_en": "Unloading Level...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:CommitOrDiscardChangesMsg:6e20047b",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "CommitOrDiscardChangesMsg",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CommitOrDiscardChangesMsg:6e20047b",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CommitOrDiscardChangesMsg:6e20047b",
+        "jp_sha256": "a84b842bf6ecbbb2a0fa3debb4ae1763fc84af417b25b694d078ca1c1eb04484",
+        "official_en_sha256": "a92952b6a63e34bc1027a1b97aba054066b9923e085f2b45d23537a458e67327"
+      },
+      "text": {
+        "jp": "未保存のレベルの変更は破棄されます。今すぐ保存しますか?",
+        "official_en": "Unsaved Level changes will get discarded. Do you want to save them now?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:CommitOrDiscardPropertyOverrideChangesMsg:cfbbcc07",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "CommitOrDiscardPropertyOverrideChangesMsg",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CommitOrDiscardPropertyOverrideChangesMsg:cfbbcc07",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:CommitOrDiscardPropertyOverrideChangesMsg:cfbbcc07",
+        "jp_sha256": "f5b2e1892ad648897a71303e293d4690b1f7de587292377595927bf5dbf92fd9",
+        "official_en_sha256": "65e38e36c42c6e4eec5e71470107e062ec8673ee5bea7fbd8d0d7194272d2836"
+      },
+      "text": {
+        "jp": "未保存のプロパティ オーバーライドの変更は破棄されます。今すぐ保存しますか？",
+        "official_en": "Unsaved Property override changes will get discarded. Do you want to save them now?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LevelInstanceSubsystem:UpdatingLevelInstances:7479f83d",
+      "source": {
+        "set": "set-02",
+        "namespace": "LevelInstanceSubsystem",
+        "key": "UpdatingLevelInstances",
+        "jp_record_id": "switch:locres:set-01:LevelInstanceSubsystem:UpdatingLevelInstances:7479f83d",
+        "official_en_record_id": "switch:locres:set-01:LevelInstanceSubsystem:UpdatingLevelInstances:7479f83d",
+        "jp_sha256": "a7a606d09e5eb9d7fc29ce1b8856d6ea7988c94c6aa2136f67023259b474de79",
+        "official_en_sha256": "e5755e75645a0646243e5e38acfb325725d2a5e51be4078905933b6f19246a2d"
+      },
+      "text": {
+        "jp": "レベル インスタンスを更新しています…",
+        "official_en": "Updating Level Instances...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

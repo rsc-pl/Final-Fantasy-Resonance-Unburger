@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SkeletalMeshToolTarget",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SkeletalMeshToolTarget:CannotModifyBuiltInAssetError:db023996",
+      "source": {
+        "set": "set-02",
+        "namespace": "SkeletalMeshToolTarget",
+        "key": "CannotModifyBuiltInAssetError",
+        "jp_record_id": "switch:locres:set-01:SkeletalMeshToolTarget:CannotModifyBuiltInAssetError:db023996",
+        "official_en_record_id": "switch:locres:set-01:SkeletalMeshToolTarget:CannotModifyBuiltInAssetError:db023996",
+        "jp_sha256": "c4d9b00e8cb9c4316d89ab57c08d1d4e05ce04e011da0ab5fbaea634b2040f4c",
+        "official_en_sha256": "c972f2667e072012904d7c1ce7bf61a225b81c9568fe9e5daaf5ec12daf426cc"
+      },
+      "text": {
+        "jp": "ビルトイン エンジン アセットを変更できません：{0}",
+        "official_en": "Cannot modify built-in engine asset: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SkeletalMeshToolTarget:SkelmeshHiresLODUnavailable:4020e70d",
+      "source": {
+        "set": "set-02",
+        "namespace": "SkeletalMeshToolTarget",
+        "key": "SkelmeshHiresLODUnavailable",
+        "jp_record_id": "switch:locres:set-01:SkeletalMeshToolTarget:SkelmeshHiresLODUnavailable:4020e70d",
+        "official_en_record_id": "switch:locres:set-01:SkeletalMeshToolTarget:SkelmeshHiresLODUnavailable:4020e70d",
+        "jp_sha256": "bf3992cd52cef9b0af7e80eb0e4c66c125c41145476ad5fbaca219930c3de2ee",
+        "official_en_sha256": "b18b785cf76d4375f62223a16dd4da1360bfd34e0b7cfe5b91d3611d92b8e5a7"
+      },
+      "text": {
+        "jp": "スケルタルメッシュでハイレゾ LOD が利用できません。LOD 0 を使用するようにフォールバックします",
+        "official_en": "HiRes LOD not available on skeletal meshes. Falling back to using LOD 0.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SkeletalMeshToolTarget:SkelmeshLODUnavailable:4c6cc7e7",
+      "source": {
+        "set": "set-02",
+        "namespace": "SkeletalMeshToolTarget",
+        "key": "SkelmeshLODUnavailable",
+        "jp_record_id": "switch:locres:set-01:SkeletalMeshToolTarget:SkelmeshLODUnavailable:4c6cc7e7",
+        "official_en_record_id": "switch:locres:set-01:SkeletalMeshToolTarget:SkelmeshLODUnavailable:4c6cc7e7",
+        "jp_sha256": "44264575bc9b02fe8dc2aa688bcb02a1ac9edf5e6577885eb629139e4f871724",
+        "official_en_sha256": "2b6e06e35b009764f9bf18fe905d0d1afde4716339963c6de47c3b4d141d9cc0"
+      },
+      "text": {
+        "jp": "LOD {0} がリクエストされていますが利用できません。LOD {1} にフォールバックします",
+        "official_en": "LOD {0} requested but is not available. Falling back to LOD {1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

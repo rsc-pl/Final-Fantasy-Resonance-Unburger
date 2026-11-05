@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UAFComponent",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UAFComponent:UAFComponent_SetVariableError:608d0374",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAFComponent",
+        "key": "UAFComponent_SetVariableError",
+        "jp_record_id": "switch:locres:set-01:UAFComponent:UAFComponent_SetVariableError:608d0374",
+        "official_en_record_id": "switch:locres:set-01:UAFComponent:UAFComponent_SetVariableError:608d0374",
+        "jp_sha256": "a00a755965b695a380a03f6cf1096bc6a87518181fded460cb1613da9e6eab98",
+        "official_en_sha256": "6e013e2116eba93abf8bee93d278e7a9a98dd10e51481ee45ffe96b11622397f"
+      },
+      "text": {
+        "jp": "[Set Variable (変数を設定)] の値を解決できませんでした",
+        "official_en": "Failed to resolve the Value for Set Variable",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAFComponent:UAFComponent_SetVariableTypeMismatch:36bc9642",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAFComponent",
+        "key": "UAFComponent_SetVariableTypeMismatch",
+        "jp_record_id": "switch:locres:set-01:UAFComponent:UAFComponent_SetVariableTypeMismatch:36bc9642",
+        "official_en_record_id": "switch:locres:set-01:UAFComponent:UAFComponent_SetVariableTypeMismatch:36bc9642",
+        "jp_sha256": "b159842d489b4f9476ad27d6d112f2e13a7711994715cc9c34b9679cd69a7f04",
+        "official_en_sha256": "bab81b3e88d0cdd6316ab523dcfded7db5ebabbb3ee8ad8ff6f4c9f283dd2bfc"
+      },
+      "text": {
+        "jp": "変数「{0}」に対して互換性のない型が指定されています",
+        "official_en": "Incompatible type supplied for variable '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAFComponent:UAFComponent_SetVariableInvalidWarning:7f57b3e2",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAFComponent",
+        "key": "UAFComponent_SetVariableInvalidWarning",
+        "jp_record_id": "switch:locres:set-01:UAFComponent:UAFComponent_SetVariableInvalidWarning:7f57b3e2",
+        "official_en_record_id": "switch:locres:set-01:UAFComponent:UAFComponent_SetVariableInvalidWarning:7f57b3e2",
+        "jp_sha256": "182c201811798a849cc72bdb113b3e214872819baf22d5f50fd9cc779634eba5",
+        "official_en_sha256": "6fcb40951d4d134a41f53e14f95d15ccf129e41326db5a25afa44bd310609461"
+      },
+      "text": {
+        "jp": "[Set Variable (変数を設定)] に無効な変数名が入力されました",
+        "official_en": "Invalid variable name supplied to Set Variable",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAFComponent:UAFComponent_SetVariableNotFoundWarning:65e38197",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAFComponent",
+        "key": "UAFComponent_SetVariableNotFoundWarning",
+        "jp_record_id": "switch:locres:set-01:UAFComponent:UAFComponent_SetVariableNotFoundWarning:65e38197",
+        "official_en_record_id": "switch:locres:set-01:UAFComponent:UAFComponent_SetVariableNotFoundWarning:65e38197",
+        "jp_sha256": "748e3e5a11afca9f79ba72fb0576863ef4ba89769442fef28a2d53dad7df6746",
+        "official_en_sha256": "72ae84f5314eacaf11d90f0d12295daddf4c38e31ea1926d63398391cb131540"
+      },
+      "text": {
+        "jp": "[Set Variable (変数を設定)] に不明な変数名「{0}」が入力されました",
+        "official_en": "Unknown variable name '{0}' supplied to Set Variable",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

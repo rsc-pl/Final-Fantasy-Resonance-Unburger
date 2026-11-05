@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UPlaneCutTool",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UPlaneCutTool:MeshPlaneCut:e3275534",
+      "source": {
+        "set": "set-02",
+        "namespace": "UPlaneCutTool",
+        "key": "MeshPlaneCut",
+        "jp_record_id": "switch:locres:set-01:UPlaneCutTool:MeshPlaneCut:e3275534",
+        "official_en_record_id": "switch:locres:set-01:UPlaneCutTool:MeshPlaneCut:e3275534",
+        "jp_sha256": "ce149f77221bf1eba3dd59422f2aff4c39e1fa1702a9b88399ec957661c84909",
+        "official_en_sha256": "1a68236e1ca909bd7fab7cca00ec4aff69c9119f3507d645063a1abb2d0aeb35"
+      },
+      "text": {
+        "jp": "プレーンを含むメッシュを切り取る",
+        "official_en": "Cut Mesh with Plane",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UPlaneCutTool:DoPlaneCutTooltip:3bfe9020",
+      "source": {
+        "set": "set-02",
+        "namespace": "UPlaneCutTool",
+        "key": "DoPlaneCutTooltip",
+        "jp_record_id": "switch:locres:set-01:UPlaneCutTool:DoPlaneCutTooltip:3bfe9020",
+        "official_en_record_id": "switch:locres:set-01:UPlaneCutTool:DoPlaneCutTooltip:3bfe9020",
+        "jp_sha256": "dc63edd782b4f78d1b657b0aa61afbbe86da72e94047fc63c7d97f9db50c9c0d",
+        "official_en_sha256": "32c90556314bc173d7ccc22357474478f7b51e8b9a2af3b76a2f6d2cb32c042b"
+      },
+      "text": {
+        "jp": "ツールを終了せずに、現在の切り取り面を含むメッシュを切り取ります",
+        "official_en": "Cut the mesh with the current cutting plane, without exiting the tool",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UPlaneCutTool:PlaneCutDestroyTitle:ea9498d9",
+      "source": {
+        "set": "set-02",
+        "namespace": "UPlaneCutTool",
+        "key": "PlaneCutDestroyTitle",
+        "jp_record_id": "switch:locres:set-01:UPlaneCutTool:PlaneCutDestroyTitle:ea9498d9",
+        "official_en_record_id": "switch:locres:set-01:UPlaneCutTool:PlaneCutDestroyTitle:ea9498d9",
+        "jp_sha256": "da0dbb20819136eded9c0aabdcd424214363802e507a04cc6e32a6b19eb8ea73",
+        "official_en_sha256": "b93112bdbc84ee90ed768d914f42500492482c6fbb3cee4d948fb783ce0c7bac"
+      },
+      "text": {
+        "jp": "メッシュコンポーネントを削除しますか?",
+        "official_en": "Delete mesh components?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UPlaneCutTool:DoPlaneCut:d2a5bcd3",
+      "source": {
+        "set": "set-02",
+        "namespace": "UPlaneCutTool",
+        "key": "DoPlaneCut",
+        "jp_record_id": "switch:locres:set-01:UPlaneCutTool:DoPlaneCut:d2a5bcd3",
+        "official_en_record_id": "switch:locres:set-01:UPlaneCutTool:DoPlaneCut:d2a5bcd3",
+        "jp_sha256": "e34f76d5959265a0545e53e2b378b7c06d2f8aec285cfb28147ce5050a71f7a8",
+        "official_en_sha256": "579f2fb6c1f98f0ce94e52c0e6a2263d0aff4e0506e00043c93a13b03ac69aef"
+      },
+      "text": {
+        "jp": "平面切断を実行する",
+        "official_en": "Do Plane Cut",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UPlaneCutTool:FlipCutPlane:069e7a18",
+      "source": {
+        "set": "set-02",
+        "namespace": "UPlaneCutTool",
+        "key": "FlipCutPlane",
+        "jp_record_id": "switch:locres:set-01:UPlaneCutTool:FlipCutPlane:069e7a18",
+        "official_en_record_id": "switch:locres:set-01:UPlaneCutTool:FlipCutPlane:069e7a18",
+        "jp_sha256": "c01c74d2a731e68c176b36663cb067876525df6904d42f0ecbe7aa3fead91bf2",
+        "official_en_sha256": "f6e0ff1f48722e07c591889ff7a7c6e8ff036ab7c55d8baf46084f24c9566d58"
+      },
+      "text": {
+        "jp": "切り取り平面を反転",
+        "official_en": "Flip Cutting Plane",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UPlaneCutTool:FlipPlaneTransactionName:cb50f610",
+      "source": {
+        "set": "set-02",
+        "namespace": "UPlaneCutTool",
+        "key": "FlipPlaneTransactionName",
+        "jp_record_id": "switch:locres:set-01:UPlaneCutTool:FlipPlaneTransactionName:cb50f610",
+        "official_en_record_id": "switch:locres:set-01:UPlaneCutTool:FlipPlaneTransactionName:cb50f610",
+        "jp_sha256": "6662805383efbc39cb12090bf404deb4ec72105ffa49516be020d707194589f6",
+        "official_en_sha256": "f9e3cf4dcf57fc2d779c74de14781a0471cc8afb5ff2ff5c73940b0f90425361"
+      },
+      "text": {
+        "jp": "平面を反転",
+        "official_en": "Flip Plane",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UPlaneCutTool:FlipCutPlaneTooltip:cc35fd3e",
+      "source": {
+        "set": "set-02",
+        "namespace": "UPlaneCutTool",
+        "key": "FlipCutPlaneTooltip",
+        "jp_record_id": "switch:locres:set-01:UPlaneCutTool:FlipCutPlaneTooltip:cc35fd3e",
+        "official_en_record_id": "switch:locres:set-01:UPlaneCutTool:FlipCutPlaneTooltip:cc35fd3e",
+        "jp_sha256": "644b474f685160f3507edb24ed84b1ac2d1964dcd7e3451a65abfee4b095a3bc",
+        "official_en_sha256": "8933d0495176c278f12e745628ce2e332851dc2a5851e5240180b9cd3d77f0bc"
+      },
+      "text": {
+        "jp": "切り取り平面を反転します",
+        "official_en": "Flip the cutting plane",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UPlaneCutTool:ToolName:9bfd2c90",
+      "source": {
+        "set": "set-02",
+        "namespace": "UPlaneCutTool",
+        "key": "ToolName",
+        "jp_record_id": "switch:locres:set-01:UPlaneCutTool:ToolName:9bfd2c90",
+        "official_en_record_id": "switch:locres:set-01:UPlaneCutTool:ToolName:9bfd2c90",
+        "jp_sha256": "66517544384b51b2b59196a9c79adbc7daca88317dae2b117711f6e8dc155016",
+        "official_en_sha256": "3fb69206c70b50664b28e08f60db328677e0871e15ce74bc8ff7cdda3b6b8069"
+      },
+      "text": {
+        "jp": "平面切断",
+        "official_en": "Plane Cut",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UPlaneCutTool:PlaneCutToolTransactionName:52fdddda",
+      "source": {
+        "set": "set-02",
+        "namespace": "UPlaneCutTool",
+        "key": "PlaneCutToolTransactionName",
+        "jp_record_id": "switch:locres:set-01:UPlaneCutTool:PlaneCutToolTransactionName:52fdddda",
+        "official_en_record_id": "switch:locres:set-01:UPlaneCutTool:PlaneCutToolTransactionName:52fdddda",
+        "jp_sha256": "3e3d170eaae4299a3b50d25bd146f29d2244c953cb928b3f0ce54fb96b999008",
+        "official_en_sha256": "2de9133c013a1f7890fd875b37c0d9e4cc2df17a2e6ad10ab1f8e0c89047cc3a"
+      },
+      "text": {
+        "jp": "平面カットツール",
+        "official_en": "Plane Cut Tool",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UPlaneCutTool:PlaneCutDestroyQuestion:75d92be2",
+      "source": {
+        "set": "set-02",
+        "namespace": "UPlaneCutTool",
+        "key": "PlaneCutDestroyQuestion",
+        "jp_record_id": "switch:locres:set-01:UPlaneCutTool:PlaneCutDestroyQuestion:75d92be2",
+        "official_en_record_id": "switch:locres:set-01:UPlaneCutTool:PlaneCutDestroyQuestion:75d92be2",
+        "jp_sha256": "854fd65b981f486d2dba42f206d85192983f669c39fef8bfc9abab2b46320983",
+        "official_en_sha256": "456bf750c0253bc62cd563fac55b2b8921f8c297631e95c41908c5f7ac0a3f56"
+      },
+      "text": {
+        "jp": "平面カットは少なくとも1つのメッシュを完全に切り取りました。これらのメッシュ コンポーネントを削除してよろしいですか?いずれにしろすべてのアクタはそのままで、完全に切り取られていないメッシュは通常どおりカットされることに注意してください。",
+        "official_en": "Plane cuts have entirely cut away at least one mesh. Do you actually want to delete these mesh components? Note that either way all actors will remain, and meshes that are not fully cut away will still be cut as normal.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UPlaneCutTool:OnStartPlaneCutTool:0797efcc",
+      "source": {
+        "set": "set-02",
+        "namespace": "UPlaneCutTool",
+        "key": "OnStartPlaneCutTool",
+        "jp_record_id": "switch:locres:set-01:UPlaneCutTool:OnStartPlaneCutTool:0797efcc",
+        "official_en_record_id": "switch:locres:set-01:UPlaneCutTool:OnStartPlaneCutTool:0797efcc",
+        "jp_sha256": "7f1ef7a0e589e2e7962cde5a61cefa47ba91080662eb618399ad17d793bbf6ce",
+        "official_en_sha256": "cf8bebb8b96a52640af888d5a9a659d4ddf08d84af80ce375ac21415a2286f49"
+      },
+      "text": {
+        "jp": "'T'キーを押すか[切り取り]ボタンを使用して、ツールから離れずにメッシュを切り取ります。'R'を押して、面の方向を反転します。",
+        "official_en": "Press 'T' or use the Cut button to cut the mesh without leaving the tool.  Press 'R' to flip the plane direction.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UPlaneCutTool:PlaneCutMultipleAssetWithSameSource:e55f79df",
+      "source": {
+        "set": "set-02",
+        "namespace": "UPlaneCutTool",
+        "key": "PlaneCutMultipleAssetWithSameSource",
+        "jp_record_id": "switch:locres:set-01:UPlaneCutTool:PlaneCutMultipleAssetWithSameSource:e55f79df",
+        "official_en_record_id": "switch:locres:set-01:UPlaneCutTool:PlaneCutMultipleAssetWithSameSource:e55f79df",
+        "jp_sha256": "81aa292ea047b9beaf444c4a60e87ceeecc5aa6d341c11c7568f3863cdce7cfa",
+        "official_en_sha256": "e2d408ddda4d6096485b4982fdedb4417b0f967d075352dd1511c86e0377c54b"
+      },
+      "text": {
+        "jp": "警告:選択した複数のメッシュが同一のソースアセットを使用しています!平面カットをソースアセットに適用しても、このツールではアセットの複製を行わないため、通常、今回のケースではこのツールは正しい結果を返すことはできません。ツールを終了し、ソースアセットの複製を検討してください。",
+        "official_en": "WARNING: Multiple meshes in your selection use the same source asset!  Plane cuts apply to the source asset, and this tool will not duplicate assets for you, so the tool typically cannot give a correct result in this case.  Please consider exiting the tool and duplicating the source assets.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

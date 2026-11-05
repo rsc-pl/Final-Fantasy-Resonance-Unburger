@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGTypedGetterElements",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGTypedGetterElements:GetPCGComponentTooltip:1be2933f",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGTypedGetterElements",
+        "key": "GetPCGComponentTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGTypedGetterElements:GetPCGComponentTooltip:1be2933f",
+        "official_en_record_id": "switch:locres:set-01:PCGTypedGetterElements:GetPCGComponentTooltip:1be2933f",
+        "jp_sha256": "949b1ddf0dff49812d98b6b3c267735ef12ce56425c31a0656464cd8309124a7",
+        "official_en_sha256": "15349145e1ff7146166461fe2354ff46badd32c0ed1d5b8029aab4c412ed879b"
+      },
+      "text": {
+        "jp": "選択したアクタの他の PCG コンポーネントからのデータのコレクションをビルドします。\n各出力に対し、取得元のグリッド サイズを使用して自動でタグ付けし、「PCG_GridSize_」のプレフィックスを付けます (PCG_GridSize_12800 など)。\n注：循環依存が発生する可能性があるため、コンポーネントはそれ自身、または実行コンテキスト内の他のコンポーネントからコンポーネント データを取得できません",
+        "official_en": "Builds a collection of data from other PCG components on the selected actors.\nAutomatically tags each output with the grid size it was collected from, prefixed by \"PCG_GridSize_\" (e.g.PCG_GridSize_12800).\nNote: a component cannot get component data from itself or other components in its execution context, as it could create a circular dependency.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGTypedGetterElements:GetLandscapeTooltip:7cd1ecd3",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGTypedGetterElements",
+        "key": "GetLandscapeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGTypedGetterElements:GetLandscapeTooltip:7cd1ecd3",
+        "official_en_record_id": "switch:locres:set-01:PCGTypedGetterElements:GetLandscapeTooltip:7cd1ecd3",
+        "jp_sha256": "4b72950c125f941df2ad2b72832a1f96ac3fe62508c45a8f23f5fd7a771ae88d",
+        "official_en_sha256": "c90e305bb417635807f07df12463cc58697c98e2c14d24e02bc54319a7add8c2"
+      },
+      "text": {
+        "jp": "選択したアクタからランドスケープのコレクションをビルドします",
+        "official_en": "Builds a collection of landscapes from the selected actors.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGTypedGetterElements:GetPrimitiveTooltip:0d522b6c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGTypedGetterElements",
+        "key": "GetPrimitiveTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGTypedGetterElements:GetPrimitiveTooltip:0d522b6c",
+        "official_en_record_id": "switch:locres:set-01:PCGTypedGetterElements:GetPrimitiveTooltip:0d522b6c",
+        "jp_sha256": "ae37443f92bbcf3f2521d17cf649d0abc7a50f4753f09e35ccd7f74365400874",
+        "official_en_sha256": "f3b73bab6aceeddefc2b34210c82ca3755f0923bb56272d4dda8efe20d5d38e5"
+      },
+      "text": {
+        "jp": "選択したアクタのプリミティブ コンポーネントからプリミティブ型のコレクションをビルドします",
+        "official_en": "Builds a collection of primitive data from primitive components on the selected actors.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGTypedGetterElements:GetSplineTooltip:c5c17d4c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGTypedGetterElements",
+        "key": "GetSplineTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGTypedGetterElements:GetSplineTooltip:c5c17d4c",
+        "official_en_record_id": "switch:locres:set-01:PCGTypedGetterElements:GetSplineTooltip:c5c17d4c",
+        "jp_sha256": "4ddac49de1e16f62125e438e0ea86086d21c5154f56605be09aa6e1493128bd4",
+        "official_en_sha256": "7e7eab8e6459e5e3f7f3324e6f158a5a22c01af533e60e2e870f17540255664c"
+      },
+      "text": {
+        "jp": "選択したアクタからスプラインのコレクションをビルドします",
+        "official_en": "Builds a collection of splines from the selected actors.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGTypedGetterElements:GetVirtualTextureTooltip:08755083",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGTypedGetterElements",
+        "key": "GetVirtualTextureTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGTypedGetterElements:GetVirtualTextureTooltip:08755083",
+        "official_en_record_id": "switch:locres:set-01:PCGTypedGetterElements:GetVirtualTextureTooltip:08755083",
+        "jp_sha256": "42cd137a4472a8d0c501f959681361aab94eccc73ad22bfaec2e8271aa971646",
+        "official_en_sha256": "233cf89a9d086559d76041b602b789ed04fe50505f532f2e1ea2637d3661f6b5"
+      },
+      "text": {
+        "jp": "選択されているアクタから、バーチャル テクスチャ データのコレクションを作成します",
+        "official_en": "Builds a collection of virtual texture data from the selected actors.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGTypedGetterElements:GetVolumeTooltip:cc52a02d",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGTypedGetterElements",
+        "key": "GetVolumeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGTypedGetterElements:GetVolumeTooltip:cc52a02d",
+        "official_en_record_id": "switch:locres:set-01:PCGTypedGetterElements:GetVolumeTooltip:cc52a02d",
+        "jp_sha256": "6c56e46a97fc5386bd43ef4fa287e18f21795da946190cf915b283cb228fd69e",
+        "official_en_sha256": "5d2dc7348c71fce972d1fead4d01fc6a2cefa354ffe13683f70e07724e24a2a6"
+      },
+      "text": {
+        "jp": "選択したアクタからボリュームのコレクションをビルドします。\nAVolume または APCGPartitionActor はボリューム データを生成します。\nプリミティブ コンポーネント (ボックス、球体、またはスタティックメッシュのコリジョン) には GetPrimitiveData を使用してください",
+        "official_en": "Builds a collection of volumes from the selected actors.\nAVolume or APCGPartitionActor produce volume data.\nUse GetPrimitiveData for primitive components (i.e like Box, Sphere or Static Mesh collisions).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,863 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UnrealCalibrationParser",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_NotJson:b6ddc896",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_NotJson",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_NotJson:b6ddc896",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_NotJson:b6ddc896",
+        "jp_sha256": "91b1bd7a42906e0dc0f32c6098d48f9c00aeb5d1d692624b904483f97add63d1",
+        "official_en_sha256": "81edddf600d2d11e196e463eae1795ecd3d8ad3f05c653784bdf423be4369401"
+      },
+      "text": {
+        "jp": "json ファイルが無効です",
+        "official_en": "Invalid json file",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingCameraId:8a1e5629",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_MissingCameraId",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingCameraId:8a1e5629",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingCameraId:8a1e5629",
+        "jp_sha256": "a2bfec06f11002b0facc7e87ee37a03f1c1a596d80ed2c48a0f03528b61da2e5",
+        "official_en_sha256": "94153724bf32327cc8c5dfa542b892f4939c79a6639064a60a3f997fb0b625ae"
+      },
+      "text": {
+        "jp": "JSON にカメラ ID フィールドが含まれません",
+        "official_en": "Json doesn't contain Camera Id field",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingCameraType:f02ee397",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_MissingCameraType",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingCameraType:f02ee397",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingCameraType:f02ee397",
+        "jp_sha256": "e425c8ce6bc6df3fbbde4c8684542f2b15362ed9480ccc7b562472e39828a136",
+        "official_en_sha256": "368f5e906ccfad277ddd429f0280d8b34d525d56854b92bec71ca946a2244c39"
+      },
+      "text": {
+        "jp": "JSON にカメラ タイプ フィールドが含まれません",
+        "official_en": "Json doesn't contain Camera Type field",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingDimensions:a809b52a",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_MissingDimensions",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingDimensions:a809b52a",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingDimensions:a809b52a",
+        "jp_sha256": "861478bb0f286897cb9790a8b6ed0a939e5655db226f9a242c3bbc579fce8532",
+        "official_en_sha256": "073ee4ae1f81a642ee6833c5543d41ca8d113fb0a27466cce55f024e907bf7c1"
+      },
+      "text": {
+        "jp": "JSON に寸法フィールドが含まれません",
+        "official_en": "Json doesn't contain Dimensions field",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingFocalLength:f9aa9eb1",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_MissingFocalLength",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingFocalLength:f9aa9eb1",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingFocalLength:f9aa9eb1",
+        "jp_sha256": "31fa1bdb930885b88bd5c1b600f375a8c26be0d9e38c122d627c428842dd6804",
+        "official_en_sha256": "f11c8d84d3938f40d6d34c8a568ed828e7514abe16dea183e526547c3f0c40ed"
+      },
+      "text": {
+        "jp": "JSON に焦点距離フィールドが含まれません",
+        "official_en": "Json doesn't contain Focal Length field",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingHeight:b2b62464",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_MissingHeight",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingHeight:b2b62464",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingHeight:b2b62464",
+        "jp_sha256": "0b7a2f0f8b0444af7d1fb77246e4255937ab56c045e6ecdeacaa045e9f607d06",
+        "official_en_sha256": "cfe1f60f691e30f489cc5f81eb19963dd6c2e92f5595e5a6bb8585035bce4d37"
+      },
+      "text": {
+        "jp": "JSON に高さフィールドが含まれません",
+        "official_en": "Json doesn't contain Height field",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingRadialDistortionK1:c27fb705",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_MissingRadialDistortionK1",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingRadialDistortionK1:c27fb705",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingRadialDistortionK1:c27fb705",
+        "jp_sha256": "3e3f46f111cb9fe794e44f3a03a1e6cb3b5a34c37bff2c72fa7747dca361b128",
+        "official_en_sha256": "8e77b9c0136ed8a9d63ce7a5dd412be54eab03ff8691c3f4cb93b03bd1e8fe9a"
+      },
+      "text": {
+        "jp": "JSON に放射方向歪みオブジェクト内の K1 フィールドが含まれません",
+        "official_en": "Json doesn't contain K1 field within Radial distortion object",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingRadialDistortionK2:b644ae43",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_MissingRadialDistortionK2",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingRadialDistortionK2:b644ae43",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingRadialDistortionK2:b644ae43",
+        "jp_sha256": "ec6f3a9dbb6a420e111532db2e27e53a8624396653ffbf303f7a5248e6344908",
+        "official_en_sha256": "2cd7e5a7bf7e8c09876a85becf8948bf92a7d694060dae9df09785c87bf6396c"
+      },
+      "text": {
+        "jp": "JSON に放射方向歪みオブジェクト内の K2 フィールドが含まれません",
+        "official_en": "Json doesn't contain K2 field within Radial distortion object",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingRadialDistortionK3:12cc2226",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_MissingRadialDistortionK3",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingRadialDistortionK3:12cc2226",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingRadialDistortionK3:12cc2226",
+        "jp_sha256": "c6b9627b85d62a7ccc0255633f3d5383bc30d77d74afed40e1b1c5705ed76f14",
+        "official_en_sha256": "fa27799ca2100c20b713750a60b534181c483602b1877604632441b23e11acfe"
+      },
+      "text": {
+        "jp": "JSON に放射方向歪みオブジェクト内の K3 フィールドが含まれません",
+        "official_en": "Json doesn't contain K3 field within Radial distortion object",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingModelName:f0f01463",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_MissingModelName",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingModelName:f0f01463",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingModelName:f0f01463",
+        "jp_sha256": "484c53c7423482829560871d5a43863c547f48cdab3015d51d8cf3c300673739",
+        "official_en_sha256": "45dd99aa445ba26357c6f6d6bfd7b5baf6c2837b8810da1d9b81bc60d8c352e0"
+      },
+      "text": {
+        "jp": "JSON に歪みモデル オブジェクト内の名前フィールドが含まれません",
+        "official_en": "Json doesn't contain Name field within Distortion Model object",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingOrientation:7ec3aafb",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_MissingOrientation",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingOrientation:7ec3aafb",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingOrientation:7ec3aafb",
+        "jp_sha256": "b40bbb28af6ee785ef1e5b86ff5d7ebaa7596755da0160fb6e2e43f4a22040ef",
+        "official_en_sha256": "95978eb1490a891057843ebeef31d2a148a248be9bd5c4f4cbc846d91bf489b2"
+      },
+      "text": {
+        "jp": "JSON にオリエンテーション フィールドが含まれません",
+        "official_en": "Json doesn't contain Orientation field",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingTangentialDistortionP1:99b10ddc",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_MissingTangentialDistortionP1",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingTangentialDistortionP1:99b10ddc",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingTangentialDistortionP1:99b10ddc",
+        "jp_sha256": "2eaf80a3a8d43f144ff46bde254b379c8cb7a24c79823451c40de831dbeffccb",
+        "official_en_sha256": "4624a24f77b628e61cced04e226ae3788ff2b2b8b05dd87f66a5a0e72ccf279d"
+      },
+      "text": {
+        "jp": "JSON に接線方向歪みオブジェクト内の P1 フィールドが含まれません",
+        "official_en": "Json doesn't contain P1 field within Tangential distortion object",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingTangentialDistortionP2:3fb3662b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_MissingTangentialDistortionP2",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingTangentialDistortionP2:3fb3662b",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingTangentialDistortionP2:3fb3662b",
+        "jp_sha256": "905c85451ec9cc643e3f8cfd9870ce647b905305f9ac4d95c95d79f48d5740b8",
+        "official_en_sha256": "40ee22edac7b07e1fd29af35189d8628f7bc3b2ee29c1637188917a47f625533"
+      },
+      "text": {
+        "jp": "JSON に接線方向歪みオブジェクト内の P2 フィールドが含まれません",
+        "official_en": "Json doesn't contain P2 field within Tangential distortion object",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingPrincipalPoint:eec86a30",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_MissingPrincipalPoint",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingPrincipalPoint:eec86a30",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingPrincipalPoint:eec86a30",
+        "jp_sha256": "dd8508fa9c41b32e9b38498b69144dcee172eba02d3de2c8e199f00d1731bf12",
+        "official_en_sha256": "41a6f01fc2254220bc275942066aced0da11f7e74da76e7cdacf8dc3d3af8fb1"
+      },
+      "text": {
+        "jp": "JSON に主点フィールドが含まれません",
+        "official_en": "Json doesn't contain Principal Point field",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingRadialDistortion:15c160f8",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_MissingRadialDistortion",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingRadialDistortion:15c160f8",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingRadialDistortion:15c160f8",
+        "jp_sha256": "30e63eb1bab87b86a36ab2de6155a9b2b09a65ef24cd5e89574612fcae30fe15",
+        "official_en_sha256": "123c1928c2a169f99e2b4053fd51bc2ae9fbd90e65a5cca200b676ce1fd8c56f"
+      },
+      "text": {
+        "jp": "JSON に歪みモデルオブジェクト内の放射方向フィールドが含まれません",
+        "official_en": "Json doesn't contain Radial field within Distortion Model object",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingTangentialDistortion:171c38bd",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_MissingTangentialDistortion",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingTangentialDistortion:171c38bd",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingTangentialDistortion:171c38bd",
+        "jp_sha256": "409c4caad4300404138a2a8ba1e070d50764af872212c9a3f2054806b3319f35",
+        "official_en_sha256": "3f736de3d0a2c7276eea19b6406af0c65cab9d0a960cfefe0b58cfadb8288e0c"
+      },
+      "text": {
+        "jp": "JSON に歪みモデル オブジェクト内の接線方向フィールドが含まれません",
+        "official_en": "Json doesn't contain Tangential field within Distortion Model object",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingTransform:58a43812",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_MissingTransform",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingTransform:58a43812",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingTransform:58a43812",
+        "jp_sha256": "edc20958e1eac803928bb7fc865e78ba6f54c8b7c0029d417498cdd76df009da",
+        "official_en_sha256": "873fa27535e7fb216c476eb4052cc5a9e5029bf5da9719ce885a2ee948ad52ab"
+      },
+      "text": {
+        "jp": "JSON にトランスフォーム フィールドが含まれません",
+        "official_en": "Json doesn't contain Transform field",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingWidth:68a9329c",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_MissingWidth",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingWidth:68a9329c",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_MissingWidth:68a9329c",
+        "jp_sha256": "9b3646f58b4d4aff796195490ec918327449ff2ae0edf8b57ea1e12fc4d792bb",
+        "official_en_sha256": "e48ef2db7d1e8752c820e31e231ca128a96ab8b745dacb82737aec789e32bf6e"
+      },
+      "text": {
+        "jp": "JSON に幅フィールドが含まれません",
+        "official_en": "Json doesn't contain Width field",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_InvalidArrayFormat:f6d3cbd6",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_InvalidArrayFormat",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_InvalidArrayFormat:f6d3cbd6",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_InvalidArrayFormat:f6d3cbd6",
+        "jp_sha256": "f8f6cb945797b70c9684876f0e9aee1952059cfe0a3816dd220d97bb435f4a07",
+        "official_en_sha256": "97f0b44a4ef3b00f21886c8c2c03ee4fade76b375560595bd5845828f1c01911"
+      },
+      "text": {
+        "jp": "JSON にカメラ配列が含まれません",
+        "official_en": "Json doesn't contain camera array",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_InvalidObjectFormat:08a78ff3",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_InvalidObjectFormat",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_InvalidObjectFormat:08a78ff3",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_InvalidObjectFormat:08a78ff3",
+        "jp_sha256": "24f1dfb7a0931245044156f595bd875d8f933aaaf09020865485c2f821312eb3",
+        "official_en_sha256": "1ed62c645801f877c0234759efd924d40724d93bc291aae167551d5221fa01ee"
+      },
+      "text": {
+        "jp": "JSON ファイルに配列内のカメラ オブジェクトが含まれません",
+        "official_en": "Json file doesn't contain camera objects within the array",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_InvalidFormatVersion:ce15c905",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_InvalidFormatVersion",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_InvalidFormatVersion:ce15c905",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_InvalidFormatVersion:ce15c905",
+        "jp_sha256": "9ba6bb85d759a15582ae79081525c28c5882588d26c09b04d650ecf3a2966593",
+        "official_en_sha256": "c265d7841c27df1406ee65c36e27bd11cbdbcf85fae79354716a00ec1c839171"
+      },
+      "text": {
+        "jp": "JSON ファイルにバージョン番号が含まれません",
+        "official_en": "Json file doesn't contain version number",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_UnsupportedFormatVersion:24a9ae80",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_UnsupportedFormatVersion",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_UnsupportedFormatVersion:24a9ae80",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_UnsupportedFormatVersion:24a9ae80",
+        "jp_sha256": "eb27fbd000a76cc89aa10c11a1956d5a447502afbe3d93afe07122f05a0abfb1",
+        "official_en_sha256": "86edbca26bb07f4a7a4b9e576dfbb42df813739a1079e7cbff48f2bb4fbdee0a"
+      },
+      "text": {
+        "jp": "パーサーは指定バージョンをサポートしていません",
+        "official_en": "Parser doesn't support specified version",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_FailedToOpenFile:8b41711b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealCalibrationParser",
+        "key": "Parse_FailedToOpenFile",
+        "jp_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_FailedToOpenFile:8b41711b",
+        "official_en_record_id": "switch:locres:set-01:UnrealCalibrationParser:Parse_FailedToOpenFile:8b41711b",
+        "jp_sha256": "6bdaddde2cd2810388bfbcb52026472e145cfaef2821245e25b60b4bd4bd7fd3",
+        "official_en_sha256": "160cd05073e3a2260ba4c725a07a38007455e4104fd2fe247f9bee7776a2d597"
+      },
+      "text": {
+        "jp": "指定ファイルが存在しません",
+        "official_en": "Provided file doesn't exist",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

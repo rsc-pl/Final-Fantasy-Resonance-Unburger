@@ -1,0 +1,1455 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MetasoundStandardNodes_DynamicFilter",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputSidechainTooltip:fe1a624f",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputSidechainTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputSidechainTooltip:fe1a624f",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputSidechainTooltip:fe1a624f",
+        "jp_sha256": "afe293dc7adcdac889fa45bdcef7a46b1515195ad24f40c952ef55ee64ef4b89",
+        "official_en_sha256": "9de8d9e6bfb12dda5d3aa2ccba6cdfb14588028347bce7e5adc62749b251e096"
+      },
+      "text": {
+        "jp": "(オプション) フィルタを制御するための外部オーディオ信号。空の場合、入力オーディオ信号を使用します。",
+        "official_en": "(Optional) External audio signal to control the filter with. If empty, uses the input audio signal.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputRatioTooltip:fda96a7a",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputRatioTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputRatioTooltip:fda96a7a",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputRatioTooltip:fda96a7a",
+        "jp_sha256": "9b1734d97e1d396ecffdf40601bba4f2fa3cf4d279015d9beb6d21129df261ec",
+        "official_en_sha256": "6dfafa14dc17a6d45be1cebfa9953921f9a0dcd043e1d32d8c5193b0579c384d"
+      },
+      "text": {
+        "jp": "ゲインの減少量。1 = 減少なし、1より大きい値 = より多く減少",
+        "official_en": "Amount of gain reduction. 1 = no reduction, higher = more reduction.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputGainTooltip:e91ab830",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputGainTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputGainTooltip:e91ab830",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputGainTooltip:e91ab830",
+        "jp_sha256": "f8af81c5b12ea278744b2fddfeca2d2fbfb1e616fe710119082b47dbaef55f22",
+        "official_en_sha256": "015fd4bfff7bae4fc1b0a452cf1c7a4548373f6ff1950224c33dc10efcca619e"
+      },
+      "text": {
+        "jp": "適用するメイクアップゲインの量",
+        "official_en": "Amount of make-up gain to apply",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputThresholdTooltip:620c077b",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputThresholdTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputThresholdTooltip:620c077b",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputThresholdTooltip:620c077b",
+        "jp_sha256": "441119eab9d705c11f49913719a301c56993f962600f91e189bd56788d1b33b5",
+        "official_en_sha256": "998be9f6b14e7a46122f2d97bed1ed4533631d48c7946d70120aca54830e0bf4"
+      },
+      "text": {
+        "jp": "振幅しきい値 (dB)。その値を超えるとゲインが減少します。",
+        "official_en": "Amplitude threshold (dB) above which gain will be reduced.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputAnalogModeDisplayName:53498dd9",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputAnalogModeDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputAnalogModeDisplayName:53498dd9",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputAnalogModeDisplayName:53498dd9",
+        "jp_sha256": "a2fad2f489d01d907c81b7f6d2fa298664ea30fb948be9b50b4923f462e1036b",
+        "official_en_sha256": "a2fad2f489d01d907c81b7f6d2fa298664ea30fb948be9b50b4923f462e1036b"
+      },
+      "text": {
+        "jp": "AnalogMode",
+        "official_en": "AnalogMode",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputAttackTimeDisplayName:1adb7554",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputAttackTimeDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputAttackTimeDisplayName:1adb7554",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputAttackTimeDisplayName:1adb7554",
+        "jp_sha256": "5adc853cf57bbc5a1cf574630a8dc131d3050286bd7f1aa6dda671b19f18b8a1",
+        "official_en_sha256": "5adc853cf57bbc5a1cf574630a8dc131d3050286bd7f1aa6dda671b19f18b8a1"
+      },
+      "text": {
+        "jp": "AttackTime",
+        "official_en": "AttackTime",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputAudioDisplayName:51cdb483",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputAudioDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputAudioDisplayName:51cdb483",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputAudioDisplayName:51cdb483",
+        "jp_sha256": "bc1b88907d3b748af99cb9d4ffc07a0118dad5dab21a9dbdcc5a17a09641364a",
+        "official_en_sha256": "bc1b88907d3b748af99cb9d4ffc07a0118dad5dab21a9dbdcc5a17a09641364a"
+      },
+      "text": {
+        "jp": "Audio",
+        "official_en": "Audio",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:OutputAudioDisplayName:dbc7530c",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "OutputAudioDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:OutputAudioDisplayName:dbc7530c",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:OutputAudioDisplayName:dbc7530c",
+        "jp_sha256": "bc1b88907d3b748af99cb9d4ffc07a0118dad5dab21a9dbdcc5a17a09641364a",
+        "official_en_sha256": "bc1b88907d3b748af99cb9d4ffc07a0118dad5dab21a9dbdcc5a17a09641364a"
+      },
+      "text": {
+        "jp": "Audio",
+        "official_en": "Audio",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:BellDescription:5da4c514",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "BellDescription",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:BellDescription:5da4c514",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:BellDescription:5da4c514",
+        "jp_sha256": "df8b216579ea7fcfef32006599bc5d872fd9c6fc927d0c947f26e665a014947c",
+        "official_en_sha256": "8e80b2b4b22af3a71ca0a3d671a60749ede566e46113d3c6cd5edd66d3914116"
+      },
+      "text": {
+        "jp": "ベル",
+        "official_en": "Bell",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:BellTT:da42c1eb",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "BellTT",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:BellTT:da42c1eb",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:BellTT:da42c1eb",
+        "jp_sha256": "952ae33dc50db84c5cf21896bc5d1fab8a92ec99508b6c62d8bae9c9960dea9c",
+        "official_en_sha256": "1aaeb74ad7077c69f11fb0327859c791fd8850068dbe3ac465c39a1b1875f8c8"
+      },
+      "text": {
+        "jp": "ベルフィルタ",
+        "official_en": "Bell Filter",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:DynamicFilterDisplayName:810e0191",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "DynamicFilterDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:DynamicFilterDisplayName:810e0191",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:DynamicFilterDisplayName:810e0191",
+        "jp_sha256": "ff876c0f73a7ac3afa686081a57774a6bdc7591d09036900a6156d6c96da44c3",
+        "official_en_sha256": "cf832331115e2b02249e20e3ddf22abca7a2b2e80d0ddb107fe56c2d1d81c353"
+      },
+      "text": {
+        "jp": "ダイナミック フィルタ",
+        "official_en": "Dynamic Filter",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputAnalogModeTooltip:b79b5d48",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputAnalogModeTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputAnalogModeTooltip:b79b5d48",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputAnalogModeTooltip:b79b5d48",
+        "jp_sha256": "66de6651b7c3159c27b854d496b9769941f315151a1b2f7c89abcbce813f25ee",
+        "official_en_sha256": "4dcc8a62609d228a779d918a48db8052013fe9143841a0c46ad7eb047728d4b7"
+      },
+      "text": {
+        "jp": "コンプレッサのエンベロープフォロワーのアナログモードを有効にします。",
+        "official_en": "Enable Analog Mode for the compressor's envelope follower.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputEnvelopeModeDisplayName:d59a04f0",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputEnvelopeModeDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputEnvelopeModeDisplayName:d59a04f0",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputEnvelopeModeDisplayName:d59a04f0",
+        "jp_sha256": "2c207517b83f8499f168c6a51fe290bc6a7249470ec560d5ce7c2591bd68ae7c",
+        "official_en_sha256": "2c207517b83f8499f168c6a51fe290bc6a7249470ec560d5ce7c2591bd68ae7c"
+      },
+      "text": {
+        "jp": "EnvelopeMode",
+        "official_en": "EnvelopeMode",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputQTooltip:21162178",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputQTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputQTooltip:21162178",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputQTooltip:21162178",
+        "jp_sha256": "b3ec1df01df6cc83d1bf6b8da88ed97693c2eeae38913bc4f134958196449517",
+        "official_en_sha256": "bdadfcdee0fcd87873f5b43c3d4f6bc08356b4804494fabeed9ce0269f54e690"
+      },
+      "text": {
+        "jp": "フィルタQ (レゾナンス) は、フィルタの急峻さを制御します。",
+        "official_en": "Filter Q, or resonance, controls the steepness of the filter.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputFilterTypeTooltip:4fc4f407",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputFilterTypeTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputFilterTypeTooltip:4fc4f407",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputFilterTypeTooltip:4fc4f407",
+        "jp_sha256": "60fc22096d071e77aed1b812b26544bbcc4558938a29f2c7eafa51b719fffa15",
+        "official_en_sha256": "318d1acf4590079d93b09e3e695a91098f0a5dd38d9d0d0a19dbbfb1eb03c58a"
+      },
+      "text": {
+        "jp": "使用するフィルタの形状。",
+        "official_en": "Filter shape to use.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputFilterTypeDisplayName:0c6332d0",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputFilterTypeDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputFilterTypeDisplayName:0c6332d0",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputFilterTypeDisplayName:0c6332d0",
+        "jp_sha256": "623645e5b289d67570f96ae50460408d6a6ae22fe79b1419a716bdd3b29e1b37",
+        "official_en_sha256": "623645e5b289d67570f96ae50460408d6a6ae22fe79b1419a716bdd3b29e1b37"
+      },
+      "text": {
+        "jp": "FilterType",
+        "official_en": "FilterType",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:DynamicFilterDesc:52260263",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "DynamicFilterDesc",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:DynamicFilterDesc:52260263",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:DynamicFilterDesc:52260263",
+        "jp_sha256": "3272aff184015b12ccc925c647f37b195f7a0a2183cb5763d9be0c277c08542a",
+        "official_en_sha256": "639a33e391fc14cf46511acd027a256158f6591fbf2826888ea89fc1143434df"
+      },
+      "text": {
+        "jp": "入力信号の強度に応じて、オーディオの帯域をフィルタリングします。",
+        "official_en": "Filters a band of audio based on the strength of the input signal.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputFrequencyDisplayName:1745d347",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputFrequencyDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputFrequencyDisplayName:1745d347",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputFrequencyDisplayName:1745d347",
+        "jp_sha256": "7b859ce43fbedfc5aae738193a37a59bb34acbd3f892e0708e2178006d40b20d",
+        "official_en_sha256": "16b6668d9831a1b8d2d003496db6a62b7f525df6c556d7c04681fbed2251c845"
+      },
+      "text": {
+        "jp": "周波数",
+        "official_en": "Frequency",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputGainDisplayName:e1a0905a",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputGainDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputGainDisplayName:e1a0905a",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputGainDisplayName:e1a0905a",
+        "jp_sha256": "db5725afb30aa822bdbbaf9e7d1c74c8d3ec47489b5d350b503384ffc4f4502f",
+        "official_en_sha256": "4e125a3ef68a00b029459c9aa8aa94aa07e74cc54188ffef7f60f38f016e61ca"
+      },
+      "text": {
+        "jp": "ゲイン",
+        "official_en": "Gain",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputGainName:2ec80be8",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputGainName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputGainName:2ec80be8",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputGainName:2ec80be8",
+        "jp_sha256": "0e7c090af0a25389725b4e76b9301e43a0f0acb24e473392d688d9c80212dbcb",
+        "official_en_sha256": "af0e89f7a1c3a00cc4e74ae5eac4220aeb1e747310f0b7e8ea34653620f109f5"
+      },
+      "text": {
+        "jp": "ゲイン(dB)",
+        "official_en": "Gain (dB)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:HighShelfDescription:078290e9",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "HighShelfDescription",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:HighShelfDescription:078290e9",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:HighShelfDescription:078290e9",
+        "jp_sha256": "454e53a0804c935aed14148221e729cf003e2d2e03089b1442384270468813b0",
+        "official_en_sha256": "60e017ba66bf467b8410e841317d870d960ff6f2a9a436ca0c224ad2fc115fe8"
+      },
+      "text": {
+        "jp": "ハイシェルフ",
+        "official_en": "High Shelf",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:HighShelfTT:6c7108a4",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "HighShelfTT",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:HighShelfTT:6c7108a4",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:HighShelfTT:6c7108a4",
+        "jp_sha256": "9f3f50ecb2b2b4a85c52d9aa1811f320412a4ce09f28424429214cc44eac1518",
+        "official_en_sha256": "d9cc5e03af6befa18d0d93b6200e2494eb8e79b1f36882a199544546170d46eb"
+      },
+      "text": {
+        "jp": "ハイシェルフフィルタ",
+        "official_en": "High Shelf Filter",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputKneeTooltip:db2d3250",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputKneeTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputKneeTooltip:db2d3250",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputKneeTooltip:db2d3250",
+        "jp_sha256": "38efdb36a4ce3946c117124ebbbfd65bf0b8fa0e8ef276b28b4399cc4f6d6d42",
+        "official_en_sha256": "2e8cea40230c760a5a6f072ecd786cf9df29a1e40d5240821d037392498cd1de"
+      },
+      "text": {
+        "jp": "ゲイン減少なしからゲイン減少するまで、ゲイン減少をどの程度ハードまたはソフトにブレンドするか。0 dbはブレンドなし。",
+        "official_en": "How hard or soft the gain reduction blends from no gain reduction to gain reduction. 0 dB, no blending.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputAttackTimeTooltip:22b31bf8",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputAttackTimeTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputAttackTimeTooltip:22b31bf8",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputAttackTimeTooltip:22b31bf8",
+        "jp_sha256": "2bc6ca5bbd4707e682cda8cc517c807166b37ad2e04be3763a532aa54042c111",
+        "official_en_sha256": "f20196508735e74e8fde0ffe22f6e3641ff51513e13b60edf069ab9cdfbdd54e"
+      },
+      "text": {
+        "jp": "しきい値を上回るオーディオがその圧縮されたボリュームレベルに到達するまでにかかる時間。",
+        "official_en": "How long it takes for audio above the threshold to reach its compressed volume level.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputReleaseTimeTooltip:a40c42b3",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputReleaseTimeTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputReleaseTimeTooltip:a40c42b3",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputReleaseTimeTooltip:a40c42b3",
+        "jp_sha256": "a87aa757082384c0fd3deac2bbe7edb54493b75a1f36739b9bac7cea02aae79e",
+        "official_en_sha256": "b54ad1f55643c87c078c1f2c4473775ac3f58a66606743549f4b32cc286c77d9"
+      },
+      "text": {
+        "jp": "しきい値を下回るオーディオが元のボリュームレベルに戻るまでにかかる時間。",
+        "official_en": "How long it takes for audio below the threshold to return to its original volume level.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputAudioTooltip:f72aab73",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputAudioTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputAudioTooltip:f72aab73",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputAudioTooltip:f72aab73",
+        "jp_sha256": "2a2086c82103dd3cbaa86dfa3aa8ef8271334080650753d92f21de8720595a73",
+        "official_en_sha256": "a031cc7e60808212ae5acf1c0775ac31a0eb56a92441ca0b5b0f7d7a36fef1ea"
+      },
+      "text": {
+        "jp": "入力オーディオ信号。",
+        "official_en": "Incoming audio signal.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputKneeDisplayName:d953ff28",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputKneeDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputKneeDisplayName:d953ff28",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputKneeDisplayName:d953ff28",
+        "jp_sha256": "40b8114420b946959380a11e8c030f4cc188227e2a032fb6d52d9bbc9bcbb515",
+        "official_en_sha256": "24d8133246f98eb49f7ceea55b8c63e2e13e7491cbc508ed43f9ce003a1e1d3f"
+      },
+      "text": {
+        "jp": "Knee (ニー)",
+        "official_en": "Knee",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:LowShelfDescription:26304b5c",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "LowShelfDescription",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:LowShelfDescription:26304b5c",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:LowShelfDescription:26304b5c",
+        "jp_sha256": "cf8461ad754815c420fc0ae96b356c6160a675426ba57cb1219158af04592eff",
+        "official_en_sha256": "3745153e9186566a95e21511d67adf65beead735f379082957ec47c5b7142b5c"
+      },
+      "text": {
+        "jp": "ローシェルフ",
+        "official_en": "Low Shelf",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:LowShelfTT:3f72db51",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "LowShelfTT",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:LowShelfTT:3f72db51",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:LowShelfTT:3f72db51",
+        "jp_sha256": "bb8358b098f0b4008fb7a947754e4524def7e4c3f05d80bcca4d92c67b873b6f",
+        "official_en_sha256": "d7cc4edb7f9ee2696814d870aad0d4c0201fb943b9d6ccc7cc36c54e3aea2f14"
+      },
+      "text": {
+        "jp": "ローシェルフフィルタ",
+        "official_en": "Low Shelf Filter",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputQDisplayName:55a04484",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputQDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputQDisplayName:55a04484",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputQDisplayName:55a04484",
+        "jp_sha256": "4ae81572f06e1b88fd5ced7a1a000945432e83e1551e6f721ee9c00b8cc33260",
+        "official_en_sha256": "4ae81572f06e1b88fd5ced7a1a000945432e83e1551e6f721ee9c00b8cc33260"
+      },
+      "text": {
+        "jp": "Q",
+        "official_en": "Q",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputRangeDisplayName:94a4739e",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputRangeDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputRangeDisplayName:94a4739e",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputRangeDisplayName:94a4739e",
+        "jp_sha256": "273b56a9e3defb31b41b4057efac141789183532cc8ad1e92e4d48ccff905244",
+        "official_en_sha256": "5de74a81b192304c10bf7b8cf50e863a19e8ae4c38a4d5c5116359db0deed29f"
+      },
+      "text": {
+        "jp": "レンジ",
+        "official_en": "Range",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputRatioDisplayName:b7bda789",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputRatioDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputRatioDisplayName:b7bda789",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputRatioDisplayName:b7bda789",
+        "jp_sha256": "8a457b6b1337878fa5d6628a545b25c4ac4bb0245927b03c9e6de880b3201bf1",
+        "official_en_sha256": "1348beb03ed9067bd42223ca28adf22a5786b55c0537eb5fbe0ed37a4bc6802d"
+      },
+      "text": {
+        "jp": "比率",
+        "official_en": "Ratio",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputReleaseTimeDisplayName:25dc0098",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputReleaseTimeDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputReleaseTimeDisplayName:25dc0098",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputReleaseTimeDisplayName:25dc0098",
+        "jp_sha256": "5692b4ab028f1ea8a0e3095ba444f7facbe43b096d6426745075b0c3507f2b98",
+        "official_en_sha256": "5692b4ab028f1ea8a0e3095ba444f7facbe43b096d6426745075b0c3507f2b98"
+      },
+      "text": {
+        "jp": "ReleaseTime",
+        "official_en": "ReleaseTime",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputSidechainDisplayName:c8b3a672",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputSidechainDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputSidechainDisplayName:c8b3a672",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputSidechainDisplayName:c8b3a672",
+        "jp_sha256": "22de846283194519f5c322d037309c9df257538e410a3ac0e37486d2aa39d83b",
+        "official_en_sha256": "b8ddff9a59c3f38bba892c5e249bdb8c7dbc65eb78217758a01b9d6cef8e3fa8"
+      },
+      "text": {
+        "jp": "サイドチェーン",
+        "official_en": "Sidechain",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputFrequencyTooltip:573ec52d",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputFrequencyTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputFrequencyTooltip:573ec52d",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputFrequencyTooltip:573ec52d",
+        "jp_sha256": "34d640e9456c338afc20bc16342a5c92a99a3ebbd72a12e80ae803538c445999",
+        "official_en_sha256": "7343daae4d3b5f7be339142f8cef2b7fbfdb34410fc44815856e76ca4111ab9e"
+      },
+      "text": {
+        "jp": "フィルタの中心周波数。",
+        "official_en": "The center frequency of the filter.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputEnvelopeModeTooltip:30b52a12",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputEnvelopeModeTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputEnvelopeModeTooltip:30b52a12",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputEnvelopeModeTooltip:30b52a12",
+        "jp_sha256": "777690bb269b7d9cdb34c6feeee16d2933678340d0c09e63943e098e00fb29d4",
+        "official_en_sha256": "e3ca3b626fc4d29462c0afd9da8fbd3afb594e768435bb646ff1a50598ba8bec"
+      },
+      "text": {
+        "jp": "ゲイン検出にコンプレッサが使用するエンベロープフォローイング方法。",
+        "official_en": "The envelope-following method the compressor will use for gain detection.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputRangeTooltip:935c0652",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputRangeTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputRangeTooltip:935c0652",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputRangeTooltip:935c0652",
+        "jp_sha256": "14a73c56c7a3d570810f8929cea90b95aa131a153a6f74830461e0b2b36ad874",
+        "official_en_sha256": "818046498dd063e3803e36d8e37031b58a5cae7abb473229bd9708ff72dec48a"
+      },
+      "text": {
+        "jp": "許容されるゲインの最大減少量 (dB)。負の値では圧縮を適用し、正の値ではエキスパンダに反転します。",
+        "official_en": "The maximum gain reduction (dB) allowed. Negative values apply compression, positive values flip it into an expander.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:OutputAudioTooltip:4b6d7567",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "OutputAudioTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:OutputAudioTooltip:4b6d7567",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:OutputAudioTooltip:4b6d7567",
+        "jp_sha256": "287c029a9f510996549a030700d0531495b02b17830ba18b3edaf1f670b956db",
+        "official_en_sha256": "025924593a8f2df2593098598f168865197ce2fdf7bb2762a5cecdcc03da7abe"
+      },
+      "text": {
+        "jp": "出力オーディオ信号。",
+        "official_en": "The output audio signal.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputThresholdDisplayName:684194be",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_DynamicFilter",
+        "key": "InputThresholdDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputThresholdDisplayName:684194be",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_DynamicFilter:InputThresholdDisplayName:684194be",
+        "jp_sha256": "e5f48bbc4e9865e6c168c5a73817b240215e59a4b864b461bef749d4c1f75550",
+        "official_en_sha256": "12277bd618ee0aab4d3afcf3273e5da2cf69d7751264fbadb706b99424fe9b76"
+      },
+      "text": {
+        "jp": "しきい値 (dB)",
+        "official_en": "Threshold dB",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

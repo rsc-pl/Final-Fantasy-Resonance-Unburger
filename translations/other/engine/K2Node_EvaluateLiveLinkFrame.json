@@ -1,0 +1,567 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "K2Node_EvaluateLiveLinkFrame",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:OutputLinkPinDoNotMatches:f5ed7fcd",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_EvaluateLiveLinkFrame",
+        "key": "OutputLinkPinDoNotMatches",
+        "jp_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:OutputLinkPinDoNotMatches:f5ed7fcd",
+        "official_en_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:OutputLinkPinDoNotMatches:f5ed7fcd",
+        "jp_sha256": "d9414ecf905ef68b1af58cd02907819b97d662e55bc43802800a92d4956f3a4d",
+        "official_en_sha256": "8ef2b8788fd09b30036cd7f02d4d72c75372b6a2b56e0f553643453a170c29a9"
+      },
+      "text": {
+        "jp": "リンクされているピン データの構造体が@@のLive Link Role構造体と一致しません。予測値:@@.",
+        "official_en": "A linked pin data structure do not match the Live Link Role data structure in @@. Expected: @@.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:NodeTooltip:c63d63de",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_EvaluateLiveLinkFrame",
+        "key": "NodeTooltip",
+        "jp_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:NodeTooltip:c63d63de",
+        "official_en_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:NodeTooltip:c63d63de",
+        "jp_sha256": "4afbd6cafc714d2009ab64bd0fbf13af6d6b16d9a2bd568811c7ed9544133b91",
+        "official_en_sha256": "2ae91720eb66ece974033a040556361db3f87b34d3b281684b254e9ba158439b"
+      },
+      "text": {
+        "jp": "与えられたロールを使ってサブジェクトから LiveLink フレームの取得を試みます",
+        "official_en": "Attempts to Get a LiveLink Frame from a subject using a given Role",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:InvalidRoleClass:41525f17",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_EvaluateLiveLinkFrame",
+        "key": "InvalidRoleClass",
+        "jp_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:InvalidRoleClass:41525f17",
+        "official_en_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:InvalidRoleClass:41525f17",
+        "jp_sha256": "cd7d92299e5a52edb7ffc5ec1003c464b64cfc5ec00d34766a884f120f951e50",
+        "official_en_sha256": "a41072f810a0e98c52ca936b670bf1813cb90072976835db83862f0e0c02c901"
+      },
+      "text": {
+        "jp": "@@ で '{0}' 型の役割のフレームを評価できません",
+        "official_en": "Cannot EvaluateFrame for Role of type '{0}' in @@",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:LiveLinkDataResultPinName:e76fc792",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_EvaluateLiveLinkFrame",
+        "key": "LiveLinkDataResultPinName",
+        "jp_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:LiveLinkDataResultPinName:e76fc792",
+        "official_en_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:LiveLinkDataResultPinName:e76fc792",
+        "jp_sha256": "f1f0fbc7c18a96da7c59ecabadb6454fa70fb82a2aa437e2213949ab7d422925",
+        "official_en_sha256": "f1f0fbc7c18a96da7c59ecabadb6454fa70fb82a2aa437e2213949ab7d422925"
+      },
+      "text": {
+        "jp": "DataResult",
+        "official_en": "DataResult",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:EvaluateLiveLinkRoleNoRole_Error:c7e51d94",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_EvaluateLiveLinkFrame",
+        "key": "EvaluateLiveLinkRoleNoRole_Error",
+        "jp_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:EvaluateLiveLinkRoleNoRole_Error:c7e51d94",
+        "official_en_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:EvaluateLiveLinkRoleNoRole_Error:c7e51d94",
+        "jp_sha256": "7a1d2df9fa6e7d373d008fc2c1f51454ee5bfde8035043a42d3a07a39d20a0e0",
+        "official_en_sha256": "512ff90c4241f4f9e3df8a5740f72d4ce8e2d3c6041ecc22d5b0bd319d831295"
+      },
+      "text": {
+        "jp": "EvaluateLiveLinkFrameにはロールが指定されている必要があります。",
+        "official_en": "EvaluateLiveLinkFrame must have a Role specified.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:FrameNotAvailablePinName:b2d4698c",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_EvaluateLiveLinkFrame",
+        "key": "FrameNotAvailablePinName",
+        "jp_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:FrameNotAvailablePinName:b2d4698c",
+        "official_en_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:FrameNotAvailablePinName:b2d4698c",
+        "jp_sha256": "27456f31c2e479a8bf113ff2e8640f37620a47628ec5463ebca56aa4b137c752",
+        "official_en_sha256": "5d643045227d567b382a22df27c797ccf0607e5c6708672d6710bf51738e7975"
+      },
+      "text": {
+        "jp": "無効なフレームです",
+        "official_en": "Invalid Frame",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:MissingPins:0c5cd275",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_EvaluateLiveLinkFrame",
+        "key": "MissingPins",
+        "jp_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:MissingPins:0c5cd275",
+        "official_en_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:MissingPins:0c5cd275",
+        "jp_sha256": "6cba1bb8e039f24563c48848bcee5c982ea7d203feec7e4fd54eae42cc59e9ab",
+        "official_en_sha256": "eb8d6dbd3920b501fcaa20ca5a0dd2a0facc4327ab4af55b3465ac6d7e35514e"
+      },
+      "text": {
+        "jp": "@@ にピンが存在しません",
+        "official_en": "Missing pins in @@",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:NoLiveLinkRole:81c7f7fe",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_EvaluateLiveLinkFrame",
+        "key": "NoLiveLinkRole",
+        "jp_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:NoLiveLinkRole:81c7f7fe",
+        "official_en_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:NoLiveLinkRole:81c7f7fe",
+        "jp_sha256": "b5e51f09055a3ebb7a523923370b2e259b8206614ff2f20e99739f0441acf2ab",
+        "official_en_sha256": "7e4fd1091adc68c0e093679a1d81ba25d96a1082429e4cbcc96585ca19a014bc"
+      },
+      "text": {
+        "jp": "@@ にLiveLinkRoleがありません",
+        "official_en": "No LiveLinkRole in @@",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:LiveLinkRolePinName:7bcd8525",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_EvaluateLiveLinkFrame",
+        "key": "LiveLinkRolePinName",
+        "jp_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:LiveLinkRolePinName:7bcd8525",
+        "official_en_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:LiveLinkRolePinName:7bcd8525",
+        "jp_sha256": "58bf2c953caf947d6223e1258b963e5f9f64697aa571bdbbe2bbc2bf2a8e9c82",
+        "official_en_sha256": "14736a2eb9f4159f4b6b86f192c3c222243fd9659aadf2ecc0139e3d72bed85c"
+      },
+      "text": {
+        "jp": "役割",
+        "official_en": "Role",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:LiveLinkSubjectPinName:f8543d9e",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_EvaluateLiveLinkFrame",
+        "key": "LiveLinkSubjectPinName",
+        "jp_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:LiveLinkSubjectPinName:f8543d9e",
+        "official_en_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:LiveLinkSubjectPinName:f8543d9e",
+        "jp_sha256": "94988d48864c50e37c65a705bdffba4a7ab6d4b6f19f6ef81b2d7a0c666a32d8",
+        "official_en_sha256": "68971283841aecdf1da48428849b3b33164ec5c41d0f3c4d6cea624db5aff8f2"
+      },
+      "text": {
+        "jp": "サブジェクト",
+        "official_en": "Subject",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:LiveLinkRolePinNameDescription:609a522d",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_EvaluateLiveLinkFrame",
+        "key": "LiveLinkRolePinNameDescription",
+        "jp_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:LiveLinkRolePinNameDescription:609a522d",
+        "official_en_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:LiveLinkRolePinNameDescription:609a522d",
+        "jp_sha256": "d273d500f0f91d0f14181a58a78b15575b0d4b7c2aacc5f906020ac9f64f4669",
+        "official_en_sha256": "ac26d2cffa7241e9922449bbd66d772331f53a78415a6278b67907c085b50126"
+      },
+      "text": {
+        "jp": "データが変換される先のLive Linkロールです。",
+        "official_en": "The Live Link Role the data will be converted to.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:LiveLinkSubjectNamePinDescription:4ac3120a",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_EvaluateLiveLinkFrame",
+        "key": "LiveLinkSubjectNamePinDescription",
+        "jp_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:LiveLinkSubjectNamePinDescription:4ac3120a",
+        "official_en_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:LiveLinkSubjectNamePinDescription:4ac3120a",
+        "jp_sha256": "9bacb3bb1b29e83fac08e1d6c5b130e158fdd9bec4298a48d0519e86bde3eea9",
+        "official_en_sha256": "99609362d9e087594b0eeccdeb6a61fd8bb36a283035a09d65cabb970b9f3fe4"
+      },
+      "text": {
+        "jp": "フレームを取得するLive Linkサブジェクト名です",
+        "official_en": "The Live Link Subject Name to get a frame from",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:DataResultPinDescription:5033d50c",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_EvaluateLiveLinkFrame",
+        "key": "DataResultPinDescription",
+        "jp_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:DataResultPinDescription:5033d50c",
+        "official_en_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:DataResultPinDescription:5033d50c",
+        "jp_sha256": "2dbd26df1e06ef1c6fde41f7cd2a1f5d76ea6697904dc2377da40ce3187e238e",
+        "official_en_sha256": "afb49afa08b597b0599ef75406defb9996165113ac2e0e25407b48d951104614"
+      },
+      "text": {
+        "jp": "与えられた役割にフレームが存在した場合のデータ構造です",
+        "official_en": "The data struct, if a frame was present for the given role",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:OutputPinDoNotMatches:090754bf",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_EvaluateLiveLinkFrame",
+        "key": "OutputPinDoNotMatches",
+        "jp_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:OutputPinDoNotMatches:090754bf",
+        "official_en_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:OutputPinDoNotMatches:090754bf",
+        "jp_sha256": "cdc3d8d2b8a763558a6d5fbfc95bdd5c44e00d3e54a64a5d046cc2c96228b625",
+        "official_en_sha256": "1c49dfbbb698393924dd7fa712086c83ad9e4706bed00b13eeb5eb4407e535a8"
+      },
+      "text": {
+        "jp": "出力データ ピンが @@ に一致しません",
+        "official_en": "The output data pin does not match in @@",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:FrameAvailablePin:2fd43eac",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_EvaluateLiveLinkFrame",
+        "key": "FrameAvailablePin",
+        "jp_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:FrameAvailablePin:2fd43eac",
+        "official_en_record_id": "switch:locres:set-01:K2Node_EvaluateLiveLinkFrame:FrameAvailablePin:2fd43eac",
+        "jp_sha256": "3bbe9ad9f7de14e74f9da93c8552350be665d52804b9efd802f490177d07ec48",
+        "official_en_sha256": "6c22184eed7f00a0c307f6cbc1756fb0611035c0cee092ff3259b04b8d505bd4"
+      },
+      "text": {
+        "jp": "有効なフレーム",
+        "official_en": "Valid Frame",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MoviePipelineInProcessExecutor",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MoviePipelineInProcessExecutor:InvalidSequenceFailureDialog:4f2db10b",
+      "source": {
+        "set": "set-02",
+        "namespace": "MoviePipelineInProcessExecutor",
+        "key": "InvalidSequenceFailureDialog",
+        "jp_record_id": "switch:locres:set-01:MoviePipelineInProcessExecutor:InvalidSequenceFailureDialog:4f2db10b",
+        "official_en_record_id": "switch:locres:set-01:MoviePipelineInProcessExecutor:InvalidSequenceFailureDialog:4f2db10b",
+        "jp_sha256": "4dcd5757dd5eb1b00216423c4fa16e825a907e700ead73df7ba539860f618210",
+        "official_en_sha256": "8f18c269d3c96a0f2136c801ef769f8d1648853988416e123feab8c68b52426b"
+      },
+      "text": {
+        "jp": "キューにある 1 つ以上のジョブに無効または null のシーケンスがあります。詳細はログを参照してください",
+        "official_en": "One or more jobs in the queue has an invalid/null sequence. See log for details.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MoviePipelineInProcessExecutor:OutOfBoundsFailureDialog:2fed31de",
+      "source": {
+        "set": "set-02",
+        "namespace": "MoviePipelineInProcessExecutor",
+        "key": "OutOfBoundsFailureDialog",
+        "jp_record_id": "switch:locres:set-01:MoviePipelineInProcessExecutor:OutOfBoundsFailureDialog:2fed31de",
+        "official_en_record_id": "switch:locres:set-01:MoviePipelineInProcessExecutor:OutOfBoundsFailureDialog:2fed31de",
+        "jp_sha256": "661850176fabbd9a24474bf1127c0d30d5ca050c6a2f1a936dc1030ca7aa3c91",
+        "official_en_sha256": "05718cb21fdc0b39fa4c8f1b471b5f6475bce07029657cd4232046992f7ec5a0"
+      },
+      "text": {
+        "jp": "ジョブ インデックスが範囲外です。レンダリング中にキューをクリアしましたか？詳細はログを参照してください",
+        "official_en": "The job index is out of bounds, did you clear the Queue while rendering was happening? See log for details.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

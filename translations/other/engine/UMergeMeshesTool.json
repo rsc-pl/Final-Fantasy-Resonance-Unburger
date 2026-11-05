@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UMergeMeshesTool",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UMergeMeshesTool:OnStartTool:a43bc08a",
+      "source": {
+        "set": "set-02",
+        "namespace": "UMergeMeshesTool",
+        "key": "OnStartTool",
+        "jp_record_id": "switch:locres:set-01:UMergeMeshesTool:OnStartTool:a43bc08a",
+        "official_en_record_id": "switch:locres:set-01:UMergeMeshesTool:OnStartTool:a43bc08a",
+        "jp_sha256": "2f2392b349801f3235136d2d2f3b685a75a1ab9c7b4d75ce10154ccc3baa92ac",
+        "official_en_sha256": "473bcff8f0eb816a1f1b175ed3168956f543c3c24bf458e650308a8f9a11f50a"
+      },
+      "text": {
+        "jp": "ボクセル化手法を使用して、入力メッシュの CSG ユニオンを計算します。UV、シャープ エッジ、小さい/薄いフィーチャーが失われます。精度を上げるためにボクセル数を増やします",
+        "official_en": "Compute a CSG Union of the input meshes using voxelization techniques.UVs, sharp edges, and small / thin features will be lost.Increase Voxel Count to enhance accuracy.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UMergeMeshesTool:WarnOpenEdges:66da814d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UMergeMeshesTool",
+        "key": "WarnOpenEdges",
+        "jp_record_id": "switch:locres:set-01:UMergeMeshesTool:WarnOpenEdges:66da814d",
+        "official_en_record_id": "switch:locres:set-01:UMergeMeshesTool:WarnOpenEdges:66da814d",
+        "jp_sha256": "2476885d8220f3220eb1b3ba568fad197a851dd6c58c407a5fee456b268e42bd",
+        "official_en_sha256": "1764dda4fbea5c12ba483efdb10429af06cea2d5638126ae2e41ba8f8ad7a800"
+      },
+      "text": {
+        "jp": "オープン エッジを検出：結果としてアーティファクトが発生",
+        "official_en": "Open edges found: some artifacts will result.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UMergeMeshesTool:UMergeMeshesToolName:23dde73b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UMergeMeshesTool",
+        "key": "UMergeMeshesToolName",
+        "jp_record_id": "switch:locres:set-01:UMergeMeshesTool:UMergeMeshesToolName:23dde73b",
+        "official_en_record_id": "switch:locres:set-01:UMergeMeshesTool:UMergeMeshesToolName:23dde73b",
+        "jp_sha256": "ac9ba2bd2af0d2da29b2f01de001c6e73128e7260246c3c96fddcd15ac0ad016",
+        "official_en_sha256": "831b92edc6687433945c9add80ddcbc963f4ce5ddf3d340a9b40e2f1ceccbb24"
+      },
+      "text": {
+        "jp": "ボクセル マージ メッシュ",
+        "official_en": "Voxel Merge Meshes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UMergeMeshesTool:VoxelMergeMeshes:7bb1a6fb",
+      "source": {
+        "set": "set-02",
+        "namespace": "UMergeMeshesTool",
+        "key": "VoxelMergeMeshes",
+        "jp_record_id": "switch:locres:set-01:UMergeMeshesTool:VoxelMergeMeshes:7bb1a6fb",
+        "official_en_record_id": "switch:locres:set-01:UMergeMeshesTool:VoxelMergeMeshes:7bb1a6fb",
+        "jp_sha256": "ac9ba2bd2af0d2da29b2f01de001c6e73128e7260246c3c96fddcd15ac0ad016",
+        "official_en_sha256": "831b92edc6687433945c9add80ddcbc963f4ce5ddf3d340a9b40e2f1ceccbb24"
+      },
+      "text": {
+        "jp": "ボクセル マージ メッシュ",
+        "official_en": "Voxel Merge Meshes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

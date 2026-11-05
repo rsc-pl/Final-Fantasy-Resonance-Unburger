@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "FInputScaleBias",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_Scale:a658415a",
+      "source": {
+        "set": "set-02",
+        "namespace": "FInputScaleBias",
+        "key": "FInputScaleBias_Scale",
+        "jp_record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_Scale:a658415a",
+        "official_en_record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_Scale:a658415a",
+        "jp_sha256": "8920abdb0677aaff2da691db9773e2de7a25a9cacf921644d91f795f2fcea3c9",
+        "official_en_sha256": "8920abdb0677aaff2da691db9773e2de7a25a9cacf921644d91f795f2fcea3c9"
+      },
+      "text": {
+        "jp": "- {PinFriendlyName}",
+        "official_en": "- {PinFriendlyName}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_Clamp:a047d68c",
+      "source": {
+        "set": "set-02",
+        "namespace": "FInputScaleBias",
+        "key": "FInputScaleBias_Clamp",
+        "jp_record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_Clamp:a047d68c",
+        "official_en_record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_Clamp:a047d68c",
+        "jp_sha256": "b46e9074f388d93518a5ed88d89ac6612ecdfd6593a79531c6757f7b06c12c9f",
+        "official_en_sha256": "003929ccc4be22461f2015121ba47142c08cf34b85dbb34d3469ce53184afaea"
+      },
+      "text": {
+        "jp": "クランプ({PinFriendlyName}、{ClampMin}、{ClampMax})",
+        "official_en": "Clamp({PinFriendlyName}, {ClampMin}, {ClampMax})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_Interp:82edff4b",
+      "source": {
+        "set": "set-02",
+        "namespace": "FInputScaleBias",
+        "key": "FInputScaleBias_Interp",
+        "jp_record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_Interp:82edff4b",
+        "official_en_record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_Interp:82edff4b",
+        "jp_sha256": "288953e2d8d2d6569591a58e8861544152bfbdc8fac3d98ef68800a58c899c91",
+        "official_en_sha256": "288953e2d8d2d6569591a58e8861544152bfbdc8fac3d98ef68800a58c899c91"
+      },
+      "text": {
+        "jp": "FInterp({PinFriendlyName}, ({InterpSpeedIncreasing}:{InterpSpeedDecreasing}))",
+        "official_en": "FInterp({PinFriendlyName}, ({InterpSpeedIncreasing}:{InterpSpeedDecreasing}))",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_MapRange:92336846",
+      "source": {
+        "set": "set-02",
+        "namespace": "FInputScaleBias",
+        "key": "FInputScaleBias_MapRange",
+        "jp_record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_MapRange:92336846",
+        "official_en_record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_MapRange:92336846",
+        "jp_sha256": "cfe52c214134526bb5a61500e7d50e39b0de7e48f336a5106c0c79842fbb97fa",
+        "official_en_sha256": "cfe52c214134526bb5a61500e7d50e39b0de7e48f336a5106c0c79842fbb97fa"
+      },
+      "text": {
+        "jp": "MapRange({PinFriendlyName}, In({InRangeMin}:{InRangeMax}), Out({OutRangeMin}:{OutRangeMax}))",
+        "official_en": "MapRange({PinFriendlyName}, In({InRangeMin}:{InRangeMax}), Out({OutRangeMin}:{OutRangeMax}))",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_BiasPlus:2630118a",
+      "source": {
+        "set": "set-02",
+        "namespace": "FInputScaleBias",
+        "key": "FInputScaleBias_BiasPlus",
+        "jp_record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_BiasPlus:2630118a",
+        "official_en_record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_BiasPlus:2630118a",
+        "jp_sha256": "966dd23ca48f0182d81566476e4dbfced5000747b2c3425c181b49e6b9252de0",
+        "official_en_sha256": "966dd23ca48f0182d81566476e4dbfced5000747b2c3425c181b49e6b9252de0"
+      },
+      "text": {
+        "jp": "{Bias} + {PinFriendlyName}",
+        "official_en": "{Bias} + {PinFriendlyName}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_Bias:3be1dad1",
+      "source": {
+        "set": "set-02",
+        "namespace": "FInputScaleBias",
+        "key": "FInputScaleBias_Bias",
+        "jp_record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_Bias:3be1dad1",
+        "official_en_record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_Bias:3be1dad1",
+        "jp_sha256": "7c71d39e72947f8ba29fb9997830b605406a1ef49d5765d7c308a29f6e130279",
+        "official_en_sha256": "7c71d39e72947f8ba29fb9997830b605406a1ef49d5765d7c308a29f6e130279"
+      },
+      "text": {
+        "jp": "{Bias} {PinFriendlyName}",
+        "official_en": "{Bias} {PinFriendlyName}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_ScaleMul:5e65296d",
+      "source": {
+        "set": "set-02",
+        "namespace": "FInputScaleBias",
+        "key": "FInputScaleBias_ScaleMul",
+        "jp_record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_ScaleMul:5e65296d",
+        "official_en_record_id": "switch:locres:set-01:FInputScaleBias:FInputScaleBias_ScaleMul:5e65296d",
+        "jp_sha256": "6f201462bba5415cce08fdc7b409e462cfa413acf9cdc20881ae584326417abc",
+        "official_en_sha256": "6f201462bba5415cce08fdc7b409e462cfa413acf9cdc20881ae584326417abc"
+      },
+      "text": {
+        "jp": "{Scale} * {PinFriendlyName}",
+        "official_en": "{Scale} * {PinFriendlyName}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MHADepthVideoReader",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MHADepthVideoReader:DepthDataNextCorrupted:9e1691d8",
+      "source": {
+        "set": "set-02",
+        "namespace": "MHADepthVideoReader",
+        "key": "DepthDataNextCorrupted",
+        "jp_record_id": "switch:locres:set-01:MHADepthVideoReader:DepthDataNextCorrupted:9e1691d8",
+        "official_en_record_id": "switch:locres:set-01:MHADepthVideoReader:DepthDataNextCorrupted:9e1691d8",
+        "jp_sha256": "178b6627e9fff8dd745227cfaabc0a33c4dde7bb1a449c689af73becc5b4fdf5",
+        "official_en_sha256": "b313b12fa3ab9b2cb438d362cc9881e0355c920c9d685b24cda640d7ad5f5331"
+      },
+      "text": {
+        "jp": "破損した深度データが検出されました",
+        "official_en": "Corrupted depth data detected",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileOpenFailed:1d1fa1ab",
+      "source": {
+        "set": "set-02",
+        "namespace": "MHADepthVideoReader",
+        "key": "DepthFileOpenFailed",
+        "jp_record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileOpenFailed:1d1fa1ab",
+        "official_en_record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileOpenFailed:1d1fa1ab",
+        "jp_sha256": "625026d3529ce2b51a404e8d6dd4fa49b0f7bcfa58b1ac74c5160b0e0f0a13e7",
+        "official_en_sha256": "f642d5cc1c883a6256a1d7c6f0b8e60b8835c600db92dff19c784cbd1ca59bbe"
+      },
+      "text": {
+        "jp": "深度ファイルを開くことができませんでした：{0}",
+        "official_en": "Failed to open the depth file: {0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileNextDepthCompressedBufferEmptyReadFailed:5ffa94ba",
+      "source": {
+        "set": "set-02",
+        "namespace": "MHADepthVideoReader",
+        "key": "DepthFileNextDepthCompressedBufferEmptyReadFailed",
+        "jp_record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileNextDepthCompressedBufferEmptyReadFailed:5ffa94ba",
+        "official_en_record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileNextDepthCompressedBufferEmptyReadFailed:5ffa94ba",
+        "jp_sha256": "6e06a2a17ccac8944ce2656df7febee512faa3880a2172ea35fc4321ee1fc615",
+        "official_en_sha256": "1080ef07327aa7221799c38ccb862f531580cd296fb7944411b2079150a17e44"
+      },
+      "text": {
+        "jp": "深度データを読み取れませんでした",
+        "official_en": "Failed to read the depth data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileNextDepthDataReadFailed:5abbb1fc",
+      "source": {
+        "set": "set-02",
+        "namespace": "MHADepthVideoReader",
+        "key": "DepthFileNextDepthDataReadFailed",
+        "jp_record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileNextDepthDataReadFailed:5abbb1fc",
+        "official_en_record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileNextDepthDataReadFailed:5abbb1fc",
+        "jp_sha256": "6e06a2a17ccac8944ce2656df7febee512faa3880a2172ea35fc4321ee1fc615",
+        "official_en_sha256": "1080ef07327aa7221799c38ccb862f531580cd296fb7944411b2079150a17e44"
+      },
+      "text": {
+        "jp": "深度データを読み取れませんでした",
+        "official_en": "Failed to read the depth data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileNextDepthOtherReadFailed:334a7983",
+      "source": {
+        "set": "set-02",
+        "namespace": "MHADepthVideoReader",
+        "key": "DepthFileNextDepthOtherReadFailed",
+        "jp_record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileNextDepthOtherReadFailed:334a7983",
+        "official_en_record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileNextDepthOtherReadFailed:334a7983",
+        "jp_sha256": "6e06a2a17ccac8944ce2656df7febee512faa3880a2172ea35fc4321ee1fc615",
+        "official_en_sha256": "1080ef07327aa7221799c38ccb862f531580cd296fb7944411b2079150a17e44"
+      },
+      "text": {
+        "jp": "深度データを読み取れませんでした",
+        "official_en": "Failed to read the depth data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileOpenDepthOtherReadFailed:a3e7f96f",
+      "source": {
+        "set": "set-02",
+        "namespace": "MHADepthVideoReader",
+        "key": "DepthFileOpenDepthOtherReadFailed",
+        "jp_record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileOpenDepthOtherReadFailed:a3e7f96f",
+        "official_en_record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileOpenDepthOtherReadFailed:a3e7f96f",
+        "jp_sha256": "6e06a2a17ccac8944ce2656df7febee512faa3880a2172ea35fc4321ee1fc615",
+        "official_en_sha256": "1080ef07327aa7221799c38ccb862f531580cd296fb7944411b2079150a17e44"
+      },
+      "text": {
+        "jp": "深度データを読み取れませんでした",
+        "official_en": "Failed to read the depth data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileOpenDepthDataReadFailed:b23d3e6f",
+      "source": {
+        "set": "set-02",
+        "namespace": "MHADepthVideoReader",
+        "key": "DepthFileOpenDepthDataReadFailed",
+        "jp_record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileOpenDepthDataReadFailed:b23d3e6f",
+        "official_en_record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileOpenDepthDataReadFailed:b23d3e6f",
+        "jp_sha256": "3aa0cbd6d62ae1c30584e0c628b6f714ea1ea2df3141ec7487ed94988d300525",
+        "official_en_sha256": "f2a4f565f57a4e832f37cb55b178864b5eb8003dd16d66ad3b3a837976fa59c3"
+      },
+      "text": {
+        "jp": "深度メタデータを読み取れませんでした",
+        "official_en": "Failed to read the depth metadata",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileOpenDepthMetadataEmptyFailed:a1eeb95a",
+      "source": {
+        "set": "set-02",
+        "namespace": "MHADepthVideoReader",
+        "key": "DepthFileOpenDepthMetadataEmptyFailed",
+        "jp_record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileOpenDepthMetadataEmptyFailed:a1eeb95a",
+        "official_en_record_id": "switch:locres:set-01:MHADepthVideoReader:DepthFileOpenDepthMetadataEmptyFailed:a1eeb95a",
+        "jp_sha256": "3aa0cbd6d62ae1c30584e0c628b6f714ea1ea2df3141ec7487ed94988d300525",
+        "official_en_sha256": "f2a4f565f57a4e832f37cb55b178864b5eb8003dd16d66ad3b3a837976fa59c3"
+      },
+      "text": {
+        "jp": "深度メタデータを読み取れませんでした",
+        "official_en": "Failed to read the depth metadata",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

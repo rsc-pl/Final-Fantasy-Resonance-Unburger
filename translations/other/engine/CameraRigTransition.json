@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "CameraRigTransition",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:CameraRigTransition:NullConditionError:4855dc06",
+      "source": {
+        "set": "set-02",
+        "namespace": "CameraRigTransition",
+        "key": "NullConditionError",
+        "jp_record_id": "switch:locres:set-01:CameraRigTransition:NullConditionError:4855dc06",
+        "official_en_record_id": "switch:locres:set-01:CameraRigTransition:NullConditionError:4855dc06",
+        "jp_sha256": "93924912087be8ca7da8493cd7862e86e4f5c5d1975e57d1bf81f067c246108e",
+        "official_en_sha256": "6ef222cd66d47ba46d97dd8deb829bcc5ea06fa8565f68f10f1c16127715262a"
+      },
+      "text": {
+        "jp": "無効なトランジション条件が見つかりました",
+        "official_en": "Found an invalid transition condition.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CameraRigTransition:NullBlendError:2e570cf3",
+      "source": {
+        "set": "set-02",
+        "namespace": "CameraRigTransition",
+        "key": "NullBlendError",
+        "jp_record_id": "switch:locres:set-01:CameraRigTransition:NullBlendError:2e570cf3",
+        "official_en_record_id": "switch:locres:set-01:CameraRigTransition:NullBlendError:2e570cf3",
+        "jp_sha256": "300c3e6b2a02f1332f714413f45d2ff0ee2d4f7c87342440ef423d5cdde364ba",
+        "official_en_sha256": "db6151ac9ef92af0a7aa386b7e74f25fc598e08f2926458fd3d7a2c7984c02cf"
+      },
+      "text": {
+        "jp": "トランジションでブレンドが定義されていません。ストレートカット トランジションを作成するには、ポップ ブレンドを使用します",
+        "official_en": "No blend defined on transition. To make a straight-cut transition, use the Pop blend.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

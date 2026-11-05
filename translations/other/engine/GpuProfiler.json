@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "GpuProfiler",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:GpuProfiler:GpuProfileVsyncEnabledWarning:f1a00e5e",
+      "source": {
+        "set": "set-02",
+        "namespace": "GpuProfiler",
+        "key": "GpuProfileVsyncEnabledWarning",
+        "jp_record_id": "switch:locres:set-01:GpuProfiler:GpuProfileVsyncEnabledWarning:f1a00e5e",
+        "official_en_record_id": "switch:locres:set-01:GpuProfiler:GpuProfileVsyncEnabledWarning:f1a00e5e",
+        "jp_sha256": "bf35ec984096edf5ff985e5ed1f9b192bd95c7b0f743da086c50e8b4ff7782d6",
+        "official_en_sha256": "25c0886d2a4ffa32359d2e1e50c49e639dc52517b6cec47f11aa338e72e66d02"
+      },
+      "text": {
+        "jp": "注意：この GPU プロファイルは、垂直同期を有効にしてキャプチャされています。垂直同期の待機時間はどのバケットでも現れることがあるため、このプロファイルのデータがずれることがあります。垂直同期を無効にしたプロファイを使用して、最も正確なデータを取得してください。",
+        "official_en": "WARNING: This GPU profile was captured with v-sync enabled.  V-sync wait time may show up in any bucket, and as a result the data in this profile may be skewed. Please profile with v-sync disabled to obtain the most accurate data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

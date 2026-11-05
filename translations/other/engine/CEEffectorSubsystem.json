@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "CEEffectorSubsystem",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:CEEffectorSubsystem:SetClonersDisabled:8fb44ddb",
+      "source": {
+        "set": "set-02",
+        "namespace": "CEEffectorSubsystem",
+        "key": "SetClonersDisabled",
+        "jp_record_id": "switch:locres:set-01:CEEffectorSubsystem:SetClonersDisabled:8fb44ddb",
+        "official_en_record_id": "switch:locres:set-01:CEEffectorSubsystem:SetClonersDisabled:8fb44ddb",
+        "jp_sha256": "f19aada0688a08943b5029a40da82a232233ca61e2cff85ce2e81d9a27e24c18",
+        "official_en_sha256": "407538d3fdb765cbab27a39294d0a709d8f087cb8e10059f0559f9e9a15f0e35"
+      },
+      "text": {
+        "jp": "クローナが無効",
+        "official_en": "Cloners disabled",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CEEffectorSubsystem:SetClonersEnabled:629eeee2",
+      "source": {
+        "set": "set-02",
+        "namespace": "CEEffectorSubsystem",
+        "key": "SetClonersEnabled",
+        "jp_record_id": "switch:locres:set-01:CEEffectorSubsystem:SetClonersEnabled:629eeee2",
+        "official_en_record_id": "switch:locres:set-01:CEEffectorSubsystem:SetClonersEnabled:629eeee2",
+        "jp_sha256": "c1c8073b2c945af4e39117c67dca4b4c5634235f376561f450d597f907e575b0",
+        "official_en_sha256": "c4780335ff9403402ec8101afb7f319f028ef8f492970a233926f6af8e38fbf5"
+      },
+      "text": {
+        "jp": "クローナが有効",
+        "official_en": "Cloners enabled",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CEEffectorSubsystem:CreateClonerWithActors:ffeeb171",
+      "source": {
+        "set": "set-02",
+        "namespace": "CEEffectorSubsystem",
+        "key": "CreateClonerWithActors",
+        "jp_record_id": "switch:locres:set-01:CEEffectorSubsystem:CreateClonerWithActors:ffeeb171",
+        "official_en_record_id": "switch:locres:set-01:CEEffectorSubsystem:CreateClonerWithActors:ffeeb171",
+        "jp_sha256": "4bb8064a9ac41e2aaad20017400228f27b4c727b658c07e5ae7975998a6c5208",
+        "official_en_sha256": "22d8ceb1829531c26fb575484e4b7768ce7a1dbf7cd3086d97c036324a830ac1"
+      },
+      "text": {
+        "jp": "アクタがアタッチされているクローナを作成",
+        "official_en": "Create cloner with actors attached",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CEEffectorSubsystem:CreateLinkedEffectors:550de0c8",
+      "source": {
+        "set": "set-02",
+        "namespace": "CEEffectorSubsystem",
+        "key": "CreateLinkedEffectors",
+        "jp_record_id": "switch:locres:set-01:CEEffectorSubsystem:CreateLinkedEffectors:550de0c8",
+        "official_en_record_id": "switch:locres:set-01:CEEffectorSubsystem:CreateLinkedEffectors:550de0c8",
+        "jp_sha256": "ddc691d7e8bc9a9be4fb8dd15221ea7ee782afaba62fc510cf6c223a5dc799d9",
+        "official_en_sha256": "ec3655b46d341a74601e63ce6e9acf0f15257d460f30dee27abc20ef0adee887"
+      },
+      "text": {
+        "jp": "{0} 個のリンクされているエフェクタを作成します",
+        "official_en": "Create {0} linked effector(s)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CEEffectorSubsystem:SetEffectorsDisabled:ddab1e25",
+      "source": {
+        "set": "set-02",
+        "namespace": "CEEffectorSubsystem",
+        "key": "SetEffectorsDisabled",
+        "jp_record_id": "switch:locres:set-01:CEEffectorSubsystem:SetEffectorsDisabled:ddab1e25",
+        "official_en_record_id": "switch:locres:set-01:CEEffectorSubsystem:SetEffectorsDisabled:ddab1e25",
+        "jp_sha256": "12d0d41170cab4ce8c7ce254184059987d8a0e717b466b46f2ab37b4319f9426",
+        "official_en_sha256": "0976fcf139fc38f41db8bf24791fd4223bd3723234b968d670bb61ecd066930b"
+      },
+      "text": {
+        "jp": "エフェクタが無効",
+        "official_en": "Effectors disabled",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CEEffectorSubsystem:SetEffectorsEnabled:13dfa594",
+      "source": {
+        "set": "set-02",
+        "namespace": "CEEffectorSubsystem",
+        "key": "SetEffectorsEnabled",
+        "jp_record_id": "switch:locres:set-01:CEEffectorSubsystem:SetEffectorsEnabled:13dfa594",
+        "official_en_record_id": "switch:locres:set-01:CEEffectorSubsystem:SetEffectorsEnabled:13dfa594",
+        "jp_sha256": "9920bc9bd8699cb6fe5f73f8d75ea40953b6b5d3bcb0fa19456e3eedf84a5148",
+        "official_en_sha256": "bb12c9b335b2075d8a2d00d207bd603564c890b8fea62f1ffcd6201ceb88c72d"
+      },
+      "text": {
+        "jp": "エフェクタが有効",
+        "official_en": "Effectors enabled",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CEEffectorSubsystem:SetLevelClonersDisabled:ed79280d",
+      "source": {
+        "set": "set-02",
+        "namespace": "CEEffectorSubsystem",
+        "key": "SetLevelClonersDisabled",
+        "jp_record_id": "switch:locres:set-01:CEEffectorSubsystem:SetLevelClonersDisabled:ed79280d",
+        "official_en_record_id": "switch:locres:set-01:CEEffectorSubsystem:SetLevelClonersDisabled:ed79280d",
+        "jp_sha256": "2eded8c8b3eb6c120c5d4e533a60ab7ff1833e2cb11bd87a9342343cb0328356",
+        "official_en_sha256": "373c4599df55212b12718596315374e52c2296df280777bc2b62c1d80dce4e44"
+      },
+      "text": {
+        "jp": "レベルクローナが無効",
+        "official_en": "Level cloners disabled",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CEEffectorSubsystem:SetLevelClonersEnabled:3461d8fb",
+      "source": {
+        "set": "set-02",
+        "namespace": "CEEffectorSubsystem",
+        "key": "SetLevelClonersEnabled",
+        "jp_record_id": "switch:locres:set-01:CEEffectorSubsystem:SetLevelClonersEnabled:3461d8fb",
+        "official_en_record_id": "switch:locres:set-01:CEEffectorSubsystem:SetLevelClonersEnabled:3461d8fb",
+        "jp_sha256": "fb970be82b1be7c4aa1f6f282a26dbccb6c1f2569cc9e30ca77ca6482e4a72a8",
+        "official_en_sha256": "6831652ea118411dd2664749d1e0888c2330c13a8af56aae243f111d37366bb8"
+      },
+      "text": {
+        "jp": "レベルクローナが有効",
+        "official_en": "Level cloners enabled",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CEEffectorSubsystem:SetLevelEffectorsDisabled:101a42a5",
+      "source": {
+        "set": "set-02",
+        "namespace": "CEEffectorSubsystem",
+        "key": "SetLevelEffectorsDisabled",
+        "jp_record_id": "switch:locres:set-01:CEEffectorSubsystem:SetLevelEffectorsDisabled:101a42a5",
+        "official_en_record_id": "switch:locres:set-01:CEEffectorSubsystem:SetLevelEffectorsDisabled:101a42a5",
+        "jp_sha256": "83b0d422942f2432394f673e39c769c4cf50485dcc653c03996d37f8934d7e28",
+        "official_en_sha256": "cf6e8edfd3c56c88685bc9f43a917868f97d252a6e50d8a1d286b2e2e2a1d645"
+      },
+      "text": {
+        "jp": "レベルエフェクタが無効",
+        "official_en": "Level effectors disabled",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CEEffectorSubsystem:SetLevelEffectorsEnabled:5df58b61",
+      "source": {
+        "set": "set-02",
+        "namespace": "CEEffectorSubsystem",
+        "key": "SetLevelEffectorsEnabled",
+        "jp_record_id": "switch:locres:set-01:CEEffectorSubsystem:SetLevelEffectorsEnabled:5df58b61",
+        "official_en_record_id": "switch:locres:set-01:CEEffectorSubsystem:SetLevelEffectorsEnabled:5df58b61",
+        "jp_sha256": "0c0cd1cfbe9d9ed0d9757b1b958eeb911650cced158c59c5803d468f029a728a",
+        "official_en_sha256": "4c3ac93ab2c684f412768aaee40d81927e1badf96d30cdf6a09f3d65ff4c99c0"
+      },
+      "text": {
+        "jp": "レベルエフェクタが有効",
+        "official_en": "Level effectors enabled",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

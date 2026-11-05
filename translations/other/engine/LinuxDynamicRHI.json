@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "LinuxDynamicRHI",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:LinuxDynamicRHI:NoOpenGLDriver:6b53a4c1",
+      "source": {
+        "set": "set-02",
+        "namespace": "LinuxDynamicRHI",
+        "key": "NoOpenGLDriver",
+        "jp_record_id": "switch:locres:set-01:LinuxDynamicRHI:NoOpenGLDriver:6b53a4c1",
+        "official_en_record_id": "switch:locres:set-01:LinuxDynamicRHI:NoOpenGLDriver:6b53a4c1",
+        "jp_sha256": "4904dbaca5f138d96dc67fb1e2146a4930fa386432047f3ccfffe2ffde4c144d",
+        "official_en_sha256": "e433be2e21a46fb62e6ec6de3708d2418aad4ca62779deaa8f83cb5b329750fb"
+      },
+      "text": {
+        "jp": "エンジンの実行に必要なOpenGLドライバーをロードできませんでした。\nOpenGL4は廃止されているため、Vulkanを使用してください。",
+        "official_en": "Failed to load OpenGL Driver which is required to run the engine.\nOpenGL4 has been deprecated and should use Vulkan.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LinuxDynamicRHI:NoVulkanDriver:3a3c0508",
+      "source": {
+        "set": "set-02",
+        "namespace": "LinuxDynamicRHI",
+        "key": "NoVulkanDriver",
+        "jp_record_id": "switch:locres:set-01:LinuxDynamicRHI:NoVulkanDriver:3a3c0508",
+        "official_en_record_id": "switch:locres:set-01:LinuxDynamicRHI:NoVulkanDriver:3a3c0508",
+        "jp_sha256": "39f2b5fc9ecb8aa5988893932d3326c721253ba3846210e9eb48fe79bd09068b",
+        "official_en_sha256": "06cfa03b236908f339121afa53538ed2e101d3f0d6e497b2ea6479bf0a1efafb"
+      },
+      "text": {
+        "jp": "エンジンの実行に必要なVulkanドライバをロードできませんでした。\nエンジンは、OpenGL4にフォールバックしなくなりました。OpenGL4は廃止されました。",
+        "official_en": "Failed to load Vulkan Driver which is required to run the engine.\nThe engine no longer fallbacks to OpenGL4 which has been deprecated.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LinuxDynamicRHI:RequiredOpenGL:d03d049e",
+      "source": {
+        "set": "set-02",
+        "namespace": "LinuxDynamicRHI",
+        "key": "RequiredOpenGL",
+        "jp_record_id": "switch:locres:set-01:LinuxDynamicRHI:RequiredOpenGL:d03d049e",
+        "official_en_record_id": "switch:locres:set-01:LinuxDynamicRHI:RequiredOpenGL:d03d049e",
+        "jp_sha256": "377a725b981cfa0c71b64847bff53ebbd8804894ad4eef769413d785c303d937",
+        "official_en_sha256": "ee083d4a0aee1bffb493253cda4c765e27c955ef5e01ce56bd29051f32db8312"
+      },
+      "text": {
+        "jp": "エンジンを実行にするには、OpenGL 4.3 が必要です。",
+        "official_en": "OpenGL 4.3 is required to run the engine.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LinuxDynamicRHI:NoTargetedRHI:e2a4470c",
+      "source": {
+        "set": "set-02",
+        "namespace": "LinuxDynamicRHI",
+        "key": "NoTargetedRHI",
+        "jp_record_id": "switch:locres:set-01:LinuxDynamicRHI:NoTargetedRHI:e2a4470c",
+        "official_en_record_id": "switch:locres:set-01:LinuxDynamicRHI:NoTargetedRHI:e2a4470c",
+        "jp_sha256": "6f88668d2b98b46407ceb133975f47822ce8b3655f61a5115181bca5d60aa9a2",
+        "official_en_sha256": "fa5eb50ec24fe91e9cad6b7ce3dcef6be26cb98793a0d892d01797d9b9db6fea"
+      },
+      "text": {
+        "jp": "プロジェクトがVulkanまたはOpenGL RHIをターゲットとしていません。プロジェクト設定またはパス「-nullrhi」を確認してください。",
+        "official_en": "The project does not target Vulkan or OpenGL RHIs, check project settings or pass -nullrhi.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LinuxDynamicRHI:NoOpenGLTargetedRHI:9049b179",
+      "source": {
+        "set": "set-02",
+        "namespace": "LinuxDynamicRHI",
+        "key": "NoOpenGLTargetedRHI",
+        "jp_record_id": "switch:locres:set-01:LinuxDynamicRHI:NoOpenGLTargetedRHI:9049b179",
+        "official_en_record_id": "switch:locres:set-01:LinuxDynamicRHI:NoOpenGLTargetedRHI:9049b179",
+        "jp_sha256": "77de9dcf95957570028bd550368982bc38df67e9ae483835b564ab0701699f03",
+        "official_en_sha256": "81a5e471b5a2252199630fac8104c374fddacfbc72cf0f0ac8521fc3a0e69ddc"
+      },
+      "text": {
+        "jp": "OpenGL RHIの強制実行を試みましたが、プロジェクトのTargetedRHIリストに含まれていません。",
+        "official_en": "Trying to force OpenGL RHI but the project does not have it in TargetedRHIs list.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LinuxDynamicRHI:NoVulkanTargetedRHI:cb977b44",
+      "source": {
+        "set": "set-02",
+        "namespace": "LinuxDynamicRHI",
+        "key": "NoVulkanTargetedRHI",
+        "jp_record_id": "switch:locres:set-01:LinuxDynamicRHI:NoVulkanTargetedRHI:cb977b44",
+        "official_en_record_id": "switch:locres:set-01:LinuxDynamicRHI:NoVulkanTargetedRHI:cb977b44",
+        "jp_sha256": "bf6b5b57124d3864583a9fde92ceb226375f7898dc52ac817220e3e141323e46",
+        "official_en_sha256": "30ae36f45bbcd24b5a4903acc2884d640844f0a2154b2a36ad536017d3ad87e1"
+      },
+      "text": {
+        "jp": "Vulkan RHIの強制実行を試みましたが、プロジェクトのTargetedRHIリストに含まれていません。",
+        "official_en": "Trying to force Vulkan RHI but the project does not have it in TargetedRHIs list.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LinuxDynamicRHI:UnsupportedVulkanTargetedRHI:22405b17",
+      "source": {
+        "set": "set-02",
+        "namespace": "LinuxDynamicRHI",
+        "key": "UnsupportedVulkanTargetedRHI",
+        "jp_record_id": "switch:locres:set-01:LinuxDynamicRHI:UnsupportedVulkanTargetedRHI:22405b17",
+        "official_en_record_id": "switch:locres:set-01:LinuxDynamicRHI:UnsupportedVulkanTargetedRHI:22405b17",
+        "jp_sha256": "b983a2a848d7bc23dc230413b9af227a22a869222ba6a27e36387dc2b104b993",
+        "official_en_sha256": "5cd79a3db262fe440bd1ad0a623321c77f875e23b9854f514ae4f17d389a08c1"
+      },
+      "text": {
+        "jp": "特定の Vulkan 機能レベルを強制しようとしていますが、サポートされていません",
+        "official_en": "Trying to force specific Vulkan feature level but it is not supported.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LinuxDynamicRHI:RequiredVulkan:32c63995",
+      "source": {
+        "set": "set-02",
+        "namespace": "LinuxDynamicRHI",
+        "key": "RequiredVulkan",
+        "jp_record_id": "switch:locres:set-01:LinuxDynamicRHI:RequiredVulkan:32c63995",
+        "official_en_record_id": "switch:locres:set-01:LinuxDynamicRHI:RequiredVulkan:32c63995",
+        "jp_sha256": "3ac10e8349c93cf4569a6d855ad67d744e5abaa5e9c207ef2f40373ed154591e",
+        "official_en_sha256": "d3c37038c963c40809ad89ee1a5a32c6533d268a898b5641cd0f95e89e4fb483"
+      },
+      "text": {
+        "jp": "エンジンの実行にはVulkanドライバーが必須です",
+        "official_en": "Vulkan Driver is required to run the engine.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LinuxDynamicRHI:NoVulkanNoGL:edad0a8c",
+      "source": {
+        "set": "set-02",
+        "namespace": "LinuxDynamicRHI",
+        "key": "NoVulkanNoGL",
+        "jp_record_id": "switch:locres:set-01:LinuxDynamicRHI:NoVulkanNoGL:edad0a8c",
+        "official_en_record_id": "switch:locres:set-01:LinuxDynamicRHI:NoVulkanNoGL:edad0a8c",
+        "jp_sha256": "bdc3e78c127f88c3432d95de5d4a98bb3b71160ed9f1f11421b49907fa8529eb",
+        "official_en_sha256": "e5e8205ee247d26d120850a4575e2954a2a2c31e501affb80a712abe28f07a38"
+      },
+      "text": {
+        "jp": "エンジンを実行にするには、Vulkan または OpenGL (4.3) のサポートが必要です。",
+        "official_en": "Vulkan or OpenGL (4.3) support is required to run the engine.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LinuxDynamicRHI:OpenGLRemoved:752c4fec",
+      "source": {
+        "set": "set-02",
+        "namespace": "LinuxDynamicRHI",
+        "key": "OpenGLRemoved",
+        "jp_record_id": "switch:locres:set-01:LinuxDynamicRHI:OpenGLRemoved:752c4fec",
+        "official_en_record_id": "switch:locres:set-01:LinuxDynamicRHI:OpenGLRemoved:752c4fec",
+        "jp_sha256": "e471509d73933b984c23f68ac5752cd203b8a9f2f647a8308f4181171e13b84b",
+        "official_en_sha256": "eb2bc37bc94c9aab15ca0c05637d6be64086c39163d9a74081645b1dff8231cc"
+      },
+      "text": {
+        "jp": "注意：OpenGL はデスクトップ プラットフォームではサポートされなくなりました。代わりに Vulkan が使用されます。",
+        "official_en": "Warning: OpenGL is no longer supported for desktop platforms. Vulkan will be used instead.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "FReassignObjectPropertiesLogic",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:FReassignObjectPropertiesLogic:Reason.ClientDisconnected:23499fcb",
+      "source": {
+        "set": "set-02",
+        "namespace": "FReassignObjectPropertiesLogic",
+        "key": "Reason.ClientDisconnected",
+        "jp_record_id": "switch:locres:set-01:FReassignObjectPropertiesLogic:Reason.ClientDisconnected:23499fcb",
+        "official_en_record_id": "switch:locres:set-01:FReassignObjectPropertiesLogic:Reason.ClientDisconnected:23499fcb",
+        "jp_sha256": "a94ce36b2850777f19ab5f3175c8e81eb397c09b26c007e495a4f1558ff21352",
+        "official_en_sha256": "61fcc9b24613e89aae4e9de570f16c0df5756baa950717682282ed2ca954fee3"
+      },
+      "text": {
+        "jp": "クライアントが切断済み",
+        "official_en": "Client disconnected",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FReassignObjectPropertiesLogic:Reason.NothingToAssignFmt:dc69723d",
+      "source": {
+        "set": "set-02",
+        "namespace": "FReassignObjectPropertiesLogic",
+        "key": "Reason.NothingToAssignFmt",
+        "jp_record_id": "switch:locres:set-01:FReassignObjectPropertiesLogic:Reason.NothingToAssignFmt:dc69723d",
+        "official_en_record_id": "switch:locres:set-01:FReassignObjectPropertiesLogic:Reason.NothingToAssignFmt:dc69723d",
+        "jp_sha256": "5be43eca25d1734f40d091c905c0b3f66d037d0869c3c66025193abf6ec804e4",
+        "official_en_sha256": "59ef6aeff1aa785cb342ff79c966e72158c72066a0f46c4da3c8d4aa0f331438"
+      },
+      "text": {
+        "jp": "割り当て対象がありません: {0}",
+        "official_en": "Nothing to assign: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FReassignObjectPropertiesLogic:OperationInProgress:e5ad6aaa",
+      "source": {
+        "set": "set-02",
+        "namespace": "FReassignObjectPropertiesLogic",
+        "key": "OperationInProgress",
+        "jp_record_id": "switch:locres:set-01:FReassignObjectPropertiesLogic:OperationInProgress:e5ad6aaa",
+        "official_en_record_id": "switch:locres:set-01:FReassignObjectPropertiesLogic:OperationInProgress:e5ad6aaa",
+        "jp_sha256": "cab09540160aa8c0fc839208b35f37a1d19e6c9987d7b7fe976903c717f83a10",
+        "official_en_sha256": "5a23bee04b923bf64d4c8664a633edd9e7b86aa1b4465c86f7fb7048e711da74"
+      },
+      "text": {
+        "jp": "前の再割り当て処理が完了するのを待機しています",
+        "official_en": "Wait for the previous reassignment operation to finish.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FReassignObjectPropertiesLogic:HasNone:0c82616a",
+      "source": {
+        "set": "set-02",
+        "namespace": "FReassignObjectPropertiesLogic",
+        "key": "HasNone",
+        "jp_record_id": "switch:locres:set-01:FReassignObjectPropertiesLogic:HasNone:0c82616a",
+        "official_en_record_id": "switch:locres:set-01:FReassignObjectPropertiesLogic:HasNone:0c82616a",
+        "jp_sha256": "ad36ecb8a69b6171cf96798ec2ed0d10abb5b66df29c1c5e1dd116589521eaad",
+        "official_en_sha256": "fb36a70676a22666bca8bdc2fc2969d81912ca00921f5d108711c911a96b1553"
+      },
+      "text": {
+        "jp": "一部のプロパティを最初に割り当てます",
+        "official_en": "assign some properties first.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FReassignObjectPropertiesLogic:OwnsAll:9b1a13bb",
+      "source": {
+        "set": "set-02",
+        "namespace": "FReassignObjectPropertiesLogic",
+        "key": "OwnsAll",
+        "jp_record_id": "switch:locres:set-01:FReassignObjectPropertiesLogic:OwnsAll:9b1a13bb",
+        "official_en_record_id": "switch:locres:set-01:FReassignObjectPropertiesLogic:OwnsAll:9b1a13bb",
+        "jp_sha256": "064858412ddf26bd8abebbdd969b665602f8915a2d2194ce32a8f979dc72ad40",
+        "official_en_sha256": "bb9d7ee6f994c7843280aeaad9fe3ac006380db79396d75bc17c341d2c7c25ee"
+      },
+      "text": {
+        "jp": "クライアントはすでにすべてのプロパティを所有しています",
+        "official_en": "client already owns all properties.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

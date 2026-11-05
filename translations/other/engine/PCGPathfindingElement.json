@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGPathfindingElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGPathfindingElement:InvalidFilterActorInputCount:2ec5c9aa",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGPathfindingElement",
+        "key": "InvalidFilterActorInputCount",
+        "jp_record_id": "switch:locres:set-01:PCGPathfindingElement:InvalidFilterActorInputCount:2ec5c9aa",
+        "official_en_record_id": "switch:locres:set-01:PCGPathfindingElement:InvalidFilterActorInputCount:2ec5c9aa",
+        "jp_sha256": "56d12b8938075a3e135cf0712dcac638e7f563d289db9c62eb75b9ef29ea4dab",
+        "official_en_sha256": "189665e25f9b84387fe58d78ec01bf0d142977fae3a0779be19835dfea138d25"
+      },
+      "text": {
+        "jp": "フィルタ アクタの入力データ数は、1 であるか、In ピンのデータ数と一致している必要があります",
+        "official_en": "Filter Actor input data count must be 1 or match the In pin data count.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGPathfindingElement:NodeTooltip:972a11a5",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGPathfindingElement",
+        "key": "NodeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGPathfindingElement:NodeTooltip:972a11a5",
+        "official_en_record_id": "switch:locres:set-01:PCGPathfindingElement:NodeTooltip:972a11a5",
+        "jp_sha256": "d01a7051ee4ecddb7ed7ddccd3ada6569239658c2e546795982c74081aa136ad",
+        "official_en_sha256": "98aa8cb5f757c980c0d39aaf56a0d629173f10ebf6a9a3a49681214337e9cf7b"
+      },
+      "text": {
+        "jp": "開始と終了位置、ポイント間の最大ジャンプ距離を指定したときに、指定点群 (1 つ存在することが必要) のポイント間で最適パスを見つけます。部分パスを返すことがあります",
+        "official_en": "Finds the optimal path across the points of a given point cloud--should one exist--when provided a start and goal location, and a maximum jump distance between points. Can return a partial path.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGPathfindingElement:EachStartToPairwiseGoalInvalidMapping:c31da5ef",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGPathfindingElement",
+        "key": "EachStartToPairwiseGoalInvalidMapping",
+        "jp_record_id": "switch:locres:set-01:PCGPathfindingElement:EachStartToPairwiseGoalInvalidMapping:c31da5ef",
+        "official_en_record_id": "switch:locres:set-01:PCGPathfindingElement:EachStartToPairwiseGoalInvalidMapping:c31da5ef",
+        "jp_sha256": "bb19ee57dc4a2533619fed1aaa9c0c743c0a3da98111f727c1661495739a330e",
+        "official_en_sha256": "b7cd049c8c2b1dfa77db6c5a1c59284fd59a7a39d467878703f9ab94b8ddf7e7"
+      },
+      "text": {
+        "jp": "「各開始からペアワイズ目標」のパスファインディング モードの場合、開始場所と目標の場所との間に 1 対 1 のマッピングが存在する必要があります。現在の入力は、{0}:{1} 開始->目標の場所でした",
+        "official_en": "For 'Each Start To Pairwise Goal' pathfinding mode, there must be a one-to-one mapping between start locations and goal locations. The current input was {0}:{1} Start->Goal locations.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGPathfindingElement:NodeTitle:c8e46fc7",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGPathfindingElement",
+        "key": "NodeTitle",
+        "jp_record_id": "switch:locres:set-01:PCGPathfindingElement:NodeTitle:c8e46fc7",
+        "official_en_record_id": "switch:locres:set-01:PCGPathfindingElement:NodeTitle:c8e46fc7",
+        "jp_sha256": "533bdb76aafd3e1bdb511d326aff17499679352734c023dbc72ad73dd0064882",
+        "official_en_sha256": "6fda8a7dffdfe2501d7c164a454f901f9654069a2f9f9a2ed6fb281f3a544085"
+      },
+      "text": {
+        "jp": "パスファインダー",
+        "official_en": "Pathfinding",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGPathfindingElement:InvalidSearch:8665b290",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGPathfindingElement",
+        "key": "InvalidSearch",
+        "jp_record_id": "switch:locres:set-01:PCGPathfindingElement:InvalidSearch:8665b290",
+        "official_en_record_id": "switch:locres:set-01:PCGPathfindingElement:InvalidSearch:8665b290",
+        "jp_sha256": "e2f335e8cc003f42e3f8659b699c3c052e31c101ae1e11aa2645125143730ba5",
+        "official_en_sha256": "21200dc89023a8cb7b8e29480445eabb3f9c44d073b67d0f68349cdec854dc8d"
+      },
+      "text": {
+        "jp": "検索を完了できませんでした。検索設定または入力が無効でないかどうかチェックしてください",
+        "official_en": "The search could not be completed. Check for invalid search settings or input.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

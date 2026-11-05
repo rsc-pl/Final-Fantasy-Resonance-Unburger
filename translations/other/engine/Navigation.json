@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "Navigation",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:Navigation:NeedToRunPartitionResaveActorsBuilder:a09b2487",
+      "source": {
+        "set": "set-02",
+        "namespace": "Navigation",
+        "key": "NeedToRunPartitionResaveActorsBuilder",
+        "jp_record_id": "switch:locres:set-01:Navigation:NeedToRunPartitionResaveActorsBuilder:a09b2487",
+        "official_en_record_id": "switch:locres:set-01:Navigation:NeedToRunPartitionResaveActorsBuilder:a09b2487",
+        "jp_sha256": "07b27e5a64e5f9d8bd0c4d28b926d0884a968c31b54b2fa1d520b95d0ba6698b",
+        "official_en_sha256": "016dc347c7e951576b1ee1204c203e80ce9966a3b1dd837b3f0a61392ad86841"
+      },
+      "text": {
+        "jp": "World Partition マップでこのプロパティを変更すると、アクタのパーティションが変更されます\nその変更がパーティションに反映されるためには、アクタを再保存する必要があります\nWorldPartitionResaveActorsBuilder を実行して、マップ全体を更新します",
+        "official_en": "In a world partitioned map, changing this property changes the partitioning of actors.\nFor the change to take effect on partitioning, actors needs to be resaved.\nRun the WorldPartitionResaveActorsBuilder to update the whole map.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Navigation:NAVMESHERROR:c36ab866",
+      "source": {
+        "set": "set-02",
+        "namespace": "Navigation",
+        "key": "NAVMESHERROR",
+        "jp_record_id": "switch:locres:set-01:Navigation:NAVMESHERROR:c36ab866",
+        "official_en_record_id": "switch:locres:set-01:Navigation:NAVMESHERROR:c36ab866",
+        "jp_sha256": "08d0328c3d3bb79f2527a93dbf9c5454faee805edb88b67f58b209fcf33e592d",
+        "official_en_sha256": "de5b756f241e4cebddd644725a94ce94b846a40103abe320bf142d0f4b32c92f"
+      },
+      "text": {
+        "jp": "NAVMESHの再構築が必要です",
+        "official_en": "NAVMESH NEEDS TO BE REBUILT",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

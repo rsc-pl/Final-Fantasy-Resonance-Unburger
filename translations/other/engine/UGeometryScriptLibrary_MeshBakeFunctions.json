@@ -1,0 +1,826 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTexture_Prefix:ba30751a",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "BakeTexture_Prefix",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTexture_Prefix:ba30751a",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTexture_Prefix:ba30751a",
+        "jp_sha256": "295e8f1e2bf65fda52ddca2f08e4b008c6fe9349010856aa960f3d76dbe9c78c",
+        "official_en_sha256": "295e8f1e2bf65fda52ddca2f08e4b008c6fe9349010856aa960f3d76dbe9c78c"
+      },
+      "text": {
+        "jp": "BakeTexture",
+        "official_en": "BakeTexture",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTexture_BakeTypesEmpty:7f465b2d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "BakeTexture_BakeTypesEmpty",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTexture_BakeTypesEmpty:7f465b2d",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTexture_BakeTypesEmpty:7f465b2d",
+        "jp_sha256": "81ab4ed24291022267e486a7f4fa0af1b6932860090db3b4318fbc4c644fdc67",
+        "official_en_sha256": "fdaa578fe06498a67d548a9adc65f7048f683d69dc0827dfe1e80c39d46b4e7a"
+      },
+      "text": {
+        "jp": "BakeTexture:BakeTypes が空です",
+        "official_en": "BakeTexture: BakeTypes is empty",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTexture_InvalidSourceTexture:7ea0793c",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "BakeTexture_InvalidSourceTexture",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTexture_InvalidSourceTexture:7ea0793c",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTexture_InvalidSourceTexture:7ea0793c",
+        "jp_sha256": "336b085d6c0a5b2453bc3f132c55e68b0b0482442391bad3af4f5ed74cda7694",
+        "official_en_sha256": "0d597e67d732a9265907062f0e1b4f402dd77cb5a89b3985792ad8111721ac17"
+      },
+      "text": {
+        "jp": "BakeTexture:SourceTexture を読み取ることができませんでした。",
+        "official_en": "BakeTexture: Failed to read SourceTexture",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTexture_InvalidSourceMesh:aa7e7335",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "BakeTexture_InvalidSourceMesh",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTexture_InvalidSourceMesh:aa7e7335",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTexture_InvalidSourceMesh:aa7e7335",
+        "jp_sha256": "ec19ca540ac59eb6fdd09fcbb8aff70d9fcc3a8b2ca7aad16873854e0a782827",
+        "official_en_sha256": "9b720cbe7130ee1e0bad79bb106d856c592e2f4ebb9519c54f82c2c49bd03c3d"
+      },
+      "text": {
+        "jp": "BakeTexture:SourceMesh が Null です",
+        "official_en": "BakeTexture: SourceMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTexture_InvalidTargetMesh:64853794",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "BakeTexture_InvalidTargetMesh",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTexture_InvalidTargetMesh:64853794",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTexture_InvalidTargetMesh:64853794",
+        "jp_sha256": "992738875880bd004740cf846c8285f530169c9dffa4068791a9715d0c7646f2",
+        "official_en_sha256": "d043d65ff67c920979542a1e1812173740b5bfe31252fcece3c56be052f51501"
+      },
+      "text": {
+        "jp": "BakeTexture:TargetMesh が Null です",
+        "official_en": "BakeTexture: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTextureFromRenderCaptures_EmptyCameraSet:577592d4",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "BakeTextureFromRenderCaptures_EmptyCameraSet",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTextureFromRenderCaptures_EmptyCameraSet:577592d4",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTextureFromRenderCaptures_EmptyCameraSet:577592d4",
+        "jp_sha256": "8b469acce6fe29b6c380955545cb37819ddb29d11eb715bfc53526a8bce30d85",
+        "official_en_sha256": "76d432accca67d2474e44e846373305e94e3ab5f9e3e11f18908302b5a2c509a"
+      },
+      "text": {
+        "jp": "BakeTextureFromRenderCaptures：カメラ配列が空だったため、デフォルトのカメラ セットが使用されました。たとえば、ComputeRenderCaptureCamerasForBox を使用して明示的な配列を提供することで、ブループリントを更新してください",
+        "official_en": "BakeTextureFromRenderCaptures: Cameras array was empty so a default camera set was used. Please update your blueprint by providing an explicit array e.g., by using ComputeRenderCaptureCamerasForBox",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTextureFromRenderCaptures_TargetMeshDegenerateUVs:218c3855",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "BakeTextureFromRenderCaptures_TargetMeshDegenerateUVs",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTextureFromRenderCaptures_TargetMeshDegenerateUVs:218c3855",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTextureFromRenderCaptures_TargetMeshDegenerateUVs:218c3855",
+        "jp_sha256": "9005bb17a0b62eb872f425c35a9d5ad5a5204646255dc11b628aa1640029a3a7",
+        "official_en_sha256": "f8950309dca2fe54d62c7ec4971880c216d1f5fdd367851109c02ac970bb391c"
+      },
+      "text": {
+        "jp": "BakeTextureFromRenderCaptures: TargetMesh UV レイヤーが縮退しています",
+        "official_en": "BakeTextureFromRenderCaptures: TargetMesh UV layer is degenerate",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTextureFromRenderCaptures_TargetMeshMissingUVs:58bb8b9f",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "BakeTextureFromRenderCaptures_TargetMeshMissingUVs",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTextureFromRenderCaptures_TargetMeshMissingUVs:58bb8b9f",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTextureFromRenderCaptures_TargetMeshMissingUVs:58bb8b9f",
+        "jp_sha256": "905febd6040a626eeaa9ca7f499adf3e176f5c38c5f81d635668618b3eb7df09",
+        "official_en_sha256": "daaa69377536d7da5ec542c16ee76123a79b6ece14fea465d9e0f8365024cb03"
+      },
+      "text": {
+        "jp": "BakeTextureFromRenderCaptures: TargetMesh UV レイヤーがありません",
+        "official_en": "BakeTextureFromRenderCaptures: TargetMesh UV layer is missing",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTextureFromRenderCaptures_InvalidMeshTangents:acb8285b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "BakeTextureFromRenderCaptures_InvalidMeshTangents",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTextureFromRenderCaptures_InvalidMeshTangents:acb8285b",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTextureFromRenderCaptures_InvalidMeshTangents:acb8285b",
+        "jp_sha256": "eebef287fc3ddf5cb3935b716949070f50e101df6b01ffa45652c65270384be7",
+        "official_en_sha256": "24b9393b4d1ecdd724a988c070a82ec59225affaf79da8222e1ea4aca2c68e79"
+      },
+      "text": {
+        "jp": "BakeTextureFromRenderCaptures: TargetMesh に無効な接線があるので、要求法線マップをベイクできません",
+        "official_en": "BakeTextureFromRenderCaptures: TargetMesh has invalid tangents so the requested normal map cannot be baked",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTextureFromRenderCaptures_InvalidTargetMesh:45940751",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "BakeTextureFromRenderCaptures_InvalidTargetMesh",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTextureFromRenderCaptures_InvalidTargetMesh:45940751",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTextureFromRenderCaptures_InvalidTargetMesh:45940751",
+        "jp_sha256": "ff40321b8678cac6d9b6960196a4ed13d4374920aa9394a39df8128e93d81553",
+        "official_en_sha256": "eb076131b085a345b3bb400f24206d81d5b54af59834cf17ae4caf7feb4aa574"
+      },
+      "text": {
+        "jp": "BakeTextureFromRenderCaptures: TargetMesh は Null です",
+        "official_en": "BakeTextureFromRenderCaptures: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeVertex_Prefix:a1da4634",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "BakeVertex_Prefix",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeVertex_Prefix:a1da4634",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeVertex_Prefix:a1da4634",
+        "jp_sha256": "878cc735a4f6790969aeafca6832f9ed0dcbafdbfea9cab0501f36ccd98b44a4",
+        "official_en_sha256": "878cc735a4f6790969aeafca6832f9ed0dcbafdbfea9cab0501f36ccd98b44a4"
+      },
+      "text": {
+        "jp": "BakeVertex",
+        "official_en": "BakeVertex",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeVertex_InvalidSourceMesh:9758eb0e",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "BakeVertex_InvalidSourceMesh",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeVertex_InvalidSourceMesh:9758eb0e",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeVertex_InvalidSourceMesh:9758eb0e",
+        "jp_sha256": "8be11dfc5edd0e49f6c20b8cbb3a8881f1e9fac83561c64d3c8643a581095a80",
+        "official_en_sha256": "398d63ec7ec5b1c8340179a7236caec6f3364c2840586441c48e718974832ddd"
+      },
+      "text": {
+        "jp": "BakeVertex:SourceMesh が Null です",
+        "official_en": "BakeVertex: SourceMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeVertex_InvalidTargetMesh:a4f54a82",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "BakeVertex_InvalidTargetMesh",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeVertex_InvalidTargetMesh:a4f54a82",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeVertex_InvalidTargetMesh:a4f54a82",
+        "jp_sha256": "2a72ebb55503adde4937b9f88cd2d6dd78a15e1b721de8b3af98e80e43c2ac41",
+        "official_en_sha256": "f5df4728d0770b2beec8f33b45186d6a9d8b58bd856f0a36f5b99b6aef9a409a"
+      },
+      "text": {
+        "jp": "BakeVertex:TargetMesh が Null です",
+        "official_en": "BakeVertex: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeVertex_InvalidVertexColorTopology:589f9d1f",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "BakeVertex_InvalidVertexColorTopology",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeVertex_InvalidVertexColorTopology:589f9d1f",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeVertex_InvalidVertexColorTopology:589f9d1f",
+        "jp_sha256": "5516850cefe3175b8fd11fc9199f7ec247f3bd1ed570186039bd3a87cf48fbe6",
+        "official_en_sha256": "153263bb3c43ea7db620e9dc058983b7317a55d7982cae108f68d357ee4c1083"
+      },
+      "text": {
+        "jp": "BakeVertex：トポロジ モードが UseExisting に設定されましたが、既存の色が見つかりませんでした",
+        "official_en": "BakeVertex: Topology Mode was set to UseExisting, but existing colors were not found.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:Bake_InvalidMultiTexture:0542d113",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "Bake_InvalidMultiTexture",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:Bake_InvalidMultiTexture:0542d113",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:Bake_InvalidMultiTexture:0542d113",
+        "jp_sha256": "9a9376fea879efbac55b17949206f2db0f791ef8365047d8d96a04a6774e77bf",
+        "official_en_sha256": "f73a02ff624f31ce9c31b955b792e16fb119d3400e032caf3bd844a1d95d1645"
+      },
+      "text": {
+        "jp": "{0}:MaterialIDSourceTexture を読み取ることができませんでした",
+        "official_en": "{0}: Failed to read MaterialIDSourceTexture",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:Bake_InvalidSampleFilterMask:052df3a9",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "Bake_InvalidSampleFilterMask",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:Bake_InvalidSampleFilterMask:052df3a9",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:Bake_InvalidSampleFilterMask:052df3a9",
+        "jp_sha256": "5567d033dd6f32043bf476508ed352a8ae59012a6dd35ff284cafc923164432f",
+        "official_en_sha256": "29891696fdd9b4fcac7eb545016b2bf4adfd5cbd27b2d4392fd048b13f8f6332"
+      },
+      "text": {
+        "jp": "{0}:SampleFilterMask を読み取ることができませんでした",
+        "official_en": "{0}: Failed to read SampleFilterMask",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:Bake_InvalidSourceNormalMap:3c406641",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "Bake_InvalidSourceNormalMap",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:Bake_InvalidSourceNormalMap:3c406641",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:Bake_InvalidSourceNormalMap:3c406641",
+        "jp_sha256": "34d60d28dcc6e663555e3b8e982a4b8539543a4b23f000b5569b4cdaa8a808f4",
+        "official_en_sha256": "5b0eed0d886bbd06a5619df70a35e14faba50b65c11a9266f2d8c88586857826"
+      },
+      "text": {
+        "jp": "{0}:SourceNormalMap を読み取ることができませんでした",
+        "official_en": "{0}: Failed to read SourceNormalMap",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:Bake_InvalidSourceTangents:320a0081",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "Bake_InvalidSourceTangents",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:Bake_InvalidSourceTangents:320a0081",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:Bake_InvalidSourceTangents:320a0081",
+        "jp_sha256": "ea6f709a8db93ffc4c9b5e1b516258d112d0f89266fda1209b866a2ecf86cd5d",
+        "official_en_sha256": "530d0efc79f87bf8c49abd66e3cd70ad081e16b5719998664906a70ffc94cfae"
+      },
+      "text": {
+        "jp": "{0}:ソース メッシュの接線が無効です",
+        "official_en": "{0}: Source Mesh tangents are invalid.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:Bake_InvalidTargetTangents:b21f7341",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "Bake_InvalidTargetTangents",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:Bake_InvalidTargetTangents:b21f7341",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:Bake_InvalidTargetTangents:b21f7341",
+        "jp_sha256": "5adfd926ea267dbecae260084a2ef165a2230b54b5ca6592d1cdbca4e91a1b5b",
+        "official_en_sha256": "40462865ba4af7b553a7dda130f81bbcb8a951352a739caf9ac3fe44f3fa7419"
+      },
+      "text": {
+        "jp": "{0}:ターゲット メッシュの接線が無効です",
+        "official_en": "{0}: Target Mesh tangents are invalid.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTexture_InvalidBakeType:f11f8f88",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "BakeTexture_InvalidBakeType",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTexture_InvalidBakeType:f11f8f88",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeTexture_InvalidBakeType:f11f8f88",
+        "jp_sha256": "d0019283cd0ee1423831e2dd434f977f4ca2fefedf0e1be5e3893909b7d6cc9d",
+        "official_en_sha256": "e50ca707234dcef37cc86a15f17346e0218688fba7b47bae9660f86375a31198"
+      },
+      "text": {
+        "jp": "\n            {0}:{1} ベイク タイプは、RGBA エバリュエーターではサポートされていません",
+        "official_en": "{0}: {1} bake type is not a supported RGBA evaluator.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeVertex_InvalidBakeType:67e954ff",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "BakeVertex_InvalidBakeType",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeVertex_InvalidBakeType:67e954ff",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeVertex_InvalidBakeType:67e954ff",
+        "jp_sha256": "d0019283cd0ee1423831e2dd434f977f4ca2fefedf0e1be5e3893909b7d6cc9d",
+        "official_en_sha256": "e50ca707234dcef37cc86a15f17346e0218688fba7b47bae9660f86375a31198"
+      },
+      "text": {
+        "jp": "\n            {0}:{1} ベイク タイプは、RGBA エバリュエーターではサポートされていません",
+        "official_en": "{0}: {1} bake type is not a supported RGBA evaluator.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeVertex_InvalidChannelEval:acb5343a",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBakeFunctions",
+        "key": "BakeVertex_InvalidChannelEval",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeVertex_InvalidChannelEval:acb5343a",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBakeFunctions:BakeVertex_InvalidChannelEval:acb5343a",
+        "jp_sha256": "b34322ce0b508cda010f06d2a88ce50c62281500eddc164874ba6e8e736d6651",
+        "official_en_sha256": "e6f1a320061d56c79089846951b67fca0b83b1b6c665b9d77eb52e2e21996127"
+      },
+      "text": {
+        "jp": "{0}:{1}ベイク タイプは、チャンネルごとのエバリュエーターではサポートされていません",
+        "official_en": "{0}: {1} bake type is not a supported per-channel evaluator.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

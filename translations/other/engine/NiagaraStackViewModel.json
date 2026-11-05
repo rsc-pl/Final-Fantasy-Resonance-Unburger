@@ -1,0 +1,3083 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NiagaraStackViewModel",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:ParticleUpdateGroupTooltip:e96aa7d7",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "ParticleUpdateGroupTooltip",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:ParticleUpdateGroupTooltip:e96aa7d7",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:ParticleUpdateGroupTooltip:e96aa7d7",
+        "jp_sha256": "cb2f45a92da3036cdaf712b352a251b180d569b7b800c933307e487c891179a0",
+        "official_en_sha256": "ca7ff09395448b7d7981c8680406ad3816f59708888acf5735071e64fd0ffefd"
+      },
+      "text": {
+        "jp": "パーティクルごとにすべてのフレームと呼ばれます。このステージのモジュールは、このフレームの新しい値を更新する必要があります。\r\nモジュールはスタックの上から下の順に実行されます。",
+        "official_en": "Called every frame per particle. Modules in this stage should update new values for this frame.\r\nModules are executed in order from top to bottom of the stack.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:ParticleSpawnGroupTooltip:d2a18ff5",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "ParticleSpawnGroupTooltip",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:ParticleSpawnGroupTooltip:d2a18ff5",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:ParticleSpawnGroupTooltip:d2a18ff5",
+        "jp_sha256": "5361d0aeeea9d2a6deee8734ba287e249457655214bf76e09e045fcfd9a3daba",
+        "official_en_sha256": "78a2e7f4236717bfc53876fbde8be88a793951f5ac605903d4f2f7d6b1a56199"
+      },
+      "text": {
+        "jp": "作成されたパーティクルごとに 1 回呼び出されます。子のステージのモジュールは、各パーティクルの初期値を設定する必要があります。\r\nもし\"Use Interpolated Spawning\"が設定されていれば、[Particle Spawn (パーティクルのスポーン)] スクリプトの後に [Particle Update (パーティクルの更新)] も実行されます。\r\nモジュールはスタックの上から下の順に実行されます。",
+        "official_en": "Called once per created particle. Modules in this stage should set up initial values for each particle.\r\nIf \"Use Interpolated Spawning\" is set, we will also run the Particle Update stage after the Particle Spawn stage.\r\nModules are executed in order from top to bottom of the stack.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:CantCutDisabled:88098936",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "CantCutDisabled",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:CantCutDisabled:88098936",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:CantCutDisabled:88098936",
+        "jp_sha256": "1604884e10c63e0195c8c6b5635c5e0108c047f823c05d644c7b5b3ef3d29eb0",
+        "official_en_sha256": "e3951d500fc1cfe832c5112d6351e8f325fd249be80ee7eb82c7e5a0b13de8b9"
+      },
+      "text": {
+        "jp": "オーナーが無効になっているときは、切り取りおよび入力を行うことはできません。",
+        "official_en": "Can not cut and input when it's owner is disabled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:CantPasteIncorrectType:d00b81e8",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "CantPasteIncorrectType",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:CantPasteIncorrectType:d00b81e8",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:CantPasteIncorrectType:d00b81e8",
+        "jp_sha256": "9b17cd35d96a205a4af31680fb816d74c9d938bf81f7ddfc80d58f06f91c9873",
+        "official_en_sha256": "461e5fb75e4704968097e78c2c43a264e153081e5a276a0ff06e134c87962797"
+      },
+      "text": {
+        "jp": "タイプが一致しない入力は貼り付けることができません。",
+        "official_en": "Can not paste inputs with mismatched types.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:CantPasteInvalidDynamicInputScript:f0bb2bd4",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "CantPasteInvalidDynamicInputScript",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:CantPasteInvalidDynamicInputScript:f0bb2bd4",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:CantPasteInvalidDynamicInputScript:f0bb2bd4",
+        "jp_sha256": "c3fd7fee8afc89817b8f37b8101cdfbc5f67208333f766d165a045b84ed291ed",
+        "official_en_sha256": "3ebebcb833d4ae87f2a6d1742afdfb5e1b218f1a19fffa36b13b87eb269654ca"
+      },
+      "text": {
+        "jp": "動的入力のスクリプトが有効でなくなったため、動的入力を貼り付けることができません。",
+        "official_en": "Can not paste the dynamic input because its script is no longer valid.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:CantPasteMultipleInputs:8e23e260",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "CantPasteMultipleInputs",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:CantPasteMultipleInputs:8e23e260",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:CantPasteMultipleInputs:8e23e260",
+        "jp_sha256": "8d06363782d3bb802e8d374249af4eeb6436c709c75c2bdce9fa9ec6ca051fd8",
+        "official_en_sha256": "ddad08cc58462e60fa3d8125095a905175f97f553a44de33a92f05b8aae0a928"
+      },
+      "text": {
+        "jp": "単一の入力には複数の入力を貼り付けることができません。",
+        "official_en": "Can't paste multiple inputs onto a single input.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:UpgradeVersionFix:59c862f0",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "UpgradeVersionFix",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:UpgradeVersionFix:59c862f0",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:UpgradeVersionFix:59c862f0",
+        "jp_sha256": "9d23581dd0b2b1aa652cfa8c670d395c5ff75a9359b7bccb8108d0b271c471f4",
+        "official_en_sha256": "12a32fb2478b25516161cb3d2cfe0b8e22019b24712bf202abc56bc33ec0939f"
+      },
+      "text": {
+        "jp": "動的入力バージョンを変更",
+        "official_en": "Change dynamic input version",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:NiagaraChangeVersion_Transaction:9627ee4e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "NiagaraChangeVersion_Transaction",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:NiagaraChangeVersion_Transaction:9627ee4e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:NiagaraChangeVersion_Transaction:9627ee4e",
+        "jp_sha256": "26bbc2658ddf325aa7a6466253d938c0f08bf7a523fbc08eb08cafa2044519df",
+        "official_en_sha256": "8595e457059e001eadb5fb3339787a508db14bc9e647e95100cfc7cd1f2c772a"
+      },
+      "text": {
+        "jp": "動的入力バージョンを変更しています",
+        "official_en": "Changing dynamic input version",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:FixConvertInPlace:312228b3",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "FixConvertInPlace",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:FixConvertInPlace:312228b3",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:FixConvertInPlace:312228b3",
+        "jp_sha256": "1edc31f93d911aa0dc54e26d9a9150552fb498926dde5b6f46873d2a657a60a0",
+        "official_en_sha256": "0556a3c1d6081f5ad6df4bf5d8e7944d38d9eca63e658083a20ef9c93351f708"
+      },
+      "text": {
+        "jp": "変換に関する注意：{0}",
+        "official_en": "Conversion Note: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:CanCopyMessage:0523b876",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "CanCopyMessage",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:CanCopyMessage:0523b876",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:CanCopyMessage:0523b876",
+        "jp_sha256": "6750d360c578be9d63e18f843ee9a2b986c323cdec095ca3b66ea923c2071ae5",
+        "official_en_sha256": "e18073caaba993795ef5459aab4253f38f63effaf2c323c471c39051622df998"
+      },
+      "text": {
+        "jp": "任意のデータ オブジェクトと動的入力を含む\nこの入力の値をコピーします",
+        "official_en": "Copy the value of this input including\nany data objects and dynamic inputs.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:CutInputTransaction:83dd40a9",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "CutInputTransaction",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:CutInputTransaction:83dd40a9",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:CutInputTransaction:83dd40a9",
+        "jp_sha256": "1fc3a1b8323a0048d611ae46e7d6cb13b82bb87d72d1549d1e3dac6ca3800980",
+        "official_en_sha256": "ee5709dea10087f8f92cdc8ecc791aca90520b958986325c2f5d2f51f07058b0"
+      },
+      "text": {
+        "jp": "Niagara 入力を切り取る",
+        "official_en": "Cut niagara input",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:CanCutMessage:787fee7d",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "CanCutMessage",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:CanCutMessage:787fee7d",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:CanCutMessage:787fee7d",
+        "jp_sha256": "9fa21593db6b22927232a365f47935c9825d198caf0e71d3f6288a67d7141815",
+        "official_en_sha256": "f190e85cf72f55a030656bece8ddb365d783db6f8c0701b22fd95d3a3bea5a2f"
+      },
+      "text": {
+        "jp": "切り取りを行うと、\n任意のデータ オブジェクトと動的入力を含むこの入力の値がコピーされ、デフォルトにリセットされます",
+        "official_en": "Cut will copy the value of this input including\nany data objects and dynamic inputs, and will reset it to default.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptDeprecationShort:ca996abd",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "DynamicInputScriptDeprecationShort",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptDeprecationShort:ca996abd",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptDeprecationShort:ca996abd",
+        "jp_sha256": "94c0a147b3b98d37f94426fd1c02732313591fac7e80e0bde13de24a82eaa5bd",
+        "official_en_sha256": "47843392066f6032924091a1a47ce181349fe2331576ba45c5e6fedbe9935859"
+      },
+      "text": {
+        "jp": "動的入力が廃止されました",
+        "official_en": "Deprecated dynamic input",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:EditConditionErrorShort:19bb1001",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "EditConditionErrorShort",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:EditConditionErrorShort:19bb1001",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:EditConditionErrorShort:19bb1001",
+        "jp_sha256": "57a7e06a1ca45fd82b9a25b7937d3a2db21ca001bf5dd546f2d3a3f2ffdb2b2d",
+        "official_en_sha256": "57aad4e32fe375fd24ab2dc843fa67fc88d8917b4b0586c0b0fc6c3415dc19a2"
+      },
+      "text": {
+        "jp": "編集条件エラー",
+        "official_en": "Edit condition error",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:EditConditionErrorLongFormat:daab173a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "EditConditionErrorLongFormat",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:EditConditionErrorLongFormat:daab173a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:EditConditionErrorLongFormat:daab173a",
+        "jp_sha256": "cf4d6741b291806cdbd5ac63ca7bb9ce794d40a062684f88f0695da30adc3bad",
+        "official_en_sha256": "a23cdca361d92f66be4572ea831fd68ff7106588a0e1d6bdf72723f9f72554f6"
+      },
+      "text": {
+        "jp": "編集条件をバインドできませんでした。関数：{0} 入力：{1} メッセージ：{2}",
+        "official_en": "Edit condition failed to bind.  Function: {0} Input: {1} Message: {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:BeginEditModuleInputLocalValue:eab352a5",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "BeginEditModuleInputLocalValue",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:BeginEditModuleInputLocalValue:eab352a5",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:BeginEditModuleInputLocalValue:eab352a5",
+        "jp_sha256": "7cec6052fe9a58242d23882d01fe78c11bc641bac7528ccfa9c2624ee302ed29",
+        "official_en_sha256": "3f773a81f29bfc2d5b8ca3cb08feb23f557e9bf16594d8426408a5915f25c271"
+      },
+      "text": {
+        "jp": "入力ローカル値を編集します。",
+        "official_en": "Edit input local value.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:EmitterSpawnGroupName:200a54c9",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "EmitterSpawnGroupName",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:EmitterSpawnGroupName:200a54c9",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:EmitterSpawnGroupName:200a54c9",
+        "jp_sha256": "add5fefb589024ed2c2a063c4d721f3da956b0168a965b3d4950610de1ad6ef8",
+        "official_en_sha256": "36f84ecc581b8208831ac79b0df411dd04e8256fa82f2e572c3c7e58416703d8"
+      },
+      "text": {
+        "jp": "エミッタのスポーン",
+        "official_en": "Emitter Spawn",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:EmitterSummaryGroupName:ebe5fe5e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "EmitterSummaryGroupName",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:EmitterSummaryGroupName:ebe5fe5e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:EmitterSummaryGroupName:ebe5fe5e",
+        "jp_sha256": "26b7fbfa05a59856935eaa7802c3f2e7ef00137bcf75414d9f072884a2f747cb",
+        "official_en_sha256": "723490b9e1bc08f3d241c195a4a6b6d8b80ca11640bb57072ed18ec0a44d72f4"
+      },
+      "text": {
+        "jp": "エミッタの概要",
+        "official_en": "Emitter Summary",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:EmitterUpdateGroupName:326d255d",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "EmitterUpdateGroupName",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:EmitterUpdateGroupName:326d255d",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:EmitterUpdateGroupName:326d255d",
+        "jp_sha256": "3a5befaf18903a78afe79ca4d987f1a926c89be6ba22738ffc2d4d3bbb2c641e",
+        "official_en_sha256": "545f52ef9397d9dde0f7b5ea1c85b1ccec6e4269279388aa3bb4c24ffd64aa1b"
+      },
+      "text": {
+        "jp": "エミッタの更新",
+        "official_en": "Emitter Update",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptExperimentalShort:8533ee42",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "DynamicInputScriptExperimentalShort",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptExperimentalShort:8533ee42",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptExperimentalShort:8533ee42",
+        "jp_sha256": "d898361be1c43266e11ddd7c8b114dd8d2a1725fc4043d57eb774dc977593fd6",
+        "official_en_sha256": "2be402b762f8234bc30b7ff5fbbe4e629bd03461fd3e975965f130df1f839f5e"
+      },
+      "text": {
+        "jp": "実験的な動的入力",
+        "official_en": "Experimental dynamic input",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:UnsupportedExpressionShort:ad1ab374",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "UnsupportedExpressionShort",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:UnsupportedExpressionShort:ad1ab374",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:UnsupportedExpressionShort:ad1ab374",
+        "jp_sha256": "7a80b114da76392b75be55b8b810fe99355cedd6971ce8ac355e205cfc2d037e",
+        "official_en_sha256": "ec97404a04571b188026a4dea246f9d62287645d14e72cf5a55afbb6b30e22c5"
+      },
+      "text": {
+        "jp": "式の入力はサポートされていません",
+        "official_en": "Expression Input Unsupported",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:FailedDynamicInputDeprecationReplacement:3fc66864",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "FailedDynamicInputDeprecationReplacement",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:FailedDynamicInputDeprecationReplacement:3fc66864",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:FailedDynamicInputDeprecationReplacement:3fc66864",
+        "jp_sha256": "0b0dc4e85d0157a348f3cf5e6a69e646a9db2f3ce495d41caecd66a8eef67b8a",
+        "official_en_sha256": "9a08308bda6ff7079a650f3a2c247e71a8eac6956cf9682255fe44becb2bc963"
+      },
+      "text": {
+        "jp": "推奨された置換スクリプトが動的入力でないため、動的入力を置換できませんでした！",
+        "official_en": "Failed to replace dynamic input as recommended replacement script is not a dynamic input!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptNoteShort:4763eb44",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "DynamicInputScriptNoteShort",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptNoteShort:4763eb44",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptNoteShort:4763eb44",
+        "jp_sha256": "be2972d221c88a663e9fa0928dd80678beb5cc23e8359316794e6fabe1fa8e75",
+        "official_en_sha256": "dfb5083f6d641b792f2e5e55ce9ea21619c3a632d452850310dc47b12453af9f"
+      },
+      "text": {
+        "jp": "入力使用時の注記",
+        "official_en": "Input Usage Note",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:InvalidDataInterfaceOverrideShort:3d79a9d3",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "InvalidDataInterfaceOverrideShort",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:InvalidDataInterfaceOverrideShort:3d79a9d3",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:InvalidDataInterfaceOverrideShort:3d79a9d3",
+        "jp_sha256": "b67fbe1c6ae2d36f6994bb21a3d2c83ed2f5befc7f300427ac0c99811ebddc1b",
+        "official_en_sha256": "23463500933cbd5992345e8e791a7dcf9cf7bcb42cdc1fa33a96c3aa5b8e0190"
+      },
+      "text": {
+        "jp": "無効なデータ インターフェース オーバーライド",
+        "official_en": "Invalid data interface override",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:IntegerAsEnumOutsideOfRangeShort:c003b057",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "IntegerAsEnumOutsideOfRangeShort",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:IntegerAsEnumOutsideOfRangeShort:c003b057",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:IntegerAsEnumOutsideOfRangeShort:c003b057",
+        "jp_sha256": "d986b66599b52768a7b406a3963fe4f9e4e36887bc1e08b96c12c12b078faa10",
+        "official_en_sha256": "d3c7d623b5b175387d9401ebfc0c38c634c66cc1c33305b4b4842ee4e4dcfc4f"
+      },
+      "text": {
+        "jp": "無効な値",
+        "official_en": "Invalid value",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:SetConversionInput:1567acbd",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "SetConversionInput",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:SetConversionInput:1567acbd",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:SetConversionInput:1567acbd",
+        "jp_sha256": "8b3d089531e2fc01d4bca9c1caac896c1ac5545dae4621a0188b64b1a33b33fc",
+        "official_en_sha256": "57c435fef7ed2c07565a935271e19f55beea7ad6cf74fe11a5c30ec10609574c"
+      },
+      "text": {
+        "jp": "自動変換動的入力を行う",
+        "official_en": "Make auto-convert dynamic input",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:SetCustomExpressionInput:5c963589",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "SetCustomExpressionInput",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:SetCustomExpressionInput:5c963589",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:SetCustomExpressionInput:5c963589",
+        "jp_sha256": "971ad5dffccdf06d534f375437f1442c597bebb5225b6f72efb4e0bebb26f62d",
+        "official_en_sha256": "3e3f3dba15cf41742fdad0ea73865d4b9766aef63661f407c6393d65cf9a2de9"
+      },
+      "text": {
+        "jp": "カスタム式の入力を行う",
+        "official_en": "Make custom expression input",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:SetDynamicInput:805a8a5f",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "SetDynamicInput",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:SetDynamicInput:805a8a5f",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:SetDynamicInput:805a8a5f",
+        "jp_sha256": "9dbbe2a47c2d55147e9006ec2f1fff69f78fc495ca050f704740aa180aab4f8b",
+        "official_en_sha256": "30fe64ad3fd29d8de69a2e40b7653e7dc2414793f35b1d0a8e19e111d9238dcd"
+      },
+      "text": {
+        "jp": "動的入力を行う",
+        "official_en": "Make dynamic input",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:SetScratch:405413b0",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "SetScratch",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:SetScratch:405413b0",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:SetScratch:405413b0",
+        "jp_sha256": "9a3f5ae67f39845f39900fa1057114157cfb9a849164500ca0d5569fff651504",
+        "official_en_sha256": "f49c74ede1369420636b311724526ab3a45355bce49de1bc981e516cd73939cd"
+      },
+      "text": {
+        "jp": "新しいスクラッチダイナミック入力を作成",
+        "official_en": "Make new scratch dynamic input",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptMissingShort:4ec81eb8",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "DynamicInputScriptMissingShort",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptMissingShort:4ec81eb8",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptMissingShort:4ec81eb8",
+        "jp_sha256": "a5d3fd092b2c63b8d4a86db9c9f73cfc5d234fc9cfad89360e09dd4cebc508cd",
+        "official_en_sha256": "cd0848a4435cb7a17eb1da7ea9337cc87c0c5158575b2cbb9a3c2356400ad5ff"
+      },
+      "text": {
+        "jp": "動的入力スクリプトが存在しません",
+        "official_en": "Missing dynamic input script",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:EmitterUpdateGroupTooltip:9a1758e2",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "EmitterUpdateGroupTooltip",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:EmitterUpdateGroupTooltip:9a1758e2",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:EmitterUpdateGroupTooltip:9a1758e2",
+        "jp_sha256": "a393ccf430d4883a42e49f168628852b9731b6698a7adafa8d370792ae0cb050",
+        "official_en_sha256": "55ad9613e2fe4847aa26fd1347f2019f735fd62ef65ac6ca7d6eae607553766c"
+      },
+      "text": {
+        "jp": "CPU 上のすべてのエミッタ ティックで発生します。このステージのモジュールは、パーティクル更新またはこのフレームをスポーンするためのパラメータの値を計算する必要があります。\r\nモジュールはスタックの上から下の順に実行されます",
+        "official_en": "Occurs every Emitter tick on the CPU. Modules in this stage should compute values for parameters for Particle Update or Spawning this frame.\r\nModules are executed in order from top to bottom of the stack.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:SystemUpdateGroupToolTip:03815426",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "SystemUpdateGroupToolTip",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:SystemUpdateGroupToolTip:03815426",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:SystemUpdateGroupToolTip:03815426",
+        "jp_sha256": "cb61c9f458d1056a7824ba9ff3d00f8cc65c1ffbea82b04c936c6f2f3001f537",
+        "official_en_sha256": "c8a17ca9e4f1a0e1bfb3e5432eeaf696a3f26b843933e08ce09b2510cc58e2e4"
+      },
+      "text": {
+        "jp": "CPU 上でエミッタ ティックごとに発生します。このステージのモジュールは、エミッタまたはパーティクル更新またはこのフレームをスポーンするためのパラメータの値を計算する必要があります。.\r\nモジュールはスタックの上から下の順に実行されます。",
+        "official_en": "Occurs every Emitter tick on the CPU.Modules in this stage should compute values for parameters for emitter or particle update or spawning this frame.\r\nModules are executed in order from top to bottom of the stack.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:EmitterSpawnGroupTooltip:087b0ee5",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "EmitterSpawnGroupTooltip",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:EmitterSpawnGroupTooltip:087b0ee5",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:EmitterSpawnGroupTooltip:087b0ee5",
+        "jp_sha256": "cadf063d5ff209401f03fe76ebfe7757a82f633b7691ff06217e77943fafea43",
+        "official_en_sha256": "9baa0aa0f7b8059dd11c29b559285111acf31d5cd69e86ac4591fbcde9b00860"
+      },
+      "text": {
+        "jp": "CPU 上でのエミッタ作成時に 1 回発生します。このステージのモジュールは、デフォルトを初期化したり、初期設定を行なったりする必要があります。\r\nモジュールはスタックの上から下の順に実行されます。",
+        "official_en": "Occurs once at Emitter creation on the CPU. Modules in this stage should initialize defaults and/or do initial setup.\r\nModules are executed in order from top to bottom of the stack.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:SystemSpawnGroupToolTip:28a4f692",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "SystemSpawnGroupToolTip",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:SystemSpawnGroupToolTip:28a4f692",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:SystemSpawnGroupToolTip:28a4f692",
+        "jp_sha256": "09418cfe91e89af511cc7ad17ce6206f9847437a0af4dd465880f36a1f2f45fe",
+        "official_en_sha256": "d1e4038fdf14064dd2074be94e4e31033270fceb35bc3d2fb4a53c0a20945fc4"
+      },
+      "text": {
+        "jp": "CPU 上でシステム作成時に 1 回発生します。このステージのモジュールは、デフォルトを初期化したり、初期設定を行なったりする必要があります。\r\nモジュールはスタックの上から下の順に実行されます。",
+        "official_en": "Occurs once at System creation on the CPU. Modules in this stage should initialize defaults and/or do initial setup.\r\nModules are executed in order from top to bottom of the stack.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:ParticleSpawnGroupName:159d28ef",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "ParticleSpawnGroupName",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:ParticleSpawnGroupName:159d28ef",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:ParticleSpawnGroupName:159d28ef",
+        "jp_sha256": "c7ba4bab4ea38d3a729f5b1a4f8ac73179af6b7e314303f19c4b710f6020af18",
+        "official_en_sha256": "f30bd9b3f10893ba7befac00d98769faa95ae3a4bbe05ddee79411ffc861b7d9"
+      },
+      "text": {
+        "jp": "パーティクルのスポーン",
+        "official_en": "Particle Spawn",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:ParticleUpdateGroupName:42d892d6",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "ParticleUpdateGroupName",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:ParticleUpdateGroupName:42d892d6",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:ParticleUpdateGroupName:42d892d6",
+        "jp_sha256": "05aefb421119606bf51a069999d32a69402a5514c675f1b6a2db89cc8e75e491",
+        "official_en_sha256": "f99e1f0b6cc0953cef775b84d0e6f5f3fabea873554b042908294d7fd3745dfb"
+      },
+      "text": {
+        "jp": "パーティクル更新",
+        "official_en": "Particle Update",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:PasteInputTransactionText:fb0f740b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "PasteInputTransactionText",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:PasteInputTransactionText:fb0f740b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:PasteInputTransactionText:fb0f740b",
+        "jp_sha256": "6166f856a22afb42adbb1cfa019fb4cfb42fb65bc868cceb568b16ab5cfb78aa",
+        "official_en_sha256": "a252b2cdd5fa217e29513f6aa708cb7dc2def541681333565a360987160d96b9"
+      },
+      "text": {
+        "jp": "Niagara 入力を貼り付け",
+        "official_en": "Paste Niagara inputs",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:PasteWithConversionMessage:054d800e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "PasteWithConversionMessage",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:PasteWithConversionMessage:054d800e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:PasteWithConversionMessage:054d800e",
+        "jp_sha256": "27f64effa380269cba59c8eae1b9c00ebb943385020985f28d8795833077f593",
+        "official_en_sha256": "c22917c14e608d376e764206df1581c0403016f17b923c733674e9fb81da126e"
+      },
+      "text": {
+        "jp": "クリップボードからの入力をここに貼り付けると、動的入力を使用して自動的に変換されます。",
+        "official_en": "Paste the input from the clipboard here and auto-convert it with a dynamic input.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:PasteMessage:6b43aa7e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "PasteMessage",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:PasteMessage:6b43aa7e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:PasteMessage:6b43aa7e",
+        "jp_sha256": "5c6ee46225b6d7426d4d61111fdf767dabdb7f0bfc57fe16de59a8a8ce6b633c",
+        "official_en_sha256": "b5c79e16716ea4b8433173fdf659412112af4687e6aefaa287599862a296e999"
+      },
+      "text": {
+        "jp": "クリップボードからの入力をここに貼り付けます。",
+        "official_en": "Paste the input from the clipboard here.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:PasteValueMessage:9bc16e5a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "PasteValueMessage",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:PasteValueMessage:9bc16e5a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:PasteValueMessage:9bc16e5a",
+        "jp_sha256": "bfc8f0c891845571647e212b249c21fc0cb23ea7dfc589c26046d348e90411eb",
+        "official_en_sha256": "14109384423044a2c3bc4979381784eec6654ef6c1a17bfa23bba247b22b47bf"
+      },
+      "text": {
+        "jp": "値をクリップボードからここにペーストします",
+        "official_en": "Paste the value from the clipboard here.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:UnsupportedPortableValueMessage:8caff408",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "UnsupportedPortableValueMessage",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:UnsupportedPortableValueMessage:8caff408",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:UnsupportedPortableValueMessage:8caff408",
+        "jp_sha256": "5aef0381fbc743696cccb126a02a45aec82c126d0fa687f11f9774d8a1020e06",
+        "official_en_sha256": "98fe3a0ff2549f4025c4d56834797e1db9264b537ab9e8e8ebad4054d1795c22"
+      },
+      "text": {
+        "jp": "コピーされた値をこの入力にペーストすることはサポートされていません",
+        "official_en": "Pasting the copied value to this input is unsupported.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:ReassignDynamicInputTransaction:b0020e5b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "ReassignDynamicInputTransaction",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:ReassignDynamicInputTransaction:b0020e5b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:ReassignDynamicInputTransaction:b0020e5b",
+        "jp_sha256": "403e94e33de77fcb9c0f8da587639db77df5be768d2c75be764c50cac261ff81",
+        "official_en_sha256": "4b118f9333882ee12c12af815e12b2cdf41753747defc4626c7eaf84bbdee3d1"
+      },
+      "text": {
+        "jp": "動的入力スクリプトを再度割り当てます",
+        "official_en": "Reassign dynamic input script",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:RemoveInputTransaction:a51497ec",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "RemoveInputTransaction",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:RemoveInputTransaction:a51497ec",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:RemoveInputTransaction:a51497ec",
+        "jp_sha256": "3cd1f3cfdf63e6384ed21f2c2b75628f50bef3c8573e437c196f752c7c1b38cd",
+        "official_en_sha256": "154c3949c240f109b77d22e5142af9bb5a5055076eca7cff73c151e2d14fec4e"
+      },
+      "text": {
+        "jp": "入力を削除",
+        "official_en": "Remove Input",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:RenameInput:77bf86fd",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "RenameInput",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:RenameInput:77bf86fd",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:RenameInput:77bf86fd",
+        "jp_sha256": "3b58325e6de9b9517ead9f41256f0269eb230689afae9648eea18dc0ee4a5f30",
+        "official_en_sha256": "de8522dc3391ec81adc978d7776ddf131cd6bc91c61c1ca87f9434386167358a"
+      },
+      "text": {
+        "jp": "この関数の入力名を変更します。",
+        "official_en": "Rename this function's input.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetInputLinkedValueTransaction:d2d38f70",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "ResetInputLinkedValueTransaction",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetInputLinkedValueTransaction:d2d38f70",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetInputLinkedValueTransaction:d2d38f70",
+        "jp_sha256": "8f277ecda96e981b402f17eae1345c61eb1a00f14f858192f3a55c529d752e93",
+        "official_en_sha256": "47c9f1cf1e4218ef82ec0a2db78cf6d3dea6a10f19478b448ced82705bcf1020"
+      },
+      "text": {
+        "jp": "入力をデフォルトでリンクした値にリセットします。",
+        "official_en": "Reset the input to its default linked value.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetInputLocalValueTransaction:c7e5d417",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "ResetInputLocalValueTransaction",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetInputLocalValueTransaction:c7e5d417",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetInputLocalValueTransaction:c7e5d417",
+        "jp_sha256": "8e5c31a9e3756108134fd25ba9ac7fcc88c126a1ec7ae75668cbab38cfe97c15",
+        "official_en_sha256": "5fb558d40e2d7331128c40fe7c03e8c3d28c66249f116e501d9d366af9617ed6"
+      },
+      "text": {
+        "jp": "入力をデフォルトのローカル値にリセットします。",
+        "official_en": "Reset the input to its default local value.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetInputValueTransaction:e3167ce5",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "ResetInputValueTransaction",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetInputValueTransaction:e3167ce5",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetInputValueTransaction:e3167ce5",
+        "jp_sha256": "d8274350c922ebcddcd6224461347d473d7634540262df709e581e2e5c8ad9de",
+        "official_en_sha256": "ea3c608c7be163b23a5cfd2becd9c4893fbeaaf082a9ea81cb986115844d8449"
+      },
+      "text": {
+        "jp": "入力をデフォルト値にリセットします。",
+        "official_en": "Reset the input to its default value.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetInputObjectTransaction:93f5b749",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "ResetInputObjectTransaction",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetInputObjectTransaction:93f5b749",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetInputObjectTransaction:93f5b749",
+        "jp_sha256": "629490a9a976919ec4399ee9e0f69bb1dfc9a62578bda021d7e971a1ec700fbf",
+        "official_en_sha256": "dbc1006a63d89c68a3f86fab6e01de33c6ffc2c35cab778666fa9fd8ceb0f417"
+      },
+      "text": {
+        "jp": "入力データ インターフェース オブジェクトをデフォルトにリセットします。",
+        "official_en": "Reset the inputs data interface object to default.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetInputObjectAssetTransaction:0ada2d55",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "ResetInputObjectAssetTransaction",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetInputObjectAssetTransaction:0ada2d55",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetInputObjectAssetTransaction:0ada2d55",
+        "jp_sha256": "e402e575e4b7bd9189f9e16714fad1739434764ac929becaf9be95e229180bad",
+        "official_en_sha256": "4d8da932692d6e6408b74006c16cc57fa965de3f49ea4549b74bf27ca5d75638"
+      },
+      "text": {
+        "jp": "入力オブジェクトをデフォルトにリセットします",
+        "official_en": "Reset the inputs object to default.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetDataInterfaceInputFix:fd8a31c1",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "ResetDataInterfaceInputFix",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetDataInterfaceInputFix:fd8a31c1",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetDataInterfaceInputFix:fd8a31c1",
+        "jp_sha256": "dda0f626a8e2c00781e3afc82ebe1994259a0f39038e830d985ee6999ad3ffea",
+        "official_en_sha256": "8b05464109850144a04a2940b8566a2217641d5bcb5797b689b671507dc300a8"
+      },
+      "text": {
+        "jp": "この入力をデフォルト値にリセットします",
+        "official_en": "Reset this input to its default value",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetDynamicInputFix:fee3a210",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "ResetDynamicInputFix",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetDynamicInputFix:fee3a210",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetDynamicInputFix:fee3a210",
+        "jp_sha256": "dda0f626a8e2c00781e3afc82ebe1994259a0f39038e830d985ee6999ad3ffea",
+        "official_en_sha256": "8b05464109850144a04a2940b8566a2217641d5bcb5797b689b671507dc300a8"
+      },
+      "text": {
+        "jp": "この入力をデフォルト値にリセットします",
+        "official_en": "Reset this input to its default value",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetFix:f9ac0ff1",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "ResetFix",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetFix:f9ac0ff1",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetFix:f9ac0ff1",
+        "jp_sha256": "dda0f626a8e2c00781e3afc82ebe1994259a0f39038e830d985ee6999ad3ffea",
+        "official_en_sha256": "8b05464109850144a04a2940b8566a2217641d5bcb5797b689b671507dc300a8"
+      },
+      "text": {
+        "jp": "この入力をデフォルト値にリセットします",
+        "official_en": "Reset this input to its default value",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetInputToBaseTransaction:ecebb981",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "ResetInputToBaseTransaction",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetInputToBaseTransaction:ecebb981",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:ResetInputToBaseTransaction:ecebb981",
+        "jp_sha256": "724ef1948270ee52c4ad6930442c1b42ae2a7d0293c421f5131ae046be941276",
+        "official_en_sha256": "867de8066ac91a8094fce5a545e2959249a096d2ccf33489b4578d08acfa75eb"
+      },
+      "text": {
+        "jp": "この入力を親エミッタと一致するようにリセットします。",
+        "official_en": "Reset this input to match the parent emitter.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:SelectNewDynamicInputScriptFix:d6b233b6",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "SelectNewDynamicInputScriptFix",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:SelectNewDynamicInputScriptFix:d6b233b6",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:SelectNewDynamicInputScriptFix:d6b233b6",
+        "jp_sha256": "aadb0cdde2442f5360b5aaca5021b1df6cedb5dfb3622cd11773941425c7152c",
+        "official_en_sha256": "f3ca0b5abc8f15d8f1bf0d2abc3c2f551a95b294b85c5d75b62dd8e3adc1b1d9"
+      },
+      "text": {
+        "jp": "新しいダイナミック入力スクリプトを選択",
+        "official_en": "Select a new dynamic input script",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:EmitterSummaryTooltip:d0160e1b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "EmitterSummaryTooltip",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:EmitterSummaryTooltip:d0160e1b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:EmitterSummaryTooltip:d0160e1b",
+        "jp_sha256": "5c471cca0bf3ddb45a249e403e282633154eb0f2b48d10b15e62fb250fc9c718",
+        "official_en_sha256": "eac3879ed08541ed56eb7d2190abc92df02854da3ae5415e25333e0665a09553"
+      },
+      "text": {
+        "jp": "このエミッタ用に対するパラメータの概要。",
+        "official_en": "Summary of parameters for this Emitter.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:SystemSpawnGroupName:cffb8bb8",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "SystemSpawnGroupName",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:SystemSpawnGroupName:cffb8bb8",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:SystemSpawnGroupName:cffb8bb8",
+        "jp_sha256": "9710bc8623d015016699a21529acfae44d73965fd258e7f6a2f0db93b894d3cc",
+        "official_en_sha256": "21fd50f245871c5d5b74dcf89ce02a521669eb6cf72eefbf94906b79832746c1"
+      },
+      "text": {
+        "jp": "システムスポーン",
+        "official_en": "System Spawn",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:SystemUpdateGroupName:7d8fcf2f",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "SystemUpdateGroupName",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:SystemUpdateGroupName:7d8fcf2f",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:SystemUpdateGroupName:7d8fcf2f",
+        "jp_sha256": "852d860c5f126cffba40b1cf541635c2f5473637668aa1c38087d25f5b3045c3",
+        "official_en_sha256": "ed64017ed1a36cf9f60ac03c5b0302f4e5a7ebafcd1cb9e38a7caf6fe0994c47"
+      },
+      "text": {
+        "jp": "システム更新",
+        "official_en": "System Update",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:IntegerAsEnumOutsideOfRangeLong:ee94cd8e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "IntegerAsEnumOutsideOfRangeLong",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:IntegerAsEnumOutsideOfRangeLong:ee94cd8e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:IntegerAsEnumOutsideOfRangeLong:ee94cd8e",
+        "jp_sha256": "b1046b40d859e80f1787fd9d7ff2aaf3a2295eb539d1667c29a3c6ce0e48a3dd",
+        "official_en_sha256": "a63bd6b4aa1b17f5c2a966895e345f58253bfb9a8a448ca91a62ee24b2bf87ed"
+      },
+      "text": {
+        "jp": "選択された値は有効ではありません。新しい有効なエントリを選択してください",
+        "official_en": "The chosen value is not valid. Please choose a new valid entry.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:CantCopyInvalidMessage:5e5a66b0",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "CantCopyInvalidMessage",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:CantCopyInvalidMessage:5e5a66b0",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:CantCopyInvalidMessage:5e5a66b0",
+        "jp_sha256": "08e21c2bd9a1f3d2c7b8821535e9fe974d50d6be1723f857c9f47297525db9a9",
+        "official_en_sha256": "809b1bd6f0cd2ace7d8c56b54bb23811098fd74543efde41e84d7c25e59052fe"
+      },
+      "text": {
+        "jp": "現在の入力状態ではコピーがサポートされていません。",
+        "official_en": "The current input state doesn't support copying.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:CantCutInvalidMessage:997e4cbe",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "CantCutInvalidMessage",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:CantCutInvalidMessage:997e4cbe",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:CantCutInvalidMessage:997e4cbe",
+        "jp_sha256": "c8c44033c5600440919f78dd3670c5ff7ca54b9b89b4f35fa69c9cf48ac81d1b",
+        "official_en_sha256": "82dee39894759c884f6d8771fab9bc2ea3f3e26940889f953c20c5d79598c315"
+      },
+      "text": {
+        "jp": "現在の入力状態では切り取りがサポートされていません。",
+        "official_en": "The current input state doesn't support cutting.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:UnsupportedDefault:27f86629",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "UnsupportedDefault",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:UnsupportedDefault:27f86629",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:UnsupportedDefault:27f86629",
+        "jp_sha256": "e4e1ba22279529c3b708459027de3a28137a86204e19936b7226004ff8a7c841",
+        "official_en_sha256": "2dd2a013b478a57c5dd11ed2fd8fa5ae283c091d2270ee948d3231e67e29ab8d"
+      },
+      "text": {
+        "jp": "スクリプト グラフで定義されているデフォルト値は\nカスタム値であり、選択スタックでは表示できません",
+        "official_en": "The default value defined in the script graph\nis custom and can not be shown in the selection stack.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptMissingLong:b529eddf",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "DynamicInputScriptMissingLong",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptMissingLong:b529eddf",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptMissingLong:b529eddf",
+        "jp_sha256": "dab79fe9e30cf15e921e7a9527705e54f311db3e5fd92a4e7ae195aa289d9276",
+        "official_en_sha256": "d3fd5bc82df95dcb96056f958f62802332f1c455cdf061b9bd6bc112dc5cc38e"
+      },
+      "text": {
+        "jp": "割り当てられたダイナミック入力 {0} のスクリプト アセットが存在しません。",
+        "official_en": "The script asset for the assigned dynamic input {0} is missing.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptDeprecationUnknownLong:68a59f6d",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "DynamicInputScriptDeprecationUnknownLong",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptDeprecationUnknownLong:68a59f6d",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptDeprecationUnknownLong:68a59f6d",
+        "jp_sha256": "6f4edcf33d3e741b9d10297f43e912a40f432abcf0af5c6f675ea14e0d2fdcb0",
+        "official_en_sha256": "68164b8640f7e421b942e88de67f47973a9c7686221ce6fcd78b88b908566552"
+      },
+      "text": {
+        "jp": "割り当てられたダイナミック入力 {ScriptName} のスクリプト アセットは廃止されています。",
+        "official_en": "The script asset for the assigned dynamic input {ScriptName} has been deprecated.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptDeprecationMessageLong:465565b8",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "DynamicInputScriptDeprecationMessageLong",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptDeprecationMessageLong:465565b8",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptDeprecationMessageLong:465565b8",
+        "jp_sha256": "e576807f22df7986416d9c359e4873374584ca3ce5aa770641741518ffad85a7",
+        "official_en_sha256": "8dd533b84b489e8b932d44146c06030a8829138dfa544544d1aa7a87dea7eaca"
+      },
+      "text": {
+        "jp": "割り当てられたダイナミック入力 {ScriptName} のスクリプト アセットは廃止されています。理由は次のとおりです。\n{Message}。",
+        "official_en": "The script asset for the assigned dynamic input {ScriptName} has been deprecated. Reason:\n{Message}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptDeprecationMessageAndRecommendationLong:6b8e7373",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "DynamicInputScriptDeprecationMessageAndRecommendationLong",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptDeprecationMessageAndRecommendationLong:6b8e7373",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptDeprecationMessageAndRecommendationLong:6b8e7373",
+        "jp_sha256": "75712a5a50ffc139dfbcbd73f1c30e76b3830c9bea65a374cea94b57e9faeadb",
+        "official_en_sha256": "faf12542ae11795e1de22897053911218122a7dab19b00514546a919d83ff156"
+      },
+      "text": {
+        "jp": "割り当てられたダイナミック入力 {ScriptName} のスクリプト アセットは廃止されています。理由は次のとおりです。\n{Message}。\n推奨の代替案：{Recommendation}",
+        "official_en": "The script asset for the assigned dynamic input {ScriptName} has been deprecated. Reason:\n{Message}.\nSuggested replacement: {Recommendation}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptDeprecationLong:03e2435a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "DynamicInputScriptDeprecationLong",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptDeprecationLong:03e2435a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptDeprecationLong:03e2435a",
+        "jp_sha256": "81fb5b9f8b5e5b16c92618104e85b89b7c6fb63577bf866191839c54d2c8f13b",
+        "official_en_sha256": "d4e3a3b812110b52608036cf193dff7fd0033ecd9046e0338c4315852faa9fa3"
+      },
+      "text": {
+        "jp": "割り当てられたダイナミック入力 {ScriptName} のスクリプト アセットは廃止されています。推奨の代替案：{Recommendation}",
+        "official_en": "The script asset for the assigned dynamic input {ScriptName} has been deprecated. Suggested replacement: {Recommendation}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptExperimental:92661461",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "DynamicInputScriptExperimental",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptExperimental:92661461",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptExperimental:92661461",
+        "jp_sha256": "c2a137d72ca3af3ec9f8f7e7c7565886075d68c60cad2d4357b9773a7497d50b",
+        "official_en_sha256": "77d3cca81cf36e07e915461586042d1accad296d99a0d1891df720c9397f261c"
+      },
+      "text": {
+        "jp": "ダイナミック入力のスクリプト アセット {0} は実験段階です。慎重にご利用ください。",
+        "official_en": "The script asset for the dynamic input {0} is experimental, use with care!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptExperimentalReason:ff669f08",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "DynamicInputScriptExperimentalReason",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptExperimentalReason:ff669f08",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:DynamicInputScriptExperimentalReason:ff669f08",
+        "jp_sha256": "4fda815cfd6544bf115d03f567ee20129e0b6715b94310648188b730cc996299",
+        "official_en_sha256": "15039cb0c0a2c31622b383f5bad88715bb8a0b0692d2938c9f99f9a8b6827869"
+      },
+      "text": {
+        "jp": "動的入力 {Function} 用のスクリプト アセットは実験的機能です。理由：{Message}",
+        "official_en": "The script asset for the dynamic input {Function} is experimental, reason: {Message}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:InvalidOverrideToolTip:cb19bc8a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "InvalidOverrideToolTip",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:InvalidOverrideToolTip:cb19bc8a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:InvalidOverrideToolTip:cb19bc8a",
+        "jp_sha256": "08a9421458c6b09ba398d7764fb0b7b912f19ab21fddf2b928978c96bcb7971c",
+        "official_en_sha256": "a072656f9957287c57e76ab8a19082bdb0910336b93c05fe5053efcdeda263f2"
+      },
+      "text": {
+        "jp": "スクリプトはこの\n入力に対して無効かつ修復不可能な状態です。デフォルトにリセットすることで問題を解決できる場合があります。",
+        "official_en": "The script is in an invalid and unrecoverable state for this\ninput.  Resetting to default may fix this issue.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:TooManyConversionScripts:6fac3d47",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "TooManyConversionScripts",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:TooManyConversionScripts:6fac3d47",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:TooManyConversionScripts:6fac3d47",
+        "jp_sha256": "8fad08cd4f53ca1ef601a8faf45ad5a4dee6ea7df25e883eabcbd15de35966b3",
+        "official_en_sha256": "fe3e1af9b72c61c526991188f26600699ecc33f5e750f513a26168a04dc99270"
+      },
+      "text": {
+        "jp": "ドラッグ パラメータの自動変換に利用できる、複数の動的入力スクリプトがあります。この問題を修正するには 1 つを除きすべての変換を無効にしてください。\n{0}",
+        "official_en": "There is more than one dynamic input script available auto-convert the dragged parameter. Please fix this by disabling conversion for all but one of them:\n{0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:InvalidDataInterfaceOverrideLong:80d5bc77",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "InvalidDataInterfaceOverrideLong",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:InvalidDataInterfaceOverrideLong:80d5bc77",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:InvalidDataInterfaceOverrideLong:80d5bc77",
+        "jp_sha256": "3e8cfd49858584aa0e4a38b1b0ca0f289e4acf3172729e59ad3f45c3d2ec3a2e",
+        "official_en_sha256": "fcb8325b1f38be6001a2690fc8460febf8c7185f7105c1c3c4c5f6ebc425dcff"
+      },
+      "text": {
+        "jp": "データ インターフェース入力がバインディングなしで作成されるため、入力に割り当てられた有効な値がありません。スタックから有効な参照をリンクするか、「Fix issue」を実行して、バインディングにデフォルト値を入力してください。",
+        "official_en": "There is no valid value assigned for the input, because data interface inputs are created without a binding. Please link a valid reference from the stack or hit 'Fix issue' to populate the binding with a default value.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:UnsupportedDynamicInputScriptLong:866cd3f7",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "UnsupportedDynamicInputScriptLong",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:UnsupportedDynamicInputScriptLong:866cd3f7",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:UnsupportedDynamicInputScriptLong:866cd3f7",
+        "jp_sha256": "b48fcc3fe3cd8f5424d5fad4edf324d8e3a34dd2858f3de6b12ffaf4eb76d9e9",
+        "official_en_sha256": "e8c1264808696c2c1d42046609fb87c26046d8658cb92597202732c1ef509776"
+      },
+      "text": {
+        "jp": "この動的入力は、このエディタ コンテキストでサポートされていないタイプを使用するスクリプトを使用しています。この動的入力を削除するか、参照するスクリプトを修正する必要があります",
+        "official_en": "This dynamic input uses a script which uses types which are unsupported in this editor context.  This dynamic input must either be deleted, or the referenced script must be fixed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:UnDismissIssues:5dc5e206",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "UnDismissIssues",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:UnDismissIssues:5dc5e206",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:UnDismissIssues:5dc5e206",
+        "jp_sha256": "7cf3ca42b382a95ddd2c91d897e23962a35ff591952c0b3c9bf1ea036583fddd",
+        "official_en_sha256": "cca6596d020a731e6656adbfca4759d1b1963b91ff0278d2531f9af066dce633"
+      },
+      "text": {
+        "jp": "問題の却下を取り消し",
+        "official_en": "Undismiss issues",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:UnsupportedDynamicInputScriptShort:9ccd72f6",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "UnsupportedDynamicInputScriptShort",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:UnsupportedDynamicInputScriptShort:9ccd72f6",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:UnsupportedDynamicInputScriptShort:9ccd72f6",
+        "jp_sha256": "e0a428c492eec33caea710601eaf9ac1f1fae44c276d829aeff40beaa5c61778",
+        "official_en_sha256": "4ea1c956fb2cb58a3106bb11ae67365aff1d6632e0904953bf514d162666e11d"
+      },
+      "text": {
+        "jp": "サポートされていない動的入力スクリプト",
+        "official_en": "Unsupported Dynamic Input Script",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:UpdateInputLocalDataValue:58dbba9c",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "UpdateInputLocalDataValue",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:UpdateInputLocalDataValue:58dbba9c",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:UpdateInputLocalDataValue:58dbba9c",
+        "jp_sha256": "1bd927b5ce8be860128308031ff24a04e1b8a794590486a8b26a28eebeb951df",
+        "official_en_sha256": "a9eb7be8608923fec8e09dab28081d3e805d84120afa3ca600bc0a6f74430f4c"
+      },
+      "text": {
+        "jp": "入力されたローカルデータインターフェース値を更新",
+        "official_en": "Update input local data interface value",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:UpdateInputLocalValue:6cef6142",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "UpdateInputLocalValue",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:UpdateInputLocalValue:6cef6142",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:UpdateInputLocalValue:6cef6142",
+        "jp_sha256": "fb87dd13f59c90425ed1775fcb44311dfd634622a7c65878a504482a1d74569b",
+        "official_en_sha256": "bd6d4d0c2625c9bffded3ed5f6e756dbbc66edabb89a38717928e98794c117a5"
+      },
+      "text": {
+        "jp": "入力されたローカル値を更新",
+        "official_en": "Update input local value",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:UpdateLinkedInputValue:456f3d2e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "UpdateLinkedInputValue",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:UpdateLinkedInputValue:456f3d2e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:UpdateLinkedInputValue:456f3d2e",
+        "jp_sha256": "19e29502cedd1bd2e71839efd4695c123098de1c385df14e774d7203d9d36fa3",
+        "official_en_sha256": "1211152000d1e302218c6e4128c054676db677f3eb3ee86f0dacd6066430367b"
+      },
+      "text": {
+        "jp": "リンクした入力値を更新",
+        "official_en": "Update linked input value",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:UnsupportedExpressionLong:933ff6c7",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "UnsupportedExpressionLong",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:UnsupportedExpressionLong:933ff6c7",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:UnsupportedExpressionLong:933ff6c7",
+        "jp_sha256": "52b1a201b953bb4e25f66bd6abe8dd9e2751366aa69ec3461f329b4415b27803",
+        "official_en_sha256": "5dcc88504ece3aa2da2aba6f98013cff82f201d1a9f1ca555700241a63910a7e"
+      },
+      "text": {
+        "jp": "関数の入力で式を使用することは、現在のエディタのコンテキストでは現時点ではサポートされていません",
+        "official_en": "Use of expressions for function inputs is not currently supported in the current editor context.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:SelectNewDynamicInputScriptFixUseRecommended:3d5a309b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "SelectNewDynamicInputScriptFixUseRecommended",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:SelectNewDynamicInputScriptFixUseRecommended:3d5a309b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:SelectNewDynamicInputScriptFixUseRecommended:3d5a309b",
+        "jp_sha256": "9a89aaa5d75a325820f8965f112902895aadcf0d138684eb08f23eca33356c04",
+        "official_en_sha256": "78e28026b9e1fc08514d72e096d31e01edec6191791d271141b264fb86182e60"
+      },
+      "text": {
+        "jp": "推奨される代替案を使用する",
+        "official_en": "Use recommended replacement",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:VisibleConditionErrorShort:b5056c7e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "VisibleConditionErrorShort",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:VisibleConditionErrorShort:b5056c7e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:VisibleConditionErrorShort:b5056c7e",
+        "jp_sha256": "f3dfac21729b360ad63f5733f75b56f9747397ee0610c34bbd89c86ee8840731",
+        "official_en_sha256": "f49a4e4d3e081bf38ccc2f67ed44fde5c1965530c6559127e01ee93beee1c292"
+      },
+      "text": {
+        "jp": "表示条件エラー",
+        "official_en": "Visible condition error",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:VisibleConditionErrorLongFormat:fa9bfbed",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "VisibleConditionErrorLongFormat",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:VisibleConditionErrorLongFormat:fa9bfbed",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:VisibleConditionErrorLongFormat:fa9bfbed",
+        "jp_sha256": "965a8fbdcf7c957ed8169face754bdc2a9a70ea213cc50c0268605d9c8530a0a",
+        "official_en_sha256": "81f54b586ec43235fb6c8321507675513d37701ebb53e6d06d7b2de31b3ee79f"
+      },
+      "text": {
+        "jp": "表示条件をバインドできませんでした。関数：{0} 入力：{1} メッセージ：{2}",
+        "official_en": "Visible condition failed to bind.  Function: {0} Input: {1} Message: {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:OutputVariableWithDescTooltip:f7b737eb",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "OutputVariableWithDescTooltip",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:OutputVariableWithDescTooltip:f7b737eb",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:OutputVariableWithDescTooltip:f7b737eb",
+        "jp_sha256": "21eb21206182978aaddaadb499938dd50bb1fa2c6ee20cd7a89bac4766ca8b25",
+        "official_en_sha256": "21eb21206182978aaddaadb499938dd50bb1fa2c6ee20cd7a89bac4766ca8b25"
+      },
+      "text": {
+        "jp": "{0}\n{1}",
+        "official_en": "{0}\n{1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraStackViewModel:OutputVariableTooltip:3a18ced4",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraStackViewModel",
+        "key": "OutputVariableTooltip",
+        "jp_record_id": "switch:locres:set-01:NiagaraStackViewModel:OutputVariableTooltip:3a18ced4",
+        "official_en_record_id": "switch:locres:set-01:NiagaraStackViewModel:OutputVariableTooltip:3a18ced4",
+        "jp_sha256": "fa1e7180cf6c8ea611aeffecae3ff04d94f9558bbd8f2c69960ac883c1f31595",
+        "official_en_sha256": "fa1e7180cf6c8ea611aeffecae3ff04d94f9558bbd8f2c69960ac883c1f31595"
+      },
+      "text": {
+        "jp": "{0} ({1})",
+        "official_en": "{0} ({1})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

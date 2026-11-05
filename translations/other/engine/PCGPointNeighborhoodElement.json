@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGPointNeighborhoodElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGPointNeighborhoodElement:NodeTooltip:dbf7490e",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGPointNeighborhoodElement",
+        "key": "NodeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGPointNeighborhoodElement:NodeTooltip:dbf7490e",
+        "official_en_record_id": "switch:locres:set-01:PCGPointNeighborhoodElement:NodeTooltip:dbf7490e",
+        "jp_sha256": "b9301c591fd04230fe75649ada42acc754c058cfac19fac04302df0dbced969b",
+        "official_en_sha256": "9de8cedf26b73ef80c2d13828c6272be13096748cf3acbfbc486c1acb3cfc1d5"
+      },
+      "text": {
+        "jp": "隣接ポイントからの平均密度、色、位置などの量を計算します",
+        "official_en": "Computes quantities from nearby neighbor points, such as average density, color, and position.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGPointNeighborhoodElement:InvalidPointData:bc6f17d0",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGPointNeighborhoodElement",
+        "key": "InvalidPointData",
+        "jp_record_id": "switch:locres:set-01:PCGPointNeighborhoodElement:InvalidPointData:bc6f17d0",
+        "official_en_record_id": "switch:locres:set-01:PCGPointNeighborhoodElement:InvalidPointData:bc6f17d0",
+        "jp_sha256": "24527eb1a89455462f50da2dda1359202accf9e9f83180d4b773143583d47560",
+        "official_en_sha256": "c668f2911efd6df742d7fc0c40391ddc4534e710c496d9eebc12c18c251c4de2"
+      },
+      "text": {
+        "jp": "入力 {0} がポイント データではありません",
+        "official_en": "Input {0} is not point data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGPointNeighborhoodElement:NodeTitle:f33a0fc4",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGPointNeighborhoodElement",
+        "key": "NodeTitle",
+        "jp_record_id": "switch:locres:set-01:PCGPointNeighborhoodElement:NodeTitle:f33a0fc4",
+        "official_en_record_id": "switch:locres:set-01:PCGPointNeighborhoodElement:NodeTitle:f33a0fc4",
+        "jp_sha256": "91bd80c4f5e03d20b95a7062f5c20567d17ee49a51ccbc9ca9740f67afe61747",
+        "official_en_sha256": "91bd80c4f5e03d20b95a7062f5c20567d17ee49a51ccbc9ca9740f67afe61747"
+      },
+      "text": {
+        "jp": "Point Neighborhood",
+        "official_en": "Point Neighborhood",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGPointNeighborhoodElement:InvalidSearchDistance:db163366",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGPointNeighborhoodElement",
+        "key": "InvalidSearchDistance",
+        "jp_record_id": "switch:locres:set-01:PCGPointNeighborhoodElement:InvalidSearchDistance:db163366",
+        "official_en_record_id": "switch:locres:set-01:PCGPointNeighborhoodElement:InvalidSearchDistance:db163366",
+        "jp_sha256": "a125cd372dc5841567287a9139c5353a49924ea89d410f68b3ecff5d12f132ea",
+        "official_en_sha256": "48c52b2271559b31aa458e574ebe7d039b9dbc800e510d532641a1d3108ed9bf"
+      },
+      "text": {
+        "jp": "検索距離は 0 より大きい値である必要があります",
+        "official_en": "Search Distance must be greater than 0.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SceneStateBindingCompiler",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SceneStateBindingCompiler:InaccessibleSourceError:c6f16ca1",
+      "source": {
+        "set": "set-02",
+        "namespace": "SceneStateBindingCompiler",
+        "key": "InaccessibleSourceError",
+        "jp_record_id": "switch:locres:set-01:SceneStateBindingCompiler:InaccessibleSourceError:c6f16ca1",
+        "official_en_record_id": "switch:locres:set-01:SceneStateBindingCompiler:InaccessibleSourceError:c6f16ca1",
+        "jp_sha256": "0f032175f9b77b943f7586b878f16e58375e6a6479d1c369f7261869d068fc38",
+        "official_en_sha256": "f52074d266f060e2b49848eed54cff8963c456b27aeb3917565dfeca1e3793ac"
+      },
+      "text": {
+        "jp": "ソース「{0}」をターゲット「{1}」にバインドすることはできません。アクセスできない (別のスコープにある) ためです",
+        "official_en": "Source '{0}' cannot be bound to target '{1}' because it's inaccessible (in another scope)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SceneStateBindingCompiler:InvalidSourceHandleError:8bf4741a",
+      "source": {
+        "set": "set-02",
+        "namespace": "SceneStateBindingCompiler",
+        "key": "InvalidSourceHandleError",
+        "jp_record_id": "switch:locres:set-01:SceneStateBindingCompiler:InvalidSourceHandleError:8bf4741a",
+        "official_en_record_id": "switch:locres:set-01:SceneStateBindingCompiler:InvalidSourceHandleError:8bf4741a",
+        "jp_sha256": "22c22b8260fae001d781e47fcd1df957ef786f4419b52bd2896633c255795a85",
+        "official_en_sha256": "d919a896a969f43dc8e115a17b9933e47339fb23e3899ba0ae8f5c6a53b467ae"
+      },
+      "text": {
+        "jp": "ソース「{0}」のデータ ハンドルが見つかりませんでした",
+        "official_en": "Source '{0}' data handle was not found",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SceneStateBindingCompiler:InvalidTargetHandleError:bbe5fb14",
+      "source": {
+        "set": "set-02",
+        "namespace": "SceneStateBindingCompiler",
+        "key": "InvalidTargetHandleError",
+        "jp_record_id": "switch:locres:set-01:SceneStateBindingCompiler:InvalidTargetHandleError:bbe5fb14",
+        "official_en_record_id": "switch:locres:set-01:SceneStateBindingCompiler:InvalidTargetHandleError:bbe5fb14",
+        "jp_sha256": "fe821833d51d7570e2032f47f364a84db6598d788346b7a6f8ad240650942059",
+        "official_en_sha256": "03d8df49a27610e4ec58d4a63cc57a5672b11530690e6645e1ed70d6dcbe9faf"
+      },
+      "text": {
+        "jp": "ターゲット「{0}」のデータ ハンドルが見つかりませんでした",
+        "official_en": "Target '{0}' data handle was not found",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

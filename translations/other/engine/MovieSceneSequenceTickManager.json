@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MovieSceneSequenceTickManager",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MovieSceneSequenceTickManager:ExistingClients:06478c41",
+      "source": {
+        "set": "set-02",
+        "namespace": "MovieSceneSequenceTickManager",
+        "key": "ExistingClients",
+        "jp_record_id": "switch:locres:set-01:MovieSceneSequenceTickManager:ExistingClients:06478c41",
+        "official_en_record_id": "switch:locres:set-01:MovieSceneSequenceTickManager:ExistingClients:06478c41",
+        "jp_sha256": "d3cc6050a3ae9d7a3e662e162baf21e00d92d8a4d51ef8828b6597edfbd1687b",
+        "official_en_sha256": "15df75731cbf00bedf5f54ec3023be8bcc17df83bdfb80c9384ceb8b1cb37954"
+      },
+      "text": {
+        "jp": " {0} マイクロ秒のティック クライアントを、間隔が {1} ミリ秒で割り当てが {2} マイクロ秒のグループに入れています。既存のクライアント： ",
+        "official_en": " with budget of {0}μs into group with an interval of {1}ms and budget of {2}μs. Existing clients: ",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MovieSceneSequenceTickManager:BudgetMismatch:f83ed9aa",
+      "source": {
+        "set": "set-02",
+        "namespace": "MovieSceneSequenceTickManager",
+        "key": "BudgetMismatch",
+        "jp_record_id": "switch:locres:set-01:MovieSceneSequenceTickManager:BudgetMismatch:f83ed9aa",
+        "official_en_record_id": "switch:locres:set-01:MovieSceneSequenceTickManager:BudgetMismatch:f83ed9aa",
+        "jp_sha256": "10bb505dfb9d1773794a6c8d40ab397654323eb9ccaf794bfe4234b27cbb1b3b",
+        "official_en_sha256": "02bc6283689ff2140754f845b3c003a09073582a4c5949941d223ede4fa3d875"
+      },
+      "text": {
+        "jp": "ティック間隔が同じで割り当てが異なる複数のシーケンスを再生しようとしているため、最も少ない割り当てが使用されますが、望ましくないマルチフレーム エフェクトになる可能性があります",
+        "official_en": "Attempting to play multiple sequences with the same tick interval but different budgets. Lowest budget will be used, but may result in undesired multi-frame effects.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MovieSceneSequenceTickManager:ClientList:8e78bf5c",
+      "source": {
+        "set": "set-02",
+        "namespace": "MovieSceneSequenceTickManager",
+        "key": "ClientList",
+        "jp_record_id": "switch:locres:set-01:MovieSceneSequenceTickManager:ClientList:8e78bf5c",
+        "official_en_record_id": "switch:locres:set-01:MovieSceneSequenceTickManager:ClientList:8e78bf5c",
+        "jp_sha256": "eb435c878c7256e0cf8183c42b583c56082cd3fb11c9fd8628e7b079b5d8e436",
+        "official_en_sha256": "b5b816c42cf813fa21ccb326f2c5b264427850ac2301418dca39c3ccea960ec2"
+      },
+      "text": {
+        "jp": "割り当てが ",
+        "official_en": "Initiating tick client ",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

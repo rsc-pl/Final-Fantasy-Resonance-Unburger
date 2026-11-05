@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ActorEditorUtils",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ActorEditorUtils:ValidateActorNameString_ReservedNameNone:7d9895c3",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorEditorUtils",
+        "key": "ValidateActorNameString_ReservedNameNone",
+        "jp_record_id": "switch:locres:set-01:ActorEditorUtils:ValidateActorNameString_ReservedNameNone:7d9895c3",
+        "official_en_record_id": "switch:locres:set-01:ActorEditorUtils:ValidateActorNameString_ReservedNameNone:7d9895c3",
+        "jp_sha256": "12a565f0b8dd4f64c66878b7ebfb68bde318db4e3ea3a616bdf77f7553b05b2b",
+        "official_en_sha256": "13ce99da6beeaae44e821ceace219e320850c15acf08a96e5da09708ac40ad76"
+      },
+      "text": {
+        "jp": "「None」は予約済みの単語であるため、アクタ名に使用することはできません",
+        "official_en": "\"None\" is a reserved term and cannot be used for actor names",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorEditorUtils:ValidateActorNameString_Empty:883cde1b",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorEditorUtils",
+        "key": "ValidateActorNameString_Empty",
+        "jp_record_id": "switch:locres:set-01:ActorEditorUtils:ValidateActorNameString_Empty:883cde1b",
+        "official_en_record_id": "switch:locres:set-01:ActorEditorUtils:ValidateActorNameString_Empty:883cde1b",
+        "jp_sha256": "6de09c9b70c6590b15d41858c4afe218eef1e5b25504275fae6e8901e0b2eb8f",
+        "official_en_sha256": "496d8b00f9654f4c4e35000b5ce7b3a1257ba0e3ea0d6ef20a5e92eb3f040e12"
+      },
+      "text": {
+        "jp": "アクタ名を空にすることはできません",
+        "official_en": "Actor names cannot be empty",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorEditorUtils:ValidateActorNameString_TooLong:f3ffcd0d",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorEditorUtils",
+        "key": "ValidateActorNameString_TooLong",
+        "jp_record_id": "switch:locres:set-01:ActorEditorUtils:ValidateActorNameString_TooLong:f3ffcd0d",
+        "official_en_record_id": "switch:locres:set-01:ActorEditorUtils:ValidateActorNameString_TooLong:f3ffcd0d",
+        "jp_sha256": "e418411fd4227e9b8954d43e8a1ce6d4ec747d00f519197ecefc5ba28a938f4b",
+        "official_en_sha256": "c77897ac732796bb3231e52ace2d67f18e22e4d35dcb071223d54efe9e39e217"
+      },
+      "text": {
+        "jp": "名前は{0}文字未満にしてください。",
+        "official_en": "Names must be less than {0} characters long.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,863 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "RigVMNewEditor",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:AddVariable:d590e625",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "AddVariable",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:AddVariable:d590e625",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:AddVariable:d590e625",
+        "jp_sha256": "08c639058cc6b0557b3f01890a52409f472d6dd49d8b11cfc42c326d72d60003",
+        "official_en_sha256": "f95fcf61a86350ab1dd0b91792ea9b25d4737b7fe76f9f33749910548c300f91"
+      },
+      "text": {
+        "jp": "変数を追加",
+        "official_en": "Add Variable",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:AddVariable_Error:6026d80e",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "AddVariable_Error",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:AddVariable_Error:6026d80e",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:AddVariable_Error:6026d80e",
+        "jp_sha256": "9f9101e0fe37b0050e6497ac15906587f1170d5184d28704136dd1dbbfe73622",
+        "official_en_sha256": "610caedd32a0f0b9865943898459f05f6a3d0d10bc29f8a2651a5e12deebaffe"
+      },
+      "text": {
+        "jp": "新規の変数の追加に失敗しました。",
+        "official_en": "Adding new variable failed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:AppearanceCornerText_Blueprint:d4f5c774",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "AppearanceCornerText_Blueprint",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:AppearanceCornerText_Blueprint:d4f5c774",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:AppearanceCornerText_Blueprint:d4f5c774",
+        "jp_sha256": "eeba5c1b722fc2fdebe85e8404b1e7718c629da04f4350ec1fd6a12fcb69fc0a",
+        "official_en_sha256": "88e1b911af2611f4d6c5a8975477fca4b87884886c5b0b4bb16c7a079b3a1dba"
+      },
+      "text": {
+        "jp": "ブループリント",
+        "official_en": "BLUEPRINT",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:Blueprint-Modified-Long:06685887",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "Blueprint",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:Blueprint-Modified-Long:06685887",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:Blueprint-Modified-Long:06685887",
+        "jp_sha256": "66a3a28f333a534c57cd791309dfc08ad92e17abb68db528ffde6c4f8d782ba7",
+        "official_en_sha256": "f1b832ed92012ae54fe8e80208bdf7c17794c9ddfd526c30d216f19316a43d64"
+      },
+      "text": {
+        "jp": "ブループリント \"{BlueprintName}\" はロード時に検知した問題修正のために更新されました。再度保存してください。",
+        "official_en": "Blueprint \"{BlueprintName}\" was updated to fix issues detected on load. Please resave.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:PIEStatusClientSimulating:f00885b9",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "PIEStatusClientSimulating",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:PIEStatusClientSimulating:f00885b9",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:PIEStatusClientSimulating:f00885b9",
+        "jp_sha256": "2694b71f8d23519ca6fe0ed071a24fbda7b1a97a181bc7da38bde33e38f61ff3",
+        "official_en_sha256": "f850dc1c971477aaf1f32243a210ce5942667a0ed444eeeb39fe6371f989cb5e"
+      },
+      "text": {
+        "jp": "クライアント - シミュレーション中",
+        "official_en": "CLIENT - SIMULATING",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:PIEStatusClientSimulatingFormat:46e83364",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "PIEStatusClientSimulatingFormat",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:PIEStatusClientSimulatingFormat:46e83364",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:PIEStatusClientSimulatingFormat:46e83364",
+        "jp_sha256": "c850d61c3fce9da33e13d0bfd64388d78666caf80768921c8716d4f4e0cd8145",
+        "official_en_sha256": "ef1b68d579e68da5f427c54989f452737b6a64dd5f562b2a882efb4252b0b649"
+      },
+      "text": {
+        "jp": "クライアント {0} - シミュレーション中",
+        "official_en": "CLIENT {0} - SIMULATING",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:CompilationPageLabel:bebcec3a",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "CompilationPageLabel",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:CompilationPageLabel:bebcec3a",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:CompilationPageLabel:bebcec3a",
+        "jp_sha256": "60020cd463a59d1e549021178ae24c8ab60e4a2a492b2961d60ed4524de3d6bc",
+        "official_en_sha256": "5340a013b41e834c71d40c478955463397f4b2ab919e950f06f2d5680979ed62"
+      },
+      "text": {
+        "jp": "{BlueprintName} をコンパイル",
+        "official_en": "Compile {BlueprintName}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:SaveOnCompileSubMenu_ToolTip:a7186141",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "SaveOnCompileSubMenu_ToolTip",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:SaveOnCompileSubMenu_ToolTip:a7186141",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:SaveOnCompileSubMenu_ToolTip:a7186141",
+        "jp_sha256": "b5d7e069a0df323ce846690b5914ad68a32274afb0e09b7df228ff4fe9c17ed9",
+        "official_en_sha256": "8c0680de4633d62826ed29b6f7321f5195b2e2790515e6d58f37025b447fc4aa"
+      },
+      "text": {
+        "jp": "コンパイル時のブループリントの保存方法を決定します",
+        "official_en": "Determines how the Blueprint is saved whenever you compile it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:Dirty_Status:c2615d8e",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "Dirty_Status",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:Dirty_Status:c2615d8e",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:Dirty_Status:c2615d8e",
+        "jp_sha256": "761769fc521a7f8b6bda3ed21a9701feb653a0c955e44b15433997a94adb1f74",
+        "official_en_sha256": "fc5d5d957997903c14e10c822abdb936754c0887638e1f01bf0c31e6dcfad88a"
+      },
+      "text": {
+        "jp": "変更あり: 再コンパイルが必要です",
+        "official_en": "Dirty; needs to be recompiled",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:AppearanceInstructionText_DefaultGraph:425bfbaf",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "AppearanceInstructionText_DefaultGraph",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:AppearanceInstructionText_DefaultGraph:425bfbaf",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:AppearanceInstructionText_DefaultGraph:425bfbaf",
+        "jp_sha256": "dce82d1e27680f381e7629964f24886c3876bc6d0fb16b86826b089c76f28343",
+        "official_en_sha256": "3c198fce3c861cfc65750bced2335f9349536204ed13b9f2fd3ebfea728ac066"
+      },
+      "text": {
+        "jp": "新規ノードを作成/接続するためにピンをドラッグ",
+        "official_en": "Drag Off Pins to Create/Connect New Nodes.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:EditorUtilityAppearanceCornerText:94705189",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "EditorUtilityAppearanceCornerText",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:EditorUtilityAppearanceCornerText:94705189",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:EditorUtilityAppearanceCornerText:94705189",
+        "jp_sha256": "d103e31bbd473a52d03aa1e287becdc222e64910ae1e200ae7b8b9ff5a69d183",
+        "official_en_sha256": "427640847600f6e6b69bda7ed8790f63e6b1befb88b7f5305e1a4cffa1b13a43"
+      },
+      "text": {
+        "jp": "エディタユーティリティ",
+        "official_en": "EDITOR UTILITY",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:GoodToGo_Status:8932bf52",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "GoodToGo_Status",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:GoodToGo_Status:8932bf52",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:GoodToGo_Status:8932bf52",
+        "jp_sha256": "d888e7c7a8303af0f59b50de130b2e2b2913233456b35e146d05949af7d68885",
+        "official_en_sha256": "4e318fdb9758fbf14246f2fa2a21f69e4e4ab8c5697ea4437027ec46e8d4b396"
+      },
+      "text": {
+        "jp": "準備完了",
+        "official_en": "Good to go",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:AppearanceCornerText_Interface:c90c03f3",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "AppearanceCornerText_Interface",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:AppearanceCornerText_Interface:c90c03f3",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:AppearanceCornerText_Interface:c90c03f3",
+        "jp_sha256": "e331ba1d139f59fb4547e3d2172f0485c1e5d5e250e2845e22c06b532d5d5c1f",
+        "official_en_sha256": "9c457e1e77a7c40c6fe370c7f488b1217505c81b7178b907d5fb45a982de7f79"
+      },
+      "text": {
+        "jp": "インターフェース",
+        "official_en": "INTERFACE",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:AppearanceCornerText_LevelScript:0dd437a8",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "AppearanceCornerText_LevelScript",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:AppearanceCornerText_LevelScript:0dd437a8",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:AppearanceCornerText_LevelScript:0dd437a8",
+        "jp_sha256": "eb0aa4fdd7ed8c461c4c112aa2a0432943fd2afbf7be3e2643e2dc13d8430a1e",
+        "official_en_sha256": "71fa911cb0b9de6e5684a9ce3ed45db361e077b8ba2a6fb703a72ebe99463713"
+      },
+      "text": {
+        "jp": "レベル ブループリント",
+        "official_en": "LEVEL BLUEPRINT",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:AppearanceCornerText_Macro:82ecfd7f",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "AppearanceCornerText_Macro",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:AppearanceCornerText_Macro:82ecfd7f",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:AppearanceCornerText_Macro:82ecfd7f",
+        "jp_sha256": "9cbeae5f845ccabe5695e738a8bf43226eb1a9abe99f08fde093875f715b3430",
+        "official_en_sha256": "e25d5afe9c6e4635760236427e967c16be87ce30eaee9e4a96d43e7b058f4302"
+      },
+      "text": {
+        "jp": "マクロ",
+        "official_en": "MACRO",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:BlueprintCompileOptions_ToolbarTooltip:a1c27ab0",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "BlueprintCompileOptions_ToolbarTooltip",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:BlueprintCompileOptions_ToolbarTooltip:a1c27ab0",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:BlueprintCompileOptions_ToolbarTooltip:a1c27ab0",
+        "jp_sha256": "6c9bfdc4b211534e20f6e65ca1fcff64abcb11a26248c3c0f28aa66811caf089",
+        "official_en_sha256": "742ab478354197b742bebeb761c77f21e3d5e153b13a82944ae59d6ea1a9183b"
+      },
+      "text": {
+        "jp": "ブループリントのコンパイル方法をカスタマイズするオプション",
+        "official_en": "Options to customize how Blueprints compile",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:AppearanceInstructionText_EmptyGraph:dc4fa265",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "AppearanceInstructionText_EmptyGraph",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:AppearanceInstructionText_EmptyGraph:dc4fa265",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:AppearanceInstructionText_EmptyGraph:dc4fa265",
+        "jp_sha256": "aa15c287575bbd679aa5b3849406611505e3aa1ca40e5da36a1af47b63020216",
+        "official_en_sha256": "d98e7de1500ed539e3dbfda68dadf7ba4e5ef8d52803d031a43851f9d7f09e3a"
+      },
+      "text": {
+        "jp": "右クリックして新規ノードを作成",
+        "official_en": "Right-Click to Create New Nodes.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:PIEStatusServerSimulating:93c609c4",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "PIEStatusServerSimulating",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:PIEStatusServerSimulating:93c609c4",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:PIEStatusServerSimulating:93c609c4",
+        "jp_sha256": "a2c52ddcd99858793e035d026b77bb8bb1d579de1b04aae21fda369a67b90cb4",
+        "official_en_sha256": "6d0f4134668e71dfa5a2bf94783b9dbff17ad879529f4ea44066a1aa8e61052a"
+      },
+      "text": {
+        "jp": "サーバー - シミュレーション中",
+        "official_en": "SERVER - SIMULATING",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:PIEStatusSimulating:d096443e",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "PIEStatusSimulating",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:PIEStatusSimulating:d096443e",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:PIEStatusSimulating:d096443e",
+        "jp_sha256": "8a9289b0b157170e843fac3f833124380fa27afe57269054e590670a1e402c3b",
+        "official_en_sha256": "2d365c97152d9ddd0a0c28c06db6470a5994d1e9b10cd59b27cd64fe4ede9623"
+      },
+      "text": {
+        "jp": "シミュレーション中",
+        "official_en": "SIMULATING",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:SaveOnCompileSubMenu:3daa4669",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "SaveOnCompileSubMenu",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:SaveOnCompileSubMenu:3daa4669",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:SaveOnCompileSubMenu:3daa4669",
+        "jp_sha256": "1f66d5f79ff657d7f9fa6181ad94c6d43ed58ae2b87fde90616ec9bcc648cbb2",
+        "official_en_sha256": "57162305fbe87160ef3ed81b4de89afb11f96c069667cd610b9d4178fe9edc07"
+      },
+      "text": {
+        "jp": "コンパイル時に保存",
+        "official_en": "Save on Compile",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:GoodToGoWarning_Status:3fd99bde",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "GoodToGoWarning_Status",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:GoodToGoWarning_Status:3fd99bde",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:GoodToGoWarning_Status:3fd99bde",
+        "jp_sha256": "f27e418a80c02cea522b8b5d91d432e8a2a7b6ffe8481882c88192a459bbbcbf",
+        "official_en_sha256": "8a67f784c428453a38c0da7d75f033f4885798260fcaffad2dddce3ffcc1b5fd"
+      },
+      "text": {
+        "jp": "コンパイル中に警告が発生しました。詳細についてはログを確認してください。",
+        "official_en": "There was a warning during compilation, see the log for details",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:CompileError_Status:81aa08db",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "CompileError_Status",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:CompileError_Status:81aa08db",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:CompileError_Status:81aa08db",
+        "jp_sha256": "6c5c01a2dbd0c71f9cf208230ff63808361f76a3c55ec3122efe010c1cfb2004",
+        "official_en_sha256": "cd2765e9375cded8be72c4a5be46aaff6fee3b1b4dd55bd5b108823d1de0b8a9"
+      },
+      "text": {
+        "jp": "コンパイル中にエラーが発生しました。詳細についてはログを確認してください。",
+        "official_en": "There was an error during compilation, see the log for details",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMNewEditor:Recompile_Status:e26490a0",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMNewEditor",
+        "key": "Recompile_Status",
+        "jp_record_id": "switch:locres:set-01:RigVMNewEditor:Recompile_Status:e26490a0",
+        "official_en_record_id": "switch:locres:set-01:RigVMNewEditor:Recompile_Status:e26490a0",
+        "jp_sha256": "e8ded054b162d7c60520018d0b0536218ab890814d4763a62910c63e2c80e99c",
+        "official_en_sha256": "0d4334be077bc5b2e715db61758fd7bc81e357397eef563daf73e12c3402772a"
+      },
+      "text": {
+        "jp": "不明な状態です。再コンパイルする必要があります",
+        "official_en": "Unknown status; should recompile",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

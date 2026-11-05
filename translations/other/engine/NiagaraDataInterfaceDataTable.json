@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NiagaraDataInterfaceDataTable",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceDataTable:GetRowFilteredDesc:cfa734c3",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceDataTable",
+        "key": "GetRowFilteredDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceDataTable:GetRowFilteredDesc:cfa734c3",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceDataTable:GetRowFilteredDesc:cfa734c3",
+        "jp_sha256": "9f9ae83360b4782fd7b1bb0e0344d664e0d8769421c428fb3a5c92872f7c5580",
+        "official_en_sha256": "c4ba0348c02d5a1551c3eb9ce27392348df3285715efcdae234c0dd162181a89"
+      },
+      "text": {
+        "jp": "指定されたフィルタリング済み行インデックスを使用して、テーブルからのデータを返します。  フィルタリング済みの行または列が無効であれば、属性に対する出力は 0 になります",
+        "official_en": "Returns data from the table using the provided filtered row index.  If the filtered row is invalid or the column is invalid the output for the attributes will be 0.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceDataTable:GetRowDesc:8303f6d3",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceDataTable",
+        "key": "GetRowDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceDataTable:GetRowDesc:8303f6d3",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceDataTable:GetRowDesc:8303f6d3",
+        "jp_sha256": "5a0acbcbf87000d8baab957e6111276186e4ef8fbec6e04d0a425bbb92a6272b",
+        "official_en_sha256": "b7ae3bb394722a1d3a0f1d870b05b2f09cc11f06fa69d6af7c499341e98e8d64"
+      },
+      "text": {
+        "jp": "指定された行インデックスを使用して、テーブルからのデータを返します。  行または列が無効であれば、属性に対する出力は 0 になります",
+        "official_en": "Returns data from the table using the provided row index.  If the row is invalid or the column is invalid the output for the attributes will be 0.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceDataTable:GetNumFilteredRowsDesc:7429f165",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceDataTable",
+        "key": "GetNumFilteredRowsDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceDataTable:GetNumFilteredRowsDesc:7429f165",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceDataTable:GetNumFilteredRowsDesc:7429f165",
+        "jp_sha256": "b31c8c640bd094fa69c77abde3cf4095464bbfa8bc17250dbf6dca15a2e46bb7",
+        "official_en_sha256": "855ba2ad3ea9dc0ca566842799df04adcda86697eb2bd50c24ea2fd9f296b38f"
+      },
+      "text": {
+        "jp": "フィルタリングされた行の数を返します。これは、テーブル データが無効である場合や、フィルタリングされた行が存在しない場合でも、フィルター リストにある値の数と一致します",
+        "official_en": "Returns the number of filtered rows, this matches the number of values in the filter list even if the table data is invalid or filtered rows do not exist.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceDataTable:GetNumRowsDesc:c559ee9d",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceDataTable",
+        "key": "GetNumRowsDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceDataTable:GetNumRowsDesc:c559ee9d",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceDataTable:GetNumRowsDesc:c559ee9d",
+        "jp_sha256": "d093eb91143114830b495b0aaf41f78d88ca19ccae17520f5b4af9dd598a9ef4",
+        "official_en_sha256": "ceb8c97cd0c913aa6761037e56859a90d288e6588da4fa1564e0eecff4b6d0de"
+      },
+      "text": {
+        "jp": "テーブルにある行の総数を返します",
+        "official_en": "Returns the total number of rows in table.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceDataTable:IsValidDesc:099407d7",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceDataTable",
+        "key": "IsValidDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceDataTable:IsValidDesc:099407d7",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceDataTable:IsValidDesc:099407d7",
+        "jp_sha256": "82810dc461eac1d5bed45a1f0a3c6dbcad4d33c54c58157f21a4e0005d716070",
+        "official_en_sha256": "899d18c8d186245c6ed063d785efece3d06e78a2728b9fbc1d963be21e11d995"
+      },
+      "text": {
+        "jp": "テーブルが有効であり、行が 1 つ以上ある場合に true を返します",
+        "official_en": "Returns true if the table is valid and has at least 1 row.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

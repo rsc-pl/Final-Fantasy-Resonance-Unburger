@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "FloatTetWild",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:FloatTetWild:TetInit:8e76efcb",
+      "source": {
+        "set": "set-02",
+        "namespace": "FloatTetWild",
+        "key": "TetInit",
+        "jp_record_id": "switch:locres:set-01:FloatTetWild:TetInit:8e76efcb",
+        "official_en_record_id": "switch:locres:set-01:FloatTetWild:TetInit:8e76efcb",
+        "jp_sha256": "ca43eb94982299096969cf207d81140845cf6d2d9dba48c31f4b02875b5fed82",
+        "official_en_sha256": "e5dcd08f7f0fffb24d487568a126f354e5679bbe7527cffedff6d48873530107"
+      },
+      "text": {
+        "jp": "初期ドロネーメッシュを作成",
+        "official_en": "Creating Initial Delaunay Mesh",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FloatTetWild:SimplifyInit:71e5db3b",
+      "source": {
+        "set": "set-02",
+        "namespace": "FloatTetWild",
+        "key": "SimplifyInit",
+        "jp_record_id": "switch:locres:set-01:FloatTetWild:SimplifyInit:71e5db3b",
+        "official_en_record_id": "switch:locres:set-01:FloatTetWild:SimplifyInit:71e5db3b",
+        "jp_sha256": "8dbb47275eb3e91053fe0d6da55a49a53de2ec49127d96d3666255947c89b011",
+        "official_en_sha256": "dae8edd2e9d765a2856c3b48ef74916153a94ba04772453888e13e9d92e28ea8"
+      },
+      "text": {
+        "jp": "初期簡素化メッシュを作成",
+        "official_en": "Creating Initial Simplified Mesh",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FloatTetWild:TetCutting:9447b58f",
+      "source": {
+        "set": "set-02",
+        "namespace": "FloatTetWild",
+        "key": "TetCutting",
+        "jp_record_id": "switch:locres:set-01:FloatTetWild:TetCutting:9447b58f",
+        "official_en_record_id": "switch:locres:set-01:FloatTetWild:TetCutting:9447b58f",
+        "jp_sha256": "36ca4a1f2a1ca5b62dd706016b8ea4a0e220ab6feadced9bf51ca2c55761bc48",
+        "official_en_sha256": "20a1754453e29aa7e8176fda29be425e11f63c45ce8069ff69bb914f28465ce4"
+      },
+      "text": {
+        "jp": "四面体をサーフェスメッシュで切断",
+        "official_en": "Cutting Tetrahedra With Surface Mesh",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FloatTetWild:ExtractFinalTetrahedra:12a80f3d",
+      "source": {
+        "set": "set-02",
+        "namespace": "FloatTetWild",
+        "key": "ExtractFinalTetrahedra",
+        "jp_record_id": "switch:locres:set-01:FloatTetWild:ExtractFinalTetrahedra:12a80f3d",
+        "official_en_record_id": "switch:locres:set-01:FloatTetWild:ExtractFinalTetrahedra:12a80f3d",
+        "jp_sha256": "73a2b2485b764a56950debc57eb40173fda9cf12a6a989426985a04dc053f668",
+        "official_en_sha256": "38249aa2c3aa192c921415b261032303133152ebe6b1359ce5eca3fc1329151e"
+      },
+      "text": {
+        "jp": "結果の抽出",
+        "official_en": "Extracting Results",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FloatTetWild:TetFilter:516fa15f",
+      "source": {
+        "set": "set-02",
+        "namespace": "FloatTetWild",
+        "key": "TetFilter",
+        "jp_record_id": "switch:locres:set-01:FloatTetWild:TetFilter:516fa15f",
+        "official_en_record_id": "switch:locres:set-01:FloatTetWild:TetFilter:516fa15f",
+        "jp_sha256": "e2d0b5104c1a48b79aa37ae39323156b3b538386f6a46924d2c8c7fe73633e24",
+        "official_en_sha256": "5535871cb2d35980c0a9a5259ae17ae255a5d755eab1d2a7bbf65de77b76d863"
+      },
+      "text": {
+        "jp": "内部四面体をフィルタリング",
+        "official_en": "Filtering Inside Tetrahedra",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FloatTetWild:TetOptimizing:ad57a029",
+      "source": {
+        "set": "set-02",
+        "namespace": "FloatTetWild",
+        "key": "TetOptimizing",
+        "jp_record_id": "switch:locres:set-01:FloatTetWild:TetOptimizing:ad57a029",
+        "official_en_record_id": "switch:locres:set-01:FloatTetWild:TetOptimizing:ad57a029",
+        "jp_sha256": "08865d06eb523559eacd9a2556a3ad0e4c91667eb9e560dd738df3756945db00",
+        "official_en_sha256": "1b8707352f2421c215eadbfa6f109111e95f633563fbbcbaffd2bc27c47d2bf0"
+      },
+      "text": {
+        "jp": "四面体を最適化",
+        "official_en": "Optimizing Tetrahedra",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FloatTetWild:AABBInit:5cfd1820",
+      "source": {
+        "set": "set-02",
+        "namespace": "FloatTetWild",
+        "key": "AABBInit",
+        "jp_record_id": "switch:locres:set-01:FloatTetWild:AABBInit:5cfd1820",
+        "official_en_record_id": "switch:locres:set-01:FloatTetWild:AABBInit:5cfd1820",
+        "jp_sha256": "dbe9c831aadaad51742830124eca03053160dce82b552a0be1ed3ed4d4cf6ec6",
+        "official_en_sha256": "ce5dce79ef1c97ef998678deffb500a8cf94fc0ae6f21adbc91d5fe53d018596"
+      },
+      "text": {
+        "jp": "アクセラレーション構造の準備",
+        "official_en": "Preparing Acceleration Structures",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

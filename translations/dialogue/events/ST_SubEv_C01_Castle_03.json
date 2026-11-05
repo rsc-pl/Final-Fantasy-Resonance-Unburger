@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_SubEv_C01_Castle_03",
+    "scene_id": "ST_SubEv_C01_Castle_03",
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C01_Castle_03:SubEv_C01_Castle_03_001:ca1060f6",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C01_Castle_03",
+        "key": "SubEv_C01_Castle_03_001",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C01_Castle_03:SubEv_C01_Castle_03_001:ca1060f6",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C01_Castle_03:SubEv_C01_Castle_03_001:ca1060f6",
+        "jp_sha256": "4a77bd5ab8b4a80c799fdbe64e30c4e9fd51d0e47b52d1f1c9044daa8459eb6f",
+        "official_en_sha256": "66e9b04e7abecd35c01b2ab7e4d0a79653d980e30112fe25fbfc2e1bd2310391"
+      },
+      "text": {
+        "jp": "く、来るなーッ！",
+        "official_en": "S-stay away, stay away!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C01_Castle_03",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "兵士",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0022",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C01_Castle_03/SubEv_C01_Castle_03_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C01_Castle_03:SubEv_C01_Castle_03_002:62271730",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C01_Castle_03",
+        "key": "SubEv_C01_Castle_03_002",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C01_Castle_03:SubEv_C01_Castle_03_002:62271730",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C01_Castle_03:SubEv_C01_Castle_03_002:62271730",
+        "jp_sha256": "4d8ecf1a72788827bcd042008ca99a98ac614febdee2f62bde34215aa7c3ccc6",
+        "official_en_sha256": "b0c0e2695ed9e1ffef00d8c93b11c8b5025b9192d7d6b66404ff7e732630a965"
+      },
+      "text": {
+        "jp": "そいつらから離れろ！",
+        "official_en": "Stand back, I’ll deal with them!",
+        "real_en": "Get away from them!"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C01_Castle_03",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "レイン",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0002",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C01_Castle_03/SubEv_C01_Castle_03_002"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

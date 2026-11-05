@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UCutMeshWithMeshTool",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UCutMeshWithMeshTool:CutMeshWithMeshActionName:d9b33a2b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UCutMeshWithMeshTool",
+        "key": "CutMeshWithMeshActionName",
+        "jp_record_id": "switch:locres:set-01:UCutMeshWithMeshTool:CutMeshWithMeshActionName:d9b33a2b",
+        "official_en_record_id": "switch:locres:set-01:UCutMeshWithMeshTool:CutMeshWithMeshActionName:d9b33a2b",
+        "jp_sha256": "0fbd6c698630682fed03914174807a1050ab9bc43c27c145dccdfc52cd5790df",
+        "official_en_sha256": "ab42f224ec39fad95a776228d9a7d756c4ef587fbb5697f9b9f14fed78b25dd9"
+      },
+      "text": {
+        "jp": "メッシュの切り取り",
+        "official_en": "Cut Mesh",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UCutMeshWithMeshTool:CutMeshWithMeshToolName:89abb60f",
+      "source": {
+        "set": "set-02",
+        "namespace": "UCutMeshWithMeshTool",
+        "key": "CutMeshWithMeshToolName",
+        "jp_record_id": "switch:locres:set-01:UCutMeshWithMeshTool:CutMeshWithMeshToolName:89abb60f",
+        "official_en_record_id": "switch:locres:set-01:UCutMeshWithMeshTool:CutMeshWithMeshToolName:89abb60f",
+        "jp_sha256": "0aaeff645b9c375c0a2ff0eae4ebcbb2a46ddb51050810c68fe44789d734a58b",
+        "official_en_sha256": "0aaeff645b9c375c0a2ff0eae4ebcbb2a46ddb51050810c68fe44789d734a58b"
+      },
+      "text": {
+        "jp": "Cut With Mesh",
+        "official_en": "Cut With Mesh",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UCutMeshWithMeshTool:OnStartTool:544a82d8",
+      "source": {
+        "set": "set-02",
+        "namespace": "UCutMeshWithMeshTool",
+        "key": "OnStartTool",
+        "jp_record_id": "switch:locres:set-01:UCutMeshWithMeshTool:OnStartTool:544a82d8",
+        "official_en_record_id": "switch:locres:set-01:UCutMeshWithMeshTool:OnStartTool:544a82d8",
+        "jp_sha256": "9ad2fe6dcac0ba6b385e5d23fb3f527af8fe495817bab18e5f3d7f3875e6a69a",
+        "official_en_sha256": "77423bc2bca20498455774629f21d9036be874ce79e051de3108bb593d6af17d"
+      },
+      "text": {
+        "jp": "最初の入力メッシュを2つめの入力メッシュで切り取ります。トランスフォームギズモを使って入力オブジェクトの位置と方向を修正します。",
+        "official_en": "Cut the first input mesh with the second input mesh. Use the transform gizmos to modify the position and orientation of the input objects.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UCutMeshWithMeshTool:InvalidTargets:edd1fb01",
+      "source": {
+        "set": "set-02",
+        "namespace": "UCutMeshWithMeshTool",
+        "key": "InvalidTargets",
+        "jp_record_id": "switch:locres:set-01:UCutMeshWithMeshTool:InvalidTargets:edd1fb01",
+        "official_en_record_id": "switch:locres:set-01:UCutMeshWithMeshTool:InvalidTargets:edd1fb01",
+        "jp_sha256": "7da3da95b6049659ad8fd285b13301b5ebd411716c5885b28c3e521d4c897d16",
+        "official_en_sha256": "12df1bbf56884bb82cd6d4315caf99e820ac3dff0798d11871abb1537757d4a3"
+      },
+      "text": {
+        "jp": "入力メッシュは有効ではなくなりました。",
+        "official_en": "Input meshes are no longer valid",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UCutMeshWithMeshTool:SameSourceError:36443aa7",
+      "source": {
+        "set": "set-02",
+        "namespace": "UCutMeshWithMeshTool",
+        "key": "SameSourceError",
+        "jp_record_id": "switch:locres:set-01:UCutMeshWithMeshTool:SameSourceError:36443aa7",
+        "official_en_record_id": "switch:locres:set-01:UCutMeshWithMeshTool:SameSourceError:36443aa7",
+        "jp_sha256": "2b72798f4c3c95795fd34a7044534e76e625180a309e46d47c30409745e5c396",
+        "official_en_sha256": "f86995af77d37221104efa6f908ba77ba0b84a74406cbb990524015d33862758"
+      },
+      "text": {
+        "jp": "警告:両方の入力メッシュは同じアセットを持ちます。両方の入力が影響を受けます。",
+        "official_en": "WARNING: Both input meshes have the same Asset; both inputs will be affected.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

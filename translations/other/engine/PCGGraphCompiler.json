@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGGraphCompiler",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGGraphCompiler:InvalidLinkageToUnbounded:31bfea65",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGraphCompiler",
+        "key": "InvalidLinkageToUnbounded",
+        "jp_record_id": "switch:locres:set-01:PCGGraphCompiler:InvalidLinkageToUnbounded:31bfea65",
+        "official_en_record_id": "switch:locres:set-01:PCGGraphCompiler:InvalidLinkageToUnbounded:31bfea65",
+        "jp_sha256": "98400413d155ef9e916805a4aae7842922dd379ca7115177888c0085ebd64780",
+        "official_en_sha256": "6dbc9c0ee532db6fa5d63ddc4ce11756c1200311c374f1f2b8efc08493becf92"
+      },
+      "text": {
+        "jp": "グリッドレベルをまたがってデータを読み取りできません - グリッドサイズ {0} から無制限のドメインまで読み取ることができません",
+        "official_en": "Could not read data across grid levels - cannot read from grid size {0} to Unbounded domain.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGraphCompiler:InvalidLinkageInvalidGridSizes:358c778b",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGraphCompiler",
+        "key": "InvalidLinkageInvalidGridSizes",
+        "jp_record_id": "switch:locres:set-01:PCGGraphCompiler:InvalidLinkageInvalidGridSizes:358c778b",
+        "official_en_record_id": "switch:locres:set-01:PCGGraphCompiler:InvalidLinkageInvalidGridSizes:358c778b",
+        "jp_sha256": "ab315e489c7a9c8adacecce06fb8c5e158a187614353bcac79f58092b99a1bf0",
+        "official_en_sha256": "3090709029c2a118d4141ac7a734ad414ba06448ff4671270f96ab82404cc8f0"
+      },
+      "text": {
+        "jp": "グリッド レベルをまたがってデータを読み取りできません - 元のグリッド サイズ {0} は宛先のグリッド サイズ {1} より大きいことが必要です。グラフ デフォルト グリッド サイズを増やす必要があります",
+        "official_en": "Could not read data across grid levels - origin grid size {0} must be greater than destination grid size {1}. Graph default grid size may need increasing.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

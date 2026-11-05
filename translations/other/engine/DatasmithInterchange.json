@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "DatasmithInterchange",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:DatasmithInterchange:GetMeshPayloadData_LoadStaticMeshFail:216dd711",
+      "source": {
+        "set": "set-02",
+        "namespace": "DatasmithInterchange",
+        "key": "GetMeshPayloadData_LoadStaticMeshFail",
+        "jp_record_id": "switch:locres:set-01:DatasmithInterchange:GetMeshPayloadData_LoadStaticMeshFail:216dd711",
+        "official_en_record_id": "switch:locres:set-01:DatasmithInterchange:GetMeshPayloadData_LoadStaticMeshFail:216dd711",
+        "jp_sha256": "078ef7a137ff64cb377fc5c63c7554281ba86dfa7756771a72c32ae8c124f8ce",
+        "official_en_sha256": "92d5127fb71e43bd71c4ea88362fe33f2150a9beaa9af71d8d12e5a1537c2343"
+      },
+      "text": {
+        "jp": "メッシュ要素 {0} のメッシュ説明をロードできませんでした",
+        "official_en": "Failed to load mesh description for mesh element {0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DatasmithInterchange:GetMeshPayloadData_ValidateMeshDescriptionFail:1fe8a557",
+      "source": {
+        "set": "set-02",
+        "namespace": "DatasmithInterchange",
+        "key": "GetMeshPayloadData_ValidateMeshDescriptionFail",
+        "jp_record_id": "switch:locres:set-01:DatasmithInterchange:GetMeshPayloadData_ValidateMeshDescriptionFail:1fe8a557",
+        "official_en_record_id": "switch:locres:set-01:DatasmithInterchange:GetMeshPayloadData_ValidateMeshDescriptionFail:1fe8a557",
+        "jp_sha256": "f528c9dea98f888233420604d6ddd52fb2a435120116351b3533cc69dbac34ba",
+        "official_en_sha256": "4893fbd1ddbf9bd19cd532e522e523124f0dab9e3fd3ac0ead5870efd08e8c05"
+      },
+      "text": {
+        "jp": "無効なメッシュ データ (NaN) が見つかったため、ゼロに修正します。メッシュ要素 {0} のメッシュ レンダリングは正しくない可能性があります",
+        "official_en": "Invalid mesh data (NAN) was found and fix to zero. Mesh render can be bad for mesh element {0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

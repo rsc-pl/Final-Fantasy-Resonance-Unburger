@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGCreateSurfaceFromSplineElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGCreateSurfaceFromSplineElement:NodeTitle:4b807b64",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCreateSurfaceFromSplineElement",
+        "key": "NodeTitle",
+        "jp_record_id": "switch:locres:set-01:PCGCreateSurfaceFromSplineElement:NodeTitle:4b807b64",
+        "official_en_record_id": "switch:locres:set-01:PCGCreateSurfaceFromSplineElement:NodeTitle:4b807b64",
+        "jp_sha256": "231db673bafc3d69a4ae38651ec688274ee354c5def183a4069c6c4aca6dabb4",
+        "official_en_sha256": "231db673bafc3d69a4ae38651ec688274ee354c5def183a4069c6c4aca6dabb4"
+      },
+      "text": {
+        "jp": "Create Surface From Spline",
+        "official_en": "Create Surface From Spline",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCreateSurfaceFromSplineElement:NodeTooltip:18c8e9c9",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCreateSurfaceFromSplineElement",
+        "key": "NodeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGCreateSurfaceFromSplineElement:NodeTooltip:18c8e9c9",
+        "official_en_record_id": "switch:locres:set-01:PCGCreateSurfaceFromSplineElement:NodeTooltip:18c8e9c9",
+        "jp_sha256": "bc70fc73b4b946feb29c598042d861c1b445777b271b941cac6440abb5baed14",
+        "official_en_sha256": "6054dba714343375c6035e8292da253fc00ca2e82d7f68d35fa8d972b214470c"
+      },
+      "text": {
+        "jp": "指定スプラインそれぞれに対して暗黙的なサーフェスを作成します。このサーフェスはスプラインのトップダウン 2D 投影により得られます。各スプラインは閉じている必要があります",
+        "official_en": "Create an implicit surface for each given spline. The surface is given by the top-down 2D projection of the spline. Each spline must be closed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCreateSurfaceFromSplineElement:InvalidInputData:f0b29706",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCreateSurfaceFromSplineElement",
+        "key": "InvalidInputData",
+        "jp_record_id": "switch:locres:set-01:PCGCreateSurfaceFromSplineElement:InvalidInputData:f0b29706",
+        "official_en_record_id": "switch:locres:set-01:PCGCreateSurfaceFromSplineElement:InvalidInputData:f0b29706",
+        "jp_sha256": "d7c69f340e393588b1e9b154915ea0af2c9554d48aca40d97669ffb8f6b5efbe",
+        "official_en_sha256": "1cd05be7dbc8cb24ef109cf23457e50ec49b23fa9cad96616161d9fea61a5fca"
+      },
+      "text": {
+        "jp": "無効な入力。スプライン データであることが必要です",
+        "official_en": "Invalid input. Must be a spline data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCreateSurfaceFromSplineElement:InvalidOpenSpline:0686bac1",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCreateSurfaceFromSplineElement",
+        "key": "InvalidOpenSpline",
+        "jp_record_id": "switch:locres:set-01:PCGCreateSurfaceFromSplineElement:InvalidOpenSpline:0686bac1",
+        "official_en_record_id": "switch:locres:set-01:PCGCreateSurfaceFromSplineElement:InvalidOpenSpline:0686bac1",
+        "jp_sha256": "2892332f127051f8fb9102804f381cffdc9e456684076061f676530b497e8f46",
+        "official_en_sha256": "a7f6ca3d57fb47793799daa85e9e393994812b7169ae7f88a89e2a955def62f1"
+      },
+      "text": {
+        "jp": "開いたスプラインから暗黙的なサーフェスを作成できません。スプラインが閉じていることを確認してください",
+        "official_en": "Unable to create an implicit surface from an open spline. Make sure your splines are closed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

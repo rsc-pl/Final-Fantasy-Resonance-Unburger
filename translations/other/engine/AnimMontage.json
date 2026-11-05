@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AnimMontage",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AnimMontage:PostLoad_InvalidSectionLength:1a680abc",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimMontage",
+        "key": "PostLoad_InvalidSectionLength",
+        "jp_record_id": "switch:locres:set-01:AnimMontage:PostLoad_InvalidSectionLength:1a680abc",
+        "official_en_record_id": "switch:locres:set-01:AnimMontage:PostLoad_InvalidSectionLength:1a680abc",
+        "jp_sha256": "dc2214ecc1ccf85c74aac7868535a0203c90372e8426d3b54595f6a9a88c76ec",
+        "official_en_sha256": "9e694a6a4de20dc6d550b4a0318cd98ace5f8156a489d42c7232b0daf8f9a50a"
+      },
+      "text": {
+        "jp": "AnimMontage ({MontageAsset}) には、プレイ可能な長さ {PlayableLength} が、それを表す AnimationSequence の長さ {AnimSequenceLength} ({AnimSequenceAsset}) と同期していないスロット ({SlotName}) のセグメントが入っています。セグメントを更新して再保存してください",
+        "official_en": "AnimMontage ({MontageAsset}) contains a Segment for Slot ({SlotName}) for which the playable length {PlayableLength} is out-of-sync with the represented AnimationSequence its length {AnimSequenceLength} ({AnimSequenceAsset}). Please up-date the segment and resave.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimMontage:PostLoad_SequenceLengthMismatch:86fea40b",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimMontage",
+        "key": "PostLoad_SequenceLengthMismatch",
+        "jp_record_id": "switch:locres:set-01:AnimMontage:PostLoad_SequenceLengthMismatch:86fea40b",
+        "official_en_record_id": "switch:locres:set-01:AnimMontage:PostLoad_SequenceLengthMismatch:86fea40b",
+        "jp_sha256": "dfa70091f46a634e0df671a65627772fac1b1d425f1b3d2f08ba65c30c1533c3",
+        "official_en_sha256": "d63163b638618f78dc1572ef7189a592b433b41d9c2456e600596c391cd55e19"
+      },
+      "text": {
+        "jp": "UAnimMontage::PostLoad：{Asset} の実際のシーケンスの長さが、アセットに格納されている長さと一致していません。アセットを再保存してください",
+        "official_en": "UAnimMontage::PostLoad: The actual sequence length for {Asset} does not match the length stored in the asset. Please resave the asset.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

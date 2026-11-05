@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "CameraNodalOffsetAlgoManual",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:AddNodalPointButton:0a24f2dd",
+      "source": {
+        "set": "set-02",
+        "namespace": "CameraNodalOffsetAlgoManual",
+        "key": "AddNodalPointButton",
+        "jp_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:AddNodalPointButton:0a24f2dd",
+        "official_en_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:AddNodalPointButton:0a24f2dd",
+        "jp_sha256": "992e1667d4f8a3d87c18a67ccf60efb5b0816e4d183a971c6333f7d1a898dbe0",
+        "official_en_sha256": "3f8694d888b24c1294bd5e8b8f45997b63858f9a72751f95f19741b80097958d"
+      },
+      "text": {
+        "jp": "現在のフォーカス/ズームで節点を追加",
+        "official_en": "Add Nodal Point at Current Focus/Zoom",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:NodalOffsetAlgoPointsHelp:7143e47c",
+      "source": {
+        "set": "set-02",
+        "namespace": "CameraNodalOffsetAlgoManual",
+        "key": "NodalOffsetAlgoPointsHelp",
+        "jp_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:NodalOffsetAlgoPointsHelp:7143e47c",
+        "official_en_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:NodalOffsetAlgoPointsHelp:7143e47c",
+        "jp_sha256": "9f1790e8f8514d63f0d3f3645b94e496cdbbd14661dba9a1360f7dab671e7aad",
+        "official_en_sha256": "1a030f32cdd784994ec91419cd74dde5dc229ec13e6fe32b33c30ba5a30ed5a3"
+      },
+      "text": {
+        "jp": "メディア プレートおよび CG シーンから 1 つ以上の機能を手動で整列し、\n位置および回転ウィジェットを使用することでカメラの節点オフセットを調整します。\n\n感度を調整し、より細かいまたは粗い調整ができます。\n\nLensFile に現在のフォーカスおよびズーム設定の節点オフセット ポイントが含まれない場合、\n調整を行う前に新しいポイントを追加するためのプロンプトが表示されます。これは、\n補間オフセットの正確さが十分でない場合に 2 つのキャリブレーション済みポイントで節点オフセットを\n微調整する場合に役立ちます。\n\n注：調整は、現在のカメラ ビューを基準にして行われます。したがって、位置および回転ウィジェットで\n値を変更すると、その調整に基づいて絶対節点オフセットが再計算されるため\n複数の値が同時に変更される可能性が高くなります",
+        "official_en": "Adjust the nodal offset of the camera by using the location and rotation widgets to manually\nalign one or more features from the media plate and CG scene.\n\nYou can adjust the sensitivity for finer or coarser adjustments.\n\nIf the LensFile does not contain a nodal offset point at the current Focus and Zoom settings,\nyou will see a prompt to add a new point before making adjustments to it. This can be useful\nfor fine-tuning the nodal offset between two calibrated points if the interpolate offset is\nnot accurate enough.\n\nNote: Adjustments are made relative to the current camera view. Therefore, as you change values\nin the location and rotation widgets, more than one value will likely change at the same time\nas the absolute nodal offset is recomputed based on the adjustments.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:CoarseButtonText:0254e7f9",
+      "source": {
+        "set": "set-02",
+        "namespace": "CameraNodalOffsetAlgoManual",
+        "key": "CoarseButtonText",
+        "jp_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:CoarseButtonText:0254e7f9",
+        "official_en_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:CoarseButtonText:0254e7f9",
+        "jp_sha256": "4a88d5d30a9d4a7fbb55a433c170cbc2e810345bbf01a578bac4afe31cc45cb0",
+        "official_en_sha256": "435d518aae9c1685c5b74f65c371a4f7678503bbef522374b012e70542c0edcd"
+      },
+      "text": {
+        "jp": "粗い",
+        "official_en": "Coarse",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:FineButtonText:3e710b18",
+      "source": {
+        "set": "set-02",
+        "namespace": "CameraNodalOffsetAlgoManual",
+        "key": "FineButtonText",
+        "jp_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:FineButtonText:3e710b18",
+        "official_en_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:FineButtonText:3e710b18",
+        "jp_sha256": "bf25870f2d95e8dbf7536f9c95c92250f6175f155bfc90b7caa31379e37aa838",
+        "official_en_sha256": "fa67303aecdafbdddabe4fb62751c7cc1c45876b485191d65aa893c7f1eba737"
+      },
+      "text": {
+        "jp": "細かい",
+        "official_en": "Fine",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:LocationWidget:aec24111",
+      "source": {
+        "set": "set-02",
+        "namespace": "CameraNodalOffsetAlgoManual",
+        "key": "LocationWidget",
+        "jp_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:LocationWidget:aec24111",
+        "official_en_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:LocationWidget:aec24111",
+        "jp_sha256": "1fb4d574da92f1c182183f205b77a1fcfc538ab438a04f2399ceac29687a7a56",
+        "official_en_sha256": "15b61974b2707a7b3d4201385e0f01f4ff5eb1f17c5639d98788ee5add2025cd"
+      },
+      "text": {
+        "jp": "位置",
+        "official_en": "Location",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:AdjustNodalOffset:c6bfb684",
+      "source": {
+        "set": "set-02",
+        "namespace": "CameraNodalOffsetAlgoManual",
+        "key": "AdjustNodalOffset",
+        "jp_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:AdjustNodalOffset:c6bfb684",
+        "official_en_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:AdjustNodalOffset:c6bfb684",
+        "jp_sha256": "91dde0267a5db1c47f23faa0bfeda16e9a8cdeccabd862cc1ef7f15b133a1060",
+        "official_en_sha256": "7d8877d3e32b7a4bb010a4d4191b015a9b999218a205989286ac69363e6aa052"
+      },
+      "text": {
+        "jp": "節点オフセットを手動で調整",
+        "official_en": "Manually Adjust Nodal Offset",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:MediumButtonText:9a60bcc3",
+      "source": {
+        "set": "set-02",
+        "namespace": "CameraNodalOffsetAlgoManual",
+        "key": "MediumButtonText",
+        "jp_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:MediumButtonText:9a60bcc3",
+        "official_en_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:MediumButtonText:9a60bcc3",
+        "jp_sha256": "a567bdaa11367f260f0708391f4d10766b5962f565d9e432f17981a3584fe1e2",
+        "official_en_sha256": "8e588cd187741f1cd76f5fab77b7208782a8c21d764ce7d7a4cf3ac4e0968873"
+      },
+      "text": {
+        "jp": "中",
+        "official_en": "Medium",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:RotationWidget:414a84f2",
+      "source": {
+        "set": "set-02",
+        "namespace": "CameraNodalOffsetAlgoManual",
+        "key": "RotationWidget",
+        "jp_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:RotationWidget:414a84f2",
+        "official_en_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:RotationWidget:414a84f2",
+        "jp_sha256": "be22550c9368d4ad978a12eee319affcc0ed602d103a10096bf091848bc2ac1e",
+        "official_en_sha256": "57b5e2fc1bba18bb4f54084af57ffe86b3bb3d925c281043e84a05eb4b19317c"
+      },
+      "text": {
+        "jp": "回転",
+        "official_en": "Rotation",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:SensitivityWidget:49b4dbbe",
+      "source": {
+        "set": "set-02",
+        "namespace": "CameraNodalOffsetAlgoManual",
+        "key": "SensitivityWidget",
+        "jp_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:SensitivityWidget:49b4dbbe",
+        "official_en_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:SensitivityWidget:49b4dbbe",
+        "jp_sha256": "6cc6773603adb19a0635b4033e8a92c112f9309852912a44a0cc3d0e0228f013",
+        "official_en_sha256": "ebb57a260d58207c3cce2e12e8663ecdc0c74147d138655d6714bc577a0768f6"
+      },
+      "text": {
+        "jp": "感度",
+        "official_en": "Sensitivity",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:NoNodalPointWarning:7c39f26a",
+      "source": {
+        "set": "set-02",
+        "namespace": "CameraNodalOffsetAlgoManual",
+        "key": "NoNodalPointWarning",
+        "jp_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:NoNodalPointWarning:7c39f26a",
+        "official_en_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:NoNodalPointWarning:7c39f26a",
+        "jp_sha256": "8a2f44c2b69e21e7b9c533aca5dd53031034ef4fd3b7ac9677fb73544813143c",
+        "official_en_sha256": "c1f08045697716720fb19a2b8113859dae4cd55198027ed0acc81a7abca59c6b"
+      },
+      "text": {
+        "jp": "現在のフォーカスおよびズームに節点オフセット ポイントがありません。手動で調整を行うには、まず新規節点オフセット ポイントを追加する必要があります",
+        "official_en": "There is not a nodal offset point at the current Focus and Zoom. To make manual adjustments, you must first add a new nodal offset point.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:ClearAll:05afe30d",
+      "source": {
+        "set": "set-02",
+        "namespace": "CameraNodalOffsetAlgoManual",
+        "key": "ClearAll",
+        "jp_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:ClearAll:05afe30d",
+        "official_en_record_id": "switch:locres:set-01:CameraNodalOffsetAlgoManual:ClearAll:05afe30d",
+        "jp_sha256": "b3333fb622d6847ae42df41a9a5014e29a5a0c3651a5dfafd673277ed339915e",
+        "official_en_sha256": "1078e80ea4f47869b27525a36bf4614907ee45ce3d88a2f5dc948b330a09fba9"
+      },
+      "text": {
+        "jp": "手動の変更を元に戻す",
+        "official_en": "Undo Manual Changes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

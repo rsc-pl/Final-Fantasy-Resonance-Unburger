@@ -1,0 +1,974 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MVVMView",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MVVMView:SetViewModelViewModelNotFound:d2623109",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "SetViewModelViewModelNotFound",
+        "jp_record_id": "switch:locres:set-01:MVVMView:SetViewModelViewModelNotFound:d2623109",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:SetViewModelViewModelNotFound:d2623109",
+        "jp_sha256": "23c9ee0854719bedd052282dfbd1a94aee73e1a3806c81c7e753e90289c85a53",
+        "official_en_sha256": "2b1853a8f8efac5166eefe4fb29af2d5139ebacfb71f01aa27ce2de1ad015290"
+      },
+      "text": {
+        "jp": "パスされたインスタンスのクラスに一致する作成済みビューモデルが見つかりませんでした",
+        "official_en": "A created viewmodel matching the class of the passed instance could not be found.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:RecursionDetected:d05754d3",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "RecursionDetected",
+        "jp_record_id": "switch:locres:set-01:MVVMView:RecursionDetected:d05754d3",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:RecursionDetected:d05754d3",
+        "jp_sha256": "656c44c2f6e3acc6ce1ec17e917e3029f43c49afd8d4dff00e488b2fc5101515",
+        "official_en_sha256": "1ca83573bad16e5520e6c857741bbff059c5089be1e1d86462a436375f9ae9f1"
+      },
+      "text": {
+        "jp": "実行時に再帰的なバインディングが検出されました (つまり、\n          A->B->C->A->B->C となっています)",
+        "official_en": "A recursive binding was detected (ie. A->B->C->A->B->C) at runtime.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:ExecuteBindingGeneric:72d36dfc",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "ExecuteBindingGeneric",
+        "jp_record_id": "switch:locres:set-01:MVVMView:ExecuteBindingGeneric:72d36dfc",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:ExecuteBindingGeneric:72d36dfc",
+        "jp_sha256": "9fd8f48931fc250f9efa1e66cfe4e17d07eaba8af25dd2d0594987eeab3ae539",
+        "official_en_sha256": "2e06ee163bfcfacb7db543e563f4d8b5f4e2551627c8390167599ebf5432252f"
+      },
+      "text": {
+        "jp": "バインディング「{0}」を実行します",
+        "official_en": "Execute binding '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:EnableLibraryEventFailed_FunctionNotFound:34963c8f",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "EnableLibraryEventFailed_FunctionNotFound",
+        "jp_record_id": "switch:locres:set-01:MVVMView:EnableLibraryEventFailed_FunctionNotFound:34963c8f",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:EnableLibraryEventFailed_FunctionNotFound:34963c8f",
+        "jp_sha256": "1e9b8ad2602cd20e205e399942cf84d7952270688d2981fd56ad21b70121d3cf",
+        "official_en_sha256": "602cfa6b522e6baa390b4b468a7fcc7afd234049097a249073de05225c0bfd19"
+      },
+      "text": {
+        "jp": "関数が見つかりません",
+        "official_en": "Function not found",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:ReevaluateDynamicSourceViewModelNameNotFound:d4716bf8",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "ReevaluateDynamicSourceViewModelNameNotFound",
+        "jp_record_id": "switch:locres:set-01:MVVMView:ReevaluateDynamicSourceViewModelNameNotFound:d4716bf8",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:ReevaluateDynamicSourceViewModelNameNotFound:d4716bf8",
+        "jp_sha256": "e23e64d2f17d3998061130e8918a0aee8d740ac246c01c229d2e50938e25517d",
+        "official_en_sha256": "24ab536205b82ec0c99acbc379756d14cd1282da35819f70e4df687696e5c1ae"
+      },
+      "text": {
+        "jp": "内部エラー。動的ソース {0} が見つかりませんでした",
+        "official_en": "Internal error. The dynamic source {0} cound not be found.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:SetViewModelViewModelNotUnique:9b7c6bb4",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "SetViewModelViewModelNotUnique",
+        "jp_record_id": "switch:locres:set-01:MVVMView:SetViewModelViewModelNotUnique:9b7c6bb4",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:SetViewModelViewModelNotUnique:9b7c6bb4",
+        "jp_sha256": "9207d27afb507c1cede4604352d068f239661fa9b34e819fdb2df5031be89c4d",
+        "official_en_sha256": "8989b1a8b58c3772bd890a8780a71eef9d20206111d9018e0e6ce5bf0269cdeb"
+      },
+      "text": {
+        "jp": "複数のビューモデルがパスされたインスタンスのタイプに一致します。ウィジェット ブループリントに存在するビューモデルが「{0}」タイプの 1 つだけであることを確認するか、または SetViewModel にビューモデル名を入力してください",
+        "official_en": "More than one viewmodel match the type of the passed instance. Make sure there exists only one viewmodel of type {0} in the widget blueprint, or try SetViewModel by name.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:ExecuteBindingFailWhileInitializing:953fce44",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "ExecuteBindingFailWhileInitializing",
+        "jp_record_id": "switch:locres:set-01:MVVMView:ExecuteBindingFailWhileInitializing:953fce44",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:ExecuteBindingFailWhileInitializing:953fce44",
+        "jp_sha256": "e90848745e63f7f1f4a6399e594a37d02c2570a0fb6c0285e61d1677803781f9",
+        "official_en_sha256": "0d057f28117940dea78dac618c7a17885e6e7264096a09a5abc141a5154e207f"
+      },
+      "text": {
+        "jp": "フィールド「{0}」は初期化中にバインディングを実行できませんでした",
+        "official_en": "The Field '{0}' could not execute the bindings while initializing.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:ExecuteBindingFailInvalidSource:b0e06886",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "ExecuteBindingFailInvalidSource",
+        "jp_record_id": "switch:locres:set-01:MVVMView:ExecuteBindingFailInvalidSource:b0e06886",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:ExecuteBindingFailInvalidSource:b0e06886",
+        "jp_sha256": "d9ec2de92af7a20da594cce238ef34434a64d6079ad91ff6fcc8f8c213a74d47",
+        "official_en_sha256": "5d3ac93c1e288771a7b830e984259ea00720b4c5aaeebd5c96a9541ddfec7111"
+      },
+      "text": {
+        "jp": "バインディング「{0}」は実行されませんでした。無効なソースがあります",
+        "official_en": "The binding '{0}' was not executed. There are invalid sources.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:ExecuteGraphBindingFailInvalidSource:a1f7f7cb",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "ExecuteGraphBindingFailInvalidSource",
+        "jp_record_id": "switch:locres:set-01:MVVMView:ExecuteGraphBindingFailInvalidSource:a1f7f7cb",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:ExecuteGraphBindingFailInvalidSource:a1f7f7cb",
+        "jp_sha256": "d9ec2de92af7a20da594cce238ef34434a64d6079ad91ff6fcc8f8c213a74d47",
+        "official_en_sha256": "5d3ac93c1e288771a7b830e984259ea00720b4c5aaeebd5c96a9541ddfec7111"
+      },
+      "text": {
+        "jp": "バインディング「{0}」は実行されませんでした。無効なソースがあります",
+        "official_en": "The binding '{0}' was not executed. There are invalid sources.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:ExecuteBindingFailGeneric:c79eae45",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "ExecuteBindingFailGeneric",
+        "jp_record_id": "switch:locres:set-01:MVVMView:ExecuteBindingFailGeneric:c79eae45",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:ExecuteBindingFailGeneric:c79eae45",
+        "jp_sha256": "fcbc2157ad08db2cd41e74a76dad4e5108b0f0ebfdf30873a5e2f68221350b2b",
+        "official_en_sha256": "3de10bf54f364fcb9a61796c7ce54558d59d6cdf60c77d89420c12ce793b4b38"
+      },
+      "text": {
+        "jp": "バインディング「{0}」は実行されませんでした。{1}.",
+        "official_en": "The binding '{0}' was not executed. {1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:EnableLibraryEventFailed_CantEvaluateBindingPath:37287e6f",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "EnableLibraryEventFailed_CantEvaluateBindingPath",
+        "jp_record_id": "switch:locres:set-01:MVVMView:EnableLibraryEventFailed_CantEvaluateBindingPath:37287e6f",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:EnableLibraryEventFailed_CantEvaluateBindingPath:37287e6f",
+        "jp_sha256": "34b117f4082a4c4a9522b32d88292666d5463ed951e544e61594a35ac2de3bbd",
+        "official_en_sha256": "6c8e02fd3963336ed1f849848ad2ff958609e720f93f9757fb1431c5fa6e3896"
+      },
+      "text": {
+        "jp": "バインディング パスを評価できませんでした",
+        "official_en": "The binding path couldn't be evaluated.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:ExecuteBindingFailEvaluate:d9c2879e",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "ExecuteBindingFailEvaluate",
+        "jp_record_id": "switch:locres:set-01:MVVMView:ExecuteBindingFailEvaluate:d9c2879e",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:ExecuteBindingFailEvaluate:d9c2879e",
+        "jp_sha256": "ebaa3645f4756b229b3df1007a597791a406574cfb8463b33d4611991de12b4f",
+        "official_en_sha256": "2c318125551786ffdaf434cdfd705895942570f42cba68faaf5d608836814f51"
+      },
+      "text": {
+        "jp": "評価ソース「{0}」の実行に失敗しました",
+        "official_en": "The evaluate source '{0}' fail execution.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:ExecuteEventFailInvalidSource:0a96cdd2",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "ExecuteEventFailInvalidSource",
+        "jp_record_id": "switch:locres:set-01:MVVMView:ExecuteEventFailInvalidSource:0a96cdd2",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:ExecuteEventFailInvalidSource:0a96cdd2",
+        "jp_sha256": "0c20f1ae73fe2c07ad0d8a51279bc0a11e7951143f51b92eeec4836b3e0e38c3",
+        "official_en_sha256": "49b8b7be16c0fea9f8227ef12bd405cbd0dd8c27cd881ffe6433fc30de626fdd"
+      },
+      "text": {
+        "jp": "イベント「{0}」は実行されませんでした。無効なソースがあります",
+        "official_en": "The event '{0}' was not executed. There are invalid sources.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:SetViewModelInvalidValueType:e430c86b",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "SetViewModelInvalidValueType",
+        "jp_record_id": "switch:locres:set-01:MVVMView:SetViewModelInvalidValueType:e430c86b",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:SetViewModelInvalidValueType:e430c86b",
+        "jp_sha256": "3d860270cf3dadef542efee313a89b945e6870f38c23b5d3dee361684d58ea5c",
+        "official_en_sha256": "828552e7cf54dc528ec008d3a78d30f8b90e0686875578e8015f0cb1fba738cc"
+      },
+      "text": {
+        "jp": "新しいビューモデルは想定されているタイプではありません",
+        "official_en": "The new viewmodel is not of the expected type.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:SetViewModelInvalidObject:6517e057",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "SetViewModelInvalidObject",
+        "jp_record_id": "switch:locres:set-01:MVVMView:SetViewModelInvalidObject:6517e057",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:SetViewModelInvalidObject:6517e057",
+        "jp_sha256": "9f896a1b2568fd1756064ea99ced6d4995c719dcb856564b403231694847f8af",
+        "official_en_sha256": "4974453702cf1f988de1304e0a2ff910b1a34f09650b9d0779057cca3c01acbf"
+      },
+      "text": {
+        "jp": "新しいビューモデルは null です",
+        "official_en": "The new viewmodel is null.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:SetViewModelCannotBeEvalaute:1bff34fc",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "SetViewModelCannotBeEvalaute",
+        "jp_record_id": "switch:locres:set-01:MVVMView:SetViewModelCannotBeEvalaute:1bff34fc",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:SetViewModelCannotBeEvalaute:1bff34fc",
+        "jp_sha256": "6610d2f74563920b0b3469871333739d2b2ab43d95b03f623beb55e7a7a058a9",
+        "official_en_sha256": "eaf13f3ee8ebee15e17e4b5001a41ee592d8a427c31e87a9285ad149a5e62662"
+      },
+      "text": {
+        "jp": "新しいビューモデル {0} を再評価できません",
+        "official_en": "The new viewmodel {0} cannot be evaluated again.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:SetViewModelCannotBeSet:c6736f82",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "SetViewModelCannotBeSet",
+        "jp_record_id": "switch:locres:set-01:MVVMView:SetViewModelCannotBeSet:c6736f82",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:SetViewModelCannotBeSet:c6736f82",
+        "jp_sha256": "bd65f7e709a395579458fd180fc7cb8308f607ca64ea7e465e43b92dee05b788",
+        "official_en_sha256": "4e04c9ea48ddd371e2863a287e864ebfbfa27cd580e4f773f62e3dd0964203d8"
+      },
+      "text": {
+        "jp": "新しいビューモデル {0} を設定できません",
+        "official_en": "The new viewmodel {0} cannot be set.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:EnableLibraryEventFailed_OwnerInvalid:020b52f2",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "EnableLibraryEventFailed_OwnerInvalid",
+        "jp_record_id": "switch:locres:set-01:MVVMView:EnableLibraryEventFailed_OwnerInvalid:020b52f2",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:EnableLibraryEventFailed_OwnerInvalid:020b52f2",
+        "jp_sha256": "77a11a1e35bc81c2644f8304c993bec9d6db301987670edf3d5d9240cd9a631a",
+        "official_en_sha256": "186f9699469e0c47be36fd01884a8e67f1fd70749398e648a651f9edb0e2f8c3"
+      },
+      "text": {
+        "jp": "オーナーが無効です",
+        "official_en": "The owner is invalid.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:EnableLibraryEventFailed_NotAProperty:c1819f89",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "EnableLibraryEventFailed_NotAProperty",
+        "jp_record_id": "switch:locres:set-01:MVVMView:EnableLibraryEventFailed_NotAProperty:c1819f89",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:EnableLibraryEventFailed_NotAProperty:c1819f89",
+        "jp_sha256": "4dcc8be1b6f98f144892064e4699644880045d3930724565a056d789933284e1",
+        "official_en_sha256": "20d0ca793939dd8528a1ebd0ca5ae7e7265f9c6dd2c9ecd4f35133a9a8d666b2"
+      },
+      "text": {
+        "jp": "パスはマルチキャスト デリゲート プロパティを指していません",
+        "official_en": "The path doesn't point to a multicast delegate property.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:InitializeBindingFailInvalidSource:91e2c539",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "InitializeBindingFailInvalidSource",
+        "jp_record_id": "switch:locres:set-01:MVVMView:InitializeBindingFailInvalidSource:91e2c539",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:InitializeBindingFailInvalidSource:91e2c539",
+        "jp_sha256": "282999a76a8510b4a90e132e5b872d8b7d0bdc9c810e94527d6a99fc1db523ee",
+        "official_en_sha256": "cb40b7eb3fd17724e3f563daac74c4480b8205cf9ebe055e67cddbd9e9dbb5f6"
+      },
+      "text": {
+        "jp": "ソース「{0}」が無効で、バインディングを初期化できません",
+        "official_en": "The source '{0}' is invalid and could not initialize the bindings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:UninitializeBindingFailInvalidSource:6c083fa5",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "UninitializeBindingFailInvalidSource",
+        "jp_record_id": "switch:locres:set-01:MVVMView:UninitializeBindingFailInvalidSource:6c083fa5",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:UninitializeBindingFailInvalidSource:6c083fa5",
+        "jp_sha256": "5ac7da0aef30bc3e2e3819e686a7b2983df496dbe51f931122dddfc74d03301c",
+        "official_en_sha256": "cde1f36213fe7aac9e2ed067242789184f3b55dccb9f092e21c5d3ec9313b1ee"
+      },
+      "text": {
+        "jp": "ソース「{0}」が無効で、バインディングを初期化解除できません",
+        "official_en": "The source '{0}' is invalid and could not uninitialize the bindings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:SetViewModelInvalidClass:a229f1a7",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "SetViewModelInvalidClass",
+        "jp_record_id": "switch:locres:set-01:MVVMView:SetViewModelInvalidClass:a229f1a7",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:SetViewModelInvalidClass:a229f1a7",
+        "jp_sha256": "0120b8bb9e7aaf7d14069952c25c0aa33c43808dbdfc32085e7be635a7359057",
+        "official_en_sha256": "13b1bf1d690699a7dd51a509229fed171d61dbb7487b3db941935e4631c691e6"
+      },
+      "text": {
+        "jp": "ビューが構築されていません",
+        "official_en": "The view is not constructed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:SetViewModelInvalidGeneratedViewClass:8e1e63dc",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "SetViewModelInvalidGeneratedViewClass",
+        "jp_record_id": "switch:locres:set-01:MVVMView:SetViewModelInvalidGeneratedViewClass:8e1e63dc",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:SetViewModelInvalidGeneratedViewClass:8e1e63dc",
+        "jp_sha256": "356ee7e21f86a988001992e02d85b6df68a607e2f1289f2cc8aff09f145b71c5",
+        "official_en_sha256": "23d6a8a9f88d6bad39719cf6fc90588209c239ea2c083e7727486a9e9c93f08a"
+      },
+      "text": {
+        "jp": "ビューが初期化されていません",
+        "official_en": "The view is not initialized.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:SetViewModelViewModelNameNotFound:03eda06c",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "SetViewModelViewModelNameNotFound",
+        "jp_record_id": "switch:locres:set-01:MVVMView:SetViewModelViewModelNameNotFound:03eda06c",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:SetViewModelViewModelNameNotFound:03eda06c",
+        "jp_sha256": "c433ed73971a7abba733d88213f6837e2177d725c47eced1490ea03de7655acd",
+        "official_en_sha256": "2a4ca500f289236c389774b25ad81539cf738a9fe3bb08f92297b01de5d4aa81"
+      },
+      "text": {
+        "jp": "ビューモデル名が見つかりませんでした",
+        "official_en": "The viewmodel name could not be found.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:SetViewModelInvalidName:f75d294d",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "SetViewModelInvalidName",
+        "jp_record_id": "switch:locres:set-01:MVVMView:SetViewModelInvalidName:f75d294d",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:SetViewModelInvalidName:f75d294d",
+        "jp_sha256": "b8c14f07a27af6b5cdd463d1439861e0ad21dd1745961cd66484103ebb99de63",
+        "official_en_sha256": "d8e682ab7526b2ebfb049d42901b6951ae6020b0d149d4a8de41dda517d6080b"
+      },
+      "text": {
+        "jp": "ビューモデル名が入力されていません",
+        "official_en": "The viewmodel name is empty.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMView:EnableLibraryEventFailed_Format:59fe5d40",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMView",
+        "key": "EnableLibraryEventFailed_Format",
+        "jp_record_id": "switch:locres:set-01:MVVMView:EnableLibraryEventFailed_Format:59fe5d40",
+        "official_en_record_id": "switch:locres:set-01:MVVMView:EnableLibraryEventFailed_Format:59fe5d40",
+        "jp_sha256": "2065416427c732195f253a6fafc55834af620531d605896aae7bdd6700ebf02b",
+        "official_en_sha256": "8414029d1d9516dce9833742c50e8ba38665b8e8244827755974f972c06a18f7"
+      },
+      "text": {
+        "jp": "ウィジェット「{0}」はイベント「{1}」を登録できません{2}",
+        "official_en": "Widget '{0}' can't register event '{1}'. {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

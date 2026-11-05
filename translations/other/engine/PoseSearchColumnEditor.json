@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PoseSearchColumnEditor",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PoseSearchColumnEditor:Pose-Match:5de75be6",
+      "source": {
+        "set": "set-02",
+        "namespace": "PoseSearchColumnEditor",
+        "key": "Pose",
+        "jp_record_id": "switch:locres:set-01:PoseSearchColumnEditor:Pose-Match:5de75be6",
+        "official_en_record_id": "switch:locres:set-01:PoseSearchColumnEditor:Pose-Match:5de75be6",
+        "jp_sha256": "e154571f472167cda0ed2940934c99924a35bfc0b379692c6e5f326bd0c2516b",
+        "official_en_sha256": "9afdd0cb18080cc0bd464c3aa8b5e130972881b196d6413689af908a129320ca"
+      },
+      "text": {
+        "jp": "ポーズ一致",
+        "official_en": "Pose Match",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PoseSearchColumnEditor:Pose-Match-Tooltip:4a2266fe",
+      "source": {
+        "set": "set-02",
+        "namespace": "PoseSearchColumnEditor",
+        "key": "Pose",
+        "jp_record_id": "switch:locres:set-01:PoseSearchColumnEditor:Pose-Match-Tooltip:4a2266fe",
+        "official_en_record_id": "switch:locres:set-01:PoseSearchColumnEditor:Pose-Match-Tooltip:4a2266fe",
+        "jp_sha256": "7b211eb8dbabec1206c476c1f0e3782d0ec56453e963fca1c08529a337c46276",
+        "official_en_sha256": "06918519ffc5647b7bc82e4f9d83b99309f86ef07ac4510067fa5f94fc6df34f"
+      },
+      "text": {
+        "jp": "ポーズ一致：最もよく合うポーズのアニメーションに基づいて 1 つの結果を選択します。また、そのポーズのフレームの開始時間を出力します。アニメーション アセットには、「ポーズ一致ブランチ入力」通知状態が含まれている必要があります。自動入力により、列データに結果アニメーション アセットが入力されます",
+        "official_en": "Pose Match: Selects a single result based on the animation with the best matching pose, and outputs the StartTime for the frame with that pose. Animation Assets must contain \"Pose Match Branch In\" Notify State. AutoPopulate will fill in Column data with result Animation Assets.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

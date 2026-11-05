@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "VerifyObjectValid",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:VerifyObjectValid:ObjectNotAnAsset:41585720",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyObjectValid",
+        "key": "ObjectNotAnAsset",
+        "jp_record_id": "switch:locres:set-01:VerifyObjectValid:ObjectNotAnAsset:41585720",
+        "official_en_record_id": "switch:locres:set-01:VerifyObjectValid:ObjectNotAnAsset:41585720",
+        "jp_sha256": "42dd73a868392609ee26403542037a3b8f5631a03519745e211714ab63b7c68b",
+        "official_en_sha256": "6b48ab73041c2ae709cfc0c9ee7ec7ec7279bc5bd4db4495316d875a66fd1129"
+      },
+      "text": {
+        "jp": "UObject {AssetName} はアセットではありません",
+        "official_en": "The UObject {AssetName} is not an asset",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyObjectValid:ObjectIsAnAsset:a52e9061",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyObjectValid",
+        "key": "ObjectIsAnAsset",
+        "jp_record_id": "switch:locres:set-01:VerifyObjectValid:ObjectIsAnAsset:a52e9061",
+        "official_en_record_id": "switch:locres:set-01:VerifyObjectValid:ObjectIsAnAsset:a52e9061",
+        "jp_sha256": "2f02c977eddf60cc5b8cb5373813232403bc0952661c40191e9ae00b39a400df",
+        "official_en_sha256": "e70e9ae7462c754ffb8d999e0938d1f0298bb4a043a636898e63b082cb87c41d"
+      },
+      "text": {
+        "jp": "アセット {AssetName} を検証中",
+        "official_en": "Verifying the asset {AssetName}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyObjectValid:WrappedUeDataValidationMessage:604ed5a9",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyObjectValid",
+        "key": "WrappedUeDataValidationMessage",
+        "jp_record_id": "switch:locres:set-01:VerifyObjectValid:WrappedUeDataValidationMessage:604ed5a9",
+        "official_en_record_id": "switch:locres:set-01:VerifyObjectValid:WrappedUeDataValidationMessage:604ed5a9",
+        "jp_sha256": "c6c2c77cc9006da64feea5d7507f300653df709adea2f7be98dba47c94f23845",
+        "official_en_sha256": "c0fcca95ab0eda4a5dc2d500737b6610836aecf0525d59c441a7c63264e9014f"
+      },
+      "text": {
+        "jp": "{AssetName} のデータ検証：{InnerMessage}",
+        "official_en": "{AssetName} Data Validation: {InnerMessage}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyObjectValid:ObjectFailedDataValidation:388bedb4",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyObjectValid",
+        "key": "ObjectFailedDataValidation",
+        "jp_record_id": "switch:locres:set-01:VerifyObjectValid:ObjectFailedDataValidation:388bedb4",
+        "official_en_record_id": "switch:locres:set-01:VerifyObjectValid:ObjectFailedDataValidation:388bedb4",
+        "jp_sha256": "e4237250324f40b3335aeca1f8fe06598472fd973d3cfbc082c09046872170d5",
+        "official_en_sha256": "87220921a804395927386d6e95f9a7fe8a13fc0d7dfc6127886c37ca13823941"
+      },
+      "text": {
+        "jp": "{AssetName} は、UE データ検証に失敗しました",
+        "official_en": "{AssetName} has failed UE Data Validation",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

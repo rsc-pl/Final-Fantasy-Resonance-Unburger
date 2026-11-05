@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UDisplaceMeshTool",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UDisplaceMeshTool:SubdivisionsTooHigh:cf1689b3",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDisplaceMeshTool",
+        "key": "SubdivisionsTooHigh",
+        "jp_record_id": "switch:locres:set-01:UDisplaceMeshTool:SubdivisionsTooHigh:cf1689b3",
+        "official_en_record_id": "switch:locres:set-01:UDisplaceMeshTool:SubdivisionsTooHigh:cf1689b3",
+        "jp_sha256": "57628ed0e83c9620d18fe49d6ac59e1672d02bdb065637ae167489c9539fcca6",
+        "official_en_sha256": "f8eb1b4097472271d487f63ae39bb05cdb92f0c2927c4873f342ac0b209c0440"
+      },
+      "text": {
+        "jp": "必要なサブディビジョン数 ({0}) がこの番号の三角ポリゴンのメッシュの最大数 {1} を超えています。",
+        "official_en": "Desired number of Subdivisions ({0}) exceeds maximum number ({1}) for a mesh of this number of triangles.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDisplaceMeshTool:ToolName:20e54901",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDisplaceMeshTool",
+        "key": "ToolName",
+        "jp_record_id": "switch:locres:set-01:UDisplaceMeshTool:ToolName:20e54901",
+        "official_en_record_id": "switch:locres:set-01:UDisplaceMeshTool:ToolName:20e54901",
+        "jp_sha256": "de2596ff85520b36a78110aba0914c332db890cdc3bbd27e730b2b2c03408536",
+        "official_en_sha256": "3e73f2dd4cf29b4cd49123230d58faa05aef2e11e7ed22a05785dd0ea6ee1abc"
+      },
+      "text": {
+        "jp": "移動",
+        "official_en": "Displace",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDisplaceMeshTool:DisplaceMeshToolTransactionName:1346860b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDisplaceMeshTool",
+        "key": "DisplaceMeshToolTransactionName",
+        "jp_record_id": "switch:locres:set-01:UDisplaceMeshTool:DisplaceMeshToolTransactionName:1346860b",
+        "official_en_record_id": "switch:locres:set-01:UDisplaceMeshTool:DisplaceMeshToolTransactionName:1346860b",
+        "jp_sha256": "a8a45358f713f349c6dea49eb589d3233cd87bbbb91646a7e6efb2194a4d330c",
+        "official_en_sha256": "57c078a9af425cf39c7e9ea81388d2b8bc38977c3c059a80a0eb35ab1a926841"
+      },
+      "text": {
+        "jp": "メッシュを移動",
+        "official_en": "Displace Mesh",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDisplaceMeshTool:OnStartDisplaceMesh:6bae0b58",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDisplaceMeshTool",
+        "key": "OnStartDisplaceMesh",
+        "jp_record_id": "switch:locres:set-01:UDisplaceMeshTool:OnStartDisplaceMesh:6bae0b58",
+        "official_en_record_id": "switch:locres:set-01:UDisplaceMeshTool:OnStartDisplaceMesh:6bae0b58",
+        "jp_sha256": "8db5863ce2608ddbfaed5532fff1cc8b24dc580e6ec89cf19eb8e46fc7a835ee",
+        "official_en_sha256": "43d6668c0a7745a0db218c60aa4b081333eaa0ce20b986f01c36e7bd93a5e962"
+      },
+      "text": {
+        "jp": "さまざまなノイズ関数とマップを使用して、入力メッシュを細分および移動します",
+        "official_en": "Subdivide and Displace the input mesh using different noise functions and maps",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDisplaceMeshTool:InvalidTargets:9aa91d6c",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDisplaceMeshTool",
+        "key": "InvalidTargets",
+        "jp_record_id": "switch:locres:set-01:UDisplaceMeshTool:InvalidTargets:9aa91d6c",
+        "official_en_record_id": "switch:locres:set-01:UDisplaceMeshTool:InvalidTargets:9aa91d6c",
+        "jp_sha256": "b86c62ecbb8b8e924e5b347985e38df8d0a353e5fcef3e522d16f37082f31a74",
+        "official_en_sha256": "0f0b66e47457a7905d9a2e436822bc55f583ea02355f1e82372af4650fccf125"
+      },
+      "text": {
+        "jp": "ターゲット メッシュが有効ではなくなっています",
+        "official_en": "Target mesh is no longer valid",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDisplaceMeshTool:DisplaceToolVirtualTextureMessage:6290090c",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDisplaceMeshTool",
+        "key": "DisplaceToolVirtualTextureMessage",
+        "jp_record_id": "switch:locres:set-01:UDisplaceMeshTool:DisplaceToolVirtualTextureMessage:6290090c",
+        "official_en_record_id": "switch:locres:set-01:UDisplaceMeshTool:DisplaceToolVirtualTextureMessage:6290090c",
+        "jp_sha256": "a3cac5412def4661e4414374aa853a94d1ddae3e497e0947637f6275ed101eff",
+        "official_en_sha256": "6f38244162accc353a360e4d56d744991f1a818bbe036492c0471825667d09ab"
+      },
+      "text": {
+        "jp": "このツールでディスプレイスメント マップとして使用するには選択した Texture2D でバーチャル テクスチャを無効にしなければいけません",
+        "official_en": "Virtual Texture must be disabled on the selected Texture2D to use it as a Displacement Map in this Tool",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

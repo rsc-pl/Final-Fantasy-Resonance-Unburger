@@ -1,0 +1,1825 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NiagaraDataInterfaceCamera",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ScreenToViewSpaceDescription:5dfa1d1b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "ScreenToViewSpaceDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ScreenToViewSpaceDescription:5dfa1d1b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ScreenToViewSpaceDescription:5dfa1d1b",
+        "jp_sha256": "c178cb13411ad7dcda1155ca90ac83a5fe47add69618a742fd6cdcaabb9ba054",
+        "official_en_sha256": "a0594c9d8196188d6680d048d7463deb4e75f09c67e0cd697eb0e5cff66c0fcf"
+      },
+      "text": {
+        "jp": "標準ビューポート UV を非投影の viewpos にマッピングするのに使用できます。\n使用例：\nViewPos.x = ViewportUV.x * ScreenToViewSpace.x + ScreenToViewSpace.z;\nViewPos.y = ViewportUV.y * ScreenToViewSpace.y + ScreenToViewSpace.w;",
+        "official_en": "Can be used to map standard viewport UV to an unprojected viewpos.\nExample usage:\nViewPos.x =  ViewportUV.x * ScreenToViewSpace.x + ScreenToViewSpace.z;\nViewPos.y =  ViewportUV.y * ScreenToViewSpace.y + ScreenToViewSpace.w;",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ScreenToWorldTransformDescription:76e23ec2",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "ScreenToWorldTransformDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ScreenToWorldTransformDescription:76e23ec2",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ScreenToWorldTransformDescription:76e23ec2",
+        "jp_sha256": "e058aa798b0fd456f6a36beff1283cd6eee4f382df7beb36aa17cccabd63bf75",
+        "official_en_sha256": "26075cb0c016b2c38d12d6794e24c529ac47e02d115a634a5f7955e1589ade93"
+      },
+      "text": {
+        "jp": "スクリーン空間の位置をワールド位置に変換します。\nトランスフォームとシーンの奥行を組み合わせた例：\nfloat3 WorldPosition = mul(float4(ScreenPosition * SceneDepth, SceneDepth, 1), ScreenToWorld).xyz;",
+        "official_en": "Converts a screen space position a world position.\nExample combining the transform with scene depth:\nfloat3 WorldPosition = mul(float4(ScreenPosition * SceneDepth, SceneDepth, 1), ScreenToWorld).xyz;",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ApplyPreViewTranslationToPositionInputDescription:46152f0d",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "ApplyPreViewTranslationToPositionInputDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ApplyPreViewTranslationToPositionInputDescription:46152f0d",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ApplyPreViewTranslationToPositionInputDescription:46152f0d",
+        "jp_sha256": "bb5bb906fa419fafb11856461234e2f3b89fded73516d0b583c1ba16e8a576ea",
+        "official_en_sha256": "6f5679cd5e8fa026e5b45d5a6a56c51c17ca34afd7e9ba5cecdef1e22d2eb244"
+      },
+      "text": {
+        "jp": "トランスフォームする必要がある位置入力",
+        "official_en": "Position input to be transformed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:FieldOfViewAngleDescription:8048333e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "FieldOfViewAngleDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:FieldOfViewAngleDescription:8048333e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:FieldOfViewAngleDescription:8048333e",
+        "jp_sha256": "edfee2afc20010deb753357570e94b082cab61b45d9c56284abf6160dc6ae621",
+        "official_en_sha256": "e1e62ac049e23b70553f9d2cd7f796c1c221ec1a9060b0ce58a0d1d26dc53fed"
+      },
+      "text": {
+        "jp": "カメラの視野角 (度単位) を返します。",
+        "official_en": "Return the camera's field of view in degrees.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:BufferSizeAndInverseSizeDescription:c39f4b1a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "BufferSizeAndInverseSizeDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:BufferSizeAndInverseSizeDescription:c39f4b1a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:BufferSizeAndInverseSizeDescription:c39f4b1a",
+        "jp_sha256": "8f5e65b8411c9914bcd1133ef2ffc97be36809daed0d6c302c27f80057f2374c",
+        "official_en_sha256": "3ab88eacdcc63f178eb3ac4a9bac90dd6db30d914f3473c20dbcf836eaf7c860"
+      },
+      "text": {
+        "jp": "Vec4 を返します - x と y の値はバッファの幅と高さです。z と w の値は幅と高さの逆数です。",
+        "official_en": "Returns a vec4 - the x and y values are width and height of the buffer; the z and w values are the inverse width and height.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewSizeAndInverseSizeDescription:f3c438eb",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "ViewSizeAndInverseSizeDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewSizeAndInverseSizeDescription:f3c438eb",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewSizeAndInverseSizeDescription:f3c438eb",
+        "jp_sha256": "29b6fbc660710a576de7acb6de5a7ee0faacdb029e761a8b53f227ef48c06c68",
+        "official_en_sha256": "99aff5fb3cd8afe4677b4ccb9208fdcb637c7feb14b9efd64dc2f4beeec24ab2"
+      },
+      "text": {
+        "jp": "Vec4 を返します - x と y の値はビューの幅と高さです。z と w の値は幅と高さの逆数です。",
+        "official_en": "Returns a vec4 - the x and y values are width and height of the view; the z and w values are the inverse width and height.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:FOVCurrentDescription:28cb7565",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "FOVCurrentDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:FOVCurrentDescription:28cb7565",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:FOVCurrentDescription:28cb7565",
+        "jp_sha256": "a344b8b5e4b4026cb351d8c0926bfa039e271774ca632024aba29ab6dbfd3bbb",
+        "official_en_sha256": "21aecbbf34b2ea312c2d8d82880a0ead2c1bd5404b7ba8d33d6ac9e4e09ca004"
+      },
+      "text": {
+        "jp": "現在のカメラの視野角 (X と Y) をラジアン単位で返します",
+        "official_en": "Returns the current camera field of view (X & Y) in radians.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:TemporalAACurrentDescription:8b7f5b0c",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "TemporalAACurrentDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:TemporalAACurrentDescription:8b7f5b0c",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:TemporalAACurrentDescription:8b7f5b0c",
+        "jp_sha256": "e9c8b1472b583528152698d38a07256c28d4406f9707d2b1b2ce6c53e232e2e0",
+        "official_en_sha256": "6da13fe0a998c63189a6340c39a03717647300c9c231b6c93c078143d7ce0eac"
+      },
+      "text": {
+        "jp": "AA ジッターによる現在のフレーム ビューの動きを返します",
+        "official_en": "Returns the movement of the current frame view due to AA jittering",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:TemporalAAPreviousDescription:c49649f1",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "TemporalAAPreviousDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:TemporalAAPreviousDescription:c49649f1",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:TemporalAAPreviousDescription:c49649f1",
+        "jp_sha256": "fa6548eaf91ed8d5190fae0f66a3ba0fa8f6b3b113fbf96715e533d0f865432e",
+        "official_en_sha256": "673fce5a419baff06cb63084f367f9b4dad81f9d2bbd72b027cb85ed9614b597"
+      },
+      "text": {
+        "jp": "AA ジッターによる前のフレーム ビューの動きを返します",
+        "official_en": "Returns the movement of the previous frame view due to AA jittering",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:NearPlaneDescription:66fa29b5",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "NearPlaneDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:NearPlaneDescription:66fa29b5",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:NearPlaneDescription:66fa29b5",
+        "jp_sha256": "e9a5d8d92fd82a67060f73285896ec9a35491eb9f3fb9cc5ed6441b7a9a7f207",
+        "official_en_sha256": "1d0af19c8087f7cea653ad2f343803b4e8cf1b4fecdbdaeb30352328ed1460a8"
+      },
+      "text": {
+        "jp": "近い平面の値を返します",
+        "official_en": "Returns the near plane value.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:FOVPreviousDescription:b39306da",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "FOVPreviousDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:FOVPreviousDescription:b39306da",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:FOVPreviousDescription:b39306da",
+        "jp_sha256": "a3d80b7ed9064cc79902a55064e276dbca6c270c37e7dd7e39d8667257dc2368",
+        "official_en_sha256": "92329f735c99e9022922851d60489a9cbece8234e714ebd50e754f745e279123"
+      },
+      "text": {
+        "jp": "前のカメラの視野角 (X と Y) をラジアン単位で返します",
+        "official_en": "Returns the previous camera field of view (X & Y) in radians.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:PreViewTranslationDescription:4d58916b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "PreViewTranslationDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:PreViewTranslationDescription:4d58916b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:PreViewTranslationDescription:4d58916b",
+        "jp_sha256": "194e5022378324cb08efbc09ec7941b5a306c33103e61c17cda183042b874dae",
+        "official_en_sha256": "a6df1ab18ee93d9c1909a8c20b9a49118e00f81cc71915ccc82f04b5058e3a36"
+      },
+      "text": {
+        "jp": "さまざまな「Translated XX to YY」のトランスフォームに適用する変換を返します。",
+        "official_en": "Returns the translation to apply for the various 'Translated XX to XX' transforms.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewportOffsetDescription:891a0d94",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "ViewportOffsetDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewportOffsetDescription:891a0d94",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewportOffsetDescription:891a0d94",
+        "jp_sha256": "8734ba4e43e771cad7c18209cc80007179c6a0b6dbc10472ebba790979f88895",
+        "official_en_sha256": "a18b25b78c671ddd0b78c0a6532d3b86231a2833f72b98eb0946ab46ca4dacd3"
+      },
+      "text": {
+        "jp": "バッファのビューポートオフセットを返します。",
+        "official_en": "Returns the viewport offset in the buffer.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:IsClosestDescription:d589f369",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "IsClosestDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:IsClosestDescription:d589f369",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:IsClosestDescription:d589f369",
+        "jp_sha256": "efe10c6061f881750a86b98ab484a14050dba0f3582eb2660abae7c9e040f7df",
+        "official_en_sha256": "2e3413f8019308519521677e928c6fcad32ed7a5a8b2d8b1e1dfbde7698fe017"
+      },
+      "text": {
+        "jp": "与えられたパーティクル ID が、最後のフレームの計算に基づいて最も近い n 個のパーティクルの 1 つの場合、True を返します。",
+        "official_en": "Returns true if the given particle ID is one of the closest n particles based on last frame's calculation.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:TranslatedWorldToCameraTransformDescription:40513894",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "TranslatedWorldToCameraTransformDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:TranslatedWorldToCameraTransformDescription:40513894",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:TranslatedWorldToCameraTransformDescription:40513894",
+        "jp_sha256": "b043d7aba0221f0d3d9d8f51f54400457c70902ecff47b3ed685c25a19c00809",
+        "official_en_sha256": "cee04c89954334d5c4e86d8943a7070f474f492447e3c60ea2f3af3a1ba9a7f5"
+      },
+      "text": {
+        "jp": "[Translated World To View]と同じですがビュー位置の代わりにカメラ位置にトランスフォームします。",
+        "official_en": "Same as 'Translated World To View', but transforms to the camera position instead of the view position.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:CameraToTranslatedWorldTransformDescription:8583dc06",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "CameraToTranslatedWorldTransformDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:CameraToTranslatedWorldTransformDescription:8583dc06",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:CameraToTranslatedWorldTransformDescription:8583dc06",
+        "jp_sha256": "4d8e07fec80b2062665a8ee6b473d80b3a2057e9af4cde0c43b1cb12d9755556",
+        "official_en_sha256": "12c8144a18fcfae7b9d059412cde6fe641a2c94c9471609d0f946137763afb04"
+      },
+      "text": {
+        "jp": "[View To Translated World]と同じですがビュー位置の代わりにカメラ位置からトランスフォームします。",
+        "official_en": "Same as 'View To Translated World', but transforms from the camera position instead of the view position.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ScreenToTranslatedWorldTransformDescription:ad6f95eb",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "ScreenToTranslatedWorldTransformDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ScreenToTranslatedWorldTransformDescription:ad6f95eb",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ScreenToTranslatedWorldTransformDescription:ad6f95eb",
+        "jp_sha256": "cf7c038896ad2aba3c6f88ea124a40527d0302de54f44a0a1e7c0adf2ae566a7",
+        "official_en_sha256": "8d063a32815613431b7529a018e6f975742f00582ace831f9f99bcb25638abf7"
+      },
+      "text": {
+        "jp": "画面からワールドへのトランスフォームと同じですが、カメラが原点にあることを前提とします。\nこれにより、大きな座標を扱う場合のトランスフォームの精度がより高くなります。\n実際のワールド空間を取得するには、PreViewTranslation をトランスフォームの結果から減算する必要があります",
+        "official_en": "Same as the screen to world transform, but with the assumption that the camera is at the origin.\nThis allows for more precision of the transform when dealing with big coordinates.\nTo get the actual world space position, you need to subtract PreViewTranslation from the transform result.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:TranslatedWorldToClipTransformDescription:ebb55454",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "TranslatedWorldToClipTransformDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:TranslatedWorldToClipTransformDescription:ebb55454",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:TranslatedWorldToClipTransformDescription:ebb55454",
+        "jp_sha256": "cda1b2111f9ff9001c4f001e56f1eb126bcfe6402a762a5f954ef24a8f678ebf",
+        "official_en_sha256": "5ddaa388d5351aa4bf8c960a3e187677a70511e18e79e93ecfa317ce0f6c5c62"
+      },
+      "text": {
+        "jp": "ワールドからクリップへのトランスフォームと同じですが、カメラの平行移動を有効にした場合はカメラの位置が原点にあります。\nこれにより、大きな座標を扱う場合のトランスフォームの精度がより高くなります。\nこのトランスフォームを使用するには、まずトランスフォーム ターゲットに PreViewTranslation を加算する必要があります",
+        "official_en": "Same as world to clip transform, but the camera position is at the origin when camera translation is enabled.\nThis allows for more precision of the transform when dealing with big coordinates.\nTo use this transform, you first need to add PreViewTranslation to your transform target.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:CameraPositionWorldDescription:7083c903",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "CameraPositionWorldDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:CameraPositionWorldDescription:7083c903",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:CameraPositionWorldDescription:7083c903",
+        "jp_sha256": "f6dbf1cae23389f7f35bfd80c375521b5129c6090bac24b050fbaab980011889",
+        "official_en_sha256": "c9c085b10774ae5ef9d4117c534a24bfec824f48554989c4161e891104d70623"
+      },
+      "text": {
+        "jp": "ワールド空間のカメラ位置。",
+        "official_en": "The camera position in world space.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewPositionWorldDescription:c5ddc7f9",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "ViewPositionWorldDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewPositionWorldDescription:c5ddc7f9",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewPositionWorldDescription:c5ddc7f9",
+        "jp_sha256": "f6dbf1cae23389f7f35bfd80c375521b5129c6090bac24b050fbaab980011889",
+        "official_en_sha256": "c9c085b10774ae5ef9d4117c534a24bfec824f48554989c4161e891104d70623"
+      },
+      "text": {
+        "jp": "ワールド空間のカメラ位置。",
+        "official_en": "The camera position in world space.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:RightVectorWorldDescription:c5f665e3",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "RightVectorWorldDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:RightVectorWorldDescription:c5f665e3",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:RightVectorWorldDescription:c5f665e3",
+        "jp_sha256": "074abde608647ae48221b20d096778bbf9341a5d54b7630985628ef38be3f4d9",
+        "official_en_sha256": "21328367177880301fa2d3a0b28d2718f27dbeaf21cda394b27b6cfaf3611f97"
+      },
+      "text": {
+        "jp": "ワールド空間でのカメラの右方向。",
+        "official_en": "The camera's right direction in world space.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewRightVectorDescription:6161bf63",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "ViewRightVectorDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewRightVectorDescription:6161bf63",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewRightVectorDescription:6161bf63",
+        "jp_sha256": "074abde608647ae48221b20d096778bbf9341a5d54b7630985628ef38be3f4d9",
+        "official_en_sha256": "21328367177880301fa2d3a0b28d2718f27dbeaf21cda394b27b6cfaf3611f97"
+      },
+      "text": {
+        "jp": "ワールド空間でのカメラの右方向。",
+        "official_en": "The camera's right direction in world space.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:UpVectorWorldDescription:52bcfe44",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "UpVectorWorldDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:UpVectorWorldDescription:52bcfe44",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:UpVectorWorldDescription:52bcfe44",
+        "jp_sha256": "cd30a9dc214ae46fe3b7b548aa82bba4d8d37e6d6e720b51db94258003eb8046",
+        "official_en_sha256": "faa2de46eda2a9caa470b096ec0b525bbc5c77093c12f538a2b836cfd96ebf2e"
+      },
+      "text": {
+        "jp": "ワールド空間でのカメラの上方向。",
+        "official_en": "The camera's up direction in world space.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewUpVectorDescription:9487f2d7",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "ViewUpVectorDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewUpVectorDescription:9487f2d7",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewUpVectorDescription:9487f2d7",
+        "jp_sha256": "cd30a9dc214ae46fe3b7b548aa82bba4d8d37e6d6e720b51db94258003eb8046",
+        "official_en_sha256": "faa2de46eda2a9caa470b096ec0b525bbc5c77093c12f538a2b836cfd96ebf2e"
+      },
+      "text": {
+        "jp": "ワールド空間でのカメラの上方向。",
+        "official_en": "The camera's up direction in world space.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ClipToTranslatedWorldTransformDescription:04617f66",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "ClipToTranslatedWorldTransformDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ClipToTranslatedWorldTransformDescription:04617f66",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ClipToTranslatedWorldTransformDescription:04617f66",
+        "jp_sha256": "492e80c6087be25a0f07a303dba3f8583acc102f654c0a1a4039cfb9c1eca016",
+        "official_en_sha256": "59eef0d0ded3c768b76119492b130639607dc4e429a613d9f02a3108962a70c3"
+      },
+      "text": {
+        "jp": "平行移動したワールドからクリップへのトランスフォームの逆数。カメラの平行移動を有効にすると、カメラ位置が原点になるようトランスフォームされます。\nこれにより、大きな座標を扱う場合のトランスフォームの精度がより高くなります。\n実際のワールド空間を取得するには、PreViewTranslation をトランスフォームの結果から減算する必要があります",
+        "official_en": "The inverse of the translated world to clip transform. When camera translation is enabled, the transform is such that the camera position is at the origin.\nThis allows for more precision of the transform when dealing with big coordinates.\nTo get the actual world space position, you need to subtract PreViewTranslation from the transform result.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewToTranslatedWorldTransformDescription:42d4727b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "ViewToTranslatedWorldTransformDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewToTranslatedWorldTransformDescription:42d4727b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewToTranslatedWorldTransformDescription:42d4727b",
+        "jp_sha256": "69ca224642b3b7645001d646dc4af0231b40380cd2a55f3395e95a587cbbaadb",
+        "official_en_sha256": "1944235a5fc8d7aae09ac160a8a11fd421fc21cac5f80958510ac7c6357cb589"
+      },
+      "text": {
+        "jp": "平行移動したワールドからビューへのトランスフォームの逆数。カメラの平行移動を有効にすると、カメラ位置が原点になるようトランスフォームされます。\nこれにより、大きな座標を扱う場合のトランスフォームの精度がより高くなります。\n実際のワールド空間を取得するには、PreViewTranslation をトランスフォームの結果から減算する必要があります",
+        "official_en": "The inverse of the translated world to view transform. When camera translation is enabled, the transform is such that the camera position is at the origin.\nThis allows for more precision of the transform when dealing with big coordinates.\nTo get the actual world space position, you need to subtract PreViewTranslation from the transform result.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:MaxValidResultsDescription:36c05685",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "MaxValidResultsDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:MaxValidResultsDescription:36c05685",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:MaxValidResultsDescription:36c05685",
+        "jp_sha256": "960252097666dfa9d201770e359e8b47d4b88d8a33ae4b868da23ea4280176fa",
+        "official_en_sha256": "b1768bd0b5167ed10982297791e1abf4bfdba91f39e6d71cf0e014c017698a80"
+      },
+      "text": {
+        "jp": "この関数が True を返す、カメラに最も近い最大パーティクル数。\n例えば、30 個のパーティクルがあり、最大有効結果が 10 に設定されている場合、この関数は 10 個の最も近いパーティクルに対して True を返します。",
+        "official_en": "The max number of particles closest to the camera that this function should return true for.\nFor example, if there are 30 particles and Max Valid Results is set to 10, then this functions returns true for the 10 closest particles.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:SplitscreenModeOutput:6924f96b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "SplitscreenModeOutput",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:SplitscreenModeOutput:6924f96b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:SplitscreenModeOutput:6924f96b",
+        "jp_sha256": "1286287c93ddf139676c022a9b8b6c8627a72bb095082487d459458ff9ccd701",
+        "official_en_sha256": "38d84a1ee7b472f98deb7a733cf75c0acedff55a58f43d8f2ae69c36ea1d003f"
+      },
+      "text": {
+        "jp": "ESplitScreenType 値としての分割画面モード。値が 0 であれば、アクティブな分割画面はありません",
+        "official_en": "The splitscreen mode as ESplitScreenType value. A value of 0 means there is no splitscreen active.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:RemovePreViewTranslationFromPositionOutputDescription:7e027506",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "RemovePreViewTranslationFromPositionOutputDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:RemovePreViewTranslationFromPositionOutputDescription:7e027506",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:RemovePreViewTranslationFromPositionOutputDescription:7e027506",
+        "jp_sha256": "3eecb2251d4da2e4ba1b1a86811adf15572c215a3b03aed43270b04e00a4b362",
+        "official_en_sha256": "ecd6377eb47fd19ab4862a8e07897f9634ad800cd3e9f876d1d13c2c8d20c9fc"
+      },
+      "text": {
+        "jp": "トランスフォームした位置",
+        "official_en": "The transformed position.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ForwardVectorWorldDescription:8c72daf3",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "ForwardVectorWorldDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ForwardVectorWorldDescription:8c72daf3",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ForwardVectorWorldDescription:8c72daf3",
+        "jp_sha256": "e20f04cbd6f211dca0f3b734ae48041d39c9a414bdd48b29f7dca882ccd79c39",
+        "official_en_sha256": "e6ef25bc60687a6da820cbb44227297bd863486fa10b64e56e7b4c3cfc0407e6"
+      },
+      "text": {
+        "jp": "カメラが向いているワールド空間の方向。",
+        "official_en": "The world space direction that the camera is pointing.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewForwardVectorDescription:24e15a3a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "ViewForwardVectorDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewForwardVectorDescription:24e15a3a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewForwardVectorDescription:24e15a3a",
+        "jp_sha256": "e20f04cbd6f211dca0f3b734ae48041d39c9a414bdd48b29f7dca882ccd79c39",
+        "official_en_sha256": "e6ef25bc60687a6da820cbb44227297bd863486fa10b64e56e7b4c3cfc0407e6"
+      },
+      "text": {
+        "jp": "カメラが向いているワールド空間の方向。",
+        "official_en": "The world space direction that the camera is pointing.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ApplyPreViewTranslationToPositionDescription:dfa57550",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "ApplyPreViewTranslationToPositionDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ApplyPreViewTranslationToPositionDescription:dfa57550",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ApplyPreViewTranslationToPositionDescription:dfa57550",
+        "jp_sha256": "94f74a701244df8fcbee182205a1ba0f09c4b60825bca2cef2cf7589524c28bd",
+        "official_en_sha256": "0117deef3aceb1dcb14566d0d9f7f8bad09c6b77691bf9dbc0c74e2e62de3134"
+      },
+      "text": {
+        "jp": "この関数は Particles.Position など LWC 位置にプレビューの平行移動を適用します。結果ベクターは、「Translated X to Y」トランスフォーム マトリクスのいずれかを使用できます",
+        "official_en": "This function applies the pre view translation to a lwc positions such as Particles.Position. The resulting vector can be used with any of the 'Translated X to Y' transform matrices.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:QueryClosestDescription:5566daba",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "QueryClosestDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:QueryClosestDescription:5566daba",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:QueryClosestDescription:5566daba",
+        "jp_sha256": "5d8634b2e792c616f757c8a8403a98d430966d81a596bd209812578bf6ade6a5",
+        "official_en_sha256": "b672c3dae5167ef22949d43815292379c142004da2736591e7c411be690a2673"
+      },
+      "text": {
+        "jp": "この関数は、以前に算出された各パーティクルの距離をチェックしてから、最も近いパーティクルに対して True を返し、その他のパーティクルに対しては False を返します。\nこの関数が正しく動作するには、CalculateParticleDistancesCPU と組み合わせる必要があります。",
+        "official_en": "This function checks the previously calculated distance of each particle and then returns true for the closest particles and false for the other ones.\nThis function needs to be paired with CalculateParticleDistancesCPU to work correctly.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:CalculateDistancesDescription:b824c592",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "CalculateDistancesDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:CalculateDistancesDescription:b824c592",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:CalculateDistancesDescription:b824c592",
+        "jp_sha256": "8b316ffdabf12c59039f1202a8610fda2975ea08582bc82439412cc54da366ed",
+        "official_en_sha256": "b40e8656862d2bd90e8b12bd5a590c1cfceb1d649243ee0d0b6b8dfef6c6106d"
+      },
+      "text": {
+        "jp": "この関数は、パーティクルの位置をカメラの位置と比較し、その結果を次のフレームでクエリできるように格納します。\nそうすると結果は QueryClosestParticlesCPU でクエリできます。",
+        "official_en": "This function compares the particle position against the camera position and stores the result to be queried in the next frame.\nThe results can then be queried with QueryClosestParticlesCPU.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:RemovePreViewTranslationFromPositionDescription:fab8ea0e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "RemovePreViewTranslationFromPositionDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:RemovePreViewTranslationFromPositionDescription:fab8ea0e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:RemovePreViewTranslationFromPositionDescription:fab8ea0e",
+        "jp_sha256": "6a21103e663b2b53d17d2ab1accbed646baa6a179063d764fbb60e195d7a3daa",
+        "official_en_sha256": "8c5c8d230d494c25e739445fc669a14876cb94cda9d3f6b7c50ee3d8bc788eac"
+      },
+      "text": {
+        "jp": "この関数は LWC 位置を返すため、ベクターからプレビューの平行移動を除去します。「X to Translated Y」トランスフォーム マトリクスの乗算結果を入力ベクターとして使用します",
+        "official_en": "This function removes the pre view translation from a vector to return a lwc position. Use the result of a 'X to Translated Y' transform matrix multiplication as input vector.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:GetClipSpaceTransformsDescription:6e6b9dbe",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "GetClipSpaceTransformsDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:GetClipSpaceTransformsDescription:6e6b9dbe",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:GetClipSpaceTransformsDescription:6e6b9dbe",
+        "jp_sha256": "402452bae40c3426328adc74d95d23ae47cfe0199014fed6b44349eb87c0a92f",
+        "official_en_sha256": "5a8809db3096a40937128f86c6bac4a4c011ab367d43f8aac17018136f5f659c"
+      },
+      "text": {
+        "jp": "この関数は現在のビューのクリップトランスフォームを返します。GPU パーティクルにのみ有効です。",
+        "official_en": "This function returns the clip transforms for the current view. Only valid for gpu particles.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:GetNiagaraFOVDescription:bedc073b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "GetNiagaraFOVDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:GetNiagaraFOVDescription:bedc073b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:GetNiagaraFOVDescription:bedc073b",
+        "jp_sha256": "433f7d181641befcb4553315b0ba0e1209576d6cea60e43ccdbf70e307625529",
+        "official_en_sha256": "a5f5f933cb262bb8396af24c80afdacbebccbf6958f383090326689b59de00f0"
+      },
+      "text": {
+        "jp": "この関数は有効なカメラの視野角を度単位で返します。GPU パーティクルに対しては、視野角の X 軸を返します。",
+        "official_en": "This function returns the field of view angle (in degrees) for the active camera. For gpu particles this returns the x axis fov.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:GetCameraPositionDescription:85190939",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "GetCameraPositionDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:GetCameraPositionDescription:85190939",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:GetCameraPositionDescription:85190939",
+        "jp_sha256": "b86935ce40f23730b9205594066dc448faeefb6268a77684937cd8e1c688b516",
+        "official_en_sha256": "9051328646cb3216fc0db2cf3009b5a544536520cc57cae299b4c63293cf65c4"
+      },
+      "text": {
+        "jp": "この関数は現在有効なカメラの位置を返します。",
+        "official_en": "This function returns the position of the currently active camera.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:GetViewPropertiesDescription:fefd728f",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "GetViewPropertiesDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:GetViewPropertiesDescription:fefd728f",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:GetViewPropertiesDescription:fefd728f",
+        "jp_sha256": "9a61dc9efe9477ce85ca0770fce386cf5194d29a2fadf733a0a32d1079d6b7dd",
+        "official_en_sha256": "f68cb63124d4f16f05121c035d41af755aea51d3888365ab85015333596cf1ea"
+      },
+      "text": {
+        "jp": "この関数は現在のビューのプロパティを返します。GPU パーティクルにのみ有効です。",
+        "official_en": "This function returns the properties of the current view. Only valid for gpu particles.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:GetViewSpaceTransformsDescription:0df986ad",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "GetViewSpaceTransformsDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:GetViewSpaceTransformsDescription:0df986ad",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:GetViewSpaceTransformsDescription:0df986ad",
+        "jp_sha256": "c8abb3aa0ae8c364eb586b7a5b301f512bf8420230baae0b54bd8d0c921036ae",
+        "official_en_sha256": "5f109c440819d3fc775b556981128a6b68152c109d24615438fe15e0f763d404"
+      },
+      "text": {
+        "jp": "この関数は現在のビューの関連トランスフォームを返します。GPU パーティクルにのみ有効です。",
+        "official_en": "This function returns the relevant transforms for the current view. Only valid for gpu particles.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ClipToViewTransformDescription:4d36d4d0",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "ClipToViewTransformDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ClipToViewTransformDescription:4d36d4d0",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ClipToViewTransformDescription:4d36d4d0",
+        "jp_sha256": "01d6fe82f05f46806314ed10d79ab405a975bdede8f9de952673bd4823b28f82",
+        "official_en_sha256": "49317a82bfee42065f91cc7f7d9aa6e1c55059ff0707f2f3952fe879709c06ff"
+      },
+      "text": {
+        "jp": "クリップ空間位置をビュー空間にトランスフォームします",
+        "official_en": "Transforms a clip space position to view space",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ClipToWorldTransformDescription:8929313a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "ClipToWorldTransformDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ClipToWorldTransformDescription:8929313a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ClipToWorldTransformDescription:8929313a",
+        "jp_sha256": "0730908a56765b2ec295c60cdf3371a453487359a1c60b5e1b85ef35e20119aa",
+        "official_en_sha256": "f4ef4fb85f9c9bcb35228ebdad53cb92b39836fc87ea3498e40ec5ea02d9bba3"
+      },
+      "text": {
+        "jp": "クリップ空間位置をワールド空間にトランスフォームします",
+        "official_en": "Transforms a clip space position to world space",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:TranslatedWorldToViewTransformDescription:ccc50351",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "TranslatedWorldToViewTransformDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:TranslatedWorldToViewTransformDescription:ccc50351",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:TranslatedWorldToViewTransformDescription:ccc50351",
+        "jp_sha256": "2847e2d977f328759edc0bf12d4488af55a59ddb27d2a1ba52d36052dea022a0",
+        "official_en_sha256": "66d45db02febee1a3d6688dc20322718a0ecfbe4f21e52e497dc11c95eb8e27a"
+      },
+      "text": {
+        "jp": "ワールドからビューへ位置をトランスフォームしますが、ビュー位置が原点にあると仮定します。\nこれにより、大きな座標を扱う場合のトランスフォームの精度がより高くなります。\nこのトランスフォームを使用するには、まずトランスフォーム ターゲットに PreViewTranslation を加算する必要があります",
+        "official_en": "Transforms a position from world to view, but the view position is assumed to be at the origin.\nThis allows for more precision of the transform when dealing with big coordinates.\nTo use this transform, you first need to add PreViewTranslation to your transform target.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewToClipTransformDescription:4a5cc37e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "ViewToClipTransformDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewToClipTransformDescription:4a5cc37e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewToClipTransformDescription:4a5cc37e",
+        "jp_sha256": "57b5fc8580cb9a219a971934b7e4b30f0c7a186ad1e77608071e63f70c77cdfb",
+        "official_en_sha256": "289f7077e59f7ef1370b343996e366786b818f487ba9521e47d07cb085d871d8"
+      },
+      "text": {
+        "jp": "ビュー空間位置をクリップ空間にトランスフォームします",
+        "official_en": "Transforms a view space position to clip space",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewToClipNoAATransformDescription:a8e1ce5d",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "ViewToClipNoAATransformDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewToClipNoAATransformDescription:a8e1ce5d",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ViewToClipNoAATransformDescription:a8e1ce5d",
+        "jp_sha256": "9b9fd2cc5f4f28c597bbfc0ddb92b25c0823b4896f66d1f66ccbe6b3315769f1",
+        "official_en_sha256": "cfd24ecc7ce9d1e3ff788ac2e2447f71f8ff4397e7c983b7289f49a6470c2498"
+      },
+      "text": {
+        "jp": "一時的な AA ジッターなしで、ビュー空間位置をクリップ空間にトランスフォームします",
+        "official_en": "Transforms a view space position to clip space without the temporal AA jittering",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:WorldToClipTransformDescription:e2403613",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "WorldToClipTransformDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:WorldToClipTransformDescription:e2403613",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:WorldToClipTransformDescription:e2403613",
+        "jp_sha256": "6ead254cbaa323d77cb03e6dbcab568d9d8a5a61ca9c4604ce04d2c3cc478235",
+        "official_en_sha256": "09837e8002082cb8274ccfe99727653a73ba018338c5417cf7aff1262c490a4c"
+      },
+      "text": {
+        "jp": "ワールド空間位置をクリップ空間にトランスフォームします",
+        "official_en": "Transforms a world space position to clip space",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ClipToPreviousClipTransformDescription:33a481b2",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "ClipToPreviousClipTransformDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ClipToPreviousClipTransformDescription:33a481b2",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ClipToPreviousClipTransformDescription:33a481b2",
+        "jp_sha256": "08d39072d715e4e79d56ec92f3bd6aefdf42b5bc0074d000a56a9865f981e9dc",
+        "official_en_sha256": "959ee5a91f88e2ef9960560f49645e1cc2b40eab89c3699a8d6bd5c5b185ce46"
+      },
+      "text": {
+        "jp": "現在のクリップ空間位置から最後のフレームのクリップ空間位置にトランスフォームします。\n例えば、ポスト プロセス速度を計算するのに使用します。",
+        "official_en": "Transforms from a current clip space position to last frame's clip space position.\nThis can be used to calculate for example post process velocity.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ApplyPreViewTranslationToPositionOutputDescription:b7bcaa5b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "ApplyPreViewTranslationToPositionOutputDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ApplyPreViewTranslationToPositionOutputDescription:b7bcaa5b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:ApplyPreViewTranslationToPositionOutputDescription:b7bcaa5b",
+        "jp_sha256": "60df51d0f23e0680b7153cd664cf50f9a141ec6131b23f346cec2f00679cd819",
+        "official_en_sha256": "a66330183aa73feb88915287c061e0871855f6c633a5c0950f37697550979ac1"
+      },
+      "text": {
+        "jp": "「Translated X to Y」トランスフォームマトリクスで使用できる平行移動ベクター",
+        "official_en": "Translated vector that can be used with the 'Translated X to Y' transforms matrices.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:RemovePreViewTranslationFromPositionInputDescription:64c8c75b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceCamera",
+        "key": "RemovePreViewTranslationFromPositionInputDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:RemovePreViewTranslationFromPositionInputDescription:64c8c75b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceCamera:RemovePreViewTranslationFromPositionInputDescription:64c8c75b",
+        "jp_sha256": "ce62ac51aff908ff3bad80839f2da9c2600107005a7d9dffb22c59e3c08dff65",
+        "official_en_sha256": "d2d50e347ff2bb915fae5027f1ada7ff75cfdc8b013dd1adb8396d1acd6cf4d5"
+      },
+      "text": {
+        "jp": "「X to Translated Y」トランスフォームマトリクスの結果である平行移動ベクター",
+        "official_en": "Translated vector that is a result of a 'X to Translated Y' transforms matrix.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

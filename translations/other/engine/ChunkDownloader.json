@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ChunkDownloader",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ChunkDownloader:DownloadCanceled:4954bf04",
+      "source": {
+        "set": "set-02",
+        "namespace": "ChunkDownloader",
+        "key": "DownloadCanceled",
+        "jp_record_id": "switch:locres:set-01:ChunkDownloader:DownloadCanceled:4954bf04",
+        "official_en_record_id": "switch:locres:set-01:ChunkDownloader:DownloadCanceled:4954bf04",
+        "jp_sha256": "14113453552ecbe5d37d0af5010d080c91439da206c527755370db62c4d4fdeb",
+        "official_en_sha256": "6e2cc4ffd8dabe9d5c45a65639bd8ef8d45b21bd115a41fb529bc524b60fbba4"
+      },
+      "text": {
+        "jp": "「%s」のダウンロードがキャンセルされました。",
+        "official_en": "Download of '%s' was canceled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ChunkDownloader:FailedToMount:354a9ea1",
+      "source": {
+        "set": "set-02",
+        "namespace": "ChunkDownloader",
+        "key": "FailedToMount",
+        "jp_record_id": "switch:locres:set-01:ChunkDownloader:FailedToMount:354a9ea1",
+        "official_en_record_id": "switch:locres:set-01:ChunkDownloader:FailedToMount:354a9ea1",
+        "jp_sha256": "9b3d00dcaf605ee79cbbbaaa80067788a8925210b9568fc0c46b525aea5f2211",
+        "official_en_sha256": "e160fb9585fd90c8676df80d709bdbf031939cb68034793ccc1d1e01cc431a95"
+      },
+      "text": {
+        "jp": "{0} をマウントできませんでした。",
+        "official_en": "Failed to mount {0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ChunkDownloader:NotEnoughSpace:e6ad4cbc",
+      "source": {
+        "set": "set-02",
+        "namespace": "ChunkDownloader",
+        "key": "NotEnoughSpace",
+        "jp_record_id": "switch:locres:set-01:ChunkDownloader:NotEnoughSpace:e6ad4cbc",
+        "official_en_record_id": "switch:locres:set-01:ChunkDownloader:NotEnoughSpace:e6ad4cbc",
+        "jp_sha256": "7cac34a09d7413434fe166045c87ecbce3382af0906ce711268331e28e4d3351",
+        "official_en_sha256": "fecaadabecf3b03d442cce0c0589fd46d322ade7e1061153a3a5a7b13a47869e"
+      },
+      "text": {
+        "jp": "デバイスに十分な空き領域がありません。",
+        "official_en": "Not enough space on device.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ChunkDownloader:UnableToDownloadManifest:cc6a5f1d",
+      "source": {
+        "set": "set-02",
+        "namespace": "ChunkDownloader",
+        "key": "UnableToDownloadManifest",
+        "jp_record_id": "switch:locres:set-01:ChunkDownloader:UnableToDownloadManifest:cc6a5f1d",
+        "official_en_record_id": "switch:locres:set-01:ChunkDownloader:UnableToDownloadManifest:cc6a5f1d",
+        "jp_sha256": "1ec914b667d053ecdcb3162a5431c8a2eb7315f2e85faf90e7a6ac94c444eacf",
+        "official_en_sha256": "8784459177ed047f99b6f768282b94ec7e14e2fe7c17cb7278ae3d28d5c68841"
+      },
+      "text": {
+        "jp": "ビルド マニフェストをダウンロードできません。(NoCDN)",
+        "official_en": "Unable to download build manifest. (NoCDN)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ChunkDownloader:ManifestHttpError_Generic:62103d41",
+      "source": {
+        "set": "set-02",
+        "namespace": "ChunkDownloader",
+        "key": "ManifestHttpError_Generic",
+        "jp_record_id": "switch:locres:set-01:ChunkDownloader:ManifestHttpError_Generic:62103d41",
+        "official_en_record_id": "switch:locres:set-01:ChunkDownloader:ManifestHttpError_Generic:62103d41",
+        "jp_sha256": "0582143bbedf5d6dfa1ab74f5d8f93bbe19392a7cf86c19d7d7adc48575ea4c8",
+        "official_en_sha256": "69171831d3af0e08d27b7d6e1317e1f1535abc6d5a9bb123939828c0c99561da"
+      },
+      "text": {
+        "jp": "[Try {0}] マニフェストのダウンロード中に接続の問題が発生しました。ネットワーク接続を確認してください。",
+        "official_en": "[Try {0}] Connection issues downloading manifest. Check your network connection...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ChunkDownloader:FailedToWriteManifest:8b58b424",
+      "source": {
+        "set": "set-02",
+        "namespace": "ChunkDownloader",
+        "key": "FailedToWriteManifest",
+        "jp_record_id": "switch:locres:set-01:ChunkDownloader:FailedToWriteManifest:8b58b424",
+        "official_en_record_id": "switch:locres:set-01:ChunkDownloader:FailedToWriteManifest:8b58b424",
+        "jp_sha256": "cbafaaaab538bb69204e9450cb3ba9ca8df5c7fdfe978abaaeb287d07b3008e2",
+        "official_en_sha256": "1d56227974fdb37eee2ab5d334da58da398feb6c2addff8b82d9ec2b5171fe53"
+      },
+      "text": {
+        "jp": "[Try {0}] マニフェストを書き込むことができませんでした。",
+        "official_en": "[Try {0}] Failed to write manifest.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ChunkDownloader:ManifestHttpError_FailureCode:4ae22409",
+      "source": {
+        "set": "set-02",
+        "namespace": "ChunkDownloader",
+        "key": "ManifestHttpError_FailureCode",
+        "jp_record_id": "switch:locres:set-01:ChunkDownloader:ManifestHttpError_FailureCode:4ae22409",
+        "official_en_record_id": "switch:locres:set-01:ChunkDownloader:ManifestHttpError_FailureCode:4ae22409",
+        "jp_sha256": "024ef1dc8368952dd74427999d1b569562c8b6b43b4f916c5949821eacf9679e",
+        "official_en_sha256": "3a451c28e9469ad4b87e28e050a89d885c7c9c9f6bf81a4743ebef2bd2c28eab"
+      },
+      "text": {
+        "jp": "[Try {0}] マニフェストのダウンロードが失敗しました (HTTP {1})",
+        "official_en": "[Try {0}] Manifest download failed (HTTP {1})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

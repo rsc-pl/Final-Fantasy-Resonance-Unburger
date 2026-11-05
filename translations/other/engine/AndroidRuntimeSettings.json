@@ -1,0 +1,1899 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AndroidRuntimeSettings",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:MaliGraphicsDebuggerHelpText:3d8512b2",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "MaliGraphicsDebuggerHelpText",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:MaliGraphicsDebuggerHelpText:3d8512b2",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:MaliGraphicsDebuggerHelpText:3d8512b2",
+        "jp_sha256": "333f9126e8333e4acc55ec9ec78097a1643cf841bece823f5aa1c518ec6c163d",
+        "official_en_sha256": "70a616a1431f61b9f2876f997f2eeca0354d3bad16e6a3f962a6d6396d88f0ff"
+      },
+      "text": {
+        "jp": "<RichTextBlock.TextHighlight>インストレーション</>\n{0}\n{1}\n\n<RichTextBlock.TextHighlight>実行</>\n{2}\n{3}\n{4}",
+        "official_en": "<RichTextBlock.TextHighlight>Installation</>\n{0}\n{1}\n\n<RichTextBlock.TextHighlight>Run</>\n{2}\n{3}\n{4}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:UpgradeInfoMessage:8ffc3a2a",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "UpgradeInfoMessage",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:UpgradeInfoMessage:8ffc3a2a",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:UpgradeInfoMessage:8ffc3a2a",
+        "jp_sha256": "570830c9cfb94ec226a61285ce76d0a690de8bf836b26e9b03499a12bd4f7381",
+        "official_en_sha256": "486662ea5ea9355d27313e3557b3b454d9b41c6f261fb52bbf1ed3edb58446d2"
+      },
+      "text": {
+        "jp": "<RichTextBlock.TextHighlight>v4.6前との変更点のお知らせ</>: ビルド時に AndroidManifest.xml を<RichTextBlock.TextHighlight>自動生成</> するようになりました。つきましては、XMLファイルを直接変更されていた設定箇所については以下のUIで設定しなおしてください。プロジェクトディレクトリ内の AndroidManifest.xml はこちらからは変更しません。\nまた、 SigningConfig.xml は使用しなくなりました。この設定は今度から Distribution Signing のセクションで行います。\n\n<RichTextBlock.TextHighlight>注意</>: Gradleを使用するにはグレイアウトされていない場合SDK license agreementに同意する(下のボタンをクリック)する必要があります",
+        "official_en": "<RichTextBlock.TextHighlight>Note to users from 4.6 or earlier</>: We now <RichTextBlock.TextHighlight>GENERATE</> an AndroidManifest.xml when building, so if you have customized your .xml file, you will need to put all of your changes into the below settings. Note that we don't touch your AndroidManifest.xml that is in your project directory.\nAdditionally, we no longer use SigningConfig.xml, the settings are now set in the Distribution Signing section.\n\n<RichTextBlock.TextHighlight>NOTE</>: You must accept the SDK license agreement (click on button below) to use Gradle if it isn't grayed out.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:AcceptSDKLicense:d06c08c4",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "AcceptSDKLicense",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AcceptSDKLicense:d06c08c4",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AcceptSDKLicense:d06c08c4",
+        "jp_sha256": "ebcdc208adc26ef807aa52082ed30408be7e3a7c50d6bf2502ff5d0b969657a3",
+        "official_en_sha256": "5d9e0284a44c5bcc4619d756454983aedf108c4d226f22e0ecd04360e20c2360"
+      },
+      "text": {
+        "jp": "SDKライセンスを承諾する",
+        "official_en": "Accept SDK License",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:AdrenoProfilerInfo:0d1e2298",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "AdrenoProfilerInfo",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AdrenoProfilerInfo:0d1e2298",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AdrenoProfilerInfo:0d1e2298",
+        "jp_sha256": "3086dd1d8185ef0fa77bae0798a53cc3acaeaca6d94c7ce19bf3e865f122c93e",
+        "official_en_sha256": "b285bf952d9f8f400612c3f46b713acf6ce6d2d12086dd253169d84c178fa79a"
+      },
+      "text": {
+        "jp": "Adreno Profilerの情報",
+        "official_en": "Adreno Profiler Info",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:AdrenoProfilerPage:a8a6bfa9",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "AdrenoProfilerPage",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AdrenoProfilerPage:a8a6bfa9",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AdrenoProfilerPage:a8a6bfa9",
+        "jp_sha256": "481f8cd12aec57c0c9f33136522d72632fafda03c9cc4aecb670fcde499edc82",
+        "official_en_sha256": "bc515ad527c94a67bf23881b99477d77e246835b04923de2f9ab8ade3b083d0e"
+      },
+      "text": {
+        "jp": "Adreno Profilerのホーム ページ",
+        "official_en": "Adreno Profiler home page",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidPlatformName:d5f8b70b",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "AndroidPlatformName",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidPlatformName:d5f8b70b",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidPlatformName:d5f8b70b",
+        "jp_sha256": "6d612a86bee4b0a659b8b3affd6f1fbcad15c4cbbbbdc4996c6c01c786711a21",
+        "official_en_sha256": "6d612a86bee4b0a659b8b3affd6f1fbcad15c4cbbbbdc4996c6c01c786711a21"
+      },
+      "text": {
+        "jp": "Android",
+        "official_en": "Android",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:GooglePlayDeveloperPage:01747953",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "GooglePlayDeveloperPage",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:GooglePlayDeveloperPage:01747953",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:GooglePlayDeveloperPage:01747953",
+        "jp_sha256": "2f0c05f4c3f864db4d23207d8b2021ceb7c004484cecdd3f0af8c877b1d60070",
+        "official_en_sha256": "4a373ce8b0134932554ed38932b33d33202dabf8c726fae40cc75130b8c032f1"
+      },
+      "text": {
+        "jp": "Google　PlayサービスのAndroidデベロッパーページ",
+        "official_en": "Android Developer Page on Google Play services",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidDeveloperIconographyPage:3cbd861e",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "AndroidDeveloperIconographyPage",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidDeveloperIconographyPage:3cbd861e",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidDeveloperIconographyPage:3cbd861e",
+        "jp_sha256": "f24562fcf34da734eee28a1dca1434070a5362794f6807e1ac8343141d86ba81",
+        "official_en_sha256": "409d97ff97b37c69aafb7e6787009f2e0f9b159739c578f79aa3bd1b75630a57"
+      },
+      "text": {
+        "jp": "IconographyのAndroidデベロッパーページ",
+        "official_en": "Android Developer Page on Iconography",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidDeveloperSigningPage:603be14a",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "AndroidDeveloperSigningPage",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidDeveloperSigningPage:603be14a",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidDeveloperSigningPage:603be14a",
+        "jp_sha256": "c01a25e3df07b93011653a7718686e336b0c605d5736b9960ff7a9f8fa087cbc",
+        "official_en_sha256": "c7c2564444b5f0ed8f91c42c102f2c4f4987b93c053c8ce2e18ad19f56214fff"
+      },
+      "text": {
+        "jp": "コードサイニング証明書を配布するためのAndroidデベロッパーページ",
+        "official_en": "Android Developer page on Signing for Distribution",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidLicenseUnrealEditor:833d9fb8",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "AndroidLicenseUnrealEditor",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidLicenseUnrealEditor:833d9fb8",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidLicenseUnrealEditor:833d9fb8",
+        "jp_sha256": "bb9cea193260d9f7e513c06335c6345597821539943fe7ceb35149b2d3863d83",
+        "official_en_sha256": "8a5d9565c174cc83bef487e3d96633ade31bee92c73aed77c684bb266f742789"
+      },
+      "text": {
+        "jp": "Android SDKライセンス",
+        "official_en": "Android SDK License",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidSDKLicenses:e8061062",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "AndroidSDKLicenses",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidSDKLicenses:e8061062",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidSDKLicenses:e8061062",
+        "jp_sha256": "bb9cea193260d9f7e513c06335c6345597821539943fe7ceb35149b2d3863d83",
+        "official_en_sha256": "4e3a671cf6088025687daa91e5d6b7599f617d47d9c4e01424bbae355220686f"
+      },
+      "text": {
+        "jp": "Android SDKライセンス",
+        "official_en": "Android SDK Licenses",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:AppIDHyperlink:65e02d89",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "AppIDHyperlink",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AppIDHyperlink:65e02d89",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AppIDHyperlink:65e02d89",
+        "jp_sha256": "d92853f04da0618002bc13c659e7c26cda90b73b1b694696962029c81e981a67",
+        "official_en_sha256": "e55d5167e5a1b5dda056947e0da0afdbd83cbaf00cc82a747763a8bc68da6dad"
+      },
+      "text": {
+        "jp": "App IDへのハイパーリンク",
+        "official_en": "App ID Hyperlink",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:AdrenoRunText:9d18e82f",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "AdrenoRunText",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AdrenoRunText:9d18e82f",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AdrenoRunText:9d18e82f",
+        "jp_sha256": "27857888b7bfcdcd6005c8fe48035dfe720f14b152b373fda402349d3c348800",
+        "official_en_sha256": "3f33979ee0f0e03f1cc72fbe9cbec54be6da7af3827bb7dfe93eed2177588385"
+      },
+      "text": {
+        "jp": "プロファイリングの前やAndroidデバイスを再起動した後は、コマンドラインで次のプロパティを設定してデバッグモードを有効にする必要があります。",
+        "official_en": "Before profiling, and after rebooting your Android device, you must enable debug mode by setting the following property from the command line:",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:BuildFolderLabel:5e2776d9",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "BuildFolderLabel",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:BuildFolderLabel:5e2776d9",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:BuildFolderLabel:5e2776d9",
+        "jp_sha256": "6830f778d54be44788e1d423c8757d10209f283b53cd981c01961e7720321f11",
+        "official_en_sha256": "b6af911f1612b32c3b25fc9f4d0b8e40cc9ca12ce8f12df971e70f438d0ff4e4"
+      },
+      "text": {
+        "jp": "ビルドフォルダ",
+        "official_en": "Build Folder",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon_DownloadImageH:53f7ce5c",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "SettingsIcon_DownloadImageH",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon_DownloadImageH:53f7ce5c",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon_DownloadImageH:53f7ce5c",
+        "jp_sha256": "263483d0594cdd85677ca1bf3b70915bf0dd88c900232f2977a05a60a9f62f5d",
+        "official_en_sha256": "f275eb5de65c9a8bfb69d4992d90c561cda510e0b84a95f619065588f6958a69"
+      },
+      "text": {
+        "jp": "背景の水平画像をダウンロード",
+        "official_en": "Download Background Horizontal Image",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon_DownloadImageV:596b00dc",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "SettingsIcon_DownloadImageV",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon_DownloadImageV:596b00dc",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon_DownloadImageV:596b00dc",
+        "jp_sha256": "1448e4ff849768807c7867d18393e35275929f6df65dd841cc097e7fb8c63617",
+        "official_en_sha256": "dd3f0450349c3e3cd70cc79e6810e236d61a21d027fd12b2b66a03c076a96c57"
+      },
+      "text": {
+        "jp": "背景の垂直画像をダウンロード",
+        "official_en": "Download Background Vertical Image",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:BuildForArm64ToolTip:1c76bfa8",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "BuildForArm64ToolTip",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:BuildForArm64ToolTip:1c76bfa8",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:BuildForArm64ToolTip:1c76bfa8",
+        "jp_sha256": "8e5b2551faf29985c71ca178c838bfa9344c1ebae425fa7ca21619ac71284427",
+        "official_en_sha256": "69de1e20fc9408a6f2e04b68868e080b4816a3b2db7ef0ebbe8775caf863c3a3"
+      },
+      "text": {
+        "jp": "Arm64 CPU アーキテクチャのサポートを有効にしますか？(最低でも NDK r11c を使用します。また、Lollipop(android-21) 以上が必要です)",
+        "official_en": "Enable Arm64 CPU architecture support? (use at least NDK r11c, requires Lollipop (android-21) minimum)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:BuildForX8664ToolTip:332da222",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "BuildForX8664ToolTip",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:BuildForX8664ToolTip:332da222",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:BuildForX8664ToolTip:332da222",
+        "jp_sha256": "2d9735a428becb33372efddc231c31f06fac911a901a82a23350205547298d9d",
+        "official_en_sha256": "c598ecaa0ec1530028d9112cbff0fb1b875881acdff797ce98e6724c7aad7e76"
+      },
+      "text": {
+        "jp": "X86-64 CPU アーキテクチャをサポートしますか？",
+        "official_en": "Enable X86-64 CPU architecture support?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:GooglePlayPlatformName:90994fef",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "GooglePlayPlatformName",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:GooglePlayPlatformName:90994fef",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:GooglePlayPlatformName:90994fef",
+        "jp_sha256": "89faf51f5f0e77d2e47a0e38fb0ceff1ee282aebb65e629cbdd65921fb007ce8",
+        "official_en_sha256": "af82d88113ce96bf971ab043d348ec6509e70eb717cc93df4f8b8c5436511fc7"
+      },
+      "text": {
+        "jp": "Google　Playサービス",
+        "official_en": "Google Play services",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:GooglePlayAppID:8274fa1f",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "GooglePlayAppID",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:GooglePlayAppID:8274fa1f",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:GooglePlayAppID:8274fa1f",
+        "jp_sha256": "ccefb98e151d6d4ed3d8999de65247482e867bf047326343cd392a92a7305148",
+        "official_en_sha256": "ccefb98e151d6d4ed3d8999de65247482e867bf047326343cd392a92a7305148"
+      },
+      "text": {
+        "jp": "GooglePlayAppID.xml",
+        "official_en": "GooglePlayAppID.xml",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon_HDPI:fb16a2f7",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "SettingsIcon_HDPI",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon_HDPI:fb16a2f7",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon_HDPI:fb16a2f7",
+        "jp_sha256": "c65206cb8f83a5332babaff39680153282ca0f7f8877cd86f221230e59e8051b",
+        "official_en_sha256": "d10f2be9af76e0428f538a5eb60acb02c008feea8ca13192bbfaee6aaa0381dc"
+      },
+      "text": {
+        "jp": "HDPIアイコン",
+        "official_en": "HDPI Icon",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon:8638ad6d",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "SettingsIcon",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon:8638ad6d",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon:8638ad6d",
+        "jp_sha256": "ca2b6e7e511e19cc8b35e1d92f13d3da1e35f852a3c2a1ddbf85268c7c3b495d",
+        "official_en_sha256": "a35abcd6dac9a2e5c1d7d6a58b9bcd2e7b00cad33a8aa63b75766f1ba6ce207b"
+      },
+      "text": {
+        "jp": "アイコン",
+        "official_en": "Icon",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:IconsHyperlink:11ffce34",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "IconsHyperlink",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:IconsHyperlink:11ffce34",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:IconsHyperlink:11ffce34",
+        "jp_sha256": "a323163ee0332202bf691b8769ced52642759251cb70088857d51c32690e3fcf",
+        "official_en_sha256": "ae74a1fe2da9afe308b154f766bcc01bb07462203f77e8db5c3e7b3bd8af96b5"
+      },
+      "text": {
+        "jp": "アイコンへのハイパーリンク",
+        "official_en": "Icons Hyperlink",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon_LDPI:1d240172",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "SettingsIcon_LDPI",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon_LDPI:1d240172",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon_LDPI:1d240172",
+        "jp_sha256": "0d9c0a06d9c4ad71f27035d2c91f6782e041be66a8f5d8a5dc07f72ae21a810f",
+        "official_en_sha256": "24b0d6b699cc0d1cd33e96ae4b49086f53cf8e52c4d852f01acf7341f60f1ca4"
+      },
+      "text": {
+        "jp": "LDPIアイコン",
+        "official_en": "LDPI Icon",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:LaunchImageInfo:36350086",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "LaunchImageInfo",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:LaunchImageInfo:36350086",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:LaunchImageInfo:36350086",
+        "jp_sha256": "cac4f0faac288d65606a783d2517b4c81af55f57519b71546283c79fb358c7a0",
+        "official_en_sha256": "50a78c43565c595713a691f95165907b016cd20f06b923ce934b2a698c4ee0f9"
+      },
+      "text": {
+        "jp": "起動画像情報",
+        "official_en": "Launch Image Info",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:LaunchImage_Landscape:8d194c1e",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "LaunchImage_Landscape",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:LaunchImage_Landscape:8d194c1e",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:LaunchImage_Landscape:8d194c1e",
+        "jp_sha256": "d9d0f18551de60e1b29fc51a66d0f495d54f5e0f248479696cddaa86a41122ec",
+        "official_en_sha256": "d78dec73e17635096084ac2fc167014c14e93ee2f7477ba4a3ba82958fd1e69f"
+      },
+      "text": {
+        "jp": "横表示で起動",
+        "official_en": "Launch Landscape",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:LaunchImage_Portrait:63098e8d",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "LaunchImage_Portrait",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:LaunchImage_Portrait:63098e8d",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:LaunchImage_Portrait:63098e8d",
+        "jp_sha256": "89344e1ff21883229494c448aa3a677a7e6c68c89dd16121fce2b7e9ac233684",
+        "official_en_sha256": "d40293a9a03bece522b7fe6007b2c2e93fe0695c76d71b446bb64a63af6494d0"
+      },
+      "text": {
+        "jp": "縦表示で起動",
+        "official_en": "Launch Portrait",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:SDKConfigMessage:acca2cf3",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "SDKConfigMessage",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:SDKConfigMessage:acca2cf3",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:SDKConfigMessage:acca2cf3",
+        "jp_sha256": "7966fa34e72351216d275d3cc76af77fc3b7d7c84d49a375dcb94d61121dd008",
+        "official_en_sha256": "82854ff999ba1402beeb9662c6ff197a373f430c131ec8e35ab200e7165d7739"
+      },
+      "text": {
+        "jp": "グローバルなAndroid SDKプロジェクト設定を使用するには、これらのフィールドを空白のままにします。これらの設定の変更は、このプロジェクトにのみ影響を及ぼします。",
+        "official_en": "Leave these fields blank to use global Android SDK project settings. Changing these settings will only affect this project.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon_MDPI:968f0580",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "SettingsIcon_MDPI",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon_MDPI:968f0580",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon_MDPI:968f0580",
+        "jp_sha256": "3819bd2c3798e02de13b6b42ba56d7f35b65aeedced17c2f6ea11bd9baeac320",
+        "official_en_sha256": "a8527a932a9ba957054a13400abf153f06e4259daf59806e1f4d42a5730375ec"
+      },
+      "text": {
+        "jp": "MDPIアイコン",
+        "official_en": "MDPI Icon",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:MaliGraphicsDebuggerInfo:fd713a4a",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "MaliGraphicsDebuggerInfo",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:MaliGraphicsDebuggerInfo:fd713a4a",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:MaliGraphicsDebuggerInfo:fd713a4a",
+        "jp_sha256": "d117f9d54d6f03d044fbbe662c9884c41c5c9c9037bed6c614281f1d197235c4",
+        "official_en_sha256": "88d9300886d94468c7ff0b6989bad545edc6656e9049ecca1d13747d4e985cd5"
+      },
+      "text": {
+        "jp": "Mali Graphics Debuggerに関する情報",
+        "official_en": "Mali Graphics Debugger Info",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:MaliGraphicsDebuggerPage:a2627bc7",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "MaliGraphicsDebuggerPage",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:MaliGraphicsDebuggerPage:a2627bc7",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:MaliGraphicsDebuggerPage:a2627bc7",
+        "jp_sha256": "5cc7f4461dd8abbf5104b9ec420ceac6daaa0d213778d8f95c8477546d50ee58",
+        "official_en_sha256": "9912e3c8b21277802ea612679601a262844680189389e9c972cdaf51734d1311"
+      },
+      "text": {
+        "jp": "Mali Graphics Debuggerのホームページ",
+        "official_en": "Mali Graphics Debugger home page",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:MGDIRunText2:243246b8",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "MGDIRunText2",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:MGDIRunText2:243246b8",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:MGDIRunText2:243246b8",
+        "jp_sha256": "68906551e1dcfb26c55550bacfe04cbba9fd0cfd8cebde2002a166e57aef5767",
+        "official_en_sha256": "989c86bd8e57c9a39e25b3f645f22c6726133841682fd5b9f95894f39a3a002e"
+      },
+      "text": {
+        "jp": "次に、デーモンが実行中であることを確認します。MGDデーモンアプリケーションを起動して\"オン\"状態に切り替えます",
+        "official_en": "Next, ensure you are running the daemon. Run the MGD Daemon application and switch it to the \"ON\" state",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:OpenBuildFolderButton:34bec7f9",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "OpenBuildFolderButton",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:OpenBuildFolderButton:34bec7f9",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:OpenBuildFolderButton:34bec7f9",
+        "jp_sha256": "f71112fa70c6d8bcab225b34201f12ee4ce5f703601223e004d32e30a614a0ab",
+        "official_en_sha256": "8d773a95053f6e6a9f7c98ee7975219074ab4c86379c87680d8a0d365e3e8d35"
+      },
+      "text": {
+        "jp": "ビルドフォルダを開く",
+        "official_en": "Open Build Folder",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidDeveloperIconographyPageTooltip:2746b0ab",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "AndroidDeveloperIconographyPageTooltip",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidDeveloperIconographyPageTooltip:2746b0ab",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidDeveloperIconographyPageTooltip:2746b0ab",
+        "jp_sha256": "836c8de5c81e58b9d6bca1ed73873cf224ac44a04059437e03cd497c31867042",
+        "official_en_sha256": "b8e3e51f24d0a8f56bef069a71bb2b171cb3b8c6092631545f88f9b5951e0e74"
+      },
+      "text": {
+        "jp": "Android図像でページを開く",
+        "official_en": "Opens a page on Android Iconography",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:GooglePlayDeveloperPageTooltip:a0590d52",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "GooglePlayDeveloperPageTooltip",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:GooglePlayDeveloperPageTooltip:a0590d52",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:GooglePlayDeveloperPageTooltip:a0590d52",
+        "jp_sha256": "d46238b8a33fc92a6b5b5856f7b00fbf2966ddca43aeb236d143115c432646d6",
+        "official_en_sha256": "c4a13746e382e61830327da73edb450eb63f5d97eee450c1865c9f9d4a1a2822"
+      },
+      "text": {
+        "jp": "Google　Playサービスの説明ページを開く",
+        "official_en": "Opens a page that discusses Google Play services",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidDeveloperSigningPageTooltip:5c4fc8b7",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "AndroidDeveloperSigningPageTooltip",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidDeveloperSigningPageTooltip:5c4fc8b7",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AndroidDeveloperSigningPageTooltip:5c4fc8b7",
+        "jp_sha256": "80f42e820f017adbb3bdf72a922c61cda9c73ab610d003bbf67bc61f1bad3d65",
+        "official_en_sha256": "938a995e6e99823e9fd969f240d92e33f54f814794dc633963d8c7fb330c425b"
+      },
+      "text": {
+        "jp": "キーツールを使用するサイニング証明書について意見を交わすページを開く",
+        "official_en": "Opens a page that discusses the signing using keytool",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:AdrenoProfilerPageTooltip:bba563b5",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "AdrenoProfilerPageTooltip",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AdrenoProfilerPageTooltip:bba563b5",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AdrenoProfilerPageTooltip:bba563b5",
+        "jp_sha256": "ad9d8325c7f1437753bf581c4ce71f11d72c4138da4c589204ab186c77d3492d",
+        "official_en_sha256": "b7c15b4f780f53de13ad22601566226f5c3ba3350a57571afbb0e445bf192fd9"
+      },
+      "text": {
+        "jp": "Qualcomm の Web サイトで Adreno Profiler のホームページを開きます。",
+        "official_en": "Opens the Adreno Profiler home page on the Qualcomm website",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:MaliGraphicsDebuggerPageTooltip:8abd71d5",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "MaliGraphicsDebuggerPageTooltip",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:MaliGraphicsDebuggerPageTooltip:8abd71d5",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:MaliGraphicsDebuggerPageTooltip:8abd71d5",
+        "jp_sha256": "c0aa9d90577495f3eea7210dddf28000052e5a96de80c29f42435fbc257cc328",
+        "official_en_sha256": "7cd86652e1506ee300b6852b1aaacaafc5b93f1241bc9303bbdffe51740d0a3d"
+      },
+      "text": {
+        "jp": "ARM の Web サイトにある Mali Graphics Debugger のホームページを開きます。",
+        "official_en": "Opens the Mali Graphics Debugger home page on ARM's website",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:OpenManifestFolderButton_Tooltip:803fd2fd",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "OpenManifestFolderButton_Tooltip",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:OpenManifestFolderButton_Tooltip:803fd2fd",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:OpenManifestFolderButton_Tooltip:803fd2fd",
+        "jp_sha256": "ecd405d7ebc4584113aa8b1fb2d833f14b579fbf5a4c711c623824e1a3dda3f6",
+        "official_en_sha256": "dd50332053c1e9af238c614ece3da874ec59a2e06079b7c0ead00cc035f0335b"
+      },
+      "text": {
+        "jp": "ビルド ファイルを含むフォルダをエクスプローラまたは Finder で開きます (チームと共有するには、これらをリビジョン コントロールにチェックインすることをお勧めします)",
+        "official_en": "Opens the folder containing the build files in Explorer or Finder (it's recommended you check these in to revision control to share with your team)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:ProjectProperties:09d668bd",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "ProjectProperties",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:ProjectProperties:09d668bd",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:ProjectProperties:09d668bd",
+        "jp_sha256": "4a91ac90108cbe5d83201eb261463b506619ba143867d0af574aa018387385df",
+        "official_en_sha256": "14ab9ae8666af26022d072bf45a43bd0daf5324341a85a3681693cc4167bdd8a"
+      },
+      "text": {
+        "jp": "プロジェクトプロパティ",
+        "official_en": "Project Properties",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:MGDInstallText:7bc65575",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "MGDInstallText",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:MGDInstallText:7bc65575",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:MGDInstallText:7bc65575",
+        "jp_sha256": "6a6f26d2bff45c764c3ee3c24ba7970708cfc7ebbc17e2a08ef38093b4110b8f",
+        "official_en_sha256": "f0868147347037781218aedff1a571f03783f50e51e7cb7609dfeb4008af034a"
+      },
+      "text": {
+        "jp": "MGDツールのインストールディレクトリにあるターゲット/非ルート化ディレクトリで、ホストコマンドラインから次のコマンドを実行し、MGDデーモンアプリケーションをデバイスにインストールします。",
+        "official_en": "Run the following command from a host command line from the target/unrooted directory located in the installation directory of the MGD tool, to install the MGD Daemon application on your device.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:MGDIRunText1:71eaaff1",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "MGDIRunText1",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:MGDIRunText1:71eaaff1",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:MGDIRunText1:71eaaff1",
+        "jp_sha256": "a2b2edefb6f99a16e8ea9de677966c238b30c2e104bd4227e8d179f6e0079b20",
+        "official_en_sha256": "869aed5f9938cbf658037aae156faeceb7c8d738da9b95a838c6f9558f7b06cf"
+      },
+      "text": {
+        "jp": "ホストから次のコマンドを実行してPCとMGDデーモンの間にトンネルを確立します。デバイスをUSBで接続する際には毎回これを実行する必要があります。",
+        "official_en": "Run the following command from your host to establish a tunnel between your PC and the MGD Daemon. This needs to be done each time you connect your device by USB.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:SDKConfigInfo:868cc745",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "SDKConfigInfo",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:SDKConfigInfo:868cc745",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:SDKConfigInfo:868cc745",
+        "jp_sha256": "ba9095cf8d5e5ded33bbea2bff43075702c37c4a2653449490118ee162bb074f",
+        "official_en_sha256": "6761b882669425f2425581fca794e4b7efb770fd7a37bc39a4dbe7c220059afb"
+      },
+      "text": {
+        "jp": "SDKコンフィギュレーション情報",
+        "official_en": "SDK Config Info",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:SigningHyperlink:b3036bf5",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "SigningHyperlink",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:SigningHyperlink:b3036bf5",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:SigningHyperlink:b3036bf5",
+        "jp_sha256": "571345679fd4ec768422ee00419d96963d0030b59ac005033194429c3c27236b",
+        "official_en_sha256": "13ad790d496456cbda329a0cd90b73bfe85090a2a76b1337bd57f0a8f9737491"
+      },
+      "text": {
+        "jp": "サイニング証明書のハイパーリンク",
+        "official_en": "Signing Hyperlink",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:LaunchImageInfoMessage:80795453",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "LaunchImageInfoMessage",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:LaunchImageInfoMessage:80795453",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:LaunchImageInfoMessage:80795453",
+        "jp_sha256": "9776a0e18b4b73e19ee9d22e415fc1017e4b4bef0ff5340b0e997c390122798a",
+        "official_en_sha256": "ed43381b25275bd6cc2cc7b67e273f861f5f7dcc5006d2f849d24eebe49972aa"
+      },
+      "text": {
+        "jp": "<RichTextBlock.TextHighlight>背景のダウンロード</>画像は、OBBダウンロードの背景として使用されます。<RichTextBlock.TextHighlight>ポートレートの起動</>画像は、ポートレート、リバースポートレート、センサーポートレート、またはフルセンサーオリエンテーションを含むアプリケーションのスプラッシュ画面として使用されます。<RichTextBlock.TextHighlight>ランドスケープの起動</>画像は、ランドスケープ、センサーランドスケープ、リバースランドスケープ、センサー、またはフルセンサーオリエンテーションを含むアプリケーションのスプラッシュ画面として使用されます。\n\n起動時画像はデバイスの向きに合わせて拡縮されます。追加の起動画像(任意)は、LDPI、MDPI、HDPI、およびXHDPIのオーバーライドとして、プロジェクトの「Build/Android/res/drawable-*」ディレクトリ内に配置される形で提供されることがあります。",
+        "official_en": "The <RichTextBlock.TextHighlight>Download Background</> image is used as the background for OBB downloading.  The <RichTextBlock.TextHighlight>Launch Portrait</> image is used as a splash screen for applications with Portrait, Reverse Portrait, Sensor Portrait, Sensor, or Full Sensor orientation.  The <RichTextBlock.TextHighlight>Launch Landscape</> image is used as a splash screen for applications with Landscape, Sensor Landscape, Reverse Landscape, Sensor, or Full Sensor orientation.\n\nThe launch images will be scaled to fit the device in the active orientation. Additional optional launch images may be provided as overrides for LDPI, MDPI, HDPI, and XHDPI by placing them in the project's corresponding Build/Android/res/drawable-* directory.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:InvalidGamesAppID:c162cb4d",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "InvalidGamesAppID",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:InvalidGamesAppID:c162cb4d",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:InvalidGamesAppID:c162cb4d",
+        "jp_sha256": "b3fdb837d6db13f115fe82110ee3eea0d569c39c449b8464a44bb8d98d9e18b2",
+        "official_en_sha256": "3cfaf6262f8abc8f1251baea5b07c0a59d3be97269bbd3a1282487f3e21a3041"
+      },
+      "text": {
+        "jp": "提供されたゲームアプリIDが無効です。",
+        "official_en": "The Games App ID you provided is invalid",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:GitHubSourceRequiredToolTip:8bf92540",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "GitHubSourceRequiredToolTip",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:GitHubSourceRequiredToolTip:8bf92540",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:GitHubSourceRequiredToolTip:8bf92540",
+        "jp_sha256": "d9967ea8c3c63991326b67d07901e94b7e8f45b80df1a91af43dc7a0a655327c",
+        "official_en_sha256": "0a666761c4b269ba72e3c46fd15d5351f2a397513ec50811fd10d1157e1f2b76"
+      },
+      "text": {
+        "jp": "GitHub ソースが必要です。",
+        "official_en": "This requires GitHub source.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:UpgradeInfo:6506f666",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "UpgradeInfo",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:UpgradeInfo:6506f666",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:UpgradeInfo:6506f666",
+        "jp_sha256": "2af1e9cf3af6045ae7ce074a29ac4cb950f1d430faf672c87e8b574b3ee7e5d8",
+        "official_en_sha256": "0b2e2578e0fbd06d0d9215b09798ff383f457703055b2fbabd793f1c0e476ad9"
+      },
+      "text": {
+        "jp": "アップグレード情報",
+        "official_en": "Upgrade Info",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:Warning:4fa2bbf6",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "Warning",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:Warning:4fa2bbf6",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:Warning:4fa2bbf6",
+        "jp_sha256": "a8b7a4480407ac8afc27e1bb8a2a1384003aaf3b3b16407d5fade778ec2c8d39",
+        "official_en_sha256": "e981ddae45d8f4ca53f1ccbe613ad254a041dacf65a06026099a6302d332113b"
+      },
+      "text": {
+        "jp": "警告",
+        "official_en": "Warning",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon_XHDPI:b0234b2f",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "SettingsIcon_XHDPI",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon_XHDPI:b0234b2f",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:SettingsIcon_XHDPI:b0234b2f",
+        "jp_sha256": "9064ece0bd5102e83120651888a36ce760bd344d341d606c9220b54bb0a76966",
+        "official_en_sha256": "46664bdc2439bc323fcffb3b71bbb7eb2aba67b244292390cb74c92c1fd73f71"
+      },
+      "text": {
+        "jp": "XHDPIアイコン",
+        "official_en": "XHDPI Icon",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AndroidRuntimeSettings:AdrenoHelpText:0525a36d",
+      "source": {
+        "set": "set-02",
+        "namespace": "AndroidRuntimeSettings",
+        "key": "AdrenoHelpText",
+        "jp_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AdrenoHelpText:0525a36d",
+        "official_en_record_id": "switch:locres:set-01:AndroidRuntimeSettings:AdrenoHelpText:0525a36d",
+        "jp_sha256": "21eb21206182978aaddaadb499938dd50bb1fa2c6ee20cd7a89bac4766ca8b25",
+        "official_en_sha256": "21eb21206182978aaddaadb499938dd50bb1fa2c6ee20cd7a89bac4766ca8b25"
+      },
+      "text": {
+        "jp": "{0}\n{1}",
+        "official_en": "{0}\n{1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

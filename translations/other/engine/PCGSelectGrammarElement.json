@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGSelectGrammarElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGSelectGrammarElement:InputPinTooltip:324a71e5",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGSelectGrammarElement",
+        "key": "InputPinTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGSelectGrammarElement:InputPinTooltip:324a71e5",
+        "official_en_record_id": "switch:locres:set-01:PCGSelectGrammarElement:InputPinTooltip:324a71e5",
+        "jp_sha256": "8ef4ac93f7f49e3471e09448dd7bfb55dc22b3641fdbdf2fb04a9993085376fb",
+        "official_en_sha256": "4ee307e2418ca76c93c8a637130a65f4962b00ac79d63d7627954e317a64d205"
+      },
+      "text": {
+        "jp": "文法はすべての点に対する基準に基づいて選択されます",
+        "official_en": "A grammar will be selected based on criteria for all points.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGSelectGrammarElement:InvalidCriteriaRange:7802beba",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGSelectGrammarElement",
+        "key": "InvalidCriteriaRange",
+        "jp_record_id": "switch:locres:set-01:PCGSelectGrammarElement:InvalidCriteriaRange:7802beba",
+        "official_en_record_id": "switch:locres:set-01:PCGSelectGrammarElement:InvalidCriteriaRange:7802beba",
+        "jp_sha256": "361bf002c7b2f4b2acdc84f558ca3e52565f72be9112cfd31e322256b224a10f",
+        "official_en_sha256": "61af8f229cebf074865fa4c3891b58124db71bca651fadea29488ffe6a01a730"
+      },
+      "text": {
+        "jp": "基準範囲は、キー->文法：「{0}」->「{1}」の基準に対して反転されます",
+        "official_en": "Criteria range is inverted for criterion with Key->Grammar: '{0}'->'{1}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGSelectGrammarElement:CriteriaPinTooltip:2bf23746",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGSelectGrammarElement",
+        "key": "CriteriaPinTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGSelectGrammarElement:CriteriaPinTooltip:2bf23746",
+        "official_en_record_id": "switch:locres:set-01:PCGSelectGrammarElement:CriteriaPinTooltip:2bf23746",
+        "jp_sha256": "e6564f98b4854dde69173b98983d8ac085c369311432af31e8904f8b8f4f484d",
+        "official_en_sha256": "755b30c8416016a9386d59629a2bf0148fab860afe40710c1613fdefd6b48879"
+      },
+      "text": {
+        "jp": "文法を条件で選択する場合に入力値に対して比較する基準です。順に評価されます",
+        "official_en": "Criteria to compare against an input value for conditionally selecting a grammar. Will be evaluated in sequential order.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGSelectGrammarElement:MultipleSelectSameCriteria:afc6fdb7",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGSelectGrammarElement",
+        "key": "MultipleSelectSameCriteria",
+        "jp_record_id": "switch:locres:set-01:PCGSelectGrammarElement:MultipleSelectSameCriteria:afc6fdb7",
+        "official_en_record_id": "switch:locres:set-01:PCGSelectGrammarElement:MultipleSelectSameCriteria:afc6fdb7",
+        "jp_sha256": "8eb06eae3a558eb46773da5fbf4391b6afa30df88c0bce701ebe3d97ba18f1d9",
+        "official_en_sha256": "b2ddd052478f424671533021662e5aaed1d06e989ca18732eb6d706b603f8b09"
+      },
+      "text": {
+        "jp": "同じキーを持つ基準に複数の「選択」コンパレータが見つかりました {0}",
+        "official_en": "Multiple 'Select' comparators found on the criteria with same key: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGSelectGrammarElement:NodeTitle:4b1c273e",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGSelectGrammarElement",
+        "key": "NodeTitle",
+        "jp_record_id": "switch:locres:set-01:PCGSelectGrammarElement:NodeTitle:4b1c273e",
+        "official_en_record_id": "switch:locres:set-01:PCGSelectGrammarElement:NodeTitle:4b1c273e",
+        "jp_sha256": "0f54ffc1ced8137a348a994fe2c736f47282f71f22e0050b0828b7f51d83741a",
+        "official_en_sha256": "0f54ffc1ced8137a348a994fe2c736f47282f71f22e0050b0828b7f51d83741a"
+      },
+      "text": {
+        "jp": "Select Grammar",
+        "official_en": "Select Grammar",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGSelectGrammarElement:NodeTooltip:c6a9ae12",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGSelectGrammarElement",
+        "key": "NodeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGSelectGrammarElement:NodeTooltip:c6a9ae12",
+        "official_en_record_id": "switch:locres:set-01:PCGSelectGrammarElement:NodeTooltip:c6a9ae12",
+        "jp_sha256": "0f62d1664127d6cdc6b96a8bd98c892ce99e1b1cf3698cdb0c9456586749bd3d",
+        "official_en_sha256": "05665e85d565835b7dfc9e3b1473cdf2d809e7a7d419fe0f2206efdd4f1ab084"
+      },
+      "text": {
+        "jp": "入力属性を指定基準と比較することで、文法を選択します",
+        "official_en": "Select a grammar by comparing an input attribute against a provided criteria.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

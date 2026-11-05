@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ShaderCompiler",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ShaderCompiler:BlockOnAllShaderMapCompletion:de981815",
+      "source": {
+        "set": "set-02",
+        "namespace": "ShaderCompiler",
+        "key": "BlockOnAllShaderMapCompletion",
+        "jp_record_id": "switch:locres:set-01:ShaderCompiler:BlockOnAllShaderMapCompletion:de981815",
+        "official_en_record_id": "switch:locres:set-01:ShaderCompiler:BlockOnAllShaderMapCompletion:de981815",
+        "jp_sha256": "0ff0049ab6ff65485e61093b827c02e409c30f954f54e0151d2a3dffe07e6442",
+        "official_en_sha256": "1f30cbf0eccf9d0b9691295cbc2134a8ae265d00cf3dbf41840c84728ce606e6"
+      },
+      "text": {
+        "jp": "シェーダをコンパイル({0})",
+        "official_en": "Compiling Shaders ({0})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ShaderCompiler:BlockOnShaderMapCompletion:2b1e10d9",
+      "source": {
+        "set": "set-02",
+        "namespace": "ShaderCompiler",
+        "key": "BlockOnShaderMapCompletion",
+        "jp_record_id": "switch:locres:set-01:ShaderCompiler:BlockOnShaderMapCompletion:2b1e10d9",
+        "official_en_record_id": "switch:locres:set-01:ShaderCompiler:BlockOnShaderMapCompletion:2b1e10d9",
+        "jp_sha256": "0ff0049ab6ff65485e61093b827c02e409c30f954f54e0151d2a3dffe07e6442",
+        "official_en_sha256": "1f30cbf0eccf9d0b9691295cbc2134a8ae265d00cf3dbf41840c84728ce606e6"
+      },
+      "text": {
+        "jp": "シェーダをコンパイル({0})",
+        "official_en": "Compiling Shaders ({0})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ShaderCompiler:CreateGlobalShaderMap:a8309ac7",
+      "source": {
+        "set": "set-02",
+        "namespace": "ShaderCompiler",
+        "key": "CreateGlobalShaderMap",
+        "jp_record_id": "switch:locres:set-01:ShaderCompiler:CreateGlobalShaderMap:a8309ac7",
+        "official_en_record_id": "switch:locres:set-01:ShaderCompiler:CreateGlobalShaderMap:a8309ac7",
+        "jp_sha256": "cf83fc8e877d104390f5d31b744df908c74679e29297865585c60daded30923c",
+        "official_en_sha256": "91e5c649ae5e486398424a6c8d441da7ae05199bf1e46842dee703cabe989890"
+      },
+      "text": {
+        "jp": "グローバル シェーダ マップを作成しています...",
+        "official_en": "Creating Global Shader Map...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ShaderCompiler:NoGlobalShader_Error:ca898ab2",
+      "source": {
+        "set": "set-02",
+        "namespace": "ShaderCompiler",
+        "key": "NoGlobalShader_Error",
+        "jp_record_id": "switch:locres:set-01:ShaderCompiler:NoGlobalShader_Error:ca898ab2",
+        "official_en_record_id": "switch:locres:set-01:ShaderCompiler:NoGlobalShader_Error:ca898ab2",
+        "jp_sha256": "9d700e194100aede09a8a835843e5868578eff7ec68556ccae8a3f1f5e565dda",
+        "official_en_sha256": "d44ff4f500cee200126f6872dd5654d53545b4d9eda4874d80c21e45469ca945"
+      },
+      "text": {
+        "jp": "シェーダーの置換がありません。クックが成功したことを確認して、詳細はエンジン ログを参照してください",
+        "official_en": "Missing shader permutation. Please make sure cooking was successful and refer to Engine log for details.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ShaderCompiler:ProcessDDCRequests:ae4c06bf",
+      "source": {
+        "set": "set-02",
+        "namespace": "ShaderCompiler",
+        "key": "ProcessDDCRequests",
+        "jp_record_id": "switch:locres:set-01:ShaderCompiler:ProcessDDCRequests:ae4c06bf",
+        "official_en_record_id": "switch:locres:set-01:ShaderCompiler:ProcessDDCRequests:ae4c06bf",
+        "jp_sha256": "aca54bcc419078b17dcca681d748b254501aca4e346559044b3f9db975ba756c",
+        "official_en_sha256": "6f742eca370925ca0feda0f65530160afeb3cc98cee5e32b67e341fb9546c181"
+      },
+      "text": {
+        "jp": "グローバル シェーダ DDC のリクエストを処理しています...",
+        "official_en": "Processing global shader DDC requests...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ShaderCompiler:SubmitDDCRequests:930839bb",
+      "source": {
+        "set": "set-02",
+        "namespace": "ShaderCompiler",
+        "key": "SubmitDDCRequests",
+        "jp_record_id": "switch:locres:set-01:ShaderCompiler:SubmitDDCRequests:930839bb",
+        "official_en_record_id": "switch:locres:set-01:ShaderCompiler:SubmitDDCRequests:930839bb",
+        "jp_sha256": "87a467f9a924df7a9b40418f9a3af33bfe8dc11da09d2ab38696876a5baa883f",
+        "official_en_sha256": "1c18195544c76b4b5d3e84c3f7abdcbbee3170ccee709399a8dd5c435e4b67f2"
+      },
+      "text": {
+        "jp": "グローバル シェーダ DDC のリクエストを送信しています...",
+        "official_en": "Submitting global shader DDC Requests...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ShaderCompiler:LaunchingShaderCompileWorkerFailedTitle:99089945",
+      "source": {
+        "set": "set-02",
+        "namespace": "ShaderCompiler",
+        "key": "LaunchingShaderCompileWorkerFailedTitle",
+        "jp_record_id": "switch:locres:set-01:ShaderCompiler:LaunchingShaderCompileWorkerFailedTitle:99089945",
+        "official_en_record_id": "switch:locres:set-01:ShaderCompiler:LaunchingShaderCompileWorkerFailedTitle:99089945",
+        "jp_sha256": "c41641f4f8aeea53a5dd6b6e4329088b0191fdddb3b88326d302a88f3d300e91",
+        "official_en_sha256": "4f500330407484325998f1bb13bdeff8c2ca4ccfaab89bfeda0176e641e339a0"
+      },
+      "text": {
+        "jp": "ShaderCompileWorkerを起動できません。",
+        "official_en": "Unable to launch ShaderCompileWorker.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ShaderCompiler:LaunchingShaderCompileWorkerFailed:c3684f4a",
+      "source": {
+        "set": "set-02",
+        "namespace": "ShaderCompiler",
+        "key": "LaunchingShaderCompileWorkerFailed",
+        "jp_record_id": "switch:locres:set-01:ShaderCompiler:LaunchingShaderCompileWorkerFailed:c3684f4a",
+        "official_en_record_id": "switch:locres:set-01:ShaderCompiler:LaunchingShaderCompileWorkerFailed:c3684f4a",
+        "jp_sha256": "0aed28e4c7b584e1940e6124f0589383bf38bbb4257af55c98c3c5e2c63fd483",
+        "official_en_sha256": "18c85b34d9bae2c630cc92979da32f8a0bff486899366f324ebd299fda48954a"
+      },
+      "text": {
+        "jp": "{0} を起動できません - ShaderCompileWorkerをビルドしていることを確認してください。",
+        "official_en": "Unable to launch {0} - make sure you built ShaderCompileWorker.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ShaderCompiler:VerifyShaderSourceFiles:99400c11",
+      "source": {
+        "set": "set-02",
+        "namespace": "ShaderCompiler",
+        "key": "VerifyShaderSourceFiles",
+        "jp_record_id": "switch:locres:set-01:ShaderCompiler:VerifyShaderSourceFiles:99400c11",
+        "official_en_record_id": "switch:locres:set-01:ShaderCompiler:VerifyShaderSourceFiles:99400c11",
+        "jp_sha256": "a04138fa4700c3dc73a5685a707e74b11c2afb9ee2c63f316d70f7f15d61cf28",
+        "official_en_sha256": "0358b92ddfc165c93010dfa538e16c8d238d7a43873a70b76124f135d690ca1a"
+      },
+      "text": {
+        "jp": "グローバル シェーダ ソース ファイルを確認しています...",
+        "official_en": "Verifying Global Shader source files...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ShaderCompiler:ShaderNameFormat:46dd6892",
+      "source": {
+        "set": "set-02",
+        "namespace": "ShaderCompiler",
+        "key": "ShaderNameFormat",
+        "jp_record_id": "switch:locres:set-01:ShaderCompiler:ShaderNameFormat:46dd6892",
+        "official_en_record_id": "switch:locres:set-01:ShaderCompiler:ShaderNameFormat:46dd6892",
+        "jp_sha256": "c4597acc4d7ace83c9ea867dc959829e51699c1f5aeccb46bee5b9de50908af6",
+        "official_en_sha256": "87f55daa9a32d42a063f8d3597f358f591fca80a54f96e3a954bda75b4f3faa2"
+      },
+      "text": {
+        "jp": "{0} 個のシェーダー",
+        "official_en": "{0}|plural(one=Shader,other=Shaders)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

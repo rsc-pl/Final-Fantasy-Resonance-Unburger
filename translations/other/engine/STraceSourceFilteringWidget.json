@@ -1,0 +1,678 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "STraceSourceFilteringWidget",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DrawFilterStateLabel:96104905",
+      "source": {
+        "set": "set-02",
+        "namespace": "STraceSourceFilteringWidget",
+        "key": "DrawFilterStateLabel",
+        "jp_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DrawFilterStateLabel:96104905",
+        "official_en_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DrawFilterStateLabel:96104905",
+        "jp_sha256": "2b3e553e06e4dc41a7e0f8cbd384f28caa9c57c2de9879cbbe5451da8f7c2f04",
+        "official_en_sha256": "3dd148b1ff3af937e58129fdc2cd46772e321b8299f93c274947319e69a7167b"
+      },
+      "text": {
+        "jp": "アクタ フィルタリング",
+        "official_en": "Actor Filtering",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:STraceSourceFilteringWidget:ClassFilterHeaderText:64a7b134",
+      "source": {
+        "set": "set-02",
+        "namespace": "STraceSourceFilteringWidget",
+        "key": "ClassFilterHeaderText",
+        "jp_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:ClassFilterHeaderText:64a7b134",
+        "official_en_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:ClassFilterHeaderText:64a7b134",
+        "jp_sha256": "7fb849b981fb9266e7539d1687227fa26c1eaf6d81be407168634be2cacf0582",
+        "official_en_sha256": "5dc84ac5fdf987102e451393d3eb83c63b58a044e94a00d93847cc47497134bd"
+      },
+      "text": {
+        "jp": "クラス フィルタ",
+        "official_en": "Class Filters",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DrawNonPassingFiltersLabel:237668ae",
+      "source": {
+        "set": "set-02",
+        "namespace": "STraceSourceFilteringWidget",
+        "key": "DrawNonPassingFiltersLabel",
+        "jp_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DrawNonPassingFiltersLabel:237668ae",
+        "official_en_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DrawNonPassingFiltersLabel:237668ae",
+        "jp_sha256": "f4916012e3fe67e224445e348d5a681ac3e38b3f691dfe0460caead4564103bd",
+        "official_en_sha256": "a5edbed4bc5849f2ae5018889b2bbb0a3ef902ce3b5a03b4027c077d9c546efd"
+      },
+      "text": {
+        "jp": "通過しないフィルタを描画",
+        "official_en": "Draw Non Passing Filters",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DrawNonPassingFiltersTooltip:8138755e",
+      "source": {
+        "set": "set-02",
+        "namespace": "STraceSourceFilteringWidget",
+        "key": "DrawNonPassingFiltersTooltip",
+        "jp_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DrawNonPassingFiltersTooltip:8138755e",
+        "official_en_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DrawNonPassingFiltersTooltip:8138755e",
+        "jp_sha256": "432525d607cbba56b63890415981f1343d36456d7ca741bd5b33417746cf9610",
+        "official_en_sha256": "2288ff255ddca2e9129c8944da0c20ed1ec53ced85b3974a6ad19b5eed780fc8"
+      },
+      "text": {
+        "jp": "アクタをフィルタで除外するフィルタを描画します。",
+        "official_en": "Draws the Filters that caused an Actor to be filtered out.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DrawFilteringStateTooltip:061b36f4",
+      "source": {
+        "set": "set-02",
+        "namespace": "STraceSourceFilteringWidget",
+        "key": "DrawFilteringStateTooltip",
+        "jp_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DrawFilteringStateTooltip:061b36f4",
+        "official_en_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DrawFilteringStateTooltip:061b36f4",
+        "jp_sha256": "9c3f4965e56f2dc14bface0642c20e87ffb86311164db90ececf1810fdd5ee12",
+        "official_en_sha256": "1e2d37a917de602b25307a20378733443f692787789c0d4a2d29c873da8ed77f"
+      },
+      "text": {
+        "jp": "ワールドにフィルタ処理された各アクタのバウンディング ボックスを描画します。",
+        "official_en": "Draws the bounding box for each filter processed Actor in the world.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:STraceSourceFilteringWidget:FiltersSectionLabel:13166563",
+      "source": {
+        "set": "set-02",
+        "namespace": "STraceSourceFilteringWidget",
+        "key": "FiltersSectionLabel",
+        "jp_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:FiltersSectionLabel:13166563",
+        "official_en_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:FiltersSectionLabel:13166563",
+        "jp_sha256": "d6a885a9e1a32b96a0e15436bf255937393997aee340ba22647cdca3d5bd7f6d",
+        "official_en_sha256": "546ebb8eb993ea561029d9febd84c363bdb09010bb2cb915a8287762b76b9a64"
+      },
+      "text": {
+        "jp": "フィルタ",
+        "official_en": "Filters",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DrawFilterPassingOnlyLabel:dc1bcf2c",
+      "source": {
+        "set": "set-02",
+        "namespace": "STraceSourceFilteringWidget",
+        "key": "DrawFilterPassingOnlyLabel",
+        "jp_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DrawFilterPassingOnlyLabel:dc1bcf2c",
+        "official_en_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DrawFilterPassingOnlyLabel:dc1bcf2c",
+        "jp_sha256": "2b27de96e08847e661a2a789616d1932bc9f0a068c9b67a5a4d797793987db98",
+        "official_en_sha256": "60ca2b9560ad85f1395f0cfbebb4ac108a0c8958ea6d70ed47b8373ce03974ac"
+      },
+      "text": {
+        "jp": "フィルタリングを通過するアクタのみ",
+        "official_en": "Only Actor(s) Passing Filtering",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DrawFilterPassingOnlyTooltip:80dfe8bc",
+      "source": {
+        "set": "set-02",
+        "namespace": "STraceSourceFilteringWidget",
+        "key": "DrawFilterPassingOnlyTooltip",
+        "jp_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DrawFilterPassingOnlyTooltip:80dfe8bc",
+        "official_en_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DrawFilterPassingOnlyTooltip:80dfe8bc",
+        "jp_sha256": "373afbf0e3298cc00fee3fa2d4f3e2ef905fa5d1297c719cae14535e648149f7",
+        "official_en_sha256": "e0314dea0a1878612c613684e7df8cea52a601e438f69d527ca68ec837932337"
+      },
+      "text": {
+        "jp": "フィルタリング状態を通過したアクタのフィルタリング状態のみを描画します。",
+        "official_en": "Only draws the filtering state for Actors that passsed the filtering state.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:STraceSourceFilteringWidget:OptionMenuLabel:e1be74d5",
+      "source": {
+        "set": "set-02",
+        "namespace": "STraceSourceFilteringWidget",
+        "key": "OptionMenuLabel",
+        "jp_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:OptionMenuLabel:e1be74d5",
+        "official_en_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:OptionMenuLabel:e1be74d5",
+        "jp_sha256": "5b717728bbead38118553940600d0a6e78f6bab6a330874a69809e291682e3f5",
+        "official_en_sha256": "d0db8b5e364b6989e4b8f38a2b3846b87d99a51c1592ebf35d21cc66405a8e39"
+      },
+      "text": {
+        "jp": "オプション",
+        "official_en": "Options",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:STraceSourceFilteringWidget:OutputFilteringStateLabel:21528d44",
+      "source": {
+        "set": "set-02",
+        "namespace": "STraceSourceFilteringWidget",
+        "key": "OutputFilteringStateLabel",
+        "jp_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:OutputFilteringStateLabel:21528d44",
+        "official_en_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:OutputFilteringStateLabel:21528d44",
+        "jp_sha256": "9b4424e9591db6df4de98407ff93bcb944586ab5e8a66e5ec2484eb44acb724d",
+        "official_en_sha256": "1d82d33f5f9a3d3100a852e74b86e6d6120d4a9d33706e06723f647148258dcd"
+      },
+      "text": {
+        "jp": "(最適化した) フィルタリング状態を出力",
+        "official_en": "Output (optimized) Filtering State",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:STraceSourceFilteringWidget:ResetFiltersTooltip:b6f7726f",
+      "source": {
+        "set": "set-02",
+        "namespace": "STraceSourceFilteringWidget",
+        "key": "ResetFiltersTooltip",
+        "jp_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:ResetFiltersTooltip:b6f7726f",
+        "official_en_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:ResetFiltersTooltip:b6f7726f",
+        "jp_sha256": "3a29f590f12b9d1774a7b1bb3058c67006de4db836fa5896167a8f5f2b03b96b",
+        "official_en_sha256": "e67cb8b0cb3af7d65b76b4745df5b1436f5c1d2d89f944bf9bb16cb5ed9c26bc"
+      },
+      "text": {
+        "jp": "現在設定しているフィルタをすべて削除します。",
+        "official_en": "Removes all currently set filters.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:STraceSourceFilteringWidget:ResetFiltersLabel:90791670",
+      "source": {
+        "set": "set-02",
+        "namespace": "STraceSourceFilteringWidget",
+        "key": "ResetFiltersLabel",
+        "jp_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:ResetFiltersLabel:90791670",
+        "official_en_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:ResetFiltersLabel:90791670",
+        "jp_sha256": "c7db0fc1f2777d522d2aa6e2e1f7410a8a52cd0540ca91da80622b2e9274c11f",
+        "official_en_sha256": "660f3d76f4f2802d2bcd916fc7dbf21b65e599b78664a80b291550b667864c11"
+      },
+      "text": {
+        "jp": "フィルタをリセット",
+        "official_en": "Reset Filters",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DebugDrawingTooltip:5535fe3b",
+      "source": {
+        "set": "set-02",
+        "namespace": "STraceSourceFilteringWidget",
+        "key": "DebugDrawingTooltip",
+        "jp_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DebugDrawingTooltip:5535fe3b",
+        "official_en_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:DebugDrawingTooltip:5535fe3b",
+        "jp_sha256": "e542ecdf190cf42f9a63ffd8cb8a9ceb844cf5fe7558fc6380f3287541850d79",
+        "official_en_sha256": "8ae717bdb8796bb4e17e49683958891712c3c3eb45a45644d62d08a12087bb90"
+      },
+      "text": {
+        "jp": "デバッグ描画に関連するサブ メニュー",
+        "official_en": "Sub menu related to Debug Drawing",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:STraceSourceFilteringWidget:UserFilterHeaderText:3481f247",
+      "source": {
+        "set": "set-02",
+        "namespace": "STraceSourceFilteringWidget",
+        "key": "UserFilterHeaderText",
+        "jp_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:UserFilterHeaderText:3481f247",
+        "official_en_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:UserFilterHeaderText:3481f247",
+        "jp_sha256": "333136158cff0219f479767d8b1f59881602d43fa51a5414467861c5693479a1",
+        "official_en_sha256": "158fa339ed68a6c4d4c2b2ce18eaa8d39a410c18e8115d972eeb14edce1a7ddb"
+      },
+      "text": {
+        "jp": "ユーザー フィルタ",
+        "official_en": "User Filters",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:STraceSourceFilteringWidget:VisualizationSectionLabel:2ff5d05a",
+      "source": {
+        "set": "set-02",
+        "namespace": "STraceSourceFilteringWidget",
+        "key": "VisualizationSectionLabel",
+        "jp_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:VisualizationSectionLabel:2ff5d05a",
+        "official_en_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:VisualizationSectionLabel:2ff5d05a",
+        "jp_sha256": "155ffda7744f53cf4c4f1396ad25318f6888669d8b1c81cef9b1de2e959e5ccb",
+        "official_en_sha256": "f6ec7f0c995bee5fa4d18ee98ac02e0c80acbeb7595e3f898791a931ea0e38fb"
+      },
+      "text": {
+        "jp": "ビジュアリゼーション",
+        "official_en": "Visualization",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:STraceSourceFilteringWidget:VisualizeLabel:e8f6447c",
+      "source": {
+        "set": "set-02",
+        "namespace": "STraceSourceFilteringWidget",
+        "key": "VisualizeLabel",
+        "jp_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:VisualizeLabel:e8f6447c",
+        "official_en_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:VisualizeLabel:e8f6447c",
+        "jp_sha256": "95d17144779ce8b193a4d90157a7851dc8e758d652c10649f55f6c2b7b26b4cb",
+        "official_en_sha256": "4de24991ad621ce1c30d3c10ce42d692934b1db0157b3f6bb0b9c668532c754c"
+      },
+      "text": {
+        "jp": "視覚化",
+        "official_en": "Visualize",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:STraceSourceFilteringWidget:OutputFilteringStateTooltip:68910a32",
+      "source": {
+        "set": "set-02",
+        "namespace": "STraceSourceFilteringWidget",
+        "key": "OutputFilteringStateTooltip",
+        "jp_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:OutputFilteringStateTooltip:68910a32",
+        "official_en_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:OutputFilteringStateTooltip:68910a32",
+        "jp_sha256": "5e7eb34a3833c30018400043ceab141a966d343c6a9c7fbb935712a315434fe7",
+        "official_en_sha256": "450f6e8d097ad7f900d565a0bb1f150e221f72acd4761b88fb44454150eca022"
+      },
+      "text": {
+        "jp": "フィルタリング状態の情報が更新され最適化されたデータが再ビルドされるたびに、フィルタリング状態の情報を出力するかどうかです。",
+        "official_en": "Whether or not to output the filtering state information, whenever it changes and the optimized data is rebuild.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:STraceSourceFilteringWidget:WorldFilterHeaderText:85fb4a5f",
+      "source": {
+        "set": "set-02",
+        "namespace": "STraceSourceFilteringWidget",
+        "key": "WorldFilterHeaderText",
+        "jp_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:WorldFilterHeaderText:85fb4a5f",
+        "official_en_record_id": "switch:locres:set-01:STraceSourceFilteringWidget:WorldFilterHeaderText:85fb4a5f",
+        "jp_sha256": "9f4e3c1b06a397c0fe2b76b75b767409100fb994e68ce681aba1ca90f8a171d4",
+        "official_en_sha256": "d74936dda6fedf23ecc6f1fff7cb8e6b7f5d34115b4922a98c39e849f6600093"
+      },
+      "text": {
+        "jp": "ワールド フィルタ",
+        "official_en": "World Filters",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

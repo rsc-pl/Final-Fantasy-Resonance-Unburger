@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGParseStringElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGParseStringElement:NodeTitle:c6a00a21",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGParseStringElement",
+        "key": "NodeTitle",
+        "jp_record_id": "switch:locres:set-01:PCGParseStringElement:NodeTitle:c6a00a21",
+        "official_en_record_id": "switch:locres:set-01:PCGParseStringElement:NodeTitle:c6a00a21",
+        "jp_sha256": "9a569e5250bad1f0a9a98fab351ce40bb69044a95484fe5ffae5b71b5a8e5c8c",
+        "official_en_sha256": "9a569e5250bad1f0a9a98fab351ce40bb69044a95484fe5ffae5b71b5a8e5c8c"
+      },
+      "text": {
+        "jp": "Parse String",
+        "official_en": "Parse String",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGParseStringElement:NodeTooltip:3669fb85",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGParseStringElement",
+        "key": "NodeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGParseStringElement:NodeTooltip:3669fb85",
+        "official_en_record_id": "switch:locres:set-01:PCGParseStringElement:NodeTooltip:3669fb85",
+        "jp_sha256": "e5f3ba37a36b98aea5f0d27ce91bc39101bc99e19c1508bc6f329d7143bf390b",
+        "official_en_sha256": "c9996e6ecabf63624cd1e3e66332cc0f50e83a0bc44b48360c652c8a0885a6d0"
+      },
+      "text": {
+        "jp": "属性として渡された文字列を互換 PCG 型にパースします。\nパースに失敗すると、結果は Identity (クォータニオンとトランスフォーム) または 0 (その他) に設定されます。\nInt/Int64：サポートするのは 10 進数値または 16 進数値 (つまり、0xff)。int がオーバーフローすると、結果はプラットフォームにより変わります。 \nFloat/Double：サポートするのは通常の表現または指数表現 (つまり、13.5e-2f)\nブール型：[True/Yes/On] [False/No/Off]、つまり 0 -> false で、それ以外は -> true ベクター/クォータニオン：X=<value> Y=<value> Z=<value> W=<value> または <value>,<value>,<value>,<value>\nローテータ：P=<value> Y=<value> R=<value> またはピッチ=<value> ヨー=<value> ロール=<value> または <value>,<value>,<value>\nトランスフォーム： <value>,<value>,<value>|<value>,<value>,<value>|<value>,<value>,<value> (平行移動|回転|スケール)",
+        "official_en": "Parse string passed as attribute into a compatible PCG type.\nFailed to parse will result to the value be set to Identity(for quat and transform) or 0 (for the rest).\nInt/Int64: Support base 10 or base 16 number (ie. 0xff). If int overflows, result is platform dependant. \nFloat/Double: Support normal representation or exposant representation (ie. 13.5e-2f)\nBool: [True/Yes/On] [False/No/Off], or 0 -> false and the rest -> trueVectors/Quat: X=<value> Y=<value> Z=<value> W=<value> OR <value>,<value>,<value>,<value>\nRotator: P=<value> Y=<value> R=<value> or  Pitch=<value> Yaw=<value> Roll=<value> or <value,<value>,<value>\nTransform: <value>,<value>,<value>|<value>,<value>,<value>|<value>,<value>,<value> (Translation|Rotation|Scale)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGParseStringElement:CastType:1f2bf0cd",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGParseStringElement",
+        "key": "CastType",
+        "jp_record_id": "switch:locres:set-01:PCGParseStringElement:CastType:1f2bf0cd",
+        "official_en_record_id": "switch:locres:set-01:PCGParseStringElement:CastType:1f2bf0cd",
+        "jp_sha256": "173433462bdc37f8e332c1b035f978939ff3fa2586cb683736c4f5fcd1e2d9b2",
+        "official_en_sha256": "e7bc111d7406a4062cc9ca932ea01e499811bbc986d3155ea7adc048e5f929bf"
+      },
+      "text": {
+        "jp": "{0} へ",
+        "official_en": "To {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGParseStringElement:FullInfo:e0c2659d",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGParseStringElement",
+        "key": "FullInfo",
+        "jp_record_id": "switch:locres:set-01:PCGParseStringElement:FullInfo:e0c2659d",
+        "official_en_record_id": "switch:locres:set-01:PCGParseStringElement:FullInfo:e0c2659d",
+        "jp_sha256": "1fd605b844eb8ac660134e869b9ff8578ad1ad7baf573eca713eac679826ddec",
+        "official_en_sha256": "16dc1178afd2a65c9ce610421275af59bbb0138950adf6afb7a546b29fcbf52a"
+      },
+      "text": {
+        "jp": "{0} -> {1} ( {2} として)",
+        "official_en": "{0} -> {1} as {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

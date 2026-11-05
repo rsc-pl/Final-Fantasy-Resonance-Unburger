@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "Remote",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:Remote-Control-Behaviour:Behavior-Name---On-Value-Changed:46e6b897",
+      "source": {
+        "set": "set-02",
+        "namespace": "Remote",
+        "key": "Behavior",
+        "jp_record_id": "switch:locres:set-01:Remote-Control-Behaviour:Behavior-Name---On-Value-Changed:46e6b897",
+        "official_en_record_id": "switch:locres:set-01:Remote-Control-Behaviour:Behavior-Name---On-Value-Changed:46e6b897",
+        "jp_sha256": "007118ebddd252bd43a41311787cf3e113b1467b49c062ce3c7895e771ae53f3",
+        "official_en_sha256": "75723f1eac6f19229c48d865037936fef9297d9cc3efb54025f9d282f3436661"
+      },
+      "text": {
+        "jp": "変更時",
+        "official_en": "On Modify",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Remote-Control-Behaviour:Behaviour-Name---Set-Asset-By-Path:26a8635f",
+      "source": {
+        "set": "set-02",
+        "namespace": "Remote",
+        "key": "Behaviour",
+        "jp_record_id": "switch:locres:set-01:Remote-Control-Behaviour:Behaviour-Name---Set-Asset-By-Path:26a8635f",
+        "official_en_record_id": "switch:locres:set-01:Remote-Control-Behaviour:Behaviour-Name---Set-Asset-By-Path:26a8635f",
+        "jp_sha256": "100e75ae4aa4efe89ade36aba0b48375e5001c8fe2836e53cb53374ee9bef5d9",
+        "official_en_sha256": "62fa5a5b0d3c318835a213e22a4b335c42515443d598741d0413e8c47f9ecf67"
+      },
+      "text": {
+        "jp": "パス",
+        "official_en": "Path",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Remote-Control-Behaviour:Behavior-Name---Range-Mapping:ea6878d9",
+      "source": {
+        "set": "set-02",
+        "namespace": "Remote",
+        "key": "Behavior",
+        "jp_record_id": "switch:locres:set-01:Remote-Control-Behaviour:Behavior-Name---Range-Mapping:ea6878d9",
+        "official_en_record_id": "switch:locres:set-01:Remote-Control-Behaviour:Behavior-Name---Range-Mapping:ea6878d9",
+        "jp_sha256": "0d603e6d0a7ee9251292e08af7a6424025bffa1ef28938797e2d2a595da8a188",
+        "official_en_sha256": "5de74a81b192304c10bf7b8cf50e863a19e8ae4c38a4d5c5116359db0deed29f"
+      },
+      "text": {
+        "jp": "範囲",
+        "official_en": "Range",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Remote-Control-Behaviour:Behavior-Desc---Range-Mapping:b6f1bc32",
+      "source": {
+        "set": "set-02",
+        "namespace": "Remote",
+        "key": "Behavior",
+        "jp_record_id": "switch:locres:set-01:Remote-Control-Behaviour:Behavior-Desc---Range-Mapping:b6f1bc32",
+        "official_en_record_id": "switch:locres:set-01:Remote-Control-Behaviour:Behavior-Desc---Range-Mapping:b6f1bc32",
+        "jp_sha256": "2fdf1ae20ace60fb2e13638e397b36cf0370ca691886e32c5d3d0bd240a35192",
+        "official_en_sha256": "bc0fba5287f7d6fa8516748cd15cccc549db5965f423395050e2a08ce4fb0ecc"
+      },
+      "text": {
+        "jp": "この動作はアクションのリストを受け取り、[0..1] の範囲の正規化された値を使用してそれらをソートし、指定されたアクションから 0.05 未満の距離である非数値のアクションを実行しながら数値を補間します",
+        "official_en": "This Behaviours can take a list of Actions, sort them using normalized values between 0..1, and interpolates numerical values whilst executing non-numerical whose distance are less than 0.05 from a given action.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Remote-Control-Behaviour:Behavior-Desc---On-Value-Changed:3df4edcb",
+      "source": {
+        "set": "set-02",
+        "namespace": "Remote",
+        "key": "Behavior",
+        "jp_record_id": "switch:locres:set-01:Remote-Control-Behaviour:Behavior-Desc---On-Value-Changed:3df4edcb",
+        "official_en_record_id": "switch:locres:set-01:Remote-Control-Behaviour:Behavior-Desc---On-Value-Changed:3df4edcb",
+        "jp_sha256": "eaadc92012e5f29c0eeafc5f669528773219e1b5f1955bad51731270d0a2c92d",
+        "official_en_sha256": "92adddd69f280133cc1263ef1f9a56299868cce75167ae1da6833a9ed027876c"
+      },
+      "text": {
+        "jp": "関連付けられているプロパティが変化したときにイベントがトリガーされます",
+        "official_en": "Triggers an event when the associated property is modified",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Remote-Control-Behaviour:Behaviour-Desc---Set-Asset-By-Path:b5c04fe4",
+      "source": {
+        "set": "set-02",
+        "namespace": "Remote",
+        "key": "Behaviour",
+        "jp_record_id": "switch:locres:set-01:Remote-Control-Behaviour:Behaviour-Desc---Set-Asset-By-Path:b5c04fe4",
+        "official_en_record_id": "switch:locres:set-01:Remote-Control-Behaviour:Behaviour-Desc---Set-Asset-By-Path:b5c04fe4",
+        "jp_sha256": "c977a490b62574d98534a009845023f23394ac8b5d8408290bbdfc2a4f2bba17",
+        "official_en_sha256": "e202c08145399bc5664f06cf66b53dd5527e88844d84b65a13d83361315cb997"
+      },
+      "text": {
+        "jp": "選択されている公開済みエンティティに基づいてオブジェクトを設定するイベントがトリガーされます",
+        "official_en": "Triggers an event which sets an object based on the selected Exposed Entity.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

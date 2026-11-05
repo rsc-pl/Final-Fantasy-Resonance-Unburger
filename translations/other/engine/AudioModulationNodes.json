@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AudioModulationNodes",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_InputModulator1Description:d45dc13e",
+      "source": {
+        "set": "set-02",
+        "namespace": "AudioModulationNodes",
+        "key": "MixModulatorsNode_InputModulator1Description",
+        "jp_record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_InputModulator1Description:d45dc13e",
+        "official_en_record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_InputModulator1Description:d45dc13e",
+        "jp_sha256": "bf548fed890fb1cc98b0f21a0956e7dbae873adef8e84d5aaea3eb0e1d28a05e",
+        "official_en_sha256": "2bec246e2114fd22665d0b4609586be95c135ba2a9512042367ef0c3226850a8"
+      },
+      "text": {
+        "jp": "混合する1つ目のモジュレーター",
+        "official_en": "First modulator to mix together",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AudioModulationNodes:GetModulatorValueNode_Name:ab408a41",
+      "source": {
+        "set": "set-02",
+        "namespace": "AudioModulationNodes",
+        "key": "GetModulatorValueNode_Name",
+        "jp_record_id": "switch:locres:set-01:AudioModulationNodes:GetModulatorValueNode_Name:ab408a41",
+        "official_en_record_id": "switch:locres:set-01:AudioModulationNodes:GetModulatorValueNode_Name:ab408a41",
+        "jp_sha256": "104f97f3d2ab52364819fc6c71f98448ac9f65930183564f2062073f2f9977a4",
+        "official_en_sha256": "104f97f3d2ab52364819fc6c71f98448ac9f65930183564f2062073f2f9977a4"
+      },
+      "text": {
+        "jp": "Get Modulator Value",
+        "official_en": "Get Modulator Value",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_Name:1ee6074a",
+      "source": {
+        "set": "set-02",
+        "namespace": "AudioModulationNodes",
+        "key": "MixModulatorsNode_Name",
+        "jp_record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_Name:1ee6074a",
+        "official_en_record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_Name:1ee6074a",
+        "jp_sha256": "fe75d8da8fae67734351fbd99e4f11960726f2138c5a37b638e1047bc53d333b",
+        "official_en_sha256": "fe75d8da8fae67734351fbd99e4f11960726f2138c5a37b638e1047bc53d333b"
+      },
+      "text": {
+        "jp": "Mix Modulators",
+        "official_en": "Mix Modulators",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_Description:554ed78a",
+      "source": {
+        "set": "set-02",
+        "namespace": "AudioModulationNodes",
+        "key": "MixModulatorsNode_Description",
+        "jp_record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_Description:554ed78a",
+        "official_en_record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_Description:554ed78a",
+        "jp_sha256": "2d8bcc77b1c8e84cac4bbc92f4cc977cd367f3a125f0beb87dcecd55b1ade35c",
+        "official_en_sha256": "c3f4d56d342cb7506913b3c2e4e45bc34f0b44948e0ad55ca716a5f9160b760c"
+      },
+      "text": {
+        "jp": "パラメータ化されたミックス関数を使用する 2 つのモジュレータをミックスします。true に設定されている場合は 'Normalized'値 (0-1) を、false の場合は単位空間 (dB, 周波数など.) を返します。",
+        "official_en": "Mixes two modulators using the parameterized mix function. Returns the 'Normalized' value (0-1) if true, or the value in unit space (dB, Frequency, etc.) if set to false.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AudioModulationNodes:MetasoundValueNode_InputModulatorName:47c6b274",
+      "source": {
+        "set": "set-02",
+        "namespace": "AudioModulationNodes",
+        "key": "MetasoundValueNode_InputModulatorName",
+        "jp_record_id": "switch:locres:set-01:AudioModulationNodes:MetasoundValueNode_InputModulatorName:47c6b274",
+        "official_en_record_id": "switch:locres:set-01:AudioModulationNodes:MetasoundValueNode_InputModulatorName:47c6b274",
+        "jp_sha256": "c4f9c3a3b5bbacbe06f1ec0f6d838a19ebabc568c465d68df560ba1b678a630e",
+        "official_en_sha256": "86f24943ea0552dfb3dd82a50c4e57f0aafa6ec07c54502a91bcde002e5cfff4"
+      },
+      "text": {
+        "jp": "モジュレーター",
+        "official_en": "Modulator",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_InputNormalizedName:5bab005f",
+      "source": {
+        "set": "set-02",
+        "namespace": "AudioModulationNodes",
+        "key": "MixModulatorsNode_InputNormalizedName",
+        "jp_record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_InputNormalizedName:5bab005f",
+        "official_en_record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_InputNormalizedName:5bab005f",
+        "jp_sha256": "6e62e3aea56b351cf45cef57df553d21ee6eb7af92614b2dce3400d82eeca4de",
+        "official_en_sha256": "6e62e3aea56b351cf45cef57df553d21ee6eb7af92614b2dce3400d82eeca4de"
+      },
+      "text": {
+        "jp": "Normalized",
+        "official_en": "Normalized",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AudioModulationNodes:MetasoundValueNode_OutputModulatorValue:87ce413c",
+      "source": {
+        "set": "set-02",
+        "namespace": "AudioModulationNodes",
+        "key": "MetasoundValueNode_OutputModulatorValue",
+        "jp_record_id": "switch:locres:set-01:AudioModulationNodes:MetasoundValueNode_OutputModulatorValue:87ce413c",
+        "official_en_record_id": "switch:locres:set-01:AudioModulationNodes:MetasoundValueNode_OutputModulatorValue:87ce413c",
+        "jp_sha256": "9a3c5460432ba66a10b0e6bcd1f2338cec818ad3b8b3f96b079a14a5f1ca0d55",
+        "official_en_sha256": "9a3c5460432ba66a10b0e6bcd1f2338cec818ad3b8b3f96b079a14a5f1ca0d55"
+      },
+      "text": {
+        "jp": "Out",
+        "official_en": "Out",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_OutputModulatorValue:d71f1d62",
+      "source": {
+        "set": "set-02",
+        "namespace": "AudioModulationNodes",
+        "key": "MixModulatorsNode_OutputModulatorValue",
+        "jp_record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_OutputModulatorValue:d71f1d62",
+        "official_en_record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_OutputModulatorValue:d71f1d62",
+        "jp_sha256": "9a3c5460432ba66a10b0e6bcd1f2338cec818ad3b8b3f96b079a14a5f1ca0d55",
+        "official_en_sha256": "9a3c5460432ba66a10b0e6bcd1f2338cec818ad3b8b3f96b079a14a5f1ca0d55"
+      },
+      "text": {
+        "jp": "Out",
+        "official_en": "Out",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_InputMixParameterDescription:878800d3",
+      "source": {
+        "set": "set-02",
+        "namespace": "AudioModulationNodes",
+        "key": "MixModulatorsNode_InputMixParameterDescription",
+        "jp_record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_InputMixParameterDescription:878800d3",
+        "official_en_record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_InputMixParameterDescription:878800d3",
+        "jp_sha256": "a22874549ae2309773fdd4367596926f1a83bf81829e884aec1d97e015c33d7b",
+        "official_en_sha256": "072667c2991483cbad36ede2897ad093ebbfe2dfaec70a84cc2a241e93ff0a60"
+      },
+      "text": {
+        "jp": "パラメータを混合するために使用するパラメータ",
+        "official_en": "Parameter to use to mix parameters together",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AudioModulationNodes:GetModulatorValueNode_Description:d7b94d7e",
+      "source": {
+        "set": "set-02",
+        "namespace": "AudioModulationNodes",
+        "key": "GetModulatorValueNode_Description",
+        "jp_record_id": "switch:locres:set-01:AudioModulationNodes:GetModulatorValueNode_Description:d7b94d7e",
+        "official_en_record_id": "switch:locres:set-01:AudioModulationNodes:GetModulatorValueNode_Description:d7b94d7e",
+        "jp_sha256": "05cb02a11aadde277f10ef407b7550c2f0d952831cc9c13e9ab65a870780d1a9",
+        "official_en_sha256": "26a222019d9be54b7f71f8dbc328e3bb8d7bc934aceebfef41aff2ead34569b1"
+      },
+      "text": {
+        "jp": "指定モジュレータの現在の値を返します。'Normalized' が false である場合、値を単位空間に変換します。",
+        "official_en": "Returns the current value of the given modulator. Converts value to unit space if 'Normalized' is false.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_InputModulator2Description:a3ab4c1b",
+      "source": {
+        "set": "set-02",
+        "namespace": "AudioModulationNodes",
+        "key": "MixModulatorsNode_InputModulator2Description",
+        "jp_record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_InputModulator2Description:a3ab4c1b",
+        "official_en_record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_InputModulator2Description:a3ab4c1b",
+        "jp_sha256": "0ca0f3eb8a4943c0959b2eb9568f65631988bc3c238df52a49681e4313a6941e",
+        "official_en_sha256": "35f04d8c8b650bb9d5dc5d5eaed5410aefcde7b021de7cf3793ce77e973c7667"
+      },
+      "text": {
+        "jp": "混合する2つ目のモジュレーター",
+        "official_en": "Second modulator to mix together",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_InputNormalizedDescription:2f1b5ba3",
+      "source": {
+        "set": "set-02",
+        "namespace": "AudioModulationNodes",
+        "key": "MixModulatorsNode_InputNormalizedDescription",
+        "jp_record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_InputNormalizedDescription:2f1b5ba3",
+        "official_en_record_id": "switch:locres:set-01:AudioModulationNodes:MixModulatorsNode_InputNormalizedDescription:2f1b5ba3",
+        "jp_sha256": "37f694f4ad2eca0e99d93dd63217ed4c25cd9e9a244d01e7f19492609c0973aa",
+        "official_en_sha256": "f684f2b33e125d31f96939f6c8744914748931fd46e3982473ff38153001ac09"
+      },
+      "text": {
+        "jp": "出力値を [0.0, 1.0] に正規化するか、パラメータで記述されている単位に変換するかを指定します",
+        "official_en": "Whether the output value should be normalized [0.0, 1.0] or converted to the unit described by the parameter.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

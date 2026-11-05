@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MQTT",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MQTT:InvalidHost:c73f98b3",
+      "source": {
+        "set": "set-02",
+        "namespace": "MQTT",
+        "key": "InvalidHost",
+        "jp_record_id": "switch:locres:set-01:MQTT:InvalidHost:c73f98b3",
+        "official_en_record_id": "switch:locres:set-01:MQTT:InvalidHost:c73f98b3",
+        "jp_sha256": "eb97a77a34bb8dcb075292b905402c66e0e2aa07b6a102ad56b8cd5338c34e71",
+        "official_en_sha256": "1068e8e42462bf8771c4235afca79603d3a311b0aea816316d9b8c3308adf3e4"
+      },
+      "text": {
+        "jp": "ホスト (名前または IP) が無効です",
+        "official_en": "Host (name or ip) is invalid.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MQTT:PasswordWithoutUsername:18ab707a",
+      "source": {
+        "set": "set-02",
+        "namespace": "MQTT",
+        "key": "PasswordWithoutUsername",
+        "jp_record_id": "switch:locres:set-01:MQTT:PasswordWithoutUsername:18ab707a",
+        "official_en_record_id": "switch:locres:set-01:MQTT:PasswordWithoutUsername:18ab707a",
+        "jp_sha256": "f0f3696594c7858566cb611d0f8c116af576efc35d05fa208d2c02c0bf5214ac",
+        "official_en_sha256": "51e575cfd02660ff706902148bb62092cd8a2cdff8f0839340804a42bd92fed3"
+      },
+      "text": {
+        "jp": "ユーザー名なしでパスワードが設定されています",
+        "official_en": "Password set without a Username.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MQTT:FlaggedInvalid:ea5f4026",
+      "source": {
+        "set": "set-02",
+        "namespace": "MQTT",
+        "key": "FlaggedInvalid",
+        "jp_record_id": "switch:locres:set-01:MQTT:FlaggedInvalid:ea5f4026",
+        "official_en_record_id": "switch:locres:set-01:MQTT:FlaggedInvalid:ea5f4026",
+        "jp_sha256": "74b377aae17dbd990008d6b7f8011142e725f12d1b9df990fa192f052d41c0c2",
+        "official_en_sha256": "cda3888ac56fd9647db2b4c7a8993355cfdf7c98134d24b002f1c12f5ba9d711"
+      },
+      "text": {
+        "jp": "URL に無効のフラグが付けられています",
+        "official_en": "URL has been flagged as invalid.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGVolumeSamplerElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGVolumeSamplerElement:CouldNotInitializeExecutionState:c273c4ce",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGVolumeSamplerElement",
+        "key": "CouldNotInitializeExecutionState",
+        "jp_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:CouldNotInitializeExecutionState:c273c4ce",
+        "official_en_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:CouldNotInitializeExecutionState:c273c4ce",
+        "jp_sha256": "2e2e10db1461d578ca1607016661283c867736f84048d4d7e9a65c5bd97a8df2",
+        "official_en_sha256": "7676a83c9a387b2686bac7222533afb1109f5550547fece12f3ccf6a67778e31"
+      },
+      "text": {
+        "jp": "実行ごとのタイムスライス状態データを初期化できませんでした",
+        "official_en": "Could not initialize per-execution timeslice state data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGVolumeSamplerElement:CouldNotInitializeStateData:40206846",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGVolumeSamplerElement",
+        "key": "CouldNotInitializeStateData",
+        "jp_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:CouldNotInitializeStateData:40206846",
+        "official_en_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:CouldNotInitializeStateData:40206846",
+        "jp_sha256": "11d2d3478a143a891cf63e1f1bd79ec908924b43036e2f1c071ad3b70c9f7f25",
+        "official_en_sha256": "7b18fbe477bf8753b0813ab98d3255e5518f7c3b979fb38259c07223aaaf1021"
+      },
+      "text": {
+        "jp": "タイムスライス状態データを初期化できませんでした",
+        "official_en": "Could not initialize timeslice state data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGVolumeSamplerElement:InvalidSamplingBounds:cb8d8aae",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGVolumeSamplerElement",
+        "key": "InvalidSamplingBounds",
+        "jp_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:InvalidSamplingBounds:cb8d8aae",
+        "official_en_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:InvalidSamplingBounds:cb8d8aae",
+        "jp_sha256": "d02eaac7c517d493ea918e02c068932244c166dea964206722c8345380629b1b",
+        "official_en_sha256": "263842e896a1f39b949c06431a27975bc66c1fe8736d438bbf3da693be0650ce"
+      },
+      "text": {
+        "jp": "最終サンプリング境界が無効またはゼロサイズです",
+        "official_en": "Final sampling bounds is invalid/zero-sized.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGVolumeSamplerElement:GenerationInfo:3aa28ebe",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGVolumeSamplerElement",
+        "key": "GenerationInfo",
+        "jp_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:GenerationInfo:3aa28ebe",
+        "official_en_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:GenerationInfo:3aa28ebe",
+        "jp_sha256": "4bceec68d31d95affa56272ec710c9f792c1ebdba1bf7445c7cd47a65bf822a6",
+        "official_en_sha256": "f91bd9d295e99062d0d95837145cb2241d69f0c1bf4fd246520e20363a3c3f7d"
+      },
+      "text": {
+        "jp": "{0} ポイントをセルに生成しました",
+        "official_en": "Generated {0} points in volume",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGVolumeSamplerElement:VolumeSamplerNodeTooltip:3cb46c4c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGVolumeSamplerElement",
+        "key": "VolumeSamplerNodeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:VolumeSamplerNodeTooltip:3cb46c4c",
+        "official_en_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:VolumeSamplerNodeTooltip:3cb46c4c",
+        "jp_sha256": "11e43bb589ece6f6aa1de53b532626c35869da632e420db4bf43c82b2839a8e6",
+        "official_en_sha256": "c21031af40a10a1ccbf84496be2f50711b8210babcc43dab91506f97d70fe528"
+      },
+      "text": {
+        "jp": "ボリューム入力の 3 次元境界内に、バウンディング形状が存在する場合はその内部にポイントを生成します",
+        "official_en": "Generates points in the three dimensional bounds of the Volume input and within the Bounding Shape input if provided.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGVolumeSamplerElement:CouldNotObtainInputBounds:21b94aff",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGVolumeSamplerElement",
+        "key": "CouldNotObtainInputBounds",
+        "jp_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:CouldNotObtainInputBounds:21b94aff",
+        "official_en_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:CouldNotObtainInputBounds:21b94aff",
+        "jp_sha256": "10a98b238299406ac00eac612461b5c74d3c1a21d47ddc9c343578ecc943abb5",
+        "official_en_sha256": "e514853d94fc50ce8eca412470d08c95d6350ecb53614eaf3aaa23e99cdfe37c"
+      },
+      "text": {
+        "jp": "入力データは制限されていないため、サンプリングには境界を指定する必要があります。Bounding Shape 入力を検討してください",
+        "official_en": "Input data is not bounded, so bounds must be provided for sampling. Consider providing a Bounding Shape input.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGVolumeSamplerElement:NoShapeToSample:284b4cf4",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGVolumeSamplerElement",
+        "key": "NoShapeToSample",
+        "jp_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:NoShapeToSample:284b4cf4",
+        "official_en_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:NoShapeToSample:284b4cf4",
+        "jp_sha256": "96703f04cc220dc6ce92ed0887ea18af565b918e52c4d5fefc6989f598120a35",
+        "official_en_sha256": "d0a55978e0686853996b93381082fd3e349dd644abce9da6a555177f526a0162"
+      },
+      "text": {
+        "jp": "サンプリングのための空間データの形状が入力されませんでした。ポイントは生成されません",
+        "official_en": "No Spatial data shape was provided for sampling. No points will be sampled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGVolumeSamplerElement:VolumeSamplerBoundingShapePinTooltip:a4251dd4",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGVolumeSamplerElement",
+        "key": "VolumeSamplerBoundingShapePinTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:VolumeSamplerBoundingShapePinTooltip:a4251dd4",
+        "official_en_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:VolumeSamplerBoundingShapePinTooltip:a4251dd4",
+        "jp_sha256": "7c1621556fcb7cca387bec8d513592d5882f5623cf01240d3654d1b12a659ca7",
+        "official_en_sha256": "5c857039fa9fdfbf0ec53079a02d0641d48a9d22b8d549873b3e5586142d0b7e"
+      },
+      "text": {
+        "jp": "オプション。サンプリングされたすべてのポイントはこの形状内に含まれる必要があります",
+        "official_en": "Optional. All sampled points must be contained within this shape.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGVolumeSamplerElement:InvalidVoxelSize:3eb3c8d6",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGVolumeSamplerElement",
+        "key": "InvalidVoxelSize",
+        "jp_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:InvalidVoxelSize:3eb3c8d6",
+        "official_en_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:InvalidVoxelSize:3eb3c8d6",
+        "jp_sha256": "d4ee8ab4df973cea199f2928a77096d7e0ec372c8256d846d1246121e6e953de",
+        "official_en_sha256": "82d10db67a07434d8474a0b1f8633692790b5dd2b395bde81d18c8702c026b1e"
+      },
+      "text": {
+        "jp": "スキップ - 無効なボクセル サイズです",
+        "official_en": "Skipped - Invalid voxel size",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGVolumeSamplerElement:TooManyPoints:23af47c0",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGVolumeSamplerElement",
+        "key": "TooManyPoints",
+        "jp_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:TooManyPoints:23af47c0",
+        "official_en_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:TooManyPoints:23af47c0",
+        "jp_sha256": "d7c0fd696d449618bb2acf7c43639c57f16255fb46bfd6597d449d25da93dcdb",
+        "official_en_sha256": "7272c94e6cebc14af8553719319ec9614cbb35b4fbd4b874285738f5e4a8fe38"
+      },
+      "text": {
+        "jp": "スキップ - 生成しようとしたポイントが多すぎました ({0} x {1} x {2} = {3})。\n必要に応じて「pcg.SamplerMemoryThreshold」を調整してください",
+        "official_en": "Skipped - tried to generate too many points ({0} x {1} x {2} = {3}).\nAdjust 'pcg.SamplerMemoryThreshold' if needed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGVolumeSamplerElement:BoundsIgnored:bf810f24",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGVolumeSamplerElement",
+        "key": "BoundsIgnored",
+        "jp_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:BoundsIgnored:bf810f24",
+        "official_en_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:BoundsIgnored:bf810f24",
+        "jp_sha256": "039107834428fcdc164dd479b656b2fff1262ff4729fd08c723243085d31ad92",
+        "official_en_sha256": "4d59be6902d1234ed84980a4e5c0c8f7aaef2024daae84f86b9c915dafc98c77"
+      },
+      "text": {
+        "jp": "Unbounded オプションが有効になっているため、Bounding Shape 入力ピンの境界は無視されます",
+        "official_en": "The bounds of the Bounding Shape input pin will be ignored because the Unbounded option is enabled",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGVolumeSamplerElement:VolumeSamplerVolumePinTooltip:7eeda12e",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGVolumeSamplerElement",
+        "key": "VolumeSamplerVolumePinTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:VolumeSamplerVolumePinTooltip:7eeda12e",
+        "official_en_record_id": "switch:locres:set-01:PCGVolumeSamplerElement:VolumeSamplerVolumePinTooltip:7eeda12e",
+        "jp_sha256": "645ead700c417ebcb56d6d2ae541896d58c439a8c4d3d147c8e3326d6db0a2f7",
+        "official_en_sha256": "b31493c1c4fc1cf92d7338c54dca4ab908e8200708347269b3aa2fab21f5d4d7"
+      },
+      "text": {
+        "jp": "ポイントをサンプリングするボリューム。境界を構成できる空間データをどれでも選択できます",
+        "official_en": "The volume to sample with points. Can be any spatial data that can provide bounds.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

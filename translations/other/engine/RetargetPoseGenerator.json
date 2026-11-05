@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "RetargetPoseGenerator",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:RetargetPoseGenerator:MissingSpine:17c5367f",
+      "source": {
+        "set": "set-02",
+        "namespace": "RetargetPoseGenerator",
+        "key": "MissingSpine",
+        "jp_record_id": "switch:locres:set-01:RetargetPoseGenerator:MissingSpine:17c5367f",
+        "official_en_record_id": "switch:locres:set-01:RetargetPoseGenerator:MissingSpine:17c5367f",
+        "jp_sha256": "06a22d39eeb796eff7b26f7077b867d98ca174a5498fa205fa45b1bc79273747",
+        "official_en_sha256": "7f7d4ddd7a5ef6a7b95cc28be6cd3ab4f2f4dd998aea10360d91e47e99383558"
+      },
+      "text": {
+        "jp": "背骨チェーンが見つからなかったため、骨盤を自動整列できませんでした。「Spine」またはよく似た名前のリターゲティング チェーンが想定されています",
+        "official_en": "Could not auto align the pelvis because a Spine chain was not found. Expects a retarget chain named 'Spine' or similar.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RetargetPoseGenerator:AutoAlignFailed:21fd707d",
+      "source": {
+        "set": "set-02",
+        "namespace": "RetargetPoseGenerator",
+        "key": "AutoAlignFailed",
+        "jp_record_id": "switch:locres:set-01:RetargetPoseGenerator:AutoAlignFailed:21fd707d",
+        "official_en_record_id": "switch:locres:set-01:RetargetPoseGenerator:AutoAlignFailed:21fd707d",
+        "jp_sha256": "082569edbdba92a127060c8a78442bcf20d178186bf8d72401cdc4a652d03dc2",
+        "official_en_sha256": "bd921e7d3e34295fc287df6760b3e0950fb0be5379105035fd621d5833c9ac88"
+      },
+      "text": {
+        "jp": "ボーンを整列させる方向を決定できませんでした ",
+        "official_en": "Could not determine the direction align the bone: ",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RetargetPoseGenerator:AutoAlignMeshNoTarget:b72bcd0a",
+      "source": {
+        "set": "set-02",
+        "namespace": "RetargetPoseGenerator",
+        "key": "AutoAlignMeshNoTarget",
+        "jp_record_id": "switch:locres:set-01:RetargetPoseGenerator:AutoAlignMeshNoTarget:b72bcd0a",
+        "official_en_record_id": "switch:locres:set-01:RetargetPoseGenerator:AutoAlignMeshNoTarget:b72bcd0a",
+        "jp_sha256": "3af9692bea13f7af2f0523863152ddd187656e54bc5963e78598ed1b37e0b126",
+        "official_en_sha256": "1ada9a226985af8b44b3fe47e5af7cc6009ecdcbc277fbf011b345dc21c6d45c"
+      },
+      "text": {
+        "jp": "メッシュから {0} を整列させるための、ボーンの方向を決定できませんでした。ターゲット ボーンにスキンを付ける頂点がない可能性があります",
+        "official_en": "Could not determine the direction of bone to align {0} from the mesh. Likely because no vertices are skinned to the target bone.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RetargetPoseGenerator:AutoAlignMeshNoSource:379d9869",
+      "source": {
+        "set": "set-02",
+        "namespace": "RetargetPoseGenerator",
+        "key": "AutoAlignMeshNoSource",
+        "jp_record_id": "switch:locres:set-01:RetargetPoseGenerator:AutoAlignMeshNoSource:379d9869",
+        "official_en_record_id": "switch:locres:set-01:RetargetPoseGenerator:AutoAlignMeshNoSource:379d9869",
+        "jp_sha256": "8660ef648a0d042f82b0c6999055f675712762619a2d9e97dc511f12fedb463d",
+        "official_en_sha256": "a6ef4e7894ea6185b885ba522dc80902471735708aa6b17cc25fc3b84ce3439a"
+      },
+      "text": {
+        "jp": "{0} に対してメッシュから一致させるための、ボーンの方向を決定できませんでした。ソース ボーンにスキンを付ける頂点がない可能性があります",
+        "official_en": "Could not determine the direction of bone to match from it's mesh for {0}. Likely because no vertices are skinned to the source bone.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RetargetPoseGenerator:AutoAlignPelvisNotSupported:8442d3c3",
+      "source": {
+        "set": "set-02",
+        "namespace": "RetargetPoseGenerator",
+        "key": "AutoAlignPelvisNotSupported",
+        "jp_record_id": "switch:locres:set-01:RetargetPoseGenerator:AutoAlignPelvisNotSupported:8442d3c3",
+        "official_en_record_id": "switch:locres:set-01:RetargetPoseGenerator:AutoAlignPelvisNotSupported:8442d3c3",
+        "jp_sha256": "cb5f8ab10f4cc90701bcfedadee234446391ee7cedea3eb5a47c12a98a135716",
+        "official_en_sha256": "983bc22928dc5e757f8e847427bc5778297fe6aaae01f5891c32088ba4c29db5"
+      },
+      "text": {
+        "jp": "骨盤の整列をスキップしました。これはサポートされていません",
+        "official_en": "Skipped aligning the pelvis. This is not supported.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RetargetPoseGenerator:SkipAutoAlignNonRetargeted:e1d98524",
+      "source": {
+        "set": "set-02",
+        "namespace": "RetargetPoseGenerator",
+        "key": "SkipAutoAlignNonRetargeted",
+        "jp_record_id": "switch:locres:set-01:RetargetPoseGenerator:SkipAutoAlignNonRetargeted:e1d98524",
+        "official_en_record_id": "switch:locres:set-01:RetargetPoseGenerator:SkipAutoAlignNonRetargeted:e1d98524",
+        "jp_sha256": "da5bb9893fcd628e28cc8e7325a4b8252945de30aef76ac753ac24696dc8b5f7",
+        "official_en_sha256": "4d4f3e95cf8b62a8b0319682e7035e24a019b70be641a89095c20a3463dad31b"
+      },
+      "text": {
+        "jp": "{0} の整列をスキップしました。ボーンはリターゲティングされず、したがって他のスケルトンで「一致する」対応ボーンがありません",
+        "official_en": "Skipped aligning {0}. The bone is not retargeted and therefore has no 'matching' equivalent on other skeleton.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

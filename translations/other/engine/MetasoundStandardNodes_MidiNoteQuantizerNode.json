@@ -1,0 +1,493 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MetasoundStandardNodes_MidiNoteQuantizerNode",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:Metasound_MIDI_Note_Quantizer_NodeDisplayName:595fb0c7",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_MidiNoteQuantizerNode",
+        "key": "Metasound_MIDI_Note_Quantizer_NodeDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:Metasound_MIDI_Note_Quantizer_NodeDisplayName:595fb0c7",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:Metasound_MIDI_Note_Quantizer_NodeDisplayName:595fb0c7",
+        "jp_sha256": "b538aa05b0bdbff4a93f2517399eb9e609b661c12e2bf11002f525f18c046594",
+        "official_en_sha256": "1ba45844c42d5e996acd772ce98707c0e0741af1d14a45a62b12eb15b45b539c"
+      },
+      "text": {
+        "jp": "MIDI ノート量子化器",
+        "official_en": "MIDI Note Quantizer",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamNoteInTooltip:7c2b0c79",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_MidiNoteQuantizerNode",
+        "key": "ParamNoteInTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamNoteInTooltip:7c2b0c79",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamNoteInTooltip:7c2b0c79",
+        "jp_sha256": "080009367754724f264904808ec163772e6139a16a68352515f3bed2ff50d34a",
+        "official_en_sha256": "8c90cbdcfeafbd385dee222352878e14f05ac2475cb15cba7a2462d3a00aa56b"
+      },
+      "text": {
+        "jp": "クオンタイズするMIDIノート",
+        "official_en": "Midi Note to quantize",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamRootNoteTooltip:b129510f",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_MidiNoteQuantizerNode",
+        "key": "ParamRootNoteTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamRootNoteTooltip:b129510f",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamRootNoteTooltip:b129510f",
+        "jp_sha256": "99f287c10a2297a680ac0d0649e52811b90aa601947ad2457b4df6590e27e60d",
+        "official_en_sha256": "458f07bc7bd4a444b60ea3c36236ed702e9b29a5f024cd71fdbce8b738baa369"
+      },
+      "text": {
+        "jp": "ルートとして扱う MIDI ノート (例：0.0 = C、1.0 = Db/C# である場所などのルート)。値は正の値にクランプされます",
+        "official_en": "Midi note to treat as the Root (e.g. where 0.0 = C, 1.0 = Db/C#, etc). Values are clamped to positive values.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamNoteInDisplayName:ea753707",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_MidiNoteQuantizerNode",
+        "key": "ParamNoteInDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamNoteInDisplayName:ea753707",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamNoteInDisplayName:ea753707",
+        "jp_sha256": "1cdd06c7ab10c2f61656fa215fbf58b8a50dcddfd235a22ec074d35feea35bb2",
+        "official_en_sha256": "defda57d218e0576429bfdd42b99d301152215ab58f3d093f5d1edb535c06c81"
+      },
+      "text": {
+        "jp": "Note In (ノート入力)",
+        "official_en": "Note In",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamNoteOutputDisplayName:a51ce15a",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_MidiNoteQuantizerNode",
+        "key": "ParamNoteOutputDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamNoteOutputDisplayName:a51ce15a",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamNoteOutputDisplayName:a51ce15a",
+        "jp_sha256": "e07ee4069446080cbbcbe63ac28be61b350f5f928ea5882277d678c4a8ecf4df",
+        "official_en_sha256": "2114b66555ca56d7a87629f46c0f1523720a80d6ee55e20e8c608223635eb6ea"
+      },
+      "text": {
+        "jp": "Note Out (ノート出力)",
+        "official_en": "Note Out",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:QuantizerPitchKeyword:38e16ce2",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_MidiNoteQuantizerNode",
+        "key": "QuantizerPitchKeyword",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:QuantizerPitchKeyword:38e16ce2",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:QuantizerPitchKeyword:38e16ce2",
+        "jp_sha256": "65d4986c0c54963803c9fc57f3c5efb443a691863c851d2369425cca7bda5d3f",
+        "official_en_sha256": "6af11cc594045511b957642813d9a64b9df876e72faaed7f579726787dfe65c4"
+      },
+      "text": {
+        "jp": "ピッチ",
+        "official_en": "Pitch",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamNoteOutputTooltip:eb6cfcd7",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_MidiNoteQuantizerNode",
+        "key": "ParamNoteOutputTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamNoteOutputTooltip:eb6cfcd7",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamNoteOutputTooltip:eb6cfcd7",
+        "jp_sha256": "1e9e0a9a29beda9f5f0bc281942c4003bb098f3fcd52f56acda686e785e47108",
+        "official_en_sha256": "b0241a48725e3f9fc95866f36e179d618c36ee88af25b0a5be0c5b41879f6da5"
+      },
+      "text": {
+        "jp": "Quantized Note (クオンタイズされたノート)",
+        "official_en": "Quantized Note",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:MidiNoteQuantizer_NodeDescription:afb617b4",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_MidiNoteQuantizerNode",
+        "key": "MidiNoteQuantizer_NodeDescription",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:MidiNoteQuantizer_NodeDescription:afb617b4",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:MidiNoteQuantizer_NodeDescription:afb617b4",
+        "jp_sha256": "fa10a840779a6b0f2a748b1d4e5a97dc3b358124e9093195218b5638ec2bc914",
+        "official_en_sha256": "4f795737bc44b5b4cb0ae28095d763462d68b3a6a1a41b0e155aee2e852e1d8a"
+      },
+      "text": {
+        "jp": "MIDI ノートを指定した条件に最も近い音に量子化します",
+        "official_en": "Quantizes a MIDI note to the nearset note that matches provided criteria",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamRootNoteDisplayName:cf19ca4b",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_MidiNoteQuantizerNode",
+        "key": "ParamRootNoteDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamRootNoteDisplayName:cf19ca4b",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamRootNoteDisplayName:cf19ca4b",
+        "jp_sha256": "8a35a3cdba9a4b6975ab36bc27df3426b530f949e92076e589b0d60c99f0138a",
+        "official_en_sha256": "07c8b145852b9614eac1f60858acc4132c2485257875fde6eda3e110199cb001"
+      },
+      "text": {
+        "jp": "Root Note (ルートノート)",
+        "official_en": "Root Note",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamScaleDegreesDisplayName:d6e41a87",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_MidiNoteQuantizerNode",
+        "key": "ParamScaleDegreesDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamScaleDegreesDisplayName:d6e41a87",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamScaleDegreesDisplayName:d6e41a87",
+        "jp_sha256": "34e94e568e6854e936a83fe7060a2367524e42ef64042532a709d5ff397e7219",
+        "official_en_sha256": "05f351133f30a3259ead7ab1718c661aaf52d21dfeff063c6dcd4e460b06cda9"
+      },
+      "text": {
+        "jp": "Scale Degrees (スケーリング音度)",
+        "official_en": "Scale Degrees",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamScaleRangeDisplayName:f89f29de",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_MidiNoteQuantizerNode",
+        "key": "ParamScaleRangeDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamScaleRangeDisplayName:f89f29de",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamScaleRangeDisplayName:f89f29de",
+        "jp_sha256": "90e281f921657aa9b03b58930b6d5e235c8cd5b6d915608d0e8df1e80fd08564",
+        "official_en_sha256": "a2bb3d6d0aa280a27b243fd1c3ff0d88048f18a5abbb925e95c3ceb820d71c54"
+      },
+      "text": {
+        "jp": "スケール範囲",
+        "official_en": "Scale Range In",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamScaleDegreesTooltip:349b7b34",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_MidiNoteQuantizerNode",
+        "key": "ParamScaleDegreesTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamScaleDegreesTooltip:349b7b34",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamScaleDegreesTooltip:349b7b34",
+        "jp_sha256": "bf2d1b93d5ea3de466cbc96b46ad3fd86d6eb5e189ddbf60afc0efa6fbccdb7f",
+        "official_en_sha256": "1590294b625679edc6eefda730877f929a38817d37b04c085d9230c3f9e49aed"
+      },
+      "text": {
+        "jp": "昇順の音符のセット。ルート ノート (根音) を意味する 0.0f から始まり、半音きざみで表されます。スケール ディグリー (音度) はスケール (オクターブを含まない) における、各音符に対応します。Scale to Note Array ノードの出力にすることができます",
+        "official_en": "Set of notes in ascending order, represeting half steps starting at 0.0f meaning the Root Note. Scale degrees should be the notes in a scale that not including the octave. Can be the output of the Scale To Note Array node.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamScaleRangeTooltip:0c4f4239",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_MidiNoteQuantizerNode",
+        "key": "ParamScaleRangeTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamScaleRangeTooltip:0c4f4239",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_MidiNoteQuantizerNode:ParamScaleRangeTooltip:0c4f4239",
+        "jp_sha256": "1a84e1f920bd39895cd0febd4602ad1366042a0b2cc2470e56b2522eb5510d03",
+        "official_en_sha256": "380e2813795e48daa41da7aacbd0a59425f579d812b46e6f3340587fca22a982"
+      },
+      "text": {
+        "jp": "スケール (音階) にある半音の数。たとえば、通常のダイアトニック スケール (全音階) は 12 個の半音からなります。エキゾチックなスケールでは半音の数が異なるものもあります",
+        "official_en": "The number of semitones in the scale. E.g. a regular diatonic scale will be 12 semitones. Exotic scales could be something else.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

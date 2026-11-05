@@ -1,0 +1,1455 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "FStormSyncAssetFolderContextMenu",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:DisabledTooltipReason:ac571ebd",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "DisabledTooltipReason",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:DisabledTooltipReason:ac571ebd",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:DisabledTooltipReason:ac571ebd",
+        "jp_sha256": "e6c0e289868b58c02b5c7376f9058245b6890fdcb06d9a7167df7d597fb0e76b",
+        "official_en_sha256": "53d90965993ba67b54457be5e00c98ff2826e0ba9af93cc96b231207e043dda3"
+      },
+      "text": {
+        "jp": "\n\n次のアセットはダーティーな状態 (未保存) であるため、無効になりました：\n\n{0}",
+        "official_en": "\n\nDisabled because of the following assets in dirty state (unsaved):\n\n{0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PullAssetsMenuEntry_ServerDisabledTooltip:509eff46",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "PullAssetsMenuEntry_ServerDisabledTooltip",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PullAssetsMenuEntry_ServerDisabledTooltip:509eff46",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PullAssetsMenuEntry_ServerDisabledTooltip:509eff46",
+        "jp_sha256": "1ad906321d5d12df038d7a61c69a06bd1b462b566a71b106b152a51f07712bda",
+        "official_en_sha256": "37b8be7a829618358636dfc15ec075bc15fb99dfb5c1c4cf8bae36e7468488d4"
+      },
+      "text": {
+        "jp": "\n\nストーム同期サーバーが実行されていないため、このアクションは無効になっています。\n「StormSync.Server.Start」を実行するか、自動起動設定を有効にしてサーバーを構成してください",
+        "official_en": "\n\nThis action is disabled because Storm Sync Server is not running.\nRun `StormSync.Server.Start` or configure the server with auto-start setting enabled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:SyncAssetsMenuEntryTooltip:1fd1c9c3",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "SyncAssetsMenuEntryTooltip",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:SyncAssetsMenuEntryTooltip:1fd1c9c3",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:SyncAssetsMenuEntryTooltip:1fd1c9c3",
+        "jp_sha256": "f08e1645ea0876d5429191c12dfabb8feac8f3a5947149bd557b33719f28fe39",
+        "official_en_sha256": "470f3b059e37304d007acce1f13fe35dc08864d4cf7e4bb7a40fba532c2c1a16"
+      },
+      "text": {
+        "jp": "ストーム同期に接続されたデバイスで選択されたアセットの同期をブロードキャストします{0}",
+        "official_en": "Broadcast a synchronisation for the selected assets on Storm Sync connected devices.{0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:CompareAssetsMenuEntry:79601030",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "CompareAssetsMenuEntry",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:CompareAssetsMenuEntry:79601030",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:CompareAssetsMenuEntry:79601030",
+        "jp_sha256": "f1787247df9d241b0fa2de01f570cbed88c5cd4abac59485c73041be41559695",
+        "official_en_sha256": "273a99ea2a0cf7b1ab7ce029da9604e3a59c6efc9d07ddb8cfb5c5c0d5100c60"
+      },
+      "text": {
+        "jp": "アセットを比較",
+        "official_en": "Compare Asset(s) with",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:CompareAssetsMenuEntryTooltip:048ef4cb",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "CompareAssetsMenuEntryTooltip",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:CompareAssetsMenuEntryTooltip:048ef4cb",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:CompareAssetsMenuEntryTooltip:048ef4cb",
+        "jp_sha256": "5df8a27dd13f543adac47d6d7c859d413c41c1178ff8aefe5edd4a3cf936e96a",
+        "official_en_sha256": "db2b35633e1d74a2581068bbe706d5bbb1392d76f6ced330c351730d1274dcbc"
+      },
+      "text": {
+        "jp": "特定のリモートとアセットを比較し、ファイル (および内部依存関係) が存在しないか、状態の不一致がないかどうかを確認します。{0}",
+        "official_en": "Compare asset(s) with a specific remote and see if files (and inner dependencies) are either missing or in mismatched state.{0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:CompareAssetMenuAction:7a993856",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "CompareAssetMenuAction",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:CompareAssetMenuAction:7a993856",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:CompareAssetMenuAction:7a993856",
+        "jp_sha256": "5e0c0129ffad4fe51b5d7c357a092811adfdacbb5929617bc191f997d2c9ef59",
+        "official_en_sha256": "9d3eecb6250c4b9ec4e11c0ef091fd2f25b60975e939ebeed603d91ec27b8a4f"
+      },
+      "text": {
+        "jp": "{0} 個の選択済みアセットを {1} と比較",
+        "official_en": "Compare {0} selected asset(s) with {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Notification_SavedPak:ea1ff204",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "Notification_SavedPak",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Notification_SavedPak:ea1ff204",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Notification_SavedPak:ea1ff204",
+        "jp_sha256": "6126e306cae2a9e63fef48fce30297dae2cba1a597de2a5ddb028b2676181474",
+        "official_en_sha256": "7ffcddb1019c96d3569ab4cd6532ea22d25de751379f3b95f32d94ce29879609"
+      },
+      "text": {
+        "jp": "アーカイブ「{0}.spak」を\n{1} で作成しました",
+        "official_en": "Created archive \"{0}.spak\"\nin {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:ExportPackages_CreatingBuffer:5a71e4af",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "ExportPackages_CreatingBuffer",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:ExportPackages_CreatingBuffer:5a71e4af",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:ExportPackages_CreatingBuffer:5a71e4af",
+        "jp_sha256": "75434facc166fb259f470b61fe65cb70573f3d9705b8940e5ec0562fd12fc5ca",
+        "official_en_sha256": "3412ec47822dcf955b7d90a3850be7612bcb795a99efe0f95c92314854448d54"
+      },
+      "text": {
+        "jp": "バッファを作成中...",
+        "official_en": "Creating Buffer...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Export_Error_Notify_Heading:5fd5921c",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "Export_Error_Notify_Heading",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Export_Error_Notify_Heading:5fd5921c",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Export_Error_Notify_Heading:5fd5921c",
+        "jp_sha256": "fceea5a27461945a2852b0d3e97d50a17a53c03b1edaa0cefae0024d9b963b1e",
+        "official_en_sha256": "e0bace2cb469e280098becddd2cd01928f87b86e8b7ef0b20a7ccc6fd56de1a8"
+      },
+      "text": {
+        "jp": "エクスポート中にエラーが発生しました。一部のファイルが無効です (ディスク上に存在しません)",
+        "official_en": "Error during export, some files were invalid (not existing on disk)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:FileExportAsAssetsMenuEntry:ef97f87d",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "FileExportAsAssetsMenuEntry",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:FileExportAsAssetsMenuEntry:ef97f87d",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:FileExportAsAssetsMenuEntry:ef97f87d",
+        "jp_sha256": "a66fb7a848ae2e24c218bdfa8580e4e5519e51a6032109d5416013011e0670ae",
+        "official_en_sha256": "3664895579f0a7e68c4aa09c91316e20239bc74499010e6423ece40cad7c28f7"
+      },
+      "text": {
+        "jp": "エクスポート",
+        "official_en": "Export",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:FolderExportAsAssetsMenuEntry:9679b782",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "FolderExportAsAssetsMenuEntry",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:FolderExportAsAssetsMenuEntry:9679b782",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:FolderExportAsAssetsMenuEntry:9679b782",
+        "jp_sha256": "a66fb7a848ae2e24c218bdfa8580e4e5519e51a6032109d5416013011e0670ae",
+        "official_en_sha256": "3664895579f0a7e68c4aa09c91316e20239bc74499010e6423ece40cad7c28f7"
+      },
+      "text": {
+        "jp": "エクスポート",
+        "official_en": "Export",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:FileExportAsAssetsMenuEntryTooltip:8d44b75b",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "FileExportAsAssetsMenuEntryTooltip",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:FileExportAsAssetsMenuEntryTooltip:8d44b75b",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:FileExportAsAssetsMenuEntryTooltip:8d44b75b",
+        "jp_sha256": "3ae99bf75b22fe15f4150c9738414db7c272297f111b5013b3c3b0294bb5256d",
+        "official_en_sha256": "088d674c2c93d00e85b587d1b0d2a4820d2416b0bb7727bedbc7357727298fc5"
+      },
+      "text": {
+        "jp": "ローカルにアセット (およびすべての内部依存関係) をエクスポートします",
+        "official_en": "Export assets (and all inner dependencies) locally",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:FolderExportAsAssetsMenuEntryTooltip:eb231e74",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "FolderExportAsAssetsMenuEntryTooltip",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:FolderExportAsAssetsMenuEntryTooltip:eb231e74",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:FolderExportAsAssetsMenuEntryTooltip:eb231e74",
+        "jp_sha256": "e7504e69da0f0b2f3bb88b582e49e28d4b8af82ce007ad5d2e89e54ef5d08203",
+        "official_en_sha256": "3ed561d0ee3deab859de70a2f2e93f722320b9282ef9579ce9fe5bde7f6f28b4"
+      },
+      "text": {
+        "jp": "ローカルにアセット (およびすべての内部依存関係) をエクスポートします。{0}",
+        "official_en": "Export assets (and all inner dependencies) locally.{0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:MigratePackages_GatheringDependencies:8e5b9082",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "MigratePackages_GatheringDependencies",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:MigratePackages_GatheringDependencies:8e5b9082",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:MigratePackages_GatheringDependencies:8e5b9082",
+        "jp_sha256": "955a712319ca118ad43a00609342f40387c0e733c7fe2da25e294788bfce7124",
+        "official_en_sha256": "707f8751c0e0534c8d10e1d94070abc0fb06f1c9ea1e1ccd951bf16d4a32df8d"
+      },
+      "text": {
+        "jp": "依存関係を収集中...",
+        "official_en": "Gathering Dependencies...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:ExportAs_NoFilesToSave:ef8b57cc",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "ExportAs_NoFilesToSave",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:ExportAs_NoFilesToSave:ef8b57cc",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:ExportAs_NoFilesToSave:ef8b57cc",
+        "jp_sha256": "ac4050b7ef366ead50bf711c7c1aaf007550f72d2675b66a6213ff254f557458",
+        "official_en_sha256": "69440926b9f53daee082e4632bb2e4b2c9b7cd3ca7cab2dbe3d259b96f93185e"
+      },
+      "text": {
+        "jp": "エクスポートするファイルが見つかりませんでした",
+        "official_en": "No files were found to export",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:NoRemotesConnected:113f92bb",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "NoRemotesConnected",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:NoRemotesConnected:113f92bb",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:NoRemotesConnected:113f92bb",
+        "jp_sha256": "80d830927f003419e2016d23859d16bbf904197d30ee4140b7399087dd91f058",
+        "official_en_sha256": "cab0466589aa73701679878aba3c620b6c06479f9a99954a394ce436fdd8ad62"
+      },
+      "text": {
+        "jp": "現在、ネットワークで検出された有効な接続はありません",
+        "official_en": "No valid connections currently detected on the network.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:NoRemotesConnectedTooltip:04333634",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "NoRemotesConnectedTooltip",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:NoRemotesConnectedTooltip:04333634",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:NoRemotesConnectedTooltip:04333634",
+        "jp_sha256": "80d830927f003419e2016d23859d16bbf904197d30ee4140b7399087dd91f058",
+        "official_en_sha256": "cab0466589aa73701679878aba3c620b6c06479f9a99954a394ce436fdd8ad62"
+      },
+      "text": {
+        "jp": "現在、ネットワークで検出された有効な接続はありません",
+        "official_en": "No valid connections currently detected on the network.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Notification_OpenFolder:c8ff2d85",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "Notification_OpenFolder",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Notification_OpenFolder:c8ff2d85",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Notification_OpenFolder:c8ff2d85",
+        "jp_sha256": "0f15d985f37286cfeef33f2969522c3182aba04dc781dac59477600f9b8a2275",
+        "official_en_sha256": "68b3f4bff6de90aed6e47e72d8b680901da64dff39ed843e9eeed0464020e971"
+      },
+      "text": {
+        "jp": "フォルダを開く",
+        "official_en": "Open Folder",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PullAssetMenuAction:40c4ccd4",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "PullAssetMenuAction",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PullAssetMenuAction:40c4ccd4",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PullAssetMenuAction:40c4ccd4",
+        "jp_sha256": "5bcf58d71ccbaea5225455cbd39ee8b3633b262c0f5ab22a4946ca45d9f5e59d",
+        "official_en_sha256": "b66d044181a0e29642a958723512a8706ae494ccf63552c08cddca418d1cf097"
+      },
+      "text": {
+        "jp": "引く",
+        "official_en": "Pull",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PullAssetsMenuEntry:148a6432",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "PullAssetsMenuEntry",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PullAssetsMenuEntry:148a6432",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PullAssetsMenuEntry:148a6432",
+        "jp_sha256": "dcb9e9d7cadbf18f713fbdf884bb044955cb99ed27a593496eceb171a1fc9c86",
+        "official_en_sha256": "140d1f93ce6629b41185cc808f3db133ebdfb997486ffebf04c032771e06569f"
+      },
+      "text": {
+        "jp": "アセットをプル",
+        "official_en": "Pull Asset(s)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PullAssetsMenuEntry_ServerDisabled:c5da5825",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "PullAssetsMenuEntry_ServerDisabled",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PullAssetsMenuEntry_ServerDisabled:c5da5825",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PullAssetsMenuEntry_ServerDisabled:c5da5825",
+        "jp_sha256": "2ae59a39040532dab6ce7451ce574fe16567b1a80d6a1178afe739a9fc965b68",
+        "official_en_sha256": "d7084949cdf3b8549d6434f46b1245b52e4d44461b89a25168d858ec8274a0c7"
+      },
+      "text": {
+        "jp": "アセットをプル - {0}",
+        "official_en": "Pull Asset(s) - {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Pull_Page_Label:668234d9",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "Pull_Page_Label",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Pull_Page_Label:668234d9",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Pull_Page_Label:668234d9",
+        "jp_sha256": "5b9d06cb09b7ef2ccf52f6092b74d089e53f6c5ff979c542eb0ce1d8e3d30191",
+        "official_en_sha256": "46013a5cf32ad820e99011f00ba0da77dbaf50fdc0026fc5e76aa611965d52f8"
+      },
+      "text": {
+        "jp": "パッケージをプル",
+        "official_en": "Pull Packages",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PullAssetsMenuEntryTooltip:755d9797",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "PullAssetsMenuEntryTooltip",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PullAssetsMenuEntryTooltip:755d9797",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PullAssetsMenuEntryTooltip:755d9797",
+        "jp_sha256": "6b41703f2238817c0e343ffc1bd7eb047d516beae770bb6145099879a62ad1df",
+        "official_en_sha256": "e8d548c567ccb86174baf692b6a8f117c4254f43b4f53b8cc3caa6abcc9ad4fa"
+      },
+      "text": {
+        "jp": "ストーム同期に固有のリモートから選択済みアセットをプルします",
+        "official_en": "Pull the selected assets from Storm Sync specific remote.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Start_PullAssets:60e56f76",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "Start_PullAssets",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Start_PullAssets:60e56f76",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Start_PullAssets:60e56f76",
+        "jp_sha256": "525d3b92210ea8bd181322fdce26d33861a7d02e6e6c48be54f739fbaeed9f6f",
+        "official_en_sha256": "5d3b49a7873c89e2201e4bdf4dcc7001fa4427f0497c9befe095edee897051f7"
+      },
+      "text": {
+        "jp": "{1} から {0} パッケージ名をプルしています ...",
+        "official_en": "Pulling {0} package names from {1} ...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PushAssetMenuAction:0f0c8780",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "PushAssetMenuAction",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PushAssetMenuAction:0f0c8780",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PushAssetMenuAction:0f0c8780",
+        "jp_sha256": "1b4b4e179fa8f0cc66b644c4944f7bcb692acead868558b2e1abb1c9d65c5d90",
+        "official_en_sha256": "731ce7ed808913b2fb4a3db764cad1d9be4433f3fe232818d7e66c7d3fd2a9c0"
+      },
+      "text": {
+        "jp": "プッシュする",
+        "official_en": "Push",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PushAssetsMenuEntry:00fba637",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "PushAssetsMenuEntry",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PushAssetsMenuEntry:00fba637",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PushAssetsMenuEntry:00fba637",
+        "jp_sha256": "e82d58c38254df97b366c2762f3a68374d3ecbcad473f2ed020be4344fac9f98",
+        "official_en_sha256": "cbbbf343fa299162adac81b1fa8e0739810ecf8d8fe3536c17bb1c102ee22f0a"
+      },
+      "text": {
+        "jp": "アセットをプッシュ",
+        "official_en": "Push Asset(s)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Push_Page_Label:0291eeea",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "Push_Page_Label",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Push_Page_Label:0291eeea",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Push_Page_Label:0291eeea",
+        "jp_sha256": "4444eab32cd6cc02a684e9c77ed3ea560ea6b094ad0487018422ae4fb712df7d",
+        "official_en_sha256": "bcc657e0a6fdd29a49c20f2c70c45425affd0e4d2f29430bb1bf660b5a8bedc6"
+      },
+      "text": {
+        "jp": "パッケージをプッシュ",
+        "official_en": "Push Packages",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PushAssetsMenuEntryTooltip:b94e0fa6",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "PushAssetsMenuEntryTooltip",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PushAssetsMenuEntryTooltip:b94e0fa6",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PushAssetsMenuEntryTooltip:b94e0fa6",
+        "jp_sha256": "284c12edb316379db7835bd0fd7011dfdf6c812ca18c6fd7d533c4337d3c5124",
+        "official_en_sha256": "5516385fc83dafd59d0cc4e993d432092d9a763890ccb6ba5d39b8dcf8fd2106"
+      },
+      "text": {
+        "jp": "選択済みアセットをストーム同期に固有のリモートにプッシュします{0}",
+        "official_en": "Push the selected assets to Storm Sync specific remote.{0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Start_PushAssets:659a4360",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "Start_PushAssets",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Start_PushAssets:659a4360",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Start_PushAssets:659a4360",
+        "jp_sha256": "962430cc8303c78aa843b4066d8850e7de1866457d9843d88745900f58b03105",
+        "official_en_sha256": "d87a670de575c758b9869840e9db7cf450c6d6489bb64a0d6f2134c9e1d3c80d"
+      },
+      "text": {
+        "jp": "{0} パッケージ名を {1} にプッシュしています...",
+        "official_en": "Pushing {0} package names to {1} ...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:StormSyncActionsCompareWithMenuHeading:4565f1dd",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "StormSyncActionsCompareWithMenuHeading",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:StormSyncActionsCompareWithMenuHeading:4565f1dd",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:StormSyncActionsCompareWithMenuHeading:4565f1dd",
+        "jp_sha256": "7f45af435160a7d3091a9796ccd85bef943bc18065789faf7576fd313d05301e",
+        "official_en_sha256": "d615f8dba91f4e24f1a175e64f8ba8e676624fb3a638bd3eeb0c7ba0117cab73"
+      },
+      "text": {
+        "jp": "リモート",
+        "official_en": "Remotes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:StormSyncActionsPushAssetsMenuHeading:53d3745b",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "StormSyncActionsPushAssetsMenuHeading",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:StormSyncActionsPushAssetsMenuHeading:53d3745b",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:StormSyncActionsPushAssetsMenuHeading:53d3745b",
+        "jp_sha256": "7f45af435160a7d3091a9796ccd85bef943bc18065789faf7576fd313d05301e",
+        "official_en_sha256": "d615f8dba91f4e24f1a175e64f8ba8e676624fb3a638bd3eeb0c7ba0117cab73"
+      },
+      "text": {
+        "jp": "リモート",
+        "official_en": "Remotes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Export_Warning_Notify_Heading:ce18501a",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "Export_Warning_Notify_Heading",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Export_Warning_Notify_Heading:ce18501a",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Export_Warning_Notify_Heading:ce18501a",
+        "jp_sha256": "9c502d73e80680a781b6ae7f648e751cb97252409b424822089c77d3b4e514a2",
+        "official_en_sha256": "27436f1e78b36c35d4d8440d3061e12831890dd895d28cc1a051dbf42831e33e"
+      },
+      "text": {
+        "jp": "一部のファイルが無効です (ディスク上に存在しません)",
+        "official_en": "Some files are invalid (not existing on disk)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:StormSyncActionsMenuHeading:b9251bd0",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "StormSyncActionsMenuHeading",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:StormSyncActionsMenuHeading:b9251bd0",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:StormSyncActionsMenuHeading:b9251bd0",
+        "jp_sha256": "bc5ea92dfb8e1553750a23b29fe3d12af61fc991dd468db1d5fbd49328810e9a",
+        "official_en_sha256": "63bc7c87cca05921fd8afc1e433e69b2521fe62481d36cd18d05e86bcf6038a3"
+      },
+      "text": {
+        "jp": "ストーム同期",
+        "official_en": "Storm Sync",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:SyncAssetsMenuEntry:85c712ff",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "SyncAssetsMenuEntry",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:SyncAssetsMenuEntry:85c712ff",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:SyncAssetsMenuEntry:85c712ff",
+        "jp_sha256": "e12b8d99e3107d3b28ec4446aef124eb65703d62fbbec16b3fb22eb25d0d4282",
+        "official_en_sha256": "68a66822b17cb9aae10855fbf6298b0e3eea77fc4848e48c78469d3c84aff634"
+      },
+      "text": {
+        "jp": "アセットを同期",
+        "official_en": "Sync Asset(s)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PushPullAssetMenuAction_ServerDisabled:aba40442",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "PushPullAssetMenuAction_ServerDisabled",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PushPullAssetMenuAction_ServerDisabled:aba40442",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PushPullAssetMenuAction_ServerDisabled:aba40442",
+        "jp_sha256": "2e2ccee8a605273129fd5d8770db909eb1431fd6e1bd2ad6ee87bd2703e545d2",
+        "official_en_sha256": "794e8685cb1d7407deb2945307b9c5a97fcc310f568b07b57846637e341c21f3"
+      },
+      "text": {
+        "jp": "{0} 個の選択済みアセットをプッシュできません - サーバーは {1} で実行されていません",
+        "official_en": "Unable to push {0} selected asset(s) - Server is not running on {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:ExportFolderAssetsNotDiscovered:3dba0c50",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "ExportFolderAssetsNotDiscovered",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:ExportFolderAssetsNotDiscovered:3dba0c50",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:ExportFolderAssetsNotDiscovered:3dba0c50",
+        "jp_sha256": "7283d4029af8e6a8f712fcf34679999f0654be8e43a5e0558fd1c6572c4fc5e3",
+        "official_en_sha256": "ee0437d02c9c9632e2e9b203fee8e04e79a75ca08bde87b62a7a22c6133d8a28"
+      },
+      "text": {
+        "jp": "フォルダを移行するには、アセットの検出が完了するまで待たなければいけません",
+        "official_en": "You must wait until asset discovery is complete to migrate a folder",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Export_InvalidFile:86474d9c",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "Export_InvalidFile",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Export_InvalidFile:86474d9c",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Export_InvalidFile:86474d9c",
+        "jp_sha256": "a0710b85e6f102d1abce394e587da565a329da4ebf4d4fe67773712c8fcc0171",
+        "official_en_sha256": "798b1c08f16e6f32ca2cb58ae22bdaad0b96b707c53c08234d15badd3acf9c36"
+      },
+      "text": {
+        "jp": "{0} はディスクに存在しません",
+        "official_en": "{0} does not exist on disk",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PushPullAssetMenuAction:bf7325cd",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "PushPullAssetMenuAction",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PushPullAssetMenuAction:bf7325cd",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:PushPullAssetMenuAction:bf7325cd",
+        "jp_sha256": "6050798eb3f10d475788be8d97640d617fa0e00637f7c5fd6ef549544126fa4a",
+        "official_en_sha256": "3b0fa18a455e9e0edc3e505f2426090138c19d326463b615eda41774c80c435f"
+      },
+      "text": {
+        "jp": "{2} に対する {0} {1} 個の選択済みアセット",
+        "official_en": "{0} {1} selected asset(s) to {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Export_Error_Notify_Format:1994bd70",
+      "source": {
+        "set": "set-02",
+        "namespace": "FStormSyncAssetFolderContextMenu",
+        "key": "Export_Error_Notify_Format",
+        "jp_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Export_Error_Notify_Format:1994bd70",
+        "official_en_record_id": "switch:locres:set-01:FStormSyncAssetFolderContextMenu:Export_Error_Notify_Format:1994bd70",
+        "jp_sha256": "fc0af51496c38357beaa7c9241ddbc78ce7845360be0a51ba7933220040a6c99",
+        "official_en_sha256": "fc0af51496c38357beaa7c9241ddbc78ce7845360be0a51ba7933220040a6c99"
+      },
+      "text": {
+        "jp": "{0}:\n\n{1}",
+        "official_en": "{0}:\n\n{1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

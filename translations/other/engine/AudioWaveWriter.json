@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AudioWaveWriter",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AudioWaveWriter:Open_FailedToCreateAudioFile:6691d35d",
+      "source": {
+        "set": "set-02",
+        "namespace": "AudioWaveWriter",
+        "key": "Open_FailedToCreateAudioFile",
+        "jp_record_id": "switch:locres:set-01:AudioWaveWriter:Open_FailedToCreateAudioFile:6691d35d",
+        "official_en_record_id": "switch:locres:set-01:AudioWaveWriter:Open_FailedToCreateAudioFile:6691d35d",
+        "jp_sha256": "39698a12f4cc0d1de641ebeef35cb4c8811230302c373206138f3aefd73be50b",
+        "official_en_sha256": "aa0084eb96575c0c9c93d286cfd8f68b686d7c232b75387ad7bdb0a39790131a"
+      },
+      "text": {
+        "jp": "オーディオ ファイル {0} を作成できませんでした",
+        "official_en": "Failed to create audio file {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AudioWaveWriter:Open_FailedToSeekSizeOfHeader:0c1c4c3f",
+      "source": {
+        "set": "set-02",
+        "namespace": "AudioWaveWriter",
+        "key": "Open_FailedToSeekSizeOfHeader",
+        "jp_record_id": "switch:locres:set-01:AudioWaveWriter:Open_FailedToSeekSizeOfHeader:0c1c4c3f",
+        "official_en_record_id": "switch:locres:set-01:AudioWaveWriter:Open_FailedToSeekSizeOfHeader:0c1c4c3f",
+        "jp_sha256": "2d47b78164d4c1b7052425b5066c84183b112010c744ebb1e5c531bdbc32090f",
+        "official_en_sha256": "3c7f6b6cec4934a1ea3532f47fc303ab0c00df03e63717454861d5060d168ed4"
+      },
+      "text": {
+        "jp": "WAV ヘッダのサイズをシークできませんでした",
+        "official_en": "Failed to seek to the size of the WAV header",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AudioWaveWriter:Close_FailedToWriteHeader:84b45f30",
+      "source": {
+        "set": "set-02",
+        "namespace": "AudioWaveWriter",
+        "key": "Close_FailedToWriteHeader",
+        "jp_record_id": "switch:locres:set-01:AudioWaveWriter:Close_FailedToWriteHeader:84b45f30",
+        "official_en_record_id": "switch:locres:set-01:AudioWaveWriter:Close_FailedToWriteHeader:84b45f30",
+        "jp_sha256": "2ed969dfa1a74506e5033d7a8da2e951ea463f71e889a822929bc58a851b4201",
+        "official_en_sha256": "1e8d9e5e9dc47c582029e26453578ed38b6ec155790406eba59f67dfd297d603"
+      },
+      "text": {
+        "jp": "WAV ヘッダ データを書き込めませんでした",
+        "official_en": "Failed to write the WAV header data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AudioWaveWriter:Append_FailedToWriteData:23e5c736",
+      "source": {
+        "set": "set-02",
+        "namespace": "AudioWaveWriter",
+        "key": "Append_FailedToWriteData",
+        "jp_record_id": "switch:locres:set-01:AudioWaveWriter:Append_FailedToWriteData:23e5c736",
+        "official_en_record_id": "switch:locres:set-01:AudioWaveWriter:Append_FailedToWriteData:23e5c736",
+        "jp_sha256": "8c45301be446b646618b0fb29dddc6061468cdedac4c2ff6366f8146c2d71e83",
+        "official_en_sha256": "50fa47aca12844724c023b401d8eb29a5b8964673905a1242ffbe82afc4f4c7a"
+      },
+      "text": {
+        "jp": "データをファイルに書き込めませんでした",
+        "official_en": "Failed to write the data to the file",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AudioWaveWriter:Open_UnsupportedFormat:8032d4e7",
+      "source": {
+        "set": "set-02",
+        "namespace": "AudioWaveWriter",
+        "key": "Open_UnsupportedFormat",
+        "jp_record_id": "switch:locres:set-01:AudioWaveWriter:Open_UnsupportedFormat:8032d4e7",
+        "official_en_record_id": "switch:locres:set-01:AudioWaveWriter:Open_UnsupportedFormat:8032d4e7",
+        "jp_sha256": "e34402f2d7f7629b1d63b604f057f42d02432a6c96801fc3667cecd938d31474",
+        "official_en_sha256": "07f8110094d9de536cbbc7521b1a191ed9136f96539613c23bb44833d2377eb8"
+      },
+      "text": {
+        "jp": "未サポートのオーディオ形式",
+        "official_en": "Unsupported audio format",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

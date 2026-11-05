@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UDaySequencePlayer",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UDaySequencePlayer:SetWeightWarning:078024c0",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDaySequencePlayer",
+        "key": "SetWeightWarning",
+        "jp_record_id": "switch:locres:set-01:UDaySequencePlayer:SetWeightWarning:078024c0",
+        "official_en_record_id": "switch:locres:set-01:UDaySequencePlayer:SetWeightWarning:078024c0",
+        "jp_sha256": "d967b817e9cee7a2926df74f1389000af269ea2fbfaa40d82e8868daeaa693cb",
+        "official_en_sha256": "c1a4eba254f4786a0a2fb6a7448a1983b3b10de22db8e09b408f30d6d184fa71"
+      },
+      "text": {
+        "jp": "PlaybackSettings.bDynamicWeighting を無効にして、シーケンス {0} へのウェイトの設定を試みます。これにより、望ましくないブレンドのアーティファクトや壊れた入出力ブレンドにつながる可能性があります",
+        "official_en": "Attempting to set a weight on sequence {0} with PlaybackSettings.bDynamicWeighting disabled. This may lead to undesireable blending artifacts or broken in/out blends.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

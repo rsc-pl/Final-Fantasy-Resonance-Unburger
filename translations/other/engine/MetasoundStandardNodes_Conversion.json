@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MetasoundStandardNodes_Conversion",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:AudioToFloatConverterDescription:4e0d156b",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_Conversion",
+        "key": "AudioToFloatConverterDescription",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:AudioToFloatConverterDescription:4e0d156b",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:AudioToFloatConverterDescription:4e0d156b",
+        "jp_sha256": "565b824860fa7aef1e4a2b631f6c2a3161f46492bdfe82e2cc55309662954303",
+        "official_en_sha256": "9d78a3fbd26b5095659aa860a099c1a5ed2f654c8b5cbdb5db3753e322a0e331"
+      },
+      "text": {
+        "jp": "サンプル値をバッファ全体で平均することで、オーディオバッファをfloat値に変換。 ",
+        "official_en": "Converts from audio buffer to float by averaging sample values over the buffer. ",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:FloatToAudioConverterDescription:b4c22d95",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_Conversion",
+        "key": "FloatToAudioConverterDescription",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:FloatToAudioConverterDescription:b4c22d95",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:FloatToAudioConverterDescription:b4c22d95",
+        "jp_sha256": "d77e8fefda0ef59c0ede6116060fc0337d2b07ad17c5ec421ef295b38196c7e1",
+        "official_en_sha256": "111cf740729fc00b4d5c18b580da902392f118b51bde37f4efa2c63e118449e4"
+      },
+      "text": {
+        "jp": "指定float値に各サンプルを設定して、float値からオーディオバッファに変換。",
+        "official_en": "Converts from float to audio buffer with each sample set to the given float value.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:ConverterNodeDesc:d71ca0e3",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_Conversion",
+        "key": "ConverterNodeDesc",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:ConverterNodeDesc:d71ca0e3",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:ConverterNodeDesc:d71ca0e3",
+        "jp_sha256": "c7eb8ab13511885f518ffb892bf2b027f2694b4f251e94bcf65ab8cd918ec9d3",
+        "official_en_sha256": "02a13940c9e266ccbaabed573b6932ed892928f5eb30a353ed20bfad2d5d30e9"
+      },
+      "text": {
+        "jp": "{0} から {1} に変換します",
+        "official_en": "Converts from {0} to {1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:InputValueDisplayName:22393738",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_Conversion",
+        "key": "InputValueDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:InputValueDisplayName:22393738",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:InputValueDisplayName:22393738",
+        "jp_sha256": "4ca44c01cf056732a8ef118612eb41cedbb973c1aae5e98a883cf4adf5fb4711",
+        "official_en_sha256": "8bc1d53cc57c24b79bf7c260b1f3b29973caab7b8f501c33016b321ebfc274f1"
+      },
+      "text": {
+        "jp": "イン",
+        "official_en": "In",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:InputValueTooltip:97dee074",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_Conversion",
+        "key": "InputValueTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:InputValueTooltip:97dee074",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:InputValueTooltip:97dee074",
+        "jp_sha256": "e2cf5c5c18b41f2ce3531eff811e1f5a5cca4422fadef261601f333d6bb5628f",
+        "official_en_sha256": "f562817c72b7c52ab6a9a2e27d43a0a0d3443ca68d14dfbdbdc21f3e6702806e"
+      },
+      "text": {
+        "jp": "値Aを入力します。",
+        "official_en": "Input value A.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:ConvDisplayNamePatternFrom:b7d22d24",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_Conversion",
+        "key": "ConvDisplayNamePatternFrom",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:ConvDisplayNamePatternFrom:b7d22d24",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:ConvDisplayNamePatternFrom:b7d22d24",
+        "jp_sha256": "a26f0cbff2c1dcd72654dd4feeb20f016a1a083d137a488d1f39df40a5007952",
+        "official_en_sha256": "8a28b14d28bca2eaf48fadee4673a3c6e5d81b2d13c503105e86cc7f30ccd502"
+      },
+      "text": {
+        "jp": "入力{0}値",
+        "official_en": "Input {0} value.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:OutputValueDisplayName:1c8aeea3",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_Conversion",
+        "key": "OutputValueDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:OutputValueDisplayName:1c8aeea3",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:OutputValueDisplayName:1c8aeea3",
+        "jp_sha256": "9a3c5460432ba66a10b0e6bcd1f2338cec818ad3b8b3f96b079a14a5f1ca0d55",
+        "official_en_sha256": "9a3c5460432ba66a10b0e6bcd1f2338cec818ad3b8b3f96b079a14a5f1ca0d55"
+      },
+      "text": {
+        "jp": "Out",
+        "official_en": "Out",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:ConvDisplayNamePatternTo:64849f5b",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_Conversion",
+        "key": "ConvDisplayNamePatternTo",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:ConvDisplayNamePatternTo:64849f5b",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:ConvDisplayNamePatternTo:64849f5b",
+        "jp_sha256": "8e58e738dc1a0be79855c543602099969a42453b97fce857b94623ad77620a11",
+        "official_en_sha256": "7fbcc33efc4339d5552e18dd1b612b25a2420aec74f2b1435b34171072f1529a"
+      },
+      "text": {
+        "jp": "出力{0}値",
+        "official_en": "Output {0} value.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:OutputValueTooltip:90648bac",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_Conversion",
+        "key": "OutputValueTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:OutputValueTooltip:90648bac",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:OutputValueTooltip:90648bac",
+        "jp_sha256": "a467b6ecdd6bfca517c8c8ace7bf34b3207118d3e2f3c82e4a32d761476bceac",
+        "official_en_sha256": "c6258faedf81d8c212d04f624737b3844192695b50eee27bd136244b73599f53"
+      },
+      "text": {
+        "jp": "変換した値。",
+        "official_en": "The converted value.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:ConverterNodeDisplayName:54fcc0d5",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_Conversion",
+        "key": "ConverterNodeDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:ConverterNodeDisplayName:54fcc0d5",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_Conversion:ConverterNodeDisplayName:54fcc0d5",
+        "jp_sha256": "8df4cf2785ea9ff5748c8e11d1b06d00cdaee0aa26bc555e8b91990ac4b2fff9",
+        "official_en_sha256": "db4a2a2b0c49f0c1af404026a9e6f60d672349496c419738ca78d5551633d1ee"
+      },
+      "text": {
+        "jp": "{0}から{1}",
+        "official_en": "{0} To {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

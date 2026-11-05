@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UVoxelBlendMeshesTool",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UVoxelBlendMeshesTool:VoxelBlendMeshesToolDescription:ea6c144e",
+      "source": {
+        "set": "set-02",
+        "namespace": "UVoxelBlendMeshesTool",
+        "key": "VoxelBlendMeshesToolDescription",
+        "jp_record_id": "switch:locres:set-01:UVoxelBlendMeshesTool:VoxelBlendMeshesToolDescription:ea6c144e",
+        "official_en_record_id": "switch:locres:set-01:UVoxelBlendMeshesTool:VoxelBlendMeshesToolDescription:ea6c144e",
+        "jp_sha256": "d0fe2dda79448ea5498b5582abb3c94cd892eee6eda473ec0c7814487794a21e",
+        "official_en_sha256": "848b35dfeb2eda66631643eadebabf45573c8ec53786e5a8a5d02e7414a9e0ef"
+      },
+      "text": {
+        "jp": "ブレンドの乗数 / フォールオフによって制御される、入力メッシュのボリュメトリック ブレンドを計算します。UV、シャープなエッジ、および小さな / 薄いフィーチャーは失われます。ボクセル数を増やして精度を向上させます。",
+        "official_en": "Compute a volumetric Blend of the input meshes, controlled by the Blend Power/Falloff. UVs, sharp edges, and small/thin features will be lost. Increase Voxel Count to enhance accuracy.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UVoxelBlendMeshesTool:WarnOpenEdges:20404164",
+      "source": {
+        "set": "set-02",
+        "namespace": "UVoxelBlendMeshesTool",
+        "key": "WarnOpenEdges",
+        "jp_record_id": "switch:locres:set-01:UVoxelBlendMeshesTool:WarnOpenEdges:20404164",
+        "official_en_record_id": "switch:locres:set-01:UVoxelBlendMeshesTool:WarnOpenEdges:20404164",
+        "jp_sha256": "551bde6a1936eec9316c9a3514f212bf3c454299943038fd4b616ac26920d1c9",
+        "official_en_sha256": "9bc1369c7ab10d162d23137881873cd66cb4bf33c685babab1c7c3969d5002c7"
+      },
+      "text": {
+        "jp": "オープン エッジが見つかりました。アーティファクトを回避するために [Vox Wrap Preprocess (ボクセル ラップ プリプロセス)] 設定項目の使用を検討してください",
+        "official_en": "Open edges found: Consider using the 'Vox Wrap Preprocess' settings to avoid artifacts.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UVoxelBlendMeshesTool:VoxelBlendMeshes:576d1b47",
+      "source": {
+        "set": "set-02",
+        "namespace": "UVoxelBlendMeshesTool",
+        "key": "VoxelBlendMeshes",
+        "jp_record_id": "switch:locres:set-01:UVoxelBlendMeshesTool:VoxelBlendMeshes:576d1b47",
+        "official_en_record_id": "switch:locres:set-01:UVoxelBlendMeshesTool:VoxelBlendMeshes:576d1b47",
+        "jp_sha256": "1758bb73949d5e39e9c48f119bd4df5a7fbfdfd40dc613bf80f3acb751270270",
+        "official_en_sha256": "ebbe391201af47eaeeb1841a49df97821d58e3b39b0140137c693c650f262950"
+      },
+      "text": {
+        "jp": "ボクセル ブレンド",
+        "official_en": "Voxel Blend",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UVoxelBlendMeshesTool:VoxelBlendMeshesToolName:080db756",
+      "source": {
+        "set": "set-02",
+        "namespace": "UVoxelBlendMeshesTool",
+        "key": "VoxelBlendMeshesToolName",
+        "jp_record_id": "switch:locres:set-01:UVoxelBlendMeshesTool:VoxelBlendMeshesToolName:080db756",
+        "official_en_record_id": "switch:locres:set-01:UVoxelBlendMeshesTool:VoxelBlendMeshesToolName:080db756",
+        "jp_sha256": "1758bb73949d5e39e9c48f119bd4df5a7fbfdfd40dc613bf80f3acb751270270",
+        "official_en_sha256": "ebbe391201af47eaeeb1841a49df97821d58e3b39b0140137c693c650f262950"
+      },
+      "text": {
+        "jp": "ボクセル ブレンド",
+        "official_en": "Voxel Blend",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

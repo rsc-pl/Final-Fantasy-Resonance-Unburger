@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "FFrameRate",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:FFrameRate:InvalidDropFrameFPS:14b27712",
+      "source": {
+        "set": "set-02",
+        "namespace": "FFrameRate",
+        "key": "InvalidDropFrameFPS",
+        "jp_record_id": "switch:locres:set-01:FFrameRate:InvalidDropFrameFPS:14b27712",
+        "official_en_record_id": "switch:locres:set-01:FFrameRate:InvalidDropFrameFPS:14b27712",
+        "jp_sha256": "aec99b3e8d77629b705030dc580cf6061068699afb83d347dfca94720683ac55",
+        "official_en_sha256": "7c073973916714cb6c3cb950059f4571c664e6700198a81c0d2db3891088fe24"
+      },
+      "text": {
+        "jp": "ドロップフレームは指定FPS:{0}でサポートされていません。\nドロップフレームタイムコードをサポートするのはNTSC_30 ({1}fps) およびNTSC_60 ({2}fps) のフレームレートだけです。",
+        "official_en": "Drop frame not supported for FPS specified: {0}.\nDrop frame timecode is only supported for NTSC_30 ({1}fps) and NTSC_60 ({2}fps) frame rates.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FFrameRate:FractionalFrameRate_Format:5b1b2ac7",
+      "source": {
+        "set": "set-02",
+        "namespace": "FFrameRate",
+        "key": "FractionalFrameRate_Format",
+        "jp_record_id": "switch:locres:set-01:FFrameRate:FractionalFrameRate_Format:5b1b2ac7",
+        "official_en_record_id": "switch:locres:set-01:FFrameRate:FractionalFrameRate_Format:5b1b2ac7",
+        "jp_sha256": "a95228a58990ef1bccb4ccfc0c15a8d6b1133fd21cc82c6a304bf57bbe9f841c",
+        "official_en_sha256": "9860fc134e500f826481118cc4056e941663bfbfea6b5a1df17023a31384da32"
+      },
+      "text": {
+        "jp": "断片的なFPSが指定されました:{0}。\nこのようなフレームレートを定義するには、x/y表記を使用してください。",
+        "official_en": "Fractional FPS specified: {0}.\nPlease use x/y notation to define such framerates.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FFrameRate:OutOfBoundsFPS:53617be9",
+      "source": {
+        "set": "set-02",
+        "namespace": "FFrameRate",
+        "key": "OutOfBoundsFPS",
+        "jp_record_id": "switch:locres:set-01:FFrameRate:OutOfBoundsFPS:53617be9",
+        "official_en_record_id": "switch:locres:set-01:FFrameRate:OutOfBoundsFPS:53617be9",
+        "jp_sha256": "22f8dab92dd79add101bc1c0706ba8505780b0e6d9e3487189a0d064ad111292",
+        "official_en_sha256": "1c2474f24b54cb12d47976b2ae158554afe1e7a4255b6ab21c39e3f52f34930f"
+      },
+      "text": {
+        "jp": "無効なFPSが指定されました:{0} (範囲外)",
+        "official_en": "Invalid FPS specified: {0} (out of bounds)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FFrameRate:InvalidDenominator:8269977e",
+      "source": {
+        "set": "set-02",
+        "namespace": "FFrameRate",
+        "key": "InvalidDenominator",
+        "jp_record_id": "switch:locres:set-01:FFrameRate:InvalidDenominator:8269977e",
+        "official_en_record_id": "switch:locres:set-01:FFrameRate:InvalidDenominator:8269977e",
+        "jp_sha256": "1de021155c8a70a9a6abb87710785c78f352797da9d3a0193a4002b910bcdceb",
+        "official_en_sha256": "a5d3cee2fe11f29f120fad7e128eba2890e5c2e4b05eaf362219ebe14cdf3662"
+      },
+      "text": {
+        "jp": "フレームレートの分母が無効です:{0}",
+        "official_en": "Invalid framerate denominator: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FFrameRate:InvalidNumerator:2dc6a1a2",
+      "source": {
+        "set": "set-02",
+        "namespace": "FFrameRate",
+        "key": "InvalidNumerator",
+        "jp_record_id": "switch:locres:set-01:FFrameRate:InvalidNumerator:2dc6a1a2",
+        "official_en_record_id": "switch:locres:set-01:FFrameRate:InvalidNumerator:2dc6a1a2",
+        "jp_sha256": "269fc4d6a19dd9c44ae427882209704be97db1f805257afdbf96a5d64d4577a1",
+        "official_en_sha256": "b386d20f572d78fafe621c2ee0fd8ec6c230d16836a722b43db2e2752cf58369"
+      },
+      "text": {
+        "jp": "フレームレートの分子が無効です:{0}",
+        "official_en": "Invalid framerate numerator: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FFrameRate:InvalidInterval:3ac68074",
+      "source": {
+        "set": "set-02",
+        "namespace": "FFrameRate",
+        "key": "InvalidInterval",
+        "jp_record_id": "switch:locres:set-01:FFrameRate:InvalidInterval:3ac68074",
+        "official_en_record_id": "switch:locres:set-01:FFrameRate:InvalidInterval:3ac68074",
+        "jp_sha256": "b1e4e44c02eee5fae7a45b7677b9bb568707b127ec6379e2410a4d1f056e56da",
+        "official_en_sha256": "d92daa1bb4885154a7b3c4554112232651cffe81608a77b56f9c88d384ef39e4"
+      },
+      "text": {
+        "jp": "無効なインターバルが指定されました:{0}",
+        "official_en": "Invalid interval specified: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FFrameRate:UnrecognizedResult:fc878316",
+      "source": {
+        "set": "set-02",
+        "namespace": "FFrameRate",
+        "key": "UnrecognizedResult",
+        "jp_record_id": "switch:locres:set-01:FFrameRate:UnrecognizedResult:fc878316",
+        "official_en_record_id": "switch:locres:set-01:FFrameRate:UnrecognizedResult:fc878316",
+        "jp_sha256": "a6848de723bb03850b0f40ed42bcd9d0f9d870f5b30993abb80d253671dbbce1",
+        "official_en_sha256": "756dcd2c96f29c1985339d2e2beeac73a78ef14a44d966b4155901438088928e"
+      },
+      "text": {
+        "jp": "エクスプレッションから認識できない結果が返されました",
+        "official_en": "Unrecognized result returned from expression",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FFrameRate:FPS_Format:f7b3f173",
+      "source": {
+        "set": "set-02",
+        "namespace": "FFrameRate",
+        "key": "FPS_Format",
+        "jp_record_id": "switch:locres:set-01:FFrameRate:FPS_Format:f7b3f173",
+        "official_en_record_id": "switch:locres:set-01:FFrameRate:FPS_Format:f7b3f173",
+        "jp_sha256": "88471b01749a882966a0ae1771b625e30663b89e8e6df17ac01039b8be90ce7e",
+        "official_en_sha256": "88471b01749a882966a0ae1771b625e30663b89e8e6df17ac01039b8be90ce7e"
+      },
+      "text": {
+        "jp": "{0} fps",
+        "official_en": "{0} fps",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FFrameRate:Seconds_Format:1b892729",
+      "source": {
+        "set": "set-02",
+        "namespace": "FFrameRate",
+        "key": "Seconds_Format",
+        "jp_record_id": "switch:locres:set-01:FFrameRate:Seconds_Format:1b892729",
+        "official_en_record_id": "switch:locres:set-01:FFrameRate:Seconds_Format:1b892729",
+        "jp_sha256": "dae58fb2bf4be8157f7f1e95f8d62c366685087b4da8fec7590ee247ae9ae81e",
+        "official_en_sha256": "dae58fb2bf4be8157f7f1e95f8d62c366685087b4da8fec7590ee247ae9ae81e"
+      },
+      "text": {
+        "jp": "{0} s",
+        "official_en": "{0} s",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

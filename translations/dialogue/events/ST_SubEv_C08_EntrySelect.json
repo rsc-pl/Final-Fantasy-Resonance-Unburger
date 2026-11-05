@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_SubEv_C08_EntrySelect",
+    "scene_id": "ST_SubEv_C08_EntrySelect",
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C08_EntrySelect:SubEv_C08_EntrySelect_001:39f0ceba",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C08_EntrySelect",
+        "key": "SubEv_C08_EntrySelect_001",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C08_EntrySelect:SubEv_C08_EntrySelect_001:39f0ceba",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C08_EntrySelect:SubEv_C08_EntrySelect_001:39f0ceba",
+        "jp_sha256": "dc5089e75b9026ee2290d61ece8f8fcbfc9efd29ce7a20fbacdc2f8a8b0e4380",
+        "official_en_sha256": "a4a4d77928cfc3a31d775a2e0944cda685c62d6a951f8766743abccae1993a52"
+      },
+      "text": {
+        "jp": "どこから入りたいんだ、レイン？",
+        "official_en": "Where should we land, Rain?",
+        "real_en": "Where do you want to enter from, Rain?"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C08_EntrySelect",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "エヴァン",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0061",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C08_EntrySelect/SubEv_C08_EntrySelect_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

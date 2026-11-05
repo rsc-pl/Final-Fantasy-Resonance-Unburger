@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "CompositeDataTables",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:CompositeDataTables:ParentsIncludesOtherRowStructError:ab5a6f3c",
+      "source": {
+        "set": "set-02",
+        "namespace": "CompositeDataTables",
+        "key": "ParentsIncludesOtherRowStructError",
+        "jp_record_id": "switch:locres:set-01:CompositeDataTables:ParentsIncludesOtherRowStructError:ab5a6f3c",
+        "official_en_record_id": "switch:locres:set-01:CompositeDataTables:ParentsIncludesOtherRowStructError:ab5a6f3c",
+        "jp_sha256": "ce9805da0d2e920452b2fb17be2380078c01741f200569d01ddbdb46d0a1a4eb",
+        "official_en_sha256": "db9120982a80ae003bf4a8ca4f4879775b48c5b84038b0bb3af35efcf8da15dc"
+      },
+      "text": {
+        "jp": "コンポジットテーブル '{0}' には親テーブルと同じ行構造体が必要です。無効な行のリストについては出力ログを参照してください。",
+        "official_en": "Composite table '{0}' must have the same row struct as it's parent tables. See output log for list of invalid rows.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CompositeDataTables:FoundLoopError:93aef7f2",
+      "source": {
+        "set": "set-02",
+        "namespace": "CompositeDataTables",
+        "key": "FoundLoopError",
+        "jp_record_id": "switch:locres:set-01:CompositeDataTables:FoundLoopError:93aef7f2",
+        "official_en_record_id": "switch:locres:set-01:CompositeDataTables:FoundLoopError:93aef7f2",
+        "jp_sha256": "bc65e2f9479a080a36dfcebe1850bae5f5d105d1fe1a138a794cdc0adb396bdf",
+        "official_en_sha256": "0353ae8dddfd8b2b125639dad4a35fc4baac17c679e1a4f9d8686ddad5e9df9f"
+      },
+      "text": {
+        "jp": "循環依存が見つかりました。テーブル {0} はそれ自体に依存しています。データを修正してください",
+        "official_en": "Cyclic dependency found. Table {0} depends on itself. Please fix your data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

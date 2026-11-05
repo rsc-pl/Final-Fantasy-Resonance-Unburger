@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UNiagaraSpriteRendererProperties",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UNiagaraSpriteRendererProperties:RequiredCutoutTexture:10255d02",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraSpriteRendererProperties",
+        "key": "RequiredCutoutTexture",
+        "jp_record_id": "switch:locres:set-01:UNiagaraSpriteRendererProperties:RequiredCutoutTexture:10255d02",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraSpriteRendererProperties:RequiredCutoutTexture:10255d02",
+        "jp_sha256": "d9d444b15b8701d98fb1f7e009c2b4588a23aa17d84725ccbaf0828fedf88fcc",
+        "official_en_sha256": "d236386376ef864bf7f6296d13b9516242f3f8ec0d10c5406f5b1c73c00ed082"
+      },
+      "text": {
+        "jp": "サブ UV 画像のカットアウト テクスチャが設定されていません",
+        "official_en": "Cutout Texture is not set for Sub UV Image",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraSpriteRendererProperties:SpriteRendererUVScaleWithCutout:1a123f92",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraSpriteRendererProperties",
+        "key": "SpriteRendererUVScaleWithCutout",
+        "jp_record_id": "switch:locres:set-01:UNiagaraSpriteRendererProperties:SpriteRendererUVScaleWithCutout:1a123f92",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraSpriteRendererProperties:SpriteRendererUVScaleWithCutout:1a123f92",
+        "jp_sha256": "e19e70888144df8f5ba7de478227ab28d68d992c6daa380b5f2eb0b2c4fae376",
+        "official_en_sha256": "ec49307e182bd3582bfa57e315c285b7d7f60df0d756faf0200844aac5912f7b"
+      },
+      "text": {
+        "jp": "カットアウトは、UVScale変数で動的にサイズ設定されません。スケールが1.0を上回る場合、ジオメトリがクリップする可能性があります。",
+        "official_en": "Cutouts will not be sized dynamically with UVScale variable. If scaling above 1.0, geometry may clip.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraSpriteRendererProperties:MissingCutoutTexture:f8554b83",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraSpriteRendererProperties",
+        "key": "MissingCutoutTexture",
+        "jp_record_id": "switch:locres:set-01:UNiagaraSpriteRendererProperties:MissingCutoutTexture:f8554b83",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraSpriteRendererProperties:MissingCutoutTexture:f8554b83",
+        "jp_sha256": "07bd9303210e0de07c9248ef9f4bb70d3a1825cb033489f8db400382f8f3c4b0",
+        "official_en_sha256": "ff6395acdb53bdeaad4839b41ac104498f32450b741632423ad893c472db2176"
+      },
+      "text": {
+        "jp": "サブ UV 画像のカットアウト テクスチャがないため、オーバードローになってパフォーマンスが低下する可能性があります。\n[Use Material Cutout Texture (マテリアルカットアウトテクスチャを使用)] を有効にするか、カットアウト テクスチャを設定します",
+        "official_en": "Missing Cutout Texture for Sub UV Image, which might lead to overdraw and reduce performance.\nEnable Use Material Cutout Texture or set Cutout Texture",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraSpriteRendererProperties:SpriteRendererNoMat:580a9b39",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraSpriteRendererProperties",
+        "key": "SpriteRendererNoMat",
+        "jp_record_id": "switch:locres:set-01:UNiagaraSpriteRendererProperties:SpriteRendererNoMat:580a9b39",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraSpriteRendererProperties:SpriteRendererNoMat:580a9b39",
+        "jp_sha256": "a876b9d26953ffa071349d8ee031d17809e7d3604120f465113a9a1195c55fa1",
+        "official_en_sha256": "33082bc8f055dec6a1309651c90717ccbdc88e98938cece0aff4131948ee8d54"
+      },
+      "text": {
+        "jp": "スプライトレンダラ(マテリアルセットなし)",
+        "official_en": "Sprite Renderer (No Material Set)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

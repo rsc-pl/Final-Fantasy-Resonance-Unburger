@@ -1,0 +1,974 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGCustomHLSLKernel",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidNonPointPrimaryOutput:6525c490",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InvalidNonPointPrimaryOutput",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidNonPointPrimaryOutput:6525c490",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidNonPointPrimaryOutput:6525c490",
+        "jp_sha256": "0f9f316afcfb4d77d801e31e8b2cff219ec57d2906287d1ebc9934410c2731d9",
+        "official_en_sha256": "a7a553259ecfd37af57c1b35a3efd3f02a998d9fac1eb3db92f0e0d08c5a73fe"
+      },
+      "text": {
+        "jp": "「Point Processor」および「Point Generator」ノードでは、プライマリ出力ピンとして「Point」タイプが必要ですが、見つかったのは「{0}」です",
+        "official_en": "'Point Processor' and 'Point Generator' nodes require primary output pin to be of type 'Point', but found '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidNonPointPrimaryInput:28e9ea28",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InvalidNonPointPrimaryInput",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidNonPointPrimaryInput:28e9ea28",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidNonPointPrimaryInput:28e9ea28",
+        "jp_sha256": "36e9f20f5d977a7479f71cbf62b66f84c0caec864af3cdc96b9ac4af559bc626",
+        "official_en_sha256": "3efb43511130a12853852b086177600c6ecba2127db79c7a25c97504c718fb1f"
+      },
+      "text": {
+        "jp": "「Point Processor」ノードでは、プライマリ入力ピンとして「Point」タイプが必要ですが、見つかったのは「{0}」です",
+        "official_en": "'Point Processor' nodes require primary input pin to be of type 'Point', but found '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidNonTexturePrimaryOutput:a3ebbad9",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InvalidNonTexturePrimaryOutput",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidNonTexturePrimaryOutput:a3ebbad9",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidNonTexturePrimaryOutput:a3ebbad9",
+        "jp_sha256": "20c8dc43c0e59b08dc4164ac6bb3e0df99275e4559155180bf8f2e4c86c0d5e5",
+        "official_en_sha256": "f59d21daf80cfea4678aa69f1444cae2004f90cf24855df0f87f4f17814cc3ef"
+      },
+      "text": {
+        "jp": "「Texture Processor」ノードおよび「Texture Generator」ノードでは、プライマリ出力ピンは「Base Texture」タイプである必要がありますが、見つかったのは「{0}」です",
+        "official_en": "'Texture Processor' and 'Texture Generator' nodes require primary output pin to be of type 'Base Texture', but found '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidNonTexturePrimaryInput:52781a0e",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InvalidNonTexturePrimaryInput",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidNonTexturePrimaryInput:52781a0e",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidNonTexturePrimaryInput:52781a0e",
+        "jp_sha256": "b6052587a296c8f3b2694a1caa8549014f885f7d443c01b8b9f1b1b48018cd5f",
+        "official_en_sha256": "6f50dc5c6dca4de739fc18d8a6746e5bb7c5648a4c354d7bea2b60096ab8818a"
+      },
+      "text": {
+        "jp": "「Texture Processor」ノードでは、プライマリ入力ピンは「Base Texture」タイプである必要がありますが、見つかったのは「{0}」です",
+        "official_en": "'Texture Processor' nodes require primary input pin to be of type 'Base Texture', but found '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidAttributeTypeNone:31c2872e",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InvalidAttributeTypeNone",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidAttributeTypeNone:31c2872e",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidAttributeTypeNone:31c2872e",
+        "jp_sha256": "d2e700257e7c39fe574edce877624e871f05df2609c61a81f02b8657a3387344",
+        "official_en_sha256": "d3c2f0e4b080cbef0cb9e4e4106534c9e95f6e32fc878736474b1c8ad5a100ec"
+      },
+      "text": {
+        "jp": "属性「{0}」は無効な GPU 属性タイプ「{1}」です。ピンの「Attributes to Create」配列を確認してください",
+        "official_en": "Attribute '{0}' has invalid GPU attribute type '{1}', check the 'Attributes to Create' array on your pins.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:NoOutputs:aa0aa495",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "NoOutputs",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:NoOutputs:aa0aa495",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:NoOutputs:aa0aa495",
+        "jp_sha256": "f614040902e4b2a8c86cd4713d04469a349d6ee5c033cc9761459af58557d777",
+        "official_en_sha256": "2a73542c037c9bfdeab082dadd79e2ac9ec154de3b390dcb3e5f47d7c8f146d1"
+      },
+      "text": {
+        "jp": "カスタム HLSL ノードに 1 つ以上の出力が必要です",
+        "official_en": "Custom HLSL nodes must have at least one output.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:PinMayNotBeWritten:c1b24d89",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "PinMayNotBeWritten",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:PinMayNotBeWritten:c1b24d89",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:PinMayNotBeWritten:c1b24d89",
+        "jp_sha256": "28f64be55dc319a2312630df48e72a210dbfd82fe232693a636ae4d1184f552c",
+        "official_en_sha256": "7e3079f8a30963920903c2994f513caa2939b96255f2882ed16528e0f9605615"
+      },
+      "text": {
+        "jp": "ピン「{0}」のデータは初期化されていない可能性があります。このデータに書き込むコードを追加するか、ノード設定でこのエラーをミュートします",
+        "official_en": "Data on pin '{0}' may be uninitialized. Add code to write to this data, or mute this error in the node settings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:MissingThreadCountPins:f805f988",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "MissingThreadCountPins",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:MissingThreadCountPins:f805f988",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:MissingThreadCountPins:f805f988",
+        "jp_sha256": "f885ce2b2e9dd1208761969d479d56fcb3ba2360f24c8848319dbfcafec6ed90",
+        "official_en_sha256": "72044f0d19aaca263f320087e89ed8644fc39b2131de6402d83597f6b5fb4587"
+      },
+      "text": {
+        "jp": "ディスパッチ スレッド カウントは入力ピンに基づいていますが、入力ピン配列にラベルが設定されていません",
+        "official_en": "Dispatch thread count is based on input pins but no labels have been set in Input Pins array.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:DuplicatedPinLabels:4d9455a0",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "DuplicatedPinLabels",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:DuplicatedPinLabels:4d9455a0",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:DuplicatedPinLabels:4d9455a0",
+        "jp_sha256": "6db5e944f4686bcb8759b7b6442b84d3eae03cf46014164c3237b106a0d917fe",
+        "official_en_sha256": "406b48662e763b9ca92eac8e44e4e00cb11fb9e5ee1a1d1b2c554aea06dd8598"
+      },
+      "text": {
+        "jp": "ピン ラベル「{0}」が重複しています。すべてのラベルは一意であることが必要です",
+        "official_en": "Duplicate pin label '{0}', all labels must be unique.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidElementCountMultiplier:e6c597e5",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InvalidElementCountMultiplier",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidElementCountMultiplier:e6c597e5",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidElementCountMultiplier:e6c597e5",
+        "jp_sha256": "85333797de5bb91c5f0ce20b3e9da17366c7e482254579b1534f907cb2c4486e",
+        "official_en_sha256": "aea278fcd333647d0a6eb1f6ba263d2d3161770b35f9dfa92730319cdf2ad27d"
+      },
+      "text": {
+        "jp": "出力ピン「{1}」にある要素数の乗数 {0} が無効です。0 より大きい値である必要があります",
+        "official_en": "Invalid element count multiplier {0} on output pin '{1}'. Must be greater than 0.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidDataCount:2614b2ca",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InvalidDataCount",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidDataCount:2614b2ca",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidDataCount:2614b2ca",
+        "jp_sha256": "081f9c6c4b37e0e7b9bc556391a51406c2f4b0b0c1fff6a5fc944ba6e52bb690",
+        "official_en_sha256": "0c1a1a903d737e05dd8badcd2747c07e8eb47cafcee8386c7a4b4b0d5c3c13de"
+      },
+      "text": {
+        "jp": "無効な修正データ数 {0} が出力ピン「{1}」にあります。0 より大きい値である必要があります",
+        "official_en": "Invalid fixed data count {0} on output pin '{1}'. Must be greater than 0.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidElementCount2D:39ecca80",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InvalidElementCount2D",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidElementCount2D:39ecca80",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidElementCount2D:39ecca80",
+        "jp_sha256": "5cf213f1715501549344cd9428c56f16af8118748b265b9361ef6714cbad84eb",
+        "official_en_sha256": "994dc81a1e4ae3b2e3fd587093b82f3a0781c6f4feb4602412e23304bb004713"
+      },
+      "text": {
+        "jp": "無効な固定数の要素 ({0}、{1}) が出力ピン「{2}」にあります。0 より大きい値である必要があります",
+        "official_en": "Invalid fixed num elements ({0}, {1}) on output pin '{2}'. Must be greater than 0.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidElementCount:c14d4525",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InvalidElementCount",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidElementCount:c14d4525",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidElementCount:c14d4525",
+        "jp_sha256": "e72bcfc95d5f40c3081bfdb955bc0a9e30318a107a94531d2c3149ffc395034f",
+        "official_en_sha256": "bc5c104e6d28f9e10bd19e47b0d569dd58ed9b82d45c5eaa2927c34cd7917940"
+      },
+      "text": {
+        "jp": "無効な固定数の要素 {0} が出力ピン「{1}」にあります。0 より大きい値である必要があります",
+        "official_en": "Invalid fixed num elements {0} on output pin '{1}'. Must be greater than 0.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:MissingThreadCountPin:fc3d6c90",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "MissingThreadCountPin",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:MissingThreadCountPin:fc3d6c90",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:MissingThreadCountPin:fc3d6c90",
+        "jp_sha256": "9915c8c42175313363e6e9d1da01678da5c6316a50953dc9d1819f707e6c78d6",
+        "official_en_sha256": "81ab98987414f50eee41f36d5d95f12808d578b7140947ccb893a8d01f9a129f"
+      },
+      "text": {
+        "jp": "入力ピン配列に無効なピンが指定されています：「{0}」",
+        "official_en": "Invalid pin specified in Input Pins array: '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InitFromInvalidPinType:d1f18829",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InitFromInvalidPinType",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InitFromInvalidPinType:d1f18829",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InitFromInvalidPinType:d1f18829",
+        "jp_sha256": "fa0cb0cf62a9ed00ff7e38d5009bee81f6a5716b36b1ef05423301168ada629e",
+        "official_en_sha256": "7abc7186e82674b73601db404378212a89d744a3d1c44bc40ebecec988d75ed8"
+      },
+      "text": {
+        "jp": "出力ピン「{0}」を入力ピン「{1}」から初期化を試行しましたが、ピン「{1}」に無効な型があります",
+        "official_en": "Output pin '{0}' tried to initialize from input pin '{1}', but pin '{1}' has an invalid type.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InitFromEmptyPins:f89e04d9",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InitFromEmptyPins",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InitFromEmptyPins:f89e04d9",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InitFromEmptyPins:f89e04d9",
+        "jp_sha256": "535e5261e2edacfb4a25b71c0ce3f1267d07d405815a0b0e3c50910e1f7d4d0a",
+        "official_en_sha256": "b312e6e83a087c9bb1849481cb852f1874c82328c7839171e82ed7ee96427707"
+      },
+      "text": {
+        "jp": "出力ピン「{0}」を入力ピンから初期化しようとしましたが、ピンが指定されていません",
+        "official_en": "Output pin '{0}' tried to initialize from input pins, but no pins were specified.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InitFromNonExistentPin:dc642753",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InitFromNonExistentPin",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InitFromNonExistentPin:dc642753",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InitFromNonExistentPin:dc642753",
+        "jp_sha256": "f200950c513c82cd8e80f2cd8a58ea6abc26798fadf983574ac08a5bd6f63cff",
+        "official_en_sha256": "11b5d9ccbc8b9064db933a943ee9ee7ad2ea4f0a899c84bc0511612c1490bef0"
+      },
+      "text": {
+        "jp": "出力ピン「{0}」を存在しない入力ピン「{1}」から初期化を試行しました",
+        "official_en": "Output pin '{0}' tried to initialize from non-existent input pin '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidPinLabelNone:a8a48aab",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InvalidPinLabelNone",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidPinLabelNone:a8a48aab",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidPinLabelNone:a8a48aab",
+        "jp_sha256": "f2c46861b72403f670f9bbb9ea44eb94ab2f58b89753bb3594fd41a0701617af",
+        "official_en_sha256": "c6e997cd8528e9c23ff7642774705eecfd3b188e15457ec18076365868db4ba7"
+      },
+      "text": {
+        "jp": "ピン ラベル「None」は有効なピン ラベルではありません",
+        "official_en": "Pin label 'None' is not a valid pin label.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidThreadCountMultiplier:668aace1",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InvalidThreadCountMultiplier",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidThreadCountMultiplier:668aace1",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidThreadCountMultiplier:668aace1",
+        "jp_sha256": "4a004b0f80dbab6df9062b1920183502e16ff7d24bdc640b6010b4ac0cebee41",
+        "official_en_sha256": "dbfd9319136c500fd9fd26f155cfa5b13c593b34e978c0c8d2d949cde6a07d43"
+      },
+      "text": {
+        "jp": "スレッド カウント乗数は無効な値です ({0})。0 より大きい値である必要があります",
+        "official_en": "Thread Count Multiplier has invalid value ({0}). Must be greater than 0.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidAttributeDNE:5cb45fde",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InvalidAttributeDNE",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidAttributeDNE:5cb45fde",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidAttributeDNE:5cb45fde",
+        "jp_sha256": "ff7bac7b29430726d2f93847f8949095a16af327b28f1ddd44c69119621bc493",
+        "official_en_sha256": "06588a6eee1459e737e52e3a77e3be34e8d9d22219c4cdef784eef6226c43ca6"
+      },
+      "text": {
+        "jp": "属性関数「{0}」の呼び出しを存在しない属性「{1}」で試行しています",
+        "official_en": "Tried to call attribute function '{0}' on attribute '{1}' which does not exist.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidAttributeType:efc58d1d",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InvalidAttributeType",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidAttributeType:efc58d1d",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidAttributeType:efc58d1d",
+        "jp_sha256": "b32dc79e475eb28c30918ba45dc5f7730a649edfcb3608eeebadbcf1c7a3c739",
+        "official_en_sha256": "b611aeb84a12bda77b1ce6d104e2627a77f3dee21fe5854ab9cab2c0476fbe48"
+      },
+      "text": {
+        "jp": "属性関数「{0}」の呼び出しを属性「{1}」で試行していますが、これは型「{2}」ではありません",
+        "official_en": "Tried to call attribute function '{0}' on attribute '{1}' which is not of type '{2}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidAttributePinName:3d8fd089",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InvalidAttributePinName",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidAttributePinName:3d8fd089",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidAttributePinName:3d8fd089",
+        "jp_sha256": "ceb60a39dd0570e09d2b68bfd106be7d33b6ec1b3f269e3ea98248ed139a99a7",
+        "official_en_sha256": "9724d5ee9fe48de7e05a1eafae7174435fa066a416bf8d6f323ac5b566497840"
+      },
+      "text": {
+        "jp": "属性関数「{0}」の呼び出しを存在しないピン「{1}」で試行しています",
+        "official_en": "Tried to call attribute function '{0}' on non-existent pin '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidAttributePinType:62723f24",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InvalidAttributePinType",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidAttributePinType:62723f24",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidAttributePinType:62723f24",
+        "jp_sha256": "f151cb7cd1a610de5e3662a70b1bb48a1f8baa7c63e794761d8af4d5f0c7f655",
+        "official_en_sha256": "467661aa210087f55dfeb85b9197f890c3729f20b4936860d9965d488a1317a0"
+      },
+      "text": {
+        "jp": "属性関数「{0}」の呼び出しを存在しない型「{1}」で試行しています",
+        "official_en": "Tried to call attribute function '{0}' on non-existent type '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidSetAttributeUsage:2f9c8207",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InvalidSetAttributeUsage",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidSetAttributeUsage:2f9c8207",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidSetAttributeUsage:2f9c8207",
+        "jp_sha256": "b35d680560e62ead1bf3443e934c0eb58434ff98290524152da85bfd81f9c60e",
+        "official_en_sha256": "2ade5645065565424583ce19febb6b0799dde22be033b90ab738653aca6f07cc"
+      },
+      "text": {
+        "jp": "属性関数「{0}」の呼び出しを読み取り専用入力ピン「{1}」で試行しています",
+        "official_en": "Tried to call attribute function '{0}' on read-only input pin '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidInputType:4759b196",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InvalidInputType",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidInputType:4759b196",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidInputType:4759b196",
+        "jp_sha256": "23a1c189ea94ff1e3245d63421b19c5cb10c19fa2fbbdacfe4466897527be633",
+        "official_en_sha256": "eadd1f7b0c8c61f644588de27b5e75463d9a0db6764d21c87b60db08b724219e"
+      },
+      "text": {
+        "jp": "未サポート入力タイプ「{0}」がピン「{1}」に見つかりました",
+        "official_en": "Unsupported input type '{0}', found on pin '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidOutputType:97e8a476",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCustomHLSLKernel",
+        "key": "InvalidOutputType",
+        "jp_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidOutputType:97e8a476",
+        "official_en_record_id": "switch:locres:set-01:PCGCustomHLSLKernel:InvalidOutputType:97e8a476",
+        "jp_sha256": "bc2d9b14c64de299842a34a4ab57b9c9b6d5901d2fb5161057f2e88dfd1e57fd",
+        "official_en_sha256": "d17e09d10a847d9df59d2398f47388d89dfd889cf98e784fbf47254c94392c05"
+      },
+      "text": {
+        "jp": "未サポート出力タイプ「{0}」がピン「{1}」に見つかりました",
+        "official_en": "Unsupported output type '{0}', found on pin '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

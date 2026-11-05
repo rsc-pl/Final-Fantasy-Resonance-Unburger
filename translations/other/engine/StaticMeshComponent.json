@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "StaticMeshComponent",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:StaticMeshComponent:SetMeshOnStatic:01360dfc",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMeshComponent",
+        "key": "SetMeshOnStatic",
+        "jp_record_id": "switch:locres:set-01:StaticMeshComponent:SetMeshOnStatic:01360dfc",
+        "official_en_record_id": "switch:locres:set-01:StaticMeshComponent:SetMeshOnStatic:01360dfc",
+        "jp_sha256": "225fe96f90b734344618d379b83aeaf8fe141768c3b3989ad4e956d2e8ea085d",
+        "official_en_sha256": "3b916eeecbac27e3f7d416cb6fc96643c847fd7fed8a9fd1c7e8c7fbdd8c591b"
+      },
+      "text": {
+        "jp": "'{0}' 上にSetStaticMeshを呼びましたが可動性がスタティックです。",
+        "official_en": "Calling SetStaticMesh on '{0}' but Mobility is Static.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_CollisionEnabledNoCollisionGeom:2ad2d423",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMeshComponent",
+        "key": "MapCheck_Message_CollisionEnabledNoCollisionGeom",
+        "jp_record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_CollisionEnabledNoCollisionGeom:2ad2d423",
+        "official_en_record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_CollisionEnabledNoCollisionGeom:2ad2d423",
+        "jp_sha256": "ca3a5ba495aa1d72c83da6550f0a6e6cbdb95be9f0e550b29eb562e84eee2ae3",
+        "official_en_sha256": "2cb858d5b793ae6ee91958b7af404473c21ed8badf8d4deebd40c3de27abe74f"
+      },
+      "text": {
+        "jp": "コリジョンが有効になっていますが、StaticMesh({StaticMeshName})に単純または複雑なコリジョンがありません。",
+        "official_en": "Collision enabled but StaticMesh ({StaticMeshName}) has no simple or complex collision.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_ActorLargeShadowCaster:08961f80",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMeshComponent",
+        "key": "MapCheck_Message_ActorLargeShadowCaster",
+        "jp_record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_ActorLargeShadowCaster:08961f80",
+        "official_en_record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_ActorLargeShadowCaster:08961f80",
+        "jp_sha256": "f9817d11e833c7157697a8931b4796ca062744b45aa5bd7d310d96b599e882d3",
+        "official_en_sha256": "fbecd0d25d2278fbdcaecef9586fee1562bc853e039d91bc2d61853b99a3acb9"
+      },
+      "text": {
+        "jp": "大きなアクタはプリシャドウを受け取り、bCastDynamicShadowがFalseに設定されていない限り極度のパフォーマンスヒットの原因となります。",
+        "official_en": "Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_MoreMaterialsThanReferenced:b0404fa5",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMeshComponent",
+        "key": "MapCheck_Message_MoreMaterialsThanReferenced",
+        "jp_record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_MoreMaterialsThanReferenced:b0404fa5",
+        "official_en_record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_MoreMaterialsThanReferenced:b0404fa5",
+        "jp_sha256": "baf453c6b912fdc55597f578af3b0263675fed19b5828059123b3fe0f5cdce99",
+        "official_en_sha256": "42ada69d036f17b8bde1bd72d35320617178d2dd210adbf49ae791202a794924"
+      },
+      "text": {
+        "jp": "スタティック メッシュ コンポーネントに存在するオーバーライドされたマテリアル ({OverridenCount}) の数がソースメッシュ '{MeshName}' の参照 ({ReferencedCount}) の数を超えています",
+        "official_en": "More overridden materials ({OverridenCount}) on static mesh component than are referenced ({ReferencedCount}) in source mesh '{MeshName}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_NaniteNoVSM:8b237407",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMeshComponent",
+        "key": "MapCheck_Message_NaniteNoVSM",
+        "jp_record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_NaniteNoVSM:8b237407",
+        "official_en_record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_NaniteNoVSM:8b237407",
+        "jp_sha256": "24b9ba93fc0a81dd142edcca3c1c6c23b3dd4f60af2d43d3a7cdfb84743ed49c",
+        "official_en_sha256": "c85f6391d34a6930cca7f11c3b6915c3c2b31b0ddcb14c44a647e8ae35d8dc9b"
+      },
+      "text": {
+        "jp": "スタティック メッシュ「{MeshName}」は Nanite を使用しますが、プロジェクト設定でバーチャル シャドウ マップが有効ではありません。Nanite ジオメトリは固定ライト シャドウをサポートしていません。画質の低下やパフォーマンスの低下を招く恐れがあります。Nanite ジオメトリはバーチャル シャドウ マップが有効の場合に最も効果的です。リリース ノートをご参照ください。",
+        "official_en": "Static mesh '{MeshName}' uses Nanite but Virtual Shadow Maps are not enabled in the project settings. Nanite geometry does not support stationary light shadows, and may yield poor visual quality and reduced performance. Nanite geometry works best with virtual shadow maps enabled. See release notes.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_StaticMeshNull:6aad2e6a",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMeshComponent",
+        "key": "MapCheck_Message_StaticMeshNull",
+        "jp_record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_StaticMeshNull:6aad2e6a",
+        "official_en_record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_StaticMeshNull:6aad2e6a",
+        "jp_sha256": "a5248f60ebb84c94319982ecd4fcd9679e69cc810be0d737cd4b94f26d5b1430",
+        "official_en_sha256": "8466f52f30f0d68474cce5ee07a22b0698edbcc7ddb0c5ea3e7cb016a84b072e"
+      },
+      "text": {
+        "jp": "スタティックメッシュアクタに NULL のStaticMesh プロパティがあります",
+        "official_en": "Static mesh actor has NULL StaticMesh property",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_SimulatePhyNoSimpleCollision:7d5ccca6",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMeshComponent",
+        "key": "MapCheck_Message_SimulatePhyNoSimpleCollision",
+        "jp_record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_SimulatePhyNoSimpleCollision:7d5ccca6",
+        "official_en_record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_SimulatePhyNoSimpleCollision:7d5ccca6",
+        "jp_sha256": "cc1fa905fe3c2b977a24f76c38774fdaa08f7f1b568dfa7b061f07f14f08f466",
+        "official_en_sha256": "a68a15897bb6b069a01c02fbcfa0ab7c9190d7072fdc8920c833770161cf687e"
+      },
+      "text": {
+        "jp": "{0} : bSimulatePhysicsを使用中ですが StaticMeshに簡易なコリジョンがありません",
+        "official_en": "{0} : Using bSimulatePhysics but StaticMesh has not simple collision.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_ElementsWithZeroTriangles:eed1c607",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMeshComponent",
+        "key": "MapCheck_Message_ElementsWithZeroTriangles",
+        "jp_record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_ElementsWithZeroTriangles:eed1c607",
+        "official_en_record_id": "switch:locres:set-01:StaticMeshComponent:MapCheck_Message_ElementsWithZeroTriangles:eed1c607",
+        "jp_sha256": "a5b0c332afc4669ef62a52afc890ea644154f935c2c6546573f2621cb2562748",
+        "official_en_sha256": "4daa928df7908e74f3741a31e2d6f81424905c5c098daf19af3ab055feb71c43"
+      },
+      "text": {
+        "jp": "スタティックメッシュ '{MeshName}' にゼロ個のトライアングルと {ElementCount} 個のエレメントがあります",
+        "official_en": "{ElementCount} element(s) with zero triangles in static mesh '{MeshName}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UE::Insights::MemoryProfiler::SMemInvestigationView",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:IncludeHeapAllocsToolTipText:132427db",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemInvestigationView",
+        "key": "IncludeHeapAllocsToolTipText",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:IncludeHeapAllocsToolTipText:132427db",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:IncludeHeapAllocsToolTipText:132427db",
+        "jp_sha256": "dfa457368bcdcd43fc8fa8471d96dd4a7b4f11dd5ac7f98f580d307d3ad75ef1",
+        "official_en_sha256": "865a8de34440f214823198f4251f2091a1163aeeda13df4c82bfa2f19fc6e159"
+      },
+      "text": {
+        "jp": "ヒープ割り当て (詳細機能) を含めます\n\n有効である場合は、テーブルにヒープ割り当て (「heap_XXXX」) もリストされます。\nヒープ割り当ては、子の割り当てを持つことができるメモリ ブロックです。\n\n警告：\tヒープにその子の割り当てが追加されていると、集計した合計サイズが意味のないものになることがあります。\n\t\t\t\t\t一部のメモリが二重にカウントされることがあります",
+        "official_en": "Include Heap Allocs (Advanced Feature)\n\nIf enabled, the table will also list the heap allocs (\"heap_XXXX\").\nThe heap allocs are memory blocks that can have child allocations.\n\nWarning:\tTotal aggregated sizes may be irrelevant when a heap is added with its child allocs.\n\t\t\t\t\tSome memory would be double counted.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:IncludeHeapAllocsText:f344da6b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemInvestigationView",
+        "key": "IncludeHeapAllocsText",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:IncludeHeapAllocsText:f344da6b",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:IncludeHeapAllocsText:f344da6b",
+        "jp_sha256": "c61e3e332f3845ea6932196e052ded2264c6a41d281d87c2e35b2515d1063961",
+        "official_en_sha256": "5f1ba3672edbb4ee2613cd6b09e2d8439dc10ea9aa97f2b1dca440d06eee37da"
+      },
+      "text": {
+        "jp": "ヒープ割り当て (詳細) を含める",
+        "official_en": "Include Heap Allocs (Advanced)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:IncludeSwapAllocsText:5535d964",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemInvestigationView",
+        "key": "IncludeSwapAllocsText",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:IncludeSwapAllocsText:5535d964",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:IncludeSwapAllocsText:5535d964",
+        "jp_sha256": "e4d6ae7c0283a858b3ccba1e9842ea631170e62989ce7521f24188ff702b7abf",
+        "official_en_sha256": "a6f7e85a329493fa727f7d7698e5381e413bf9b080fe27d89a278055c482c237"
+      },
+      "text": {
+        "jp": "スワップエントリを含む",
+        "official_en": "Include Swap Entries",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:IncludeSwapAllocsToolTipText:8bccd80e",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemInvestigationView",
+        "key": "IncludeSwapAllocsToolTipText",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:IncludeSwapAllocsToolTipText:8bccd80e",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:IncludeSwapAllocsToolTipText:8bccd80e",
+        "jp_sha256": "23f4c69fa530265ff8ec650df0c3558513628f671bcc21c601cbd3679174a7f9",
+        "official_en_sha256": "3650e80babc89eb604ea28b401c9970d1dddbd8a79fcf4a118f3d902f29c31e1"
+      },
+      "text": {
+        "jp": "スワップ エントリを含めます",
+        "official_en": "Include swap entries.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:QueryRuleText:8bb96ea9",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemInvestigationView",
+        "key": "QueryRuleText",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:QueryRuleText:8bb96ea9",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:QueryRuleText:8bb96ea9",
+        "jp_sha256": "8cf2be796e6cdc9e434b156b19a3dbf10f2e40266093d6a3a1c5f8cb2fb303f8",
+        "official_en_sha256": "60ba86001f48ba64132862a134ed1e7ede5c4233b11ea818bda2593400a6ee85"
+      },
+      "text": {
+        "jp": "ルール：",
+        "official_en": "Rule:",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:RunQueryBtnToolTipText:4271b6dc",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemInvestigationView",
+        "key": "RunQueryBtnToolTipText",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:RunQueryBtnToolTipText:4271b6dc",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:RunQueryBtnToolTipText:4271b6dc",
+        "jp_sha256": "87fdd56e0773b518e399e1227ec42614996689a82f37a23dcf4ec4053e2fcb94",
+        "official_en_sha256": "85639d4c37523c6ae2ab9d9c2b9c993f1c2a852634f38390d8c6485c64bb6d5b"
+      },
+      "text": {
+        "jp": "メモリ クエリを実行します。\n結果の割り当てリストは、ツリー ビューで利用可能です。",
+        "official_en": "Run Memory Query.\nThe resulting list of allocations will be available in a tree view.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:RunQueryBtnText:f65ffab8",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemInvestigationView",
+        "key": "RunQueryBtnText",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:RunQueryBtnText:f65ffab8",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:RunQueryBtnText:f65ffab8",
+        "jp_sha256": "704d7e4050b23fdae403e748d188496a71c738e88b2d1cf9dceead7f91e398b1",
+        "official_en_sha256": "826cea94aca7f2bce9e97c214c1df682ea9fa53a85d642e06993064d077eda60"
+      },
+      "text": {
+        "jp": "クエリを実行",
+        "official_en": "Run Query",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:QueryTargetWindowTooltip:645df26e",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemInvestigationView",
+        "key": "QueryTargetWindowTooltip",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:QueryTargetWindowTooltip:645df26e",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:QueryTargetWindowTooltip:645df26e",
+        "jp_sha256": "b67f0a1eba30d2483708de4a34997b7bb49f59fa51749778e3749633d47c2096",
+        "official_en_sha256": "ab2d704b5aceaa51740b80722953552d3f334d70458b1b2893840ccc5f934414"
+      },
+      "text": {
+        "jp": "クエリ結果を表示する、既存または新規のウィンドウを選択します",
+        "official_en": "Select an existing or new window where the query results will be displayed",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:QueryTargetWindow:7b28cb71",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemInvestigationView",
+        "key": "QueryTargetWindow",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:QueryTargetWindow:7b28cb71",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:QueryTargetWindow:7b28cb71",
+        "jp_sha256": "cc7a82b3468291f6a3be99adf96541d22de11d905db13109fdca3914e709c6b5",
+        "official_en_sha256": "a6e1ad6df1927fa85bf05249d64186faf8606d1bae5e0af217c7fadd702b82a3"
+      },
+      "text": {
+        "jp": "ターゲットウィンドウ:",
+        "official_en": "Target Window:",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:QueryRuleComboBox_TextFmt:33a6bcef",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::SMemInvestigationView",
+        "key": "QueryRuleComboBox_TextFmt",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:QueryRuleComboBox_TextFmt:33a6bcef",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-SMemInvestigationView:QueryRuleComboBox_TextFmt:33a6bcef",
+        "jp_sha256": "fa1e7180cf6c8ea611aeffecae3ff04d94f9558bbd8f2c69960ac883c1f31595",
+        "official_en_sha256": "fa1e7180cf6c8ea611aeffecae3ff04d94f9558bbd8f2c69960ac883c1f31595"
+      },
+      "text": {
+        "jp": "{0} ({1})",
+        "official_en": "{0} ({1})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

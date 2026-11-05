@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGInputOutputElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGInputOutputElement:InputOutputOriginalActorPinTooltip:ac0dba73",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGInputOutputElement",
+        "key": "InputOutputOriginalActorPinTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGInputOutputElement:InputOutputOriginalActorPinTooltip:ac0dba73",
+        "official_en_record_id": "switch:locres:set-01:PCGInputOutputElement:InputOutputOriginalActorPinTooltip:ac0dba73",
+        "jp_sha256": "f15d24964b61709b4ee111a03512454ff252e9d93f366b84dc2527e51f5e1544",
+        "official_en_sha256": "2fbc6da1e21d9ffe9cae8a7adedca05bfa04122ebdb2d2cb179eb311db2c2acd"
+      },
+      "text": {
+        "jp": "非推奨：入力をグラフにパスするには、カスタム仕様のピンを使用するか、レベルから「getter」ノード (Get Volume Data、Get Actor Data、...) を使用してレベルからデータをインポートします。\n\nアクタがパーティション アクタである場合、生成される PCG アクタからデータが引き出されます。その他の場合、Actor ピンと同じデータが得られます",
+        "official_en": "DEPRECATED: Please use custom pins to pass inputs into the graph, or use the 'getter' nodes (e.g. Get Volume Data, Get Actor Data, ...) to import data from the level.\n\nIf the actor is a partition actor, this will pull data from the generating PCG actor. Otherwise it will provide the same data as the Actor pin.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGInputOutputElement:InputOutputActorPinTooltip:45431c8c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGInputOutputElement",
+        "key": "InputOutputActorPinTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGInputOutputElement:InputOutputActorPinTooltip:45431c8c",
+        "official_en_record_id": "switch:locres:set-01:PCGInputOutputElement:InputOutputActorPinTooltip:45431c8c",
+        "jp_sha256": "5e641e48bf6e9a6e2fcfcd9e544801cb115fa85201d3b0da9db94c4bba1b042e",
+        "official_en_sha256": "d764bffe473456dc130c889320c2c1f332ef12f3de2eb037b0dbe110d4c65992"
+      },
+      "text": {
+        "jp": "非推奨：入力をグラフにパスするには、カスタム仕様のピンを使用するか、レベルから「getter」ノード (Get Volume Data、Get Actor Data、...) を使用してレベルからデータをインポートします。\n\nこれがパーティション化コンポーネントである場合、現在のパーティション アクタ境界は次のものと交差します。アクタがランドスケープ プロキシである場合、ランドスケープ データが得られます。そうではなく、アクタがボリュームであると、アクタの境界に一致するボリューム形状が得られます。そうではなく、「Parse Actor Components」設定が PCG コンポーネントで有効な場合、まとめて結合されたアクタ (ランドスケープ スプライン、スプライン、形状、プリミティブ) にあるすべての互換コンポーネントになります。その他の場合、単一ポイントはアクタの位置で得られます",
+        "official_en": "DEPRECATED: Please use custom pins to pass inputs into the graph, or use the 'getter' nodes (e.g. Get Volume Data, Get Actor Data, ...) to import data from the level.\n\nIf this is a partitioned component, then this will be the intersection of the current partition actor bounds with the following. If the actor is a Landscape Proxy, then this provide a landscape data. Otherwise if the actor is a volume, this will provide a volume shape matching the actor bounds. Otherwise if the 'Parse Actor Components' setting is enabled on the PCG Component, this will be all compatible components on the actor (Landscape Splines, Splines, Shapes, Primitives) unioned together. Otherwise a single point will be provided at the actor position.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGInputOutputElement:InputOutputLandscapePinTooltip:b444c63c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGInputOutputElement",
+        "key": "InputOutputLandscapePinTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGInputOutputElement:InputOutputLandscapePinTooltip:b444c63c",
+        "official_en_record_id": "switch:locres:set-01:PCGInputOutputElement:InputOutputLandscapePinTooltip:b444c63c",
+        "jp_sha256": "113768e54d17c0c733e6badf88610989564637647cca5fd159c3363a84e4f825",
+        "official_en_sha256": "7210a78c4907a77ba0b0bcf4ec835c37209904a29dab3f81787d5ca0f58f349f"
+      },
+      "text": {
+        "jp": "非推奨：入力をグラフにパスするには、カスタム仕様のピンを使用するか、レベルから「getter」ノード (Get Volume Data、Get Actor Data、...) を使用してレベルからデータをインポートします。\n\nランドスケープ プロキシである場合、このアクタで表わされるランドスケープが得られます。他の場合、レベルでこのアクタが重なっているランドスケープを返します",
+        "official_en": "DEPRECATED: Please use custom pins to pass inputs into the graph, or use the 'getter' nodes (e.g. Get Volume Data, Get Actor Data, ...) to import data from the level.\n\nProvides the landscape represented by this actor if it is a Landscape Proxy, otherwise it returns any landscapes overlapping this actor in the level.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGInputOutputElement:InputOutputLandscapeHeightPinTooltip:0ea7cf87",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGInputOutputElement",
+        "key": "InputOutputLandscapeHeightPinTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGInputOutputElement:InputOutputLandscapeHeightPinTooltip:0ea7cf87",
+        "official_en_record_id": "switch:locres:set-01:PCGInputOutputElement:InputOutputLandscapeHeightPinTooltip:0ea7cf87",
+        "jp_sha256": "651258cbc9b113d8200bd6fb574a54a990a8aaf29971a1adf32a7a41ac612080",
+        "official_en_sha256": "588b2e00341baa3326b3a84f6d54d69d26ad7aa9545ff2921c543edb2b172ed2"
+      },
+      "text": {
+        "jp": "非推奨：入力をグラフにパスするには、カスタム仕様のピンを使用するか、レベルから「getter」ノード (Get Volume Data、Get Actor Data、...) を使用してレベルからデータをインポートします。\n\nLandscape ピンと同様ですが、高さデータだけが得られ、他のレイヤーはありません",
+        "official_en": "DEPRECATED: Please use custom pins to pass inputs into the graph, or use the 'getter' nodes (e.g. Get Volume Data, Get Actor Data, ...) to import data from the level.\n\nSimilar to Landscape pin, but only provides height data and not other layers.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGInputOutputElement:InputOutputInputPinTooltip:38816b24",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGInputOutputElement",
+        "key": "InputOutputInputPinTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGInputOutputElement:InputOutputInputPinTooltip:38816b24",
+        "official_en_record_id": "switch:locres:set-01:PCGInputOutputElement:InputOutputInputPinTooltip:38816b24",
+        "jp_sha256": "212e5df0a66b3e7bb282b6774aa822a7d93f5be12e697b81aea65de8cce16d64",
+        "official_en_sha256": "cc7761c29c917f3089f61d8034f724ddeb2ed97f4c8619bc5f155665c83a3b9a"
+      },
+      "text": {
+        "jp": "非推奨：入力をグラフにパスするには、カスタム仕様のピンを使用するか、レベルから「getter」ノード (Get Volume Data、Get Actor Data、...) を使用してレベルからデータをインポートします。\n\nPCG コンポーネントの「Input Type」設定がランドスケープに設定されている場合、Actor ピンの出力を選択し、Landscape ピンの結果と結合します。アクタ データが 2 次元である場合、ランドスケープに投影され、そうではない場合は交差します",
+        "official_en": "DEPRECATED: Please use custom pins to pass inputs into the graph, or use the 'getter' nodes (e.g. Get Volume Data, Get Actor Data, ...) to import data from the level.\n\nTakes the output of the Actor pin and if the 'Input Type' setting on the PCG Component is set to Landscape, combines it with the result of the Landscape pin. If the Actor data is two dimensional it will be projected onto the landscape, otherwise it will be intersected.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGInputOutputElement:InputOutputInPinTooltip:660d9e2e",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGInputOutputElement",
+        "key": "InputOutputInPinTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGInputOutputElement:InputOutputInPinTooltip:660d9e2e",
+        "official_en_record_id": "switch:locres:set-01:PCGInputOutputElement:InputOutputInPinTooltip:660d9e2e",
+        "jp_sha256": "8a63cf279ab0261c82031bdf15076157e248c1654f035bbebeb6a8d1e87e5fb0",
+        "official_en_sha256": "3dbae0b8cb9ec72ed9c401133f3bab12ec6c45bc0abde5101cbf75a917f5fe50"
+      },
+      "text": {
+        "jp": "デフォルトの入力ピン",
+        "official_en": "Default input pin.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

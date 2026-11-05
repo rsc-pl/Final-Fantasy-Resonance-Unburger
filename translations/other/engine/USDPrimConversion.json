@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "USDPrimConversion",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:USDPrimConversion:CardTextureNotOnDisk:1cd9e8fb",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDPrimConversion",
+        "key": "CardTextureNotOnDisk",
+        "jp_record_id": "switch:locres:set-01:USDPrimConversion:CardTextureNotOnDisk:1cd9e8fb",
+        "official_en_record_id": "switch:locres:set-01:USDPrimConversion:CardTextureNotOnDisk:1cd9e8fb",
+        "jp_sha256": "2f30a53d16cbba4c5feb9166655ba8e095c9d1853fb5b4116823766f2a264a1f",
+        "official_en_sha256": "6ef8002f9da12dd74cdace3d7e918ebc5d7f0c77857fe70b864aefbaec18ce82"
+      },
+      "text": {
+        "jp": "属性「{2}」にテクスチャ「{1}」のカード テクスチャ パス「{0}」を作成していますが、ソース画像ファイルがディスク上に存在しません！ステージがリロードまたは再オープンされる場合、このカード テクスチャを表示できない可能性があります。UTexture アセットは、このような方法で自動的にエクスポートされません。新規テクスチャを割り当てる場合は、UTexture アセットのソース画像ファイルをディスク上に必ず配置してください",
+        "official_en": "Authoring card texture path '{0}' for texture '{1}' onto attribute '{2}', but the source image file doesn't exist on disk! It may not be possible to display this card texture if the stage is reloaded or reopened. UTexture assets can't be automatically exported in this manner just yet. If you want to assign a new texture, make sure the UTexture asset's source image file exists on disk.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDPrimConversion:InvertNonUniformScaling:3ecc13d0",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDPrimConversion",
+        "key": "InvertNonUniformScaling",
+        "jp_record_id": "switch:locres:set-01:USDPrimConversion:InvertNonUniformScaling:3ecc13d0",
+        "official_en_record_id": "switch:locres:set-01:USDPrimConversion:InvertNonUniformScaling:3ecc13d0",
+        "jp_sha256": "c5426ed63b571e5e9915d627da12210eb64dcea30926e8233f9f507cb45dd950",
+        "official_en_sha256": "3ff00d5c0de74f609bcf4e0db7feba72a04cc943c1d4e664e9e1f2b03b7ef746"
+      },
+      "text": {
+        "jp": "プリミティブ「{1}」の相対トランスフォームの計算時に均一でないスケーリング「{0}」を使用してトランスフォームを反転しています！FTransforms は均一でないスケーリングを反転することができないため、結果は正しくない可能性があります。均一でないスケーリングのトランスフォームを頂点にベイクすることで、または !resetXformStack! Xform 操作を使用しないようにすることで これを回避できます",
+        "official_en": "Inverting transform with non-uniform scaling '{0}' when computing relative transform for prim '{1}'! Result will likely be incorrect, since FTransforms can't invert non-uniform scalings. You can work around this by baking your non-uniform scaling transform into the vertices, or by not using the !resetXformStack! Xform op.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDPrimConversion:NoAssetImportData:ba44e543",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDPrimConversion",
+        "key": "NoAssetImportData",
+        "jp_record_id": "switch:locres:set-01:USDPrimConversion:NoAssetImportData:ba44e543",
+        "official_en_record_id": "switch:locres:set-01:USDPrimConversion:NoAssetImportData:ba44e543",
+        "jp_sha256": "f8004ea92ee3175c3fac465c78bfe2d97282f45256180ffc5b1846732e85d613",
+        "official_en_sha256": "aee57f2e959863cb7a6ae93103279d057922ad37e98d61a398ccc3594fffebf3"
+      },
+      "text": {
+        "jp": "割り当てられたテクスチャ「{1}」に AssetImportData がないため、属性「{0}」のカード テクスチャは作成されません。UTexture アセットは、このような方法で自動的にエクスポートされません。新規テクスチャを割り当てる場合は、UTexture アセットのソース画像ファイルをディスク上に必ず配置してください",
+        "official_en": "Not authoring card texture for attribute '{0}' because the assigned texture '{1}' has no AssetImportData! UTexture assets can't be automatically exported in this manner just yet. If you want to assign a new texture, make sure the UTexture asset's source image file exists on disk.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

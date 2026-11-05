@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "EnhancedInputModifiers",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:EnhancedInputModifiers:InputScalarInvalidActionType:d404309c",
+      "source": {
+        "set": "set-02",
+        "namespace": "EnhancedInputModifiers",
+        "key": "InputScalarInvalidActionType",
+        "jp_record_id": "switch:locres:set-01:EnhancedInputModifiers:InputScalarInvalidActionType:d404309c",
+        "official_en_record_id": "switch:locres:set-01:EnhancedInputModifiers:InputScalarInvalidActionType:d404309c",
+        "jp_sha256": "50504b615010f724f3a691ecbc3e0aafd70a65facdbcc8573b141b070190efc7",
+        "official_en_sha256": "eb583369f7c73a90852a7a455c179b80072ee435dcec0cac3a7fb6c36ab07571"
+      },
+      "text": {
+        "jp": "スカラー モディファイヤは「ブーリアン」入力アクションでは使用できません",
+        "official_en": "A Scalar modifier cannot be used on a 'Boolean' input action",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:EnhancedInputModifiers:InputModifierDeadZone:afe52d7f",
+      "source": {
+        "set": "set-02",
+        "namespace": "EnhancedInputModifiers",
+        "key": "InputModifierDeadZone",
+        "jp_record_id": "switch:locres:set-01:EnhancedInputModifiers:InputModifierDeadZone:afe52d7f",
+        "official_en_record_id": "switch:locres:set-01:EnhancedInputModifiers:InputModifierDeadZone:afe52d7f",
+        "jp_sha256": "b09c6d4f86dee9a368e979f4a28a386626981c9ba6e5f0ce9b4919d9f26a8798",
+        "official_en_sha256": "2b1a3b2179dd1589ae539c04c2c4f6c81adec9884126b20fe1b70686f4335e0e"
+      },
+      "text": {
+        "jp": "デッドゾーンの「下限しきい値」を「上限しきい値」よりも大きくすることはできません",
+        "official_en": "The 'Lower Threshold' cannot be greater then the 'Upper Threshold' of a deadzone.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,789 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "StaticMesh",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:GuidelineDismiss:fc7d6fe1",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "GuidelineDismiss",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:GuidelineDismiss:fc7d6fe1",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:GuidelineDismiss:fc7d6fe1",
+        "jp_sha256": "70ff42aaefe685b49b3241a218bc5976dc2a132569b4d573f07886c432f7fc69",
+        "official_en_sha256": "48845bff334a50a59aaecf499f28a7a24c3b4b891b8b18a9f1169ad8e8a6b261"
+      },
+      "text": {
+        "jp": "却下",
+        "official_en": "Dismiss",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:GuidelineDismissTT:97be3b92",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "GuidelineDismissTT",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:GuidelineDismissTT:97be3b92",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:GuidelineDismissTT:97be3b92",
+        "jp_sha256": "b858bda96025b2ba67396566706b528648e62fedab2256b3e718648fe97d01de",
+        "official_en_sha256": "81ad792359554bb9b4a64e87d0f80bd634ec469ca7c2128831a5a01cd1225163"
+      },
+      "text": {
+        "jp": "この通知を却下します",
+        "official_en": "Dismiss this notification.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:StaticMeshValidation_EmptyHiResMeshDescription:47cba432",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "StaticMeshValidation_EmptyHiResMeshDescription",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:StaticMeshValidation_EmptyHiResMeshDescription:47cba432",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:StaticMeshValidation_EmptyHiResMeshDescription:47cba432",
+        "jp_sha256": "638cb73a2af4f9d0eafcab1f37d1ed729b9ec49d8f39e9f41bd313762c36489b",
+        "official_en_sha256": "aefe996b13dfb43d1b4ef5d616c8f94f11680de495a4274a0ce4a04a876bc0f5"
+      },
+      "text": {
+        "jp": "高解像度メッシュのジオメトリが空です。Nanite 高解像度メッシュのジオメトリを空にすることはできません",
+        "official_en": "Empty hi-res mesh geometry. Nanite hi-res mesh geometry should not be empty.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:StaticMeshValidation_EmptyLodMeshDescription:9a33f130",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "StaticMeshValidation_EmptyLodMeshDescription",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:StaticMeshValidation_EmptyLodMeshDescription:9a33f130",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:StaticMeshValidation_EmptyLodMeshDescription:9a33f130",
+        "jp_sha256": "6bfb941520414f81b719fb95bcaece092eb8844ed99af287c1ac0c38aacdddf1",
+        "official_en_sha256": "552131509a75129c61a0b0d6c53770f26d904ef8a6015c00a8694c18cfc2a987"
+      },
+      "text": {
+        "jp": "LOD {LODIndex} メッシュのジオメトリが空です。LOD {LODIndex} メッシュのジオメトリを空にすることはできません",
+        "official_en": "Empty lod {LODIndex} mesh geometry. Lod {LODIndex} mesh geometry should not be empty.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:NaniteBuildAssemblyUncachedError:8d56ae8b",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "NaniteBuildAssemblyUncachedError",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:NaniteBuildAssemblyUncachedError:8d56ae8b",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:NaniteBuildAssemblyUncachedError:8d56ae8b",
+        "jp_sha256": "3b0ef65450483f7653e9985539c4a18e604fd4318fcfef812a44442791ccc6f9",
+        "official_en_sha256": "2b724877d3595443842c896bdbced39584316638e4fae427b9f0d4dd9a303845"
+      },
+      "text": {
+        "jp": "Nanite アセンブリのスタティックメッシュ ({MeshPath}) をビルドできませんでした。参照先のスタティックメッシュが、ビルド前にキャッシュされていませんでした",
+        "official_en": "Failed to build Nanite Assembly static mesh {MeshPath}. The referenced static meshes were not cached before build.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:NaniteBuildAssemblyPartError:086e6bcc",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "NaniteBuildAssemblyPartError",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:NaniteBuildAssemblyPartError:086e6bcc",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:NaniteBuildAssemblyPartError:086e6bcc",
+        "jp_sha256": "378fac2e174b6138c4c191def98222be457db7b3073314337bcc5ab127c46744",
+        "official_en_sha256": "8c9f4e6ab40ba60548198c6f4c194bc29f77907a08ed9f9caa198361a14f5382"
+      },
+      "text": {
+        "jp": "Nanite アセンブリ パーツ ({PartPath}) をスタティックメッシュからビルドできませんでした。詳細については、前の行を参照してください",
+        "official_en": "Failed to build Nanite assembly part from static mesh ({PartPath}). See previous line(s) for details.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:NaniteHiResBuildError:629477ce",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "NaniteHiResBuildError",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:NaniteHiResBuildError:629477ce",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:NaniteHiResBuildError:629477ce",
+        "jp_sha256": "d0d0235aa1358e114dfcaba73ed6896ad90f1edd9810964a8028a9e7c55d8740",
+        "official_en_sha256": "dc7be9f6c373c73ec62d23bdb19414d875b3997c98cfbff32e16aa4402143e50"
+      },
+      "text": {
+        "jp": "HiRes スタティックメッシュに対して Nanite をビルドできません。詳細は前の行を参照してください",
+        "official_en": "Failed to build Nanite for HiRes static mesh. See previous line(s) for details.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:NaniteBuildStaticMeshError:edf3fbde",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "NaniteBuildStaticMeshError",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:NaniteBuildStaticMeshError:edf3fbde",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:NaniteBuildStaticMeshError:edf3fbde",
+        "jp_sha256": "1a67d029988362793bea3ecb05837f0b6638be46accb57ec4465e59a1fcab0c6",
+        "official_en_sha256": "03bc7ec602fdbacfb1c01fa0dd7859fc1b98edc2bd1b0d3667b863bc72f4cd2f"
+      },
+      "text": {
+        "jp": "Nanite をスタティックメッシュからビルドできません。 詳細は前の行を参照してください",
+        "official_en": "Failed to build Nanite from static mesh. See previous line(s) for details.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:StaticMeshValidation_HiresMoreSectionThanLod0:c3ec0d32",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "StaticMeshValidation_HiresMoreSectionThanLod0",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:StaticMeshValidation_HiresMoreSectionThanLod0:c3ec0d32",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:StaticMeshValidation_HiresMoreSectionThanLod0:c3ec0d32",
+        "jp_sha256": "1eb5e61f000c01b09be30cf031568f1817093b6156912cfa461c82a3d73a492d",
+        "official_en_sha256": "8cc07811e8062cbf76ed22d743404e9bfadca1196d4529166664ef1a70b4b704"
+      },
+      "text": {
+        "jp": "高解像度メッシュの説明が無効です。高解像度メッシュのセクション数が LOD 0 のセクション数より多くなっています。これはサポートされておらず、LOD 0 は Nanite データを構築するフォールバックとして使用されます",
+        "official_en": "Invalid hi-res mesh description. The number of sections from the hires mesh is higher than LOD 0 section count. This is not supported and LOD 0 will be used as a fallback to build nanite data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:LoadError_BadMinLODWithOverride_Fixed:fafc59a8",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "LoadError_BadMinLODWithOverride_Fixed",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:LoadError_BadMinLODWithOverride_Fixed:fafc59a8",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:LoadError_BadMinLODWithOverride_Fixed:fafc59a8",
+        "jp_sha256": "c2b7ea73ae65a21ab716fe7e53210b89e7c5703834499bb5bd2fa38f07917ad5",
+        "official_en_sha256": "c27994dd91faea5ba8f4c4e25bfd0456c0a9dfe10b135d1c8ae424a6d58e9a34"
+      },
+      "text": {
+        "jp": "{OverrideName}に対する{MinLOD}の最小LODオーバーライドは0～{MinAvailLOD}の範囲外であり、{MinAvailLOD}に調整済みです。アセットの確認および再保存が必要です。",
+        "official_en": "Min LOD override of {MinLOD} for {OverrideName} is out of range 0..{MinAvailLOD} and has been adjusted to {MinAvailLOD}. Please verify and resave the asset.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:LoadError_BadMinLODWithOverride:af2fcc13",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "LoadError_BadMinLODWithOverride",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:LoadError_BadMinLODWithOverride:af2fcc13",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:LoadError_BadMinLODWithOverride:af2fcc13",
+        "jp_sha256": "d92c75aac13426216cfc3a6a7b6dfa437f8e2b22bf7b7dae84c0fb10c06fe713",
+        "official_en_sha256": "129c50bc56c089b713c0e842586aba319a7da183a160458692ffbde0f3f7f6f8"
+      },
+      "text": {
+        "jp": "{OverrideName} の最小 LOD オーバーライド {MinLOD} が、0 ～ {MinAvailLOD} の範囲外です",
+        "official_en": "Min LOD override of {MinLOD} for {OverrideName} is out of range 0..{MinAvailLOD}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:LoadError_BadMinLOD_Fixed:01521b09",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "LoadError_BadMinLOD_Fixed",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:LoadError_BadMinLOD_Fixed:01521b09",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:LoadError_BadMinLOD_Fixed:01521b09",
+        "jp_sha256": "892f9ceff77156557716ffb3330ed88f6bcdfe6c35992edb9221f93845ec8358",
+        "official_en_sha256": "bc1cefc99a62c3a04f50099fd4fe2633ec358dc2794796109c56813e70837035"
+      },
+      "text": {
+        "jp": "{MinLOD} の最小LOD値は0..{MinAvailLOD} の範囲外であり、{MinAvailLOD} に調整済みです。アセットの確認および再保存が必要です。アセットと確認し再保存してください。",
+        "official_en": "Min LOD value of {MinLOD} is out of range 0..{MinAvailLOD} and has been adjusted to {MinAvailLOD}. Please verify and resave the asset.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:LoadError_BadMinLOD:8dbde6d5",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "LoadError_BadMinLOD",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:LoadError_BadMinLOD:8dbde6d5",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:LoadError_BadMinLOD:8dbde6d5",
+        "jp_sha256": "89f6b36ee34a106e6ba8ba732d42eb908269fad0cab40056310068914f647806",
+        "official_en_sha256": "f7ea4f6278b67679bafff414b8ad85f3ada25dd681192957c5d880f671433695"
+      },
+      "text": {
+        "jp": "最小 LOD 値 {MinLOD} が、0 ～ {MinAvailLOD} の範囲外です",
+        "official_en": "Min LOD value of {MinLOD} is out of range 0..{MinAvailLOD}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:NeedProjectSettings:9d96e00c",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "NeedProjectSettings",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:NeedProjectSettings:9d96e00c",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:NeedProjectSettings:9d96e00c",
+        "jp_sha256": "a71b0ab17749c68e4d3d5fa02e7ba1dbbb428e4aabae55384b085b1a292166de",
+        "official_en_sha256": "0473178b73d44476ef7e7109fb12a1531c2b18fee383b15b555997a001968d99"
+      },
+      "text": {
+        "jp": "プロジェクト設定がありません",
+        "official_en": "Missing Project Settings!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:ProjectSettingsHyperlinkText:cf6eae64",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "ProjectSettingsHyperlinkText",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:ProjectSettingsHyperlinkText:cf6eae64",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:ProjectSettingsHyperlinkText:cf6eae64",
+        "jp_sha256": "380e3f98d67761225f04bdf06f3ff01aba1964cdd51f30e8f03d1bca53dde9c0",
+        "official_en_sha256": "9095facf217f6af02a6e43e16915b91a658b43a4773c1c88d1daba28aa948298"
+      },
+      "text": {
+        "jp": "プロジェクト設定を開く",
+        "official_en": "Open Project Settings",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:NaniteNeedsSM6VulkanSM6LinuxSetting:a12a593b",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "NaniteNeedsSM6VulkanSM6LinuxSetting",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:NaniteNeedsSM6VulkanSM6LinuxSetting:a12a593b",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:NaniteNeedsSM6VulkanSM6LinuxSetting:a12a593b",
+        "jp_sha256": "21d8f6d60ee876c25afa6774cef7cbd48c360199a91bd883c2ab33bd8944dc4a",
+        "official_en_sha256": "1822c3cfc64bf3a57823a9d08e85697254a205d9ea03fc0160e287191121969f"
+      },
+      "text": {
+        "jp": "Nanite アセットを使用するには、シェーダーモデル 6 (SM6) が必要です。次の場所からこれを有効化してください。\n  [Project Settings (プロジェクト設定)] -> [Platforms (プラットフォーム)] -> [Linux] -> [Targeted RHIs (ターゲットの RHI)]\nこれが有効でない場合、Nanite のアセットは Linux 上の Vulkan で表示されません",
+        "official_en": "Shader Model 6 (SM6) is required to use Nanite assets. Please enable this in:\n  Project Settings -> Platforms -> Linux -> Targeted RHIs\nNanite assets will not display properly in Vulkan on Linux until this is enabled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:NaniteNeedsSM6Setting:b845b0e6",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "NaniteNeedsSM6Setting",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:NaniteNeedsSM6Setting:b845b0e6",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:NaniteNeedsSM6Setting:b845b0e6",
+        "jp_sha256": "b8b27f1bd0516dd66be855ed413ae44ca0b64a728233aa843893acfd7bc34c24",
+        "official_en_sha256": "5ac2730768ec459049004e69ed997b64911cfb545aba239c4cfa03007b8eba44"
+      },
+      "text": {
+        "jp": "シェーダーモデル 6 (SM6) は Nanite アセットを使用するために必要です\n [プロジェクト設定] > [プラットフォーム] > [Windows] > [D3D12ターゲットシェーダー形式] で有効にします\nNanite アセットはこれが有効になるまで正しく表示されません",
+        "official_en": "Shader Model 6 (SM6) is required to use Nanite assets. Please enable this in:\n  Project Settings -> Platforms -> Windows -> D3D12 Targeted Shader Formats\nNanite assets will not display properly until this is enabled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:NaniteNeedsSM6VulkanSM6WindowsSetting:a646506f",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "NaniteNeedsSM6VulkanSM6WindowsSetting",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:NaniteNeedsSM6VulkanSM6WindowsSetting:a646506f",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:NaniteNeedsSM6VulkanSM6WindowsSetting:a646506f",
+        "jp_sha256": "fc63811aac42ca833d148e7b799c611aa2749b55f46337910fd82ecc120d1eda",
+        "official_en_sha256": "9d50049eb0888dfd6190d478552cb882c4d32769e56da71e3d35e569ce618fa7"
+      },
+      "text": {
+        "jp": "Nanite アセットを使用するには、シェーダーモデル 6 (SM6) が必要です。次の場所からこれを有効化してください。\n  [Project Settings (プロジェクト設定)] -> [Platforms (プラットフォーム)] -> [Windows] -> [Vulkan Targeted Shader Formats (Vulkan ターゲット シェーダー形式)]\nこれが有効でない場合、Nanite のアセットは Windows 上の Vulkan で表示されません",
+        "official_en": "Shader Model 6 (SM6) is required to use Nanite assets. Please enable this in:\n  Project Settings -> Platforms -> Windows -> Vulkan Targeted Shader Formats\nNanite assets will not display properly in Vulkan on Windows until this is enabled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:StaticMeshMaterialChanged:d2296281",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "StaticMeshMaterialChanged",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:StaticMeshMaterialChanged:d2296281",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:StaticMeshMaterialChanged:d2296281",
+        "jp_sha256": "2062ca2afd1120c7742f40a5316321a1c374aef1b781cc42449c73f074d170ba",
+        "official_en_sha256": "2456f052ff224d168524949c8e8960cbe9481d5fed3dfcef0094bce656c9d893"
+      },
+      "text": {
+        "jp": "StaticMesh:マテリアルを変更しました",
+        "official_en": "StaticMesh: Material changed",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:StaticMeshValidation_UninitializedLOD0:b8d680e8",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "StaticMeshValidation_UninitializedLOD0",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:StaticMeshValidation_UninitializedLOD0:b8d680e8",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:StaticMeshValidation_UninitializedLOD0:b8d680e8",
+        "jp_sha256": "dea880ba9f4081e0412b969b9d202cb1589977da4ec0a783f0cc8aad3745ee9e",
+        "official_en_sha256": "1a222c35660cd05f1f4d2a9803a52da8a44610a59ef3e1cd74806e96d6aa3b19"
+      },
+      "text": {
+        "jp": "このスタティックメッシュ アセットに LOD0 のソースモデル メッシュは存在しません。このアセットは修理不可能です。アセットが破損しているため、再作成してください",
+        "official_en": "This Static Mesh Asset has no LOD0 Source Model mesh. This asset is not repairable, the Asset is corrupted and must be deleted.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMesh:StaticMeshValidation_NoSourceModel:a376ef7a",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMesh",
+        "key": "StaticMeshValidation_NoSourceModel",
+        "jp_record_id": "switch:locres:set-01:StaticMesh:StaticMeshValidation_NoSourceModel:a376ef7a",
+        "official_en_record_id": "switch:locres:set-01:StaticMesh:StaticMeshValidation_NoSourceModel:a376ef7a",
+        "jp_sha256": "1a10ed935855d5c747ab02fd31075a48680e8056ea655a61665918a2beb27161",
+        "official_en_sha256": "3282c4a6f04e0c729da9776c0650fffe33e3effa10eae47093919c2e0d38c84e"
+      },
+      "text": {
+        "jp": "このスタティックメッシュ アセットはソース モデルをまったく持っていません。このアセットは修理不可能です。アセットが破損しているため、再作成してください",
+        "official_en": "This Static Mesh Asset has no Source Models. This asset is not repairable, the Asset is corrupted and must be deleted.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

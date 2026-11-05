@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MoviePipelineLinearExecutorBase",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MoviePipelineLinearExecutorBase:CancelingExecutorQueue:73bd3598",
+      "source": {
+        "set": "set-02",
+        "namespace": "MoviePipelineLinearExecutorBase",
+        "key": "CancelingExecutorQueue",
+        "jp_record_id": "switch:locres:set-01:MoviePipelineLinearExecutorBase:CancelingExecutorQueue:73bd3598",
+        "official_en_record_id": "switch:locres:set-01:MoviePipelineLinearExecutorBase:CancelingExecutorQueue:73bd3598",
+        "jp_sha256": "fa8a7ec89260da71b08b3163b98bacb21adc83fb2e6ded754d8cb8adf89a2edc",
+        "official_en_sha256": "86eb63803c5014535be93fdb28fd2718738d167dda484369c396d532b9846d80"
+      },
+      "text": {
+        "jp": "エグゼキューターがすべてのジョブをキャンセルするように依頼されました。",
+        "official_en": "Executor asked to cancel all jobs.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MoviePipelineLinearExecutorBase:NullPipelineError:81f7c148",
+      "source": {
+        "set": "set-02",
+        "namespace": "MoviePipelineLinearExecutorBase",
+        "key": "NullPipelineError",
+        "jp_record_id": "switch:locres:set-01:MoviePipelineLinearExecutorBase:NullPipelineError:81f7c148",
+        "official_en_record_id": "switch:locres:set-01:MoviePipelineLinearExecutorBase:NullPipelineError:81f7c148",
+        "jp_sha256": "63aa00ae7ad9255e28c55021d3db7ae2fe19375b1dd72f8adadb88e9a0f20609",
+        "official_en_sha256": "7d2f7d4233d9251dea18eafa0f3ea20b481a277b073e7a4ed4b5f8d6710820c5"
+      },
+      "text": {
+        "jp": "エクゼキューターに Null キューの実行が命令されましたが、サポートされていません。",
+        "official_en": "Executor asked to execute a null queue, not supported!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MoviePipelineLinearExecutorBase:EmptyPipelineError:949e92cf",
+      "source": {
+        "set": "set-02",
+        "namespace": "MoviePipelineLinearExecutorBase",
+        "key": "EmptyPipelineError",
+        "jp_record_id": "switch:locres:set-01:MoviePipelineLinearExecutorBase:EmptyPipelineError:949e92cf",
+        "official_en_record_id": "switch:locres:set-01:MoviePipelineLinearExecutorBase:EmptyPipelineError:949e92cf",
+        "jp_sha256": "7e251bc9c31a815ce2b3a7f429508056882d30b83d16359842ab19a960b0fd6c",
+        "official_en_sha256": "27308decbec27030ab2a84aad7c05f6e99553dfd9ca03cd8e16a87f7ac5371a0"
+      },
+      "text": {
+        "jp": "エグゼキューターがジョブの空のリストを実行するように要求しました。これは意図した結果ではない可能性があります!",
+        "official_en": "Executor asked to execute empty list of jobs. This was probably not intended!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MoviePipelineLinearExecutorBase:CancelingExecutorJob:5a7c0693",
+      "source": {
+        "set": "set-02",
+        "namespace": "MoviePipelineLinearExecutorBase",
+        "key": "CancelingExecutorJob",
+        "jp_record_id": "switch:locres:set-01:MoviePipelineLinearExecutorBase:CancelingExecutorJob:5a7c0693",
+        "official_en_record_id": "switch:locres:set-01:MoviePipelineLinearExecutorBase:CancelingExecutorJob:5a7c0693",
+        "jp_sha256": "a9f018a4528aad6fffdf62bf0e7885a4a3c76c921a82f0490ee62c80bb926282",
+        "official_en_sha256": "cec27e14e9f5b15063e26881183c2c6db45f981cc4ff4e04c714a60ccd71d49f"
+      },
+      "text": {
+        "jp": "エグゼキューターが現在のジョブをキャンセルしています。",
+        "official_en": "Executor canceling current job.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MoviePipelineLinearExecutorBase:NullConfigError:6117e837",
+      "source": {
+        "set": "set-02",
+        "namespace": "MoviePipelineLinearExecutorBase",
+        "key": "NullConfigError",
+        "jp_record_id": "switch:locres:set-01:MoviePipelineLinearExecutorBase:NullConfigError:6117e837",
+        "official_en_record_id": "switch:locres:set-01:MoviePipelineLinearExecutorBase:NullConfigError:6117e837",
+        "jp_sha256": "9ec1240f57648310d49fab3c44f515c46d4c69c7537e455bf05fa5a10509763c",
+        "official_en_sha256": "b20cc27f487c9018c2210cd2c32cfb5e725af9eba6e9af0c5c30988de9dc9e32"
+      },
+      "text": {
+        "jp": "レンダリングに使用するコンフィグのリストに null コンフィグが見つかりました。コンフィグに誤ったアウターがありますか？",
+        "official_en": "Found null config in list of configs to render with. Does your config have the wrong outer?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MoviePipelineLinearExecutorBase:MoviePreviewWindowTitleFormat:8fa2e506",
+      "source": {
+        "set": "set-02",
+        "namespace": "MoviePipelineLinearExecutorBase",
+        "key": "MoviePreviewWindowTitleFormat",
+        "jp_record_id": "switch:locres:set-01:MoviePipelineLinearExecutorBase:MoviePreviewWindowTitleFormat:8fa2e506",
+        "official_en_record_id": "switch:locres:set-01:MoviePipelineLinearExecutorBase:MoviePreviewWindowTitleFormat:8fa2e506",
+        "jp_sha256": "f547289ffc2a0205700ed67769a2b10e9d7c0ae5c39f695c9f00a05177866844",
+        "official_en_sha256": "d1b6dd79af50003163e4fe99b9ed50d8869fecef45b5aa81b0927371e9abdfa0"
+      },
+      "text": {
+        "jp": "ムービーパイプラインレンダリング(プレビュー)[ジョブ数{CurrentCount}/{TotalCount}] 現在のジョブ:{PercentComplete}%完了しました。",
+        "official_en": "Movie Pipeline Render (Preview) [Job {CurrentCount}/{TotalCount} Total] Current Job: {PercentComplete}% Completed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

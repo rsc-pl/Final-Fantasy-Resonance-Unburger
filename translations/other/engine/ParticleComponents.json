@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ParticleComponents",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ParticleComponents:MapCheck_Message_NoTranslucentShadowSupport:768e0cbb",
+      "source": {
+        "set": "set-02",
+        "namespace": "ParticleComponents",
+        "key": "MapCheck_Message_NoTranslucentShadowSupport",
+        "jp_record_id": "switch:locres:set-01:ParticleComponents:MapCheck_Message_NoTranslucentShadowSupport:768e0cbb",
+        "official_en_record_id": "switch:locres:set-01:ParticleComponents:MapCheck_Message_NoTranslucentShadowSupport:768e0cbb",
+        "jp_sha256": "ff1b4cff3a0d54b7a92efe6bed9ab0fd972c1231f0ff15b3cae5d042213e5055",
+        "official_en_sha256": "3ab419227457c73613f1f8ef6f1ee8ae7f75a5e5fa2c2f5b2e5ac9457c31949d"
+      },
+      "text": {
+        "jp": "コンポーネントは CastVolumetricTranslucentShadow を使用していますが、このプロジェクトではこの機能が無効になっています！必要であれば、プロジェクトの ini ファイルで r.Shadow.TranslucentPerObject.ProjectEnabled をオンにします",
+        "official_en": "Component is a using CastVolumetricTranslucentShadow but this feature is disabled for the project! Turn on r.Shadow.TranslucentPerObject.ProjectEnabled in a project ini if required.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ParticleComponents:MapCheck_Message_PSysCompErrorEmptyActorRef:2bad94ca",
+      "source": {
+        "set": "set-02",
+        "namespace": "ParticleComponents",
+        "key": "MapCheck_Message_PSysCompErrorEmptyActorRef",
+        "jp_record_id": "switch:locres:set-01:ParticleComponents:MapCheck_Message_PSysCompErrorEmptyActorRef:2bad94ca",
+        "official_en_record_id": "switch:locres:set-01:ParticleComponents:MapCheck_Message_PSysCompErrorEmptyActorRef:2bad94ca",
+        "jp_sha256": "eea750b041799f407431e0377187db440f698a57ad64f60d81c022fd5aafbdf9",
+        "official_en_sha256": "5857158d0146aba0dc1ccd3954d3a21168d45f34bd18ed02a434574b48935fde"
+      },
+      "text": {
+        "jp": "PSysCompのインデックス {InstanceParamIndex} ({PathName}) に空白のパラメータアクタ参照があります",
+        "official_en": "PSysComp has an empty parameter actor reference at index {InstanceParamIndex} ({PathName})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ParticleComponents:MapCheck_Message_PSysCompErrorEmptyMaterialRef:9aa4f264",
+      "source": {
+        "set": "set-02",
+        "namespace": "ParticleComponents",
+        "key": "MapCheck_Message_PSysCompErrorEmptyMaterialRef",
+        "jp_record_id": "switch:locres:set-01:ParticleComponents:MapCheck_Message_PSysCompErrorEmptyMaterialRef:9aa4f264",
+        "official_en_record_id": "switch:locres:set-01:ParticleComponents:MapCheck_Message_PSysCompErrorEmptyMaterialRef:9aa4f264",
+        "jp_sha256": "6100437f1ee50e25bf9b4d8158f4d10f86e3b60a3649961a6294bdf8366cdb57",
+        "official_en_sha256": "a4b9180f76d98e3187dc5f43a91cc8e069b1d9a0418054960dcb6c3d79166a84"
+      },
+      "text": {
+        "jp": "PSysCompのインデックス {InstanceParamIndex} ({PathName}) に空白のパラメータ マテリアル参照があります",
+        "official_en": "PSysComp has an empty parameter material reference at index {InstanceParamIndex} ({PathName})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "IllegalPluginDependenciesValidator",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:IllegalPluginDependenciesValidator:ValidationError.IllegalPluginDependency:03fb59e5",
+      "source": {
+        "set": "set-02",
+        "namespace": "IllegalPluginDependenciesValidator",
+        "key": "ValidationError.IllegalPluginDependency",
+        "jp_record_id": "switch:locres:set-01:IllegalPluginDependenciesValidator:ValidationError.IllegalPluginDependency:03fb59e5",
+        "official_en_record_id": "switch:locres:set-01:IllegalPluginDependenciesValidator:ValidationError.IllegalPluginDependency:03fb59e5",
+        "jp_sha256": "2f2ae216797521002943b34c372fa603e43256cee5ace19f94246d1c910ec2b3",
+        "official_en_sha256": "17249cb5083cdc54863f5fa39964c105652d35189d96d23cfcc7db98aa7b80ee"
+      },
+      "text": {
+        "jp": "プラグイン {0} は、{1} に依存しています。非ゲーム機能プラグインが、ゲーム機能プラグインに依存することはできません。これによって、オブジェクトのロードが失敗する問題が発生します",
+        "official_en": "Plugin {0} depends on {1}. Non GameFeaturePlugins are not allowed to depend on GameFeaturePlugins. This can create an issue where objects will fail to load",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

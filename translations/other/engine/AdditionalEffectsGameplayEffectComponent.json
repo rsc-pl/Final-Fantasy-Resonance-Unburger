@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AdditionalEffectsGameplayEffectComponent",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AdditionalEffectsGameplayEffectComponent:InstantDoesNotWorkWithOnComplete:d23be4f4",
+      "source": {
+        "set": "set-02",
+        "namespace": "AdditionalEffectsGameplayEffectComponent",
+        "key": "InstantDoesNotWorkWithOnComplete",
+        "jp_record_id": "switch:locres:set-01:AdditionalEffectsGameplayEffectComponent:InstantDoesNotWorkWithOnComplete:d23be4f4",
+        "official_en_record_id": "switch:locres:set-01:AdditionalEffectsGameplayEffectComponent:InstantDoesNotWorkWithOnComplete:d23be4f4",
+        "jp_sha256": "98174f533307556af0f6023b6813dede721aefa3da5509de5001f672fffee72c",
+        "official_en_sha256": "6f1dbd6043908b74a5082c5f205e658f34316db5c6143dfbbd67399dd4858b8a"
+      },
+      "text": {
+        "jp": "即時 GE は {0} の OnComplete を受信していません",
+        "official_en": "Instant GE will never receive OnComplete for {0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AdditionalEffectsGameplayEffectComponent:IsPeriodicAndHasOnApplication:e0149e1b",
+      "source": {
+        "set": "set-02",
+        "namespace": "AdditionalEffectsGameplayEffectComponent",
+        "key": "IsPeriodicAndHasOnApplication",
+        "jp_record_id": "switch:locres:set-01:AdditionalEffectsGameplayEffectComponent:IsPeriodicAndHasOnApplication:e0149e1b",
+        "official_en_record_id": "switch:locres:set-01:AdditionalEffectsGameplayEffectComponent:IsPeriodicAndHasOnApplication:e0149e1b",
+        "jp_sha256": "83aa547d8481281decc481d4651d0280bb42805436b14bae3592b68238bf544b",
+        "official_en_sha256": "b4fe7ff9178ccd32d55ff49407ac973c0958058bfdae4a4e3bf1444dca6d78d4"
+      },
+      "text": {
+        "jp": "周期的 GE には OnApplicationGameplayEffects があります。これらの GE は 1 回のみ適用されます",
+        "official_en": "Periodic GE has OnApplicationGameplayEffects. Those GE's will only be applied once.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

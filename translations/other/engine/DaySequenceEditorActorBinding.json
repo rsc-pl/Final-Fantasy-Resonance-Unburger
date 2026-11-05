@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "DaySequenceEditorActorBinding",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:AddActor_Label:aa8aa83e",
+      "source": {
+        "set": "set-02",
+        "namespace": "DaySequenceEditorActorBinding",
+        "key": "AddActor_Label",
+        "jp_record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:AddActor_Label:aa8aa83e",
+        "official_en_record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:AddActor_Label:aa8aa83e",
+        "jp_sha256": "e83a8a1a9ccb08bf90e7c1dd7120fab67873810efb0aca1f9e54b82c80040028",
+        "official_en_sha256": "aa13301f28239789690f71d3b8afb4c64deda6143a8b09813b637cdc817b3096"
+      },
+      "text": {
+        "jp": "シーケンサーにアクタを追加",
+        "official_en": "Actor To Sequencer",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:AddSpecificActor:cd2dd560",
+      "source": {
+        "set": "set-02",
+        "namespace": "DaySequenceEditorActorBinding",
+        "key": "AddSpecificActor",
+        "jp_record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:AddSpecificActor:cd2dd560",
+        "official_en_record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:AddSpecificActor:cd2dd560",
+        "jp_sha256": "3b12a161e094266ed5363a60453eb38fcdec82d5b7b97b591db6e7640dd9b7e4",
+        "official_en_sha256": "f9de38f2fe197c64af54ac8ce2deba595f196af2e153d735feffc30e2c374371"
+      },
+      "text": {
+        "jp": "「{0}」を追加",
+        "official_en": "Add '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:AddCurrentActorSelection:76ed62c8",
+      "source": {
+        "set": "set-02",
+        "namespace": "DaySequenceEditorActorBinding",
+        "key": "AddCurrentActorSelection",
+        "jp_record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:AddCurrentActorSelection:76ed62c8",
+        "official_en_record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:AddCurrentActorSelection:76ed62c8",
+        "jp_sha256": "5f28fca9096c769a0068c8909321f33206c583a31d398b69f8e7dc33df96b830",
+        "official_en_sha256": "a941f75bd0482ca966fe611e3027d34fe8021598157048bf4d05c6c860970272"
+      },
+      "text": {
+        "jp": "現在の選択項目({0}個のアクタ)を追加",
+        "official_en": "Add Current Selection ({0} actors)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:EmptyBindingTooltip:7ecf4f3e",
+      "source": {
+        "set": "set-02",
+        "namespace": "DaySequenceEditorActorBinding",
+        "key": "EmptyBindingTooltip",
+        "jp_record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:EmptyBindingTooltip:7ecf4f3e",
+        "official_en_record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:EmptyBindingTooltip:7ecf4f3e",
+        "jp_sha256": "2e6cc518f94b43362b235cba0941ae5f7d4aa72f7087ea58d0c24fc232b388c0",
+        "official_en_sha256": "a01d0d2435f1d79eda34dba2745e0c098facca99a50f33aaf1628301a3fe6e1c"
+      },
+      "text": {
+        "jp": "シーケンサーに新しい空のバインディングを追加し、バインディング プロパティで後からオブジェクトまたはアクタに接続できるようにします",
+        "official_en": "Add a new empty binding to Sequencer which can be connected to an object or actor afterwards in the Binding Properties",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:AddActor_ToolTip:1d22d71a",
+      "source": {
+        "set": "set-02",
+        "namespace": "DaySequenceEditorActorBinding",
+        "key": "AddActor_ToolTip",
+        "jp_record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:AddActor_ToolTip:1d22d71a",
+        "official_en_record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:AddActor_ToolTip:1d22d71a",
+        "jp_sha256": "a207b4f1e02a94d2087d09b3e33ed366d9a33fac84fb2a933620d57d79922d10",
+        "official_en_sha256": "89a8f2003a06cf697682588f10b3c25f7b3421b7eeab020e6b6a975424f33691"
+      },
+      "text": {
+        "jp": "シーケンサーが現在のレベルにすでに存在するアクタを所有することを許可します",
+        "official_en": "Allow sequencer to possess an actor that already exists in the current level",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:ChooseActor:845f8c86",
+      "source": {
+        "set": "set-02",
+        "namespace": "DaySequenceEditorActorBinding",
+        "key": "ChooseActor",
+        "jp_record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:ChooseActor:845f8c86",
+        "official_en_record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:ChooseActor:845f8c86",
+        "jp_sha256": "8c9a27e784c52205a04ca4e81f129de481b588269b12e2284f0d6f7fff343201",
+        "official_en_sha256": "2f8f0820e10dc720455d4b7df924ae66e2b30cba1e28d550d0e3729d1a45bbc3"
+      },
+      "text": {
+        "jp": "アクタを選択:",
+        "official_en": "Choose Actor:",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:DaySequenceEditorActorBinding_DisplayName:f49242a1",
+      "source": {
+        "set": "set-02",
+        "namespace": "DaySequenceEditorActorBinding",
+        "key": "DaySequenceEditorActorBinding_DisplayName",
+        "jp_record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:DaySequenceEditorActorBinding_DisplayName:f49242a1",
+        "official_en_record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:DaySequenceEditorActorBinding_DisplayName:f49242a1",
+        "jp_sha256": "de55416dd232810b2c4ca17878f9b4c0bd82ff4db7d277f493c3e5199ee6ebbc",
+        "official_en_sha256": "59f8dc1e802657e6014cba072741c268f849b8c8b5d8f750c03c023f352ceeba"
+      },
+      "text": {
+        "jp": "デイシーケンス専用バインディング",
+        "official_en": "Day Sequence Specialized Binding",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:EmptyBinding:915b14ab",
+      "source": {
+        "set": "set-02",
+        "namespace": "DaySequenceEditorActorBinding",
+        "key": "EmptyBinding",
+        "jp_record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:EmptyBinding:915b14ab",
+        "official_en_record_id": "switch:locres:set-01:DaySequenceEditorActorBinding:EmptyBinding:915b14ab",
+        "jp_sha256": "dbae191279b6cdaf7dfd4a3c3966665bf23ae9e4727cb65ff6983e3f2343996a",
+        "official_en_sha256": "37988c2d8ae73a83e3965ab7d4227f308d14b58e027b936aee4db480f2d40f9e"
+      },
+      "text": {
+        "jp": "新しい空のバインディング",
+        "official_en": "New Empty Binding",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

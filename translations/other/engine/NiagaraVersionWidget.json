@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NiagaraVersionWidget",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NiagaraVersionWidget:AddMajorVersion:5aea9020",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraVersionWidget",
+        "key": "AddMajorVersion",
+        "jp_record_id": "switch:locres:set-01:NiagaraVersionWidget:AddMajorVersion:5aea9020",
+        "official_en_record_id": "switch:locres:set-01:NiagaraVersionWidget:AddMajorVersion:5aea9020",
+        "jp_sha256": "7e56e0934d99abaced0f0f7ae553eec3f6339025adbbee71164c06388614f4a3",
+        "official_en_sha256": "b8eafbb7b2998ce5ce3690a719dd03a1e793601dedac34200fd153bc0ed3dbdf"
+      },
+      "text": {
+        "jp": "メジャーバージョンを追加",
+        "official_en": "Add major version",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraVersionWidget:AddMinorVersion:61ad07ac",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraVersionWidget",
+        "key": "AddMinorVersion",
+        "jp_record_id": "switch:locres:set-01:NiagaraVersionWidget:AddMinorVersion:61ad07ac",
+        "official_en_record_id": "switch:locres:set-01:NiagaraVersionWidget:AddMinorVersion:61ad07ac",
+        "jp_sha256": "699184a72826247b5a42fea92ce83bbf87d1f7e9db99427d903fb2fd3ac3bd32",
+        "official_en_sha256": "73d824456c1e11ee0d6bf6e0e316face07a9e016d64ee972d991e94544f5b71e"
+      },
+      "text": {
+        "jp": "マイナーバージョンを追加",
+        "official_en": "Add minor version",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraVersionManagementAdd:2f6acaa0",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraVersionWidget",
+        "key": "NiagaraVersionManagementAdd",
+        "jp_record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraVersionManagementAdd:2f6acaa0",
+        "official_en_record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraVersionManagementAdd:2f6acaa0",
+        "jp_sha256": "3be0e894341d15e736dd8a170c328c57c24ecfc018efa6b428aeae2803d90ce9",
+        "official_en_sha256": "90c95ac6fcae6d85a87d93115ae963381a810f3dcb0d7e78c79f823257d81a69"
+      },
+      "text": {
+        "jp": "バージョンを追加",
+        "official_en": "Add version",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraAddMajorVersion_Tooltip:836ab24c",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraVersionWidget",
+        "key": "NiagaraAddMajorVersion_Tooltip",
+        "jp_record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraAddMajorVersion_Tooltip:836ab24c",
+        "official_en_record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraAddMajorVersion_Tooltip:836ab24c",
+        "jp_sha256": "e50ed6dc793d0a4a8abd8563b6274be263d8e665487918df602e8b10284ba97d",
+        "official_en_sha256": "3d107212a1762db527185e12b114a6c211f6b12b21ef1e835123732fb19d03f5"
+      },
+      "text": {
+        "jp": "新しいメジャー バージョンを追加します。互換性がない変更を伴う場合に使用します (新しいパラメータの追加など)",
+        "official_en": "Adds a new major version. This should be used for breaking changes (e.g. adding a new parameter).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraAddMinorVersion_Tooltip:8e02fa80",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraVersionWidget",
+        "key": "NiagaraAddMinorVersion_Tooltip",
+        "jp_record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraAddMinorVersion_Tooltip:8e02fa80",
+        "official_en_record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraAddMinorVersion_Tooltip:8e02fa80",
+        "jp_sha256": "fe8972e8e9683c182b109a3ce29b477e57b536ed4d9f6111b0a8409f54547ea3",
+        "official_en_sha256": "81bd621ccb604fd82a15f8fcb4949df53e3494b56b15b9287c921e5b75476dcd"
+      },
+      "text": {
+        "jp": "新しいマイナー バージョンを追加します。互換性がない変更を伴わない場合に使用します (コメントの追加など)",
+        "official_en": "Adds a new minor version. This should be used for non-breaking changes (e.g. adding a comment).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraVersionWidget:SaveAsAssetVersion_Tooltip:c2bd7a54",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraVersionWidget",
+        "key": "SaveAsAssetVersion_Tooltip",
+        "jp_record_id": "switch:locres:set-01:NiagaraVersionWidget:SaveAsAssetVersion_Tooltip:c2bd7a54",
+        "official_en_record_id": "switch:locres:set-01:NiagaraVersionWidget:SaveAsAssetVersion_Tooltip:c2bd7a54",
+        "jp_sha256": "3495ba8b2dfdcb21050acacdcbe41a1f58b195ac8a5956af93bb349618b2a893",
+        "official_en_sha256": "90d20c2631bb7f93edb005e0b534b0ed448fd18fa781454cc90e4a4d538c5866"
+      },
+      "text": {
+        "jp": "このバージョンをベースとして新しいアセットを作成します",
+        "official_en": "Creates a new asset with this version as starting point.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraVersionWidget:DeleteVersion:7994d8d7",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraVersionWidget",
+        "key": "DeleteVersion",
+        "jp_record_id": "switch:locres:set-01:NiagaraVersionWidget:DeleteVersion:7994d8d7",
+        "official_en_record_id": "switch:locres:set-01:NiagaraVersionWidget:DeleteVersion:7994d8d7",
+        "jp_sha256": "42cfae8b4220b9fb186072fec8dad07698c8c7a0390763ccfdc1933dde8de40d",
+        "official_en_sha256": "02d1a2d90348a67a61b9a0dfe7d663573b9d9ff7aaa02906046197c43a29a2d3"
+      },
+      "text": {
+        "jp": "バージョンを削除",
+        "official_en": "Delete version",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraVersionWidget:DeleteVersion_Tooltip:9fd42e09",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraVersionWidget",
+        "key": "DeleteVersion_Tooltip",
+        "jp_record_id": "switch:locres:set-01:NiagaraVersionWidget:DeleteVersion_Tooltip:9fd42e09",
+        "official_en_record_id": "switch:locres:set-01:NiagaraVersionWidget:DeleteVersion_Tooltip:9fd42e09",
+        "jp_sha256": "2210c06bf4e8294f44359ad7f1f592e664261fe9c222b3152c7684c1e2b5af7e",
+        "official_en_sha256": "e9af592d077dd404a56c571cb5f58446f9c06a8f3ba8a3ef242d3c8551ce0f7b"
+      },
+      "text": {
+        "jp": "このバージョンとすべての関連データが削除されます。それにより、このバージョンが現在使用されているところが壊されます",
+        "official_en": "Deletes this version and all associated data. This will break existing usages of that version!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraVersionWidget:EditMenuHeader:397f5d4c",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraVersionWidget",
+        "key": "EditMenuHeader",
+        "jp_record_id": "switch:locres:set-01:NiagaraVersionWidget:EditMenuHeader:397f5d4c",
+        "official_en_record_id": "switch:locres:set-01:NiagaraVersionWidget:EditMenuHeader:397f5d4c",
+        "jp_sha256": "11f9049ddab593adbbeccbad6d070f959cb4d60f41351acce2a9ead4281028b8",
+        "official_en_sha256": "464c4ffd019e1e9691dcf0537c797353ef2b1c1d4833d3d463e5b74ae4547344"
+      },
+      "text": {
+        "jp": "編集",
+        "official_en": "Edit",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraVersionWidget:EnableVersioning:8f990a8d",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraVersionWidget",
+        "key": "EnableVersioning",
+        "jp_record_id": "switch:locres:set-01:NiagaraVersionWidget:EnableVersioning:8f990a8d",
+        "official_en_record_id": "switch:locres:set-01:NiagaraVersionWidget:EnableVersioning:8f990a8d",
+        "jp_sha256": "3963fdccc77458fa01ce9b8eb2fbbd83d75548cc94cbeb244c5ce6e9d337e62e",
+        "official_en_sha256": "4bd210d0891cdd50e97b1de179c4f20d7d2cb66063ed35b9e9309f449ccdc16c"
+      },
+      "text": {
+        "jp": "バージョン管理を有効化",
+        "official_en": "Enable versioning",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraAEnableVersioning:d7560aba",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraVersionWidget",
+        "key": "NiagaraAEnableVersioning",
+        "jp_record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraAEnableVersioning:d7560aba",
+        "official_en_record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraAEnableVersioning:d7560aba",
+        "jp_sha256": "3963fdccc77458fa01ce9b8eb2fbbd83d75548cc94cbeb244c5ce6e9d337e62e",
+        "official_en_sha256": "4bd210d0891cdd50e97b1de179c4f20d7d2cb66063ed35b9e9309f449ccdc16c"
+      },
+      "text": {
+        "jp": "バージョン管理を有効化",
+        "official_en": "Enable versioning",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraVersionWidget:ExposeVersion:bc24af3f",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraVersionWidget",
+        "key": "ExposeVersion",
+        "jp_record_id": "switch:locres:set-01:NiagaraVersionWidget:ExposeVersion:bc24af3f",
+        "official_en_record_id": "switch:locres:set-01:NiagaraVersionWidget:ExposeVersion:bc24af3f",
+        "jp_sha256": "20ec5db21d2c73b9f91c9d96e1665a27e9ac1f9f0bf87431e680af7114b42d35",
+        "official_en_sha256": "fa537ff61c16cb1b4ebab2eda14a6a9baa6a228c39b55eb39ad6c450f41ad492"
+      },
+      "text": {
+        "jp": "バージョンを公開",
+        "official_en": "Expose version",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraVersionWidget:ExposeVersion_Tooltip:91661e21",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraVersionWidget",
+        "key": "ExposeVersion_Tooltip",
+        "jp_record_id": "switch:locres:set-01:NiagaraVersionWidget:ExposeVersion_Tooltip:91661e21",
+        "official_en_record_id": "switch:locres:set-01:NiagaraVersionWidget:ExposeVersion_Tooltip:91661e21",
+        "jp_sha256": "b1cda0ea9217330b0a4c043d55052be0b86b0af477db7565e066c4b6ec0f905a",
+        "official_en_sha256": "f48928c14954dd313914938e9bd26d6806066e691941a06973e959908f4ed6a4"
+      },
+      "text": {
+        "jp": "このバージョンを公開すると、それがすべての新しいアセットのデフォルト バージョンになります",
+        "official_en": "Exposing this version will make it the default version for any new assets.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraAddMajorVersion:5b7ce584",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraVersionWidget",
+        "key": "NiagaraAddMajorVersion",
+        "jp_record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraAddMajorVersion:5b7ce584",
+        "official_en_record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraAddMajorVersion:5b7ce584",
+        "jp_sha256": "4bf5348a2e822ce3e6459cf9c4a47119da23b35f398ec496ca4acdeec333146a",
+        "official_en_sha256": "5a4f5c85665fba388c3058b875d95582fd62deb97e8c41a8ddf3268f7dd826d3"
+      },
+      "text": {
+        "jp": "新しいメジャーバージョン({0}.0)",
+        "official_en": "New major version ({0}.0)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraAddMinorVersion:52471191",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraVersionWidget",
+        "key": "NiagaraAddMinorVersion",
+        "jp_record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraAddMinorVersion:52471191",
+        "official_en_record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraAddMinorVersion:52471191",
+        "jp_sha256": "de40a36dc869db4af69f322d8d4ab123334987b315f96a92c7d3ec5229714ab1",
+        "official_en_sha256": "fff3a607a4046284131246acf891b09f43ee4f68acc102242a7f3fa87efb43e9"
+      },
+      "text": {
+        "jp": "新しいマイナーバージョン({0}.{1})",
+        "official_en": "New minor version ({0}.{1})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraVersionWidget:SaveAsAsset:67796890",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraVersionWidget",
+        "key": "SaveAsAsset",
+        "jp_record_id": "switch:locres:set-01:NiagaraVersionWidget:SaveAsAsset:67796890",
+        "official_en_record_id": "switch:locres:set-01:NiagaraVersionWidget:SaveAsAsset:67796890",
+        "jp_sha256": "5dafe5dc443f7b27ea7339a261d97818b05f1b80cec856f0fba417d8bffef6e2",
+        "official_en_sha256": "1882f510d8d37c57b2ef2478bac7536050009bf35a385b01dac4a5adf7f833cf"
+      },
+      "text": {
+        "jp": "名前を付けて新規アセットを保存…",
+        "official_en": "Save as new asset...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraVersionManagementTitle:f3b5c851",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraVersionWidget",
+        "key": "NiagaraVersionManagementTitle",
+        "jp_record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraVersionManagementTitle:f3b5c851",
+        "official_en_record_id": "switch:locres:set-01:NiagaraVersionWidget:NiagaraVersionManagementTitle:f3b5c851",
+        "jp_sha256": "0a772e8a01e404b72fc4d9d29b74bc453ca9faa95789ef7c9b82c26f3a3d8364",
+        "official_en_sha256": "f89ea27036ac1d3174e2160a4d291d006ad6f85d466726ba04760beec0940c24"
+      },
+      "text": {
+        "jp": "バージョン",
+        "official_en": "Versions",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

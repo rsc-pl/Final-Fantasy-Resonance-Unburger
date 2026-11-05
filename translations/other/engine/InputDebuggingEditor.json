@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "InputDebuggingEditor",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:InputDebuggingEditor:InputDeviceConnectionChangeMessage:4ae4d7ce",
+      "source": {
+        "set": "set-02",
+        "namespace": "InputDebuggingEditor",
+        "key": "InputDeviceConnectionChangeMessage",
+        "jp_record_id": "switch:locres:set-01:InputDebuggingEditor:InputDeviceConnectionChangeMessage:4ae4d7ce",
+        "official_en_record_id": "switch:locres:set-01:InputDebuggingEditor:InputDeviceConnectionChangeMessage:4ae4d7ce",
+        "jp_sha256": "bc2dda54f4d5590630ddd9a75be6f3da1fe8b03f74205e85b60fd628b6d686fc",
+        "official_en_sha256": "db09ce80aabe462d612d331c8627da2bab780f181ef117b0121a7af41b841b66"
+      },
+      "text": {
+        "jp": "入力デバイス{StateMessage}",
+        "official_en": "An input device {StateMessage}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InputDebuggingEditor:InputDeviceConnectionChangeSubMessage:8d6a2d72",
+      "source": {
+        "set": "set-02",
+        "namespace": "InputDebuggingEditor",
+        "key": "InputDeviceConnectionChangeSubMessage",
+        "jp_record_id": "switch:locres:set-01:InputDebuggingEditor:InputDeviceConnectionChangeSubMessage:8d6a2d72",
+        "official_en_record_id": "switch:locres:set-01:InputDebuggingEditor:InputDeviceConnectionChangeSubMessage:8d6a2d72",
+        "jp_sha256": "a848d8a3ea336b022ac41b23ca524e676ee5fc57fb7760c4ff2f4598fb39536f",
+        "official_en_sha256": "04f8f2e2155478d48c52333abfdde4feb40472d2fbcf6ea94659b1e49441d340"
+      },
+      "text": {
+        "jp": "プラットフォームユーザーID: {PlatformUser}\nデバイスID: {DeviceId}",
+        "official_en": "Platform User ID: {PlatformUser}\nDevice ID: {DeviceId}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InputDebuggingEditor:UnknownStateLabel:373fcfa6",
+      "source": {
+        "set": "set-02",
+        "namespace": "InputDebuggingEditor",
+        "key": "UnknownStateLabel",
+        "jp_record_id": "switch:locres:set-01:InputDebuggingEditor:UnknownStateLabel:373fcfa6",
+        "official_en_record_id": "switch:locres:set-01:InputDebuggingEditor:UnknownStateLabel:373fcfa6",
+        "jp_sha256": "8bb372e4e68a0d2e00e7dd0045f099f2d5fd1073ab851b9ad58cf61ec552e6c9",
+        "official_en_sha256": "85e35a16a9202c54e49c98421f684d1dc2c537c8c88b33c5494dd875416da0ea"
+      },
+      "text": {
+        "jp": "不明ステートがある",
+        "official_en": "has an unknown state!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InputDebuggingEditor:ConnectedStateLabel:4785d0fd",
+      "source": {
+        "set": "set-02",
+        "namespace": "InputDebuggingEditor",
+        "key": "ConnectedStateLabel",
+        "jp_record_id": "switch:locres:set-01:InputDebuggingEditor:ConnectedStateLabel:4785d0fd",
+        "official_en_record_id": "switch:locres:set-01:InputDebuggingEditor:ConnectedStateLabel:4785d0fd",
+        "jp_sha256": "5f22f0bb58682b4a9bdee8646968d2895f6911055599d5f26cd1d931e78d37ba",
+        "official_en_sha256": "069a8b82659895a28899199e8201067ebf4780abb22b911bdd49a9e05953beaa"
+      },
+      "text": {
+        "jp": "接続済み",
+        "official_en": "has been connected.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InputDebuggingEditor:DisconnectedStateLabel:752eeed0",
+      "source": {
+        "set": "set-02",
+        "namespace": "InputDebuggingEditor",
+        "key": "DisconnectedStateLabel",
+        "jp_record_id": "switch:locres:set-01:InputDebuggingEditor:DisconnectedStateLabel:752eeed0",
+        "official_en_record_id": "switch:locres:set-01:InputDebuggingEditor:DisconnectedStateLabel:752eeed0",
+        "jp_sha256": "0660bb0a4f8ecef88a6ec82b352c905a847917cd4c97b54407096051d7776623",
+        "official_en_sha256": "5ad1b38ee14a411c1328c7a8fe5ab89f0488ba7f467a797ba7caa4e84ce0f7ff"
+      },
+      "text": {
+        "jp": "切断済み",
+        "official_en": "has been disconnected",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InputDebuggingEditor:InvalidStateLabel:5ea41b99",
+      "source": {
+        "set": "set-02",
+        "namespace": "InputDebuggingEditor",
+        "key": "InvalidStateLabel",
+        "jp_record_id": "switch:locres:set-01:InputDebuggingEditor:InvalidStateLabel:5ea41b99",
+        "official_en_record_id": "switch:locres:set-01:InputDebuggingEditor:InvalidStateLabel:5ea41b99",
+        "jp_sha256": "7b33b7e82ba24e27ba4c4c983c928b9fe429e1655caf287d4507026a4bf0c2c1",
+        "official_en_sha256": "51299d3d1e355ade337cc197994e822666d50105f19f011595726b184ef397c4"
+      },
+      "text": {
+        "jp": "無効なステートである",
+        "official_en": "is in an invalid state",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

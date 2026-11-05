@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AsyncCompilation",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AsyncCompilation:AsyncCompilationProgress:d5dd71b8",
+      "source": {
+        "set": "set-02",
+        "namespace": "AsyncCompilation",
+        "key": "AsyncCompilationProgress",
+        "jp_record_id": "switch:locres:set-01:AsyncCompilation:AsyncCompilationProgress:d5dd71b8",
+        "official_en_record_id": "switch:locres:set-01:AsyncCompilation:AsyncCompilationProgress:d5dd71b8",
+        "jp_sha256": "bc5085ef748902e4169fb5f78d67e15d1cdf1c536aa9931b63cf2e4dd2e9ac27",
+        "official_en_sha256": "51bc9f890dc17245ac8f7905bb24daf573d0c28dcda1dd42a14ee4bf1785fe6b"
+      },
+      "text": {
+        "jp": "{AssetType} ({NumJobs})を準備しています",
+        "official_en": "Preparing {AssetType} ({NumJobs})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AsyncCompilation:WaitingOnFinishCompilationWithCount:875e62bf",
+      "source": {
+        "set": "set-02",
+        "namespace": "AsyncCompilation",
+        "key": "WaitingOnFinishCompilationWithCount",
+        "jp_record_id": "switch:locres:set-01:AsyncCompilation:WaitingOnFinishCompilationWithCount:875e62bf",
+        "official_en_record_id": "switch:locres:set-01:AsyncCompilation:WaitingOnFinishCompilationWithCount:875e62bf",
+        "jp_sha256": "dfd023c22a99fa292d4b5d7695f42e0bd3a606faabdc1249152fa5b350430b9c",
+        "official_en_sha256": "a2107150e6bacace83f666c11993ab807df13219163929670849385dd477853b"
+      },
+      "text": {
+        "jp": "{AssetType}の準備ができるのを待ってます。{Done}/{Total} ({ObjectName})…",
+        "official_en": "Waiting for {AssetType} to be ready {Done}/{Total} ({ObjectName}) ...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AsyncCompilation:WaitingOnFinishCompilation:e5f1ab0a",
+      "source": {
+        "set": "set-02",
+        "namespace": "AsyncCompilation",
+        "key": "WaitingOnFinishCompilation",
+        "jp_record_id": "switch:locres:set-01:AsyncCompilation:WaitingOnFinishCompilation:e5f1ab0a",
+        "official_en_record_id": "switch:locres:set-01:AsyncCompilation:WaitingOnFinishCompilation:e5f1ab0a",
+        "jp_sha256": "10e5acac8db501e98683b3d134b8c28148c1a73a28b8a3cb8522142751d4d525",
+        "official_en_sha256": "5a24a830a8e54a0dd32bbb08744d9c2518471ca6e068f1473ca96760f45231f2"
+      },
+      "text": {
+        "jp": "{AssetType}の準備を待機しています",
+        "official_en": "Waiting on {AssetType} preparation",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

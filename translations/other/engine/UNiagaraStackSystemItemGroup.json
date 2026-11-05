@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UNiagaraStackSystemItemGroup",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:FixOverridesWithNoEffectType:e2f0ea16",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackSystemItemGroup",
+        "key": "FixOverridesWithNoEffectType",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:FixOverridesWithNoEffectType:e2f0ea16",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:FixOverridesWithNoEffectType:e2f0ea16",
+        "jp_sha256": "a650aa9fddefb358809618535cf3f717705b91939c8383532eff06f388a5a6d7",
+        "official_en_sha256": "cef0c6e6a5e0788d95df42e79d557ba0149766c8d7370c41b38f6c11ed935bb4"
+      },
+      "text": {
+        "jp": "オーバーライドを無効化",
+        "official_en": "Disable Overrides",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:WarmupDeltaTimeExceedsEmitterDeltaTimeWarningText:d0a06672",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackSystemItemGroup",
+        "key": "WarmupDeltaTimeExceedsEmitterDeltaTimeWarningText",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:WarmupDeltaTimeExceedsEmitterDeltaTimeWarningText:d0a06672",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:WarmupDeltaTimeExceedsEmitterDeltaTimeWarningText:d0a06672",
+        "jp_sha256": "66e629f432bc551f2b9bd56bf9246ba1a7e617af209bdd2db61b1d0e89daf621",
+        "official_en_sha256": "e61038aece8f45f463046dbf74bc4351c7332f4f946e048bcd5ad245c43356d0"
+      },
+      "text": {
+        "jp": "エミッタ {0} の [最大ティックデルタ時間] がシステムの [ウォームアップデルタ時間] の値を下回っています。そのため、このエミッタのウォームアップ時に意図しない結果になる可能性があります。最大ティック デルタ時間は、Niagara 設定で変更できます",
+        "official_en": "Emitter {0} has a Max Tick Delta Time smaller than the System's Warmup Delta Time. This could cause unintended results during warmup for this emitter.\nThe max tick delta time can be changed in the Niagara setting.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:SystemPropertiesTooltip:2388dab9",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackSystemItemGroup",
+        "key": "SystemPropertiesTooltip",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:SystemPropertiesTooltip:2388dab9",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:SystemPropertiesTooltip:2388dab9",
+        "jp_sha256": "d58eeda208084246bcaaed9dff739e9b63baf03c0ca572cc8800f5bb233cfd30",
+        "official_en_sha256": "1927266951ebda89c9bbd32657255c5ad46ba8ea60ea4041e60f0e4a0dcc4408"
+      },
+      "text": {
+        "jp": "システムのプロパティです。ランタイムにこれらを変更できません。",
+        "official_en": "Properties of the System. These cannot change at runtime.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:FixWarmupDeltaTime:829be781",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackSystemItemGroup",
+        "key": "FixWarmupDeltaTime",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:FixWarmupDeltaTime:829be781",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:FixWarmupDeltaTime:829be781",
+        "jp_sha256": "800fd8af43d8acc6b86d53a1c5aa5b3387cd3dceee0f8d4138a9aa1652519337",
+        "official_en_sha256": "ba27feab8258fc2393b1857c8901210739d2a387678c246b6f5b87e97b0bfae0"
+      },
+      "text": {
+        "jp": "システムの [ウォームアップデルタ時間] の値を減らします",
+        "official_en": "Reduce System Warmup Delta Time",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:FixOverridesWithNoEffectTypeSummaryText:98541175",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackSystemItemGroup",
+        "key": "FixOverridesWithNoEffectTypeSummaryText",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:FixOverridesWithNoEffectTypeSummaryText:98541175",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:FixOverridesWithNoEffectTypeSummaryText:98541175",
+        "jp_sha256": "62867ee98ce7c60b739222b8d71c9605b579dbb7d34bf2265685617959712d1d",
+        "official_en_sha256": "4ec6d9504983343eb10ac5fe2e12e8cfd69569621fbde3ea856617ffbe8e61f2"
+      },
+      "text": {
+        "jp": "エフェクト タイプなしでスケーラビリティをオーバーライドします。",
+        "official_en": "Scalability overrides with no Effect Type.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:FixOverridesWithNoEffectTypeErrorText:59f62354",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackSystemItemGroup",
+        "key": "FixOverridesWithNoEffectTypeErrorText",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:FixOverridesWithNoEffectTypeErrorText:59f62354",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:FixOverridesWithNoEffectTypeErrorText:59f62354",
+        "jp_sha256": "cf4e652f402a0c6ccee39fc0a5490e8ce86325ee1760496f29f996780b8d99f7",
+        "official_en_sha256": "4a74c002c468b079df09ab619d2762dc569f4e0a03f51f40151b22853b6a5732"
+      },
+      "text": {
+        "jp": "システムにエフェクト タイプがない場合は、スケーラビリティ設定をオーバーライドできません。",
+        "official_en": "Scalability settings cannot be overriden if the System has no Effect Type.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:SystemPropertiesName:b242ec02",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackSystemItemGroup",
+        "key": "SystemPropertiesName",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:SystemPropertiesName:b242ec02",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:SystemPropertiesName:b242ec02",
+        "jp_sha256": "ca86389f8143d2a3f664ecc49b66af44ea9f9460bf8afe23e3169a4a41795fd1",
+        "official_en_sha256": "7cde8be2f56952421e53aa913fb95c55fb047b106b17eae03e068eb85e47de8c"
+      },
+      "text": {
+        "jp": "システム プロパティ",
+        "official_en": "System Properties",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:WarmupDeltaTimeExceedsEmitterDeltaTimeWarningSummary:240005e9",
+      "source": {
+        "set": "set-02",
+        "namespace": "UNiagaraStackSystemItemGroup",
+        "key": "WarmupDeltaTimeExceedsEmitterDeltaTimeWarningSummary",
+        "jp_record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:WarmupDeltaTimeExceedsEmitterDeltaTimeWarningSummary:240005e9",
+        "official_en_record_id": "switch:locres:set-01:UNiagaraStackSystemItemGroup:WarmupDeltaTimeExceedsEmitterDeltaTimeWarningSummary:240005e9",
+        "jp_sha256": "a4f8db3a8d427febe6b40ff00a8a761ddaa291cac3a51150ec5c267955013c16",
+        "official_en_sha256": "89c21142a90fed9ff76b7d4d9ff51f5846c82f4117b17f583f6fd86e333c10d7"
+      },
+      "text": {
+        "jp": "システムの [ウォームアップデルタ時間] の値がエミッタの [最大デルタ時間] の値を上回っています",
+        "official_en": "System Warmup Delta Time Exceeds Emitter Max Delta Time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

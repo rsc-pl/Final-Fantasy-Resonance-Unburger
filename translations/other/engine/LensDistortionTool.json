@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "LensDistortionTool",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:LensDistortionTool:CalibrationErrorTitle:070227e1",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDistortionTool",
+        "key": "CalibrationErrorTitle",
+        "jp_record_id": "switch:locres:set-01:LensDistortionTool:CalibrationErrorTitle:070227e1",
+        "official_en_record_id": "switch:locres:set-01:LensDistortionTool:CalibrationErrorTitle:070227e1",
+        "jp_sha256": "b90f5a89a0b7ceb4c368d360e1541d220f7db1dc22a4632eb7be985be45bac04",
+        "official_en_sha256": "c5330cba4bbc8125eb2927b82da9487ffdcdd3089cf2b61e91c654c592dcee3a"
+      },
+      "text": {
+        "jp": "キャリブレーション エラー",
+        "official_en": "Calibration Error",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDistortionTool:CalibrationResultErrorMessage:6b87f6aa",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDistortionTool",
+        "key": "CalibrationResultErrorMessage",
+        "jp_record_id": "switch:locres:set-01:LensDistortionTool:CalibrationResultErrorMessage:6b87f6aa",
+        "official_en_record_id": "switch:locres:set-01:LensDistortionTool:CalibrationResultErrorMessage:6b87f6aa",
+        "jp_sha256": "ab48b475016c9569e78abc2ef2cdfbfc98bba543e02a2cb258628c18229e86a6",
+        "official_en_sha256": "fd5fe5f1f7535ae21d0320568580bd8be418e360ef2ff9ad4d14e36de1e90bc8"
+      },
+      "text": {
+        "jp": "キャリブレーション エラー：{0}",
+        "official_en": "Calibration Error: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDistortionTool:CaptureError:82d2fbba",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDistortionTool",
+        "key": "CaptureError",
+        "jp_record_id": "switch:locres:set-01:LensDistortionTool:CaptureError:82d2fbba",
+        "official_en_record_id": "switch:locres:set-01:LensDistortionTool:CaptureError:82d2fbba",
+        "jp_sha256": "eb1a5f278ecf6acd2ba531600e562ad6591d9ca04150d64ef62ec4af442fecd5",
+        "official_en_sha256": "3e575224b9e6711e5908b7ad94951ad5608f6e05880fe8f265f9b7438892bf90"
+      },
+      "text": {
+        "jp": "キャプチャーのエラー",
+        "official_en": "Capture Error",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDistortionTool:NoCheckerboardError:377e434f",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDistortionTool",
+        "key": "NoCheckerboardError",
+        "jp_record_id": "switch:locres:set-01:LensDistortionTool:NoCheckerboardError:377e434f",
+        "official_en_record_id": "switch:locres:set-01:LensDistortionTool:NoCheckerboardError:377e434f",
+        "jp_sha256": "f3e45427c4895a90a5913159524722fad35b2f612c94703b29ead07efcbe4f05",
+        "official_en_sha256": "34d1bbf5a143d32f201c06cc1375284e5db0ad6dbd745c01cfbb69a8719e5b9f"
+      },
+      "text": {
+        "jp": "{0}x{1} のチェッカーボードを画像内で検出できませんでした",
+        "official_en": "Failed to detect a {0}x{1} checkerboard in the image.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDistortionTool:NoArucoMarkersFoundError:6b787cb1",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDistortionTool",
+        "key": "NoArucoMarkersFoundError",
+        "jp_record_id": "switch:locres:set-01:LensDistortionTool:NoArucoMarkersFoundError:6b787cb1",
+        "official_en_record_id": "switch:locres:set-01:LensDistortionTool:NoArucoMarkersFoundError:6b787cb1",
+        "jp_sha256": "2b4e7aac03d409b3cef3f19c41e8caac72412ed97a29268bc9eb9e549181308e",
+        "official_en_sha256": "75b00f408e5d2dd90ad31f46258c0ec8e556d9a2cf0e78ff845ea62eb4fc20dd"
+      },
+      "text": {
+        "jp": "選択されているキャリブレータのディクショナリに属する ArUco マーカーを画像内で検出できませんでした",
+        "official_en": "Failed to detect any aruco markers in the image belonging to the dictionary of the selected calibrator.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDistortionTool:ErrorReadingMedia:91d74125",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDistortionTool",
+        "key": "ErrorReadingMedia",
+        "jp_record_id": "switch:locres:set-01:LensDistortionTool:ErrorReadingMedia:91d74125",
+        "official_en_record_id": "switch:locres:set-01:LensDistortionTool:ErrorReadingMedia:91d74125",
+        "jp_sha256": "bf9fe294e681d8c9901a3171aaecc9a084e421c413f02400fe8666feab97d79f",
+        "official_en_sha256": "d5b405e4f8452cabd25fe5e688aafade2eb68381c2e28198010c93ba0c6cefd9"
+      },
+      "text": {
+        "jp": "メディアのエラー",
+        "official_en": "Media Error",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDistortionTool:InvalidFocalLengthError:fdd00b19",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDistortionTool",
+        "key": "InvalidFocalLengthError",
+        "jp_record_id": "switch:locres:set-01:LensDistortionTool:InvalidFocalLengthError:fdd00b19",
+        "official_en_record_id": "switch:locres:set-01:LensDistortionTool:InvalidFocalLengthError:fdd00b19",
+        "jp_sha256": "1f5940aae1cc7654f04f3e17f986895e9eb1ecd150cb63ff3a21a88bc37219cf",
+        "official_en_sha256": "28f763b6d0db9affded938f9cbb9905f5308bf3ab4e9b937bfdc4a6c3b594b21"
+      },
+      "text": {
+        "jp": "レンズの焦点距離の有効な推定値 (mm) を入力してください",
+        "official_en": "Please enter a valid estimate for the focal length of the lens (in mm).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDistortionTool:NoCalibratorError:3c740eed",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDistortionTool",
+        "key": "NoCalibratorError",
+        "jp_record_id": "switch:locres:set-01:LensDistortionTool:NoCalibratorError:3c740eed",
+        "official_en_record_id": "switch:locres:set-01:LensDistortionTool:NoCalibratorError:3c740eed",
+        "jp_sha256": "1fec999735fb930fdc70115c220c2251ade3f015b0f6fa170c16c7f9cf2e71dd",
+        "official_en_sha256": "9066988704bb0b0dfbdc49ca63616c2a3d9c1922a6b08603b46b9dc92a4f49a4"
+      },
+      "text": {
+        "jp": "有効なキャリブレータ アクタを 1 つ選択してください",
+        "official_en": "Please select a valid calibrator actor.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDistortionTool:CalibrationResultReprojectionError:d7b59ebd",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDistortionTool",
+        "key": "CalibrationResultReprojectionError",
+        "jp_record_id": "switch:locres:set-01:LensDistortionTool:CalibrationResultReprojectionError:d7b59ebd",
+        "official_en_record_id": "switch:locres:set-01:LensDistortionTool:CalibrationResultReprojectionError:d7b59ebd",
+        "jp_sha256": "228f747c9d07fd650a49c8d67daf6a8988d6f47a6994d6822bfe39b2c792e22f",
+        "official_en_sha256": "18bd1f972fecd5f0449a8d70737089b3fdd4581a457f91b0df30dbc38ebaf6c6"
+      },
+      "text": {
+        "jp": "再投影エラー：{0} ピクセル",
+        "official_en": "Reprojection Error: {0} pixels",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDistortionTool:SaveCurrentDistortionData:3cf53745",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDistortionTool",
+        "key": "SaveCurrentDistortionData",
+        "jp_record_id": "switch:locres:set-01:LensDistortionTool:SaveCurrentDistortionData:3cf53745",
+        "official_en_record_id": "switch:locres:set-01:LensDistortionTool:SaveCurrentDistortionData:3cf53745",
+        "jp_sha256": "b81ddd6270134dc75dde2d5405ba98dffbc987874236c4916d84041cecfca411",
+        "official_en_sha256": "7aa487348ec426563c9aace70e5bda635f7cbbf70121c343b5608218decec608"
+      },
+      "text": {
+        "jp": "キャリブレーション済みの歪みをレンズアセットに保存",
+        "official_en": "Save Calibrated Distortion to Lens Asset",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDistortionTool:SaveNodalOffsetResult:ee8eb11c",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDistortionTool",
+        "key": "SaveNodalOffsetResult",
+        "jp_record_id": "switch:locres:set-01:LensDistortionTool:SaveNodalOffsetResult:ee8eb11c",
+        "official_en_record_id": "switch:locres:set-01:LensDistortionTool:SaveNodalOffsetResult:ee8eb11c",
+        "jp_sha256": "92fd36b1df525ef315ec4dc03d8296e30f5301438de4a9161468d6f99d0eadf5",
+        "official_en_sha256": "a9a87a60b6895cdb000f4104f0d721e755734acf22304de7ed359f2edd4bf773"
+      },
+      "text": {
+        "jp": "キャリブレーション済みの節点オフセットをレンズアセットに保存",
+        "official_en": "Save Calibrated Nodal Offset to Lens Asset",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDistortionTool:NoArucoDictionaryError:240d69e6",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDistortionTool",
+        "key": "NoArucoDictionaryError",
+        "jp_record_id": "switch:locres:set-01:LensDistortionTool:NoArucoDictionaryError:240d69e6",
+        "official_en_record_id": "switch:locres:set-01:LensDistortionTool:NoArucoDictionaryError:240d69e6",
+        "jp_sha256": "b37689cb8e4d1476014355f6bc6bf331ce4e6fa325706c4c9e236d8321f916a8",
+        "official_en_sha256": "9459885e021dc7cfc9b0235012fc56136f901ebe76801b93e1bcd8c13df4e06c"
+      },
+      "text": {
+        "jp": "選択されているキャリブレータのキャリブレーション コンポーネントでは、有効な ArUco ディクショナリが指定されていません",
+        "official_en": "The calibration components of the selected calibrator do not specify a valid Aruco dictionary.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDistortionTool:EmptyDatasetError:215cc4d9",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDistortionTool",
+        "key": "EmptyDatasetError",
+        "jp_record_id": "switch:locres:set-01:LensDistortionTool:EmptyDatasetError:215cc4d9",
+        "official_en_record_id": "switch:locres:set-01:LensDistortionTool:EmptyDatasetError:215cc4d9",
+        "jp_sha256": "bd634739b351a63d360fe9974fa85837e761dee75d0cddf40ab8ccb031eaa681",
+        "official_en_sha256": "15b1569fb0863a725edc4d0294906d53b222c3ff2e5a35ed08181d23098606d0"
+      },
+      "text": {
+        "jp": "キャリブレーション データセットが空です。有効なデータセットを選択するか、キャリブレーションの前に新しいデータセットをキャプチャーしてください",
+        "official_en": "The calibration dataset is empty. Please select a valid dataset or capture a new one before calibrating.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDistortionTool:CheckerboardActorRequiredError:144a505b",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDistortionTool",
+        "key": "CheckerboardActorRequiredError",
+        "jp_record_id": "switch:locres:set-01:LensDistortionTool:CheckerboardActorRequiredError:144a505b",
+        "official_en_record_id": "switch:locres:set-01:LensDistortionTool:CheckerboardActorRequiredError:144a505b",
+        "jp_sha256": "af18180ab256eddd33803d78d2b4032e04c904100bf0d68f47d99ec1ed140115",
+        "official_en_sha256": "0acc38730871dc5e4c4c773c20f57f987fc1a7d3964fa537c157ae9ba002eec2"
+      },
+      "text": {
+        "jp": "選択されているキャリブレータは Camera Calibration Checkerboard アクタである必要があります",
+        "official_en": "The selected calibrator must be actor must be a Camera Calibration Checkerboard actor.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDistortionTool:NoJsonFilesFound:f8c76e79",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDistortionTool",
+        "key": "NoJsonFilesFound",
+        "jp_record_id": "switch:locres:set-01:LensDistortionTool:NoJsonFilesFound:f8c76e79",
+        "official_en_record_id": "switch:locres:set-01:LensDistortionTool:NoJsonFilesFound:f8c76e79",
+        "jp_sha256": "32dcfa1202bea461e0c8719969a8b7dfddfa7ae9869aa7332f113b948e1e5311",
+        "official_en_sha256": "985484a8a54f12d7df10effd90a7341203b417f955e518077110e5c49bfb53f6"
+      },
+      "text": {
+        "jp": "選択ディレクトリにインポートする .json ファイルがありません",
+        "official_en": "The selected directory has no .json files to import.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDistortionTool:InvalidSensorWidthError:2873f0ca",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDistortionTool",
+        "key": "InvalidSensorWidthError",
+        "jp_record_id": "switch:locres:set-01:LensDistortionTool:InvalidSensorWidthError:2873f0ca",
+        "official_en_record_id": "switch:locres:set-01:LensDistortionTool:InvalidSensorWidthError:2873f0ca",
+        "jp_sha256": "ca2012df2136f1fd8b080e1524ce929d802c4ea359db090e5ad251e558cc684d",
+        "official_en_sha256": "40a10c1155f9f61afe7b7abf00d89e2770f6e03f8e22ee3f48835ce55143ca2e"
+      },
+      "text": {
+        "jp": "カメラ設定で、センサーの幅とスクイーズ倍率はどちらも 0 より大きい必要があります。有効な値を入力してください",
+        "official_en": "The sensor width and squeeze factor in the camera settings must both be greater than zero. Please enter a valid value.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDistortionTool:ImportDatasetConfirmationMessage:38e60ade",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDistortionTool",
+        "key": "ImportDatasetConfirmationMessage",
+        "jp_record_id": "switch:locres:set-01:LensDistortionTool:ImportDatasetConfirmationMessage:38e60ade",
+        "official_en_record_id": "switch:locres:set-01:LensDistortionTool:ImportDatasetConfirmationMessage:38e60ade",
+        "jp_sha256": "13217bad06b797a411f8a72eff8cb20b1d62f244539c46a18977b59f52948e0c",
+        "official_en_sha256": "6898349b45c1867715c004e81060d834e02156660efa68bec3c98d934efb1ea3"
+      },
+      "text": {
+        "jp": "既存のキャリブレーション行があり、インポート処理中に除去されます。インポートを続行しますか？",
+        "official_en": "There are existing calibration rows which will be removed during the import process. Do you want to proceed with the import?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

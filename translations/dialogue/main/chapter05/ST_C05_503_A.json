@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_C05_503_A",
+    "scene_id": "ST_C05_503_A",
+    "chapter": "chapter05",
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_C05_503_A:503_A_001:eba318c6",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_C05_503_A",
+        "key": "503_A_001",
+        "jp_record_id": "switch:locres:set-02:ST_C05_503_A:503_A_001:eba318c6",
+        "official_en_record_id": "switch:locres:set-02:ST_C05_503_A:503_A_001:eba318c6",
+        "jp_sha256": "15231b535959dd07b375945f1e023daa4310e4ca50301fe21fe01c88d407baa0",
+        "official_en_sha256": "a82381e392fe0976bfde8346d8130c69bfcafd723dea9f9da2ca0c0ef42d6c02"
+      },
+      "text": {
+        "jp": "なにこれ……！\r\nみんな、何かに捕まって……！",
+        "official_en": "What in the...!? Everyone, grab on to something!",
+        "real_en": "What's happening...?! Something's got everyone...!"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_C05_503_A",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "リド",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0057",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_C05_503_A/503_A_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ImageComparer",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ImageComparer:DifferentImageSizes:2389eb0b",
+      "source": {
+        "set": "set-02",
+        "namespace": "ImageComparer",
+        "key": "DifferentImageSizes",
+        "jp_record_id": "switch:locres:set-01:ImageComparer:DifferentImageSizes:2389eb0b",
+        "official_en_record_id": "switch:locres:set-01:ImageComparer:DifferentImageSizes:2389eb0b",
+        "jp_sha256": "74a1aadefd1462ae82b5cf58725e40050bedac35d3e66884b9aed26288a60915",
+        "official_en_sha256": "4fc99374e20e2e0dd5b2d900e8b4186e32a7aad559bc7a53ae5b6144c85bb97f"
+      },
+      "text": {
+        "jp": "サイズが一致しないため({WidthA}x{HeightA} 対 {WidthB}x{HeightB})、画像を比較できませんでした。",
+        "official_en": "Image comparison failed as sizes do not match, {WidthA}x{HeightA} vs {WidthB}x{HeightB}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ImageComparer:ErrorReadingRawDataA:b8ad396c",
+      "source": {
+        "set": "set-02",
+        "namespace": "ImageComparer",
+        "key": "ErrorReadingRawDataA",
+        "jp_record_id": "switch:locres:set-01:ImageComparer:ErrorReadingRawDataA:b8ad396c",
+        "official_en_record_id": "switch:locres:set-01:ImageComparer:ErrorReadingRawDataA:b8ad396c",
+        "jp_sha256": "f46e3ee843d2f46e0e446a2b1be09c09e650aea39446e32b315708869ee36fc8",
+        "official_en_sha256": "a4c7399d2e68190a76b7afe8d1910f7f4c681b5cfb12ab924269cc45a307f0ad"
+      },
+      "text": {
+        "jp": "画像を圧縮解除できません",
+        "official_en": "Unable to decompress image",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ImageComparer:ImageWrapperMissing:c13fffe9",
+      "source": {
+        "set": "set-02",
+        "namespace": "ImageComparer",
+        "key": "ImageWrapperMissing",
+        "jp_record_id": "switch:locres:set-01:ImageComparer:ImageWrapperMissing:c13fffe9",
+        "official_en_record_id": "switch:locres:set-01:ImageComparer:ImageWrapperMissing:c13fffe9",
+        "jp_sha256": "9e595ff05250f3d27ba19ec96ccbb5c9745b58b892e3263b7e7850304d301c57",
+        "official_en_sha256": "20ee3e5eac731d526065e9c02e2b39e085b428de6b60cceee66e95e83ccc43db"
+      },
+      "text": {
+        "jp": "ファイル形式{0}の画像プロセッサが見つかりません",
+        "official_en": "Unable to locate image processor for file format {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ImageComparer:ErrorParsingImageA:9a5ce562",
+      "source": {
+        "set": "set-02",
+        "namespace": "ImageComparer",
+        "key": "ErrorParsingImageA",
+        "jp_record_id": "switch:locres:set-01:ImageComparer:ErrorParsingImageA:9a5ce562",
+        "official_en_record_id": "switch:locres:set-01:ImageComparer:ErrorParsingImageA:9a5ce562",
+        "jp_sha256": "4c554a27a9480b4b50c9d482c3cf9446cf23c1415d1494010daf948b6565de1c",
+        "official_en_sha256": "afbb71fe847aa174f5ebbf302164025e8b8ee4265c0877c6edc8678cd2a3b6ac"
+      },
+      "text": {
+        "jp": "画像を解析できません",
+        "official_en": "Unable to parse image",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ImageComparer:ErrorOpeningImageA:570ee4e9",
+      "source": {
+        "set": "set-02",
+        "namespace": "ImageComparer",
+        "key": "ErrorOpeningImageA",
+        "jp_record_id": "switch:locres:set-01:ImageComparer:ErrorOpeningImageA:570ee4e9",
+        "official_en_record_id": "switch:locres:set-01:ImageComparer:ErrorOpeningImageA:570ee4e9",
+        "jp_sha256": "85a01ab0d6a1d747dea3501f7cc4f6e2e26058ada23d6ce1f19cf7f810ce9c73",
+        "official_en_sha256": "f60047d5c0a5571e279256e87f325f8caa4b8ebbbe901ab66f1893dc99a26d6e"
+      },
+      "text": {
+        "jp": "画像を読み取れません",
+        "official_en": "Unable to read image",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ImageComparer:DifferentSizesUnsupported:25b7b6bc",
+      "source": {
+        "set": "set-02",
+        "namespace": "ImageComparer",
+        "key": "DifferentSizesUnsupported",
+        "jp_record_id": "switch:locres:set-01:ImageComparer:DifferentSizesUnsupported:25b7b6bc",
+        "official_en_record_id": "switch:locres:set-01:ImageComparer:DifferentSizesUnsupported:25b7b6bc",
+        "jp_sha256": "f1f0595f98c8357e5d51bf94dbc7649d22866f840444faf359e306a91d670f00",
+        "official_en_sha256": "92b7c9e27e7285385ea2f6ba43f6be953f9a98f890eb6adc1771e03e177182f1"
+      },
+      "text": {
+        "jp": "現時点では、異なるサイズの画像を比較することはできません。",
+        "official_en": "We can not compare images of different sizes at this time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

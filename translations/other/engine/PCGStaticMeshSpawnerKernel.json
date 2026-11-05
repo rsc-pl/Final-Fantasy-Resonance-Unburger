@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGStaticMeshSpawnerKernel",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGStaticMeshSpawnerKernel:InvalidMeshSelector:c2d7a77f",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGStaticMeshSpawnerKernel",
+        "key": "InvalidMeshSelector",
+        "jp_record_id": "switch:locres:set-01:PCGStaticMeshSpawnerKernel:InvalidMeshSelector:c2d7a77f",
+        "official_en_record_id": "switch:locres:set-01:PCGStaticMeshSpawnerKernel:InvalidMeshSelector:c2d7a77f",
+        "jp_sha256": "a4c06039c88ea8b5fee0c7b924fada8a02531f41fd972a8474e8db83c15b9ee6",
+        "official_en_sha256": "bc25c41a02410fe820b708bfb1802ff50d4b8d6806e19693c2044af46044b582"
+      },
+      "text": {
+        "jp": "現時点では、GPU Static Mesh Spawner ノードではメッシュ選択タイプとして PCGMeshSelectorWeighted または UPCGMeshSelectorByAttribute を使用する必要があります",
+        "official_en": "Currently GPU Static Mesh Spawner nodes must use PCGMeshSelectorWeighted or UPCGMeshSelectorByAttribute as the mesh selector type.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGStaticMeshSpawnerKernel:NoMeshEntries:9b1a2eeb",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGStaticMeshSpawnerKernel",
+        "key": "NoMeshEntries",
+        "jp_record_id": "switch:locres:set-01:PCGStaticMeshSpawnerKernel:NoMeshEntries:9b1a2eeb",
+        "official_en_record_id": "switch:locres:set-01:PCGStaticMeshSpawnerKernel:NoMeshEntries:9b1a2eeb",
+        "jp_sha256": "d0c5c6c50351abf62a6571c18945b0923589278f703cc74813804cecdd4118f9",
+        "official_en_sha256": "a06c8e6e15102909136fcc3dc1ff538d149215e135073ac5ea0e4c76b4dddfca"
+      },
+      "text": {
+        "jp": "加重メッシュ セレクタにメッシュ エントリが提供されていません",
+        "official_en": "No mesh entries provided in weighted mesh selector.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGStaticMeshSpawnerKernel:InvalidInstancePacker:f3d82500",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGStaticMeshSpawnerKernel",
+        "key": "InvalidInstancePacker",
+        "jp_record_id": "switch:locres:set-01:PCGStaticMeshSpawnerKernel:InvalidInstancePacker:f3d82500",
+        "official_en_record_id": "switch:locres:set-01:PCGStaticMeshSpawnerKernel:InvalidInstancePacker:f3d82500",
+        "jp_sha256": "4e5635f1558f81807053c13f1d57220af76dc09d2c6cd7f20d1f02560fababd5",
+        "official_en_sha256": "fc831a8dbf7ce8034f138da15a196d1561a85110fe07b9ee8066124652c0809c"
+      },
+      "text": {
+        "jp": "選択されているインスタンス パッカーでは GPU 実行はサポートされていません",
+        "official_en": "Selected instance packer does not support GPU execution.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGStaticMeshSpawnerKernel:UnassignedMesh:0b2407aa",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGStaticMeshSpawnerKernel",
+        "key": "UnassignedMesh",
+        "jp_record_id": "switch:locres:set-01:PCGStaticMeshSpawnerKernel:UnassignedMesh:0b2407aa",
+        "official_en_record_id": "switch:locres:set-01:PCGStaticMeshSpawnerKernel:UnassignedMesh:0b2407aa",
+        "jp_sha256": "83c289cfd8e222c8785e75390fb3074db851615bcd2d399f70f843bd0212c35d",
+        "official_en_sha256": "faed55f0793ba35669c8c3896ad0b1764129cd1c3ca9e688d84016c9e9d5e491"
+      },
+      "text": {
+        "jp": "割り当てられていないメッシュ",
+        "official_en": "Unassigned mesh.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

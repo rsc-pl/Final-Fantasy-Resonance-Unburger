@@ -1,0 +1,678 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGEditorGraphSchemaActions",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:CopySettingsToolTip:8a56d203",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGEditorGraphSchemaActions",
+        "key": "CopySettingsToolTip",
+        "jp_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:CopySettingsToolTip:8a56d203",
+        "official_en_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:CopySettingsToolTip:8a56d203",
+        "jp_sha256": "c6e12c85cd7e03f6ed5a9f0cd6a20554fa90426d42ffbef0f7bcca8b5d01bfbc",
+        "official_en_sha256": "7f4b5c05db5bcdf660a8d0faccc33bb0b8adbf555736e386212b3d4c5509f1c7"
+      },
+      "text": {
+        "jp": "アセット {0} の設定をコピーします。オリジナルへの参照は保持しません\n(Ctrl キーを押しながらドロップすると、自動的にコピーが作成されます)",
+        "official_en": "Copy the settings asset {0}, and keeps no reference to the original\n(Ctrl-drop to automatically create a copy)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:CopySettings:fbca2439",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGEditorGraphSchemaActions",
+        "key": "CopySettings",
+        "jp_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:CopySettings:fbca2439",
+        "official_en_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:CopySettings:fbca2439",
+        "jp_sha256": "bfdb0fc5616698bf94259ef4576ef4e19bf5eaa209b19c75c8f6d230759c9438",
+        "official_en_sha256": "d4c4da1da997415b4b6e6d9ea739f245695aedb5ef0f1ac3c303fc292ee36aaf"
+      },
+      "text": {
+        "jp": "{0}コピー",
+        "official_en": "Copy {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:CreateLoopNode:0f7415d6",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGEditorGraphSchemaActions",
+        "key": "CreateLoopNode",
+        "jp_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:CreateLoopNode:0f7415d6",
+        "official_en_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:CreateLoopNode:0f7415d6",
+        "jp_sha256": "481c7e4c71ce9ca209c1c11ba5cdd777019c1d638a6cf811be7c9832fd7bfd82",
+        "official_en_sha256": "5bd1ec78db5d865e2d6ce36cc6824f5ddaa55f896ff5b48f7d66c89344bf3fcc"
+      },
+      "text": {
+        "jp": "{0}ループノードを作成",
+        "official_en": "Create {0} Loop Node",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:CreateSubgraphNode:e8367a93",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGEditorGraphSchemaActions",
+        "key": "CreateSubgraphNode",
+        "jp_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:CreateSubgraphNode:e8367a93",
+        "official_en_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:CreateSubgraphNode:e8367a93",
+        "jp_sha256": "f7e64b081ee32487435979006cf048c1832b7f7d475eb16b1dd85463f5d0d92a",
+        "official_en_sha256": "808a435f6a9b51dc2c02ad23f65c7e8b55ee543b922fd5b607314c3e0641252d"
+      },
+      "text": {
+        "jp": "{0}サブグラフノードを作成",
+        "official_en": "Create {0} Subgraph Node",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:CreateLoopNodeToolTip:ed95c0bd",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGEditorGraphSchemaActions",
+        "key": "CreateLoopNodeToolTip",
+        "jp_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:CreateLoopNodeToolTip:ed95c0bd",
+        "official_en_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:CreateLoopNodeToolTip:ed95c0bd",
+        "jp_sha256": "e1a04f2e711efa208e7a987c85953ef7cff415aaae2051341cae5ff16921c55c",
+        "official_en_sha256": "cc2ee523aa711ca017a7f6562ca47c495cf7cd399aaa5236d23d454c5d6e6d02"
+      },
+      "text": {
+        "jp": "グラフ アセット {0} のループ ノードを作成します\n(Alt キーを押しながらドロップすると自動的にループ ノードを作成)",
+        "official_en": "Creates a loop node for Graph asset {0}\n(Alt-drop to automatically create a loop node)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:CreateSubgraphToolTip:0e6aec62",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGEditorGraphSchemaActions",
+        "key": "CreateSubgraphToolTip",
+        "jp_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:CreateSubgraphToolTip:0e6aec62",
+        "official_en_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:CreateSubgraphToolTip:0e6aec62",
+        "jp_sha256": "661a7cb9051c4cf3c3659ee72f11b7557d98d66e3d9f47b0708635dcc2a81c54",
+        "official_en_sha256": "0b6fe38d8f9166c9d0cbadc2c844729b127ff7e23df5330695d601a8701c5384"
+      },
+      "text": {
+        "jp": "グラフ アセット {0} のサブグラフを作成します \n(Ctrl キーを押しながらドロップすると、自動的にサブグラフ ノードを作成)",
+        "official_en": "Creates a subgraph for Graph asset {0} \n(Ctrl-drop to automatically create a subgraph node)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:InstanceSettingsToolTip:545a3bf3",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGEditorGraphSchemaActions",
+        "key": "InstanceSettingsToolTip",
+        "jp_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:InstanceSettingsToolTip:545a3bf3",
+        "official_en_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:InstanceSettingsToolTip:545a3bf3",
+        "jp_sha256": "322a76eb00e6a454bf1e031b93ffda057d4c9c31f73453094572d9fae287013d",
+        "official_en_sha256": "7ea9a9999742e284896bb767a2dd874422a56ff7c35d496872b2cf7fb90936bc"
+      },
+      "text": {
+        "jp": "アセット {0} の設定をインスタンス化\n(インスタンスを自動的に作成するには Alt キーを押しながらドロップします)",
+        "official_en": "Instance the settings asset {0}\n(Alt-drop to automatically create an instance)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:InstanceSettings:cb004784",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGEditorGraphSchemaActions",
+        "key": "InstanceSettings",
+        "jp_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:InstanceSettings:cb004784",
+        "official_en_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:InstanceSettings:cb004784",
+        "jp_sha256": "4a944710f1955f6ce07d76449701fd9520f9ee13a5ac78a56bef874ffee727a1",
+        "official_en_sha256": "339b89d71559a98ed6c089ca283eb43a176934261a2972be8ea6ff5c21f47a13"
+      },
+      "text": {
+        "jp": "インスタンス{0}",
+        "official_en": "Instance {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:MultipleGraphs:19d54578",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGEditorGraphSchemaActions",
+        "key": "MultipleGraphs",
+        "jp_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:MultipleGraphs:19d54578",
+        "official_en_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:MultipleGraphs:19d54578",
+        "jp_sha256": "46dfe596c111250b10ad4f504e1248d53ed3e5938cdb3b2c72463bddc6d9bf1e",
+        "official_en_sha256": "6152d6360b542ac2f3d9b2e8e5e3e9b77ccae6e4b5cee846f5bdf530eaea758c"
+      },
+      "text": {
+        "jp": "複数のグラフ",
+        "official_en": "Multiple Graphs",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewBlueprintELement:84aef0b6",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGEditorGraphSchemaActions",
+        "key": "PCGEditorNewBlueprintELement",
+        "jp_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewBlueprintELement:84aef0b6",
+        "official_en_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewBlueprintELement:84aef0b6",
+        "jp_sha256": "2c98a20119b2d3c85609ed37a6f5f43ed6bae2e14171c8f09592f6e7cd4744cd",
+        "official_en_sha256": "e0a8d0b62994690d295b9c48353cd3d3b8de42645faa4944985423c5b3fc341d"
+      },
+      "text": {
+        "jp": "PCGエディタ:新しいブループリント要素",
+        "official_en": "PCG Editor: New Blueprint Element",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorGraphSchemaAction_NewComment:c1832797",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGEditorGraphSchemaActions",
+        "key": "PCGEditorGraphSchemaAction_NewComment",
+        "jp_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorGraphSchemaAction_NewComment:c1832797",
+        "official_en_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorGraphSchemaAction_NewComment:c1832797",
+        "jp_sha256": "5911b9b761f2bd64e381a5f7806c6930da271262cba743921433a09b1f7de564",
+        "official_en_sha256": "af786f91414b2233db1048e3ab3921edc9f7b55d55c9f3ec329fea513e55954d"
+      },
+      "text": {
+        "jp": "PCGエディタ:新しいコメント",
+        "official_en": "PCG Editor: New Comment",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewNamedRerouteDeclaration:e06fcdce",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGEditorGraphSchemaActions",
+        "key": "PCGEditorNewNamedRerouteDeclaration",
+        "jp_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewNamedRerouteDeclaration:e06fcdce",
+        "official_en_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewNamedRerouteDeclaration:e06fcdce",
+        "jp_sha256": "89bf5477b8ea7d69527dd78fcf3683d412b38265a03d2a7b9d6169f55f679f42",
+        "official_en_sha256": "870f12b0bee1e0dac79be2d1bc41ed0d32aed0e93a1f0151716b963e11249626"
+      },
+      "text": {
+        "jp": "PCGエディタ: 新しいNamed ReRouteノードの宣言",
+        "official_en": "PCG Editor: New Named Reroute Node Declaration",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewNamedRerouteUsage:018c09b2",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGEditorGraphSchemaActions",
+        "key": "PCGEditorNewNamedRerouteUsage",
+        "jp_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewNamedRerouteUsage:018c09b2",
+        "official_en_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewNamedRerouteUsage:018c09b2",
+        "jp_sha256": "b6b1c8139950d5b4675b3da621c3ddc43121a7c2847c2b8ed964bd92ff4cdbd4",
+        "official_en_sha256": "89201eaa5e31530d513bb3ed11df1e0c19282e5442eda2bb496f0b4a7f1d27a3"
+      },
+      "text": {
+        "jp": "PCGエディタ: 新しいNamed ReRouteノードの使用方法",
+        "official_en": "PCG Editor: New Named Reroute Node Usage",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewNativeElement:cff00e03",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGEditorGraphSchemaActions",
+        "key": "PCGEditorNewNativeElement",
+        "jp_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewNativeElement:cff00e03",
+        "official_en_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewNativeElement:cff00e03",
+        "jp_sha256": "36f42175a84c1ca2fed6b5272950d90b7529cfbc4dca81be84c1c18ae9078994",
+        "official_en_sha256": "f54a978bda509de5c1fdd7aacdd269146f8df9d8ee45b2817bc270af17757bdf"
+      },
+      "text": {
+        "jp": "PCGエディタ:新しいネイティブ要素",
+        "official_en": "PCG Editor: New Native Element",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewReroute:9d8f944d",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGEditorGraphSchemaActions",
+        "key": "PCGEditorNewReroute",
+        "jp_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewReroute:9d8f944d",
+        "official_en_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewReroute:9d8f944d",
+        "jp_sha256": "37a486521c2ef7bce3eadee829ab3ccb5a73f4f18d3f58a575409bcc5ab9c3df",
+        "official_en_sha256": "0388f85f7fb4bb8fafae7af175677d76e301ae9f7924ddb21b94f57f68a61432"
+      },
+      "text": {
+        "jp": "PCGエディタ: 新しいRerouteノード",
+        "official_en": "PCG Editor: New Reroute Node",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewSettingsElement:63560159",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGEditorGraphSchemaActions",
+        "key": "PCGEditorNewSettingsElement",
+        "jp_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewSettingsElement:63560159",
+        "official_en_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewSettingsElement:63560159",
+        "jp_sha256": "5d899e7c30ee10bbe14cc2d28831880cf6be04881633b2a740889140b58aa109",
+        "official_en_sha256": "1252a1df539adad592817b7c351e6242e08bd87343d2d6cc26d9a493c548bd12"
+      },
+      "text": {
+        "jp": "PCGエディタ:新しい設定要素",
+        "official_en": "PCG Editor: New Settings Element",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewSubgraphElement:eedf2273",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGEditorGraphSchemaActions",
+        "key": "PCGEditorNewSubgraphElement",
+        "jp_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewSubgraphElement:eedf2273",
+        "official_en_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:PCGEditorNewSubgraphElement:eedf2273",
+        "jp_sha256": "f4f477db734d91dfe3f4d310027318c9f81c3d63481cfbc9d7c57b4f4d810649",
+        "official_en_sha256": "84de8c334cd406e225a7c1b4c57975c865b2ff0b2fb4ad57243f8104156cc49a"
+      },
+      "text": {
+        "jp": "PCGエディタ:新しいサブグラフ要素",
+        "official_en": "PCG Editor: New Subgraph Element",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:ManySettings:5106553f",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGEditorGraphSchemaActions",
+        "key": "ManySettings",
+        "jp_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:ManySettings:5106553f",
+        "official_en_record_id": "switch:locres:set-01:PCGEditorGraphSchemaActions:ManySettings:5106553f",
+        "jp_sha256": "0d8619aae051ae343ea983e969d29b7bd7a618eb1b25a6c87c133c5e3ee25264",
+        "official_en_sha256": "74a883a037bc227f91891ab654a753d3a99f31ab06ae5b5d2b6e594a692b41f8"
+      },
+      "text": {
+        "jp": "設定",
+        "official_en": "Settings",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,4304 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AssetTools",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_PackageNameChangeByExistingPackageInDestination:ba313081",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_PackageNameChangeByExistingPackageInDestination",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_PackageNameChangeByExistingPackageInDestination:ba313081",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_PackageNameChangeByExistingPackageInDestination:ba313081",
+        "jp_sha256": "5af2517c1b4bed1a08c77c333f4f6a1b715a43cf7a5626d2a149ca877d496a74",
+        "official_en_sha256": "205094daae647032158004e4a8d0945aa316b4e869ea7eebe4b698892568b4af"
+      },
+      "text": {
+        "jp": "({0}) は、対象プロジェクトのファイルですでに使用されているため ({1}) という名前になります",
+        "official_en": "({0}) will be named ({1}) because an file in the destination project is already using that name.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_PackageNameChangeByOtherPackage:a0ea4fce",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_PackageNameChangeByOtherPackage",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_PackageNameChangeByOtherPackage:a0ea4fce",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_PackageNameChangeByOtherPackage:a0ea4fce",
+        "jp_sha256": "f1ea75e6f1401db3d5e562e3c12e8ce998afd986b48b88ac96083b98f12883a1",
+        "official_en_sha256": "342da0589e5d367b4640c391031b1fd0c1bacc062b42ed60ff8327c50c771f29"
+      },
+      "text": {
+        "jp": "({0}) は、別の移行済みパッケージですでに使用されているため ({1}) という名前になります",
+        "official_en": "({0}) will be named ({1}) because another migrated package is already using that name.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_ExternalPackageNotExported:16a85e66",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_ExternalPackageNotExported",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_ExternalPackageNotExported:16a85e66",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_ExternalPackageNotExported:16a85e66",
+        "jp_sha256": "08f88152b9440a5f7592d5191bb8f4c808e1a695bd66eaa6cdda721a4044a310",
+        "official_en_sha256": "c987fd4036a28277777a78cc98b83b6a73bed872cf19d502fbf669bbc12016c7"
+      },
+      "text": {
+        "jp": "({0}) は移行されません。コンテンツのアウタ ({1}) が移行されないためです",
+        "official_en": "({0}) won't be migrated because the outer of its content ({1}) will not be migrated",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_AddToSourceControl:3759c870",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_AddToSourceControl",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_AddToSourceControl:3759c870",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_AddToSourceControl:3759c870",
+        "jp_sha256": "dbdfa89a54b51c8d46f593794dd0924ad01151de264614397a981815df1dc162",
+        "official_en_sha256": "e9551d7ddf46d8621e602d1297db58fdd35f993c1dc3c48e8b18da3fa9b0f85c"
+      },
+      "text": {
+        "jp": "リビジョン コントロールに追加中...",
+        "official_en": "Adding To Revision Control...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AdvancedCopy_FailedCustomValidate:0b246d48",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AdvancedCopy_FailedCustomValidate",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AdvancedCopy_FailedCustomValidate:0b246d48",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AdvancedCopy_FailedCustomValidate:0b246d48",
+        "jp_sha256": "dd10356b17fa4d85cd30f6a13207826948cd99640a75e9bf4069116fa5fcc85e",
+        "official_en_sha256": "18e8c9b17951fba37880256d5bc4d01e5277c04f62ecd6ea759ec7766beb08ce"
+      },
+      "text": {
+        "jp": "高度なコピーは {0} に設定されている検証ルールが失敗したために失敗しました。",
+        "official_en": "Advanced Copy failed because the validation rules set in {0} failed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AdvancedCopy_DuplicatedSource:08087308",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AdvancedCopy_DuplicatedSource",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AdvancedCopy_DuplicatedSource:08087308",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AdvancedCopy_DuplicatedSource:08087308",
+        "jp_sha256": "0e4be40c38f94a5e4872b5b37bbb78c3173400cf221e0cdde032b4baa51ef45f",
+        "official_en_sha256": "4a0e499f5afb4023f809c888e36abf6d1b96a1aeb1ec7a8133845d46d1c72af9"
+      },
+      "text": {
+        "jp": "高度なコピーは {0} が自身をコピーしようとしたために失敗しました。",
+        "official_en": "Advanced Copy failed because {0} was being copied over itself.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AdvancedCopy_DestinationEqualsSource:41c321f9",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AdvancedCopy_DestinationEqualsSource",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AdvancedCopy_DestinationEqualsSource:41c321f9",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AdvancedCopy_DestinationEqualsSource:41c321f9",
+        "jp_sha256": "a1422784836ad6741ca850876d159bd9668b6cfa377039a2898076252dc067a8",
+        "official_en_sha256": "cf452d9f2baa63e9347b18d9ac130761d6489c947000f718116608f35a6e3fee"
+      },
+      "text": {
+        "jp": "高度なコピーは {0} をソースファイル {1} にコピーしようとしたために失敗しました。",
+        "official_en": "Advanced Copy failed because {0} was being copied over the source file {1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AdvancedCopy_DuplicateDestinations:be107e5b",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AdvancedCopy_DuplicateDestinations",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AdvancedCopy_DuplicateDestinations:be107e5b",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AdvancedCopy_DuplicateDestinations:be107e5b",
+        "jp_sha256": "832dbe5749161a4cdd3430eb89e2b3c35bf0b0d391c9350fb000b48ca77f491a",
+        "official_en_sha256": "90de95efc0d5cf9a0bb37baf56fdc6fa260543d42a4994d592acf06d2e2dc802"
+      },
+      "text": {
+        "jp": "高度なコピーは {0} が2つの場所、{1} と {2} で重複したために失敗しました。",
+        "official_en": "Advanced Copy failed because {0} was being duplicated in two locations, {1} and {2}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_CompletePage:c58b6a1b",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AdvancedCopyPackages_CompletePage",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_CompletePage:c58b6a1b",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_CompletePage:c58b6a1b",
+        "jp_sha256": "447281224c9e7578fcf1b11d916686c8e85a62f779a8c9ac291164e291082fdf",
+        "official_en_sha256": "43229f884b30fa9fdf6cd82578421d159e5bc279d8ab9d598749ab1d4dc20197"
+      },
+      "text": {
+        "jp": "高度なコンテンツのコピーが正常に完了しました!",
+        "official_en": "Advanced content copy completed successfully!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_AlreadyExists:721dedb5",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_AlreadyExists",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_AlreadyExists:721dedb5",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_AlreadyExists:721dedb5",
+        "jp_sha256": "0fb3acdda719dc45f85fd26257deee9e1571e95b77fd28337cf47c8d81ba5199",
+        "official_en_sha256": "77779b5767da47490de0defaeef0190996c3ca54988b5e918a34b25a8c615dc5"
+      },
+      "text": {
+        "jp": "\\'{0}\\' 位置にアセットが既に存在します。上書きしますか？",
+        "official_en": "An asset already exists at location {0} would you like to overwrite it?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AnimationAssetCategory:6e90efb4",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AnimationAssetCategory",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AnimationAssetCategory:6e90efb4",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AnimationAssetCategory:6e90efb4",
+        "jp_sha256": "9f0b34a7dab77508468e800bed82250bff8e9123cbc79c59063e1699e07124df",
+        "official_en_sha256": "1dd10f244a62771bcca9df74a9bc7d13363df8d3cd69ee07f66c2b1666b256ff"
+      },
+      "text": {
+        "jp": "アニメーション",
+        "official_en": "Animation",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AssetToolsLogLabel:8e379c4b",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AssetToolsLogLabel",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AssetToolsLogLabel:8e379c4b",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AssetToolsLogLabel:8e379c4b",
+        "jp_sha256": "dab99bdd2ed73c6713acb091d5e5f1cd8c97a92458d14927902182bd7941bbf1",
+        "official_en_sha256": "eb6442f764320cef28e75c3f4ebadd7cd0665c3f134b656791bdf148a0c1b52f"
+      },
+      "text": {
+        "jp": "アセットツール",
+        "official_en": "Asset Tools",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:SoundAssetCategory:ae377838",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "SoundAssetCategory",
+        "jp_record_id": "switch:locres:set-01:AssetTools:SoundAssetCategory:ae377838",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:SoundAssetCategory:ae377838",
+        "jp_sha256": "cac0f4f215dcff8cda718fb470b4aa088c13f2e66942f50801eda0b1c801a326",
+        "official_en_sha256": "bc1b88907d3b748af99cb9d4ffc07a0118dad5dab21a9dbdcc5a17a09641364a"
+      },
+      "text": {
+        "jp": "オーディオ",
+        "official_en": "Audio",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:BlueprintAssetCategory:a080ff94",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "BlueprintAssetCategory",
+        "jp_record_id": "switch:locres:set-01:AssetTools:BlueprintAssetCategory:a080ff94",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:BlueprintAssetCategory:a080ff94",
+        "jp_sha256": "eeba5c1b722fc2fdebe85e8404b1e7718c629da04f4350ec1fd6a12fcb69fc0a",
+        "official_en_sha256": "696f52e5d1794d1ba26cd068e3506b47c694ebdf71fb8262d1a413f1b4e55b10"
+      },
+      "text": {
+        "jp": "ブループリント",
+        "official_en": "Blueprint",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_InvalidBluepriint:b9f5f33a",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_InvalidBluepriint",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_InvalidBluepriint:b9f5f33a",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_InvalidBluepriint:b9f5f33a",
+        "jp_sha256": "42ebb5ae0bf9f602090e3647a4cb70067cce6a63e71ca21f27228a69ef46cbc3",
+        "official_en_sha256": "3b8b66b6119b9d0896f446f9141b1d214c30da6ddbc8febbdf0da66ab58e9d42"
+      },
+      "text": {
+        "jp": "パッケージ{0}でブループリントは無効です",
+        "official_en": "Blueprint is invalid in package {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:CannotConvertDestinationPath:c5ba9ff0",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "CannotConvertDestinationPath",
+        "jp_record_id": "switch:locres:set-01:AssetTools:CannotConvertDestinationPath:c5ba9ff0",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:CannotConvertDestinationPath:c5ba9ff0",
+        "jp_sha256": "71ddce3eea35766e17745f30b84cf59960170cf24fbad9d299861710982e8d80",
+        "official_en_sha256": "df59c985f0a010195ec776c231e0ddfde7594a6aa8dd1defce2b29d2b14e1afc"
+      },
+      "text": {
+        "jp": "ファイル '{0}' をインポートできません。宛先パス '{1}' がパッケージパスに変換できないためです。",
+        "official_en": "Can't import the file '{0}' because the destination path '{1}' cannot be converted to a package path.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:InvalidDestinationPath:36512c48",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "InvalidDestinationPath",
+        "jp_record_id": "switch:locres:set-01:AssetTools:InvalidDestinationPath:36512c48",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:InvalidDestinationPath:36512c48",
+        "jp_sha256": "0d0875199860e4af4b72aa455d0529cdbd8b5f0ba694c21888f5ba90c01708ee",
+        "official_en_sha256": "77fbf5e01a51711a9dae24f9842566a53615627eda1dc31d77231340ae2d3816"
+      },
+      "text": {
+        "jp": "ファイル「{0}」をインポートできません。インポート先パス「{1}」が現在のプロジェクトの有効なパッケージ パスではないためです",
+        "official_en": "Can't import the file '{0}' because the destination path '{1}' is not a valid package path for the current project.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:InvalidFactory:12de3417",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "InvalidFactory",
+        "jp_record_id": "switch:locres:set-01:AssetTools:InvalidFactory:12de3417",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:InvalidFactory:12de3417",
+        "jp_sha256": "4b19db6bb1d7a57af45d9762f3d97b0f8393f534d10bb9132d45e16e2ebdfb8a",
+        "official_en_sha256": "c1b441759f042da8edc78340e483acece30bc48ce10fb0acda287f438030a287"
+      },
+      "text": {
+        "jp": "新規アセットを作成できません。提供されたファクトリーが提供されたクラスに対応していないためです",
+        "official_en": "Cannot create the new asset because the supplied factory does not support the supplied class.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:Migrated_CannotContainSlashes:8cf18a0f",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "Migrated_CannotContainSlashes",
+        "jp_record_id": "switch:locres:set-01:AssetTools:Migrated_CannotContainSlashes:8cf18a0f",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:Migrated_CannotContainSlashes:8cf18a0f",
+        "jp_sha256": "b7aebad0a7c2dbaadaee3c3c7b5833a7a767079090eb48ef43a8a29d77ec0e9b",
+        "official_en_sha256": "32b494f0374ea488c315b610ccecc63ac06e91385b58bb09222f8d1a02735c39"
+      },
+      "text": {
+        "jp": "フォルダ名にスラッシュは使用できません。",
+        "official_en": "Cannot use a slash in a folder name.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:ChooseDiffTool:b4bc94e3",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "ChooseDiffTool",
+        "jp_record_id": "switch:locres:set-01:AssetTools:ChooseDiffTool:b4bc94e3",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:ChooseDiffTool:b4bc94e3",
+        "jp_sha256": "fa388c0cb3d02e050409f62d88dc3c26ff3ae69c95c4f57bb6c8bfbd3a83f85a",
+        "official_en_sha256": "b59d945f77aa0eb1b61f36600304c038de70418f3531e46ac0745f6ac39b4f90"
+      },
+      "text": {
+        "jp": "差分ツールを選択",
+        "official_en": "Choose Diff Tool",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigrateToFolderTitle:81d2455f",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigrateToFolderTitle",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigrateToFolderTitle:81d2455f",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigrateToFolderTitle:81d2455f",
+        "jp_sha256": "3e8b99680045bdece0fea5b756e0a0435b2a293645efa14cd77ea433eb12904d",
+        "official_en_sha256": "e3ccc5519e39615a9d9b94ee5fd23552147d9e4863a1dea831e5a56b5a0f626c"
+      },
+      "text": {
+        "jp": "送り先コンテンツフォルダを選択",
+        "official_en": "Choose a destination Content folder",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_CleaningUp:0a4bd59e",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_CleaningUp",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CleaningUp:0a4bd59e",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CleaningUp:0a4bd59e",
+        "jp_sha256": "6a1bfd641b5d55dcfb4f99925473b11c77ba3cfc7c87472a4c78aecc96758a55",
+        "official_en_sha256": "6ce8eb884387fff04de40552cb85f302912149f3fe0af61e94b6e0fab40578df"
+      },
+      "text": {
+        "jp": "クリーンアップ中...",
+        "official_en": "Cleaning Up...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_CompletePage:06c3b856",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_CompletePage",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CompletePage:06c3b856",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CompletePage:06c3b856",
+        "jp_sha256": "1e00aab8f7488a2e1db01429a1bea9cdddf140c69d7d3b3cddb9bce4f8022878",
+        "official_en_sha256": "be1cd35518690cf815615fdc54699938012ff072b84c37fd50566453416347a8"
+      },
+      "text": {
+        "jp": "コンテンツのコピーが完了しました！",
+        "official_en": "Content migration completed successfully!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_SuccessNotificationWithWarning:956c6144",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_SuccessNotificationWithWarning",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SuccessNotificationWithWarning:956c6144",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SuccessNotificationWithWarning:956c6144",
+        "jp_sha256": "3fb3a66c04659c6e0251f79811f340c4ab674393c39c35671702291d0fdcdffd",
+        "official_en_sha256": "2c715e6cf4daffc8a51cc74d4887c76a8b9d4315ab8be49f4100757c499397b7"
+      },
+      "text": {
+        "jp": "コンテンツの移行が完了しました (警告あり)",
+        "official_en": "Content migration completed with some warnings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_SuccessNotification:f888cb57",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_SuccessNotification",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SuccessNotification:f888cb57",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SuccessNotification:f888cb57",
+        "jp_sha256": "84947151ee8605e282df23767620ccc6d56a87c6c1dd88f8e6ecfcfa5c3e4af0",
+        "official_en_sha256": "3153fc49f39a374b50016e3eafc7b8cd97be97a1473336397c4859bd277210fd"
+      },
+      "text": {
+        "jp": "コンテンツの移行が完了しました",
+        "official_en": "Content migration completed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_PartialFailureNotification:a715d58a",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_PartialFailureNotification",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_PartialFailureNotification:a715d58a",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_PartialFailureNotification:a715d58a",
+        "jp_sha256": "4a44b5df36284cd2ad79c50283345285f524d1914d3276ece792ad560de1af45",
+        "official_en_sha256": "d5b80b93602f84b41ef66f1d76f8290e65d615d62501ca21a3ee38e59a66a41e"
+      },
+      "text": {
+        "jp": "コンテンツの移行に失敗しましたが、一部のアセットは正常に移行されています",
+        "official_en": "Content migration failed but some asset have been migrated sucessfuly.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_FailureNotification:072bd168",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_FailureNotification",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_FailureNotification:072bd168",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_FailureNotification:072bd168",
+        "jp_sha256": "bd5f97d2007c9f774af895337649acaff07477f82b1615591ad1577968d8c226",
+        "official_en_sha256": "7b8b5aee9789fd2225ce1cc767831794ecf9e743ea785de3ab512f1e5b2d544e"
+      },
+      "text": {
+        "jp": "コンテンツを移行できません",
+        "official_en": "Content migration failed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_CanceledWithMigratedAssets:dc8d1e53",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_CanceledWithMigratedAssets",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CanceledWithMigratedAssets:dc8d1e53",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CanceledWithMigratedAssets:dc8d1e53",
+        "jp_sha256": "32ae355430362f00b6fc37cf2b31490b2ebdc2951ac1ac26dd23c6e49ddde18e",
+        "official_en_sha256": "f930ff2f2eb90a587c1f8e855886aef1aef8c33dc3c23210a66011874a5e59a2"
+      },
+      "text": {
+        "jp": "コンテンツの移行はキャンセルされましたが、一部のパッケージは移行されました",
+        "official_en": "Content migration was canceled but some package where already migrated.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_Canceled:b5c0d19e",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_Canceled",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_Canceled:b5c0d19e",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_Canceled:b5c0d19e",
+        "jp_sha256": "d3919e741dfc37e98d02720a74c67508d681918cbf522796d3a69e0fc6eab882",
+        "official_en_sha256": "5d104a02b0c616fdea941e2121ee6914d89c081af077bdf1ba74514a5fd2a699"
+      },
+      "text": {
+        "jp": "コンテンツの移行はキャンセルされました",
+        "official_en": "Content migration was canceled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_CanceledPage:47ac0843",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_CanceledPage",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CanceledPage:47ac0843",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CanceledPage:47ac0843",
+        "jp_sha256": "3526e19c0222ac0762b6b4db6f363d43a4503c8b0cbd03efe2d59b430b2b920d",
+        "official_en_sha256": "5d104a02b0c616fdea941e2121ee6914d89c081af077bdf1ba74514a5fd2a699"
+      },
+      "text": {
+        "jp": "コンテンツの移行はキャンセルされました。",
+        "official_en": "Content migration was canceled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_CopyErrorsSuccesslistPage:3839c397",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AdvancedCopyPackages_CopyErrorsSuccesslistPage",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_CopyErrorsSuccesslistPage:3839c397",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_CopyErrorsSuccesslistPage:3839c397",
+        "jp_sha256": "7cca7ed2d78a5ad42d79efa93e3085e27bb713e4499ddd651cc3f65976d5888f",
+        "official_en_sha256": "9f015e99bf25962ebc3d7163d2afd04da5f79ba6a35ee69091379a562caae2f3"
+      },
+      "text": {
+        "jp": "正常にコピーされました",
+        "official_en": "Copied Successfully",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_CopyErrorsSuccesslistPage:f9108e1f",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_CopyErrorsSuccesslistPage",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CopyErrorsSuccesslistPage:f9108e1f",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CopyErrorsSuccesslistPage:f9108e1f",
+        "jp_sha256": "4a0964baa3e037060669bc4f4015e383c5d56f93e7d53ac3be07fe8c937ad9b4",
+        "official_en_sha256": "9f015e99bf25962ebc3d7163d2afd04da5f79ba6a35ee69091379a562caae2f3"
+      },
+      "text": {
+        "jp": "コピーに成功しました",
+        "official_en": "Copied Successfully",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_CopyErrors:1245e3ea",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_CopyErrors",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CopyErrors:1245e3ea",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CopyErrors:1245e3ea",
+        "jp_sha256": "29b606bea4a16bc340b110b5332fc48305dd9087460e6b96eacfc5e70969ddda",
+        "official_en_sha256": "b6fb5fdaaf4623a252bb16d71cf637ee5d845d78de82a82d9cbe2bba727c67fb"
+      },
+      "text": {
+        "jp": "{0} ファイルをコピーしました。1部のコンテンツはコピーできませんでした。",
+        "official_en": "Copied {0} files. Some content could not be copied.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_CopyErrorsPage:d5162de2",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_CopyErrorsPage",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CopyErrorsPage:d5162de2",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CopyErrorsPage:d5162de2",
+        "jp_sha256": "06f1c0402f2231ed63be9988f763f04d4a87ef8d981d23d8c3e527d0bb8f44f9",
+        "official_en_sha256": "bfc579f3178f0e0c440207abbde6adb8da14450a9c339a8d4ee955568809f1cd"
+      },
+      "text": {
+        "jp": "コピーエラー",
+        "official_en": "Copy Errors",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages.CopyingFilesAndDependencies:b974a875",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AdvancedCopyPackages.CopyingFilesAndDependencies",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages.CopyingFilesAndDependencies:b974a875",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages.CopyingFilesAndDependencies:b974a875",
+        "jp_sha256": "714d68af204f02c8ed3406b943412b0b7a538b8303eb49bfa10167bc358267f2",
+        "official_en_sha256": "709b2b799fd36913f9ee23cffc2182da730b561de8c4488fb88a4a8f48159ed6"
+      },
+      "text": {
+        "jp": "ファイルおよび依存関係をコピーしています...",
+        "official_en": "Copying Files and Dependencies...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_CopyingFiles:ee01059f",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_CopyingFiles",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CopyingFiles:ee01059f",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CopyingFiles:ee01059f",
+        "jp_sha256": "1b3eff8e0991684bf9b1b2c43bd64585dfa87c44f7a206288cdae3922d10e3bb",
+        "official_en_sha256": "f2a76a6105cc0bb56bc90aede2701007520ba0dba341c937d2bcbad3b938f922"
+      },
+      "text": {
+        "jp": "ファイルをコピー中...",
+        "official_en": "Copying Files...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:DeletingNoSCCConnection:9db66ce1",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "DeletingNoSCCConnection",
+        "jp_record_id": "switch:locres:set-01:AssetTools:DeletingNoSCCConnection:9db66ce1",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:DeletingNoSCCConnection:9db66ce1",
+        "jp_sha256": "89f305a27910f1f9486f75f85ae8d7a1369ed664e8a9a1606e85cd9de007a58c",
+        "official_en_sha256": "2224dab6eb84206da5ca07319297e25db182bb2c72f0967f947996a924328e57"
+      },
+      "text": {
+        "jp": "削除済みファイルをチェックできませんでした。利用できるリビジョン コントロールへの接続がありません",
+        "official_en": "Could not check for deleted file. No connection to revision control available!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_SaveFailedPackageInvalid:c0a3d24b",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_SaveFailedPackageInvalid",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SaveFailedPackageInvalid:c0a3d24b",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SaveFailedPackageInvalid:c0a3d24b",
+        "jp_sha256": "4958d546d34b803c57154a97b4e5a8b9aca586ff7bfabd27faaea294a68968dd",
+        "official_en_sha256": "f56c8a906e67abc8284d62161f5f9d827b387117d63acb47e18319ddcccf218b"
+      },
+      "text": {
+        "jp": "アセット パッケージが無効であるため、パッケージ ({0}) を移行できませんターゲット ファイル ({1})",
+        "official_en": "Couldn't migrate package ({0}) because the asset package is invalid. Destination File ({1})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_SaveFailed:21278328",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_SaveFailed",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SaveFailed:21278328",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SaveFailed:21278328",
+        "jp_sha256": "7520068cba5f978c2f04db2fe24fdebf34d5fd54118aa24af89396ef00ff2665",
+        "official_en_sha256": "f000b1cd310fb2f50ad5e5cca507515fa6958a8bdfa7f26c4d519ee53886c76f"
+      },
+      "text": {
+        "jp": "アセットを保存できないため、パッケージ ({0}) を移行できません。ターゲット ファイル ({1})",
+        "official_en": "Couldn't migrate package ({0}) because the asset save failed. Destination File ({1})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_SaveFailedReadOnly:fcd0489d",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_SaveFailedReadOnly",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SaveFailedReadOnly:fcd0489d",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SaveFailedReadOnly:fcd0489d",
+        "jp_sha256": "0b99a972eecafe0dea98ad3754400aa6e9a97a039c398efa5ad3ea7b3581c031",
+        "official_en_sha256": "735ab573b18784c4928efb9a51d31670a1ad9f2dcec2d36f4d10ca4920c0a3bb"
+      },
+      "text": {
+        "jp": "宛先のファイルが読み取り専用のため、パッケージ ({0}) を移行できません。ターゲット ファイル ({1})",
+        "official_en": "Couldn't migrate package ({0}) because the destination file is read only. Destination File ({1})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_LoadFailed:5a06e917",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_LoadFailed",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_LoadFailed:5a06e917",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_LoadFailed:5a06e917",
+        "jp_sha256": "601595cd69ebabad1412a35568d2de98c345048d96364f790f5fedc33068fb35",
+        "official_en_sha256": "fc4ba9c24891d82fa098b9046be68ba8421ec35e8af233501e82604517ba1e27"
+      },
+      "text": {
+        "jp": "アセットをロードできないため、パッケージ ({0}) を移行できませんでした",
+        "official_en": "Couldn't migrate package ({0}) because the load of the asset failed",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_SaveFailedNoAsset:38fc701c",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_SaveFailedNoAsset",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SaveFailedNoAsset:38fc701c",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SaveFailedNoAsset:38fc701c",
+        "jp_sha256": "424f5994ffd5ad3c612cdc6c400d83c590c64b280624ad0cb854dad3134916e2",
+        "official_en_sha256": "12637a48dda7cc2a991ee7ecce5fe9d9f9859c306e9160d770c657883c5f65ef"
+      },
+      "text": {
+        "jp": "パッケージにアセットが含まれなかったため、パッケージ ({0}) を移行できません。ターゲット ファイル ({1})",
+        "official_en": "Couldn't migrate package ({0}) because the package didn't contains a an asset. Destination File ({1})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:CreateANewObject:5ca2d6ae",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "CreateANewObject",
+        "jp_record_id": "switch:locres:set-01:AssetTools:CreateANewObject:5ca2d6ae",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:CreateANewObject:5ca2d6ae",
+        "jp_sha256": "9fa70ba7d878bbe95d15739863bbf8b75ee7787cf1589ef2ba2e3b63d3f71487",
+        "official_en_sha256": "e6b19d32464497288ac7060548041a822392dc4b434f1bc4dac3b09c75a8426d"
+      },
+      "text": {
+        "jp": "新規オブジェクトを作成",
+        "official_en": "Create a new object",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:ImportObjectAlreadyExists_SameClass:14ccb82c",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "ImportObjectAlreadyExists_SameClass",
+        "jp_record_id": "switch:locres:set-01:AssetTools:ImportObjectAlreadyExists_SameClass:14ccb82c",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:ImportObjectAlreadyExists_SameClass:14ccb82c",
+        "jp_sha256": "0cf109cd814e46ea3920a189dddcaedf68d7281bd225ffefba6ccb1922241128",
+        "official_en_sha256": "84f36fa76b0be90dcf844356dd348148abf64dc90a28bdd7d5b3b93d6ff9aeef"
+      },
+      "text": {
+        "jp": "既存アセットを上書きしますか?\n\nアセットはインポート先に既に存在します: {0}",
+        "official_en": "Do you want to overwrite the existing asset?\n\nAn asset already exists at the import location: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:ImportObjectAlreadyExists_DifferentClass:24c24253",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "ImportObjectAlreadyExists_DifferentClass",
+        "jp_record_id": "switch:locres:set-01:AssetTools:ImportObjectAlreadyExists_DifferentClass:24c24253",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:ImportObjectAlreadyExists_DifferentClass:24c24253",
+        "jp_sha256": "5709904a92e19522f429716bf515adceb5ce847fdd684eed3167c2d0529e4b53",
+        "official_en_sha256": "b608d09c0b206462c95bb7fe44dc5feadd2ea07801fdf3d2be50ee4a21685339"
+      },
+      "text": {
+        "jp": "既存アセットを置換しますか?\n\nアセットはインポート先に既に存在します: {0}",
+        "official_en": "Do you want to replace the existing asset?\n\nAn asset already exists at the import location: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:DuplicateAssetDialogTitle:ac945534",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "DuplicateAssetDialogTitle",
+        "jp_record_id": "switch:locres:set-01:AssetTools:DuplicateAssetDialogTitle:ac945534",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:DuplicateAssetDialogTitle:ac945534",
+        "jp_sha256": "9d25a2cca7cac0c605e1fe57ebe3bf4426e93abc440354cc62ca9ba38594bfa8",
+        "official_en_sha256": "f93191f8f81acdd619cf73ad5382d0f7d6d00dc93f944b04498c6d6aea4ed2ce"
+      },
+      "text": {
+        "jp": "アセットに名前を付けて複製",
+        "official_en": "Duplicate Asset As",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:DuplicateAnObject:2a5e5381",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "DuplicateAnObject",
+        "jp_record_id": "switch:locres:set-01:AssetTools:DuplicateAnObject:2a5e5381",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:DuplicateAnObject:2a5e5381",
+        "jp_sha256": "b596ddf3805eba5df1acd441694c832948a00cc740f3b23ce424462e1088bb17",
+        "official_en_sha256": "7e3acc498c68ab67c055e72595d42293495983b39186c44a86dc14b9d4c90d75"
+      },
+      "text": {
+        "jp": "オブジェクトを複製する",
+        "official_en": "Duplicate an object",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_Duplicate:df4822cf",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_Duplicate",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_Duplicate:df4822cf",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_Duplicate:df4822cf",
+        "jp_sha256": "5e0bbb48de2f42d4f1ecabdbf3fcad323fe20d7a2d965c7c6c376b5e005f89fc",
+        "official_en_sha256": "9593b19af0f714e5229c111a34babbfaebd23c8c39d923e835b864abcced1026"
+      },
+      "text": {
+        "jp": "アセットの複製中...",
+        "official_en": "Duplicating Assets...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:NoDesktopPlatform:5e0a1d39",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "NoDesktopPlatform",
+        "jp_record_id": "switch:locres:set-01:AssetTools:NoDesktopPlatform:5e0a1d39",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:NoDesktopPlatform:5e0a1d39",
+        "jp_sha256": "b9fe4deda7a875f3676af0d5c51316cf415582f11832b3fbbff0d6a208aafa8e",
+        "official_en_sha256": "d283f8cdefc39d579ca5bdeebc6216e77a74943b569ce2322e014b1cbb8f1626"
+      },
+      "text": {
+        "jp": "エラー: ファイルダイアログをサポートしないプラットフォームです",
+        "official_en": "Error: This platform does not support a file dialog.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:Executables:8d0863c8",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "Executables",
+        "jp_record_id": "switch:locres:set-01:AssetTools:Executables:8d0863c8",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:Executables:8d0863c8",
+        "jp_sha256": "7708451b6be5a9c2685490d24ede4d7db1475086426d9e4e211801b5fd5b5167",
+        "official_en_sha256": "517ee2c89a19e52fe25e4280e7e2e6959e6c2a82d237f0c031203d45360ba7ba"
+      },
+      "text": {
+        "jp": "実行可能ファイル",
+        "official_en": "Executables",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:FXAssetCategory:a024a033",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "FXAssetCategory",
+        "jp_record_id": "switch:locres:set-01:AssetTools:FXAssetCategory:a024a033",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:FXAssetCategory:a024a033",
+        "jp_sha256": "adf02dd669bdb32468d0b2d76d49042e9767984db25bc7048abb6bea29646c61",
+        "official_en_sha256": "adf02dd669bdb32468d0b2d76d49042e9767984db25bc7048abb6bea29646c61"
+      },
+      "text": {
+        "jp": "FX",
+        "official_en": "FX",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:CheckOutFileFailed:5875676d",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "CheckOutFileFailed",
+        "jp_record_id": "switch:locres:set-01:AssetTools:CheckOutFileFailed:5875676d",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:CheckOutFileFailed:5875676d",
+        "jp_sha256": "2210c12e5434b10b9a8a8560cac9df3f019f30336d121b80d9c2af9ffddf9416",
+        "official_en_sha256": "f3b20cb212fc7e497fac2945eb0b0dbe7d9c3e31bf032027df85eae7ed994b07"
+      },
+      "text": {
+        "jp": "パッケージをチェックアウトできませんでした",
+        "official_en": "Failed to check out package",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:ImportDeleteFailed:94153bbb",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "ImportDeleteFailed",
+        "jp_record_id": "switch:locres:set-01:AssetTools:ImportDeleteFailed:94153bbb",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:ImportDeleteFailed:94153bbb",
+        "jp_sha256": "cd6b609bfc5f0837ba61f0be1072de59c2b29c419d87451022a1a9e29e7cf19b",
+        "official_en_sha256": "c24c9268da5bc9892e0a5076668f68252f87089feb341868ef0313e811ad36de"
+      },
+      "text": {
+        "jp": "'{0}' の削除に失敗しました。対象アセットは他のコンテンツに参照されています。",
+        "official_en": "Failed to delete '{0}'. The asset is referenced by other content.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:ImportFailed_Generic:98a5426c",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "ImportFailed_Generic",
+        "jp_record_id": "switch:locres:set-01:AssetTools:ImportFailed_Generic:98a5426c",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:ImportFailed_Generic:98a5426c",
+        "jp_sha256": "efd792b1610535473e9aa411f965973ba3798201d051ca687cd1ce875e44bbe5",
+        "official_en_sha256": "5a6367d99f3eeff29308ab4a6bdf4334d595799b95bef44fa3688d4c6851e021"
+      },
+      "text": {
+        "jp": "'{0}' のインポートに失敗しました。アセット '{1}' の作成に失敗しました。\n詳細は出力ログを確認してください。",
+        "official_en": "Failed to import '{0}'. Failed to create asset '{1}'.\nPlease see Output Log for details.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:ImportFailed_UnknownExtension:60988ff2",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "ImportFailed_UnknownExtension",
+        "jp_record_id": "switch:locres:set-01:AssetTools:ImportFailed_UnknownExtension:60988ff2",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:ImportFailed_UnknownExtension:60988ff2",
+        "jp_sha256": "987b88070e46269b07433f0069f4ef6a9d6b9c7e937fbbc8dcf39fb01cc62384",
+        "official_en_sha256": "637f1c495186cbf2a5656811e7a4f0d8ae3f9e3d9ada144d53f60e6981c35405"
+      },
+      "text": {
+        "jp": "'{0}' のインポートに失敗しました。不明な拡張子 '{1}' です。",
+        "official_en": "Failed to import '{0}'. Unknown extension '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_FailedToLoadPackage:131596df",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_FailedToLoadPackage",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_FailedToLoadPackage:131596df",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_FailedToLoadPackage:131596df",
+        "jp_sha256": "24c3d2d321eeede4305f33f757b7a4c2458ff1370668d8a534d4541be88fcc45",
+        "official_en_sha256": "ff4fcf7f47e70dec8587544ca8e5e984fd2c2eddd8eec1e602172b660375b248"
+      },
+      "text": {
+        "jp": "パッケージ{0}の取り込みに失敗しました",
+        "official_en": "Failed to load package {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:RevertDeletedFileFailed:a0a6cfb7",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "RevertDeletedFileFailed",
+        "jp_record_id": "switch:locres:set-01:AssetTools:RevertDeletedFileFailed:a0a6cfb7",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:RevertDeletedFileFailed:a0a6cfb7",
+        "jp_sha256": "4af4cae55ab0ddd203cc55fb3d28a1c9837280949cc8c8afc192737c252727b2",
+        "official_en_sha256": "70c01d7aecbb37e424c5574b04ea100588256916383fd831d1691d6f0a16c431"
+      },
+      "text": {
+        "jp": "削除マークがついたパッケージをリバートできませんでした",
+        "official_en": "Failed to revert package which was marked for delete.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_FolderName:0f031124",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_FolderName",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_FolderName:0f031124",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_FolderName:0f031124",
+        "jp_sha256": "e820a39dd9095b252ccf369baf6c938fa917c56911e09bf1927fd6cbeb862da1",
+        "official_en_sha256": "014669ce6d672afbaf43e1e92c7af032b921c4f928e30b3a57d27f059ff9ad1f"
+      },
+      "text": {
+        "jp": "移行されたアセットのフォルダ",
+        "official_en": "Folder for Migrated Assets",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:NotifyBlockedByWritableFolderFilter:6558c1c6",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "NotifyBlockedByWritableFolderFilter",
+        "jp_record_id": "switch:locres:set-01:AssetTools:NotifyBlockedByWritableFolderFilter:6558c1c6",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:NotifyBlockedByWritableFolderFilter:6558c1c6",
+        "jp_sha256": "cf24b1116dad31783e5349ddce5926fbd561370f109caf81b7f4fddf675b16b4",
+        "official_en_sha256": "98547274f51b4617a136b64ca69d9a79f1ae355407b1558ec4e00ce90aa557b5"
+      },
+      "text": {
+        "jp": "フォルダがロックされています",
+        "official_en": "Folder is locked",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:GameplayAssetCategory:1eb0da07",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "GameplayAssetCategory",
+        "jp_record_id": "switch:locres:set-01:AssetTools:GameplayAssetCategory:1eb0da07",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:GameplayAssetCategory:1eb0da07",
+        "jp_sha256": "8f26a3c1d9bcb6da7774d2d2c09bb9f9a91d708041e296fa096e1c12ae41b20f",
+        "official_en_sha256": "31bcb8940fffb7d1328e4d989be6708a48e564d490a873652d6ea64f58156711"
+      },
+      "text": {
+        "jp": "ゲームプレイ",
+        "official_en": "Gameplay",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_GatheringDependencies:d15e5575",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_GatheringDependencies",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_GatheringDependencies:d15e5575",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_GatheringDependencies:d15e5575",
+        "jp_sha256": "955a712319ca118ad43a00609342f40387c0e733c7fe2da25e294788bfce7124",
+        "official_en_sha256": "707f8751c0e0534c8d10e1d94070abc0fb06f1c9ea1e1ccd951bf16d4a32df8d"
+      },
+      "text": {
+        "jp": "依存関係を収集中...",
+        "official_en": "Gathering Dependencies...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:ImportDialogTitle:387f4e59",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "ImportDialogTitle",
+        "jp_record_id": "switch:locres:set-01:AssetTools:ImportDialogTitle:387f4e59",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:ImportDialogTitle:387f4e59",
+        "jp_sha256": "ad2c5e6338e68444fc28c1057737e9973ede1ad810d66c1754a022f003be1959",
+        "official_en_sha256": "2cff9baabf56ca002610e113bc94deb6ededddfc3c130365b6e88ed5195bf774"
+      },
+      "text": {
+        "jp": "インポート",
+        "official_en": "Import",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:ImportSlowTask:b80705be",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "ImportSlowTask",
+        "jp_record_id": "switch:locres:set-01:AssetTools:ImportSlowTask:b80705be",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:ImportSlowTask:b80705be",
+        "jp_sha256": "e6a557084317f0c3439ebfaaaa9eb64962ddf452166c171b8f2dd021a51185aa",
+        "official_en_sha256": "d252fffacbf0370776d720324538a0e7f77d2a01267bbeef6cd43378dc68605b"
+      },
+      "text": {
+        "jp": "インポート中",
+        "official_en": "Importing",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:Import_ImportingFile:e79c5ecf",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "Import_ImportingFile",
+        "jp_record_id": "switch:locres:set-01:AssetTools:Import_ImportingFile:e79c5ecf",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:Import_ImportingFile:e79c5ecf",
+        "jp_sha256": "b7df843b91aa1f9d2d77f3cf05909f4b246af3c1911ca18f8968c88756d231ec",
+        "official_en_sha256": "7ee788cc86d754f64115aca571780dc26f26e266ce876fd727c730d6078c619c"
+      },
+      "text": {
+        "jp": "\"{0}\" をインポート中...",
+        "official_en": "Importing \"{0}\"...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_Loading:84f08828",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_Loading",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_Loading:84f08828",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_Loading:84f08828",
+        "jp_sha256": "fc0c4257d7b3165883a85b416c4ca9f9917f72002fef8e675403c211862ab0a6",
+        "official_en_sha256": "15dc699837c6e3d0bb319cb32b3a46445bda17dc3df82782a09a29fbeedbc395"
+      },
+      "text": {
+        "jp": "パッケージをロードしています...",
+        "official_en": "Loading Packages...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MaterialAssetCategory:acf69852",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MaterialAssetCategory",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MaterialAssetCategory:acf69852",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MaterialAssetCategory:acf69852",
+        "jp_sha256": "3243ca4bfa9d0594760ef9cd1402183943fd6fd65b8e59e734dfa4628d104e7e",
+        "official_en_sha256": "616cb218a65b982f61fd738e24ebe00d5a2ae039c0d386fed975a51d51b772f8"
+      },
+      "text": {
+        "jp": "マテリアル",
+        "official_en": "Material",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MediaAssetCategory:8fcf2722",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MediaAssetCategory",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MediaAssetCategory:8fcf2722",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MediaAssetCategory:8fcf2722",
+        "jp_sha256": "d4389ace8320b824e3cdb6806369cd80755427230ac95b196edeedfaa8f45876",
+        "official_en_sha256": "d357175cfe8978d39b0f86552dcd9404973493e2816101d9ff6c05ee248ef6bd"
+      },
+      "text": {
+        "jp": "メディア",
+        "official_en": "Media",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_SuccessPageLabel:db220125",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_SuccessPageLabel",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SuccessPageLabel:db220125",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SuccessPageLabel:db220125",
+        "jp_sha256": "3922b07722886e448284fc2dc5aca1bfaae6acfbce2f0ec5c70aae7bcfb455a6",
+        "official_en_sha256": "5d28424a78bea21bb36c61701db666dfd4d853fabdfb67769cdbb3f593c5f92a"
+      },
+      "text": {
+        "jp": "移行済みパッケージ",
+        "official_en": "Migrated Packages",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages:470a7d26",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages:470a7d26",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages:470a7d26",
+        "jp_sha256": "aeebd84f91102bea341b4fafe7e75da7657d94e0d2045b3359e071212291e3d6",
+        "official_en_sha256": "cdc5240321d4a8773b6f1f3ef5d0e0051fa63b74bd8ad31cea881bafb133448d"
+      },
+      "text": {
+        "jp": "パッケージを移行する",
+        "official_en": "Migrating Packages",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_ErrorsPageLabel:15b1893a",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_ErrorsPageLabel",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_ErrorsPageLabel:15b1893a",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_ErrorsPageLabel:15b1893a",
+        "jp_sha256": "226e37fd2fa1e8c478932528c48f61384c1f1af990cc14a6d180c183044b99e8",
+        "official_en_sha256": "8d41e1ceeb95bd02f2e5e730d6399b3924a0b752532113fbca6ba45446705011"
+      },
+      "text": {
+        "jp": "移行エラー",
+        "official_en": "Migration Errors",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_WarningPageLabel:305c63f0",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_WarningPageLabel",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_WarningPageLabel:305c63f0",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_WarningPageLabel:305c63f0",
+        "jp_sha256": "3f4ad1440926e5c25e12c13aaac1cd2efd8324d14c2c3fb42ec1588435909afc",
+        "official_en_sha256": "21f8af88111114f03fe4d56924df4dc594e8e89c9f492b1beec8694e6174ebff"
+      },
+      "text": {
+        "jp": "移行時の警告",
+        "official_en": "Migration warnings",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_Load:4f266940",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_Load",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_Load:4f266940",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_Load:4f266940",
+        "jp_sha256": "bbfbd81bbea6137fd3469e860239b956f6f5482221be308da02027de40ab0e5a",
+        "official_en_sha256": "1e16c56dcbe69b6997e7085fb980eb08f21d3da148847b3eaff00de6a83cc77f"
+      },
+      "text": {
+        "jp": "移行：パッケージをロードしています {0}/{1}",
+        "official_en": "Migration: Loading packages {0}/{1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MiscellaneousAssetCategory:2dc3fa41",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MiscellaneousAssetCategory",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MiscellaneousAssetCategory:2dc3fa41",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MiscellaneousAssetCategory:2dc3fa41",
+        "jp_sha256": "f13156650ea41e28155a9af4007f6337b859a653aa71a6c2b2808111af1c3e88",
+        "official_en_sha256": "5cb0b42660589925c804543d433ba0764dab859487e5a9ed855481dcbfec1f06"
+      },
+      "text": {
+        "jp": "その他",
+        "official_en": "Miscellaneous",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_PackageNameChange:5894abdd",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_PackageNameChange",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_PackageNameChange:5894abdd",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_PackageNameChange:5894abdd",
+        "jp_sha256": "8b55cfcdae55fcaab6a1fb2b3c5cd0a3c3f97bcf12ac6da891369459be19974f",
+        "official_en_sha256": "d1a8354ffd22e7e27d2926e5712ab929437a8019a2176ace41b0c048282871f3"
+      },
+      "text": {
+        "jp": "移行用の修正済みパッケージ名",
+        "official_en": "Modified Packages Name For Migration",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_NoFilesToMove:e057a7b4",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AdvancedCopyPackages_NoFilesToMove",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_NoFilesToMove:e057a7b4",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_NoFilesToMove:e057a7b4",
+        "jp_sha256": "4beeba77b58e5007ddfe04aad1d8ca3d7a9c6165346041e92c142799dbd6ade2",
+        "official_en_sha256": "af7fa558e5daec703375cef4221b453987f4e8f47731bb659aee0aa36add6a86"
+      },
+      "text": {
+        "jp": "移動するファイルが見つかりませんでした",
+        "official_en": "No files were found to move",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_NoFilesToMove:32bfc4b4",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_NoFilesToMove",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_NoFilesToMove:32bfc4b4",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_NoFilesToMove:32bfc4b4",
+        "jp_sha256": "4beeba77b58e5007ddfe04aad1d8ca3d7a9c6165346041e92c142799dbd6ade2",
+        "official_en_sha256": "af7fa558e5daec703375cef4221b453987f4e8f47731bb659aee0aa36add6a86"
+      },
+      "text": {
+        "jp": "移動するファイルが見つかりませんでした",
+        "official_en": "No files were found to move",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_SaveSuccess:c319446d",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_SaveSuccess",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SaveSuccess:c319446d",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SaveSuccess:c319446d",
+        "jp_sha256": "e1c0b77955a028a0a3578e7028d70392d642da4a290f9c0474622e17dfec4e46",
+        "official_en_sha256": "49b28b87ff25f095833570cacbd93261c8d39acee768604b7261930045f4ed26"
+      },
+      "text": {
+        "jp": "パッケージ {0} は、{2}　というファイル名を持つ {1} として正常に移行されました",
+        "official_en": "Package ({0}) was migrated successfully as ({1}) with the following filename ({2})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_PackageHasNoAsset:d1f695af",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_PackageHasNoAsset",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_PackageHasNoAsset:d1f695af",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_PackageHasNoAsset:d1f695af",
+        "jp_sha256": "f5a2f1166b303f2d317d0951d1dd581efe8fb36fbff3d6affa5f7366878c1c40",
+        "official_en_sha256": "b5ae34c0260d91bae021a16006ef00b11e8abdaa0d8819c4b3a09f2f963904d7"
+      },
+      "text": {
+        "jp": "パッケージ {0}の中にアセットはありません",
+        "official_en": "Package {0} has no asset in it",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:PhysicsAssetCategory:f2f01c98",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "PhysicsAssetCategory",
+        "jp_record_id": "switch:locres:set-01:AssetTools:PhysicsAssetCategory:f2f01c98",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:PhysicsAssetCategory:f2f01c98",
+        "jp_sha256": "a454f17872a14b8ae11e9a7f6ffd9b09075e748ae4fb27700dc99328be039e42",
+        "official_en_sha256": "349096910d3c474b61ec0cc741486084dbd9c8f2a57e37557b35c7ab5e6205f3"
+      },
+      "text": {
+        "jp": "物理",
+        "official_en": "Physics",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_SpecifyConsolidateFolder:ed6282ea",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_SpecifyConsolidateFolder",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SpecifyConsolidateFolder:ed6282ea",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SpecifyConsolidateFolder:ed6282ea",
+        "jp_sha256": "155953fc3327a66075d3bca2fafbdbf7ab2f7276f8edb408abea05c7cf973b14",
+        "official_en_sha256": "e145dc8733bae3acb855901c19e25913de9634a50d1a5e34f0f170587a78549e"
+      },
+      "text": {
+        "jp": "アセットを統合する新しいフォルダ名を指定してください。",
+        "official_en": "Please specify a new folder name to consolidate the assets into.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPrepareSlowTask:bd68a2d0",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AdvancedCopyPrepareSlowTask",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPrepareSlowTask:bd68a2d0",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPrepareSlowTask:bd68a2d0",
+        "jp_sha256": "bce59fa3f29aa7342c209271996a420b55ecdc5fcbdbf0fa5448b90630b217a2",
+        "official_en_sha256": "c9b7a96dd47c7bd2b3ed1f06e7e615f9ff3307e13ed971952d92d07f085e182a"
+      },
+      "text": {
+        "jp": "ファイルの高度なコピーを準備しています",
+        "official_en": "Preparing Files for Advanced Copy",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AdvancedCopy_PreparingDependencies:68fad844",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AdvancedCopy_PreparingDependencies",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AdvancedCopy_PreparingDependencies:68fad844",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AdvancedCopy_PreparingDependencies:68fad844",
+        "jp_sha256": "561e0ddf40091b8bf58d76c5c9d999e27c96296f730cd5f278df6bab80c48015",
+        "official_en_sha256": "7dd72f805e9cbf19af02f722ccda154eb58276afc9c5c5e261678b1d1db1a82b"
+      },
+      "text": {
+        "jp": "{0} の依存関係の準備しています",
+        "official_en": "Preparing dependencies for {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages.ReplacingAssetReferences:3b6e78cd",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AdvancedCopyPackages.ReplacingAssetReferences",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages.ReplacingAssetReferences:3b6e78cd",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages.ReplacingAssetReferences:3b6e78cd",
+        "jp_sha256": "86b83339149b0c3d46ad87041ff658e162841eea5ff3f12ef4911d56b239cc64",
+        "official_en_sha256": "49627202392e4ca3f724648ada87625bf18f8fb0f9dab3c947f798e6100b0dac"
+      },
+      "text": {
+        "jp": "アセットのリファレンスを置換中...",
+        "official_en": "Replacing Asset References...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_ReplaceReferences:ea229166",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_ReplaceReferences",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_ReplaceReferences:ea229166",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_ReplaceReferences:ea229166",
+        "jp_sha256": "664ae14ff3dbf2d30fb69c865168c52110f12bb797176c9f07fc3a1e0565cb17",
+        "official_en_sha256": "0ab8615740473d7900a147077091ceeb4e67006194407e6366a5dec0284a26fc"
+      },
+      "text": {
+        "jp": "参照の置換中...",
+        "official_en": "Replacing References...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_SourceControlErrorsListPage:75934c2e",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AdvancedCopyPackages_SourceControlErrorsListPage",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_SourceControlErrorsListPage:75934c2e",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_SourceControlErrorsListPage:75934c2e",
+        "jp_sha256": "0836b319284ee84e93f3b3fdc081da3a2566c3b12f048cacddd84ed22fd32e6d",
+        "official_en_sha256": "d521a4fbceae59cf70930bcb15015a7a578506168f3cd9328dc033a39e0a37ee"
+      },
+      "text": {
+        "jp": "リビジョンコントロールエラー",
+        "official_en": "Revision Control Errors",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_SourceControlErrorsListPage:4b27fd52",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_SourceControlErrorsListPage",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SourceControlErrorsListPage:4b27fd52",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SourceControlErrorsListPage:4b27fd52",
+        "jp_sha256": "0836b319284ee84e93f3b3fdc081da3a2566c3b12f048cacddd84ed22fd32e6d",
+        "official_en_sha256": "d521a4fbceae59cf70930bcb15015a7a578506168f3cd9328dc033a39e0a37ee"
+      },
+      "text": {
+        "jp": "リビジョンコントロールエラー",
+        "official_en": "Revision Control Errors",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:SaveAssetDialogTitle:10d35754",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "SaveAssetDialogTitle",
+        "jp_record_id": "switch:locres:set-01:AssetTools:SaveAssetDialogTitle:10d35754",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:SaveAssetDialogTitle:10d35754",
+        "jp_sha256": "a2b8d9889ca65ea4ddf315f2ac2384c7cf8b2fc33ae6fd2fc175f81b141a9bab",
+        "official_en_sha256": "148ca5cfa04b6af6a091d12f8f2d7e0f097ebab58337d089e0c00685a4bb392e"
+      },
+      "text": {
+        "jp": "アセットに名前を付けて保存",
+        "official_en": "Save Asset As",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_Save:223ba983",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_Save",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_Save:223ba983",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_Save:223ba983",
+        "jp_sha256": "8afc5c1ecf557a66683e57f1670d4180907f633ae22b314aeed5a70bc877c17b",
+        "official_en_sha256": "f9c5d6d7c0e2d57befba70844b0f8692390820c6d9b5a4ef1d5477c3a6069da6"
+      },
+      "text": {
+        "jp": "パッケージをターゲットに保存しています {0}/{1}",
+        "official_en": "Saving the packages into the destination {0}/{1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_SourceControlErrorsList:20019f67",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AdvancedCopyPackages_SourceControlErrorsList",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_SourceControlErrorsList:20019f67",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_SourceControlErrorsList:20019f67",
+        "jp_sha256": "41d9220c8a3d165ebef6647dea7ceb1a8d152540100149e28894963ef2ef8613",
+        "official_en_sha256": "9ce56b30257767f8cdd7434a992d2e397e41ecfdfedd35fd6f50204e8924372c"
+      },
+      "text": {
+        "jp": "一部のファイルからリビジョン コントロール エラーが報告されています",
+        "official_en": "Some files reported revision control errors.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_SourceControlErrorsList:a812ee7c",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_SourceControlErrorsList",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SourceControlErrorsList:a812ee7c",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SourceControlErrorsList:a812ee7c",
+        "jp_sha256": "41d9220c8a3d165ebef6647dea7ceb1a8d152540100149e28894963ef2ef8613",
+        "official_en_sha256": "9ce56b30257767f8cdd7434a992d2e397e41ecfdfedd35fd6f50204e8924372c"
+      },
+      "text": {
+        "jp": "一部のファイルからリビジョン コントロール エラーが報告されています",
+        "official_en": "Some files reported revision control errors.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_CopyErrorsSuccesslist:ce32787a",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AdvancedCopyPackages_CopyErrorsSuccesslist",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_CopyErrorsSuccesslist:ce32787a",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_CopyErrorsSuccesslist:ce32787a",
+        "jp_sha256": "166bafa11f4d51f5a57bdcbd09a15b78b389bcfe70a764fc94a6aef8f3ca0a46",
+        "official_en_sha256": "8006931a10b1106c54a9b9ab891247e12179c1a52e51a0ce6ad92457b4f6d53a"
+      },
+      "text": {
+        "jp": "一部のファイルが正常にコピーされました。",
+        "official_en": "Some files were copied successfully.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_CopyErrorsSuccesslist:1ba92b22",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_CopyErrorsSuccesslist",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CopyErrorsSuccesslist:1ba92b22",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CopyErrorsSuccesslist:1ba92b22",
+        "jp_sha256": "52b00e0e34c6bb92ec305fc34a0d5a7810fa639cc04be6dfa57e55cd7a6b72b2",
+        "official_en_sha256": "8006931a10b1106c54a9b9ab891247e12179c1a52e51a0ce6ad92457b4f6d53a"
+      },
+      "text": {
+        "jp": "１部のファイルのコピーに成功しました。",
+        "official_en": "Some files were copied successfully.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_ConsolidateToTemp:d0cc4f67",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_ConsolidateToTemp",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_ConsolidateToTemp:d0cc4f67",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_ConsolidateToTemp:d0cc4f67",
+        "jp_sha256": "3a3e53b44adfefcf92614ee27996ac363034f3539ae144a5402631d8505c2315",
+        "official_en_sha256": "ffb025df543d5b70690c195dfe4685bd731e8589a06c3bf2f881b6002652c5e3"
+      },
+      "text": {
+        "jp": "一部の選択済みのアセットには、対応するコンテンツ ルートが宛先にありません{0}\n\nすべての選択済みのアセットのコピーを、統合済み参照とともにフォルダに保存しますか？[いいえ] を選択すると、上記のルートにあるアセットは移行されません",
+        "official_en": "Some selected assets don't have a corresponding content root in the destination.{0}\n\nWould you like to save a copy of all selected assets into a folder with consolidated references? If you select No then assets in the above roots will not be migrated.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:TextureAssetCategory:9b1bf96d",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "TextureAssetCategory",
+        "jp_record_id": "switch:locres:set-01:AssetTools:TextureAssetCategory:9b1bf96d",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:TextureAssetCategory:9b1bf96d",
+        "jp_sha256": "92bbab86956e7117c40129e20910ad0546e3262810fdbd4c8f992faecff609b1",
+        "official_en_sha256": "e28411a3404d21f9fc1679b4464b3dc497333f6140e580d745d52e2522d65c9f"
+      },
+      "text": {
+        "jp": "テクスチャ",
+        "official_en": "Texture",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:DiffFail:feddf39d",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "DiffFail",
+        "jp_record_id": "switch:locres:set-01:AssetTools:DiffFail:feddf39d",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:DiffFail:feddf39d",
+        "jp_sha256": "e7e6dcf2c48dbde8285e1cb67ee09d7402161ffc5fa146fd3ab67ef0e6d7aedf",
+        "official_en_sha256": "573fbe4cebf38c4e453290d75444b1e7dcfbdadb9c50d29ddb0e7257e64fd2ac"
+      },
+      "text": {
+        "jp": "現在設定されている差分ツールの'{0}'を実行できませんでした。新しい差分ツールを設定しますか?",
+        "official_en": "The currently set diff tool '{0}' could not be run. Would you like to set a new diff tool?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackagesReportTitle:ffc595a8",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackagesReportTitle",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackagesReportTitle:ffc595a8",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackagesReportTitle:ffc595a8",
+        "jp_sha256": "cb1f4128834982cc5033eced146e54fd53b26bf4c643088d9826a40df9cc8425",
+        "official_en_sha256": "75b45f76c5b8654eb5e5e99f106c248912c19d656af7346a04877e20f8bb2a6a"
+      },
+      "text": {
+        "jp": "次のアセットは別のコンテンツフォルダにコピーされます。",
+        "official_en": "The following assets will be migrated to another content folder.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MustSupplyClassOrFactory:b14b7294",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MustSupplyClassOrFactory",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MustSupplyClassOrFactory:b14b7294",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MustSupplyClassOrFactory:b14b7294",
+        "jp_sha256": "6d5eae8bb23acdeb2dc6a4a734f8c5c859b4e0eb6f71dc03fa3375609d3f5316",
+        "official_en_sha256": "35de6b0dbca849c3fc679b73dbb439fafc3ceca30757d21ea462c64f5c759086"
+      },
+      "text": {
+        "jp": "新規アセットに適切なファクトリーまたはクラスを検索できなかったため、新規アセットは作成されませんでした。",
+        "official_en": "The new asset wasn't created due to a problem finding the appropriate factory or class for the new asset.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:InvalidSourceObject:6ac1aaec",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "InvalidSourceObject",
+        "jp_record_id": "switch:locres:set-01:AssetTools:InvalidSourceObject:6ac1aaec",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:InvalidSourceObject:6ac1aaec",
+        "jp_sha256": "71c13544f6d0ec99529fab879c546b534427d7508be073e2bf2564f6da3d0714",
+        "official_en_sha256": "8c6cfa1280b18725a9120eb2cad3adaebcc79a70b37b4c7a42bfdf20e3e71088"
+      },
+      "text": {
+        "jp": "複製するオブジェクトを検索できなかったため新規アセットは作成されませんでした。",
+        "official_en": "The new asset wasn't created due to a problem finding the object to duplicate.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_EngineContent:aef31697",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AdvancedCopyPackages_EngineContent",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_EngineContent:aef31697",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_EngineContent:aef31697",
+        "jp_sha256": "a83f92e560d98528033ec90ea4c55a21d15c0ef73c35d54c440768affcd2aa3f",
+        "official_en_sha256": "8e4b1f6c7e3267439fb507fdac20e8bea8f3afe0ccdc471220f1a8c43a0de259"
+      },
+      "text": {
+        "jp": "エンジンアセット {0} のコピーができません。エンジンアセットに対して高度なコピーを行うことはできません。",
+        "official_en": "Unable to copy Engine asset {0}. Engine assets cannot be copied using Advanced Copy.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_NoContentFolder:3efff25c",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_NoContentFolder",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_NoContentFolder:3efff25c",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_NoContentFolder:3efff25c",
+        "jp_sha256": "231247c94d9d6ae50dd3d97dce157fff894134cfea6300014a44d0455eef501a",
+        "official_en_sha256": "4333b997afbbc7c8fdd1611cc7648b71b96b2cbac6aea47d436c9cdfed6dd351"
+      },
+      "text": {
+        "jp": "アセット{0}のマウントポイントを決定することができません",
+        "official_en": "Unable to determine content folder for asset {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_NoMountPointFolder:6fe6dbec",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_NoMountPointFolder",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_NoMountPointFolder:6fe6dbec",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_NoMountPointFolder:6fe6dbec",
+        "jp_sha256": "c209c1a682926717d33a56f44df30a08cec5934173456fbe0ccffafdfc04a715",
+        "official_en_sha256": "74cfac23c5cde7963c005b5960e4e7f85fb25b1bac4adeaeb57542bf3f97dccd"
+      },
+      "text": {
+        "jp": "フォルダー{0}のマウントポイントを決定することができません",
+        "official_en": "Unable to determine mount point for folder {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_NoMountPointPackage:a3dfbb76",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_NoMountPointPackage",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_NoMountPointPackage:a3dfbb76",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_NoMountPointPackage:a3dfbb76",
+        "jp_sha256": "be7d1e105e4d20a5b46f0595c6238ca98f95d0896ff6cd82341ada69b96373e0",
+        "official_en_sha256": "b1a2fa09529e76c5adf3590670e922506978bd4f7c8cd6d067c2db0bcff9ef3e"
+      },
+      "text": {
+        "jp": "パッケージ{0}のマウントポイントを決定することができません",
+        "official_en": "Unable to determine mount point for package {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_EngineContent:2b1a63c0",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_EngineContent",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_EngineContent:2b1a63c0",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_EngineContent:2b1a63c0",
+        "jp_sha256": "2e7351581a068557175d6b2434d077231c014474c97a689fcd8176eb5e4a2b50",
+        "official_en_sha256": "8a7ec64b232e14aa703f8d7b67d6325d74648bdfc583f0b9e8ae6cea0c7a6f1a"
+      },
+      "text": {
+        "jp": "エンジンアセット {0} を移行できませんでした。エンジンアセットはコピーできません。",
+        "official_en": "Unable to migrate Engine asset {0}. Engine assets cannot be migrated.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:UnsupportedFileImport:0022ae60",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "UnsupportedFileImport",
+        "jp_record_id": "switch:locres:set-01:AssetTools:UnsupportedFileImport:0022ae60",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:UnsupportedFileImport:0022ae60",
+        "jp_sha256": "1bdd1e90fb815479ff3b2e4f631d0f564546c26d34dc02a14670aab8392b31ea",
+        "official_en_sha256": "44a842a3f9761b06215a4c82c7c3ecb35c3274fac584c291daa1bce342ec7347"
+      },
+      "text": {
+        "jp": "次のインポートするファイル形式はサポートされていません:\n{0}",
+        "official_en": "Unsupported file format to import:\n{0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:UserInterfaceAssetCategory:750eb159",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "UserInterfaceAssetCategory",
+        "jp_record_id": "switch:locres:set-01:AssetTools:UserInterfaceAssetCategory:750eb159",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:UserInterfaceAssetCategory:750eb159",
+        "jp_sha256": "5ec02ce8d8d3a81980ec91cf8eb843288fb6a43f8aa1c2bddc6428f6cab59efb",
+        "official_en_sha256": "480a0f132f51e9fd99559acae3cd61ef23ed433a691fbb5796e143123b92e3ca"
+      },
+      "text": {
+        "jp": "ユーザーインターフェイス",
+        "official_en": "User Interface",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:WorldAssetCategory:e4dd2718",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "WorldAssetCategory",
+        "jp_record_id": "switch:locres:set-01:AssetTools:WorldAssetCategory:e4dd2718",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:WorldAssetCategory:e4dd2718",
+        "jp_sha256": "fec705e4110e5a9d7b9b1962f58b42ff0792d8409c3c1fa097e680d81ef44b0c",
+        "official_en_sha256": "78ae647dc5544d227130a0682a51e30bc7777fbb6d8a8f17007463a3ecd1d524"
+      },
+      "text": {
+        "jp": "ワールド",
+        "official_en": "World",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AssetNameInUseByMap:aa017cb9",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AssetNameInUseByMap",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AssetNameInUseByMap:aa017cb9",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AssetNameInUseByMap:aa017cb9",
+        "jp_sha256": "4b245c10a9421d551fee13dc6aeb6e63f1f79bedc125f9327d2a76c6946a4e27",
+        "official_en_sha256": "1538869ad0d7c7bb7b6a10c8fe24822851d4939f87334e4c544353f258f10d2e"
+      },
+      "text": {
+        "jp": "フォルダ内に同名のマップファイルが既に存在しているため、 '{0}' という名前のアセットは作成できません。",
+        "official_en": "You can not create an asset named '{0}' because there is already a map file with this name in this folder.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_SourceControlError:0963837d",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AdvancedCopyPackages_SourceControlError",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_SourceControlError:0963837d",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_SourceControlError:0963837d",
+        "jp_sha256": "7cedc4d3ab9ac8f005e948fdb419cfb81b80088237f9a04889e8583b0e2021dc",
+        "official_en_sha256": "bfadccec6b11f51285960e8dd241fd80ff5e4626c561377cb8541b3b0e2191b3"
+      },
+      "text": {
+        "jp": "{0} をリビジョン コントロールに追加できませんでした",
+        "official_en": "{0} could not be added to revision control",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_SourceControlError:1e0928e4",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_SourceControlError",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SourceControlError:1e0928e4",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_SourceControlError:1e0928e4",
+        "jp_sha256": "7cedc4d3ab9ac8f005e948fdb419cfb81b80088237f9a04889e8583b0e2021dc",
+        "official_en_sha256": "bfadccec6b11f51285960e8dd241fd80ff5e4626c561377cb8541b3b0e2191b3"
+      },
+      "text": {
+        "jp": "{0} をリビジョン コントロールに追加できませんでした",
+        "official_en": "{0} could not be added to revision control",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_CouldNotProcessError:f64d5d14",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AdvancedCopyPackages_CouldNotProcessError",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_CouldNotProcessError:f64d5d14",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_CouldNotProcessError:f64d5d14",
+        "jp_sha256": "af189c83273d29dce7e12ff8dc6b2a29ee9ff3daf0f166adcbfa851f2cc3c70d",
+        "official_en_sha256": "a80b42144183b63e97a9262f95a76e89a3b45db40a6afc4f5cbb34b158f55aa4"
+      },
+      "text": {
+        "jp": "{0} を処理できませんでした：{1}",
+        "official_en": "{0} could not be processed: {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_NonContentFolder:cc7c8142",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_NonContentFolder",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_NonContentFolder:cc7c8142",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_NonContentFolder:cc7c8142",
+        "jp_sha256": "48414e27dfc90e7a5fc95d3220dd9186068139808405213497b791cf4b2e4aac",
+        "official_en_sha256": "2b4bb9e688e31ea94a57757dbca1f24f92bcf6ea8469b3b5877d240a5dad9e6a"
+      },
+      "text": {
+        "jp": "{0} コンテンツフォルダではないようです。移行されたコンテンツはコンテンツ フォルダに配置しなければ正しく機能しません。コンテンツ フォルダを選択してください",
+        "official_en": "{0} does not appear to be a Content folder. Migrated content only work if placed in a Content folder. Select a Content folder.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_CannotIdentifyMountPoint:b3b77526",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_CannotIdentifyMountPoint",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CannotIdentifyMountPoint:b3b77526",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CannotIdentifyMountPoint:b3b77526",
+        "jp_sha256": "893bf1967f024599a211a72d7b7b2867c3932f3392b40cb46a7ea8b5f8221d90",
+        "official_en_sha256": "3f7d7999c7e486ac89288c86f82707767a4e71f96532a9d22d98b0d2423dddf5"
+      },
+      "text": {
+        "jp": "{0} は、ゲームコンテンツ フォルダまたはプラグイン フォルダではないようです。ツールは、保存先フォルダのunreal パスを決定するために使用される、関連する uproject または uplugin ファイルを見つけられませんでした。移行されたコンテンツは、プロジェクトまたはプラグインコンテンツフォルダに配置しなければ正しく機能しません。コンテンツ フォルダを選択してください",
+        "official_en": "{0} does not appear to be a game Content folder or a Plugin folder. The tool didn't found the associated uproject or uplugin file used to determine the unreal path of destination folder. Migrated content only work if placed in a Project or a Plugin Content folder. Select a Content folder.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_PackageMissing:a2921517",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "AdvancedCopyPackages_PackageMissing",
+        "jp_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_PackageMissing:a2921517",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:AdvancedCopyPackages_PackageMissing:a2921517",
+        "jp_sha256": "eaf9b396f406576b76b0c3c844a720f233539a9d92dc7e7a0c261055d1cdbc3c",
+        "official_en_sha256": "37c900d06f8905e7b9010b01b7b08bd59ce78fc40be7a42e923107e4ee877096"
+      },
+      "text": {
+        "jp": "{0} はディスクに存在しません。",
+        "official_en": "{0} does not exist on disk.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_PackageMissing:75177f0e",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_PackageMissing",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_PackageMissing:75177f0e",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_PackageMissing:75177f0e",
+        "jp_sha256": "eaf9b396f406576b76b0c3c844a720f233539a9d92dc7e7a0c261055d1cdbc3c",
+        "official_en_sha256": "37c900d06f8905e7b9010b01b7b08bd59ce78fc40be7a42e923107e4ee877096"
+      },
+      "text": {
+        "jp": "{0} はディスクに存在しません。",
+        "official_en": "{0} does not exist on disk.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_InvalidMigrateFolder:81cd1354",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_InvalidMigrateFolder",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_InvalidMigrateFolder:81cd1354",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_InvalidMigrateFolder:81cd1354",
+        "jp_sha256": "7b37e32b34561a63faac6a668a8bfb1531ed206a40a3a6723f460ac42a40ff53",
+        "official_en_sha256": "ffafa26db203ee500e822fd7f2662e0d2080c225f624d8412369c586898d12b9"
+      },
+      "text": {
+        "jp": "{0}はソースプロジェクトのディスクに存在し、アセットの統合には使用できません。",
+        "official_en": "{0} exists on disk in the source project, and cannot be used to consolidate assets.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetTools:MigratePackages_CannotMoveContentHere:2596d754",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetTools",
+        "key": "MigratePackages_CannotMoveContentHere",
+        "jp_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CannotMoveContentHere:2596d754",
+        "official_en_record_id": "switch:locres:set-01:AssetTools:MigratePackages_CannotMoveContentHere:2596d754",
+        "jp_sha256": "ac751704431c4893e3ecc695d57a3579c6dbb054aea9131264ab61cdb699af5a",
+        "official_en_sha256": "0b992c25aa16878fb1ac854a1ea46ead8ddc14e405f9150358a31613b4eb2cdc"
+      },
+      "text": {
+        "jp": "{0} は書き込み可能なフォルダにありません。別のコンテンツ フォルダを選択してください",
+        "official_en": "{0} is not in a writable folder. Chose another Content folder.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

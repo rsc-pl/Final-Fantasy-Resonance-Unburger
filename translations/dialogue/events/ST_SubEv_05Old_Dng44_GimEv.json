@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_SubEv_05Old_Dng44_GimEv",
+    "scene_id": "ST_SubEv_05Old_Dng44_GimEv",
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_05Old_Dng44_GimEv:SubEv_05Old_Dng44_GimEv_001:91072abd",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_05Old_Dng44_GimEv",
+        "key": "SubEv_05Old_Dng44_GimEv_001",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_05Old_Dng44_GimEv:SubEv_05Old_Dng44_GimEv_001:91072abd",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_05Old_Dng44_GimEv:SubEv_05Old_Dng44_GimEv_001:91072abd",
+        "jp_sha256": "37d6dc0b8f3e28039594d7ff0fbe4e4147ccd08dc33569ee0a965938051c6c5d",
+        "official_en_sha256": "e3761c719fbe652c9bd095cc6cac909107affb38c1e3b79a43de2ac643f14cd4"
+      },
+      "text": {
+        "jp": "この木箱、押せそうだな…。",
+        "official_en": "It looks like we can push these crates.",
+        "real_en": "Looks like we can push this wooden crate..."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_05Old_Dng44_GimEv",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "レイン",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0002",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_05Old_Dng44_GimEv/SubEv_05Old_Dng44_GimEv_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_05Old_Dng44_GimEv:SubEv_05Old_Dng44_GimEv_002:dfda86bb",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_05Old_Dng44_GimEv",
+        "key": "SubEv_05Old_Dng44_GimEv_002",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_05Old_Dng44_GimEv:SubEv_05Old_Dng44_GimEv_002:dfda86bb",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_05Old_Dng44_GimEv:SubEv_05Old_Dng44_GimEv_002:dfda86bb",
+        "jp_sha256": "cc6234e764ee5cd6001eda34d20e5ea8e965bc135a8c05c9fc52eae38ef41f6b",
+        "official_en_sha256": "319935725bf1dc3bdeeb19d951f2f1a640adf745d1d58e4903ef89bba40ef38a"
+      },
+      "text": {
+        "jp": "何かの役に立つかもしれません。\r\n周囲をよく観察してみましょう。",
+        "official_en": "They may be of use to us. Let us take a closer look at our surroundings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_05Old_Dng44_GimEv",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "ニコル",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0067",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_05Old_Dng44_GimEv/SubEv_05Old_Dng44_GimEv_002"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

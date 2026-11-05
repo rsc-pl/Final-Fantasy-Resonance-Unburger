@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "InterchangeFbxMessages",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:InterchangeFbxMessages:CannotOpenTextureFileOnImport:2ecd91ac",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeFbxMessages",
+        "key": "CannotOpenTextureFileOnImport",
+        "jp_record_id": "switch:locres:set-01:InterchangeFbxMessages:CannotOpenTextureFileOnImport:2ecd91ac",
+        "official_en_record_id": "switch:locres:set-01:InterchangeFbxMessages:CannotOpenTextureFileOnImport:2ecd91ac",
+        "jp_sha256": "be452dce5114a4322915ecb6979910a6a7958daa072bcfa62914b33ff3b195e6",
+        "official_en_sha256": "75ca8298d3020903018c18a1fabf65a9c69ab57e8062687ea67309de142034d3"
+      },
+      "text": {
+        "jp": "マテリアル「{MaterialName}」のインポート時にテクスチャ ファイル「{TextureName}」を開くことができません",
+        "official_en": "Cannot open texture file '{TextureName}' when importing material '{MaterialName}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeFbxMessages:TextureFileCannotBeOpened:5567473e",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeFbxMessages",
+        "key": "TextureFileCannotBeOpened",
+        "jp_record_id": "switch:locres:set-01:InterchangeFbxMessages:TextureFileCannotBeOpened:5567473e",
+        "official_en_record_id": "switch:locres:set-01:InterchangeFbxMessages:TextureFileCannotBeOpened:5567473e",
+        "jp_sha256": "9f987ce580a0109bfb8d64b57b430755eec28707a8b50a984c0e05858ffe9613",
+        "official_en_sha256": "34b483c62d8abe3b289047ddbb0e503fade44b28730cb01661cae5c55deb350a"
+      },
+      "text": {
+        "jp": "テクスチャ ファイル「{TextureName}」を開くことができません",
+        "official_en": "Cannot open texture file '{TextureName}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeFbxMessages:TooManyUVs:04e524ab",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeFbxMessages",
+        "key": "TooManyUVs",
+        "jp_record_id": "switch:locres:set-01:InterchangeFbxMessages:TooManyUVs:04e524ab",
+        "official_en_record_id": "switch:locres:set-01:InterchangeFbxMessages:TooManyUVs:04e524ab",
+        "jp_sha256": "5ffc343cb7c0798b025b0b9bc96303dfd201281d9711ac2d9966b6a63254834e",
+        "official_en_sha256": "2eda456de5421b9369d9c5ff7df2b267f1e156a079ebdfbb6c2691086b5bf874"
+      },
+      "text": {
+        "jp": "メッシュ'{MeshName}'のUVチャンネルの最大数に達しました - {ExcessUVs}チャンネルを破棄します。",
+        "official_en": "Reached the maximum number of UV Channels for mesh '{MeshName}' - discarding {ExcessUVs} {ExcessUVs}|plural(one=channel,other=channels).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

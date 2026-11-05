@@ -1,0 +1,826 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AnimSequencerDataModel",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:TransformCurveBoneNaN:2c2c1d4b",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "TransformCurveBoneNaN",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:TransformCurveBoneNaN:2c2c1d4b",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:TransformCurveBoneNaN:2c2c1d4b",
+        "jp_sha256": "845ff76aec5ee5b8e343e2db8c139690ba721644e323a3f8b69d231f579101c6",
+        "official_en_sha256": "2b53c1d9c091b58c7d7597860c4d13c4761e06ea53936436899044ddec175c0b"
+      },
+      "text": {
+        "jp": "{0} のトランスフォーム カーブを適用すると NaN 値になるため、アニメートされたボーン ポーズに戻されます",
+        "official_en": "Applying transform curve {0} results in NaN value, reverting back to animated bone pose",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:BoneTransformNaN:51d3de2a",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "BoneTransformNaN",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:BoneTransformNaN:51d3de2a",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:BoneTransformNaN:51d3de2a",
+        "jp_sha256": "6d50071295790286d2372f4b81002fb1702035c1e3b349bbe1f3561a1a783c6d",
+        "official_en_sha256": "765710e76c42d3258e2650124ebfe7d2f05d6ab8d84efde35d34b3e809aea001"
+      },
+      "text": {
+        "jp": "{0} のボーン トランスフォームに NaN 値が入っているため、参照ボーン ポーズにリセットされます",
+        "official_en": "Bone transform for {0} contains NaN value, resetting to reference bone pose",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:TransformCurveBoneNotFound:e0123a5c",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "TransformCurveBoneNotFound",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:TransformCurveBoneNotFound:e0123a5c",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:TransformCurveBoneNotFound:e0123a5c",
+        "jp_sha256": "68451dc43f4676beb59d768449a2598c20646342dd3a0738b531d3ba4bb18c9d",
+        "official_en_sha256": "d1f1e4a4be460facacd6450122130bad0ab3ca2bff2221ad708fc179f318e79e"
+      },
+      "text": {
+        "jp": "トランスフォーム カーブ {0} の BoneIndex が見つかりませんでした",
+        "official_en": "Failed to find BoneIndex for transform curve {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:InvalidNumberOfSections:5e3d9ad4",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "InvalidNumberOfSections",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:InvalidNumberOfSections:5e3d9ad4",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:InvalidNumberOfSections:5e3d9ad4",
+        "jp_sha256": "dc1fa2aa7a8f3f2c30e89016b6a13cf3d2521702a9f6c4af90b541532bf3ced8",
+        "official_en_sha256": "ec235f80ebb62215fc8ef9ee24e03059757891c8154e1b2c476917a6d79fa317"
+      },
+      "text": {
+        "jp": "コントロールリグ トラックに無効なセクション番号が見つかりました。想定している番号は 1 ですが、見つかったのは {0} です",
+        "official_en": "Invalid number of Sections found for Control Rig Track expected 1 but found {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:InvalidNumberOfTracks:1eb632cd",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "InvalidNumberOfTracks",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:InvalidNumberOfTracks:1eb632cd",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:InvalidNumberOfTracks:1eb632cd",
+        "jp_sha256": "4c3ca8d7a0af1f33925bc2010e49dcedbe4fb7a6056ff45e704fa863fb5c2564",
+        "official_en_sha256": "15aa2c4ed813bc39e555074bbe266567fdcaf88fb2397bfacf64cf2679c3e851"
+      },
+      "text": {
+        "jp": "ムービー シーンのトラックに無効な番号が見つかりました。想定している番号は 1 ですが、見つかったのは {0} です",
+        "official_en": "Invalid number of Tracks in Movie Scene expected 1 but found {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:MissingMovieScene:58ff2b6f",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "MissingMovieScene",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:MissingMovieScene:58ff2b6f",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:MissingMovieScene:58ff2b6f",
+        "jp_sha256": "6c2255179049b8aeacf950407d33f17d7a0634b85e50ccd8809fc879341633e5",
+        "official_en_sha256": "b5c0c338534058c83624199a4a12188095743e2969526691adbc6f1fb5650f7b"
+      },
+      "text": {
+        "jp": "シーケンサー データ モデルにムービー シーンが見つかりません",
+        "official_en": "No Movie Scene found for SequencerDataModel",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:FailedToEvaluateCurveControl:c7179cf4",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "FailedToEvaluateCurveControl",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:FailedToEvaluateCurveControl:c7179cf4",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:FailedToEvaluateCurveControl:c7179cf4",
+        "jp_sha256": "9a37674ee008d2f52dba5405253548ea9cd62ed834792e80dd0fd7df5c8d4591",
+        "official_en_sha256": "4f2de610b79ff4248f700a6d7ff9f7d89e73608330f38b86d3fd08d72725dcff"
+      },
+      "text": {
+        "jp": "間隔 {1} でのコントロール カーブ ({0}) を評価できません",
+        "official_en": "Unable to evaluate Control Curve ({0}) at interval {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:MissingControlRig:c4b43fe3",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "MissingControlRig",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:MissingControlRig:c4b43fe3",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:MissingControlRig:c4b43fe3",
+        "jp_sha256": "a646507bdbd3c3a43e40bfef698d68e9b8a2988a9b681d5b637d49841154c64e",
+        "official_en_sha256": "217d4d3dd554697bd8612a88e2bc602a0e610590081a776444b27aef1fda3b1b"
+      },
+      "text": {
+        "jp": "コントロールリグが見つかりません",
+        "official_en": "Unable to find Control Rig",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:MissingControlRigSection:6b0ad48f",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "MissingControlRigSection",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:MissingControlRigSection:6b0ad48f",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:MissingControlRigSection:6b0ad48f",
+        "jp_sha256": "81251336b9aa4c2d319262058f612a312c3a6f5aceee1059e063d7474031a801",
+        "official_en_sha256": "b017b3e7a9311d0743b8af8f685eaa6d8d51293f7071a09335fc3a7af7e41de9"
+      },
+      "text": {
+        "jp": "コントロールリグ セクションが見つかりません",
+        "official_en": "Unable to find Control Rig Section",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:MissingControlRigTrack:0dced60b",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "MissingControlRigTrack",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:MissingControlRigTrack:0dced60b",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:MissingControlRigTrack:0dced60b",
+        "jp_sha256": "6c7e5da532cc98e77a438e9e1c2e312283984aedd4824dcedf2358375618afbd",
+        "official_en_sha256": "1b6cc1c5c887affa2faf3433e42477e86ce024129f659a6d6f1af1eb05f01ed1"
+      },
+      "text": {
+        "jp": "コントロールリグ トラックが見つかりません",
+        "official_en": "Unable to find Control Rig Track",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:CurveControlElementNotFound:5f4548d0",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "CurveControlElementNotFound",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:CurveControlElementNotFound:5f4548d0",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:CurveControlElementNotFound:5f4548d0",
+        "jp_sha256": "0a61f2edfa5dd56f6fbad0ea46f87bfc6900b98ea07cf68f1cd8e79719a51730",
+        "official_en_sha256": "ebcd5cdf3223a178824779d1567252b24a45bd976a5ba8d2c2bfa96dfea478f5"
+      },
+      "text": {
+        "jp": "{0} というカーブに対する RigHierarchy に FRigControlElement が見つかりません",
+        "official_en": "Unable to find FRigControlElement in RigHierarchy for Curve with name: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:CurveElementNotFound:1dccd767",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "CurveElementNotFound",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:CurveElementNotFound:1dccd767",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:CurveElementNotFound:1dccd767",
+        "jp_sha256": "51a25443d938b41953f8737a22334e6abe269a4ba5c63ca39268bb6a5b5b449a",
+        "official_en_sha256": "1536ebd656d819d51bd9c52d231886c0d3751adb74712de3d4a13cb8ee9aaa0f"
+      },
+      "text": {
+        "jp": "{0} というカーブの RigHierarchy にある FRigCurve が見つかりません",
+        "official_en": "Unable to find FRigCurve in RigHierarchy for Curve with name: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:ParameterNotFound:1f215c22",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "ParameterNotFound",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:ParameterNotFound:1f215c22",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:ParameterNotFound:1f215c22",
+        "jp_sha256": "036251a8a16d42c42bf21130677b3208f6f9979987e208b2aacde388b8c66d97",
+        "official_en_sha256": "797c13d478c7f8119535de6cc57f941354380ead10c126ac82e80e70a568e611"
+      },
+      "text": {
+        "jp": "{0} というカーブ コントロールの RigHierarchy にある FScalarParameterNameAndCurve が見つかりません",
+        "official_en": "Unable to find FScalarParameterNameAndCurve in RigHierarchy for Curve Control with name: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:InvalidFKControlRig:8000c8d6",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "InvalidFKControlRig",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:InvalidFKControlRig:8000c8d6",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:InvalidFKControlRig:8000c8d6",
+        "jp_sha256": "453bea352272f19d13749bc4402b6522ba5e5095baa1168dc72bc3fd4467aa2c",
+        "official_en_sha256": "29be6c7779503bcc794726678d7e1dad934eaa581d5205feec046c03417c2ece"
+      },
+      "text": {
+        "jp": "{0} に対するアニメーション シーケンサー データモデルの FKControlRig を初期化できません。指定された FKControlRig が無効です",
+        "official_en": "Unable to initialize FKControlRig for AnimationSequencerDataModel for {0}, provided FKControlRig is invalid",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:FailedToInitHierarchyFKCR:5af9204f",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "FailedToInitHierarchyFKCR",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:FailedToInitHierarchyFKCR:5af9204f",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:FailedToInitHierarchyFKCR:5af9204f",
+        "jp_sha256": "c9c5cfefe69378d08d3345d05329aef51a9a18f0078ba105ec30c1f612e58142",
+        "official_en_sha256": "23cc33de3052d92934d4196a96e62176ea4fda8aeaa1f8614346137adcf1a5d4"
+      },
+      "text": {
+        "jp": "FK コントロールリグが無効であるため、リグ階層を初期化できません ({0})",
+        "official_en": "Unable to initialize RigHierarchy due to invalid FK ControlRig for ({0})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:FailedToInitHierarchySkeleton:810a9bc7",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "FailedToInitHierarchySkeleton",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:FailedToInitHierarchySkeleton:810a9bc7",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:FailedToInitHierarchySkeleton:810a9bc7",
+        "jp_sha256": "39a7eb1bcb188d8354b65520e7bca99bb61046db6f09fe6879c0f103f9c94124",
+        "official_en_sha256": "8a410551e23f3f8d6a18be79028ed60c2f6a3b3fe2a3e736ba2fb4eeed665ded"
+      },
+      "text": {
+        "jp": "USkeleton がないため、リグ階層を初期化できません ({0})",
+        "official_en": "Unable to initialize RigHierarchy due to missing USkeleton for ({0})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:MissingHierarchy:d58e0605",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "MissingHierarchy",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:MissingHierarchy:d58e0605",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:MissingHierarchy:d58e0605",
+        "jp_sha256": "14214b85f116a9be82023440e9a80fcb02a64eeb3c9dffeb874ec776d4ae64b8",
+        "official_en_sha256": "e3557c940c7d313d34fcdfcd52a342d8da9e13518999dc7bd465d31435dc6f7d"
+      },
+      "text": {
+        "jp": "コントロールリグ階層を取得できません",
+        "official_en": "Unable to retrieve Control Rig Hierarchy",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:UnableToFindRigHierarchy:e45eac8a",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "UnableToFindRigHierarchy",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:UnableToFindRigHierarchy:e45eac8a",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:UnableToFindRigHierarchy:e45eac8a",
+        "jp_sha256": "3b49b97c5c8e64362d8a469ddb54c37037ad63a6dddfd49ea6893f44b5fbc217",
+        "official_en_sha256": "d418d38fa7b107dcab0918540ba7c8dbabca1f430ddf7564c86356e397d2c69e"
+      },
+      "text": {
+        "jp": "ControlRig ({0}) の RigHierarchy を取得できません",
+        "official_en": "Unable to retrieve RigHierarchy for ControlRig ({0})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:UnableToFindSkeleton:f10e63f2",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "UnableToFindSkeleton",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:UnableToFindSkeleton:f10e63f2",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:UnableToFindSkeleton:f10e63f2",
+        "jp_sha256": "e7dfc32571a54055317b004a68128a759c8760ec5daec5845c97935683ad7cda",
+        "official_en_sha256": "5cad011fc2baea239cb0b9baff60f9121ca133b7ca3094837670b2640333407a"
+      },
+      "text": {
+        "jp": "アニメーション アセット ({0}) のターゲット USkeleton を取得できません",
+        "official_en": "Unable to retrieve target USkeleton for Animation Asset ({0})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:CurveDeviationError:e2dc0d91",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "CurveDeviationError",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:CurveDeviationError:e2dc0d91",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:CurveDeviationError:e2dc0d91",
+        "jp_sha256": "35db0d188fca03d0ead8f1efe70a6a28e296c6154b51f8379cd64761b6458879",
+        "official_en_sha256": "c363336962d7d1a7a293ec8f7c0962e3942f42af966c7c32cce7a9c92aa60ee4"
+      },
+      "text": {
+        "jp": "予測しないコントロール カーブ ({0}) 評価値 {1} ({2} における)、想定 {3} ({4})",
+        "official_en": "Unexpected Control Curve ({0}) evaluation value {1} at {2}, expected {3} ({4})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:InvalidControlRigClass:8505361a",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "InvalidControlRigClass",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:InvalidControlRigClass:8505361a",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:InvalidControlRigClass:8505361a",
+        "jp_sha256": "72368805e9a7b11869005036d05bf2a090370449adedbf9256c28f42993b60dd",
+        "official_en_sha256": "16de071dd1484025def08373f3822a2d9da79bb89d5ee7d9e3d120f381270783"
+      },
+      "text": {
+        "jp": "想定していないクラス {0} がコントロールリグにあります。想定しているクラスは FKControlRig です",
+        "official_en": "Unexpected class {0} on ControlRig, expecting FKControlRig",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimSequencerDataModel:VirtualBoneTransformNaN:617c05ce",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimSequencerDataModel",
+        "key": "VirtualBoneTransformNaN",
+        "jp_record_id": "switch:locres:set-01:AnimSequencerDataModel:VirtualBoneTransformNaN:617c05ce",
+        "official_en_record_id": "switch:locres:set-01:AnimSequencerDataModel:VirtualBoneTransformNaN:617c05ce",
+        "jp_sha256": "5aba9e0950ac36e6b8f59b1288ac5d0298ccd980ebac3f97f5c5155d1b96d512",
+        "official_en_sha256": "3448ad0aa90a1fc5bb99cb45ee7843fb5ad5d1b497e0c6ecba1aa86d0fd068f4"
+      },
+      "text": {
+        "jp": "{0} の仮想ボーン トランスフォームに NaN 値が入っているため、計算されたポーズは無視されます",
+        "official_en": "Virtual Bone transform for {0} contains NaN value, ignoring calculated pose",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

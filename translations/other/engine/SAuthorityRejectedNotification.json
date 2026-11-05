@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SAuthorityRejectedNotification",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SAuthorityRejectedNotification:MainMessage:fab46bd3",
+      "source": {
+        "set": "set-02",
+        "namespace": "SAuthorityRejectedNotification",
+        "key": "MainMessage",
+        "jp_record_id": "switch:locres:set-01:SAuthorityRejectedNotification:MainMessage:fab46bd3",
+        "official_en_record_id": "switch:locres:set-01:SAuthorityRejectedNotification:MainMessage:fab46bd3",
+        "jp_sha256": "05085766b2819be2e283073943b9d962381fb67af700bbbcc8f9433f1ce827bf",
+        "official_en_sha256": "ac8b4e2e4ffa55be6452d3069f137e5639f0f8e37d56a4249281019b1e43387e"
+      },
+      "text": {
+        "jp": "オーナーシップの取得時にエラーが発生",
+        "official_en": "Errors taking ownership",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SAuthorityRejectedNotification:RejectionsFmt:1b86e31e",
+      "source": {
+        "set": "set-02",
+        "namespace": "SAuthorityRejectedNotification",
+        "key": "RejectionsFmt",
+        "jp_record_id": "switch:locres:set-01:SAuthorityRejectedNotification:RejectionsFmt:1b86e31e",
+        "official_en_record_id": "switch:locres:set-01:SAuthorityRejectedNotification:RejectionsFmt:1b86e31e",
+        "jp_sha256": "091d0a5c7d0a04824ccb32ed38e84fbdcd048fd96f2274668742975186e501c7",
+        "official_en_sha256": "512237825485dd4406037fe2e35a3e613ed4d34a68aea2f5fb8f4ec22668f8d3"
+      },
+      "text": {
+        "jp": "{0} {0}|plural(one=拒否,other=拒否) ({1} {1}|plural(one=オブジェクト,other=オブジェクト))",
+        "official_en": "{0} {0}|plural(one=Rejection,other=Rejections) for {1} {1}|plural(one=Object,other=Objects)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SAuthorityRejectedNotification:TimeoutsFmt:a43f51a0",
+      "source": {
+        "set": "set-02",
+        "namespace": "SAuthorityRejectedNotification",
+        "key": "TimeoutsFmt",
+        "jp_record_id": "switch:locres:set-01:SAuthorityRejectedNotification:TimeoutsFmt:a43f51a0",
+        "official_en_record_id": "switch:locres:set-01:SAuthorityRejectedNotification:TimeoutsFmt:a43f51a0",
+        "jp_sha256": "b5b8a4a6e23a8d40361ed03c94a7da81d778030d485383be622987df49886bdf",
+        "official_en_sha256": "9cdbf72fcaa4c6fa72bf936fee5de00162f46c7428d1d9944f5dcf36295b0009"
+      },
+      "text": {
+        "jp": "{0} {0}|plural(one=タイムアウト,other=タイムアウト)",
+        "official_en": "{0} {0}|plural(one=Timeout,other=Timeouts)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

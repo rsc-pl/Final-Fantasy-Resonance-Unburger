@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SmartObjectDefinition",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SmartObjectDefinition:Separator:a6944338",
+      "source": {
+        "set": "set-02",
+        "namespace": "SmartObjectDefinition",
+        "key": "Separator",
+        "jp_record_id": "switch:locres:set-01:SmartObjectDefinition:Separator:a6944338",
+        "official_en_record_id": "switch:locres:set-01:SmartObjectDefinition:Separator:a6944338",
+        "jp_sha256": "0a07f659461970d8d8dcefe4fff96a1745599810dc7d47391e95c803b7b2072c",
+        "official_en_sha256": "0a07f659461970d8d8dcefe4fff96a1745599810dc7d47391e95c803b7b2072c"
+      },
+      "text": {
+        "jp": ", ",
+        "official_en": ", ",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SmartObjectDefinition:NullDefaultBehaviorEntryError:54978a05",
+      "source": {
+        "set": "set-02",
+        "namespace": "SmartObjectDefinition",
+        "key": "NullDefaultBehaviorEntryError",
+        "jp_record_id": "switch:locres:set-01:SmartObjectDefinition:NullDefaultBehaviorEntryError:54978a05",
+        "official_en_record_id": "switch:locres:set-01:SmartObjectDefinition:NullDefaultBehaviorEntryError:54978a05",
+        "jp_sha256": "31d6115d4dcb1eda35627f54392a87398ef8bb32b4be939eb49f1505584ce22e",
+        "official_en_sha256": "e90dcf0c1de74b3310c2a8d80cddebcfafefe84a460cb3d253861ae96250c0ec"
+      },
+      "text": {
+        "jp": "デフォルトの動作定義リストのインデックス {0} に null エントリが見つかりました",
+        "official_en": "Null entry found at index {0} in default behavior definition list",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SmartObjectDefinition:NullSlotBehaviorEntryError:da835ca2",
+      "source": {
+        "set": "set-02",
+        "namespace": "SmartObjectDefinition",
+        "key": "NullSlotBehaviorEntryError",
+        "jp_record_id": "switch:locres:set-01:SmartObjectDefinition:NullSlotBehaviorEntryError:da835ca2",
+        "official_en_record_id": "switch:locres:set-01:SmartObjectDefinition:NullSlotBehaviorEntryError:da835ca2",
+        "jp_sha256": "31d6115d4dcb1eda35627f54392a87398ef8bb32b4be939eb49f1505584ce22e",
+        "official_en_sha256": "e90dcf0c1de74b3310c2a8d80cddebcfafefe84a460cb3d253861ae96250c0ec"
+      },
+      "text": {
+        "jp": "デフォルトの動作定義リストのインデックス {0} に null エントリが見つかりました",
+        "official_en": "Null entry found at index {0} in default behavior definition list",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SmartObjectDefinition:MissingSlotBehaviorError:8406ee96",
+      "source": {
+        "set": "set-02",
+        "namespace": "SmartObjectDefinition",
+        "key": "MissingSlotBehaviorError",
+        "jp_record_id": "switch:locres:set-01:SmartObjectDefinition:MissingSlotBehaviorError:8406ee96",
+        "official_en_record_id": "switch:locres:set-01:SmartObjectDefinition:MissingSlotBehaviorError:8406ee96",
+        "jp_sha256": "4bedeb47593f38d73c6b82cc2dfbb033a7fef1e5cba8429596cf6f0fc4555ec6",
+        "official_en_sha256": "45fe028390fb675a8e3363efeb540e165ed32aef2955fb5fbf73b4d789110996"
+      },
+      "text": {
+        "jp": "SmartObject の定義にデフォルトの動作定義がないため、インデックス {0} にあるスロットでは動作定義が提供されている必要があります",
+        "official_en": "Slot at index {0} needs to provide a behavior definition since there is no default one in the SmartObject definition",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SmartObjectDefinition:UnboundParametersWarning:5d8a24e4",
+      "source": {
+        "set": "set-02",
+        "namespace": "SmartObjectDefinition",
+        "key": "UnboundParametersWarning",
+        "jp_record_id": "switch:locres:set-01:SmartObjectDefinition:UnboundParametersWarning:5d8a24e4",
+        "official_en_record_id": "switch:locres:set-01:SmartObjectDefinition:UnboundParametersWarning:5d8a24e4",
+        "jp_sha256": "6607750ce340b751a3ef31d875848e7214c70c446fc301fb447bc11c7bc3072f",
+        "official_en_sha256": "e5cf39057800d80f57bbb3748db14013c05df9006c04c7bec2663c6c4fb4eb20"
+      },
+      "text": {
+        "jp": "次のパラメータはバインドされておらず、削除できます：{0}",
+        "official_en": "The following parameters are not bound and could be removed: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

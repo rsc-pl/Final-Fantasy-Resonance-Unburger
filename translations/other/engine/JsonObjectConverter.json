@@ -1,0 +1,1159 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "JsonObjectConverter",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:ExpectingJsonArray:9b28cac1",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "ExpectingJsonArray",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:ExpectingJsonArray:9b28cac1",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:ExpectingJsonArray:9b28cac1",
+        "jp_sha256": "b622ef425044e1be5164f645bec349118b15aeee6656488eab94176b8cbc7611",
+        "official_en_sha256": "44b2ec0e39d7f2f689cbe9da24a55fcee93371a86ba3ab39ef0daa5584651ce9"
+      },
+      "text": {
+        "jp": "想定されるJSON配列",
+        "official_en": "Expecting JSON array",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:InvalidJsonValue:23c8cbd4",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "InvalidJsonValue",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:InvalidJsonValue:23c8cbd4",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:InvalidJsonValue:23c8cbd4",
+        "jp_sha256": "c98cc592c77d44d4e49a2062263e6d0ecf5172840b9afc33e73549d12338548b",
+        "official_en_sha256": "c550e319c7a28c09d5fdfb54200d7e76ee8829938fba93870262f155bcdf1754"
+      },
+      "text": {
+        "jp": "無効なJSON値",
+        "official_en": "Invalid JSON value",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:IncorrectArraySize:583a69f4",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "IncorrectArraySize",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:IncorrectArraySize:583a69f4",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:IncorrectArraySize:583a69f4",
+        "jp_sha256": "40a271c1f69604e12e1c1590c43d4840c28c421829c9891f39e8d20227aeff1a",
+        "official_en_sha256": "6e0facee9c574b14c7c8489a10a8a1a4e541f1a6576e6e91584c2f1040c503eb"
+      },
+      "text": {
+        "jp": "JSON 配列サイズが不正 ({0} 個の要素がありますが、必要なのは {1} 個)",
+        "official_en": "JSON array size is incorrect (has {0} elements, but needs {1})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailJsonArrayConversion:681617d8",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailJsonArrayConversion",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailJsonArrayConversion:681617d8",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailJsonArrayConversion:681617d8",
+        "jp_sha256": "8ddbd4204bbe2299151c8ea26374d5df9126be1893ce2deaed09019a387ff04b",
+        "official_en_sha256": "33403535b7fc55212d27b5c3bb2af6a7b8e33dcaf662c90186f17f55a59f686d"
+      },
+      "text": {
+        "jp": "JsonArrayStringToUStruct - いずれかの要素のパース中にエラーが発生しました。JSON=[{0}]\n{1}",
+        "official_en": "JsonArrayStringToUStruct - Error parsing one of the elements. json=[{0}]\n{1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailJsonArrayDeserialize:520d8b33",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailJsonArrayDeserialize",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailJsonArrayDeserialize:520d8b33",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailJsonArrayDeserialize:520d8b33",
+        "jp_sha256": "4d436ef4731225b13e7ea1f9a8a071c82ff318fe30b127649209c9a438c668a7",
+        "official_en_sha256": "1825257c946322a705415bf682b17d32636efad6098a1641fec720dc5f22a9c0"
+      },
+      "text": {
+        "jp": "JsonArrayStringToUStruct - パースできません。JSON=[{0}]",
+        "official_en": "JsonArrayStringToUStruct - Unable to parse. json=[{0}]",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailJsonArrayElementObject:8bdfc64d",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailJsonArrayElementObject",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailJsonArrayElementObject:8bdfc64d",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailJsonArrayElementObject:8bdfc64d",
+        "jp_sha256": "e70cab766a7bdd6142df58878549556f1e0f4d53265ede2b1c84b201b12d58b1",
+        "official_en_sha256": "4f296f336a7caf011158e063be581c5d677cfa794afde1801ec057f508c84f7a"
+      },
+      "text": {
+        "jp": "JsonArrayToUStruct - 配列要素 [{0}] はオブジェクトではありませんでした",
+        "official_en": "JsonArrayToUStruct - Array element [{0}] was not an object.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailJsonArrayElementConversion:68b23ce2",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailJsonArrayElementConversion",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailJsonArrayElementConversion:68b23ce2",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailJsonArrayElementConversion:68b23ce2",
+        "jp_sha256": "1b08a55542b3ed86e386b20fbd5fc9ce80a8604470c85a191dc0d7b7b940bb06",
+        "official_en_sha256": "404b274dd1e0b46248f6b8b9d5815d70f391befde837c107c76cca33d811802f"
+      },
+      "text": {
+        "jp": "JsonArrayToUStruct - 要素 [{0}] を変換できません。\n{1}",
+        "official_en": "JsonArrayToUStruct - Unable to convert element [{0}].\n{1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailJsonObjectConversion:151892b8",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailJsonObjectConversion",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailJsonObjectConversion:151892b8",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailJsonObjectConversion:151892b8",
+        "jp_sha256": "b22bf83fd08053f7ae4295bb8050a98e2726eef852e6d9e5d88243589529363e",
+        "official_en_sha256": "cbc388c2d44d02458f1934c014c1f15785db6a2f897276687e77d30e98708dcb"
+      },
+      "text": {
+        "jp": "JsonObjectStringToUStruct - シリアル化解除できません。JSON=[{0}]\n{1}",
+        "official_en": "JsonObjectStringToUStruct - Unable to deserialize. json=[{0}]\n{1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailJsonObjectDeserialize:7afbe143",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailJsonObjectDeserialize",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailJsonObjectDeserialize:7afbe143",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailJsonObjectDeserialize:7afbe143",
+        "jp_sha256": "d5dbd8d73268a483ad939308e1615cd6f582d1c8309352b9ebfc8284e5ee9114",
+        "official_en_sha256": "9e9571d944fcb8cf57593bbf3d4183e23f103be9b4852c6b9a2868b67760fd89"
+      },
+      "text": {
+        "jp": "JsonObjectStringToUStruct - パースできません。JSON=[{0}]",
+        "official_en": "JsonObjectStringToUStruct - Unable to parse. json=[{0}]",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:MissingJsonField:87e92491",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "MissingJsonField",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:MissingJsonField:87e92491",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:MissingJsonField:87e92491",
+        "jp_sha256": "f49f0f221c328c6c45ab5da36b658f3c1d346cd518e175d8e67900b3cbe19319",
+        "official_en_sha256": "5d1f4bdf88d20624c72c46df00410a7ee442c9064c1bdab0a8de087bc517698e"
+      },
+      "text": {
+        "jp": "名前が{0}の JSON 値が存在しません",
+        "official_en": "Missing JSON value named {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:InvalidDimensionOfNonArrayProperty:a17537c2",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "InvalidDimensionOfNonArrayProperty",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:InvalidDimensionOfNonArrayProperty:a17537c2",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:InvalidDimensionOfNonArrayProperty:a17537c2",
+        "jp_sha256": "63eb6af891fa41107921ab0fe2731e8557124a26c6aee489f20b47b8f85022e4",
+        "official_en_sha256": "e8f8056917dfcb5e2291fd7f306412f0774aa89b2010fb651ea583813531b4fa"
+      },
+      "text": {
+        "jp": "属性{0}は配列ではありませんが、{1} 個の要素があります",
+        "official_en": "Property {0} is not an array but has {1} elements",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailImportArrayElement:55189c63",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailImportArrayElement",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportArrayElement:55189c63",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportArrayElement:55189c63",
+        "jp_sha256": "a1f7f37b656a2f4188f9bfedf1d15636b6409b8f5205d1be0c4d17b9af0b25c8",
+        "official_en_sha256": "59000ea7e76e5a5432d18b4ca9e1487f2ece691ec71d50ec22781e77c28a625d"
+      },
+      "text": {
+        "jp": "配列要素 {0} をインポートできません (属性{1}\n{2})",
+        "official_en": "Unable to import Array element {0} for property {1}\n{2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailImportObjectFromObject:3c9f4a17",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailImportObjectFromObject",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportObjectFromObject:3c9f4a17",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportObjectFromObject:3c9f4a17",
+        "jp_sha256": "3d8e6bc6b1d65274bfcd096420c092085cacfca2d4ee426c732d3bd9a0ab6180",
+        "official_en_sha256": "afab40e4082f89f840760c2a47d7b26d009fedf803a6d11a666645fba996cb66"
+      },
+      "text": {
+        "jp": "JSON オブジェクトを{0}属性{1}\n{2}にインポートできません",
+        "official_en": "Unable to import JSON object into {0} property {1}\n{2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailImportStructFromObject:c5078cfe",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailImportStructFromObject",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportStructFromObject:c5078cfe",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportStructFromObject:c5078cfe",
+        "jp_sha256": "3d8e6bc6b1d65274bfcd096420c092085cacfca2d4ee426c732d3bd9a0ab6180",
+        "official_en_sha256": "afab40e4082f89f840760c2a47d7b26d009fedf803a6d11a666645fba996cb66"
+      },
+      "text": {
+        "jp": "JSON オブジェクトを{0}属性{1}\n{2}にインポートできません",
+        "official_en": "Unable to import JSON object into {0} property {1}\n{2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailImportTextFromObject:ca7b7f5f",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailImportTextFromObject",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportTextFromObject:ca7b7f5f",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportTextFromObject:ca7b7f5f",
+        "jp_sha256": "f4c8bc6f15af35377b406112b7ab880a4aecc163a1248d79db363f6c0b552036",
+        "official_en_sha256": "bf450fea750ee35bf1203f53dc61ef1b441565c3997c1e5b4c1d271d40514385"
+      },
+      "text": {
+        "jp": "無効なキーがある JSON オブジェクトを Text 属性{0}にインポートできません",
+        "official_en": "Unable to import JSON object with invalid keys into Text property {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailImportDateTimeFromString:348405ae",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailImportDateTimeFromString",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportDateTimeFromString:348405ae",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportDateTimeFromString:348405ae",
+        "jp_sha256": "f2b385c578491c7e182e028bc83eef74cef203c0c061d246a5a182ee045828b4",
+        "official_en_sha256": "c295c98f0bbf9acf7cec2b1b7faa0184746a1d3eea80ef6b64fb671480e4f7ec"
+      },
+      "text": {
+        "jp": "JSON 文字列を DateTime 属性{0}にインポートできません",
+        "official_en": "Unable to import JSON string into DateTime property {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailImportFromString:c8a221f7",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailImportFromString",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportFromString:c8a221f7",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportFromString:c8a221f7",
+        "jp_sha256": "343c8f325e05076384a38b0be099e3de8662fe2d60a5cecf54e5408d0fe01ff3",
+        "official_en_sha256": "dadb85e233976e2ee4a32b01891ffb63d44c9a6c4c8db64a27286fd3ad28910d"
+      },
+      "text": {
+        "jp": "JSON 文字列を属性{0}をインポートできません",
+        "official_en": "Unable to import JSON string into property {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailImportObjectFromString:87978a27",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailImportObjectFromString",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportObjectFromString:87978a27",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportObjectFromString:87978a27",
+        "jp_sha256": "e49088b5f735692dbf9e862ff66c9c16c1b2693dfd0f7b4d852985be2a578521",
+        "official_en_sha256": "3b08f5f56f03fa9625b3949c8829ff035cf44cd851321830838c9395668b3583"
+      },
+      "text": {
+        "jp": "JSON 文字列を{0}属性{1}にインポートできません",
+        "official_en": "Unable to import JSON string into {0} property {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailImportStructFromString:1d1d3ede",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailImportStructFromString",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportStructFromString:1d1d3ede",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportStructFromString:1d1d3ede",
+        "jp_sha256": "e49088b5f735692dbf9e862ff66c9c16c1b2693dfd0f7b4d852985be2a578521",
+        "official_en_sha256": "3b08f5f56f03fa9625b3949c8829ff035cf44cd851321830838c9395668b3583"
+      },
+      "text": {
+        "jp": "JSON 文字列を{0}属性{1}にインポートできません",
+        "official_en": "Unable to import JSON string into {0} property {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailImportValueToProperty:46605980",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailImportValueToProperty",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportValueToProperty:46605980",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportValueToProperty:46605980",
+        "jp_sha256": "0a0dc6126d3b31df183e13629527b47711187558352c4f99217da2c90b25b24a",
+        "official_en_sha256": "af8b82071edd7c3ac037bfb6a5a3e99bec1187b8a27168f9cd015f71ca0fb7ee"
+      },
+      "text": {
+        "jp": "JSON 値を属性{0}\n{1}にインポートできません",
+        "official_en": "Unable to import JSON value into property {0}\n{1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailImportText:cee0f4b5",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailImportText",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportText:cee0f4b5",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportText:cee0f4b5",
+        "jp_sha256": "5c9d43c2b7720cd726fd2940155b36c3be476da58ff25e24d2a06d2a020db29b",
+        "official_en_sha256": "1268ad1ac635239d8c9a753af6405cab4a372d980c67c0914ddf84447594941a"
+      },
+      "text": {
+        "jp": "文字列でもオブジェクトでもない JSON 値を Text 属性{0}にインポートできません",
+        "official_en": "Unable to import JSON value that is neither string nor object into Text property {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailImportStruct:25ec2c92",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailImportStruct",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportStruct:25ec2c92",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportStruct:25ec2c92",
+        "jp_sha256": "f803b12761d5997e7ecab2c57b355bce27b78961aa736c91a4ed5603c0927062",
+        "official_en_sha256": "66965112dd9a15449dc9d6a8be05b6cfb3c56bc8588df4b5d3acd37ef26bb666"
+      },
+      "text": {
+        "jp": "文字列でもオブジェクトではない JSON 値を{0}属性{1}にインポートできません",
+        "official_en": "Unable to import JSON value that is neither string nor object into {0} property {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailImportMapElementKey:4071a107",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailImportMapElementKey",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportMapElementKey:4071a107",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportMapElementKey:4071a107",
+        "jp_sha256": "318e17b3f4cdec0c5bf0b01ebbab65a06f2639e8992af4a49d4194f4271128ba",
+        "official_en_sha256": "3949fd478d59e46cff72ac282b04e530255a4c930f7a10b2e41e4a79f4bfd43d"
+      },
+      "text": {
+        "jp": "Map 要素{0}キー (属性{1}\n{2}) にインポートできません",
+        "official_en": "Unable to import Map element {0} key for property {1}\n{2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailImportMapElementValue:d0dfca2b",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailImportMapElementValue",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportMapElementValue:d0dfca2b",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportMapElementValue:d0dfca2b",
+        "jp_sha256": "2410042aacf61077bafdef06658d6dc46f6e21ae4e2d94df5d41ad5d4267c9bc",
+        "official_en_sha256": "a72bf507107b9441f2d8e0348aab3ebc7826661ccaef409985ba8f9296f9b739"
+      },
+      "text": {
+        "jp": "Map 要素{0}値 (属性{1}\n{2}) にインポートできません",
+        "official_en": "Unable to import Map element {0} value for property {1}\n{2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailImportSetElement:e840eccd",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailImportSetElement",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportSetElement:e840eccd",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportSetElement:e840eccd",
+        "jp_sha256": "3b8b397c5f14840dd21cfe70b24b6202a014782070520db68e4998ebe372cb0d",
+        "official_en_sha256": "dbc95059a115101984c2b41afa277b1db494dce7910aaefa6f2b1cc92109c0e4"
+      },
+      "text": {
+        "jp": "Set 要素{0} (属性{1}\n{2}) をインポートできません",
+        "official_en": "Unable to import Set element {0} for property {1}\n{2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailImportEnumFromNumeric:a7b7b3b6",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailImportEnumFromNumeric",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportEnumFromNumeric:a7b7b3b6",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportEnumFromNumeric:a7b7b3b6",
+        "jp_sha256": "85d094ce2da7bfbcdc002d7b96b2165c810c523db328248f7d734ad3d86f49c8",
+        "official_en_sha256": "2f17742e8d109c839f85a1d0227a607c6122da18928c2c2fbdaf59f02d2cad7f"
+      },
+      "text": {
+        "jp": "列挙型{0}を数値{1} (属性{2}) からインポートできません",
+        "official_en": "Unable to import enum {0} from numeric value {1} for property {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailImportEnumFromString:3a9ba771",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailImportEnumFromString",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportEnumFromString:3a9ba771",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportEnumFromString:3a9ba771",
+        "jp_sha256": "d1e109e0e5efb46cd545c2114b549094c8e4263dc8c5da408adbe7c9bfc78f99",
+        "official_en_sha256": "f5d9937d0424cdea13823f6997711ef279a1a10706c883a04d8bdf61ae936dd3"
+      },
+      "text": {
+        "jp": "列挙型{0}を文字列型の値{1} (属性{2}) からインポートできません",
+        "official_en": "Unable to import enum {0} from string value {1} for property {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailImportNumericProperty:bd8b1139",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailImportNumericProperty",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportNumericProperty:bd8b1139",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportNumericProperty:bd8b1139",
+        "jp_sha256": "a9a1da2b930b831852699af332c5c0cfe9f20c9c4a6b3dae841f57c550b79ae2",
+        "official_en_sha256": "2251a9351f31494c1ee82b393338ce2952e0517a964e229da8ea506e55c1ce23"
+      },
+      "text": {
+        "jp": "JSON 値を{0}数値属性{1}にインポートできません",
+        "official_en": "Unable to import json value into {0} numeric property {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailImportArray:e819d183",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailImportArray",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportArray:e819d183",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportArray:e819d183",
+        "jp_sha256": "89a5ec0886285608e49f0090d1479861f883a755da07b9b8882c35f0d6d3f1a2",
+        "official_en_sha256": "8770c6b10071d5a0ed051989c7c449ab50988f5d1f0835b64a4844e8510a3f88"
+      },
+      "text": {
+        "jp": "配列ではない JSON 値を配列プロパティ{0}にインポートできません",
+        "official_en": "Unable to import non-array JSON value into Array property {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailImportSet:a8b6abce",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailImportSet",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportSet:a8b6abce",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportSet:a8b6abce",
+        "jp_sha256": "9888e3476686e0387a1ac22acd26d5a52d974092e4c09b5df7d661a405b945ff",
+        "official_en_sha256": "18df72e686a558e8eb50fa225d5664d699bc5af16484867fe5b8a920d82b70cf"
+      },
+      "text": {
+        "jp": "配列ではない JSON 値を Set 属性{0}にインポートできません",
+        "official_en": "Unable to import non-array JSON value into Set property {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:JsonObjectConverter:FailImportMap:639ec6f9",
+      "source": {
+        "set": "set-02",
+        "namespace": "JsonObjectConverter",
+        "key": "FailImportMap",
+        "jp_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportMap:639ec6f9",
+        "official_en_record_id": "switch:locres:set-01:JsonObjectConverter:FailImportMap:639ec6f9",
+        "jp_sha256": "55139c6efd889bf97cc2bbe2f16a034bd34944bcbc044e01f649a3e2d21b307d",
+        "official_en_sha256": "1d78c39762c4c8b353c131574a1f99760fc89ab4ebbc2e8bb3f0d0a8aada6395"
+      },
+      "text": {
+        "jp": "オブジェクトではない JSON 値を Map 属性{0}にインポートできません",
+        "official_en": "Unable to import non-object JSON value into Map property {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

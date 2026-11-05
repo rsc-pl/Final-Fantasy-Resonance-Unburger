@@ -1,0 +1,937 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidMeshDI_GlobalSearch_Summary:0f55d608",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "RigidMeshDI_GlobalSearch_Summary",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidMeshDI_GlobalSearch_Summary:0f55d608",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidMeshDI_GlobalSearch_Summary:0f55d608",
+        "jp_sha256": "0262857679b53b45184e82620b9f79e5d9f117962fe3cae035b9c87d40e7e0b2",
+        "official_en_sha256": "9d03b61e594c65622d3ab2506dcd4aa95fa4fb66034a92a6437b065d9cae60e9"
+      },
+      "text": {
+        "jp": "非推奨のグローバル検索",
+        "official_en": "Deprecated Global Search.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestElementPointMeshDistanceFieldNoNormalDescription:f85a613e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "GetClosestElementPointMeshDistanceFieldNoNormalDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestElementPointMeshDistanceFieldNoNormalDescription:f85a613e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestElementPointMeshDistanceFieldNoNormalDescription:f85a613e",
+        "jp_sha256": "8d10210049d677e7b3b5ca615d4a69c68e0ffc9488e85326b3c8aa6bb678c3de",
+        "official_en_sha256": "e5b410d57fda9b4ac532d2aec51c94e061f84821f050a23eb9b76fb82318fea1"
+      },
+      "text": {
+        "jp": "ワールド空間での位置と要素インデックスを指定して、スタティックメッシュの最も近い距離と速度を計算します",
+        "official_en": "Given a world space position and an element index, computes the static mesh's closest distance and velocity.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestElementPointDescription:f449fc20",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "GetClosestElementPointDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestElementPointDescription:f449fc20",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestElementPointDescription:f449fc20",
+        "jp_sha256": "807691024d3b9207dae4c270173ef67e553d1527109eb0721562fb4df7770e46",
+        "official_en_sha256": "96aa5b81afedf99e6191a99f52f2650fd7029ad3ae39ce6c9de4d63978f371fa"
+      },
+      "text": {
+        "jp": "ワールド空間の位置と要素インデックスを指定して、スタティックメッシュの最も近いポイントを計算します。そのポイントの法線と速度も返します。",
+        "official_en": "Given a world space position and an element index, computes the static mesh's closest point. Also returns normal and velocity for that point.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetElementDistanceDescription:017c43d5",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "GetElementDistanceDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetElementDistanceDescription:017c43d5",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetElementDistanceDescription:017c43d5",
+        "jp_sha256": "dfb3dce1f44c62383cfe1e3244ce255da6277fdae6e2049209be89f878a5afdb",
+        "official_en_sha256": "2e89c1758c0acfccefbb499bb544f3d01cd62257e38074675404149a23c2d2f7"
+      },
+      "text": {
+        "jp": "ワールド空間の位置と要素インデックスを指定して、スタティックメッシュの最も近いポイントへの距離を計算します。",
+        "official_en": "Given a world space position and element index, computes the distance to the closest point for the static mesh.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestPointMeshDistanceFieldNNDescription:45c9056b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "GetClosestPointMeshDistanceFieldNNDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestPointMeshDistanceFieldNNDescription:45c9056b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestPointMeshDistanceFieldNNDescription:45c9056b",
+        "jp_sha256": "829452490128ae96c4a6b6e41e4f1409120f555b3b4842e9f2f120f754a8f248",
+        "official_en_sha256": "a05ca6355cc9e74d2270aae88b0afee0192b3e5fb351d827660130ac17ee50f3"
+      },
+      "text": {
+        "jp": "ワールド空間での位置を指定して、スタティックメッシュの最も近い正確な距離と速度を計算します。  最も近い位置は近似であり、メッシュ自体ではなく物理アセットとの近接によって計算されます",
+        "official_en": "Given a world space position, computes the accurate closest distance and velocity for static meshes.  The closest position is approximate and computed by proximity to the physics assets and not the mesh itself.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestPointMeshDistanceFieldDescription:9c5d99da",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "GetClosestPointMeshDistanceFieldDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestPointMeshDistanceFieldDescription:9c5d99da",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestPointMeshDistanceFieldDescription:9c5d99da",
+        "jp_sha256": "f1f5ac17c116462f7f8afd75d5f964728a5459dd42056db9375782c772fc7416",
+        "official_en_sha256": "48e308e8f5ea97597c45c345a6fbe41ff5b41dee19c457cb62a8e7d4d52fbe66"
+      },
+      "text": {
+        "jp": "ワールド空間の位置を指定して、メッシュのディスタンスフィールドを使用して、スタティックメッシュの最も近いポイントへの距離を計算します。",
+        "official_en": "Given a world space position, computes the distance to the closest point for the static mesh, using the mesh's distance field.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestDistanceDescription:8bdd21d2",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "GetClosestDistanceDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestDistanceDescription:8bdd21d2",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestDistanceDescription:8bdd21d2",
+        "jp_sha256": "d45b0068e4bcc25e4509996e8034125233658daba52b657bba539ee09d7db1e0",
+        "official_en_sha256": "29cb5c6c9911f0e29ab3687931357de9fb94507cee70eb3edfe640c8080c4a30"
+      },
+      "text": {
+        "jp": "ワールド空間の位置を指定して、スタティックメッシュの最も近いポイントへの距離を計算します。",
+        "official_en": "Given a world space position, computes the distance to the closest point for the static mesh.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestElementDescription:5083c17a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "GetClosestElementDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestElementDescription:5083c17a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestElementDescription:5083c17a",
+        "jp_sha256": "f22b1f30f905a2bd87e3acf2d1027d7ec0965f635355d5d16f27935848f75354",
+        "official_en_sha256": "791c1983032159fac89529ce8419f02d50f623510946e083bde63d01c926b4ba"
+      },
+      "text": {
+        "jp": "ワールド空間の位置を指定して、スタティックメッシュの最も近い要素を計算します。",
+        "official_en": "Given a world space position, computes the static mesh's closest element.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestPointDescription:9bee6b9b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "GetClosestPointDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestPointDescription:9bee6b9b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestPointDescription:9bee6b9b",
+        "jp_sha256": "6da57de5facc9a68d932aee2acc7d1bbf3e20d63c0adccce35ef3ca4882b2e01",
+        "official_en_sha256": "e18849ff1ade6ce1ea40e723260e0bcecbe28182c537065359ce6dc4c2013ccc"
+      },
+      "text": {
+        "jp": "ワールド空間の位置を指定して、スタティックメッシュの最も近いポイントを計算します。そのポイントの法線と速度も返します。",
+        "official_en": "Given a world space position, computes the static mesh's closest point. Also returns normal and velocity for that point.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestPointSimpleDescription:5dad302c",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "GetClosestPointSimpleDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestPointSimpleDescription:5dad302c",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetClosestPointSimpleDescription:5dad302c",
+        "jp_sha256": "6da57de5facc9a68d932aee2acc7d1bbf3e20d63c0adccce35ef3ca4882b2e01",
+        "official_en_sha256": "e18849ff1ade6ce1ea40e723260e0bcecbe28182c537065359ce6dc4c2013ccc"
+      },
+      "text": {
+        "jp": "ワールド空間の位置を指定して、スタティックメッシュの最も近いポイントを計算します。そのポイントの法線と速度も返します。",
+        "official_en": "Given a world space position, computes the static mesh's closest point. Also returns normal and velocity for that point.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidBodySkipTraceDescription:c84f5d2a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "RigidBodySkipTraceDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidBodySkipTraceDescription:c84f5d2a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidBodySkipTraceDescription:c84f5d2a",
+        "jp_sha256": "487989cdfac7390b5308c0e0adbd3b05cd3645c3e70a01dab6f316b357e2f86e",
+        "official_en_sha256": "355011b25f6dacfe4bbdf40046a7a7b166322706aa7f2ce50c2b94275e31ac34"
+      },
+      "text": {
+        "jp": "オンであれば、オーバーラップ テストは実行されません",
+        "official_en": "If enabled, the overlap test will not be performed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidMeshDI_MissingFindActor_Summary:851a4ba2",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "RigidMeshDI_MissingFindActor_Summary",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidMeshDI_MissingFindActor_Summary:851a4ba2",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidMeshDI_MissingFindActor_Summary:851a4ba2",
+        "jp_sha256": "22d1f37211398b2febf2b57373e190fc72f1ca1425f5ea0462e184961ecfb960",
+        "official_en_sha256": "174461e1b0802f3fc4aeed1cc8755fa2c61c312cc8549280c7176ea9f96281fc"
+      },
+      "text": {
+        "jp": "FIndActors が見つかりません",
+        "official_en": "Missing FIndActors.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetMaxEncodedDistanceMeshDistanceFieldDescription:df2d1cc8",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "GetMaxEncodedDistanceMeshDistanceFieldDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetMaxEncodedDistanceMeshDistanceFieldDescription:df2d1cc8",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetMaxEncodedDistanceMeshDistanceFieldDescription:df2d1cc8",
+        "jp_sha256": "7f38c0df992ffef26ad7d2920ffeb49d57e37e367f798787f67aea257666e410",
+        "official_en_sha256": "ad979dea08d1f434018c457e4c13e978cea58f1f02cb4a85b4bd3b783c1ec8ff"
+      },
+      "text": {
+        "jp": "作成時の帯域幅に応じて SDF に格納されている最大距離を返します",
+        "official_en": "Returns the maximum distance stored in the SDF according to the bandwidth it was created with",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetNumBoxesNameDescription:87d367fc",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "GetNumBoxesNameDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetNumBoxesNameDescription:87d367fc",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetNumBoxesNameDescription:87d367fc",
+        "jp_sha256": "498dee8615cda7551d059b7b73b77765794c4d2149b006aced2b2183f6461f16",
+        "official_en_sha256": "5b521276e40b072d4ec62464663966b85390756898da597a8b50d0b73561ad8e"
+      },
+      "text": {
+        "jp": "DIが表現するスタティックメッシュのコレクションのボックスプリミティブ数を返します。",
+        "official_en": "Returns the number of box primitives for the collection of static meshes the DI represents.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetNumCapsulesNameDescription:d715601a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "GetNumCapsulesNameDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetNumCapsulesNameDescription:d715601a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetNumCapsulesNameDescription:d715601a",
+        "jp_sha256": "62eda6d12edde9d1b124ad2822ee72ce28db385d6579df766ddb3822b1dab076",
+        "official_en_sha256": "fbee80e1aca43de4ee703ddfac9eb52f3b7ee31675103b3d46dea368ddc60715"
+      },
+      "text": {
+        "jp": "DIが表現するスタティックメッシュのコレクションのカプセルプリミティブ数を返します。",
+        "official_en": "Returns the number of capsule primitives for the collection of static meshes the DI represents.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetNumElementsNameDescription:89248668",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "GetNumElementsNameDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetNumElementsNameDescription:89248668",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetNumElementsNameDescription:89248668",
+        "jp_sha256": "80f98d70a411fae700c0a5bbdf2b350050a3e0d8f52ab2535c36f9601098bc91",
+        "official_en_sha256": "9991c916c9a6bd281f558b84d90a6e42bf66cddcbe332fbc1b1663355df25b06"
+      },
+      "text": {
+        "jp": "DI が表現するスタティックメッシュのコレクションのプリミティブ要素数を返します",
+        "official_en": "Returns the number of primitive elements for the collection of static meshes the DI represents.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetNumSpheresNameDescription:43779455",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "GetNumSpheresNameDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetNumSpheresNameDescription:43779455",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:GetNumSpheresNameDescription:43779455",
+        "jp_sha256": "77e37e9436cbd32d130ac496becb86bf5cc4dd27dd8f75036ea82c961cb500a9",
+        "official_en_sha256": "51d4f0bc5923169656916d853fea795b5bc31eee794100c1d31b92b53cd4359c"
+      },
+      "text": {
+        "jp": "DIが表現するスタティックメッシュのコレクションの球形プリミティブ数を返します。",
+        "official_en": "Returns the number of sphere primitives for the collection of static meshes the DI represents.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:IsWorldPositionInsideCombinedBoundsDescription:f6bffd7a",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "IsWorldPositionInsideCombinedBoundsDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:IsWorldPositionInsideCombinedBoundsDescription:f6bffd7a",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:IsWorldPositionInsideCombinedBoundsDescription:f6bffd7a",
+        "jp_sha256": "557c9381d798988a39d832af08e84eb0536a220abfdd43326b43da0a3987d1ac",
+        "official_en_sha256": "92385c2038a7aedd77aff7448b36fa173dc0200d91f4c77f820a7ff26470c227"
+      },
+      "text": {
+        "jp": "クエリ ポイントがすべてのアクタのバウンディング ボックスの内側にある場合は True を返します",
+        "official_en": "Returns true if the query point is inside the bounding box of all the actors",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidMeshDI_MissingFindActor:9a8acd59",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "RigidMeshDI_MissingFindActor",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidMeshDI_MissingFindActor:9a8acd59",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidMeshDI_MissingFindActor:9a8acd59",
+        "jp_sha256": "bd9e88837aab27ef4e0ac99fd6ea42ae4371063d1e2b69e23dc9e49c63af1f18",
+        "official_en_sha256": "9b35681c51313461fae73d1ae7ff98639b824e33589b7693fa4a9b4f9d66189e"
+      },
+      "text": {
+        "jp": "RigidMeshCollisionQuery では、コリジョン プリミティブを見つけるために必要な FindActors への呼び出しが見つかりません",
+        "official_en": "RigidMeshCollisionQuery is missing call to FindActors which is needed to find collision primitives.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidBodyOverlapOriginDescription:2d824a92",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "RigidBodyOverlapOriginDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidBodyOverlapOriginDescription:2d824a92",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidBodyOverlapOriginDescription:2d824a92",
+        "jp_sha256": "a237d8fdab3613e683220c3d3ea473a208241860f37b341a5a741a97fad5eea6",
+        "official_en_sha256": "4bc6fbc0a9889d5c16aa7b8dc5a56b36d6b73be782ae0bc5985f028bb940ff48"
+      },
+      "text": {
+        "jp": "オーバーラップトレースが実行される、ワールド空間での中心点",
+        "official_en": "The center point, in world space, where the overlap trace will be performed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidBodyOverlapExtentDescription:6b72af25",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "RigidBodyOverlapExtentDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidBodyOverlapExtentDescription:6b72af25",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidBodyOverlapExtentDescription:6b72af25",
+        "jp_sha256": "479557b981f39a486031647c4428194526fa387be3ea2f8fc22be5e1a7abf880",
+        "official_en_sha256": "dc918b5ec189f362655aa22be2485df2db786d20058495555fe23700da51f5bd"
+      },
+      "text": {
+        "jp": "ワールド空間でのオーバーラップトレースの完全な範囲 (最大～最小)",
+        "official_en": "The full extent (max-min), in world space, of the overlap trace.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidBodyOVerlapRotationDesciption:46e1fbc9",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "RigidBodyOVerlapRotationDesciption",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidBodyOVerlapRotationDesciption:46e1fbc9",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidBodyOVerlapRotationDesciption:46e1fbc9",
+        "jp_sha256": "dadf0266f33519def1ed51ff32e53df1fc5632ae7e39db3355d7b64de07124f7",
+        "official_en_sha256": "464539a78966f179558c2fa45483677244969d1459f6682f06bed22bcf170072"
+      },
+      "text": {
+        "jp": "オーバーラップトレースで使用されるボックスの向き",
+        "official_en": "The orientation of the box to be used for hte overlap trace.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidBodyTraceChannelDescription:30a0fe75",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "RigidBodyTraceChannelDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidBodyTraceChannelDescription:30a0fe75",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidBodyTraceChannelDescription:30a0fe75",
+        "jp_sha256": "d4fc371719886f318340ee553dbdd617c37a94232f56785c3be83a11112ad7d5",
+        "official_en_sha256": "7e5e7eec806dd48c646bb3c961c3add75f17411d7b604d7fa703061cc3abd37e"
+      },
+      "text": {
+        "jp": "衝突するトレース チャンネル。トレース チャンネルはプロジェクト設定で設定できます",
+        "official_en": "The trace channel to collide against. Trace channels can be configured in the project settings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:FindActorsDescription:3441f340",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "FindActorsDescription",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:FindActorsDescription:3441f340",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:FindActorsDescription:3441f340",
+        "jp_sha256": "92d1f691887f33a3961a27ee8db5f66b120cf99cde6527fc2339cb59027f4a35",
+        "official_en_sha256": "3e8c27625440a69665263e273cc87adda24359b7bd78e7a233ee1dcaed75ae86"
+      },
+      "text": {
+        "jp": "ワールドでオーバーラップ テストをトリガーして、オーバーラップを表すアクタを見つけます",
+        "official_en": "Triggers an overlap test on the world to find actors to represent..",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidMeshDI_GlobalSearch:87e4a001",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceRigidMeshCollisionQuery",
+        "key": "RigidMeshDI_GlobalSearch",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidMeshDI_GlobalSearch:87e4a001",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceRigidMeshCollisionQuery:RigidMeshDI_GlobalSearch:87e4a001",
+        "jp_sha256": "41fdbe4cddbf68a22ab70371c774e9b7471a37af5d05ba26834ba10551660f39",
+        "official_en_sha256": "f557c342f2350c6e33d61278346407495f7e04df7741e44f2930835bdbee73f3"
+      },
+      "text": {
+        "jp": "グローバル検索オプションの使用は非推奨です。FindActors を使用してください",
+        "official_en": "Use of Global Search options is deprecated in favor of using FindActors.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,937 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AssetRenameManager",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:BranchingRenamedAssetsSlowTask:0800fb93",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "BranchingRenamedAssetsSlowTask",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:BranchingRenamedAssetsSlowTask:0800fb93",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:BranchingRenamedAssetsSlowTask:0800fb93",
+        "jp_sha256": "5b4901e35a23f1044eecbff3a789d41f90e81cc467a0354b29d90cb501a91a13",
+        "official_en_sha256": "c023c4c2247c27a1f6c32470eec8bebb604541dc949f747143dd72c25421b852"
+      },
+      "text": {
+        "jp": "リビジョン コントロールで名前を変更したファイル間の関係をビルド中...",
+        "official_en": "Building a relationship between the renamed files in Revision Control...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:AssetCannotBePublicForRedirector:d9326212",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "AssetCannotBePublicForRedirector",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:AssetCannotBePublicForRedirector:d9326212",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:AssetCannotBePublicForRedirector:d9326212",
+        "jp_sha256": "57be1bd9e1fd54b7fe41ee8db73ecf239ac8240a0f9ff7906ffbf445b7f581e2",
+        "official_en_sha256": "73805109ef1eae1866f0f384c0b013deba640de98bc102ddbf9a259329194d3c"
+      },
+      "text": {
+        "jp": "アセットを{0}に移動できません。リダイレクタにより異なるプラグインから参照されるため、パブリックにできません",
+        "official_en": "Cannot move asset to {0} because it cannot be made public in order to be referenced from a different plugin by its redirector",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:AssetCannotBePublic:72685bdf",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "AssetCannotBePublic",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:AssetCannotBePublic:72685bdf",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:AssetCannotBePublic:72685bdf",
+        "jp_sha256": "49f0c9891b71a50c956d4c659eebd9afb5c9d82f0b6849bfc156d7a102d86d1f",
+        "official_en_sha256": "bad60c180c7acd0593890cafff606db223f3602196dc1aa21ed957adac644eb5"
+      },
+      "text": {
+        "jp": "アセットを{0}に移動できません。{1}により異なるプラグインから参照されるため、パブリックにできません",
+        "official_en": "Cannot move asset to {0} because it cannot be made public in order to be referenced from a different plugin by {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:MovedAssetReferencingPrivateAsset:b7cb366e",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "MovedAssetReferencingPrivateAsset",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:MovedAssetReferencingPrivateAsset:b7cb366e",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:MovedAssetReferencingPrivateAsset:b7cb366e",
+        "jp_sha256": "a55c00ab18b8c62199bb81ef706293e84259f43b208fa14ceef31466c2a5f3c4",
+        "official_en_sha256": "8bc56f98b1d3408373008bc58f492d2e339d5e94917e3705dcab3a2a5c9024e4"
+      },
+      "text": {
+        "jp": "アセットを{0}に移動できません。参照しているプライベートアセットが異なるプラグイン{1}にあるためです",
+        "official_en": "Cannot move asset to {0} because it would be referencing a private asset in a different plugin: {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:DependentAssetCannotBeMoved:09f5461c",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "DependentAssetCannotBeMoved",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:DependentAssetCannotBeMoved:09f5461c",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:DependentAssetCannotBeMoved:09f5461c",
+        "jp_sha256": "6b553b2c2e81f06add31ce5485b1d9f899b31871aa16d7743a3ab58ed8d67561",
+        "official_en_sha256": "eb7a59211d312c6f6f179c4589d74507b102c14f16fc17b6b5758b89344e9f60"
+      },
+      "text": {
+        "jp": "アセットの名前を変更できません。依存するアセットを異なるプラグインに移動できなかったためです",
+        "official_en": "Cannot rename asset because dependent assets could not be moved to a different plugin",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:CheckOutPackagesSlowTask:7e47ac4e",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "CheckOutPackagesSlowTask",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:CheckOutPackagesSlowTask:7e47ac4e",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:CheckOutPackagesSlowTask:7e47ac4e",
+        "jp_sha256": "d8238803e015cca30a6e1ac86b54e7fc2adb3e53fb3c6bcd7393e7adfd4b51f2",
+        "official_en_sha256": "136bc6ed55aa30bad1ba28b218a43f118a13084ac058a50d0f0b57aca62f273f"
+      },
+      "text": {
+        "jp": "パッケージをチェックアウトします...",
+        "official_en": "Check out packages...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:RenameFailedCheckedOutByOther:d96d141b",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "RenameFailedCheckedOutByOther",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:RenameFailedCheckedOutByOther:d96d141b",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:RenameFailedCheckedOutByOther:d96d141b",
+        "jp_sha256": "6c06bb3ccf61bcae99500bfd58cd8e3d1a6221dda6a59722dce5f96a0af9ac9f",
+        "official_en_sha256": "cfd707aef6bdd33b1cfad99c5e250e41ddaf31b22d833ddafdf1b1e788ff460a"
+      },
+      "text": {
+        "jp": "別のユーザーにチェック アウトされています",
+        "official_en": "Checked out by another user.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:CheckingForLocalizedVariantsSlowTask:82bf31f4",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "CheckingForLocalizedVariantsSlowTask",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:CheckingForLocalizedVariantsSlowTask:82bf31f4",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:CheckingForLocalizedVariantsSlowTask:82bf31f4",
+        "jp_sha256": "4580fb77900f5955eec35a3e6ab36301eb4dbdcc862f3eb67fc96fa72db60f48",
+        "official_en_sha256": "f24cc82e3342671508eda114ef5c444121a2c857a27f4ef5d8b65e0ad59abf04"
+      },
+      "text": {
+        "jp": "ローカライズ バリアントをチェック中...これには時間がかかる場合があります",
+        "official_en": "Checking for localized variants... This might take a long time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:ErrorCaseChangeRenameWithSourceControl:2bb9e5b3",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "ErrorCaseChangeRenameWithSourceControl",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:ErrorCaseChangeRenameWithSourceControl:2bb9e5b3",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:ErrorCaseChangeRenameWithSourceControl:2bb9e5b3",
+        "jp_sha256": "e39dce07cef746bbc992f78d825e81256a0f0f634676f4789e3c3533d8a98d4d",
+        "official_en_sha256": "e81fe04e080ce60b84189c31c6b871d76cab9010d99c83fc741b7f315deac5e9"
+      },
+      "text": {
+        "jp": "リビジョン コントロール対象アセットでケース (大文字/小文字) のみの名前変更は、サポートされていないため行えません",
+        "official_en": "Couldn't perform a case-only rename on a revision controlled asset, as this is not supported.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:FailedRenamesDialog:aa88df06",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "FailedRenamesDialog",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:FailedRenamesDialog:aa88df06",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:FailedRenamesDialog:aa88df06",
+        "jp_sha256": "0f8ac7e46d921516b54a8413944ea77a31f8601ca4cd8832ca03b22ab5571214",
+        "official_en_sha256": "d2bc111db3809d51b749bcc99958fd4a52b9bdebb1209ace75a9b12dc50c20aa"
+      },
+      "text": {
+        "jp": "名前変更に失敗しました",
+        "official_en": "Failed Renames",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:FixingReferencesSlowTask:9543b9b8",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "FixingReferencesSlowTask",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:FixingReferencesSlowTask:9543b9b8",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:FixingReferencesSlowTask:9543b9b8",
+        "jp_sha256": "2e4afac17c2819250a469e39c61b1ad70eb92f37b8649e53aa08fcfe7b1523ad",
+        "official_en_sha256": "03016e13ae98dab606f47350f24d766b4ba775b15a81865529c63036db4f3bc1"
+      },
+      "text": {
+        "jp": "参照を検索中...",
+        "official_en": "Finding references...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:InvalidAssetText:85405fd1",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "InvalidAssetText",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:InvalidAssetText:85405fd1",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:InvalidAssetText:85405fd1",
+        "jp_sha256": "6d4e3c385ca98c4de204edde133e597a5e3b1d8806b5c559e071ad7ea676f19e",
+        "official_en_sha256": "ab9ed473e7ade3dfb2d8041f6d2b1ea176e423aac99abefc930486f03035491f"
+      },
+      "text": {
+        "jp": "無効なアセットです",
+        "official_en": "Invalid Asset",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:RenameFailedNotCheckedOutOrWritable:784a618e",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "RenameFailedNotCheckedOutOrWritable",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:RenameFailedNotCheckedOutOrWritable:784a618e",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:RenameFailedNotCheckedOutOrWritable:784a618e",
+        "jp_sha256": "658a605948d555ffac5eb3a8ae835b96f8af85c4e51bca999bd967e1425e81f1",
+        "official_en_sha256": "bebcae1be7d1edfb717359f87dfba1c9cd25db3d7450430ed1d7ae734038749c"
+      },
+      "text": {
+        "jp": "チェックアウトまたは書き込みできません。",
+        "official_en": "Not checked-out or writable.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:RenameFailedNotCurrent:8dcd95ed",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "RenameFailedNotCurrent",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:RenameFailedNotCurrent:8dcd95ed",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:RenameFailedNotCurrent:8dcd95ed",
+        "jp_sha256": "a9a9a5c21892c44bfa70f5f49a14d38a7f8723c70ddafcf1b548804f51c591f5",
+        "official_en_sha256": "b6715ba05a87aa991fc328d9dd9b7ebf10a4750f1f277fe7bcea9d1415766ccd"
+      },
+      "text": {
+        "jp": "最新ではありません。",
+        "official_en": "Out of date.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:PreparePackagesSlowTask:af270a19",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "PreparePackagesSlowTask",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:PreparePackagesSlowTask:af270a19",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:PreparePackagesSlowTask:af270a19",
+        "jp_sha256": "5999e18f4f7a3105562f12200ab077be926b3860c3e20a46ae0a0f78e47c79e7",
+        "official_en_sha256": "bc02250b55a5d7411298a3530307e14dddbb33a6c46c7e291c91e7d0e25bb852"
+      },
+      "text": {
+        "jp": "パッケージを準備中...",
+        "official_en": "Preparing packages...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:RenamingSlowTask:ae75b1de",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "RenamingSlowTask",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:RenamingSlowTask:ae75b1de",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:RenamingSlowTask:ae75b1de",
+        "jp_sha256": "59d046c37eeb803e959b87040b895162d4a6aef575b4129416ba08fa1786b901",
+        "official_en_sha256": "6be63517e567cd736124b8766ce3bf49e25786049bc53e69baedff41392f2d84"
+      },
+      "text": {
+        "jp": "アセット名を変更中...",
+        "official_en": "Renaming assets...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:RenameFailedUnavailable:d974b3da",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "RenameFailedUnavailable",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:RenameFailedUnavailable:d974b3da",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:RenameFailedUnavailable:d974b3da",
+        "jp_sha256": "2d773239765adc976796454e3247ff0b3c3d979e694eb47c9c75490d76b24675",
+        "official_en_sha256": "19a46eff99600e64f48e1d482c3d3cfb54b2d930c4fb7edac6e9b14dc8d39403"
+      },
+      "text": {
+        "jp": "リビジョン コントロールが応答していません",
+        "official_en": "Revision control is unresponsive.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:SavingRenamedAssetSlowTask:4c90c673",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "SavingRenamedAssetSlowTask",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:SavingRenamedAssetSlowTask:4c90c673",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:SavingRenamedAssetSlowTask:4c90c673",
+        "jp_sha256": "587ab605e50e75ecb4c3d62bcf633dfa0df2d0317474414a72ed381aaa5f473f",
+        "official_en_sha256": "3d415d0e92020926d131814c221941d29fb43328b12acdf7bc9510d7ed0c020b"
+      },
+      "text": {
+        "jp": "名前を変更したアセットを保存中...",
+        "official_en": "Saving renamed assets...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:SetupPublicAssets:d8f266df",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "SetupPublicAssets",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:SetupPublicAssets:d8f266df",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:SetupPublicAssets:d8f266df",
+        "jp_sha256": "ec9b5ebf7a2c24e47c01a3c74346b8cb7564f522beb053759c24aece30bd9eea",
+        "official_en_sha256": "a3e958fbd2b746bdd7c85ca4c7180aed94d48cf3d4c76b2786521913a32b3fef"
+      },
+      "text": {
+        "jp": "パブリックアセットをセットアップしています...",
+        "official_en": "Setting up public assets...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:RenameCDOReferences:d24bcf1e",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "RenameCDOReferences",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:RenameCDOReferences:d24bcf1e",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:RenameCDOReferences:d24bcf1e",
+        "jp_sha256": "6a44346d0e2581255e48a0d9062be1c6d0c83203482697ba82b083fe5e7a2f92",
+        "official_en_sha256": "3763ae19e3396219500596948bd7f37963cc45cc79bbd4008ead9fdb5b6d486e"
+      },
+      "text": {
+        "jp": "ソースコード、コンフィグ INI、テキスト ファイルは、次を見つけるか次と交換する必要が生じる場合があります\n\n{0}\n\nそうではない場合、アセットはクック済みビルドで失われる可能性があります。名前を変更しますか？",
+        "official_en": "Source code, config INI, and text files may need Find/Replace for:\n\n{0}\n\nOtherwise assets can be missing from cooked builds. Continue with rename?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:RenameFailureTitle:5ed5849b",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "RenameFailureTitle",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:RenameFailureTitle:5ed5849b",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:RenameFailureTitle:5ed5849b",
+        "jp_sha256": "68d0c3289ec1e3fe74fc41dec356ce4d92213f27c1a406c2a26850f23c4d5aa4",
+        "official_en_sha256": "cae31469417dfbc996302fa58a7f613cd32b3f87f588908c4c64d1f1a7d13530"
+      },
+      "text": {
+        "jp": "次のアセット名を変更できませんでした",
+        "official_en": "The following assets could not be renamed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:SoftReferenceFixedUp:6fdc460e",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "SoftReferenceFixedUp",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:SoftReferenceFixedUp:6fdc460e",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:SoftReferenceFixedUp:6fdc460e",
+        "jp_sha256": "5f8d305168c1c37f536b7cfebbe8c2f9e801fb0586bbb3dc4f793e75057e6351",
+        "official_en_sha256": "c3c4443804ff0b0e727e4a10c2bb57bc6ba356ed117b3a23fe4fd54e0ff4b8bc"
+      },
+      "text": {
+        "jp": "次のパッケージは、改名されたオブジェクトへのソフト参照を含むため、修正されました。\n{0}\n\n今すぐ保存しますか?\n保存せずに終了すると参照が破損します。",
+        "official_en": "The following packages were fixed up because they have soft references to a renamed object: \n{0}\n\nDo you want to save them now?\nIf you quit without saving references will be broken!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:ReferenceUpdateSlowTask:2465fffb",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "ReferenceUpdateSlowTask",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:ReferenceUpdateSlowTask:2465fffb",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:ReferenceUpdateSlowTask:2465fffb",
+        "jp_sha256": "d9397aacd1900f344bac88035d53ed53c4e02b6222f7776eb43ec811112681fd",
+        "official_en_sha256": "c0e09d92ed11c8c4ea7c96c07fbc1f32aec9a4e41b4adc6a1ea659f80ee05992"
+      },
+      "text": {
+        "jp": "アセットの参照を更新中",
+        "official_en": "Updating Asset References",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:UpdatingRevisionControlSlowTask:642e0cb3",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "UpdatingRevisionControlSlowTask",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:UpdatingRevisionControlSlowTask:642e0cb3",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:UpdatingRevisionControlSlowTask:642e0cb3",
+        "jp_sha256": "1d894e68e9dc4df857307c34b9ae0550346d5fbd99625a139a2a8a737fd220e8",
+        "official_en_sha256": "d009b7efcba4ef1cd2d7c75aa1ff6fe4a4767ad29dee7eba0a32607282da108c"
+      },
+      "text": {
+        "jp": "リビジョン コントロールを更新中...",
+        "official_en": "Updating Revision Control...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AssetRenameManager:AssetRenameFailure:f74913c8",
+      "source": {
+        "set": "set-02",
+        "namespace": "AssetRenameManager",
+        "key": "AssetRenameFailure",
+        "jp_record_id": "switch:locres:set-01:AssetRenameManager:AssetRenameFailure:f74913c8",
+        "official_en_record_id": "switch:locres:set-01:AssetRenameManager:AssetRenameFailure:f74913c8",
+        "jp_sha256": "0a5dc925ebeb466344d3a693244ad67cc68e42571cbaddc16114e0ec12572835",
+        "official_en_sha256": "0a5dc925ebeb466344d3a693244ad67cc68e42571cbaddc16114e0ec12572835"
+      },
+      "text": {
+        "jp": "{AssetName} - {FailureReason}",
+        "official_en": "{AssetName} - {FailureReason}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

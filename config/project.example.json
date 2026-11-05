@@ -1,0 +1,38 @@
+{
+  "schema_version": 2,
+  "project_id": "ffrs",
+  "title": "Final Fantasy Resonance",
+  "source_language": "ja",
+  "target_language": "en",
+  "canonical_platform": "switch",
+  "steam_app_id": "3259780",
+  "platforms": {
+    "switch": {
+      "enabled": true,
+      "game_id": "0100606026F12000",
+      "preferred_paths": [
+        ".local/originals/switch/romfs",
+        ".local/originals/switch/base"
+      ]
+    },
+    "pc": {
+      "enabled": true,
+      "preferred_paths": [
+        ".local/originals/pc/steam"
+      ]
+    }
+  },
+  "audio": {
+    "preferred_voice_language": "ja",
+    "text_language": "en",
+    "voice_patch_verified": false
+  },
+  "status": {
+    "source_verified": false,
+    "adapter_implemented": false,
+    "safe_to_patch": false,
+    "build_pass": false,
+    "runtime_pass": false,
+    "release_approved": false
+  }
+}

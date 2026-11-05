@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MoviePipeline",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MoviePipeline:PinConnect:1c9bd69d",
+      "source": {
+        "set": "set-02",
+        "namespace": "MoviePipeline",
+        "key": "PinConnect",
+        "jp_record_id": "switch:locres:set-01:MoviePipeline:PinConnect:1c9bd69d",
+        "official_en_record_id": "switch:locres:set-01:MoviePipeline:PinConnect:1c9bd69d",
+        "jp_sha256": "feae34eede16ac787e03c2c8c8d9d10547445821ee5eff124d899e476176ad78",
+        "official_en_sha256": "5096a9edd9df5dad5fac03bf6d1637493e31f3b9ac3b2c6a351740ba8fb14459"
+      },
+      "text": {
+        "jp": "ノードを接続",
+        "official_en": "Connect nodes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MoviePipeline:PinDirectionMismatchError:a405893f",
+      "source": {
+        "set": "set-02",
+        "namespace": "MoviePipeline",
+        "key": "PinDirectionMismatchError",
+        "jp_record_id": "switch:locres:set-01:MoviePipeline:PinDirectionMismatchError:a405893f",
+        "official_en_record_id": "switch:locres:set-01:MoviePipeline:PinDirectionMismatchError:a405893f",
+        "jp_sha256": "ac259c9e562a7db9ceb642e10da3bb3cee5810a16cb2838d24c86d3b3df7ea6a",
+        "official_en_sha256": "c25d66963eba19175a05bbf52c7fde7c3343acc72357ef358ba9dd7a9342863a"
+      },
+      "text": {
+        "jp": "方向が非互換です",
+        "official_en": "Directions are not compatible!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MoviePipeline:InvalidPinError:8caa867e",
+      "source": {
+        "set": "set-02",
+        "namespace": "MoviePipeline",
+        "key": "InvalidPinError",
+        "jp_record_id": "switch:locres:set-01:MoviePipeline:InvalidPinError:8caa867e",
+        "official_en_record_id": "switch:locres:set-01:MoviePipeline:InvalidPinError:8caa867e",
+        "jp_sha256": "c1763688a738e46d2b5c14c925c1a0520d5e2d8350f0b2c7e27a35529cc3e96e",
+        "official_en_sha256": "29889aa306098ac755a60781ca89d94729752b115e82cc6f8166e62b1ecea1d0"
+      },
+      "text": {
+        "jp": "InOtherPin が無効です",
+        "official_en": "InOtherPin is invalid!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MoviePipeline:CircularPinError:40a2511c",
+      "source": {
+        "set": "set-02",
+        "namespace": "MoviePipeline",
+        "key": "CircularPinError",
+        "jp_record_id": "switch:locres:set-01:MoviePipeline:CircularPinError:40a2511c",
+        "official_en_record_id": "switch:locres:set-01:MoviePipeline:CircularPinError:40a2511c",
+        "jp_sha256": "2fcdc897548d2cdb4ce5ca7a51dd8902ce479dae6e5eb47192845e6b8b2ced39",
+        "official_en_sha256": "7b8b5acb35ca21ac5dd08826c248deae7b594c3e716b4ca89feb172b099a3aa1"
+      },
+      "text": {
+        "jp": "循環接続がありません",
+        "official_en": "No Circular Connections!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MoviePipeline:PinTypeMismatchError:b3faf384",
+      "source": {
+        "set": "set-02",
+        "namespace": "MoviePipeline",
+        "key": "PinTypeMismatchError",
+        "jp_record_id": "switch:locres:set-01:MoviePipeline:PinTypeMismatchError:b3faf384",
+        "official_en_record_id": "switch:locres:set-01:MoviePipeline:PinTypeMismatchError:b3faf384",
+        "jp_sha256": "821198f009302fade13364d239cb40a2443d0e07cbf9b70794870496a8c865c9",
+        "official_en_sha256": "f5c7a1a96d501e518b5c5da551352751a6719bdd9c550208afebf73877ce8e93"
+      },
+      "text": {
+        "jp": "ピン タイプが一致しません",
+        "official_en": "Pin types don't match!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MoviePipeline:PinInputReplaceExisting:02c4d750",
+      "source": {
+        "set": "set-02",
+        "namespace": "MoviePipeline",
+        "key": "PinInputReplaceExisting",
+        "jp_record_id": "switch:locres:set-01:MoviePipeline:PinInputReplaceExisting:02c4d750",
+        "official_en_record_id": "switch:locres:set-01:MoviePipeline:PinInputReplaceExisting:02c4d750",
+        "jp_sha256": "3d66cd64a5d09cd8309f57d90982087d628083dad5f200098ca9008b66b804b0",
+        "official_en_sha256": "6afff43570939f0ea97f578521c2d26aa2337feb3d97df3e2f76ed0a68cb0209"
+      },
+      "text": {
+        "jp": "既存の入力接続を置き換えます",
+        "official_en": "Replace existing input connections",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

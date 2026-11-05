@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "DisasterRecoverySessionManager",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:DisasterRecoverySessionManager:ActivityDatabaseNotFound:af3f0391",
+      "source": {
+        "set": "set-02",
+        "namespace": "DisasterRecoverySessionManager",
+        "key": "ActivityDatabaseNotFound",
+        "jp_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:ActivityDatabaseNotFound:af3f0391",
+        "official_en_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:ActivityDatabaseNotFound:af3f0391",
+        "jp_sha256": "5c903ffb4ec6431ff6712b8f84178078f0576221adc9c88a23fe945ba4be4494",
+        "official_en_sha256": "4768d9cd3b2557cb3a28130744762235e4e7180876f6e6dbcceaa16d2038a7b0"
+      },
+      "text": {
+        "jp": "'{1}' で '{0}' が見つかりませんでした。",
+        "official_en": "Could not find '{0}' in '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DisasterRecoverySessionManager:InvalidSessionId:70bd88d4",
+      "source": {
+        "set": "set-02",
+        "namespace": "DisasterRecoverySessionManager",
+        "key": "InvalidSessionId",
+        "jp_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:InvalidSessionId:70bd88d4",
+        "official_en_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:InvalidSessionId:70bd88d4",
+        "jp_sha256": "ae51c3ee5d7f239e56cdd00e5f5147ffa4d5dd5bbdd952898232e362d6587e41",
+        "official_en_sha256": "dfc4c401bf0c13ce2a61889ff45dfd32938e4b852d979655f2a319f35be366e7"
+      },
+      "text": {
+        "jp": "'{0}' のセッションIDを解析できませんでした。",
+        "official_en": "Could not parse the session ID from '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DisasterRecoverySessionManager:InvalidSessionName:99244992",
+      "source": {
+        "set": "set-02",
+        "namespace": "DisasterRecoverySessionManager",
+        "key": "InvalidSessionName",
+        "jp_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:InvalidSessionName:99244992",
+        "official_en_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:InvalidSessionName:99244992",
+        "jp_sha256": "6322fab4f32ff8bb5d6e26fe230b4a01c9e10595aacebee07a4e6acff88b10cc",
+        "official_en_sha256": "cf2547ac2e7fc216317a9dfc560ecfc2f20950108d6a932124a3adcff0bc7053"
+      },
+      "text": {
+        "jp": "'{0}' のセッション名を解析できませんでした。",
+        "official_en": "Could not parse the session name from '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DisasterRecoverySessionManager:FailedToCopySessionDB:f94db4dd",
+      "source": {
+        "set": "set-02",
+        "namespace": "DisasterRecoverySessionManager",
+        "key": "FailedToCopySessionDB",
+        "jp_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:FailedToCopySessionDB:f94db4dd",
+        "official_en_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:FailedToCopySessionDB:f94db4dd",
+        "jp_sha256": "2537ed275f3ad0c84b67c374cc426e0c4d3774c1acfb91f91ba4cba81bc84fc0",
+        "official_en_sha256": "4326b4eb35758d3a4ddc90c19a6310ca30602359d02e134446d1499110577178"
+      },
+      "text": {
+        "jp": "'{0}' を '{1}' にコピーできませんでした。",
+        "official_en": "Failed to copy '{0}' to '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DisasterRecoverySessionManager:FailedToCopySessionDBWal:7d61aad4",
+      "source": {
+        "set": "set-02",
+        "namespace": "DisasterRecoverySessionManager",
+        "key": "FailedToCopySessionDBWal",
+        "jp_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:FailedToCopySessionDBWal:7d61aad4",
+        "official_en_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:FailedToCopySessionDBWal:7d61aad4",
+        "jp_sha256": "091a4b10825d08b207a734c222646afaeb8c6463896218f366c6c896d8f23a3a",
+        "official_en_sha256": "4326b4eb35758d3a4ddc90c19a6310ca30602359d02e134446d1499110577178"
+      },
+      "text": {
+        "jp": "「{0}」を「{1}」にコピーできませんでした",
+        "official_en": "Failed to copy '{0}' to '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DisasterRecoverySessionManager:FailedToCopySessionInfo:5aaf6efb",
+      "source": {
+        "set": "set-02",
+        "namespace": "DisasterRecoverySessionManager",
+        "key": "FailedToCopySessionInfo",
+        "jp_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:FailedToCopySessionInfo:5aaf6efb",
+        "official_en_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:FailedToCopySessionInfo:5aaf6efb",
+        "jp_sha256": "2537ed275f3ad0c84b67c374cc426e0c4d3774c1acfb91f91ba4cba81bc84fc0",
+        "official_en_sha256": "4326b4eb35758d3a4ddc90c19a6310ca30602359d02e134446d1499110577178"
+      },
+      "text": {
+        "jp": "'{0}' を '{1}' にコピーできませんでした。",
+        "official_en": "Failed to copy '{0}' to '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DisasterRecoverySessionManager:FailedToCreateImportDir:965aac2c",
+      "source": {
+        "set": "set-02",
+        "namespace": "DisasterRecoverySessionManager",
+        "key": "FailedToCreateImportDir",
+        "jp_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:FailedToCreateImportDir:965aac2c",
+        "official_en_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:FailedToCreateImportDir:965aac2c",
+        "jp_sha256": "96d81066b52e2b481e5ddefb085d2bccfce33443d433ffbd3b286516b729bd58",
+        "official_en_sha256": "f590661dd6d233ffe5606df95ca837fb1b7857da806f4aabf768bb7baf185b2f"
+      },
+      "text": {
+        "jp": "インポートディレクトリ「{0}」を作成できませんでした。",
+        "official_en": "Failed to create import directory {0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DisasterRecoverySessionManager:FailedToCreateAndJoin:14afa58e",
+      "source": {
+        "set": "set-02",
+        "namespace": "DisasterRecoverySessionManager",
+        "key": "FailedToCreateAndJoin",
+        "jp_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:FailedToCreateAndJoin:14afa58e",
+        "official_en_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:FailedToCreateAndJoin:14afa58e",
+        "jp_sha256": "c843edb48895701f85cdc42103fccbe5d901fb0f464d529d868ae8a504fa8516",
+        "official_en_sha256": "14cc0b0338bbfd5ac35cebb1be307985bc7e37034d222c0d96acc83dae0f19cd"
+      },
+      "text": {
+        "jp": "セッションを作成できませんでした。別のセッションがすでに進行中です",
+        "official_en": "Failed to create the session. Another session is already in progress",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DisasterRecoverySessionManager:FailedToRestoreAndJoin:a52b1379",
+      "source": {
+        "set": "set-02",
+        "namespace": "DisasterRecoverySessionManager",
+        "key": "FailedToRestoreAndJoin",
+        "jp_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:FailedToRestoreAndJoin:a52b1379",
+        "official_en_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:FailedToRestoreAndJoin:a52b1379",
+        "jp_sha256": "20ba4033183b04414e7da4924491a98a0fde5f1505dc8f7e433cc9c078cabfd7",
+        "official_en_sha256": "46014eae9810b07562cd72356909ee73023ce1cc6932ee4c3470fe7ca10f72e3"
+      },
+      "text": {
+        "jp": "セッションを復元できませんでした。別のセッションがすでにアクティブです。",
+        "official_en": "Failed to restore the session. Another session is already active.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DisasterRecoverySessionManager:SessionNotFound:df724bcf",
+      "source": {
+        "set": "set-02",
+        "namespace": "DisasterRecoverySessionManager",
+        "key": "SessionNotFound",
+        "jp_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:SessionNotFound:df724bcf",
+        "official_en_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:SessionNotFound:df724bcf",
+        "jp_sha256": "69b1ac92417e6b0de756b0e152d282189fcb573a0c3ae5c66221cad13612096e",
+        "official_en_sha256": "0d8b0cf2daf3a35580f7bd92c4faecebb6095555240ec76392924d510f9129ef"
+      },
+      "text": {
+        "jp": "セッションが見つかりません。",
+        "official_en": "Session not found.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DisasterRecoverySessionManager:AbortedMessage:12f50db7",
+      "source": {
+        "set": "set-02",
+        "namespace": "DisasterRecoverySessionManager",
+        "key": "AbortedMessage",
+        "jp_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:AbortedMessage:12f50db7",
+        "official_en_record_id": "switch:locres:set-01:DisasterRecoverySessionManager:AbortedMessage:12f50db7",
+        "jp_sha256": "1ce544721284705a0f62b63b59236e9ce70c09470ba7e414c235a5127a8af74d",
+        "official_en_sha256": "0b570eb9b0e9ff05fb9f5886fdaa56007536f5024bf3670b7c22db436adbf887"
+      },
+      "text": {
+        "jp": "操作は中断されました。",
+        "official_en": "The operation was aborted.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

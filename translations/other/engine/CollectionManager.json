@@ -1,0 +1,2158 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "CollectionManager",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:CollectionUnreportedPathsDesc:08033260",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "CollectionUnreportedPathsDesc",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:CollectionUnreportedPathsDesc:08033260",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:CollectionUnreportedPathsDesc:08033260",
+        "jp_sha256": "a3320a93967c5b6caa879c5436a52f258f8c06ba99c1c4a4abe3e5e9e8727654",
+        "official_en_sha256": "8ad2d62bf92d6545e871518f99a67a99c8baa6e2c91d1e99e23bc0f8ee1b9fb6"
+      },
+      "text": {
+        "jp": "... さらに {0} 個のパス",
+        "official_en": "... {0} more path(s)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_CollectionAlreadyExists:b6be5b0a",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_CollectionAlreadyExists",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_CollectionAlreadyExists:b6be5b0a",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_CollectionAlreadyExists:b6be5b0a",
+        "jp_sha256": "c12106dd36568c4f1d294cb03bb49cc181b1f1c8f43f175027c6a0c3cc2c14a1",
+        "official_en_sha256": "aa604b0ae58160c3b0edf3d2bb22ecd9d5a0f99af9523a1739e46cfd1fab9d8d"
+      },
+      "text": {
+        "jp": "'{0}' という名前のコレクションがすでに存在します。",
+        "official_en": "A collection already exists with the name '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:InvalidParent_CannotParentToChildren:25c95240",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "InvalidParent_CannotParentToChildren",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:InvalidParent_CannotParentToChildren:25c95240",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:InvalidParent_CannotParentToChildren:25c95240",
+        "jp_sha256": "13b02c0eb762244ff052994ae6cf5cbdbc3a7f33be5bd98942b751c4599a73b3",
+        "official_en_sha256": "3308dc8dbc1c5755edc2a8c17f3562749453ea8b9122ebc304ec4a8bb3b0e589"
+      },
+      "text": {
+        "jp": "コレクションをその子の親にすることができません",
+        "official_en": "A collection cannot be parented to its children",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:InvalidParent_CannotParentToSelf:cb5a7260",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "InvalidParent_CannotParentToSelf",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:InvalidParent_CannotParentToSelf:cb5a7260",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:InvalidParent_CannotParentToSelf:cb5a7260",
+        "jp_sha256": "8c4de287262cf4816d98adde237a05b5203815020c1ab4e3556b752e3a443b63",
+        "official_en_sha256": "310f6ba2ce77ed28bcbf7b6a947bda2259f0c89f6b6246a25fce937d542cb299"
+      },
+      "text": {
+        "jp": "コレクションを自身の親にすることができません",
+        "official_en": "A collection cannot be parented to itself",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:InvalidParent_InvalidParentStorageType:e5106115",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "InvalidParent_InvalidParentStorageType",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:InvalidParent_InvalidParentStorageType:e5106115",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:InvalidParent_InvalidParentStorageType:e5106115",
+        "jp_sha256": "a73508e1a8fd84b61fefd365cdb832c044502abf435d2dac05532ef3febb0fdf",
+        "official_en_sha256": "a2664eb9d185dfa9a0d2797ab8b2da4ecbbb5e13e2cdd5047fb2aa251305b165"
+      },
+      "text": {
+        "jp": "ダイナミックコレクションには子コレクションを含めることができません。",
+        "official_en": "A dynamic collection cannot contain child collections",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:InvalidParent_InvalidChildType:7e14bc02",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "InvalidParent_InvalidChildType",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:InvalidParent_InvalidChildType:7e14bc02",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:InvalidParent_InvalidChildType:7e14bc02",
+        "jp_sha256": "04d23eef19ddf9f4dbb6dd29f2eaa981f134339672a66fb6ace8d72fe299bfd5",
+        "official_en_sha256": "3b87ac067962279b316aa51403eef4083a337f817458eac506d6f46f57082919"
+      },
+      "text": {
+        "jp": "{0} のコレクションに {1} コレクションを含めることはできません",
+        "official_en": "A {0} collection cannot contain a {1} collection",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:CollectionAddedSingleDesc:4fb694c6",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "CollectionAddedSingleDesc",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:CollectionAddedSingleDesc:4fb694c6",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:CollectionAddedSingleDesc:4fb694c6",
+        "jp_sha256": "1eb7cf65b9cb6e53792835551da1c157e9d5829a29814cb1b673389ef4f50835",
+        "official_en_sha256": "5df8fefde1e0324aae3c731fb1cff12751f80f66f9afa57ce9abe495f9eb28f0"
+      },
+      "text": {
+        "jp": "'{FirstObjectAdded}'  をコレクション {CollectionName}に追加しました:",
+        "official_en": "Added '{FirstObjectAdded}' to collection '{CollectionName}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:CollectionAddedNewDesc:70fdaa22",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "CollectionAddedNewDesc",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:CollectionAddedNewDesc:70fdaa22",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:CollectionAddedNewDesc:70fdaa22",
+        "jp_sha256": "f61d3a65281ce2d447eebcbc2adc26079998c6ee5a608b3194533012fc4b55ff",
+        "official_en_sha256": "efbc5e7901eee62b823d8cb45b4699f70cdc6f53816f4315b38c168f49532906"
+      },
+      "text": {
+        "jp": "コレクション '{0}'に追加",
+        "official_en": "Added collection '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:CollectionAddedMultipleDesc:30f05084",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "CollectionAddedMultipleDesc",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:CollectionAddedMultipleDesc:30f05084",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:CollectionAddedMultipleDesc:30f05084",
+        "jp_sha256": "7e7ad0428c339be4ba4eb36d084b4b920fd79a825f4c6834e37f6d21e0257e8e",
+        "official_en_sha256": "879f0e13d9050ba4c91641a436426b4696836ed3de5824f0f3c6cf8985a0ccde"
+      },
+      "text": {
+        "jp": "{NumberAdded}オブジェクトをコレクションに追加しました'{CollectionName}':",
+        "official_en": "Added {NumberAdded} objects to collection '{CollectionName}':",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:CommandText_Add:7fad07f0",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "CommandText_Add",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:CommandText_Add:7fad07f0",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:CommandText_Add:7fad07f0",
+        "jp_sha256": "a71e1656aa37db3a421d3d6194d1c4bee83afdc1d116103891992e0246d553f4",
+        "official_en_sha256": "63fdc6cda5c00862ab79f5d34a5794590513ab8e0871a2a3940f8c111e1b49a9"
+      },
+      "text": {
+        "jp": "指定したオブジェクトパスを対象コレクションに追加する",
+        "official_en": "Adds the specified object path to the specified collection",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:CollectionChangedColorDesc:35536de0",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "CollectionChangedColorDesc",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:CollectionChangedColorDesc:35536de0",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:CollectionChangedColorDesc:35536de0",
+        "jp_sha256": "2cb7eb28657d80010583905a6ef24039a3c60c013f9f6a0242711dcc8071b368",
+        "official_en_sha256": "31d6bd18fa852922a7eaa4aee09235618bf9fd41c5a326f717675cdd90febd70"
+      },
+      "text": {
+        "jp": "コレクション '{0}' の色を変更しました",
+        "official_en": "Changed the color of collection '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:CollectionChangedDynamicQueryDesc:896eb187",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "CollectionChangedDynamicQueryDesc",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:CollectionChangedDynamicQueryDesc:896eb187",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:CollectionChangedDynamicQueryDesc:896eb187",
+        "jp_sha256": "d208a1e538fe5484384fe7f375025877b769f7ad8a3511bb15b6bb6764ccaf9c",
+        "official_en_sha256": "bacb3622f28b3f57ef51b3849fb24cb8f72d49cc3da794e9ed9c36f57d8812a3"
+      },
+      "text": {
+        "jp": "コレクション '{0}' の動的クエリを '{1}' に変更しました",
+        "official_en": "Changed the dynamic query of collection '{0}' to '{1}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:CollectionChangedParentDesc:7f76e09a",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "CollectionChangedParentDesc",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:CollectionChangedParentDesc:7f76e09a",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:CollectionChangedParentDesc:7f76e09a",
+        "jp_sha256": "69db928dfb96a24337df7c99012a0b7c7adabf913a974d98f769b26bbce7e6f3",
+        "official_en_sha256": "0ac9e54230dab115072acb38bbbd003ff0ed4b5ebbb5f533fa1f7525748c8a40"
+      },
+      "text": {
+        "jp": "コレクション '{0}' の親を変更しました",
+        "official_en": "Changed the parent of collection '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_SCCCheckedOutOther:fadca8bb",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_SCCCheckedOutOther",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_SCCCheckedOutOther:fadca8bb",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_SCCCheckedOutOther:fadca8bb",
+        "jp_sha256": "00c4ce0bf6884fc4cc34e27ddda386300087495cf0ede134bc61ee2c7a16f0e2",
+        "official_en_sha256": "d4f7c9deba7c032f0102f5d6f351347f7ffbd1e34262e79ee2d9fbff793ac5e4"
+      },
+      "text": {
+        "jp": "コレクション'{0}'は別のユーザーにチェック アウトされています",
+        "official_en": "Collection '{0}' is checked out by another user.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_SCCNotCurrent:a2c6e5a5",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_SCCNotCurrent",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_SCCNotCurrent:a2c6e5a5",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_SCCNotCurrent:a2c6e5a5",
+        "jp_sha256": "89ecfdb9047021729e11e9643d6211a624bcbabca20f07beda293b5fcb8a54ab",
+        "official_en_sha256": "5f91e84ff487ad05dd0ef42a742a82d03396577e2b63d6a2e8953845892dd679"
+      },
+      "text": {
+        "jp": "同期後のコレクション'{0}' は最新リビジョンではありません",
+        "official_en": "Collection '{0}' is not at head revision after sync.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_SCCNotCheckedOut:349da08a",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_SCCNotCheckedOut",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_SCCNotCheckedOut:349da08a",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_SCCNotCheckedOut:349da08a",
+        "jp_sha256": "b40f5a14e7562be7f60706ec96c48b2c6457cd5342b9e913ce2d1920bb704e50",
+        "official_en_sha256": "ecdcaca33b70c51b1c515bc2d04c14a8bbaa1f65b7090d0a7f51b9eee33e6bed"
+      },
+      "text": {
+        "jp": "コレクション'{0}' はチェック アウトされていないか追加待ちでオープン状態です",
+        "official_en": "Collection '{0}' not checked out or open for add.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:CollectionNotModifiedDesc:5e833ac6",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "CollectionNotModifiedDesc",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:CollectionNotModifiedDesc:5e833ac6",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:CollectionNotModifiedDesc:5e833ac6",
+        "jp_sha256": "0ff27b6c88f0404c9e9ce6c966de4a62231a1fd4826f68227f1c459228f6771b",
+        "official_en_sha256": "fa198c17a36b6e507edbb251f3722c5b1a69c44fa05df157992b1bfcf08371e7"
+      },
+      "text": {
+        "jp": "コレクション '{0}' は変更されません",
+        "official_en": "Collection '{0}' not modified",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:ProjectCollectionSource_Name:a54f47d6",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "ProjectCollectionSource_Name",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:ProjectCollectionSource_Name:a54f47d6",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:ProjectCollectionSource_Name:a54f47d6",
+        "jp_sha256": "ebb389015781694f8c96f2b755cd8ac035de568d4eeb1bfd016f5358c4921520",
+        "official_en_sha256": "9f9feade761d22f340a4de9c586f222aa74658351faadc8365335bc3c548ba71"
+      },
+      "text": {
+        "jp": "コレクション",
+        "official_en": "Collections",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_SCCUnknown:999b39b1",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_SCCUnknown",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_SCCUnknown:999b39b1",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_SCCUnknown:999b39b1",
+        "jp_sha256": "96e4cb405581b9aca8c159d7464c3ea34762146a14eef63814502f1ad60f0468",
+        "official_en_sha256": "ae873c82a6bce1ec16882b0878b2204d306439d6b2039bcf3570b39f3753be49"
+      },
+      "text": {
+        "jp": "コレクション「{0}」のリビジョン コントロール ステートを判定できませんでした",
+        "official_en": "Could not determine revision control state for collection '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_SCCRevert:99b1c0a4",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_SCCRevert",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_SCCRevert:99b1c0a4",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_SCCRevert:99b1c0a4",
+        "jp_sha256": "9592a5349d4ae1bd4205e19214df2bea40ce8c4281681ff42068104172e64422",
+        "official_en_sha256": "9b51073a6325bb6444282b68bfb1ddd36950094c19b6135b88110d7863441c07"
+      },
+      "text": {
+        "jp": "コレクション'{0}' を巻き戻せません",
+        "official_en": "Could not revert collection '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:CommandText_Create:016b66cf",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "CommandText_Create",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:CommandText_Create:016b66cf",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:CommandText_Create:016b66cf",
+        "jp_sha256": "e6c18b257fde972111f4bf809e92f6513be5a8da793595935ec6ea8192b94814",
+        "official_en_sha256": "d66e7c051dec0923f6faf0c6c74d1d135e62141b5160374afd4f35471199d977"
+      },
+      "text": {
+        "jp": "指定した名前とタイプでコレクションを作成する",
+        "official_en": "Creates a collection of the specified name and type",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:CollectionDeletedDesc:f4799055",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "CollectionDeletedDesc",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:CollectionDeletedDesc:f4799055",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:CollectionDeletedDesc:f4799055",
+        "jp_sha256": "cecc3f980b199f8d682c81f9a1944a638f8205b958395edd96ae19dce28e65da",
+        "official_en_sha256": "f4b25c6b18dfac562c899ecc70d2ca8b8016081dcb5ac0780585e2564a54a193"
+      },
+      "text": {
+        "jp": "削除したコレクション: {CollectionName}",
+        "official_en": "Deleted collection: {CollectionName}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:CommandText_Destroy:1eca62c2",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "CommandText_Destroy",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:CommandText_Destroy:1eca62c2",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:CommandText_Destroy:1eca62c2",
+        "jp_sha256": "5aefea910d57c6be5977c6da88ba7074148845ed6186e7c184a52d7f435116bc",
+        "official_en_sha256": "008296ea5d4bb7a2996d5686af53f6332dae4e7c5e73c982f5a5972f1a2fc627"
+      },
+      "text": {
+        "jp": "指定した名前とタイプのコレクションを削除する",
+        "official_en": "Deletes a collection of the specified name and type",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:DeletingCollection:fdff3e3f",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "DeletingCollection",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:DeletingCollection:fdff3e3f",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:DeletingCollection:fdff3e3f",
+        "jp_sha256": "27349ecae0d51997de123043e9c8344281abdc6584fac02dff1a55d2b1744456",
+        "official_en_sha256": "596476e0a31d86e513c09ec24811ee4eaf465b3637928cc3e8cff4fee831d1c6"
+      },
+      "text": {
+        "jp": "コレクションを削除中 {CollectionName}",
+        "official_en": "Deleting Collection {CollectionName}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_SCCAdd:83b0f786",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_SCCAdd",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_SCCAdd:83b0f786",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_SCCAdd:83b0f786",
+        "jp_sha256": "5039784f262701a66dcd01435bdcf8875e3529bd654cee10839a5f5669a12df8",
+        "official_en_sha256": "fe7095abd68ba8b534cdd6df8bc8d66e83516744b737960d5e417cf65c4d6a96"
+      },
+      "text": {
+        "jp": "リビジョン コントロールにコレクション「{0}」を追加できませんでした",
+        "official_en": "Failed to add collection '{0}' to revision control.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_SCCCheckIn:b5b17513",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_SCCCheckIn",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_SCCCheckIn:b5b17513",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_SCCCheckIn:b5b17513",
+        "jp_sha256": "719ab6ae65e7f9d09f7e6fb6b66102c6862828238e10cdb829979edacb1d5880",
+        "official_en_sha256": "c5fb83c73e69da38eac472048bbe6025a37fd81d026587f3d6d0b175ea27a1b6"
+      },
+      "text": {
+        "jp": "コレクション'{0}'のチェック インに失敗しました",
+        "official_en": "Failed to check in collection '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_SCCCheckout:6db0b596",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_SCCCheckout",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_SCCCheckout:6db0b596",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_SCCCheckout:6db0b596",
+        "jp_sha256": "f94ac915be50a4171d824645270e7d8b355937170a0dcb58cc9a039379a0d17a",
+        "official_en_sha256": "9036bb2f2cca443525279d7557b2ad4d5b27188a1f93676e98e3a1d15c7a2ef3"
+      },
+      "text": {
+        "jp": "コレクション'{0}'のチェック アウトに失敗しました",
+        "official_en": "Failed to check out collection '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_SCCDeleteWhileCheckedOut:b3dc68ed",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_SCCDeleteWhileCheckedOut",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_SCCDeleteWhileCheckedOut:b3dc68ed",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_SCCDeleteWhileCheckedOut:b3dc68ed",
+        "jp_sha256": "8f806b478a66162f6bdb3dbcb388e043942702f086d5ed2e3444bc32c51d10d4",
+        "official_en_sha256": "7e18dc7306361a8a5fe8feea9921d1e30a2138a85b58de98222341111ff1bbc2"
+      },
+      "text": {
+        "jp": "リビジョン コントロール内のコレクション「{0}」の削除に失敗しました。コレクションはチェック アウトされているか追加待ちでオープン状態です",
+        "official_en": "Failed to delete collection '{0}' in revision control because it is checked out or open for add.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_SCCDeleteFailed:7feb1de6",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_SCCDeleteFailed",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_SCCDeleteFailed:7feb1de6",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_SCCDeleteFailed:7feb1de6",
+        "jp_sha256": "fa2629c11a55c5294b98f99c6c786043099ac4d2663b9e6c3aa51ed40b313737",
+        "official_en_sha256": "735fe050759117a738c798a88d80804c5d15e1cbf508a2fbb5e7c8485cdb3f7b"
+      },
+      "text": {
+        "jp": "リビジョン コントロール内のコレクション「{0}」の削除に失敗しました",
+        "official_en": "Failed to delete collection '{0}' in revision control.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_DiskDeleteFailed:32cfe301",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_DiskDeleteFailed",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_DiskDeleteFailed:32cfe301",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_DiskDeleteFailed:32cfe301",
+        "jp_sha256": "293bc2c62569dacfb5fd44ea60a4026026a23acd2013e7e730d2477282e68bd4",
+        "official_en_sha256": "1617eae53cd619260f7336b33afa855584218134d27e7f2edc72c3a1031e3a01"
+      },
+      "text": {
+        "jp": "コレクションファイルを削除できませんでした:{0}",
+        "official_en": "Failed to delete the collection file: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_SCCBadHead:81555cb7",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_SCCBadHead",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_SCCBadHead:81555cb7",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_SCCBadHead:81555cb7",
+        "jp_sha256": "4f45fd4abe01bc57c5bb35bba4accb773410404e3495cde7d2a3c3bfc46f3d18",
+        "official_en_sha256": "8cbbec2359ee5f3faa9d10bcf44b627344efd12bf2d4b1411620674a2ee7a1ea"
+      },
+      "text": {
+        "jp": "最新リビジョンでコレクション '{0}' をロードできませんでした。{1}",
+        "official_en": "Failed to load the collection '{0}' at the head revision. {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:LoadError_FailedToLoadFile:b3a4dfef",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "LoadError_FailedToLoadFile",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:LoadError_FailedToLoadFile:b3a4dfef",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:LoadError_FailedToLoadFile:b3a4dfef",
+        "jp_sha256": "9d621373d64a26aba717daf57527331f1196059d3c6801424b0768ecdcbbf290",
+        "official_en_sha256": "be0003db689fd6d88cd4c6b5f04fcf2ddca39e2e1d688978bb58f14443cd966b"
+      },
+      "text": {
+        "jp": "ディスクからコレクション '{0}' をロードできませんでした。",
+        "official_en": "Failed to load the collection '{0}' from disk.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_SCCSync:ef882ed7",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_SCCSync",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_SCCSync:ef882ed7",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_SCCSync:ef882ed7",
+        "jp_sha256": "105f66dcdf7ff5650b7297fb1966e5e07de5896bf6d8cd46f1430c9b2768b3cd",
+        "official_en_sha256": "5bbbb385db51a00fefdf6f0a7f5264e981a546e3331991f6b7e3db82a9c69ae1"
+      },
+      "text": {
+        "jp": "コレクション'{0}' を最新リビジョンに同期できませんでした",
+        "official_en": "Failed to sync collection '{0}' to the head revision.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_WriteFailed:67b5a1e6",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_WriteFailed",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_WriteFailed:67b5a1e6",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_WriteFailed:67b5a1e6",
+        "jp_sha256": "9e727988630ec05eff9e8cefbb0d19f6cd287cc2d454a61e32228286d8f26ff5",
+        "official_en_sha256": "a3138f71204cfd83543c780c55358cd1d6423ccda539a58305d7012c3b91aeec"
+      },
+      "text": {
+        "jp": "コレクションファイルを書き込むことができませんでした:{0}",
+        "official_en": "Failed to write to collection file: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_NotInCollection:2b6525af",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_NotInCollection",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_NotInCollection:2b6525af",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_NotInCollection:2b6525af",
+        "jp_sha256": "fcb747d814a5a9e368d4aa90413c9576a6d7abff6d3a1b626822234fc950916d",
+        "official_en_sha256": "acbe2eefed6cebfd422eda302cd10495911e946352b40de833dfdecb760ffb5e"
+      },
+      "text": {
+        "jp": "コレクション内にアセットが見つかりませんでした",
+        "official_en": "None of the assets were in the collection.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_AddNeedsStaticCollection:38d1fa57",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_AddNeedsStaticCollection",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_AddNeedsStaticCollection:38d1fa57",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_AddNeedsStaticCollection:38d1fa57",
+        "jp_sha256": "4e2880aa5559f3cd11acdf9c746264792714688a8a72a6416407a35f35b630c3",
+        "official_en_sha256": "788e1aba11f780c31fba87c9fd3f552f4a71859706ed28c696dee67aaf99dcf1"
+      },
+      "text": {
+        "jp": "オブジェクトは静的コレクションにのみ追加できます。",
+        "official_en": "Objects can only be added to static collections.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_RemoveNeedsStaticCollection:34d2e55d",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_RemoveNeedsStaticCollection",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_RemoveNeedsStaticCollection:34d2e55d",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_RemoveNeedsStaticCollection:34d2e55d",
+        "jp_sha256": "559d20acdc850ac394443d5236d7bf8b84cc9f18b208a6ce16abf76b5de92ed5",
+        "official_en_sha256": "567a29519f51de5c8178f1b4f71aa166f9ccb317e4c65ddae338117cb64a1579"
+      },
+      "text": {
+        "jp": "オブジェクトは静的コレクションからのみ削除できます。",
+        "official_en": "Objects can only be removed from static collections.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:CollectionRemovedSingleDesc:5a691c3e",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "CollectionRemovedSingleDesc",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:CollectionRemovedSingleDesc:5a691c3e",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:CollectionRemovedSingleDesc:5a691c3e",
+        "jp_sha256": "2c69355cd7099eb10d3932fd8b8f44c9581b1292b96c4cdbb2e8066019ca65ee",
+        "official_en_sha256": "7c8a7cc1312c652c49d6d4dc33b893c8b6dc392ea9815ce6a257813a99654777"
+      },
+      "text": {
+        "jp": "コレクション '{CollectionName}' から '{FirstObjectRemoved}' を削除しました",
+        "official_en": "Removed '{FirstObjectRemoved}' from collection '{CollectionName}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:CollectionRemovedMultipleDesc:311132c3",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "CollectionRemovedMultipleDesc",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:CollectionRemovedMultipleDesc:311132c3",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:CollectionRemovedMultipleDesc:311132c3",
+        "jp_sha256": "403af29554946ebea98dba2a08b8ed0e73014a3c0c746fae728b632c6455cd8c",
+        "official_en_sha256": "bb64176a1faf63a3bd34af586a8886ec53dcdeeb7ed88736976f443d1f575ef9"
+      },
+      "text": {
+        "jp": "コレクション '{CollectionName}' から{NumberRemoved} 個のオブジェクトを取り除きました",
+        "official_en": "Removed {NumberRemoved} objects from collection '{CollectionName}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:CommandText_Remove:caf0be6f",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "CommandText_Remove",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:CommandText_Remove:caf0be6f",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:CommandText_Remove:caf0be6f",
+        "jp_sha256": "3ac069f36bfc84613585f6f0d54e558edff777886d12794f25629e80c747a4bb",
+        "official_en_sha256": "c9866882301f280fc4f1bcb410a18ca7d3924e41444f93c77739d06b3034b072"
+      },
+      "text": {
+        "jp": "指定したオブジェクトパスを対象コレクションから取り除きます",
+        "official_en": "Removes the specified object path from the specified collection",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_SCCNotAvailable:0bf89c62",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_SCCNotAvailable",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_SCCNotAvailable:0bf89c62",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_SCCNotAvailable:0bf89c62",
+        "jp_sha256": "95be1ce3cb7bbbb5cc48def4cc1108e6486b3869bd685fc366406e386036c024",
+        "official_en_sha256": "021b859ca5c173fc5e373b1a783a576247fc2d67b04975ee3ca15b4c0332c1ea"
+      },
+      "text": {
+        "jp": "リビジョン コントロールは、現在は利用できません。接続を確認してからやり直してください",
+        "official_en": "Revision control is currently not available. Check your connection and try again.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_SCCDisabled:6c86c02e",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_SCCDisabled",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_SCCDisabled:6c86c02e",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_SCCDisabled:6c86c02e",
+        "jp_sha256": "d2b63c8f9aeb3222385142198e908208d126d0355bbf26a698437d516acc473b",
+        "official_en_sha256": "f6d7556e56b2d0bd03f6d5b8b8cb31756482d3411da38885998ba9b95f2b6988"
+      },
+      "text": {
+        "jp": "リビジョン コントロールが有効になっていません。環境設定メニューでリビジョン コントロールを有効にしてください",
+        "official_en": "Revision control is not enabled. Enable revision control in the preferences menu.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_SCCInvalid:4f93066b",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_SCCInvalid",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_SCCInvalid:4f93066b",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_SCCInvalid:4f93066b",
+        "jp_sha256": "8a49a37db34d03d5cf6c84ef317fa0767b411d874a5bb27f905a2cc51150f947",
+        "official_en_sha256": "73fde54dcadd6ca1d9113491bf913cd53f6d2a6c0e037cec1b2576d3ea6f33aa"
+      },
+      "text": {
+        "jp": "リビジョン コントロール ステートが無効です",
+        "official_en": "Revision control state is invalid.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:SavingCollection:94138b3e",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "SavingCollection",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:SavingCollection:94138b3e",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:SavingCollection:94138b3e",
+        "jp_sha256": "93cc4d55be6361a12c75d298a829fa030b9d2b06c191761d0b2d73134bfe599a",
+        "official_en_sha256": "fd34817ec78043cd81e8250a64149b734a6079649a8fd85b32893ca8ac99fd3a"
+      },
+      "text": {
+        "jp": "コレクション {0} を保存中",
+        "official_en": "Saving Collection {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_GetNeedsDynamicCollection:d1e262e4",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_GetNeedsDynamicCollection",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_GetNeedsDynamicCollection:d1e262e4",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_GetNeedsDynamicCollection:d1e262e4",
+        "jp_sha256": "b1183151adf626493c27df4dd2fe9f83173c0af41461a877c782c1682dfd3234",
+        "official_en_sha256": "7cb3c8d06ee10c3fd1ed4d4af5abcd887a93025e55ea563ce5bb043b08720a44"
+      },
+      "text": {
+        "jp": "検索クエリはダイナミックコレクションからのみ取得できます。",
+        "official_en": "Search queries can only be got from dynamic collections.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_SetNeedsDynamicCollection:568798d6",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_SetNeedsDynamicCollection",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_SetNeedsDynamicCollection:568798d6",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_SetNeedsDynamicCollection:568798d6",
+        "jp_sha256": "9490b86ea1f0e71169b9f5117634724f6d70d6e58d452c64b88c0447481861e8",
+        "official_en_sha256": "e96fc9316f7c80ecc4cbd2b219568283179298730c3e7f22ea901b5e26de2461"
+      },
+      "text": {
+        "jp": "検索クエリはダイナミックコレクションでのみ設定できます。",
+        "official_en": "Search queries can only be set on dynamic collections.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_TestNeedsDynamicCollection:900ee11d",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_TestNeedsDynamicCollection",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_TestNeedsDynamicCollection:900ee11d",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_TestNeedsDynamicCollection:900ee11d",
+        "jp_sha256": "f1a7846cc9b4d8219aa4ce097e0d4a58a8334f289072cb28b771f409ffaf2c5a",
+        "official_en_sha256": "1ef1ea7136a4aafbb23a740dcd362e562e056ff519eed8d5b85e6748e85c4643"
+      },
+      "text": {
+        "jp": "検索クエリはダイナミックコレクションでのみテストできます。",
+        "official_en": "Search queries can only be tested on dynamic collections.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_AlreadyExists:b8a34619",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_AlreadyExists",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_AlreadyExists:b8a34619",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_AlreadyExists:b8a34619",
+        "jp_sha256": "7b71fab43fa9123e8eb16f89c58d35f40cad42b7628b5ec58e96fec28d4695ce",
+        "official_en_sha256": "419168bde0a7046fa025e8e6c098b6e5928c895ee559f9e222684c96d3f5e14b"
+      },
+      "text": {
+        "jp": "このコレクションは既に存在します",
+        "official_en": "The collection already exists.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_HasBeenRemoved:4264b2cc",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_HasBeenRemoved",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_HasBeenRemoved:4264b2cc",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_HasBeenRemoved:4264b2cc",
+        "jp_sha256": "3da64aa35e641a99ad4e93e8c33d2be74e560cb1b80cdcd9f8f4a7855b805350",
+        "official_en_sha256": "10f336e7dfff5d88e969b67cd9ed24f296b058b00d9efa1f530c9137a36f1ef3"
+      },
+      "text": {
+        "jp": "コレクション コンテナが削除されました",
+        "official_en": "The collection container has been removed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_ReadOnly:1fbcfbbb",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_ReadOnly",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_ReadOnly:1fbcfbbb",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_ReadOnly:1fbcfbbb",
+        "jp_sha256": "d1272376d46bfb7988b4c445d89b44ea71b9fe29a5c77198e19af1235cd8473a",
+        "official_en_sha256": "09811c50003a72a46d265f526248091c456770595b013a778c6a4ef1616735cf"
+      },
+      "text": {
+        "jp": "コレクション コンテナは読み取り専用です",
+        "official_en": "The collection container is read-only.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_DoesntExist:0ed6d995",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_DoesntExist",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_DoesntExist:0ed6d995",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_DoesntExist:0ed6d995",
+        "jp_sha256": "5a9ba13c19d8279548eb41e335be662f63f0dba9d07f96128d8e0489f1115248",
+        "official_en_sha256": "eb8b450f4bd690aa00f37203b698196b36f443f15ea6892f7c62c668522c7f39"
+      },
+      "text": {
+        "jp": "コレクションが存在しません",
+        "official_en": "The collection doesn't exist.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:LoadError_BadHeader:62b37350",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "LoadError_BadHeader",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:LoadError_BadHeader:62b37350",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:LoadError_BadHeader:62b37350",
+        "jp_sha256": "762270c902027ee3811180b2eea9ca6a0eb4c5a0e9fcea790d1f35bed69b9165",
+        "official_en_sha256": "d6aea141e6dd3788a151bf4d9262872278323b6f2445b4d9d6959fb7a2f68280"
+      },
+      "text": {
+        "jp": "コレクションファイル「'{0}'」には不正なヘッダが含まれているため、ロードできません。",
+        "official_en": "The collection file '{0}' contains a bad header and could not be loaded.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_AlreadyInCollection:cda2282a",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_AlreadyInCollection",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_AlreadyInCollection:cda2282a",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_AlreadyInCollection:cda2282a",
+        "jp_sha256": "e0976411c9e21d12885460b8e97190e7b866da674b026d5f1f99c32b35431d56",
+        "official_en_sha256": "5d2673b422fd80ba43061b5778a3a016e916f7dc7b02f226076db764bfe96e5e"
+      },
+      "text": {
+        "jp": "選択した {0}|plural(other=アイテム) {0}|plural(other=は) すでに「{1}」に追加されています",
+        "official_en": "The selected {0}|plural(one=item,other=items) {0}|plural(one=has,other=have) already been added to '{1}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_Internal:52d716ef",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_Internal",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_Internal:52d716ef",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_Internal:52d716ef",
+        "jp_sha256": "31c5b6d2454cf5140457b4ed397f7545598692a888d2037f1fbb5f9a6b21a2fb",
+        "official_en_sha256": "dbafbd981362aba1293f8ba0d3516ed3701ac1ec2e2a537c89c46c707202a5ff"
+      },
+      "text": {
+        "jp": "内部エラーが発生しました",
+        "official_en": "There was an internal error.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_CollectionNameEmptyOrNone:2e50ba73",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_CollectionNameEmptyOrNone",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_CollectionNameEmptyOrNone:2e50ba73",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_CollectionNameEmptyOrNone:2e50ba73",
+        "jp_sha256": "67e762ab08cdf7526c523d3544a8d32aaf202f0e9154df0b463664b539d329e1",
+        "official_en_sha256": "75c318fbd7c7e432f528cb733df147e7060de4055c6a13baa95915dbc35c1ad1"
+      },
+      "text": {
+        "jp": "コレクション名を空白または'none'にはできません。",
+        "official_en": "This collection name cannot be empty or 'None'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:Error_CollectionNameTooLong:1527285c",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "Error_CollectionNameTooLong",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:Error_CollectionNameTooLong:1527285c",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:Error_CollectionNameTooLong:1527285c",
+        "jp_sha256": "f12a81c61f42537df90613a6d1d38e56f40d98f681a74f5b4f849e88555cf5c7",
+        "official_en_sha256": "996f1c5cb44931da6f978037eec56477b0ef179cd19dce94f348a4c5882c97a6"
+      },
+      "text": {
+        "jp": "コレクション名（{0} 文字）が長すぎます。最大値は {1} 文字です。もっと短い名前にしてください。コレクション名: {2}",
+        "official_en": "This collection name is too long ({0} characters), the maximum is {1}. Please choose a shorter name. Collection name: {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:UpdatingCollection:39bf3e34",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "UpdatingCollection",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:UpdatingCollection:39bf3e34",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:UpdatingCollection:39bf3e34",
+        "jp_sha256": "32f76dea9b7eef900a228d4a7102a3da60c06b39e5267a959ad67cfe739c476b",
+        "official_en_sha256": "f4bb753d1afd1ac859e948ed45663f73467a54d8732bce7b5189509f78403998"
+      },
+      "text": {
+        "jp": "コレクション {0} を更新中",
+        "official_en": "Updating Collection {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CollectionManager:CollectionUpgradedDesc:078a1a7e",
+      "source": {
+        "set": "set-02",
+        "namespace": "CollectionManager",
+        "key": "CollectionUpgradedDesc",
+        "jp_record_id": "switch:locres:set-01:CollectionManager:CollectionUpgradedDesc:078a1a7e",
+        "official_en_record_id": "switch:locres:set-01:CollectionManager:CollectionUpgradedDesc:078a1a7e",
+        "jp_sha256": "a5f801cfe582a82f30a6ee647775fd584d5a1b094236483443c9fc728e791a83",
+        "official_en_sha256": "3c0ad977b516cbda9107adad39586404c8845ee46b285212c87655aa364bb505"
+      },
+      "text": {
+        "jp": "コレクション '{0}' をアップグレードしました (以前のバージョンは {1}、現在のバージョンは {2})",
+        "official_en": "Upgraded collection '{0}' (was version {1}, now version {2})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

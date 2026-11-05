@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AnimNotify",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AnimNotify:MotionWarping_InvalidRootMotionModifier:e8848643",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNotify",
+        "key": "MotionWarping_InvalidRootMotionModifier",
+        "jp_record_id": "switch:locres:set-01:AnimNotify:MotionWarping_InvalidRootMotionModifier:e8848643",
+        "official_en_record_id": "switch:locres:set-01:AnimNotify:MotionWarping_InvalidRootMotionModifier:e8848643",
+        "jp_sha256": "f6c30f0bcd1aaeb7dea5d627e1e1ab273e083687d81a4f232311a40bf76837a3",
+        "official_en_sha256": "7a275d8b185b58e79edfd9fb52bf8a0c4c0c5f9f2bccdaef775682e21aecf92b"
+      },
+      "text": {
+        "jp": "{0}のモーション ワープウィンドウに有効なRootMotionModifierがありません",
+        "official_en": "Motion Warping window in {0} doesn't have a valid RootMotionModifier",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNotify:MotionWarping_InvalidWarpTargetName:b3ef0b6b",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNotify",
+        "key": "MotionWarping_InvalidWarpTargetName",
+        "jp_record_id": "switch:locres:set-01:AnimNotify:MotionWarping_InvalidWarpTargetName:b3ef0b6b",
+        "official_en_record_id": "switch:locres:set-01:AnimNotify:MotionWarping_InvalidWarpTargetName:b3ef0b6b",
+        "jp_sha256": "9dc6fd25197c554955aaf8d325821fcaa279cd7e5ab63c5cd15702c8bbc5191a",
+        "official_en_sha256": "1563d3dcac2dd8dd1b27a711ab5032ab6dec82504a46dd8318fcbb1bdbdf3a27"
+      },
+      "text": {
+        "jp": "{0}のモーション ワープウィンドウに有効なワープターゲット名が指定されていません",
+        "official_en": "Motion Warping window in {0} doesn't specify a valid Warp Target Name",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNotify:NiagaraSystem_ShouldNotLoop:c52eacb2",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNotify",
+        "key": "NiagaraSystem_ShouldNotLoop",
+        "jp_record_id": "switch:locres:set-01:AnimNotify:NiagaraSystem_ShouldNotLoop:c52eacb2",
+        "official_en_record_id": "switch:locres:set-01:AnimNotify:NiagaraSystem_ShouldNotLoop:c52eacb2",
+        "jp_sha256": "2c04fd011c491f41278af85789317b90408d5559da510890aa00cafb0c058dfd",
+        "official_en_sha256": "e08752fbecefa5c0ccd28f39af5724c9179ae5de32c7d729488da6ee32313b77"
+      },
+      "text": {
+        "jp": "アセット {1} のアニメーション通知で使用する Niagara システム {0} はループに設定されていますが、スロットは一度限りです (通知ごとにコンポーネントのリークを回避するため再生されません)。",
+        "official_en": "Niagara system {0} used in anim notify for asset {1} is set to looping, but the slot is a one-shot (it won't be played to avoid leaking a component per notify).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNotify:ParticleSystem_ShouldNotLoop:b1dfabad",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNotify",
+        "key": "ParticleSystem_ShouldNotLoop",
+        "jp_record_id": "switch:locres:set-01:AnimNotify:ParticleSystem_ShouldNotLoop:b1dfabad",
+        "official_en_record_id": "switch:locres:set-01:AnimNotify:ParticleSystem_ShouldNotLoop:b1dfabad",
+        "jp_sha256": "ad572386b668c067cd896373c60d6d852cf89e7dbcc4f8c1723cd5be3815d2fc",
+        "official_en_sha256": "82c5e140ef7a044f65df4a6453cffa638de2a9371669df34a6eec3bf49d481a1"
+      },
+      "text": {
+        "jp": "アセット {1} のアニメーション通知で使用するパーティクルシステム {0} はループに設定されていますが、スロットは一度限りです(通知ごとにコンポーネントのリークを回避するため再生されません)。",
+        "official_en": "Particle system {0} used in anim notify for asset {1} is set to looping, but the slot is a one-shot (it won't be played to avoid leaking a component per notify).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNotify:Sound_ShouldNotLoop:9415a5e4",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNotify",
+        "key": "Sound_ShouldNotLoop",
+        "jp_record_id": "switch:locres:set-01:AnimNotify:Sound_ShouldNotLoop:9415a5e4",
+        "official_en_record_id": "switch:locres:set-01:AnimNotify:Sound_ShouldNotLoop:9415a5e4",
+        "jp_sha256": "79a551591688d76d3b36db627ff927a7141b39428e82c4df5912f1c9014afdc5",
+        "official_en_sha256": "7d77c5197cd5a069a4c6e154e3b17d5bbe3b381a8309d9097f71a7cc4ae9fd20"
+      },
+      "text": {
+        "jp": "アセット {1} のアニメーション通知で使用するサウンド {0} はループに設定されていますが、スロットは一度限りです(通知ごとにインスタンスのリークを回避するため再生されません)。",
+        "official_en": "Sound {0} used in anim notify for asset {1} is set to looping, but the slot is a one-shot (it won't be played to avoid leaking an instance per notify).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

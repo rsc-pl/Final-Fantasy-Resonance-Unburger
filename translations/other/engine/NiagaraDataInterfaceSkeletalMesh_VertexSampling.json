@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NiagaraDataInterfaceSkeletalMesh_VertexSampling",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_VertexSampling:GetVertexDataDesc:a21ad309",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_VertexSampling",
+        "key": "GetVertexDataDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_VertexSampling:GetVertexDataDesc:a21ad309",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_VertexSampling:GetVertexDataDesc:a21ad309",
+        "jp_sha256": "be488b65adc5ff07a36273d2f2d779f5501b9988d7391e4f67c51d56a5171f9c",
+        "official_en_sha256": "aa802ee940f47957aebee4f8f2e747e2eded4c95c24fe005ac38fb266209220c"
+      },
+      "text": {
+        "jp": "頂点のバインド ポーズを返します",
+        "official_en": "Returns bind pose for the vertex",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_VertexSampling:GetSkinnedDataDesc:1b19592b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_VertexSampling",
+        "key": "GetSkinnedDataDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_VertexSampling:GetSkinnedDataDesc:1b19592b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_VertexSampling:GetSkinnedDataDesc:1b19592b",
+        "jp_sha256": "14440e9182685bfc31e9b6129887435b5bed2ad502e3d8cea5a8729f40668836",
+        "official_en_sha256": "de70771b8491172775a2a8e4a9b4b5cc05339e1556ce74a8543dfa90cda12907"
+      },
+      "text": {
+        "jp": "渡された頂点のスキニング依存データをローカル空間で返します。出力はすべてオプションであり、接続されていない場合はゼロから最小までの負荷が発生します。",
+        "official_en": "Returns skinning dependant data for the pased vertex in local space. All outputs are optional and you will incur zero to minimal cost if they are not connected.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_VertexSampling:GetSkinnedDataWSDesc:23595b46",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSkeletalMesh_VertexSampling",
+        "key": "GetSkinnedDataWSDesc",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_VertexSampling:GetSkinnedDataWSDesc:23595b46",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSkeletalMesh_VertexSampling:GetSkinnedDataWSDesc:23595b46",
+        "jp_sha256": "4d034079cf7ffc3b5fa35b3c80ddf1af3c27887fca8f3ae0ed6a3f2c97a92ec9",
+        "official_en_sha256": "47ca29834b5da411f4c0bc412183294157cf9ca8386517c913862df15144cc87"
+      },
+      "text": {
+        "jp": "渡された頂点のスキニング依存データをワールド空間で返します。出力はすべてオプションであり、接続されていない場合はゼロから最小までの負荷が発生します。",
+        "official_en": "Returns skinning dependant data for the pased vertex in world space. All outputs are optional and you will incur zero to minimal cost if they are not connected.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

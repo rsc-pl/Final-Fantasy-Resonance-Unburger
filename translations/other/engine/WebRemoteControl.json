@@ -1,0 +1,937 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "WebRemoteControl",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:NoPassphraseNotificationSubtext:5dd3ba3a",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "NoPassphraseNotificationSubtext",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:NoPassphraseNotificationSubtext:5dd3ba3a",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:NoPassphraseNotificationSubtext:5dd3ba3a",
+        "jp_sha256": "48e8b1ba31d5a3acd244649324a30720466dcaaec962c3ccd5f8cf5d8a32f804",
+        "official_en_sha256": "d1cf649e0ca24867cedc0128edeb5841dd2c873101fcaa63973dfdea9a2cf22e"
+      },
+      "text": {
+        "jp": "リモート コントロール リクエストが外部クライアント ({0}) によってパスフレーズなしで行われました",
+        "official_en": "A remote control request was made by an external client ({0}) without a passphrase.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:AllowListTooltip:0ca8a5fb",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "AllowListTooltip",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:AllowListTooltip:0ca8a5fb",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:AllowListTooltip:0ca8a5fb",
+        "jp_sha256": "f380a45a1ef26b736d7f12787da9c6277b779e4ead14f6508eb3e97349ce3ffa",
+        "official_en_sha256": "dee3fa65894f038bc0a14bbf4c8ff6f0e4eaa8db62b4166d2bf1e3b61a19d5aa"
+      },
+      "text": {
+        "jp": "許可される IP のリストにこの IP を追加し、パスフレーズなしでリモート コントロール リクエストを可能にします",
+        "official_en": "Add this IP to the list of allowed IPs that can make remote control requests without a passphrase.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:AllowListIP:c77c3294",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "AllowListIP",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:AllowListIP:c77c3294",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:AllowListIP:c77c3294",
+        "jp_sha256": "a10be42d210c908931e512f09b308d0c192a9f77a6d6f2c4458bebc950b0c83b",
+        "official_en_sha256": "75d63a524d523eb0ef7d6db0fe08317ae0de122b1aed18dda01c73c00ba5528c"
+      },
+      "text": {
+        "jp": "許可リストのIP",
+        "official_en": "AllowList IP",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:DisableRemotePassphrases:55baadd3",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "DisableRemotePassphrases",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:DisableRemotePassphrases:55baadd3",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:DisableRemotePassphrases:55baadd3",
+        "jp_sha256": "837cc284d44356ab7421aed67cc16614415c63ee561acd605f3257bef894e9d3",
+        "official_en_sha256": "f0a6ca140cdb95c3ed634cd5d37761cb8261ff227db8fc1136095cdc18ab25a3"
+      },
+      "text": {
+        "jp": "リモート クライアントのパスフレーズの要件を無効にしてよろしいですか？これにより、ネットワーク上のどのユーザーでもリモート コントロール サーバーにアクセスし、脆弱性を公開できるようになります",
+        "official_en": "Are you sure you want to disable passphrase requirement for remote clients? This will allow anyone on your network to access the remote control servers and could open you up to vulnerabilities.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:FailedToMakeWritable:821acc78",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "FailedToMakeWritable",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:FailedToMakeWritable:821acc78",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:FailedToMakeWritable:821acc78",
+        "jp_sha256": "5df4449e79e5ceb26eb45356b4de2d27d621781b92113740694414f928f3c334",
+        "official_en_sha256": "3b1054808f06622f80258e1267978b8ffb89c23bef236105577e22294500b48d"
+      },
+      "text": {
+        "jp": "{0} を書き込み可能にできませんでした",
+        "official_en": "Could not make {0} writable.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:CreatePassphrase:61313f80",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "CreatePassphrase",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:CreatePassphrase:61313f80",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:CreatePassphrase:61313f80",
+        "jp_sha256": "788e1b0f25e86e392f378d21f8be45b54d26b7cfa88354c00512e1e5704e6836",
+        "official_en_sha256": "6cd5ca1e947c02afb0eb383f76b355308eb8ad9506c0a6b5c7b299c04b5814b3"
+      },
+      "text": {
+        "jp": "パスフレーズを作成",
+        "official_en": "Create Passphrase",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:RemoteControlCreatePassphrase:9fe55bbc",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "RemoteControlCreatePassphrase",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:RemoteControlCreatePassphrase:9fe55bbc",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:RemoteControlCreatePassphrase:9fe55bbc",
+        "jp_sha256": "788e1b0f25e86e392f378d21f8be45b54d26b7cfa88354c00512e1e5704e6836",
+        "official_en_sha256": "6cd5ca1e947c02afb0eb383f76b355308eb8ad9506c0a6b5c7b299c04b5814b3"
+      },
+      "text": {
+        "jp": "パスフレーズを作成",
+        "official_en": "Create Passphrase",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:CreatePassphraseDescription:3988792a",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "CreatePassphraseDescription",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:CreatePassphraseDescription:3988792a",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:CreatePassphraseDescription:3988792a",
+        "jp_sha256": "1b42e0b8698eb5138f2bb4e108009c5eb10c7344dfa5a64b8af51435d01610f5",
+        "official_en_sha256": "9b0847d3840c4a0d2ef32fef7dec1e5245efd29c5cedde2514df840452684533"
+      },
+      "text": {
+        "jp": "クライアントが使用するパスフレーズを作成します",
+        "official_en": "Create a passphrase for the client to use.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:CreatePassPhraseTooltip:f0a55dd1",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "CreatePassPhraseTooltip",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:CreatePassPhraseTooltip:f0a55dd1",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:CreatePassPhraseTooltip:f0a55dd1",
+        "jp_sha256": "057d6733a44b3b97b7803aeb8ccff7c5715aeabd033e63f4c2270c2acc7fa595",
+        "official_en_sha256": "cdae1513ddc3e5d7d1b8642510d73439e9260ca02a6d598762d73eb0f7cb26fa"
+      },
+      "text": {
+        "jp": "このクライアントが使用するパスフレーズを作成します",
+        "official_en": "Create a passphrase for this client to use.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:DeleteEntityMetadata:cf369688",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "DeleteEntityMetadata",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:DeleteEntityMetadata:cf369688",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:DeleteEntityMetadata:cf369688",
+        "jp_sha256": "c7a6f6079315108fc3de209e4152d2de08bcc568a6fe990d155ed52e8ea706fe",
+        "official_en_sha256": "69478eb8a86e6293d234983b6db4570b780216d51dd48b26480c4f499388d2e9"
+      },
+      "text": {
+        "jp": "公開済みエンティティ メタデータ エントリを削除します",
+        "official_en": "Delete exposed entity metadata entry",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:DeletePresetMetadata:3a27dcaa",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "DeletePresetMetadata",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:DeletePresetMetadata:3a27dcaa",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:DeletePresetMetadata:3a27dcaa",
+        "jp_sha256": "d65911403bb8a62cf2c264f34b5f5b8cc0be9e6c27b9c43dddb26d8d97b7aaab",
+        "official_en_sha256": "ef779bfc9eaef40a6ecaf1c0a677655984d181c3727b857d1fd2a02a4d90abe8"
+      },
+      "text": {
+        "jp": "プリセットメタデータエントリを削除",
+        "official_en": "Delete preset metadata entry",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:DisableRemotePassphrase:d522486e",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "DisableRemotePassphrase",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:DisableRemotePassphrase:d522486e",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:DisableRemotePassphrase:d522486e",
+        "jp_sha256": "ff8f47214df0930182bae184f2c13a9326270adfbba072c0b327711182e13fdc",
+        "official_en_sha256": "057348a8bc72825492227b1295fa877b0e0051abfaf03378a9c7669316f353d4"
+      },
+      "text": {
+        "jp": "パスフレーズを無効化",
+        "official_en": "Disable Passphrases",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:DisableRemotePassphrasesTooltip:7d6d1a13",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "DisableRemotePassphrasesTooltip",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:DisableRemotePassphrasesTooltip:7d6d1a13",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:DisableRemotePassphrasesTooltip:7d6d1a13",
+        "jp_sha256": "71e958c4d31a3d90b3b40511bd780feeace5e9a886fe4380ce70f6eba73a5789",
+        "official_en_sha256": "148e7db3b891623491d8ceedaeb1c9a5964d457aec5cf2a559910b59ad526d94"
+      },
+      "text": {
+        "jp": "外部クライアントによるリモート コントロール リクエストに対してパスフレーズの要件を無効化します。\n警告：ネットワーク上のすべてのクライアントがサーバーにアクセスできるようになるため、これは最終手段として行ってください",
+        "official_en": "Disable the requirement for remote control requests coming from external clients to have a passphrase.\nWarning: This should only be done as a last resort since all clients on the network will be able to access your servers.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:ModifyEntityMetadata:726fc8e0",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "ModifyEntityMetadata",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:ModifyEntityMetadata:726fc8e0",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:ModifyEntityMetadata:726fc8e0",
+        "jp_sha256": "4a2111fd5e9a2998be4c02001726ef0470959dc25f338dea2a35a3bfc63385a4",
+        "official_en_sha256": "b80a6d37aa406a1cc414722a05e6b24b34beb542d9eaf810e08674b45e497f12"
+      },
+      "text": {
+        "jp": "公開済みエンティティ メタデータ エントリを修正します",
+        "official_en": "Modify exposed entity metadata entry",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:SetEntityLabel:108433e7",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "SetEntityLabel",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:SetEntityLabel:108433e7",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:SetEntityLabel:108433e7",
+        "jp_sha256": "53729a2991bad56a0f02eb0666c7dba22c9f63eb3925e7bc5de4940f18f89a9b",
+        "official_en_sha256": "32443b73928dc46998cb357fe3dde385a25a5dcd9445c1c70a9cb751907e3f2e"
+      },
+      "text": {
+        "jp": "公開されているエンティティのラベルを変更します",
+        "official_en": "Modify exposed entity's label",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:ModifyPresetMetadata:1d44fe2d",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "ModifyPresetMetadata",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:ModifyPresetMetadata:1d44fe2d",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:ModifyPresetMetadata:1d44fe2d",
+        "jp_sha256": "eb9ba046612682110e4efbbae1f9c5174659b6af7fa7639c4d41b6d9d224d376",
+        "official_en_sha256": "4527d63852a9077699d80577b09d148dc17cadb97ca0830109852c2183c5c75b"
+      },
+      "text": {
+        "jp": "プリセットメタデータを変更",
+        "official_en": "Modify preset metadata",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:NoActionTaken:de2bca5b",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "NoActionTaken",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:NoActionTaken:de2bca5b",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:NoActionTaken:de2bca5b",
+        "jp_sha256": "f0b0cc1524cea19dc4a2b388ff8d3451bfc3306aaee267f8e452395a770c5c36",
+        "official_en_sha256": "03c580a3ed3f811d01ee5c56ebf0ed9deb60c1a8372831c5d7283b17cd79e510"
+      },
+      "text": {
+        "jp": "アクションが行われなかったため、この IP からの今後のリクエストは拒否されます",
+        "official_en": "No action was taken, further requests from this IP will be denied.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:OK:989cd398",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "OK",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:OK:989cd398",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:OK:989cd398",
+        "jp_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "official_en_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+      },
+      "text": {
+        "jp": "OK",
+        "official_en": "OK",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:Passphrase:1bff2ccb",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "Passphrase",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:Passphrase:1bff2ccb",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:Passphrase:1bff2ccb",
+        "jp_sha256": "abc4395bdb3866768cd8bc60e11eebba8e8a049d58aa141059d1ba88451f5d21",
+        "official_en_sha256": "e7611f0537df5fc5d0177da520628219fccf065a1d4176cfbde2f75d824821f4"
+      },
+      "text": {
+        "jp": "パスフレーズ",
+        "official_en": "Passphrase",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:PassphraseIdentifier:5fa84654",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "PassphraseIdentifier",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:PassphraseIdentifier:5fa84654",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:PassphraseIdentifier:5fa84654",
+        "jp_sha256": "278096975d97d479e0cdc3d2d8b1e83252fe7e1c2405cdc76a63ac573ba6cb67",
+        "official_en_sha256": "c8ba329e6b5f751c9382de27b66f5d95a2c9be0a276b99aa61894b7d4e02c3c7"
+      },
+      "text": {
+        "jp": "パスフレーズ識別子(任意)",
+        "official_en": "Passphrase Identifier (Optional)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:RemoteControlTransaction:2406a2dd",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "RemoteControlTransaction",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:RemoteControlTransaction:2406a2dd",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:RemoteControlTransaction:2406a2dd",
+        "jp_sha256": "5262682efb5397a43a360cfdba0f18ed1780bac19485c0d0c9b8c9322c755887",
+        "official_en_sha256": "b82febc2272f7f292ec12f7895b5b18a253a14a4557302b7f30c59d743ec1433"
+      },
+      "text": {
+        "jp": "[遠隔操作] - [{0}]",
+        "official_en": "Remote Control - {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:NoPassphraseNotificationHeader:7b91b3c5",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "NoPassphraseNotificationHeader",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:NoPassphraseNotificationHeader:7b91b3c5",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:NoPassphraseNotificationHeader:7b91b3c5",
+        "jp_sha256": "68c0a33f2ea2837b9406132c46aaf8b33c25fc286275c3214f018394e9593458",
+        "official_en_sha256": "a6976774111c5c72966ce93e410fac545c870ae258aa93a329099b0fb23b157b"
+      },
+      "text": {
+        "jp": "リモート コントロール リクエストが拒否されました",
+        "official_en": "Remote control request denied!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:SaveConfigCheckoutMessage:2e8a167b",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "SaveConfigCheckoutMessage",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:SaveConfigCheckoutMessage:2e8a167b",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:SaveConfigCheckoutMessage:2e8a167b",
+        "jp_sha256": "22001f84782fce53af5d625e86fe7c26b62bfc1c178bef3413011041f36ebccc",
+        "official_en_sha256": "d90e1c106ae595eb0df0e14d9fa3bffd025170e925e6b96b231068f63122b724"
+      },
+      "text": {
+        "jp": "これらの設定のコンフィギュレーション ファイルは、現在チェックアウトされていません。リビジョン コントロールからファイルをチェックアウトしますか？",
+        "official_en": "The configuration file for these settings is currently not checked out. Would you like to check it out from revision control?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:MakeConfigWritable:c2d96b4d",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "MakeConfigWritable",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:MakeConfigWritable:c2d96b4d",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:MakeConfigWritable:c2d96b4d",
+        "jp_sha256": "18ddb4586e397b4b8c3cf3d62a36ddd8f29812688df1186ab8e9416544bb9ad7",
+        "official_en_sha256": "ab3c7338984104e74ebaf89468e2e0a134a7d21409aa1e7a6b231d8a543fa0d7"
+      },
+      "text": {
+        "jp": "これらの設定のコンフィギュレーション ファイルは、現在読み取り専用です。書き込み可能に変更しますか？",
+        "official_en": "The configuration file for these settings is currently read only. Would you like to make it writable?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WebRemoteControl:FailedStartRemoteControlServer:c8ab1f1c",
+      "source": {
+        "set": "set-02",
+        "namespace": "WebRemoteControl",
+        "key": "FailedStartRemoteControlServer",
+        "jp_record_id": "switch:locres:set-01:WebRemoteControl:FailedStartRemoteControlServer:c8ab1f1c",
+        "official_en_record_id": "switch:locres:set-01:WebRemoteControl:FailedStartRemoteControlServer:c8ab1f1c",
+        "jp_sha256": "8854a5d31710d069c66d312a878ed9ea75a115fd93bcd01c3b84eef9cb0bebb4",
+        "official_en_sha256": "74c5ae6c4d87b867f16abe1babd0c93bc25daabff469b79648b877fe57b77408"
+      },
+      "text": {
+        "jp": "Web Remote Call WebSocket サーバーはポートで起動できませんでした {0}",
+        "official_en": "Web Remote Call WebSocket server couldn't be started on port {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

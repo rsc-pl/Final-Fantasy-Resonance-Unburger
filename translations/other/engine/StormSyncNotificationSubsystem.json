@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "StormSyncNotificationSubsystem",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:StormSyncNotificationSubsystem:Error_PullAssets:3e0014ef",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncNotificationSubsystem",
+        "key": "Error_PullAssets",
+        "jp_record_id": "switch:locres:set-01:StormSyncNotificationSubsystem:Error_PullAssets:3e0014ef",
+        "official_en_record_id": "switch:locres:set-01:StormSyncNotificationSubsystem:Error_PullAssets:3e0014ef",
+        "jp_sha256": "8c86e6a8aba5fb26c0c1ceb091989339751d50bb952d75ce26de698972975b8a",
+        "official_en_sha256": "e36086ff271fbbd9e0b4c8e4ddad5d2acd8368d2c024036c507752844c95f404"
+      },
+      "text": {
+        "jp": "以下からのプル中にエラーが発生しました\n\nホスト名: {0}\nプロジェクト: {1}\nディレクトリ: {2}\nインスタンスタイプ: {3}\n\n{4}",
+        "official_en": "Error pulling from\n\nHostname: {0}\nProject: {1}\nDirectory: {2}\nInstance Type: {3}\n\n{4}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StormSyncNotificationSubsystem:Error_PushAssets:26a2beeb",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncNotificationSubsystem",
+        "key": "Error_PushAssets",
+        "jp_record_id": "switch:locres:set-01:StormSyncNotificationSubsystem:Error_PushAssets:26a2beeb",
+        "official_en_record_id": "switch:locres:set-01:StormSyncNotificationSubsystem:Error_PushAssets:26a2beeb",
+        "jp_sha256": "44fa94f1209bd5a81024d200c0016ee98c42784efcf61c536fe9c2267b103436",
+        "official_en_sha256": "17e61860133efbc4d9b9630b26700bff27f0137bf39681ca0c91ceaf0c1d14b8"
+      },
+      "text": {
+        "jp": "以下へのプッシュ中にエラーが発生しました\n\nホスト名: {0}\nプロジェクト: {1}\nディレクトリ: {2}\nインスタンスタイプ: {3}\n\n{4}",
+        "official_en": "Error pushing to\n\nHostname: {0}\nProject: {1}\nDirectory: {2}\nInstance Type: {3}\n\n{4}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StormSyncNotificationSubsystem:StormSyncLogLabel:0a3fe787",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncNotificationSubsystem",
+        "key": "StormSyncLogLabel",
+        "jp_record_id": "switch:locres:set-01:StormSyncNotificationSubsystem:StormSyncLogLabel:0a3fe787",
+        "official_en_record_id": "switch:locres:set-01:StormSyncNotificationSubsystem:StormSyncLogLabel:0a3fe787",
+        "jp_sha256": "54314a1e7e31fdf7b6d9abf9919b836b8005a56f40afe3f46f54a283a50426c0",
+        "official_en_sha256": "86b5df6bca1957cffefa47d684dcdafee4204739e33d4d1d2e6edb1fba865232"
+      },
+      "text": {
+        "jp": "ストーム同期の通知",
+        "official_en": "Storm Sync Notifications",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StormSyncNotificationSubsystem:Success_PullAssets:4d2d119d",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncNotificationSubsystem",
+        "key": "Success_PullAssets",
+        "jp_record_id": "switch:locres:set-01:StormSyncNotificationSubsystem:Success_PullAssets:4d2d119d",
+        "official_en_record_id": "switch:locres:set-01:StormSyncNotificationSubsystem:Success_PullAssets:4d2d119d",
+        "jp_sha256": "679331d0b3044e11d8abc29285fdbc5037d80708463ce8ba7d7e646e7cd61906",
+        "official_en_sha256": "e047e614e20108c71779d5f51ebc0a399c6659089947130949f1dff893f2e52b"
+      },
+      "text": {
+        "jp": "以下からのプルに成功しました\n\nホスト名: {0}\nプロジェクト: {1}\nディレクトリ: {2}\nインスタンスタイプ: {3}\n\n{4}",
+        "official_en": "Succesfully pulled from\n\nHostname: {0}\nProject: {1}\nDirectory: {2}\nInstance Type: {3}\n\n{4}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StormSyncNotificationSubsystem:Success_PushAssets:8fba8c5f",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncNotificationSubsystem",
+        "key": "Success_PushAssets",
+        "jp_record_id": "switch:locres:set-01:StormSyncNotificationSubsystem:Success_PushAssets:8fba8c5f",
+        "official_en_record_id": "switch:locres:set-01:StormSyncNotificationSubsystem:Success_PushAssets:8fba8c5f",
+        "jp_sha256": "9979820973bbd2f76a03422e0baef2c225966bcadc8d676b706cd1005bfdeea6",
+        "official_en_sha256": "40ee46e69b44a4d09fca7a0e8f7001dabd9226c8fc159f0245d00c1672eb1736"
+      },
+      "text": {
+        "jp": "以下へのプッシュに成功しました\n\nホスト名: {0}\nプロジェクト: {1}\nディレクトリ: {2}\nインスタンスタイプ: {3}\n\n{4}",
+        "official_en": "Succesfully pushed to\n\nHostname: {0}\nProject: {1}\nDirectory: {2}\nInstance Type: {3}\n\n{4}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StormSyncNotificationSubsystem:PageLabel_DateTime_Format:3806f9fe",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncNotificationSubsystem",
+        "key": "PageLabel_DateTime_Format",
+        "jp_record_id": "switch:locres:set-01:StormSyncNotificationSubsystem:PageLabel_DateTime_Format:3806f9fe",
+        "official_en_record_id": "switch:locres:set-01:StormSyncNotificationSubsystem:PageLabel_DateTime_Format:3806f9fe",
+        "jp_sha256": "365de584d8aa0ec0ea96637b09f528f8a87ea32c8cf04a7469f1aa4c4560e02c",
+        "official_en_sha256": "365de584d8aa0ec0ea96637b09f528f8a87ea32c8cf04a7469f1aa4c4560e02c"
+      },
+      "text": {
+        "jp": "{0} - {1}",
+        "official_en": "{0} - {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

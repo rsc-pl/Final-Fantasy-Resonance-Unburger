@@ -1,0 +1,715 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SourceControlHelpers",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SourceControlHelpers:NotSourceControlled:d37e3093",
+      "source": {
+        "set": "set-02",
+        "namespace": "SourceControlHelpers",
+        "key": "NotSourceControlled",
+        "jp_record_id": "switch:locres:set-01:SourceControlHelpers:NotSourceControlled:d37e3093",
+        "official_en_record_id": "switch:locres:set-01:SourceControlHelpers:NotSourceControlled:d37e3093",
+        "jp_sha256": "f4da26f94aaffe100a61bf703885f6c1b11cc8ef4ec37fc1449ed560ee9679f0",
+        "official_en_sha256": "baab6057ef647ff1f6dee2aeb2728ea40ed8759a43e37558aab0750614be47da"
+      },
+      "text": {
+        "jp": "リビジョン コントロール({SCFile})に含まれないため、「{InFile}」ファイルをチェックアウトできませんでした",
+        "official_en": "Could not check out the file '{InFile}' because it is not under revision control ({SCFile}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SourceControlHelpers:SourceControlCheckoutError:fa42b1fc",
+      "source": {
+        "set": "set-02",
+        "namespace": "SourceControlHelpers",
+        "key": "SourceControlCheckoutError",
+        "jp_record_id": "switch:locres:set-01:SourceControlHelpers:SourceControlCheckoutError:fa42b1fc",
+        "official_en_record_id": "switch:locres:set-01:SourceControlHelpers:SourceControlCheckoutError:fa42b1fc",
+        "jp_sha256": "1a29ee76f5c074ca6f9984f882d7184ac642d43868fc1c875b5acedb843e9184",
+        "official_en_sha256": "543665c3658001565f0415b8fd54aa1ed61560768d5d696af79c7439e2ec5334"
+      },
+      "text": {
+        "jp": "{0} ファイルをチェックアウトできません",
+        "official_en": "Could not check out {0} file.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SourceControlHelpers:CouldNotDelete:4cdff2b8",
+      "source": {
+        "set": "set-02",
+        "namespace": "SourceControlHelpers",
+        "key": "CouldNotDelete",
+        "jp_record_id": "switch:locres:set-01:SourceControlHelpers:CouldNotDelete:4cdff2b8",
+        "official_en_record_id": "switch:locres:set-01:SourceControlHelpers:CouldNotDelete:4cdff2b8",
+        "jp_sha256": "1edbfb218f67dfa9edb792c670cfab04a829b103a51dcb7fadf39420133caea2",
+        "official_en_sha256": "1845446c4cdfd3f3aec6e31d0e8739bafe6607b6fcb4f278bbc444285e6a1587"
+      },
+      "text": {
+        "jp": "リビジョン コントロール ({SCFile}) からファイル「{InFile}」を削除できませんでした",
+        "official_en": "Could not delete file '{InFile}' from revision control ({SCFile}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SourceControlHelpers:CouldNotDetermineState:766e01ca",
+      "source": {
+        "set": "set-02",
+        "namespace": "SourceControlHelpers",
+        "key": "CouldNotDetermineState",
+        "jp_record_id": "switch:locres:set-01:SourceControlHelpers:CouldNotDetermineState:766e01ca",
+        "official_en_record_id": "switch:locres:set-01:SourceControlHelpers:CouldNotDetermineState:766e01ca",
+        "jp_sha256": "5ee7a2272570ed5342f898a0c0ae8440fb4d8ab0eb5612f073fb4a53c2ddb60a",
+        "official_en_sha256": "d2f9673d2c2c13cb7fb92ced9177fee3cd2c73afd691dc5761cdb3cfaf57e4ba"
+      },
+      "text": {
+        "jp": "ファイル「{InFile}」のリビジョン コントロール ステートを判定できませんでした ({SCFile})",
+        "official_en": "Could not determine revision control state of file '{InFile}' ({SCFile}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SourceControlHelpers:CouldNotGetFileList:310aec78",
+      "source": {
+        "set": "set-02",
+        "namespace": "SourceControlHelpers",
+        "key": "CouldNotGetFileList",
+        "jp_record_id": "switch:locres:set-01:SourceControlHelpers:CouldNotGetFileList:310aec78",
+        "official_en_record_id": "switch:locres:set-01:SourceControlHelpers:CouldNotGetFileList:310aec78",
+        "jp_sha256": "5e345ee2fa9420a990c50dcbafc1a79b0a7876ddfef7426e64f73a3c5687f3dc",
+        "official_en_sha256": "caa792bc063fb5675496b10b5bdf86862bf527b48ffd9d68fc4181fe11f09659"
+      },
+      "text": {
+        "jp": "パス {Path} にファイル リストを取得できませんでした",
+        "official_en": "Could not get file list at path: {Path}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SourceControlHelpers:SourceControlMarkForAddError:31489c8b",
+      "source": {
+        "set": "set-02",
+        "namespace": "SourceControlHelpers",
+        "key": "SourceControlMarkForAddError",
+        "jp_record_id": "switch:locres:set-01:SourceControlHelpers:SourceControlMarkForAddError:31489c8b",
+        "official_en_record_id": "switch:locres:set-01:SourceControlHelpers:SourceControlMarkForAddError:31489c8b",
+        "jp_sha256": "8803920931e3f8a25c48e31cbcf1954df6a81330b5030c48f38e43e11801a687",
+        "official_en_sha256": "03a16d72ab0980b357d988ff856973a6e278ff46e89b1bd1c9034b303dfb5e08"
+      },
+      "text": {
+        "jp": "追加する {0} ファイルをマーク付けできません",
+        "official_en": "Could not mark {0} file for add.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SourceControlHelpers:ExternalImageCopyError:fad67d56",
+      "source": {
+        "set": "set-02",
+        "namespace": "SourceControlHelpers",
+        "key": "ExternalImageCopyError",
+        "jp_record_id": "switch:locres:set-01:SourceControlHelpers:ExternalImageCopyError:fad67d56",
+        "official_en_record_id": "switch:locres:set-01:SourceControlHelpers:ExternalImageCopyError:fad67d56",
+        "jp_sha256": "4a3e284f9784a6d20ca3d6e0cb2b997c5f384e34c787875df61a6d1f6d92fcae",
+        "official_en_sha256": "d0f8ee69da0527823c61ab3104c26fedc473575841bf348fbf9eef1c27d73f74"
+      },
+      "text": {
+        "jp": "{0} ファイルを上書きできません",
+        "official_en": "Could not overwrite {0} file.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SourceControlHelpers:CouldNotResolveFilepath:90dffac2",
+      "source": {
+        "set": "set-02",
+        "namespace": "SourceControlHelpers",
+        "key": "CouldNotResolveFilepath",
+        "jp_record_id": "switch:locres:set-01:SourceControlHelpers:CouldNotResolveFilepath:90dffac2",
+        "official_en_record_id": "switch:locres:set-01:SourceControlHelpers:CouldNotResolveFilepath:90dffac2",
+        "jp_sha256": "d5c7b2353b57a94cdb1695fcad2e8c10032b2dce136573bed2e764756be651b9",
+        "official_en_sha256": "e4c694c4e908d96aee117a2c89fbf54994afe12839ce929c9c1b8a2565c7d968"
+      },
+      "text": {
+        "jp": "「{InFile}」のファイル パスを解決できません",
+        "official_en": "Could not resolve file path for '{InFile}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SourceControlHelpers:CouldNotRevert:bd046be2",
+      "source": {
+        "set": "set-02",
+        "namespace": "SourceControlHelpers",
+        "key": "CouldNotRevert",
+        "jp_record_id": "switch:locres:set-01:SourceControlHelpers:CouldNotRevert:bd046be2",
+        "official_en_record_id": "switch:locres:set-01:SourceControlHelpers:CouldNotRevert:bd046be2",
+        "jp_sha256": "aa8ce0997d6509e2196e080cd8380343330fffbd37c2f3b2cd8f04b7a2ac7d0d",
+        "official_en_sha256": "df726576222a3257195b1803bf00ce0c31894ffd932b16c286d305015e675260"
+      },
+      "text": {
+        "jp": "ファイル「{InFile}」のリビジョン コントロール ステートを元に戻せませんでした ({SCFile})",
+        "official_en": "Could not revert revision control state of file '{InFile}' ({SCFile}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SourceControlHelpers:FilesSkipped:7d01f698",
+      "source": {
+        "set": "set-02",
+        "namespace": "SourceControlHelpers",
+        "key": "FilesSkipped",
+        "jp_record_id": "switch:locres:set-01:SourceControlHelpers:FilesSkipped:7d01f698",
+        "official_en_record_id": "switch:locres:set-01:SourceControlHelpers:FilesSkipped:7d01f698",
+        "jp_sha256": "64178d51f555c696eb18424e9c13aac9b71e3371d494f55a6d2ec42e860feb0a",
+        "official_en_sha256": "172af08f9837e66df45ba949cbd3ffdc36daca78a34af95a7d5835182cf8510e"
+      },
+      "text": {
+        "jp": "修飾ファイルパスへの変換中に、{SkipNum} 個のファイルがスキップされました!",
+        "official_en": "During conversion to qualified file paths, {SkipNum} files were skipped!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SourceControlHelpers:AddFailed:1e0d4bb9",
+      "source": {
+        "set": "set-02",
+        "namespace": "SourceControlHelpers",
+        "key": "AddFailed",
+        "jp_record_id": "switch:locres:set-01:SourceControlHelpers:AddFailed:1e0d4bb9",
+        "official_en_record_id": "switch:locres:set-01:SourceControlHelpers:AddFailed:1e0d4bb9",
+        "jp_sha256": "58285332b6081e2af00e6a8073f4faf3f2e1f3c2622f29aa4ba8c6816af8946c",
+        "official_en_sha256": "7eab1f0d639d1b1b8b9c92c1ba2d458f3640c43007c475abcabff7cc2175fc46"
+      },
+      "text": {
+        "jp": "ファイル「{InFile}」をリビジョン コントロール ({SCFile}) に追加できませんでした",
+        "official_en": "Failed to add file '{InFile}' to revision control ({SCFile}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SourceControlHelpers:MarkForAddFailed:61629232",
+      "source": {
+        "set": "set-02",
+        "namespace": "SourceControlHelpers",
+        "key": "MarkForAddFailed",
+        "jp_record_id": "switch:locres:set-01:SourceControlHelpers:MarkForAddFailed:61629232",
+        "official_en_record_id": "switch:locres:set-01:SourceControlHelpers:MarkForAddFailed:61629232",
+        "jp_sha256": "58285332b6081e2af00e6a8073f4faf3f2e1f3c2622f29aa4ba8c6816af8946c",
+        "official_en_sha256": "7eab1f0d639d1b1b8b9c92c1ba2d458f3640c43007c475abcabff7cc2175fc46"
+      },
+      "text": {
+        "jp": "ファイル「{InFile}」をリビジョン コントロール ({SCFile}) に追加できませんでした",
+        "official_en": "Failed to add file '{InFile}' to revision control ({SCFile}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SourceControlHelpers:CheckoutFailed:9fe0d0f2",
+      "source": {
+        "set": "set-02",
+        "namespace": "SourceControlHelpers",
+        "key": "CheckoutFailed",
+        "jp_record_id": "switch:locres:set-01:SourceControlHelpers:CheckoutFailed:9fe0d0f2",
+        "official_en_record_id": "switch:locres:set-01:SourceControlHelpers:CheckoutFailed:9fe0d0f2",
+        "jp_sha256": "2ea54d1645babf9474d229585d33fdb0fedf53f4cd5acd5633a4d23ea369681e",
+        "official_en_sha256": "bf77629d1e2342dc5e33658f0b69d50b9e148c403e6d73324a09025155419582"
+      },
+      "text": {
+        "jp": "ファイル '{InFile}' をチェックアウトできませんでした ({SCFile})",
+        "official_en": "Failed to check out file '{InFile}' ({SCFile}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SourceControlHelpers:SyncFailed:c2905ac5",
+      "source": {
+        "set": "set-02",
+        "namespace": "SourceControlHelpers",
+        "key": "SyncFailed",
+        "jp_record_id": "switch:locres:set-01:SourceControlHelpers:SyncFailed:c2905ac5",
+        "official_en_record_id": "switch:locres:set-01:SourceControlHelpers:SyncFailed:c2905ac5",
+        "jp_sha256": "fb88fa48479ce83ceced525d275313cdadd29fa77ba3bae6a296914aa90a7f2b",
+        "official_en_sha256": "1904890491dd44be55bc5d4ec4d07cdae14790bdea8e4d0a628dd3d51e531a6c"
+      },
+      "text": {
+        "jp": "ファイル「{InFile}」({SCFile}) を同期できませんでした。",
+        "official_en": "Failed to sync file '{InFile}' ({SCFile}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SourceControlHelpers:SimultaneousCheckout:a1d5ca1f",
+      "source": {
+        "set": "set-02",
+        "namespace": "SourceControlHelpers",
+        "key": "SimultaneousCheckout",
+        "jp_record_id": "switch:locres:set-01:SourceControlHelpers:SimultaneousCheckout:a1d5ca1f",
+        "official_en_record_id": "switch:locres:set-01:SourceControlHelpers:SimultaneousCheckout:a1d5ca1f",
+        "jp_sha256": "c8437c7405840e248a9bc3a33bc0e323132f392c3d45501b84169c8bc76eef45",
+        "official_en_sha256": "de164cb2d0910e1a7d7633c6a5c0df7a9b688149da55c6f2e5a271d253e6f528"
+      },
+      "text": {
+        "jp": "ファイル '{InFile}' は別のユーザー ('{SimultaneousCheckoutUser}') ({SCFile}) にチェックアウトされています。",
+        "official_en": "File '{InFile}' is checked out by another ({SimultaneousCheckoutUser}) ({SCFile}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SourceControlHelpers:NotAtHeadRevision:e5a2da73",
+      "source": {
+        "set": "set-02",
+        "namespace": "SourceControlHelpers",
+        "key": "NotAtHeadRevision",
+        "jp_record_id": "switch:locres:set-01:SourceControlHelpers:NotAtHeadRevision:e5a2da73",
+        "official_en_record_id": "switch:locres:set-01:SourceControlHelpers:NotAtHeadRevision:e5a2da73",
+        "jp_sha256": "82a24c6d441a3555503dac78a92649dde7bd025f0a2c52fdb0c9b0789e146889",
+        "official_en_sha256": "b783106ba044340590f491d046acf60174b4215e3b78f8ca583df1938b9c7ba4"
+      },
+      "text": {
+        "jp": "ファイル '{InFile}' が最新リビジョンにありません({SCFile})。",
+        "official_en": "File '{InFile}' is not at head revision ({SCFile}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SourceControlHelpers:UnspecifiedFile:5a5e65a3",
+      "source": {
+        "set": "set-02",
+        "namespace": "SourceControlHelpers",
+        "key": "UnspecifiedFile",
+        "jp_record_id": "switch:locres:set-01:SourceControlHelpers:UnspecifiedFile:5a5e65a3",
+        "official_en_record_id": "switch:locres:set-01:SourceControlHelpers:UnspecifiedFile:5a5e65a3",
+        "jp_sha256": "321bbab68f10745a79940be5626ebe5a63fde8dd024534b047468b361595af6b",
+        "official_en_sha256": "51677f04bd6e7f793ea44134397476b4310bc5d95f8d46939ea198008c8f583f"
+      },
+      "text": {
+        "jp": "ファイルが指定されていません",
+        "official_en": "File not specified",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SourceControlHelpers:SourceControlDisabled:6b299568",
+      "source": {
+        "set": "set-02",
+        "namespace": "SourceControlHelpers",
+        "key": "SourceControlDisabled",
+        "jp_record_id": "switch:locres:set-01:SourceControlHelpers:SourceControlDisabled:6b299568",
+        "official_en_record_id": "switch:locres:set-01:SourceControlHelpers:SourceControlDisabled:6b299568",
+        "jp_sha256": "de992ea81b43fde99413e0440f022b560501a07cce3cfd34cfc68c0d89e40068",
+        "official_en_sha256": "1a4e0b062de8bf2cad822eeacd73de26e345db39f65060d1ce128f6d68e345dd"
+      },
+      "text": {
+        "jp": "リビジョン コントロールが有効になっていません",
+        "official_en": "Revision control is not enabled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SourceControlHelpers:SourceControlServerUnavailable:999350b7",
+      "source": {
+        "set": "set-02",
+        "namespace": "SourceControlHelpers",
+        "key": "SourceControlServerUnavailable",
+        "jp_record_id": "switch:locres:set-01:SourceControlHelpers:SourceControlServerUnavailable:999350b7",
+        "official_en_record_id": "switch:locres:set-01:SourceControlHelpers:SourceControlServerUnavailable:999350b7",
+        "jp_sha256": "91dff12d1943ce70bb2145ffa177f885d11688715b3c6dd5460f34b0c823cf0a",
+        "official_en_sha256": "37b778a05a879b91059a1545cd8a3486831b2e2ea0c8dfea77f95f1af317848f"
+      },
+      "text": {
+        "jp": "リビジョン コントロール サーバーは現在利用できません",
+        "official_en": "Revision control server is currently not available.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

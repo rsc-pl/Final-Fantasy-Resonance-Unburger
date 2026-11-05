@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_C03_312_B",
+    "scene_id": "ST_C03_312_B",
+    "chapter": "chapter03",
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_C03_312_B:312_B_001:bcb4076a",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_C03_312_B",
+        "key": "312_B_001",
+        "jp_record_id": "switch:locres:set-02:ST_C03_312_B:312_B_001:bcb4076a",
+        "official_en_record_id": "switch:locres:set-02:ST_C03_312_B:312_B_001:bcb4076a",
+        "jp_sha256": "fe2a6c09362486665a84a9b4ee4e72a21ed5155732af2deec41ec71b306a1b94",
+        "official_en_sha256": "727c77f0e732debc84d2b8a96fed0e5b868398bcd370887aa9b5ae221e8706f1"
+      },
+      "text": {
+        "jp": "こんな場所まで魔物が入りこんでるのか。\r\n道を開けてもらうぜ！",
+        "official_en": "These monsters are everywhere... Out of the way!",
+        "real_en": "Monsters have made it this far, too? You’re going to have to let us through!"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_C03_312_B",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "レイン",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0002",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_C03_312_B/312_B_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_C03_312_B:312_B_002:d1c34dcd",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_C03_312_B",
+        "key": "312_B_002",
+        "jp_record_id": "switch:locres:set-02:ST_C03_312_B:312_B_002:d1c34dcd",
+        "official_en_record_id": "switch:locres:set-02:ST_C03_312_B:312_B_002:d1c34dcd",
+        "jp_sha256": "33a6cc9ae47461f804b2695b650c50e2cc17553d1045d61b4519fe573302c055",
+        "official_en_sha256": "53fc9e341fef8eb066805d5c8d861ff560e8d320e9f8a84136c49f62ef68936c"
+      },
+      "text": {
+        "jp": "よし、街の北へ急ごう。",
+        "official_en": "Okay, let’s hurry to the north of the city.",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_C03_312_B",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "レイン",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0002",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_C03_312_B/312_B_002"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

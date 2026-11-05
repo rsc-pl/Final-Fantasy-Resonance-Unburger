@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_SubEv_C05_TreasureRadar_05",
+    "scene_id": "ST_SubEv_C05_TreasureRadar_05",
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C05_TreasureRadar_05:SubEv_C05_TreasureRadar_05_001:617fa434",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C05_TreasureRadar_05",
+        "key": "SubEv_C05_TreasureRadar_05_001",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C05_TreasureRadar_05:SubEv_C05_TreasureRadar_05_001:617fa434",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C05_TreasureRadar_05:SubEv_C05_TreasureRadar_05_001:617fa434",
+        "jp_sha256": "eb3856909c4b8b92dc69ac44879808ef716cee2a3ba54da7160391e45d721550",
+        "official_en_sha256": "fe908d15aa020d4f8cedf3cbb5ec4daf2f93f534bbb26659295486ea0162ef7b"
+      },
+      "text": {
+        "jp": "さっそく宝をゲットしたね！\r\nこの調子でどんどん探しちゃおう！",
+        "official_en": "Found our first treasure! Let’s go look for the rest when we can!",
+        "real_en": "We found treasure already! Let's keep searching!"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C05_TreasureRadar_05",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "リド",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0057",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C05_TreasureRadar_05/SubEv_C05_TreasureRadar_05_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UCSGMeshesTool",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UCSGMeshesTool:BooleanActionName:0be2f24e",
+      "source": {
+        "set": "set-02",
+        "namespace": "UCSGMeshesTool",
+        "key": "BooleanActionName",
+        "jp_record_id": "switch:locres:set-01:UCSGMeshesTool:BooleanActionName:0be2f24e",
+        "official_en_record_id": "switch:locres:set-01:UCSGMeshesTool:BooleanActionName:0be2f24e",
+        "jp_sha256": "20c57b7750f75613fb5c62ff6f3e624c002ec467943ed3b1ed7319017e9beb84",
+        "official_en_sha256": "7e78a01724cdffe21a5ec0f93ef4e610852bd050c93ee2e7c2e2910bafc9b54a"
+      },
+      "text": {
+        "jp": "ブーリアン メッシュ",
+        "official_en": "Boolean Meshes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UCSGMeshesTool:CSGMeshesToolName:341c08e5",
+      "source": {
+        "set": "set-02",
+        "namespace": "UCSGMeshesTool",
+        "key": "CSGMeshesToolName",
+        "jp_record_id": "switch:locres:set-01:UCSGMeshesTool:CSGMeshesToolName:341c08e5",
+        "official_en_record_id": "switch:locres:set-01:UCSGMeshesTool:CSGMeshesToolName:341c08e5",
+        "jp_sha256": "d2de471b2e8324496b4140e2ba0b88e4bc165194ea314a80d6145d9d826b5aa0",
+        "official_en_sha256": "93e58392136aa0f6f33d1b0a95befad7897304ef5a226b687644719851f6d62e"
+      },
+      "text": {
+        "jp": "メッシュ ブーリアン",
+        "official_en": "Mesh Boolean",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UCSGMeshesTool:OnStartTool:ff2a4803",
+      "source": {
+        "set": "set-02",
+        "namespace": "UCSGMeshesTool",
+        "key": "OnStartTool",
+        "jp_record_id": "switch:locres:set-01:UCSGMeshesTool:OnStartTool:ff2a4803",
+        "official_en_record_id": "switch:locres:set-01:UCSGMeshesTool:OnStartTool:ff2a4803",
+        "jp_sha256": "7c45f9bdaa230fa5c6a573ce7bb34534d1db5f658caa9e29fa8d6961ecf40597",
+        "official_en_sha256": "7d9e30001a2a6b7078c109c6e002cfdfacf6b45fbb6e826f1707eee4f72af2f0"
+      },
+      "text": {
+        "jp": "入力メッシュでブーリアン演算を実行します。内部の面が削除されます。トランスフォーム ギズモを使用して、入力オブジェクトの位置と向きを変更します。",
+        "official_en": "Perform Boolean operations on the input meshes; any interior faces will be removed. Use the transform gizmos to modify the position and orientation of the input objects.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UCSGMeshesTool:InvalidTargets:48f1db77",
+      "source": {
+        "set": "set-02",
+        "namespace": "UCSGMeshesTool",
+        "key": "InvalidTargets",
+        "jp_record_id": "switch:locres:set-01:UCSGMeshesTool:InvalidTargets:48f1db77",
+        "official_en_record_id": "switch:locres:set-01:UCSGMeshesTool:InvalidTargets:48f1db77",
+        "jp_sha256": "77ccfc705d8b027f7a66088106441eb2b8c3c56c01d7330971a37dae76fd720a",
+        "official_en_sha256": "38b5c5d6c40250ad3260c966dde965d373b36beea8362687ce72be611d6bf06a"
+      },
+      "text": {
+        "jp": "ターゲットメッシュは有効ではありません",
+        "official_en": "Target meshes are no longer valid",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UCSGMeshesTool:TrimMeshesToolName:e4939422",
+      "source": {
+        "set": "set-02",
+        "namespace": "UCSGMeshesTool",
+        "key": "TrimMeshesToolName",
+        "jp_record_id": "switch:locres:set-01:UCSGMeshesTool:TrimMeshesToolName:e4939422",
+        "official_en_record_id": "switch:locres:set-01:UCSGMeshesTool:TrimMeshesToolName:e4939422",
+        "jp_sha256": "c3dccd051b36fc93086afa8bc779e8cb47c87dfdf8be8509bbd0972f6bd5cb73",
+        "official_en_sha256": "aaa5478b266f283fcab0c3616cdf2ddecde6f4a66b918356d53e05db16b7975a"
+      },
+      "text": {
+        "jp": "トリミング",
+        "official_en": "Trim",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UCSGMeshesTool:TrimActionName:0fad8131",
+      "source": {
+        "set": "set-02",
+        "namespace": "UCSGMeshesTool",
+        "key": "TrimActionName",
+        "jp_record_id": "switch:locres:set-01:UCSGMeshesTool:TrimActionName:0fad8131",
+        "official_en_record_id": "switch:locres:set-01:UCSGMeshesTool:TrimActionName:0fad8131",
+        "jp_sha256": "17435352f91a7907e1a4fbd00f5b63ab30cd139550c26f1a20801362dfe4fdf1",
+        "official_en_sha256": "e406ef9fd53408e18ec801112942c5901da5d25c14bd088355ce2d74d6e77e38"
+      },
+      "text": {
+        "jp": "メッシュをトリミング",
+        "official_en": "Trim Meshes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UCSGMeshesTool:OnStartTrimTool:87433c04",
+      "source": {
+        "set": "set-02",
+        "namespace": "UCSGMeshesTool",
+        "key": "OnStartTrimTool",
+        "jp_record_id": "switch:locres:set-01:UCSGMeshesTool:OnStartTrimTool:87433c04",
+        "official_en_record_id": "switch:locres:set-01:UCSGMeshesTool:OnStartTrimTool:87433c04",
+        "jp_sha256": "18a8b5c8df3172e68e57ab52009d38382329b5ec2d3d5a411a831d235f230e6c",
+        "official_en_sha256": "f4927366c01d927be5043d279c92974ec17c2a305e587ab102f35d3a9c678a89"
+      },
+      "text": {
+        "jp": "1 つのメッシュを別のメッシュでトリミングします。トランスフォーム ギズモを使用して、入力オブジェクトの位置を調整します (エラーや失敗の解決に役立つことがあります)",
+        "official_en": "Trim one mesh with another. Use the transform gizmos to tweak the positions of the input objects (can help to resolve errors/failures)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

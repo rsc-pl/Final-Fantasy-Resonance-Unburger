@@ -1,0 +1,678 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UploadDataMessage",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UploadDataMessage:SerializeFileHeader_Error:e1bf56f5",
+      "source": {
+        "set": "set-02",
+        "namespace": "UploadDataMessage",
+        "key": "SerializeFileHeader_Error",
+        "jp_record_id": "switch:locres:set-01:UploadDataMessage:SerializeFileHeader_Error:e1bf56f5",
+        "official_en_record_id": "switch:locres:set-01:UploadDataMessage:SerializeFileHeader_Error:e1bf56f5",
+        "jp_sha256": "e047485a460d197b362304051a21fb5d89bb26f2b45ed2623645c8946429d492",
+        "official_en_sha256": "a6f880062cf548a87104b23f4370a82eda2c6c6105c0073e4d7d1b6ac6379917"
+      },
+      "text": {
+        "jp": "ファイル ヘッダの書き込み中にエラーが発生しました",
+        "official_en": "Error while writing a file header",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UploadDataMessage:SerializeHeader_Error:da8c79f3",
+      "source": {
+        "set": "set-02",
+        "namespace": "UploadDataMessage",
+        "key": "SerializeHeader_Error",
+        "jp_record_id": "switch:locres:set-01:UploadDataMessage:SerializeHeader_Error:da8c79f3",
+        "official_en_record_id": "switch:locres:set-01:UploadDataMessage:SerializeHeader_Error:da8c79f3",
+        "jp_sha256": "afd430310daae5ef18cf8a0047a4d25bad9ed4fa6f5dc77240b7a0a7cb78fbb8",
+        "official_en_sha256": "bdb508a734a68d711ca6ebec45a4b566880b0c873c15a7a4cbd62f5a679558c5"
+      },
+      "text": {
+        "jp": "アップロード データ ヘッダの書き込み中にエラーが発生しました",
+        "official_en": "Error while writing the Upload Data header",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UploadDataMessage:SerializeData_Error:d4fcb257",
+      "source": {
+        "set": "set-02",
+        "namespace": "UploadDataMessage",
+        "key": "SerializeData_Error",
+        "jp_record_id": "switch:locres:set-01:UploadDataMessage:SerializeData_Error:d4fcb257",
+        "official_en_record_id": "switch:locres:set-01:UploadDataMessage:SerializeData_Error:d4fcb257",
+        "jp_sha256": "f92dc005250528d1341578c3e06ba1d9a3eacb208e7eb6c1c559fa54330d1c48",
+        "official_en_sha256": "d14223afdbd4cea5969cb86bc0d68944b528513dc00f8b823fa487a8ea892b71"
+      },
+      "text": {
+        "jp": "データの書き込み中にエラーが発生しました",
+        "official_en": "Error while writing the data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UploadDataMessage:SerializeHash_Error:8bcca162",
+      "source": {
+        "set": "set-02",
+        "namespace": "UploadDataMessage",
+        "key": "SerializeHash_Error",
+        "jp_record_id": "switch:locres:set-01:UploadDataMessage:SerializeHash_Error:8bcca162",
+        "official_en_record_id": "switch:locres:set-01:UploadDataMessage:SerializeHash_Error:8bcca162",
+        "jp_sha256": "2d5b4f9f07ff6011707acb2e0d59718e3dc16324777b2ee2f490918ac51df1fe",
+        "official_en_sha256": "0c253701e7a1f7f515da5497591c1be8d765e1ef16e06b621b9bd748123201ec"
+      },
+      "text": {
+        "jp": "ハッシュの書き込み中にエラーが発生しました",
+        "official_en": "Error while writing the hash",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_GuidLengthError:33cbcb78",
+      "source": {
+        "set": "set-02",
+        "namespace": "UploadDataMessage",
+        "key": "DeserializeHeader_GuidLengthError",
+        "jp_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_GuidLengthError:33cbcb78",
+        "official_en_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_GuidLengthError:33cbcb78",
+        "jp_sha256": "f1cf664f000ffaf57140ed3d18de7c4b81d7189536cc508bdfd0095dbc526fd6",
+        "official_en_sha256": "535217003672371ee1d1a61ad216c01c1687ac126df30d02a3cf8ccc369bb073"
+      },
+      "text": {
+        "jp": "クライアント ID 長を読み取れませんでした",
+        "official_en": "Failed to read client id length",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_LengthError:b08edbe0",
+      "source": {
+        "set": "set-02",
+        "namespace": "UploadDataMessage",
+        "key": "DeserializeHeader_LengthError",
+        "jp_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_LengthError:b08edbe0",
+        "official_en_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_LengthError:b08edbe0",
+        "jp_sha256": "6b69cdb014ccba9064dd47fc2ede0925947bd35320b3e685d4a3c80bd05e1458",
+        "official_en_sha256": "aa87fd71327cf7b415cfd2aadbd9cfbaca89fbccb479c013ae8384872abd84cd"
+      },
+      "text": {
+        "jp": "ファイル長を読み取れませんでした",
+        "official_en": "Failed to read file length",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_FileNameError:ef7f24aa",
+      "source": {
+        "set": "set-02",
+        "namespace": "UploadDataMessage",
+        "key": "DeserializeHeader_FileNameError",
+        "jp_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_FileNameError:ef7f24aa",
+        "official_en_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_FileNameError:ef7f24aa",
+        "jp_sha256": "e555eb974c6f20ec1e5d97b1dd187cd59f41e10e871ad034156d94b91230de99",
+        "official_en_sha256": "d9ef84ee5025f3f8ec3cabe010bef717c0d5f10d47f4829b5c8641e00703f350"
+      },
+      "text": {
+        "jp": "ファイル名を読み取れませんでした",
+        "official_en": "Failed to read file name",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_FileNameLengthError:86207fc2",
+      "source": {
+        "set": "set-02",
+        "namespace": "UploadDataMessage",
+        "key": "DeserializeHeader_FileNameLengthError",
+        "jp_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_FileNameLengthError:86207fc2",
+        "official_en_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_FileNameLengthError:86207fc2",
+        "jp_sha256": "3fd9c7c7e839d38ab5e67513d1816527ace487f68f29da84b06fce576cffc9d2",
+        "official_en_sha256": "264156dae86b476a286622db9a18d10e4556cbeb7b29474b025d1d81614e1cd5"
+      },
+      "text": {
+        "jp": "ファイル名長を読み取れませんでした",
+        "official_en": "Failed to read file name length",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_TakeNameError:e274b29d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UploadDataMessage",
+        "key": "DeserializeHeader_TakeNameError",
+        "jp_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_TakeNameError:e274b29d",
+        "official_en_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_TakeNameError:e274b29d",
+        "jp_sha256": "050068b544f6c3c77ee6376850d6432ce7d87cf078f48beebc7a74b385152e2a",
+        "official_en_sha256": "02f30ab2af14af299ed60e4497dde70f824b96f32bd2371309d305e765433dd6"
+      },
+      "text": {
+        "jp": "テイク名を読み取れませんでした",
+        "official_en": "Failed to read take name",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_TakeNameLengthError:415c178c",
+      "source": {
+        "set": "set-02",
+        "namespace": "UploadDataMessage",
+        "key": "DeserializeHeader_TakeNameLengthError",
+        "jp_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_TakeNameLengthError:415c178c",
+        "official_en_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_TakeNameLengthError:415c178c",
+        "jp_sha256": "335635b122c58774c421d99caccedb8ebffca090ae8a22a5dc11be5d5db93609",
+        "official_en_sha256": "ff913ac0285948cec9cabff85211e2b4c39e94be0f8537cda9c86434e2f5a22b"
+      },
+      "text": {
+        "jp": "テイク名長を読み取れませんでした",
+        "official_en": "Failed to read take name length",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_TakeNumberError:f017e0f4",
+      "source": {
+        "set": "set-02",
+        "namespace": "UploadDataMessage",
+        "key": "DeserializeHeader_TakeNumberError",
+        "jp_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_TakeNumberError:f017e0f4",
+        "official_en_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_TakeNumberError:f017e0f4",
+        "jp_sha256": "f1346eec0078832adbeb25a24283815ff3316b6dd1959fb01c2d9be6a625029d",
+        "official_en_sha256": "e43616a611341a5ab0b79b32c50ebf5e0ec3aaddd300457dc80192715c8752cc"
+      },
+      "text": {
+        "jp": "テイク番号を読み取れませんでした",
+        "official_en": "Failed to read take number",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_GuidError:f398832b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UploadDataMessage",
+        "key": "DeserializeHeader_GuidError",
+        "jp_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_GuidError:f398832b",
+        "official_en_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_GuidError:f398832b",
+        "jp_sha256": "0ec89ccbda51d7fe327b2f4a03d26cd16a30bcad4463678141ec0e7d8db3c9e9",
+        "official_en_sha256": "28067437089be59174fe71b792ba98a45cf9d39808cb295346b31dc3a3cffb8f"
+      },
+      "text": {
+        "jp": "クライアント ID を読み取れませんでした",
+        "official_en": "Failed to read the client id",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UploadDataMessage:DeserializeData_DataError:d37bf5fb",
+      "source": {
+        "set": "set-02",
+        "namespace": "UploadDataMessage",
+        "key": "DeserializeData_DataError",
+        "jp_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeData_DataError:d37bf5fb",
+        "official_en_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeData_DataError:d37bf5fb",
+        "jp_sha256": "546a76100e0d6ac43916461fff08ca3409477d4422266b839074a49309954f10",
+        "official_en_sha256": "372069c45e01d95af28598982de93ef7a727cb752a2c2fdfd479e3394be75c49"
+      },
+      "text": {
+        "jp": "データを読み取れませんでした",
+        "official_en": "Failed to read the data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHash_HashError:b8e27f82",
+      "source": {
+        "set": "set-02",
+        "namespace": "UploadDataMessage",
+        "key": "DeserializeHash_HashError",
+        "jp_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHash_HashError:b8e27f82",
+        "official_en_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHash_HashError:b8e27f82",
+        "jp_sha256": "c2f8b5508e5ec54149a7a551c553d3faa077032965c5b7d378402ae28d033dcc",
+        "official_en_sha256": "e4886ddb156cf3c40560af12d3cae767b19eaed2166260e873ad295081d70401"
+      },
+      "text": {
+        "jp": "ハッシュを読み取れませんでした",
+        "official_en": "Failed to read the hash",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_HeaderError:89ddfd37",
+      "source": {
+        "set": "set-02",
+        "namespace": "UploadDataMessage",
+        "key": "DeserializeHeader_HeaderError",
+        "jp_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_HeaderError:89ddfd37",
+        "official_en_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_HeaderError:89ddfd37",
+        "jp_sha256": "38bf37f8de99ca1318b032e6eae80b3af8f2d40b197a5d2c0425a25219b18430",
+        "official_en_sha256": "a3c94c54ae5b53d2ba276a191f8deb91e9a41fb620d4322a8a97c33e1a5b55b5"
+      },
+      "text": {
+        "jp": "ヘッダを読み取れませんでした",
+        "official_en": "Failed to read the header",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_TotalLengthError:f82e9527",
+      "source": {
+        "set": "set-02",
+        "namespace": "UploadDataMessage",
+        "key": "DeserializeHeader_TotalLengthError",
+        "jp_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_TotalLengthError:f82e9527",
+        "official_en_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_TotalLengthError:f82e9527",
+        "jp_sha256": "818a06e904d914ad9e945a22f7fa0e21c4555c2d4e7401379ea047d66d85222a",
+        "official_en_sha256": "df675c17bf05d9bee71f19e52c3f87e5d11f058e0740a505d3de6397a24b7289"
+      },
+      "text": {
+        "jp": "ファイルの全長を読み取れませんでした",
+        "official_en": "Failed to read total file length",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_InvalidGuidError:1e0d06f2",
+      "source": {
+        "set": "set-02",
+        "namespace": "UploadDataMessage",
+        "key": "DeserializeHeader_InvalidGuidError",
+        "jp_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_InvalidGuidError:1e0d06f2",
+        "official_en_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_InvalidGuidError:1e0d06f2",
+        "jp_sha256": "88f74bb9a64db8eac4d31abedd4bb122947f5ddafa627c2d61984d3cb9a2463c",
+        "official_en_sha256": "58998c08d089eefc90edc45ee830bd355e24317819312c918d5c21eae241eea8"
+      },
+      "text": {
+        "jp": "無効なクライアント ID 形式",
+        "official_en": "Invalid client id format",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_InvalidHeaderError:3d5ffdaa",
+      "source": {
+        "set": "set-02",
+        "namespace": "UploadDataMessage",
+        "key": "DeserializeHeader_InvalidHeaderError",
+        "jp_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_InvalidHeaderError:3d5ffdaa",
+        "official_en_record_id": "switch:locres:set-01:UploadDataMessage:DeserializeHeader_InvalidHeaderError:3d5ffdaa",
+        "jp_sha256": "f7f6fb730765b92fbb90bc10d59a57a07c7c92068661383954a8cb8243ff6974",
+        "official_en_sha256": "b907c763895a63a2daf6d047ae40c2092903565e43c84e34a74254df7826b124"
+      },
+      "text": {
+        "jp": "無効なヘッダの読み取り",
+        "official_en": "Invalid header read",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

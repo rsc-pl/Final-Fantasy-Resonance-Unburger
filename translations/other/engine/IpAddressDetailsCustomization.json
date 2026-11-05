@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "IpAddressDetailsCustomization",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:IpAddressDetailsCustomization:DeviceAddress_InvalidSize:44b0b642",
+      "source": {
+        "set": "set-02",
+        "namespace": "IpAddressDetailsCustomization",
+        "key": "DeviceAddress_InvalidSize",
+        "jp_record_id": "switch:locres:set-01:IpAddressDetailsCustomization:DeviceAddress_InvalidSize:44b0b642",
+        "official_en_record_id": "switch:locres:set-01:IpAddressDetailsCustomization:DeviceAddress_InvalidSize:44b0b642",
+        "jp_sha256": "f82a0d3209da7e51f430664653fd1a5e060b026b81e03c0252fc728591e2ca44",
+        "official_en_sha256": "6740bb470a2ee9451f6914954077ca011d1f076509324f4e5079a82b5f88f846"
+      },
+      "text": {
+        "jp": "Device Address に入っている文字が多すぎます",
+        "official_en": "Device Address contains too many characters",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IpAddressDetailsCustomization:DeviceAddress_Empty:e6aff781",
+      "source": {
+        "set": "set-02",
+        "namespace": "IpAddressDetailsCustomization",
+        "key": "DeviceAddress_Empty",
+        "jp_record_id": "switch:locres:set-01:IpAddressDetailsCustomization:DeviceAddress_Empty:e6aff781",
+        "official_en_record_id": "switch:locres:set-01:IpAddressDetailsCustomization:DeviceAddress_Empty:e6aff781",
+        "jp_sha256": "f1c36c98753b1f6e5ce09179ab4abb4e36732449161ed34a537623d5ecc68cfa",
+        "official_en_sha256": "925c66ea29e2f212ca2b6a9ba95032df39f4133edd06263852dcb04e4d3cdfb1"
+      },
+      "text": {
+        "jp": "Device Address プロパティを空にすることはできません",
+        "official_en": "Device Address property must not be empty",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IpAddressDetailsCustomization:DeviceAddress_Numeric:b3159cbf",
+      "source": {
+        "set": "set-02",
+        "namespace": "IpAddressDetailsCustomization",
+        "key": "DeviceAddress_Numeric",
+        "jp_record_id": "switch:locres:set-01:IpAddressDetailsCustomization:DeviceAddress_Numeric:b3159cbf",
+        "official_en_record_id": "switch:locres:set-01:IpAddressDetailsCustomization:DeviceAddress_Numeric:b3159cbf",
+        "jp_sha256": "80c3803b5ec70e4e89c9120c4e2b4156d7fc5e6488c7d21b55bf6561b0202131",
+        "official_en_sha256": "6982254ebfcd479cef8b439bf4b7598ec6b4dea8aaef54f5124f92345fc241e0"
+      },
+      "text": {
+        "jp": "Device Address プロパティには数字のみが入っている必要があります",
+        "official_en": "Device Address property must only contain numbers",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IpAddressDetailsCustomization:DeviceAddress_Numeric_NumbersInRange:8e002379",
+      "source": {
+        "set": "set-02",
+        "namespace": "IpAddressDetailsCustomization",
+        "key": "DeviceAddress_Numeric_NumbersInRange",
+        "jp_record_id": "switch:locres:set-01:IpAddressDetailsCustomization:DeviceAddress_Numeric_NumbersInRange:8e002379",
+        "official_en_record_id": "switch:locres:set-01:IpAddressDetailsCustomization:DeviceAddress_Numeric_NumbersInRange:8e002379",
+        "jp_sha256": "cd76b34cc9d8a24e215b6737b96be7f4b6ea156c1f670c631f647b7d89b89103",
+        "official_en_sha256": "f09d66cb5a54f79a7bd904e9b9b3292b2ca0fcd23459b3753345eace105ea3ab"
+      },
+      "text": {
+        "jp": "Device Address プロパティには [0-255] の範囲の数字のみが入っている必要があります",
+        "official_en": "Device Address property must only contain numbers in range [0-255]",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IpAddressDetailsCustomization:SetIpAddressProperty:9114cc30",
+      "source": {
+        "set": "set-02",
+        "namespace": "IpAddressDetailsCustomization",
+        "key": "SetIpAddressProperty",
+        "jp_record_id": "switch:locres:set-01:IpAddressDetailsCustomization:SetIpAddressProperty:9114cc30",
+        "official_en_record_id": "switch:locres:set-01:IpAddressDetailsCustomization:SetIpAddressProperty:9114cc30",
+        "jp_sha256": "439cc80923fcd2884407c9a71c3988915e76fac7068c07e08e73684207543a55",
+        "official_en_sha256": "fdd9d5053ccc390959ee997c26237a4a4acde6f8d51ce1b19b4a02915e78f71a"
+      },
+      "text": {
+        "jp": "{0} を編集",
+        "official_en": "Edit {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IpAddressDetailsCustomization:DeviceAddress_InvalidFormat:3f839e42",
+      "source": {
+        "set": "set-02",
+        "namespace": "IpAddressDetailsCustomization",
+        "key": "DeviceAddress_InvalidFormat",
+        "jp_record_id": "switch:locres:set-01:IpAddressDetailsCustomization:DeviceAddress_InvalidFormat:3f839e42",
+        "official_en_record_id": "switch:locres:set-01:IpAddressDetailsCustomization:DeviceAddress_InvalidFormat:3f839e42",
+        "jp_sha256": "3d967188639326b5a0dbbfd090ca52f242a3de66867081b6c2341ea39cdb6de4",
+        "official_en_sha256": "c1f534d82f016b9796723b6b272b8428857ca2a6ef434b803f51c8aa7f79b9fb"
+      },
+      "text": {
+        "jp": "Device Address プロパティが無効な形式です",
+        "official_en": "Invalid format for Device Address property",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

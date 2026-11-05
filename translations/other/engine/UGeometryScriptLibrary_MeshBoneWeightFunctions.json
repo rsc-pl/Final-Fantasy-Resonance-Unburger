@@ -1,0 +1,1862 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:BlendBoneWeights_InvalidInput:29f36a40",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "BlendBoneWeights_InvalidInput",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:BlendBoneWeights_InvalidInput:29f36a40",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:BlendBoneWeights_InvalidInput:29f36a40",
+        "jp_sha256": "494fd5aeb6981590520e2c815b9a063aab1da2743ddc3ab0c0618ed39c6b5aa1",
+        "official_en_sha256": "4626c6e144d9f2d827cd508714a486d6f9179707143c1826be26190cedf9a929"
+      },
+      "text": {
+        "jp": "BlendBoneWeights：無効なボーン インデックスが指定されると、ボーン インデックスは 0 にフォールバックします",
+        "official_en": "BlendBoneWeights: Invalid bone index provided; falling back to 0 as bone index.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_DuplicateBoneNames:330a00db",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "ValidateBoneHierarchy_DuplicateBoneNames",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_DuplicateBoneNames:330a00db",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_DuplicateBoneNames:330a00db",
+        "jp_sha256": "0a5b4f80c0bf2ba415abc455792cbec59986a5f908bdef96f14f3904e6ef7991",
+        "official_en_sha256": "97575ed23969be8d36d8512bacb028f74d8a73446158458aa23542c675519b99"
+      },
+      "text": {
+        "jp": "ボーン「{0}」が複数回定義されています",
+        "official_en": "Bone '{0}' defined more than once.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_FoundCycle:7ebdafe2",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "ValidateBoneHierarchy_FoundCycle",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_FoundCycle:7ebdafe2",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_FoundCycle:7ebdafe2",
+        "jp_sha256": "cba250a05aef53d90c969e772e89ef140097353f6b1351a503537849ab6f6f4a",
+        "official_en_sha256": "797090d9ebebf56f14ae8aacaa96602804c3f1d2d49f2b443df41b8bba3c9b15"
+      },
+      "text": {
+        "jp": "ボーン「{0}」はルート ボーン「{1}」にまでつながっていません。循環しています",
+        "official_en": "Bone '{0}' does not connect up to the root bone '{1}' but connects into a cycle instead.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_UnnamedBone:cd812a6a",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "ValidateBoneHierarchy_UnnamedBone",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_UnnamedBone:cd812a6a",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_UnnamedBone:cd812a6a",
+        "jp_sha256": "601839caba9c82536ad9731421935a8771a786554bae58a9ecd2d7c8c969fb72",
+        "official_en_sha256": "4bc673cf3f91e573e7ebf2539fcc8bebc8f5182d952dfa6daa43df32e9dd3d07"
+      },
+      "text": {
+        "jp": "インデックス {0} のボーンに名前がありません",
+        "official_en": "Bone at index {0} has no name.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_TargetMeshHasNoBones:d156a138",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "GetBoneCopyHierarchy_TargetMeshHasNoBones",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_TargetMeshHasNoBones:d156a138",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_TargetMeshHasNoBones:d156a138",
+        "jp_sha256": "c45e1569c977ca5e769fd598cc395ddbdf3c363f29d65187b1c33af42a72e18b",
+        "official_en_sha256": "97beecf74540f4d47663b0c5c11020b112768601c56a5e2426cc06b232b684f2"
+      },
+      "text": {
+        "jp": "ボーン ウェイトの再インデックス化がリクエストされましたが、ターゲット メッシュにスケルトン データがありません",
+        "official_en": "Bone weight re-indexing was requested but the target mesh has no skeleton data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ComputeSmoothBoneWeights_InvalidSkeleton:7dbe2faf",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "ComputeSmoothBoneWeights_InvalidSkeleton",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ComputeSmoothBoneWeights_InvalidSkeleton:7dbe2faf",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ComputeSmoothBoneWeights_InvalidSkeleton:7dbe2faf",
+        "jp_sha256": "00d14c557d54c52b3fda67f02908ac0880878a988178a1b81916d9c46638c223",
+        "official_en_sha256": "d67e99ad539bc8f023ffc8a0c1ae0382649ac8d3247fc9774eff038f1d2da04b"
+      },
+      "text": {
+        "jp": "ComputeSmoothBoneWeights：Skeleton は Null です",
+        "official_en": "ComputeSmoothBoneWeights: Skeleton is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ComputeSmoothBoneWeights_InvalidInput:91fde83e",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "ComputeSmoothBoneWeights_InvalidInput",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ComputeSmoothBoneWeights_InvalidInput:91fde83e",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ComputeSmoothBoneWeights_InvalidInput:91fde83e",
+        "jp_sha256": "c756ecc2b120d146a6e5200ccc3716222d55d3038ca4d0b5323bf4228650b997",
+        "official_en_sha256": "c797ae964134ef43b5f05217494930686bf8db01058369cf745b3102b32941e7"
+      },
+      "text": {
+        "jp": "ComputeSmoothBoneWeights：TargetMesh は Null です",
+        "official_en": "ComputeSmoothBoneWeights: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:CopyBonesFromMesh_InvalidSourceMesh:d345a115",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "CopyBonesFromMesh_InvalidSourceMesh",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:CopyBonesFromMesh_InvalidSourceMesh:d345a115",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:CopyBonesFromMesh_InvalidSourceMesh:d345a115",
+        "jp_sha256": "392a368e85dbb763ad5cb4b74d69ca1570c58cef5a721fdec571b79953340912",
+        "official_en_sha256": "bd9dbe5b1c7239db79e582909ef28fbc820a583a0ed7a488e59ed4288df8c9f1"
+      },
+      "text": {
+        "jp": "CopyBonesFromMesh: SourceMesh は Null です",
+        "official_en": "CopyBonesFromMesh: SourceMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:CopyBonesFromSkeleton_InvalidSourceSkeleton:8f89bc27",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "CopyBonesFromSkeleton_InvalidSourceSkeleton",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:CopyBonesFromSkeleton_InvalidSourceSkeleton:8f89bc27",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:CopyBonesFromSkeleton_InvalidSourceSkeleton:8f89bc27",
+        "jp_sha256": "1591e684263fc287c12315ec919cc8ef1ae3f43d03de1d2a1f791aa2ef14d337",
+        "official_en_sha256": "bb22b553c40deb9d18d13682f7018d208a54077aa7730a834d88f8bf96d118c3"
+      },
+      "text": {
+        "jp": "CopyBonesFromMesh：SourceSkeleton は Null です",
+        "official_en": "CopyBonesFromMesh: SourceSkeleton is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:CopyBonesFromMesh_InvalidTargetMesh:82ab8805",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "CopyBonesFromMesh_InvalidTargetMesh",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:CopyBonesFromMesh_InvalidTargetMesh:82ab8805",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:CopyBonesFromMesh_InvalidTargetMesh:82ab8805",
+        "jp_sha256": "27f5d31737215217f9e6db5520eca07bbc9531dc40eb1b0290ca01e60b84a236",
+        "official_en_sha256": "47f36e35831e769fc5a376b06613b22de68276744a4c43eb30c78d862b907e7b"
+      },
+      "text": {
+        "jp": "CopyBonesFromMesh: TargetMesh は Null です",
+        "official_en": "CopyBonesFromMesh: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:CopyBonesFromSkeleton_InvalidTargetMesh:4386e17f",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "CopyBonesFromSkeleton_InvalidTargetMesh",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:CopyBonesFromSkeleton_InvalidTargetMesh:4386e17f",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:CopyBonesFromSkeleton_InvalidTargetMesh:4386e17f",
+        "jp_sha256": "27f5d31737215217f9e6db5520eca07bbc9531dc40eb1b0290ca01e60b84a236",
+        "official_en_sha256": "47f36e35831e769fc5a376b06613b22de68276744a4c43eb30c78d862b907e7b"
+      },
+      "text": {
+        "jp": "CopyBonesFromMesh: TargetMesh は Null です",
+        "official_en": "CopyBonesFromMesh: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:DiscardBonesFromMesh_InvalidTargetMesh:0b2f5614",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "DiscardBonesFromMesh_InvalidTargetMesh",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:DiscardBonesFromMesh_InvalidTargetMesh:0b2f5614",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:DiscardBonesFromMesh_InvalidTargetMesh:0b2f5614",
+        "jp_sha256": "8ed435d74721318bfa992c9025eac686316342b7c229abc93d7aa066c689483c",
+        "official_en_sha256": "076702a36c29a71ec8e1840abb33840f8b46bf122822a6306301f2c6ff6f73c7"
+      },
+      "text": {
+        "jp": "DiscardBonesFromMesh: TargetMesh は Null です",
+        "official_en": "DiscardBonesFromMesh: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_FailedToReindexWeights:08b93f54",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "GetBoneCopyHierarchy_FailedToReindexWeights",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_FailedToReindexWeights:08b93f54",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_FailedToReindexWeights:08b93f54",
+        "jp_sha256": "0bfd9e0ed1e35f8b141538ad9a7f2d759a8e360a9cf09647a0a15b70975e20e4",
+        "official_en_sha256": "73765cbdfd5af408fec149b2f98d32af36d807d5d500f7277b05455c507a413e"
+      },
+      "text": {
+        "jp": "{0}ウェイト プロフィールのボーン ウェイトの再インデックス化に失敗しました",
+        "official_en": "Failed to reindex bone weights for {0} weights profile",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_MultipleRootBonesFound:9f47c74e",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "GetBoneCopyHierarchy_MultipleRootBonesFound",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_MultipleRootBonesFound:9f47c74e",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_MultipleRootBonesFound:9f47c74e",
+        "jp_sha256": "00dcaddb4979b338e8aa6f36b799f2c45b27a2c7198f0bbd963f299971c5c505",
+        "official_en_sha256": "a27120d1e02d4368e02f7507d72e860f568c0099261866da1ced436703e05d42"
+      },
+      "text": {
+        "jp": "複数のルート ボーンがソース メッシュに見つかりました",
+        "official_en": "Found multiple root bones on source mesh",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetAllBonesInfo_TargetMeshHasNoBones:33289fe4",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "GetAllBonesInfo_TargetMeshHasNoBones",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetAllBonesInfo_TargetMeshHasNoBones:33289fe4",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetAllBonesInfo_TargetMeshHasNoBones:33289fe4",
+        "jp_sha256": "2033d81332cff6cdd990c197b7fcb2b78c54e95035cbaf0244c0ceaa0a13fcaa",
+        "official_en_sha256": "61219cc74d2bc7cf01c20e0f45eb6821842ea8c87dbad6a1ca93b372ed1d9a81"
+      },
+      "text": {
+        "jp": "GetAllBonesInfo：TargetMesh にボーン属性がありません",
+        "official_en": "GetAllBonesInfo: TargetMesh has no bone attributes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetAllBonesInfo_InvalidTargetMesh:5167f28d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "GetAllBonesInfo_InvalidTargetMesh",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetAllBonesInfo_InvalidTargetMesh:5167f28d",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetAllBonesInfo_InvalidTargetMesh:5167f28d",
+        "jp_sha256": "7a44f3dc85bcd2f6429f290362d567a41019235eb13ea58c06be53350de2b502",
+        "official_en_sha256": "0e46280c6b9c9f83c62714ab6fa2cfccc3d623998403afa6474151208e9060b0"
+      },
+      "text": {
+        "jp": "GetAllBonesInfo：TargetMesh は Null です",
+        "official_en": "GetAllBonesInfo: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneChildren_TargetMeshHasNoBones:130fc475",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "GetBoneChildren_TargetMeshHasNoBones",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneChildren_TargetMeshHasNoBones:130fc475",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneChildren_TargetMeshHasNoBones:130fc475",
+        "jp_sha256": "1a2c72af370aed17e823a13f93ed2d65a0631984c073e05b6714298ede39287b",
+        "official_en_sha256": "d0d1b617f2a457ac464d0a7c0cadaf10250d7e8fb526f7e8c06cf6000183af7e"
+      },
+      "text": {
+        "jp": "GetBoneChildren：TargetMesh にボーン属性がありません",
+        "official_en": "GetBoneChildren: TargetMesh has no bone attributes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneChildren_InvalidTargetMesh:1813e0e9",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "GetBoneChildren_InvalidTargetMesh",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneChildren_InvalidTargetMesh:1813e0e9",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneChildren_InvalidTargetMesh:1813e0e9",
+        "jp_sha256": "58dbe5e76ba8885122bcd9a2690efd93e7a7109df678b4209507073367795fc9",
+        "official_en_sha256": "15864161aa71be672040479c87c619323291223a1e16f16bbc6d83e076198f49"
+      },
+      "text": {
+        "jp": "GetBoneChildren：TargetMesh は Null です",
+        "official_en": "GetBoneChildren: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneIndex_TargetMeshHasNoBones:ce46a1f3",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "GetBoneIndex_TargetMeshHasNoBones",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneIndex_TargetMeshHasNoBones:ce46a1f3",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneIndex_TargetMeshHasNoBones:ce46a1f3",
+        "jp_sha256": "23291c38ccd635d528d031bf8dffe950c7634efcb18015a73b7a692bb8571190",
+        "official_en_sha256": "63a2ad4fad4d7e9494595a60891ccb3de9eea7173b5f2e9963b41d37783d5e57"
+      },
+      "text": {
+        "jp": "GetBoneIndex：TargetMesh にボーン属性がありません",
+        "official_en": "GetBoneIndex: TargetMesh has no bone attributes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneIndex_InvalidTargetMesh:fb5b2cc9",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "GetBoneIndex_InvalidTargetMesh",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneIndex_InvalidTargetMesh:fb5b2cc9",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneIndex_InvalidTargetMesh:fb5b2cc9",
+        "jp_sha256": "84d5e607c793ce79c503f6db3e27e837bbc2acd5482a1c87495b222ba0f451fb",
+        "official_en_sha256": "44497cfef2dd7dd6ad3fc7b48f9453f8359bc331da3f3784c846bdd5015a5d05"
+      },
+      "text": {
+        "jp": "GetBoneIndex：TargetMesh が Null です",
+        "official_en": "GetBoneIndex: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneInfo_TargetMeshHasNoBones:795abe28",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "GetBoneInfo_TargetMeshHasNoBones",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneInfo_TargetMeshHasNoBones:795abe28",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneInfo_TargetMeshHasNoBones:795abe28",
+        "jp_sha256": "70f31db12fc9ef55a934e1a25f6e6f6232c5c5875f7ccbe942af3aa26ff0f4bb",
+        "official_en_sha256": "5d358ca09664a8306c7dc9ecd332d5c4ccec702e192ed3dfeed0ec3b606dde0c"
+      },
+      "text": {
+        "jp": "GetBoneInfo：TargetMesh にボーン属性がありません",
+        "official_en": "GetBoneInfo: TargetMesh has no bone attributes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneInfo_InvalidTargetMesh:190615e0",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "GetBoneInfo_InvalidTargetMesh",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneInfo_InvalidTargetMesh:190615e0",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneInfo_InvalidTargetMesh:190615e0",
+        "jp_sha256": "a16c5b5c2b2416c79a5931a491853661925a1021bd504aa7019bc365f6c54181",
+        "official_en_sha256": "1848029c4ef6211d806e8b511546c139a1cdb8dc4d3d11e5e370f6a9c027dbe3"
+      },
+      "text": {
+        "jp": "GetBoneInfo：TargetMesh は Null です",
+        "official_en": "GetBoneInfo: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetRootBoneName_TargetMeshHasEmptySkeleton:862b1e42",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "GetRootBoneName_TargetMeshHasEmptySkeleton",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetRootBoneName_TargetMeshHasEmptySkeleton:862b1e42",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetRootBoneName_TargetMeshHasEmptySkeleton:862b1e42",
+        "jp_sha256": "203480eeee740a0c2b38141ca4cdf4864b88bee7464c3e5021a7fa0709cb47b3",
+        "official_en_sha256": "ec984afb97b41d8e30837c8a580a696b21873517b820abdd1cd1db4ebef02c49"
+      },
+      "text": {
+        "jp": "GetRootBoneName：TargetMesh にボーン属性セットがありますが、空です (ボーンがまったく含まれていません)",
+        "official_en": "GetRootBoneName: TargetMesh has bone attributes set, but they are empty (doesn't contain a single bone)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetRootBoneName_TargetMeshHasNoBones:4b342088",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "GetRootBoneName_TargetMeshHasNoBones",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetRootBoneName_TargetMeshHasNoBones:4b342088",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetRootBoneName_TargetMeshHasNoBones:4b342088",
+        "jp_sha256": "1ba003cc845156ebc2184609dacf58b39f26cd80211b1d5047b9b9c736c41142",
+        "official_en_sha256": "ee8efee8dbf228561b441f6be06e0a4768201db5bc040bb89fe12a43532158aa"
+      },
+      "text": {
+        "jp": "GetRootBoneName：TargetMesh にボーン属性がありません",
+        "official_en": "GetRootBoneName: TargetMesh has no bone attributes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetRootBoneName_TargetMeshHasNoRootBone:5991547f",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "GetRootBoneName_TargetMeshHasNoRootBone",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetRootBoneName_TargetMeshHasNoRootBone:5991547f",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetRootBoneName_TargetMeshHasNoRootBone:5991547f",
+        "jp_sha256": "2146735dd3031b0ebf153bdecab3d3be5d344ee2dbfc7bc3a93766464b44cb71",
+        "official_en_sha256": "8e67b659a11df5db414ae471c6ad7e1b7ca6530b922e07f12db25260d319ab16"
+      },
+      "text": {
+        "jp": "GetRootBoneName：TargetMesh にルート ボーンがありません",
+        "official_en": "GetRootBoneName: TargetMesh has no root bone",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetRootBoneName_InvalidTargetMesh:aff48158",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "GetRootBoneName_InvalidTargetMesh",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetRootBoneName_InvalidTargetMesh:aff48158",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetRootBoneName_InvalidTargetMesh:aff48158",
+        "jp_sha256": "57ceb41584e2c5206db194dfeda921e82e6a78207abf4b615e30a600db087a53",
+        "official_en_sha256": "d1f381fbb80f6fabe9fa6d5b7df191078cc4d2fae33c71cceea365df954d7539"
+      },
+      "text": {
+        "jp": "GetRootBoneName：TargetMesh は Null です",
+        "official_en": "GetRootBoneName: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:PruneBoneWeights_InvalidBone:d10ff5bd",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "PruneBoneWeights_InvalidBone",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:PruneBoneWeights_InvalidBone:d10ff5bd",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:PruneBoneWeights_InvalidBone:d10ff5bd",
+        "jp_sha256": "0b17e69aae9ac918673f1203134a2fb1eab3cac354e46374d9e0be424267eac7",
+        "official_en_sha256": "479fd6230344ae42ed0cfd254f72dc974922ccceb6f3bfeecc2cebdbdd5ba90d"
+      },
+      "text": {
+        "jp": "無効なボーン「{0}」",
+        "official_en": "Invalid bone '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_InvalidBoneWeightIndex:cf8b0f3a",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "GetBoneCopyHierarchy_InvalidBoneWeightIndex",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_InvalidBoneWeightIndex:cf8b0f3a",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_InvalidBoneWeightIndex:cf8b0f3a",
+        "jp_sha256": "51981a0de91b1241233475a87a816cd12f94f221e4fea6c897c07ac66e8f43ce",
+        "official_en_sha256": "b0f6d006b5be590e3b0eb92c1c2545d62dd20d19b14e49e24f2bca1af9c4e91f"
+      },
+      "text": {
+        "jp": "無効なボーン インデックスがメッシュに見つかりました",
+        "official_en": "Invalid bone index found on mesh",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_MultpleBonesNoParents:0c291da0",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "ValidateBoneHierarchy_MultpleBonesNoParents",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_MultpleBonesNoParents:0c291da0",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_MultpleBonesNoParents:0c291da0",
+        "jp_sha256": "cd668f9fbc931770fa24f02abe088bbb868625155c3dfcce9dfd023a45871233",
+        "official_en_sha256": "76dc81f5df8595057921826340d8245ed5c832fdace771f41a1241777a750f4d"
+      },
+      "text": {
+        "jp": "複数のボーンが定義されていますが、親インデックスが存在しません",
+        "official_en": "Multiple bones defined but no parent indices present.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_MultpleRootBones:66e42b0b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "ValidateBoneHierarchy_MultpleRootBones",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_MultpleRootBones:66e42b0b",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_MultpleRootBones:66e42b0b",
+        "jp_sha256": "31c5949d587bc36c77264413b04a9fdff97eb0c5363123dae95f1f741f5bd318",
+        "official_en_sha256": "e026a4bb7b9193e30d9046a8bcd5711bd67fa008e7c182cd68abcf654ed77b2b"
+      },
+      "text": {
+        "jp": "複数のルート ボーンが見つかりました (「{0}」と「{1}」')",
+        "official_en": "Multiple root bones found ('{0}' and '{1}').",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_NoBones:8ff6488d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "ValidateBoneHierarchy_NoBones",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_NoBones:8ff6488d",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_NoBones:8ff6488d",
+        "jp_sha256": "a90026139d41080335b0253c923be2d187f3ec419852547e7c1a39a8aafa00db",
+        "official_en_sha256": "738dccb9abacd11789d926b037b0cdf5734d8c6a52df2b92584608f4ecbc0625"
+      },
+      "text": {
+        "jp": "メッシュでボーン属性が定義されていません",
+        "official_en": "No bone attributes defined on the mesh.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_InvalidParentBoneIndex:2dfd1791",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "ValidateBoneHierarchy_InvalidParentBoneIndex",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_InvalidParentBoneIndex:2dfd1791",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:ValidateBoneHierarchy_InvalidParentBoneIndex:2dfd1791",
+        "jp_sha256": "28c7332abc9223a771534d66b70588170e4305e14681897da4ae990267b19c2e",
+        "official_en_sha256": "e4cf0fe6cfc2f7349cd27467e1250fd6c547c1ff797916d348061ddf8a8ee029"
+      },
+      "text": {
+        "jp": "ボーン「{1}」の親ボーン インデックス {0} が無効です ({2} ボーンが定義)",
+        "official_en": "Parent bone index {0} for bone '{1}' is invalid ({2} bones defined).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:PruneBoneWeights_InvalidInput:fa9e915b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "PruneBoneWeights_InvalidInput",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:PruneBoneWeights_InvalidInput:fa9e915b",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:PruneBoneWeights_InvalidInput:fa9e915b",
+        "jp_sha256": "ccb2c52b91c92ea975ba85c3e22aa2617ca197fb9cf084286368b3731278c653",
+        "official_en_sha256": "09e58c108d27e18e3d44bd412f248a1db61d89fe1430dae5d41dacdc95158aec"
+      },
+      "text": {
+        "jp": "PruneBoneWeights：TargetMesh は Null です",
+        "official_en": "PruneBoneWeights: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:PruneBoneWeights_RootBoneInvalid:1ab4f289",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "PruneBoneWeights_RootBoneInvalid",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:PruneBoneWeights_RootBoneInvalid:1ab4f289",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:PruneBoneWeights_RootBoneInvalid:1ab4f289",
+        "jp_sha256": "e0a2fe28dcd936a23559463b0f95502712a6b2e16f3f62f0ee3f86d8644577a9",
+        "official_en_sha256": "99b0d6fb9bc84d732d8592e5119bab1e66cee21038e3d1c1c1174097d78dc7b0"
+      },
+      "text": {
+        "jp": "ルート ボーンのプルーニングは許可されていません",
+        "official_en": "Pruning the root bone is not allowed",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:SetAllVertexBoneWeights_InvalidInput:29068e52",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "SetAllVertexBoneWeights_InvalidInput",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:SetAllVertexBoneWeights_InvalidInput:29068e52",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:SetAllVertexBoneWeights_InvalidInput:29068e52",
+        "jp_sha256": "f75f4fcc73216566cc93b22d2ab960aa99220b25c79aaf52393c126b9844bc21",
+        "official_en_sha256": "92c34a3ac53fd5c5dd91c22dbc14a8852d352c7fd2f449c14e8fe5e838853996"
+      },
+      "text": {
+        "jp": "SetAllVertexBoneWeights：無効なボーン インデックスが指定されると、ボーン インデックスは 0 にフォールバックします",
+        "official_en": "SetAllVertexBoneWeights: Invalid bone index provided; falling back to 0 as bone index.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:SetVertexBoneWeights_InvalidInput:0a86a8dc",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "SetVertexBoneWeights_InvalidInput",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:SetVertexBoneWeights_InvalidInput:0a86a8dc",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:SetVertexBoneWeights_InvalidInput:0a86a8dc",
+        "jp_sha256": "9ad78edac67d48ea237d564a9a31941ce8db422289ee08a7fe6a1986d984d457",
+        "official_en_sha256": "ca45e27f0dbb9b967d3bb37f5036a65724b6f82c36bae217ebfc49fc19eb1f53"
+      },
+      "text": {
+        "jp": "SetVertexBoneWeights：無効なボーン インデックスが指定されると、ボーン インデックスは 0 にフォールバックします",
+        "official_en": "SetVertexBoneWeights: Invalid bone index provided; falling back to 0 as bone index.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_EmptyBones:cb15d35b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "TransferBoneWeightsFromMesh_EmptyBones",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_EmptyBones:cb15d35b",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_EmptyBones:cb15d35b",
+        "jp_sha256": "fd8e56004c0ecc82675b48206f478d0a9005632f26957ab19976e1d0064b91ee",
+        "official_en_sha256": "efec0148a9612f24acce2105bea671c006161d01f627ef04d99d943d8b6ecddb"
+      },
+      "text": {
+        "jp": "ソース メッシュには空のボーン属性があります",
+        "official_en": "Source Mesh has an empty bone attribute",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_NoBones:dfb75177",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "TransferBoneWeightsFromMesh_NoBones",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_NoBones:dfb75177",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_NoBones:dfb75177",
+        "jp_sha256": "c707e317aac84b3afedc44ce9b2395a88580a430310a92973fc401a340181363",
+        "official_en_sha256": "ad9d8a6fa003fc636a7f25742abc4908994290864b3053f4a57c9de0e02b1c59"
+      },
+      "text": {
+        "jp": "ソース メッシュにボーン属性がありません",
+        "official_en": "Source Mesh has no bone attribute",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:CopyBonesFromMesh_InvalidSourceMeshBones:7595e8e2",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "CopyBonesFromMesh_InvalidSourceMeshBones",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:CopyBonesFromMesh_InvalidSourceMeshBones:7595e8e2",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:CopyBonesFromMesh_InvalidSourceMeshBones:7595e8e2",
+        "jp_sha256": "a879f5ef4601b9af4a331005bf87fdd5371bdf165f64ed6c86e988555f9868cb",
+        "official_en_sha256": "b7bf8ccfab086e489ee788c6c8d6546dd64f7e42ffd90cce6c05ac7d4327cb72"
+      },
+      "text": {
+        "jp": "SourceMesh には無効なボーン属性があります",
+        "official_en": "SourceMesh has invalid bone attributes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:CopyBonesFromMesh_SourceMeshHasNoBones:ab3f6a53",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "CopyBonesFromMesh_SourceMeshHasNoBones",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:CopyBonesFromMesh_SourceMeshHasNoBones:ab3f6a53",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:CopyBonesFromMesh_SourceMeshHasNoBones:ab3f6a53",
+        "jp_sha256": "6216ae470cde4f8679068ccb91db433976aa7a6c80c94c44947430070ddd5178",
+        "official_en_sha256": "b9b326e108a9dbc2e9756d66deb31aa13b1ff80e8f8800d59de72ac216f37b03"
+      },
+      "text": {
+        "jp": "SourceMesh にはボーン属性がありません",
+        "official_en": "SourceMesh has no bone attributes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_BoneNotFound:7bd5251b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "GetBoneCopyHierarchy_BoneNotFound",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_BoneNotFound:7bd5251b",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_BoneNotFound:7bd5251b",
+        "jp_sha256": "b472ed753bb57a692d615bbf8d9200fca081e10d88d610ee04dc722f98480de8",
+        "official_en_sha256": "f25daa76488f022d118c54e3c8b1c79e9e7454951f9faa8965c215264de116d3"
+      },
+      "text": {
+        "jp": "ターゲット ボーン「{0}」がソース メッシュに見つかりません",
+        "official_en": "Target bone '{0}' not found on source mesh.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_NoBoneName:6ca0d5f7",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "GetBoneCopyHierarchy_NoBoneName",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_NoBoneName:6ca0d5f7",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_NoBoneName:6ca0d5f7",
+        "jp_sha256": "50d89ec5f2903004127903efa3f4c790f1d6a5bfcf5dcd2a890fafeb985e78be",
+        "official_en_sha256": "7a0bfe1449a6118d55b1add04f857f761637b977c907b1f968611d6a81fe99aa"
+      },
+      "text": {
+        "jp": "インデックス {0} のターゲット ボーンに名前がありません",
+        "official_en": "Target bone at index {0} has no name.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:PruneBoneWeights_NoBones:a9c43aa8",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "PruneBoneWeights_NoBones",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:PruneBoneWeights_NoBones:a9c43aa8",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:PruneBoneWeights_NoBones:a9c43aa8",
+        "jp_sha256": "4a49b3f4d7dcea2d6813fa426a2e77ce8e03e36e6cc73fac901b427ab7b38558",
+        "official_en_sha256": "82369eb7e107608404963b2ce01870a73913ac5ba336fb8d3515b70ff5ac79d3"
+      },
+      "text": {
+        "jp": "ターゲット メッシュにボーン属性がありません",
+        "official_en": "Target mesh has no bone attribute",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_NoTargetBonesDefined:6ec80a49",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "GetBoneCopyHierarchy_NoTargetBonesDefined",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_NoTargetBonesDefined:6ec80a49",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:GetBoneCopyHierarchy_NoTargetBonesDefined:6ec80a49",
+        "jp_sha256": "031bd3e1548c7fbfb5388b14535e136329cbdbbf5e9706ab07af79efa484db40",
+        "official_en_sha256": "56a285626edf7263ec65b00ff48071319a3d251b3cdd67b191289117c155dbe6"
+      },
+      "text": {
+        "jp": "ターゲット メッシュに、すべてのボーンをコピーするわけではないときに必要なボーン名が定義されていません",
+        "official_en": "Target mesh has no bone names defined which is needed when not copying all bones",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_TransferFailed:5db1a343",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "TransferBoneWeightsFromMesh_TransferFailed",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_TransferFailed:5db1a343",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_TransferFailed:5db1a343",
+        "jp_sha256": "8e41837b0b6829b00e491c6e833f5aefaa954a3f90a0bbef9f337ea0375610a2",
+        "official_en_sha256": "06c7a0e802edc0ecfe3d29c088959e641f16ebd228ae72eba15b158458d47523"
+      },
+      "text": {
+        "jp": "TransferBoneWeightsFromMesh：ウェイトを転送できませんでした",
+        "official_en": "TransferBoneWeightsFromMesh: Failed to transfer the weights",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_ValidationFailed:e0478c41",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "TransferBoneWeightsFromMesh_ValidationFailed",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_ValidationFailed:e0478c41",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_ValidationFailed:e0478c41",
+        "jp_sha256": "9af888aae53deeacc9358ea6227e48dc07890b6a8cbadcbc6a1473ff18c55e11",
+        "official_en_sha256": "c62f376e28a2cbc82d031132a362e211095c98d6655ceb15a0aaa2230545a6ba"
+      },
+      "text": {
+        "jp": "TransferBoneWeightsFromMesh：無効なパラメータが転送ウェイト演算子に設定されました",
+        "official_en": "TransferBoneWeightsFromMesh: Invalid parameters were set for the transfer weight operator",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_InvalidSourceMesh:bfbfd5c9",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "TransferBoneWeightsFromMesh_InvalidSourceMesh",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_InvalidSourceMesh:bfbfd5c9",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_InvalidSourceMesh:bfbfd5c9",
+        "jp_sha256": "3afcc30983bb0fc400c9d784e58a43e165e8dfafc560cdedf59d97a95d55aa4b",
+        "official_en_sha256": "2c6ca68473fc0e688b57fcb1c50e154998d6347a8a03acbfa5eddccf549437ed"
+      },
+      "text": {
+        "jp": "TransferBoneWeightsFromMesh：ソース メッシュが Null です",
+        "official_en": "TransferBoneWeightsFromMesh: Source Mesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_InvalidTargetMesh:fc4fa616",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "TransferBoneWeightsFromMesh_InvalidTargetMesh",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_InvalidTargetMesh:fc4fa616",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_InvalidTargetMesh:fc4fa616",
+        "jp_sha256": "0c53def58b72de10c3a11821cac05f37324ed72b2f8cbf0242bf3d1b1d6d6ea9",
+        "official_en_sha256": "372f0aedded7cec361135807aa0900345a1ef6c99287a05d8c7b984f5cc90b69"
+      },
+      "text": {
+        "jp": "TransferBoneWeightsFromMesh：Target Mesh が Null です",
+        "official_en": "TransferBoneWeightsFromMesh: Target Mesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_NoTargetMeshBones:ace66b28",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "TransferBoneWeightsFromMesh_NoTargetMeshBones",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_NoTargetMeshBones:ace66b28",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:TransferBoneWeightsFromMesh_NoTargetMeshBones:ace66b28",
+        "jp_sha256": "132ad5d03db167e39375ae3ce63df5eea121d13a5312ec5bd54caf4fa27b3500",
+        "official_en_sha256": "6e0512620186017f29a34cf7431fc81792382c812297e6062e4d7d5ae15e4809"
+      },
+      "text": {
+        "jp": "TransferBoneWeightsFromMesh：TargetMesh にはボーン属性がありませんが、OutputTargetMeshBones オプションは TargetBones に設定されています",
+        "official_en": "TransferBoneWeightsFromMesh: TargetMesh has no bone attributes but the OutputTargetMeshBones option is set to TargetBones",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:PruneBoneWeights_UnknownProfile:06c843e4",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshBoneWeightFunctions",
+        "key": "PruneBoneWeights_UnknownProfile",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:PruneBoneWeights_UnknownProfile:06c843e4",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshBoneWeightFunctions:PruneBoneWeights_UnknownProfile:06c843e4",
+        "jp_sha256": "b807053660f4dbb5f35115e1432c85fabd44f33441e797f3809e8fa6658f038b",
+        "official_en_sha256": "b3c1c29ce43b62784f15f8712201c4c65f27fdf8ce14ae7abe8fb700f9776ec5"
+      },
+      "text": {
+        "jp": "不明なスキンウェイトプロファイル「{0}」",
+        "official_en": "Unknown skin weight profile '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGLoadDataAssetElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGLoadDataAssetElement:TagFailedToSetDefaultValue:8a607dc9",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLoadDataAssetElement",
+        "key": "TagFailedToSetDefaultValue",
+        "jp_record_id": "switch:locres:set-01:PCGLoadDataAssetElement:TagFailedToSetDefaultValue:8a607dc9",
+        "official_en_record_id": "switch:locres:set-01:PCGLoadDataAssetElement:TagFailedToSetDefaultValue:8a607dc9",
+        "jp_sha256": "18f379ebfd8ace4c3120e23bf8040c4086dfa0306b9a485d87abe0d3aef95d74",
+        "official_en_sha256": "5080f9a919858cd6ecb4c90372668b349f61bbd0f9e02eee84da99b4072af23d"
+      },
+      "text": {
+        "jp": "デフォルト タグ値「{0}」をターゲット アセット データに設定できませんでした。型の不一致が最も可能性がある原因です",
+        "official_en": "Default Tag Value '{0}' failed to set its value to the target asset data, most likely due to type mismatch.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLoadDataAssetElement:DefaultTypeDoesNotMatchAssetType:45c7e0c7",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLoadDataAssetElement",
+        "key": "DefaultTypeDoesNotMatchAssetType",
+        "jp_record_id": "switch:locres:set-01:PCGLoadDataAssetElement:DefaultTypeDoesNotMatchAssetType:45c7e0c7",
+        "official_en_record_id": "switch:locres:set-01:PCGLoadDataAssetElement:DefaultTypeDoesNotMatchAssetType:45c7e0c7",
+        "jp_sha256": "9b87e1176269be4b87196b4e7a6aa1b95e94538a1a4aa22f5f3a8912e34e28c5",
+        "official_en_sha256": "12237c90d567761f375cc26d28b2e5e3a3cba5b3c7a13ec323c9e8389081b850"
+      },
+      "text": {
+        "jp": "デフォルト値「{0}」に、アセットの元の型 (「{2}」) に対する互換型 (「{1}」) がありません。スキップされます",
+        "official_en": "Default value '{0}' does not have a compatible type ('{1}') to its original type ('{2}') in the asset. Will be skipped.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

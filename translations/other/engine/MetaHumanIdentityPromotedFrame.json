@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MetaHumanIdentityPromotedFrame",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MetaHumanIdentityPromotedFrame:PromotedFrameFaceTrackingWarning:da977d5b",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanIdentityPromotedFrame",
+        "key": "PromotedFrameFaceTrackingWarning",
+        "jp_record_id": "switch:locres:set-01:MetaHumanIdentityPromotedFrame:PromotedFrameFaceTrackingWarning:da977d5b",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanIdentityPromotedFrame:PromotedFrameFaceTrackingWarning:da977d5b",
+        "jp_sha256": "c14ac99a3f736c1b3798596bbecc7e8fe5b10f85f531ebbfd0a1695bb8704385",
+        "official_en_sha256": "c2318a57e2a4ead72b5715688612aee55cac3234e58a6caaf8ee578dfd6fdc4b"
+      },
+      "text": {
+        "jp": "プロモートされたフレームで顔の輪郭をトラッキングできませんでした",
+        "official_en": "Failed to track facial contours in the promoted frame.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetaHumanIdentityPromotedFrame:PromotedFrameFaceWidthDiagnosticsWarningMessage:1bf11afe",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanIdentityPromotedFrame",
+        "key": "PromotedFrameFaceWidthDiagnosticsWarningMessage",
+        "jp_record_id": "switch:locres:set-01:MetaHumanIdentityPromotedFrame:PromotedFrameFaceWidthDiagnosticsWarningMessage:1bf11afe",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanIdentityPromotedFrame:PromotedFrameFaceWidthDiagnosticsWarningMessage:1bf11afe",
+        "jp_sha256": "b44a5cca32a2e765c82bb60ed641775b92dbfe99cd016336901300f2fc7f8c8e",
+        "official_en_sha256": "b6844dc8562c7314d7e16e3e54720087acb09adc4a460f70bf7aa4670ec0ff30"
+      },
+      "text": {
+        "jp": "プロモートされたフレームに、深度マップ内の {0} ピクセル未満の幅の面が含まれていました。\n良好なアニメーション結果を得るには、顔が画像より広い領域をカバーしていることを確認してください",
+        "official_en": "The promoted frame contained a face of width less than {0} pixels in the depth-map.\nPlease ensure that the face covers a larger area of the image in order to obtain good animation results.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetaHumanIdentityPromotedFrame:PromotedFrameFaceDepthMapDiagnosticsWarning1:bf2f6f29",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanIdentityPromotedFrame",
+        "key": "PromotedFrameFaceDepthMapDiagnosticsWarning1",
+        "jp_record_id": "switch:locres:set-01:MetaHumanIdentityPromotedFrame:PromotedFrameFaceDepthMapDiagnosticsWarning1:bf2f6f29",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanIdentityPromotedFrame:PromotedFrameFaceDepthMapDiagnosticsWarning1:bf2f6f29",
+        "jp_sha256": "e68c4786bb70cac0e03a230c834dd9c313ce707a5bd93873514cb27a37754d39",
+        "official_en_sha256": "2722011e0844f6f1f344dbfc55a5708cb0a0d67307de591d68c505afee77a3c4"
+      },
+      "text": {
+        "jp": "プロモートされたフレームの顔の領域に含まれる有効な深度マップ ピクセルが {0}% 未満でした。\n深度マップをチェックし、顔の領域が適切にカバーされていることを確認してください。これを修正するのに、CaptureSource アセットで Min Distance プロパティや Max Distance プロパティをより適切なものに設定して、キャプチャ データを再取り込みする必要がある場合があります",
+        "official_en": "The promoted frame contained less than {0}% valid depth-map pixels in the region of the face.\nPlease check the depth-map and ensure that there is adequate coverage in the region of the face; you may need to re-ingest your capture data with better Min Distance and/or Max Distance properties set in the CaptureSource asset in order to fix this.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

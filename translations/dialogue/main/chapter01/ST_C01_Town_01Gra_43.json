@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_C01_Town_01Gra_43",
+    "scene_id": "ST_C01_Town_01Gra_43",
+    "chapter": "chapter01",
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_C01_Town_01Gra_43:Town_01Gra_43_001:bd3783e4",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_C01_Town_01Gra_43",
+        "key": "Town_01Gra_43_001",
+        "jp_record_id": "switch:locres:set-02:ST_C01_Town_01Gra_43:Town_01Gra_43_001:bd3783e4",
+        "official_en_record_id": "switch:locres:set-02:ST_C01_Town_01Gra_43:Town_01Gra_43_001:bd3783e4",
+        "jp_sha256": "853247b2105d9244ce8e608b4370ce0a92945b931a212a95b37062edb37bb3aa",
+        "official_en_sha256": "505d2f56f1a5b16ab4f35a3c5d22215090932e1b326ad28bd335144cb4b4a912"
+      },
+      "text": {
+        "jp": "傷の手当てはお任せください！",
+        "official_en": "If either of you are wounded, I would be honored to treat you!",
+        "real_en": "Leave the first aid to me!"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_C01_Town_01Gra_43",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "兵士",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0022",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_C01_Town_01Gra_43/Town_01Gra_43_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_C01_Town_01Gra_43:Town_01Gra_43_002:43df7c72",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_C01_Town_01Gra_43",
+        "key": "Town_01Gra_43_002",
+        "jp_record_id": "switch:locres:set-02:ST_C01_Town_01Gra_43:Town_01Gra_43_002:43df7c72",
+        "official_en_record_id": "switch:locres:set-02:ST_C01_Town_01Gra_43:Town_01Gra_43_002:43df7c72",
+        "jp_sha256": "1a54f20c6f154bab377414ffb7fcceff24f11e80c1876ba04c87dda8f3786479",
+        "official_en_sha256": "faa63c98656042e9076031f7fc4a0cae6c978cf5ddba07e6b983ad67b42ffee8"
+      },
+      "text": {
+        "jp": "支給品だけでは足りないようでしたら、\r\nこちらにご用意ございます。\r\n……費用はかかってしまいますが。",
+        "official_en": "If you’re in need of supplies, I have some here...though I’m afraid I’ll have to charge you.",
+        "real_en": "If the supplies you've been issued aren't enough, I have more here... though I'm afraid I'll have to charge you."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_C01_Town_01Gra_43",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "兵士",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0022",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_C01_Town_01Gra_43/Town_01Gra_43_002"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

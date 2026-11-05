@@ -1,0 +1,2236 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_EventDialog",
+    "scene_id": "ST_EventDialog",
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_059:57bbdcca",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_059",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_059:57bbdcca",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_059:57bbdcca",
+        "jp_sha256": "17145d9baee7d75e7ef09cf726ee94fa32c142346c1cb287b92395d6c354d8b1",
+        "official_en_sha256": "da8944ef02dc90de95ba3cd54c73ee138be2f078fa8952f2ab432e9ad2a4032d"
+      },
+      "text": {
+        "jp": "{name}が{skill}を覚えた！",
+        "official_en": "{name} learned {skill}!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_020:a8347ba5",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_020",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_020:a8347ba5",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_020:a8347ba5",
+        "jp_sha256": "6ae107086f3c6145b6014ba2c12ffc15050087f541ecfbc18efb672cc2e3e4de",
+        "official_en_sha256": "94ab31101b88b97c03b986d675f865027333cfdd3e30be4fc9272a48d79da142"
+      },
+      "text": {
+        "jp": "{name}の「{status}」が、{value}上がった！",
+        "official_en": "{name}’s {status} increased by {value}!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_034:f705ec7c",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_034",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_034:f705ec7c",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_034:f705ec7c",
+        "jp_sha256": "c563bec3e26dffaa1ed5af5f82a12c15017c9aebaa9f96a1e753532b953a53c3",
+        "official_en_sha256": "ba97b8293cd9374da00f304bce676ff928c76f41c5973a7e9082eea45d7cd3cf"
+      },
+      "text": {
+        "jp": "この先に進むと、後戻りはできません。\r\nしっかり準備を整えてから\r\n先へ進まれることをお勧めします。\r\n\r\n本当に先へ進みますか？",
+        "official_en": "There is no going back from here. Make sure you are fully prepared before pressing on. Do you still wish to proceed?",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_040:b4323f6b",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_040",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_040:b4323f6b",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_040:b4323f6b",
+        "jp_sha256": "b11970605a8402cb40b7dbe6e2ef23f2b2fec81106fe914a49d34a13cc7753df",
+        "official_en_sha256": "a2c78e0afc10bead45b493b3cced0dc5f0226640a3c0d4d026c0786632dbe5d5"
+      },
+      "text": {
+        "jp": "アイリーンに{Item}を\r\n作ってもらった！",
+        "official_en": "Received {Item} from Aileen!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_053:cf169360",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_053",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_053:cf169360",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_053:cf169360",
+        "jp_sha256": "1744abd3f8ff287a14a2c89cd0ee143f2b7741f9166ad0d19f5c62bb01e75e37",
+        "official_en_sha256": "e38b0a48f7a6ebfe61cf41c997fd449c6359dca0df6d80b7a86779950f005312"
+      },
+      "text": {
+        "jp": "イフリートの召喚",
+        "official_en": "Esper: Ifrit",
+        "real_en": "Summon Ifrit"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_024:9488c0c4",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_024",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_024:9488c0c4",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_024:9488c0c4",
+        "jp_sha256": "cbe2cda743e406283e659546d39e716cbebe1441a097a666c1cfb483417ececd",
+        "official_en_sha256": "edfd97c55d65fbfae7ef78195969cd105ca3584e3f69108a5110ed5c90493b79"
+      },
+      "text": {
+        "jp": "イフリートを召喚できるようになった！",
+        "official_en": "You can now summon Ifrit!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_056:52f35048",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_056",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_056:52f35048",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_056:52f35048",
+        "jp_sha256": "6fa625ce1d21b0ee9d61af5a8b5bf544ab2cb26b758d6f092ce12ac801cc7cc1",
+        "official_en_sha256": "465d8d2fc7e0d90ce9d2b8e5140b4a93ed39ede5ebc6c9794742f2ddc8e7b906"
+      },
+      "text": {
+        "jp": "オーディンの召喚",
+        "official_en": "Esper: Odin",
+        "real_en": "Summon Odin"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_027:dc29f6fc",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_027",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_027:dc29f6fc",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_027:dc29f6fc",
+        "jp_sha256": "9c55a3bb67e724d543771fee4427dea224de3d302142524ea3ad3dc66eca4b9e",
+        "official_en_sha256": "4f144de51ae74c64c6f808751a8c3195379d88d918c9e167b632585b2664cbff"
+      },
+      "text": {
+        "jp": "オーディンを召喚できるようになった！",
+        "official_en": "You can now summon Odin!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_075:578f035b",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_075",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_075:578f035b",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_075:578f035b",
+        "jp_sha256": "550119519eed40cb76492b812ad61a407c5f1b06db50ea9c7250fbe77f64a499",
+        "official_en_sha256": "4bdeb15ef7871034ca83790fa448568a48d67c30f624a3c503676116163de351"
+      },
+      "text": {
+        "jp": "カウント",
+        "official_en": "Jumps",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_057:423d77d2",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_057",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_057:423d77d2",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_057:423d77d2",
+        "jp_sha256": "20224a0311aa0846c35821bd8a705a07a4d806547726cd01fb2be09e9b58743f",
+        "official_en_sha256": "3a1c1fcf21372d0fe9efe87c2855560aebf1603fca8ca10c0e6fb6aae937efe3"
+      },
+      "text": {
+        "jp": "カーバンクルの召喚",
+        "official_en": "Esper: Carbuncle",
+        "real_en": "Summon Carbuncle"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_028:cc4f1fa8",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_028",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_028:cc4f1fa8",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_028:cc4f1fa8",
+        "jp_sha256": "0ababa098a2981bbb5a245b2930f0ec1d343e63f0799944d4140beda14de9a88",
+        "official_en_sha256": "eab5880791c33eba16588e005626bf9b6f8f089d0cbe1029f564a5b2ed9d4f86"
+      },
+      "text": {
+        "jp": "カーバンクルを召喚できるようになった！",
+        "official_en": "You can now summon Carbuncle!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_061:83d5fe00",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_061",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_061:83d5fe00",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_061:83d5fe00",
+        "jp_sha256": "a90937ea9772f864bf0bea15a1529620cc8e83304000080cddae372ddd09f4e5",
+        "official_en_sha256": "27320f0aa6ae89afba84a676af02a12fb25ec0b608d0a86fdb4c394ba2a777bc"
+      },
+      "text": {
+        "jp": "クリアデータをロードすることで、\r\n最終エリア突入前の状態から再開することができます。\r\n\r\nクリアデータを作成しますか？",
+        "official_en": "By saving your cleared game data, you can resume playing just before the final area.\nCreate cleared save data now?",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "空白",
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_EventDialog/EventDialog_061"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_031:ba040807",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_031",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_031:ba040807",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_031:ba040807",
+        "jp_sha256": "3d0caf14ee2825c394003469136fdfcfb2842ed1b2b7a872aa696014acbc5221",
+        "official_en_sha256": "171c9d82c706ab73fb40e1bf3a6634adc483967a427e9e9f108a514a354f8e6e"
+      },
+      "text": {
+        "jp": "ゴロノア大陸の沼を越えられるようになった！",
+        "official_en": "You can now traverse the bog in Gronoa!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_070:c44835a1",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_070",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_070:c44835a1",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_070:c44835a1",
+        "jp_sha256": "fa7d83427b97df7e36461dfa2f5a0b6c250db6c3d5a8842d54aa9ee61f480f9e",
+        "official_en_sha256": "dfea0237abe15243d054c68f75212d0eef09df8ab3b876a647b645fdf7806a3a"
+      },
+      "text": {
+        "jp": "サクラのステータスが上がった！\r\n　\r\nHP ＋１００\r\nMP＋３０\r\n魔力＋３０\r\n精神＋２０",
+        "official_en": "Sakura’s attributes increased!\r\n\r\nHP +100\r\nMP +30\r\nMagic +30\r\nSpirit +20",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_054:795c8ce7",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_054",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_054:795c8ce7",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_054:795c8ce7",
+        "jp_sha256": "e723158793dba8e4ceb423a672212e03f1569e7dc9ce163fe40d537c7de80102",
+        "official_en_sha256": "0d8dc4450cd1e3af3366c074cdb8058e482e088aff7b815d9279069012f4b2b8"
+      },
+      "text": {
+        "jp": "シヴァの召喚",
+        "official_en": "Esper: Shiva",
+        "real_en": "Summon Shiva"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_025:4fc811d9",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_025",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_025:4fc811d9",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_025:4fc811d9",
+        "jp_sha256": "897e50d3dd8ff3fd2b513a764bad618041a8f31389176f6312af51caa9114d57",
+        "official_en_sha256": "454e727f8b9ffd537479e28940eac62a3e03a1c4ea86230fcb503cc698678d41"
+      },
+      "text": {
+        "jp": "シヴァを召喚できるようになった！",
+        "official_en": "You can now summon Shiva!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_069:a91a016b",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_069",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_069:a91a016b",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_069:a91a016b",
+        "jp_sha256": "1cd7315aa2ecfc7fd9c958a17e189b93b2cd967515a83676b878d91ee295861b",
+        "official_en_sha256": "0b5ece2e8feba3bd55e86b7e56d05e1d1c8031ef207d5d60cfde7b9950e3cf90"
+      },
+      "text": {
+        "jp": "ジェイクのステータスが上がった！\r\n　\r\nHP ＋１００\r\nMP＋３０\r\n力＋３０\r\n体力＋２０",
+        "official_en": "Jake’s attributes increased!\r\n\r\nHP +100\r\nMP +30\r\nStrength +30\r\nStamina +20",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_048:d9909ccf",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_048",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_048:d9909ccf",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_048:d9909ccf",
+        "jp_sha256": "16f281fb88977e0d22b4ca7b142cc99a59c60d4a8dacdaa66ef9516a13674266",
+        "official_en_sha256": "76b2a02c9b293cc081065050ffd9f9f23ce7a723a621a8fcc62faca8ed7fbbe0"
+      },
+      "text": {
+        "jp": "ステータスボーナス：サクラ",
+        "official_en": "Attribute Bonus: Sakura",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_047:6cf04f15",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_047",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_047:6cf04f15",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_047:6cf04f15",
+        "jp_sha256": "201a4fbb07536c90e58fef0d7f51eb789ba9bde6c4436f1490fcf83d7f218a34",
+        "official_en_sha256": "7d4c2893ee72d3755ea46d2f4fc5709c534442dfbdaf83dc28433385f5015770"
+      },
+      "text": {
+        "jp": "ステータスボーナス：ジェイク",
+        "official_en": "Attribute Bonus: Jake",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_045:7c8e9958",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_045",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_045:7c8e9958",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_045:7c8e9958",
+        "jp_sha256": "14f0a5a9ee3be24aee7113cad2e726db1146877e33ff109fb62a6b7fc29be525",
+        "official_en_sha256": "8f5ce1e915fa796e4a453107c59f92633c9b0701b802f9c110e83afa6ef9cb40"
+      },
+      "text": {
+        "jp": "ステータスボーナス：ニコル",
+        "official_en": "Attribute Bonus: Nichol",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_043:c081cac1",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_043",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_043:c081cac1",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_043:c081cac1",
+        "jp_sha256": "eb9bc514e7b27cdb38b3090fd7db93a5aecb57c6892f08dc874c787731b02d54",
+        "official_en_sha256": "801ff5e1309fc29867849aa83f2c3ce4bc417744d4623ad73b152d54f55c6fc9"
+      },
+      "text": {
+        "jp": "ステータスボーナス：フィーナ",
+        "official_en": "Attribute Bonus: Fina",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_042:8a2c957d",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_042",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_042:8a2c957d",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_042:8a2c957d",
+        "jp_sha256": "f3feffab0e267d6e1551478aaf9d2a3093ae34196ea716360467ca0ab93270de",
+        "official_en_sha256": "5259ada2e7747aafee360eb3b228813c9b2dbee33a595f63624b7ed039ece41f"
+      },
+      "text": {
+        "jp": "ステータスボーナス：ラスウェル",
+        "official_en": "Attribute Bonus: Lasswell",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_044:4dcfa411",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_044",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_044:4dcfa411",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_044:4dcfa411",
+        "jp_sha256": "4a97f4c7ca459b1a34a5cf087509e8a9fef13acbee90310c23b48df67a5b26c3",
+        "official_en_sha256": "7d45d1b0c8b6aed4efab9b6cbbe293f818253276c8e566057aa0e9acf476bae4"
+      },
+      "text": {
+        "jp": "ステータスボーナス：リド",
+        "official_en": "Attribute Bonus: Lid",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_041:a675c01d",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_041",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_041:a675c01d",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_041:a675c01d",
+        "jp_sha256": "32d4842816d8a85e0373e15f30d7b5e2588655ebaf62b783b9a0816e2ed25db7",
+        "official_en_sha256": "c336f404c902f361c1d41a1287d46297deb34bdc972b60d9c6c7f5188c9869b1"
+      },
+      "text": {
+        "jp": "ステータスボーナス：レイン",
+        "official_en": "Attribute Bonus: Rain",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_046:486d0968",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_046",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_046:486d0968",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_046:486d0968",
+        "jp_sha256": "d92da351f58e758502f80f5f71e0d06b34501d261e19085b06360c046bd0ecf8",
+        "official_en_sha256": "1431e22fe372dd05197586550830a3e078de627fca653b2f64777d4729daf86a"
+      },
+      "text": {
+        "jp": "ステータスボーナス：魔人フィーナ",
+        "official_en": "Attribute Bonus: Archwitch Fina",
+        "real_en": "Attribute Bonus: Dark Fina"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_050:9ba692d9",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_050",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_050:9ba692d9",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_050:9ba692d9",
+        "jp_sha256": "328f104e2f054b0019c27aa15135e4384fa74e7e0f171f2017f66e3456a1b2d9",
+        "official_en_sha256": "0d8dc4450cd1e3af3366c074cdb8058e482e088aff7b815d9279069012f4b2b8"
+      },
+      "text": {
+        "jp": "セイレーンの召喚",
+        "official_en": "Esper: Shiva",
+        "real_en": "Summon Siren"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_021:b3c9b451",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_021",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_021:b3c9b451",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_021:b3c9b451",
+        "jp_sha256": "499bbfd7c04d5d2956ca5b5c68478c46d7c4f77f7a0ce26ae1aa7302b15558fb",
+        "official_en_sha256": "877365c60bf2af001f6d4947cdb0defe738bd9b9e2e50bbab04c96e75c586ea1"
+      },
+      "text": {
+        "jp": "セイレーンを召喚できるようになった！",
+        "official_en": "You can now summon Siren!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_055:4a9b3c25",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_055",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_055:4a9b3c25",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_055:4a9b3c25",
+        "jp_sha256": "f8472e738505da94f7925fdd0f66ce568f64e708647ad95e793c4b59cab4e0c6",
+        "official_en_sha256": "c86047a767b7414e11a55a51d0f6e57c18a35cc5fb5a7f216f3be1d11df2abca"
+      },
+      "text": {
+        "jp": "タイタンの召喚",
+        "official_en": "Esper: Titan",
+        "real_en": "Summon Titan"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_026:49869e67",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_026",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_026:49869e67",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_026:49869e67",
+        "jp_sha256": "d5a2ad3527ba18b80c32d235cff8f149958ccc52171e6be02ebe1065f2edc5d9",
+        "official_en_sha256": "616936059c97461adbe6ed297c29a71f9948095750d8bdbdec0c28cffaf7e182"
+      },
+      "text": {
+        "jp": "タイタンを召喚できるようになった！",
+        "official_en": "You can now summon Titan!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_073:7b6761d3",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_073",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_073:7b6761d3",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_073:7b6761d3",
+        "jp_sha256": "6a668da0adcddf66c501dc5e8fb4382fae6a63126a68ea56c5b3dc6a88337fed",
+        "official_en_sha256": "9160c7eb54cdf91f7edc38fb1ac419a2f3554e371d11633162ddd6be9472b44f"
+      },
+      "text": {
+        "jp": "ディルマギアの桟橋と、グランポートから\r\nオルデリオンに移動できるようになりました。\r\n\r\n大陸間の移動には、船を利用しましょう。",
+        "official_en": "You can now travel to Olderion from Grandport and the pier near Dilmagia.\r\nBoard the ship if you wish to sail between the different continents.",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_067:40f451e4",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_067",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_067:40f451e4",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_067:40f451e4",
+        "jp_sha256": "7609db11a0589b3e994a3c7448b5a47a49afcda03464fae6c2456955d1d10400",
+        "official_en_sha256": "59de676d8a55ebd73518ebc1e75031d6de8fe35c8bc40a906549841bf89195f9"
+      },
+      "text": {
+        "jp": "ニコルのステータスが上がった！\r\n　\r\nHP ＋１００\r\nMP＋３０\r\n魔力＋３０\r\n速度＋２０",
+        "official_en": "Nichol’s attributes increased!\r\n\r\nHP +100\r\nMP +30\r\nMagic +30\r\nSpeed +20",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_058:755e414f",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_058",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_058:755e414f",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_058:755e414f",
+        "jp_sha256": "2b419e0a6aa29b9610fa2ef61b9007099df17b6eb6a2d07f301cd3cf99691b09",
+        "official_en_sha256": "6ad9aa9b82ae34f698d433890d439036000ed9284ce1380cb129075c612d6c9b"
+      },
+      "text": {
+        "jp": "バハムートの召喚",
+        "official_en": "Esper: Bahamut",
+        "real_en": "Summon Bahamut"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_029:2f4468a8",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_029",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_029:2f4468a8",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_029:2f4468a8",
+        "jp_sha256": "964651daf16d33a001da2f030c308945d3aab3efcf311a4f34801f49e9d5479e",
+        "official_en_sha256": "2ae9bbeca7c4dbeb835a914008c2416ed65a069bed10abb4bcf4ef36969dccff"
+      },
+      "text": {
+        "jp": "バハムートを召喚できるようになった！",
+        "official_en": "You can now summon Bahamut!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_030:8a78fb2e",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_030",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_030:8a78fb2e",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_030:8a78fb2e",
+        "jp_sha256": "5b6abddee9651646f108fea5a48329584fb40e1a85eea025277c4edde7e5fb3e",
+        "official_en_sha256": "2cfbf35a9abb03fed5a20fe3bdb5c322b487650f471fc5c8f4ef41c23c0baf39"
+      },
+      "text": {
+        "jp": "ビクトリア消滅パウダーをまいた。",
+        "official_en": "You scattered the evict-toria powder...",
+        "real_en": "You scattered the Victoria Vanishing Powder."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_032:7bf90c26",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_032",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_032:7bf90c26",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_032:7bf90c26",
+        "jp_sha256": "49ed50a8593049e4cecf69119003461653c00fc5ca93c738deeb8eb6a6a63e93",
+        "official_en_sha256": "933fdb5449d8ea2a7c9594936b81b0804e262f2171b31ed61a9980b501ddecca"
+      },
+      "text": {
+        "jp": "フィーナと魔人フィーナがパーティに加わった!",
+        "official_en": "Fina and Archwitch Fina joined the party!",
+        "real_en": "Fina and Dark Fina joined the party!"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_065:345b56f4",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_065",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_065:345b56f4",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_065:345b56f4",
+        "jp_sha256": "a14ff704cfbea052c537683a7e249ab89f40b4d001b7ef953a1a5e9a2bd84640",
+        "official_en_sha256": "d1a0c02c0e5ec9586760fbf54a2e1484d87c3459936f413490f85021ef9bc16b"
+      },
+      "text": {
+        "jp": "フィーナのステータスが上がった！\r\n　\r\nHP ＋１００\r\nMP＋３０\r\n精神＋３０\r\n魔力＋２０",
+        "official_en": "Fina’s attributes increased!\r\n\r\nHP +100\r\nMP +30\r\nSpirit +30\r\nMagic +20",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_038:83cef83c",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_038",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_038:83cef83c",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_038:83cef83c",
+        "jp_sha256": "aa2e1fea17ee13540a7ea738afa8cd97f6455526e84b1b63ef98e4d107d8ab5e",
+        "official_en_sha256": "d98b2d63fde1c14e6441b9d18d997afabeee2dfd4bc26be01e6a017230e527b4"
+      },
+      "text": {
+        "jp": "ミシディアレーダーで\r\n隠された宝をさらにゲットできるようになった！",
+        "official_en": "You can now find even more hidden treasure on the Mysidia Radar!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_039:7f44187b",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_039",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_039:7f44187b",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_039:7f44187b",
+        "jp_sha256": "0fa16d20e3eb3e86a7bf0f8369c5d9d7ab6534b1908ffc1d07e4a4760e513e5e",
+        "official_en_sha256": "41b8c3f5ad77deec19b281bb354f7ea6ad4e3d34ac1999648b24b84918137202"
+      },
+      "text": {
+        "jp": "ミシディアレーダーで\r\n隠された宝をすべてゲットできるようになった！",
+        "official_en": "You can now find all the hidden treasure on the Mysidia Radar!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_037:bc8a5ef6",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_037",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_037:bc8a5ef6",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_037:bc8a5ef6",
+        "jp_sha256": "1aef2195b7e294b7f6b59f63b78167c01df773b14e7ab3f7b12a99cecb4cbd10",
+        "official_en_sha256": "545747976b824080bb84e913a583ed99a4e07a5d5491491db0102a9494bf3fae"
+      },
+      "text": {
+        "jp": "ミシディアレーダーで\r\n隠された宝をゲットできるようになった！",
+        "official_en": "You can now find hidden treasure\non the Mysidia Radar!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_072:acf82852",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_072",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_072:acf82852",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_072:acf82852",
+        "jp_sha256": "a406cf466bca34e1eed1fb5264c75b3a81256cdc9f4eb97b4fb461fcfdbe04fd",
+        "official_en_sha256": "8fb28e6ba4f7717173a408df38e8a4e874c527fd16de81de78ca33f2801ef7b2"
+      },
+      "text": {
+        "jp": "メカボの修理",
+        "official_en": "Repaired Mechabo",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_064:ac26a3e1",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_064",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_064:ac26a3e1",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_064:ac26a3e1",
+        "jp_sha256": "6c44d867bd6c83446742a5a6cb32f83f8e24b4af018f11da5607429c684bce9c",
+        "official_en_sha256": "1522c0ed0892d7782174905c519fe7192521d833dc2da5141be2f05784dbf64b"
+      },
+      "text": {
+        "jp": "ラスウェルのステータスが上がった！\r\n　\r\nHP ＋１００\r\nMP＋３０\r\n力＋３０\r\n速度＋２０",
+        "official_en": "Lasswell’s attributes increased!\r\n\r\nHP +100\r\nMP +30\r\nStrength +30\r\nSpeed +20",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_051:9daab6e2",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_051",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_051:9daab6e2",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_051:9daab6e2",
+        "jp_sha256": "9a807dd21c7958e38edfac605ea27af2850914690cc83fa4f477e74feed0eb29",
+        "official_en_sha256": "b67352509db7a94c826b184c909b9330cff1be91857676bd01abdade4ff97837"
+      },
+      "text": {
+        "jp": "ラムウの召喚",
+        "official_en": "Esper: Ramuh",
+        "real_en": "Summon Ramuh"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_022:ef57d848",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_022",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_022:ef57d848",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_022:ef57d848",
+        "jp_sha256": "c7a96a03af564ae9768e6bcf7960cc9748233d7fe310c76c4687fc49da167976",
+        "official_en_sha256": "4cf5f244644f751655931db519cfd8d48f428ecaeceae7e3de2e3e3d39ac1dce"
+      },
+      "text": {
+        "jp": "ラムウを召喚できるようになった！",
+        "official_en": "You can now summon Ramuh!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_079:f825b713",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_079",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_079:f825b713",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_079:f825b713",
+        "jp_sha256": "0b9248fb263f900118ce8f87a216529912d3fbf5cd309c5d6caa7e6e480698ce",
+        "official_en_sha256": "5b07d679be5f45a81e5c7efd10aba9a9d82e61ab5c611ca91f87e1d4e1e4bdf5"
+      },
+      "text": {
+        "jp": "リドがリミットバースト\r\n「エンタープライズ」を覚えた！",
+        "official_en": "Lid learned the Enterprise Airstrike limit burst!",
+        "real_en": "Lid learned the Limit Burst \"Enterprise\"!"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_066:db67f16b",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_066",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_066:db67f16b",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_066:db67f16b",
+        "jp_sha256": "f17191b4af050f782419860e48086b576bf3f6d4185699f01d9789bed21b132b",
+        "official_en_sha256": "15bf768a3c8cfd4979974c4bf605331f63ad2d1a1625d971a82df6cda25b0759"
+      },
+      "text": {
+        "jp": "リドのステータスが上がった！\r\n　\r\nHP ＋１００\r\nMP＋３０\r\n力＋２５\r\n魔力＋２５",
+        "official_en": "Lid’s attributes increased!\r\n\r\nHP +100\r\nMP +30\r\nStrength +25\r\nMagic +25",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_052:2cb245ea",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_052",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_052:2cb245ea",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_052:2cb245ea",
+        "jp_sha256": "12fcdff015f1cd5e682df5fd611526a1290a718fa3762f0da680f44869ea8bc0",
+        "official_en_sha256": "20939c0e0e35b14f213e59ebf9f2fdd590f37c6abffc62e144fd229746a97cd7"
+      },
+      "text": {
+        "jp": "リヴァイアサンの召喚",
+        "official_en": "Esper: Leviathan",
+        "real_en": "Summon Leviathan"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_023:2309f1f2",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_023",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_023:2309f1f2",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_023:2309f1f2",
+        "jp_sha256": "702fe3d482a22e7b1d812efef1c58e12bc69539769c8591b9df8dadd64dcf418",
+        "official_en_sha256": "b14cfd508bdd9becf76d85523be45784f6a1951cd872ebb24aa0fdf07d718645"
+      },
+      "text": {
+        "jp": "リヴァイアサンを召喚できるようになった！",
+        "official_en": "You can now summon Leviathan!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_033:0cf77f9c",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_033",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_033:0cf77f9c",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_033:0cf77f9c",
+        "jp_sha256": "42f1af771e06ca9165e76e510b03ef470482392338b8f5a9d4c2b633a72e2fe1",
+        "official_en_sha256": "b91a9651cc8c555ad3487deac65f2414022213b4602934e909923684d8ff3fc8"
+      },
+      "text": {
+        "jp": "レインが「力の覚醒」を覚えた！",
+        "official_en": "Rain learned The Power Within!",
+        "real_en": "Rain learned Awakening of Power!"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_063:9d241352",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_063",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_063:9d241352",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_063:9d241352",
+        "jp_sha256": "226890aebc6f8c9ad9c0062cadacc48f36ee2161dbbefa428c6e36caf988c61f",
+        "official_en_sha256": "c9ec178bc60ab1e409a3a01a32f05f59399a0cd98f2e67f7802730e6fb22f9be"
+      },
+      "text": {
+        "jp": "レインのステータスが上がった！\r\n　\r\nHP ＋１００\r\nMP＋３０\r\n体力＋３０\r\n力＋２０",
+        "official_en": "Rain’s attributes increased!\r\n\r\nHP +100\r\nMP +30\r\nStamina +30\r\nStrength +20",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_071:3876f6c9",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_071",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_071:3876f6c9",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_071:3876f6c9",
+        "jp_sha256": "92c2a0330a091c2faf30d6a0311dda7405a6722109fd6e9c85897ca40683f6bd",
+        "official_en_sha256": "ca38876ecdf6a25b78908e283401f4bf1b378c22b645ce3c5f720a1fad1a2d21"
+      },
+      "text": {
+        "jp": "世界地図に幻獣のすみかが追加された！",
+        "official_en": "The location of an esper’s dwelling has been added to the map!",
+        "real_en": "An Eidolon's dwelling has been added to the world map!"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_074:4b49e276",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_074",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_074:4b49e276",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_074:4b49e276",
+        "jp_sha256": "ff6107a91562b3244871c9b6df59dac26efdc5a4409306224de7874f8613512b",
+        "official_en_sha256": "76b28226a835fd99ced8a0704bb2f34a287959b42081fd0f7888d77ddc88114c"
+      },
+      "text": {
+        "jp": "変化前の武具を装備していた場合、\r\n改めて装備しなおしてください。",
+        "official_en": "If the ancient armament was equipped before the transformation, it has now been unequipped.",
+        "real_en": "If you had the equipment equipped before it was transformed, please equip it again."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_049:8d04cc97",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_049",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_049:8d04cc97",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_049:8d04cc97",
+        "jp_sha256": "f2ff782edcb6e682b66c9ab62690babb5451f255cadd9d8736d783eced4c3eda",
+        "official_en_sha256": "7e46468765b90f38edd1fda058ddaaf3775e1acc02802898bc74a2b5549abad8"
+      },
+      "text": {
+        "jp": "新しいメカボの技",
+        "official_en": "New Mechabo Skill",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_062:02e98fcd",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_062",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_062:02e98fcd",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_062:02e98fcd",
+        "jp_sha256": "d4a3b4697c46f7f969554e2625deaadfbfe1d2f64ab990f4eccb3599880185d3",
+        "official_en_sha256": "2b64c1f820969f653504014920d2d35c4805203aab9c67f26e7e850e40971700"
+      },
+      "text": {
+        "jp": "本当にクリアデータをセーブしなくてもいいですか？",
+        "official_en": "Are you sure you wish to move on without creating cleared save data?",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "空白",
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_EventDialog/EventDialog_062"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_036:c4c83c47",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_036",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_036:c4c83c47",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_036:c4c83c47",
+        "jp_sha256": "88c99d36c0757a26138d28377d4f99ed70e3cdbb26a5a5ff9779f6d4e7852bba",
+        "official_en_sha256": "1a92f3a2737c42d6214ba9cb337a3da16fa667a4ac0cdf4d9fb5dfd59f1cf7ab"
+      },
+      "text": {
+        "jp": "飛空艇でクリスタルタワーに入る際に\r\n「クリスタルタワー上層」\r\nを選べるようになりました。",
+        "official_en": "You can now select Crystal Tower - Upper Reach when entering the Crystal Tower via airship.",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_035:8dd04ec5",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_035",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_035:8dd04ec5",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_035:8dd04ec5",
+        "jp_sha256": "10fb2b3ad75a0a43eb187a5b81a5987bf168486e565a330fe7effb8fe8fec7a2",
+        "official_en_sha256": "e5d6554083fda536948fad518a9154c4dab3937ad002209094347b2f091de314"
+      },
+      "text": {
+        "jp": "飛空艇でクリスタルタワーに入る際に\r\n「クリスタルタワー中層」\r\nを選べるようになりました。",
+        "official_en": "You can now select Crystal Tower - Middle Reach when entering the Crystal Tower via airship.",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_068:862c81ce",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_068",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_068:862c81ce",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_068:862c81ce",
+        "jp_sha256": "1839710779ba438e89991a470bd9f4b4b1dbdaf152dc813c891cf17cb76bf0bf",
+        "official_en_sha256": "d4afa7c098324af88786cb21534f1ffcc646376a92a08bc998e8d8570d772c67"
+      },
+      "text": {
+        "jp": "魔人フィーナのステータスが上がった！\r\n　\r\nHP ＋１００\r\nMP＋３０\r\n魔力＋３０\r\n力＋２０",
+        "official_en": "Archwitch Fina’s attributes increased!\r\n\r\nHP +100\r\nMP +30\r\nMagic +30\r\nStrength +20",
+        "real_en": "Dark Fina’s attributes increased!\r\n\r\nHP +100\r\nMP +30\r\nMagic +30\r\nStrength +20"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_077:3acf519a",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_077",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_077:3acf519a",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_077:3acf519a",
+        "jp_sha256": "93c1311a8576c44291f6ea1e4cc56012f723bde6437ce479b83393b618bafa08",
+        "official_en_sha256": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5"
+      },
+      "text": {
+        "jp": "１０",
+        "official_en": "10",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_076:24777ac6",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_076",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_076:24777ac6",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_076:24777ac6",
+        "jp_sha256": "00d1fff4cdf2cf3462c05f31923f13c5c02fc1493489cba1d5ebf6d180117c8d",
+        "official_en_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+      },
+      "text": {
+        "jp": "３",
+        "official_en": "3",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_078:3ddf16dd",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_078",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_078:3ddf16dd",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_078:3ddf16dd",
+        "jp_sha256": "49131740ebb39bfc223355a1ea8f32c420d9e88a842d2fc9fae2fde76e8b61a8",
+        "official_en_sha256": "624b60c58c9d8bfb6ff1886c2fd605d2adeb6ea4da576068201b6c6958ce93f4"
+      },
+      "text": {
+        "jp": "３０",
+        "official_en": "30",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_060:e4dbb394",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_EventDialog",
+        "key": "EventDialog_060",
+        "jp_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_060:e4dbb394",
+        "official_en_record_id": "switch:locres:set-02:ST_EventDialog:EventDialog_060:e4dbb394",
+        "jp_sha256": "3fe3a9d5ff5031b4a1a9f594cb565c8f7ef7186527690676d3e3ef2f40304c71",
+        "official_en_sha256": "a03b221c6c6eae7122ca51695d456d5222e524889136394944b2f9763b483615"
+      },
+      "text": {
+        "jp": "？？？",
+        "official_en": "???",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_EventDialog",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": null,
+          "label_status": "UNKNOWN",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

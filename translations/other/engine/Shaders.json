@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "Shaders",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:Shaders:GlobalShadersCompilationFailed:be0eaf80",
+      "source": {
+        "set": "set-02",
+        "namespace": "Shaders",
+        "key": "GlobalShadersCompilationFailed",
+        "jp_record_id": "switch:locres:set-01:Shaders:GlobalShadersCompilationFailed:be0eaf80",
+        "official_en_record_id": "switch:locres:set-01:Shaders:GlobalShadersCompilationFailed:be0eaf80",
+        "jp_sha256": "39bb1c78d3057c1d359ba47ad75a6e18f01c7454d7cb8685e9101ff238b62a07",
+        "official_en_sha256": "c31fb79bc907ce29baec072aab238361b2734755377f85b5fe201e816f94e223"
+      },
+      "text": {
+        "jp": "{NumErrors} 個のエラーがプラットフォーム {Platform} のグローバル シェーダーのコンパイル中に発生しました。\n{Errors}{RetryMsg}",
+        "official_en": "{NumErrors} errors encountered compiling global shaders for platform {Platform}:\n{Errors}{RetryMsg}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Shaders:GlobalShaderCompileWarning:8727d7dd",
+      "source": {
+        "set": "set-02",
+        "namespace": "Shaders",
+        "key": "GlobalShaderCompileWarning",
+        "jp_record_id": "switch:locres:set-01:Shaders:GlobalShaderCompileWarning:8727d7dd",
+        "official_en_record_id": "switch:locres:set-01:Shaders:GlobalShaderCompileWarning:8727d7dd",
+        "jp_sha256": "5ddffe783e4d9db529706b664bc177873aa4a40dfe92e4010795afbb2b03b295",
+        "official_en_sha256": "5ddffe783e4d9db529706b664bc177873aa4a40dfe92e4010795afbb2b03b295"
+      },
+      "text": {
+        "jp": "{WarningMessage}",
+        "official_en": "{WarningMessage}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

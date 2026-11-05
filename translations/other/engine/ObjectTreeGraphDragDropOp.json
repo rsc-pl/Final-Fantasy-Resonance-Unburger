@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ObjectTreeGraphDragDropOp",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ObjectTreeGraphDragDropOp:OnDragOver_Success:7c3ac547",
+      "source": {
+        "set": "set-02",
+        "namespace": "ObjectTreeGraphDragDropOp",
+        "key": "OnDragOver_Success",
+        "jp_record_id": "switch:locres:set-01:ObjectTreeGraphDragDropOp:OnDragOver_Success:7c3ac547",
+        "official_en_record_id": "switch:locres:set-01:ObjectTreeGraphDragDropOp:OnDragOver_Success:7c3ac547",
+        "jp_sha256": "39aa5456ce48521607a5b106a7e0a04522899ade82ffef832680d09b59922548",
+        "official_en_sha256": "482c850980e8bebc10dc9483a6d1cf4d1f60383291def706fe6082776e5c2c67"
+      },
+      "text": {
+        "jp": "ドラッグしたオブジェクト クラスから {0} ノードを作成します",
+        "official_en": "Create {0} node(s) from the dragged object classes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ObjectTreeGraphDragDropOp:OnDragOver_Warning:f950edf2",
+      "source": {
+        "set": "set-02",
+        "namespace": "ObjectTreeGraphDragDropOp",
+        "key": "OnDragOver_Warning",
+        "jp_record_id": "switch:locres:set-01:ObjectTreeGraphDragDropOp:OnDragOver_Warning:f950edf2",
+        "official_en_record_id": "switch:locres:set-01:ObjectTreeGraphDragDropOp:OnDragOver_Warning:f950edf2",
+        "jp_sha256": "1b9b9ab7d83c7a3df5889e8803fbc0e65b463b2478b733fe9716ada84d8b2d7c",
+        "official_en_sha256": "75ede8de39f138b8bead8214ca10d6342d92af7b1b0103c2a5f4113a5ab17829"
+      },
+      "text": {
+        "jp": "ドラッグしたオブジェクト クラスから {0} ノードを作成し、このグラフで作成できない {1} は無視します",
+        "official_en": "Create {0} node(s) from the dragged object classes, ignoring {1} that can't be created in this graph",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ObjectTreeGraphDragDropOp:DropObjectClasses:3d8ae96a",
+      "source": {
+        "set": "set-02",
+        "namespace": "ObjectTreeGraphDragDropOp",
+        "key": "DropObjectClasses",
+        "jp_record_id": "switch:locres:set-01:ObjectTreeGraphDragDropOp:DropObjectClasses:3d8ae96a",
+        "official_en_record_id": "switch:locres:set-01:ObjectTreeGraphDragDropOp:DropObjectClasses:3d8ae96a",
+        "jp_sha256": "9272e6052e142c9e026ccc1d01568793dc95d67876a2e5f6cc33b0bf20d66560",
+        "official_en_sha256": "232f5118dbed72ae191ca0a0d06958e734a758bc2af8d0528c9027997d8549ad"
+      },
+      "text": {
+        "jp": "新規ノードをドロップ",
+        "official_en": "Drop New Nodes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ObjectTreeGraphDragDropOp:OnDragOver_Error:1f346ba5",
+      "source": {
+        "set": "set-02",
+        "namespace": "ObjectTreeGraphDragDropOp",
+        "key": "OnDragOver_Error",
+        "jp_record_id": "switch:locres:set-01:ObjectTreeGraphDragDropOp:OnDragOver_Error:1f346ba5",
+        "official_en_record_id": "switch:locres:set-01:ObjectTreeGraphDragDropOp:OnDragOver_Error:1f346ba5",
+        "jp_sha256": "8f18bcdaf7c48f05b463c955902e3e6aafa8721a1616ba3378af9e36efaeffe5",
+        "official_en_sha256": "bdc9cd104f54f3330d940c961a5912a816e48b71cb07513495589ce266c7fe9e"
+      },
+      "text": {
+        "jp": "このグラフではドラッグしたオブジェクト クラスは作成できません",
+        "official_en": "The dragged object classes can't be created in this graph",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

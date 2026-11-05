@@ -1,0 +1,870 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_FEV_Town_04Dir_01",
+    "scene_id": "ST_FEV_Town_04Dir_01",
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_096:16b923d2",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_096",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_096:16b923d2",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_096:16b923d2",
+        "jp_sha256": "d6cff271000f2f53823fdd5ff8d4279dca675bfb475be2b88dcafe6e19c57afd",
+        "official_en_sha256": "3b1ba15652c33aa689151d1278598dca97ebbdc3f8b5cd4b66bf53ac8fc2d7c7"
+      },
+      "text": {
+        "jp": "……はて。\r\nわしの家は、その通路の先だったかの？",
+        "official_en": "Which is why I can’t find my way back home. It’s most certainly <text style=\"italic\">not</> because of my age. Was it through this corridor? Hmm...",
+        "real_en": "...Now, was my house down that passage?"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "老人",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0029",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_096"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_040:5491a9e5",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_040",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_040:5491a9e5",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_040:5491a9e5",
+        "jp_sha256": "912291df6d41ba7ee357a5815e45896a78b994e568ed92d9680f59172622c6cb",
+        "official_en_sha256": "f837bdb1316a9656d4df55bb5e5921e06b3675b7d8fe883faf29785784bcd7c7"
+      },
+      "text": {
+        "jp": "ここの酒は飲んだか？\r\n口の中を消毒されてるみてえな味だが、\r\nよく酔えると評判さ！",
+        "official_en": "You tried the booze here yet? It tastes like Firaga in your mouth, but it’ll get you hammered in no time!",
+        "real_en": "Have you tried the liquor here? It tastes like someone's disinfecting your mouth, but they say it gets you drunk fast!"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "おじさん",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0034",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_040"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_060:17003e7d",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_060",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_060:17003e7d",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_060:17003e7d",
+        "jp_sha256": "550c002ce6cb37473c02781c7c5a605214ae90324c3ec95f824c6786caf36bfe",
+        "official_en_sha256": "c355004dec73999312df2dd1f9bc655e0a820661f1c79688dbaa45ea7f1b450b"
+      },
+      "text": {
+        "jp": "この都市のマニア共も唸る防具の数々！\r\nとくと見て行ってくれ！",
+        "official_en": "I’ve got armor that’ll make even the pickiest gearheads in this city weep! See for yourself!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "防具屋",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0182",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_060"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_095:bbc74728",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_095",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_095:bbc74728",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_095:bbc74728",
+        "jp_sha256": "ceb9addf780afb141ea5c30fd00f4e1a7fdf4b17b9a482a46ae1dc26869a9996",
+        "official_en_sha256": "dc0f44a128fdc0c634453d8dff770a1adbe503b77998e4d40cfa070ab08a9e77"
+      },
+      "text": {
+        "jp": "この都市は建て替えに増築と\r\n忙しくなく様相を変えおる。",
+        "official_en": "This city constantly changes in shape and size, with all the renovations, demolitions, and construction going on.",
+        "real_en": "This city is constantly changing as buildings are rebuilt and expanded."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "老人",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0029",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_095"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_002:d47b14b6",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_002",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_002:d47b14b6",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_002:d47b14b6",
+        "jp_sha256": "9c57fa415c86455a97c098f24be7df1972af749eba40108b5b59e8f395bef53e",
+        "official_en_sha256": "60b2ce6eceadd1f49c0e621d29f12fd732a07ff8a424ea7b1e56b2ca0bac09f4"
+      },
+      "text": {
+        "jp": "そんな君を、\r\nこのディルマギアは歓迎するぜ！",
+        "official_en": "If you appreciate the grit, the grind, and the growl of machines as much as I do, Dilmagia welcomes ya with open arms!",
+        "real_en": "If you feel that way, Dilmagia welcomes you!"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "青年",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0056",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_002"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_032:8e79babb",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_032",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_032:8e79babb",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_032:8e79babb",
+        "jp_sha256": "a831840c85aaf70b4c11c83cebfb4b09c3d9fd3a572125e4fa6eccca56be6450",
+        "official_en_sha256": "0cdaf8f3d05389d55099261ef934bcf13e3ba5846a8f565abf0c5222306db95d"
+      },
+      "text": {
+        "jp": "でも、今のディルナドはよ……\r\nわりぃ、国の奴らには言えねぇからつい、な。",
+        "official_en": "But Dirnado now, though? I... Sorry, not sure why I’m telling you this, stranger. Guess I’ve a lot pent up since I can’t badmouth the country in front of other Dirnadian folks.",
+        "real_en": "But Dirnado these days... Sorry. I can't say this to anyone from my own country, so I guess I let it slip."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "おじさん",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0034",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_032"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_010:ca75c881",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_010",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_010:ca75c881",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_010:ca75c881",
+        "jp_sha256": "c992c62ed904b2733dba79e731166342807ef01fa8a4dbe51a9186c5e66fc717",
+        "official_en_sha256": "f9cb664cd2c1b1e5bb86c95b95e90305188d494bc8c09e1443a38fad6d8c8395"
+      },
+      "text": {
+        "jp": "もう、造船所の飛空艇は見た？\r\n圧巻よねぇ。",
+        "official_en": "Have you seen the airship over at the city shipyard yet? It’s breathtaking.",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "おばさん",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0175",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_010"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_030:514be3c9",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_030",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_030:514be3c9",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_030:514be3c9",
+        "jp_sha256": "4d5005950d36c25bb92df3f61841f736b4f3ff9f75aa2c7b8472406b2907a7ea",
+        "official_en_sha256": "a5eb78517a14d1e96d8c53ee65f4ce9d975b7fd65ad801507e9303b42b12776f"
+      },
+      "text": {
+        "jp": "よそ者のアンタには、この国がどう映る？",
+        "official_en": "So how’s Dirnado look to an outsider like yourself?",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "おじさん",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0034",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_030"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_066:8c0798ee",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_066",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_066:8c0798ee",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_066:8c0798ee",
+        "jp_sha256": "9f74d82208c3448cd39b276bfcf16d5dfb06ddb8923d4f7a5797c16373caa0c3",
+        "official_en_sha256": "433615f423d8e3fdfef805cffbea2a919c7cd131f515b81892bad10aeaa1ad46"
+      },
+      "text": {
+        "jp": "ん？　それじゃただの飛空艇か？",
+        "official_en": "A ship that flies! I’m a genius! I’ll call it: the “Air...ship.” Wait a minute...",
+        "real_en": "Hm? Wouldn't that just make it an airship?"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "船乗り",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0049",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_066"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_025:fa79c09f",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_025",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_025:fa79c09f",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_025:fa79c09f",
+        "jp_sha256": "5542713d6e49ccd8eb4e71979f50d64b537c486408d24eb52e69d1d86ce6fede",
+        "official_en_sha256": "7e7e608c6a77fe7ec0fd64d74d86a3597d47912bbf4f5e3dfacbd811b22faab5"
+      },
+      "text": {
+        "jp": "アイリーンの作った武器で\r\n事故が起きたことがあって軍を離れたんだ。",
+        "official_en": "There was an accident with one of the weapons Aileen made, and she left the army afterward.",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "ディルナド軍技師",
+          "label_status": "VERIFIED",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_025"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_100:53a78171",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_100",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_100:53a78171",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_100:53a78171",
+        "jp_sha256": "8733e1c7f61d40c85c5caa22a7fc0f1d8693132b6d1a5f56e68c9042ddb64807",
+        "official_en_sha256": "30812db3b187e5252fab5362ea8b8a56d8d261c614f64698cdee18c84ba32f22"
+      },
+      "text": {
+        "jp": "グランシェルト王国の者だな？\r\n騒ぎは起こすなよ。",
+        "official_en": "Grandsheltians, eh? Don’t go causing any trouble. I’ve got my eye on you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "兵士",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0022",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_100"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_055:adecd518",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_055",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_055:adecd518",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_055:adecd518",
+        "jp_sha256": "f85c5d670094da2e7fccb53dbb5b61f852f7f1e5c854f3aab4a177c4d773ec62",
+        "official_en_sha256": "abf24b57e88a3500742964f5f76526c6ed4a85843f171e16d72f16b42f43ab74"
+      },
+      "text": {
+        "jp": "ディルマギアが誇る職人手作りの武器さ！\r\nしっかり見て行けよ！",
+        "official_en": "Handcrafted weapons made by Dilmagia’s finest smiths! Come take a look!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "武器屋",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0181",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_055"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_015:d3a2d177",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_015",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_015:d3a2d177",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_015:d3a2d177",
+        "jp_sha256": "3c3a57c12f31a50226b0d82207a43fcc358b327bf3327f7c0114a7f149730505",
+        "official_en_sha256": "095e141e7d3eb67faa71f157c7848547afa92947298a00bccc68d02c266c98e1"
+      },
+      "text": {
+        "jp": "リドから飛空艇を買えるように、\r\n金を稼ぎまくるぞ！",
+        "official_en": "Welp, if I’m to buy an airship from Lid, I’m going to need to make some serious dough! I’ll build a whole darn bakery if I have to!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "青年",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0056",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_015"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_026:fd2c7b64",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_026",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_026:fd2c7b64",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_026:fd2c7b64",
+        "jp_sha256": "f764cad5d3f769c17eebe82ccfcd50526e87e70d34a1d84f4768bc210eb784a2",
+        "official_en_sha256": "ec4319d425aaef1f42e36b46cff3ebb75a988e6d0edace57665e37d72a0a1d29"
+      },
+      "text": {
+        "jp": "上層部は軍に残ってほしいと頼んだらしいが……。\r\n持ち主の顔が見えない武器を作ることは\r\nもうやらないと言って断ったらしい。",
+        "official_en": "The higher-ups still asked her to stay. But she refused to help them, saying she won’t make weapons that can kill indiscriminately.",
+        "real_en": "The higher-ups apparently begged her to stay, but she refused. She said she'd never again make weapons without knowing the faces of those who would wield them."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "ディルナド軍技師",
+          "label_status": "VERIFIED",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_026"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_050:b6bae88d",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_050",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_050:b6bae88d",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_050:b6bae88d",
+        "jp_sha256": "00ea29ac613219173dce1f611eebc0fd9ac22323fb50550c4e18616d928d9472",
+        "official_en_sha256": "156eb772d9fa023946754bd103bf42b3a343af2562eab5d42f3694eada8bacef"
+      },
+      "text": {
+        "jp": "便利な機械にも負けない\r\n便利なアイテムはいかがかな？",
+        "official_en": "Items that’ll give even the most convenient machines a run for their money! Get you some!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "商人",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0017",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_050"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_091:9c016502",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_091",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_091:9c016502",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_091:9c016502",
+        "jp_sha256": "3a7945042cfb33abe2cbc0d6f9a9952bd1a2bc048fe69069b9f2daf693b6cf50",
+        "official_en_sha256": "ed3129bc5a7e261ba02c1b268225c2fa97f0eb0caf4b458c85f4292911cb9c46"
+      },
+      "text": {
+        "jp": "俺の父さんが設計したんだけど……\r\nすごいだろ？",
+        "official_en": "My pa’s the one who designed them. Pretty neat, huh?",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "青年",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0056",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_091"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_065:1eae2eea",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_065",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_065:1eae2eea",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_065:1eae2eea",
+        "jp_sha256": "e6335a44c1e1085539f29a6f8657346985228ecc87164889f720a2d5b48a9f24",
+        "official_en_sha256": "e60d2313ad08af9108a1827406bede00db5445ee000841fb9b393b5468e859a2"
+      },
+      "text": {
+        "jp": "俺の船も空を飛べたらな……。",
+        "official_en": "I wish my ship could fly...\r\nWhoa...I might be onto something!",
+        "real_en": "If only my ship could fly..."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "船乗り",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0049",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_065"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_031:12df87b2",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_031",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_031:12df87b2",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_031:12df87b2",
+        "jp_sha256": "4223ff75e82401f3cb7f2ee2e91a5a0779bf4f330ae3a528cf27533f96f0550f",
+        "official_en_sha256": "baaf9f7e8b3b358d1f7f8f32595864d3bf5f636358bddf4130d1ee05333f5fb5"
+      },
+      "text": {
+        "jp": "俺は、初代のシド様に憧れて\r\nこの国の技師になったんだ。",
+        "official_en": "The first Cid’s vision inspired me to become an engineer for this country.",
+        "real_en": "I admired the original Cid-sama,\r\nso I became an engineer in this country."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "おじさん",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0034",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_031"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_020:22bf422f",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_020",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_020:22bf422f",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_020:22bf422f",
+        "jp_sha256": "c031b371fcb034868c0090e061d8514fbc3584d51a13c94c24c94455a831c82a",
+        "official_en_sha256": "aa4c43bbbf07f5638689b8430ce5e15570a347450773217e21d4020cfc699827"
+      },
+      "text": {
+        "jp": "反乱軍のリーダーってどんな人なのかしらね？",
+        "official_en": "I wonder what the leader of the rebels is like.",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "噂好きの女性",
+          "label_status": "VERIFIED",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_020"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_001:603be729",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_001",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_001:603be729",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_001:603be729",
+        "jp_sha256": "7cfa85228679c42ffb404e16a16f3b5a641b2b26b96da5d72e015be83df1b2d9",
+        "official_en_sha256": "5974c95a4aa6651a19b2c0ffa1b0ee134bae54ab8560d317a88c80185d7069f7"
+      },
+      "text": {
+        "jp": "油の匂いと響く金属音。\r\n正直、わくわくするだろ？\r\nわくわくするよな？",
+        "official_en": "The smell of oil, the clanking of metals... It’s something else, isn’t it?",
+        "real_en": "The smell of oil, the clang of metal... It gets you excited, doesn't it? Doesn't it?"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "青年",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0056",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_090:2067e4ee",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_090",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_090:2067e4ee",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_090:2067e4ee",
+        "jp_sha256": "0e50761f59bdb615e8f1330ffb68ec8c1c7ffe4bdb293d2938cedfee559f128c",
+        "official_en_sha256": "b33b91e281d1af9a0935f1fa52efe96833b0541996a08f5fe8496d4c4bbc8c51"
+      },
+      "text": {
+        "jp": "頭上のメカが見えるかい？\r\nあれは、この都市の治安を守る警備メカなんだ。",
+        "official_en": "See those floating thingamabobs in the air? Those are security mechs that keep the peace in the city.",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "青年",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0056",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_090"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_005:c3baef82",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_FEV_Town_04Dir_01",
+        "key": "FEV_Town_04Dir_01_005",
+        "jp_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_005:c3baef82",
+        "official_en_record_id": "switch:locres:set-02:ST_FEV_Town_04Dir_01:FEV_Town_04Dir_01_005:c3baef82",
+        "jp_sha256": "2bd63531d3b03a9e4fbc973f97fde5d7f8a73a74ee79b4b242d43e2d747e69dd",
+        "official_en_sha256": "285b9d791578ad30f3eecd87dd7da4cdea1ed6f37496d3af6e39b3ff8b1cc648"
+      },
+      "text": {
+        "jp": "風の神殿に行くには、飛空艇に乗るのが一番だが……\r\n俺、高いとこ怖いんだよなぁ……。",
+        "official_en": "The best way to get to the Wind Shrine is by airship. And that’s what I’d ride...if I wasn’t so afraid of heights.",
+        "real_en": "I'm going to earn a fortune so I can buy an airship from Lid!"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_FEV_Town_04Dir_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "おじさん",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0034",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_FEV_Town_04Dir_01/FEV_Town_04Dir_01_005"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

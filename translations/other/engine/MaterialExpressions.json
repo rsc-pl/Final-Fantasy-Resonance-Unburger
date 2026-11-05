@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MaterialExpressions",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MaterialExpressions:IncompatibleExternalTexture:05c97a66",
+      "source": {
+        "set": "set-02",
+        "namespace": "MaterialExpressions",
+        "key": "IncompatibleExternalTexture",
+        "jp_record_id": "switch:locres:set-01:MaterialExpressions:IncompatibleExternalTexture:05c97a66",
+        "official_en_record_id": "switch:locres:set-01:MaterialExpressions:IncompatibleExternalTexture:05c97a66",
+        "jp_sha256": "65ef6f286c986dbd992b5bd8890187798fc309ec0b2ce801e76a5f07011ec53f",
+        "official_en_sha256": "289b045cd1902cc4ee204cec6fa7333aa83bddd11f2c4d7b55b99e4fb0ae5310"
+      },
+      "text": {
+        "jp": " 非外部のTexture2Dサンプラーに適用します。これは一部のプラットフォームで動作することもありますが、移植性がありません。サンプラータイプを'External'に変更してください。マテリアル '{2}' のパラメータ '{0}' (スロット {1})",
+        "official_en": " applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter '{0}' (slot {1}) in material '{2}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MaterialExpressions:WorldPositonText:31634d56",
+      "source": {
+        "set": "set-02",
+        "namespace": "MaterialExpressions",
+        "key": "WorldPositonText",
+        "jp_record_id": "switch:locres:set-01:MaterialExpressions:WorldPositonText:31634d56",
+        "official_en_record_id": "switch:locres:set-01:MaterialExpressions:WorldPositonText:31634d56",
+        "jp_sha256": "345997e73f2a73403e574f1bd678f4d0670582742779b5c893642c8e67c40150",
+        "official_en_sha256": "7c19f59e0edc9c9215f3c8eae82a2efe3eca4d36eee8902a5068d40017688d44"
+      },
+      "text": {
+        "jp": "絶対ワールド位置",
+        "official_en": "Absolute World Position",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MaterialExpressions:WorldPositonExcludingOffsetsText:beeb6970",
+      "source": {
+        "set": "set-02",
+        "namespace": "MaterialExpressions",
+        "key": "WorldPositonExcludingOffsetsText",
+        "jp_record_id": "switch:locres:set-01:MaterialExpressions:WorldPositonExcludingOffsetsText:beeb6970",
+        "official_en_record_id": "switch:locres:set-01:MaterialExpressions:WorldPositonExcludingOffsetsText:beeb6970",
+        "jp_sha256": "72ec1381068b99297b1ce37fca7a7cacbe30f3cd0ea5ea7ffc4e7fa1d9a36596",
+        "official_en_sha256": "fb4176f96a07a2d5dcafb82d4dc2ab4c073b5566cc3c8a0732b2d833c7b06198"
+      },
+      "text": {
+        "jp": "絶対的ワールド位置(マテリアルオフセットを除外)",
+        "official_en": "Absolute World Position (Excluding Material Offsets)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MaterialExpressions:CamRelativeWorldPositonText:745b7c28",
+      "source": {
+        "set": "set-02",
+        "namespace": "MaterialExpressions",
+        "key": "CamRelativeWorldPositonText",
+        "jp_record_id": "switch:locres:set-01:MaterialExpressions:CamRelativeWorldPositonText:745b7c28",
+        "official_en_record_id": "switch:locres:set-01:MaterialExpressions:CamRelativeWorldPositonText:745b7c28",
+        "jp_sha256": "0ee90182b1171c8ef1f56e97654cbb398214d76eff726fa67e9a589f6afe5464",
+        "official_en_sha256": "b9a9fcb0e8eca9e412dee3915fd966b7117dd1284453dbba782a367430ee04f6"
+      },
+      "text": {
+        "jp": "カメラのワールド相対位置",
+        "official_en": "Camera Relative World Position",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MaterialExpressions:CamRelativeWorldPositonExcludingOffsetsText:7ce12665",
+      "source": {
+        "set": "set-02",
+        "namespace": "MaterialExpressions",
+        "key": "CamRelativeWorldPositonExcludingOffsetsText",
+        "jp_record_id": "switch:locres:set-01:MaterialExpressions:CamRelativeWorldPositonExcludingOffsetsText:7ce12665",
+        "official_en_record_id": "switch:locres:set-01:MaterialExpressions:CamRelativeWorldPositonExcludingOffsetsText:7ce12665",
+        "jp_sha256": "9f28a4dac5f04bcae225652f4cc2a2e99ccae3f96368c67075f687199b784cb4",
+        "official_en_sha256": "026470a6b7a724e8105a820421734db241b0d17ae604f77cba5b619c3b0479c0"
+      },
+      "text": {
+        "jp": "カメラの相対的ワールド空間(マテリアルオフセットを除外)",
+        "official_en": "Camera Relative World Position (Excluding Material Offsets)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MaterialExpressions:Error_CircularFunctionDependency:2246d225",
+      "source": {
+        "set": "set-02",
+        "namespace": "MaterialExpressions",
+        "key": "Error_CircularFunctionDependency",
+        "jp_record_id": "switch:locres:set-01:MaterialExpressions:Error_CircularFunctionDependency:2246d225",
+        "official_en_record_id": "switch:locres:set-01:MaterialExpressions:Error_CircularFunctionDependency:2246d225",
+        "jp_sha256": "4a3b25ba9f9c92ca6da7a04c3734df4add55c3d7fa9ea3b02e3e0851f65f4ceb",
+        "official_en_sha256": "206c90998abe2efd13c11e4a2bf18b2466b7e1c3d272c7d2f48ce4a9a663f4fd"
+      },
+      "text": {
+        "jp": "このマテリアル関数は循環依存を引き起こす恐れがあるため使用できません。",
+        "official_en": "Can't use that material function as it would cause a circular dependency.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MaterialExpressions:LocalPositionComponentIncludingOffsetsText:9730854d",
+      "source": {
+        "set": "set-02",
+        "namespace": "MaterialExpressions",
+        "key": "LocalPositionComponentIncludingOffsetsText",
+        "jp_record_id": "switch:locres:set-01:MaterialExpressions:LocalPositionComponentIncludingOffsetsText:9730854d",
+        "official_en_record_id": "switch:locres:set-01:MaterialExpressions:LocalPositionComponentIncludingOffsetsText:9730854d",
+        "jp_sha256": "f09bd14b1d0d24abe49067a3b470a240e6404b5d8251fce93fef188f8841746b",
+        "official_en_sha256": "99c218ff642ae209d8b0a460a5de5b4d76de91ce9b3edab64a4f7caa2881d7c6"
+      },
+      "text": {
+        "jp": "コンポーネントローカル位置",
+        "official_en": "Component Local Position",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MaterialExpressions:LocalPositionComponentExcludingOffsetsText:8fee5fd2",
+      "source": {
+        "set": "set-02",
+        "namespace": "MaterialExpressions",
+        "key": "LocalPositionComponentExcludingOffsetsText",
+        "jp_record_id": "switch:locres:set-01:MaterialExpressions:LocalPositionComponentExcludingOffsetsText:8fee5fd2",
+        "official_en_record_id": "switch:locres:set-01:MaterialExpressions:LocalPositionComponentExcludingOffsetsText:8fee5fd2",
+        "jp_sha256": "88b8cd4a57505cb6a09209cf8a149b4e784043abdda45d1d9a43702f24e82a88",
+        "official_en_sha256": "f385fd04c06628c3d11e0a7a7dc26a0339b7b98d99ad1167afdc33fdaaf0dc36"
+      },
+      "text": {
+        "jp": "コンポーネントローカル位置(マテリアルオフセットを除外)",
+        "official_en": "Component Local Position (Excluding Material Offsets)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MaterialExpressions:LocalPositionInstanceIncludingOffsetsText:80e6ccdd",
+      "source": {
+        "set": "set-02",
+        "namespace": "MaterialExpressions",
+        "key": "LocalPositionInstanceIncludingOffsetsText",
+        "jp_record_id": "switch:locres:set-01:MaterialExpressions:LocalPositionInstanceIncludingOffsetsText:80e6ccdd",
+        "official_en_record_id": "switch:locres:set-01:MaterialExpressions:LocalPositionInstanceIncludingOffsetsText:80e6ccdd",
+        "jp_sha256": "588ccee42c920ce708a7202acd73c111149410dd0625ebf96e65cda4a915ce6b",
+        "official_en_sha256": "35c79191f2aa2f1abb9a0beb6920225a197ff585939a945997efd305551b00ad"
+      },
+      "text": {
+        "jp": "ローカル位置",
+        "official_en": "Local Position",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MaterialExpressions:LocalPositionInstanceExcludingOffsetsText:bd8e084b",
+      "source": {
+        "set": "set-02",
+        "namespace": "MaterialExpressions",
+        "key": "LocalPositionInstanceExcludingOffsetsText",
+        "jp_record_id": "switch:locres:set-01:MaterialExpressions:LocalPositionInstanceExcludingOffsetsText:bd8e084b",
+        "official_en_record_id": "switch:locres:set-01:MaterialExpressions:LocalPositionInstanceExcludingOffsetsText:bd8e084b",
+        "jp_sha256": "94ee7eac7b5d8391534b73c8ee569291723e153f8ffa7784d3f2c2007812c69d",
+        "official_en_sha256": "0dceef1b2d3c7b84fa35486e7044227778722a918d7390fa0d3909a7e0a51343"
+      },
+      "text": {
+        "jp": "ローカル位置(マテリアルオフセットを除外)",
+        "official_en": "Local Position (Excluding Material Offsets)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MaterialExpressions:LocalPositionPreSkinnedText:6c76f934",
+      "source": {
+        "set": "set-02",
+        "namespace": "MaterialExpressions",
+        "key": "LocalPositionPreSkinnedText",
+        "jp_record_id": "switch:locres:set-01:MaterialExpressions:LocalPositionPreSkinnedText:6c76f934",
+        "official_en_record_id": "switch:locres:set-01:MaterialExpressions:LocalPositionPreSkinnedText:6c76f934",
+        "jp_sha256": "d9df24841d6b8a38c5317addc3ba0269e64f6f83b71169e3d194416b64766341",
+        "official_en_sha256": "f178e6ff693b18a2c7f1e0523bcd8f35fddc8b94f2d668fc713490faea3d57b8"
+      },
+      "text": {
+        "jp": "スキニング前ローカル位置",
+        "official_en": "Pre-Skinned Local Position",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

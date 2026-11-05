@@ -1,0 +1,324 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_SubEv_C03_Mercedes_02",
+    "scene_id": "ST_SubEv_C03_Mercedes_02",
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_003:78705669",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C03_Mercedes_02",
+        "key": "SubEv_C03_Mercedes_02_003",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_003:78705669",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_003:78705669",
+        "jp_sha256": "1f328287836ce15dd778136f28137cbcd7d195b099b61fdcf9855d01c6b67456",
+        "official_en_sha256": "7f0a0a986df227ddd3f3a0b2bc161ef827ac2469a9d5fc2f419e0bd10803c1f2"
+      },
+      "text": {
+        "jp": "あなたたち、メルセデス海賊団ですか？\r\n少しお話があるのですが……",
+        "official_en": "Are you with the Mercedes Pirates? I come with no ill intentions. If you’ll allow me to talk with your captain—",
+        "real_en": "Are you the Mercedes Pirates? I'd like to talk to you about something..."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C03_Mercedes_02",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "ニコル",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0067",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C03_Mercedes_02/SubEv_C03_Mercedes_02_003"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_001:a9dcaade",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C03_Mercedes_02",
+        "key": "SubEv_C03_Mercedes_02_001",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_001:a9dcaade",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_001:a9dcaade",
+        "jp_sha256": "c4c6b28762d25b6994794d4ba377081dc39f7851485b421c6de4e78b4481533e",
+        "official_en_sha256": "8b72d1f6697e6fa7d8d3b7e9e1e2127cffeb129518233d9be53de6eb5f4318ad"
+      },
+      "text": {
+        "jp": "おい、一体なんの用事だ？\r\nこの先には、\r\n俺たちの船が泊まっているだけだぜ。",
+        "official_en": "Avast, I say, avast! Whatever yer lookin’ for, it sure as hell ain’t here... Only thing on this jetty’s our ship.",
+        "real_en": "Hey, what do you want? The only thing farther down this jetty is our ship."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C03_Mercedes_02",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "海賊",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0247",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C03_Mercedes_02/SubEv_C03_Mercedes_02_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_008:d7b8fa94",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C03_Mercedes_02",
+        "key": "SubEv_C03_Mercedes_02_008",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_008:d7b8fa94",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_008:d7b8fa94",
+        "jp_sha256": "ef2c3871773b49b88b33e6929338485d58a65e6057152c024637efd31eafe00d",
+        "official_en_sha256": "05d610bf7a63815e20b104e81c19bc52fba3e84fa500fa8eec92c21f59b9c914"
+      },
+      "text": {
+        "jp": "ここで逃がすと後々厄介なことになりそうです。\r\n船を出される前に、手を打ちましょう。",
+        "official_en": "We should settle this matter before they can escape. If we let them flee here, there is no telling when another opportunity to talk to them will present itself.",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C03_Mercedes_02",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "ニコル",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0067",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C03_Mercedes_02/SubEv_C03_Mercedes_02_008"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_006:4075ff7b",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C03_Mercedes_02",
+        "key": "SubEv_C03_Mercedes_02_006",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_006:4075ff7b",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_006:4075ff7b",
+        "jp_sha256": "c98f6cbaddc4981a7d8d09fd44484f0163c5a9b030400142d3fb72139d0b0e8b",
+        "official_en_sha256": "7f06d45d54dbb9b4d981a0cbd4341e4ba15170398d177aff964cd193fcb04727"
+      },
+      "text": {
+        "jp": "ちっ……。\r\nまさか、守り人さんが出てくるとはな……",
+        "official_en": "Ugh... Wasn’t expectin’ a Warden to show up...",
+        "real_en": "Tch...\r\nNever thought a Warden would show up..."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C03_Mercedes_02",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "海賊",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0247",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C03_Mercedes_02/SubEv_C03_Mercedes_02_006"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_005:0b1156b8",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C03_Mercedes_02",
+        "key": "SubEv_C03_Mercedes_02_005",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_005:0b1156b8",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_005:0b1156b8",
+        "jp_sha256": "d6de196fd87686f7275140be5a56dc3b13d3746d874f07787ca29e79018c8b36",
+        "official_en_sha256": "611e8af3104c8409f0ce8420fb467d69f0272fa944d70160febc16706c233a65"
+      },
+      "text": {
+        "jp": "少し痛い目を見て、お帰りいただこうか！",
+        "official_en": "In fact, why don’t we rough you up a little instead? Then you’ll <text style=\"italic\">really</> have something to talk about when ya go crying back ta yer mommy!",
+        "real_en": "How about we teach you a little lesson before sending you home?"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C03_Mercedes_02",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "海賊",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0247",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C03_Mercedes_02/SubEv_C03_Mercedes_02_005"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_002:2431226c",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C03_Mercedes_02",
+        "key": "SubEv_C03_Mercedes_02_002",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_002:2431226c",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_002:2431226c",
+        "jp_sha256": "5d3d05adee635393ca451264ed80e733d5bebe47dcf6a74cc31dcc28fb246e99",
+        "official_en_sha256": "7f99b5cd0c5a1ca11915255d0783071816d8fcc3b642c374caec69d10f2c74d5"
+      },
+      "text": {
+        "jp": "怪我をしたくないなら、\r\nさっさと引き返すんだな。",
+        "official_en": "So unless yer hankerin’ for some spankerin’, I suggest you turn tail and mosey on back to wherever ya came from.",
+        "real_en": "If you don't want to get hurt, turn around and head back."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C03_Mercedes_02",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "海賊",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0247",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C03_Mercedes_02/SubEv_C03_Mercedes_02_002"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_007:30fd104f",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C03_Mercedes_02",
+        "key": "SubEv_C03_Mercedes_02_007",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_007:30fd104f",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_007:30fd104f",
+        "jp_sha256": "a9b141d8127d73a2906ee4927c73f2d9f430cce1eea9950e0f925c3451941e91",
+        "official_en_sha256": "2e60a699df660089936aa602bb7307f424a44bd768d3ccee16a644672cb75a85"
+      },
+      "text": {
+        "jp": "船長に報告して、船でずらかるぞ。",
+        "official_en": "Gotta let Cap’n know that we need to weigh anchor and get the hell outta here!",
+        "real_en": "We'd better tell the captain and get out of here on the ship."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C03_Mercedes_02",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "海賊",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0247",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C03_Mercedes_02/SubEv_C03_Mercedes_02_007"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_004:9bab3885",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C03_Mercedes_02",
+        "key": "SubEv_C03_Mercedes_02_004",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_004:9bab3885",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C03_Mercedes_02:SubEv_C03_Mercedes_02_004:9bab3885",
+        "jp_sha256": "34e73ae100bccf4ce849e47061e6ff4dc79660e58a269006ef29a0988e4ef0db",
+        "official_en_sha256": "4701f855b02cdd5ee745394adad1376dacb6c2c4732dc3c844236691c185f4ed"
+      },
+      "text": {
+        "jp": "誰かと思えば……守り人さんじゃねえか。\r\n悪いが、こっちには話すことなんかないぜ？",
+        "official_en": "Now wait a damn moment, you a Warden? Ya can forget about talkin’ to our cap’n.",
+        "real_en": "Well, well... if it isn't the Warden.\r\nSorry, but we've got nothin' to say to you."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C03_Mercedes_02",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "海賊",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0247",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C03_Mercedes_02/SubEv_C03_Mercedes_02_004"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

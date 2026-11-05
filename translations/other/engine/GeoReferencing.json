@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "GeoReferencing",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:GeoReferencing:GeographicCoordinatesCompactText:073bcf8a",
+      "source": {
+        "set": "set-02",
+        "namespace": "GeoReferencing",
+        "key": "GeographicCoordinatesCompactText",
+        "jp_record_id": "switch:locres:set-01:GeoReferencing:GeographicCoordinatesCompactText:073bcf8a",
+        "official_en_record_id": "switch:locres:set-01:GeoReferencing:GeographicCoordinatesCompactText:073bcf8a",
+        "jp_sha256": "14086615561df20e107104a76a16e981207b647a489d04ad66eaf3950e320205",
+        "official_en_sha256": "14086615561df20e107104a76a16e981207b647a489d04ad66eaf3950e320205"
+      },
+      "text": {
+        "jp": "({Latitude}, {Longitude})  {Altitude}m",
+        "official_en": "({Latitude}, {Longitude})  {Altitude}m",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GeoReferencing:CartesianCoordinatesCompact:294f4f98",
+      "source": {
+        "set": "set-02",
+        "namespace": "GeoReferencing",
+        "key": "CartesianCoordinatesCompact",
+        "jp_record_id": "switch:locres:set-01:GeoReferencing:CartesianCoordinatesCompact:294f4f98",
+        "official_en_record_id": "switch:locres:set-01:GeoReferencing:CartesianCoordinatesCompact:294f4f98",
+        "jp_sha256": "c6a879586b401877932689816a126f879e3f06b7160a00ff88c4a7a01725dec3",
+        "official_en_sha256": "c6a879586b401877932689816a126f879e3f06b7160a00ff88c4a7a01725dec3"
+      },
+      "text": {
+        "jp": "({X}, {Y}, {Z}m )",
+        "official_en": "({X}, {Y}, {Z}m )",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GeoReferencing:CartesianCoordinatesFull:627e435a",
+      "source": {
+        "set": "set-02",
+        "namespace": "GeoReferencing",
+        "key": "CartesianCoordinatesFull",
+        "jp_record_id": "switch:locres:set-01:GeoReferencing:CartesianCoordinatesFull:627e435a",
+        "official_en_record_id": "switch:locres:set-01:GeoReferencing:CartesianCoordinatesFull:627e435a",
+        "jp_sha256": "f8cde5bce548abb7434f8a8554ce0b67c43d09b9899ee40e170c10682c62f916",
+        "official_en_sha256": "cff56973fa5c247b405d6b75e0220bedae4e2ef71b12a09c162c0004b7f7d9a1"
+      },
+      "text": {
+        "jp": "東向き={X} 北向き={Y} 上={Z}",
+        "official_en": "Easting={X} Northing={Y} Up={Z}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GeoReferencing:GeoReferencingCRSError:ac41a459",
+      "source": {
+        "set": "set-02",
+        "namespace": "GeoReferencing",
+        "key": "GeoReferencingCRSError",
+        "jp_record_id": "switch:locres:set-01:GeoReferencing:GeoReferencingCRSError:ac41a459",
+        "official_en_record_id": "switch:locres:set-01:GeoReferencing:GeoReferencingCRSError:ac41a459",
+        "jp_sha256": "4216e694a4e417a9c22b932c6cbccf5e58df3fcc189044de954500f8173efdfd",
+        "official_en_sha256": "ef1246be84c523742f5cc576f158e234f96d7329cf292716301b66a9a0603935"
+      },
+      "text": {
+        "jp": "1つのCRS定義文字列でエラー - ログをチェックしてください",
+        "official_en": "Error in one CRS definition string - Check log",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GeoReferencing:GeographicCoordinatesFullText:c3732200",
+      "source": {
+        "set": "set-02",
+        "namespace": "GeoReferencing",
+        "key": "GeographicCoordinatesFullText",
+        "jp_record_id": "switch:locres:set-01:GeoReferencing:GeographicCoordinatesFullText:c3732200",
+        "official_en_record_id": "switch:locres:set-01:GeoReferencing:GeographicCoordinatesFullText:c3732200",
+        "jp_sha256": "21829b7b9eb182c7f2b4cfff9a2444ee7aee7647eb364d9214b73f53a4ba130b",
+        "official_en_sha256": "21829b7b9eb182c7f2b4cfff9a2444ee7aee7647eb364d9214b73f53a4ba130b"
+      },
+      "text": {
+        "jp": "Latitude={Latitude} Longitude={Longitude} Altitude={Altitude}m",
+        "official_en": "Latitude={Latitude} Longitude={Longitude} Altitude={Altitude}m",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GeoReferencing:AngleDegFmt:3a0efb2f",
+      "source": {
+        "set": "set-02",
+        "namespace": "GeoReferencing",
+        "key": "AngleDegFmt",
+        "jp_record_id": "switch:locres:set-01:GeoReferencing:AngleDegFmt:3a0efb2f",
+        "official_en_record_id": "switch:locres:set-01:GeoReferencing:AngleDegFmt:3a0efb2f",
+        "jp_sha256": "a1008eb5e7c793b1a58770f4e1be3db2208af2ec27d80dc7b08dec2e6271d5c7",
+        "official_en_sha256": "a1008eb5e7c793b1a58770f4e1be3db2208af2ec27d80dc7b08dec2e6271d5c7"
+      },
+      "text": {
+        "jp": "{0}°",
+        "official_en": "{0}°",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GeoReferencing:AngleDMSFmt:5fae093e",
+      "source": {
+        "set": "set-02",
+        "namespace": "GeoReferencing",
+        "key": "AngleDMSFmt",
+        "jp_record_id": "switch:locres:set-01:GeoReferencing:AngleDMSFmt:5fae093e",
+        "official_en_record_id": "switch:locres:set-01:GeoReferencing:AngleDMSFmt:5fae093e",
+        "jp_sha256": "02163f40b9dd2be3f93e397ce4d546aaf5ed62cb5cd2fa8aa66b3d4d5a1679a3",
+        "official_en_sha256": "02163f40b9dd2be3f93e397ce4d546aaf5ed62cb5cd2fa8aa66b3d4d5a1679a3"
+      },
+      "text": {
+        "jp": "{0}° {1}' {2}\"",
+        "official_en": "{0}° {1}' {2}\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

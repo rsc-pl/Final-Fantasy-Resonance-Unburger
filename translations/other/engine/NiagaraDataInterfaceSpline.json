@@ -1,0 +1,567 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NiagaraDataInterfaceSpline",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_GetSplineLocalToWorld:b21332e5",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSpline",
+        "key": "DataInterfaceSpline_GetSplineLocalToWorld",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_GetSplineLocalToWorld:b21332e5",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_GetSplineLocalToWorld:b21332e5",
+        "jp_sha256": "2773dfb68a78b0cf0475636143920eefd94258dd18c9733631cd7fc61064e549",
+        "official_en_sha256": "dd789d113bc2f9be5c181d1ad928a7b89383e463dd73be793ea6e6429ce76025"
+      },
+      "text": {
+        "jp": "USplineComponentのローカル空間からワールド空間へのトランスフォームを取得します。",
+        "official_en": "Get the transform from the USplineComponent's local space to world space.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_GetSplineLocalToWorldInverseTransposed:0a98ccce",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSpline",
+        "key": "DataInterfaceSpline_GetSplineLocalToWorldInverseTransposed",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_GetSplineLocalToWorldInverseTransposed:0a98ccce",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_GetSplineLocalToWorldInverseTransposed:0a98ccce",
+        "jp_sha256": "4dc48615420393957638b7ec8d272396756acf56d81a8ddd3cb19488404ea330",
+        "official_en_sha256": "ec3a4161671c523ebc9af39faabe9d2af1158e8e34fb5897b7a862e7f0038258"
+      },
+      "text": {
+        "jp": "ワールド空間からUSplineComponentのローカル空間にトランスフォームを取得します。",
+        "official_en": "Get the transform from the world space to the USplineComponent's local space.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_FindClosestUnitDistanceFromPositionWS:e0401059",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSpline",
+        "key": "DataInterfaceSpline_FindClosestUnitDistanceFromPositionWS",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_FindClosestUnitDistanceFromPositionWS:e0401059",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_FindClosestUnitDistanceFromPositionWS:e0401059",
+        "jp_sha256": "97dd2e2a9576003f5cb6c42cf74aafb79e2a18eefb8e5721c5d6565d200222c6",
+        "official_en_sha256": "47e714a68ffea6e1fbbd43fb20bdd798cd2d9da4ce567f26f0bd18c98edf201f"
+      },
+      "text": {
+        "jp": "ワールド空間の位置を指定して、そのポイントに最も近いUSplineComponentの値'U'を見つけます。",
+        "official_en": "Given a world space position, find the closest value 'U' on the USplineComponent to that point.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplinePositionByUnitDistance:84dc21a4",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSpline",
+        "key": "DataInterfaceSpline_SampleSplinePositionByUnitDistance",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplinePositionByUnitDistance:84dc21a4",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplinePositionByUnitDistance:84dc21a4",
+        "jp_sha256": "125c619755036fdeec5855bd45abc6cc28e3148e2917fd4667db56137fb4d7c9",
+        "official_en_sha256": "7c9cdd84166cfa8236f435c161b35286848673fcc500d373b4a157519fcbf439"
+      },
+      "text": {
+        "jp": "スプラインの位置をサンプリングします。ここでUはスプラインの開始と正規化された長さを表す0〜1の値です。\nこれは参照するUSplineComponentのローカル空間にあります。",
+        "official_en": "Sample the spline Position where U is a 0 to 1 value representing the start and normalized length of the spline.\nThis is in the local space of the referenced USplineComponent.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplinePositionByUnitDistanceWS:d38804cd",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSpline",
+        "key": "DataInterfaceSpline_SampleSplinePositionByUnitDistanceWS",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplinePositionByUnitDistanceWS:d38804cd",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplinePositionByUnitDistanceWS:d38804cd",
+        "jp_sha256": "335039be7d6d2bac8540892f41c768af0aec97c792f7dd8160d4ea7f65c9e625",
+        "official_en_sha256": "c30ecd5f818df94d8086392ee6203f740ca3ff10224b0de9d6bf0961c03171aa"
+      },
+      "text": {
+        "jp": "スプラインの位置をサンプリングします。ここでUはスプラインの開始と正規化された長さを表す0〜1の値です。\nこれはレベルのワールド空間にあります。",
+        "official_en": "Sample the spline Position where U is a 0 to 1 value representing the start and normalized length of the spline.\nThis is in the world space of the level.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineRotationByUnitDistance:dd6f4aea",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSpline",
+        "key": "DataInterfaceSpline_SampleSplineRotationByUnitDistance",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineRotationByUnitDistance:dd6f4aea",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineRotationByUnitDistance:dd6f4aea",
+        "jp_sha256": "e2a27cf156094d93eed1ce9b690984054e54907469469ece49b1573002a494b9",
+        "official_en_sha256": "e10164bd4741eefa4f53a0c905f5498f6a3b108d685fd1b44e68ab54c23b6a5d"
+      },
+      "text": {
+        "jp": "スプラインの回転をサンプリングします。U はスプラインの開始と正規化された長さを表す 0 ～ 1 の値です。\nこれは、参照される USplineComponent のローカル空間にあります。",
+        "official_en": "Sample the spline Rotation where U is a 0 to 1 value representing the start and normalized length of the spline.\nThis is in the local space of the referenced USplineComponent.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineRotationByUnitDistanceWS:2a14b9b9",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSpline",
+        "key": "DataInterfaceSpline_SampleSplineRotationByUnitDistanceWS",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineRotationByUnitDistanceWS:2a14b9b9",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineRotationByUnitDistanceWS:2a14b9b9",
+        "jp_sha256": "05ba5d7ce718215dfc65a73981ecd1424a94d9ccfa6f1c9e791e034e4a08378a",
+        "official_en_sha256": "0daf7de4d078642f3e199cf03750f2e379553c3c28864673056bb84df600c4ca"
+      },
+      "text": {
+        "jp": "スプラインの回転をサンプリングします。U はスプラインの開始と正規化された長さを表す 0 ～ 1 の値です。\nこれはレベルのワールド空間にあります。",
+        "official_en": "Sample the spline Rotation where U is a 0 to 1 value representing the start and normalized length of the spline.\nThis is in the world space of the level.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineDirectionByUnitDistance:9046ed02",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSpline",
+        "key": "DataInterfaceSpline_SampleSplineDirectionByUnitDistance",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineDirectionByUnitDistance:9046ed02",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineDirectionByUnitDistance:9046ed02",
+        "jp_sha256": "3c03831e3c7f82bc9f51e665a57c4f92f72bad896072628ac5dff80eac3bf44b",
+        "official_en_sha256": "8f10f90fafff40388726d0aa4286102ce654e185beded7e639be5322c06273f6"
+      },
+      "text": {
+        "jp": "スプライン方向ベクターをサンプリングします。ここでUはスプラインの開始と正規化された長さを表す0〜1の値です。\nこれは参照するUSplineComponentのローカル空間にあります。",
+        "official_en": "Sample the spline direction vector where U is a 0 to 1 value representing the start and normalized length of the spline.\nThis is in the local space of the referenced USplineComponent.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineDirectionByUnitDistanceWS:9f0ea66d",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSpline",
+        "key": "DataInterfaceSpline_SampleSplineDirectionByUnitDistanceWS",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineDirectionByUnitDistanceWS:9f0ea66d",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineDirectionByUnitDistanceWS:9f0ea66d",
+        "jp_sha256": "6fd87af8e9bdae60b8510f7fa2e2578d7c34e2e98f9f2d14c1a164c06a3fb875",
+        "official_en_sha256": "1c898c3d50d15f55b8c27758dfe464fc18814d21775e91aabb5c059a330efdeb"
+      },
+      "text": {
+        "jp": "スプライン方向ベクターをサンプリングします。ここでUはスプラインの開始と正規化された長さを表す0〜1の値です。\nこれはレベルのワールド空間にあります。",
+        "official_en": "Sample the spline direction vector where U is a 0 to 1 value representing the start and normalized length of the spline.\nThis is in the world space of the level.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineRightVectorByUnitDistance:67ceeba9",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSpline",
+        "key": "DataInterfaceSpline_SampleSplineRightVectorByUnitDistance",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineRightVectorByUnitDistance:67ceeba9",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineRightVectorByUnitDistance:67ceeba9",
+        "jp_sha256": "146cef23d19c5255709fefe9cfa31f2c7307ac1888d4b80ef25c9090fe2467e8",
+        "official_en_sha256": "fe6d5adea826cfd9e9eac151ef9363b33d59c369cb20735da2635989368fab95"
+      },
+      "text": {
+        "jp": "スプライン右方向ベクターをサンプリングします。ここでUはスプラインの開始と正規化された長さを表す0〜1の値です。\nこれは参照するUSplineComponentのローカル空間にあります。",
+        "official_en": "Sample the spline right vector where U is a 0 to 1 value representing the start and normalized length of the spline.\nThis is in the local space of the referenced USplineComponent.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineRightVectorByUnitDistanceWS:db395533",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSpline",
+        "key": "DataInterfaceSpline_SampleSplineRightVectorByUnitDistanceWS",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineRightVectorByUnitDistanceWS:db395533",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineRightVectorByUnitDistanceWS:db395533",
+        "jp_sha256": "f0c083b0219f78d67dcde03a200026d32332f89c1f8700918adeaf3693f2d5db",
+        "official_en_sha256": "e9b935eae468048ad5a470690c7f68d35eebf7398754a847cd64130ef5eb1692"
+      },
+      "text": {
+        "jp": "スプライン右方向ベクターをサンプリングします。ここでUはスプラインの開始と正規化された長さを表す0〜1の値です。\nこれはレベルのワールド空間にあります。",
+        "official_en": "Sample the spline right vector where U is a 0 to 1 value representing the start and normalized length of the spline.\nThis is in the world space of the level.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineTangentVectorByUnitDistance:60cbc118",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSpline",
+        "key": "DataInterfaceSpline_SampleSplineTangentVectorByUnitDistance",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineTangentVectorByUnitDistance:60cbc118",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineTangentVectorByUnitDistance:60cbc118",
+        "jp_sha256": "75df23981b0eba74de6b7df53e4bfee045d2df2a1d43df8eb9fc352b0b5c7bf8",
+        "official_en_sha256": "1678b56176886d5a03dbb5fc90a8a6111c135af23a59b159e4086db1cb10c2dc"
+      },
+      "text": {
+        "jp": "スプライン接線ベクターをサンプリングします。ここでUはスプラインの開始と正規化された長さを表す0〜1の値です。\nこれは参照するUSplineComponentのローカル空間にあります。",
+        "official_en": "Sample the spline tangent vector where U is a 0 to 1 value representing the start and normalized length of the spline.\nThis is in the local space of the referenced USplineComponent.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineTangentVectorByUnitDistanceWS:59c6a29e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSpline",
+        "key": "DataInterfaceSpline_SampleSplineTangentVectorByUnitDistanceWS",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineTangentVectorByUnitDistanceWS:59c6a29e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineTangentVectorByUnitDistanceWS:59c6a29e",
+        "jp_sha256": "fb935246974af8f0605ce5dee564f13f62723cf7a2b8c3bc94e76b1d659cd60c",
+        "official_en_sha256": "7ebf2f50f8de42e44cfe9203474aceac0218bd1b57339be5c67f523af29c14d4"
+      },
+      "text": {
+        "jp": "スプライン接線ベクターをサンプリングします。ここでUはスプラインの開始と正規化された長さを表す0〜1の値です。\nこれはレベルのワールド空間にあります。",
+        "official_en": "Sample the spline tangent vector where U is a 0 to 1 value representing the start and normalized length of the spline.\nThis is in the world space of the level.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineUpVectorByUnitDistance:8b4a2eb5",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSpline",
+        "key": "DataInterfaceSpline_SampleSplineUpVectorByUnitDistance",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineUpVectorByUnitDistance:8b4a2eb5",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineUpVectorByUnitDistance:8b4a2eb5",
+        "jp_sha256": "7f7512b280a7256023eba66200da8ce35ec5fc4b570677a13833b5b64de2de51",
+        "official_en_sha256": "249a725642fdc11fd42a2afe09cb3be237f6bcddd2538985900ea21e3931ca49"
+      },
+      "text": {
+        "jp": "スプライン上方向ベクターをサンプリングします。ここでUはスプラインの開始と正規化された長さを表す0〜1の値です。\nこれは参照するUSplineComponentのローカル空間にあります。",
+        "official_en": "Sample the spline up vector where U is a 0 to 1 value representing the start and normalized length of the spline.\nThis is in the local space of the referenced USplineComponent.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineUpVectorByUnitDistanceWS:24f4f70e",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraDataInterfaceSpline",
+        "key": "DataInterfaceSpline_SampleSplineUpVectorByUnitDistanceWS",
+        "jp_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineUpVectorByUnitDistanceWS:24f4f70e",
+        "official_en_record_id": "switch:locres:set-01:NiagaraDataInterfaceSpline:DataInterfaceSpline_SampleSplineUpVectorByUnitDistanceWS:24f4f70e",
+        "jp_sha256": "d99496f625739cf73e71be2ecc5bf1b606708f309f94be5de8dd5fee14845740",
+        "official_en_sha256": "6104687c1e1b8cfc76ec5035a8c7f21c816327a383d2590cba16f3709284107f"
+      },
+      "text": {
+        "jp": "スプライン上方向ベクターをサンプリングします。ここでUはスプラインの開始と正規化された長さを表す0〜1の値です。\nこれはレベルのワールド空間にあります。",
+        "official_en": "Sample the spline up vector where U is a 0 to 1 value representing the start and normalized length of the spline.\nThis is in the world space of the level.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

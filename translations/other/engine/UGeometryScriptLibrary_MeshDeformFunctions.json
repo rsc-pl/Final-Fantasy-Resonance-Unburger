@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UGeometryScriptLibrary_MeshDeformFunctions",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyBendWarpToMesh_InvalidInput:25d32a87",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshDeformFunctions",
+        "key": "ApplyBendWarpToMesh_InvalidInput",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyBendWarpToMesh_InvalidInput:25d32a87",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyBendWarpToMesh_InvalidInput:25d32a87",
+        "jp_sha256": "0a1647a135f3c4973e6de005d2805f6825b7a6a060af7f5a6842114b3d2a691c",
+        "official_en_sha256": "ee190895b501c29a9e8c465b537660c1ec8c9f79d168592bcca1a6411f247b03"
+      },
+      "text": {
+        "jp": "ApplyBendWarpToMesh:TargetMeshはNullです",
+        "official_en": "ApplyBendWarpToMesh: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyDisplaceFromPerVertexVectors_InvalidInput:449209d4",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshDeformFunctions",
+        "key": "ApplyDisplaceFromPerVertexVectors_InvalidInput",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyDisplaceFromPerVertexVectors_InvalidInput:449209d4",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyDisplaceFromPerVertexVectors_InvalidInput:449209d4",
+        "jp_sha256": "dec4f31fde0e19c82ae099b2b9eaceed5e9c8711a816e5c301b4608c34421818",
+        "official_en_sha256": "dbd7eeb67318c19b6e67df851944c805266705ed1e9f758cf7671f5d52a03d2b"
+      },
+      "text": {
+        "jp": "ApplyDisplaceFromPerVertexVectors:TargetMesh が Null です",
+        "official_en": "ApplyDisplaceFromPerVertexVectors: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyDisplaceFromPerVertexVectors_InvalidVectorLength:5533a08d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshDeformFunctions",
+        "key": "ApplyDisplaceFromPerVertexVectors_InvalidVectorLength",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyDisplaceFromPerVertexVectors_InvalidVectorLength:5533a08d",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyDisplaceFromPerVertexVectors_InvalidVectorLength:5533a08d",
+        "jp_sha256": "4e45f4b00825b8030a1d9015de28e047c7d96a2bf14157232cd6dab6bc46abfd",
+        "official_en_sha256": "eb06e2c7b86fbd55825e94a6ce26b71a21c6c57ea20d69688068cff1b6bc9934"
+      },
+      "text": {
+        "jp": "ApplyDisplaceFromPerVertexVectors:VectorList の Length が TargetMesh の MaxVertexID を下回っています",
+        "official_en": "ApplyDisplaceFromPerVertexVectors: VectorList Length is less than TargetMesh MaxVertexID",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyDisplaceFromTextureMap_TexReadFailed:4423066f",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshDeformFunctions",
+        "key": "ApplyDisplaceFromTextureMap_TexReadFailed",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyDisplaceFromTextureMap_TexReadFailed:4423066f",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyDisplaceFromTextureMap_TexReadFailed:4423066f",
+        "jp_sha256": "6e05b8697c10b23ff708e6c2bbe4b49bc55d9a63605f6ab4367dedd72a71c6ef",
+        "official_en_sha256": "f818a543e211935da858c21ab10e58a2fa09a8249a9e5bb61df5de3b1c20a9ad"
+      },
+      "text": {
+        "jp": "ApplyDisplaceFromTextureMap:ソース テクスチャ データの読み取り時のエラー。ランタイム時にこの関数を使用する場合、UTexture2D アセットでの圧縮設定タイプを VectorDisplacementmap (RGBA8) に設定する必要があります",
+        "official_en": "ApplyDisplaceFromTextureMap: Error reading source texture data. If using this function at Runtime, The Compression Settings type on the UTexture2D Asset must be set to VectorDisplacementmap (RGBA8).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyDisplaceFromTextureMap_InvalidInput:8d26fb43",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshDeformFunctions",
+        "key": "ApplyDisplaceFromTextureMap_InvalidInput",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyDisplaceFromTextureMap_InvalidInput:8d26fb43",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyDisplaceFromTextureMap_InvalidInput:8d26fb43",
+        "jp_sha256": "ab3d732dd20c21bcd536db9bedece856397f083653a5f0fe097cbe4dedad4bde",
+        "official_en_sha256": "b811c6564324754c13d7c706648b88c63ae93689515a25b2770a62077e727daa"
+      },
+      "text": {
+        "jp": "ApplyDisplaceFromTextureMap:TargetMeshはNullです",
+        "official_en": "ApplyDisplaceFromTextureMap: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyDisplaceFromTextureMap_InvalidUVLayer:db7adf0d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshDeformFunctions",
+        "key": "ApplyDisplaceFromTextureMap_InvalidUVLayer",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyDisplaceFromTextureMap_InvalidUVLayer:db7adf0d",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyDisplaceFromTextureMap_InvalidUVLayer:db7adf0d",
+        "jp_sha256": "8ffa4df9d46d00271572e9094094efb25c59c0f911aae74285aaef8702082b3d",
+        "official_en_sha256": "c99ae367d4495e382f5165c392924278d6b9014e21a06b1b1da48960a760f3a5"
+      },
+      "text": {
+        "jp": "ApplyDisplaceFromTextureMap:リクエストされたUVセットがTargetMeshにありません",
+        "official_en": "ApplyDisplaceFromTextureMap: TargetMesh is missing requested UV Set",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyDisplaceFromTextureMap_InvalidInput2:d3a0001c",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshDeformFunctions",
+        "key": "ApplyDisplaceFromTextureMap_InvalidInput2",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyDisplaceFromTextureMap_InvalidInput2:d3a0001c",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyDisplaceFromTextureMap_InvalidInput2:d3a0001c",
+        "jp_sha256": "f5f3ba107ad4f40fdb2ab3c1e5587b6dcec079355250c4b235c00243242a9b70",
+        "official_en_sha256": "fe79dd6e6346c41272bf95efc92a29fb65f6488724234365956a4e482d1f4da4"
+      },
+      "text": {
+        "jp": "ApplyDisplaceFromTextureMap:テクスチャはNullです",
+        "official_en": "ApplyDisplaceFromTextureMap: Texture is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyFlareWarpToMesh_InvalidInput:fe36989c",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshDeformFunctions",
+        "key": "ApplyFlareWarpToMesh_InvalidInput",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyFlareWarpToMesh_InvalidInput:fe36989c",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyFlareWarpToMesh_InvalidInput:fe36989c",
+        "jp_sha256": "4847d01bfe4f7a0b3ade51f3470f8e1c3cccb300687c7f94b4bc2ed5af994cf8",
+        "official_en_sha256": "3fa16ed6e006e2deb6b30cfce13ab3564552fb7a64b2786545d8861f428a1098"
+      },
+      "text": {
+        "jp": "ApplyFlareWarpToMesh:TargetMeshはNullです",
+        "official_en": "ApplyFlareWarpToMesh: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyIterativeSmoothingToMesh_InvalidInput:3114b0b2",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshDeformFunctions",
+        "key": "ApplyIterativeSmoothingToMesh_InvalidInput",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyIterativeSmoothingToMesh_InvalidInput:3114b0b2",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyIterativeSmoothingToMesh_InvalidInput:3114b0b2",
+        "jp_sha256": "4719aced85c5672dff00fc1203ac318a79a98300882d67af5aaa9a4688da8c1c",
+        "official_en_sha256": "ffac75a92c0173a2742f089a1d1f80fdc8a0a6b95ddb6cece9eb27af32725377"
+      },
+      "text": {
+        "jp": "ApplyIterativeSmoothingToMesh:TargetMeshはNullです",
+        "official_en": "ApplyIterativeSmoothingToMesh: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyPerlinNoiseToMesh_InvalidInput:73305521",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshDeformFunctions",
+        "key": "ApplyPerlinNoiseToMesh_InvalidInput",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyPerlinNoiseToMesh_InvalidInput:73305521",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyPerlinNoiseToMesh_InvalidInput:73305521",
+        "jp_sha256": "2135e9c86a65c275c5da10eac21048003c43551fc61b7fe14d3b32cdf840e0c9",
+        "official_en_sha256": "21ad4b6d6cff6ee98d4c3b1595458a2c0c8e482e7da2b971f1c96d631059e474"
+      },
+      "text": {
+        "jp": "ApplyPerlinNoiseToMesh:TargetMeshはNullです",
+        "official_en": "ApplyPerlinNoiseToMesh: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyTwistWarpToMesh_InvalidInput:40c8f9c8",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_MeshDeformFunctions",
+        "key": "ApplyTwistWarpToMesh_InvalidInput",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyTwistWarpToMesh_InvalidInput:40c8f9c8",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_MeshDeformFunctions:ApplyTwistWarpToMesh_InvalidInput:40c8f9c8",
+        "jp_sha256": "fb9a412395c717f74b103c13892051c78e585cc632af4215f3559c37ee3e9bd3",
+        "official_en_sha256": "887ccce47ad6afa3d8748c139c0cafa456a002a55a9a4cf19a98d8e1acef147d"
+      },
+      "text": {
+        "jp": "ApplyTwistWarpToMesh:TargetMeshはNullです",
+        "official_en": "ApplyTwistWarpToMesh: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

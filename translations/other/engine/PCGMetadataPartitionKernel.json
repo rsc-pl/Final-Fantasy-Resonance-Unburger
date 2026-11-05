@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGMetadataPartitionKernel",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGMetadataPartitionKernel:PartitionAttributeTypeConflict:5c11f7ae",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMetadataPartitionKernel",
+        "key": "PartitionAttributeTypeConflict",
+        "jp_record_id": "switch:locres:set-01:PCGMetadataPartitionKernel:PartitionAttributeTypeConflict:5c11f7ae",
+        "official_en_record_id": "switch:locres:set-01:PCGMetadataPartitionKernel:PartitionAttributeTypeConflict:5c11f7ae",
+        "jp_sha256": "4cc4ed951530e3d3eeafd2b12703d9055a68880f25970fae06ff9f345ffb8a49",
+        "official_en_sha256": "e4e09b093133a25c306e536b1edf05d1b9960529b6d71307c1db4314e3bd2947"
+      },
+      "text": {
+        "jp": "入力データ内に複数の異なる型の「{0}」属性が見つかりました",
+        "official_en": "Attribute '{0}' encountered with multiple different types in input data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMetadataPartitionKernel:PartitionAttributeTypeInvalid:22221978",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMetadataPartitionKernel",
+        "key": "PartitionAttributeTypeInvalid",
+        "jp_record_id": "switch:locres:set-01:PCGMetadataPartitionKernel:PartitionAttributeTypeInvalid:22221978",
+        "official_en_record_id": "switch:locres:set-01:PCGMetadataPartitionKernel:PartitionAttributeTypeInvalid:22221978",
+        "jp_sha256": "7b511ef9736dab7ea1c46dbffecc4c6f9e266119db824bb161a96bc0ea93d635",
+        "official_en_sha256": "20d4b99b55f336a0af86c400ce3e7b3aaf29254140df80e28bb7c7dabdccd25b"
+      },
+      "text": {
+        "jp": "属性「{0}」はパーティション化には使用できません。文字列キー タイプの属性のみが現時点でサポートされています",
+        "official_en": "Attribute '{0}' not usable for partitioning, only attributes of type String Key are currently supported.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMetadataPartitionKernel:MustProvideOnePartitionAttribute:427d3623",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMetadataPartitionKernel",
+        "key": "MustProvideOnePartitionAttribute",
+        "jp_record_id": "switch:locres:set-01:PCGMetadataPartitionKernel:MustProvideOnePartitionAttribute:427d3623",
+        "official_en_record_id": "switch:locres:set-01:PCGMetadataPartitionKernel:MustProvideOnePartitionAttribute:427d3623",
+        "jp_sha256": "27c582fc03af04706ff3e30ad898f12658e1777a97f05226f16f742bf0a28fb6",
+        "official_en_sha256": "94a654ea04c6f4c99afdc2c22955fff50bdec1ae83046d87ea89261952852e1b"
+      },
+      "text": {
+        "jp": "GPU 実装では現時点で、単一のパーティション属性のみをサポートします",
+        "official_en": "GPU implementation currently only supports a single partition attribute.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMetadataPartitionKernel:OnlyBasicAttributesSupported:d9aeb063",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMetadataPartitionKernel",
+        "key": "OnlyBasicAttributesSupported",
+        "jp_record_id": "switch:locres:set-01:PCGMetadataPartitionKernel:OnlyBasicAttributesSupported:d9aeb063",
+        "official_en_record_id": "switch:locres:set-01:PCGMetadataPartitionKernel:OnlyBasicAttributesSupported:d9aeb063",
+        "jp_sha256": "6664e62730b765d5d8e7ff06825b42e8fe76533bf5866c509bc9e3dc5eb12989",
+        "official_en_sha256": "1f99bf35cf7994f0929e0e6dc4b0bec881f779ebe8e949e5b373555b23fe05b1"
+      },
+      "text": {
+        "jp": "GPU 実装では現時点で、基本属性のみをサポートします",
+        "official_en": "GPU implementation currently only supports basic attributes.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMetadataPartitionKernel:PartitionAttributeMissing:c12cc730",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMetadataPartitionKernel",
+        "key": "PartitionAttributeMissing",
+        "jp_record_id": "switch:locres:set-01:PCGMetadataPartitionKernel:PartitionAttributeMissing:c12cc730",
+        "official_en_record_id": "switch:locres:set-01:PCGMetadataPartitionKernel:PartitionAttributeMissing:c12cc730",
+        "jp_sha256": "dd3210f3f4aad5bfd44fb52b2b2734958d4a2f7fee6075f3fa737795fadedd79",
+        "official_en_sha256": "745398bd830f6b880e0f546436ee1f5ca783295c801be0edc1ec6390507ad3f4"
+      },
+      "text": {
+        "jp": "パーティション属性が GPU データに存在しません",
+        "official_en": "Partition attribute was not present in GPU data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

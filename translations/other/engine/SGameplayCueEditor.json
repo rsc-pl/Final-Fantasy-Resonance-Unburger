@@ -1,0 +1,789 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SGameplayCueEditor",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:AddNew:8c0752fd",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "AddNew",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:AddNew:8c0752fd",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:AddNew:8c0752fd",
+        "jp_sha256": "7228efcfa99d96681c40d84cc6f05406da59adf869878fbef6bdcb31ea5e11f9",
+        "official_en_sha256": "c1dc92c680d9eae8af723d08dd82f1cba590c8614d0312613a1f9edb9641550c"
+      },
+      "text": {
+        "jp": "新規追加",
+        "official_en": "Add New",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:AddNewTag:ec5a5b75",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "AddNewTag",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:AddNewTag:ec5a5b75",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:AddNewTag:ec5a5b75",
+        "jp_sha256": "5bb4fd5046e9ccf687405839ab18324ab5ac8dc547bc0234e9151eea1a57b1ec",
+        "official_en_sha256": "f35281b79427d5a8f92f4f163efabd0f58d1c8898b5a6380eacb533363cb898c"
+      },
+      "text": {
+        "jp": "新しい[Gameplay Cue]タグを追加",
+        "official_en": "Add New Gameplay Cue Tag",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:AddingNewGameplaycue:2289aa0c",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "AddingNewGameplaycue",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:AddingNewGameplaycue:2289aa0c",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:AddingNewGameplaycue:2289aa0c",
+        "jp_sha256": "c783591d9e7944e9682528b6adba93a640495be57aa39ecb1fdfb0a1c2d452e6",
+        "official_en_sha256": "776b63e1c410a14dbdc9fd0808525634cf45155bf22547cad18fed1c8635d268"
+      },
+      "text": {
+        "jp": "新しい[GameplayCue]タグを追加しています",
+        "official_en": "Adding new GameplayCue Tag",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:BadPrefixError:ec042043",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "BadPrefixError",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:BadPrefixError:ec042043",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:BadPrefixError:ec042043",
+        "jp_sha256": "d419f03fc968fc11336e279bdbb71708dffb4e23a4a9bf6b556c549881c219cb",
+        "official_en_sha256": "1a7b112a32cc001f83d696e7c8aa73e36004730d7d75f20b6fa410fb78146e71"
+      },
+      "text": {
+        "jp": "[Gameplay Cue]タグは {0} で開始する必要があります。",
+        "official_en": "Gameplay cue tags must start with {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:HideUnhandled:5754a089",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "HideUnhandled",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:HideUnhandled:5754a089",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:HideUnhandled:5754a089",
+        "jp_sha256": "fb404092ca90f7db62579bc172b3736c8b599bec7fa78ce1c140015c4e60fc57",
+        "official_en_sha256": "aa6055de56d6deb49b9df2b0f1fc5711261808e3f12d64d8b084a098c57d675f"
+      },
+      "text": {
+        "jp": "未処理の GameplayCues を非表示にする",
+        "official_en": "Hide Unhandled GameplayCues",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:HotReload:c10795f8",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "HotReload",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:HotReload:c10795f8",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:HotReload:c10795f8",
+        "jp_sha256": "83551d78fd18696271b93478037ad115420b7a115eccdacf04a58bc3baede0da",
+        "official_en_sha256": "63f4f8e38e6ba6d030f966676a3079f81597db6354e6596024adf06e2e2e4207"
+      },
+      "text": {
+        "jp": "ホット リロード",
+        "official_en": "Hot Reload",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:CreateBlueprintOptions:249a5adc",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "CreateBlueprintOptions",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:CreateBlueprintOptions:249a5adc",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:CreateBlueprintOptions:249a5adc",
+        "jp_sha256": "ae934fe68da9864c9e38ef529e51e28ecc35e7c9183768643729839145978f36",
+        "official_en_sha256": "20b24fa5df95f0fee6cc06d2d1fbdb47d5f7aab45141c970a7065e072eb47715"
+      },
+      "text": {
+        "jp": "新しい GameplayCue ハンドラ",
+        "official_en": "New GameplayCue Handler",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:GameplayCueEditor_ShowValidOverrides:78d3a8ca",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "GameplayCueEditor_ShowValidOverrides",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:GameplayCueEditor_ShowValidOverrides:78d3a8ca",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:GameplayCueEditor_ShowValidOverrides:78d3a8ca",
+        "jp_sha256": "337a3358809a8790e8e46c5e4a270782466b77b0fd156d50e5ce112a836bf167",
+        "official_en_sha256": "e4b75034b9bb01b0802a2f414bfd78840f900b45e536b5be014fbe3289c7c4f5"
+      },
+      "text": {
+        "jp": "存在するもしくはセットアップ済みのオーバーライドのタグのみを表示します。",
+        "official_en": "ONLY show tags for overrides that exist/have been setup.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:GameplayCueOverrides:51ba7199",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "GameplayCueOverrides",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:GameplayCueOverrides:51ba7199",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:GameplayCueOverrides:51ba7199",
+        "jp_sha256": "761af87a1f83af2a74bac4c90815241530fcd4f87d38775a2a1615c2e2f0bf40",
+        "official_en_sha256": "adb9fba4e101d6d822b112f8b000da837b9b2887e8d5678c063b0fd119eed873"
+      },
+      "text": {
+        "jp": "フィルタをオーバーライド",
+        "official_en": "Override Filter",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:Search:c7dbdc14",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "Search",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:Search:c7dbdc14",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:Search:c7dbdc14",
+        "jp_sha256": "1b6b1a6f89315f6e4297ec12101c4066eb256512652602f477fb6f2bdc7429ae",
+        "official_en_sha256": "49c266baaaa70981ea188fa714d5c40cf13830d786a861c9943ae0d26a7f3fe9"
+      },
+      "text": {
+        "jp": "検索",
+        "official_en": "Search",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:SearchBPEvents:965cee75",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "SearchBPEvents",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:SearchBPEvents:965cee75",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:SearchBPEvents:965cee75",
+        "jp_sha256": "ce7269f8523ee2dec3ea943b9cdde6ee43a8eeeba55839728cf5e0f97a4ba97e",
+        "official_en_sha256": "7e1c9ffc92f39500432b5591eff4294a526caefd65bf9222a497e9a569dee0df"
+      },
+      "text": {
+        "jp": "BP イベントを検索",
+        "official_en": "Search BP Events",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:BuildEventMap:dff13b00",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "BuildEventMap",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:BuildEventMap:dff13b00",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:BuildEventMap:dff13b00",
+        "jp_sha256": "6a43dd2c87beb50e8824e6f7ac7a59469370e876f2512ab027c0681587c08b31",
+        "official_en_sha256": "65eb3142dc0aacaf57e36e9b79d5a3ef8960e7831f4f789f6367785912457408"
+      },
+      "text": {
+        "jp": "GameplayCue イベントのブループリントを検索しています",
+        "official_en": "Searching Blueprints for GameplayCue events",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:GameplayCueEditor_ShowAllOverrides:abe98960",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "GameplayCueEditor_ShowAllOverrides",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:GameplayCueEditor_ShowAllOverrides:abe98960",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:GameplayCueEditor_ShowAllOverrides:abe98960",
+        "jp_sha256": "0d226cb71568e5fdbcdb7370fa1a704ed69dae54f7111daf03a60337a4628b12",
+        "official_en_sha256": "9b976bea03b5704850bb382c3752e8469e0d1736b881b8c45f4d27c2883832ac"
+      },
+      "text": {
+        "jp": "オーバーライドが可能なすべてのタグを表示：現時点では存在しないが存在した可能性のあるタグも含む",
+        "official_en": "Show ALL POSSIBLE tags for overrides: including Tags that could exist but currently don't",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:ShowAllOverrides_Tooltip_Yes:52fad7bc",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "ShowAllOverrides_Tooltip_Yes",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:ShowAllOverrides_Tooltip_Yes:52fad7bc",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:ShowAllOverrides_Tooltip_Yes:52fad7bc",
+        "jp_sha256": "7726f88c7749f99ceef4877420d3a6421315c2fe008f2a2c704d7e99e6247366",
+        "official_en_sha256": "32dde2545afcf67dad003c0580d081ac43c0850895c9833fdaace0ee61651989"
+      },
+      "text": {
+        "jp": "すべてのオーバーライドを表示します",
+        "official_en": "Show all possible overrides",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:ShowLeafTagsOnly:9fc7718f",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "ShowLeafTagsOnly",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:ShowLeafTagsOnly:9fc7718f",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:ShowLeafTagsOnly:9fc7718f",
+        "jp_sha256": "a54fa19be32f74a5fbd4e322968bdbb0369ec64572cadf198074fe8a2333f803",
+        "official_en_sha256": "99f9d5553cff0b9bd9b0534ce1d0244b06fe311fda70f4501b51f3d9113087ee"
+      },
+      "text": {
+        "jp": "リーフ タグのみを表示する",
+        "official_en": "Show leaf tags only",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:ShowAllOverrides_Tooltip_No:f0e53d49",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "ShowAllOverrides_Tooltip_No",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:ShowAllOverrides_Tooltip_No:f0e53d49",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:ShowAllOverrides_Tooltip_No:f0e53d49",
+        "jp_sha256": "0d17f5d16072a7b13fe42ff1953e7449c6e8f05761df64133a3f9fca11e2981b",
+        "official_en_sha256": "a8a61c6e8b7829a6e0afad43277cb6bb525aaa1307954674fb87df8e8000f1d9"
+      },
+      "text": {
+        "jp": "既存のオーバーライドのみを表示します",
+        "official_en": "Show only existing overrides",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:ShowOverrideType:0566fa10",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "ShowOverrideType",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:ShowOverrideType:0566fa10",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:ShowOverrideType:0566fa10",
+        "jp_sha256": "61c3087519a28f12ac51d2dac68395a7f45a9731e30559e8fabe59f62f366fba",
+        "official_en_sha256": "c76a4f7644c03bbd39a76c25535cc00a6adb3e939714cefaa4f25d11ee671c4a"
+      },
+      "text": {
+        "jp": "オーバーライドを表示する方法を切り替えます。既存のオーバーライドを表示するか、可能性のあるオーバーライドを表示します。",
+        "official_en": "Toggles how we display overrides. Either show the existing overrides, or show possible overrides",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:UnknownColumn:3c1886c1",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "UnknownColumn",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:UnknownColumn:3c1886c1",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:UnknownColumn:3c1886c1",
+        "jp_sha256": "46e8b823860d7b95c81813552e3c166a7dd880b77d93005ee981cc5a074544cc",
+        "official_en_sha256": "9c2c889ed5916e2d64a6eaa5755455835f3f6bbd9f527ba07186df530abbb2e6"
+      },
+      "text": {
+        "jp": "不明な列",
+        "official_en": "Unknown Column",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:UnknownFilterType:a6e7d774",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "UnknownFilterType",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:UnknownFilterType:a6e7d774",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:UnknownFilterType:a6e7d774",
+        "jp_sha256": "a1f44ba017572108a4bd10771355473a9391ff7d62feeff89498f5f300eb746b",
+        "official_en_sha256": "2f0b5311b971cb3f0dd61b77ee946dbe98c2f1e95f18b5b645e56ce2249b834f"
+      },
+      "text": {
+        "jp": "不明なフィルタ タイプ",
+        "official_en": "Unknown Filter Type",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:UnknownItemType:5ef47ea5",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "UnknownItemType",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:UnknownItemType:5ef47ea5",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:UnknownItemType:5ef47ea5",
+        "jp_sha256": "19dd77e16049543e359f70c112f8569ac7d51e991ea49f70346092bf15441731",
+        "official_en_sha256": "8df03a78e927f5e84d8df690d7dea7400b0bca08d768c49fe65d39695fe0298e"
+      },
+      "text": {
+        "jp": "不明なアイテム タイプ",
+        "official_en": "Unknown Item Type",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SGameplayCueEditor:WaitingOnAssetRegister:d56699b6",
+      "source": {
+        "set": "set-02",
+        "namespace": "SGameplayCueEditor",
+        "key": "WaitingOnAssetRegister",
+        "jp_record_id": "switch:locres:set-01:SGameplayCueEditor:WaitingOnAssetRegister:d56699b6",
+        "official_en_record_id": "switch:locres:set-01:SGameplayCueEditor:WaitingOnAssetRegister:d56699b6",
+        "jp_sha256": "72700bc52f8a2b5fe48a4b8bce2128e9bfd44db0fa5ff0f3b6ab55b6fb10539f",
+        "official_en_sha256": "05de782a7216b2e743fe88a1e35ef1efd6e5d092db2aaf0120fccdb620b2c5ae"
+      },
+      "text": {
+        "jp": "アセット レジストリのローディング終了を待機しています(すべてのタグは存在していますが一部の GC 通知が見つかっていない可能性があります)",
+        "official_en": "Waiting on Asset Registry to finish loading (all tags are present but some GC Notifies may not yet be discovered)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

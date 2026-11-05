@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "FDuplicateUserNotifier",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:FDuplicateUserNotifier:DuplicateClient.Main:4341b95b",
+      "source": {
+        "set": "set-02",
+        "namespace": "FDuplicateUserNotifier",
+        "key": "DuplicateClient.Main",
+        "jp_record_id": "switch:locres:set-01:FDuplicateUserNotifier:DuplicateClient.Main:4341b95b",
+        "official_en_record_id": "switch:locres:set-01:FDuplicateUserNotifier:DuplicateClient.Main:4341b95b",
+        "jp_sha256": "30b536208c5cd95c1d150140bac172252c5484dd6717c50ee8edf7b4fbed267c",
+        "official_en_sha256": "0a7fc803d63ca85fdacb3de1827448300892ac64c2bbe1a2687f0bf91afde10f"
+      },
+      "text": {
+        "jp": "クライアント名を複製",
+        "official_en": "Duplicate Client Name",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FDuplicateUserNotifier:DuplicateClient.SubTextFmt:7ac49190",
+      "source": {
+        "set": "set-02",
+        "namespace": "FDuplicateUserNotifier",
+        "key": "DuplicateClient.SubTextFmt",
+        "jp_record_id": "switch:locres:set-01:FDuplicateUserNotifier:DuplicateClient.SubTextFmt:7ac49190",
+        "official_en_record_id": "switch:locres:set-01:FDuplicateUserNotifier:DuplicateClient.SubTextFmt:7ac49190",
+        "jp_sha256": "809f9b4cfedbff42406ce0683e8c7754dddffd98c5eb591b397051ff16c725fa",
+        "official_en_sha256": "ab7fc4f407a73c2f69b2a451ebd920ad31bc2f0a41db7f26d8b3c08f6758de71"
+      },
+      "text": {
+        "jp": "このセッションに、表示名が「{0}」であり、仕掛け名が「{1}」である 2 つのクライアントがあります。\n一部のレプリケーション機能は想定どおりに動作しません。\n\nおそらく、同じマシン上でエディタを 2 つ起動しています。\nインスタンスごとに異なる -CONCERTDISPLAYNAME フラグ値を使用して表示名を設定してください",
+        "official_en": "There are 2 clients with display name {0} and device name {1} in the session.\nSome replication features will not work as intended.\n\nMost likely, you have launched 2 editors on the same machine.\nTry setting a display name using different -CONCERTDISPLAYNAME flag values for each instance.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

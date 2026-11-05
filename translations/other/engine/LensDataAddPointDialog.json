@@ -1,0 +1,789 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "LensDataAddPointDialog",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:AddDataPoint:fb21bda9",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "AddDataPoint",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:AddDataPoint:fb21bda9",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:AddDataPoint:fb21bda9",
+        "jp_sha256": "d91017c932b5fc756522e43c732b39b893d8061e3045e7f942ae7ebbf5bfb043",
+        "official_en_sha256": "9fd728c66c9a256b121472dabf32a34317aed01d8427d70ec830289cf23a7cc8"
+      },
+      "text": {
+        "jp": "追加",
+        "official_en": "Add",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:LensEditorAddPointDialog:0ec77baa",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "LensEditorAddPointDialog",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:LensEditorAddPointDialog:0ec77baa",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:LensEditorAddPointDialog:0ec77baa",
+        "jp_sha256": "30af48b405fb7aa267daedbe60bcd1cedfa957afa40a8c4a70d8efba66dc2896",
+        "official_en_sha256": "474186399e32af08ad745619a2a4bf5b62bf21a1c33c5218f874b67eb8457bee"
+      },
+      "text": {
+        "jp": "レンズ データ点を追加",
+        "official_en": "Add Lens Data Point",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:IrisEncoderTooltip:a65caf4f",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "IrisEncoderTooltip",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:IrisEncoderTooltip:a65caf4f",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:IrisEncoderTooltip:a65caf4f",
+        "jp_sha256": "867c3fae0fb5e134953e8eb92f4267240ecfbcd9caf1c930155bf409a354d900",
+        "official_en_sha256": "758ab1aac951c9173767bf06cc52a79430d07be6af6551174378f4ece2f259d2"
+      },
+      "text": {
+        "jp": "絞り F 値",
+        "official_en": "Aperture in FStop",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:CancelAddingDataPoint:8c0dfce6",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "CancelAddingDataPoint",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:CancelAddingDataPoint:8c0dfce6",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:CancelAddingDataPoint:8c0dfce6",
+        "jp_sha256": "bca84ea5c65fee0eccd1f23a972b95cce908f83977c65b4e8b32ca72a772a9a5",
+        "official_en_sha256": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27"
+      },
+      "text": {
+        "jp": "キャンセル",
+        "official_en": "Cancel",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:TrackingDataCheckboxTooltip:dcb92073",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "TrackingDataCheckboxTooltip",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:TrackingDataCheckboxTooltip:dcb92073",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:TrackingDataCheckboxTooltip:dcb92073",
+        "jp_sha256": "c536693a423cd4cecd1db049f09ac9c4b421eb66687a566a9cbd9c5947f8199d",
+        "official_en_sha256": "678c6b26a91b7a6ba731f48f0346b35f19d0d8adef53b76b5d4ee60d9bb9cf5a"
+      },
+      "text": {
+        "jp": "クリックするとこの入力の受信トラッキングデータをオーバーライド",
+        "official_en": "Check to override incoming tracking data for this input",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:FxFyDisplayUnitHelpText:869522d8",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "FxFyDisplayUnitHelpText",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:FxFyDisplayUnitHelpText:869522d8",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:FxFyDisplayUnitHelpText:869522d8",
+        "jp_sha256": "33226061ab428d5836f949cf3a6a3e3277c845047de2cdd8a7c2ce7770702390",
+        "official_en_sha256": "a270e819fcad6344d1ccd92fc18ae6fb18bbfde177352f131925f18cfa806f82"
+      },
+      "text": {
+        "jp": "下の FxFy の値に対して使用する単位を選択します\nmm またはピクセルを使用する場合、センサーと画像サイズがレンズ情報で正しく設定されていることを確認してください",
+        "official_en": "Choose the units that should be used for the value of FxFy below.\nIf using mm or pixels, check that the sensor and image dimensions are set correctly in the Lens Information.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:ImageCenterDisplayUnitHelpText:9dffb7aa",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "ImageCenterDisplayUnitHelpText",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:ImageCenterDisplayUnitHelpText:9dffb7aa",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:ImageCenterDisplayUnitHelpText:9dffb7aa",
+        "jp_sha256": "f34d5230ce0c92fed3dfa0543210172920a143e5cefda5dcff842a1d09262dfd",
+        "official_en_sha256": "ea230a569827e82aa5d2017b4a8a0a6dad606e4e18ea630fbe81053c35240d43"
+      },
+      "text": {
+        "jp": "下の ImageCenter の値に対して使用する単位を選択します\nmm またはピクセルを使用する場合、センサーと画像サイズがレンズ情報で正しく設定されていることを確認してください",
+        "official_en": "Choose the units that should be used for the value of ImageCenter below.\nIf using mm or pixels, check that the sensor and image dimensions are set correctly in the Lens Information.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:DataCategoryLabel:b09d204f",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "DataCategoryLabel",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:DataCategoryLabel:b09d204f",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:DataCategoryLabel:b09d204f",
+        "jp_sha256": "24d989c55571a336128af1ff48ee045b6d188b0087fd8e03ab801a7485e058a7",
+        "official_en_sha256": "68cd154732021d9684d0dcad6276e99d675f962c9b08774f23f5de9398e19290"
+      },
+      "text": {
+        "jp": "データ型",
+        "official_en": "Data Type",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:DistortionCategory:b197fdd0",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "DistortionCategory",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:DistortionCategory:b197fdd0",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:DistortionCategory:b197fdd0",
+        "jp_sha256": "4ecacc484aa1c44fc322326750abf6fab0869b2cb4d0fdd27c715f40f8a6bca3",
+        "official_en_sha256": "7ea00e71863f17df0e59a1addf632a45e58c2bc705c30950b5fe0cb2093b455c"
+      },
+      "text": {
+        "jp": "歪みパラメータ",
+        "official_en": "Distortion Parameters",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:FocusCategory:8191c508",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "FocusCategory",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:FocusCategory:8191c508",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:FocusCategory:8191c508",
+        "jp_sha256": "0b09f87c0c43409c8dfb984ab7f940f1d9b503eda5eac6c5c900794f5824de1d",
+        "official_en_sha256": "de396df809d2abc749ecdc1227f2281f5ee5be006b4d9360d6bee89650c1a654"
+      },
+      "text": {
+        "jp": "エンコーダー - フォーカス",
+        "official_en": "Encoder - Focus",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:IrisCategory:208c5135",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "IrisCategory",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:IrisCategory:208c5135",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:IrisCategory:208c5135",
+        "jp_sha256": "3eaf8b94a82c612f65b028c67be8a8664dc246f1248ae7515a25b137a9517a6e",
+        "official_en_sha256": "7e78fa6c19106552175f7bbb91679233fb0f27688b9626bccf6b2aaa991a5e68"
+      },
+      "text": {
+        "jp": "エンコーダー - 虹彩",
+        "official_en": "Encoder - Iris",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:EncoderMappingValueLabel:df6d1250",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "EncoderMappingValueLabel",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:EncoderMappingValueLabel:df6d1250",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:EncoderMappingValueLabel:df6d1250",
+        "jp_sha256": "34b4d95755ac9a757a8e160b877c01c82a6c7318c6bacb91700e10d054083eae",
+        "official_en_sha256": "5bcf6539c2f0677b47bf6ea9cd5ccd3a38343cc496c2493ba3c2ee664f95f1ae"
+      },
+      "text": {
+        "jp": "エンコーダー マッピング：",
+        "official_en": "Encoder mapping :",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:ZoomCategory:2e36a7b0",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "ZoomCategory",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:ZoomCategory:2e36a7b0",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:ZoomCategory:2e36a7b0",
+        "jp_sha256": "70e93f4b3ad15ab487bbe0b094d6dfdc769a20034dfabbc8d32cd3660108d719",
+        "official_en_sha256": "602c4a8f8f3d97616b60f34cf1a8f94f94f2dbf69867cfd540ce289288cdc3f8"
+      },
+      "text": {
+        "jp": "焦点距離",
+        "official_en": "Focal Length",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:FocusEncoderTooltip:a5645263",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "FocusEncoderTooltip",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:FocusEncoderTooltip:a5645263",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:FocusEncoderTooltip:a5645263",
+        "jp_sha256": "0e937622a62fd382f5c65f9d949afb6945bf566307e98b61249387d1b4b4b107",
+        "official_en_sha256": "af613157e69b72536ed0e58f04e397b9af7fc9191c27f0ff678933b9ae93562a"
+      },
+      "text": {
+        "jp": "フォーカス (cm)",
+        "official_en": "Focus in cm",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:ImageCenterCategory:c9dea6f9",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "ImageCenterCategory",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:ImageCenterCategory:c9dea6f9",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:ImageCenterCategory:c9dea6f9",
+        "jp_sha256": "dd604b53d26d6c9f90a5310c98ae2f902e1ecd655d09601898dcf70f30b90a31",
+        "official_en_sha256": "408d101af8a5d94903ec17df15aa7fca1b521d9ca23e70ec370c600ae29a83c2"
+      },
+      "text": {
+        "jp": "中央に表示",
+        "official_en": "Image Center",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:InvalidCategory:e6fd50d3",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "InvalidCategory",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:InvalidCategory:e6fd50d3",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:InvalidCategory:e6fd50d3",
+        "jp_sha256": "383bbb5e8490445a209b509cb1df049413a7b9a53a859c268ffbd3e841b46a9d",
+        "official_en_sha256": "96c34a0719eb565c268a1626c44313a20de4f83927890933bd9b480849adb76c"
+      },
+      "text": {
+        "jp": "無効",
+        "official_en": "Invalid",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:InvalidEncoderType:6d036264",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "InvalidEncoderType",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:InvalidEncoderType:6d036264",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:InvalidEncoderType:6d036264",
+        "jp_sha256": "35631e30fca5a20f6850f42f9599836a1fc6b43f09883213465dffe9f2594014",
+        "official_en_sha256": "e1b96744a8074e2a2f0d2cf829ae60c6b8694c7262b0308bc6746736f9badf75"
+      },
+      "text": {
+        "jp": "無効なエンコーダー タイプ",
+        "official_en": "Invalid Encoder Type",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:LensDataCategories:72635c42",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "LensDataCategories",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:LensDataCategories:72635c42",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:LensDataCategories:72635c42",
+        "jp_sha256": "6859a5c65978ba26f2801647c081bd215ae521c44c5676f8d4aceee96bd9b8e8",
+        "official_en_sha256": "572607f1ea537e4fb5d3e7d004d03b3534e7cc27690a71e7250d892036be8845"
+      },
+      "text": {
+        "jp": "レンズ データ カテゴリ",
+        "official_en": "Lens data categories",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:MapPointAdded:1b33a72e",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "MapPointAdded",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:MapPointAdded:1b33a72e",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:MapPointAdded:1b33a72e",
+        "jp_sha256": "51b50089032eb866c26571fa587fef837a8c80b381b989a196b491a3f05d8e84",
+        "official_en_sha256": "ab0a3ebe23de70e1c621f6dee1d8cc3613de256c585258e48dae47ab44454148"
+      },
+      "text": {
+        "jp": "マップ ポイントが追加されました",
+        "official_en": "Map Point Added",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:NodalOffsetCategory:c3c1a11a",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "NodalOffsetCategory",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:NodalOffsetCategory:c3c1a11a",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:NodalOffsetCategory:c3c1a11a",
+        "jp_sha256": "5b932091736ba9013d8d81a8af225c34cf3f25fe939b6ab91ada34f481b13cfd",
+        "official_en_sha256": "25c77ff1f997bf3a38c9aa8787bb7b92d12c8305175f375d1025e5d74e9a9267"
+      },
+      "text": {
+        "jp": "Nodal オフセット",
+        "official_en": "Nodal offset",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDataAddPointDialog:STMapCategory:debf7279",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDataAddPointDialog",
+        "key": "STMapCategory",
+        "jp_record_id": "switch:locres:set-01:LensDataAddPointDialog:STMapCategory:debf7279",
+        "official_en_record_id": "switch:locres:set-01:LensDataAddPointDialog:STMapCategory:debf7279",
+        "jp_sha256": "eaf2c0af541ba5129f5b2eda66710afb367c12ff8e453b788b8541f1618ec95c",
+        "official_en_sha256": "eaf2c0af541ba5129f5b2eda66710afb367c12ff8e453b788b8541f1618ec95c"
+      },
+      "text": {
+        "jp": "STMap",
+        "official_en": "STMap",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

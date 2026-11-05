@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_C01_021_03",
+    "scene_id": "ST_C01_021_03",
+    "chapter": "chapter01",
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_C01_021_03:021_03_001:a93bbeaf",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_C01_021_03",
+        "key": "021_03_001",
+        "jp_record_id": "switch:locres:set-02:ST_C01_021_03:021_03_001:a93bbeaf",
+        "official_en_record_id": "switch:locres:set-02:ST_C01_021_03:021_03_001:a93bbeaf",
+        "jp_sha256": "b2c95c238577e8657b287a6af159ab07d600874b184444d09613e879d548d6c5",
+        "official_en_sha256": "f167668a6a8e205bfe11b1d0e098b9947832876de9be8ca9648a1e7a8f7c0835"
+      },
+      "text": {
+        "jp": "永遠に光の射さぬ、\r\n真の闇を見せてやろう。",
+        "official_en": "May you now behold true darkness, absent of light for all eternity.",
+        "real_en": "I'll show you true darkness, where no light will ever shine."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_C01_021_03",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "常闇のヴェリアス",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0015",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_C01_021_03/021_03_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

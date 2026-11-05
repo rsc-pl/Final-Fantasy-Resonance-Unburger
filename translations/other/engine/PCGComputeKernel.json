@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGComputeKernel",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGComputeKernel:UninitializeKernel:a3598f9d",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGComputeKernel",
+        "key": "UninitializeKernel",
+        "jp_record_id": "switch:locres:set-01:PCGComputeKernel:UninitializeKernel:a3598f9d",
+        "official_en_record_id": "switch:locres:set-01:PCGComputeKernel:UninitializeKernel:a3598f9d",
+        "jp_sha256": "45b51081a6ee15cdf24654d24297f60c8dfa1a478ec796a09eb1d2205cb82d65",
+        "official_en_sha256": "ecc34ea6e442114c2f1a1962cad825cf71638869cf748cf931d3f2f9ae2fd49b"
+      },
+      "text": {
+        "jp": "コンパイル中にカーネルが初期化されません。カーネル作成時に必ず Initialize() を呼び出してください",
+        "official_en": "Kernel was not initialized during compilation. Make sure to call Initialize() when creating your kernels.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGComputeKernel:ParamOverrideGPU:be045fca",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGComputeKernel",
+        "key": "ParamOverrideGPU",
+        "jp_record_id": "switch:locres:set-01:PCGComputeKernel:ParamOverrideGPU:be045fca",
+        "official_en_record_id": "switch:locres:set-01:PCGComputeKernel:ParamOverrideGPU:be045fca",
+        "jp_sha256": "41c270080039acc35342f086767450bb6764dd1f9798d2b38a81fdd293721d32",
+        "official_en_sha256": "f6411d6e25ffa23735be0a66d05fbebde7914a5643a2af3d9870a5a409854652"
+      },
+      "text": {
+        "jp": "ピン「{0}」のオーバーライドを試行しましたが、GPU ノードでサポートされていません",
+        "official_en": "Tried to override pin '{0}', but overrides are not supported on GPU nodes.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGComputeKernel:InvalidInputPinEdge:35438ca4",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGComputeKernel",
+        "key": "InvalidInputPinEdge",
+        "jp_record_id": "switch:locres:set-01:PCGComputeKernel:InvalidInputPinEdge:35438ca4",
+        "official_en_record_id": "switch:locres:set-01:PCGComputeKernel:InvalidInputPinEdge:35438ca4",
+        "jp_sha256": "40eb66a9791344628ec3a9cf0604a77f0b9b7425f196fa9f2c7eed588884352c",
+        "official_en_sha256": "63a85e241974474ebc80a2856483cf0f62a086ee96e04106a2b0e5dee1bb1749"
+      },
+      "text": {
+        "jp": "接続されたアップストリームピン「{0}」(ノード「{1}」、タイプ {2}) はサポートされていません。必須変換ノードを追加するためにエッジを再作成します",
+        "official_en": "Unsupported connected upstream pin '{0}' on node '{1}' with type {2}. Recreate the edge to add required conversion nodes.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "WaterEditor",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:WaterEditor:AddWaterCollisionProfile:3f5f82ab",
+      "source": {
+        "set": "set-02",
+        "namespace": "WaterEditor",
+        "key": "AddWaterCollisionProfile",
+        "jp_record_id": "switch:locres:set-01:WaterEditor:AddWaterCollisionProfile:3f5f82ab",
+        "official_en_record_id": "switch:locres:set-01:WaterEditor:AddWaterCollisionProfile:3f5f82ab",
+        "jp_sha256": "f69c03e9d6e1b04a4642221458f047d5f502447f6131a936d588f85a37f60e4b",
+        "official_en_sha256": "70a1e25659bcafa4671585e48521cadcfd9324e8e0069aa32e32992e2096fe27"
+      },
+      "text": {
+        "jp": "DefaultEngine.ini にエントリを追加しますか?",
+        "official_en": "Add entry to DefaultEngine.ini?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WaterEditor:MissingWaterCollisionProfile:f8f2647d",
+      "source": {
+        "set": "set-02",
+        "namespace": "WaterEditor",
+        "key": "MissingWaterCollisionProfile",
+        "jp_record_id": "switch:locres:set-01:WaterEditor:MissingWaterCollisionProfile:f8f2647d",
+        "official_en_record_id": "switch:locres:set-01:WaterEditor:MissingWaterCollisionProfile:f8f2647d",
+        "jp_sha256": "6a07a1ffa32d5374213599a6071b68a9641a5370b992de6b0c2f207f926ace0f",
+        "official_en_sha256": "05da13cd68f877af15bd81dc2f353ea668a5b75871dfff0a93186699ce8d34b2"
+      },
+      "text": {
+        "jp": "コリジョン プロファイル設定に、水のコリジョンが機能するために必要である Water Body コリジョン プロファイル用のエントリが含まれていません",
+        "official_en": "Collision Profile settings do not include an entry for the Water Body Collision profile, which is required for water collision to function.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UGenerateStaticMeshLODProcess",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UGenerateStaticMeshLODProcess:UpdateExistingAssetMessage:c0d05a07",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGenerateStaticMeshLODProcess",
+        "key": "UpdateExistingAssetMessage",
+        "jp_record_id": "switch:locres:set-01:UGenerateStaticMeshLODProcess:UpdateExistingAssetMessage:c0d05a07",
+        "official_en_record_id": "switch:locres:set-01:UGenerateStaticMeshLODProcess:UpdateExistingAssetMessage:c0d05a07",
+        "jp_sha256": "bf57b4931acd83212fcdd5cfed57d4cd478263775523de89b287bec2a818853a",
+        "official_en_sha256": "76f800ffab2f7482d8ac1fd23d0cb2c28fd2235f4bb59e01b9e392d892aea340"
+      },
+      "text": {
+        "jp": "追加した再生成 LOD",
+        "official_en": "Added Generated LOD",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGenerateStaticMeshLODProcess:UnusedMaterialWarning:b97d617d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGenerateStaticMeshLODProcess",
+        "key": "UnusedMaterialWarning",
+        "jp_record_id": "switch:locres:set-01:UGenerateStaticMeshLODProcess:UnusedMaterialWarning:b97d617d",
+        "official_en_record_id": "switch:locres:set-01:UGenerateStaticMeshLODProcess:UnusedMaterialWarning:b97d617d",
+        "jp_sha256": "4f416b4a75978798b9e8b7ea050b20a947db9fbb652511b5fb99e85dbad43f40",
+        "official_en_sha256": "ab8a631ca89ae1a205b0eb134bd759fcad9b176e65bc35428d4579602e645591"
+      },
+      "text": {
+        "jp": "使用されていないマテリアル({0})があります。このツールを使用する前に削除することを検討してください。",
+        "official_en": "Found an unused material ({0}). Consider removing it before using this tool.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGenerateStaticMeshLODProcess:NonParameterTextureWarning:2a9b18a9",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGenerateStaticMeshLODProcess",
+        "key": "NonParameterTextureWarning",
+        "jp_record_id": "switch:locres:set-01:UGenerateStaticMeshLODProcess:NonParameterTextureWarning:2a9b18a9",
+        "official_en_record_id": "switch:locres:set-01:UGenerateStaticMeshLODProcess:NonParameterTextureWarning:2a9b18a9",
+        "jp_sha256": "9589a60ff01e01589b53c1b0b4df14dc560f7cb2c9ecaa5af48a78e9cdfceb45",
+        "official_en_sha256": "456a129b1f9258b313e8b252b8826d74678b61d649b2abc5b43d5fae22ef707a"
+      },
+      "text": {
+        "jp": "パラメータ以外のテクスチャ サンプラが入力マテリアル [{0}] で検出されました。出力マテリアルには予期しない動作をする可能性があります。",
+        "official_en": "Non-parameter texture sampler detected in input material [{0}]. Output materials may have unexpected behaviour.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

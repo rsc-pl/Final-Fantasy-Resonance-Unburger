@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGOuterIntersectionElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGOuterIntersectionElement:PrimaryPinTooltip:1fc0f738",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGOuterIntersectionElement",
+        "key": "PrimaryPinTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGOuterIntersectionElement:PrimaryPinTooltip:1fc0f738",
+        "official_en_record_id": "switch:locres:set-01:PCGOuterIntersectionElement:PrimaryPinTooltip:1fc0f738",
+        "jp_sha256": "2f5b3878a12e0bc95f0278d6c744f149fb824bfbdfc01fe163b6f262ee3dcd92",
+        "official_en_sha256": "68f8ce4193b0291ff3e79b8c535c46a22beab8fbaa151f6ef070a38eb9069367"
+      },
+      "text": {
+        "jp": "プライマリ ピンの各入力は、交差演算の出力の計算に使用されます。入力データが提供されると、このピンの各入力に対して出力結果が生成されます",
+        "official_en": "Each input on the primary pin will be used to calculate the output of the intersection operation. Assuming input data is provided, an output result will be generated for each input on this pin.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGOuterIntersectionElement:NodeTooltipText:49179669",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGOuterIntersectionElement",
+        "key": "NodeTooltipText",
+        "jp_record_id": "switch:locres:set-01:PCGOuterIntersectionElement:NodeTooltipText:49179669",
+        "official_en_record_id": "switch:locres:set-01:PCGOuterIntersectionElement:NodeTooltipText:49179669",
+        "jp_sha256": "99456e5c8edaf07b7c001b34d7fdfbb06e92d1db1a28bd0df7bcbb02dc337429",
+        "official_en_sha256": "658dc1d42a7dd40de5fa0669a695358d2f7af7aec779b3698b959de86f5f6f3c"
+      },
+      "text": {
+        "jp": "交差が存在する場合、プライマリ ピン上の特定のソース入力ごとに (暗黙的に結合された) 他のソース入力と連続的に交差した結果として空間データが生成されます。追加のピンを動的に追加することができます。これらそれぞれのピンについては、同じピンへのすべての入力が自動的に一緒に「結合」されます。「Ignore Empty Secondary Input (空のセカンダリ入力を無視)」フラグが「true」に設定されていない限り、ソース ピンはデータを受信していないか空のデータを受信した場合、論理的に空の出力を返します。参照：内部交差点ノード、ユニオン ノード",
+        "official_en": "For each given source input on the primary pin, spatial data will be generated as the result of sequentially intersecting with the other source inputs (implicitly unioned), should an intersection exist. Additional pins maybe dynamically added and for each of these, all of the inputs into the same pin will be 'unioned' together automatically. Source pins receiving no or empty data will logically return an empty output, unless the 'Ignore Empty Secondary Input' flag has been set to 'true'.\nSee also: Inner Intersection Node, Union Node",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGOuterIntersectionElement:NodeTitle:c2f4883f",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGOuterIntersectionElement",
+        "key": "NodeTitle",
+        "jp_record_id": "switch:locres:set-01:PCGOuterIntersectionElement:NodeTitle:c2f4883f",
+        "official_en_record_id": "switch:locres:set-01:PCGOuterIntersectionElement:NodeTitle:c2f4883f",
+        "jp_sha256": "7a1900564010c62b462bd3ace1cd8a789c99740948582e9c2c620a1fc6e68680",
+        "official_en_sha256": "7a1900564010c62b462bd3ace1cd8a789c99740948582e9c2c620a1fc6e68680"
+      },
+      "text": {
+        "jp": "Intersection",
+        "official_en": "Intersection",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGOuterIntersectionElement:SecondaryPinLabel:7e409a7a",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGOuterIntersectionElement",
+        "key": "SecondaryPinLabel",
+        "jp_record_id": "switch:locres:set-01:PCGOuterIntersectionElement:SecondaryPinLabel:7e409a7a",
+        "official_en_record_id": "switch:locres:set-01:PCGOuterIntersectionElement:SecondaryPinLabel:7e409a7a",
+        "jp_sha256": "1f52a17bb3feec14ab9e0e1d56289f9d839bd15adf1b474f45d4dae00c85d5ed",
+        "official_en_sha256": "7e1a7f2cf515ebe2387dd34d14ed968d83bfb02c13ab31fc2bbdf1de6c86a3e2"
+      },
+      "text": {
+        "jp": "セカンダリ ピンの入力は、交差演算の計算のため、プライマリ ピンの入力との比較前に暗黙的に結合されます。「Ignore Empty Secondary Input (空のセカンダリ入力を無視)」フラグが有効になっていない限りは、セカンダリ ピンの 1 つで空のデータが渡されると、空の交差出力が生成されます",
+        "official_en": "Secondary pin inputs will be implicitly unioned together before being compared to the primary pin's input for calculation of the intersection operation. Empty data passed along on one of the secondary pins will result in an empty intersection output, unless the 'Ignore Empty Secondary Input' flag is enabled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGOuterIntersectionElement:OutputPinTooltip:01f2485d",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGOuterIntersectionElement",
+        "key": "OutputPinTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGOuterIntersectionElement:OutputPinTooltip:01f2485d",
+        "official_en_record_id": "switch:locres:set-01:PCGOuterIntersectionElement:OutputPinTooltip:01f2485d",
+        "jp_sha256": "b050158a4a417e3f19c2812ffa956c945c92216930a735773822bc742fd2e87a",
+        "official_en_sha256": "424c0d8bd56744435771e18e4d0670fc3a806b282a27abb8058411e00f473d2c"
+      },
+      "text": {
+        "jp": "すべてのソース入力データから作成された交差。プライマリ入力ピンの入力ごとに 1 つの出力が生成されます",
+        "official_en": "The intersection created from all the source input data. One output will be generated for every input on the primary input pin.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

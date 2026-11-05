@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "USelfUnionMeshesTool",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:USelfUnionMeshesTool:OnStartTool:fa1fa7da",
+      "source": {
+        "set": "set-02",
+        "namespace": "USelfUnionMeshesTool",
+        "key": "OnStartTool",
+        "jp_record_id": "switch:locres:set-01:USelfUnionMeshesTool:OnStartTool:fa1fa7da",
+        "official_en_record_id": "switch:locres:set-01:USelfUnionMeshesTool:OnStartTool:fa1fa7da",
+        "jp_sha256": "d5b08e2c2eebc18a63c1e99993890e17395d6f3bf3bd49e94d412af4f8894d30",
+        "official_en_sha256": "297bde6cb0b2799972d0c75969247c7fedca986dc1bcdc58592d0fcad16f919a"
+      },
+      "text": {
+        "jp": "入力メッシュの自己結合を計算して、自己交差を解決します。トランスフォーム ギズモを使用して、入力オブジェクトの位置を調整します (エラーや失敗の解決に役立つことがあります)",
+        "official_en": "Compute a Self-Union of the input meshes, to resolve self-intersections. Use the transform gizmos to tweak the positions of the input objects (can help to resolve errors/failures)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USelfUnionMeshesTool:ToolName:b4e62d0f",
+      "source": {
+        "set": "set-02",
+        "namespace": "USelfUnionMeshesTool",
+        "key": "ToolName",
+        "jp_record_id": "switch:locres:set-01:USelfUnionMeshesTool:ToolName:b4e62d0f",
+        "official_en_record_id": "switch:locres:set-01:USelfUnionMeshesTool:ToolName:b4e62d0f",
+        "jp_sha256": "af33393bdaa92051c9c08b839de772666af77875b8a4c540e907b4e339e4fa76",
+        "official_en_sha256": "8851aaa7d08ca1ae7e5d63278037532f3222a8b746e7abdd8af3fb06d6d4f993"
+      },
+      "text": {
+        "jp": "マージ",
+        "official_en": "Merge",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USelfUnionMeshesTool:SelfUnionMeshes:3ac65f58",
+      "source": {
+        "set": "set-02",
+        "namespace": "USelfUnionMeshesTool",
+        "key": "SelfUnionMeshes",
+        "jp_record_id": "switch:locres:set-01:USelfUnionMeshesTool:SelfUnionMeshes:3ac65f58",
+        "official_en_record_id": "switch:locres:set-01:USelfUnionMeshesTool:SelfUnionMeshes:3ac65f58",
+        "jp_sha256": "c5d84f653c6a5af3d063c624a4eb52310aa07a50b73949f99ad64c846e6f7aed",
+        "official_en_sha256": "4ebb31a4cab7421f0820c131f2225a7fb7aa7c40fec9b723544dfa9d40f05df9"
+      },
+      "text": {
+        "jp": "メッシュをマージ",
+        "official_en": "Merge Meshes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USelfUnionMeshesTool:InvalidTargets:ab3f171e",
+      "source": {
+        "set": "set-02",
+        "namespace": "USelfUnionMeshesTool",
+        "key": "InvalidTargets",
+        "jp_record_id": "switch:locres:set-01:USelfUnionMeshesTool:InvalidTargets:ab3f171e",
+        "official_en_record_id": "switch:locres:set-01:USelfUnionMeshesTool:InvalidTargets:ab3f171e",
+        "jp_sha256": "77ccfc705d8b027f7a66088106441eb2b8c3c56c01d7330971a37dae76fd720a",
+        "official_en_sha256": "38b5c5d6c40250ad3260c966dde965d373b36beea8362687ce72be611d6bf06a"
+      },
+      "text": {
+        "jp": "ターゲットメッシュは有効ではありません",
+        "official_en": "Target meshes are no longer valid",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

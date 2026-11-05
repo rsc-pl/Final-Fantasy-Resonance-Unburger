@@ -1,0 +1,974 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ZoneShapeComponentVisualizer",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:AddShapePoint:a5f97b1e",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "AddShapePoint",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:AddShapePoint:a5f97b1e",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:AddShapePoint:a5f97b1e",
+        "jp_sha256": "de0d830bdb60cb8c6256874ec7cfe525a1d3c1143f0824c27d98720bd90d2863",
+        "official_en_sha256": "8582d2f50d810105583bc3430e417c0d8541d08e5eac61680338b423a58e7977"
+      },
+      "text": {
+        "jp": "形状点を追加",
+        "official_en": "Add Shape Point",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:AddShapePointAndSnap:37721c89",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "AddShapePointAndSnap",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:AddShapePointAndSnap:37721c89",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:AddShapePointAndSnap:37721c89",
+        "jp_sha256": "e55fd1d1bb0c04269686ce28123ac3004f052a96ce1faa5df11d07be882a64f0",
+        "official_en_sha256": "13c67b1902df62acaeab7945e3cfb0c75185fdbb3d19719b0c1e9928fc969a3c"
+      },
+      "text": {
+        "jp": "形状点を追加してフロアにスナップ",
+        "official_en": "Add Shape Point And Snap To Floor",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:ZoneShapeAutoConnectionMessage:5d5a0645",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "ZoneShapeAutoConnectionMessage",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:ZoneShapeAutoConnectionMessage:5d5a0645",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:ZoneShapeAutoConnectionMessage:5d5a0645",
+        "jp_sha256": "5ad2d6d40f4fa50fdbafe485923dfa325572cd97668618f1de231a1d2c48a913",
+        "official_en_sha256": "436e0dc214b24f7734e422327cd75dc5b6992b2a4529c55817a180491c91339d"
+      },
+      "text": {
+        "jp": "自動ゾーン形状接続：C キーを押したまま、ゾーン形状のエンド ポイントを、近くの、接続する別の形状のコネクタにドラッグします",
+        "official_en": "Auto Zone Shape Connection: Hold C and drag zone shape end point close to another shape connector to connect.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:ZoneShapeAutoIntersectionMessage:f079f1d9",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "ZoneShapeAutoIntersectionMessage",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:ZoneShapeAutoIntersectionMessage:f079f1d9",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:ZoneShapeAutoIntersectionMessage:f079f1d9",
+        "jp_sha256": "1bbd405ebb901c044983dd7f26d7b614f940159a3abd7480cf689af8ae47c563",
+        "official_en_sha256": "c19cdd5e17e134f288b0c1521e58843a2575d7ca1199297d15faffb32bc6a37f"
+      },
+      "text": {
+        "jp": "自動ゾーン形状の交差：X キーを押したまま、ゾーン形状のエンド ポイントを近くの別の形状にドラッグし、交差を作成します",
+        "official_en": "Auto Zone Shape Intersection: Hold X and drag zone shape end point close to another shape to create an intersection.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:HandleBoxSelect:024139cd",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "HandleBoxSelect",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:HandleBoxSelect:024139cd",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:HandleBoxSelect:024139cd",
+        "jp_sha256": "dc6990d83a9b1c942f374ca08a51a5c3b3dc80f3086eac5b3bb7a6b40aa9778c",
+        "official_en_sha256": "4a632090a3ea7bb100f9eb078db0eb74e6094005b393807a28455308afe088bf"
+      },
+      "text": {
+        "jp": "ボックス選択の形状点",
+        "official_en": "Box Select Shape Points",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:BreakAtPoint:c5ea8362",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "BreakAtPoint",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:BreakAtPoint:c5ea8362",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:BreakAtPoint:c5ea8362",
+        "jp_sha256": "d4c0f6457346db80e24e1963e66bdcf36564dbf997ad83d8ff23101be51b19ab",
+        "official_en_sha256": "76c099e6329b669cb1bde9453c9b8b18d18383c10ee29a92a00794a4d82ee4ea"
+      },
+      "text": {
+        "jp": "ポイントで分割",
+        "official_en": "Break At Point",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:BreakAtPointNewActors:06c3376f",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "BreakAtPointNewActors",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:BreakAtPointNewActors:06c3376f",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:BreakAtPointNewActors:06c3376f",
+        "jp_sha256": "8a74b0280652c308bc6ad1f98de501a5d9fe6ce9016864b56ff4632a2ff4a36a",
+        "official_en_sha256": "dc85ddd527ca1aca4bf3e2beaa679dd5e4d84f2b8231cd892a45a7895467d558"
+      },
+      "text": {
+        "jp": "ポイントで形状を分割して新しいアクタにする",
+        "official_en": "Break Shape Into New Actors At Points",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:BreakAtSegmentNewActors:26458d05",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "BreakAtSegmentNewActors",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:BreakAtSegmentNewActors:26458d05",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:BreakAtSegmentNewActors:26458d05",
+        "jp_sha256": "579447fc932a8b4780326ad05716dd5ae87194354cb5b643010e4c69d604698c",
+        "official_en_sha256": "6db47ac9cc8a5ffbfb66e7f39ddaf69bb45709a8beb1e50b5eea181a03e6b43e"
+      },
+      "text": {
+        "jp": "カーソル位置で形状を分割して新しいアクタにする",
+        "official_en": "Break Shape Into New Actors At The Cursor Location",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:BreakAtPointNewComponents:6570b7b2",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "BreakAtPointNewComponents",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:BreakAtPointNewComponents:6570b7b2",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:BreakAtPointNewComponents:6570b7b2",
+        "jp_sha256": "15223921b9c09db1e172068f733d52e436844a17b013d66d5c4dc593adf1e9ab",
+        "official_en_sha256": "90e5049fa71e73321c6de528eed521675b6b8eca1036a56fbe0c7c5f7d2ef467"
+      },
+      "text": {
+        "jp": "ポイントで形状を分割して新しいコンポーネントにする",
+        "official_en": "Break Shape Into New Components At Points",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:BreakAtSegmentNewComponents:63ad7b58",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "BreakAtSegmentNewComponents",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:BreakAtSegmentNewComponents:63ad7b58",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:BreakAtSegmentNewComponents:63ad7b58",
+        "jp_sha256": "e8c87d5b9698c28dc05cf385f6f89c1fa6d4bf33d8916fd6f00de328a8ae0353",
+        "official_en_sha256": "e52ddaa7d482753bdf650797f5a49325a8ebd22ae6131edbf53695ba0776519b"
+      },
+      "text": {
+        "jp": "カーソル位置で形状を分割して新しいコンポーネントにする",
+        "official_en": "Break Shape Into New Components At The Cursor Location",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:BreakAtPointTooltip:fb15f885",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "BreakAtPointTooltip",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:BreakAtPointTooltip:fb15f885",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:BreakAtPointTooltip:fb15f885",
+        "jp_sha256": "c8c9a77f7c753e67b2a65410e5be9e126eb1a63b27054b4d73a5cfa6f6dfb7e4",
+        "official_en_sha256": "84e9e9625e32c5e4b9bea69c0780b8d4efcac41ff80bedc77b1728691bc1ffef"
+      },
+      "text": {
+        "jp": "現在選択しているポイントで形状を小さく分割します",
+        "official_en": "Break the shape into pieces at the currently selected points.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:CreateIntersection:dbf83fc5",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "CreateIntersection",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:CreateIntersection:dbf83fc5",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:CreateIntersection:dbf83fc5",
+        "jp_sha256": "3a37818699f335fda219b5e9ff5ab1368e3ef1f62668828f0ca8e96cc7d00341",
+        "official_en_sha256": "e97f67566fda7b678272b5214f8ed2ddf86433f6a5383253e23e57d27835204e"
+      },
+      "text": {
+        "jp": "ドラッグされた点とオーバーラップした形状を使用して交差を作成する",
+        "official_en": "Create an Intersection With The Dragged Point and Overlapped Shape",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:ShapePointTypeTooltip:64f08b0b",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "ShapePointTypeTooltip",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:ShapePointTypeTooltip:64f08b0b",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:ShapePointTypeTooltip:64f08b0b",
+        "jp_sha256": "88e4eacf5d8be353f344f05a43a40d18d2646e03cd5ba429a33a9d3c05d2e054",
+        "official_en_sha256": "5ea5f46bf5b891e45d0a09c60fb21a042ac2ccd2bfca42fc4a51be070dbb73dc"
+      },
+      "text": {
+        "jp": "点のタイプを定めます。",
+        "official_en": "Define the type of the point.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:DeletePoint:28507928",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "DeletePoint",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:DeletePoint:28507928",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:DeletePoint:28507928",
+        "jp_sha256": "cc36a842e682e528bc9f3f8bfd7f65f252749ec51c4c249f520f656c10d966a0",
+        "official_en_sha256": "393e1935b7bbcecbafb0d6fe1f7e9df6b015268e824fa71e6ab7ebd067a8cad4"
+      },
+      "text": {
+        "jp": "点を削除",
+        "official_en": "Delete Points",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:DuplicatePoint:0b5a3676",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "DuplicatePoint",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:DuplicatePoint:0b5a3676",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:DuplicatePoint:0b5a3676",
+        "jp_sha256": "dcef7563426178991f81912682d1b4f8089aef37616f1f4af68b9cd994978269",
+        "official_en_sha256": "b8e5f42bee6e8d5eea75c0ba9c36b58dccf64d4d9fd76ae0999275676f1b1b26"
+      },
+      "text": {
+        "jp": "点を複製",
+        "official_en": "Duplicate Point",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:HandleFrustumSelect:448c7640",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "HandleFrustumSelect",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:HandleFrustumSelect:448c7640",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:HandleFrustumSelect:448c7640",
+        "jp_sha256": "894ba2538d5b78f92e222d66f2f475344cd1edc6933968664813848a870adad6",
+        "official_en_sha256": "832da80ce9b2fb04dde013e90aa4e7338454bfb137d1bd1e0241c608f8537234"
+      },
+      "text": {
+        "jp": "フラスタム選択の形状点",
+        "official_en": "Frustum Select Shape Points",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:ShapePointType:a458b67d",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "ShapePointType",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:ShapePointType:a458b67d",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:ShapePointType:a458b67d",
+        "jp_sha256": "5a98fea2967db321287fcbe8dbf0419ffaed177aa279794a8c4fb17ece2b54ce",
+        "official_en_sha256": "90e907c6adc6fe089ef9dc927e92ac9e897fdb913b5d08843e36e255ca254995"
+      },
+      "text": {
+        "jp": "点タイプ",
+        "official_en": "Point Type",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SelectAllPoints:85264eac",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "SelectAllPoints",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SelectAllPoints:85264eac",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SelectAllPoints:85264eac",
+        "jp_sha256": "032f31949be26b10bc8d36609c66aaa5701d4adf6f110e4f899a5d00959e241a",
+        "official_en_sha256": "61e699520b6768b4b5369f1f6cd029b8f266edad4d95a1bdb57baacbc6e6391a"
+      },
+      "text": {
+        "jp": "すべての点を選択",
+        "official_en": "Select All Points",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SelectShape:f05e821c",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "SelectShape",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SelectShape:f05e821c",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SelectShape:f05e821c",
+        "jp_sha256": "182955133682dc31b4f5c36668a13bb37bbe40fdee9911a4d748440fe903cb53",
+        "official_en_sha256": "22a3ec18d884ef0b76cc6ab1b608cfc321304bdc9ca07b100cf1d2eac8b08728"
+      },
+      "text": {
+        "jp": "形状を選択します",
+        "official_en": "Select Shape",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SelectShapePoint:b8e6b274",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "SelectShapePoint",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SelectShapePoint:b8e6b274",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SelectShapePoint:b8e6b274",
+        "jp_sha256": "24b4122da4d321414a3c34d44dcdf24920d39c6c7124770f3a8c76b776ef8904",
+        "official_en_sha256": "3e5c834a50c0bb8be1d031b98e99c33bbc164a7b1ea97515855238c9120b8d84"
+      },
+      "text": {
+        "jp": "形状点を選択",
+        "official_en": "Select Shape Point",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SelectShapeSegment:5dcec8a3",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "SelectShapeSegment",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SelectShapeSegment:5dcec8a3",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SelectShapeSegment:5dcec8a3",
+        "jp_sha256": "892ce9c8e3ac7c04cb0d5a8314a732bd96a53a23c6b30f7e9c53c2f13b4fe78f",
+        "official_en_sha256": "463a0a32ecd41bb5c237e905d0848812ee1afd990ae011446f40f4b17cf7921c"
+      },
+      "text": {
+        "jp": "形状セグメントを選択",
+        "official_en": "Select Shape Segment",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SetPointType:c92e3c7e",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "SetPointType",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SetPointType:c92e3c7e",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SetPointType:c92e3c7e",
+        "jp_sha256": "f5d098c0aaea62b22882d3ffdc64e0941d5da9ed90d78bb5843579d87c77cce9",
+        "official_en_sha256": "d45ae480ff77990622662f98faf208a4faa87ea41f3bcde6ac5a84330ca7f633"
+      },
+      "text": {
+        "jp": "点タイプを設定",
+        "official_en": "Set Point Type",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:ShapePoint:e095433b",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "ShapePoint",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:ShapePoint:e095433b",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:ShapePoint:e095433b",
+        "jp_sha256": "792963aa9093b288838e443204998b8c010779d5102d19d5254292c76609393f",
+        "official_en_sha256": "f4d0462e45c59749c5e84b731d1405ea533fa77c8ac2a9de687772f42080b929"
+      },
+      "text": {
+        "jp": "形状点",
+        "official_en": "Shape Point",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SplineSnapAlignTooltip:1967f534",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "SplineSnapAlignTooltip",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SplineSnapAlignTooltip:1967f534",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SplineSnapAlignTooltip:1967f534",
+        "jp_sha256": "35b303e6fe29fc7e6c6f85d21597f7a4b548c42ff0c06dcc267bf2ec8d7e4d3c",
+        "official_en_sha256": "28c932a5bb508938f3c01d9959df02a1ae529430dd329fdb31bddbef9f16cf6b"
+      },
+      "text": {
+        "jp": "整列オプションをスナップします",
+        "official_en": "Snap align options.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SplineSnapAlign:cd17a873",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "SplineSnapAlign",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SplineSnapAlign:cd17a873",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:SplineSnapAlign:cd17a873",
+        "jp_sha256": "05ab3004955cc7742ef45f81f730cdce578dccddd8b8802751a1ece1271106b6",
+        "official_en_sha256": "d8fda23fecaf6409ab0051df7e42b4a68e6195d4b23bc1be2b820da856bfd0e7"
+      },
+      "text": {
+        "jp": "スナップ / 整列",
+        "official_en": "Snap/Align",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:ZoneShapeComponentVisualizer:1a11dde1",
+      "source": {
+        "set": "set-02",
+        "namespace": "ZoneShapeComponentVisualizer",
+        "key": "ZoneShapeComponentVisualizer",
+        "jp_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:ZoneShapeComponentVisualizer:1a11dde1",
+        "official_en_record_id": "switch:locres:set-01:ZoneShapeComponentVisualizer:ZoneShapeComponentVisualizer:1a11dde1",
+        "jp_sha256": "5ef7b90922e4c7f242ca458ca4c92fce0e016c26bd2590e147211aa64f432125",
+        "official_en_sha256": "0a3147cb7de3d5ad432fd83688be2e6590803f60a612b56f8d25073d234024bb"
+      },
+      "text": {
+        "jp": "ゾーン図形コンポーネント ビジュアライザ",
+        "official_en": "Zone Shape Component Visualizer",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

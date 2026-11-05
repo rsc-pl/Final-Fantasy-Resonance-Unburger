@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "USDLightConversion",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:USDLightConversion:MissingDomeLightTexture:356dc455",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDLightConversion",
+        "key": "MissingDomeLightTexture",
+        "jp_record_id": "switch:locres:set-01:USDLightConversion:MissingDomeLightTexture:356dc455",
+        "official_en_record_id": "switch:locres:set-01:USDLightConversion:MissingDomeLightTexture:356dc455",
+        "jp_sha256": "70e252b4169358b22ae30c3570a36f1dcf4d2ab3d7b496d3d93bdd41032ae559",
+        "official_en_sha256": "32afc2130847e211b54276e40df5b9e1a7a3c667d8d445667fea5d946570a4ea"
+      },
+      "text": {
+        "jp": "UsdLuxDomeLight「{1}」に使用されるテクスチャ「{0}」が見つかりませんでした！",
+        "official_en": "Failed to find texture '{0}' used for UsdLuxDomeLight '{1}'!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDLightConversion:SourceCubemapDoesntExist:e8e9414a",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDLightConversion",
+        "key": "SourceCubemapDoesntExist",
+        "jp_record_id": "switch:locres:set-01:USDLightConversion:SourceCubemapDoesntExist:e8e9414a",
+        "official_en_record_id": "switch:locres:set-01:USDLightConversion:SourceCubemapDoesntExist:e8e9414a",
+        "jp_sha256": "134ea96d56517473a5c1ab6015e62047846f5f96d41853a2777faf53893336c8",
+        "official_en_sha256": "9d7188ad4c71757b96447d79dbd013f1f04d40d60e668f2aa01f24a4ff1acf2a"
+      },
+      "text": {
+        "jp": "SkyLightComponent「{1}」をプリミティブ「{2}」に変換する際に「{0}」をキューブマップとして使用しましたが、ファイルシステムにキューブマップが存在しません！",
+        "official_en": "Used '{0}' as cubemap when converting SkyLightComponent '{1}' onto prim '{2}', but the cubemap does not exist on the filesystem!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

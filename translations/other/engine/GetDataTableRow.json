@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "GetDataTableRow",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:GetDataTableRow:MissingOutputProperty:98c9845c",
+      "source": {
+        "set": "set-02",
+        "namespace": "GetDataTableRow",
+        "key": "MissingOutputProperty",
+        "jp_record_id": "switch:locres:set-01:GetDataTableRow:MissingOutputProperty:98c9845c",
+        "official_en_record_id": "switch:locres:set-01:GetDataTableRow:MissingOutputProperty:98c9845c",
+        "jp_sha256": "8a9f14196adb3e5378255397d8f503042252d2eb1b21817833704fbcd62a6042",
+        "official_en_sha256": "354cf9e23f4dc2809d8789779400dd9ff3136fc146b35766e85da3fd427883b8"
+      },
+      "text": {
+        "jp": "GetDataTableRowの出力パラメータを解決できませんでした。",
+        "official_en": "Failed to resolve the output parameter for GetDataTableRow.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GetDataTableRow:MissingTableInput:86a88046",
+      "source": {
+        "set": "set-02",
+        "namespace": "GetDataTableRow",
+        "key": "MissingTableInput",
+        "jp_record_id": "switch:locres:set-01:GetDataTableRow:MissingTableInput:86a88046",
+        "official_en_record_id": "switch:locres:set-01:GetDataTableRow:MissingTableInput:86a88046",
+        "jp_sha256": "c6bee0060f8d52799d5fdece58bcd1cddb159ffae7ea81eb250fdf95d7060528",
+        "official_en_sha256": "52f97e7ad4a481802e68bb478b3de79113cdb1e245dbb2663a3648f934f1195d"
+      },
+      "text": {
+        "jp": "テーブル入力を解決できませんでした。DataTableが有効であることを確認してください。",
+        "official_en": "Failed to resolve the table input. Be sure the DataTable is valid.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GetDataTableRow:IncompatibleProperty:5e473a30",
+      "source": {
+        "set": "set-02",
+        "namespace": "GetDataTableRow",
+        "key": "IncompatibleProperty",
+        "jp_record_id": "switch:locres:set-01:GetDataTableRow:IncompatibleProperty:5e473a30",
+        "official_en_record_id": "switch:locres:set-01:GetDataTableRow:IncompatibleProperty:5e473a30",
+        "jp_sha256": "9d49a753489961248c1894fb67d9ab88e158ad7eb98461117c0873fa6137f4b9",
+        "official_en_sha256": "25bf0176d8f142c41795472c41538b2bbe1007e691d08ed2a978ebba2e5fc4f6"
+      },
+      "text": {
+        "jp": "出力パラメータに互換性がありません。データ テーブルの型 ({0}) が戻り値の型 ({1}) と同じではありません",
+        "official_en": "Incompatible output parameter; the data table's type ({0}) is not the same as the return type ({1}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

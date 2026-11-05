@@ -1,0 +1,604 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "FNiagaraCacheTrackEditor",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:AddNiagaraCache_Transaction:d7c94356",
+      "source": {
+        "set": "set-02",
+        "namespace": "FNiagaraCacheTrackEditor",
+        "key": "AddNiagaraCache_Transaction",
+        "jp_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:AddNiagaraCache_Transaction:d7c94356",
+        "official_en_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:AddNiagaraCache_Transaction:d7c94356",
+        "jp_sha256": "f0b7de8aa35c85c083e633ca7888032a7c8b5bfdd3695f18e68a42611f42ff12",
+        "official_en_sha256": "b02f17fd63d6b20b83fe9c109cb24840a41afdbb4b800b06713fb15cfea039c8"
+      },
+      "text": {
+        "jp": "Niagaraキャッシュを追加",
+        "official_en": "Add Niagara Cache",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:CacheActions:735dd53a",
+      "source": {
+        "set": "set-02",
+        "namespace": "FNiagaraCacheTrackEditor",
+        "key": "CacheActions",
+        "jp_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:CacheActions:735dd53a",
+        "official_en_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:CacheActions:735dd53a",
+        "jp_sha256": "afae607d874e7efa0debf7fb280069ad0006b8dca333eb45d86de9bdbb6d29e7",
+        "official_en_sha256": "cc4e156919c1df855fa0d84c1e03899b4ba33174fd3a2a4723d6fd4cddfc77a7"
+      },
+      "text": {
+        "jp": "キャッシュアクション",
+        "official_en": "Cache Actions",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:CreateAssetFromThisCacheToolTip:b0ef49bc",
+      "source": {
+        "set": "set-02",
+        "namespace": "FNiagaraCacheTrackEditor",
+        "key": "CreateAssetFromThisCacheToolTip",
+        "jp_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:CreateAssetFromThisCacheToolTip:b0ef49bc",
+        "official_en_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:CreateAssetFromThisCacheToolTip:b0ef49bc",
+        "jp_sha256": "d4e8e3374ff42457af38dd4c146e0b815cacafec0d75afcca5765e9dd3d43b62",
+        "official_en_sha256": "8f119a5c374342ed73d740393ad54ee3a34dbe807f6347ea003188940b32d07b"
+      },
+      "text": {
+        "jp": "シミュレーション キャッシュ アセットをこのトラックのシミュレーション データから作成します。これが特に便利なのは、キャッシュ データが巨大である、またはシーケンサーの外部でイテレートされている場合です\n有効なキャッシュ データが利用可能で、アセットにまだ保存されていない場合にのみ有効になります",
+        "official_en": "Create a simulation cache asset from this track's simulation data. This is especially useful if the cached data is very big or should be iterated on outside of sequencer.\nOnly enabled if there is valid cache data available and it's not already saved in an asset.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:CreateAssetFromCache:68a848b5",
+      "source": {
+        "set": "set-02",
+        "namespace": "FNiagaraCacheTrackEditor",
+        "key": "CreateAssetFromCache",
+        "jp_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:CreateAssetFromCache:68a848b5",
+        "official_en_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:CreateAssetFromCache:68a848b5",
+        "jp_sha256": "130267605c797fe0c1692c19edd785332962461b664d28ba25bf3edf79c7beef",
+        "official_en_sha256": "970ae2e0721026bb125a3a5c80df70a787c9a8fac590cbffd9747147179c953d"
+      },
+      "text": {
+        "jp": "キャッシュからアセットを作成",
+        "official_en": "Create asset from cache",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:NiagaraCacheTrackEditor_DisplayName:fa3e82a2",
+      "source": {
+        "set": "set-02",
+        "namespace": "FNiagaraCacheTrackEditor",
+        "key": "NiagaraCacheTrackEditor_DisplayName",
+        "jp_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:NiagaraCacheTrackEditor_DisplayName:fa3e82a2",
+        "official_en_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:NiagaraCacheTrackEditor_DisplayName:fa3e82a2",
+        "jp_sha256": "3a7d2c6ab0746b95b7dd2b66174e0fa6aefb4e524aaa4ae570f507df3c3a6512",
+        "official_en_sha256": "3a7d2c6ab0746b95b7dd2b66174e0fa6aefb4e524aaa4ae570f507df3c3a6512"
+      },
+      "text": {
+        "jp": "Niagara",
+        "official_en": "Niagara",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:NoNiagaraCacheSection:2947bec8",
+      "source": {
+        "set": "set-02",
+        "namespace": "FNiagaraCacheTrackEditor",
+        "key": "NoNiagaraCacheSection",
+        "jp_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:NoNiagaraCacheSection:2947bec8",
+        "official_en_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:NoNiagaraCacheSection:2947bec8",
+        "jp_sha256": "d2be5e00aa368b5f6dc7ad27aecdeda373e1a70ca86d511fd4cfe89db137ef07",
+        "official_en_sha256": "42cd20b01378d14bc57b63ca3fe9659391fe43ce544ae6ae1a9d16e112465f9c"
+      },
+      "text": {
+        "jp": "Niagaraキャッシュなし",
+        "official_en": "No NiagaraCache",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:RecordCache:62a98da8",
+      "source": {
+        "set": "set-02",
+        "namespace": "FNiagaraCacheTrackEditor",
+        "key": "RecordCache",
+        "jp_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:RecordCache:62a98da8",
+        "official_en_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:RecordCache:62a98da8",
+        "jp_sha256": "c4077c35aaef5f13eda9301ba2dd4d1c7ea06ac2e650822bf28af0617973f9cd",
+        "official_en_sha256": "c321e33eaa62021a222275f9f42bafcfcc3cfb0d8dc4fd4dcb77ef61d4b85f06"
+      },
+      "text": {
+        "jp": "レコードキャッシュ",
+        "official_en": "Record cache",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:RecordCacheToolTip:1c5fa9c7",
+      "source": {
+        "set": "set-02",
+        "namespace": "FNiagaraCacheTrackEditor",
+        "key": "RecordCacheToolTip",
+        "jp_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:RecordCacheToolTip:1c5fa9c7",
+        "official_en_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:RecordCacheToolTip:1c5fa9c7",
+        "jp_sha256": "360c2cf9f1a1887dcdc349b9a8d4fe2ea7f79dff36781faa538e29860c780484",
+        "official_en_sha256": "d0e66db2c5ed142e6514b291b1b99085b8e206014b8dcc0712e34426d3f2640c"
+      },
+      "text": {
+        "jp": "シーケンスをプレイして、Niagara システムを記録することで、選択したキャッシュ トラックのデータをリフレッシュします",
+        "official_en": "Refresh the data in the selected cache tracks by playing the sequence and recording the Niagara system.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:NiagaraCacheTrack_RecordCache:6c53c467",
+      "source": {
+        "set": "set-02",
+        "namespace": "FNiagaraCacheTrackEditor",
+        "key": "NiagaraCacheTrack_RecordCache",
+        "jp_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:NiagaraCacheTrack_RecordCache:6c53c467",
+        "official_en_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:NiagaraCacheTrack_RecordCache:6c53c467",
+        "jp_sha256": "ebaa3b9b9af471b9f178e2a26086106816f837adec41160a16a4754a65280e5f",
+        "official_en_sha256": "cf402f90448f71c9b17c9d67a8fcae330b8815d6677b69e6c6eee06e6407a576"
+      },
+      "text": {
+        "jp": "シーケンスをプレイして、Niagara システムを記録することで、このキャッシュのデータをリフレッシュします",
+        "official_en": "Refresh the data in this cache by playing the sequence and recording the Niagara system.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:CreateAssetFromThisCache:6ce86bb8",
+      "source": {
+        "set": "set-02",
+        "namespace": "FNiagaraCacheTrackEditor",
+        "key": "CreateAssetFromThisCache",
+        "jp_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:CreateAssetFromThisCache:6ce86bb8",
+        "official_en_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:CreateAssetFromThisCache:6ce86bb8",
+        "jp_sha256": "145fbacc79e1b95a6a91600e5cc4b568c207065ce9860eb063268c8ccb2ab0b8",
+        "official_en_sha256": "843fa49729c334fb67d7852ec6e8e9264c30072748bf3f76744f6d6b4fbe357f"
+      },
+      "text": {
+        "jp": "キャッシュをアセットに保存",
+        "official_en": "Save Cache To Asset",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:CreateCacheAssetDialogTitle:1cde9a6b",
+      "source": {
+        "set": "set-02",
+        "namespace": "FNiagaraCacheTrackEditor",
+        "key": "CreateCacheAssetDialogTitle",
+        "jp_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:CreateCacheAssetDialogTitle:1cde9a6b",
+        "official_en_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:CreateCacheAssetDialogTitle:1cde9a6b",
+        "jp_sha256": "d794e28c2400ec0ee69242915f2c115d4082c6180a3c394122cea3201da0eff4",
+        "official_en_sha256": "6d08bc44914bc7ae9f575a0cd41e33a987cbdd56b0e2d6851fab40a570e693e8"
+      },
+      "text": {
+        "jp": "名前を付けてシミュレーションキャッシュを保存",
+        "official_en": "Save Sim Cache As",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:AddNiagaraCache_InvalidCache:6861e7ff",
+      "source": {
+        "set": "set-02",
+        "namespace": "FNiagaraCacheTrackEditor",
+        "key": "AddNiagaraCache_InvalidCache",
+        "jp_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:AddNiagaraCache_InvalidCache:6861e7ff",
+        "official_en_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:AddNiagaraCache_InvalidCache:6861e7ff",
+        "jp_sha256": "28330640ce7ba71fc7d43b3419d1eb2fef7a030e3914e39bfaee2628e4aee046",
+        "official_en_sha256": "488dd54a72017c9eace6eb8f0eaf9720b10e5b97c3c0dd9921b7eabe663d85b8"
+      },
+      "text": {
+        "jp": "このトラックで使用されるキャッシュは Niagara コンポーネントに適合しないので無視されます。シミュレーション キャッシュを再記録するか、別のキャッシュを選択してください",
+        "official_en": "The cache used by this track does not fit the Niagara component and will be ignored. Re-Record the sim cache or select a different one.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:AddNiagaraCache_LifecycleTrackWarn:6bb1f086",
+      "source": {
+        "set": "set-02",
+        "namespace": "FNiagaraCacheTrackEditor",
+        "key": "AddNiagaraCache_LifecycleTrackWarn",
+        "jp_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:AddNiagaraCache_LifecycleTrackWarn:6bb1f086",
+        "official_en_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:AddNiagaraCache_LifecycleTrackWarn:6bb1f086",
+        "jp_sha256": "690034192a4a95ced7ad5b0f1c57ff753a17caf97ce6b615203be3846041129e",
+        "official_en_sha256": "66f2ce4410f7b10f4bd8f8c229da2b8622bb1f03c8752b5105bf25abbff355d8"
+      },
+      "text": {
+        "jp": "このキャッシュ トラックに関連付けられているシステムのライフ サイクル トラックは、キャッシュ レコーディング用に適切に設定されていません。\n(1) 目的の時間モードを使用するように設定するか、(2) シーケンスの再生とは異なるフレームで開始するように移動してください (1 フレーム前など)",
+        "official_en": "The system life cycle track associated with this cache track is not set up well for cache recording.\nEither (1) set it to use desired age mode or (2) move it so it starts on a different frame than the sequence playback (e.g. one frame earlier).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:AddNiagaraCache_OutOfDate:7ff314c3",
+      "source": {
+        "set": "set-02",
+        "namespace": "FNiagaraCacheTrackEditor",
+        "key": "AddNiagaraCache_OutOfDate",
+        "jp_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:AddNiagaraCache_OutOfDate:7ff314c3",
+        "official_en_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:AddNiagaraCache_OutOfDate:7ff314c3",
+        "jp_sha256": "54d73db745451c1d7639ec39998e1d7ce9c38bd09df48a1678ddf92d1102519c",
+        "official_en_sha256": "d272a4b7dbf3a05913a586b1a216294f433089e3d80e84f0fdd3e54dd663349f"
+      },
+      "text": {
+        "jp": "このキャッシュ トラックは期限切れです。プロパティが記録後に変更されました。キャッシュ データの再記録を検討してください",
+        "official_en": "This cache track is out of date, as it's properties were changed after recording. Consider re-recording the cached data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:NiagaraCache_Active:07fdd444",
+      "source": {
+        "set": "set-02",
+        "namespace": "FNiagaraCacheTrackEditor",
+        "key": "NiagaraCache_Active",
+        "jp_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:NiagaraCache_Active:07fdd444",
+        "official_en_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:NiagaraCache_Active:07fdd444",
+        "jp_sha256": "3a7a6ef4444c42e0169eeaa89c23f0bdeb7172e3847f268c44cded8ff63d7c57",
+        "official_en_sha256": "01c9b37e50b1f8457ef8e44df1047d03f565bcdf662d05f7d0da374c3f30bede"
+      },
+      "text": {
+        "jp": "このトラックは現在キャッシュ データを Niagara コンポーネントに供給しており、シミュレーションは動作していません",
+        "official_en": "This track is currently providing cached data to the Niagara component, no simulation is running.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:NiagaraCacheTrack_Name:8d6cc51f",
+      "source": {
+        "set": "set-02",
+        "namespace": "FNiagaraCacheTrackEditor",
+        "key": "NiagaraCacheTrack_Name",
+        "jp_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:NiagaraCacheTrack_Name:8d6cc51f",
+        "official_en_record_id": "switch:locres:set-01:FNiagaraCacheTrackEditor:NiagaraCacheTrack_Name:8d6cc51f",
+        "jp_sha256": "a82a47eb8f06f587f6e5bbc47abc3ef7afeac9099b9116f35b25f95c3ae1a18a",
+        "official_en_sha256": "af21b0070e97c63c8f59da056209d3a6d27daae33bca5ff19eb78ef9cb171616"
+      },
+      "text": {
+        "jp": "{0}シミュレーションキャッシュ",
+        "official_en": "{0} Sim Cache",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

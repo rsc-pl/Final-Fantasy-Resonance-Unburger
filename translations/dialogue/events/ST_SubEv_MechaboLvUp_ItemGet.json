@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_SubEv_MechaboLvUp_ItemGet",
+    "scene_id": "ST_SubEv_MechaboLvUp_ItemGet",
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_MechaboLvUp_ItemGet:SubEv_MechaboLvUp_ItemGet_001:d40dc48f",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_MechaboLvUp_ItemGet",
+        "key": "SubEv_MechaboLvUp_ItemGet_001",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_MechaboLvUp_ItemGet:SubEv_MechaboLvUp_ItemGet_001:d40dc48f",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_MechaboLvUp_ItemGet:SubEv_MechaboLvUp_ItemGet_001:d40dc48f",
+        "jp_sha256": "fc6b09e684ee15b85f0c0c93bf65f7f1e575ffb3d146609d9de5d8f8bdb424c1",
+        "official_en_sha256": "3381c4494a1669ee8d29a148bd8444a0a404bab025e301e931ac580bd4e4d6dc"
+      },
+      "text": {
+        "jp": "これでメカボの修理に必要な素材は揃ったな。",
+        "official_en": "That should be everything we need to get Mechabo repaired!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_MechaboLvUp_ItemGet",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "レイン",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0002",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_MechaboLvUp_ItemGet/SubEv_MechaboLvUp_ItemGet_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_MechaboLvUp_ItemGet:SubEv_MechaboLvUp_ItemGet_002:8bf13855",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_MechaboLvUp_ItemGet",
+        "key": "SubEv_MechaboLvUp_ItemGet_002",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_MechaboLvUp_ItemGet:SubEv_MechaboLvUp_ItemGet_002:8bf13855",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_MechaboLvUp_ItemGet:SubEv_MechaboLvUp_ItemGet_002:8bf13855",
+        "jp_sha256": "29d176f7c9e4b8f93ccd643c7499e9f129c6ee838c15869540e60726103c22e2",
+        "official_en_sha256": "a4156b878c85b02c6089d21164b6a394a21e08c9333a672d4c8ad937d172c4f6"
+      },
+      "text": {
+        "jp": "みんな本当にありがとう！\r\n待っててね、メカボ！",
+        "official_en": "Thanks for helping out, everyone. Just hold tight a little longer, Mechabo!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_MechaboLvUp_ItemGet",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "リド",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0057",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_MechaboLvUp_ItemGet/SubEv_MechaboLvUp_ItemGet_002"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

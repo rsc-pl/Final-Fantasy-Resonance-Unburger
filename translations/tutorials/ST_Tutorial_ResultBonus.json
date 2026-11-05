@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "tutorial",
+    "namespace": "ST_Tutorial_ResultBonus",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_Tutorial_ResultBonus:Tutorial_ResultBonus_002:3e638991",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_Tutorial_ResultBonus",
+        "key": "Tutorial_ResultBonus_002",
+        "jp_record_id": "switch:locres:set-02:ST_Tutorial_ResultBonus:Tutorial_ResultBonus_002:3e638991",
+        "official_en_record_id": "switch:locres:set-02:ST_Tutorial_ResultBonus:Tutorial_ResultBonus_002:3e638991",
+        "jp_sha256": "d1768c79ebaa644097eaba36262c4b4fad69830ae5d11feaf8ad28f12a2b000e",
+        "official_en_sha256": "03d5098a06cc8443e24b000ca076b3a8bcbac5294e9feb0b627126e4366da8f4"
+      },
+      "text": {
+        "jp": "バトルをうまく進めると、勝利時の報酬にボーナスが発生します。\r\n\r\n■ノーダメージボーナス\r\n　条件：ダメージを一切受けずにバトルに勝利する\r\n　ボーナス：経験値増加\r\n\r\n■オーバーキルボーナス\r\n　条件：エクストラフェイズ中に敵が全滅した後、追撃を加える\r\n　ボーナス：ギル増加\r\n\r\n■ブレイクフィニッシュボーナス\r\n　条件：最後のエネミーをブレイク状態で倒す\r\n　ボーナス：MRP増加",
+        "official_en": "Various bonuses may be earned after a well-fought\r\nbattle:\r\n<text style=\"bold\">-No Damage Bonus</>\r\n　Requirement: Win the battle without taking any\r\n   damage.\r\n　Bonus: Increased EXP.\r\n<text style=\"bold\">-Overkill Bonus</>\r\n　Requirement: After defeating all enemies during\r\n　the bonus phase, perform a follow-up attack.\r\n　Bonus: Increased gil.\r\n<text style=\"bold\">-Stagger Finish Bonus</>\r\n　Requirement: Defeat the final enemy while it is\r\n　staggered.\r\n　Bonus: Increased MRP.",
+        "real_en": "Earn bonuses to your rewards by fighting well.\r\n\r\n<text style=\"bold\">-No Damage Bonus</>\r\nRequirement: Win without taking any damage.\r\nBonus: Increased EXP.\r\n\r\n<text style=\"bold\">-Overkill Bonus</>\r\nRequirement: After all enemies have been defeated during the Extra Phase, land a follow-up attack.\r\nBonus: Increased gil.\r\n\r\n<text style=\"bold\">-Break Finish Bonus</>\r\nRequirement: Defeat the final enemy while it is Broken.\r\nBonus: Increased MRP."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "tutorial",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_Tutorial_ResultBonus:Tutorial_ResultBonus_001:b62a15aa",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_Tutorial_ResultBonus",
+        "key": "Tutorial_ResultBonus_001",
+        "jp_record_id": "switch:locres:set-02:ST_Tutorial_ResultBonus:Tutorial_ResultBonus_001:b62a15aa",
+        "official_en_record_id": "switch:locres:set-02:ST_Tutorial_ResultBonus:Tutorial_ResultBonus_001:b62a15aa",
+        "jp_sha256": "a28771bd4db5e7237d120c88c75e3893c4c95e41ee7857b184077c842e5c38d2",
+        "official_en_sha256": "b7d6dc76ea32462e01b623c361ad9d6331a0bf5432474861ea1485c5a5add40b"
+      },
+      "text": {
+        "jp": "リザルトボーナス",
+        "official_en": "Battle Result Bonuses",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "tutorial",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

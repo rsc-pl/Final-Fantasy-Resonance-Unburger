@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "Launch",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:Launch:Error_ResolutionTooLow:e72174ef",
+      "source": {
+        "set": "set-02",
+        "namespace": "Launch",
+        "key": "Error_ResolutionTooLow",
+        "jp_record_id": "switch:locres:set-01:Launch:Error_ResolutionTooLow:e72174ef",
+        "official_en_record_id": "switch:locres:set-01:Launch:Error_ResolutionTooLow:e72174ef",
+        "jp_sha256": "5b7ef9ee6a6ffda07a3cd1c08cb240d2cd76505c0f03a7fe92585cac39bf466b",
+        "official_en_sha256": "cd3b6a72fe14e1e9037178a8a86d075643b65565d683fef49a7bb820222dfbd5"
+      },
+      "text": {
+        "jp": "このゲームを実行するには解像度が不足しています",
+        "official_en": "The current resolution is too low to run this game.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Launch:Error_CPUNotSupported:25d7b3f3",
+      "source": {
+        "set": "set-02",
+        "namespace": "Launch",
+        "key": "Error_CPUNotSupported",
+        "jp_record_id": "switch:locres:set-01:Launch:Error_CPUNotSupported:25d7b3f3",
+        "official_en_record_id": "switch:locres:set-01:Launch:Error_CPUNotSupported:25d7b3f3",
+        "jp_sha256": "e4075ea289ac11ca31840b6a6f960738cb5dce887471ccc76f655b9bf0527226",
+        "official_en_sha256": "170ac01a8e22a5279c6a3b0caa35e958dff0805b1ca909837dc044a1df53fc68"
+      },
+      "text": {
+        "jp": "この CPU は必須機能 (SSE4.2) をサポートしません",
+        "official_en": "This CPU does not support a required feature (SSE4.2).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

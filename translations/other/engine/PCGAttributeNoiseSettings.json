@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGAttributeNoiseSettings",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGAttributeNoiseSettings:NodeTitle:b8cf1e90",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributeNoiseSettings",
+        "key": "NodeTitle",
+        "jp_record_id": "switch:locres:set-01:PCGAttributeNoiseSettings:NodeTitle:b8cf1e90",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributeNoiseSettings:NodeTitle:b8cf1e90",
+        "jp_sha256": "bef50085c4787221ec44c8407c52992514f699f8c772e36c49c841520b8594ed",
+        "official_en_sha256": "bef50085c4787221ec44c8407c52992514f699f8c772e36c49c841520b8594ed"
+      },
+      "text": {
+        "jp": "Attribute Noise",
+        "official_en": "Attribute Noise",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributeNoiseSettings:AttributeIsNotANumericalType:f6862b8a",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributeNoiseSettings",
+        "key": "AttributeIsNotANumericalType",
+        "jp_record_id": "switch:locres:set-01:PCGAttributeNoiseSettings:AttributeIsNotANumericalType:f6862b8a",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributeNoiseSettings:AttributeIsNotANumericalType:f6862b8a",
+        "jp_sha256": "14120a7b706f15124e0d04f3a4daab19981ea7d04d6090b18f32fba053a77346",
+        "official_en_sha256": "404fd33ddee98b27e37565565472007bdc1e372d0ae08d1964610d943dbf9f82"
+      },
+      "text": {
+        "jp": "属性/プロパティ「{0}」は数値型ではなく、ノイズをそれに適用できません",
+        "official_en": "Attribute/Property '{0}' is not a numerical type, we can't apply noise to it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributeNoiseSettings:CantBroadcast:637c4e40",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributeNoiseSettings",
+        "key": "CantBroadcast",
+        "jp_record_id": "switch:locres:set-01:PCGAttributeNoiseSettings:CantBroadcast:637c4e40",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributeNoiseSettings:CantBroadcast:637c4e40",
+        "jp_sha256": "3ca7b6a606c8aed54075e7251bcb8a203660c351bbcf7d64fdddf4dc2e851429",
+        "official_en_sha256": "5f999e65de4bc8891843ea34bb8c8afdffa3e3a230346edc36a7d46f014a1822"
+      },
+      "text": {
+        "jp": "属性「{0}」({1}) を属性「{2}」({3}) に変換できません",
+        "official_en": "Cannot convert Attribute '{0}' ({1}) into Attribute '{2}' ({3}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributeNoiseSettings:InputUnsuportedData:634ec236",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributeNoiseSettings",
+        "key": "InputUnsuportedData",
+        "jp_record_id": "switch:locres:set-01:PCGAttributeNoiseSettings:InputUnsuportedData:634ec236",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributeNoiseSettings:InputUnsuportedData:634ec236",
+        "jp_sha256": "fb87dfe3e87eb6f9b4775e8212dd2ba21aa27e61ca8184c5088bf3308b86b715",
+        "official_en_sha256": "842f10e81e79892a8d7123dfdbf6a1a2d727520f632ce7a980f1788a67f3fa1b"
+      },
+      "text": {
+        "jp": "データ「{0}」は、空間でも属性セットでもないため、サポートされていません",
+        "official_en": "Data {0} is neither spatial nor an attribute set, unsupported.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributeNoiseSettings:DensityNoiseNodeTitle:085866ee",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributeNoiseSettings",
+        "key": "DensityNoiseNodeTitle",
+        "jp_record_id": "switch:locres:set-01:PCGAttributeNoiseSettings:DensityNoiseNodeTitle:085866ee",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributeNoiseSettings:DensityNoiseNodeTitle:085866ee",
+        "jp_sha256": "cde2b54c83fab27d2a4b88a9bbe7d06d081a6f938c3043744c74ac078172f73c",
+        "official_en_sha256": "d278cb58ebfdf084497bd623dffc655310e43719fcbd018a4ec5c4e95057345c"
+      },
+      "text": {
+        "jp": "密度ノイズ",
+        "official_en": "Density Noise",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributeNoiseSettings:OutputTargetInvalid:93c806bd",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributeNoiseSettings",
+        "key": "OutputTargetInvalid",
+        "jp_record_id": "switch:locres:set-01:PCGAttributeNoiseSettings:OutputTargetInvalid:93c806bd",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributeNoiseSettings:OutputTargetInvalid:93c806bd",
+        "jp_sha256": "bc7d52d0f48d320655b8317f38e9e6283d3f43a6baea1501286b0f8ad0dda0c5",
+        "official_en_sha256": "05f4035ec81656d93e36b358badb2702507916899fe73667ce6879f5d5012184"
+      },
+      "text": {
+        "jp": "属性/プロパティ「{0}」を検出/作成できません",
+        "official_en": "Failed to find/create Attribute/Property '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

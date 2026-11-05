@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "VirtualTexture",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:VirtualTexture:SVTInvalid:0f419434",
+      "source": {
+        "set": "set-02",
+        "namespace": "VirtualTexture",
+        "key": "SVTInvalid",
+        "jp_record_id": "switch:locres:set-01:VirtualTexture:SVTInvalid:0f419434",
+        "official_en_record_id": "switch:locres:set-01:VirtualTexture:SVTInvalid:0f419434",
+        "jp_sha256": "9af43bc191d0b211666c1156b6b714b2699f5bc48fc1eb5db8651bf21b112e71",
+        "official_en_sha256": "58697813cf6e8274a6723c1663fef4bd65c4297f647b85ede1c00b541e3016c6"
+      },
+      "text": {
+        "jp": "ランタイム仮想テクスチャ '{0}' ストリーミングMIPの再ビルドが必要です。",
+        "official_en": "Runtime Virtual Texture '{0}' streaming mips needs to be rebuilt.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VirtualTexture:VTOversubscribed:988ce211",
+      "source": {
+        "set": "set-02",
+        "namespace": "VirtualTexture",
+        "key": "VTOversubscribed",
+        "jp_record_id": "switch:locres:set-01:VirtualTexture:VTOversubscribed:988ce211",
+        "official_en_record_id": "switch:locres:set-01:VirtualTexture:VTOversubscribed:988ce211",
+        "jp_sha256": "c269e7f03ae3fd0cca41634cba370eb9196c29fb81254a588cff1a1fdccb7d8f",
+        "official_en_sha256": "b0c0e90d416160f7cca9c904174cd2b3342abfcc913030b101576874e8405011"
+      },
+      "text": {
+        "jp": "VT プール [{0}] は過剰にサブスクライブされています。MipBias {1} をグループ {2} に設定しています",
+        "official_en": "VT Pool [{0}] is oversubscribed. Setting MipBias {1} on Group {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

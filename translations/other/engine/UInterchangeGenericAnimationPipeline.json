@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UInterchangeGenericAnimationPipeline",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UInterchangeGenericAnimationPipeline:Info_ImportLengthSnap:240a5442",
+      "source": {
+        "set": "set-02",
+        "namespace": "UInterchangeGenericAnimationPipeline",
+        "key": "Info_ImportLengthSnap",
+        "jp_record_id": "switch:locres:set-01:UInterchangeGenericAnimationPipeline:Info_ImportLengthSnap:240a5442",
+        "official_en_record_id": "switch:locres:set-01:UInterchangeGenericAnimationPipeline:Info_ImportLengthSnap:240a5442",
+        "jp_sha256": "4477cdf96907be3bd146fa8b66795da16c978d6f88d96cef6e3f09b23de44968",
+        "official_en_sha256": "78a498c7fbd7008b90779da557debf8b9cf7bce7562b1530341836951372f848"
+      },
+      "text": {
+        "jp": "アニメーションの長さがインポート フレームレート{0}を使用して、フレーム境界で揃えるために調整されています\n\n元のタイミング：\n\t\t開始：{1} ({2})\n\t\t終了：{3} ({4})\n調整されたタイミング：\n\t\t開始：{5} ({6})\n\t\t終了：{7} ({8})",
+        "official_en": "Animation length has been adjusted to align with frame borders using import frame-rate {0}.\n\nOriginal timings:\n\t\tStart: {1} ({2})\n\t\tStop: {3} ({4})\nAligned timings:\n\t\tStart: {5} ({6})\n\t\tStop: {7} ({8})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UInterchangeGenericAnimationPipeline:WrongSequenceLength:4bc3e42d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UInterchangeGenericAnimationPipeline",
+        "key": "WrongSequenceLength",
+        "jp_record_id": "switch:locres:set-01:UInterchangeGenericAnimationPipeline:WrongSequenceLength:4bc3e42d",
+        "official_en_record_id": "switch:locres:set-01:UInterchangeGenericAnimationPipeline:WrongSequenceLength:4bc3e42d",
+        "jp_sha256": "15b7618c9e129ffc27380918134a8988dca8e4992d7d5424d5d32dc589c59701",
+        "official_en_sha256": "cd8ca9f2d2095353b720b098b28bc403aa0dc3597f5329e2425af68fa9f01153"
+      },
+      "text": {
+        "jp": "アニメーションの長さ {0} はインポート フレームレート {1} (サブフレーム {2}) と互換性がありません。アニメーションはフレームの境界線をそろえなければなりません (「最も近いフレーム境界にスナップ」パイプライン オプションが無効である場合)",
+        "official_en": "Animation length {0} is not compatible with import frame-rate {1} (sub frame {2}). The animation has to be frame-border aligned if the 'Snap to Closest Frame Boundary' pipeline option is disabled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UInterchangeGenericAnimationPipeline:IncompatibleSkeleton:0844c93a",
+      "source": {
+        "set": "set-02",
+        "namespace": "UInterchangeGenericAnimationPipeline",
+        "key": "IncompatibleSkeleton",
+        "jp_record_id": "switch:locres:set-01:UInterchangeGenericAnimationPipeline:IncompatibleSkeleton:0844c93a",
+        "official_en_record_id": "switch:locres:set-01:UInterchangeGenericAnimationPipeline:IncompatibleSkeleton:0844c93a",
+        "jp_sha256": "ea00d3380ce91610f886bc3e3571ee8d8666141be51cdce6964b52b81395b20e",
+        "official_en_sha256": "6d46e8c34b1454bd52344e6860b264f5093403681bcd9d25c6190e987e99f950"
+      },
+      "text": {
+        "jp": "AnimSequence {1}のインポート時に、互換性がないスケルトン{0}が見つかりました",
+        "official_en": "Incompatible skeleton {0} when importing AnimSequence {1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

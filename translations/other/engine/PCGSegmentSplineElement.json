@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGSegmentSplineElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGSegmentSplineElement:FailCreateAttribute:4a0b43e1",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGSegmentSplineElement",
+        "key": "FailCreateAttribute",
+        "jp_record_id": "switch:locres:set-01:PCGSegmentSplineElement:FailCreateAttribute:4a0b43e1",
+        "official_en_record_id": "switch:locres:set-01:PCGSegmentSplineElement:FailCreateAttribute:4a0b43e1",
+        "jp_sha256": "11911862a741abc0309834751beaea6d61d0813e6916eba905d7d4b03272adb9",
+        "official_en_sha256": "fd9c2a0ae2c78b641f527e10e4202c259ba30c69429c292dbe91606ede2d7468"
+      },
+      "text": {
+        "jp": "属性 {0} を作成できませんでした",
+        "official_en": "Failed to create attribute {0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGSegmentSplineElement:NodeTitle:05a38898",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGSegmentSplineElement",
+        "key": "NodeTitle",
+        "jp_record_id": "switch:locres:set-01:PCGSegmentSplineElement:NodeTitle:05a38898",
+        "official_en_record_id": "switch:locres:set-01:PCGSegmentSplineElement:NodeTitle:05a38898",
+        "jp_sha256": "7dddcb4cf2f3ea8cd66c2f9e3f22779b6a64116db97c6c355c9d124667984b1d",
+        "official_en_sha256": "7b01dc93d71c2dd20af46701189c834d2b8a7a25a61778acf9feb4374a861423"
+      },
+      "text": {
+        "jp": "スプラインをセグメントに変換",
+        "official_en": "Spline to Segment",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGSegmentSplineElement:NodeTooltip:3d7c966c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGSegmentSplineElement",
+        "key": "NodeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGSegmentSplineElement:NodeTooltip:3d7c966c",
+        "official_en_record_id": "switch:locres:set-01:PCGSegmentSplineElement:NodeTooltip:3d7c966c",
+        "jp_sha256": "4821ab481922e6ed518cc719cf01fc68bcd81a5db04e122bbb0a243742408a71",
+        "official_en_sha256": "4eaea343f06fb93b80b9db71eafe3bdb85ed28fc56f48211bcfb405bdb0402d1"
+      },
+      "text": {
+        "jp": "スプラインを入力として受け取り、各ポイントが、接続された 2 つの制御ポイントによって定義されるセグメントであるポイント データを作成します。\nポイント位置は、それら 2 つの制御ポイントの中間にあり、ポイントの広がりはそれら 2 つの制御ポイントの差の半分になります",
+        "official_en": "Take a spline as input and create a point data, with each point being a segment defined by 2 connected control points.\nThe point position will be in the middle of those 2 control points, and the extents of the point will be half the difference between those 2 control points.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

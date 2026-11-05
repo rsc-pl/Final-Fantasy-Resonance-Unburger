@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UsdSkelRoot",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UsdSkelRoot:PinAlreadyConnected:1d456fce",
+      "source": {
+        "set": "set-02",
+        "namespace": "UsdSkelRoot",
+        "key": "PinAlreadyConnected",
+        "jp_record_id": "switch:locres:set-01:UsdSkelRoot:PinAlreadyConnected:1d456fce",
+        "official_en_record_id": "switch:locres:set-01:UsdSkelRoot:PinAlreadyConnected:1d456fce",
+        "jp_sha256": "106c30861ce710349f3178674e6d5d0cfbf40b9099ad23c6feada8e4f4b5a199",
+        "official_en_sha256": "b69eb303c9be5d729f7fe64b1b6124eef26156daf6bedd297cba182ae90e865e"
+      },
+      "text": {
+        "jp": "AnimBlueprint「{1}」で LiveLinkPose ノードの「Subject Name」を「{0}」に更新できませんでした。ピンはすでに別のノードに接続されています。自動的に更新する場合は、これを接続解除してください",
+        "official_en": "Failed to update a LiveLinkPose node's 'Subject Name' to '{0}' on AnimBlueprint '{1}', because the pin is already connected to some other node. Disconnect it if you want it to be updated automatically.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UsdSkelRoot:MoreThanOneLiveLinkPose:5fb80367",
+      "source": {
+        "set": "set-02",
+        "namespace": "UsdSkelRoot",
+        "key": "MoreThanOneLiveLinkPose",
+        "jp_record_id": "switch:locres:set-01:UsdSkelRoot:MoreThanOneLiveLinkPose:5fb80367",
+        "official_en_record_id": "switch:locres:set-01:UsdSkelRoot:MoreThanOneLiveLinkPose:5fb80367",
+        "jp_sha256": "47b294642033ad560cf1ae17bdce3b07541b4527d27a396e265643cf3fa600a6",
+        "official_en_sha256": "251a3485a15a12a4e367bea568c70f4ab32ac62b8429428fd8e9d495cd7d1042"
+      },
+      "text": {
+        "jp": "AnimBlueprint「{0}」のグラフで LiveLinkPose ブループリント ノードが複数見つかりました。これらすべてのノードは、その LiveLink SubjectName が「{1}」に更新されます。これは、プリミティブ「{2}」用に記述されているとおりです！",
+        "official_en": "Found more than one LiveLinkPose blueprint node on AnimBlueprint '{0}'s graphs. Note that all of those nodes will have their LiveLink SubjectName's updated to '{1}', as described for prim '{2}'!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UsdSkelRoot:DeprecatedSchemas:64277249",
+      "source": {
+        "set": "set-02",
+        "namespace": "UsdSkelRoot",
+        "key": "DeprecatedSchemas",
+        "jp_record_id": "switch:locres:set-01:UsdSkelRoot:DeprecatedSchemas:64277249",
+        "official_en_record_id": "switch:locres:set-01:UsdSkelRoot:DeprecatedSchemas:64277249",
+        "jp_sha256": "485a4d17b1a61f72ef90022c9105a3aeea5ec1da6d7f816bf833ceaf34161607",
+        "official_en_sha256": "af20a65d098eae87a6f5122668f7b40a273541fee8907459c02436d2b9738ce7"
+      },
+      "text": {
+        "jp": "SkelRoot プリミティブ (「{0}」など) での統合スキーマ (Live Link、コントロール リグ、グルーム バインディング) の配置は、バージョン 5.4 で非推奨となっており、将来のリリースではサポートされません。スケルトン プリミティブに統合スキーマを直接配置してください！",
+        "official_en": "Placing integration schemas (Live Link, Control Rig, Groom Binding) on SkelRoot prims (like '{0}') has been deprecated on version 5.4 and will be unsupported in a future release. Please place your integration schemas directly on the Skeleton prims instead!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UsdSkelRoot:InvalidBinding:2cf98bc8",
+      "source": {
+        "set": "set-02",
+        "namespace": "UsdSkelRoot",
+        "key": "InvalidBinding",
+        "jp_record_id": "switch:locres:set-01:UsdSkelRoot:InvalidBinding:2cf98bc8",
+        "official_en_record_id": "switch:locres:set-01:UsdSkelRoot:InvalidBinding:2cf98bc8",
+        "jp_sha256": "8b2a6fb931b22e2b4ce66b7d68fff01f23acbeca8689a80d5bc64ebc1e6ebcf4",
+        "official_en_sha256": "9f07809aacaa4b2b075e5e0d6c3616c35264c977ac0bb89fa5b9740be3f34d7b"
+      },
+      "text": {
+        "jp": "SkelRoot {0} にバインディングがありません。どのスキン メッシュも生成されません。",
+        "official_en": "SkelRoot {0} doesn't have any binding. No skinned mesh will be generated.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

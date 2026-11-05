@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "EnvQueryTestDetails",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:EnvQueryTestDetails:BoolMatchLabel:46d4b73d",
+      "source": {
+        "set": "set-02",
+        "namespace": "EnvQueryTestDetails",
+        "key": "BoolMatchLabel",
+        "jp_record_id": "switch:locres:set-01:EnvQueryTestDetails:BoolMatchLabel:46d4b73d",
+        "official_en_record_id": "switch:locres:set-01:EnvQueryTestDetails:BoolMatchLabel:46d4b73d",
+        "jp_sha256": "26bca7c8cd54869c546adab401aded706305a0b9bff682559383ffe015b4c453",
+        "official_en_sha256": "a8088743ff9744e679dfcc664b48f26f55348ffbbc0a087e3b7a3c374b2aeddc"
+      },
+      "text": {
+        "jp": "ブール一致",
+        "official_en": "Bool Match",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:EnvQueryTestDetails:BoolMatchToolTip:de15812b",
+      "source": {
+        "set": "set-02",
+        "namespace": "EnvQueryTestDetails",
+        "key": "BoolMatchToolTip",
+        "jp_record_id": "switch:locres:set-01:EnvQueryTestDetails:BoolMatchToolTip:de15812b",
+        "official_en_record_id": "switch:locres:set-01:EnvQueryTestDetails:BoolMatchToolTip:de15812b",
+        "jp_sha256": "9ad32a7af4a85e17ff659c68aea93a4a9dee1745575d872df31a1de5d90f1de7",
+        "official_en_sha256": "8db15811f1c62e1c8d3cf842dceefe3621e783d9f314f62c65c24467a2eb7351"
+      },
+      "text": {
+        "jp": "「ScoringFactor」のスコアを付与するために一致するブール値です。この値に一致しない場合、スコアは変わりません。",
+        "official_en": "Boolean value to match in order to grant score of 'ScoringFactor'.  Not matching this value will not change score.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:EnvQueryTestDetails:ClampingLabel:3188fa2c",
+      "source": {
+        "set": "set-02",
+        "namespace": "EnvQueryTestDetails",
+        "key": "ClampingLabel",
+        "jp_record_id": "switch:locres:set-01:EnvQueryTestDetails:ClampingLabel:3188fa2c",
+        "official_en_record_id": "switch:locres:set-01:EnvQueryTestDetails:ClampingLabel:3188fa2c",
+        "jp_sha256": "cc1de73e50510ced173b0edcbe4edd3bb1c3fc9ddb3f46d16b4db297d62e05e0",
+        "official_en_sha256": "2af2180c5e21751ddc19d6cc0ef9091bbf7c6932fa64d426b848aa366c37551e"
+      },
+      "text": {
+        "jp": "クランプ",
+        "official_en": "Clamping",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:EnvQueryTestDetails:Constant:ec27d9d9",
+      "source": {
+        "set": "set-02",
+        "namespace": "EnvQueryTestDetails",
+        "key": "Constant",
+        "jp_record_id": "switch:locres:set-01:EnvQueryTestDetails:Constant:ec27d9d9",
+        "official_en_record_id": "switch:locres:set-01:EnvQueryTestDetails:Constant:ec27d9d9",
+        "jp_sha256": "8b69047b4e63aaa8de4948fea4a8fc7e47e2c49cc8297a9da3014e796a84f700",
+        "official_en_sha256": "3e027acb56a048e0eedf593f4121684c77cab9eeec8630b587b9cd1423ae7cfc"
+      },
+      "text": {
+        "jp": "(「合格」の値となる)最終スコア = ScoringFactor\n注意：この場合、スコアは通常 ScoringFactor 値か 0 のどちらかです。\n正規化テスト値が 0 の場合(または、ブール型クエリのテスト値が False の場合)、スコアは 0 になります。\nそれ以外の場合、スコアは ScoringFactor になります。",
+        "official_en": "Final score (for values that 'pass') = ScoringFactor\nNOTE: In this case, the score is normally EITHER the ScoringFactor value or zero.\nThe score will be zero if the Normalized Test Value is zero (or if the test value is false for a boolean query).\nOtherwise, score will be the ScoringFactor.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:EnvQueryTestDetails:Inverse:0b88c17c",
+      "source": {
+        "set": "set-02",
+        "namespace": "EnvQueryTestDetails",
+        "key": "Inverse",
+        "jp_record_id": "switch:locres:set-01:EnvQueryTestDetails:Inverse:0b88c17c",
+        "official_en_record_id": "switch:locres:set-01:EnvQueryTestDetails:Inverse:0b88c17c",
+        "jp_sha256": "fc231d77ab50ea04f0925ba8fb96aceb9eaa3a7858087d9e84697db5627a8267",
+        "official_en_sha256": "5ebae0bc79a2aff2e7d2f78aafe7dae074ef0e8f907cb0ceef1c59544866e11b"
+      },
+      "text": {
+        "jp": "最終スコア = ScoringFactor x (1.0 - NormalizedItemValue)\n0 に近い値のアイテムへバイアスします。(リニアですが、0 から 1 ではなく 1 から 0 へ反転します。",
+        "official_en": "Final score = ScoringFactor * (1.0 - NormalizedItemValue)\nBias towards items with values close to zero.  (Linear, but flipped from 1 to 0 rather than 0 to 1.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:EnvQueryTestDetails:Square:5929e89f",
+      "source": {
+        "set": "set-02",
+        "namespace": "EnvQueryTestDetails",
+        "key": "Square",
+        "jp_record_id": "switch:locres:set-01:EnvQueryTestDetails:Square:5929e89f",
+        "official_en_record_id": "switch:locres:set-01:EnvQueryTestDetails:Square:5929e89f",
+        "jp_sha256": "1db6e8145ec125649cbba0eb6b0e1b0c391d253b64d608ca4fc55f2d45e19b9a",
+        "official_en_sha256": "4aa4f370d58f656aca10b41da49914a47d972e41a8876fee68562644fd906638"
+      },
+      "text": {
+        "jp": "最終スコア = ScoringFactor x (NormalizedItemValue x NormalizedItemValue)\n大きな値のアイテムへバイアスします。",
+        "official_en": "Final score = ScoringFactor * (NormalizedItemValue * NormalizedItemValue)\nBias towards items with big values.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:EnvQueryTestDetails:Linear:06988f40",
+      "source": {
+        "set": "set-02",
+        "namespace": "EnvQueryTestDetails",
+        "key": "Linear",
+        "jp_record_id": "switch:locres:set-01:EnvQueryTestDetails:Linear:06988f40",
+        "official_en_record_id": "switch:locres:set-01:EnvQueryTestDetails:Linear:06988f40",
+        "jp_sha256": "171ccf5b38fe95de2c89a9731ae932d6d12e4a0b285755cc6f862de76f596c0d",
+        "official_en_sha256": "401545fbbd45f42ea7192ee6a972307a37437ea7c922e98fdb77f45b77bd3678"
+      },
+      "text": {
+        "jp": "最終スコア = ScoringFactor x NormalizedItemValue",
+        "official_en": "Final score = ScoringFactor * NormalizedItemValue",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:EnvQueryTestDetails:Square-root:b04585db",
+      "source": {
+        "set": "set-02",
+        "namespace": "EnvQueryTestDetails",
+        "key": "Square",
+        "jp_record_id": "switch:locres:set-01:EnvQueryTestDetails:Square-root:b04585db",
+        "official_en_record_id": "switch:locres:set-01:EnvQueryTestDetails:Square-root:b04585db",
+        "jp_sha256": "603d990e674ad9f8ec5a0239679ae6809a92d002075a709d95cee796bb66f159",
+        "official_en_sha256": "fc4f89bbe5e1eb4a13794f2157ea7d1bb746f05489694c9d6fafbf6e206dd4a8"
+      },
+      "text": {
+        "jp": "最終スコア = ScoringFactor x Sqrt(NormalizedItemValue)\n大きな値のアイテムへ非線形にバイアスします。",
+        "official_en": "Final score = ScoringFactor * Sqrt(NormalizedItemValue)\nNon-linearly bias towards items with big values.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:EnvQueryTestDetails:Preview:50281c44",
+      "source": {
+        "set": "set-02",
+        "namespace": "EnvQueryTestDetails",
+        "key": "Preview",
+        "jp_record_id": "switch:locres:set-01:EnvQueryTestDetails:Preview:50281c44",
+        "official_en_record_id": "switch:locres:set-01:EnvQueryTestDetails:Preview:50281c44",
+        "jp_sha256": "03607b4fd09b6bc6f7b2afae133202c7b16b63556ae07bf384062645fba982a2",
+        "official_en_sha256": "324b134f57c70c729ae3dc4d298bb451656717d70523e942c1ce667b8024ea07"
+      },
+      "text": {
+        "jp": "プレビュー",
+        "official_en": "Preview",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:EnvQueryTestDetails:FloatFilterMaxForClampingRowToolTip:b0b2a194",
+      "source": {
+        "set": "set-02",
+        "namespace": "EnvQueryTestDetails",
+        "key": "FloatFilterMaxForClampingRowToolTip",
+        "jp_record_id": "switch:locres:set-01:EnvQueryTestDetails:FloatFilterMaxForClampingRowToolTip:b0b2a194",
+        "official_en_record_id": "switch:locres:set-01:EnvQueryTestDetails:FloatFilterMaxForClampingRowToolTip:b0b2a194",
+        "jp_sha256": "a7b3447768ede92b386d40aa48a328727755c8dfc9489517489908d66db3c748",
+        "official_en_sha256": "b11565d7d9e94f7c8960899f1290964fcb5644283e7af2a22b34b4a9b2574321"
+      },
+      "text": {
+        "jp": "[Filter]タブのフィルタ しきい値を参照してください。これより大きい値(正規化前)は、アイテムが無効となります。値は、この値を最大値として正規化されるため、この値のアイテムの正規化された値は、1 となります。",
+        "official_en": "See Filter Thresholds under the Filter tab.  Values higher than this (before normalization) cause the item to be thrown out as invalid.  Values are normalized with this value as the maximum, so items with this value will have a normalized score of 1.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:EnvQueryTestDetails:FloatFilterMinForClampingRowToolTip:49d6c4f1",
+      "source": {
+        "set": "set-02",
+        "namespace": "EnvQueryTestDetails",
+        "key": "FloatFilterMinForClampingRowToolTip",
+        "jp_record_id": "switch:locres:set-01:EnvQueryTestDetails:FloatFilterMinForClampingRowToolTip:49d6c4f1",
+        "official_en_record_id": "switch:locres:set-01:EnvQueryTestDetails:FloatFilterMinForClampingRowToolTip:49d6c4f1",
+        "jp_sha256": "252135c00833a7646ac68eea6efb9a5b292f82c63b82024e40bd3c2f70b7a2c5",
+        "official_en_sha256": "dcd05d4ea3e40b733feb0b90c872ff9137629d0d8955c15769c44cc1ab755402"
+      },
+      "text": {
+        "jp": "[Filter]タブのフィルタ しきい値を参照してください。これより小さい値(正規化前)は、アイテムが無効となります。値は、この値を最小値として正規化されるため、この値のアイテムの正規化された値は、0 となります。",
+        "official_en": "See Filter Thresholds under the Filter tab.  Values lower than this (before clamping) cause the item to be thrown out as invalid.  Values are normalized with this value as the minimum, so items with this value will have a normalized score of 0.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

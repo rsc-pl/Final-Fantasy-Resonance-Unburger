@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UVoxelMorphologyMeshesTool",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UVoxelMorphologyMeshesTool:OnStartTool:f74bcd93",
+      "source": {
+        "set": "set-02",
+        "namespace": "UVoxelMorphologyMeshesTool",
+        "key": "OnStartTool",
+        "jp_record_id": "switch:locres:set-01:UVoxelMorphologyMeshesTool:OnStartTool:f74bcd93",
+        "official_en_record_id": "switch:locres:set-01:UVoxelMorphologyMeshesTool:OnStartTool:f74bcd93",
+        "jp_sha256": "8d7ae911b88531c2cb00b4bc2afe31ff037fa628496ccce482829fd2c425eeb3",
+        "official_en_sha256": "20bd8fbb69d0bb3aa03448e7583429d3d6ff80e8e17782a225f8b1e6d3c2830d"
+      },
+      "text": {
+        "jp": "入力メッシュにオフセット (別称：Morphology) 演算を適用し、ボクセル化手法を使用して新しいメッシュを作成します。UV、シャープなエッジ、および小さな/薄いフィーチャーは失われます。ボクセル数を増やして精度を向上させてください",
+        "official_en": "Apply Offset (aka Morphology) operations to the input meshes to create a new Mesh, using voxelization techniques. UVs, sharp edges, and small/thin features will be lost. Increase Voxel Count to enhance accuracy.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UVoxelMorphologyMeshesTool:WarnOpenEdges:dd6d561e",
+      "source": {
+        "set": "set-02",
+        "namespace": "UVoxelMorphologyMeshesTool",
+        "key": "WarnOpenEdges",
+        "jp_record_id": "switch:locres:set-01:UVoxelMorphologyMeshesTool:WarnOpenEdges:dd6d561e",
+        "official_en_record_id": "switch:locres:set-01:UVoxelMorphologyMeshesTool:WarnOpenEdges:dd6d561e",
+        "jp_sha256": "551bde6a1936eec9316c9a3514f212bf3c454299943038fd4b616ac26920d1c9",
+        "official_en_sha256": "9bc1369c7ab10d162d23137881873cd66cb4bf33c685babab1c7c3969d5002c7"
+      },
+      "text": {
+        "jp": "オープン エッジが見つかりました。アーティファクトを回避するために [Vox Wrap Preprocess (ボクセル ラップ プリプロセス)] 設定項目の使用を検討してください",
+        "official_en": "Open edges found: Consider using the 'Vox Wrap Preprocess' settings to avoid artifacts.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UVoxelMorphologyMeshesTool:VoxelMorphologyMeshes:fcb9cdb5",
+      "source": {
+        "set": "set-02",
+        "namespace": "UVoxelMorphologyMeshesTool",
+        "key": "VoxelMorphologyMeshes",
+        "jp_record_id": "switch:locres:set-01:UVoxelMorphologyMeshesTool:VoxelMorphologyMeshes:fcb9cdb5",
+        "official_en_record_id": "switch:locres:set-01:UVoxelMorphologyMeshesTool:VoxelMorphologyMeshes:fcb9cdb5",
+        "jp_sha256": "12845834bf77a47f5459e6a69d92e92f475fd16d4588b0035915593d7facfda6",
+        "official_en_sha256": "d163dbd1a0a8c135e42d590cfe9a0235c6a297acf0771a141d5d4c80c693908a"
+      },
+      "text": {
+        "jp": "ボクセルのオフセット",
+        "official_en": "Voxel Offset",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UVoxelMorphologyMeshesTool:VoxelMorphologyMeshesToolName:f19e69db",
+      "source": {
+        "set": "set-02",
+        "namespace": "UVoxelMorphologyMeshesTool",
+        "key": "VoxelMorphologyMeshesToolName",
+        "jp_record_id": "switch:locres:set-01:UVoxelMorphologyMeshesTool:VoxelMorphologyMeshesToolName:f19e69db",
+        "official_en_record_id": "switch:locres:set-01:UVoxelMorphologyMeshesTool:VoxelMorphologyMeshesToolName:f19e69db",
+        "jp_sha256": "12845834bf77a47f5459e6a69d92e92f475fd16d4588b0035915593d7facfda6",
+        "official_en_sha256": "d163dbd1a0a8c135e42d590cfe9a0235c6a297acf0771a141d5d4c80c693908a"
+      },
+      "text": {
+        "jp": "ボクセルのオフセット",
+        "official_en": "Voxel Offset",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

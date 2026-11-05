@@ -1,0 +1,567 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MVVMFieldPathHelper",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MVVMFieldPathHelper:PropertyPathDelim:d6309afc",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMFieldPathHelper",
+        "key": "PropertyPathDelim",
+        "jp_record_id": "switch:locres:set-01:MVVMFieldPathHelper:PropertyPathDelim:d6309afc",
+        "official_en_record_id": "switch:locres:set-01:MVVMFieldPathHelper:PropertyPathDelim:d6309afc",
+        "jp_sha256": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+        "official_en_sha256": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8"
+      },
+      "text": {
+        "jp": ".",
+        "official_en": ".",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMFieldPathHelper:None:2b118759",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMFieldPathHelper",
+        "key": "None",
+        "jp_record_id": "switch:locres:set-01:MVVMFieldPathHelper:None:2b118759",
+        "official_en_record_id": "switch:locres:set-01:MVVMFieldPathHelper:None:2b118759",
+        "jp_sha256": "06d2a3b6c2f63c6d493ef4fdb2d5238ee6e4bb4feddf84021b6602bc29ecc1ff",
+        "official_en_sha256": "6e9c960fd025b2e5b1cbceebc7e7b31d041c4c352987f3b56b07f14ad43abca7"
+      },
+      "text": {
+        "jp": "<なし>",
+        "official_en": "<none>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMFieldPathHelper:FieldPathDoesntStartWithAccessor:0f98528a",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMFieldPathHelper",
+        "key": "FieldPathDoesntStartWithAccessor",
+        "jp_record_id": "switch:locres:set-01:MVVMFieldPathHelper:FieldPathDoesntStartWithAccessor:0f98528a",
+        "official_en_record_id": "switch:locres:set-01:MVVMFieldPathHelper:FieldPathDoesntStartWithAccessor:0f98528a",
+        "jp_sha256": "b6f93949d3d9a3e2cd5604b906f127c413e9645ec08a4e2235944734d540f2dd",
+        "official_en_sha256": "49d37c2586f6a09942da70fcd5d7658c8db725495d64cf387d1aa501828b72e8"
+      },
+      "text": {
+        "jp": "アクセサーで始まっていないフィールド パスはサポートされていません",
+        "official_en": "Field path that doesn't start with the accessor is not supported.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMFieldPathHelper:InvalidPropertyTypeInSourcePath:232feb9e",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMFieldPathHelper",
+        "key": "InvalidPropertyTypeInSourcePath",
+        "jp_record_id": "switch:locres:set-01:MVVMFieldPathHelper:InvalidPropertyTypeInSourcePath:232feb9e",
+        "official_en_record_id": "switch:locres:set-01:MVVMFieldPathHelper:InvalidPropertyTypeInSourcePath:232feb9e",
+        "jp_sha256": "f3cf45b2d77f56bb410d7e2a09edbd79a3a3dbefdad0cb37e55df4e8a76eddf8",
+        "official_en_sha256": "e01b3b82954460830f332cae90854cd4c6b8680ffdfacb1514ec9e065a36f19b"
+      },
+      "text": {
+        "jp": "ソース パスとして使用できるのはオブジェクトのプロパティまたは構造体のプロパティのみです。「{0}」は「{1}」です",
+        "official_en": "Only object or struct properties can be used as source paths. '{0}' is a '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMFieldPathHelper:BlueprintGetterNotFound:fd6ac0cb",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMFieldPathHelper",
+        "key": "BlueprintGetterNotFound",
+        "jp_record_id": "switch:locres:set-01:MVVMFieldPathHelper:BlueprintGetterNotFound:fd6ac0cb",
+        "official_en_record_id": "switch:locres:set-01:MVVMFieldPathHelper:BlueprintGetterNotFound:fd6ac0cb",
+        "jp_sha256": "70611186847b4fb893e7d6dacb9ebcce98ecc13bcaeaa3d931e6f060b7753cc9",
+        "official_en_sha256": "fbc92f485f69dbbe0f95c9483bc67ea6cd2b6d662035fb4f4934e929f73dd4ae"
+      },
+      "text": {
+        "jp": "BlueprintGetter「{0}」がオブジェクト「{1}」で見つかりませんでした",
+        "official_en": "The BlueprintGetter '{0}' could not be found on object '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMFieldPathHelper:BlueprintSetterNotFound:a9946f9e",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMFieldPathHelper",
+        "key": "BlueprintSetterNotFound",
+        "jp_record_id": "switch:locres:set-01:MVVMFieldPathHelper:BlueprintSetterNotFound:a9946f9e",
+        "official_en_record_id": "switch:locres:set-01:MVVMFieldPathHelper:BlueprintSetterNotFound:a9946f9e",
+        "jp_sha256": "f6bad8241e683c4c1dbfbd86229160d4bb8c08e136ba98f5c39a11feb4b71659",
+        "official_en_sha256": "3a30da1d8cfbcb49e83c2ebd0ff9a6c256255f85f444fdc3561288541eb71592"
+      },
+      "text": {
+        "jp": "BlueprintSetter「{0}」がオブジェクト「{1}」で見つかりませんでした",
+        "official_en": "The BlueprintSetter '{0}' could not be found on object '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMFieldPathHelper:AccessorClassNull:e6d3ec77",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMFieldPathHelper",
+        "key": "AccessorClassNull",
+        "jp_record_id": "switch:locres:set-01:MVVMFieldPathHelper:AccessorClassNull:e6d3ec77",
+        "official_en_record_id": "switch:locres:set-01:MVVMFieldPathHelper:AccessorClassNull:e6d3ec77",
+        "jp_sha256": "3ae4cc2497733321d7d5017cdac9f609abc611ca46cbc8ec3778dbf25f21ca39",
+        "official_en_sha256": "3499341b19b3f07d6d9d702e925c15ff3094df8cd02a01040897fa525366c59d"
+      },
+      "text": {
+        "jp": "アクセサー クラスが null です",
+        "official_en": "The accessor class is null.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMFieldPathHelper:FieldDoesNotExistInStruct:3067e307",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMFieldPathHelper",
+        "key": "FieldDoesNotExistInStruct",
+        "jp_record_id": "switch:locres:set-01:MVVMFieldPathHelper:FieldDoesNotExistInStruct:3067e307",
+        "official_en_record_id": "switch:locres:set-01:MVVMFieldPathHelper:FieldDoesNotExistInStruct:3067e307",
+        "jp_sha256": "a3fd65da5ec24c437c171f77a9b079d1748a6e29fc937d4f342bcc871e0c4aa8",
+        "official_en_sha256": "e8a685dd32c6957f378dcf941e54b3f127fa6b79fbd2347e178be2260d592ec7"
+      },
+      "text": {
+        "jp": "フィールド「{0}」は構造体「{1}」に存在しません",
+        "official_en": "The field '{0}' does not exist in the struct '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMFieldPathHelper:FieldDoesNotExist:6e743254",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMFieldPathHelper",
+        "key": "FieldDoesNotExist",
+        "jp_record_id": "switch:locres:set-01:MVVMFieldPathHelper:FieldDoesNotExist:6e743254",
+        "official_en_record_id": "switch:locres:set-01:MVVMFieldPathHelper:FieldDoesNotExist:6e743254",
+        "jp_sha256": "6abf6cf3f3c87a54d8db32c7fa1931b6525bcde67efa6b8fc2ade18cc562b7b2",
+        "official_en_sha256": "57424af8d4ebce37b1173f52b325e3fb3d4a6a29da309c5638aa2bc2ef0a92fa"
+      },
+      "text": {
+        "jp": "フィールド「{0}」は存在しません",
+        "official_en": "The field '{0}' does not exist.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMFieldPathHelper:InvalidFieldParent:070ccf2c",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMFieldPathHelper",
+        "key": "InvalidFieldParent",
+        "jp_record_id": "switch:locres:set-01:MVVMFieldPathHelper:InvalidFieldParent:070ccf2c",
+        "official_en_record_id": "switch:locres:set-01:MVVMFieldPathHelper:InvalidFieldParent:070ccf2c",
+        "jp_sha256": "3b4c6005e7e96a2e9f27f4e2e244af50ea66f884de106655b124c727fa4a5c0f",
+        "official_en_sha256": "11c65078ee39b3683c278d1b78066bc34291f03aec455d3cc58be76f41a364b8"
+      },
+      "text": {
+        "jp": "フィールド「{0}」はコンテナではありません",
+        "official_en": "The field '{0}' is not a container.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMFieldPathHelper:InvalidParentProperty:e5f5771e",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMFieldPathHelper",
+        "key": "InvalidParentProperty",
+        "jp_record_id": "switch:locres:set-01:MVVMFieldPathHelper:InvalidParentProperty:e5f5771e",
+        "official_en_record_id": "switch:locres:set-01:MVVMFieldPathHelper:InvalidParentProperty:e5f5771e",
+        "jp_sha256": "83700f3e47d5a850c928975adbc5d0d9c7ce48196fc851237c5988dc64133fab",
+        "official_en_sha256": "0998de120d2ab431a2500decd44f7592cee07633b7a7158aaa90d792b2ce48ea"
+      },
+      "text": {
+        "jp": "インデックス「{0}」のフィールドに無効な親があります",
+        "official_en": "The field at index '{0}' has an invalid parent.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMFieldPathHelper:FieldIsEmpty:f9d8728d",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMFieldPathHelper",
+        "key": "FieldIsEmpty",
+        "jp_record_id": "switch:locres:set-01:MVVMFieldPathHelper:FieldIsEmpty:f9d8728d",
+        "official_en_record_id": "switch:locres:set-01:MVVMFieldPathHelper:FieldIsEmpty:f9d8728d",
+        "jp_sha256": "7d21d91f164792a497b4f7cd2825dfd5af0170ee7be58eb5a27730db073610f8",
+        "official_en_sha256": "3b2464ca93acb9deceabe180f6d79ab73a629c228ffc72750e2fa98e3f9e69a5"
+      },
+      "text": {
+        "jp": "インデックス「{0}」のフィールドが空です",
+        "official_en": "The field at index '{0}' is empty.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMFieldPathHelper:FieldPathEndsInPeriod:2a82fad9",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMFieldPathHelper",
+        "key": "FieldPathEndsInPeriod",
+        "jp_record_id": "switch:locres:set-01:MVVMFieldPathHelper:FieldPathEndsInPeriod:2a82fad9",
+        "official_en_record_id": "switch:locres:set-01:MVVMFieldPathHelper:FieldPathEndsInPeriod:2a82fad9",
+        "jp_sha256": "3123eadb7102b2a65ac899c0b4c8401ce4dc52e2f229d3dff7513f626d006a0a",
+        "official_en_sha256": "674251a0bf5271b31f1ff4e600d1e5318e00af0fad94fceaa62cb56fcab56595"
+      },
+      "text": {
+        "jp": "「.」文字で終わるフィールド パスは使用できません",
+        "official_en": "The field path cannot end with a '.' character.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMFieldPathHelper:FieldPathEmpty:6b8bf292",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMFieldPathHelper",
+        "key": "FieldPathEmpty",
+        "jp_record_id": "switch:locres:set-01:MVVMFieldPathHelper:FieldPathEmpty:6b8bf292",
+        "official_en_record_id": "switch:locres:set-01:MVVMFieldPathHelper:FieldPathEmpty:6b8bf292",
+        "jp_sha256": "4cfdbdad471a339fa462a55fad8f11023d05ab5a90656daf5d2dcaf49eb3c0ce",
+        "official_en_sha256": "abf86fc87e04f1e6c6e5e0af2ff21cf62f1fce72ae1497cf916bf0881018ab2e"
+      },
+      "text": {
+        "jp": "フィールド パスが空です",
+        "official_en": "The field path is empty.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MVVMFieldPathHelper:SourceClassInvalid:1eef7592",
+      "source": {
+        "set": "set-02",
+        "namespace": "MVVMFieldPathHelper",
+        "key": "SourceClassInvalid",
+        "jp_record_id": "switch:locres:set-01:MVVMFieldPathHelper:SourceClassInvalid:1eef7592",
+        "official_en_record_id": "switch:locres:set-01:MVVMFieldPathHelper:SourceClassInvalid:1eef7592",
+        "jp_sha256": "533a44cc4258f3f1a75f59a7e37bc9fd5c483055d119349601160eed9c9c5188",
+        "official_en_sha256": "cdb2e410a530623ac2537f0692d24d244619b89ffea130bd122564f416f191aa"
+      },
+      "text": {
+        "jp": "ソース クラスが無効です",
+        "official_en": "The source class is invalid.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

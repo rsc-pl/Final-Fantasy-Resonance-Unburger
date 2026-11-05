@@ -1,0 +1,863 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGAttributePropertySelectorDetails",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:AddAnExtractor:465b90ef",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "AddAnExtractor",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:AddAnExtractor:465b90ef",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:AddAnExtractor:465b90ef",
+        "jp_sha256": "ea49b60ae54debe8ef39b93a6ea558e3bdd8f3df88a9418dc8de1b7c8d5e966c",
+        "official_en_sha256": "910370f436be0c30998cac67b19d6fd324975b9049f0a2ba2d17864dcf1c87ff"
+      },
+      "text": {
+        "jp": "エクストラクタを追加",
+        "official_en": "Add an extractor",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:AttributesHeader:968d886a",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "AttributesHeader",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:AttributesHeader:968d886a",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:AttributesHeader:968d886a",
+        "jp_sha256": "86de52d178203799951d818b1d3af85f13288de66bf2b0373cc21f53b1e42ff4",
+        "official_en_sha256": "4b0ed88f7d99420fb3ba2c68e20992280f6dcac4afaf32da17bee89c656c2ccf"
+      },
+      "text": {
+        "jp": "属性",
+        "official_en": "Attributes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:TooltipComponents:b3070c55",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "TooltipComponents",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:TooltipComponents:b3070c55",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:TooltipComponents:b3070c55",
+        "jp_sha256": "315fd08696f7151610c8df8e1074e776b3bc260e8a42fcc9de71d2071917e40d",
+        "official_en_sha256": "72004aac53a3dabe1af804d4c756ba358610f9f88498b08516cfd7e019ee5429"
+      },
+      "text": {
+        "jp": "コンポーネントは XYZ や ZYX のようにスタックにすることができます。\nZ/B は Vec3/Vec4 の場合のみ、W/A は Vec4 の場合のみです。\nXYZW と RGBA を同時に使用することはできません",
+        "official_en": "Components can be stacked like XYZ or ZYX.\nZ/B only for Vec3/Vec4, W/A only for Vec4.\nCan't use XYZW and RGBA at the same time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:TooltipText:2777dbba",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "TooltipText",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:TooltipText:2777dbba",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:TooltipText:2777dbba",
+        "jp_sha256": "afc10c9f1d2188adbf4c8dd40920ad54241e69941ae6c354f2a6e0cd9734d7b9",
+        "official_en_sha256": "ba7f73f9cebe78d59021951593ad82635a9fe8a17d65f2abcc03ad0293571c20"
+      },
+      "text": {
+        "jp": "属性の名前を入力します。プロパティを取得するために「$」をプレフィックスとして付けます。赤のテキストは属性またはプロパティが無効であることを示しています。\n「.」をポストフィックスとして付けて値を抽出することもできます。たとえば、$Position.X はその位置の X 成分を抽出します。チェーン接続することもできます。「+」の下のリストを確認することができます",
+        "official_en": "Enter the name of the attribute. You can prefix it by '$' to get a property. Red text means that your attribute or property is invalid.\nYou can also postfix with `.` to extract values. For example, $Position.X will extract the X component of the position. They can also be chained. You can see the list under the '+'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:TooltipComponentsRotator:1698f84a",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "TooltipComponentsRotator",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:TooltipComponentsRotator:1698f84a",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:TooltipComponentsRotator:1698f84a",
+        "jp_sha256": "65470562141d90048040300d84e3655815872b1982265f8bb3967b386d31bfec",
+        "official_en_sha256": "5c58328c28d21f838c10c25f0848941ea379a62d8da26a7b0c7e3a04f38207bd"
+      },
+      "text": {
+        "jp": "オイラー角",
+        "official_en": "Euler angles",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:TooltipComponentsRotatorEuler:6ba03f97",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "TooltipComponentsRotatorEuler",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:TooltipComponentsRotatorEuler:6ba03f97",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:TooltipComponentsRotatorEuler:6ba03f97",
+        "jp_sha256": "d890cb50f47e4d8324ee8e6aac6ccec3edee51d843cfdd0a46386fec2a6ed33b",
+        "official_en_sha256": "8ff745aa4334e44612ca3a2e21cee896d3bd174929b0367b42144d67e0e5c552"
+      },
+      "text": {
+        "jp": "ベクターとしてのオイラー角",
+        "official_en": "Euler angles as a Vector",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:VectorLengthTooltip:4f08258e",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "VectorLengthTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:VectorLengthTooltip:4f08258e",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:VectorLengthTooltip:4f08258e",
+        "jp_sha256": "7823b8fb14cd8d865d9551419518fa49370a90e1f970cae27e74978f7ee5c618",
+        "official_en_sha256": "241055eda85bfc9b1c2c2c643389f559e8ff615e91ac0d99ddfda9be58ecad36"
+      },
+      "text": {
+        "jp": "ベクター (double 値) の長さを取得します。読み取り専用です",
+        "official_en": "Get the length of the vector (double value). Read only.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:VectorSquaredLengthTooltip:b52ff4d3",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "VectorSquaredLengthTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:VectorSquaredLengthTooltip:b52ff4d3",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:VectorSquaredLengthTooltip:b52ff4d3",
+        "jp_sha256": "4c0c195c1dc86d2f04946d8b813b600a40eb7df244eab89a4450568cbf82bee9",
+        "official_en_sha256": "368eec42e81b73684cb7f4e6fa8512ec0ff2b4e5db4f5608f6e0090faf298f4f"
+      },
+      "text": {
+        "jp": "ベクター (double 値) の長さの 2 乗を取得します。読み取り専用です",
+        "official_en": "Get the squared length of the vector (double value). Read only.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:VectorNormalizedTooltip:2471bd97",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "VectorNormalizedTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:VectorNormalizedTooltip:2471bd97",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:VectorNormalizedTooltip:2471bd97",
+        "jp_sha256": "c2f61d6b5a730f896bed0ed995537fdcbc5bf6bac68f9fdad4adaf96d646b61e",
+        "official_en_sha256": "1e7a931cd7258f78aee86037760dfc35779adf976cead04cd1a9b95f2a76b4cf"
+      },
+      "text": {
+        "jp": "ベクターを正規化します (double 値)。読み取り専用です",
+        "official_en": "Get the vector normalized (double value). Read only.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:LastAttributeHeader:371fa38b",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "LastAttributeHeader",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:LastAttributeHeader:371fa38b",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:LastAttributeHeader:371fa38b",
+        "jp_sha256": "5702d283fd4975f137ec0d3d41da98927c61375ce6d748ad81735ee83ed17510",
+        "official_en_sha256": "ef195b6cfe1c8b6a3e8249b774397f6aaff37979efa1bb9bb6238cf6fbe7d926"
+      },
+      "text": {
+        "jp": "最後の属性",
+        "official_en": "Last Attribute",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:AddAnExtractorTooltip:f12b618c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "AddAnExtractorTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:AddAnExtractorTooltip:f12b618c",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:AddAnExtractorTooltip:f12b618c",
+        "jp_sha256": "a84b1fd79cb2181a1b0a245772910b95be49fa586a7f5666cfd933598f868650",
+        "official_en_sha256": "c318b28572612ae56e7d608e1e4b5c0e1878753ecb7b229e135a33e76fd9f4c3"
+      },
+      "text": {
+        "jp": "現在の属性を追加するすべてのエクストラクタのリストです",
+        "official_en": "List of all the extractor to add to the current attribute.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:OtherPropertiesHeader:d7145ee9",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "OtherPropertiesHeader",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:OtherPropertiesHeader:d7145ee9",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:OtherPropertiesHeader:d7145ee9",
+        "jp_sha256": "7c73854b5b4f727613c7c15fe55479b2960dae1c711d2d746efc37b6077f46c0",
+        "official_en_sha256": "5af1be99169790b6c93405c5d9a69491456d6669ba354f105b3a6ee4c1dec1e0"
+      },
+      "text": {
+        "jp": "その他のプロパティ",
+        "official_en": "Other Properties",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:PropertiesHeader:f7158fdd",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "PropertiesHeader",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:PropertiesHeader:f7158fdd",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:PropertiesHeader:f7158fdd",
+        "jp_sha256": "add6fe1bee37e2c20f4ebfb03aad534c35bd1a54fb9b5e9a3e4904f6297c5cf7",
+        "official_en_sha256": "ae43692b2a310b8ed2443d2b7d2a3e4cf0b6d73115badd72831b3d22381f235f"
+      },
+      "text": {
+        "jp": "プロパティ",
+        "official_en": "Properties",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:LastAttributeTooltip:d32c24d4",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "LastAttributeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:LastAttributeTooltip:d32c24d4",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:LastAttributeTooltip:d32c24d4",
+        "jp_sha256": "a78df4b4a8849a19e1569f4dd943d7d6ad75fb93a66f3bf9a1c7a4844660fe95",
+        "official_en_sha256": "6ac1d928bfa9710449ddb312ff926a36cb51ef13274234c7c2f389c56954d6e7"
+      },
+      "text": {
+        "jp": "最後に修正した属性を参照します。入力検査データで確認できます",
+        "official_en": "Refer to the last modified attribute. You can check it in the input inspection data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:SourceAttributeTooltip:878bc4de",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "SourceAttributeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:SourceAttributeTooltip:878bc4de",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:SourceAttributeTooltip:878bc4de",
+        "jp_sha256": "f3634672814d79544ca6c05038085bed993aa838e878954de6109e1b4cde5e54",
+        "official_en_sha256": "616914c9d791708f535fb0164568917dabb05f17fb94a257e5bbe95f48dbaa12"
+      },
+      "text": {
+        "jp": "入力として使用される同じ属性を参照します",
+        "official_en": "Refer to the same attribute that will be used as input.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:Rotator:4e7ba297",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "Rotator",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:Rotator:4e7ba297",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:Rotator:4e7ba297",
+        "jp_sha256": "c00611926fafee71fdcd4f39dee9eca36018a35cb8a31126abfa983d69dcc6f4",
+        "official_en_sha256": "23ab85a604728650929cab22c101f25b3de5db8d2f0e3b0cffe47d136d73338d"
+      },
+      "text": {
+        "jp": "ローテータ",
+        "official_en": "Rotator",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:SourceAttributeHeader:c734e22d",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "SourceAttributeHeader",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:SourceAttributeHeader:c734e22d",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:SourceAttributeHeader:c734e22d",
+        "jp_sha256": "e9571b4edd5ded328a2756c91f7e124aedd53ff2f8bf517315ef67d1d327432c",
+        "official_en_sha256": "53f75ee900352be31cb7e6fde1c99d7fabfdac1a041a95d94147322a878d678c"
+      },
+      "text": {
+        "jp": "ソース属性",
+        "official_en": "Source Attribute",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:Transform:605c3c48",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "Transform",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:Transform:605c3c48",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:Transform:605c3c48",
+        "jp_sha256": "91eda57f8d71e99edf978b23baf2011bfb394867fad817ee04a575cee7c7024e",
+        "official_en_sha256": "d2d68041b53daa7577b38494eb66792f9bd9a3450f025587347a00610c67fbce"
+      },
+      "text": {
+        "jp": "トランスフォーム",
+        "official_en": "Transform",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:Vector:bd10ed21",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "Vector",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:Vector:bd10ed21",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:Vector:bd10ed21",
+        "jp_sha256": "adbafa0ce260f7acf4ff870026245aafc0ad57de64dc31dd8ceb4b6688cf311a",
+        "official_en_sha256": "a56ad3f2440820608303a0d4a84b1f1858660ead830b8e7df8e8d0b5a7eed13a"
+      },
+      "text": {
+        "jp": "ベクター",
+        "official_en": "Vector",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:RotatorForwardTooltip:dd695379",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "RotatorForwardTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:RotatorForwardTooltip:dd695379",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:RotatorForwardTooltip:dd695379",
+        "jp_sha256": "d56eac0995d7051d6df154359d681e6939eeb1a96800c862bf8b6c5ae656e472",
+        "official_en_sha256": "4d1b504be14410aec0c689076b2902ecc78103ad4261cafd400d1386363ec6e1"
+      },
+      "text": {
+        "jp": "回転の X 軸。読み取り専用です",
+        "official_en": "X Axis of the rotation. Read only.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:RotatorRightTooltip:94c7e46b",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "RotatorRightTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:RotatorRightTooltip:94c7e46b",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:RotatorRightTooltip:94c7e46b",
+        "jp_sha256": "d4c4cd11675e4dabd85529457d484e7a41f047b2246c01b4c6ec922f1f0975f8",
+        "official_en_sha256": "9a6c6d892dda6cad5f42b0061e4d046f4f502540a083acc3e29d9650f516c035"
+      },
+      "text": {
+        "jp": "回転の Y 軸。読み取り専用です",
+        "official_en": "Y Axis of the rotation. Read only.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:RotatorUpTooltip:ad5c7135",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "RotatorUpTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:RotatorUpTooltip:ad5c7135",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:RotatorUpTooltip:ad5c7135",
+        "jp_sha256": "87926d4961718b09653227e5f94224b7d4d7f019eb33795c3bb11f1308e5966d",
+        "official_en_sha256": "49fff7a9ec16d1a74579ef60a3e5e4a102e09f86ad8b6b75eae3864e5848f3e5"
+      },
+      "text": {
+        "jp": "回転の Z 軸。読み取り専用です",
+        "official_en": "Z Axis of the rotation. Read only.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:SetAttributePropertyName:5eff3022",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributePropertySelectorDetails",
+        "key": "SetAttributePropertyName",
+        "jp_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:SetAttributePropertyName:5eff3022",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributePropertySelectorDetails:SetAttributePropertyName:5eff3022",
+        "jp_sha256": "145a231bfaf7dfd80b975df1b1fe922a5c1705ca7860b9b557ddd9a2256ffb03",
+        "official_en_sha256": "d353284ee6fd9ae811563f8697db6aaed8f55b95c6dc92c31d67803216a547a2"
+      },
+      "text": {
+        "jp": "[PCG] 属性/プロパティ名を設定",
+        "official_en": "[PCG] Set Attribute/Property Name",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

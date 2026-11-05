@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MoviePipelineCLIEncoder",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MoviePipelineCLIEncoder:ExecutableNotFound:70f264e0",
+      "source": {
+        "set": "set-02",
+        "namespace": "MoviePipelineCLIEncoder",
+        "key": "ExecutableNotFound",
+        "jp_record_id": "switch:locres:set-01:MoviePipelineCLIEncoder:ExecutableNotFound:70f264e0",
+        "official_en_record_id": "switch:locres:set-01:MoviePipelineCLIEncoder:ExecutableNotFound:70f264e0",
+        "jp_sha256": "ec82df9568e72e3c3a361ab091e819c2061d4d9637ad0e8cc82e5187b612b86e",
+        "official_en_sha256": "dd67ece659e1e9de9f84193309c652023a18947d8f402d6ae74f778b2a397d58"
+      },
+      "text": {
+        "jp": "プロセスを起動できなかったため、コーデックを決定できません。指定されているパスに実行可能ファイルが存在することを確認してください。",
+        "official_en": "Failed to launch process, cannot determine codecs. Please verify that the executable exists at the path specified!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MoviePipelineCLIEncoder:NoExecutableSpecified:b3223186",
+      "source": {
+        "set": "set-02",
+        "namespace": "MoviePipelineCLIEncoder",
+        "key": "NoExecutableSpecified",
+        "jp_record_id": "switch:locres:set-01:MoviePipelineCLIEncoder:NoExecutableSpecified:b3223186",
+        "official_en_record_id": "switch:locres:set-01:MoviePipelineCLIEncoder:NoExecutableSpecified:b3223186",
+        "jp_sha256": "a8cdb116e753efcae29dc4961d29790e8af9acffbb7bdd8f3f41eed3750e9e62",
+        "official_en_sha256": "158e7e34349f5d82f7ee05727a8c3dfa1182ef0a74b856c59347e74bb4d3977d"
+      },
+      "text": {
+        "jp": "実行可能ファイルのパスが指定されていないため、コーデックを決定できません。",
+        "official_en": "No executable path specified, cannot determine codecs.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

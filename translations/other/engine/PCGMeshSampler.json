@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGMeshSampler",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGMeshSampler:AttributeCreationFailed:016546df",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMeshSampler",
+        "key": "AttributeCreationFailed",
+        "jp_record_id": "switch:locres:set-01:PCGMeshSampler:AttributeCreationFailed:016546df",
+        "official_en_record_id": "switch:locres:set-01:PCGMeshSampler:AttributeCreationFailed:016546df",
+        "jp_sha256": "7e99ef0a99279ab8a45d32987ddb81248439e1f039784e40ae99446b0ed9a86e",
+        "official_en_sha256": "20c1353f0f71f7bdbbc30587fa5988378eba6810be7ab6868302cc92f16d5905"
+      },
+      "text": {
+        "jp": "{1} の属性 {0} の作成に失敗しました。{1} は算出されません",
+        "official_en": "Failed to create attribute {0} for {1}. {1} won't be computed",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMeshSampler:InvalidOperation:60de8562",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMeshSampler",
+        "key": "InvalidOperation",
+        "jp_record_id": "switch:locres:set-01:PCGMeshSampler:InvalidOperation:60de8562",
+        "official_en_record_id": "switch:locres:set-01:PCGMeshSampler:InvalidOperation:60de8562",
+        "jp_sha256": "7f0d88b5055ef5083947944b669ede601027c009d050b5fc89c0ffeb38d9c6d1",
+        "official_en_sha256": "7b2109954a25947533d79a3c6b56568451cb8e37b0acd0f2885c1467502f772a"
+      },
+      "text": {
+        "jp": "無効なサンプリング操作",
+        "official_en": "Invalid sampling operation",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMeshSampler:ObjectToDynamicMeshFailed:7fd9a0fb",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMeshSampler",
+        "key": "ObjectToDynamicMeshFailed",
+        "jp_record_id": "switch:locres:set-01:PCGMeshSampler:ObjectToDynamicMeshFailed:7fd9a0fb",
+        "official_en_record_id": "switch:locres:set-01:PCGMeshSampler:ObjectToDynamicMeshFailed:7fd9a0fb",
+        "jp_sha256": "df12e44182113f58142b9dd7e2d124a083673b433baa74b8b6e9031dc439d16e",
+        "official_en_sha256": "f320bbf70f43b065febe7bfc7008f08c08810b0a3c70b6e2b94e0ca697aa9607"
+      },
+      "text": {
+        "jp": "オブジェクト {0} のオブジェクトからダイナミック メッシュへの変換が失敗しました",
+        "official_en": "Object to Dynamic mesh failed for object {0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMeshSampler:ObjectNotRightType:b8b5936a",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMeshSampler",
+        "key": "ObjectNotRightType",
+        "jp_record_id": "switch:locres:set-01:PCGMeshSampler:ObjectNotRightType:b8b5936a",
+        "official_en_record_id": "switch:locres:set-01:PCGMeshSampler:ObjectNotRightType:b8b5936a",
+        "jp_sha256": "e15d300e91d00c524689209994142ac8f84545ea8a7d570d0c02ec4fcab48bcf",
+        "official_en_sha256": "b19be8a7ade24f7216e8f43076a743cdde0421437dc5a9104059337aeb6b4354"
+      },
+      "text": {
+        "jp": "指定されたオブジェクト「{0}」はサポートされている型ではありません。スタティックメッシュ/アクタ/シーン コンポーネントのみがサポートされます",
+        "official_en": "Provided object '{0}' is not a supported type. Only supports StaticMesh/Actor/SceneComponent.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMeshSampler:ObjectDoesNotExist:e36b5afd",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMeshSampler",
+        "key": "ObjectDoesNotExist",
+        "jp_record_id": "switch:locres:set-01:PCGMeshSampler:ObjectDoesNotExist:e36b5afd",
+        "official_en_record_id": "switch:locres:set-01:PCGMeshSampler:ObjectDoesNotExist:e36b5afd",
+        "jp_sha256": "77dedb305e2cf423adcf74a4e1d7e18017795878694908058b97c6db317c7268",
+        "official_en_sha256": "81d9fa3bf775c34d0b950ca9a1b57690b15c2fef42d2ee513ed79c04a150716f"
+      },
+      "text": {
+        "jp": "指定されたオブジェクトが存在しないか、ロードできません：「{0}」",
+        "official_en": "Provided object does not exist or could not be loaded: '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGMeshSampler:MeshSamplerNodeTooltip:3075c3e7",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGMeshSampler",
+        "key": "MeshSamplerNodeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGMeshSampler:MeshSamplerNodeTooltip:3075c3e7",
+        "official_en_record_id": "switch:locres:set-01:PCGMeshSampler:MeshSamplerNodeTooltip:3075c3e7",
+        "jp_sha256": "bbdb8354b657e622a112864586ff4089adea19c961dcbf751e341a5022d3f860",
+        "official_en_sha256": "e05fa287a44512a251ba373ebb8740beee25a37c5396e3b797f5e96c941217cc"
+      },
+      "text": {
+        "jp": "スタティックメッシュのポイントをサンプリングします",
+        "official_en": "Sample points on a static mesh.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

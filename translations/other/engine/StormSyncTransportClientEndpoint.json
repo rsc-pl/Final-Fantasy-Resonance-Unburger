@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "StormSyncTransportClientEndpoint",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:StormSyncTransportClientEndpoint:Error_Active_Connection:76c598bd",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncTransportClientEndpoint",
+        "key": "Error_Active_Connection",
+        "jp_record_id": "switch:locres:set-01:StormSyncTransportClientEndpoint:Error_Active_Connection:76c598bd",
+        "official_en_record_id": "switch:locres:set-01:StormSyncTransportClientEndpoint:Error_Active_Connection:76c598bd",
+        "jp_sha256": "00a16518ab7ff3c6d1c14cdd7e6a6fcd400af9bb5e80f298a4069a832a2e3aff",
+        "official_en_sha256": "844ba87cec528d1346edadfc7a5fee18e751f47ac9223f8b031586fac2d7d1cc"
+      },
+      "text": {
+        "jp": "{0} のアクティブな接続の判定中にエラーが発生しました",
+        "official_en": "Error trying to determine an active connection for {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StormSyncTransportClientEndpoint:StartSendingBuffer_Error_WeakThis:32aa38b7",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncTransportClientEndpoint",
+        "key": "StartSendingBuffer_Error_WeakThis",
+        "jp_record_id": "switch:locres:set-01:StormSyncTransportClientEndpoint:StartSendingBuffer_Error_WeakThis:32aa38b7",
+        "official_en_record_id": "switch:locres:set-01:StormSyncTransportClientEndpoint:StartSendingBuffer_Error_WeakThis:32aa38b7",
+        "jp_sha256": "dd59882afba44f7f13dda92792b8015c6e2adf84aaf68712a021fff88bfdf077",
+        "official_en_sha256": "d2cfae9db1a10f72f5f9894df1786c1570c5cc0f10ff35e4980be2ef7ea2db30"
+      },
+      "text": {
+        "jp": "このローカルの弱点を取得しようとして内部エラーが発生しました",
+        "official_en": "Internal error trying to get a hold on local weak this.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StormSyncTransportClientEndpoint:Error_Modifiers_Empty:487ff536",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncTransportClientEndpoint",
+        "key": "Error_Modifiers_Empty",
+        "jp_record_id": "switch:locres:set-01:StormSyncTransportClientEndpoint:Error_Modifiers_Empty:487ff536",
+        "official_en_record_id": "switch:locres:set-01:StormSyncTransportClientEndpoint:Error_Modifiers_Empty:487ff536",
+        "jp_sha256": "0b708619bdf4fb173062d1de05f46072074bc4a487e46b280eb4066f5f3aa978",
+        "official_en_sha256": "ec96b900512ed174c6302811111fa6a6efe5c138db0264f365f54c79e7ee32f2"
+      },
+      "text": {
+        "jp": "リモートからモディファイアの空のリストが返されました。pak は同期されていません。処理は何も行われません",
+        "official_en": "Remote sent back empty list of modifiers, meaning pak are synced. Do nothing.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StormSyncTransportClientEndpoint:Error_Already_Sending:5945431e",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncTransportClientEndpoint",
+        "key": "Error_Already_Sending",
+        "jp_record_id": "switch:locres:set-01:StormSyncTransportClientEndpoint:Error_Already_Sending:5945431e",
+        "official_en_record_id": "switch:locres:set-01:StormSyncTransportClientEndpoint:Error_Already_Sending:5945431e",
+        "jp_sha256": "39e87d3ca8c8402842cecf5916119c74d7e840348e80996b5736800233e98b23",
+        "official_en_sha256": "0deca85e6c6d4b485bb32a986f8c6919dc0934d896f053001c3a1eed03a8a8a2"
+      },
+      "text": {
+        "jp": "現在、%s にデータを送信しています。この送信が完了してから、もう一度新しいデータの送信を試してください",
+        "official_en": "We are currently sending data to %s. Please wait for it to complete before trying to send new data again.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

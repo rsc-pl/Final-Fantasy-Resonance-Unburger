@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "GameplayAbility",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:GameplayAbility:MulticastFunctionDisallowed:22d2cad2",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayAbility",
+        "key": "MulticastFunctionDisallowed",
+        "jp_record_id": "switch:locres:set-01:GameplayAbility:MulticastFunctionDisallowed:22d2cad2",
+        "official_en_record_id": "switch:locres:set-01:GameplayAbility:MulticastFunctionDisallowed:22d2cad2",
+        "jp_sha256": "b945b612924d5ace9e489597ed6f9be3dade87f323f3c362f63fea4b2e9106c8",
+        "official_en_sha256": "b751b25a0997cf0263128798ff362f50b7fb18be65c77ecc1cb04c030184feeb"
+      },
+      "text": {
+        "jp": "ゲームプレイ アビリティはシミュレートされたプロキシにレプリケートされていないため、NetMulticast 関数 {0} は無意味です",
+        "official_en": "Gameplay Abilities are not replicated to Simulated Proxies and therefore NetMulticast Function {0} is meaningless",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayAbility:ReplicatedVariablesNeedReplicationYes:4e805a11",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayAbility",
+        "key": "ReplicatedVariablesNeedReplicationYes",
+        "jp_record_id": "switch:locres:set-01:GameplayAbility:ReplicatedVariablesNeedReplicationYes:4e805a11",
+        "official_en_record_id": "switch:locres:set-01:GameplayAbility:ReplicatedVariablesNeedReplicationYes:4e805a11",
+        "jp_sha256": "14a7af986e20d776070966a661098fb5e767ad1d2cf69d21e5e9a6121387e46a",
+        "official_en_sha256": "e8aa1830ed7226baefdf5bd80db7bdef95f1ff401bc0feae2c25c73bb5124ddc"
+      },
+      "text": {
+        "jp": "Gameplay Ability ブループリントにレプリケートされた変数がありますが、レプリケーション ポリシーはレプリケートなしに設定されています",
+        "official_en": "Gameplay Ability Blueprint has replicated variables but Replication Policy is set to not replicate",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayAbility:NonInstancedIsDeprecated:fd81ef02",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayAbility",
+        "key": "NonInstancedIsDeprecated",
+        "jp_record_id": "switch:locres:set-01:GameplayAbility:NonInstancedIsDeprecated:fd81ef02",
+        "official_en_record_id": "switch:locres:set-01:GameplayAbility:NonInstancedIsDeprecated:fd81ef02",
+        "jp_sha256": "37b4ff8ff80157581cbc9ac3f4d2214207b5dbea70c4b8bc9550d07847e42ee2",
+        "official_en_sha256": "1ddca8acd5f5cd5cbce8727a4bdde6571c905e4186f994c872ef61ce4d8af40e"
+      },
+      "text": {
+        "jp": "ゲームプレイ アビリティ インスタンス化ポリシーが NonInstanced になっていますが、これは非推奨です。InstancedPerActor を使用してください。修正中にこれを一時的に許可するには、CVar AbilitySystem.Fix.AllowNonInstancedAbilities を使用してください",
+        "official_en": "Gameplay Ability Instancing Policy is NonInstanced which is deprecated. Use InstancedPerActor. Use CVar AbilitySystem.Fix.AllowNonInstancedAbilities to temporarily allow this during fixup.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayAbility:ReplicatedInstancePolicyNotSupported:2832de9b",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayAbility",
+        "key": "ReplicatedInstancePolicyNotSupported",
+        "jp_record_id": "switch:locres:set-01:GameplayAbility:ReplicatedInstancePolicyNotSupported:2832de9b",
+        "official_en_record_id": "switch:locres:set-01:GameplayAbility:ReplicatedInstancePolicyNotSupported:2832de9b",
+        "jp_sha256": "649b88f7e380cc082f097fb59d19e22f402c4003b319c70a25d07324d7e06bd9",
+        "official_en_sha256": "7e4ee8aaf58c1d37f4e317f98ec0988eec0e2bfc818eae36f0bb24ee74496ae6"
+      },
+      "text": {
+        "jp": "インスタンス化のポリシー「{0}」はレプリケーション用にサポートされていません。  レプリケーション ポリシーまたはインスタンス化のポリシーを変更します",
+        "official_en": "Instancing Policy '{0}' is not supported for Replication.  Either change the Replication Policy or the Instancing Policy",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayAbility:RpcRequiresReplicationYes:0254e75d",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayAbility",
+        "key": "RpcRequiresReplicationYes",
+        "jp_record_id": "switch:locres:set-01:GameplayAbility:RpcRequiresReplicationYes:0254e75d",
+        "official_en_record_id": "switch:locres:set-01:GameplayAbility:RpcRequiresReplicationYes:0254e75d",
+        "jp_sha256": "657fd3b4dfb4831e17601fdb592346c9aed9f8354147cfda43ed967d845054f4",
+        "official_en_sha256": "ad5bf46027358399027ee14c6f05f3e270e0d4f69474b8f0bf8cc0397734ca0a"
+      },
+      "text": {
+        "jp": "{0}：RPC 関数が実際に機能するためには、ReplicationPolicy が ReplicateYes になっている必要があります",
+        "official_en": "{0}: RPC Functions require ReplicationPolicy to be ReplicateYes in order to actually work.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayAbility:ReplicatedPropertiesAreDeprecated:f3f0b2a4",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayAbility",
+        "key": "ReplicatedPropertiesAreDeprecated",
+        "jp_record_id": "switch:locres:set-01:GameplayAbility:ReplicatedPropertiesAreDeprecated:f3f0b2a4",
+        "official_en_record_id": "switch:locres:set-01:GameplayAbility:ReplicatedPropertiesAreDeprecated:f3f0b2a4",
+        "jp_sha256": "e249fb2506bda668ee16bf20f856bd011fba6bf33c6115fee5dd88a735150905",
+        "official_en_sha256": "562923fcd2adaa6b9be6a33e43a9f4cbe0f3b3448d573e201a1c4286f3ac1c2c"
+      },
+      "text": {
+        "jp": "{0}：レプリケートされたプロパティは、ゲームプレイ アビリティでは非推奨になっています (GameplayAbilities/README.md を参照)。変数のレプリケーションには信頼性の高い RPC を使用してください",
+        "official_en": "{0}: Replicated properties are deprecated in Gameplay Abilities (see GameplayAbilities/README.md). Use Reliable RPCs for variable replication.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

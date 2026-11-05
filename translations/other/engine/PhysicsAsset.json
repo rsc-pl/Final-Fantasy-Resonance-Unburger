@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PhysicsAsset",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PhysicsAsset:UBodySetupHasNoCollision:87e4767f",
+      "source": {
+        "set": "set-02",
+        "namespace": "PhysicsAsset",
+        "key": "UBodySetupHasNoCollision",
+        "jp_record_id": "switch:locres:set-01:PhysicsAsset:UBodySetupHasNoCollision:87e4767f",
+        "official_en_record_id": "switch:locres:set-01:PhysicsAsset:UBodySetupHasNoCollision:87e4767f",
+        "jp_sha256": "440ca910ac2b7ebe58baa4b9953f5fa53a085ab1a344262ccd1b3e1dfcc64110",
+        "official_en_sha256": "5704425f00855e878dbeb2c872e149d0bc2cb68c77cf4edf199b2fd4f9d9fdbd"
+      },
+      "text": {
+        "jp": "ボーン {0} にはコリジョン形状が 1 つ以上必要です",
+        "official_en": "Bone {0} requires at least one collision shape",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PhysicsAsset:UBodySetupHasNoMass:ec03d0d2",
+      "source": {
+        "set": "set-02",
+        "namespace": "PhysicsAsset",
+        "key": "UBodySetupHasNoMass",
+        "jp_record_id": "switch:locres:set-01:PhysicsAsset:UBodySetupHasNoMass:ec03d0d2",
+        "official_en_record_id": "switch:locres:set-01:PhysicsAsset:UBodySetupHasNoMass:ec03d0d2",
+        "jp_sha256": "b1e43595096ff3ffdf7ed69780c4a02ce4a811263684df46d17892316a333fb6",
+        "official_en_sha256": "05baf01fbbfe1424f4b1ca8912d3b40de13e35508dcf2546ab8fc651db05120a"
+      },
+      "text": {
+        "jp": "ボーン {0} には、[質量に寄与] が true に設定されている形状が 1 つ以上必要です",
+        "official_en": "Bone {0} requires at least one shape with 'Contribute to Mass' set to 'true'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PhysicsAsset:BoneMissingFromSkelMesh:16d8baa8",
+      "source": {
+        "set": "set-02",
+        "namespace": "PhysicsAsset",
+        "key": "BoneMissingFromSkelMesh",
+        "jp_record_id": "switch:locres:set-01:PhysicsAsset:BoneMissingFromSkelMesh:16d8baa8",
+        "official_en_record_id": "switch:locres:set-01:PhysicsAsset:BoneMissingFromSkelMesh:16d8baa8",
+        "jp_sha256": "1177659124395af9a84ccfd3b632eeea994747ed642bb250183f52bb08edb935",
+        "official_en_sha256": "a238ee003792a80202d2bb7b13ce69ce2e8bf2baaeadb7662b8339654c7667d5"
+      },
+      "text": {
+        "jp": "SkeletalMeshには、このPhysicsAssetに必要なボーン '{0}' が存在しません。",
+        "official_en": "The SkeletalMesh is missing bone '{0}' needed by this PhysicsAsset.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

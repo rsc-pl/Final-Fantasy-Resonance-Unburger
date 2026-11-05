@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_SubEv_C01_QuestTutorial",
+    "scene_id": "ST_SubEv_C01_QuestTutorial",
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C01_QuestTutorial:SubEv_C01_QuestTutorial_002:ed8f3a0b",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C01_QuestTutorial",
+        "key": "SubEv_C01_QuestTutorial_002",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C01_QuestTutorial:SubEv_C01_QuestTutorial_002:ed8f3a0b",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C01_QuestTutorial:SubEv_C01_QuestTutorial_002:ed8f3a0b",
+        "jp_sha256": "009a75fb21dc0b0a2c24e7ce5644e4e410acf0828d97ef5d5697c2e13dc6e73a",
+        "official_en_sha256": "94a879859c4db9a3ee95b13a254bca2aaee83de74ccd2a5540a5c41849254d17"
+      },
+      "text": {
+        "jp": "とにかく、話を聞いてみよう。",
+        "official_en": "I don’t know, but we should go check on them.",
+        "real_en": "Anyway, let's hear what they have to say."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C01_QuestTutorial",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "ラスウェル",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0003",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C01_QuestTutorial/SubEv_C01_QuestTutorial_002"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C01_QuestTutorial:SubEv_C01_QuestTutorial_001:a06fb36e",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C01_QuestTutorial",
+        "key": "SubEv_C01_QuestTutorial_001",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C01_QuestTutorial:SubEv_C01_QuestTutorial_001:a06fb36e",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C01_QuestTutorial:SubEv_C01_QuestTutorial_001:a06fb36e",
+        "jp_sha256": "215cfa6fad5a153beee8789da044fe9d6ba3b9d087b21a2282a0c64b560def25",
+        "official_en_sha256": "1dc2f7c9fd4c89f23843cf14345f74ecc08aa44742cd9c961731d41737849c1c"
+      },
+      "text": {
+        "jp": "揉め事か？",
+        "official_en": "What’s all the commotion over there?",
+        "real_en": "Is there some kind of trouble?"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C01_QuestTutorial",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "レイン",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0002",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C01_QuestTutorial/SubEv_C01_QuestTutorial_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

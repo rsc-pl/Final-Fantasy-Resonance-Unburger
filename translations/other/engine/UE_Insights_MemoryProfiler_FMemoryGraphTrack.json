@@ -1,0 +1,974 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:AllocEventCount_TrackName:a60b1411",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "AllocEventCount_TrackName",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:AllocEventCount_TrackName:a60b1411",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:AllocEventCount_TrackName:a60b1411",
+        "jp_sha256": "871e775a37d0d71ec2583b89908508375c40dc40aa729b979af2204b499f2012",
+        "official_en_sha256": "51ded54a2c1d5f8d8c8c06d6a7c679fd8b495d060ff457666be0089ddc06054d"
+      },
+      "text": {
+        "jp": "allocイベント数",
+        "official_en": "Alloc Event Count",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:FreeEventCount_TrackName:35d942ec",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "FreeEventCount_TrackName",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:FreeEventCount_TrackName:35d942ec",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:FreeEventCount_TrackName:35d942ec",
+        "jp_sha256": "481a627b3cdc579f5eb81e2fd09edb4f2b23838b81db6bc904996e3741183d33",
+        "official_en_sha256": "5a1154dcba751a1beb1668bad953bbc21ec4166bc8f96c6a893fbef000e6ea08"
+      },
+      "text": {
+        "jp": "freeイベント数",
+        "official_en": "Free Event Count",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:LiveAllocationCountMax_TrackName:f200b9a7",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "LiveAllocationCountMax_TrackName",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:LiveAllocationCountMax_TrackName:f200b9a7",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:LiveAllocationCountMax_TrackName:f200b9a7",
+        "jp_sha256": "471f845c0d2fb75beb4bec8a049ce006d30fcf08f60b6346cdd073a2bbb36fbe",
+        "official_en_sha256": "aacb356e9bd155e13ec1fc00abb775299bbce56606215ec2ccfbe0df0baa9196"
+      },
+      "text": {
+        "jp": "ライブ割り当て数(最大)",
+        "official_en": "Live Allocation Count (Max)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:LiveAllocationCountMin_TrackName:aeb93608",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "LiveAllocationCountMin_TrackName",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:LiveAllocationCountMin_TrackName:aeb93608",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:LiveAllocationCountMin_TrackName:aeb93608",
+        "jp_sha256": "ba51e2571b4f066a496a6e5b2121d89f0b484aa337162604f348a20e613f213a",
+        "official_en_sha256": "0ef3f7835835f5e02f9f5ef04321d41c45eed4ac024616195d261c89b85f0953"
+      },
+      "text": {
+        "jp": "ライブ割り当て数(最小)",
+        "official_en": "Live Allocation Count (Min)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:LiveAllocationCountMax_TrackDesc:4e2a9aa5",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "LiveAllocationCountMax_TrackDesc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:LiveAllocationCountMax_TrackDesc:4e2a9aa5",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:LiveAllocationCountMax_TrackDesc:4e2a9aa5",
+        "jp_sha256": "39c63b6a12f6ddfa57b014be5fc81d12ac9fc55e0519c0ed049c3910aad3438a",
+        "official_en_sha256": "c16234fa82a7abd20114d181579d092df9ad9c325592f4a2db4f539c340ff9f9"
+      },
+      "text": {
+        "jp": "ライブ割り当て数の、サンプルあたりの最大値",
+        "official_en": "Maximum value per sample for the Live Allocation Count",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalAllocatedMemoryMax_TrackDesc:f3114324",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "TotalAllocatedMemoryMax_TrackDesc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalAllocatedMemoryMax_TrackDesc:f3114324",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalAllocatedMemoryMax_TrackDesc:f3114324",
+        "jp_sha256": "64212e39f284c92b8d50b8f1acaad8b89a299cbb77c3cdf9ecbcd364af7f2c53",
+        "official_en_sha256": "419dee073c0e721850b26d77f764bb9a8fa586eedf17d517e7125625e46338f1"
+      },
+      "text": {
+        "jp": "合計割り当て済みメモリの、サンプルあたりの最大値",
+        "official_en": "Maximum value per sample for the Total Allocated Memory",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalCompressedSwapMemoryMax_TrackDesc:f920ff94",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "TotalCompressedSwapMemoryMax_TrackDesc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalCompressedSwapMemoryMax_TrackDesc:f920ff94",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalCompressedSwapMemoryMax_TrackDesc:f920ff94",
+        "jp_sha256": "b0c3266bddc6e94f1c02dc9ab2e68230a7e98a9709d5f7b96ebbf39757757bde",
+        "official_en_sha256": "747765a91965c0b3fcfed1c232dbc2ba75eaf1a01b80daa26ec8607e9bddcd60"
+      },
+      "text": {
+        "jp": "合計圧縮スワップメモリの、サンプルあたりの最大値",
+        "official_en": "Maximum value per sample for the Total Compressed Swap Memory",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalSwapMemoryMax_TrackDesc:fb452170",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "TotalSwapMemoryMax_TrackDesc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalSwapMemoryMax_TrackDesc:fb452170",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalSwapMemoryMax_TrackDesc:fb452170",
+        "jp_sha256": "c43addb52029965277415b96286fdda2f3b60fcf882ae1c05569191104df7c9d",
+        "official_en_sha256": "7db22dd799eeeb497bab640755755c97c4723fd86c7e7535ae40af75e9145c5d"
+      },
+      "text": {
+        "jp": "合計スワップメモリの、サンプルあたりの最大値",
+        "official_en": "Maximum value per sample for the Total Swap Memory",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:LiveAllocationCountMin_TrackDesc:16f520be",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "LiveAllocationCountMin_TrackDesc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:LiveAllocationCountMin_TrackDesc:16f520be",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:LiveAllocationCountMin_TrackDesc:16f520be",
+        "jp_sha256": "fde63dc49864594fc093a8118c928f425623e17a12e36677081d0ecac0f41ff6",
+        "official_en_sha256": "f088fe3c0bbcf087bbd02d2795b8c72cc5174b8ab6a9440844a30663fb165bea"
+      },
+      "text": {
+        "jp": "ライブ割り当て数の、サンプルあたりの最小値",
+        "official_en": "Minimum value per sample for the Live Allocation Count",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalAllocatedMemoryMin_TrackDesc:88cd2b54",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "TotalAllocatedMemoryMin_TrackDesc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalAllocatedMemoryMin_TrackDesc:88cd2b54",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalAllocatedMemoryMin_TrackDesc:88cd2b54",
+        "jp_sha256": "ec38efe766e74dba0ab4e8c41bbe6ad8f2f23ab8a60dd7fb7c1ff681543c56e7",
+        "official_en_sha256": "48bcf4b3a18108f1347a2542614edb0316f7fd31a93ea69d28c8aaee722c09c5"
+      },
+      "text": {
+        "jp": "合計割り当て済みメモリの、サンプルあたりの最小値",
+        "official_en": "Minimum value per sample for the Total Allocated Memory",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalCompressedSwapMemoryMin_TrackDesc:abb7bb87",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "TotalCompressedSwapMemoryMin_TrackDesc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalCompressedSwapMemoryMin_TrackDesc:abb7bb87",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalCompressedSwapMemoryMin_TrackDesc:abb7bb87",
+        "jp_sha256": "4aa407886bba7f29c38b6441481071e72e1fb356c6d43f558c92a5e4e7912ecf",
+        "official_en_sha256": "e2876956d07ff3ca914d237d5463c806d7ea2667e3dda7a1e57ba270310769db"
+      },
+      "text": {
+        "jp": "合計圧縮スワップメモリの、サンプルあたりの最小値",
+        "official_en": "Minimum value per sample for the Total Compressed Swap Memory",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalSwapMemoryMin_TrackDesc:be625902",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "TotalSwapMemoryMin_TrackDesc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalSwapMemoryMin_TrackDesc:be625902",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalSwapMemoryMin_TrackDesc:be625902",
+        "jp_sha256": "7209032cc9a80bb66284e09812355f89c5633bae72134edb3d1a6414f07faefa",
+        "official_en_sha256": "d8a60fa4990a92acec5782f39596dc98aa2a2d6791464909b28e2a854a437ef6"
+      },
+      "text": {
+        "jp": "合計スワップメモリの、サンプルあたりの最小値",
+        "official_en": "Minimum value per sample for the Total Swap Memory",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:AllocEventCount_TrackDesc:84e132f9",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "AllocEventCount_TrackDesc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:AllocEventCount_TrackDesc:84e132f9",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:AllocEventCount_TrackDesc:84e132f9",
+        "jp_sha256": "07b2e147cc1daf9a749356464b0cc0fecd406b508dd0c0a25bb3ca71d56e0c80",
+        "official_en_sha256": "2d14d653a9348b0755e23c890237b249b86301f59461269e7259d0940055e289"
+      },
+      "text": {
+        "jp": "サンプルあたりの alloc イベントの数",
+        "official_en": "Number of alloc events per sample",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:FreeEventCount_TrackDesc:37130142",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "FreeEventCount_TrackDesc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:FreeEventCount_TrackDesc:37130142",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:FreeEventCount_TrackDesc:37130142",
+        "jp_sha256": "c08645375e96fb457e6cd1ac0870550de177cc9d301f3c431ca5408c50e7bff4",
+        "official_en_sha256": "00b0f730faa84fdcb7ec391f01c9359c467b76a7310af0d07fca0cf4f110e510"
+      },
+      "text": {
+        "jp": "サンプルあたりのfreeイベントの数",
+        "official_en": "Number of free events per sample",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:PageInEventCount_TrackDesc:9923577a",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "PageInEventCount_TrackDesc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:PageInEventCount_TrackDesc:9923577a",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:PageInEventCount_TrackDesc:9923577a",
+        "jp_sha256": "18d7c65c5eaccb8d80801e441336baecbe49bfe4f0215fd2aafa67e2ace50db1",
+        "official_en_sha256": "1a4918d046323029a918b5b1fe0c79008810c126a97b6b5bc6347841a4214ea3"
+      },
+      "text": {
+        "jp": "サンプルあたりのページイン イベントの数",
+        "official_en": "Number of page in events per sample",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:PageOutEventCount_TrackDesc:e8f78d7c",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "PageOutEventCount_TrackDesc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:PageOutEventCount_TrackDesc:e8f78d7c",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:PageOutEventCount_TrackDesc:e8f78d7c",
+        "jp_sha256": "d7f8e8b3df9d1ddd98ddb8a2251e1ae7d2613928b386de59c516b4734f848211",
+        "official_en_sha256": "353e5054d3b88ce0f1ab1f9da3091a4ae16a2bb58df92bdbed6c14dfea2bcab3"
+      },
+      "text": {
+        "jp": "サンプルあたりのページアウト イベントの数",
+        "official_en": "Number of page out events per sample",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:SwapFreeEventCount_TrackDesc:f2f09ad1",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "SwapFreeEventCount_TrackDesc",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:SwapFreeEventCount_TrackDesc:f2f09ad1",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:SwapFreeEventCount_TrackDesc:f2f09ad1",
+        "jp_sha256": "b48887f1c3848579cb8c79ef65c0f81b01674c01ccad8058bca6e3b2d6f3b430",
+        "official_en_sha256": "c3cb8f82a1dbc89d2dd08012c46a6a1af5da2a07bf9a1f90a7f3ac4d53043723"
+      },
+      "text": {
+        "jp": "サンプルあたりのスワップfreeイベントの数",
+        "official_en": "Number of swap free events per sample",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:PageInEventCount_TrackName:4bcc7630",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "PageInEventCount_TrackName",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:PageInEventCount_TrackName:4bcc7630",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:PageInEventCount_TrackName:4bcc7630",
+        "jp_sha256": "fd2101c6c77da8c3a4af9b4c4898a22bf5919ee209fb4621e7de171c7564359f",
+        "official_en_sha256": "c7d083fb1840ca6d3ad0c0a855aedc05cee5bdbd37874a543e8121b75cdc4687"
+      },
+      "text": {
+        "jp": "ページインイベント数",
+        "official_en": "Page In Event Count",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:PageOutEventCount_TrackName:a19dedf7",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "PageOutEventCount_TrackName",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:PageOutEventCount_TrackName:a19dedf7",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:PageOutEventCount_TrackName:a19dedf7",
+        "jp_sha256": "315d0297cddc909d34902fc1323b3f96b892c7f4d2e7101df9456e8e69c19ddf",
+        "official_en_sha256": "f054b9777c66d0ceb5932192f752dc1e3636c9ba5acd8a04ac1468b69ac2ef19"
+      },
+      "text": {
+        "jp": "ページアウトイベント数",
+        "official_en": "Page Out Event Count",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:SwapFreeEventCount_TrackName:d96c90a7",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "SwapFreeEventCount_TrackName",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:SwapFreeEventCount_TrackName:d96c90a7",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:SwapFreeEventCount_TrackName:d96c90a7",
+        "jp_sha256": "10c01b86ef811d59fc1c8ecd8284304da98b5b0984e5e774c0efb04a20fd696c",
+        "official_en_sha256": "2d64214d837ccbf43ee13cfb6d2da5cb7e90e35c933c38df984c2bb4a76dba39"
+      },
+      "text": {
+        "jp": "スワップfreeイベント数",
+        "official_en": "Swap Free Event Count",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalAllocatedMemoryMax_TrackName:f7619f11",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "TotalAllocatedMemoryMax_TrackName",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalAllocatedMemoryMax_TrackName:f7619f11",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalAllocatedMemoryMax_TrackName:f7619f11",
+        "jp_sha256": "f66901bfd897d7d5355b9aedd380514d764fb25e4ee188658086242976e90b9d",
+        "official_en_sha256": "087432965161930bc0682cd0d7e208f6a7d5c9f5a4f7e09223b9f1e6649fcd8b"
+      },
+      "text": {
+        "jp": "合計割り当て済みメモリ(最大)",
+        "official_en": "Total Allocated Memory (Max)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalAllocatedMemoryMin_TrackName:c1fb2972",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "TotalAllocatedMemoryMin_TrackName",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalAllocatedMemoryMin_TrackName:c1fb2972",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalAllocatedMemoryMin_TrackName:c1fb2972",
+        "jp_sha256": "73b9aee77de8b6941683b8be0681dfb03f4b415949991823bdcd124e03ab7fe4",
+        "official_en_sha256": "7338e4e35a9507dc284e76fd60b4ee6fbe7eabf3136a18da00dcfaa4a3fcfe06"
+      },
+      "text": {
+        "jp": "合計割り当て済みメモリ(最小)",
+        "official_en": "Total Allocated Memory (Min)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalCompressedSwapMemoryMax_TrackName:76a0b930",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "TotalCompressedSwapMemoryMax_TrackName",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalCompressedSwapMemoryMax_TrackName:76a0b930",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalCompressedSwapMemoryMax_TrackName:76a0b930",
+        "jp_sha256": "00816087e57621679a6e97c7a1a9b8f950765b154a626bf893bba78f61ad1784",
+        "official_en_sha256": "4a408a62667b6d8dce49d6483398726092679b75ace4f93387e3f0044032fb95"
+      },
+      "text": {
+        "jp": "合計圧縮スワップメモリ(最大)",
+        "official_en": "Total Compressed Swap Memory (Max)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalCompressedSwapMemoryMin_TrackName:5dbfcdf7",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "TotalCompressedSwapMemoryMin_TrackName",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalCompressedSwapMemoryMin_TrackName:5dbfcdf7",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalCompressedSwapMemoryMin_TrackName:5dbfcdf7",
+        "jp_sha256": "8a78d174ff6b1772a02007f39c27564fc690d3f7046985baad0bbb062d2cb2f9",
+        "official_en_sha256": "4d68e1bab6f9a0426bd61fb2a161eda881f9fa98592ea48135da4284f4940f22"
+      },
+      "text": {
+        "jp": "合計圧縮スワップメモリ(最小)",
+        "official_en": "Total Compressed Swap Memory (Min)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalSwapMemoryMax_TrackName:e930f687",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "TotalSwapMemoryMax_TrackName",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalSwapMemoryMax_TrackName:e930f687",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalSwapMemoryMax_TrackName:e930f687",
+        "jp_sha256": "83dd0a44c0f740c60af8dba53e18b022383ca9e50970ef63496003fababdcc68",
+        "official_en_sha256": "3e6b7550659c885c529a547ea2fbc1e8140e10928c405d42fe6cc40e6d9f92a5"
+      },
+      "text": {
+        "jp": "合計スワップメモリ(最大)",
+        "official_en": "Total Swap Memory (Max)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalSwapMemoryMin_TrackName:5ebf2373",
+      "source": {
+        "set": "set-02",
+        "namespace": "UE::Insights::MemoryProfiler::FMemoryGraphTrack",
+        "key": "TotalSwapMemoryMin_TrackName",
+        "jp_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalSwapMemoryMin_TrackName:5ebf2373",
+        "official_en_record_id": "switch:locres:set-01:UE-Insights-MemoryProfiler-FMemoryGraphTrack:TotalSwapMemoryMin_TrackName:5ebf2373",
+        "jp_sha256": "dc7d0640ee9deacd149c089b207bf4b120823950536d4e54b2d15c8a0fda8762",
+        "official_en_sha256": "022f63e4d19bfd6742cc392fd8fe7f54264566e8a18eb0104f9f6cc3bc5367ba"
+      },
+      "text": {
+        "jp": "合計スワップメモリ(最小)",
+        "official_en": "Total Swap Memory (Min)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

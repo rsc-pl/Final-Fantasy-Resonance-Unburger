@@ -1,0 +1,567 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UDrawPolyPathTool",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UDrawPolyPathTool:AddToPathTransactionName:60d11f2d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolyPathTool",
+        "key": "AddToPathTransactionName",
+        "jp_record_id": "switch:locres:set-01:UDrawPolyPathTool:AddToPathTransactionName:60d11f2d",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolyPathTool:AddToPathTransactionName:60d11f2d",
+        "jp_sha256": "cd778f461f8d619aad1fa9275fda5163bfc1ec0a81d74decd0272300eaf30e22",
+        "official_en_sha256": "bff0a802086247c38087370738b13b1b943cf0515e3e8523207623a22620b37f"
+      },
+      "text": {
+        "jp": "ポイントをパスに追加",
+        "official_en": "Add Point to Path",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDrawPolyPathTool:CancelRadiusTransactionName:a7944dde",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolyPathTool",
+        "key": "CancelRadiusTransactionName",
+        "jp_record_id": "switch:locres:set-01:UDrawPolyPathTool:CancelRadiusTransactionName:a7944dde",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolyPathTool:CancelRadiusTransactionName:a7944dde",
+        "jp_sha256": "a608eb76509bc90e9fef393c0f11554b858ccc461ce7e4d8657a25e941ea66f0",
+        "official_en_sha256": "955cae81a80b03ce2b0ee5e3cc52bab0f0efccb1eafcef8eeea8468a65bd09d8"
+      },
+      "text": {
+        "jp": "コーナー半径の設定をキャンセル",
+        "official_en": "Cancel Setting Corner Radius",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDrawPolyPathTool:ZeroWidthPathError:ec484ea1",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolyPathTool",
+        "key": "ZeroWidthPathError",
+        "jp_record_id": "switch:locres:set-01:UDrawPolyPathTool:ZeroWidthPathError:ec484ea1",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolyPathTool:ZeroWidthPathError:ec484ea1",
+        "jp_sha256": "55694705dc2358df6ef9a98c259a2555a7340991f90241b360ca6afb14f00b29",
+        "official_en_sha256": "12791b9dc156eeb4c55b5dd395fe50e529a7d45853d4c2f57968f612ef3247df"
+      },
+      "text": {
+        "jp": "パスの幅を0に設定できません。",
+        "official_en": "Cannot set path width to 0.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDrawPolyPathTool:FixedSetRadiusInstructions:4ffd294a",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolyPathTool",
+        "key": "FixedSetRadiusInstructions",
+        "jp_record_id": "switch:locres:set-01:UDrawPolyPathTool:FixedSetRadiusInstructions:4ffd294a",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolyPathTool:FixedSetRadiusInstructions:4ffd294a",
+        "jp_sha256": "757e406f95ff5d70b731f3b2ca7ca54e653bdda7416da623a512286dc9c186d4",
+        "official_en_sha256": "3917a0564b97e9d169bb0a99b31450a911f6ecd7101cb2e6590bf361cd579bb6"
+      },
+      "text": {
+        "jp": "ビューポートでクリックして固定コーナー半径を受け入れるか、または[詳細]パネルでコーナー半径を変更します。",
+        "official_en": "Click in viewport to accept fixed corner radius, or change it in details panel.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDrawPolyPathTool:FixedSetHeightInstructions:ff910a5d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolyPathTool",
+        "key": "FixedSetHeightInstructions",
+        "jp_record_id": "switch:locres:set-01:UDrawPolyPathTool:FixedSetHeightInstructions:ff910a5d",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolyPathTool:FixedSetHeightInstructions:ff910a5d",
+        "jp_sha256": "6b1b00d8d7bbad5e012bd57bd4688fc4d37e1720455ec9594c9fc28253e0ee97",
+        "official_en_sha256": "b582368545f694a66d4e0930ff98889d4239523b05e8faa34cf0921ed6991eed"
+      },
+      "text": {
+        "jp": "ビューポートでクリックして固定パス高さを受け入れるか、または[詳細]パネルでパス高さを変更します。",
+        "official_en": "Click in viewport to accept fixed path height, or change it in details panel.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDrawPolyPathTool:FixedSetWidthInstructions:e3d83487",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolyPathTool",
+        "key": "FixedSetWidthInstructions",
+        "jp_record_id": "switch:locres:set-01:UDrawPolyPathTool:FixedSetWidthInstructions:e3d83487",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolyPathTool:FixedSetWidthInstructions:e3d83487",
+        "jp_sha256": "9a507a653df843eea095186b6b0e2fc969a76b0a8a809c73866bd98148692cc9",
+        "official_en_sha256": "7d033a6113f75b80f6fc56a180be19de913f69bca96d81a1fd4baeafe178a02e"
+      },
+      "text": {
+        "jp": "ビューポートでクリックして固定パス幅を受け入れるか、または[詳細]パネルでパス幅を変更します。",
+        "official_en": "Click in viewport to accept fixed path width, or change it in details panel.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDrawPolyPathTool:CreatePolyPathTransactionName:5ec15ecd",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolyPathTool",
+        "key": "CreatePolyPathTransactionName",
+        "jp_record_id": "switch:locres:set-01:UDrawPolyPathTool:CreatePolyPathTransactionName:5ec15ecd",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolyPathTool:CreatePolyPathTransactionName:5ec15ecd",
+        "jp_sha256": "02d965286a2b5f73d64982a27ac0711953399507ba42dd57d14dab65be843519",
+        "official_en_sha256": "625982753a674b348c8eca51177cb7122a334609611128778cd55952e26b36a1"
+      },
+      "text": {
+        "jp": "PolyPathを作成",
+        "official_en": "Create PolyPath",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDrawPolyPathTool:StartDrawInstructions:d4360fed",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolyPathTool",
+        "key": "StartDrawInstructions",
+        "jp_record_id": "switch:locres:set-01:UDrawPolyPathTool:StartDrawInstructions:d4360fed",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolyPathTool:StartDrawInstructions:d4360fed",
+        "jp_sha256": "95e07152e82bc2eab7fda2aca1b4064fc57aa85ae1013410e184b7054d47d9dc",
+        "official_en_sha256": "9a36240b74945cf53ea5548112a670a94adf1b55b7d498253e57a0ed16e81a1e"
+      },
+      "text": {
+        "jp": "描画面にパスを描画して、その幅を設定し、押し出します。左クリックしてパスの頂点を配置し、最後または最初の頂点をクリックして、パスを完成させます。描画中にスナップを無視するには Shift を長押しします。",
+        "official_en": "Draw a path on the drawing plane, set its width, and extrude it. Left-click to place path vertices, and click on the last or first vertex to complete the path. Hold Shift to ignore snapping while drawing.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDrawPolyPathTool:FinishPathTransactionName:431b720d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolyPathTool",
+        "key": "FinishPathTransactionName",
+        "jp_record_id": "switch:locres:set-01:UDrawPolyPathTool:FinishPathTransactionName:431b720d",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolyPathTool:FinishPathTransactionName:431b720d",
+        "jp_sha256": "97dc113a12ac72b4aa03700c1cf8ba1de19cc0781067db91ba68bea6db7cc3bc",
+        "official_en_sha256": "9bd4c9397327272221b078f891c34c007bfd297f07879a9ad3cd25d5f1e57ff5"
+      },
+      "text": {
+        "jp": "パスを完了",
+        "official_en": "Finish Path",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDrawPolyPathTool:ToolName:ea5c2d1d",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolyPathTool",
+        "key": "ToolName",
+        "jp_record_id": "switch:locres:set-01:UDrawPolyPathTool:ToolName:ea5c2d1d",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolyPathTool:ToolName:ea5c2d1d",
+        "jp_sha256": "692711da4e9d396a8f0cb3490f130187c7438a56ed59d6e6d7a9d78f608c5da7",
+        "official_en_sha256": "6769bf62790a8664ff57593e939a0fbe8882b97959f050b55d4bb4cc6e97cb67"
+      },
+      "text": {
+        "jp": "パスの押し出し",
+        "official_en": "Path Extrude",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDrawPolyPathTool:BeginRadiusTransactionName:77ea1686",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolyPathTool",
+        "key": "BeginRadiusTransactionName",
+        "jp_record_id": "switch:locres:set-01:UDrawPolyPathTool:BeginRadiusTransactionName:77ea1686",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolyPathTool:BeginRadiusTransactionName:77ea1686",
+        "jp_sha256": "05d4a5469b2ca6d01cdc97157691d0d97a658f2d95f7e43255a1b0baad60efc4",
+        "official_en_sha256": "8a89ce81776a33e0c3df80c317d2d85cd9e39615153f80e65fccda7be040b774"
+      },
+      "text": {
+        "jp": "コーナー半径を設定",
+        "official_en": "Set Corner Radius",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDrawPolyPathTool:BeginWidthTransactionName:ba129987",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolyPathTool",
+        "key": "BeginWidthTransactionName",
+        "jp_record_id": "switch:locres:set-01:UDrawPolyPathTool:BeginWidthTransactionName:ba129987",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolyPathTool:BeginWidthTransactionName:ba129987",
+        "jp_sha256": "d07aa2331305262ced52747d6c91186cf491c49c2e7b8e31917a9f4dd071a5f5",
+        "official_en_sha256": "ce7c636e031fbe3e01dc154d34ed14bc74725196e7af2fe86dbfd34912b2e414"
+      },
+      "text": {
+        "jp": "パスの幅を設定",
+        "official_en": "Set Path Width",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDrawPolyPathTool:InteractiveSetHeightInstructions:4cc76f00",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolyPathTool",
+        "key": "InteractiveSetHeightInstructions",
+        "jp_record_id": "switch:locres:set-01:UDrawPolyPathTool:InteractiveSetHeightInstructions:4cc76f00",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolyPathTool:InteractiveSetHeightInstructions:4cc76f00",
+        "jp_sha256": "6a2405aeb9032a087c9772a4bef3e6659566421c9f353027309ed2b66d5673d6",
+        "official_en_sha256": "aebde01374385cdd1eea50b48123330d9a583bdd15dce6376e4d33264f9a6d67"
+      },
+      "text": {
+        "jp": "押し出しボリューム上または高さにスナップするオブジェクト上にマウスカーソルを置くことで、押し出しの高さを設定します。Shiftキーを押したままにすると、スナッピングが無視されます。",
+        "official_en": "Set the height of the extrusion by positioning the mouse over the extrusion volume, or over objects to snap to their heights. Hold Shift to ignore snapping.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDrawPolyPathTool:InteractiveSetRadiusInstructions:f9aa05ce",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolyPathTool",
+        "key": "InteractiveSetRadiusInstructions",
+        "jp_record_id": "switch:locres:set-01:UDrawPolyPathTool:InteractiveSetRadiusInstructions:f9aa05ce",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolyPathTool:InteractiveSetRadiusInstructions:f9aa05ce",
+        "jp_sha256": "e1bd46e233095edd3abf1f77c2ea30be606521678cf45239348579803a84a7ec",
+        "official_en_sha256": "c806ebf568e549a654bb48705cec30c73747ade22576a51f5b7a4f3f440ed10c"
+      },
+      "text": {
+        "jp": "描画面をクリックしてコーナーの半径を設定します。Shiftキーを押したままにすると、スナッピングが無視されます。",
+        "official_en": "Set the radius of the corners by clicking on the drawing plane. Hold Shift to ignore snapping.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UDrawPolyPathTool:InteractiveSetWidthInstructions:3a9a057e",
+      "source": {
+        "set": "set-02",
+        "namespace": "UDrawPolyPathTool",
+        "key": "InteractiveSetWidthInstructions",
+        "jp_record_id": "switch:locres:set-01:UDrawPolyPathTool:InteractiveSetWidthInstructions:3a9a057e",
+        "official_en_record_id": "switch:locres:set-01:UDrawPolyPathTool:InteractiveSetWidthInstructions:3a9a057e",
+        "jp_sha256": "e9a2934e085a4b8c2ecd73861098b804292d25a98ef0c2a2ad87ed84e7fd7a2d",
+        "official_en_sha256": "2ff2ddff65979ac7262aa520e97005528dfbe2855d4732d4cf477c5f9785ef45"
+      },
+      "text": {
+        "jp": "描画面をクリックして、パスの幅を設定します。",
+        "official_en": "Set the width of the path by clicking on the drawing plane. Hold Shift to ignore snapping.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

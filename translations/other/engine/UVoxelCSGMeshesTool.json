@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UVoxelCSGMeshesTool",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UVoxelCSGMeshesTool:OnStartTool:f45e2d84",
+      "source": {
+        "set": "set-02",
+        "namespace": "UVoxelCSGMeshesTool",
+        "key": "OnStartTool",
+        "jp_record_id": "switch:locres:set-01:UVoxelCSGMeshesTool:OnStartTool:f45e2d84",
+        "official_en_record_id": "switch:locres:set-01:UVoxelCSGMeshesTool:OnStartTool:f45e2d84",
+        "jp_sha256": "4508ee53613ec0f41357f951df46f8bb249563eaa530eca9dca547a9f71a934c",
+        "official_en_sha256": "246a5f9c55bb7fcb91876b03728653ff45003f161601beb97f85d2f076f644c2"
+      },
+      "text": {
+        "jp": "ボクセル化手法を使用して、入力メッシュの CSG ブール値を計算します。UV、シャープ エッジ、小さい/薄いフィーチャーが失われます。精度を上げるためにボクセル数を増やします",
+        "official_en": "Compute a CSG Boolean of the input meshes using voxelization techniques.UVs, sharp edges, and small / thin features will be lost.Increase Voxel Count to enhance accuracy.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UVoxelCSGMeshesTool:WarnOpenEdges:ddad7a85",
+      "source": {
+        "set": "set-02",
+        "namespace": "UVoxelCSGMeshesTool",
+        "key": "WarnOpenEdges",
+        "jp_record_id": "switch:locres:set-01:UVoxelCSGMeshesTool:WarnOpenEdges:ddad7a85",
+        "official_en_record_id": "switch:locres:set-01:UVoxelCSGMeshesTool:WarnOpenEdges:ddad7a85",
+        "jp_sha256": "bb45ea371cc29a1402f7f834983d2ee4c49807642148259f9182e6b86adc6767",
+        "official_en_sha256": "1764dda4fbea5c12ba483efdb10429af06cea2d5638126ae2e41ba8f8ad7a800"
+      },
+      "text": {
+        "jp": "オープン エッジを検出: 結果としてアーティファクトが発生",
+        "official_en": "Open edges found: some artifacts will result.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UVoxelCSGMeshesTool:UVoxelCSGMeshesToolName:54143a93",
+      "source": {
+        "set": "set-02",
+        "namespace": "UVoxelCSGMeshesTool",
+        "key": "UVoxelCSGMeshesToolName",
+        "jp_record_id": "switch:locres:set-01:UVoxelCSGMeshesTool:UVoxelCSGMeshesToolName:54143a93",
+        "official_en_record_id": "switch:locres:set-01:UVoxelCSGMeshesTool:UVoxelCSGMeshesToolName:54143a93",
+        "jp_sha256": "a605ddd116c4d31bbdd91f81af0185d8c72a100d3f950373e3a0675c657e74fb",
+        "official_en_sha256": "e23662064d45e4bb537ad85f9f3b8823aedc52971ae0ec382e47bee0f96d5269"
+      },
+      "text": {
+        "jp": "ボクセル ブーリアン",
+        "official_en": "Voxel Boolean",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UVoxelCSGMeshesTool:VoxelCSGMeshes:b662115c",
+      "source": {
+        "set": "set-02",
+        "namespace": "UVoxelCSGMeshesTool",
+        "key": "VoxelCSGMeshes",
+        "jp_record_id": "switch:locres:set-01:UVoxelCSGMeshesTool:VoxelCSGMeshes:b662115c",
+        "official_en_record_id": "switch:locres:set-01:UVoxelCSGMeshesTool:VoxelCSGMeshes:b662115c",
+        "jp_sha256": "a605ddd116c4d31bbdd91f81af0185d8c72a100d3f950373e3a0675c657e74fb",
+        "official_en_sha256": "e23662064d45e4bb537ad85f9f3b8823aedc52971ae0ec382e47bee0f96d5269"
+      },
+      "text": {
+        "jp": "ボクセル ブーリアン",
+        "official_en": "Voxel Boolean",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "VerifyMetaHumanPackageSource",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:MultipleWardrobeItems:bdf23b1a",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanPackageSource",
+        "key": "MultipleWardrobeItems",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:MultipleWardrobeItems:bdf23b1a",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:MultipleWardrobeItems:bdf23b1a",
+        "jp_sha256": "b724a86f769ac8cc7a8cc43636609d24477358b3d7b6dc2b5907b8c396e260b0",
+        "official_en_sha256": "227c9a8fba7029fea7d953052b27965a159a3ad061f3ca036ba94ba8129850a4"
+      },
+      "text": {
+        "jp": "追加のワードローブ アイテム {AdditionalFileName} が見つかりました。メイン アセットにはワードローブ アイテムが 1 つだけ必要です",
+        "official_en": "Found additional Wardrobe Item {AdditionalFileName}. There should only be one Wardrobe Item for the main asset",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:AssetPathNotCorrect:da15944b",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanPackageSource",
+        "key": "AssetPathNotCorrect",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:AssetPathNotCorrect:da15944b",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:AssetPathNotCorrect:da15944b",
+        "jp_sha256": "d2896031d3a493a6a8cf65136086b5b92a0ca06fa764bb37fcdbb2529c5e0cff",
+        "official_en_sha256": "8fcbe09f21b2c0eb6b7b307f00ea3590578bda4c8875b212ab2dbc71b6f827d1"
+      },
+      "text": {
+        "jp": "アセット {AssetName} は「{RootPath}」にありますが、「{ExpectedPath}」にあるか、「{ExpectedName}」という名前である必要があります",
+        "official_en": "The Asset {AssetName} is at the location {RootPath} when it should either be at {ExpectedPath} or called {ExpectedName}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:CharacterMainAssetPathIncorrect:06693d1d",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanPackageSource",
+        "key": "CharacterMainAssetPathIncorrect",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:CharacterMainAssetPathIncorrect:06693d1d",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:CharacterMainAssetPathIncorrect:06693d1d",
+        "jp_sha256": "155357a41b6feadc14449f506063fece002a82a776971ed4562ede95e7465a7b",
+        "official_en_sha256": "e4db836836cc66e8986951dedfe82d4d25180ea0ada628638aec1b96f21c56ad"
+      },
+      "text": {
+        "jp": "アセット {AssetName} は「{NewRootPath}\\{RootPath}」フォルダ内にありますが、「{RootPath}\\{RootPath}」または「{NewRootPath}\\{NewRootPath}」にある必要があります",
+        "official_en": "The Asset {AssetName} is in the folder \"{NewRootPath}\\{RootPath}\" when it should either be in \"{RootPath}\\{RootPath}\" or \"{NewRootPath}\\{NewRootPath}\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:DependencyOnMissingAsset:52631b84",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanPackageSource",
+        "key": "DependencyOnMissingAsset",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:DependencyOnMissingAsset:52631b84",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:DependencyOnMissingAsset:52631b84",
+        "jp_sha256": "4b99b7a976137b345c16eab31e0d954b68b4878526e8098679370d8969209361",
+        "official_en_sha256": "77f489e37bca02c26a6a32614235f3b7145c2a37b91c94942a3190acb5eed14e"
+      },
+      "text": {
+        "jp": "アセット {SourceName} は、ディスク上のファイルではないと思われる ({DependencyFileName} がない) {DependencyName} を参照しようとしています",
+        "official_en": "The Asset {SourceName} is attempting to reference {DependencyName} which does not seem to be a file on disk ({DependencyFileName} is missing).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:DependencyOutOfTree:8c42bf51",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanPackageSource",
+        "key": "DependencyOutOfTree",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:DependencyOutOfTree:8c42bf51",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:DependencyOutOfTree:8c42bf51",
+        "jp_sha256": "46e51081da6bfa3a01afc9b508e81de7b9c1db8e9295cbaf88b84d215aa60c0f",
+        "official_en_sha256": "c644e7f7e0dd1bffe4a19d4cc5b21790a0826cd01520347739a83bcca4a2a5b6"
+      },
+      "text": {
+        "jp": "アセット {SourceName} は、パッケージに含められるための正しいフォルダに置かれていない {DependencyName} を参照しようとしています",
+        "official_en": "The Asset {SourceName} is attempting to reference {DependencyName} which is not in the correct folder to be included in the package",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:NotAWardrobeItem:1ddab363",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanPackageSource",
+        "key": "NotAWardrobeItem",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:NotAWardrobeItem:1ddab363",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:NotAWardrobeItem:1ddab363",
+        "jp_sha256": "0b434b7bb14f0ea622dccecf8c652770bec775fe054c323ac13c4ccc3f22156f",
+        "official_en_sha256": "d8d44dc2ceb4c654eb99ff53e63e3a5fc6f3a54b75a3af821c18a8b089cfd314"
+      },
+      "text": {
+        "jp": "ファイル {AdditionalFileName} は有効なワードローブ アイテムではありません",
+        "official_en": "The File {AdditionalFileName} is not a valid wardrobe item.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:ExtraFilesInPackageFolder:85b71810",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanPackageSource",
+        "key": "ExtraFilesInPackageFolder",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:ExtraFilesInPackageFolder:85b71810",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:ExtraFilesInPackageFolder:85b71810",
+        "jp_sha256": "3ef0af24d75f47bcf7fad19847d4239c3b6bd189d3e3b31380374b95ea3be45b",
+        "official_en_sha256": "b5da7ef4906c55da7174b03fb9e1a74ed72e3a61e791611af9ff27e9c5c8df01"
+      },
+      "text": {
+        "jp": "パッケージング フォルダには、メイン アセット {AssetName} によって参照されていないファイルが含まれています。これらのファイルはパッケージ内に含められません。詳細については、「情報」セクションを参照してください",
+        "official_en": "The packaging folder contains files not referenced by the main asset {AssetName}. These files will not be included in the package. See the info section for further details.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:FileNotIncludedInPackage:7c767ae4",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanPackageSource",
+        "key": "FileNotIncludedInPackage",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:FileNotIncludedInPackage:7c767ae4",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanPackageSource:FileNotIncludedInPackage:7c767ae4",
+        "jp_sha256": "ce00c8262148d4ae0585e9441d28c61eb39131f18ebfb33f768a0df1c327ffbc",
+        "official_en_sha256": "390aa2ae8767fdbe8c91b7804ff7a4765aac46562493fb229b9259b5cdeaa9c3"
+      },
+      "text": {
+        "jp": "パッケージング フォルダに、参照されていないファイル {AdditionalFileName} が含まれています",
+        "official_en": "The unreferenced file {AdditionalFileName} is in the packaging folder.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

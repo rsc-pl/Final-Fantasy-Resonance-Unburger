@@ -1,0 +1,826 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "DataValidationModule",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:DataValidationError:346775d5",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "DataValidationError",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:DataValidationError:346775d5",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:DataValidationError:346775d5",
+        "jp_sha256": "5facb429b0e8e0f7705f3f88b620d0320f05a9342e68504c579b8ef927aa1b7c",
+        "official_en_sha256": "75eafec201e5280f8700b9adefd1e3e2fa50a085092f32f90c58a8671d37e055"
+      },
+      "text": {
+        "jp": "データ検証中にエラーが発生しました。詳細についてはログを確認してください。",
+        "official_en": "An error was encountered during data validation. See the log for details.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:DataValidationConfirmation:7840b2c5",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "DataValidationConfirmation",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:DataValidationConfirmation:7840b2c5",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:DataValidationConfirmation:7840b2c5",
+        "jp_sha256": "4cb414c290b30d1cb6e4ce81c60a8a971701513e982c6e22272239edb76b7798",
+        "official_en_sha256": "5e4ca21518ff9ed5252867095688cdac20a8198ef34a1dc7b034fc15c5a61fca"
+      },
+      "text": {
+        "jp": "次のフォルダの検証を続行してよろしいですか？\n\n{Paths}",
+        "official_en": "Are you sure you want to proceed with validating the following folders?\n\n{Paths}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:MessageLogPageTitle.ValidateSelectedAssets:3608ebef",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "MessageLogPageTitle.ValidateSelectedAssets",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:MessageLogPageTitle.ValidateSelectedAssets:3608ebef",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:MessageLogPageTitle.ValidateSelectedAssets:3608ebef",
+        "jp_sha256": "8f983d8c2d4c24accc90c806091ee09661669779361088bd87ee8b855d22c25e",
+        "official_en_sha256": "df48286ece3248f2f4ed998e3127546b40066f3c849b707de4f4292ab2df6ed8"
+      },
+      "text": {
+        "jp": "アセット検証：{0}",
+        "official_en": "Asset Validation: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:AssetsStillScanningError:28732338",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "AssetsStillScanningError",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:AssetsStillScanningError:28732338",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:AssetsStillScanningError:28732338",
+        "jp_sha256": "d8f02974e055fe22d6b5fb67cc43246e163b5782e2fe124bb4d71b7f9023ad64",
+        "official_en_sha256": "e19fad34effa2f92293cf95b48261f8c4daecf4d42ac8730a4d5cefade94f02e"
+      },
+      "text": {
+        "jp": "アセットの検出がまだ実行されている間はデータ検証を実行できません。",
+        "official_en": "Cannot run data validation while still discovering assets.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:DataValidationName:75a5f26a",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "DataValidationName",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:DataValidationName:75a5f26a",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:DataValidationName:75a5f26a",
+        "jp_sha256": "606d82c7cd794357de833863996c95ef30442bcc39374410f908e4e4854e8efc",
+        "official_en_sha256": "28971fd398d16fc857dc84fde41c6be4bec5760b23bd9bb1ef24acc74f0718b8"
+      },
+      "text": {
+        "jp": "データ検証",
+        "official_en": "Data Validation",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:DataValidation:e2bbe1fd",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "DataValidation",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:DataValidation:e2bbe1fd",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:DataValidation:e2bbe1fd",
+        "jp_sha256": "a12c2c41599c3bbc10eb049ab678eb223873a87e051b91d4c9cc0e6d26a24485",
+        "official_en_sha256": "a12c2c41599c3bbc10eb049ab678eb223873a87e051b91d4c9cc0e6d26a24485"
+      },
+      "text": {
+        "jp": "DataValidation",
+        "official_en": "DataValidation",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:DataValidation.DuringValidationErrors:53f6d7f6",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "DataValidation.DuringValidationErrors",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:DataValidation.DuringValidationErrors:53f6d7f6",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:DataValidation.DuringValidationErrors:53f6d7f6",
+        "jp_sha256": "f35dfcbeb784a88dfecdb1e9c1069ef73bfe1341fa4e0ddb3f22873aa3337134",
+        "official_en_sha256": "41eebab5cb71e01dfe184d3a476d7db08def2527b31fa354b6137f616d39a121"
+      },
+      "text": {
+        "jp": "アセット {0} の検証中にエラーがログに記録されました",
+        "official_en": "Errors logged while validating asset {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:ValidateAssetsPathTooltipText:a34a8390",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "ValidateAssetsPathTooltipText",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:ValidateAssetsPathTooltipText:a34a8390",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:ValidateAssetsPathTooltipText:a34a8390",
+        "jp_sha256": "342fca1a043a9bcd9e92d436844fe0211e7cff4488c328ae72eeb22433d0c409",
+        "official_en_sha256": "aa84dcb4ef2db1fcdad59ef19e9dc85ed7d25cb7f2843868a9377b094c771644"
+      },
+      "text": {
+        "jp": "選択したフォルダ内のアセットに対してデータ検証を実行します",
+        "official_en": "Runs data validation on the assets in the selected folder.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:ValidateActorsTooltipText:414668ab",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "ValidateActorsTooltipText",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:ValidateActorsTooltipText:414668ab",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:ValidateActorsTooltipText:414668ab",
+        "jp_sha256": "d4c15959f897fda405e362dd864f321f47f264fafdbaf5f4a3a3422f54ff218d",
+        "official_en_sha256": "c80d515e8607fb133146d9d70271c6b09573523978589422c68e12652f616f2f"
+      },
+      "text": {
+        "jp": "これらのアクタに対してデータ検証を実行します",
+        "official_en": "Runs data validation on these actors.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:ValidateAssetsAndDependenciesTooltipText:ce5e0267",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "ValidateAssetsAndDependenciesTooltipText",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:ValidateAssetsAndDependenciesTooltipText:ce5e0267",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:ValidateAssetsAndDependenciesTooltipText:ce5e0267",
+        "jp_sha256": "10f327947134b6e8dbd7fdb9b703b0d58398c3a0b6ef2a38427ed91ad04190a7",
+        "official_en_sha256": "0b0764cc18e404209d9811bb7531a9215c6d37d0e269a17039df6a27bc9ca954"
+      },
+      "text": {
+        "jp": "これらのアセットとそれらが依存するすべてのアセットに対してデータ検証を実行します",
+        "official_en": "Runs data validation on these assets and all assets they depend on.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:ValidateAssetsTooltipText:f20657df",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "ValidateAssetsTooltipText",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:ValidateAssetsTooltipText:f20657df",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:ValidateAssetsTooltipText:f20657df",
+        "jp_sha256": "f278a8f1f1ce80055f5ad4e38071599f6fec6b708d89625849193858e3fedbc2",
+        "official_en_sha256": "b0e96f05e6e1d636ce96f7565cfdea0bd19f8332ce7756eb79ade79b7beb7c11"
+      },
+      "text": {
+        "jp": "これらのアセットに対してデータ検証を実行します",
+        "official_en": "Runs data validation on these assets.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:DataValidationDescription:49861520",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "DataValidationDescription",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:DataValidationDescription:49861520",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:DataValidationDescription:49861520",
+        "jp_sha256": "c58f248528da4189b990a301ad93173b92e645af4ba0c49bea61643570849073",
+        "official_en_sha256": "c6c1a4f0f53a86490779cda7afaccff23d93dd9eee10326c4b3e33ae64eea85a"
+      },
+      "text": {
+        "jp": "エディタ内のアセット認証に関する設定です。",
+        "official_en": "Settings related to validating assets in the editor.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:ValidateActorsTabTitle:fc8a1bf5",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "ValidateActorsTabTitle",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:ValidateActorsTabTitle:fc8a1bf5",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:ValidateActorsTabTitle:fc8a1bf5",
+        "jp_sha256": "30f9a0e7b1d39419a1667be690edb4e7ac4149d366357e0708f2c00c3c98c358",
+        "official_en_sha256": "40611abbdda22526b47ddcb41553bf3f556195a6855f2aca8404d62791a7ec67"
+      },
+      "text": {
+        "jp": "検証",
+        "official_en": "Validate",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:ValidateAssetsTabTitle:ed0139be",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "ValidateAssetsTabTitle",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:ValidateAssetsTabTitle:ed0139be",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:ValidateAssetsTabTitle:ed0139be",
+        "jp_sha256": "463d3f4b2d032408957c1b7273979c7a6458b9e113ffa2343947deeb10ce4864",
+        "official_en_sha256": "261c31e6c155b6215c8c5182a26d1aa02c93ec6f95ae16761301e7b3196548f7"
+      },
+      "text": {
+        "jp": "アセットを検証",
+        "official_en": "Validate Assets",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:ValidateAssetsAndDependenciesTabTitle:132667af",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "ValidateAssetsAndDependenciesTabTitle",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:ValidateAssetsAndDependenciesTabTitle:132667af",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:ValidateAssetsAndDependenciesTabTitle:132667af",
+        "jp_sha256": "d2523d94f01214b4b217f541fe6532d7c4b4823a37e7bf08529e34d192d29c6f",
+        "official_en_sha256": "82a3e08153933ef80b36f19c549fe8f1604b518c45728eca319a57d0208ce22b"
+      },
+      "text": {
+        "jp": "アセットおよび依存関係を検証",
+        "official_en": "Validate Assets and Dependencies",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:ValidateAssetsPathTabTitle:7a9a1d45",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "ValidateAssetsPathTabTitle",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:ValidateAssetsPathTabTitle:7a9a1d45",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:ValidateAssetsPathTabTitle:7a9a1d45",
+        "jp_sha256": "0eb1813d88352a08a8498ac11e44d8f9f4058f5ef629d709e4539fc555e914f9",
+        "official_en_sha256": "e4bccaf98a331c369e081f548dfa694774ac32a5a484540e3b2820ebeefbecf1"
+      },
+      "text": {
+        "jp": "フォルダ内のアセットを検証",
+        "official_en": "Validate Assets in Folder",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:ValidateDataTitleDA:bb1d149c",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "ValidateDataTitleDA",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:ValidateDataTitleDA:bb1d149c",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:ValidateDataTitleDA:bb1d149c",
+        "jp_sha256": "905cfece5d278b090840f7a5186dca88c86739818e84f07fcede8919fd1075df",
+        "official_en_sha256": "be7010997580e7b413c5fd1a5aece60c15d9582ca1c527663c763d92c006e607"
+      },
+      "text": {
+        "jp": "データを検証[アセット検出]",
+        "official_en": "Validate Data [Discovering Assets]",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:ValidateDataTitle:3a540659",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "ValidateDataTitle",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:ValidateDataTitle:3a540659",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:ValidateDataTitle:3a540659",
+        "jp_sha256": "38fa7754822c9445666df72a3adca710044fdc741a60b0eebe5026b00e88629e",
+        "official_en_sha256": "93745b46cc28b97ebf8e827ba45aa36aeda79c96bfe7361e03d20641df708a3d"
+      },
+      "text": {
+        "jp": "データを検証…",
+        "official_en": "Validate Data...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:ValidateDataTooltip:2e904d82",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "ValidateDataTooltip",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:ValidateDataTooltip:2e904d82",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:ValidateDataTooltip:2e904d82",
+        "jp_sha256": "7baf9543961d03723608349dba911127fd83cbc6f0ba29c7cb8fab40a39ff9f8",
+        "official_en_sha256": "3f1f6b59451086fc24f8b69b64ddb3c1fb20f44af87e96e388236d7782b70106"
+      },
+      "text": {
+        "jp": "コンテンツ ディレクトリ内のすべてのユーザー データを検証します",
+        "official_en": "Validates all user data in content directory.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:Data.ValidatingAsset:101fbfdc",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "Data.ValidatingAsset",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:Data.ValidatingAsset:101fbfdc",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:Data.ValidatingAsset:101fbfdc",
+        "jp_sha256": "42c169e023bc45dd8357e797c6de540d402c53d046591358d6c043742dac2fbf",
+        "official_en_sha256": "adbf84063e3f4d94d3a24486d7e4391261ff44e28203008c060b0a87af562a5b"
+      },
+      "text": {
+        "jp": "アセットを検証しています",
+        "official_en": "Validating asset",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:DataValidation.DuringValidationWarnings:474ca66c",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "DataValidation.DuringValidationWarnings",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:DataValidation.DuringValidationWarnings:474ca66c",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:DataValidation.DuringValidationWarnings:474ca66c",
+        "jp_sha256": "33967a94eafbea06312d4a4a4af6ed8f95ccff48a8f162e56c39c3d5992c8f59",
+        "official_en_sha256": "5d7c5ece912b21b831ccde8cccdf23ccbbd63d07b23f8f7ece72fa4dbd28a784"
+      },
+      "text": {
+        "jp": "アセット {0} の検証中に警告がログに記録されました",
+        "official_en": "Warnings logged while validating asset {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DataValidationModule:MultipleAssets:69352d80",
+      "source": {
+        "set": "set-02",
+        "namespace": "DataValidationModule",
+        "key": "MultipleAssets",
+        "jp_record_id": "switch:locres:set-01:DataValidationModule:MultipleAssets:69352d80",
+        "official_en_record_id": "switch:locres:set-01:DataValidationModule:MultipleAssets:69352d80",
+        "jp_sha256": "9f81fcd95098056daa6614d4e042869c8873f969a6e4d62aaf817d88e75ca15f",
+        "official_en_sha256": "696a2a3f4ea8ecc4257f5f9b07a35dc5eda5ae37eb4559d0da3f9680b6eade3f"
+      },
+      "text": {
+        "jp": "複数のアセット",
+        "official_en": "multiple assets",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

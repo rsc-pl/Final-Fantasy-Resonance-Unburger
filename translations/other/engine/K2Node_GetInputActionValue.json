@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "K2Node_GetInputActionValue",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:K2Node_GetInputActionValue:ActionMenuCategory:32833060",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_GetInputActionValue",
+        "key": "ActionMenuCategory",
+        "jp_record_id": "switch:locres:set-01:K2Node_GetInputActionValue:ActionMenuCategory:32833060",
+        "official_en_record_id": "switch:locres:set-01:K2Node_GetInputActionValue:ActionMenuCategory:32833060",
+        "jp_sha256": "41b6f840af4bb0c23a6038e415667c6924aaed750cb07b5dc5b6dfb7ac867a08",
+        "official_en_sha256": "cdac6cd3a47ee815302436848d7d61f6c561b6a017002d92dd97105a93c00de6"
+      },
+      "text": {
+        "jp": "強化されたアクション値",
+        "official_en": "Enhanced Action Values",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_GetInputActionValue:EnhancedInputAction_ErrorFmt:86b7f79c",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_GetInputActionValue",
+        "key": "EnhancedInputAction_ErrorFmt",
+        "jp_record_id": "switch:locres:set-01:K2Node_GetInputActionValue:EnhancedInputAction_ErrorFmt:86b7f79c",
+        "official_en_record_id": "switch:locres:set-01:K2Node_GetInputActionValue:EnhancedInputAction_ErrorFmt:86b7f79c",
+        "jp_sha256": "16ef9917b293b7be9bd8720923994372d38a8e10e9bf528e84ff52bd959cf2eb",
+        "official_en_sha256": "40735b8f7f983c9999afc45b0004d267e90d5099eae81fbcf35ab3bb8ef12c08"
+      },
+      "text": {
+        "jp": "EnhancedInputActionEvent が、@@ に対して無効な 'null' アクションを参照しています",
+        "official_en": "EnhancedInputActionEvent references invalid 'null' action for @@",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_GetInputActionValue:GetInputAction_Name:0bf2378b",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_GetInputActionValue",
+        "key": "GetInputAction_Name",
+        "jp_record_id": "switch:locres:set-01:K2Node_GetInputActionValue:GetInputAction_Name:0bf2378b",
+        "official_en_record_id": "switch:locres:set-01:K2Node_GetInputActionValue:GetInputAction_Name:0bf2378b",
+        "jp_sha256": "ae13c8527e74dc9ed22e626ee5e91ed0f5c86253862daf98d09e95ddde27a520",
+        "official_en_sha256": "81e68c1794a05690cdd7d6514cc3a66ecab3adfe62963a6c3c033db9ec7e6021"
+      },
+      "text": {
+        "jp": "{InputActionName} を取得",
+        "official_en": "Get {InputActionName}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_GetInputActionValue:GetInputAction_Tooltip:96ef71f9",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_GetInputActionValue",
+        "key": "GetInputAction_Tooltip",
+        "jp_record_id": "switch:locres:set-01:K2Node_GetInputActionValue:GetInputAction_Tooltip:96ef71f9",
+        "official_en_record_id": "switch:locres:set-01:K2Node_GetInputActionValue:GetInputAction_Tooltip:96ef71f9",
+        "jp_sha256": "76db3464b282d18af107c20c015878cd636793cf17e3375a6257ec7364d7fcbc",
+        "official_en_sha256": "35fd5f19959ad66a33c02545b28ee6fe46392e9c6c97b1dfef77571af5027b99"
+      },
+      "text": {
+        "jp": "{0} の現在の値を返します。このアクタに対して入力が無効になっている場合、この値は 0 になります\n\n注：Input Trigger または Input Modifier (Released トリガーなど) によりこの値が変更されている場合、値は 0 になることがあります",
+        "official_en": "Returns the current value of {0}.  If input is disabled for the actor the value will be 0. \n\nNote: If the value is being altered by an Input Trigger or Input Modifier (such as a Released trigger) then the value may be 0.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

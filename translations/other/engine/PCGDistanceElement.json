@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGDistanceElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGDistanceElement:PCGDistanceTooltip:a93d6881",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGDistanceElement",
+        "key": "PCGDistanceTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGDistanceElement:PCGDistanceTooltip:a93d6881",
+        "official_en_record_id": "switch:locres:set-01:PCGDistanceElement:PCGDistanceTooltip:a93d6881",
+        "jp_sha256": "6b16ee855df44c9ea7a9469a2aafb57a603dd8576c06af1ab86c49094c318d1b",
+        "official_en_sha256": "4b3f8db5bbea1aa1a15fb9732cba2abaa1dabda3f9673d65b6e0dec77f32fc55"
+      },
+      "text": {
+        "jp": "符号付「距離」属性を計算し、ソース データに付加します。ソース ポイントのそれぞれで、距離属性は最近接のターゲット ポイントとの間で計算されます",
+        "official_en": "Calculates and appends a signed 'Distance' attribute to the source data. For each of the source points, a distance attribute will be calculated between it and the nearest target point.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGDistanceElement:CannotConvertToPointData:11294f54",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGDistanceElement",
+        "key": "CannotConvertToPointData",
+        "jp_record_id": "switch:locres:set-01:PCGDistanceElement:CannotConvertToPointData:11294f54",
+        "official_en_record_id": "switch:locres:set-01:PCGDistanceElement:CannotConvertToPointData:11294f54",
+        "jp_sha256": "683714422ab7912c0655c33d23bdff21caa2a7925b6c72686486cbc3adf79756",
+        "official_en_sha256": "af25c0030ca58cd7519846ac58565e9f19a0292429c8a9a5858ffbc07eb5ae27"
+      },
+      "text": {
+        "jp": "入力空間データをポイント データに変換できません",
+        "official_en": "Cannot convert input Spatial data to Point data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGDistanceElement:CannotConvertToPoint:b3fb2227",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGDistanceElement",
+        "key": "CannotConvertToPoint",
+        "jp_record_id": "switch:locres:set-01:PCGDistanceElement:CannotConvertToPoint:b3fb2227",
+        "official_en_record_id": "switch:locres:set-01:PCGDistanceElement:CannotConvertToPoint:b3fb2227",
+        "jp_sha256": "28c81c78e67d2bb714e7a389dde4f25f9ad69faf86d15484e0cc31b5e62108d7",
+        "official_en_sha256": "1082119e7f21b786e18e02ca71cf4b46c48c59c30f1b7a9b867b72e76b7f3d60"
+      },
+      "text": {
+        "jp": "ターゲット「{0}」をポイント データに変換できません",
+        "official_en": "Cannot convert target '{0}' into Point data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGDistanceElement:CannotCreateAccessorKeys:ea523cce",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGDistanceElement",
+        "key": "CannotCreateAccessorKeys",
+        "jp_record_id": "switch:locres:set-01:PCGDistanceElement:CannotCreateAccessorKeys:ea523cce",
+        "official_en_record_id": "switch:locres:set-01:PCGDistanceElement:CannotCreateAccessorKeys:ea523cce",
+        "jp_sha256": "036ff0c1d83a3098fe73ba4ed2b09b183b79a593fd57d1d04a063da166fba5db",
+        "official_en_sha256": "715da82e253d0f46434b145d4c21ea087d36a69ad0e1bbb1f7cb34b23f15a3a8"
+      },
+      "text": {
+        "jp": "出力ポイントでアクセサ キーを作成できません",
+        "official_en": "Cannot create accessor keys on output points.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGDistanceElement:PCGSourcePinTooltip:ea457233",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGDistanceElement",
+        "key": "PCGSourcePinTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGDistanceElement:PCGSourcePinTooltip:ea457233",
+        "official_en_record_id": "switch:locres:set-01:PCGDistanceElement:PCGSourcePinTooltip:ea457233",
+        "jp_sha256": "90c11980f6c92ef591470835fdb80310c4388076f9fac1dabd127f0046f70d69",
+        "official_en_sha256": "df5577c2a9ef2c9d3557fb7c54aefdd57a8899abd764eec9c7f00311ac6c53ef"
+      },
+      "text": {
+        "jp": "ソース ポイントのそれぞれで、距離属性は最近接のターゲット ポイントとの間で計算されます",
+        "official_en": "For each of the source points, a distance attribute will be calculated between it and the nearest target point.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGDistanceElement:InvalidInputData:44386cec",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGDistanceElement",
+        "key": "InvalidInputData",
+        "jp_record_id": "switch:locres:set-01:PCGDistanceElement:InvalidInputData:44386cec",
+        "official_en_record_id": "switch:locres:set-01:PCGDistanceElement:InvalidInputData:44386cec",
+        "jp_sha256": "3fa3a31063163ff84d89ee567deda2762b7ffd1d5becab274973db94bfbf78fe",
+        "official_en_sha256": "9a146df1c40d16d7aa2eb26c3d59a33f83b7a610520e7eacb0ad7be7df5a62f6"
+      },
+      "text": {
+        "jp": "無効な入力データです",
+        "official_en": "Invalid input data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGDistanceElement:InvalidAccessorType:e4eab51c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGDistanceElement",
+        "key": "InvalidAccessorType",
+        "jp_record_id": "switch:locres:set-01:PCGDistanceElement:InvalidAccessorType:e4eab51c",
+        "official_en_record_id": "switch:locres:set-01:PCGDistanceElement:InvalidAccessorType:e4eab51c",
+        "jp_sha256": "3d154dcce0f312f23e1eb9f89a71d5d8d7436f8c4a5bddc4f07c99a01a73f133",
+        "official_en_sha256": "88441d6ded8f310c2cee6a9616295a5b7ee862bb751f86144767a28ba5cdb947"
+      },
+      "text": {
+        "jp": "出力属性に選択されたタイプは、出力として距離と互換性がありません",
+        "official_en": "Selected type for Output Attribute is incompatible with distance as output.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGDistanceElement:TargetMustBeSpatial:720f2b35",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGDistanceElement",
+        "key": "TargetMustBeSpatial",
+        "jp_record_id": "switch:locres:set-01:PCGDistanceElement:TargetMustBeSpatial:720f2b35",
+        "official_en_record_id": "switch:locres:set-01:PCGDistanceElement:TargetMustBeSpatial:720f2b35",
+        "jp_sha256": "5f221bb0aeb6e52bc41021917fe7eabc25bfabc835169225730a9aa479390df3",
+        "official_en_sha256": "efd3828a3c3c34070ad7493591fcf9cd59b640113f1f811621a24e9a049797b5"
+      },
+      "text": {
+        "jp": "ターゲットは空間データである必要がありますが、見つかったのは「{0}」でした",
+        "official_en": "Target must be Spatial data, found '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGDistanceElement:PCGOutputPinTooltip:68fea69d",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGDistanceElement",
+        "key": "PCGOutputPinTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGDistanceElement:PCGOutputPinTooltip:68fea69d",
+        "official_en_record_id": "switch:locres:set-01:PCGDistanceElement:PCGOutputPinTooltip:68fea69d",
+        "jp_sha256": "223ee902f1abf53b0c369d0ba5a6c332d4092a2f730e8070afc2038a423902ff",
+        "official_en_sha256": "a8e19b6c8c5b74c5859f0e5e4e4982d0a28f1671f97b6b20ecea5c479ae5ecfc"
+      },
+      "text": {
+        "jp": "ソース ポイントは新しく追加された「距離」属性とともに出力され、「密度を設定」が有効な場合に、「最大距離」を基に密度が [0,1] に設定されます",
+        "official_en": "The source points will be output with the newly added 'Distance' attribute as well as have their density set to [0,1] based on the 'Maximum Distance' if 'Set Density' is enabled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGDistanceElement:PCGTargetPinTooltip:670d6034",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGDistanceElement",
+        "key": "PCGTargetPinTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGDistanceElement:PCGTargetPinTooltip:670d6034",
+        "official_en_record_id": "switch:locres:set-01:PCGDistanceElement:PCGTargetPinTooltip:670d6034",
+        "jp_sha256": "ae7394733fff1bc272407721b9de34203172f6d9a5fb21922fd2d609ed37d505",
+        "official_en_sha256": "6f941d288720030330832506f53e1f19d708daa008c93c03e308ed53dc692657"
+      },
+      "text": {
+        "jp": "各ソース ポイントに対して距離チェックを実行するターゲット ポイント",
+        "official_en": "The target points to conduct a distance check with each source point.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

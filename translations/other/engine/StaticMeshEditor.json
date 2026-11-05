@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "StaticMeshEditor",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:StaticMeshEditor:BeginStaticMeshBuildingTask:9894b19e",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMeshEditor",
+        "key": "BeginStaticMeshBuildingTask",
+        "jp_record_id": "switch:locres:set-01:StaticMeshEditor:BeginStaticMeshBuildingTask:9894b19e",
+        "official_en_record_id": "switch:locres:set-01:StaticMeshEditor:BeginStaticMeshBuildingTask:9894b19e",
+        "jp_sha256": "c89251a54990c4336226fb896b6c83e31ece67364de8ea9ff4117144ea28d7c6",
+        "official_en_sha256": "46f7d44be66b0828bc8996a2671c4953ef86ccb0a7a99b5befd0e83e43c83dda"
+      },
+      "text": {
+        "jp": "({Path}) ビルド中",
+        "official_en": "({Path}) Building",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMeshEditor:StaticMeshBuilderBuild:4f5a5f84",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMeshEditor",
+        "key": "StaticMeshBuilderBuild",
+        "jp_record_id": "switch:locres:set-01:StaticMeshEditor:StaticMeshBuilderBuild:4f5a5f84",
+        "official_en_record_id": "switch:locres:set-01:StaticMeshEditor:StaticMeshBuilderBuild:4f5a5f84",
+        "jp_sha256": "3fd7aabc799859706be7866f7e7970024074d93d3151962c8b4f3e485ca7feaa",
+        "official_en_sha256": "021e49dcff89bff8d3c47d5dc56011f8dd260d300eeadf501abb6d02e8da52d6"
+      },
+      "text": {
+        "jp": "スタティック メッシュのレンダリング データをビルドしています。",
+        "official_en": "Building static mesh render data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMeshEditor:MeshRecomputeTangents:1b7da953",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMeshEditor",
+        "key": "MeshRecomputeTangents",
+        "jp_record_id": "switch:locres:set-01:StaticMeshEditor:MeshRecomputeTangents:1b7da953",
+        "official_en_record_id": "switch:locres:set-01:StaticMeshEditor:MeshRecomputeTangents:1b7da953",
+        "jp_sha256": "c407c3accfba13f61f657ef7fdba6a0a3df8dcb16c6eb04d74e3cde285bfec63",
+        "official_en_sha256": "480d0f5440eb34a21272580de80b48ca3de04d64222a85813d0bae9d2225629e"
+      },
+      "text": {
+        "jp": "メッシュのビルド設定で「タンジェントを再計算する」オプションを有効にしてみてください。",
+        "official_en": "Consider enabling Recompute Tangents in the mesh's Build Settings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMeshEditor:MeshUseMikkTSpace:4edb4b6d",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMeshEditor",
+        "key": "MeshUseMikkTSpace",
+        "jp_record_id": "switch:locres:set-01:StaticMeshEditor:MeshUseMikkTSpace:4edb4b6d",
+        "official_en_record_id": "switch:locres:set-01:StaticMeshEditor:MeshUseMikkTSpace:4edb4b6d",
+        "jp_sha256": "6f9c68f354f72695bc6ea40bf9b7a8ef97fcc5a54a8091c0f27c43185066072d",
+        "official_en_sha256": "238ae3b3c9c72ca5ec622e2b0c374931bdeeca612440b3e073d367d4332a13e0"
+      },
+      "text": {
+        "jp": "MikkTSpaceはタンジェントベースに依存しておりメッシュ破損の可能性があります。このオプションの無効化を検討してください。",
+        "official_en": "MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMeshEditor:MeshHasDegenerateTangents:3e90ce7d",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMeshEditor",
+        "key": "MeshHasDegenerateTangents",
+        "jp_record_id": "switch:locres:set-01:StaticMeshEditor:MeshHasDegenerateTangents:3e90ce7d",
+        "official_en_record_id": "switch:locres:set-01:StaticMeshEditor:MeshHasDegenerateTangents:3e90ce7d",
+        "jp_sha256": "dda8e6f65725992537f93c330ffd8163c93ec658f0bbe15c1386b8f4b977543b",
+        "official_en_sha256": "c374e6c3e61926af01a044c9f7da728350c41244a124efa23ebecf0e023c6811"
+      },
+      "text": {
+        "jp": "{Meshname} には、不正確なシェーディングの原因となる縮退した接線ベースがあります。{Options} {MikkTSpace}",
+        "official_en": "{Meshname} has degenerate tangent bases which will result in incorrect shading. {Options} {MikkTSpace}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMeshEditor:MeshHasSomeZeroBiNormals:23a8e333",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMeshEditor",
+        "key": "MeshHasSomeZeroBiNormals",
+        "jp_record_id": "switch:locres:set-01:StaticMeshEditor:MeshHasSomeZeroBiNormals:23a8e333",
+        "official_en_record_id": "switch:locres:set-01:StaticMeshEditor:MeshHasSomeZeroBiNormals:23a8e333",
+        "jp_sha256": "f1b203f189b7b44e8241769acf0ec240546988705c658235b5f2e496f8d429b6",
+        "official_en_sha256": "a7c591f2c3bbaea0caed3278a13294db54d5d9c3bb9653dfce3a122432c99c02"
+      },
+      "text": {
+        "jp": "{Meshname} には、問題を引き起こす可能性のあるほぼゼロの従法線がいくつかあります。({Tolerance} の許容範囲)",
+        "official_en": "{Meshname} has some nearly zero bi-normals which can create some issues. (Tolerance of {Tolerance})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMeshEditor:MeshHasSomeZeroNormals:90e5d709",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMeshEditor",
+        "key": "MeshHasSomeZeroNormals",
+        "jp_record_id": "switch:locres:set-01:StaticMeshEditor:MeshHasSomeZeroNormals:90e5d709",
+        "official_en_record_id": "switch:locres:set-01:StaticMeshEditor:MeshHasSomeZeroNormals:90e5d709",
+        "jp_sha256": "686c50c27ff3eeb8f49cbeff2a16777c55ae32762ec64d17f68b24369d2b62d9",
+        "official_en_sha256": "2a31ec302904f130f78a39968683a96711adde02222924ef635ea4e8d5c7d57e"
+      },
+      "text": {
+        "jp": "{Meshname} には、問題を引き起こす可能性のあるほぼゼロの法線がいくつかあります。({Tolerance} の許容範囲)",
+        "official_en": "{Meshname} has some nearly zero normals which can create some issues. (Tolerance of {Tolerance})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StaticMeshEditor:MeshHasSomeZeroTangents:00004e7a",
+      "source": {
+        "set": "set-02",
+        "namespace": "StaticMeshEditor",
+        "key": "MeshHasSomeZeroTangents",
+        "jp_record_id": "switch:locres:set-01:StaticMeshEditor:MeshHasSomeZeroTangents:00004e7a",
+        "official_en_record_id": "switch:locres:set-01:StaticMeshEditor:MeshHasSomeZeroTangents:00004e7a",
+        "jp_sha256": "fe4d82e268b578ff59e8b511ffb6204d3ddf385cf65d335b36fe97d746cdfb63",
+        "official_en_sha256": "79706ae98c0e47f30d28884f74d18ee42286d60bfbde09ed00dbc0d1b86e4bcd"
+      },
+      "text": {
+        "jp": "{Meshname} には、問題を引き起こす可能性のあるほぼゼロの接線がいくつかあります。({Tolerance} の許容範囲)",
+        "official_en": "{Meshname} has some nearly zero tangents which can create some issues. (Tolerance of {Tolerance})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

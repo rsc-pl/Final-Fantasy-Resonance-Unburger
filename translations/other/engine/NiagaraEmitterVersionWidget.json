@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "NiagaraEmitterVersionWidget",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:NiagaraEmitterVersionWidget:SaveVersionAsAssetTitle:ecc0d60b",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraEmitterVersionWidget",
+        "key": "SaveVersionAsAssetTitle",
+        "jp_record_id": "switch:locres:set-01:NiagaraEmitterVersionWidget:SaveVersionAsAssetTitle:ecc0d60b",
+        "official_en_record_id": "switch:locres:set-01:NiagaraEmitterVersionWidget:SaveVersionAsAssetTitle:ecc0d60b",
+        "jp_sha256": "e25d71e0e78acf155014ae9d19400b32cbc06c96889c3795ca7cb2666369e078",
+        "official_en_sha256": "5b29b4ba77b0d343e8a5d6ed6b769d1ec32dd07f546013a50399f6278e801115"
+      },
+      "text": {
+        "jp": "タイプを指定してエミッタを作成",
+        "official_en": "Create Emitter As",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraEmitterVersionWidget:NiagaraManageVersionInfoHeader:8500e9f6",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraEmitterVersionWidget",
+        "key": "NiagaraManageVersionInfoHeader",
+        "jp_record_id": "switch:locres:set-01:NiagaraEmitterVersionWidget:NiagaraManageVersionInfoHeader:8500e9f6",
+        "official_en_record_id": "switch:locres:set-01:NiagaraEmitterVersionWidget:NiagaraManageVersionInfoHeader:8500e9f6",
+        "jp_sha256": "d1ecf9f3b55bc93b95715887985c23d8ecd279615247aba7e02ac106c88edcce",
+        "official_en_sha256": "ce48c98d445f38e05d357f2cf52446d49fef4f0891c5d19022f176285007a84b"
+      },
+      "text": {
+        "jp": "利用可能なエミッタ バージョンをここで確認および管理できます。バージョンを追加すると、既存の子アセットを壊すことなく変更を加えることができるようになります\n公開済みバージョンは、エミッタをシステムに追加するときにユーザーに表示されます。公開済みバージョンのメジャー バージョンが、アセットで使われているものよりも新しい場合、新しいバージョンへのアップグレードを促すメッセージがユーザーに表示されます",
+        "official_en": "Here you can see and manage available emitter versions. Adding versions allows you to make changes without breaking existing child assets.\nThe exposed version is the one that users will see when adding the emitter to a system. If the exposed version has a higher major version than the one used in an asset, the user will see a prompt to upgrade to the new version.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraEmitterVersionWidget:NiagaraManageVersionWrongAsset:f2dee4a6",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraEmitterVersionWidget",
+        "key": "NiagaraManageVersionWrongAsset",
+        "jp_record_id": "switch:locres:set-01:NiagaraEmitterVersionWidget:NiagaraManageVersionWrongAsset:f2dee4a6",
+        "official_en_record_id": "switch:locres:set-01:NiagaraEmitterVersionWidget:NiagaraManageVersionWrongAsset:f2dee4a6",
+        "jp_sha256": "a822fa39398d70eeca99895fd9635820d1936553cc308ab089d6128e304b60a5",
+        "official_en_sha256": "ca637cd2d834276af1c91f4ebc972f81e0ba21023c13950ba1cdb4b7acdbe27b"
+      },
+      "text": {
+        "jp": "選択されているアセット タイプではバージョン管理は利用できません。現在、Niagara ではスタンドアロンのエミッタ アセットまたはスクリプト アセットに対してのみバージョン管理がサポートされています\nこのウィンドウが表示されているのは、おそらく以前に他のアセットで開き、開いたタブの選択肢をエディタが覚えているためです",
+        "official_en": "Versioning is not available for the selected asset type. Currently, Niagara only supports versioning for standalone emitter or script assets.\nYou probably see this window because you opened it in another asset and the editor remembers you choice of opened tabs.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:NiagaraEmitterVersionWidget:NiagaraManageVersionInfoHeaderDisabled:52232efa",
+      "source": {
+        "set": "set-02",
+        "namespace": "NiagaraEmitterVersionWidget",
+        "key": "NiagaraManageVersionInfoHeaderDisabled",
+        "jp_record_id": "switch:locres:set-01:NiagaraEmitterVersionWidget:NiagaraManageVersionInfoHeaderDisabled:52232efa",
+        "official_en_record_id": "switch:locres:set-01:NiagaraEmitterVersionWidget:NiagaraManageVersionInfoHeaderDisabled:52232efa",
+        "jp_sha256": "b8096dcf0b57b946ec96764997984493abed58a5ad93da6c88fe221a02c6e08a",
+        "official_en_sha256": "c001fc0beb6669d7a77cf08455de6c0e75566206b0c2e23fee0c198ec865103a"
+      },
+      "text": {
+        "jp": "このエミッタではバージョン管理はまだ有効になっていません。バージョン管理を有効にすると、子エミッタでの既存の使用状態を壊すことなく、親エミッタに変更を加えることができるようになります。ただし、変更内容が自動的にはプッシュされなくなるため、ユーザーが手動で新しいバージョンにアップグレードする必要があります\n\nこのエミッタでバージョン管理を有効にしますか？有効にすると、現在のアセットがバージョン 1.0 に変換され、自動的に公開されます",
+        "official_en": "Versioning is not yet enabled for this emitter. Enabling versioning allows you to make changes to a parent emitter without breaking exising usages from child emitters. But it also forces users to manually upgrade to new versions, as changes are no longer pushed out automatically.\n\nDo you want to enable versioning for this emitter? This will convert the current asset to version 1.0 and automatically exposes it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

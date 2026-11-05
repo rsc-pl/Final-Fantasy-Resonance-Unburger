@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "RivermaxComboBox",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:RivermaxComboBox:MatchingDeviceNotFound:c8b50b14",
+      "source": {
+        "set": "set-02",
+        "namespace": "RivermaxComboBox",
+        "key": "MatchingDeviceNotFound",
+        "jp_record_id": "switch:locres:set-01:RivermaxComboBox:MatchingDeviceNotFound:c8b50b14",
+        "official_en_record_id": "switch:locres:set-01:RivermaxComboBox:MatchingDeviceNotFound:c8b50b14",
+        "jp_sha256": "53c9614fb99502378eb03015ff8da35b9e8c9b362b9e1e7d9a2c7afe24032583",
+        "official_en_sha256": "bbc12492c48a9f5f2454ad0eadde50882d513ed4555e9ef6ee88f4820dd9c3f5"
+      },
+      "text": {
+        "jp": "指定された IP に一致する Rivermax デバイスが見つかりませんでした",
+        "official_en": "Could not find Rivermax device matching provided IP",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RivermaxComboBox:InvalidIPProvided:5236c17d",
+      "source": {
+        "set": "set-02",
+        "namespace": "RivermaxComboBox",
+        "key": "InvalidIPProvided",
+        "jp_record_id": "switch:locres:set-01:RivermaxComboBox:InvalidIPProvided:5236c17d",
+        "official_en_record_id": "switch:locres:set-01:RivermaxComboBox:InvalidIPProvided:5236c17d",
+        "jp_sha256": "b79194de055c45a3aa3f5a06168b9beca09918d1e3d4c088efa829fad8dd7cf5",
+        "official_en_sha256": "93ac74a98a774ffaff9802d27be7d4a636b90567eccf253b629292b4cce4575f"
+      },
+      "text": {
+        "jp": "無効な IP 形式が指定されています。「x.x.x.x」の形式である必要があり、ワイルドカードとして「*」を使用できます",
+        "official_en": "Invalid IP format provided. Must be of the form x.x.x.x with * accepted as wildcard.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RivermaxComboBox:MatchingDeviceFound:712d39fb",
+      "source": {
+        "set": "set-02",
+        "namespace": "RivermaxComboBox",
+        "key": "MatchingDeviceFound",
+        "jp_record_id": "switch:locres:set-01:RivermaxComboBox:MatchingDeviceFound:712d39fb",
+        "official_en_record_id": "switch:locres:set-01:RivermaxComboBox:MatchingDeviceFound:712d39fb",
+        "jp_sha256": "844092297cc8e5310397fb2514939bd4189d55c6f37a5c06cc8213c696b3f733",
+        "official_en_sha256": "e0b065a7f79e63738b9fa35d434620e8da722e50b5c1556c0179a9aae69b54e8"
+      },
+      "text": {
+        "jp": "指定された IP が Rivermax デバイス{0}に解決されました",
+        "official_en": "Provided IP resolved to Rivermax device {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

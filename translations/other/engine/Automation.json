@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "Automation",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:Automation:CameraRequired:5ad68012",
+      "source": {
+        "set": "set-02",
+        "namespace": "Automation",
+        "key": "CameraRequired",
+        "jp_record_id": "switch:locres:set-01:Automation:CameraRequired:5ad68012",
+        "official_en_record_id": "switch:locres:set-01:Automation:CameraRequired:5ad68012",
+        "jp_sha256": "a8a7511cea6c53830de1cf4013726480990fab964d8517eb4e50b2a6f838b8f4",
+        "official_en_sha256": "ebbdc58c7d0ae4e561695a524482218743ea8e3eff0ab2c571da2ba39818ed9d"
+      },
+      "text": {
+        "jp": "TakeAutomationScreenshotAtCameraにはカメラが必要です",
+        "official_en": "A camera is required to TakeAutomationScreenshotAtCamera",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Automation:PlayerRequired:fdc3cdc3",
+      "source": {
+        "set": "set-02",
+        "namespace": "Automation",
+        "key": "PlayerRequired",
+        "jp_record_id": "switch:locres:set-01:Automation:PlayerRequired:fdc3cdc3",
+        "official_en_record_id": "switch:locres:set-01:Automation:PlayerRequired:fdc3cdc3",
+        "jp_sha256": "b453fe23b6bf4afcc3ad01c306ce7ce8997dfa1be35ef4059c48fa1fe7f7723b",
+        "official_en_sha256": "45b7874ebe2156e620f6906b62e54b68b8b032208458ae247fa9ecc7329f8325"
+      },
+      "text": {
+        "jp": "TakeAutomationScreenshotAtCameraにはプレイヤーコントローラーが必要です",
+        "official_en": "A player controller is required to TakeAutomationScreenshotAtCamera",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Automation:StatNotFound:44d4dc21",
+      "source": {
+        "set": "set-02",
+        "namespace": "Automation",
+        "key": "StatNotFound",
+        "jp_record_id": "switch:locres:set-01:Automation:StatNotFound:44d4dc21",
+        "official_en_record_id": "switch:locres:set-01:Automation:StatNotFound:44d4dc21",
+        "jp_sha256": "7e43addce1546e8f4efbb21c9af2829e3c80b89b849b4da545809cecd86bb0b0",
+        "official_en_sha256": "0dbfd7d1f4108384031d815abd2f440a9fb690c449604a16402b5197c26d7125"
+      },
+      "text": {
+        "jp": "{0} の統計データが見つかりませんでした。ToggleStatGroupを呼び出し、十分な時間をかけてデータをキャプチャしましたか?",
+        "official_en": "Could not find stat data for {0}, did you call ToggleStatGroup with enough time to capture data?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Automation:GameViewportRequired:0fb64ab1",
+      "source": {
+        "set": "set-02",
+        "namespace": "Automation",
+        "key": "GameViewportRequired",
+        "jp_record_id": "switch:locres:set-01:Automation:GameViewportRequired:0fb64ab1",
+        "official_en_record_id": "switch:locres:set-01:Automation:GameViewportRequired:0fb64ab1",
+        "jp_sha256": "43534db032b117a8513206fe6d15fad061b0c5d6e047483afe512f2f94231f14",
+        "official_en_sha256": "e3b696ac3b35ac32275c3f3e8bd140af2162a6fcea111f93b521760d1ecda9e0"
+      },
+      "text": {
+        "jp": "カメラで自動スクリーンショットを取るための、ゲーム ビューポートがワールドに見つかりません。遅延を使用するか、ネットモードをスタンドアロンに変更します",
+        "official_en": "No game viewport found in World to TakeAutomationScreenshotAtCamera. Use a delay or change Net mode to Standalone.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ShaderCompilers",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ShaderCompilers:ResumingWorkers:16422d12",
+      "source": {
+        "set": "set-02",
+        "namespace": "ShaderCompilers",
+        "key": "ResumingWorkers",
+        "jp_record_id": "switch:locres:set-01:ShaderCompilers:ResumingWorkers:16422d12",
+        "official_en_record_id": "switch:locres:set-01:ShaderCompilers:ResumingWorkers:16422d12",
+        "jp_sha256": "2570eb451106abfa0730d88aef66565be016652e7ea91a089869ac741eefb6ec",
+        "official_en_sha256": "61e06a4d6680a1a0dd5e9b2ef9bc2bf8e009e6269b8c6ba3d7800e8f62eda180"
+      },
+      "text": {
+        "jp": "{ResumedWorkersName} を一時停止していた {ResumedWorkers} が再開されました。メモリ使用量 {MemoryUsed} MiB が、上限値である {MemoryLimit} MiB の半分を下回っているためです ({ActiveWorkerCount}/{TotalWorkerCount} がアクティブ)",
+        "official_en": "Resumed {ResumedWorkers} suspended {ResumedWorkersName} since memory usage of {MemoryUsed} MiB is below half the limit of {MemoryLimit} MiB ({ActiveWorkerCount}/{TotalWorkerCount} active)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ShaderCompilers:SuspendingWorkersFailed:c9e202ef",
+      "source": {
+        "set": "set-02",
+        "namespace": "ShaderCompilers",
+        "key": "SuspendingWorkersFailed",
+        "jp_record_id": "switch:locres:set-01:ShaderCompilers:SuspendingWorkersFailed:c9e202ef",
+        "official_en_record_id": "switch:locres:set-01:ShaderCompilers:SuspendingWorkersFailed:c9e202ef",
+        "jp_sha256": "92276bcd5c3ecf3b9d4e9357a6418b69d628ae1f37084081ebb991bdfea5f191",
+        "official_en_sha256": "f5de6d5f38a7614306ffee80926bb8268ad7553cbb2fe8752e0a4a2d9524cbe7"
+      },
+      "text": {
+        "jp": "シェーダー コンパイラのメモリ使用量 {MemoryUsed} MiB が、上限値である {MemoryLimit} MiB を上回っていますが、それ以上のワーカーを一時停止することはできません",
+        "official_en": "Shader compiler memory usage of {MemoryUsed} MiB exceeded limit of {MemoryLimit} MiB, but cannot suspend any more workers",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ShaderCompilers:SuspendingWorkers:b5b9ba11",
+      "source": {
+        "set": "set-02",
+        "namespace": "ShaderCompilers",
+        "key": "SuspendingWorkers",
+        "jp_record_id": "switch:locres:set-01:ShaderCompilers:SuspendingWorkers:b5b9ba11",
+        "official_en_record_id": "switch:locres:set-01:ShaderCompilers:SuspendingWorkers:b5b9ba11",
+        "jp_sha256": "0a6b4cfcaf68ca18b7b3a45d316b73e70ba19214f767dfef2af9fe51d1408c4b",
+        "official_en_sha256": "057c0c4c47e70773e5904d9e211018540bc64a924c6891101d4f715a0a3a27f1"
+      },
+      "text": {
+        "jp": "シェーダー コンパイラのメモリ使用量 {MemoryUsed} MiB が、上限値である {MemoryLimit} MiB を上回っています。バックログになっている {SuspendedWorkers} からの {BackloggedJobs} のコンパイル {BackloggedJobsName} によって、{SuspendedWorkersName} が一時停止されています ({ActiveWorkerCount}/{TotalWorkerCount} がアクティブ)",
+        "official_en": "Shader compiler memory usage of {MemoryUsed} MiB exceeded limit of {MemoryLimit} MiB: Backlogged {BackloggedJobs} compile {BackloggedJobsName} from {SuspendedWorkers} suspended {SuspendedWorkersName} ({ActiveWorkerCount}/{TotalWorkerCount} active)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "Lightmass",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:Lightmass:LightmassError_FailedToAllocateShadowmapChannel:9b760947",
+      "source": {
+        "set": "set-02",
+        "namespace": "Lightmass",
+        "key": "LightmassError_FailedToAllocateShadowmapChannel",
+        "jp_record_id": "switch:locres:set-01:Lightmass:LightmassError_FailedToAllocateShadowmapChannel:9b760947",
+        "official_en_record_id": "switch:locres:set-01:Lightmass:LightmassError_FailedToAllocateShadowmapChannel:9b760947",
+        "jp_sha256": "e432d82d07f2419b2e35cfb09b6c38eb34a14ddc920dbab552bdeae43a0b3361",
+        "official_en_sha256": "8d81ca9c653ca484862f4b91fae400208a734e637fc06c25549861c288b28a10"
+      },
+      "text": {
+        "jp": "深刻なパフォーマンスロス: オーバーラップが原因で固定ライトにシャドウマップチャンネルを割り当てることができませんでした。ライトはダイナミックシャドウにフォールバックします！",
+        "official_en": "Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

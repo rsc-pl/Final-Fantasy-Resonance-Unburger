@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGAddComponentElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGAddComponentElement:NodeTitle:0b88d3bf",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAddComponentElement",
+        "key": "NodeTitle",
+        "jp_record_id": "switch:locres:set-01:PCGAddComponentElement:NodeTitle:0b88d3bf",
+        "official_en_record_id": "switch:locres:set-01:PCGAddComponentElement:NodeTitle:0b88d3bf",
+        "jp_sha256": "27a43be4d4ea83d25f4383376eba5f83dfac19d22c3bd2773053b05426a60277",
+        "official_en_sha256": "861860d1e1a8254ddf2d26d56d6a41e1e6c2515e0b3cb2cb26eb08a807095dec"
+      },
+      "text": {
+        "jp": "コンポーネントを追加",
+        "official_en": "Add Component",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAddComponentElement:NodeTooltip:0f5e4ef3",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAddComponentElement",
+        "key": "NodeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGAddComponentElement:NodeTooltip:0f5e4ef3",
+        "official_en_record_id": "switch:locres:set-01:PCGAddComponentElement:NodeTooltip:0f5e4ef3",
+        "jp_sha256": "d6e72efb21e83c5830e827643cc9dc4b11ec17340eae6e6e3fe1ed12997b9d0e",
+        "official_en_sha256": "80ec90e9bfaf28458a20f7f5b3e39a762ba2ec40c0098349e1a7ce211227349f"
+      },
+      "text": {
+        "jp": "指定されたターゲット アクタにコンポーネントを付加します",
+        "official_en": "Adds component(s) to specified target actor(s).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAddComponentElement:MismatchInputsAndTargetActors:09cd702c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAddComponentElement",
+        "key": "MismatchInputsAndTargetActors",
+        "jp_record_id": "switch:locres:set-01:PCGAddComponentElement:MismatchInputsAndTargetActors:09cd702c",
+        "official_en_record_id": "switch:locres:set-01:PCGAddComponentElement:MismatchInputsAndTargetActors:09cd702c",
+        "jp_sha256": "2580aadd8eb132984fecef1b9cbe054484c361ff9caae599a505e29e4156d6eb",
+        "official_en_sha256": "15e8f5fad1dff12681b46e40d656157ca2d90fc71774e538846b9cb611581fbb"
+      },
+      "text": {
+        "jp": "ターゲット アクタへの単一の入力、または入力と同数 (「{0}」) の入力が想定されていますが、「{1}」個が入力されました",
+        "official_en": "Expected either a single input for target actor or the same number as the inputs ('{0}') - got '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAddComponentElement:InvalidClassOrTemplateAttribute:7c4cec34",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAddComponentElement",
+        "key": "InvalidClassOrTemplateAttribute",
+        "jp_record_id": "switch:locres:set-01:PCGAddComponentElement:InvalidClassOrTemplateAttribute:7c4cec34",
+        "official_en_record_id": "switch:locres:set-01:PCGAddComponentElement:InvalidClassOrTemplateAttribute:7c4cec34",
+        "jp_sha256": "21caecbdad6fb28736dfe495eb874d5cbdf8ba82782201dc985b45e766cfbba5",
+        "official_en_sha256": "8cfbc0df38d6849731b59a5abb68677004a3a035e7a0556b8eaf732e40342173"
+      },
+      "text": {
+        "jp": "入力クラスの属性/プロパティ「{0}」はオブジェクト パスでもクラス パスでもありません",
+        "official_en": "Input class attribute/property '{0}' is not an object or class path.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAddComponentElement:MissingTransformAttribute:ef30318f",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAddComponentElement",
+        "key": "MissingTransformAttribute",
+        "jp_record_id": "switch:locres:set-01:PCGAddComponentElement:MissingTransformAttribute:ef30318f",
+        "official_en_record_id": "switch:locres:set-01:PCGAddComponentElement:MissingTransformAttribute:ef30318f",
+        "jp_sha256": "2e390ea69895066e4fc3b399c3391b488a72347584621e3760944998f2d44baa",
+        "official_en_sha256": "e6f89bfde7bd88691c10daf88eb61b6cf1a853d6e0e914269c1e91c266d8be83"
+      },
+      "text": {
+        "jp": "入力データにターゲット属性/プロパティ「{0}」がありません",
+        "official_en": "Input data does not have the target attribute/property '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAddComponentElement:MissingClassAttribute:5cfc58ba",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAddComponentElement",
+        "key": "MissingClassAttribute",
+        "jp_record_id": "switch:locres:set-01:PCGAddComponentElement:MissingClassAttribute:5cfc58ba",
+        "official_en_record_id": "switch:locres:set-01:PCGAddComponentElement:MissingClassAttribute:5cfc58ba",
+        "jp_sha256": "c6db8bcff1496639607cbbfc6c828ba86a72b8bdbf8ecda59037bf8e30ebf526",
+        "official_en_sha256": "350f2cdfa38ebf02a600cd5ca9ea2083df0a0ae5bddbf29339b3c19dfadd3f61"
+      },
+      "text": {
+        "jp": "入力データにターゲット クラスの属性/プロパティ「{0}」がありません",
+        "official_en": "Input data does not have the target class attribute/property '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAddComponentElement:InvalidTransformAttribute:e7b24936",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAddComponentElement",
+        "key": "InvalidTransformAttribute",
+        "jp_record_id": "switch:locres:set-01:PCGAddComponentElement:InvalidTransformAttribute:e7b24936",
+        "official_en_record_id": "switch:locres:set-01:PCGAddComponentElement:InvalidTransformAttribute:e7b24936",
+        "jp_sha256": "48da7440fd0293b2ac38c2dfbd1fc729c5dd4577015f599ba0d30fdfc9fefeb3",
+        "official_en_sha256": "a0aece76edb79f6f2abf8fc13244bf6adb6a8a28047d57fe936cdd9b7c1e2915"
+      },
+      "text": {
+        "jp": "入力トランスフォームの属性/プロパティ「{0}」はトランスフォームと互換性がありません",
+        "official_en": "Input transform attribute/property '{0}' is not compatible with a transform.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAddComponentElement:InvalidActorReferenceAttribute:d620ff0b",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAddComponentElement",
+        "key": "InvalidActorReferenceAttribute",
+        "jp_record_id": "switch:locres:set-01:PCGAddComponentElement:InvalidActorReferenceAttribute:d620ff0b",
+        "official_en_record_id": "switch:locres:set-01:PCGAddComponentElement:InvalidActorReferenceAttribute:d620ff0b",
+        "jp_sha256": "338f0adf58a1230be4efc4a0f139156c554a169ee469492add3a77727861f3a6",
+        "official_en_sha256": "169f25335cce6f76d6cb164df862b0f0ffa479abc64837577e6f7bad0b356d4b"
+      },
+      "text": {
+        "jp": "ターゲット アクタ属性「{0}」はオブジェクト パスではありません",
+        "official_en": "Target actor attribute '{0}' is not an object path.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAddComponentElement:MissingActorReferenceAttribute:da1dae0f",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAddComponentElement",
+        "key": "MissingActorReferenceAttribute",
+        "jp_record_id": "switch:locres:set-01:PCGAddComponentElement:MissingActorReferenceAttribute:da1dae0f",
+        "official_en_record_id": "switch:locres:set-01:PCGAddComponentElement:MissingActorReferenceAttribute:da1dae0f",
+        "jp_sha256": "2dcd1f8b5c0a2e7066b54fc5d445e5d051471fe4490c5d0622d11f2e4d2f3a39",
+        "official_en_sha256": "199a571aed2b2357382c132c987fbb8d98a12424ab886cd645313e680488547f"
+      },
+      "text": {
+        "jp": "ターゲット アクタ データにターゲット属性「{0}」がありません",
+        "official_en": "Target actor data does not have the target attribute '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAddComponentElement:TargetActorAndTransformsMismatch:6fca6e49",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAddComponentElement",
+        "key": "TargetActorAndTransformsMismatch",
+        "jp_record_id": "switch:locres:set-01:PCGAddComponentElement:TargetActorAndTransformsMismatch:6fca6e49",
+        "official_en_record_id": "switch:locres:set-01:PCGAddComponentElement:TargetActorAndTransformsMismatch:6fca6e49",
+        "jp_sha256": "c54f26dc7b6820083c2ff2995071dd21643fd9c68b88bf6cf0e176662f03be5f",
+        "official_en_sha256": "be330023eb01227380243c37e9a2b843de7f3658056599b14dd8610a151aac9b"
+      },
+      "text": {
+        "jp": "ターゲット アクタ データのエントリ数「{0}」が入力エントリ数「{1}」と一致していません",
+        "official_en": "Target actor data entry count '{0}' does not match the input entry count '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAddComponentElement:UnableToCreateOutputReference:c985a712",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAddComponentElement",
+        "key": "UnableToCreateOutputReference",
+        "jp_record_id": "switch:locres:set-01:PCGAddComponentElement:UnableToCreateOutputReference:c985a712",
+        "official_en_record_id": "switch:locres:set-01:PCGAddComponentElement:UnableToCreateOutputReference:c985a712",
+        "jp_sha256": "2125396c4219b2fe42feb402707add626aedbdbdb4bbe7550cfdf6aff8d3e318",
+        "official_en_sha256": "4b423a63729d5fe48f8c6625b4c6ab96c338c4b59c25552615db90bff75ef046"
+      },
+      "text": {
+        "jp": "コンポーネント参照を「{0}」に書き込むことができません",
+        "official_en": "Unable to write component references to '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

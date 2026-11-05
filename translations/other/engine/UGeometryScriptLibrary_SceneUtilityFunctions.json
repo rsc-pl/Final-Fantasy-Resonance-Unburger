@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UGeometryScriptLibrary_SceneUtilityFunctions",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:CopyCollisionMeshesFromObject_NoBodySetup:9ce12b96",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_SceneUtilityFunctions",
+        "key": "CopyCollisionMeshesFromObject_NoBodySetup",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:CopyCollisionMeshesFromObject_NoBodySetup:9ce12b96",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:CopyCollisionMeshesFromObject_NoBodySetup:9ce12b96",
+        "jp_sha256": "5aa4a5cfe5a96fffa87e7ed3cfe75f5eeea29c66d2574b019bcc3dc6efbad17c",
+        "official_en_sha256": "6fed048202660c11b1d1992b0717367bd3d4578aeaf6a9feb398e462168fec82"
+      },
+      "text": {
+        "jp": "CopyCollisionMeshesFromObject:BodySetup が null であるか、オブジェクト タイプがサポートされていません",
+        "official_en": "CopyCollisionMeshesFromObject: BodySetup is null or Object type is not supported",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:CopyCollisionMeshesFromObject_NoCollisionProvider:f244dfee",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_SceneUtilityFunctions",
+        "key": "CopyCollisionMeshesFromObject_NoCollisionProvider",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:CopyCollisionMeshesFromObject_NoCollisionProvider:f244dfee",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:CopyCollisionMeshesFromObject_NoCollisionProvider:f244dfee",
+        "jp_sha256": "46c66ef47e267d1e866676364f38b3a45a3daf02023e7f6cd52745c01e485918",
+        "official_en_sha256": "fdc7d7c13b3cbd6eeee44a7b43349df140e88da9d321372bbb480b9f912f2458"
+      },
+      "text": {
+        "jp": "CopyCollisionMeshesFromObject:Complex Collision Provider はこのオブジェクト タイプには利用できません",
+        "official_en": "CopyCollisionMeshesFromObject: Complex Collision Provider is not available for this object type",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:CopyCollisionMeshesFromObject_InvalidInput:6a2f2217",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_SceneUtilityFunctions",
+        "key": "CopyCollisionMeshesFromObject_InvalidInput",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:CopyCollisionMeshesFromObject_InvalidInput:6a2f2217",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:CopyCollisionMeshesFromObject_InvalidInput:6a2f2217",
+        "jp_sha256": "cfcc11079fbed21eb3fb9d7fac828cf2ab84504c2f9fda884ab47666b1bcf3b4",
+        "official_en_sha256": "08888e9c3c92f011b7713e0ff8c036de4477f824e8e4ac4ca2a625131d7dc8cf"
+      },
+      "text": {
+        "jp": "CopyCollisionMeshesFromObject：ToDynamicMesh が Null です",
+        "official_en": "CopyCollisionMeshesFromObject: ToDynamicMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:CopyMeshFromComponent_ConversionError:e221fe71",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_SceneUtilityFunctions",
+        "key": "CopyMeshFromComponent_ConversionError",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:CopyMeshFromComponent_ConversionError:e221fe71",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:CopyMeshFromComponent_ConversionError:e221fe71",
+        "jp_sha256": "03ba58bcfb9b18fe4582a33c857fe2f9756cc9e78294ca41860514ffb5f826f7",
+        "official_en_sha256": "dfd7fb92da698397822b35ac0b2e44150ad4010c8e79eed8411ad341332214e5"
+      },
+      "text": {
+        "jp": "コンポーネントからのメッシュのコピー エラー: {0}",
+        "official_en": "CopyMeshFromComponent Error: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:CopyMeshFromComponent_InvalidInput:b5840966",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_SceneUtilityFunctions",
+        "key": "CopyMeshFromComponent_InvalidInput",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:CopyMeshFromComponent_InvalidInput:b5840966",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:CopyMeshFromComponent_InvalidInput:b5840966",
+        "jp_sha256": "1df9dabffd2c7516ffa13bd7e697f157bfc40228804b45a469ee2fb8d746bfda",
+        "official_en_sha256": "822155cbb4883f7e6d6724c32cb323193ad2146b168963c762c00f162e5f89f8"
+      },
+      "text": {
+        "jp": "CopyMeshFromComponent：ToDynamicMesh が Null です",
+        "official_en": "CopyMeshFromComponent: ToDynamicMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:DetermineMeshOcclusion_OccludeArrayMismatch:a5811fd1",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_SceneUtilityFunctions",
+        "key": "DetermineMeshOcclusion_OccludeArrayMismatch",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:DetermineMeshOcclusion_OccludeArrayMismatch:a5811fd1",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:DetermineMeshOcclusion_OccludeArrayMismatch:a5811fd1",
+        "jp_sha256": "16568897cb56461a06decd0e1aa80e564b6cd4c76f218c3b2241c0ed99c72fda",
+        "official_en_sha256": "742cf81aa3c802222097cba683f829dbe396ed2c580a235ab6a8283c73922790"
+      },
+      "text": {
+        "jp": "DetermineMeshOcclusion：OccludeMeshes および OccludeMeshTransforms 配列は同じ長さであることが必要です",
+        "official_en": "DetermineMeshOcclusion: OccludeMeshes and OccludeMeshTransforms arrays must have same length",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:DetermineMeshOcclusion_InvalidOccludeMesh:c372b089",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_SceneUtilityFunctions",
+        "key": "DetermineMeshOcclusion_InvalidOccludeMesh",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:DetermineMeshOcclusion_InvalidOccludeMesh:c372b089",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:DetermineMeshOcclusion_InvalidOccludeMesh:c372b089",
+        "jp_sha256": "03339dd56c3f58ea3e495b23ae9584ae55c3f7a4956afc01ffd8b9451e05a57f",
+        "official_en_sha256": "5c15fe4aa1178c8f07518f0d6757ade3d40292affc42128927a07a38ada04ae3"
+      },
+      "text": {
+        "jp": "DetermineMeshOcclusion：OccludeMeshes 配列に null メッシュが含まれます",
+        "official_en": "DetermineMeshOcclusion: OccludeMeshes array contained null mesh",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:DetermineMeshOcclusion_SourceArrayMismatch:0b1f9df1",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_SceneUtilityFunctions",
+        "key": "DetermineMeshOcclusion_SourceArrayMismatch",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:DetermineMeshOcclusion_SourceArrayMismatch:0b1f9df1",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:DetermineMeshOcclusion_SourceArrayMismatch:0b1f9df1",
+        "jp_sha256": "1769b85a1327c2ffdc8da4233951a4d7d4f76b35ec62dcc920ceec86d0a45c44",
+        "official_en_sha256": "285e96711b1fadf94a3335ebdefb84d4d53ac0a5352c10d2e2b8f8a3746fee41"
+      },
+      "text": {
+        "jp": "DetermineMeshOcclusion：SourceMeshes および SourceMeshTransforms 配列は同じ長さであることが必要です",
+        "official_en": "DetermineMeshOcclusion: SourceMeshes and SourceMeshTransforms arrays must have same length",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:DetermineMeshOcclusion_InvalidSourceMesh:c6274af6",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_SceneUtilityFunctions",
+        "key": "DetermineMeshOcclusion_InvalidSourceMesh",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:DetermineMeshOcclusion_InvalidSourceMesh:c6274af6",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:DetermineMeshOcclusion_InvalidSourceMesh:c6274af6",
+        "jp_sha256": "d07138df37f7d108d550768a5ad7cf3bcbef92e8d101090469bdc064fa9cfbb3",
+        "official_en_sha256": "99cdec778f8b0106bb26dd7d4d61e7908d229d0288d99237d5caa2902fb3b866"
+      },
+      "text": {
+        "jp": "DetermineMeshOcclusion：SourceMeshes 配列に null メッシュが含まれます",
+        "official_en": "DetermineMeshOcclusion: SourceMeshes array contained null mesh",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:DetermineMeshOcclusion_TransparentArrayMismatch:fc896cee",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_SceneUtilityFunctions",
+        "key": "DetermineMeshOcclusion_TransparentArrayMismatch",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:DetermineMeshOcclusion_TransparentArrayMismatch:fc896cee",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:DetermineMeshOcclusion_TransparentArrayMismatch:fc896cee",
+        "jp_sha256": "d51f882a201010d81654225f3063dd48a77d5e224713871e907d5b30767f0649",
+        "official_en_sha256": "a1b0bdeaee7f4d5c787f412212b846e85208c33a1899b8e9743561e5a86c8961"
+      },
+      "text": {
+        "jp": "DetermineMeshOcclusion：TransparentMeshes および TransparentMeshTransforms 配列は同じ長さであることが必要です",
+        "official_en": "DetermineMeshOcclusion: TransparentMeshes and TransparentMeshTransforms arrays must have same length",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:DetermineMeshOcclusion_InvalidTransparentMesh:9b89c468",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_SceneUtilityFunctions",
+        "key": "DetermineMeshOcclusion_InvalidTransparentMesh",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:DetermineMeshOcclusion_InvalidTransparentMesh:9b89c468",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:DetermineMeshOcclusion_InvalidTransparentMesh:9b89c468",
+        "jp_sha256": "0007f2dc13223c0f3177d18b31a6da98ae3893cf3c0352393e333ed76095dd13",
+        "official_en_sha256": "e6f026ee3e331bd79c3a00efc3bbd6d6bbbc2334883389fdc217fc011602e29e"
+      },
+      "text": {
+        "jp": "DetermineMeshOcclusion：TransparentMeshes 配列に null メッシュが含まれます",
+        "official_en": "DetermineMeshOcclusion: TransparentMeshes array contained null mesh",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:SetComponentMaterialList_InvalidInput1:b16cba39",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_SceneUtilityFunctions",
+        "key": "SetComponentMaterialList_InvalidInput1",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:SetComponentMaterialList_InvalidInput1:b16cba39",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_SceneUtilityFunctions:SetComponentMaterialList_InvalidInput1:b16cba39",
+        "jp_sha256": "5445ca1998649fce3aeb9c2e7504e228f31f56b8dbafce517b997f8266efa89b",
+        "official_en_sha256": "bc3d3341f6b3fb737d798097f03bf081bd61a9607bc644b1d74647c6a0f1c435"
+      },
+      "text": {
+        "jp": "SetComponentMaterialList:FromStaticMeshAssetはNullです",
+        "official_en": "SetComponentMaterialList: FromStaticMeshAsset is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

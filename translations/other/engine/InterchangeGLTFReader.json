@@ -1,0 +1,789 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "InterchangeGLTFReader",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:NonMatchingBufferFileSize:74352022",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "NonMatchingBufferFileSize",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:NonMatchingBufferFileSize:74352022",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:NonMatchingBufferFileSize:74352022",
+        "jp_sha256": "dfaee4684fa693c39bdd34cc1ab9880d57c64428ff89492f4e12430f9d90d50c",
+        "official_en_sha256": "cbf54ebae003251fe0133f648806fea466a58475638e78979777dbbb9e1a758b"
+      },
+      "text": {
+        "jp": "バッファ ファイル サイズが一致しません",
+        "official_en": "Buffer file size does not match.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:BINChunkMissing:3f13baae",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "BINChunkMissing",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:BINChunkMissing:3f13baae",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:BINChunkMissing:3f13baae",
+        "jp_sha256": "f9d8ff5e7c245854a84cf004889fb013acf32435e5415d48640648ff7d165f9d",
+        "official_en_sha256": "b490f378b0d89ade9c81678afc7c97f4d31c507cdbdb49f67f83f9b81b9b2486"
+      },
+      "text": {
+        "jp": "BIN チャンクからのバッファが見つからない、または空です",
+        "official_en": "Buffer from BIN chunk is missing or empty.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:BINChunkTooSmall:a2160d41",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "BINChunkTooSmall",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:BINChunkTooSmall:a2160d41",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:BINChunkTooSmall:a2160d41",
+        "jp_sha256": "6b18941c2aa5936e5f4682def2b784d7217e27369e574cdde7b728bac3cdc25b",
+        "official_en_sha256": "50ee7db3c037b356457d2ba21b7a578e9e1a7e4465ab537abc0adb3cee74cca1"
+      },
+      "text": {
+        "jp": "BIN チャンクからのバッファは小さすぎます",
+        "official_en": "Buffer from BIN chunk is too small.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:ErrorLoadingFile:a06f69be",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "ErrorLoadingFile",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:ErrorLoadingFile:a06f69be",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:ErrorLoadingFile:a06f69be",
+        "jp_sha256": "8af2bdba16fb0d58ab60598acd5db3a12b6317ce5c1493a02ca5ec77876ce2bb",
+        "official_en_sha256": "4d7b90423879c4dd5433fcc2c7a9ab594d86f2738faf7ffa600bf078231b57ae"
+      },
+      "text": {
+        "jp": "ファイルをロードできません：{0}",
+        "official_en": "Can't load file: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:LoadingFileFailed:b929cb1d",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "LoadingFileFailed",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:LoadingFileFailed:b929cb1d",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:LoadingFileFailed:b929cb1d",
+        "jp_sha256": "af025206b5e18e7493ff52d23f7c6f3f6fc5c016f64a3c8477feeb693a72c19b",
+        "official_en_sha256": "8efd7e885c3ffee78f73a2236f7231a8958b4317f4d256dfe997a02859f953bd"
+      },
+      "text": {
+        "jp": "ファイルをロードできませんでした：「{0}」",
+        "official_en": "Could not load file: '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:ErrorLoadingImageFile:ebb6aa98",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "ErrorLoadingImageFile",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:ErrorLoadingImageFile:ebb6aa98",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:ErrorLoadingImageFile:ebb6aa98",
+        "jp_sha256": "8651ef47119abd17deefbc4e07ed9934225157a7642c940fe1fde72dff96dfb9",
+        "official_en_sha256": "b2710296a957362a22c56e5923c0c628301b5778d9e05b6fd6d3c3f7d1d8ac4e"
+      },
+      "text": {
+        "jp": "イメージ ファイルをロードできませんでした",
+        "official_en": "Could not load image file.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:SomeImportedObjectsInvalid:2025aaaa",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "SomeImportedObjectsInvalid",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:SomeImportedObjectsInvalid:2025aaaa",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:SomeImportedObjectsInvalid:2025aaaa",
+        "jp_sha256": "467829c88985afcd2ee1a36c79ae2eb8147203166e86e51440e3c6840a4c0f7b",
+        "official_en_sha256": "d83b0b3e5dcaba0258f026aa1d968c1db54bae115a1c2327ff7dd2af007657aa"
+      },
+      "text": {
+        "jp": "glTF アセット [{0}] に対して、インポートされたオブジェクトの中に無効なものがあります",
+        "official_en": "For GLTF Asset [{0}] not all imported objects are valid.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:InvalidCameraType:4264903b",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "InvalidCameraType",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:InvalidCameraType:4264903b",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:InvalidCameraType:4264903b",
+        "jp_sha256": "472053bca05054d30fa94ab7c609d3ae59891b020e3b6c98f7a5cc4f749dab70",
+        "official_en_sha256": "beb1f39dcf121706109b3e191950de61ee24e92f15210de87201a90fceb6acb1"
+      },
+      "text": {
+        "jp": "無効なカメラ タイプ：{0}",
+        "official_en": "Invalid camera type: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:InvalidFileExtention:66d8f8d0",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "InvalidFileExtention",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:InvalidFileExtention:66d8f8d0",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:InvalidFileExtention:66d8f8d0",
+        "jp_sha256": "e0597b156f4d92653fb537ddae5f921604657767112df740ece742b0d051692e",
+        "official_en_sha256": "e48f679cd52b3c711c445a5ff9083bc7efc894300c9b7b46f3a64bab4c1e4859"
+      },
+      "text": {
+        "jp": "無効な拡張子",
+        "official_en": "Invalid extension.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:InvalidTextureSourceIndex:7f5fab0f",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "InvalidTextureSourceIndex",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:InvalidTextureSourceIndex:7f5fab0f",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:InvalidTextureSourceIndex:7f5fab0f",
+        "jp_sha256": "762c82b5c5f41b3ca3734f3de3523ee3d7b36cf596e7e0be195bb5db7e516f04",
+        "official_en_sha256": "3ebfedfa912e6cad91b43ad6d02d87a63c363d6e43b8637878887f416e7f83d7"
+      },
+      "text": {
+        "jp": "無効なテクスチャ ソース インデックス：{0}",
+        "official_en": "Invalid texture source index: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:NoCameraNodeFound:f8708695",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "NoCameraNodeFound",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:NoCameraNodeFound:f8708695",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:NoCameraNodeFound:f8708695",
+        "jp_sha256": "d86f2cc3a0aaf8f1b08d390929d7baaffe494a13d13691edf29ff15e01fb4d46",
+        "official_en_sha256": "b0c2db305090d9e7e1414865e7d0009ce0b58006b4bc42d3a1c064fe4d17f85e"
+      },
+      "text": {
+        "jp": "カメラに対してカメラ ノードが見つかりません {0}(「{1}」)",
+        "official_en": "No camera node found for camera {0}('{1}')",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:InconsistentNumMorphTargets:75e4f40b",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "InconsistentNumMorphTargets",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:InconsistentNumMorphTargets:75e4f40b",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:InconsistentNumMorphTargets:75e4f40b",
+        "jp_sha256": "15b0b28cc1fad41fffa8fbce65abf3f322503ac3ad444decc468052321e58c2c",
+        "official_en_sha256": "2faf17263d998ed12d3022ae872857e168a9b510f1e4ea7042521945a6421997"
+      },
+      "text": {
+        "jp": "Primitive.Targets の数がメッシュで一貫していません",
+        "official_en": "Number of Primitive.Targets is not consistent across the Mesh.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:UnsupportedPrimitiveMode:0d672494",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "UnsupportedPrimitiveMode",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:UnsupportedPrimitiveMode:0d672494",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:UnsupportedPrimitiveMode:0d672494",
+        "jp_sha256": "94b7002feae84d445315ceecb6bfdaa0efad96321f08066df59a0a2561f613c2",
+        "official_en_sha256": "97bb37cd1e2a3635ffe10da12cb27fdc1e84ee8bb98d8c032283c2ff674193f4"
+      },
+      "text": {
+        "jp": "プリミティブ モード[{0}] (プリミティブ[{1}、メッシュ[{2}]内) は現在サポートされていません。ジオメトリはインポートされません",
+        "official_en": "Primitive Mode[{0}] in Primitive[{1}] (in Mesh[{2}]) is currently not supported. Geometry won't be imported.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:BufferDecodingProblem:ad0946b3",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "BufferDecodingProblem",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:BufferDecodingProblem:ad0946b3",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:BufferDecodingProblem:ad0946b3",
+        "jp_sha256": "6d44cb6ff6a7a7946ca76e97d559c7dc70fc0dd3407fc3d9f85960deb0ac1ef1",
+        "official_en_sha256": "f95a75302609fb55fc3df14c808487783aeed135eec280f5e3e59fe9049253f8"
+      },
+      "text": {
+        "jp": "データ URI からのバッファのデコーディングで問題が発生しました",
+        "official_en": "Problem decoding buffer from data URI.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:DecodingImageProblem:cad089b9",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "DecodingImageProblem",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:DecodingImageProblem:cad089b9",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:DecodingImageProblem:cad089b9",
+        "jp_sha256": "70029f9540f1f07a5c789aebbe33192babe5cb4a81da3c1710dfc5b5104d0837",
+        "official_en_sha256": "e7e564af76863981153db3087682b8c5b34fbfcb46fc494b7de3f4afb92db4df"
+      },
+      "text": {
+        "jp": "データ URI からのイメージのデコーディングで問題が発生しました",
+        "official_en": "Problem decoding image from data URI.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:JSONDeserializationError:d87ea64f",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "JSONDeserializationError",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:JSONDeserializationError:d87ea64f",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:JSONDeserializationError:d87ea64f",
+        "jp_sha256": "4e274e619ba200aea820f310c22a0c0db7a6d07cf1f176144d637bfd506c345a",
+        "official_en_sha256": "6149e2892a2043165ff0e75a1b26045d62e071fa2a2cf58aecbc2ae3df76c185"
+      },
+      "text": {
+        "jp": "JSON のロードで問題が発生しました",
+        "official_en": "Problem loading JSON.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:NonCommonRootNode:459c9d39",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "NonCommonRootNode",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:NonCommonRootNode:459c9d39",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:NonCommonRootNode:459c9d39",
+        "jp_sha256": "1d4f5b045a36e187bccbb1281e633e9ed7b54cc7aeda9920ce126f8ce448fd78",
+        "official_en_sha256": "2a1ec270224d806067cc79e28561f1432331f3b33fd7fee7e3f7782af03496e4"
+      },
+      "text": {
+        "jp": "スケルトン ノードは共通のルートではありません",
+        "official_en": "Skeleton node is not a common root.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:UnusedSkinObjects:8d081966",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "UnusedSkinObjects",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:UnusedSkinObjects:8d081966",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:UnusedSkinObjects:8d081966",
+        "jp_sha256": "1cda880e13ffec460dd766ce4312c07b450830c12ccd840b88d7e15897e6b59b",
+        "official_en_sha256": "74fa77ae9ade877ccfe556a3376056928437e03b96f1b9ad5458a04c9847c231"
+      },
+      "text": {
+        "jp": "スキン オブジェクトが使用されていません。インデックス：{0}",
+        "official_en": "Skin objects unused. At indices: {0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:MultipleSkinsUseSameJointProblem:61cd1ff2",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "MultipleSkinsUseSameJointProblem",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:MultipleSkinsUseSameJointProblem:61cd1ff2",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:MultipleSkinsUseSameJointProblem:61cd1ff2",
+        "jp_sha256": "added80422883d68b1f5250ffef20f4391258bc1b0d820bbac55a782bb65510b",
+        "official_en_sha256": "2e8938b755ea8b33381421ba9f110f676eb328eb315a8668416288448a98816d"
+      },
+      "text": {
+        "jp": "同じジョイントは複数のスキンで複数の異なる InverseBindMatrix 値で使用されています。これはサポートされていません。インポート全体で InverseBindMatrices を無視します。ジョイント名が違反しています：{0}",
+        "official_en": "The same Joint(s) are used in multiple Skins with multiple different InverseBindMatrix values, which is not supported. Ignoring InverseBindMatrices for the entire Import. Offending Joints' Names: {0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:UnsupportedGLTFAssetVersion:b1d7dbe8",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "UnsupportedGLTFAssetVersion",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:UnsupportedGLTFAssetVersion:b1d7dbe8",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:UnsupportedGLTFAssetVersion:b1d7dbe8",
+        "jp_sha256": "df2184abc0c23e81a4b0f33ae387be5dd6c6856b5b70cbe5056c32e5af9c68e1",
+        "official_en_sha256": "40ba5bca7d5448ed276794c7158d47cb6f26cf280bf7ea355b8722cad4ffdd3d"
+      },
+      "text": {
+        "jp": "このインポータは glTF アセット バージョン 2.0 以降をサポートします",
+        "official_en": "This importer supports glTF asset version 2.0 or later.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InterchangeGLTFReader:UnsupportedGLTFAssetMinVersion:fdf774f8",
+      "source": {
+        "set": "set-02",
+        "namespace": "InterchangeGLTFReader",
+        "key": "UnsupportedGLTFAssetMinVersion",
+        "jp_record_id": "switch:locres:set-01:InterchangeGLTFReader:UnsupportedGLTFAssetMinVersion:fdf774f8",
+        "official_en_record_id": "switch:locres:set-01:InterchangeGLTFReader:UnsupportedGLTFAssetMinVersion:fdf774f8",
+        "jp_sha256": "9de0f4b5d79d5ac8f06dcd47d6dc65f66f4ad8a56839c2da1aed14f974d94211",
+        "official_en_sha256": "45e789786e72e5a125b1389b2698b5ea08817a4c2429cd3188c53d694ebd0044"
+      },
+      "text": {
+        "jp": "このインポータは glTF バージョン 2.0 (または互換) アセットをサポートします",
+        "official_en": "This importer supports glTF version 2.0 (or compatible) assets.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

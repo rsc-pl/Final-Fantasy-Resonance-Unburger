@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AnimNextAssetDefinitions",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFSubMenu:bc8548f8",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNextAssetDefinitions",
+        "key": "UAFSubMenu",
+        "jp_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFSubMenu:bc8548f8",
+        "official_en_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFSubMenu:bc8548f8",
+        "jp_sha256": "3c306ca6cd4f5617af43010c8570b254a1c7ec2734b3a21619d76d40c4a3864b",
+        "official_en_sha256": "5fd307a62e7fd86df354b42df019c9f4fd95349a588cc79f96fca6a8dd56f454"
+      },
+      "text": {
+        "jp": "アニメーションフレームワーク",
+        "official_en": "Animation Framework",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFDataInterfaceEntry:6d7c77eb",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNextAssetDefinitions",
+        "key": "UAFDataInterfaceEntry",
+        "jp_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFDataInterfaceEntry:6d7c77eb",
+        "official_en_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFDataInterfaceEntry:6d7c77eb",
+        "jp_sha256": "fea4118c1ed18fbbdb6b9fc3e3d20d6be4735d9dd61ea55219b2953c636a8321",
+        "official_en_sha256": "56654b827bb867dcb97ee757fe86b3a8d9f18e7c5c7b9b2a2af5546ea44b5ea6"
+      },
+      "text": {
+        "jp": "データインターフェース",
+        "official_en": "Data Interface",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFEventGraphEntry:dbb5eca3",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNextAssetDefinitions",
+        "key": "UAFEventGraphEntry",
+        "jp_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFEventGraphEntry:dbb5eca3",
+        "official_en_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFEventGraphEntry:dbb5eca3",
+        "jp_sha256": "cbcff10d19ca8d6e6aeda055c0033ca4f8ef73307659f61313d8e00eaba37eaf",
+        "official_en_sha256": "2c4b9469e09fe75b52a937acd3e82b881640f22ea6a75e89c607237afce5ded9"
+      },
+      "text": {
+        "jp": "イベントグラフ",
+        "official_en": "Event Graph",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNextAssetDefinitions:DisableExternalPackagesTooltip:84ebe8a2",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNextAssetDefinitions",
+        "key": "DisableExternalPackagesTooltip",
+        "jp_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:DisableExternalPackagesTooltip:84ebe8a2",
+        "official_en_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:DisableExternalPackagesTooltip:84ebe8a2",
+        "jp_sha256": "20f29ba169bb31688d76b3085bccef737551b3ec5083b843b566d7b791445664",
+        "official_en_sha256": "2caa4200a10c1ca93cb84be45c981cbd0270e0c9713a6df2d7ce3cebe9b8c84e"
+      },
+      "text": {
+        "jp": "単一パッケージを使用するようにアセットを設定します。\nこれにより、既存のエントリに対して外部パッケージが除去され、それらがバージョン管理から除去され (有効になっている場合)、すべてのパッケージが保存されます。\n警告：この操作を元に戻すことはできないため、バージョン管理に接続しておくことをお勧めします",
+        "official_en": "Set the asset(s) to use a single package.\nThis will remove any external packages for existing entries, remove them from version control if enabled and save all packages.\nWarning: This operation cannot be undone, so a connection to version control is recommended.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNextAssetDefinitions:EnableExternalPackagesTooltip:a7cbaa6e",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNextAssetDefinitions",
+        "key": "EnableExternalPackagesTooltip",
+        "jp_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:EnableExternalPackagesTooltip:a7cbaa6e",
+        "official_en_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:EnableExternalPackagesTooltip:a7cbaa6e",
+        "jp_sha256": "0928222ff529f999f61bb17bfdc12e65682f20864ed747e8a9d874baef832a7a",
+        "official_en_sha256": "4682a5965cb34e5a19aa55407bbf189a952eeb56b19ecaf87b5e8647a8acef5c"
+      },
+      "text": {
+        "jp": "エントリ (グラフ、変数など) に対して外部パッケージを使用するようにアセットを設定します。\nこれにより、すべてのエントリに対して外部パッケージが作成され、それらがバージョン管理に追加され (有効になっている場合)、すべてのパッケージが保存されます。\n警告：この操作を元に戻すことはできないため、バージョン管理に接続しておくことをお勧めします",
+        "official_en": "Set the asset(s) to use external packaging for its entries (graphs, variables etc.)\nThis will create the external packages for all entries, add them to version control if enabled and save all packages.\nWarning: This operation cannot be undone, so a connection to version control is recommended.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFAnimationGraph:b40f6a17",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNextAssetDefinitions",
+        "key": "UAFAnimationGraph",
+        "jp_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFAnimationGraph:b40f6a17",
+        "official_en_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFAnimationGraph:b40f6a17",
+        "jp_sha256": "211cab8e1908be153b97e904cd3196b6770592a164a5d1b44937c2dacd8830b4",
+        "official_en_sha256": "7ae72c014c34669baa5e0c78eadb4b6f230f2df23d608bcb12675795ecdc61c4"
+      },
+      "text": {
+        "jp": "UAFアニメーショングラフ",
+        "official_en": "UAF Animation Graph",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFDataInterface:cdc47228",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNextAssetDefinitions",
+        "key": "UAFDataInterface",
+        "jp_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFDataInterface:cdc47228",
+        "official_en_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFDataInterface:cdc47228",
+        "jp_sha256": "cc67fd827d6c342a387461af2133a1b482a907c9cd8ff93ae736551cb3c596e7",
+        "official_en_sha256": "c1ea60ca9d20c26fabb3f4260e81311f08972fc08fa7cddc419f3a9469cc6017"
+      },
+      "text": {
+        "jp": "UAFデータインターフェース",
+        "official_en": "UAF Data Interface",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFModule:8e5e231d",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNextAssetDefinitions",
+        "key": "UAFModule",
+        "jp_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFModule:8e5e231d",
+        "official_en_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFModule:8e5e231d",
+        "jp_sha256": "eb7b4fae4757d8ab008bbcfeaeb1fc640457004e010493d27bf2bd6159f64d4a",
+        "official_en_sha256": "b0557c461345518e5af374c62f69759ed12d78c0f8fc89f0e82252fe4f7f2de9"
+      },
+      "text": {
+        "jp": "UAFモジュール",
+        "official_en": "UAF Module",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFStateTree:7875742d",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNextAssetDefinitions",
+        "key": "UAFStateTree",
+        "jp_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFStateTree:7875742d",
+        "official_en_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFStateTree:7875742d",
+        "jp_sha256": "7f35fee9b22a082ce74c36626688ee114f30261680a5c2e2858c44c5d59b2ad0",
+        "official_en_sha256": "b300deb131096b97cf36bd54745571e6e89932b3ce5557aaf246d216baf8b89a"
+      },
+      "text": {
+        "jp": "UAFステートツリー",
+        "official_en": "UAF State Tree",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNextAssetDefinitions:EnableExternalPackagesLabel:802b71ce",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNextAssetDefinitions",
+        "key": "EnableExternalPackagesLabel",
+        "jp_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:EnableExternalPackagesLabel:802b71ce",
+        "official_en_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:EnableExternalPackagesLabel:802b71ce",
+        "jp_sha256": "e4ac07fb791be5820329482e6b25fe4cac2de4d55b752620ead25296cdf0ebf9",
+        "official_en_sha256": "8c2c8f874a6886eeabce8216260cde5b061c5fc55749b32f11bbea8f078273ec"
+      },
+      "text": {
+        "jp": "外部パッケージを使用",
+        "official_en": "Use External Packages",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNextAssetDefinitions:DisableExternalPackagesLabel:d1939357",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNextAssetDefinitions",
+        "key": "DisableExternalPackagesLabel",
+        "jp_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:DisableExternalPackagesLabel:d1939357",
+        "official_en_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:DisableExternalPackagesLabel:d1939357",
+        "jp_sha256": "861f9bbe7c973a6e62c52d862606cfad1e769eb1bd5a8e8956e22fbfb3f3785e",
+        "official_en_sha256": "cfa1154ed2c2f7b96d8048dac7dad6b27c95341c61cb497b60ca320faf9dedda"
+      },
+      "text": {
+        "jp": "単一パッケージを使用",
+        "official_en": "Use Single Package",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFVariable:abfa0c52",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNextAssetDefinitions",
+        "key": "UAFVariable",
+        "jp_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFVariable:abfa0c52",
+        "official_en_record_id": "switch:locres:set-01:AnimNextAssetDefinitions:UAFVariable:abfa0c52",
+        "jp_sha256": "1d1ef987633443e3cf3941a1eef5d4cbb1dee991f3677b7c6f5c3a4839cd715c",
+        "official_en_sha256": "e57e998726030b84d971fa8bd41e1ebe0bc4cd40474e79f7e927efb00f9f348f"
+      },
+      "text": {
+        "jp": "変数",
+        "official_en": "Variable",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

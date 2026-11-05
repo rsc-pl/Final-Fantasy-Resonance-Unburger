@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AnimNextScopedCompilerResults",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AnimNextScopedCompilerResults:ObjectPathFormat:d7ffe07c",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNextScopedCompilerResults",
+        "key": "ObjectPathFormat",
+        "jp_record_id": "switch:locres:set-01:AnimNextScopedCompilerResults:ObjectPathFormat:d7ffe07c",
+        "official_en_record_id": "switch:locres:set-01:AnimNextScopedCompilerResults:ObjectPathFormat:d7ffe07c",
+        "jp_sha256": "4ded19812bde622fadad4f90bc692d20c6a58d33ce497964206ed9239105b9ec",
+        "official_en_sha256": "4ded19812bde622fadad4f90bc692d20c6a58d33ce497964206ed9239105b9ec"
+      },
+      "text": {
+        "jp": "({0})",
+        "official_en": "({0})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNextScopedCompilerResults:CompileFormat:ce34d316",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNextScopedCompilerResults",
+        "key": "CompileFormat",
+        "jp_record_id": "switch:locres:set-01:AnimNextScopedCompilerResults:CompileFormat:ce34d316",
+        "official_en_record_id": "switch:locres:set-01:AnimNextScopedCompilerResults:CompileFormat:ce34d316",
+        "jp_sha256": "d59cda312df35016c50e67c049adef57ec9721bb57ba1fbcf51c1918f0406a44",
+        "official_en_sha256": "7202405a820f9b82241ec5b236d680a5449063d39ecef0bfb31442943a826202"
+      },
+      "text": {
+        "jp": "{0}をコンパイル: {1}",
+        "official_en": "Compile {0}: {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNextScopedCompilerResults:CompileFailed:f1cb4611",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNextScopedCompilerResults",
+        "key": "CompileFailed",
+        "jp_record_id": "switch:locres:set-01:AnimNextScopedCompilerResults:CompileFailed:f1cb4611",
+        "official_en_record_id": "switch:locres:set-01:AnimNextScopedCompilerResults:CompileFailed:f1cb4611",
+        "jp_sha256": "934fb159e6578597c51189fabf31aaf879751ce7b70cb9d54b58452b85d278f9",
+        "official_en_sha256": "61082348368465fafc232adbfcf98b56373b758e14b92411077b14cafa06dd25"
+      },
+      "text": {
+        "jp": "[{CurrentTime}] {JobName} のコンパイルに失敗しました。{NumErrors} 個のエラー、{NumWarnings} 個の警告 [{CompileTime} ミリ秒] {ObjectPath}",
+        "official_en": "[{CurrentTime}] Compile of {JobName} failed. {NumErrors} Error(s), {NumWarnings} Warning(s) [in {CompileTime} ms] {ObjectPath}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNextScopedCompilerResults:CompileSuccess:e4dc26d0",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNextScopedCompilerResults",
+        "key": "CompileSuccess",
+        "jp_record_id": "switch:locres:set-01:AnimNextScopedCompilerResults:CompileSuccess:e4dc26d0",
+        "official_en_record_id": "switch:locres:set-01:AnimNextScopedCompilerResults:CompileSuccess:e4dc26d0",
+        "jp_sha256": "65a5f3e23af791d27458a81dacab36c993bc440833f8ab13b5de0e314be4bbe7",
+        "official_en_sha256": "59333e0d4523d954c28536de5c6f682beb6698c22e5401dda4c3c1d17b211f76"
+      },
+      "text": {
+        "jp": "[{CurrentTime}] {JobName} のコンパイルに成功しました。[{CompileTime} ミリ秒] {ObjectPath}",
+        "official_en": "[{CurrentTime}] Compile of {JobName} successful! [in {CompileTime} ms] {ObjectPath}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AnimNextScopedCompilerResults:CompileWarning:fbbe22ec",
+      "source": {
+        "set": "set-02",
+        "namespace": "AnimNextScopedCompilerResults",
+        "key": "CompileWarning",
+        "jp_record_id": "switch:locres:set-01:AnimNextScopedCompilerResults:CompileWarning:fbbe22ec",
+        "official_en_record_id": "switch:locres:set-01:AnimNextScopedCompilerResults:CompileWarning:fbbe22ec",
+        "jp_sha256": "71e79dfd268c89ebb002d0d664e68be566dc0715228906fd2a5300af4c3945ff",
+        "official_en_sha256": "4bd79838f348d7cb423b1971a320779f66ee407e808ececce6392d3d589e654b"
+      },
+      "text": {
+        "jp": "[{CurrentTime}] {JobName} のコンパイルに成功しました。{NumWarnings} 個の警告 [{CompileTime} ミリ秒] {ObjectPath}",
+        "official_en": "[{CurrentTime}] Compile of {JobName} successful. {NumWarnings} Warning(s) [in {CompileTime} ms] {ObjectPath}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

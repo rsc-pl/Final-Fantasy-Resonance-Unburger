@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PluginReferenceViewer",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PluginReferenceViewer:HistoryBackTooltip:3f16cfaf",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginReferenceViewer",
+        "key": "HistoryBackTooltip",
+        "jp_record_id": "switch:locres:set-01:PluginReferenceViewer:HistoryBackTooltip:3f16cfaf",
+        "official_en_record_id": "switch:locres:set-01:PluginReferenceViewer:HistoryBackTooltip:3f16cfaf",
+        "jp_sha256": "f473d664e25a0fac8ea0eba4d7a1c74d9bb474f0256dd6ffbb5d0fb60d17bc69",
+        "official_en_sha256": "c8f6940914be0d0f2880281c5450e7f69d04ec5a917c5af700db662bf9797ad3"
+      },
+      "text": {
+        "jp": "{0} に戻る",
+        "official_en": "Back to {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginReferenceViewer:HistoryForwardTooltip:adc278fd",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginReferenceViewer",
+        "key": "HistoryForwardTooltip",
+        "jp_record_id": "switch:locres:set-01:PluginReferenceViewer:HistoryForwardTooltip:adc278fd",
+        "official_en_record_id": "switch:locres:set-01:PluginReferenceViewer:HistoryForwardTooltip:adc278fd",
+        "jp_sha256": "a2cd30149b0f3c05937d53da5dc4f0fe6c5a83e591b4451a54928741c18da2b0",
+        "official_en_sha256": "c13639966b3e145b90f95dc916173538d9640b48162d9aba606f7389bed31876"
+      },
+      "text": {
+        "jp": "{0} に進む",
+        "official_en": "Forward to {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginReferenceViewer:PluginSelectionError:1188d94f",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginReferenceViewer",
+        "key": "PluginSelectionError",
+        "jp_record_id": "switch:locres:set-01:PluginReferenceViewer:PluginSelectionError:1188d94f",
+        "official_en_record_id": "switch:locres:set-01:PluginReferenceViewer:PluginSelectionError:1188d94f",
+        "jp_sha256": "a7f4283eb3e2e7817cf14d42ed2a02d8232b8bbb750bbd1406efbd172e13ffec",
+        "official_en_sha256": "420189716494567ff1756ed95523119aa0e6e9fd4ae4d40825829aa05772cbc7"
+      },
+      "text": {
+        "jp": "無効な数のノードが選択されました。単一のノードを選択してください！",
+        "official_en": "Invalid number of nodes selected. Please select a single node!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginReferenceViewer:PluginInfoText:4fbffcfb",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginReferenceViewer",
+        "key": "PluginInfoText",
+        "jp_record_id": "switch:locres:set-01:PluginReferenceViewer:PluginInfoText:4fbffcfb",
+        "official_en_record_id": "switch:locres:set-01:PluginReferenceViewer:PluginInfoText:4fbffcfb",
+        "jp_sha256": "3aabc20cf0e0de9a01b4ceb0b8ff4ddea9f3fd55d242be6bb2b8bfcb20075c48",
+        "official_en_sha256": "f1b6f6a1d1ebe38450cc40a222778739bb6cc9f8e39bc067de003cf985dc71c1"
+      },
+      "text": {
+        "jp": "名前：{0}\nコンテンツ サイズ：{1}\n依存関係も含めた合計コンテンツ サイズ：{2}\n依存関係：{3}\n参照元：{4}",
+        "official_en": "Name: {0}\nContent Size: {1}\nTotal Content Size With Dependencies: {2}\nDependencies: {3}\nReferencers: {4}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginReferenceViewer:NoPluginsFound:1f3d2054",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginReferenceViewer",
+        "key": "NoPluginsFound",
+        "jp_record_id": "switch:locres:set-01:PluginReferenceViewer:NoPluginsFound:1f3d2054",
+        "official_en_record_id": "switch:locres:set-01:PluginReferenceViewer:NoPluginsFound:1f3d2054",
+        "jp_sha256": "69b46209633025da8d028c3f2244f9a06f46cb916f718ee13ff5f19d5bac094e",
+        "official_en_sha256": "13f1f33e7bb2d09a0b392c65437d6784703d473de5afb3903e27a46a21ee0ea7"
+      },
+      "text": {
+        "jp": "プラグインが見つかりません",
+        "official_en": "No Plugins Found",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginReferenceViewer:PluginReferenceViewerTitle:98a2f27b",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginReferenceViewer",
+        "key": "PluginReferenceViewerTitle",
+        "jp_record_id": "switch:locres:set-01:PluginReferenceViewer:PluginReferenceViewerTitle:98a2f27b",
+        "official_en_record_id": "switch:locres:set-01:PluginReferenceViewer:PluginReferenceViewerTitle:98a2f27b",
+        "jp_sha256": "3d7b0c84f71fea674fe84c5410a5d44f536e6d67c312145209aaf665ccdcfe96",
+        "official_en_sha256": "1b2712cfe5d976852cba958975666cf7ba4be3599b45cd637a843372dfbee3bb"
+      },
+      "text": {
+        "jp": "プラグイン参照ビューア",
+        "official_en": "Plugin Reference Viewer",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginReferenceViewer:PluginStatsTab:1ba2dadd",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginReferenceViewer",
+        "key": "PluginStatsTab",
+        "jp_record_id": "switch:locres:set-01:PluginReferenceViewer:PluginStatsTab:1ba2dadd",
+        "official_en_record_id": "switch:locres:set-01:PluginReferenceViewer:PluginStatsTab:1ba2dadd",
+        "jp_sha256": "56109f8456c2f3923be6af4e2f9d52f677889ebb3e45b3f22686a2e70f5600dd",
+        "official_en_sha256": "5d902d4e722b352e9725e1d51eae107a61ea7bbe705ea347bd8a57326458a314"
+      },
+      "text": {
+        "jp": "プラグイン統計",
+        "official_en": "Plugin Stats",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginReferenceViewer:Tooltip_PluginNotFound:c680f070",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginReferenceViewer",
+        "key": "Tooltip_PluginNotFound",
+        "jp_record_id": "switch:locres:set-01:PluginReferenceViewer:Tooltip_PluginNotFound:c680f070",
+        "official_en_record_id": "switch:locres:set-01:PluginReferenceViewer:Tooltip_PluginNotFound:c680f070",
+        "jp_sha256": "69b46209633025da8d028c3f2244f9a06f46cb916f718ee13ff5f19d5bac094e",
+        "official_en_sha256": "df1c31f97c293f3de7a349d301050b154decfe87e1c0b4076a5abbaac5df0d3b"
+      },
+      "text": {
+        "jp": "プラグインが見つかりません",
+        "official_en": "Plugin not found!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginReferenceViewer:ReferenceGraphTab:7ccfa9eb",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginReferenceViewer",
+        "key": "ReferenceGraphTab",
+        "jp_record_id": "switch:locres:set-01:PluginReferenceViewer:ReferenceGraphTab:7ccfa9eb",
+        "official_en_record_id": "switch:locres:set-01:PluginReferenceViewer:ReferenceGraphTab:7ccfa9eb",
+        "jp_sha256": "f8212c7d7e4feb88ca8b30c6bcff715697816628397c60c32e653852665a199a",
+        "official_en_sha256": "7ee320791acb0959edd9b3edb255a3bd87b269d14f593875582977d4e0084bf6"
+      },
+      "text": {
+        "jp": "参照グラフ",
+        "official_en": "Reference Graph",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginReferenceViewer:ReferenceTypes:bd44e2d5",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginReferenceViewer",
+        "key": "ReferenceTypes",
+        "jp_record_id": "switch:locres:set-01:PluginReferenceViewer:ReferenceTypes:bd44e2d5",
+        "official_en_record_id": "switch:locres:set-01:PluginReferenceViewer:ReferenceTypes:bd44e2d5",
+        "jp_sha256": "0559544485718ea33799e1db27257ee9b98dfae4a966ac068dcc7b0378523305",
+        "official_en_sha256": "dc7963fddeea904a3107d2f2eba48d6c15a635f648d7e4de89a7381032b9396a"
+      },
+      "text": {
+        "jp": "参照タイプ",
+        "official_en": "Reference Types",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginReferenceViewer:SearchDepthDependenciesLabelText:4cb4a101",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginReferenceViewer",
+        "key": "SearchDepthDependenciesLabelText",
+        "jp_record_id": "switch:locres:set-01:PluginReferenceViewer:SearchDepthDependenciesLabelText:4cb4a101",
+        "official_en_record_id": "switch:locres:set-01:PluginReferenceViewer:SearchDepthDependenciesLabelText:4cb4a101",
+        "jp_sha256": "cc34551474c854e9bd14830e51b453c1e81d828e60cd7a491e591dd619cf94c9",
+        "official_en_sha256": "19fe1109af777aba4dcd6fcb66d15053b2f91bffea6d854f8924d91028c8752c"
+      },
+      "text": {
+        "jp": "依存関係の検索の深さ",
+        "official_en": "Search Dependencies Depth",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginReferenceViewer:SearchDepthReferencersLabelText:9555daea",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginReferenceViewer",
+        "key": "SearchDepthReferencersLabelText",
+        "jp_record_id": "switch:locres:set-01:PluginReferenceViewer:SearchDepthReferencersLabelText:9555daea",
+        "official_en_record_id": "switch:locres:set-01:PluginReferenceViewer:SearchDepthReferencersLabelText:9555daea",
+        "jp_sha256": "ca730218ff8e16e8e89ee348e95192f95f0dc51d6c47c2bbc733eafec42f5d22",
+        "official_en_sha256": "36693b902bb389abfe7259405f2be9afffac396cbb3deeb22af7b267804398e7"
+      },
+      "text": {
+        "jp": "参照元の検索の深さ",
+        "official_en": "Search Referencers Depth",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginReferenceViewer:ShowAdvancedInfoLabelText:0843a5a2",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginReferenceViewer",
+        "key": "ShowAdvancedInfoLabelText",
+        "jp_record_id": "switch:locres:set-01:PluginReferenceViewer:ShowAdvancedInfoLabelText:0843a5a2",
+        "official_en_record_id": "switch:locres:set-01:PluginReferenceViewer:ShowAdvancedInfoLabelText:0843a5a2",
+        "jp_sha256": "df96fbca9b0dac6629d7d9a09e7880bc7fcc3f0753a95822fa23480006e58b89",
+        "official_en_sha256": "d1f731cb854ff1177c0fe576117d3ee3664201aa980fd0b825363b1d84e146d0"
+      },
+      "text": {
+        "jp": "詳細情報を表示",
+        "official_en": "Show Advanced Info",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginReferenceViewer:DuplicateAsset:2a2bc924",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginReferenceViewer",
+        "key": "DuplicateAsset",
+        "jp_record_id": "switch:locres:set-01:PluginReferenceViewer:DuplicateAsset:2a2bc924",
+        "official_en_record_id": "switch:locres:set-01:PluginReferenceViewer:DuplicateAsset:2a2bc924",
+        "jp_sha256": "cae50709c15138bc31a972b4f6783a6614580a4352e97e75cc0510a61d5a1035",
+        "official_en_sha256": "6762298caad7bf7ac2f95a0a1dbc5b53a240155ab0ced9a0b72138e0d7952de8"
+      },
+      "text": {
+        "jp": "このプラグインは複数回参照されています。最初の参照でのみ、その子孫が表示されます",
+        "official_en": "This plugin is referenced multiple times. Only the first occurance shows its descendants.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginReferenceViewer:ViewOptions:e8fb2460",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginReferenceViewer",
+        "key": "ViewOptions",
+        "jp_record_id": "switch:locres:set-01:PluginReferenceViewer:ViewOptions:e8fb2460",
+        "official_en_record_id": "switch:locres:set-01:PluginReferenceViewer:ViewOptions:e8fb2460",
+        "jp_sha256": "768b8a3fcc49306112894c37ce523d5277279bcb68866c02521155d76eed9830",
+        "official_en_sha256": "c58eb87a9c73dec4ae08360e8e15fb8a2931c2e233e3890c26855020e2852322"
+      },
+      "text": {
+        "jp": "表示オプション",
+        "official_en": "View Options",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginReferenceViewer:Title_PluginNotFound:467bf607",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginReferenceViewer",
+        "key": "Title_PluginNotFound",
+        "jp_record_id": "switch:locres:set-01:PluginReferenceViewer:Title_PluginNotFound:467bf607",
+        "official_en_record_id": "switch:locres:set-01:PluginReferenceViewer:Title_PluginNotFound:467bf607",
+        "jp_sha256": "78ca8053897728f903013392bf64732aefc2f81d5dd880f1e530892e21133843",
+        "official_en_sha256": "23d94598a2a34748b56bb06b6edb7f6ab82596dea4b91a8347dadc0af61a4a7a"
+      },
+      "text": {
+        "jp": "{0} **プラグインが見つかりません**",
+        "official_en": "{0} **Plugin Not Found**",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PluginReferenceViewer:AddressBarMultiplePackagesText:cf6e1aec",
+      "source": {
+        "set": "set-02",
+        "namespace": "PluginReferenceViewer",
+        "key": "AddressBarMultiplePackagesText",
+        "jp_record_id": "switch:locres:set-01:PluginReferenceViewer:AddressBarMultiplePackagesText:cf6e1aec",
+        "official_en_record_id": "switch:locres:set-01:PluginReferenceViewer:AddressBarMultiplePackagesText:cf6e1aec",
+        "jp_sha256": "a6626a3bcc25420b2aa0710b8371256b69b6dbd07cca2c90d48ab3ad12bc97e7",
+        "official_en_sha256": "7605e6ff5c0506dbee16b168efd72c5c5b1c00c4bdb854413f793dd0bb72926c"
+      },
+      "text": {
+        "jp": "{0} (他に {1} )",
+        "official_en": "{0} and {1} others",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

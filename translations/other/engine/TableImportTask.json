@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "TableImportTask",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:TableImportTask:FailedToReadMsg:8a8385c1",
+      "source": {
+        "set": "set-02",
+        "namespace": "TableImportTask",
+        "key": "FailedToReadMsg",
+        "jp_record_id": "switch:locres:set-01:TableImportTask:FailedToReadMsg:8a8385c1",
+        "official_en_record_id": "switch:locres:set-01:TableImportTask:FailedToReadMsg:8a8385c1",
+        "jp_sha256": "9bcee2435874e484d54d6488765da78f5ecaeac308e10b1c7e319e175286bedc",
+        "official_en_sha256": "67dedde48c1043a9bfccd543df420b099689f3dfdb1e93c62dbf214d6c812788"
+      },
+      "text": {
+        "jp": "ファイル{0}を読み込めないためインポートできません",
+        "official_en": "Import failed because file {0} could not be read:",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:TableImportTask:NoColumnsMsg:223e945a",
+      "source": {
+        "set": "set-02",
+        "namespace": "TableImportTask",
+        "key": "NoColumnsMsg",
+        "jp_record_id": "switch:locres:set-01:TableImportTask:NoColumnsMsg:223e945a",
+        "official_en_record_id": "switch:locres:set-01:TableImportTask:NoColumnsMsg:223e945a",
+        "jp_sha256": "9f8bd9bc33dee3b7164c462de07748763aefb6844bc0e4ddecd6ece897d37311",
+        "official_en_sha256": "fdbab7f2728d3b72ef7607128992b54eb0f5007948c6ae0268499d150c258963"
+      },
+      "text": {
+        "jp": "ファイルに列が含まれないためインポートできません",
+        "official_en": "Import failed because the file did not contain any columns.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:TableImportTask:NotEnoughtLinesMsg:09d3de52",
+      "source": {
+        "set": "set-02",
+        "namespace": "TableImportTask",
+        "key": "NotEnoughtLinesMsg",
+        "jp_record_id": "switch:locres:set-01:TableImportTask:NotEnoughtLinesMsg:09d3de52",
+        "official_en_record_id": "switch:locres:set-01:TableImportTask:NotEnoughtLinesMsg:09d3de52",
+        "jp_sha256": "dd86b207fd2198eb97f01086a309dd9c38b2e26717d22b66c2fe518abf1d8759",
+        "official_en_sha256": "882ce5d2b1e79e038c20879f1109af3a4ac8550ada0e8779cc6a624748dbde3c"
+      },
+      "text": {
+        "jp": "ファイルに最小の 2 行が含まれないためインポートできません",
+        "official_en": "Import failed because the files did not contain a minimum of 2 lines.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:TableImportTask:ValuesMismatchMsg1:2e271492",
+      "source": {
+        "set": "set-02",
+        "namespace": "TableImportTask",
+        "key": "ValuesMismatchMsg1",
+        "jp_record_id": "switch:locres:set-01:TableImportTask:ValuesMismatchMsg1:2e271492",
+        "official_en_record_id": "switch:locres:set-01:TableImportTask:ValuesMismatchMsg1:2e271492",
+        "jp_sha256": "d120254264ca883d2a1a8d11c8da6824a12169ac951353ac5cce22c6cadcffce",
+        "official_en_sha256": "d9dfc0e95e33b7acabec85730156f3cd2b977394069f18c00a1fc2919d76e08f"
+      },
+      "text": {
+        "jp": "行 1 にある値の数が、ヘッダ行にある列の数と一致していないため、インポートが失敗しました",
+        "official_en": "Import failed because the number of values on line 1 does not match the number of columns in the header line.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:TableImportTask:ValuesMismatchMsg2:e2683387",
+      "source": {
+        "set": "set-02",
+        "namespace": "TableImportTask",
+        "key": "ValuesMismatchMsg2",
+        "jp_record_id": "switch:locres:set-01:TableImportTask:ValuesMismatchMsg2:e2683387",
+        "official_en_record_id": "switch:locres:set-01:TableImportTask:ValuesMismatchMsg2:e2683387",
+        "jp_sha256": "8315662f17b88554ae6ad25c1ae896d157a189b46ea92f41cae713982b7ba47f",
+        "official_en_sha256": "4d16e7bea4bfffc6f8f5df333162137c56939a3bb9491eafcbe4f282e3748080"
+      },
+      "text": {
+        "jp": "行 {0} にある値の数が、ヘッダ行にある列の数と一致していないため、インポートが失敗しました",
+        "official_en": "Import failed because the number of values on line {0} does not match the number of columns in the header line.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

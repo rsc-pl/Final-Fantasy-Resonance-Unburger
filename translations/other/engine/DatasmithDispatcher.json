@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "DatasmithDispatcher",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:DatasmithDispatcher:NotEnoughRamForLocalImport:da5d2fab",
+      "source": {
+        "set": "set-02",
+        "namespace": "DatasmithDispatcher",
+        "key": "NotEnoughRamForLocalImport",
+        "jp_record_id": "switch:locres:set-01:DatasmithDispatcher:NotEnoughRamForLocalImport:da5d2fab",
+        "official_en_record_id": "switch:locres:set-01:DatasmithDispatcher:NotEnoughRamForLocalImport:da5d2fab",
+        "jp_sha256": "95b9de01f6e2ccd97a2c21227cbd81ea68da06d476a15578a7ffb4182f628c3e",
+        "official_en_sha256": "880586dd85c90cb2f0ed33cd76a09396188d918d37003ce7bf9e40ab0c93dec9"
+      },
+      "text": {
+        "jp": "スタティック メッシュで使用される推定メモリが、利用可能な RAM を超過しています:\n\t{0} 利用可能に対して 推定 {1} 。\n[OK]をクリックしてインポートを続行するか、[キャンセル]をクリックして既に処理されたもののみを取得してください。\n続行する場合は、 メモリが不足しないように十分な仮想メモリを割り当ててください。\nキャンセルする場合は、出力ログで詳細を確認してください。\n{2}",
+        "official_en": "Estimated memory used by static meshes is greater than available RAM:\n\t{0} available vs {1} estimated.\nClick OK to continue importing or CANCEL to get only what have already been processed.\nIf you want to continue, be sure to allocate enough virtual memory to avoid running out of memory.\nIf you cancel, check the output log for more information.\n{2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:DatasmithDispatcher:WarningNotEnoughRamForLocalImport:10d43921",
+      "source": {
+        "set": "set-02",
+        "namespace": "DatasmithDispatcher",
+        "key": "WarningNotEnoughRamForLocalImport",
+        "jp_record_id": "switch:locres:set-01:DatasmithDispatcher:WarningNotEnoughRamForLocalImport:10d43921",
+        "official_en_record_id": "switch:locres:set-01:DatasmithDispatcher:WarningNotEnoughRamForLocalImport:10d43921",
+        "jp_sha256": "3a263e41ac06fcc847c90660fa4347e1330bded84a0238427e35aaab9f97369b",
+        "official_en_sha256": "aa5bb8351f7a2be969849ebb59cbb4aa226ab8a4b4caca77dd2706404c954ca0"
+      },
+      "text": {
+        "jp": "警告: DatasmithCADWorker は現在使用されていません。",
+        "official_en": "Warning: DatasmithCADWorker are currently not used.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

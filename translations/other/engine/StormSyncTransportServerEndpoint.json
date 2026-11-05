@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "StormSyncTransportServerEndpoint",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:StormSyncTransportServerEndpoint:ImportRequest:ac03f855",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncTransportServerEndpoint",
+        "key": "ImportRequest",
+        "jp_record_id": "switch:locres:set-01:StormSyncTransportServerEndpoint:ImportRequest:ac03f855",
+        "official_en_record_id": "switch:locres:set-01:StormSyncTransportServerEndpoint:ImportRequest:ac03f855",
+        "jp_sha256": "dae934d7819b72de7bf7a5c7def7aa4076b4c0e7c5d012df99ee6f122c1a2880",
+        "official_en_sha256": "cb88cacbaa63ca52eb95b77400daa0893ad3345f5812759216b295990ed17c3c"
+      },
+      "text": {
+        "jp": "{0}からのバッファインポートリクエスト",
+        "official_en": "Buffer Import request from {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StormSyncTransportServerEndpoint:Notification_OpenSettings:98c5be9d",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncTransportServerEndpoint",
+        "key": "Notification_OpenSettings",
+        "jp_record_id": "switch:locres:set-01:StormSyncTransportServerEndpoint:Notification_OpenSettings:98c5be9d",
+        "official_en_record_id": "switch:locres:set-01:StormSyncTransportServerEndpoint:Notification_OpenSettings:98c5be9d",
+        "jp_sha256": "a2b407de10243b036599826daf05092718bb09bd58e22f77c555b859fe835c0c",
+        "official_en_sha256": "3f940108cb1ecd9c0090da0b51b45f9fe673f00b22c7ffe3d013319b97456674"
+      },
+      "text": {
+        "jp": "オープン設定",
+        "official_en": "Open Settings",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:StormSyncTransportServerEndpoint:FailedStartStormSyncServer:700fac84",
+      "source": {
+        "set": "set-02",
+        "namespace": "StormSyncTransportServerEndpoint",
+        "key": "FailedStartStormSyncServer",
+        "jp_record_id": "switch:locres:set-01:StormSyncTransportServerEndpoint:FailedStartStormSyncServer:700fac84",
+        "official_en_record_id": "switch:locres:set-01:StormSyncTransportServerEndpoint:FailedStartStormSyncServer:700fac84",
+        "jp_sha256": "b4b0de1b4a9154ed3f346f24b957cfa64dcd112fa800379f244f9e2ea1ac7816",
+        "official_en_sha256": "d49307821f67b36ef292eea437e50fb833dceaeb991627c34399869b696454b7"
+      },
+      "text": {
+        "jp": "ストーム同期：Tcp サーバーはポート {0} で起動できませんでした\n\nストーム同期を使用する別のエディタが実行されている場合は、[プロジェクト設定] で異なるポートを使用してください",
+        "official_en": "Storm Sync: Tcp server couldn't be started on port {0}\n\nIf another editor with Storm Sync is running, please use a different port in Project Settings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

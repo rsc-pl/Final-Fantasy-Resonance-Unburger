@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "CommonUIUtils",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:CommonUIUtils:Error_MissingBoundChild:9807423f",
+      "source": {
+        "set": "set-02",
+        "namespace": "CommonUIUtils",
+        "key": "Error_MissingBoundChild",
+        "jp_record_id": "switch:locres:set-01:CommonUIUtils:Error_MissingBoundChild:9807423f",
+        "official_en_record_id": "switch:locres:set-01:CommonUIUtils:Error_MissingBoundChild:9807423f",
+        "jp_sha256": "9e130baeb1cb3b1f00254a1db5ad9ea027653b9a5b3a7e0188809a83d6c8f854",
+        "official_en_sha256": "bdbcb2bce27991a93110859796b6238ac65b80d920c5d1ee5a05c7c4b37db9d0"
+      },
+      "text": {
+        "jp": "バウンド ウィジェット「{0}」はウィジェット「{1}」の子であることが求められます",
+        "official_en": "Bound widget \"{0}\" is expected to be a child of widget \"{1}\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CommonUIUtils:Error_ChildSlotCollisionRequired:b18c5092",
+      "source": {
+        "set": "set-02",
+        "namespace": "CommonUIUtils",
+        "key": "Error_ChildSlotCollisionRequired",
+        "jp_record_id": "switch:locres:set-01:CommonUIUtils:Error_ChildSlotCollisionRequired:b18c5092",
+        "official_en_record_id": "switch:locres:set-01:CommonUIUtils:Error_ChildSlotCollisionRequired:b18c5092",
+        "jp_sha256": "15da1509bcc389e3b5eda319973ba71a095b0afff18d2c62922701239bd491b2",
+        "official_en_sha256": "3af96db47a4c3bcdd56e10b51bfb775bf73eacf61d6af49cf15eee96618ffc54"
+      },
+      "text": {
+        "jp": "バウンド ウィジェット「{0}」は「{2}」と同じように「{1}」のスロットにあることが求められます。",
+        "official_en": "Bound widget \"{0}\" is expected to be in the same slot of \"{1}\" as \"{2}\".",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:CommonUIUtils:Error_ChildSlotCollisionForbidden:e6990c5f",
+      "source": {
+        "set": "set-02",
+        "namespace": "CommonUIUtils",
+        "key": "Error_ChildSlotCollisionForbidden",
+        "jp_record_id": "switch:locres:set-01:CommonUIUtils:Error_ChildSlotCollisionForbidden:e6990c5f",
+        "official_en_record_id": "switch:locres:set-01:CommonUIUtils:Error_ChildSlotCollisionForbidden:e6990c5f",
+        "jp_sha256": "824204ff33148563ac3edce6378df9ddc497d79821802a971dd0254b1206ceaa",
+        "official_en_sha256": "0bee5509f7010664ab127028bd5e4791adab1eafd1de77001b6f024db0f26823"
+      },
+      "text": {
+        "jp": "バウンド ウィジェット「{0}」は スロット{1} の「{2}」にありますが、ウィジェット「{3}」はすでに存在します。これらのウィジェットは異なるスロットにあることが求められます。",
+        "official_en": "Bound widget \"{0}\" is in slot {1} of \"{2}\", but widget \"{3}\" is already there. These widgets are expected to be in different slots.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

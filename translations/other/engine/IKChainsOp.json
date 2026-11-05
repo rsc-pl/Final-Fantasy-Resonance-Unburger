@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "IKChainsOp",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:IKChainsOp:TargetIKNotOnEndBone:bf9c2401",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKChainsOp",
+        "key": "TargetIKNotOnEndBone",
+        "jp_record_id": "switch:locres:set-01:IKChainsOp:TargetIKNotOnEndBone:bf9c2401",
+        "official_en_record_id": "switch:locres:set-01:IKChainsOp:TargetIKNotOnEndBone:bf9c2401",
+        "jp_sha256": "4e176b1b0cf9adf697f316c7a66629a0df6183c7c60b7f99ff123aedb995d680",
+        "official_en_sha256": "2321c219c739883b07af7f4963ed24a4530fb189f295e13d579d67544e261506"
+      },
+      "text": {
+        "jp": "IK チェーン操作：リターゲティング チェーン「{0}」に、チェーンの終了ボーン上にない IK 目標があります",
+        "official_en": "IK Chain Op: Retarget chain, '{0}' has an IK goal that is not on the End Bone of the chain.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKChainsOp:IKChainOpChainHasNoIK:828cfa60",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKChainsOp",
+        "key": "IKChainOpChainHasNoIK",
+        "jp_record_id": "switch:locres:set-01:IKChainsOp:IKChainOpChainHasNoIK:828cfa60",
+        "official_en_record_id": "switch:locres:set-01:IKChainsOp:IKChainOpChainHasNoIK:828cfa60",
+        "jp_sha256": "7b7d3260aa7ffb6661ab22634a3c4373000a8b98aa3b2441f915c5bcdd1cead3",
+        "official_en_sha256": "398980c40e7f917fed07f3fcef82450215cf202e706156b27b409457a7094a3e"
+      },
+      "text": {
+        "jp": "IK チェーン操作：IK チェーン「{0}」に割り当てられた IK 目標が見つかりませんでした",
+        "official_en": "IK Chain Op: an IK chain was found with no IK goal assigned to it, '{0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKChainsOp:IKChainOpMissingChain:6acde0fc",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKChainsOp",
+        "key": "IKChainOpMissingChain",
+        "jp_record_id": "switch:locres:set-01:IKChainsOp:IKChainOpMissingChain:6acde0fc",
+        "official_en_record_id": "switch:locres:set-01:IKChainsOp:IKChainOpMissingChain:6acde0fc",
+        "jp_sha256": "018a78640a16a1999d8ca19a74c66eba7b73359d685639a0c5852fa29210f938",
+        "official_en_sha256": "58ade3c026d46ddc5add9b8cb81f9d3fc2438dbbfbbd14a28686c2e566122737"
+      },
+      "text": {
+        "jp": "IK チェーン操作：チェーン データが IK リグと同期していません。ターゲット チェーン「{0}」がありません",
+        "official_en": "IK Chain Op: chain data is out of sync with IK Rig. Missing target chain, '{0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKChainsOp:IKChainOpBadChain:f8c3d01e",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKChainsOp",
+        "key": "IKChainOpBadChain",
+        "jp_record_id": "switch:locres:set-01:IKChainsOp:IKChainOpBadChain:f8c3d01e",
+        "official_en_record_id": "switch:locres:set-01:IKChainsOp:IKChainOpBadChain:f8c3d01e",
+        "jp_sha256": "0f98d22e3a5ef9b36be8af5b97478ab45f7de15946563a05987e1025d42dfdea",
+        "official_en_sha256": "a9f39f6a0ac08b69a97b3df49eb497c427cb52a6b971e48b53cac0087cfc79bc"
+      },
+      "text": {
+        "jp": "IK チェーン操作：IK「{0}」のマップされたリターゲティング チェーンを初期化できませんでした",
+        "official_en": "IK Chain Op: could not initialize a mapped retarget chain for IK, '{0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKChainsOp:IKChainOpChainNotMapped:e936b5fc",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKChainsOp",
+        "key": "IKChainOpChainNotMapped",
+        "jp_record_id": "switch:locres:set-01:IKChainsOp:IKChainOpChainNotMapped:e936b5fc",
+        "official_en_record_id": "switch:locres:set-01:IKChainsOp:IKChainOpChainNotMapped:e936b5fc",
+        "jp_sha256": "04e93f9336ae5e92dac51556c90a3e222737d4fa4b1876c46c56e6fd24a2df2e",
+        "official_en_sha256": "44658cbd725bc91ac21f176a44eb42b5bf56084b865e3570343efa5c05e0461d"
+      },
+      "text": {
+        "jp": "IK チェーン操作：ソース チェーンにマッピングされていない IK チェーン「{0}」が見つかりました",
+        "official_en": "IK Chain Op: found IK chain that was not mapped to a source chain, '{0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKChainsOp:SourceZeroLengthIK:b668e660",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKChainsOp",
+        "key": "SourceZeroLengthIK",
+        "jp_record_id": "switch:locres:set-01:IKChainsOp:SourceZeroLengthIK:b668e660",
+        "official_en_record_id": "switch:locres:set-01:IKChainsOp:SourceZeroLengthIK:b668e660",
+        "jp_sha256": "0dd0ed1379ed14ecb38e2522f833711a3f26189d7d0a7cef9eade2e8be0ebf0b",
+        "official_en_sha256": "b7c4570abdb2d98c72b9dc0b98c78d8052ca9029c619ca88bcae47e461060d12"
+      },
+      "text": {
+        "jp": "IK チェーン操作：長さがゼロのソース ボーン チェーンが見つかりました",
+        "official_en": "IK Chains Op: found zero-length source bone chain.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKChainsOp:SourceChainLessThanThree:2a20d193",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKChainsOp",
+        "key": "SourceChainLessThanThree",
+        "jp_record_id": "switch:locres:set-01:IKChainsOp:SourceChainLessThanThree:2a20d193",
+        "official_en_record_id": "switch:locres:set-01:IKChainsOp:SourceChainLessThanThree:2a20d193",
+        "jp_sha256": "29dc884bbeab3f2337295ff50d8f803e34bf8afaa02553aef9fa0a29be7f515b",
+        "official_en_sha256": "8c2490d26dde1548579b2332e62bd1b8254ff7bb7aec62ac91e48e87afc20432"
+      },
+      "text": {
+        "jp": "IK チェーン操作：IK を使用してソース ボーン チェーンをリターゲティングしようとしていますが、ソース ボーン チェーンにあるジョイントの数が 2 未満です",
+        "official_en": "IK Chains Op: trying to retarget source bone chain with IK but it has less than 2 joints.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKChainsOp:TargetChainLessThanThree:5bc07708",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKChainsOp",
+        "key": "TargetChainLessThanThree",
+        "jp_record_id": "switch:locres:set-01:IKChainsOp:TargetChainLessThanThree:5bc07708",
+        "official_en_record_id": "switch:locres:set-01:IKChainsOp:TargetChainLessThanThree:5bc07708",
+        "jp_sha256": "80b2ba663c82d42f864ea41962f63773529ef24b40aee510dd9f412c93b7792b",
+        "official_en_sha256": "d53cc92bb8f3b300f37bc5e943d672610c04f75e9fc8fbda35e41a80d047292d"
+      },
+      "text": {
+        "jp": "IK チェーン操作：IK を使用してターゲット ボーン チェーンをリターゲティングしようとしていますが、ターゲット ボーン チェーンにあるジョイントの数が 3 未満です",
+        "official_en": "IK Chains Op: trying to retarget target bone chain with IK but it has less than 3 joints.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKChainsOp:TargetZeroLengthIK:25b78852",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKChainsOp",
+        "key": "TargetZeroLengthIK",
+        "jp_record_id": "switch:locres:set-01:IKChainsOp:TargetZeroLengthIK:25b78852",
+        "official_en_record_id": "switch:locres:set-01:IKChainsOp:TargetZeroLengthIK:25b78852",
+        "jp_sha256": "6b6c8e50aba0f8b1ee271ec934f2f19522545c7273debc62889c020e65737ac3",
+        "official_en_sha256": "b21000371b61f73ab56bbf8b6b4abfdae18525be94fb9413269707cf98af0029"
+      },
+      "text": {
+        "jp": "IK リターゲターが IK を使用してターゲット ボーン チェーンをリターゲティングしようとしていますが、その長さがゼロです!",
+        "official_en": "IK Retargeter trying to retarget target bone chain with IK, but it is zero length!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKChainsOp:MissingIKRig:8d8767ad",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKChainsOp",
+        "key": "MissingIKRig",
+        "jp_record_id": "switch:locres:set-01:IKChainsOp:MissingIKRig:8d8767ad",
+        "official_en_record_id": "switch:locres:set-01:IKChainsOp:MissingIKRig:8d8767ad",
+        "jp_sha256": "72aa37dd87b5eb432381046dae4e868d982576bcbd3b9e47a228f8c6b403f9f1",
+        "official_en_sha256": "620c9ed4a0001acd8c1fee0d9287ca9a722ddc90d38d008dd2caac7fc5402c7e"
+      },
+      "text": {
+        "jp": "{0} に IK リグがありません。どのチェーンもリターゲティングできません",
+        "official_en": "{0}, is missing an IK rig. No chains can be retargeted.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

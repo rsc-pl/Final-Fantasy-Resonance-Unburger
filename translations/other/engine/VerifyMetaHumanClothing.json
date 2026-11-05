@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "VerifyMetaHumanClothing",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanClothing:SkeletonMissing:0be070b6",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanClothing",
+        "key": "SkeletonMissing",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:SkeletonMissing:0be070b6",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:SkeletonMissing:0be070b6",
+        "jp_sha256": "acea4dc024ad90e3fc200d8cc0fcc60853265452c1b8ad94f2080418ad7b11f9",
+        "official_en_sha256": "40f1aa532ff9d867180319d2bc3c66b571f1c1126372991aa5b9529c4537161d"
+      },
+      "text": {
+        "jp": "SkelMesh {SkelMeshName} にスケルトンが正しく割り当てられていません",
+        "official_en": "The SkelMesh {SkelMeshName} does not have a skeleton correctly assigned",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanClothing:SkeletonMissmatch:5c09eee2",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanClothing",
+        "key": "SkeletonMissmatch",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:SkeletonMissmatch:5c09eee2",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:SkeletonMissmatch:5c09eee2",
+        "jp_sha256": "e24234cae756df658e99f2b2a054e6f10081376b8aff06115123f13c75dfd7fa",
+        "official_en_sha256": "0792deb657a315a454a0c1ca55012754f950c7b5a8a012538deadf06bfed4ed2"
+      },
+      "text": {
+        "jp": "{SkelMeshName} で使用されているスケルトン {SkeletonName} は、MetaHuman のボディ スケルトンに適合していません",
+        "official_en": "The Skeleton {SkeletonName} used by {SkelMeshName} is not compatible with the MetaHuman Body Skeleton",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanClothing:ObjectNotASkeletalMesh:ca489da5",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanClothing",
+        "key": "ObjectNotASkeletalMesh",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:ObjectNotASkeletalMesh:ca489da5",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:ObjectNotASkeletalMesh:ca489da5",
+        "jp_sha256": "8de5da08c6e537b0690171c9dd4e8c46ddf8652b08fc55a223bf6872cfcd2fa4",
+        "official_en_sha256": "9cb4157c1dedf3631ab2a0614daf3ee02d6aae291ff111f7eb49d30a4a547a4e"
+      },
+      "text": {
+        "jp": "UObject {AssetName} はスケルタルメッシュではありません",
+        "official_en": "The UObject {AssetName} is not a Skeletal Mesh",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanClothing:MissingWardrobeItem:a476c79a",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanClothing",
+        "key": "MissingWardrobeItem",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:MissingWardrobeItem:a476c79a",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:MissingWardrobeItem:a476c79a",
+        "jp_sha256": "21c81aeb89f01bacb092a28138282521063c316513d12a8e72c532901b516a79",
+        "official_en_sha256": "4d712492ad074a205eb118ce136e09ab2185d467136719e39db94906278a1eed"
+      },
+      "text": {
+        "jp": "パッケージには、ワードローブ アイテムが含まれていません。一部の機能は動作しないか、デフォルト値のままになります",
+        "official_en": "The package does not contain a Wardrobe Item. Certain features will not work or will be at default values",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanClothing:SkelMeshMissingLods:a7e84174",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanClothing",
+        "key": "SkelMeshMissingLods",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:SkelMeshMissingLods:a7e84174",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:SkelMeshMissingLods:a7e84174",
+        "jp_sha256": "a596b46e31c8a4146dbb46326d902036e1a7607835db4c66a947922f8e8a1108",
+        "official_en_sha256": "27bf7e535123228ef248fd173f71b179b1b688933a0e852290f14f5ec3ef5079"
+      },
+      "text": {
+        "jp": "{SkelMeshName} に少なくとも 4 つの詳細レベルがありません",
+        "official_en": "{SkelMeshName} does not have at least 4 levels of detail",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanClothing:SkelMeshVertexCountHigh:2b7dfff4",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanClothing",
+        "key": "SkelMeshVertexCountHigh",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:SkelMeshVertexCountHigh:2b7dfff4",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:SkelMeshVertexCountHigh:2b7dfff4",
+        "jp_sha256": "278e16baba28c37d83567d567b385ed354d8755e838cfbd7d562e19259cf4118",
+        "official_en_sha256": "120452b3cf49bab698d2b1a7e8009f5251cacaf3f373e23548a9f63f85ec42ba"
+      },
+      "text": {
+        "jp": "{SkelMeshName} の頂点数が 100000 を超えています",
+        "official_en": "{SkelMeshName} has more than 100000 vertices",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanClothing:SkelMeshMissingMaterials:48e0aeb1",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanClothing",
+        "key": "SkelMeshMissingMaterials",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:SkelMeshMissingMaterials:48e0aeb1",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:SkelMeshMissingMaterials:48e0aeb1",
+        "jp_sha256": "be5af2a5eff71f2897dd4de461cc74c8f41b698fabfc8b90cd4eafa24720986d",
+        "official_en_sha256": "e38e4a33e61db9c04d0f266fab9f3ecfb2f7aa2dea838407e7f8ece42e4b435a"
+      },
+      "text": {
+        "jp": "{SkelMeshName} に割り当てられたマテリアルがありません",
+        "official_en": "{SkelMeshName} has not got any Materials assigned",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanClothing:StaticMeshMissingLods:087b0698",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanClothing",
+        "key": "StaticMeshMissingLods",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:StaticMeshMissingLods:087b0698",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:StaticMeshMissingLods:087b0698",
+        "jp_sha256": "d9a676cfc95525b19baa7ca8a7f8ab62613bd3c8f0d288fa3ad82ba0dcb6dfd4",
+        "official_en_sha256": "344ea768124774f768e65e47f21d4890c8ebe4617f11ce8fb6d17d1088be0527"
+      },
+      "text": {
+        "jp": "{StaticMeshName} に少なくとも 4 つの詳細レベルがありません",
+        "official_en": "{StaticMeshName} does not have at least 4 levels of detail",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanClothing:StaticMeshVertexCountHigh:4d7081d2",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanClothing",
+        "key": "StaticMeshVertexCountHigh",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:StaticMeshVertexCountHigh:4d7081d2",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:StaticMeshVertexCountHigh:4d7081d2",
+        "jp_sha256": "c2a04c2e956af9a19dfec1bf8affd457586ebe8e4c3bd8b0a009705f9760281f",
+        "official_en_sha256": "52a047aacc9900d4fdd7e5b7682614b9d03d9537e4f8909148d5a146c1e244dd"
+      },
+      "text": {
+        "jp": "{StaticMeshName} の頂点数が 100000 を超えています",
+        "official_en": "{StaticMeshName} has more than 100000 vertices",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanClothing:StaticMeshMissingMaterials:e7e6fba7",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanClothing",
+        "key": "StaticMeshMissingMaterials",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:StaticMeshMissingMaterials:e7e6fba7",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:StaticMeshMissingMaterials:e7e6fba7",
+        "jp_sha256": "f658c17765c1ab8c2164def5320d54e954b6fb2d90b52d48725bbe0487baebf7",
+        "official_en_sha256": "19fbfc55832382c991a7e015bcbcb6d8155d0f961699d294e122e4407ca31aeb"
+      },
+      "text": {
+        "jp": "{StaticMeshName} に割り当てられたマテリアルがありません",
+        "official_en": "{StaticMeshName} has not got any Materials assigned",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VerifyMetaHumanClothing:TextureSizeHigh:78955413",
+      "source": {
+        "set": "set-02",
+        "namespace": "VerifyMetaHumanClothing",
+        "key": "TextureSizeHigh",
+        "jp_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:TextureSizeHigh:78955413",
+        "official_en_record_id": "switch:locres:set-01:VerifyMetaHumanClothing:TextureSizeHigh:78955413",
+        "jp_sha256": "69cc298cf0178c554fffc3001d1579a88bb017c2609b6c7f4d74f1ec8fdd96c2",
+        "official_en_sha256": "3f0c8c693f6aa5cf887a618d558e6e26c4bbf9d928817754d7a27406a6ffb287"
+      },
+      "text": {
+        "jp": "{TextureName} の寸法が {MaxDim} ({SizeX} x {SizeY}) よりも大きくなっています。これにより、ファイル サイズが非常に大きくなり、パフォーマンスが低下する可能性があります",
+        "official_en": "{TextureName} has a dimension greater than {MaxDim} ({SizeX} x {SizeY}). This may result in very large file sizes and poor performance",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

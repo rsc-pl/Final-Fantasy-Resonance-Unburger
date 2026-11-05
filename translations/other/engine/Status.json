@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "Status",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:Status:Provider-Subversion-EnabledLabel:78d19935",
+      "source": {
+        "set": "set-02",
+        "namespace": "Status",
+        "key": "Provider:",
+        "jp_record_id": "switch:locres:set-01:Status:Provider-Subversion-EnabledLabel:78d19935",
+        "official_en_record_id": "switch:locres:set-01:Status:Provider-Subversion-EnabledLabel:78d19935",
+        "jp_sha256": "addeccbea2108d32cd8f059d0db2d585eb27a7e77f11f50137c31642dd5a3692",
+        "official_en_sha256": "b175e22a889adea53962383ba074ad2e2873ced1412ca3efaf06719ddbb3fc00"
+      },
+      "text": {
+        "jp": "有効:{IsEnabled}\nリポジトリ:{RepositoryName}\nユーザー名:{UserName}",
+        "official_en": "Enabled: {IsEnabled}\nRepository: {RepositoryName}\nUser name: {UserName}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:Status:Provider-Git-EnabledLabel:3a11bb46",
+      "source": {
+        "set": "set-02",
+        "namespace": "Status",
+        "key": "Provider:",
+        "jp_record_id": "switch:locres:set-01:Status:Provider-Git-EnabledLabel:3a11bb46",
+        "official_en_record_id": "switch:locres:set-01:Status:Provider-Git-EnabledLabel:3a11bb46",
+        "jp_sha256": "2a6bfff34c57d275cdc698f93be7536b8340733412d6f6fa48dda08e7d7f0e35",
+        "official_en_sha256": "fa79e09b92d1c5460c81d3bf64f43b1c44776c9d69fc960a34b73dcc2ea3e684"
+      },
+      "text": {
+        "jp": "ローカルリポジトリ:{RepositoryName}\nリモート原点:{RemoteUrl}\nブランチ:{BranchName}\nユーザー:{UserName}\nEメール:{UserEmail}",
+        "official_en": "Local repository: {RepositoryName}\nRemote origin: {RemoteUrl}\nBranch: {BranchName}\nUser: {UserName}\nE-mail: {UserEmail}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

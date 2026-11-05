@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "AsyncAssetCompilation",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:AsyncAssetCompilation:MemoryLimitExceeded:b5063eec",
+      "source": {
+        "set": "set-02",
+        "namespace": "AsyncAssetCompilation",
+        "key": "MemoryLimitExceeded",
+        "jp_record_id": "switch:locres:set-01:AsyncAssetCompilation:MemoryLimitExceeded:b5063eec",
+        "official_en_record_id": "switch:locres:set-01:AsyncAssetCompilation:MemoryLimitExceeded:b5063eec",
+        "jp_sha256": "9b8da99ec6af016cc22335b123039bcb9bec4febcce46377db3f4744d24334b0",
+        "official_en_sha256": "cac7b9bd9e9f37f9eeb2919079dfc635c2f0a0245b4c600d3231fce5dbeef215"
+      },
+      "text": {
+        "jp": "注意：アセットコンパイルの推定メモリは使用可能な量より大きくなりますが、これを実行します [{TaskName}] !必須メモリ = {TotalEstimatedMemory} MiB + {RequiredMemory} MiB、メモリ制限 = {MemoryLimit} MiB ",
+        "official_en": "BEWARE: AssetCompile memory estimate is greater than available, but we're running it [{TaskName}] anyway! RequiredMemory = {TotalEstimatedMemory} MiB + {RequiredMemory} MiB, MemoryLimit = {MemoryLimit} MiB ",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:AsyncAssetCompilation:HardMemoryLimitExceeded:35e2a05f",
+      "source": {
+        "set": "set-02",
+        "namespace": "AsyncAssetCompilation",
+        "key": "HardMemoryLimitExceeded",
+        "jp_record_id": "switch:locres:set-01:AsyncAssetCompilation:HardMemoryLimitExceeded:35e2a05f",
+        "official_en_record_id": "switch:locres:set-01:AsyncAssetCompilation:HardMemoryLimitExceeded:35e2a05f",
+        "jp_sha256": "9392b93ad57884222b569eaad6822ca351feab9e8f33f762f2265f31e2293252",
+        "official_en_sha256": "8819dcba92964e3936fa999a5434d5ea0fb22e7a1b4a90c76ec224fbd9fd5e27"
+      },
+      "text": {
+        "jp": "注意：アセットコンパイルの推定メモリはハード メモリ制限より大きくなりますが、これを実行します [{TaskName}] !必須メモリ = {TotalEstimatedMemory} MiB + {RequiredMemory} MiB、メモリ制限 = {MemoryLimit} MiB、 ハード メモリ制限 = {HardMemoryLimit} MiB",
+        "official_en": "BEWARE: AssetCompile memory estimate is greater than the hard memory limit, but we're running it [{TaskName}] anyway! RequiredMemory = {TotalEstimatedMemory} MiB + {RequiredMemory} MiB, MemoryLimit = {MemoryLimit} MiB, HardMemoryLimit = {HardMemoryLimit} MiB",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,678 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MetasoundStandardNodes_LimiterNode",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputThresholdDbTooltip:86f2289a",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_LimiterNode",
+        "key": "InputThresholdDbTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputThresholdDbTooltip:86f2289a",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputThresholdDbTooltip:86f2289a",
+        "jp_sha256": "b7f552db2f219a81073dd8f656561dd5c4158a55e140b48adc443f9dd224a578",
+        "official_en_sha256": "d49f635f7e70de03969eeb56a17013405b46a166862a041bd76c5867036779c7"
+      },
+      "text": {
+        "jp": "その値を超えるとゲインが減少する、振幅しきい値。",
+        "official_en": "Amplitude threshold above which gain will be reduced.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputAudioDisplayName:31fa6250",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_LimiterNode",
+        "key": "InputAudioDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputAudioDisplayName:31fa6250",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputAudioDisplayName:31fa6250",
+        "jp_sha256": "bc1b88907d3b748af99cb9d4ffc07a0118dad5dab21a9dbdcc5a17a09641364a",
+        "official_en_sha256": "bc1b88907d3b748af99cb9d4ffc07a0118dad5dab21a9dbdcc5a17a09641364a"
+      },
+      "text": {
+        "jp": "Audio",
+        "official_en": "Audio",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:OutputAudioDisplayName:6999efbe",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_LimiterNode",
+        "key": "OutputAudioDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:OutputAudioDisplayName:6999efbe",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:OutputAudioDisplayName:6999efbe",
+        "jp_sha256": "bc1b88907d3b748af99cb9d4ffc07a0118dad5dab21a9dbdcc5a17a09641364a",
+        "official_en_sha256": "bc1b88907d3b748af99cb9d4ffc07a0118dad5dab21a9dbdcc5a17a09641364a"
+      },
+      "text": {
+        "jp": "Audio",
+        "official_en": "Audio",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputInGainDbTooltip:02684fef",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_LimiterNode",
+        "key": "InputInGainDbTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputInGainDbTooltip:02684fef",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputInGainDbTooltip:02684fef",
+        "jp_sha256": "833b483e55b038d79f10ff062951b81184c8cae6d3c95c445e759c9b8fec1194",
+        "official_en_sha256": "e028dbeee730628e35528ffa763e0e165c7e1f6760b6f6af514b4be2f70476b0"
+      },
+      "text": {
+        "jp": "制限する前に入力に適用するゲイン (デシベル単位)。最大値 100 dB ",
+        "official_en": "Gain to apply to the input before limiting, in decibels. Maximum 100 dB. ",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:KneeModeHardDescription:35e4f4db",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_LimiterNode",
+        "key": "KneeModeHardDescription",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:KneeModeHardDescription:35e4f4db",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:KneeModeHardDescription:35e4f4db",
+        "jp_sha256": "34e1afc58c096dbeef3b3f07656daa1a279dad3a49423dbcfc9934bcd74b3ec5",
+        "official_en_sha256": "9e73f8fa9cb76c441b3118628a15b2bdf4116324954957961bacc171fbead4a3"
+      },
+      "text": {
+        "jp": "ハード",
+        "official_en": "Hard",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputReleaseTimeTooltip:0b9cfbbc",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_LimiterNode",
+        "key": "InputReleaseTimeTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputReleaseTimeTooltip:0b9cfbbc",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputReleaseTimeTooltip:0b9cfbbc",
+        "jp_sha256": "a87aa757082384c0fd3deac2bbe7edb54493b75a1f36739b9bac7cea02aae79e",
+        "official_en_sha256": "b54ad1f55643c87c078c1f2c4473775ac3f58a66606743549f4b32cc286c77d9"
+      },
+      "text": {
+        "jp": "しきい値を下回るオーディオが元のボリュームレベルに戻るまでにかかる時間。",
+        "official_en": "How long it takes for audio below the threshold to return to its original volume level.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputAudioTooltip:21ca3a5e",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_LimiterNode",
+        "key": "InputAudioTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputAudioTooltip:21ca3a5e",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputAudioTooltip:21ca3a5e",
+        "jp_sha256": "3c8e19277eb710f649b9a6cf6ba4e8a385b598bf382961fd732907e12d440494",
+        "official_en_sha256": "1d641446332d5c98620a5df976efa54fa2f771244726edfbfd6cde2f82da75bb"
+      },
+      "text": {
+        "jp": "圧縮する入力オーディオ信号。",
+        "official_en": "Incoming audio signal to compress.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputInGainDbDisplayName:bf103075",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_LimiterNode",
+        "key": "InputInGainDbDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputInGainDbDisplayName:bf103075",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputInGainDbDisplayName:bf103075",
+        "jp_sha256": "5c8f7a7a8e7093504097f8ae1c8117d4e23e2948f7d6f0c5fbc8a2bc2e8925aa",
+        "official_en_sha256": "eddb4dd5b67a5ee29039732ded5b11c6a6f4b784d69a58fac484977c1649812a"
+      },
+      "text": {
+        "jp": "入力ゲイン (dB)",
+        "official_en": "Input Gain dB",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputKneeModeDisplayName:54537189",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_LimiterNode",
+        "key": "InputKneeModeDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputKneeModeDisplayName:54537189",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputKneeModeDisplayName:54537189",
+        "jp_sha256": "40b8114420b946959380a11e8c030f4cc188227e2a032fb6d52d9bbc9bcbb515",
+        "official_en_sha256": "24d8133246f98eb49f7ceea55b8c63e2e13e7491cbc508ed43f9ce003a1e1d3f"
+      },
+      "text": {
+        "jp": "Knee (ニー)",
+        "official_en": "Knee",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:LimiterDisplayName:abc0bb0c",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_LimiterNode",
+        "key": "LimiterDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:LimiterDisplayName:abc0bb0c",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:LimiterDisplayName:abc0bb0c",
+        "jp_sha256": "d313c56e516e696366e4a00e7f66d5a794692f59cd52553cd788bd011481b84a",
+        "official_en_sha256": "d313c56e516e696366e4a00e7f66d5a794692f59cd52553cd788bd011481b84a"
+      },
+      "text": {
+        "jp": "Limiter",
+        "official_en": "Limiter",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:KneeModeSoftDescriptionTT:a87a3a52",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_LimiterNode",
+        "key": "KneeModeSoftDescriptionTT",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:KneeModeSoftDescriptionTT:a87a3a52",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:KneeModeSoftDescriptionTT:a87a3a52",
+        "jp_sha256": "bec78c558ff021b461f41f974e7d8ff0f815e8cd61d0d890d19dcc4cbea3aa4b",
+        "official_en_sha256": "455d931fc7485b34115102d21f6913f0f4591cb80fd0ff7ac452f4e87c34c816"
+      },
+      "text": {
+        "jp": "しきい値の周辺で激変しないようにリミッタをアクティブ化します",
+        "official_en": "Limiter activates more smoothly near the threshold.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:KneeModeHardDescriptionTT:c31164ac",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_LimiterNode",
+        "key": "KneeModeHardDescriptionTT",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:KneeModeHardDescriptionTT:c31164ac",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:KneeModeHardDescriptionTT:c31164ac",
+        "jp_sha256": "523db60f71f762487a1516b67fed5478165476532cb22ed1e1c989d2d22a7f1d",
+        "official_en_sha256": "ced3e5e7bc198ec137cf6f6aac6e6a1065d72eb19e870a5f965c2ce3966f3911"
+      },
+      "text": {
+        "jp": "厳密にしきい値を超えるオーディオのみがリミッタの影響を受けます",
+        "official_en": "Only audio strictly above the threshold is affected by the limiter.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:LimiterDesc:c2ee97de",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_LimiterNode",
+        "key": "LimiterDesc",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:LimiterDesc:c2ee97de",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:LimiterDesc:c2ee97de",
+        "jp_sha256": "e76c64fc1873b7077e2b532288a726967eb882e11ff3d191ff246508735fb74b",
+        "official_en_sha256": "27bc6d9598fb50fa139eff87bd69d6018bb34c5ef2ada546f9b5ede99458e4d9"
+      },
+      "text": {
+        "jp": "指定したしきい値を信号が超えないようにします。",
+        "official_en": "Prevents a signal from going above a given threshold.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputReleaseTimeDisplayName:1cd62f42",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_LimiterNode",
+        "key": "InputReleaseTimeDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputReleaseTimeDisplayName:1cd62f42",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputReleaseTimeDisplayName:1cd62f42",
+        "jp_sha256": "c9eb477290f501b0d5c2047e9aa8ce5f3193eb2e921e4f68ba0e7b17b24ef5d3",
+        "official_en_sha256": "b5d0f8bcd23cfdb60a17b2c7dfef8ec71343949c086f2e039c42b57d64be2d38"
+      },
+      "text": {
+        "jp": "リリース時間",
+        "official_en": "Release Time",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:KneeModeSoftDescription:9377e44d",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_LimiterNode",
+        "key": "KneeModeSoftDescription",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:KneeModeSoftDescription:9377e44d",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:KneeModeSoftDescription:9377e44d",
+        "jp_sha256": "277ea2f65d52236cfd51d7a68a58157977344486302f7c578ab285454013db87",
+        "official_en_sha256": "5964d46729562387b10a78d65b7f67e8a237f197c65ebccd12298ffe9f098de1"
+      },
+      "text": {
+        "jp": "ソフト",
+        "official_en": "Soft",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:OutputAudioTooltip:945a311c",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_LimiterNode",
+        "key": "OutputAudioTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:OutputAudioTooltip:945a311c",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:OutputAudioTooltip:945a311c",
+        "jp_sha256": "287c029a9f510996549a030700d0531495b02b17830ba18b3edaf1f670b956db",
+        "official_en_sha256": "025924593a8f2df2593098598f168865197ce2fdf7bb2762a5cecdcc03da7abe"
+      },
+      "text": {
+        "jp": "出力オーディオ信号。",
+        "official_en": "The output audio signal.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputThresholdDbDisplayName:57563560",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_LimiterNode",
+        "key": "InputThresholdDbDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputThresholdDbDisplayName:57563560",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputThresholdDbDisplayName:57563560",
+        "jp_sha256": "e5f48bbc4e9865e6c168c5a73817b240215e59a4b864b461bef749d4c1f75550",
+        "official_en_sha256": "12277bd618ee0aab4d3afcf3273e5da2cf69d7751264fbadb706b99424fe9b76"
+      },
+      "text": {
+        "jp": "しきい値 (dB)",
+        "official_en": "Threshold dB",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputKneeModeTooltip:8ba76ff6",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_LimiterNode",
+        "key": "InputKneeModeTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputKneeModeTooltip:8ba76ff6",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_LimiterNode:InputKneeModeTooltip:8ba76ff6",
+        "jp_sha256": "8a0826059143e46b4038513ba9a13189472d5b997eecae03bca82671d6e1a7dc",
+        "official_en_sha256": "6a5050fc5e2b6771eced098a545c615c3306baa69ca8ee49626c06bbed6556f0"
+      },
+      "text": {
+        "jp": "リミッターがハードニーまたはソフトニーを使用するかどうか。",
+        "official_en": "Whether the limiter uses a hard or soft knee.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

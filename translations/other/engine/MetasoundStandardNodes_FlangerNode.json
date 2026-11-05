@@ -1,0 +1,530 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MetasoundStandardNodes_FlangerNode",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:Metasound_FlangerNodeDescription:9fcf5296",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_FlangerNode",
+        "key": "Metasound_FlangerNodeDescription",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:Metasound_FlangerNodeDescription:9fcf5296",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:Metasound_FlangerNodeDescription:9fcf5296",
+        "jp_sha256": "5f84967d5a53a21a51ebbdef6431e7dbd9b02b1acad52939aee3f89750db93d1",
+        "official_en_sha256": "c0d6888c51785310df31f59d6ab791ba6a79c56423a15612a5d73f726417a329"
+      },
+      "text": {
+        "jp": "フランジャーエフェクトを入力オーディオに適用します。",
+        "official_en": "Applies a flanger effect to input audio.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputMixLevelTooltip:c100366e",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_FlangerNode",
+        "key": "InputMixLevelTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputMixLevelTooltip:c100366e",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputMixLevelTooltip:c100366e",
+        "jp_sha256": "5befd334e93113d4f2c0f7b117c4a3d5e8531328cf5dfcd7e8c73198fe01dcbd",
+        "official_en_sha256": "f17850274e22124aea572f037692dec72be5435b02d84fb324b931dfb89be510"
+      },
+      "text": {
+        "jp": "元の信号と遅延信号間のバランス (0から0.1の間で設定されている必要があります。0.5はそれぞれ同量、> 0.5は非遅延信号より遅延信号の方が多くなります)。",
+        "official_en": "Balance between original and delayed signal (Should be between 0 and 1.0; 0.5 is equal amounts of each and > 0.5 is more delayed signal than non-delayed signal).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputCenterDelayDisplayName:99b5d60e",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_FlangerNode",
+        "key": "InputCenterDelayDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputCenterDelayDisplayName:99b5d60e",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputCenterDelayDisplayName:99b5d60e",
+        "jp_sha256": "afac01c472854a66ef5aa88f402ac9a95b04619586fc7de8603996bf54e1454d",
+        "official_en_sha256": "4c087de57916e75183facbf5a785ec2acbd2726d74852053428dcdf4f75f772e"
+      },
+      "text": {
+        "jp": "Center Delay (中心遅延)",
+        "official_en": "Center Delay",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:Metasound_FlangerNodeDisplayName:c8024339",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_FlangerNode",
+        "key": "Metasound_FlangerNodeDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:Metasound_FlangerNodeDisplayName:c8024339",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:Metasound_FlangerNodeDisplayName:c8024339",
+        "jp_sha256": "1c35e606c95ef082142a7942ece58dd2e6b0dea21f54e6d4da115f4f395b3009",
+        "official_en_sha256": "1c35e606c95ef082142a7942ece58dd2e6b0dea21f54e6d4da115f4f395b3009"
+      },
+      "text": {
+        "jp": "Flanger",
+        "official_en": "Flanger",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputAudioDisplayName:e6240b0d",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_FlangerNode",
+        "key": "InputAudioDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputAudioDisplayName:e6240b0d",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputAudioDisplayName:e6240b0d",
+        "jp_sha256": "8b3ac5563666e00e7a38368aae519c5674610e7d0a1a2c706917d9e61a0809a1",
+        "official_en_sha256": "2a47cb19ae22e317821cbb735ca59d9537fa3366ab969fd525d8d3ab1820614d"
+      },
+      "text": {
+        "jp": "In Audio (オーディオを入力)",
+        "official_en": "In Audio",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputMixLevelDisplayName:24430754",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_FlangerNode",
+        "key": "InputMixLevelDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputMixLevelDisplayName:24430754",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputMixLevelDisplayName:24430754",
+        "jp_sha256": "d6afd783f4803cfa131fbad9b8f1fce5327c3ced2dd8113067581ae75c934347",
+        "official_en_sha256": "8081bafade019bf8c51c8b2e79f14c32f5fa83ec2fb36668dfd8c613931cb7d9"
+      },
+      "text": {
+        "jp": "Mix Level (ミックスレベル)",
+        "official_en": "Mix Level",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputModulationDepthDisplayName:25060c9a",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_FlangerNode",
+        "key": "InputModulationDepthDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputModulationDepthDisplayName:25060c9a",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputModulationDepthDisplayName:25060c9a",
+        "jp_sha256": "7fa0b907ae2b0cbcf50d93226790a7ff45d3b926aded0b6b3d8032d2ea84f1a0",
+        "official_en_sha256": "faf28e2962244825d3a4970e19b6677fd4914b5fb8196dc8ed5a5cfa4815fb05"
+      },
+      "text": {
+        "jp": "Modulation Depth (モジュレーションの深度)",
+        "official_en": "Modulation Depth",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputModulationRateDisplayName:4d9e2af0",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_FlangerNode",
+        "key": "InputModulationRateDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputModulationRateDisplayName:4d9e2af0",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputModulationRateDisplayName:4d9e2af0",
+        "jp_sha256": "46d68ee151fd53ddb256be9176f555b2b777888604980e184a9bc4fe16611291",
+        "official_en_sha256": "1901c7c6f398dbaaa44ba3d582573c5d868c55db206146d92e70e39e86b9bdb5"
+      },
+      "text": {
+        "jp": "Modulation Rate (モジュレーションレート)",
+        "official_en": "Modulation Rate",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:OutputAudioDisplayName:786ee600",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_FlangerNode",
+        "key": "OutputAudioDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:OutputAudioDisplayName:786ee600",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:OutputAudioDisplayName:786ee600",
+        "jp_sha256": "3620dad331922eb80cf3c7fc7c4ea226c04ab62c0c072ed6b3eb4b307e387dc1",
+        "official_en_sha256": "e6b08b3671a2deb18509ec13ee888381258ffe56fbf6bab38db070ce2c44cfa9"
+      },
+      "text": {
+        "jp": "Out Audio (オーディオを出力)",
+        "official_en": "Out Audio",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:OutputAudioTooltip:22bc93ab",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_FlangerNode",
+        "key": "OutputAudioTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:OutputAudioTooltip:22bc93ab",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:OutputAudioTooltip:22bc93ab",
+        "jp_sha256": "34e0d9f4b6a8e8afbc1279c23e8fe28e19ed204e38a47bc086ef9306134b258b",
+        "official_en_sha256": "6eeeccc6d8f1856f053335b3f489d35b243e8c2b9c89698c16cb1692d1eaad3b"
+      },
+      "text": {
+        "jp": "フランジャーエフェクトを適用した出力オーディオ。",
+        "official_en": "Output audio with flanger effect applied.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputModulationDepthTooltip:27a2d700",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_FlangerNode",
+        "key": "InputModulationDepthTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputModulationDepthTooltip:27a2d700",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputModulationDepthTooltip:27a2d700",
+        "jp_sha256": "728d8078901f1d9cade5a6dc39300add687ec29c18a67ec33ab819254e15682f",
+        "official_en_sha256": "6be59d13d0169628320c758885241300875f92c71bfb6eda1d56b7dc7dd6ee86"
+      },
+      "text": {
+        "jp": "遅延時間をスケーリングするLFO振幅 (強度)。",
+        "official_en": "The LFO amplitude (strength) that scales the delay time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputModulationRateTooltip:5782e7e7",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_FlangerNode",
+        "key": "InputModulationRateTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputModulationRateTooltip:5782e7e7",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputModulationRateTooltip:5782e7e7",
+        "jp_sha256": "90a89ade38ca024976a4fa93667492383827b9b5f0439007d48749ac6f9fc6aa",
+        "official_en_sha256": "f1fb154cbc3e6f482784eaf7f5c6590475c53d100441e829382e14f48d3e036b"
+      },
+      "text": {
+        "jp": "遅延時間を変化させるLFO周波数 (レート) (Hz単位)。ブロックレートでクランプされています。",
+        "official_en": "The LFO frequency (rate) that varies the delay time, in Hz. Clamped at blockrate.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputAudioTooltip:f9d0365c",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_FlangerNode",
+        "key": "InputAudioTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputAudioTooltip:f9d0365c",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputAudioTooltip:f9d0365c",
+        "jp_sha256": "ec83d31fe4120d9c19bb8806fb1cb5be3bfbc6539142b250efc9284e61e33f96",
+        "official_en_sha256": "93574f8968648bb63b31dc1b4003037febd26432086b3493b9def6693b0cc6fb"
+      },
+      "text": {
+        "jp": "オーディオ入力。",
+        "official_en": "The audio input.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputCenterDelayTooltip:aa4e88ff",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_FlangerNode",
+        "key": "InputCenterDelayTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputCenterDelayTooltip:aa4e88ff",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_FlangerNode:InputCenterDelayTooltip:aa4e88ff",
+        "jp_sha256": "18289e957debd784eccfc316d0ce38640848ef2dab4908b166b44acdc50ef258",
+        "official_en_sha256": "12216b5cbdf2cf1b1ac9ae4575d4b30f48683a90c70ecf087727fbfc32aff26e"
+      },
+      "text": {
+        "jp": "中心遅延量 (ミリ秒単位)。",
+        "official_en": "The center delay amount (in milliseconds).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

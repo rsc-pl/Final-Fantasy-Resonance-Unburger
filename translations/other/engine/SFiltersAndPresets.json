@@ -1,0 +1,974 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SFiltersAndPresets",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:AvgDesc:86af7590",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "AvgDesc",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:AvgDesc:86af7590",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:AvgDesc:86af7590",
+        "jp_sha256": "2aa3e7a41ba1ff82476b18b1f6d020dfecef7364b30798bd20b294a508b696bd",
+        "official_en_sha256": "e3512df642f2de4b8cd75e4dce84d6d7cca28f8f109638083c67e11132c6dc19"
+      },
+      "text": {
+        "jp": "平均: {0}",
+        "official_en": "Avg: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:CallsFramesPctDesc:66b5a0f6",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "CallsFramesPctDesc",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:CallsFramesPctDesc:66b5a0f6",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:CallsFramesPctDesc:66b5a0f6",
+        "jp_sha256": "cdc6a3919c8f847cc65d721b8a8dcbca58b42ea6972e7b2402775b1c5d211ce0",
+        "official_en_sha256": "80c75599cc8676ad4ea2ec303201f9110462fd87bc04c90aac9cf0eacc10e88d"
+      },
+      "text": {
+        "jp": "コールでフレームを呼び出す: {0}",
+        "official_en": "Calls Frames with call: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Desc_GroupName:6bb9b1d5",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "GroupingOrSorting_Desc_GroupName",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Desc_GroupName:6bb9b1d5",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Desc_GroupName:6bb9b1d5",
+        "jp_sha256": "559611dfef28e535042bd5333e0bea3665735c2002863f1c8b4632757183c159",
+        "official_en_sha256": "c8ee3d14e8b48dd631557f5f9497ff9c55139f58351e14affb325cc91fcf343c"
+      },
+      "text": {
+        "jp": "統計メタデータグループに基づいたグループを作成",
+        "official_en": "Creates groups based on stat metadata groups",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Desc_StatValue:64cfae10",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "GroupingOrSorting_Desc_StatValue",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Desc_StatValue:64cfae10",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Desc_StatValue:64cfae10",
+        "jp_sha256": "77e41e9d45d8f3b91d3487f76094052950ce7cdfc82abbede47005dc80eb789c",
+        "official_en_sha256": "e66421815c3625a8ea5154967b91d556b1f0235edb612d85875452888082a75b"
+      },
+      "text": {
+        "jp": "0.001 - 0.01、 0.01 - 0.1、 0.1 - 1.0, 1.0 - 10.0など、それぞれの対数範囲にグループを1つ作成します。",
+        "official_en": "Creates one group for each logarithmic range ie. 0.001 - 0.01, 0.01 - 0.1, 0.1 - 1.0, 1.0 - 10.0 etc",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Desc_StatType:8209def1",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "GroupingOrSorting_Desc_StatType",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Desc_StatType:8209def1",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Desc_StatType:8209def1",
+        "jp_sha256": "427a3edd8dff41958d72f19c58429004ef69f6caec26c99d5bc1bcbb0ac0d251",
+        "official_en_sha256": "ac96924f3484c8543ad0729eaf05b3a6d2f898908e646e3b38b3816ad37aa477"
+      },
+      "text": {
+        "jp": "それぞれの統計タイプに1つのグループを作成します",
+        "official_en": "Creates one group for each stat type",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Desc_StatName:2eebe685",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "GroupingOrSorting_Desc_StatName",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Desc_StatName:2eebe685",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Desc_StatName:2eebe685",
+        "jp_sha256": "3b9d85e878b2eeb3c0f03807f7d732f9d1c09c0b8a6a116cef11d10de88731c7",
+        "official_en_sha256": "8343fdc63646ef0981ed018ed08e76a12ca313421f488a4170438c7904cf1235"
+      },
+      "text": {
+        "jp": "1文字に1つのグループを作成します",
+        "official_en": "Creates one group for one letter",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Name_GroupName:d4b09100",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "GroupingOrSorting_Name_GroupName",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Name_GroupName:d4b09100",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Name_GroupName:d4b09100",
+        "jp_sha256": "f9ad6073adc3bf23faf8c4800f6596b1068b9b462d560e22700b9a75d97837b5",
+        "official_en_sha256": "8e7526fdcc5cc34f34e420cbf90edb89c12522dc03e124cf8f9327f8ec5bdead"
+      },
+      "text": {
+        "jp": "グループ名",
+        "official_en": "Group Name",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:GroupByText:fc34365e",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "GroupByText",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupByText:fc34365e",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupByText:fc34365e",
+        "jp_sha256": "be1f4c27992901cf55416465577b3e7e51a8768c1053940c416825bf915b9a1f",
+        "official_en_sha256": "956a51f6b098a41b7c3108015f0790bb24af7693717b07cee39d5df6a5da1826"
+      },
+      "text": {
+        "jp": "グループ化",
+        "official_en": "Group by",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:GroupDesc:dcdfc2d6",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "GroupDesc",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupDesc:dcdfc2d6",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupDesc:dcdfc2d6",
+        "jp_sha256": "69aec2545b1ae718c6b5e83498f99fed7e2980297aafc52806277591e9222895",
+        "official_en_sha256": "aff83496e70983e117098324d85688bfde025945c797e9b76fdc739f50811e75"
+      },
+      "text": {
+        "jp": "グループ:",
+        "official_en": "Group:",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:InvalidOrMax:2d86070e",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "InvalidOrMax",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:InvalidOrMax:2d86070e",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:InvalidOrMax:2d86070e",
+        "jp_sha256": "e6b79a4337f1e2a036c648862dcd70a070f9319b96ffd8219eb57de1ff9ad152",
+        "official_en_sha256": "e6b79a4337f1e2a036c648862dcd70a070f9319b96ffd8219eb57de1ff9ad152"
+      },
+      "text": {
+        "jp": "InvalidOrMax",
+        "official_en": "InvalidOrMax",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:MaxDesc:93a68a29",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "MaxDesc",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:MaxDesc:93a68a29",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:MaxDesc:93a68a29",
+        "jp_sha256": "d31a695dddb64b6c1f848414eaf53c10d13bfdad9073b1ddbe9d69595e392ce6",
+        "official_en_sha256": "62c1132e35d316744be9aca01d9dad7e33dbbba8da147ceaf43f47adf5d9d57e"
+      },
+      "text": {
+        "jp": "最大: {0}",
+        "official_en": "Max: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:MinDesc:dccd3299",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "MinDesc",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:MinDesc:dccd3299",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:MinDesc:dccd3299",
+        "jp_sha256": "7b1bf30784c88f3aef87892fa301a853265531fa102c9e63197c96fe54439bbd",
+        "official_en_sha256": "a546bc44a7a1b924a4e494d75bd2d9591301891d20246a291ce3fe8935a4e39c"
+      },
+      "text": {
+        "jp": "最小: {0}",
+        "official_en": "Min: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:NameDesc:40808d29",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "NameDesc",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:NameDesc:40808d29",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:NameDesc:40808d29",
+        "jp_sha256": "93811e9c9d20ebd2bff10ece4334c04adf121ef8579b50457914c091b33e73f3",
+        "official_en_sha256": "2683cad48a14dc3f79c167e4e98cc01ed6cf0e364cdb399fc187a8fc39902571"
+      },
+      "text": {
+        "jp": "名前:",
+        "official_en": "Name:",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:SearchBoxHint:49c0cf18",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "SearchBoxHint",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:SearchBoxHint:49c0cf18",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:SearchBoxHint:49c0cf18",
+        "jp_sha256": "1d9ecff8228e97f8b03be52e8b41e358b2f82655c1d087d6b59a09a166a5e402",
+        "official_en_sha256": "b9fb396a543357081393efd1963199d1db791dc677cfe48b755f31c118af13ea"
+      },
+      "text": {
+        "jp": "統計情報またはグループを検索",
+        "official_en": "Search stats or groups",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:SortByText:b2fc872d",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "SortByText",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:SortByText:b2fc872d",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:SortByText:b2fc872d",
+        "jp_sha256": "f75f3214bc22c4957e35a010a08cb87692241c45abb295d2fef24eea4cbf9947",
+        "official_en_sha256": "c9129025bd3ff6522a7eeebc1abf1481f36e4ac9d74524a473ac1c3be1c6fc2f"
+      },
+      "text": {
+        "jp": "並べ替え",
+        "official_en": "Sort by",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Name_StatName:a5255578",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "GroupingOrSorting_Name_StatName",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Name_StatName:a5255578",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Name_StatName:a5255578",
+        "jp_sha256": "823ee7eda1999f3f104b9ea9ff1c7b8fd5d2b974b11858852eba1195f2818456",
+        "official_en_sha256": "37f8f887c24b1101c680b01fb0568859d75c232c5da397f0ad59221ad979e16e"
+      },
+      "text": {
+        "jp": "統計情報名",
+        "official_en": "Stat Name",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Name_StatType:83ad00e1",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "GroupingOrSorting_Name_StatType",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Name_StatType:83ad00e1",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Name_StatType:83ad00e1",
+        "jp_sha256": "18c7f0226f9543e04fc4fd63ac3a6e7080c1983a39be3b50e0475d38216d856b",
+        "official_en_sha256": "6eca0fc39fc618a8bd51fed8291ccc9eaa193b709e332cabb46643be9152ff2e"
+      },
+      "text": {
+        "jp": "統計の種類",
+        "official_en": "Stat Type",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Name_StatValue:3315ae9c",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "GroupingOrSorting_Name_StatValue",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Name_StatValue:3315ae9c",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupingOrSorting_Name_StatValue:3315ae9c",
+        "jp_sha256": "5fbe3b6899083e117d2bd5fc51ce23c9f215b6dd3a999bd7801dbdda83afcee4",
+        "official_en_sha256": "2ca2a749b196df428ebd269f84e71cdce536ca3a3222c72574741571358eeba6"
+      },
+      "text": {
+        "jp": "統計値",
+        "official_en": "Stat Value",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:StatInstance:a9a6007b",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "StatInstance",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:StatInstance:a9a6007b",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:StatInstance:a9a6007b",
+        "jp_sha256": "8f64c2f199136f41a8acc35e12a116e03f4edaab706d0a8885ac6bd370a23023",
+        "official_en_sha256": "73a96ff7c10116da19e14bd881372922e2768104db350a14d8ee2542e960364d"
+      },
+      "text": {
+        "jp": "プロファイラインスタンスの統計情報",
+        "official_en": "Stat information for profiler instance",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:NoStatData:f83fd775",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "NoStatData",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:NoStatData:f83fd775",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:NoStatData:f83fd775",
+        "jp_sha256": "52ff09991a20d3a4c736a4d52809a9c3fb1a5a595a19def7580d0b4a7b58c771",
+        "official_en_sha256": "c5f6f4b5d2e1fa72d95141e99b94e213244ab51bdde2800f3256fc44d54e703b"
+      },
+      "text": {
+        "jp": "この統計情報にはデータがありません",
+        "official_en": "There is no data for this stat",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:NotImplemented:caea2dc8",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "NotImplemented",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:NotImplemented:caea2dc8",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:NotImplemented:caea2dc8",
+        "jp_sha256": "3e2003a23e0e422d8ecc1be9d7ae4312b8a709929fb8da250e122ff868e9941c",
+        "official_en_sha256": "0e122cf591c2faf08af61bd4c6bd9a8f934ad526b040bbdd28c63c7de0f62058"
+      },
+      "text": {
+        "jp": "複数プロファイラインスタンスのツールヒントはまだ実装されていません",
+        "official_en": "Tooltip for multiple profiler instances has not been implemented yet",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:FilterSearchHint:33e788b3",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "FilterSearchHint",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:FilterSearchHint:33e788b3",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:FilterSearchHint:33e788b3",
+        "jp_sha256": "5798c7435e2da77989d7a65eb65f52f3938205ac3009a576f99b90fd8ad5a3b7",
+        "official_en_sha256": "e616fa36f514fbfa0b7ada78511fb6cd293485f8f70ecc27699aaa0c948dae33"
+      },
+      "text": {
+        "jp": "ここに入力して統計情報またはグループを検索",
+        "official_en": "Type here to search stats or group",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:TypeDesc:e5444b73",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "TypeDesc",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:TypeDesc:e5444b73",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:TypeDesc:e5444b73",
+        "jp_sha256": "6a8651b95a1c6b4343e59e779267a4c221701288739571b8f853aa47f16beee0",
+        "official_en_sha256": "6cc5ad2e47e3be35ccb7d354da13ebb25073fd05ad5daa216141819484207f4f"
+      },
+      "text": {
+        "jp": "種類：",
+        "official_en": "Type:",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:ValueDesc:0250f954",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "ValueDesc",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:ValueDesc:0250f954",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:ValueDesc:0250f954",
+        "jp_sha256": "19126213b0d126380f5fc7474be08db05389f4dda440a030a522448b7b2ea084",
+        "official_en_sha256": "8e37953d23daca5ff01b8282c33f4e0a2152f1d1885f94c06418617e3ee1d24e"
+      },
+      "text": {
+        "jp": "値",
+        "official_en": "Value",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:GroupAndStat_GroupNodeTextFmt:2d319c5d",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "GroupAndStat_GroupNodeTextFmt",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupAndStat_GroupNodeTextFmt:2d319c5d",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupAndStat_GroupNodeTextFmt:2d319c5d",
+        "jp_sha256": "60d5648e425a8a79b829174e84b9622acb800237ff6e8987a3da0976ee24a046",
+        "official_en_sha256": "60d5648e425a8a79b829174e84b9622acb800237ff6e8987a3da0976ee24a046"
+      },
+      "text": {
+        "jp": "{0} ({1}) ({2})",
+        "official_en": "{0} ({1}) ({2})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SFiltersAndPresets:GroupAndStat_GroupNodeTrackedTextFmt:4073323e",
+      "source": {
+        "set": "set-02",
+        "namespace": "SFiltersAndPresets",
+        "key": "GroupAndStat_GroupNodeTrackedTextFmt",
+        "jp_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupAndStat_GroupNodeTrackedTextFmt:4073323e",
+        "official_en_record_id": "switch:locres:set-01:SFiltersAndPresets:GroupAndStat_GroupNodeTrackedTextFmt:4073323e",
+        "jp_sha256": "918f1635c46c3caf33f6752bfebf9c3ac7a5d32cfe5c3091fee608aab8f599c5",
+        "official_en_sha256": "918f1635c46c3caf33f6752bfebf9c3ac7a5d32cfe5c3091fee608aab8f599c5"
+      },
+      "text": {
+        "jp": "{0}*",
+        "official_en": "{0}*",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ImageSequencePathChecker",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ImageSequencePathChecker:MissingDataTitle:bddb909d",
+      "source": {
+        "set": "set-02",
+        "namespace": "ImageSequencePathChecker",
+        "key": "MissingDataTitle",
+        "jp_record_id": "switch:locres:set-01:ImageSequencePathChecker:MissingDataTitle:bddb909d",
+        "official_en_record_id": "switch:locres:set-01:ImageSequencePathChecker:MissingDataTitle:bddb909d",
+        "jp_sha256": "f708a365b9c688867122f2e341e8585af7f6f9aa6f7f38bf007c91e3a6a231cd",
+        "official_en_sha256": "4eb4039ef4480125caec033e207795b98aba46fdbdce39c906af10e0068c2f66"
+      },
+      "text": {
+        "jp": "データが欠落",
+        "official_en": "Missing Data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ImageSequencePathChecker:ImageSequenceMissingDataMessage:d2537d8d",
+      "source": {
+        "set": "set-02",
+        "namespace": "ImageSequencePathChecker",
+        "key": "ImageSequenceMissingDataMessage",
+        "jp_record_id": "switch:locres:set-01:ImageSequencePathChecker:ImageSequenceMissingDataMessage:d2537d8d",
+        "official_en_record_id": "switch:locres:set-01:ImageSequencePathChecker:ImageSequenceMissingDataMessage:d2537d8d",
+        "jp_sha256": "3b30b2ecb7f76010bdee81bb3a295a8e660ff4691cee29f2a8d134cc743dee1e",
+        "official_en_sha256": "68af7775ed5bcbfc72949c2b6006d5731a166a372a0611b4ed5f5e65873ddbf6"
+      },
+      "text": {
+        "jp": "{AssetDisplayName} {NumCaptureDataFootageAssets} アセットに {NumInvalidImageSequences} データが不足しているイメージ シーケンスが含まれています。\n\n詳細については出力ログを参照してください",
+        "official_en": "{AssetDisplayName} {NumCaptureDataFootageAssets}|plural(one=asset contains,other=assets contain) {NumInvalidImageSequences}|plural(one=an image sequence which is,other=image sequences which have) missing data.\n\nSee output log for details.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

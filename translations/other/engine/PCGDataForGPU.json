@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGDataForGPU",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGDataForGPU:AttributePackingTypeConflict:d4de755a",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGDataForGPU",
+        "key": "AttributePackingTypeConflict",
+        "jp_record_id": "switch:locres:set-01:PCGDataForGPU:AttributePackingTypeConflict:d4de755a",
+        "official_en_record_id": "switch:locres:set-01:PCGDataForGPU:AttributePackingTypeConflict:d4de755a",
+        "jp_sha256": "f247680fa068fc4c18145eecaff19a04bbf568c2cd4eb101be454ea8a6d641b2",
+        "official_en_sha256": "589a747398eb567e26c187e18b9a0a341562f5a3535b6312f33dcde13115c38a"
+      },
+      "text": {
+        "jp": "入力データ内に複数の異なる型の「{0}」属性があるため、カスタム float パッキングが失敗しました",
+        "official_en": "Attribute '{0}' encountered with multiple different types in input data, custom float packing failed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGDataForGPU:PerformingReadback:03db4669",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGDataForGPU",
+        "key": "PerformingReadback",
+        "jp_record_id": "switch:locres:set-01:PCGDataForGPU:PerformingReadback:03db4669",
+        "official_en_record_id": "switch:locres:set-01:PCGDataForGPU:PerformingReadback:03db4669",
+        "jp_sha256": "5f5770300238cecbcc4e09ef463a4f83f9ef1d72e2f206a5c2a9471f8024f5d6",
+        "official_en_sha256": "36d438b144578d24419f0c518c3b5bffc841267c9cb052bbcbc170d838003b49"
+      },
+      "text": {
+        "jp": "リードバックを行っています",
+        "official_en": "Performing readback",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

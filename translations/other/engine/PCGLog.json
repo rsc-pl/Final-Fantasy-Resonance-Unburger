@@ -1,0 +1,826 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGLog",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGLog:IncomparableTypesFailure:22089544",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "IncomparableTypesFailure",
+        "jp_record_id": "switch:locres:set-01:PCGLog:IncomparableTypesFailure:22089544",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:IncomparableTypesFailure:22089544",
+        "jp_sha256": "fe6767511fd0996b830b1e7f8a36a833da6ab6223b6df4605d60c0fe4b4e943b",
+        "official_en_sha256": "99b5327bde726800de2eff5c3cc52f06cbd293aadf5ec66a8d4a59d485c48e77"
+      },
+      "text": {
+        "jp": "属性「{0}」と「{1}」に互換性がありません。同じ型または互換性のある型であることを確認してください",
+        "official_en": "Attributes '{0}' and '{1}' are incomparable. Ensure they are either of the same or compatible types.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:CreateAccessorFailure:4a4177be",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "CreateAccessorFailure",
+        "jp_record_id": "switch:locres:set-01:PCGLog:CreateAccessorFailure:4a4177be",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:CreateAccessorFailure:4a4177be",
+        "jp_sha256": "b78d77be9e1b1f35ce67b70ae0c99e6d8cb0507ed676c086b69f2bc3058d0627",
+        "official_en_sha256": "85111bad63a6ff3c5b1cf85418a99a357b8efb11587360cdf34071b5c903ebc5"
+      },
+      "text": {
+        "jp": "アクセサを作成できませんでした。属性「{0}」が見つかりませんでした",
+        "official_en": "Could not create accessor. Attribute '{0}' was not found.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:CreateAttributeFailure:06a0d465",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "CreateAttributeFailure",
+        "jp_record_id": "switch:locres:set-01:PCGLog:CreateAttributeFailure:06a0d465",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:CreateAttributeFailure:06a0d465",
+        "jp_sha256": "ecc52749163bad3474ed2c6011aa2274410ab9199da9969a8a36784d297dd19f",
+        "official_en_sha256": "e19a3cd9de7703d81c36338002bf231b6d000954a401bf65e6b03583f5a6ddb1"
+      },
+      "text": {
+        "jp": "型が「{1}」である属性「{0}」を作成できませんでした",
+        "official_en": "Could not create attribute '{0}' of type '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:GetTypedAttributeFailureNoAccessor:015e753e",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "GetTypedAttributeFailureNoAccessor",
+        "jp_record_id": "switch:locres:set-01:PCGLog:GetTypedAttributeFailureNoAccessor:015e753e",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:GetTypedAttributeFailureNoAccessor:015e753e",
+        "jp_sha256": "11dcbbad8d00c433451db13dc7f31ed7ede0b11d1a9304fd170cb27341b32a7e",
+        "official_en_sha256": "46afe15ec723af821a8debf71adc73cd2b2bddeb21e2906eaeed556e8320e544"
+      },
+      "text": {
+        "jp": "属性「{0}」の値 (型：{1}) を取得できませんでした",
+        "official_en": "Could not retrieve attribute '{0}' value of type: '{1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:GetAttributeFailure:7adfddc7",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "GetAttributeFailure",
+        "jp_record_id": "switch:locres:set-01:PCGLog:GetAttributeFailure:7adfddc7",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:GetAttributeFailure:7adfddc7",
+        "jp_sha256": "5f1c7de279485bb038f901094ee7f4020310ae94a7f884c41d137c4ae70a2f77",
+        "official_en_sha256": "d288ca9e443673b93b3a0c6a9ce90e800fff5da2a78d26b1487a89bf922b9752"
+      },
+      "text": {
+        "jp": "属性「{0}」の値を取得できませんでした",
+        "official_en": "Could not retrieve attribute '{0}' value.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:GetTypedAttributeFailure:f5b12b8d",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "GetTypedAttributeFailure",
+        "jp_record_id": "switch:locres:set-01:PCGLog:GetTypedAttributeFailure:f5b12b8d",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:GetTypedAttributeFailure:f5b12b8d",
+        "jp_sha256": "151c4d37ce92cb4db500b28cd6944a397eec771d77b93ffc824ec704922041c0",
+        "official_en_sha256": "2d1e2c6be5c8a58394212e0703dfa327f41e91302672e8e94eb29f80e708fd0c"
+      },
+      "text": {
+        "jp": "属性「{0}」の値を取得できませんでした。想定型：{1}、実際の型：{2}",
+        "official_en": "Could not retrieve attribute '{0}' value. Expected type: {1}, Actual Type: {2}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:SetTypedAttributeFailureNoAccessor:53d9c6fc",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "SetTypedAttributeFailureNoAccessor",
+        "jp_record_id": "switch:locres:set-01:PCGLog:SetTypedAttributeFailureNoAccessor:53d9c6fc",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:SetTypedAttributeFailureNoAccessor:53d9c6fc",
+        "jp_sha256": "cc78959ba6575151e55f3bc44ca8dd227e092895409c0501c4122387b73c7844",
+        "official_en_sha256": "5698d206fa713575c76e40e3caf59e5f54244c94356dfc1d6d6e7ad2fc2ae43f"
+      },
+      "text": {
+        "jp": "属性「{0}」の値 (型：{1}) を設定できませんでした",
+        "official_en": "Could not set value in attribute '{0}' value of type: '{1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:SetTypedAttributeFailure:3d6d8119",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "SetTypedAttributeFailure",
+        "jp_record_id": "switch:locres:set-01:PCGLog:SetTypedAttributeFailure:3d6d8119",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:SetTypedAttributeFailure:3d6d8119",
+        "jp_sha256": "07286e6c9b001aa5331c297cd445b4ffe71427a76be5aa39ac91f190066dbed1",
+        "official_en_sha256": "213e2781579a759ec374d5cf8a2ca45425a5fc8d92fad5c114ae8f2bd3034e22"
+      },
+      "text": {
+        "jp": "属性「{0}」の値を設定できませんでした。属性の型：{1}、値の型：{2}",
+        "official_en": "Could not set value in attribute '{0}'. Attribute type: {1}, Value Type: {2}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:TypedInputNotFound:a55dca69",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "TypedInputNotFound",
+        "jp_record_id": "switch:locres:set-01:PCGLog:TypedInputNotFound:a55dca69",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:TypedInputNotFound:a55dca69",
+        "jp_sha256": "8a6d8f8fc619ea8f5dcd8963e2712397db695ae0dc482f6d33ba4a18c61c2f04",
+        "official_en_sha256": "7ca79aecc3eb86fc6d4ec60050c70e4b760ea1963dae16218723b72b37e96554"
+      },
+      "text": {
+        "jp": "型 {0} のデータがピン「{1}」に見つかりません",
+        "official_en": "Data of type {0} not found on pin '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:EmptyExpression:f6168e74",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "EmptyExpression",
+        "jp_record_id": "switch:locres:set-01:PCGLog:EmptyExpression:f6168e74",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:EmptyExpression:f6168e74",
+        "jp_sha256": "1a1bc654585c168091023019f6af23d4290447721ce2f0aef6bf850cc997828a",
+        "official_en_sha256": "001fb520ca0fb73dd277b7fb81ac7d7ff0231d51682ad435f0962390705991ca"
+      },
+      "text": {
+        "jp": "パースされた文字列に空の式があります",
+        "official_en": "Empty expression in parsed string.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:ComponentAttachmentFailed:ba5803ac",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "ComponentAttachmentFailed",
+        "jp_record_id": "switch:locres:set-01:PCGLog:ComponentAttachmentFailed:ba5803ac",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:ComponentAttachmentFailed:ba5803ac",
+        "jp_sha256": "b0d23d5556e0c3c3c938368ef60944cc1abf115fd20e5bfa29f8d177a8b21a5b",
+        "official_en_sha256": "59f094045c60b2c807d99a78cc0687dda6348606cbd84f431f2a0481ce74159b"
+      },
+      "text": {
+        "jp": "コンポーネントをアタッチできませんでした。ログを確認してください",
+        "official_en": "Failed to attach the component, check the logs.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:InvalidCardinality:e366e2b7",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "InvalidCardinality",
+        "jp_record_id": "switch:locres:set-01:PCGLog:InvalidCardinality:e366e2b7",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:InvalidCardinality:e366e2b7",
+        "jp_sha256": "d5df558b9cfeda91e342d9f573df7cfab562519fdaa112c61a50766d0e108b56",
+        "official_en_sha256": "230f4377d23fccf947f2ced6c169c79722723a0031a153a797a5eb3e7b619d2f"
+      },
+      "text": {
+        "jp": "ピン「{0}」と「{1}」に無効なカーディナリティがあります。1:1、N:1、または N:N であることが必要です",
+        "official_en": "Invalid cardinality among pins '{0}' and '{1}'. They must match 1:1, N:1, or N:N.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:InvalidCharacter:6d387bca",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "InvalidCharacter",
+        "jp_record_id": "switch:locres:set-01:PCGLog:InvalidCharacter:6d387bca",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:InvalidCharacter:6d387bca",
+        "jp_sha256": "d26d6dbf8e1d0b7392e19f9faf5208fc559183cbabe04b4b4c8bdd3a9c442a7f",
+        "official_en_sha256": "273ee92161cf0b755716c8938c16ff3c3883cabc96fcb3e6c7e6b13883650123"
+      },
+      "text": {
+        "jp": "パースされた文字列に無効な文字があります：「{0}」",
+        "official_en": "Invalid character in parsed string: '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:InvalidConversion:4b126663",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "InvalidConversion",
+        "jp_record_id": "switch:locres:set-01:PCGLog:InvalidConversion:4b126663",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:InvalidConversion:4b126663",
+        "jp_sha256": "65c5a5b0f455c66cde41aabe344e9b9984503be9c05c7a5b408169f9594d3bd0",
+        "official_en_sha256": "376459086cb5565ebb72bcda8c9f8be4e22f02a4ca7006078f657dc73d81dbc1"
+      },
+      "text": {
+        "jp": "ノード設定「{1}」の事前設定インデックス「{0}」に対して無効な変換です。理由：{2}",
+        "official_en": "Invalid conversion for preconfiguration index '{0}' for node settings '{1}'. Reason: {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:InvalidExpression:1c94cb0c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "InvalidExpression",
+        "jp_record_id": "switch:locres:set-01:PCGLog:InvalidExpression:1c94cb0c",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:InvalidExpression:1c94cb0c",
+        "jp_sha256": "a0eb1400530bf1a6bd665901151a6fd2434dcba9a27bc78ae554658b5b76e6e4",
+        "official_en_sha256": "671c61744aa993e7c6e561769c4a152e96cafe3b219eec7edb62e0f152ab76d9"
+      },
+      "text": {
+        "jp": "パースされた文字列に無効な式があります：「{0}」",
+        "official_en": "Invalid expression in parsed string: '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:InvalidInputData:5ae22d05",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "InvalidInputData",
+        "jp_record_id": "switch:locres:set-01:PCGLog:InvalidInputData:5ae22d05",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:InvalidInputData:5ae22d05",
+        "jp_sha256": "3fa3a31063163ff84d89ee567deda2762b7ffd1d5becab274973db94bfbf78fe",
+        "official_en_sha256": "d7507a8357c3ce668632c8931d3a9ed82f659df64169ddb1a9c48ba6c496f6f2"
+      },
+      "text": {
+        "jp": "無効な入力データです",
+        "official_en": "Invalid input data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:InvalidPreconfiguration:b2d85ff0",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "InvalidPreconfiguration",
+        "jp_record_id": "switch:locres:set-01:PCGLog:InvalidPreconfiguration:b2d85ff0",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:InvalidPreconfiguration:b2d85ff0",
+        "jp_sha256": "ec5ba6ba461dd638b87662daf7ff17e3c8f9b6c9164aff65ff539227b009f183",
+        "official_en_sha256": "fda680b05e3cfa1da642a77c327ebccb992404c45b8ccc855da81f8087e69a2f"
+      },
+      "text": {
+        "jp": "ノード設定「{1}」の事前設定インデックス「{0}」が無効です。デフォルト設定が使用されます",
+        "official_en": "Invalid preconfiguration index '{0}' for node settings '{1}'. Default settings will be used.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:InvalidMetadataDomain:f201fa6d",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "InvalidMetadataDomain",
+        "jp_record_id": "switch:locres:set-01:PCGLog:InvalidMetadataDomain:f201fa6d",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:InvalidMetadataDomain:f201fa6d",
+        "jp_sha256": "4fcf06173b856041be0e10c6322e142da5a983013e3010e23b4cece0698f4ca7",
+        "official_en_sha256": "c7b49f9a341290cb2d4d8dbef723e72ccd3dddf1d312dca6636d08d92e5e53d7"
+      },
+      "text": {
+        "jp": "メタデータ ドメイン {0} はこのデータで無効です",
+        "official_en": "Metadata domain {0} is invalid for this data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:InvalidMetadata:96206299",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "InvalidMetadata",
+        "jp_record_id": "switch:locres:set-01:PCGLog:InvalidMetadata:96206299",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:InvalidMetadata:96206299",
+        "jp_sha256": "3d5f3943d81f088cf06a8517ea62ec47b41b5c03940f012349ad91db6008b876",
+        "official_en_sha256": "65d747d35120b19e0b20732b26b42cd282fbd1681d074b6f0728db44f0192aab"
+      },
+      "text": {
+        "jp": "メタデータは未サポート、またはこのデータで無効です",
+        "official_en": "Metadata is unsupported or invalid for this data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:FirstInputOnly:a86521b1",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "FirstInputOnly",
+        "jp_record_id": "switch:locres:set-01:PCGLog:FirstInputOnly:a86521b1",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:FirstInputOnly:a86521b1",
+        "jp_sha256": "d16be90f6b970443d19ddb802f221a14919571b401a2eaa8079fe422ccab952e",
+        "official_en_sha256": "74daa98a2c750de49d742db420b50804fe584819cf130e2a957205a7db287641"
+      },
+      "text": {
+        "jp": "単一入力ピン「{0}」に複数の入力が見つかりました。最初のものだけが選択されます",
+        "official_en": "Multiple inputs found on single-input pin '{0}'. Only the first will be selected.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:LandscapeCacheNotAvailableInPIEOrCookedBuilds:48607fa1",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "LandscapeCacheNotAvailableInPIEOrCookedBuilds",
+        "jp_record_id": "switch:locres:set-01:PCGLog:LandscapeCacheNotAvailableInPIEOrCookedBuilds:48607fa1",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:LandscapeCacheNotAvailableInPIEOrCookedBuilds:48607fa1",
+        "jp_sha256": "f0448405a885b9c45a6a55e03602a1d44afe7be09edf779a72d15cb2de5b9e7c",
+        "official_en_sha256": "0084595d117d7344bb155420bfc7a995a3504517166825e8252b2fa23cffa5a1"
+      },
+      "text": {
+        "jp": "PCG ランドスケープ キャッシュ (PCG ワールド アクタ上) は、シリアル化されるよう設定されておらず、非エディタ モードでは機能しません",
+        "official_en": "PCG Landscape cache (on the PCG World Actor) is not set to be serialized and will not work in non-editor modes.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGLog:UnknownDataType:016dfb1c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGLog",
+        "key": "UnknownDataType",
+        "jp_record_id": "switch:locres:set-01:PCGLog:UnknownDataType:016dfb1c",
+        "official_en_record_id": "switch:locres:set-01:PCGLog:UnknownDataType:016dfb1c",
+        "jp_sha256": "bd5a8814a3635ecb4ebc9785cbc8223ae32444a5a07329a811526c29cd45f77c",
+        "official_en_sha256": "b764cdc0eab7137467211272fa539f1260d1bf2e71bcf6ff3bdc960f5c16aa14"
+      },
+      "text": {
+        "jp": "不明",
+        "official_en": "Unknown",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,863 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGWorldRaycastElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:BoundingShapeInputPinTooltip:8606e2f2",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "BoundingShapeInputPinTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:BoundingShapeInputPinTooltip:8606e2f2",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:BoundingShapeInputPinTooltip:8606e2f2",
+        "jp_sha256": "09f6a893b3c7bbee16ceff456fa4d014fd83b29d794d32e39e90f0719823f5f9",
+        "official_en_sha256": "4217ab36548ed6200c575e8b8841588a1c8cde36c4fb7eab7d486e21ded5cf31"
+      },
+      "text": {
+        "jp": "投影されたすべてのポイントはこの形状内に含まれている必要があります。この入力を省略すると、ポイントがアクタの境界内に収まるように、アクタから境界が取られます",
+        "official_en": "All projected points must be contained within this shape. If this input is omitted then bounds will be taken from the actor so that points are contained within actor bounds.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:BoxSweepLabel:e63c3c73",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "BoxSweepLabel",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:BoxSweepLabel:e63c3c73",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:BoxSweepLabel:e63c3c73",
+        "jp_sha256": "75fc6ad4c387768fa29d7ae21349f5c3aa13a93dd0f93e60e55446643d200f04",
+        "official_en_sha256": "7ab0cb7ade34db744e4f453afb5c076068bea4e821dd40a0ee456a2295f270b5"
+      },
+      "text": {
+        "jp": "ボックススイープ",
+        "official_en": "Box Sweep",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:CapsuleSweepLabel:826653a6",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "CapsuleSweepLabel",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:CapsuleSweepLabel:826653a6",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:CapsuleSweepLabel:826653a6",
+        "jp_sha256": "36332dc1b0d104037d4ed438bbef506ee5256630bae32d06229d886ce2fd8290",
+        "official_en_sha256": "4a605d391146584410802385a8fb37421f0bbade8d56a9d1a089d69e52a0cf19"
+      },
+      "text": {
+        "jp": "カプセルスイープ",
+        "official_en": "Capsule Sweep",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:BoxSweepTooltip:0bd33eda",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "BoxSweepTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:BoxSweepTooltip:0bd33eda",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:BoxSweepTooltip:0bd33eda",
+        "jp_sha256": "3d39cd1d86dd9e90cce95bd5ae333d28ebc6a6f2eb15d52a83aba6ae7f6c6525",
+        "official_en_sha256": "f3d292c7374433754c5555241112503e008a8db2afb1e40e67e8b11486a35889"
+      },
+      "text": {
+        "jp": "指定された光線に沿ってボックス スイープをキャストします",
+        "official_en": "Casts a box sweep along a given ray.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:CapsuleSweepTooltip:284f9abe",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "CapsuleSweepTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:CapsuleSweepTooltip:284f9abe",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:CapsuleSweepTooltip:284f9abe",
+        "jp_sha256": "f7ac69e67c8d5e599d5bd878a0e6ea991952ad1d0e2615785c06ac2c8da8b245",
+        "official_en_sha256": "8af3449572ba254366ebd698b3ab8b575f64583cbf9125cc68249a399b23e17a"
+      },
+      "text": {
+        "jp": "指定された光線に沿ってカプセル スイープをキャストします",
+        "official_en": "Casts a capsule sweep along a given ray.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:NodeTooltip:8c3a64ed",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "NodeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:NodeTooltip:8c3a64ed",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:NodeTooltip:8c3a64ed",
+        "jp_sha256": "1f6320bac7825ca89628d6bf1ad90d64e8e9344be8adc11b89e45f73677560d5",
+        "official_en_sha256": "8b00005e204178d5969aa3222e8c7e3cd8fe3f9ac81213cb112e941f7f796be2"
+      },
+      "text": {
+        "jp": "指定されたポイントからライン トレースまたはコリジョン形状を、指定された方向に沿ってキャストし、インパクトの位置を返します",
+        "official_en": "Casts a line trace or collision shape sweep from provided points along a given direction returning the location of the impact.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:SphereSweepTooltip:cb35753c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "SphereSweepTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:SphereSweepTooltip:cb35753c",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:SphereSweepTooltip:cb35753c",
+        "jp_sha256": "369ac91c013588d6bfb13b50f54969b9b7eb55b31c2a40c73520fd0f315ed0f5",
+        "official_en_sha256": "574abd89460fdf4673337327f83abd95d8de88523dd5d130cfb01611cea4637b"
+      },
+      "text": {
+        "jp": "指定された光線に沿って球体スイープをキャストします",
+        "official_en": "Casts a sphere sweep along a given ray.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:LineTraceTooltip:6cca6073",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "LineTraceTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:LineTraceTooltip:6cca6073",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:LineTraceTooltip:6cca6073",
+        "jp_sha256": "081d7789a0e7e2088b9a1fd30ca60f25d0e29018d12650cc0a941dbced34fe90",
+        "official_en_sha256": "3177a96d56303b9c705f734ace53d479d8276fc5edd5aebac5251d944faf5d12"
+      },
+      "text": {
+        "jp": "指定された光線に沿ってトレースを行います",
+        "official_en": "Conduct a trace along a given ray.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:InvalidEndPointDataCount:625d84c5",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "InvalidEndPointDataCount",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:InvalidEndPointDataCount:625d84c5",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:InvalidEndPointDataCount:625d84c5",
+        "jp_sha256": "c08c14ff1e6cd88bc7b206371b8d0bfd0c033fc54b3047c7f2da6eebe0fa791a",
+        "official_en_sha256": "8df11721a44c8c3457a15fb8d7dba870b72c7de21475d87cdd8f4a272cfba817"
+      },
+      "text": {
+        "jp": "終点の入力データ数は、起点の入力データ数と一致している必要があります",
+        "official_en": "End point input data count must match the Origins input data count.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:InvalidFilterActorInputCount:df41a751",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "InvalidFilterActorInputCount",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:InvalidFilterActorInputCount:df41a751",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:InvalidFilterActorInputCount:df41a751",
+        "jp_sha256": "195d544db3479a6aca3eca676da944fc2f1ba43107e14856f808758478700c47",
+        "official_en_sha256": "81f31d721e0148e4e1313faa4f3eb95573300b74a872e3d1aaddf327bbaf2fe1"
+      },
+      "text": {
+        "jp": "フィルタ アクタの入力データ数は、1 であるか、Origins ピンの入力データ数と一致している必要があります",
+        "official_en": "Filter Actor input data count must be 1 or match the Origins input data count.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:LineTraceLabel:5113383a",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "LineTraceLabel",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:LineTraceLabel:5113383a",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:LineTraceLabel:5113383a",
+        "jp_sha256": "e712d10670d4818c6e76345fc21d63aa75baf8089dc038f11c72d50a64126a5d",
+        "official_en_sha256": "7fe950566d198b3f41d6f7fda5df140fcfcd2fe0027149523dbdd2438c6cb2a7"
+      },
+      "text": {
+        "jp": "ライントレース",
+        "official_en": "Line Trace",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:NoDataFoundOnEndPointsInput:d07d231b",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "NoDataFoundOnEndPointsInput",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:NoDataFoundOnEndPointsInput:d07d231b",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:NoDataFoundOnEndPointsInput:d07d231b",
+        "jp_sha256": "54d1483afcf3d1c1c14372eefb71f1768a2b6ebc5dee007cef09f1cf4539a915",
+        "official_en_sha256": "63f958b843efdc058c39817626a4119b6ce22300837a0c224d471070c29493dc"
+      },
+      "text": {
+        "jp": "終点の入力 {0} に有効なデータが見つかりませんでした",
+        "official_en": "No valid data found on End Points input {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:UnableToApplyAllAttributes:8fbdeb10",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "UnableToApplyAllAttributes",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:UnableToApplyAllAttributes:8fbdeb10",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:UnableToApplyAllAttributes:8fbdeb10",
+        "jp_sha256": "0c87d8f3594a07b37eec37fd30701db78caff7873f58f7c703e17359601a09be",
+        "official_en_sha256": "bc2308b80cb07ba6f733f1ea7afb4f036925cfbd9df2c34724420ac62cfd8c6a"
+      },
+      "text": {
+        "jp": "1 つまたは複数の属性を適用できませんでした",
+        "official_en": "One or more attributes were unable to be applied.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:UnableToCreateAllAttributes:ce927fcd",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "UnableToCreateAllAttributes",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:UnableToCreateAllAttributes:ce927fcd",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:UnableToCreateAllAttributes:ce927fcd",
+        "jp_sha256": "01243bacd46ec824bb30c1e0836cbf416cd678f463ea28c0cea719f384d535c7",
+        "official_en_sha256": "56989635086de19e53be777c5a2f8efae69f8e73b52159cff06a66cf96440b4e"
+      },
+      "text": {
+        "jp": "1 つまたは複数の属性を作成できませんでした",
+        "official_en": "One or more attributes were unable to be created.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:ShapeTypeOverridden:6b8f4bb2",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "ShapeTypeOverridden",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:ShapeTypeOverridden:6b8f4bb2",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:ShapeTypeOverridden:6b8f4bb2",
+        "jp_sha256": "9be34f4201fb8f906247b43427cb8c6a3a206a55a7d9b374484f2086ff7e3f2e",
+        "official_en_sha256": "62a03f092038a75c9435262960fe2093ade72ec57c9d5447b099587316c73219"
+      },
+      "text": {
+        "jp": "オーバーライド済み",
+        "official_en": "Overridden",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:EndPointsInputPinTooltip:973d43b5",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "EndPointsInputPinTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:EndPointsInputPinTooltip:973d43b5",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:EndPointsInputPinTooltip:973d43b5",
+        "jp_sha256": "1e2c41d3e5639ad67688c29433da1b59eeb720a989e505d40ebe13c0bb500793",
+        "official_en_sha256": "5c53970811c6db80453f7b0a037d05afe25f9e7fc98e9f003130f70003b77ace"
+      },
+      "text": {
+        "jp": "個々のレイの終点の役割を果たすポイント",
+        "official_en": "Points acting as the end point of each individual ray.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:OriginPointsInputPinTooltip:0527b339",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "OriginPointsInputPinTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:OriginPointsInputPinTooltip:0527b339",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:OriginPointsInputPinTooltip:0527b339",
+        "jp_sha256": "0277788a0dadebe65cd91ae501bc1be4838581aeebfdf037b457ac92f0eda258",
+        "official_en_sha256": "44661438fc1d9ecb6fcd6101001b0bc3882a960adf75791eaf566e9397489b0b"
+      },
+      "text": {
+        "jp": "個々のレイの起点の役割を果たすポイント。転送される可能性があるのは、このピンからのポイント データのみです",
+        "official_en": "Points acting as the point origin of each individual ray. Only point data from this pin may be forwarded.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:SphereSweepLabel:4d7e9387",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "SphereSweepLabel",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:SphereSweepLabel:4d7e9387",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:SphereSweepLabel:4d7e9387",
+        "jp_sha256": "e15a2e9bb6622631715682edb93634f16a72fa3051fe0cbd7b74cec8a7a30bb4",
+        "official_en_sha256": "53a49cf899d37b19f4ada02e07b405a15f87dd99f8e2743adea6007e74da4115"
+      },
+      "text": {
+        "jp": "球体スイープ",
+        "official_en": "Sphere Sweep",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:InvalidEndPointCount:b9d79db5",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "InvalidEndPointCount",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:InvalidEndPointCount:b9d79db5",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:InvalidEndPointCount:b9d79db5",
+        "jp_sha256": "c300714a1b7aca3df24675f86dd05dea9586e17d514513e866f9efbb801587c0",
+        "official_en_sha256": "2b6d233622880c9d61855407d1874c537172824c4bbf0d53ce5957f7b452370e"
+      },
+      "text": {
+        "jp": "終点の入力データ数は、1 であるか、起点の入力数と一致している必要があります",
+        "official_en": "The End Points input count must be 1 or directly match the Origins input count.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:NodeTitle:fea4a276",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "NodeTitle",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:NodeTitle:fea4a276",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:NodeTitle:fea4a276",
+        "jp_sha256": "eee867e5d6614297a946a77f06a6dadc136d449d27976faac970190a255e064d",
+        "official_en_sha256": "41415579565800597edd49c84eaea60e283afc83b328d0a590afe6c4c0348fe8"
+      },
+      "text": {
+        "jp": "ワールドレイキャスト",
+        "official_en": "World Raycast",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:InvalidCollisionShapeType:ce771596",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "InvalidCollisionShapeType",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:InvalidCollisionShapeType:ce771596",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:InvalidCollisionShapeType:ce771596",
+        "jp_sha256": "c32d7555efd1ee2d67515dbc4b46a717cb7c3f6481e93727f9b8892d2ebdbca3",
+        "official_en_sha256": "39121f74c7c795b471ba774c40281590fab00dd9f874e975800c6a89fbf18937"
+      },
+      "text": {
+        "jp": "ワールドレイキャスト - 無効なコリジョン形状タイプです",
+        "official_en": "World Raycast - Invalid Collision Shape Type",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:WorldSweepAlias:84a9451d",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "WorldSweepAlias",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:WorldSweepAlias:84a9451d",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:WorldSweepAlias:84a9451d",
+        "jp_sha256": "83fa85c8a3639086f1b2bb8e2726ba53873109d66ba09281ad029ad945db8e0f",
+        "official_en_sha256": "e589f4777e922b266289e7f79df587f5f07168f1dbb6638595552c847582f8a2"
+      },
+      "text": {
+        "jp": "ワールドスイープ",
+        "official_en": "World Sweep",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGWorldRaycastElement:WorldTraceAlias:0171e71f",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGWorldRaycastElement",
+        "key": "WorldTraceAlias",
+        "jp_record_id": "switch:locres:set-01:PCGWorldRaycastElement:WorldTraceAlias:0171e71f",
+        "official_en_record_id": "switch:locres:set-01:PCGWorldRaycastElement:WorldTraceAlias:0171e71f",
+        "jp_sha256": "651719ddb6af374eeae16400162dc99f197d8800a8b90c8832cc277e81363f9b",
+        "official_en_sha256": "0e87366568ff19c1255d95d6b863179e9240c15a33bec5d3abc315889164ff26"
+      },
+      "text": {
+        "jp": "ワールドトレース",
+        "official_en": "World Trace",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

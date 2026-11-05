@@ -1,0 +1,974 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PythonScriptPlugin",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:PythonTypeFullDescription:db3f9b42",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "PythonTypeFullDescription",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonTypeFullDescription:db3f9b42",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonTypeFullDescription:db3f9b42",
+        "jp_sha256": "3b08530bf2ba70a956b086e3efdf03cd08200dc84fc6274675de1cec1869e358",
+        "official_en_sha256": "1b9708fa5d6c8c47003ad68fa28bbb24107bc9f096cd9a9af3b0aba883fa2298"
+      },
+      "text": {
+        "jp": "Python を使用してエディタのスクリプティングに使用されるファイル",
+        "official_en": "A file used to script the editor using Python",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:ClearRecentPython:67e9b8f2",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "ClearRecentPython",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:ClearRecentPython:67e9b8f2",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:ClearRecentPython:67e9b8f2",
+        "jp_sha256": "041fcad483e9f7750ec8fcd86d86eba5a142344c7245a1fcea5985a3063fd7d6",
+        "official_en_sha256": "f64595ca71690abe068385549e30762ebd017b471524d7b6f0c378e9323f40e6"
+      },
+      "text": {
+        "jp": "最新のPythonスクリプトをクリア",
+        "official_en": "Clear Recent Python Scripts",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:Menu.EnablePython.Label:03637871",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "Menu.EnablePython.Label",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:Menu.EnablePython.Label:03637871",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:Menu.EnablePython.Label:03637871",
+        "jp_sha256": "2bb07d4563b37252eecdadd0bc5fcf3a1db320556c4e67f6afd7b723bb8b5e97",
+        "official_en_sha256": "9638e2abba072fb0bbb43ccc5f8e84bab19471286ae293deb5ebc3697ef39882"
+      },
+      "text": {
+        "jp": "Pythonを有効にする",
+        "official_en": "Enable Python",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:Menu.EnablePython.ToolTip:0a423e92",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "Menu.EnablePython.ToolTip",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:Menu.EnablePython.ToolTip:0a423e92",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:Menu.EnablePython.ToolTip:0a423e92",
+        "jp_sha256": "c423638b06f2015061c0c92847d421026c2c634adea62daf54ad860463539bc2",
+        "official_en_sha256": "5238e68f3911dc019f5fa7f5376b8abbd1eca9ed6205269512f54437ab2be404"
+      },
+      "text": {
+        "jp": "現在のエディタ セッションで Python を有効にします。\nPython を永続的に有効にするには [エディタの環境設定 -> Python -> Python のオーバーライドを有効にする] を参照してください",
+        "official_en": "Enable Python for the current editor session.\nTo enable Python permanently, see 'Editor Preferences -> Python -> Enable Python Override'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:PythonCommandExecutorHintText:deaf89d2",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "PythonCommandExecutorHintText",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonCommandExecutorHintText:deaf89d2",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonCommandExecutorHintText:deaf89d2",
+        "jp_sha256": "cdf94183d21f16570c47c53a1870e57d6bb45ef07849fd544a7a6d804a343063",
+        "official_en_sha256": "3a9875e671bb3c98ca2fe629dd6edd6d1ddad5a06bd3395ea4e2b70a64aa7b91"
+      },
+      "text": {
+        "jp": "実行する Python スクリプトまたはファイル名を入力します",
+        "official_en": "Enter Python script or a filename",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:PythonREPLCommandExecutorHintText:54e533b3",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "PythonREPLCommandExecutorHintText",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonREPLCommandExecutorHintText:54e533b3",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonREPLCommandExecutorHintText:54e533b3",
+        "jp_sha256": "569ba8926e3c71c6caac3c6b4f79566d38d6a7aebeaddf745d7950a77577f505",
+        "official_en_sha256": "ee1d7afe87b77b5f96848c648e8b017cc9a5b7ed01610a6460d07521cf0ae96b"
+      },
+      "text": {
+        "jp": "Python ステートメントを入力します",
+        "official_en": "Enter a Python statement",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:ExecutePython:54fecfc7",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "ExecutePython",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:ExecutePython:54fecfc7",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:ExecutePython:54fecfc7",
+        "jp_sha256": "c2a32d79f27669b12375579c4db92547e6b07ec3dda622f502c393aeea2cd979",
+        "official_en_sha256": "629d463d8b155df92b40340955e92a480d34019983377c9285974e2203d63dd9"
+      },
+      "text": {
+        "jp": "Pythonスクリプトを実行",
+        "official_en": "Execute Python Script",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:OpenPython:26f7cab8",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "OpenPython",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:OpenPython:26f7cab8",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:OpenPython:26f7cab8",
+        "jp_sha256": "8fc8f23208b391e5ed227b3a63389c0c13ae299b644664c4842fa690d6a6dfd0",
+        "official_en_sha256": "7690e0ffccac4c5e3eac759ee7e4eb29352dc3964286ed3f2d5ab15af9d56817"
+      },
+      "text": {
+        "jp": "Pythonスクリプトを実行...",
+        "official_en": "Execute Python Script...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:PythonCommandExecutorDescription:b2c1b9f8",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "PythonCommandExecutorDescription",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonCommandExecutorDescription:b2c1b9f8",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonCommandExecutorDescription:b2c1b9f8",
+        "jp_sha256": "9b09765c6fdb1048f1ca361132b8f1452bdf60274cac87d2624e36f631d70049",
+        "official_en_sha256": "751eae9a6d1c9226e54d8fda9dfb8adbb0f45e7352f0aa2ce136d9d0a1afc93c"
+      },
+      "text": {
+        "jp": "Pythonスクリプト(ファイルを含む)を実行します",
+        "official_en": "Execute Python scripts (including files)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:PythonREPLCommandExecutorDescription:b618c8b2",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "PythonREPLCommandExecutorDescription",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonREPLCommandExecutorDescription:b618c8b2",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonREPLCommandExecutorDescription:b618c8b2",
+        "jp_sha256": "84df7f4667fa3b2500b57a60d2128408fc98882767cb197ce961291364ae01d8",
+        "official_en_sha256": "780bba001a56feea88947d719d776c66a83aae3b235256127e89db0b133c1104"
+      },
+      "text": {
+        "jp": "単一のPythonステートメントを実行して、その結果を表示します",
+        "official_en": "Execute a single Python statement and show its result",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:InitializingPython:bd38ac0d",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "InitializingPython",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:InitializingPython:bd38ac0d",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:InitializingPython:bd38ac0d",
+        "jp_sha256": "269779bb88113412f88c04ac823fae7c92d6c7482e02c2304f2c5826a55dd109",
+        "official_en_sha256": "9bcecccee422366e33612fa3cec472033596cbaf5d511cd4be947d37d5f4dc85"
+      },
+      "text": {
+        "jp": "Python を初期化しています...",
+        "official_en": "Initializing Python...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:OpenPythonTooltip:d5cbb642",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "OpenPythonTooltip",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:OpenPythonTooltip:d5cbb642",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:OpenPythonTooltip:d5cbb642",
+        "jp_sha256": "3575de1524c2c519fe613666d306cf540165414886f2a7ebe127cb447f29f2ae",
+        "official_en_sha256": "dfdf0fb9fef6af90933407e8f5ce55f9418ef896afb2b869120d1630927861ba"
+      },
+      "text": {
+        "jp": "Python スクリプト ファイルを開き、実行します",
+        "official_en": "Open a Python Script file and Execute it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:Python:4f1dc98c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "Python",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:Python:4f1dc98c",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:Python:4f1dc98c",
+        "jp_sha256": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db",
+        "official_en_sha256": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db"
+      },
+      "text": {
+        "jp": "Python",
+        "official_en": "Python",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:PythonCommandExecutorDisplayName:1d256900",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "PythonCommandExecutorDisplayName",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonCommandExecutorDisplayName:1d256900",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonCommandExecutorDisplayName:1d256900",
+        "jp_sha256": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db",
+        "official_en_sha256": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db"
+      },
+      "text": {
+        "jp": "Python",
+        "official_en": "Python",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:PythonTypeName:0a480b49",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "PythonTypeName",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonTypeName:0a480b49",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonTypeName:0a480b49",
+        "jp_sha256": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db",
+        "official_en_sha256": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db"
+      },
+      "text": {
+        "jp": "Python",
+        "official_en": "Python",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:SettingsDisplayName:757102f0",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "SettingsDisplayName",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:SettingsDisplayName:757102f0",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:SettingsDisplayName:757102f0",
+        "jp_sha256": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db",
+        "official_en_sha256": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db"
+      },
+      "text": {
+        "jp": "Python",
+        "official_en": "Python",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:UserSettingsDisplayName:6e96f714",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "UserSettingsDisplayName",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:UserSettingsDisplayName:6e96f714",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:UserSettingsDisplayName:6e96f714",
+        "jp_sha256": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db",
+        "official_en_sha256": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db"
+      },
+      "text": {
+        "jp": "Python",
+        "official_en": "Python",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:PythonREPLCommandExecutorDisplayName:dd905f83",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "PythonREPLCommandExecutorDisplayName",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonREPLCommandExecutorDisplayName:dd905f83",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonREPLCommandExecutorDisplayName:dd905f83",
+        "jp_sha256": "6f7b89e2a947b84c40045a13a0ebd719c31bca9346894c6ce3ea1e0dff17a37e",
+        "official_en_sha256": "6f7b89e2a947b84c40045a13a0ebd719c31bca9346894c6ce3ea1e0dff17a37e"
+      },
+      "text": {
+        "jp": "Python (REPL)",
+        "official_en": "Python (REPL)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:PythonScriptMenuHeading:c8ef216a",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "PythonScriptMenuHeading",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonScriptMenuHeading:c8ef216a",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonScriptMenuHeading:c8ef216a",
+        "jp_sha256": "8a52018cc3fcdc144db5487960418e07cc35a7edce8f9833c274b81062d56307",
+        "official_en_sha256": "32d8981fa92bd36b155fecd88c780b5589276d03fdfa5cd22ba21858b93a2b18"
+      },
+      "text": {
+        "jp": "Python スクリプト",
+        "official_en": "Python Script",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:PythonTypeShortDescription:cb0ae307",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "PythonTypeShortDescription",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonTypeShortDescription:cb0ae307",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonTypeShortDescription:cb0ae307",
+        "jp_sha256": "8a52018cc3fcdc144db5487960418e07cc35a7edce8f9833c274b81062d56307",
+        "official_en_sha256": "32d8981fa92bd36b155fecd88c780b5589276d03fdfa5cd22ba21858b93a2b18"
+      },
+      "text": {
+        "jp": "Python スクリプト",
+        "official_en": "Python Script",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:RecentPythonsSubMenu:6103bdc4",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "RecentPythonsSubMenu",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:RecentPythonsSubMenu:6103bdc4",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:RecentPythonsSubMenu:6103bdc4",
+        "jp_sha256": "7557fbecd928932e08310cfff0848f4f286b77b759637f11542cac96e9ea574f",
+        "official_en_sha256": "ae4702a4882c0b6c9623b49fde3efeefa7e3874c0d92f33b2870ba47560f38bc"
+      },
+      "text": {
+        "jp": "最近のPythonスクリプト",
+        "official_en": "Recent Python Scripts",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:RunPythonScriptToolTip:da15a21f",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "RunPythonScriptToolTip",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:RunPythonScriptToolTip:da15a21f",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:RunPythonScriptToolTip:da15a21f",
+        "jp_sha256": "b9f0c41c48fddc92896df93a551c3f15600f9a50b61f43701ee5927c75cde556",
+        "official_en_sha256": "d34455e3bdf4e527ee1ea3d303c4b92093fc72045cb07e33b8a4e2f8146351ce"
+      },
+      "text": {
+        "jp": "このスクリプトを実行します。",
+        "official_en": "Run this script.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:RunPythonScript:ed36c84d",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "RunPythonScript",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:RunPythonScript:ed36c84d",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:RunPythonScript:ed36c84d",
+        "jp_sha256": "a79ccad70af160f4660f337f72bee2e62d51f529a8c4ab04e8fcad60412312c7",
+        "official_en_sha256": "0fc030de86b5e0911177c001d0f06d10cf559b7869e2de8a3486e31297ddcd56"
+      },
+      "text": {
+        "jp": "実行...",
+        "official_en": "Run...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:PythonScriptPluginInitScripts:3d81f77a",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "PythonScriptPluginInitScripts",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonScriptPluginInitScripts:3d81f77a",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonScriptPluginInitScripts:3d81f77a",
+        "jp_sha256": "fa8fae92db8be9ef5ae537046962c0351e42b7b130a870b93ff1641faf5ae900",
+        "official_en_sha256": "9206db44f3d16b1b0006c04a556a859b59ba8bca970186bebfe75ba9b6b514ae"
+      },
+      "text": {
+        "jp": "Pythonスタートアップスクリプトを実行中...",
+        "official_en": "Running Python start-up scripts...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:PythonScriptPluginInitScripts_Running:8317c32a",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "PythonScriptPluginInitScripts_Running",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonScriptPluginInitScripts_Running:8317c32a",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:PythonScriptPluginInitScripts_Running:8317c32a",
+        "jp_sha256": "b14dc638a8610338b1f2b35d0a24ad63d0b9fa7cebe971d58c1741afe9d5e5a2",
+        "official_en_sha256": "4d98d33202b9c55d3d48d9d374e7de9c2c9a8767d959ded74ec480c2398efd5b"
+      },
+      "text": {
+        "jp": "起動スクリプト {0} を実行中...",
+        "official_en": "Running start-up script {0}...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PythonScriptPlugin:RecentPythonsSubMenu_ToolTip:92a9b0c7",
+      "source": {
+        "set": "set-02",
+        "namespace": "PythonScriptPlugin",
+        "key": "RecentPythonsSubMenu_ToolTip",
+        "jp_record_id": "switch:locres:set-01:PythonScriptPlugin:RecentPythonsSubMenu_ToolTip:92a9b0c7",
+        "official_en_record_id": "switch:locres:set-01:PythonScriptPlugin:RecentPythonsSubMenu_ToolTip:92a9b0c7",
+        "jp_sha256": "305023793f1c01dcccbd3db4461401ddd9598d1b9d24dd8acfcace598da1ddda",
+        "official_en_sha256": "a8c556748bbe155a5baed5ceccfb819e968752511609b5210c59c1addc49d84e"
+      },
+      "text": {
+        "jp": "最近の Python スクリプト ファイルを選択して実行します。",
+        "official_en": "Select a recent Python Script file and Execute it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ExternalDataLayerInjectionPolicy",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ExternalDataLayerInjectionPolicy:CantInjectNotActiveExternalDataLayerAsset:00735311",
+      "source": {
+        "set": "set-02",
+        "namespace": "ExternalDataLayerInjectionPolicy",
+        "key": "CantInjectNotActiveExternalDataLayerAsset",
+        "jp_record_id": "switch:locres:set-01:ExternalDataLayerInjectionPolicy:CantInjectNotActiveExternalDataLayerAsset:00735311",
+        "official_en_record_id": "switch:locres:set-01:ExternalDataLayerInjectionPolicy:CantInjectNotActiveExternalDataLayerAsset:00735311",
+        "jp_sha256": "f97e939544a21620de7470bf2472231851f361ea4ef1fc8d9c35fdbebb1a149b",
+        "official_en_sha256": "af9130b07683d75fd6cab485acbb0c4068cb8afb20c219a2d57a1be46eb4c2c6"
+      },
+      "text": {
+        "jp": "外部データ レイヤー アセット {0} はアクティブではありません",
+        "official_en": "External Data Layer Asset {0} not active",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ExternalDataLayerInjectionPolicy:CantInjectNotRegisteredExternalDataLayerAsset:2f6105c8",
+      "source": {
+        "set": "set-02",
+        "namespace": "ExternalDataLayerInjectionPolicy",
+        "key": "CantInjectNotRegisteredExternalDataLayerAsset",
+        "jp_record_id": "switch:locres:set-01:ExternalDataLayerInjectionPolicy:CantInjectNotRegisteredExternalDataLayerAsset:2f6105c8",
+        "official_en_record_id": "switch:locres:set-01:ExternalDataLayerInjectionPolicy:CantInjectNotRegisteredExternalDataLayerAsset:2f6105c8",
+        "jp_sha256": "f74b7765ec9dc2826ad38e8de0ae74fc8528a9d10a9f95e0a9413584f0dae66d",
+        "official_en_sha256": "81e5766b4d896785247e1896b67e7de5e56503c3b22ded9f7d5137b952413f06"
+      },
+      "text": {
+        "jp": "外部データ レイヤー アセット {0} は登録されていません",
+        "official_en": "External Data Layer Asset {0} not registered",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ExternalDataLayerInjectionPolicy:CantInjectOverride:e37a38fd",
+      "source": {
+        "set": "set-02",
+        "namespace": "ExternalDataLayerInjectionPolicy",
+        "key": "CantInjectOverride",
+        "jp_record_id": "switch:locres:set-01:ExternalDataLayerInjectionPolicy:CantInjectOverride:e37a38fd",
+        "official_en_record_id": "switch:locres:set-01:ExternalDataLayerInjectionPolicy:CantInjectOverride:e37a38fd",
+        "jp_sha256": "a4c7531979cf8cd8e8a78e87504fb71f9beaedb3107a454255eedeec29ad60ae",
+        "official_en_sha256": "39042d2e8d6d5a255bebf3a91ba48d76ccede00c630f567266971b940483c731"
+      },
+      "text": {
+        "jp": "カスタム インジェクション ロジックによって拒否された外部データ レイヤー アセット {0}",
+        "official_en": "External Data Layer Asset {0} rejected by custom injection logic",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

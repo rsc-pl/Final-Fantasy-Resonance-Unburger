@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "RunIKRigSolversOp",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:RunIKRigSolversOp:NoIKRigFound:8a599c93",
+      "source": {
+        "set": "set-02",
+        "namespace": "RunIKRigSolversOp",
+        "key": "NoIKRigFound",
+        "jp_record_id": "switch:locres:set-01:RunIKRigSolversOp:NoIKRigFound:8a599c93",
+        "official_en_record_id": "switch:locres:set-01:RunIKRigSolversOp:NoIKRigFound:8a599c93",
+        "jp_sha256": "a46485ed132a8c3b7ada77771ef8b2e7d1f23456a58eadf2083ee6143b16618a",
+        "official_en_sha256": "ccfe0270f582f424de6273f9aad672d58221e8986949b4848d326e88d72770c2"
+      },
+      "text": {
+        "jp": "IK リグ実行操作：IK リグ アセットが指定されていません",
+        "official_en": "Run IK Rig Op: No IK Rig asset was specified.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RunIKRigSolversOp:CouldNotInitializeIKRig:ed42c981",
+      "source": {
+        "set": "set-02",
+        "namespace": "RunIKRigSolversOp",
+        "key": "CouldNotInitializeIKRig",
+        "jp_record_id": "switch:locres:set-01:RunIKRigSolversOp:CouldNotInitializeIKRig:ed42c981",
+        "official_en_record_id": "switch:locres:set-01:RunIKRigSolversOp:CouldNotInitializeIKRig:ed42c981",
+        "jp_sha256": "3751a6e5ebf2706a1061e032846ab7afa188bec95702d986f6d878eb399ccbf0",
+        "official_en_sha256": "4b477743e71e5e1ff91e41f726cce702830eab4e302e0af24aba19d351f959da"
+      },
+      "text": {
+        "jp": "IK リグ実行操作：スケルタルメッシュ {0} の IK リグ {1} を初期化できませんでした。前の警告を参照してください",
+        "official_en": "Run IK Rig Op: unable to initialize the IK Rig, {0} for the Skeletal Mesh {1}. See previous warnings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGAttributeGetFromPointIndexElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGAttributeGetFromPointIndexElement:AttributeNotFound:8d1c581e",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributeGetFromPointIndexElement",
+        "key": "AttributeNotFound",
+        "jp_record_id": "switch:locres:set-01:PCGAttributeGetFromPointIndexElement:AttributeNotFound:8d1c581e",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributeGetFromPointIndexElement:AttributeNotFound:8d1c581e",
+        "jp_sha256": "40d60e21953c0696992c312685a1bbdd5ecf747c099690621db91578b6117717",
+        "official_en_sha256": "d78d7f0f68daaaf98eba5a645576876c6d63dd4bd97aa0364af7623d1d89273d"
+      },
+      "text": {
+        "jp": "入力 {1} に属性/プロパティ「{0}」を見つけることができません",
+        "official_en": "Cannot find attribute/property '{0}' in input {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributeGetFromPointIndexElement:ErrorCreatingTargetAttribute:3ea1c189",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributeGetFromPointIndexElement",
+        "key": "ErrorCreatingTargetAttribute",
+        "jp_record_id": "switch:locres:set-01:PCGAttributeGetFromPointIndexElement:ErrorCreatingTargetAttribute:3ea1c189",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributeGetFromPointIndexElement:ErrorCreatingTargetAttribute:3ea1c189",
+        "jp_sha256": "41b9deb6bf7a4a44f2bc804036d190b9913aae2e8701dc48b565cd689da6293b",
+        "official_en_sha256": "66bf3ff26d2bdd1489913a27c5b9c56ed4e115fc5fa0b9aa857be08fbdcdd9e3"
+      },
+      "text": {
+        "jp": "出力 {1} に対するターゲット属性「{0}」の作成中にエラーが発生しました",
+        "official_en": "Error while creating target attribute '{0}' for output {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributeGetFromPointIndexElement:NodeTitle:be8de7a4",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributeGetFromPointIndexElement",
+        "key": "NodeTitle",
+        "jp_record_id": "switch:locres:set-01:PCGAttributeGetFromPointIndexElement:NodeTitle:be8de7a4",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributeGetFromPointIndexElement:NodeTitle:be8de7a4",
+        "jp_sha256": "eceb869bd977c4fb948e7c7ea610e282815e3cc1c1ce613ddfea78ebf48f446d",
+        "official_en_sha256": "eceb869bd977c4fb948e7c7ea610e282815e3cc1c1ce613ddfea78ebf48f446d"
+      },
+      "text": {
+        "jp": "Get Attribute From Point Index",
+        "official_en": "Get Attribute From Point Index",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributeGetFromPointIndexElement:IndexOutOfBounds:86ce4ed2",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributeGetFromPointIndexElement",
+        "key": "IndexOutOfBounds",
+        "jp_record_id": "switch:locres:set-01:PCGAttributeGetFromPointIndexElement:IndexOutOfBounds:86ce4ed2",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributeGetFromPointIndexElement:IndexOutOfBounds:86ce4ed2",
+        "jp_sha256": "caf24f6934fee7f1a0d9b0b473f18c8e577e0f58b76ae3d5ea33ff6468773774",
+        "official_en_sha256": "38642c3c84adc210df32dfe44c9a5ab02dc5c5b6fcc914628a9c0e28b9e3da59"
+      },
+      "text": {
+        "jp": "入力 {0} のインデックスが範囲外です。インデックス：{1}、ポイント数：{2}",
+        "official_en": "Index for input {0} is out of bounds. Index: {1}; Number of Points: {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGAttributeGetFromPointIndexElement:InputNotPointData:98c30f72",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGAttributeGetFromPointIndexElement",
+        "key": "InputNotPointData",
+        "jp_record_id": "switch:locres:set-01:PCGAttributeGetFromPointIndexElement:InputNotPointData:98c30f72",
+        "official_en_record_id": "switch:locres:set-01:PCGAttributeGetFromPointIndexElement:InputNotPointData:98c30f72",
+        "jp_sha256": "24527eb1a89455462f50da2dda1359202accf9e9f83180d4b773143583d47560",
+        "official_en_sha256": "d70b8c3d9d97bf87e711e6332633c940fea7d4c63814154560b3748df8b92c09"
+      },
+      "text": {
+        "jp": "入力 {0} がポイント データではありません",
+        "official_en": "Input {0} is not a point data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PropertyAccessEditor",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PropertyAccessEditor:CopyTypeInvalidFormat:7f52b356",
+      "source": {
+        "set": "set-02",
+        "namespace": "PropertyAccessEditor",
+        "key": "CopyTypeInvalidFormat",
+        "jp_record_id": "switch:locres:set-01:PropertyAccessEditor:CopyTypeInvalidFormat:7f52b356",
+        "official_en_record_id": "switch:locres:set-01:PropertyAccessEditor:CopyTypeInvalidFormat:7f52b356",
+        "jp_sha256": "a4e23ddc02452c4a9aec2c28b7f5696a80b0f47e7383a1b1655ffd123c6e3f25",
+        "official_en_sha256": "9fa15dbbfeac07e6e13699d4afb2b01cfdf3983bbf5ceb7e397536440055cc03"
+      },
+      "text": {
+        "jp": "@@ プロパティをコピーできません ({0} -> {1})",
+        "official_en": "@@ Cannot copy property ({0} -> {1})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PropertyAccessEditor:FunctionHasNoReturnValue:e9924b85",
+      "source": {
+        "set": "set-02",
+        "namespace": "PropertyAccessEditor",
+        "key": "FunctionHasNoReturnValue",
+        "jp_record_id": "switch:locres:set-01:PropertyAccessEditor:FunctionHasNoReturnValue:e9924b85",
+        "official_en_record_id": "switch:locres:set-01:PropertyAccessEditor:FunctionHasNoReturnValue:e9924b85",
+        "jp_sha256": "32981b9021c56d82aed3e73ba330befbdcbc97f69b42eb6071df49533c1fea21",
+        "official_en_sha256": "635baaeb2f44d42dbbd7a417cb7217b894674dfeb53d513f253633b985130523"
+      },
+      "text": {
+        "jp": "関数「{0}」の @@ のプロパティ パスに戻り値がありません",
+        "official_en": "Function '{0}' has no return value in property path for @@",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PropertyAccessEditor:FunctionHasTooManyParameters:aebe7cb7",
+      "source": {
+        "set": "set-02",
+        "namespace": "PropertyAccessEditor",
+        "key": "FunctionHasTooManyParameters",
+        "jp_record_id": "switch:locres:set-01:PropertyAccessEditor:FunctionHasTooManyParameters:aebe7cb7",
+        "official_en_record_id": "switch:locres:set-01:PropertyAccessEditor:FunctionHasTooManyParameters:aebe7cb7",
+        "jp_sha256": "323705959093b7296d5ba74b2846c1bddc92d5fbbdcb3f8d883b112ed8456f02",
+        "official_en_sha256": "c4529af622a67da35a58898f3ebc15e7894de54636b3ab23f850e5b1bb3aa7d3"
+      },
+      "text": {
+        "jp": "関数「{0}」にある @@ のプロパティ パスのパラメータが多すぎます",
+        "official_en": "Function '{0}' has too many parameters in property path for @@",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PropertyAccessEditor:FunctionIsDisallowedByPermissions:5cfa0d2a",
+      "source": {
+        "set": "set-02",
+        "namespace": "PropertyAccessEditor",
+        "key": "FunctionIsDisallowedByPermissions",
+        "jp_record_id": "switch:locres:set-01:PropertyAccessEditor:FunctionIsDisallowedByPermissions:5cfa0d2a",
+        "official_en_record_id": "switch:locres:set-01:PropertyAccessEditor:FunctionIsDisallowedByPermissions:5cfa0d2a",
+        "jp_sha256": "05988d4a51de31f157e2516351bb7344743257257c1ff3928ae833ddddff06c8",
+        "official_en_sha256": "262c0f45df8b8b1f099b904d0d693c48b4a3ff1e95d1a3a21acdce61bad23c68"
+      },
+      "text": {
+        "jp": "関数「{0}」は @@ へのプロパティ アクセスが許可されていません",
+        "official_en": "Function '{0}' is not allowed for property access for @@",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PropertyAccessEditor:InvalidField:9ebfe75c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PropertyAccessEditor",
+        "key": "InvalidField",
+        "jp_record_id": "switch:locres:set-01:PropertyAccessEditor:InvalidField:9ebfe75c",
+        "official_en_record_id": "switch:locres:set-01:PropertyAccessEditor:InvalidField:9ebfe75c",
+        "jp_sha256": "fe85315ecf38c058e37f576936d8ba5fc79ee72a4963b2e97bce8f84c0de49f0",
+        "official_en_sha256": "4a9fcda0ff2cbe86908d188234c44c660bcf0111d1c5e994aa1cc631c1d6a7db"
+      },
+      "text": {
+        "jp": "@@ のプロパティ パスに無効なフィールド「{0}」が見つかりました",
+        "official_en": "Invalid field '{0}' found in property path for @@",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PropertyAccessEditor:InvalidPath:99bd8a17",
+      "source": {
+        "set": "set-02",
+        "namespace": "PropertyAccessEditor",
+        "key": "InvalidPath",
+        "jp_record_id": "switch:locres:set-01:PropertyAccessEditor:InvalidPath:99bd8a17",
+        "official_en_record_id": "switch:locres:set-01:PropertyAccessEditor:InvalidPath:99bd8a17",
+        "jp_sha256": "c424c7584c4d4e7527daaf6c7888ed2da6c2e6af57dcc06c9becdad26d0c5e9d",
+        "official_en_sha256": "8bc084fd04f8edc12751b029ec3b22f322f65809be3a5ad566b6ae394a36dc37"
+      },
+      "text": {
+        "jp": "@@ の無効なパスが見つかりました",
+        "official_en": "Invalid path found for @@",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PropertyAccessEditor:MalformedPath:7709575d",
+      "source": {
+        "set": "set-02",
+        "namespace": "PropertyAccessEditor",
+        "key": "MalformedPath",
+        "jp_record_id": "switch:locres:set-01:PropertyAccessEditor:MalformedPath:7709575d",
+        "official_en_record_id": "switch:locres:set-01:PropertyAccessEditor:MalformedPath:7709575d",
+        "jp_sha256": "915f7dcc8d443c051f891be12209ee2e5c28f0ee5c03643d8e4e0031600d0a43",
+        "official_en_sha256": "b52ab8848858416c0b391dad01762753c142ecbf0a93e12d5e918e592f74e0c5"
+      },
+      "text": {
+        "jp": "@@ の不正な形式のプロパティ パス",
+        "official_en": "Malformed property path for @@",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PropertyAccessEditor:Null:6957684b",
+      "source": {
+        "set": "set-02",
+        "namespace": "PropertyAccessEditor",
+        "key": "Null",
+        "jp_record_id": "switch:locres:set-01:PropertyAccessEditor:Null:6957684b",
+        "official_en_record_id": "switch:locres:set-01:PropertyAccessEditor:Null:6957684b",
+        "jp_sha256": "fa1d2db62d4d952e2031452e1bc1ddcad0b192c2e29a706f11ce426ae5acddea",
+        "official_en_sha256": "fa1d2db62d4d952e2031452e1bc1ddcad0b192c2e29a706f11ce426ae5acddea"
+      },
+      "text": {
+        "jp": "Null",
+        "official_en": "Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PropertyAccessEditor:PropertyIsDisallowedByPermissions:e09a664a",
+      "source": {
+        "set": "set-02",
+        "namespace": "PropertyAccessEditor",
+        "key": "PropertyIsDisallowedByPermissions",
+        "jp_record_id": "switch:locres:set-01:PropertyAccessEditor:PropertyIsDisallowedByPermissions:e09a664a",
+        "official_en_record_id": "switch:locres:set-01:PropertyAccessEditor:PropertyIsDisallowedByPermissions:e09a664a",
+        "jp_sha256": "eb2bc3b5a9f426b46dcb0a4166603799ae29986c43c4f7d6fcd4d5282c33e3f2",
+        "official_en_sha256": "060e4a7cbfb4decf94faa2f964482c117ed9c943750734b24d781ee80dc5ece9"
+      },
+      "text": {
+        "jp": "プロパティ「{0}」は @@ へのプロパティ アクセスが許可されていません",
+        "official_en": "Property '{0}' is not allowed for property access for @@",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PropertyAccessEditor:UnrecognisedProperty:b12eb492",
+      "source": {
+        "set": "set-02",
+        "namespace": "PropertyAccessEditor",
+        "key": "UnrecognisedProperty",
+        "jp_record_id": "switch:locres:set-01:PropertyAccessEditor:UnrecognisedProperty:b12eb492",
+        "official_en_record_id": "switch:locres:set-01:PropertyAccessEditor:UnrecognisedProperty:b12eb492",
+        "jp_sha256": "d8354eb1cadbced01202acad1ce4d7c7fa11e229b0aeb326f9020401f0ebfb51",
+        "official_en_sha256": "4c3ab0bf71e5313d42aa7d1637f4235b7a6642d1ac9367acde0e2d65e2a7a7a1"
+      },
+      "text": {
+        "jp": "プロパティ '{0}' は @@ に対するプロパティパスで認識されません",
+        "official_en": "Property '{0}' is unrecognised in property path for @@",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PropertyAccessEditor:NoSegments:81ff4941",
+      "source": {
+        "set": "set-02",
+        "namespace": "PropertyAccessEditor",
+        "key": "NoSegments",
+        "jp_record_id": "switch:locres:set-01:PropertyAccessEditor:NoSegments:81ff4941",
+        "official_en_record_id": "switch:locres:set-01:PropertyAccessEditor:NoSegments:81ff4941",
+        "jp_sha256": "2a4f4d8c2fc1d0fd799cea1f610cb6be5e7ef0f4d052e97d46d3664eabd9220e",
+        "official_en_sha256": "2acfde531810a2d4164a6d42fd1f809ce7bb18650c925a4984b9ac9ebf26161f"
+      },
+      "text": {
+        "jp": "@@ に対するプロパティパスセグメントを解決できません",
+        "official_en": "Unable to resolve any property path segments for @@",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

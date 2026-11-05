@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "BlueprintRetessellation",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:BlueprintRetessellation:MeshDescriptionMissing:d3962e02",
+      "source": {
+        "set": "set-02",
+        "namespace": "BlueprintRetessellation",
+        "key": "MeshDescriptionMissing",
+        "jp_record_id": "switch:locres:set-01:BlueprintRetessellation:MeshDescriptionMissing:d3962e02",
+        "official_en_record_id": "switch:locres:set-01:BlueprintRetessellation:MeshDescriptionMissing:d3962e02",
+        "jp_sha256": "9a6eb5966bb85f064a7b7613f7f8b1b9fec608e6b0a7795922ee2c108e483b6b",
+        "official_en_sha256": "63dd4c965895389796725ccd5d009812129542d8e731587e96b8d36cd4e95d14"
+      },
+      "text": {
+        "jp": "メッシュの説明を作成できません",
+        "official_en": "Cannot create mesh description",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:BlueprintRetessellation:LoadFailed:8e0b1647",
+      "source": {
+        "set": "set-02",
+        "namespace": "BlueprintRetessellation",
+        "key": "LoadFailed",
+        "jp_record_id": "switch:locres:set-01:BlueprintRetessellation:LoadFailed:8e0b1647",
+        "official_en_record_id": "switch:locres:set-01:BlueprintRetessellation:LoadFailed:8e0b1647",
+        "jp_sha256": "02627638987ca513aa34e3b243b9e4fd93e030d91fe8da061ee20e2810b4ab35",
+        "official_en_sha256": "0319e310ad92fc01708e27332f91419a7076bf48e966be95c420aa5d35ed5f24"
+      },
+      "text": {
+        "jp": "パラメトリックサーフェスデータからメッシュを生成できません",
+        "official_en": "Cannot generate mesh from parametric surface data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:BlueprintRetessellation:MissingData:ef841033",
+      "source": {
+        "set": "set-02",
+        "namespace": "BlueprintRetessellation",
+        "key": "MissingData",
+        "jp_record_id": "switch:locres:set-01:BlueprintRetessellation:MissingData:ef841033",
+        "official_en_record_id": "switch:locres:set-01:BlueprintRetessellation:MissingData:ef841033",
+        "jp_sha256": "a7df4215d2a8b3f96afefa6a18368146b8096211b27b26199c742939ca97ec4b",
+        "official_en_sha256": "ae6f5233cd017c3ec86e3c9d3f62acae4886c8b09a6b8560a4c74e88575c018d"
+      },
+      "text": {
+        "jp": "テッセレーションデータがスタティックメッシュにアタッチされていせん",
+        "official_en": "No tessellation data attached to the static mesh",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:BlueprintRetessellation:UVChannelsDestroyed:d61cf736",
+      "source": {
+        "set": "set-02",
+        "namespace": "BlueprintRetessellation",
+        "key": "UVChannelsDestroyed",
+        "jp_record_id": "switch:locres:set-01:BlueprintRetessellation:UVChannelsDestroyed:d61cf736",
+        "official_en_record_id": "switch:locres:set-01:BlueprintRetessellation:UVChannelsDestroyed:d61cf736",
+        "jp_sha256": "3cde22f4ca2849e149175ef2b33f05d86c03f7b1a6501e7aa8222ccdd10256c5",
+        "official_en_sha256": "40e6c6f9ee8b2658bc18c04e08ca68f403273b247473e4c1444dbc06626d7ec4"
+      },
+      "text": {
+        "jp": "スタティックメッシュ{0}に対するテッセレーション操作はチャンネル#{1}より上のすべてのUVチャンネルを破棄します",
+        "official_en": "Tessellation operation on Static Mesh {0} is destroying all UV channels above channel #{1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

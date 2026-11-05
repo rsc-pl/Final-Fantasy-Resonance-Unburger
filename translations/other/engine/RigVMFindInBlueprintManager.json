@@ -1,0 +1,1862 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "RigVMFindInBlueprintManager",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:FiBMetaDataTag:eb1594d6",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "FiBMetaDataTag",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:FiBMetaDataTag:eb1594d6",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:FiBMetaDataTag:eb1594d6",
+        "jp_sha256": "ad93d3364e6c4ed00d4b77a0163748567255b8a5002b61e26a8f09aab7af162f",
+        "official_en_sha256": "ad93d3364e6c4ed00d4b77a0163748567255b8a5002b61e26a8f09aab7af162f"
+      },
+      "text": {
+        "jp": "!!FiBMD",
+        "official_en": "!!FiBMD",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:CacheAllConfirmationMessage_UnindexedAndOutOfDate_WithCheckout:3ca2b67a",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "CacheAllConfirmationMessage_UnindexedAndOutOfDate_WithCheckout",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:CacheAllConfirmationMessage_UnindexedAndOutOfDate_WithCheckout:3ca2b67a",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:CacheAllConfirmationMessage_UnindexedAndOutOfDate_WithCheckout:3ca2b67a",
+        "jp_sha256": "73d26f34b1a5fc27bc9a5a1f4ae69b67a42dcd3c006ca0225abd34e812cd7f5f",
+        "official_en_sha256": "39bd40c4373022d9093c9310086fbcee18e3bf21edaf3f099f18761131fc31d8"
+      },
+      "text": {
+        "jp": "{PackageCount} ブループリント ({UnindexedCount} インデックスなし/{OutOfDateCount} 期限切れ) をチェックアウトし、再保存しようとしています！インデックス作成のためにこれらのアセットをロードする間はエディタが応答しない可能性があります。作業内容を保存してから開始してください。アセットが破損する、あるいはメモリ使用量により、エディタの安定性に影響することがあります。 \n\nロードされたアセットはインデックスを保持するために再保存する必要があります。再保存しない場合、更新された検索性はこのエディタ セッションのみで終わります。[はい] を選択すると、すべてのブループリントをチェックアウト、ロードし、期限切れのインデックスで再保存します。[いいえ] を選択すると、チェックアウトと再保存をすることなく、これらのブループリントのみをロードします",
+        "official_en": "About to CHECKOUT and RESAVE {PackageCount} Blueprints ({UnindexedCount} unindexed/{OutOfDateCount} out-of-date)! The editor may become unresponsive while these assets are loaded for indexing. Save your work before initiating this: broken assets and memory usage can affect editor stability. \n\nLoaded assets must be resaved to make this indexing permanent, otherwise their updated searchability is for this editor session only. Select 'Yes' to checkout, load and resave all Blueprints with an outdated index. Select 'No' to load these Blueprints only without checking out and resaving them.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:CacheAllConfirmationMessage_UnindexedAndOutOfDate_LoadOnly:96e12f56",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "CacheAllConfirmationMessage_UnindexedAndOutOfDate_LoadOnly",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:CacheAllConfirmationMessage_UnindexedAndOutOfDate_LoadOnly:96e12f56",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:CacheAllConfirmationMessage_UnindexedAndOutOfDate_LoadOnly:96e12f56",
+        "jp_sha256": "a52b9539b52dd97dd34d0a4257eefcca52cfb57135604a43d1cbfa25d4186747",
+        "official_en_sha256": "7645610603f5292eb713ebdc8ca7fd30b861c7a2d32118ee4592c11a8512123f"
+      },
+      "text": {
+        "jp": "{PackageCount} ブループリント ({UnindexedCount} インデックスなし/{OutOfDateCount} 期限切れ) をロードしようとしています！インデックス作成のためにこれらのアセットをロードする間はエディタが応答しない可能性があります。作業内容を保存してから開始してください。アセットが破損する、あるいはメモリ使用量により、エディタの安定性に影響することがあります。 \n\nロードされたアセットはインデックスを保持するために再保存する必要があります。再保存しない場合、更新された検索性はこのエディタ セッションのみで終わります。エディタ設定により、このウィンドウからこれらすべてのアセットを再保存することが許可されません。ブループリント エディタの設定で「AllowIndexAllBlueprints」を確認してください",
+        "official_en": "About to load {PackageCount} Blueprints ({UnindexedCount} unindexed/{OutOfDateCount} out-of-date)! The editor may become unresponsive while these assets are loaded for indexing. Save your work before initiating this: broken assets and memory usage can affect editor stability. \n\nLoaded assets must be resaved to make this indexing permanent, otherwise their updated searchability is for this editor session only. Your editor settings disallow resaving all these assets from this window, see Blueprint Editor Settings: AllowIndexAllBlueprints.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:BlueprintIndexCancel:2dad4f48",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "BlueprintIndexCancel",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:BlueprintIndexCancel:2dad4f48",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:BlueprintIndexCancel:2dad4f48",
+        "jp_sha256": "bca84ea5c65fee0eccd1f23a972b95cce908f83977c65b4e8b32ca72a772a9a5",
+        "official_en_sha256": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27"
+      },
+      "text": {
+        "jp": "キャンセル",
+        "official_en": "Cancel",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:BlueprintIndexCancelled:f772eda1",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "BlueprintIndexCancelled",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:BlueprintIndexCancelled:f772eda1",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:BlueprintIndexCancelled:f772eda1",
+        "jp_sha256": "2a7dfb0647750f721594b4c39fc588798096cc8e309cc288f6645ea29581838e",
+        "official_en_sha256": "1a67a9fe5434b03350fbeade535499bb7ed1285bb7cab1ee643c80c892f0e007"
+      },
+      "text": {
+        "jp": "ブループリントのインデックスの作成をキャンセルしました！",
+        "official_en": "Cancelled Indexing Blueprints!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:BlueprintIndexCancelToolTip:898bac83",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "BlueprintIndexCancelToolTip",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:BlueprintIndexCancelToolTip:898bac83",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:BlueprintIndexCancelToolTip:898bac83",
+        "jp_sha256": "30033f644b5958b1572737cb00a2341b96ac8200692021cc84386bb44ee9734f",
+        "official_en_sha256": "fc574de25053f998ca8a892ed2a3615666947e87dcf3ea1c597e4da20dcb54ab"
+      },
+      "text": {
+        "jp": "ブループリントのインデックスの作成をキャンセルします",
+        "official_en": "Cancels indexing Blueprints.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ClassName:76675e20",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "ClassName",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ClassName:76675e20",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ClassName:76675e20",
+        "jp_sha256": "44f64edac6263299321b99e5a33cc7fc6817e16b15a37e3b8e6584308a9f6f33",
+        "official_en_sha256": "44f64edac6263299321b99e5a33cc7fc6817e16b15a37e3b8e6584308a9f6f33"
+      },
+      "text": {
+        "jp": "ClassName",
+        "official_en": "ClassName",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Comment:e74cadc3",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "Comment",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Comment:e74cadc3",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Comment:e74cadc3",
+        "jp_sha256": "6b9190f59aa3a51fcced55744fead599f764c81e4a51d12c2e97af8e7ab31284",
+        "official_en_sha256": "44f5e3fbec57be75ebfb2e42caf7f5ee1542f84748a0380b6f20238c4a257e1b"
+      },
+      "text": {
+        "jp": "コメント",
+        "official_en": "Comment",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Components:bdf476fc",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "Components",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Components:bdf476fc",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Components:bdf476fc",
+        "jp_sha256": "449dbde72f871bba66df07c1507b9fba8cc6eea1420dab3f0db9b6b56519de14",
+        "official_en_sha256": "a150ce22160259313c47bc66940b905a9c2196924fd447f802cff12dbb1e9702"
+      },
+      "text": {
+        "jp": "コンポーネント",
+        "official_en": "Components",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:DefaultValue:642ad5cc",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "DefaultValue",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:DefaultValue:642ad5cc",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:DefaultValue:642ad5cc",
+        "jp_sha256": "6d28ea3f9b6b2f8a7e17efb726aaedbb093170a4d92216f831bf7dc29da9e5b5",
+        "official_en_sha256": "8ef9d577c9af096074a7ebc8c58dc14a707364cba4ac93f358932a09f7faff16"
+      },
+      "text": {
+        "jp": "デフォルト値",
+        "official_en": "DefaultValue",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Description:489c0e87",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "Description",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Description:489c0e87",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Description:489c0e87",
+        "jp_sha256": "9683551a843c71d8b84ba930126021ef40831ee11bd5e69b06a3ea589148bba6",
+        "official_en_sha256": "526e0087cc3f254d9f86f6c7d8e23d954c4dfda2b312efc29194ae8a860106ba"
+      },
+      "text": {
+        "jp": "説明",
+        "official_en": "Description",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ExtGraphs:c9932a6d",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "ExtGraphs",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ExtGraphs:c9932a6d",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ExtGraphs:c9932a6d",
+        "jp_sha256": "79dfc54bdc3205eff5748c99d4ab8fecbe6c69343b5a048c3b44086a23de05bb",
+        "official_en_sha256": "79dfc54bdc3205eff5748c99d4ab8fecbe6c69343b5a048c3b44086a23de05bb"
+      },
+      "text": {
+        "jp": "ExtGraphs",
+        "official_en": "ExtGraphs",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Extensions:35c361cc",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "Extensions",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Extensions:35c361cc",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Extensions:35c361cc",
+        "jp_sha256": "12bebbe2aa07c7f9f4310d0b8dd642058d0827c804abc939dafcbe8a2370dfc2",
+        "official_en_sha256": "fe3436af86b47d22f22d93da68119fcb749dbed0335b4dc99f254e02db236156"
+      },
+      "text": {
+        "jp": "拡張機能",
+        "official_en": "Extensions",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ExportListFailureMessage:87929f00",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "ExportListFailureMessage",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ExportListFailureMessage:87929f00",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ExportListFailureMessage:87929f00",
+        "jp_sha256": "c2a79b8a99ecfa6510f87c2308eef20cf460735f2452ba4d516382e182fc25c6",
+        "official_en_sha256": "5d9e8f7b3384e45bde68bf786fc99b05ac40d8e4d559f5b0d180a9a4d30fa22c"
+      },
+      "text": {
+        "jp": "{OutputPath}に書き込むことができませんでした",
+        "official_en": "Failed to write to {OutputPath}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlobalFindResultsTabName:891a5d2d",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "GlobalFindResultsTabName",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlobalFindResultsTabName:891a5d2d",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlobalFindResultsTabName:891a5d2d",
+        "jp_sha256": "26a0058aea0b9d9f77948934c8bc208a44df6e5726a108e458245887e8cf5a4d",
+        "official_en_sha256": "69e273ddb0cd9d7501cb336c80ec3f69b23992fa43941b5c124fbed68dc9f68a"
+      },
+      "text": {
+        "jp": "ブループリントを検索",
+        "official_en": "Find in Blueprints",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:WorkspaceMenu_GlobalFindResultsCategory:c5108a9d",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "WorkspaceMenu_GlobalFindResultsCategory",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:WorkspaceMenu_GlobalFindResultsCategory:c5108a9d",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:WorkspaceMenu_GlobalFindResultsCategory:c5108a9d",
+        "jp_sha256": "26a0058aea0b9d9f77948934c8bc208a44df6e5726a108e458245887e8cf5a4d",
+        "official_en_sha256": "69e273ddb0cd9d7501cb336c80ec3f69b23992fa43941b5c124fbed68dc9f68a"
+      },
+      "text": {
+        "jp": "ブループリントを検索",
+        "official_en": "Find in Blueprints",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlobalFindResultsDisplayName:6691be4c",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "GlobalFindResultsDisplayName",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlobalFindResultsDisplayName:6691be4c",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlobalFindResultsDisplayName:6691be4c",
+        "jp_sha256": "48eb7444f8e473759a054da47a6764930df1171e513c18fd1b5e23e763a55589",
+        "official_en_sha256": "a50913d9c6a0f6e1fd121af62ac573a08584c0385128fdcd18c9b398a5db61bf"
+      },
+      "text": {
+        "jp": "ブループリントを検索 {0}",
+        "official_en": "Find in Blueprints {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlobalFindResultsTabNameWithIndex:41ad36cc",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "GlobalFindResultsTabNameWithIndex",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlobalFindResultsTabNameWithIndex:41ad36cc",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlobalFindResultsTabNameWithIndex:41ad36cc",
+        "jp_sha256": "48eb7444f8e473759a054da47a6764930df1171e513c18fd1b5e23e763a55589",
+        "official_en_sha256": "a50913d9c6a0f6e1fd121af62ac573a08584c0385128fdcd18c9b398a5db61bf"
+      },
+      "text": {
+        "jp": "ブループリントを検索 {0}",
+        "official_en": "Find in Blueprints {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlobalFindResultsMenuTooltipText:74b466a7",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "GlobalFindResultsMenuTooltipText",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlobalFindResultsMenuTooltipText:74b466a7",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlobalFindResultsMenuTooltipText:74b466a7",
+        "jp_sha256": "6ca7d70c4936ef6d6ec6f433628dbb3282e31ddefcac3ceaf729b78b39e0174b",
+        "official_en_sha256": "94920d3f41f568caf668d195d9d2c22919bd7b8e3a0677fa123c1087b689a76b"
+      },
+      "text": {
+        "jp": "すべてのブループリントで関数、イベント、変数への参照を探します",
+        "official_en": "Find references to functions, events and variables in all Blueprints.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:BlueprintIndexComplete:7d43753a",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "BlueprintIndexComplete",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:BlueprintIndexComplete:7d43753a",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:BlueprintIndexComplete:7d43753a",
+        "jp_sha256": "a7f7c7d3efe7ec72d671f91cd0657199a330c644b4aad21f73e1f35b52a5a88d",
+        "official_en_sha256": "e67dd26f11ee38b52ee355fc2fc8fffb66091898da05c9483b872000ca661db3"
+      },
+      "text": {
+        "jp": "ブループリントのインデックスの作成を終了しました！",
+        "official_en": "Finished indexing Blueprints!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:FuncOriginClass:aae72416",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "FuncOriginClass",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:FuncOriginClass:aae72416",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:FuncOriginClass:aae72416",
+        "jp_sha256": "4eaf68dd26a3c2e212575a3e3e07e4ef8c3ce7020a47f1ed144883ecd9f90c99",
+        "official_en_sha256": "4eaf68dd26a3c2e212575a3e3e07e4ef8c3ce7020a47f1ed144883ecd9f90c99"
+      },
+      "text": {
+        "jp": "FuncOriginClass",
+        "official_en": "FuncOriginClass",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Functions:19b60f3a",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "Functions",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Functions:19b60f3a",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Functions:19b60f3a",
+        "jp_sha256": "b0e21b8e8a05a041b765e12dd4d3418aaef071281b6428463bc222ba710d0516",
+        "official_en_sha256": "75e942e5b366227eccb9def7fcea18422c7c5e164812c112c921461b2c587727"
+      },
+      "text": {
+        "jp": "機能",
+        "official_en": "Functions",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Glyph:e758ff22",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "Glyph",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Glyph:e758ff22",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Glyph:e758ff22",
+        "jp_sha256": "6e40d017c08ea109dfa9ffe3d2e3d964b193ae485468de17b6edb6d4c86acbca",
+        "official_en_sha256": "1aff48718b6b08f028395c08e397fae50f392acd42b126564533923e378cfc2f"
+      },
+      "text": {
+        "jp": "グリフ",
+        "official_en": "Glyph",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlyphColor:210535aa",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "GlyphColor",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlyphColor:210535aa",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlyphColor:210535aa",
+        "jp_sha256": "2ba449aee000737e3e25982f553bf6d92c8ba50ace6ceef3b037578e7f431c1f",
+        "official_en_sha256": "f1c077cb339a9cfafdc755840f0911cfa74e3ffec298e8c8d5f1144513bb8495"
+      },
+      "text": {
+        "jp": "Glyphカラー",
+        "official_en": "GlyphColor",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlyphStyleSet:78b0d9c7",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "GlyphStyleSet",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlyphStyleSet:78b0d9c7",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlyphStyleSet:78b0d9c7",
+        "jp_sha256": "351039bb10a557b72494a19a72329a5d402878f6957ebbf13e959ca6bcd2f360",
+        "official_en_sha256": "351039bb10a557b72494a19a72329a5d402878f6957ebbf13e959ca6bcd2f360"
+      },
+      "text": {
+        "jp": "GlyphStyleSet",
+        "official_en": "GlyphStyleSet",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ConfirmIndexAll_Title:35c4a014",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "ConfirmIndexAll_Title",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ConfirmIndexAll_Title:35c4a014",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ConfirmIndexAll_Title:35c4a014",
+        "jp_sha256": "ef27e316848938b5e6ae281978a0c40da7c3220e9736c9fb62bf1a39d9e29494",
+        "official_en_sha256": "8e20c8946c2f67c764936fe9ced85da8e7d4d7bf9dff183bbcdc810f92dbcf51"
+      },
+      "text": {
+        "jp": "すべてをインデックス化しています",
+        "official_en": "Indexing All",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:BlueprintIndexMessage:3634ed9f",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "BlueprintIndexMessage",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:BlueprintIndexMessage:3634ed9f",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:BlueprintIndexMessage:3634ed9f",
+        "jp_sha256": "6b982c6a527ba41372ce003a55d3f348ef569028acd2f1c6c41e29f4cda0d1f3",
+        "official_en_sha256": "ecc586224a1a2f3d09b546ebb7b42178e75c709f61f0cbd46b3dba76abe96a48"
+      },
+      "text": {
+        "jp": "ブループリントのインデックスを作成しています...",
+        "official_en": "Indexing Blueprints...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:BlueprintIndexProgress:c4a1c92d",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "BlueprintIndexProgress",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:BlueprintIndexProgress:c4a1c92d",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:BlueprintIndexProgress:c4a1c92d",
+        "jp_sha256": "e587d087b0ba01d3c2ee2322e513afdf15de51606dd5fb5bd92eca186bdc6693",
+        "official_en_sha256": "bb09a6511953f6c55cb433bc29f93627ac09aed9006d5ba1f221565f9e9a7c95"
+      },
+      "text": {
+        "jp": "ブループリントのインデックスを作成中... ({Percent})",
+        "official_en": "Indexing Blueprints... ({Percent})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Interfaces:d4dcbe29",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "Interfaces",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Interfaces:d4dcbe29",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Interfaces:d4dcbe29",
+        "jp_sha256": "e331ba1d139f59fb4547e3d2172f0485c1e5d5e250e2845e22c06b532d5d5c1f",
+        "official_en_sha256": "e5ac2c2b24825157e401eb95bf3b6c7785acd991902e676f1517eb3d1693b511"
+      },
+      "text": {
+        "jp": "インターフェース",
+        "official_en": "Interfaces",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:IsArray:94532e59",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "IsArray",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:IsArray:94532e59",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:IsArray:94532e59",
+        "jp_sha256": "34c0c53944cfb8d369f646af386702bf4b26cc2823953eec32b609315b57eb87",
+        "official_en_sha256": "34c0c53944cfb8d369f646af386702bf4b26cc2823953eec32b609315b57eb87"
+      },
+      "text": {
+        "jp": "IsArray",
+        "official_en": "IsArray",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:IsReference:77e149fb",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "IsReference",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:IsReference:77e149fb",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:IsReference:77e149fb",
+        "jp_sha256": "87e5f083dc326f257f9346d55cc94ec061917e146b37240b83dd3f794f757e80",
+        "official_en_sha256": "87e5f083dc326f257f9346d55cc94ec061917e146b37240b83dd3f794f757e80"
+      },
+      "text": {
+        "jp": "IsReference",
+        "official_en": "IsReference",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:IsSCSComponent:35d008ce",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "IsSCSComponent",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:IsSCSComponent:35d008ce",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:IsSCSComponent:35d008ce",
+        "jp_sha256": "483cf33eb4a859b715120810f6f196a81f42eb576b423fb0e486699a460aa2a5",
+        "official_en_sha256": "2a0d064221eb1383d148d3b1bbacfc03011e21067445961426c7e2af2d97eec3"
+      },
+      "text": {
+        "jp": "IsSCSコンポーネント",
+        "official_en": "IsSCSComponent",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Macros:9766e895",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "Macros",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Macros:9766e895",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Macros:9766e895",
+        "jp_sha256": "9cbeae5f845ccabe5695e738a8bf43226eb1a9abe99f08fde093875f715b3430",
+        "official_en_sha256": "866dcd98eca7475c2199ad8a55fbdea2dca67cbdaa65166aa1864b5b452dfd17"
+      },
+      "text": {
+        "jp": "マクロ",
+        "official_en": "Macros",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Name:d4e5cc4f",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "Name",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Name:d4e5cc4f",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Name:d4e5cc4f",
+        "jp_sha256": "7ec26292414bccefa35290004928d8cf8f5e19d2bfb8b0c0322ee9e8b2854349",
+        "official_en_sha256": "dcd1d5223f73b3a965c07e3ff5dbee3eedcfedb806686a05b9b3868a2c3d6d50"
+      },
+      "text": {
+        "jp": "名前",
+        "official_en": "Name",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:NativeName:a8890b00",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "NativeName",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:NativeName:a8890b00",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:NativeName:a8890b00",
+        "jp_sha256": "ee4d63829edc9348a21593fb51f6848b814711e37c73154dd3fff94b10fa8f2a",
+        "official_en_sha256": "46fa54caa25503a5ca27af2f41c10b8372ce920aa62e7d166d17e993531d698f"
+      },
+      "text": {
+        "jp": "ネイティブ名",
+        "official_en": "Native Name",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:NodeGuid:8e691e24",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "NodeGuid",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:NodeGuid:8e691e24",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:NodeGuid:8e691e24",
+        "jp_sha256": "cc7f73dd8ca8ae9901ea2213c83009711d681130e42caad15306fcef1ea9ccbb",
+        "official_en_sha256": "39074cbacd143185f9b4b9abb3097a655db2c9ca29a83b4dccf6279d4dcec238"
+      },
+      "text": {
+        "jp": "ノードGuid",
+        "official_en": "NodeGuid",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Nodes:fffd2d6f",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "Nodes",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Nodes:fffd2d6f",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Nodes:fffd2d6f",
+        "jp_sha256": "19fb28f9f6691833b6de1c9acb37feea6f37e5124a90fa8562e6b9fcbbfa9f44",
+        "official_en_sha256": "7ac362063b9f204602f38f9f1ec9cf047f03e0d7b83896571c9df6d31ad41e9c"
+      },
+      "text": {
+        "jp": "ノード",
+        "official_en": "Nodes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ObjectClass:43d6113f",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "ObjectClass",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ObjectClass:43d6113f",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ObjectClass:43d6113f",
+        "jp_sha256": "612ca51d2b16b5f3d54fec932ea5e32ccb05849e77768f89ec73a2c721419393",
+        "official_en_sha256": "9cad6dee2a270c95a4e7c01b3b8c164b3309ea6925c57b49b608e48f59c4f42f"
+      },
+      "text": {
+        "jp": "オブジェクトクラス",
+        "official_en": "ObjectClass",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ParentClass:0c965b72",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "ParentClass",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ParentClass:0c965b72",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ParentClass:0c965b72",
+        "jp_sha256": "d556c7db6876253eb93a244791c17b6f4208f1bd3f3c2421891bfe14bd4dcb78",
+        "official_en_sha256": "5ca0b3c23968a5311103e1ae506d1b06bfdb30d7d5b385a2f5704435ab67d865"
+      },
+      "text": {
+        "jp": "親クラス",
+        "official_en": "ParentClass",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Path:d242e56e",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "Path",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Path:d242e56e",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Path:d242e56e",
+        "jp_sha256": "100e75ae4aa4efe89ade36aba0b48375e5001c8fe2836e53cb53374ee9bef5d9",
+        "official_en_sha256": "62fa5a5b0d3c318835a213e22a4b335c42515443d598741d0413e8c47f9ecf67"
+      },
+      "text": {
+        "jp": "パス",
+        "official_en": "Path",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:PinCategory:6b736c68",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "PinCategory",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:PinCategory:6b736c68",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:PinCategory:6b736c68",
+        "jp_sha256": "5c3106d63a3128e41482e259f9910b94606df4ecf219dc2eb0aab2d37664df1a",
+        "official_en_sha256": "79091a995578fef139c085ad2bdf8fc5e7c79f60929c8d33a718523d0a3a625d"
+      },
+      "text": {
+        "jp": "ピンカテゴリー",
+        "official_en": "PinCategory",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Pins:261d369e",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "Pins",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Pins:261d369e",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Pins:261d369e",
+        "jp_sha256": "e5abe3ee0e41ac06c0bca2bb74c50cfd2b53cbcc94b7f2663b02a5b0ad9cbb58",
+        "official_en_sha256": "64baafaacb1a6c1ad7ef320be35ff85041ab72cf61b8db9e739f9a4040048a92"
+      },
+      "text": {
+        "jp": "ピン",
+        "official_en": "Pins",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Properties:daccee9c",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "Properties",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Properties:daccee9c",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Properties:daccee9c",
+        "jp_sha256": "add6fe1bee37e2c20f4ebfb03aad534c35bd1a54fb9b5e9a3e4904f6297c5cf7",
+        "official_en_sha256": "ae43692b2a310b8ed2443d2b7d2a3e4cf0b6d73115badd72831b3d22381f235f"
+      },
+      "text": {
+        "jp": "プロパティ",
+        "official_en": "Properties",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ExportListConfirmationMessage:04c6831c",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "ExportListConfirmationMessage",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ExportListConfirmationMessage:04c6831c",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:ExportListConfirmationMessage:04c6831c",
+        "jp_sha256": "97e8e04a1fbc23aa538776f943175cd404a973624164388a4b93d96cd738a68c",
+        "official_en_sha256": "d428d55ffb7d290707e316505990dfe9aedcc49713a978cc66a5e7667d921da6"
+      },
+      "text": {
+        "jp": "期限切れのメタデータがあるブループリントのリストを{OutputPath}に保存しました",
+        "official_en": "Saved list of blueprints with out-of-date metadata to {OutputPath}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:SchemaName:a94595ce",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "SchemaName",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:SchemaName:a94595ce",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:SchemaName:a94595ce",
+        "jp_sha256": "a68fa31590ed629e2cf618cc91486370033f231eb3ee911893d52c261dda1fd3",
+        "official_en_sha256": "a68fa31590ed629e2cf618cc91486370033f231eb3ee911893d52c261dda1fd3"
+      },
+      "text": {
+        "jp": "SchemaName",
+        "official_en": "SchemaName",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlobalFindResultsTabTooltip:91b9259d",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "GlobalFindResultsTabTooltip",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlobalFindResultsTabTooltip:91b9259d",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:GlobalFindResultsTabTooltip:91b9259d",
+        "jp_sha256": "7575cfc066c1e121071f28d9f46f4234ac7edab8fda3535597446c931c826244",
+        "official_en_sha256": "7747cd2c224b359d396c1590b5d48247005f9bd4a0378ede44df5d6ba09a551a"
+      },
+      "text": {
+        "jp": "すべてのブループリント アセットで文字列を検索します。",
+        "official_en": "Search for a string in all Blueprint assets.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Sub:16ddde9c",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "Sub",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Sub:16ddde9c",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Sub:16ddde9c",
+        "jp_sha256": "b7e25a5bdab187814196da152af6e287b3a6a8e4085309900c52a9613d02c2d7",
+        "official_en_sha256": "21c1eb891c686f67d9f2fca7127c1f37a2980c5f57bc419e886f6caf22bce12c"
+      },
+      "text": {
+        "jp": "サブ",
+        "official_en": "Sub",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:SubCategory:84c99558",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "SubCategory",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:SubCategory:84c99558",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:SubCategory:84c99558",
+        "jp_sha256": "f569decb5fdbb3658eeaedf4288c5da3a68cee698f686efd0a8db107fb469fd0",
+        "official_en_sha256": "db63344852a7562995faebb4d745e454c61c29f2607cdb60285f7fddca1242f0"
+      },
+      "text": {
+        "jp": "サブカテゴリー",
+        "official_en": "SubCategory",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Tooltip:7e1de76f",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "Tooltip",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Tooltip:7e1de76f",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Tooltip:7e1de76f",
+        "jp_sha256": "77b36ced160c035a19b93a26bf3485f5aad61fe0ac594b8ee794d2747e40a3ab",
+        "official_en_sha256": "20f12289f9b818970e7a0862d3c41139ec574cd4a9fa984885f612e697d41292"
+      },
+      "text": {
+        "jp": "ツールチップ",
+        "official_en": "Tooltip",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Uber:d4f4a3fd",
+      "source": {
+        "set": "set-02",
+        "namespace": "RigVMFindInBlueprintManager",
+        "key": "Uber",
+        "jp_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Uber:d4f4a3fd",
+        "official_en_record_id": "switch:locres:set-01:RigVMFindInBlueprintManager:Uber:d4f4a3fd",
+        "jp_sha256": "a5802b98557983ff2eefb03266d8fa328b601340670c81d3e76b05bee47d6dcc",
+        "official_en_sha256": "3cfbdbc3ba7620f9b1c62606674335fba55a6eb7d7d68ef69d6720f5d2870ff6"
+      },
+      "text": {
+        "jp": "Uber　　",
+        "official_en": "Uber",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UVEditor",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UVEditor:Prompt_UVEditorCloseCannotSave:e1d4c238",
+      "source": {
+        "set": "set-02",
+        "namespace": "UVEditor",
+        "key": "Prompt_UVEditorCloseCannotSave",
+        "jp_record_id": "switch:locres:set-01:UVEditor:Prompt_UVEditorCloseCannotSave:e1d4c238",
+        "official_en_record_id": "switch:locres:set-01:UVEditor:Prompt_UVEditorCloseCannotSave:e1d4c238",
+        "jp_sha256": "be3196dfb57697816d6c67a235ade0927f26c39e37a1c82ea7e9963d9299a442",
+        "official_en_sha256": "d41ffb0c60ec0a06b6995b95a34db470950294fb48f4b8af4745a0f6130aa57a"
+      },
+      "text": {
+        "jp": "少なくとも 1 つのアセットに適用されていない変更があります。ただし UV エディタは、現在のエディタ条件のため、変更を現在適用できません。UV エディタを終了しますか？(「はい」を選択するとすべての未適用の変更が失われる)",
+        "official_en": "At least one of the assets has unapplied changes, however the UV Editor cannot currently apply changes due to current editor conditions. Do you still want to exit the UV Editor? (Selecting 'Yes' will cause all yet unapplied changes to be lost!)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UVEditor:Prompt_UVEditorClose:bc4ce574",
+      "source": {
+        "set": "set-02",
+        "namespace": "UVEditor",
+        "key": "Prompt_UVEditorClose",
+        "jp_record_id": "switch:locres:set-01:UVEditor:Prompt_UVEditorClose:bc4ce574",
+        "official_en_record_id": "switch:locres:set-01:UVEditor:Prompt_UVEditorClose:bc4ce574",
+        "jp_sha256": "911d625a3adcd6056eb072dc7c54afaf257f5f013b49a5ab1cd600c2aa62bfde",
+        "official_en_sha256": "300396547247713ef202cd6640e49dcc792fb69d7d6b51cafab1c2e93c250583"
+      },
+      "text": {
+        "jp": "少なくとも1つのアセットに適用されていない変更があります。変更を適用しますか?('いいえ'を選択するとすべての変更が失われる)",
+        "official_en": "At least one of the assets has unapplied changes. Would you like to apply them? (Selecting 'No' will cause all changes to be lost!)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

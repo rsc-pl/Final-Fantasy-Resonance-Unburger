@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "LensDistortionPlugin",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:LensDistortionPlugin:LensDistortionCameraModel_OutputTargetRequired:f78dc8b4",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDistortionPlugin",
+        "key": "LensDistortionCameraModel_OutputTargetRequired",
+        "jp_record_id": "switch:locres:set-01:LensDistortionPlugin:LensDistortionCameraModel_OutputTargetRequired:f78dc8b4",
+        "official_en_record_id": "switch:locres:set-01:LensDistortionPlugin:LensDistortionCameraModel_OutputTargetRequired:f78dc8b4",
+        "jp_sha256": "66c75b78e0ac8513a5c9a0e7b1365b79ae74ab15b137cd867d4ff51e7cc515d6",
+        "official_en_sha256": "d405ecf160aefed4f1a43a38a605942ed7308a563f718626d26e5a14c6918f4c"
+      },
+      "text": {
+        "jp": "DrawUVDisplacementToRenderTarget:出力レンダーターゲットが必要です。",
+        "official_en": "DrawUVDisplacementToRenderTarget: Output render target is required.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LensDistortionPlugin:LensDistortionCameraModel_SM5Unavailable:bdcbcada",
+      "source": {
+        "set": "set-02",
+        "namespace": "LensDistortionPlugin",
+        "key": "LensDistortionCameraModel_SM5Unavailable",
+        "jp_record_id": "switch:locres:set-01:LensDistortionPlugin:LensDistortionCameraModel_SM5Unavailable:bdcbcada",
+        "official_en_record_id": "switch:locres:set-01:LensDistortionPlugin:LensDistortionCameraModel_SM5Unavailable:bdcbcada",
+        "jp_sha256": "a58224f36c0b8331577f664bff05d097ecec64c9b716f9fc50f40ced99b7debe",
+        "official_en_sha256": "76525a6e091ad072ec2544016d95bdc836f9140f83aae8f497f1f0826acd9ff9"
+      },
+      "text": {
+        "jp": "DrawUVDisplacementToRenderTarget:RHIFeatureLevel::SM5が必要ですが、利用できません。",
+        "official_en": "DrawUVDisplacementToRenderTarget: Requires RHIFeatureLevel::SM5 which is unavailable.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "USDLevelSequenceHelper",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:USDLevelSequenceHelper:TrackUnboundMessage:5ebfded6",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDLevelSequenceHelper",
+        "key": "TrackUnboundMessage",
+        "jp_record_id": "switch:locres:set-01:USDLevelSequenceHelper:TrackUnboundMessage:5ebfded6",
+        "official_en_record_id": "switch:locres:set-01:USDLevelSequenceHelper:TrackUnboundMessage:5ebfded6",
+        "jp_sha256": "adf730d555aabde05f7fbdb2e3a7a2a7e518e46aa00cb398d387b7e8c57f8f52",
+        "official_en_sha256": "22defb368d3e262864905e5fa35237c4146dff3771ffb568c2bf57f1c5ce133d"
+      },
+      "text": {
+        "jp": "ステージ アクタのプロパティ「{0}」を独自のレベル シーケンスにバインドできません。\n\nこのシーケンスは、USD ステージに入っているアニメーションに類似したものです。現時点では、バインディングを作成することや、USD 情報に戻すことができないトラックをバインドすることはできません",
+        "official_en": "Cannot bind the Stage Actor property '{0}' to it's own Level Sequence!\n\nThis sequence is an analogue for animation contained in the USD stage. For now it is not possible to create bindings or bind tracks that cannot be translated back into USD information.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDLevelSequenceHelper:DontAskAgain:f0ee6ba3",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDLevelSequenceHelper",
+        "key": "DontAskAgain",
+        "jp_record_id": "switch:locres:set-01:USDLevelSequenceHelper:DontAskAgain:f0ee6ba3",
+        "official_en_record_id": "switch:locres:set-01:USDLevelSequenceHelper:DontAskAgain:f0ee6ba3",
+        "jp_sha256": "46e74c45b9a15b9e4f575bf2d7c4b24aeea7612a9a4eed19d595efcd7f6057f3",
+        "official_en_sha256": "7675ef04a7549fe846ec3967b670ab982b341b8e05811ebfb3c5ac535fbb28b1"
+      },
+      "text": {
+        "jp": "今後確認しない",
+        "official_en": "Don't prompt again",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDLevelSequenceHelper:SnappedSectionTitleSubText:c71507d1",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDLevelSequenceHelper",
+        "key": "SnappedSectionTitleSubText",
+        "jp_record_id": "switch:locres:set-01:USDLevelSequenceHelper:SnappedSectionTitleSubText:c71507d1",
+        "official_en_record_id": "switch:locres:set-01:USDLevelSequenceHelper:SnappedSectionTitleSubText:c71507d1",
+        "jp_sha256": "14f44fd9a77fd3b61aa529457ad6200fc606d4805f761034a3dab68f4587c885",
+        "official_en_sha256": "fbb4bbafabd72f64b6c44fde6804ae91b3deccffe54f4899fbcfc0b78efb12ea"
+      },
+      "text": {
+        "jp": "USD では、ルート レイヤー以外のレイヤーからの開始/終了タイムコードのほとんどは無視されますが、UE では、サブシーケンス セクション範囲では、下層のアニメーションがクリップされます。\n\nこの動作を調整するために、StageActor が生成したいずれかのレベル シーケンスのサブシーケンス セクションは、代わりにそのステージの再生範囲に自動的にスナップされるため、不要なアニメーション クリッピングは発生しません",
+        "official_en": "In USD, start and endTimeCodes from any layer but the root layer are mostly ignored, while in UE a subsequence section range does clip the underlying animation.\n\nIn order to reconcile the behavior, subsequence sections on any of the StageActor's generated LevelSequences will automatically snap to the stage's playback range instead, which prevents any unwanted animation clipping.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDLevelSequenceHelper:OverridenOpinionMessageOk:0141fefe",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDLevelSequenceHelper",
+        "key": "OverridenOpinionMessageOk",
+        "jp_record_id": "switch:locres:set-01:USDLevelSequenceHelper:OverridenOpinionMessageOk:0141fefe",
+        "official_en_record_id": "switch:locres:set-01:USDLevelSequenceHelper:OverridenOpinionMessageOk:0141fefe",
+        "jp_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "official_en_sha256": "843ac01149cced785dfebd0028d3b03ba78e286e1c6f9517ebfcdb609d97af4c"
+      },
+      "text": {
+        "jp": "OK",
+        "official_en": "Ok",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDLevelSequenceHelper:TrackUnboundOk:b5f54e36",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDLevelSequenceHelper",
+        "key": "TrackUnboundOk",
+        "jp_record_id": "switch:locres:set-01:USDLevelSequenceHelper:TrackUnboundOk:b5f54e36",
+        "official_en_record_id": "switch:locres:set-01:USDLevelSequenceHelper:TrackUnboundOk:b5f54e36",
+        "jp_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "official_en_sha256": "843ac01149cced785dfebd0028d3b03ba78e286e1c6f9517ebfcdb609d97af4c"
+      },
+      "text": {
+        "jp": "OK",
+        "official_en": "Ok",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDLevelSequenceHelper:TransformTrackOnCameraComponentSubText:7938bfd4",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDLevelSequenceHelper",
+        "key": "TransformTrackOnCameraComponentSubText",
+        "jp_record_id": "switch:locres:set-01:USDLevelSequenceHelper:TransformTrackOnCameraComponentSubText:7938bfd4",
+        "official_en_record_id": "switch:locres:set-01:USDLevelSequenceHelper:TransformTrackOnCameraComponentSubText:7938bfd4",
+        "jp_sha256": "2b6b623f0fe2a37eaad4c6c624777261993f018c1faf4430978d22f476098851",
+        "official_en_sha256": "d7f58c532632e0d3b737922a8662ad3cf6c350a1797755351ed368758edc167e"
+      },
+      "text": {
+        "jp": "LevelSequence のカメラ コンポーネント「{0}」へのバインディングには、サポートされていない、トランスフォーム トラックがあります\n\nカメラ トランスフォームをアニメートするには、トランスフォーム トラックを「{1}」 CameraActor に直接、またはルート シーン コンポーネントにバインドします",
+        "official_en": "The LevelSequence binding to the camera component '{0}' has a transform track, which is not supported.\n\nFor animating camera transforms, please bind a transform track to the '{1}' CameraActor directly, or to its root scene component instead.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDLevelSequenceHelper:TrackUnboundTitle:65289f5d",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDLevelSequenceHelper",
+        "key": "TrackUnboundTitle",
+        "jp_record_id": "switch:locres:set-01:USDLevelSequenceHelper:TrackUnboundTitle:65289f5d",
+        "official_en_record_id": "switch:locres:set-01:USDLevelSequenceHelper:TrackUnboundTitle:65289f5d",
+        "jp_sha256": "22c91d4afcc1538985225a2d19a5c65dd767dfb049f5aaf633741d01fc3f2d8d",
+        "official_en_sha256": "9b50f6813052dc3560dee69208384941601ed0b01282f7e3208d47b56ad538b0"
+      },
+      "text": {
+        "jp": "USD：プロパティをバインドできませんでした",
+        "official_en": "USD: Failed to bind property",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDLevelSequenceHelper:VisibilityWarningTitle:afcec4bf",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDLevelSequenceHelper",
+        "key": "VisibilityWarningTitle",
+        "jp_record_id": "switch:locres:set-01:USDLevelSequenceHelper:VisibilityWarningTitle:afcec4bf",
+        "official_en_record_id": "switch:locres:set-01:USDLevelSequenceHelper:VisibilityWarningTitle:afcec4bf",
+        "jp_sha256": "2b88713516ca1dad49285ab6d71614e76858e4b1462eb29c4dfb3a12b12eaa38",
+        "official_en_sha256": "209787783dd1c0a44b1fdbe1aed2b8bcd674c561225820bfd00909eff243a06b"
+      },
+      "text": {
+        "jp": "USD: 継承した可視性",
+        "official_en": "USD: Inherited visibility",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDLevelSequenceHelper:SnappedSectionTitle:9bb619f4",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDLevelSequenceHelper",
+        "key": "SnappedSectionTitle",
+        "jp_record_id": "switch:locres:set-01:USDLevelSequenceHelper:SnappedSectionTitle:9bb619f4",
+        "official_en_record_id": "switch:locres:set-01:USDLevelSequenceHelper:SnappedSectionTitle:9bb619f4",
+        "jp_sha256": "6ce681daf514c347f67e45b6a4958511fa1cb8947db0bf274ecb06e9195d5c62",
+        "official_en_sha256": "8f89fb35b65fe7eb52addd6f75cd0080564d2e75aee48cf3b26c73e169fbba51"
+      },
+      "text": {
+        "jp": "USD: サブセクションを調整済み",
+        "official_en": "USD: Subsections adjusted",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDLevelSequenceHelper:TransformTrackOnCameraComponentText:68f20aa7",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDLevelSequenceHelper",
+        "key": "TransformTrackOnCameraComponentText",
+        "jp_record_id": "switch:locres:set-01:USDLevelSequenceHelper:TransformTrackOnCameraComponentText:68f20aa7",
+        "official_en_record_id": "switch:locres:set-01:USDLevelSequenceHelper:TransformTrackOnCameraComponentText:68f20aa7",
+        "jp_sha256": "003bb009e453e89ad46db304fe584fca1df9e27c58d27c60e21552f2b18ccb70",
+        "official_en_sha256": "f886801feb840b7e08511a575c3e21d6926e1857bd5f52d8455785fab1d947af"
+      },
+      "text": {
+        "jp": "USD:カメラコンポーネントでのトランスフォームトラック",
+        "official_en": "USD: Transform track on camera component",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDLevelSequenceHelper:VisibilityWarningTooltip:21ea7edb",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDLevelSequenceHelper",
+        "key": "VisibilityWarningTooltip",
+        "jp_record_id": "switch:locres:set-01:USDLevelSequenceHelper:VisibilityWarningTooltip:21ea7edb",
+        "official_en_record_id": "switch:locres:set-01:USDLevelSequenceHelper:VisibilityWarningTooltip:21ea7edb",
+        "jp_sha256": "761a64295f963b80c7394aa60cb0ba1026adaadb702fd6ea52c1d4e113d2064a",
+        "official_en_sha256": "243c0504f14d0f54fe180689177b78cad055171638e9acca7c7ce2b5f9f3e5b3"
+      },
+      "text": {
+        "jp": "USD の可視性が継承されます (親のプリミティブが非表示の場合に、その子も暗黙的に非表示)。一方 Unreal では継承されません。つまり、Unreal で可視性のアニメーションを制作すると、USD ステージで予期しない結果になることがあります。\n\n可能な場合に [File (ファイル)] > [Regenerate sequence (シーケンスを再生成)] によりレベルシーケンスとステージの最新ステートを再同期すると便利です",
+        "official_en": "Visibility in USD is inherited (if a parent prim is hidden, its children are also implicitly hidden), while it is not inherited in Unreal. This means that authoring visibility animation from Unreal may have unexpected consequences on the USD stage.\n\nYou may want to use 'File -> Regenerate sequence' to resynchronize the LevelSequence with the current state of the stage, whenever is convenient.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

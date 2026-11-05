@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_SubEv_C01_Rain_ItemGet",
+    "scene_id": "ST_SubEv_C01_Rain_ItemGet",
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C01_Rain_ItemGet:SubEv_C01_Rain_ItemGet_003:f7aba9d0",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C01_Rain_ItemGet",
+        "key": "SubEv_C01_Rain_ItemGet_003",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C01_Rain_ItemGet:SubEv_C01_Rain_ItemGet_003:f7aba9d0",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C01_Rain_ItemGet:SubEv_C01_Rain_ItemGet_003:f7aba9d0",
+        "jp_sha256": "36715a0db82dfed3cebfb77240a999689b9a75e47453710dab9c549718e0684c",
+        "official_en_sha256": "e6e76de21549d4a67e0c39115ecae0c12f41a7ae47f715a020becd82bb7c1898"
+      },
+      "text": {
+        "jp": "ああ！",
+        "official_en": "Right!",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C01_Rain_ItemGet",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "レイン",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0002",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C01_Rain_ItemGet/SubEv_C01_Rain_ItemGet_003"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C01_Rain_ItemGet:SubEv_C01_Rain_ItemGet_001:bf045871",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C01_Rain_ItemGet",
+        "key": "SubEv_C01_Rain_ItemGet_001",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C01_Rain_ItemGet:SubEv_C01_Rain_ItemGet_001:bf045871",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C01_Rain_ItemGet:SubEv_C01_Rain_ItemGet_001:bf045871",
+        "jp_sha256": "e259ee25a37b70fa685941c77b2f239485e862762972a6d3dfc4abcf5a050771",
+        "official_en_sha256": "10aedae5888fa67af7c0868ad9a2f9e9485b084db3d22491f599bbea3124bef4"
+      },
+      "text": {
+        "jp": "これが寛解の雫……。",
+        "official_en": "So this is Dew of Reprieve...",
+        "real_en": "So this is the Dew of Remission..."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C01_Rain_ItemGet",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "レイン",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0002",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C01_Rain_ItemGet/SubEv_C01_Rain_ItemGet_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_SubEv_C01_Rain_ItemGet:SubEv_C01_Rain_ItemGet_002:11d84b7c",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_SubEv_C01_Rain_ItemGet",
+        "key": "SubEv_C01_Rain_ItemGet_002",
+        "jp_record_id": "switch:locres:set-02:ST_SubEv_C01_Rain_ItemGet:SubEv_C01_Rain_ItemGet_002:11d84b7c",
+        "official_en_record_id": "switch:locres:set-02:ST_SubEv_C01_Rain_ItemGet:SubEv_C01_Rain_ItemGet_002:11d84b7c",
+        "jp_sha256": "fb0a0e077b29693d1e3a55d63fa3a5ac37f3ca9e425e5eaf3552e5ae91246cd4",
+        "official_en_sha256": "3c51303653df2162402ec46cca72e347f7394bfbf9fa04d72a2edc4f0c7289b7"
+      },
+      "text": {
+        "jp": "早くコルの村のスコットに届けに行こう。",
+        "official_en": "Let us hurry and get it to Scott. He’ll be in the village of Kol.",
+        "real_en": "Let's hurry and bring it to Scott in Kol."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_SubEv_C01_Rain_ItemGet",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "ラスウェル",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0003",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_SubEv_C01_Rain_ItemGet/SubEv_C01_Rain_ItemGet_002"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

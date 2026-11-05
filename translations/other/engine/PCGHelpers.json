@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGHelpers",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGHelpers:ParametersIncorrect:aca9ae20",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGHelpers",
+        "key": "ParametersIncorrect",
+        "jp_record_id": "switch:locres:set-01:PCGHelpers:ParametersIncorrect:aca9ae20",
+        "official_en_record_id": "switch:locres:set-01:PCGHelpers:ParametersIncorrect:aca9ae20",
+        "jp_sha256": "7a87df62264fcc08ad12b86d0f65fcd11a01de8bb80d7dea3dcb6f53899de289",
+        "official_en_sha256": "0de63582f72319d07b5104d87980d850da2c17bcf1037670adcfc545cc27e163"
+      },
+      "text": {
+        "jp": "クラス「{1}」の関数「{0}」のパラメータが正しくありません",
+        "official_en": "Function '{0}' in class '{1}' has incorrect parameters.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGHelpers:CallInEditorFailed:c924710e",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGHelpers",
+        "key": "CallInEditorFailed",
+        "jp_record_id": "switch:locres:set-01:PCGHelpers:CallInEditorFailed:c924710e",
+        "official_en_record_id": "switch:locres:set-01:PCGHelpers:CallInEditorFailed:c924710e",
+        "jp_sha256": "0f99ab03f3dd58a5511e8e19991ba9b2fbdc811226ed934c4722ef419f031af4",
+        "official_en_sha256": "20afc8fd4c8ed9f31df838d1e4e8bf6082f3345fe52deb2842459a249fafa0ca"
+      },
+      "text": {
+        "jp": "クラス「{1}」の関数「{0}」はインエディタで CallInEditor が true になっている必要があります",
+        "official_en": "Function '{0}' in class '{1}' requires CallInEditor to be true while in-editor.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGHelpers:FunctionNotFound:ced6eafc",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGHelpers",
+        "key": "FunctionNotFound",
+        "jp_record_id": "switch:locres:set-01:PCGHelpers:FunctionNotFound:ced6eafc",
+        "official_en_record_id": "switch:locres:set-01:PCGHelpers:FunctionNotFound:ced6eafc",
+        "jp_sha256": "710b383245c800cd643979be7b571d26067388380d49a390f6a972007962f588",
+        "official_en_sha256": "fabdf462a0951da83c85f75fa38a85a0b9a8b6339434dbeadf4f0beb9d2133be"
+      },
+      "text": {
+        "jp": "関数「{0}」がクラス「{1}」に見つかりませんでした",
+        "official_en": "Function '{0}' was not found in class '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGHelpers:AttributeOrTagContainsSpace:0fcbd055",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGHelpers",
+        "key": "AttributeOrTagContainsSpace",
+        "jp_record_id": "switch:locres:set-01:PCGHelpers:AttributeOrTagContainsSpace:0fcbd055",
+        "official_en_record_id": "switch:locres:set-01:PCGHelpers:AttributeOrTagContainsSpace:0fcbd055",
+        "jp_sha256": "4a06d41ba481ec14b0a98dc221ced5f1b98b3fc4661f2ac51d7c1b800db2f043",
+        "official_en_sha256": "cffbbaa97ed81bbd2f3a4ccf597df79ac09b635871da86a0f7fb56bf8e4b081e"
+      },
+      "text": {
+        "jp": "カンマ区切りリスト「{0}」には内部のスペース文字が含まれています。これは、区切りとしてパースされなくなります。 \nこの動作を非推奨とし、更新するには、ノードの「bParseOnWhiteSpace」を無効にします",
+        "official_en": "The comma separated list '{0}' contains an internal space character, which should no longer be parsed as a separator. \nDisable 'bParseOnWhiteSpace' on the node to deprecate and update the behavior.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

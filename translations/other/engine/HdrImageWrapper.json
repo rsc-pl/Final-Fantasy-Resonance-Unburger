@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "HdrImageWrapper",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:HdrImageWrapper:MalformedScanline:795bd735",
+      "source": {
+        "set": "set-02",
+        "namespace": "HdrImageWrapper",
+        "key": "MalformedScanline",
+        "jp_record_id": "switch:locres:set-01:HdrImageWrapper:MalformedScanline:795bd735",
+        "official_en_record_id": "switch:locres:set-01:HdrImageWrapper:MalformedScanline:795bd735",
+        "jp_sha256": "951750afb601c7a3139a2f83d4cc92a384436da056da9c6239d5f36365f05c5b",
+        "official_en_sha256": "1b9b7918ed90077abd66fd2c8c868f3d4fcb22218a2ef1e702c58001882543f1"
+      },
+      "text": {
+        "jp": "HDR スキャンラインの圧縮データが不正な形式であるため、HDR 画像が破損している可能性があります",
+        "official_en": "Compressed data for HDR scanline is malformed. The HDR image is likely to be corrupted.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:HdrImageWrapper:ImpossibleImport:eec4dcd5",
+      "source": {
+        "set": "set-02",
+        "namespace": "HdrImageWrapper",
+        "key": "ImpossibleImport",
+        "jp_record_id": "switch:locres:set-01:HdrImageWrapper:ImpossibleImport:eec4dcd5",
+        "official_en_record_id": "switch:locres:set-01:HdrImageWrapper:ImpossibleImport:eec4dcd5",
+        "jp_sha256": "07c40beb5a7e2f6d8c5c20ada63a3f2c4ed3195576034e3e049d8ce9ad0f113e",
+        "official_en_sha256": "6bfcb96f8bb3d4e9adbfbb5fc5f4c413d4f8b4aca9e88349afc4ce9758e12c99"
+      },
+      "text": {
+        "jp": "静止画の寸法ではインポートできません",
+        "official_en": "Image dimensions are not possible to import",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:HdrImageWrapper:EndOFBufferError:732c14fd",
+      "source": {
+        "set": "set-02",
+        "namespace": "HdrImageWrapper",
+        "key": "EndOFBufferError",
+        "jp_record_id": "switch:locres:set-01:HdrImageWrapper:EndOFBufferError:732c14fd",
+        "official_en_record_id": "switch:locres:set-01:HdrImageWrapper:EndOFBufferError:732c14fd",
+        "jp_sha256": "a7782eab7f9dc1f310f836f7abc109843b10563e61a60de1a8d2120eed10b846",
+        "official_en_sha256": "7f03762f009e8ad15c3a70b6e10a6a0beb81b57054dcacb6f793eb6230f96b25"
+      },
+      "text": {
+        "jp": "HDR の圧縮解除が終了する前にバッファの最後尾に達したため、HDR 画像が破損している可能性があります",
+        "official_en": "Reached the end of the buffer before finishing decompressing the HDR. The HDR image is likely corrupted.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:HdrImageWrapper:InvalidSizeError:a6cd87e4",
+      "source": {
+        "set": "set-02",
+        "namespace": "HdrImageWrapper",
+        "key": "InvalidSizeError",
+        "jp_record_id": "switch:locres:set-01:HdrImageWrapper:InvalidSizeError:a6cd87e4",
+        "official_en_record_id": "switch:locres:set-01:HdrImageWrapper:InvalidSizeError:a6cd87e4",
+        "jp_sha256": "92530291e6a6d6ebab6331f27668c86cec8ea819c7d9d040fe112138fa89c092",
+        "official_en_sha256": "7f51b5d6dfd718e85bd7784ed3340194ca857056577aee0201c45dcd7f1a89c9"
+      },
+      "text": {
+        "jp": "HDR 画像で無効なサイズが指定されています",
+        "official_en": "The HDR image specifies an invalid size.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:HdrImageWrapper:WrongFormatError:462e29fe",
+      "source": {
+        "set": "set-02",
+        "namespace": "HdrImageWrapper",
+        "key": "WrongFormatError",
+        "jp_record_id": "switch:locres:set-01:HdrImageWrapper:WrongFormatError:462e29fe",
+        "official_en_record_id": "switch:locres:set-01:HdrImageWrapper:WrongFormatError:462e29fe",
+        "jp_sha256": "cbe159004c2a752d0790ae65920080e30d6d80e3e88b63e0ddbd642af299102f",
+        "official_en_sha256": "8347aa900e626115c6bb660479eb7e74858c8098d5957535355ee60d1d743a5e"
+      },
+      "text": {
+        "jp": "HDR 画像で、サポートされていない形式が使用されています。サポートされているのは 32-bit_rle_rgbe 形式のみです",
+        "official_en": "The HDR image uses an unsupported format. Only the 32-bit_rle_rgbe format is supported.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:HdrImageWrapper:MalformedHeader:58dc3b3d",
+      "source": {
+        "set": "set-02",
+        "namespace": "HdrImageWrapper",
+        "key": "MalformedHeader",
+        "jp_record_id": "switch:locres:set-01:HdrImageWrapper:MalformedHeader:58dc3b3d",
+        "official_en_record_id": "switch:locres:set-01:HdrImageWrapper:MalformedHeader:58dc3b3d",
+        "jp_sha256": "2f904306474adbc201fa9dab5354858218eeec321fe7ef649b40667f1202919a",
+        "official_en_sha256": "5e13412a327ba4f49e4ab471dedd6ab6e260a863a140abab7bd846729da0f3e6"
+      },
+      "text": {
+        "jp": "ファイル ヘッダが不正な形式であるため、HDR 画像が破損している可能性があります",
+        "official_en": "The file header is malformed. The HDR image is likely corrupted.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:HdrImageWrapper:UnSupportedFormatORBitDepth:6912e9a6",
+      "source": {
+        "set": "set-02",
+        "namespace": "HdrImageWrapper",
+        "key": "UnSupportedFormatORBitDepth",
+        "jp_record_id": "switch:locres:set-01:HdrImageWrapper:UnSupportedFormatORBitDepth:6912e9a6",
+        "official_en_record_id": "switch:locres:set-01:HdrImageWrapper:UnSupportedFormatORBitDepth:6912e9a6",
+        "jp_sha256": "840d4a6da2bff70f71be89044f343d8a51cd1200fb8fe03c522d1998698ae7c1",
+        "official_en_sha256": "ff785c2fdd7c2410c23d52dbf25f38b1855768154061feacf75522a89fc32656"
+      },
+      "text": {
+        "jp": "形式またはビット深度あるいは両方がHdrImageWrapperでサポートされていません。BGRE形式とビット深度8のみがサポートされています。",
+        "official_en": "The format and/or the bit depth is not supported by the HdrImageWrapper. Only the BGRE format and a bitdepth of 8 is supported",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

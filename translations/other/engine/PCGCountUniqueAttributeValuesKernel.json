@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGCountUniqueAttributeValuesKernel",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGCountUniqueAttributeValuesKernel:AttributeTypeInvalid:382aa8fc",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCountUniqueAttributeValuesKernel",
+        "key": "AttributeTypeInvalid",
+        "jp_record_id": "switch:locres:set-01:PCGCountUniqueAttributeValuesKernel:AttributeTypeInvalid:382aa8fc",
+        "official_en_record_id": "switch:locres:set-01:PCGCountUniqueAttributeValuesKernel:AttributeTypeInvalid:382aa8fc",
+        "jp_sha256": "61e6602d5c5ebd8e02041b11fd6dc69587c9128818b7a94eefdb0d555b40e961",
+        "official_en_sha256": "8a3437c628767e9896883af9dcc337b29fef509376722227cbf56e67c6dee8ed"
+      },
+      "text": {
+        "jp": "属性「{0}」の値をカウントできません。文字列キー型の属性のみが現時点でサポートされています",
+        "official_en": "Cannot count values for attribute '{0}', only attributes of type String Key are currently supported.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCountUniqueAttributeValuesKernel:AttributeHasMultipleTypes:fd66d4ee",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCountUniqueAttributeValuesKernel",
+        "key": "AttributeHasMultipleTypes",
+        "jp_record_id": "switch:locres:set-01:PCGCountUniqueAttributeValuesKernel:AttributeHasMultipleTypes:fd66d4ee",
+        "official_en_record_id": "switch:locres:set-01:PCGCountUniqueAttributeValuesKernel:AttributeHasMultipleTypes:fd66d4ee",
+        "jp_sha256": "ea8e3b834f9f4edb4e1e209eb0f1247d37e89db90caad32575a18677903d77b5",
+        "official_en_sha256": "63cfab336838e7045303b412c83cad9e35b09c5fca09b863e783984fabb72015"
+      },
+      "text": {
+        "jp": "入力データに複数の型であるカウント属性「{0}」が見つかりました。すべての属性は文字列キー型であることが必要です",
+        "official_en": "Count attribute '{0}' found with multiple types in input data, all attributes must be of type String Key.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCountUniqueAttributeValuesKernel:AttributeMissing:91971855",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCountUniqueAttributeValuesKernel",
+        "key": "AttributeMissing",
+        "jp_record_id": "switch:locres:set-01:PCGCountUniqueAttributeValuesKernel:AttributeMissing:91971855",
+        "official_en_record_id": "switch:locres:set-01:PCGCountUniqueAttributeValuesKernel:AttributeMissing:91971855",
+        "jp_sha256": "ded54a14b8ae7418bee2c4cf09ae9b7a62be7fde57958973b93ffc60aa7f84ac",
+        "official_en_sha256": "e4d3882387e25e60292fdf1677ebeead97cfd0e99318c8a81466f482c9559e61"
+      },
+      "text": {
+        "jp": "カウント属性「{0}」が見つかりません。この属性はすべての入力データに存在し、文字列キー型であることが必要です",
+        "official_en": "Count attribute '{0}' not found, this attribute must be present on all input data, and be of type String Key.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

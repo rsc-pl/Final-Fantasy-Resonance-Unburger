@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "RandomizeColumnEditor",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:RandomizeColumnEditor:Edit-Randomize-Cell-Data:4d76d00e",
+      "source": {
+        "set": "set-02",
+        "namespace": "RandomizeColumnEditor",
+        "key": "Edit",
+        "jp_record_id": "switch:locres:set-01:RandomizeColumnEditor:Edit-Randomize-Cell-Data:4d76d00e",
+        "official_en_record_id": "switch:locres:set-01:RandomizeColumnEditor:Edit-Randomize-Cell-Data:4d76d00e",
+        "jp_sha256": "c02864c62c9c75f46034db901003cefda87f56f2b398a7a261fa619d16fa454f",
+        "official_en_sha256": "272bb5d5f241c81b3f0c9a41043382f86822f4f34c0714fbdde5b606166e92b0"
+      },
+      "text": {
+        "jp": "ランダム化セルデータを編集",
+        "official_en": "Edit Randomize Cell Data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RandomizeColumnEditor:Randomize:c8322267",
+      "source": {
+        "set": "set-02",
+        "namespace": "RandomizeColumnEditor",
+        "key": "Randomize",
+        "jp_record_id": "switch:locres:set-01:RandomizeColumnEditor:Randomize:c8322267",
+        "official_en_record_id": "switch:locres:set-01:RandomizeColumnEditor:Randomize:c8322267",
+        "jp_sha256": "28c650ff61768dd1f97b2f5196b13876b484fe8fdb57d7fa19320b9133df259b",
+        "official_en_sha256": "1f7483c8a10473d3d369e45e15775a286449f3934eec0c370dbf46e0af413366"
+      },
+      "text": {
+        "jp": "ランダム化",
+        "official_en": "Randomize",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RandomizeColumnEditor:Randomize-Tooltip:cb30f8d8",
+      "source": {
+        "set": "set-02",
+        "namespace": "RandomizeColumnEditor",
+        "key": "Randomize",
+        "jp_record_id": "switch:locres:set-01:RandomizeColumnEditor:Randomize-Tooltip:cb30f8d8",
+        "official_en_record_id": "switch:locres:set-01:RandomizeColumnEditor:Randomize-Tooltip:cb30f8d8",
+        "jp_sha256": "876bf05752ce54f7b4349b84a1d0cb78b5038f1ac6409f205231c6eabaecfb63",
+        "official_en_sha256": "b18fd39a544144bd0d319436af377d2dd741ccf454c5b1478684c91b5655c282"
+      },
+      "text": {
+        "jp": "ランダム化：他のすべての列を通過した行から、またはコストベースの列ではコストが最小である等しい行から、単一の結果をランダムに選択します。  任意指定のランダム化コンテキストの変数バインディングを使用して、同じ行にある同じエントリが 2 回選択される確率を減らす (または、ゼロにする) ことができます",
+        "official_en": "Randomize: randomly selects a single result from the rows which passed all other columns, or the rows with equal, minimum cost, for cost based columns.  Optional Randomization Context variable binding can be used to reduce (or eliminate) the probability of selecting the same entry twice in a row.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

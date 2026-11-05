@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGCreatePointsGridElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGCreatePointsGridElement:InvalidCellDataInput:4af66633",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCreatePointsGridElement",
+        "key": "InvalidCellDataInput",
+        "jp_record_id": "switch:locres:set-01:PCGCreatePointsGridElement:InvalidCellDataInput:4af66633",
+        "official_en_record_id": "switch:locres:set-01:PCGCreatePointsGridElement:InvalidCellDataInput:4af66633",
+        "jp_sha256": "1c0901c51d58a0b5bb74b3174d2b999b4cba55d53519a8ae4706e54511ebc579",
+        "official_en_sha256": "45db8c5ab3318e4a85ad1dd5e8ee7c2217fe4438ccfea357cb1ef204dcdbc6d2"
+      },
+      "text": {
+        "jp": "0 より小さい CellSize は指定できません",
+        "official_en": "CellSize must not be less than 0",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCreatePointsGridElement:NodeTitle:4faf8dc0",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCreatePointsGridElement",
+        "key": "NodeTitle",
+        "jp_record_id": "switch:locres:set-01:PCGCreatePointsGridElement:NodeTitle:4faf8dc0",
+        "official_en_record_id": "switch:locres:set-01:PCGCreatePointsGridElement:NodeTitle:4faf8dc0",
+        "jp_sha256": "55f7c75a0ea425864d7a67bc158d3dec2f41bad1ac4aba0b314260958cf8bc20",
+        "official_en_sha256": "219fbf7dc69bc82f92501060d7bc76a2d99ada6d08feb2d1b8fac42ec8c37cc9"
+      },
+      "text": {
+        "jp": "ポイントグリッドを作成",
+        "official_en": "Create Points Grid",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCreatePointsGridElement:NodeTooltip:1e8bc761",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCreatePointsGridElement",
+        "key": "NodeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGCreatePointsGridElement:NodeTooltip:1e8bc761",
+        "official_en_record_id": "switch:locres:set-01:PCGCreatePointsGridElement:NodeTooltip:1e8bc761",
+        "jp_sha256": "783a82e6120dad7aeb48524cf704cb16040a2179183cca3f8806ba419500866f",
+        "official_en_sha256": "58c933d4a51e48f1227099145624a55d42a8d83a45f6b17bf811d2d583f083b0"
+      },
+      "text": {
+        "jp": "ポイントの 2D または 3D グリッドを作成します",
+        "official_en": "Creates a 2D or 3D grid of points.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCreatePointsGridElement:InvalidGridDataInput:62b5b46b",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCreatePointsGridElement",
+        "key": "InvalidGridDataInput",
+        "jp_record_id": "switch:locres:set-01:PCGCreatePointsGridElement:InvalidGridDataInput:62b5b46b",
+        "official_en_record_id": "switch:locres:set-01:PCGCreatePointsGridElement:InvalidGridDataInput:62b5b46b",
+        "jp_sha256": "cfaecc6f20cbf8b14c062746c0454c2f80bc972a5dc1d59278595feaeb1f4037",
+        "official_en_sha256": "2f4c6127e28039f820b02f463a608ced7ba34d0baf28e7fcc7681f9e30d22aea"
+      },
+      "text": {
+        "jp": "GridExtents を 0 未満にすることはできません",
+        "official_en": "GridExtents must not be less than 0",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCreatePointsGridElement:InvalidNumberOfIterations:30e3a3db",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCreatePointsGridElement",
+        "key": "InvalidNumberOfIterations",
+        "jp_record_id": "switch:locres:set-01:PCGCreatePointsGridElement:InvalidNumberOfIterations:30e3a3db",
+        "official_en_record_id": "switch:locres:set-01:PCGCreatePointsGridElement:InvalidNumberOfIterations:30e3a3db",
+        "jp_sha256": "cf006675e74c9f79991a657b29936bae24c393ef3ccbe48d74802f1f2d71207e",
+        "official_en_sha256": "282a8feb2b0f2a15a93bb8548ac09c2362542409a04c9f0b9b71ccc1d87bf26f"
+      },
+      "text": {
+        "jp": "生成されたイテレーション数を 0 以下にすることはできません",
+        "official_en": "The number of iterations produced cannot be less than or equal to 0.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCreatePointsGridElement:MemoryOverflow:91665985",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCreatePointsGridElement",
+        "key": "MemoryOverflow",
+        "jp_record_id": "switch:locres:set-01:PCGCreatePointsGridElement:MemoryOverflow:91665985",
+        "official_en_record_id": "switch:locres:set-01:PCGCreatePointsGridElement:MemoryOverflow:91665985",
+        "jp_sha256": "e4b5cdab150c0f402064e3edf8b6eb9261465d2b98cd26c780e81adec00233c9",
+        "official_en_sha256": "39d9687cf0f38f6c17d630fc7b0f663031d547d57d71423b80f0713f90087d1c"
+      },
+      "text": {
+        "jp": "生成されたイテレーションの数が利用可能なメモリよりも多くなっています",
+        "official_en": "The number of iterations produced is larger than available memory.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCreatePointsGridElement:Overflow_int32:88ec3c71",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCreatePointsGridElement",
+        "key": "Overflow_int32",
+        "jp_record_id": "switch:locres:set-01:PCGCreatePointsGridElement:Overflow_int32:88ec3c71",
+        "official_en_record_id": "switch:locres:set-01:PCGCreatePointsGridElement:Overflow_int32:88ec3c71",
+        "jp_sha256": "64338e99aae49c55c6bf07bca45cf30124f2d0e36dcf2f6a11e924a624a4814d",
+        "official_en_sha256": "0b009d74ecb2ef4f8d8301b430af32d09c8039799637800bf159c25f84f2f1c7"
+      },
+      "text": {
+        "jp": "生成されたイテレーションの数が 32 ビット整数で使用できる数を超えています",
+        "official_en": "The number of iterations produced is larger than what a 32-bit integer can hold.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCreatePointsGridElement:CannotCullWithoutAShape:43e5ce9f",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCreatePointsGridElement",
+        "key": "CannotCullWithoutAShape",
+        "jp_record_id": "switch:locres:set-01:PCGCreatePointsGridElement:CannotCullWithoutAShape:43e5ce9f",
+        "official_en_record_id": "switch:locres:set-01:PCGCreatePointsGridElement:CannotCullWithoutAShape:43e5ce9f",
+        "jp_sha256": "a8749b9e338c809b5e1b43d6b1d5de005ac88a8e4b61fbdd11dc60ce051aaa0f",
+        "official_en_sha256": "b42f38c14f113ebf54bd348c840e703584bbd411141f992e43181e3a61dc87c7"
+      },
+      "text": {
+        "jp": "サポートアクタにデータがないのでカリングできません",
+        "official_en": "Unable to cull since the supporting actor has no data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

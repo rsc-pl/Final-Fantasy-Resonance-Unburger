@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGCreateSpline",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGCreateSpline:AttributeMissingOrNotVector:33bffb38",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCreateSpline",
+        "key": "AttributeMissingOrNotVector",
+        "jp_record_id": "switch:locres:set-01:PCGCreateSpline:AttributeMissingOrNotVector:33bffb38",
+        "official_en_record_id": "switch:locres:set-01:PCGCreateSpline:AttributeMissingOrNotVector:33bffb38",
+        "jp_sha256": "d6af9398191267fa9a44162174be90c11e0acf0fb51e2ccff97bfe7bc8121173",
+        "official_en_sha256": "6013dd9644e2323b42b39959851f14a1434ee9d9e2dfb8e7450b3cce6200fff7"
+      },
+      "text": {
+        "jp": "属性「{0}」は存在しないか、ベクターではありません",
+        "official_en": "Attribute '{0}' does not exist or is not a vector",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCreateSpline:CreateSplineTooltip:f5f9d905",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCreateSpline",
+        "key": "CreateSplineTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGCreateSpline:CreateSplineTooltip:f5f9d905",
+        "official_en_record_id": "switch:locres:set-01:PCGCreateSpline:CreateSplineTooltip:f5f9d905",
+        "jp_sha256": "6cbc1844865c1f05ce2fcd12a2272438507ab08c3ef0244561bf820b09005931",
+        "official_en_sha256": "dcbfc7e0ed6c73e44bf0ed9a4fae1313e95b3773cb82fad34a7c4fd28150d692"
+      },
+      "text": {
+        "jp": "入力 PCG ポイント データから PCG スプライン データを順番に作成します",
+        "official_en": "Creates PCG spline data from the input PCG point data, in a sequential order.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCreateSpline:InvalidInputData:dc435d95",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCreateSpline",
+        "key": "InvalidInputData",
+        "jp_record_id": "switch:locres:set-01:PCGCreateSpline:InvalidInputData:dc435d95",
+        "official_en_record_id": "switch:locres:set-01:PCGCreateSpline:InvalidInputData:dc435d95",
+        "jp_sha256": "3fa3a31063163ff84d89ee567deda2762b7ffd1d5becab274973db94bfbf78fe",
+        "official_en_sha256": "9a146df1c40d16d7aa2eb26c3d59a33f83b7a610520e7eacb0ad7be7df5a62f6"
+      },
+      "text": {
+        "jp": "無効な入力データです",
+        "official_en": "Invalid input data",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCreateSpline:InvalidTargetActor:909e1dc3",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCreateSpline",
+        "key": "InvalidTargetActor",
+        "jp_record_id": "switch:locres:set-01:PCGCreateSpline:InvalidTargetActor:909e1dc3",
+        "official_en_record_id": "switch:locres:set-01:PCGCreateSpline:InvalidTargetActor:909e1dc3",
+        "jp_sha256": "8a084a92508202ec4bcf041904af69d037e8ace391946d88673b7d48d049c6a3",
+        "official_en_sha256": "b7d81a4ab964eb1a4e00e16650ebeccca12e9fe7839b011c8d0ed6618092ce6b"
+      },
+      "text": {
+        "jp": "無効なターゲット アクタです。SpatialData を作成するとき、必ず TargetActor メンバーを初期化します",
+        "official_en": "Invalid target actor. Ensure TargetActor member is initialized when creating SpatialData.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGCreateSpline:UnableToGetPointData:ecc06ace",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGCreateSpline",
+        "key": "UnableToGetPointData",
+        "jp_record_id": "switch:locres:set-01:PCGCreateSpline:UnableToGetPointData:ecc06ace",
+        "official_en_record_id": "switch:locres:set-01:PCGCreateSpline:UnableToGetPointData:ecc06ace",
+        "jp_sha256": "f359c409d6a036379d4f6e673e10b529579c3e4fc74b82a5edff0499ecfae85f",
+        "official_en_sha256": "e3c84def5038be218acd17a9aa2eb5ee87bb5d59a05444bdf908f4c409d12ecc"
+      },
+      "text": {
+        "jp": "入力からポイント データを取得できません",
+        "official_en": "Unable to get point data from input",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

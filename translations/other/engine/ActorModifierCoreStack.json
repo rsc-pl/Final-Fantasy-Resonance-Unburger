@@ -1,0 +1,715 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ActorModifierCoreStack",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ActorModifierCoreStack:ModifierStackExecutionFail:72041858",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierCoreStack",
+        "key": "ModifierStackExecutionFail",
+        "jp_record_id": "switch:locres:set-01:ActorModifierCoreStack:ModifierStackExecutionFail:72041858",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierCoreStack:ModifierStackExecutionFail:72041858",
+        "jp_sha256": "d8d4a929f44b1fc62cf2f418db6fe04881d434862f6a1948cdf903bd4710af41",
+        "official_en_sha256": "06be9e1d5ce06f1872ab7cbdaa289322b690756ba556907acb18720916deeb96"
+      },
+      "text": {
+        "jp": "このスタックのモディファイアの実行に失敗しました",
+        "official_en": "A modifier in this stack failed to execute",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorModifierCoreStack:RemoveModifiers:88df96e3",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierCoreStack",
+        "key": "RemoveModifiers",
+        "jp_record_id": "switch:locres:set-01:ActorModifierCoreStack:RemoveModifiers:88df96e3",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierCoreStack:RemoveModifiers:88df96e3",
+        "jp_sha256": "250d6a1e06be9e93c8ceffdc6dd5f8e2ff933a2a68d9630f647e6cdcc9fc7acc",
+        "official_en_sha256": "850f80ac67f91c0f8e8aa985233c1bfee4ca4a3aabee4a326bacdb9e43145eef"
+      },
+      "text": {
+        "jp": "入力されたすべてのモディファイアをこのスタックから削除できません",
+        "official_en": "Cannot remove all the modifiers provided from this stack",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorModifierCoreStack:InvalidModifierDependencies:4e91f5b5",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierCoreStack",
+        "key": "InvalidModifierDependencies",
+        "jp_record_id": "switch:locres:set-01:ActorModifierCoreStack:InvalidModifierDependencies:4e91f5b5",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierCoreStack:InvalidModifierDependencies:4e91f5b5",
+        "jp_sha256": "a8cc8e96fdec748cfa1586b406c03b5029fd6ce9cacfb6d8d73244c52cd93b21",
+        "official_en_sha256": "152017302eb8228106a9775a90cbecdcdb68097e105c70a5c8af143f2209f300"
+      },
+      "text": {
+        "jp": "モディファイア {0} のモディファイア依存関係を作成できませんでした",
+        "official_en": "Could not build modifier dependencies for modifier {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorModifierCoreStack:CloneModifierNotFound:93a66cba",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierCoreStack",
+        "key": "CloneModifierNotFound",
+        "jp_record_id": "switch:locres:set-01:ActorModifierCoreStack:CloneModifierNotFound:93a66cba",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierCoreStack:CloneModifierNotFound:93a66cba",
+        "jp_sha256": "992e08039563f2bdabbcaca1777614ad0c9f82c4ff65ebe331bc17487fddab6f",
+        "official_en_sha256": "e9c4e613cd7294cb99a86ebf0746018bf0299d7174579853ed7c22085c711060"
+      },
+      "text": {
+        "jp": "このスタックのモディファイア {0} のクローン作成に失敗しました",
+        "official_en": "Could not clone modifier {0} in this stack",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorModifierCoreStack:InsertModifierNotFound:66a02b81",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierCoreStack",
+        "key": "InsertModifierNotFound",
+        "jp_record_id": "switch:locres:set-01:ActorModifierCoreStack:InsertModifierNotFound:66a02b81",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierCoreStack:InsertModifierNotFound:66a02b81",
+        "jp_sha256": "4cded57b6a372be007198eeacd1af9fae13d8e2f0ebb607f84d92355824d71a3",
+        "official_en_sha256": "3889fbc25df908e03903d40b408f5c18f98b721f07eb262710e7a713ae574637"
+      },
+      "text": {
+        "jp": "このスタックにモディファイア {0} を挿入できませんでした",
+        "official_en": "Could not insert modifier {0} in this stack",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorModifierCoreStack:MoveSourceModifierNotFound:7366e151",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierCoreStack",
+        "key": "MoveSourceModifierNotFound",
+        "jp_record_id": "switch:locres:set-01:ActorModifierCoreStack:MoveSourceModifierNotFound:7366e151",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierCoreStack:MoveSourceModifierNotFound:7366e151",
+        "jp_sha256": "ad7b98f1577d44e5a8afb58a183033a50d12764dd6cbe33fb85bf91905b2455e",
+        "official_en_sha256": "e3f5c6170831accfd5648051f7b1317fd5d5a19e71f78a95584a1543f7eea231"
+      },
+      "text": {
+        "jp": "このスタックにモディファイア {0} を移動できませんでした",
+        "official_en": "Could not move modifier {0} in this stack",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorModifierCoreStack:MoveTargetModifierNotFound:40f250be",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierCoreStack",
+        "key": "MoveTargetModifierNotFound",
+        "jp_record_id": "switch:locres:set-01:ActorModifierCoreStack:MoveTargetModifierNotFound:40f250be",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierCoreStack:MoveTargetModifierNotFound:40f250be",
+        "jp_sha256": "ad7b98f1577d44e5a8afb58a183033a50d12764dd6cbe33fb85bf91905b2455e",
+        "official_en_sha256": "e3f5c6170831accfd5648051f7b1317fd5d5a19e71f78a95584a1543f7eea231"
+      },
+      "text": {
+        "jp": "このスタックにモディファイア {0} を移動できませんでした",
+        "official_en": "Could not move modifier {0} in this stack",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorModifierCoreStack:MoveModifierDependentLeft:ba891bb1",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierCoreStack",
+        "key": "MoveModifierDependentLeft",
+        "jp_record_id": "switch:locres:set-01:ActorModifierCoreStack:MoveModifierDependentLeft:ba891bb1",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierCoreStack:MoveModifierDependentLeft:ba891bb1",
+        "jp_sha256": "f0e140c4fc0d29c0bd778f626772c26e5a21bc1730e9032f6be6804790a3040f",
+        "official_en_sha256": "32262fdf2077d01076076520df898fa7cb074307fee0b15f22e3c612c079c569"
+      },
+      "text": {
+        "jp": "依存関係のあるモディファイア {0} は、モディファイア {1} の後にする必要があります",
+        "official_en": "Dependent modifier(s) {0} should follow modifier {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorModifierCoreStack:DifferentModifierStack:77085af7",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierCoreStack",
+        "key": "DifferentModifierStack",
+        "jp_record_id": "switch:locres:set-01:ActorModifierCoreStack:DifferentModifierStack:77085af7",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierCoreStack:DifferentModifierStack:77085af7",
+        "jp_sha256": "14b01f580fd03a902308ff6500d4a62c3f5b44b8b9424303ca6817e27093bc58",
+        "official_en_sha256": "f309d14f94cd7921e04f571562f9faaead7c0e46ffcf3edeb99ebdd4f5b9f14f"
+      },
+      "text": {
+        "jp": "入力されたモディファイアはこのスタック内にありません",
+        "official_en": "Modifier provided is not inside this stack",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorModifierCoreStack:InvalidModifierProvided:51410682",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierCoreStack",
+        "key": "InvalidModifierProvided",
+        "jp_record_id": "switch:locres:set-01:ActorModifierCoreStack:InvalidModifierProvided:51410682",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierCoreStack:InvalidModifierProvided:51410682",
+        "jp_sha256": "bdab2e26bff744ed0de54fa9b52600768e7280c1f3797b9debc8e5062d4381b8",
+        "official_en_sha256": "dbda45da340f7ac27a40d07c1e8abd20f15c412261bcd011e6ef409c30b306b0"
+      },
+      "text": {
+        "jp": "入力されたモディファイアは無効です",
+        "official_en": "Modifier provided is not valid",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorModifierCoreStack:MoveModifierInvalid:6173120b",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierCoreStack",
+        "key": "MoveModifierInvalid",
+        "jp_record_id": "switch:locres:set-01:ActorModifierCoreStack:MoveModifierInvalid:6173120b",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierCoreStack:MoveModifierInvalid:6173120b",
+        "jp_sha256": "c871a9927c6c0aad77cc7d9524f7d3256c0566d1d5c15f6e393f2949cb9b72fe",
+        "official_en_sha256": "895eeb4bb16e8710556fb45a2b3d6a82097422d1cebdc2b63f6fc14363b77726"
+      },
+      "text": {
+        "jp": "モディファイア {0} は、このスタックではすでにこの位置にあります",
+        "official_en": "Modifier {0} is already at this position in this stack",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorModifierCoreStack:UnallowedMoveModifierAfter:59718e1a",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierCoreStack",
+        "key": "UnallowedMoveModifierAfter",
+        "jp_record_id": "switch:locres:set-01:ActorModifierCoreStack:UnallowedMoveModifierAfter:59718e1a",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierCoreStack:UnallowedMoveModifierAfter:59718e1a",
+        "jp_sha256": "b44af07ce7167c0cf3e99fa599bca95723c73c84e0999763feed7aa50b0f6c52",
+        "official_en_sha256": "78a15d82f652c2295d3ce5530673097dead85954797ac6c947fd36fcf16f3eb5"
+      },
+      "text": {
+        "jp": "モディファイア {0} をモディファイア {1} の後にすることは許可されていません",
+        "official_en": "Modifier {0} is not allowed after modifier {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorModifierCoreStack:UnallowedMoveModifierBefore:662c0bd9",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierCoreStack",
+        "key": "UnallowedMoveModifierBefore",
+        "jp_record_id": "switch:locres:set-01:ActorModifierCoreStack:UnallowedMoveModifierBefore:662c0bd9",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierCoreStack:UnallowedMoveModifierBefore:662c0bd9",
+        "jp_sha256": "9985733293aea75c67c0197ee9f2fecb435659c36add8006b604b7797b8772a7",
+        "official_en_sha256": "da2675a15d79fa3dfa8fa387b12a01550da7152b6a9695235d44169eb6070afd"
+      },
+      "text": {
+        "jp": "モディファイア {0} をモディファイア {1} の前にすることは許可されていません",
+        "official_en": "Modifier {0} is not allowed before modifier {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorModifierCoreStack:UnsupportedModifier:ab69e0bb",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierCoreStack",
+        "key": "UnsupportedModifier",
+        "jp_record_id": "switch:locres:set-01:ActorModifierCoreStack:UnsupportedModifier:ab69e0bb",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierCoreStack:UnsupportedModifier:ab69e0bb",
+        "jp_sha256": "72228b8f7edb7c15d5e55bd9c2e07e0f820e691c67070d51d88c7661c20108ea",
+        "official_en_sha256": "34dafab95c13318b38323d6d312e191aad88de8bbff8269c8dc20a296a23e11c"
+      },
+      "text": {
+        "jp": "モディファイア {0} は、このスタックではサポートされていません",
+        "official_en": "Modifier {0} is not supported by this stack",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorModifierCoreStack:ModifierRequiredByModifier:00aa0f76",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierCoreStack",
+        "key": "ModifierRequiredByModifier",
+        "jp_record_id": "switch:locres:set-01:ActorModifierCoreStack:ModifierRequiredByModifier:00aa0f76",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierCoreStack:ModifierRequiredByModifier:00aa0f76",
+        "jp_sha256": "9a1d854735e738bbfd1ed030881284cf45c078cfcf599412f35bf054656d44f3",
+        "official_en_sha256": "79b8dd603e2420bf172dd61f17e3f7df52b5363328f7688a07894c3035c1439e"
+      },
+      "text": {
+        "jp": "モディファイア ({0}) はモディファイア {1} に依存しています",
+        "official_en": "Modifier(s) ({0}) depend on modifier {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorModifierCoreStack:UnsupportedModifierDependencies:4fd0ad1b",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierCoreStack",
+        "key": "UnsupportedModifierDependencies",
+        "jp_record_id": "switch:locres:set-01:ActorModifierCoreStack:UnsupportedModifierDependencies:4fd0ad1b",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierCoreStack:UnsupportedModifierDependencies:4fd0ad1b",
+        "jp_sha256": "cecaa73f7f88b2d59a5411bc2a4bd36e8ebf56c5d5d587da75233583bcd86e9d",
+        "official_en_sha256": "96243b6a7c13c499af95d8b864be4f9a592f87b939d2ad2de52f11747eaaa8ca"
+      },
+      "text": {
+        "jp": "必須のモディファイア {0} は、このスタックではサポートされていません",
+        "official_en": "Required modifier {0} is not supported by this stack",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorModifierCoreStack:MoveModifierRequiredLeft:1dd3fd87",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierCoreStack",
+        "key": "MoveModifierRequiredLeft",
+        "jp_record_id": "switch:locres:set-01:ActorModifierCoreStack:MoveModifierRequiredLeft:1dd3fd87",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierCoreStack:MoveModifierRequiredLeft:1dd3fd87",
+        "jp_sha256": "e5e1150169e16138e7e02df4c2ca76d69a8517e6eaa63842fcf96b8d567e322b",
+        "official_en_sha256": "04b83ae0e187c21bde7c8aab665f52cd9bf4f8806c60de7adfceed9119c6bcd9"
+      },
+      "text": {
+        "jp": "必須のモディファイア {0} は、モディファイア {1} の前にする必要があります",
+        "official_en": "Required modifier(s) {0} should precede modifier {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorModifierCoreStack:AvoidAfterCategory:1bc515c7",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierCoreStack",
+        "key": "AvoidAfterCategory",
+        "jp_record_id": "switch:locres:set-01:ActorModifierCoreStack:AvoidAfterCategory:1bc515c7",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierCoreStack:AvoidAfterCategory:1bc515c7",
+        "jp_sha256": "36ff35320279cb24deb5c6be2047d5f554b89e5f5aabf4aa136156e66eebab26",
+        "official_en_sha256": "2f921b16912b73de7a2e485385aa8387c0fd4564124ae2127293cbb3943b9fdc"
+      },
+      "text": {
+        "jp": "{0} モディファイアの上に移動する必要があります",
+        "official_en": "Should be moved above {0} modifiers",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ActorModifierCoreStack:AvoidBeforeCategory:af129220",
+      "source": {
+        "set": "set-02",
+        "namespace": "ActorModifierCoreStack",
+        "key": "AvoidBeforeCategory",
+        "jp_record_id": "switch:locres:set-01:ActorModifierCoreStack:AvoidBeforeCategory:af129220",
+        "official_en_record_id": "switch:locres:set-01:ActorModifierCoreStack:AvoidBeforeCategory:af129220",
+        "jp_sha256": "143861958956efbfd9aca2a0a6f8abb4071ff6e14a5e19443c52248597be7c42",
+        "official_en_sha256": "3281494aff748eeb2d7a87f6e6f81787d3a1af808503553c2466767b639cca8a"
+      },
+      "text": {
+        "jp": "{0} モディファイアの下に移動する必要があります",
+        "official_en": "Should be moved below {0} modifiers",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

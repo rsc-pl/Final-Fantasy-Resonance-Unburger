@@ -1,0 +1,1122 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "RendererSettings",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:MemAllocWarning_Message_ReflectionCubemap:b7d38440",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "MemAllocWarning_Message_ReflectionCubemap",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:MemAllocWarning_Message_ReflectionCubemap:b7d38440",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:MemAllocWarning_Message_ReflectionCubemap:b7d38440",
+        "jp_sha256": "a2aa8eba2355d167ef3e4caf43c9fcc685518e00cf7c33ab5c96cd2c0d1dc912",
+        "official_en_sha256": "62984dcb3ef3dfaac18272ac9c6b9a3c0d00ff70e8025b462b70147ebbdb6120"
+      },
+      "text": {
+        "jp": "{0} の解像度では、反射キャプチャコンポーネント1つあたり {1} のビデオメモリが必要になります。よろしいですか?",
+        "official_en": "A resolution of {0} will require {1} of video memory PER reflection capture component. Are you sure?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:GuidelineDismiss:e276e06c",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "GuidelineDismiss",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:GuidelineDismiss:e276e06c",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:GuidelineDismiss:e276e06c",
+        "jp_sha256": "70ff42aaefe685b49b3241a218bc5976dc2a132569b4d573f07886c432f7fc69",
+        "official_en_sha256": "48845bff334a50a59aaecf499f28a7a24c3b4b891b8b18a9f1169ad8e8a6b261"
+      },
+      "text": {
+        "jp": "却下",
+        "official_en": "Dismiss",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:GuidelineDismissTT:aeee7626",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "GuidelineDismissTT",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:GuidelineDismissTT:aeee7626",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:GuidelineDismissTT:aeee7626",
+        "jp_sha256": "b858bda96025b2ba67396566706b528648e62fedab2256b3e718648fe97d01de",
+        "official_en_sha256": "81ad792359554bb9b4a64e87d0f80bd634ec469ca7c2128831a5a01cd1225163"
+      },
+      "text": {
+        "jp": "この通知を却下します",
+        "official_en": "Dismiss this notification.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:Generate-Mesh-Distance-Fields-automatically-enabled:08683e02",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "'Generate",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:Generate-Mesh-Distance-Fields-automatically-enabled:08683e02",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:Generate-Mesh-Distance-Fields-automatically-enabled:08683e02",
+        "jp_sha256": "fa9e3a73beb01b5b373e978dd9add0b170eac1bb6f962cbd9ad7377d31634d87",
+        "official_en_sha256": "03aca8a670033a12eaa6dc98025d28e5c346aa6ea915e85e17e77b2c64f8ccba"
+      },
+      "text": {
+        "jp": "Lumen グローバル イルミネーションには、[Generate Mesh Distance Fields (メッシュディスタンスフィールドの生成)]が必要です。これは自動的に有効になりました。エディタの再起動が必要です。",
+        "official_en": "Lumen Global Illumination requires 'Generate Mesh Distance Fields'.  This has been enabled automatically, and requires an editor restart.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:Lumen-Reflections-automatically-enabled:06f4acd5",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "Lumen",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:Lumen-Reflections-automatically-enabled:06f4acd5",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:Lumen-Reflections-automatically-enabled:06f4acd5",
+        "jp_sha256": "feac1ad4fbee309cff4643fddf5fe6b5c596514e2d142c83bcd88375fd85cd48",
+        "official_en_sha256": "ea1dd69012a1a302f8208273e5faf1692c8982c45c6b64cde69eb75860e1db1c"
+      },
+      "text": {
+        "jp": "Lumen 反射は、Lumen グローバル イルミネーションと連携するようデザインされており、自動的に有効になりました。",
+        "official_en": "Lumen Reflections are designed to work with Lumen Global Illumination, and have been automatically enabled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:MemAllocWarning_Title_ReflectionCubemap:6a5f5380",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "MemAllocWarning_Title_ReflectionCubemap",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:MemAllocWarning_Title_ReflectionCubemap:6a5f5380",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:MemAllocWarning_Title_ReflectionCubemap:6a5f5380",
+        "jp_sha256": "4c2e26d85349ef2825a61c1d96d6f80b1dd368cecadda9f3a7f540d004845264",
+        "official_en_sha256": "e281058dcd11e56230e15ae228e0792451764e7739d96faec5db4a449034cc17"
+      },
+      "text": {
+        "jp": "メモリ割り当て警告",
+        "official_en": "Memory Allocation Warning",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:NeedProjectSettings:afc223f2",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "NeedProjectSettings",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:NeedProjectSettings:afc223f2",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:NeedProjectSettings:afc223f2",
+        "jp_sha256": "a71b0ab17749c68e4d3d5fa02e7ba1dbbb428e4aabae55384b085b1a292166de",
+        "official_en_sha256": "0473178b73d44476ef7e7109fb12a1531c2b18fee383b15b555997a001968d99"
+      },
+      "text": {
+        "jp": "プロジェクト設定がありません",
+        "official_en": "Missing Project Settings!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:ProjectSettingsHyperlinkText:fe66c873",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "ProjectSettingsHyperlinkText",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:ProjectSettingsHyperlinkText:fe66c873",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:ProjectSettingsHyperlinkText:fe66c873",
+        "jp_sha256": "380e3f98d67761225f04bdf06f3ff01aba1964cdd51f30e8f03d1bca53dde9c0",
+        "official_en_sha256": "9095facf217f6af02a6e43e16915b91a658b43a4773c1c88d1daba28aa948298"
+      },
+      "text": {
+        "jp": "プロジェクト設定を開く",
+        "official_en": "Open Project Settings",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:Skin-Cache-Disabled:0bad83cd",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "Skin",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:Skin-Cache-Disabled:0bad83cd",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:Skin-Cache-Disabled:0bad83cd",
+        "jp_sha256": "c3ddb18cd90edb6006ebbb0aa3fb7bec7d1c14b7b7e73795705b32708fd1393d",
+        "official_en_sha256": "fd9bc1faf6a7e858309ce0495454bfbcc06daaaddfbc44c8aa22b2082f4c4db3"
+      },
+      "text": {
+        "jp": "レイトレーシングを使用するには、スキンキャッシュを有効にする必要があります。今すぐ自動的にスキンキャッシュを有効にしますか?",
+        "official_en": "Ray Tracing requires enabling skin cache. Do you want to automatically enable skin cache now?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:RayTracingWontWorkLinuxVulkan:0a7f7531",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "RayTracingWontWorkLinuxVulkan",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:RayTracingWontWorkLinuxVulkan:0a7f7531",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:RayTracingWontWorkLinuxVulkan:0a7f7531",
+        "jp_sha256": "89651ab568ea2e1b139c9db73f85e474dc5e50657ed729a77147fded8c3cf591",
+        "official_en_sha256": "1a13dbf5068bb11d463280584e1bf0d3978f23345712fc474b7113f71ecd9b65"
+      },
+      "text": {
+        "jp": "これが有効でない場合、レイトレーシングは Linux 上の Vulkan では機能しません",
+        "official_en": "Ray tracing will not work in Vulkan on Linux until this is enabled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:RayTracingWontWorkWindowsVulkan:c563fc7a",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "RayTracingWontWorkWindowsVulkan",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:RayTracingWontWorkWindowsVulkan:c563fc7a",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:RayTracingWontWorkWindowsVulkan:c563fc7a",
+        "jp_sha256": "52181a2d65cd851b4bdf75880951cce4db31d28a776d4aee33f7c3593ac740cd",
+        "official_en_sha256": "1e1f90af9aae8efe8b918a88a05f53fb278bc072c16594255fdc34cde4928d13"
+      },
+      "text": {
+        "jp": "これが有効でない場合、レイトレーシングは Windows 上の Vulkan では機能しません",
+        "official_en": "Ray tracing will not work in Vulkan on Windows until this is enabled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:RayTracingWontWorkMac:75f8cf79",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "RayTracingWontWorkMac",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:RayTracingWontWorkMac:75f8cf79",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:RayTracingWontWorkMac:75f8cf79",
+        "jp_sha256": "fed071cdd843ded4643923b38ceae909325acaee453c2a58e7b0438601933495",
+        "official_en_sha256": "746ece4ca0dd367220d6068c883de420a01354eda40d2c9385fba8f4e0209c39"
+      },
+      "text": {
+        "jp": "これが有効でない場合、Mac でレイトレーシングは機能しません",
+        "official_en": "Ray tracing will not work on Mac until this is enabled..",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:RayTracingWontWork:016c72e3",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "RayTracingWontWork",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:RayTracingWontWork:016c72e3",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:RayTracingWontWork:016c72e3",
+        "jp_sha256": "2dca60c34b8e290a10ff7e3ff24ae41ebb8915eb5e3a00adc57fddf59f7e1546",
+        "official_en_sha256": "aa3b94b2bf539f31438419eb4446f236a916f61f3772214dd99b02db8916dd12"
+      },
+      "text": {
+        "jp": "これが有効でない場合、レイトレーシングは機能しません",
+        "official_en": "Ray tracing will not work until this is enabled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:RayTracingNeedsSM6:b25122af",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "RayTracingNeedsSM6",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:RayTracingNeedsSM6:b25122af",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:RayTracingNeedsSM6:b25122af",
+        "jp_sha256": "e4a7134ad6862834499c0dd0ecb67831f55c962e1cb622eef0d7404f3b950f00",
+        "official_en_sha256": "3ba9488844dcd1bee944cc730e469a2871864c2745c572cde84669ba91787022"
+      },
+      "text": {
+        "jp": "シェーダーモデル 6 (SM6) はレイトレーシングを使用するために必要です",
+        "official_en": "Shader Model 6 (SM6) is required to use Ray Tracing.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsAndRayTracingNeedsSM6:21ce7ee4",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "VirtualShadowMapsAndRayTracingNeedsSM6",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsAndRayTracingNeedsSM6:21ce7ee4",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsAndRayTracingNeedsSM6:21ce7ee4",
+        "jp_sha256": "c512f87a9371a3f23ef49d1f3f80e4db507f2775a880cb535ed0e7d0862cf6ce",
+        "official_en_sha256": "9e27dd225bc8e9b739937efdd9110d3260578656e51ac34489f3d8b12bbc3874"
+      },
+      "text": {
+        "jp": "シェーダー モデル 6 (SM6) は仮想シャドウ マップとレイトレーシングを使用するために必要です",
+        "official_en": "Shader Model 6 (SM6) is required to use Virtual Shadow Maps and Ray Tracing.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsNeedsSM6:b88bec79",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "VirtualShadowMapsNeedsSM6",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsNeedsSM6:b88bec79",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsNeedsSM6:b88bec79",
+        "jp_sha256": "11ca98915aab59b6c79fefacfffd447158932e2fcf766266c73bbad3d946a8cd",
+        "official_en_sha256": "f65540399351c6d4f57336cc2048f64f7a82fee5b9b5ec801a111bcefe27032c"
+      },
+      "text": {
+        "jp": "仮想シャドウ マップを使用するには、シェーダー モデル 6 (SM6) が必要となります",
+        "official_en": "Shader Model 6 (SM6) is required to use Virtual Shadow Maps.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:Substrate-advanced-visualization-shaders:2c033b47",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "Substrate",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:Substrate-advanced-visualization-shaders:2c033b47",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:Substrate-advanced-visualization-shaders:2c033b47",
+        "jp_sha256": "69e42f21d7f0dd7601fddab5d95dcf7661b820c369c7045142ddb626fbb3f25b",
+        "official_en_sha256": "d89fd2064b9f27a153f6a69de76cf9c8cade8e850bee1e63408ef9770216d26d"
+      },
+      "text": {
+        "jp": "これによりレンダリングは低速になり、より多くのメモリが割り当てられます。チェックインしないでください。代わりに「r.Substrate.Debug.AdvancedVisualizationShaders=1」を使用する「ConsoleVariables.ini」に追加できます。この機能を有効にしてよろしいですか？",
+        "official_en": "This will make the rendering slower and allocate more memory.\nPlease do not check-in.\nInstead you could add `r.Substrate.Debug.AdvancedVisualizationShaders=1` to your ConsoleVariables.ini.\nAre you sure you want to enable that feature now?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsAndRayTracingWontWorkMac:4ce5de56",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "VirtualShadowMapsAndRayTracingWontWorkMac",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsAndRayTracingWontWorkMac:4ce5de56",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsAndRayTracingWontWorkMac:4ce5de56",
+        "jp_sha256": "9bf5c00e14666e71674c033ace31670fdcfc4a392709ce0244847772837ff61b",
+        "official_en_sha256": "ff5fa6205177744163fbbb8e3696432d261691fbafd9047665ffa16dea4e9e45"
+      },
+      "text": {
+        "jp": "これが有効でない場合、Mac で仮想シャドウ マップとレイトレーシングは機能しません",
+        "official_en": "Virtual shadow maps and ray tracing will not work in Mac until this is enabled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsAndRayTracingWontWorkLinuxVulkan:49e38f56",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "VirtualShadowMapsAndRayTracingWontWorkLinuxVulkan",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsAndRayTracingWontWorkLinuxVulkan:49e38f56",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsAndRayTracingWontWorkLinuxVulkan:49e38f56",
+        "jp_sha256": "c9102c98b1c03a298da6ed937315499cefd3bf9f7dd1153ecd27eb5bf7928375",
+        "official_en_sha256": "e6cf6b4ef84ed9097c73b2752e9bdbf8071cea189d291bb4fda66181ec3f71eb"
+      },
+      "text": {
+        "jp": "これが有効でない場合、仮想シャドウ マップとレイトレーシングは Linux 上の Vulkan では機能しません",
+        "official_en": "Virtual shadow maps and ray tracing will not work in Vulkan on Linux until this is enabled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsAndRayTracingWontWorkWindowsVulkan:472caea5",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "VirtualShadowMapsAndRayTracingWontWorkWindowsVulkan",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsAndRayTracingWontWorkWindowsVulkan:472caea5",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsAndRayTracingWontWorkWindowsVulkan:472caea5",
+        "jp_sha256": "39a9f9fd5b6c7b95cdd60fdb53f2d28845116901ca923927b527f13a619fef62",
+        "official_en_sha256": "2d7783851c059df7a81c0d6cad8f6cec94c34731e2fc4fced2242220035e7cc0"
+      },
+      "text": {
+        "jp": "これが有効でない場合、仮想シャドウ マップとレイトレーシングは Windows 上の Vulkan では機能しません",
+        "official_en": "Virtual shadow maps and ray tracing will not work in Vulkan on Windows until this is enabled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsAndRayTracingWontWork:cafd3450",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "VirtualShadowMapsAndRayTracingWontWork",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsAndRayTracingWontWork:cafd3450",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsAndRayTracingWontWork:cafd3450",
+        "jp_sha256": "7fb0e2aa3fd685541c4dcf23062163db07d72fa5c30ac018000c5947e6a5b67f",
+        "official_en_sha256": "1ea2c81d7ffff5d9c8fb4cded98b94d7a5392a75bf55ce0af592457cd4d7b7b2"
+      },
+      "text": {
+        "jp": "これが有効でない場合、仮想シャドウ マップとレイトレーシングは機能しません",
+        "official_en": "Virtual shadow maps and ray tracing will not work until this is enabled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsWontWorkLinuxVulkan:21ab9773",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "VirtualShadowMapsWontWorkLinuxVulkan",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsWontWorkLinuxVulkan:21ab9773",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsWontWorkLinuxVulkan:21ab9773",
+        "jp_sha256": "fc3ba36f2bf695923fbba1a7bed1675707814c7dbddd2cf9c882ef18f8c96f8d",
+        "official_en_sha256": "aaae6d0e89976959fa7400029ed2f447d3d2e9da04532a9dd8fa97be235f00d8"
+      },
+      "text": {
+        "jp": "これが有効でない場合、仮想シャドウ マップは Linux 上の Vulkan では機能しません",
+        "official_en": "Virtual shadow maps will not work in Vulkan on Linux until this is enabled..",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsWontWorkWindowsVulkan:a6712bb1",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "VirtualShadowMapsWontWorkWindowsVulkan",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsWontWorkWindowsVulkan:a6712bb1",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsWontWorkWindowsVulkan:a6712bb1",
+        "jp_sha256": "4d0fb8b345237060f61414b1040007b94ed2396623efd700f8db00bf151847fa",
+        "official_en_sha256": "aca3878f29ca83e0f1d5dcbf1af4a2bc75e69567d872b76140fe7fc3f49b2ce6"
+      },
+      "text": {
+        "jp": "これが有効でない場合、仮想シャドウ マップは Windows 上の Vulkan では機能しません",
+        "official_en": "Virtual shadow maps will not work in Vulkan on Windows until this is enabled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsWontWorkMac:76faff0c",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "VirtualShadowMapsWontWorkMac",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsWontWorkMac:76faff0c",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsWontWorkMac:76faff0c",
+        "jp_sha256": "b67fe1b52f3d1b02177354738063f7ce824144d1169d6220ef5f79b861806389",
+        "official_en_sha256": "0d57de67b87aa2fe1e9b53ca2f1c3164bec1688d2c520d04b46dcc02e9940c5d"
+      },
+      "text": {
+        "jp": "これが有効でない場合、Mac で仮想シャドウ マップは機能しません",
+        "official_en": "Virtual shadow maps will not work on Mac until this is enabled..",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsWontWork:b47254dd",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "VirtualShadowMapsWontWork",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsWontWork:b47254dd",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsWontWork:b47254dd",
+        "jp_sha256": "41876ee793313ad52cc794830849b43e357267814eab8ef746dd2881f55af16c",
+        "official_en_sha256": "a222794c97eba8e78a7447a3da868b82a9c7e5e0f10de05b53e77ffc48ffe832"
+      },
+      "text": {
+        "jp": "これが有効でない場合、仮想シャドウ マップは機能しません",
+        "official_en": "Virtual shadow maps will not work until this is enabled.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:Substrate-Beta:663278ed",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "Substrate",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:Substrate-Beta:663278ed",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:Substrate-Beta:663278ed",
+        "jp_sha256": "d93e2c5725a06aa428c3c068c4e43bca8dfce59b7d236ac4084cc35f6280c7c0",
+        "official_en_sha256": "c0c2a5fd4f67316277c223113452013fbc570a492e60c48f812fdb13e12a5f7a"
+      },
+      "text": {
+        "jp": "警告：Substrate はベータ段階の機能です。Substrate が有効になっているときに保存されたすべてのマテリアルは、後で Substrate が無効になっていると正しくレンダリングされないことに注意してください",
+        "official_en": "Warning: Substrate is in a Beta state. Be aware that any materials saved when Substrate is enabled won't be rendered correctly if Substrate is disabled later on.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsNeedsVulkanSM6LinuxSetting:5a3c9749",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "VirtualShadowMapsNeedsVulkanSM6LinuxSetting",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsNeedsVulkanSM6LinuxSetting:5a3c9749",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsNeedsVulkanSM6LinuxSetting:5a3c9749",
+        "jp_sha256": "a47ed729903dcd696799dcc9e4dd82ca5a0f16d5cedb408c4feaa496a0d7ee08",
+        "official_en_sha256": "1a4c405f1e242136e351644c9a937731fd80a256991ba3e80d35c89fd61dfa21"
+      },
+      "text": {
+        "jp": "{0}次の場所からこれを有効化してください。\n  [Project Settings (プロジェクト設定)] -> [Platforms (プラットフォーム)] -> [Linux] -> [Targeted RHIs (ターゲットのRHI)]\n{1}",
+        "official_en": "{0} Please enable this in:\n  Project Settings -> Platforms -> Linux -> Targeted RHIs\n{1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsNeedsMacSM6Setting:f0bc82bf",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "VirtualShadowMapsNeedsMacSM6Setting",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsNeedsMacSM6Setting:f0bc82bf",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsNeedsMacSM6Setting:f0bc82bf",
+        "jp_sha256": "ef154bd3926065eba18b1455fbba70fb3faf35ddfbdb36a501348ee0ca334c4e",
+        "official_en_sha256": "464f20c564ad67e1c3b162c6fe0cbc20ae134d351c322aebe1e169c161755e8b"
+      },
+      "text": {
+        "jp": "{0}次の場所からこれを有効化してください。\n  [Project Settings (プロジェクト設定)] -> [Platforms (プラットフォーム)] -> [Mac] -> [Targeted RHIs (ターゲットのRHI)]\n{1}",
+        "official_en": "{0} Please enable this in:\n  Project Settings -> Platforms -> Mac -> Targeted RHIs\n{1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsNeedsSM6Setting:01770e25",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "VirtualShadowMapsNeedsSM6Setting",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsNeedsSM6Setting:01770e25",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsNeedsSM6Setting:01770e25",
+        "jp_sha256": "e32934026dbb64cae213815ca5a6d334de49f42d3192d062899052bf0adac3ad",
+        "official_en_sha256": "a28b52f5ccb00cf54098e4b25dc938e383e5b4b2174a43e23ffc3a8741c6e21e"
+      },
+      "text": {
+        "jp": "{0}次の場所からこれを有効化してください。\n  [Project Settings (プロジェクト設定)] -> [Platforms (プラットフォーム)] -> [Windows] -> [D3D12 Targeted Shader Formats (D3D12ターゲットシェーダー形式)]\n{1}",
+        "official_en": "{0} Please enable this in:\n  Project Settings -> Platforms -> Windows -> D3D12 Targeted Shader Formats\n{1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsNeedsVulkanSM6WindowsSetting:d7a53c5c",
+      "source": {
+        "set": "set-02",
+        "namespace": "RendererSettings",
+        "key": "VirtualShadowMapsNeedsVulkanSM6WindowsSetting",
+        "jp_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsNeedsVulkanSM6WindowsSetting:d7a53c5c",
+        "official_en_record_id": "switch:locres:set-01:RendererSettings:VirtualShadowMapsNeedsVulkanSM6WindowsSetting:d7a53c5c",
+        "jp_sha256": "2d11b8e694349ef3eeb7e4edc96235dd58570b629c52b998dc4c1b7ca5ea85ef",
+        "official_en_sha256": "9b6888881074d4374e8fface5983c8e55df189d4530d110c91432add9b01451a"
+      },
+      "text": {
+        "jp": "{0}次の場所からこれを有効化してください。\n  [Project Settings (プロジェクト設定)] -> [Platforms (プラットフォーム)] -> [Windows] -> [Vulkan Targeted Shader Formats (Vulkanターゲットシェーダー形式)]\n{1}",
+        "official_en": "{0} Please enable this in:\n  Project Settings -> Platforms -> Windows -> Vulkan Targeted Shader Formats\n{1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

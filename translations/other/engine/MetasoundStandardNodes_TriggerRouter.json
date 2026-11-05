@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MetasoundStandardNodes_TriggerRouter",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:TriggerRouteDescription:da96f064",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_TriggerRouter",
+        "key": "TriggerRouteDescription",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:TriggerRouteDescription:da96f064",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:TriggerRouteDescription:da96f064",
+        "jp_sha256": "77a558d720a659678c1bbb5c3655dd265934854675ec49dfc1f966a87d476fd0",
+        "official_en_sha256": "a4524e468fff395ef83261a2f9429a51a27b094e75f17f99a450b2f3f8ef4e82"
+      },
+      "text": {
+        "jp": "トリガー入力に応じて同じ出力ピンに対して異なる値をルーティングすることができます。",
+        "official_en": "Allows routing different values to the same output pin depending on trigger inputs.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:OutputTriggerDisplayName:4a2da47a",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_TriggerRouter",
+        "key": "OutputTriggerDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:OutputTriggerDisplayName:4a2da47a",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:OutputTriggerDisplayName:4a2da47a",
+        "jp_sha256": "07d8c090d6ac206cfdcc2ed77d097aef47fb982d25ce147575f6b6033a35de77",
+        "official_en_sha256": "4f087a464c422cee1f56756f1bf6c6a447adf01b0887052bf74466a9ca758437"
+      },
+      "text": {
+        "jp": "設定時",
+        "official_en": "On Set",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:InputTriggerDisplayName:509f3fcd",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_TriggerRouter",
+        "key": "InputTriggerDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:InputTriggerDisplayName:509f3fcd",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:InputTriggerDisplayName:509f3fcd",
+        "jp_sha256": "36e8ddb89b440abda05a009408d624380c02e62dec77f6108f8d551a36862435",
+        "official_en_sha256": "a2a019d9c6f23fe99a05144d4b9621891a9e6b72f3f7dc71e2dff815e3ed94ad"
+      },
+      "text": {
+        "jp": "{0}を設定",
+        "official_en": "Set {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:TriggerRouteInputTriggerDesc:5bf9d2cf",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_TriggerRouter",
+        "key": "TriggerRouteInputTriggerDesc",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:TriggerRouteInputTriggerDesc:5bf9d2cf",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:TriggerRouteInputTriggerDesc:5bf9d2cf",
+        "jp_sha256": "b3f84263cc84091f5ee632065572f8b4b043826392e4e0c7a6ec4ebb8060e13e",
+        "official_en_sha256": "74f949d7d8c1109d5709ec124b423a111f170795bc28910f04594e6fa81a677e"
+      },
+      "text": {
+        "jp": "対応する入力値が出力値にルーティングする入力トリガー {0} です",
+        "official_en": "The input trigger {0} to cause the corresponding input value to route to the output value.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:TriggerRouteInputTriggerDescInit:d2fa9349",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_TriggerRouter",
+        "key": "TriggerRouteInputTriggerDescInit",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:TriggerRouteInputTriggerDescInit:d2fa9349",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:TriggerRouteInputTriggerDescInit:d2fa9349",
+        "jp_sha256": "52998d0a8ac537f4fa72a0571d680b6b0d16727ac23944b048cfd8f5423a69da",
+        "official_en_sha256": "ebb97197c196829051b4e91e12be55272a774c59a9ef71cca34b25a1a101ee1d"
+      },
+      "text": {
+        "jp": "対応する入力値が出力値にルーティングする入力トリガー {0} です。このトリガーはデフォルト出力です",
+        "official_en": "The input trigger {0} to cause the corresponding input value to route to the output value. This trigger is the default output.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:TriggerRouteValueDesc:cd434f9d",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_TriggerRouter",
+        "key": "TriggerRouteValueDesc",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:TriggerRouteValueDesc:cd434f9d",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:TriggerRouteValueDesc:cd434f9d",
+        "jp_sha256": "2a6e1936e82bc054aad17a1c279a6ac2452357618c14ed12736c484044c066a4",
+        "official_en_sha256": "e22e7098945e648a1be293bcc26c17724a1ef8ebf620015ecfe331f6fe51bd40"
+      },
+      "text": {
+        "jp": "設定 {0} によってトリガーされると、出力にルーティングする入力値 ({0})",
+        "official_en": "The input value ({0}) to route to the output when triggered by Set {0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:OutputValueTooltip:591850af",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_TriggerRouter",
+        "key": "OutputValueTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:OutputValueTooltip:591850af",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:OutputValueTooltip:591850af",
+        "jp_sha256": "a2c19f0a3e12e80fc0e2d5ab3a5bc154af127ae1972908acb37e082c3171ab8d",
+        "official_en_sha256": "83c416d2e0e784222133574856ebd04ccff0fdd762ccd189859f85d3903f0e4b"
+      },
+      "text": {
+        "jp": "入力トリガーによって設定される出力値",
+        "official_en": "The output value set by the input triggers.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:TriggerRouteDisplayNamePattern:eb33c0c0",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_TriggerRouter",
+        "key": "TriggerRouteDisplayNamePattern",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:TriggerRouteDisplayNamePattern:eb33c0c0",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:TriggerRouteDisplayNamePattern:eb33c0c0",
+        "jp_sha256": "9da7181173d2428bc77595974669adeccac3ba8a72e245ce7b4e4b316b4be8cd",
+        "official_en_sha256": "5e0ecb512ebaab2b815751e74a7607487c2b053556dc705641b28c7c746d5a6d"
+      },
+      "text": {
+        "jp": "Trigger Route ({0}、{1})",
+        "official_en": "Trigger Route ({0}, {1})",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:OutputTriggerTooltip:367a71f6",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_TriggerRouter",
+        "key": "OutputTriggerTooltip",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:OutputTriggerTooltip:367a71f6",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:OutputTriggerTooltip:367a71f6",
+        "jp_sha256": "7acfb16f3aa5731a9f8b95f6400e656dec43a12c563d6ac0a50de9d830a2a931",
+        "official_en_sha256": "200190cc548fc565c971c1e83248dfd278e3b88a3149991dbff7b947b865d0b3"
+      },
+      "text": {
+        "jp": "いずれかの入力トリガーが設定されたときにトリガーされます",
+        "official_en": "Triggered when any of the input triggers are set.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:OutputValueDisplayName:3fa9ed27",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_TriggerRouter",
+        "key": "OutputValueDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:OutputValueDisplayName:3fa9ed27",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:OutputValueDisplayName:3fa9ed27",
+        "jp_sha256": "19126213b0d126380f5fc7474be08db05389f4dda440a030a522448b7b2ea084",
+        "official_en_sha256": "8e37953d23daca5ff01b8282c33f4e0a2152f1d1885f94c06418617e3ee1d24e"
+      },
+      "text": {
+        "jp": "値",
+        "official_en": "Value",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:InputValueDisplayName:f72389f2",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_TriggerRouter",
+        "key": "InputValueDisplayName",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:InputValueDisplayName:f72389f2",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:InputValueDisplayName:f72389f2",
+        "jp_sha256": "5dfa21f62edd4d412be67bfec779186f0a68cc1e126cf1ed92e047d464b19b23",
+        "official_en_sha256": "b464699c5db2fb6337aaad7b64a3273823073ae4b6429d5de36cb9f292a91a38"
+      },
+      "text": {
+        "jp": "値{0}",
+        "official_en": "Value {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:TriggerRouteKeyword_Select:fc405113",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetasoundStandardNodes_TriggerRouter",
+        "key": "TriggerRouteKeyword_Select",
+        "jp_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:TriggerRouteKeyword_Select:fc405113",
+        "official_en_record_id": "switch:locres:set-01:MetasoundStandardNodes_TriggerRouter:TriggerRouteKeyword_Select:fc405113",
+        "jp_sha256": "b522483bceb1cbd5d207fd600d39ee59c88792f0756d425482fba27470c7fcdd",
+        "official_en_sha256": "b1a36d25d9633ed2ac04939fcb614ccb2b513243c148f18694592ae037f9d35f"
+      },
+      "text": {
+        "jp": "選択します",
+        "official_en": "select",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

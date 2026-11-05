@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "K2Node_SetCameraRigParameter",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:K2Node_SetCameraRigParameter:BaseNodeTitle:17b459cb",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_SetCameraRigParameter",
+        "key": "BaseNodeTitle",
+        "jp_record_id": "switch:locres:set-01:K2Node_SetCameraRigParameter:BaseNodeTitle:17b459cb",
+        "official_en_record_id": "switch:locres:set-01:K2Node_SetCameraRigParameter:BaseNodeTitle:17b459cb",
+        "jp_sha256": "2e778d5811f8bdfe7ee7b3da22c8613ff3caa39c85bd612ada550d6335bd7a13",
+        "official_en_sha256": "2e778d5811f8bdfe7ee7b3da22c8613ff3caa39c85bd612ada550d6335bd7a13"
+      },
+      "text": {
+        "jp": "SET on {0}",
+        "official_en": "SET on {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_SetCameraRigParameter:SetCameraRigParameterActionMenuName:0517fbbc",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_SetCameraRigParameter",
+        "key": "SetCameraRigParameterActionMenuName",
+        "jp_record_id": "switch:locres:set-01:K2Node_SetCameraRigParameter:SetCameraRigParameterActionMenuName:0517fbbc",
+        "official_en_record_id": "switch:locres:set-01:K2Node_SetCameraRigParameter:SetCameraRigParameterActionMenuName:0517fbbc",
+        "jp_sha256": "36e8ddb89b440abda05a009408d624380c02e62dec77f6108f8d551a36862435",
+        "official_en_sha256": "a2a019d9c6f23fe99a05144d4b9621891a9e6b72f3f7dc71e2dff815e3ed94ad"
+      },
+      "text": {
+        "jp": "{0}を設定",
+        "official_en": "Set {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_SetCameraRigParameter:ErrorMissingCameraParameterName:d3f79a24",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_SetCameraRigParameter",
+        "key": "ErrorMissingCameraParameterName",
+        "jp_record_id": "switch:locres:set-01:K2Node_SetCameraRigParameter:ErrorMissingCameraParameterName:d3f79a24",
+        "official_en_record_id": "switch:locres:set-01:K2Node_SetCameraRigParameter:ErrorMissingCameraParameterName:d3f79a24",
+        "jp_sha256": "f337bebc6158f7b32368b875607215e77d3179e0f00e04122b0764766f3eead9",
+        "official_en_sha256": "f94306ef3c06e2e8aa18b1c3e19330c537ffa840f537dee2b8dd5fdcb36444dd"
+      },
+      "text": {
+        "jp": "SetCameraRigParameter ノード @@ に、有効なカメラ パラメータ名が設定されていません",
+        "official_en": "SetCameraRigParameter node @@ doesn't have a valid camera parameter name set.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_SetCameraRigParameter:ErrorRequiresLiteral:375dee87",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_SetCameraRigParameter",
+        "key": "ErrorRequiresLiteral",
+        "jp_record_id": "switch:locres:set-01:K2Node_SetCameraRigParameter:ErrorRequiresLiteral:375dee87",
+        "official_en_record_id": "switch:locres:set-01:K2Node_SetCameraRigParameter:ErrorRequiresLiteral:375dee87",
+        "jp_sha256": "1c24f91a897bccd3059b702bd22f95f5a96e0fee8abaaa02dbcd6b3ebc69efee",
+        "official_en_sha256": "1c24f91a897bccd3059b702bd22f95f5a96e0fee8abaaa02dbcd6b3ebc69efee"
+      },
+      "text": {
+        "jp": "SetCameraRigParameter node @@ parameter value '{0}' must have an input connected into it (try connecting a MakeStruct, EnumLiteral, or appropriate node).",
+        "official_en": "SetCameraRigParameter node @@ parameter value '{0}' must have an input connected into it (try connecting a MakeStruct, EnumLiteral, or appropriate node).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:K2Node_SetCameraRigParameter:NodeTooltip:c293f732",
+      "source": {
+        "set": "set-02",
+        "namespace": "K2Node_SetCameraRigParameter",
+        "key": "NodeTooltip",
+        "jp_record_id": "switch:locres:set-01:K2Node_SetCameraRigParameter:NodeTooltip:c293f732",
+        "official_en_record_id": "switch:locres:set-01:K2Node_SetCameraRigParameter:NodeTooltip:c293f732",
+        "jp_sha256": "4413594409fbd3986e84c2c231c33ae26caa6408113caf121eb3ba0d8213863e",
+        "official_en_sha256": "eba81c2fd9b7a7f43f3a8a124288d3f712ab317a2a65ea029a60d10afcb21bee"
+      },
+      "text": {
+        "jp": "カメラ リグ {0} のパラメータ {1} の値を、指定された評価データで設定します",
+        "official_en": "Sets the value of camera rig {0}'s parameter {1} on the given evaluation data.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

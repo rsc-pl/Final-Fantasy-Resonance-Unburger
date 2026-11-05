@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGSpawnInstanceActorsElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGSpawnInstanceActorsElement:InstancedActorsCannotSpawnInNonEditorBuilds:8b21674d",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGSpawnInstanceActorsElement",
+        "key": "InstancedActorsCannotSpawnInNonEditorBuilds",
+        "jp_record_id": "switch:locres:set-01:PCGSpawnInstanceActorsElement:InstancedActorsCannotSpawnInNonEditorBuilds:8b21674d",
+        "official_en_record_id": "switch:locres:set-01:PCGSpawnInstanceActorsElement:InstancedActorsCannotSpawnInNonEditorBuilds:8b21674d",
+        "jp_sha256": "5f771973004aeed9e99c14b513da4eff9165d8932876938afa38744c24679142",
+        "official_en_sha256": "e448316ccff68bd27225f73d6658581a26b92f148c11be35844d1a158838577b"
+      },
+      "text": {
+        "jp": "エディタ以外のビルドでインスタンス化アクタをスポーンすることはできません",
+        "official_en": "Instanced actors cannot be spawned in non-editor builds.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGSpawnInstanceActorsElement:InvalidActorSubclass:6ab75228",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGSpawnInstanceActorsElement",
+        "key": "InvalidActorSubclass",
+        "jp_record_id": "switch:locres:set-01:PCGSpawnInstanceActorsElement:InvalidActorSubclass:6ab75228",
+        "official_en_record_id": "switch:locres:set-01:PCGSpawnInstanceActorsElement:InvalidActorSubclass:6ab75228",
+        "jp_sha256": "61e45c9691b78969235babc528239fb3ec720fb92ed167295526468ea5c76e15",
+        "official_en_sha256": "69e81408d2829f05b9cb710217eeb3310b29768a3ac2ea1f7f122757f5ea34e6"
+      },
+      "text": {
+        "jp": "アクタ サブクラスが無効であるため、何もスポーンされません",
+        "official_en": "Invalid actor subclass, nothing will be spawned.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGSpawnInstanceActorsElement:InvalidLoadedActorClass:f5ba2cc0",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGSpawnInstanceActorsElement",
+        "key": "InvalidLoadedActorClass",
+        "jp_record_id": "switch:locres:set-01:PCGSpawnInstanceActorsElement:InvalidLoadedActorClass:f5ba2cc0",
+        "official_en_record_id": "switch:locres:set-01:PCGSpawnInstanceActorsElement:InvalidLoadedActorClass:f5ba2cc0",
+        "jp_sha256": "3c16e257cbaf4dfa284fceceff43c704941204b9c9fea6f9f8b0728063fb7e3c",
+        "official_en_sha256": "13ba50d617b86d63e69e1e2beee77e852f796f7758da817b513d7d180e7ec2e8"
+      },
+      "text": {
+        "jp": "パス「{0}」からロードされたアクタ クラスが無効です",
+        "official_en": "Invalid loaded actor class from path '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGSpawnInstanceActorsElement:CannotSpawnInstancedActorsAtRuntime:4ff7fc12",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGSpawnInstanceActorsElement",
+        "key": "CannotSpawnInstancedActorsAtRuntime",
+        "jp_record_id": "switch:locres:set-01:PCGSpawnInstanceActorsElement:CannotSpawnInstancedActorsAtRuntime:4ff7fc12",
+        "official_en_record_id": "switch:locres:set-01:PCGSpawnInstanceActorsElement:CannotSpawnInstancedActorsAtRuntime:4ff7fc12",
+        "jp_sha256": "ee5e3ab13a78bc83c10de0a081d8ed4c8a24b6578d60dfa25002b292e1ca3593",
+        "official_en_sha256": "8004b4348ca5a0c4c314a835697bd3e43c0aa026c431de1e8c536b8f58e318a3"
+      },
+      "text": {
+        "jp": "インスタンス化アクタをランタイム時にスポーンすることは、現時点ではサポートされていません",
+        "official_en": "It is not currently supported to spawn instanced actors at runtime.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGSpawnInstanceActorsElement:SpawnInstancedActorsNodeTooltip:e0473076",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGSpawnInstanceActorsElement",
+        "key": "SpawnInstancedActorsNodeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGSpawnInstanceActorsElement:SpawnInstancedActorsNodeTooltip:e0473076",
+        "official_en_record_id": "switch:locres:set-01:PCGSpawnInstanceActorsElement:SpawnInstancedActorsNodeTooltip:e0473076",
+        "jp_sha256": "306c230e62a48e7848392688ce33d24701f8fc8dcbaca33e0d3d08d38a6d554e",
+        "official_en_sha256": "a44027648af4f2aaf31333a737b3f16163448e11b35c1f934e61b4ce11367fe2"
+      },
+      "text": {
+        "jp": "入力データからのインスタンス化アクタをスポーンします。なお、このアクタ クラスは以前に登録済みである必要があり、このノードはランタイム時には機能しません",
+        "official_en": "Spawns instanced actors from the input data. Note that the actor classes should be previously registered and that this node does not work at runtime.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

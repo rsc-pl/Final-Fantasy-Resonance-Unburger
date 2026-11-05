@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Localization record",
+  "description": "One canonical record. record_id is logical and stable: it must not change when the text changes, when a translation is edited, or when an update ships new wording for the same slot. Content and source version live in their own fields.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_id",
+    "text"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "<platform>:<format>:<set>:<namespace>:<key>:<digest> - derived from physical identity only."
+    },
+    "resource": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$",
+      "description": "SHA-256 of the source archive this record was read from."
+    },
+    "content_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$",
+      "description": "SHA-256 of this record's text only; changes whenever the text changes."
+    },
+    "source_version": {
+      "type": "string",
+      "description": "Layer or release the record came from (for example switch-base, switch-update)."
+    },
+    "context_ref": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "UNREVIEWED",
+        "KEEP",
+        "CHANGE"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    },
+    "scene": {
+      "type": "string",
+      "description": "Scene id taken from the source namespace (ST_<scene>)."
+    },
+    "seq": {
+      "type": "integer",
+      "description": "Order of the line inside its scene, from the source key."
+    },
+    "prev_record_id": {
+      "type": "string"
+    },
+    "next_record_id": {
+      "type": "string"
+    },
+    "speaker": {
+      "type": "string",
+      "description": "Character id when proven by an asset-level source; UNKNOWN otherwise."
+    },
+    "addressee": {
+      "type": "string"
+    },
+    "speaker_confidence": {
+      "enum": [
+        "none",
+        "namespace",
+        "asset",
+        "runtime"
+      ]
+    },
+    "speaker_evidence": {
+      "type": "string"
+    },
+    "branch": {
+      "type": "string",
+      "description": "Choice token when the shipped sequencer assets prove one (for example Choice2)."
+    },
+    "branch_evidence": {
+      "type": "string"
+    },
+    "branch_confidence": {
+      "enum": [
+        "none",
+        "namespace",
+        "asset-path",
+        "runtime"
+      ]
+    },
+    "scene_asset_dir": {
+      "type": "string",
+      "description": "Sequencer directory the build ships for this scene, from the cooked file manifest."
+    },
+    "scene_evidence": {
+      "type": "string"
+    },
+    "scene_confidence": {
+      "enum": [
+        "none",
+        "namespace",
+        "asset-path",
+        "runtime"
+      ]
+    }
+  }
+}

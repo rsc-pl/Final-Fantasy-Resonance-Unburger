@@ -1,0 +1,974 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "IngestAssetCreator",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:CheckError_AssetNotFound:df89a2db",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "CheckError_AssetNotFound",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:CheckError_AssetNotFound:df89a2db",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:CheckError_AssetNotFound:df89a2db",
+        "jp_sha256": "544016ce26a88281d45b9723791966ffd3aaa5726c42b8c4b54c8d512c6fd9fc",
+        "official_en_sha256": "eec81965a6369519c1d9d5cf366a155d87daecefbe8cafe40e16f26c74f4b073"
+      },
+      "text": {
+        "jp": "アセットが存在しません：{0}",
+        "official_en": "Asset doesn't exist: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:AssetCreationError_CameraCalibrationNotLinked:321d13b6",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "AssetCreationError_CameraCalibrationNotLinked",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:AssetCreationError_CameraCalibrationNotLinked:321d13b6",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:AssetCreationError_CameraCalibrationNotLinked:321d13b6",
+        "jp_sha256": "a0e06b288a5031eac1fc7a30118d8d3f9bdf71c07c278fe2ed9dd54f03d4e253",
+        "official_en_sha256": "c7915857545a646413212cab8e2dfef60995948142b69a138206954f5e8a4e77"
+      },
+      "text": {
+        "jp": "カメラ キャリブレーション アセットがテイクにリンクされていません",
+        "official_en": "Camera Calibration asset not linked to the take",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:CheckError_IngestResultError:6cc21efb",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "CheckError_IngestResultError",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:CheckError_IngestResultError:6cc21efb",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:CheckError_IngestResultError:6cc21efb",
+        "jp_sha256": "37a8df495de7686e881c6eac315b2ae3b8f950d37e98784b5afe4059ca0edc6c",
+        "official_en_sha256": "41d44233f2022084f45fa79850f807bacf002ce24391aeb5701140342d6928ee"
+      },
+      "text": {
+        "jp": "取り込み結果をチェックできません：{0}",
+        "official_en": "Checking ingest result failed: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:CreateAssetsForTakeMessage:9a15003f",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "CreateAssetsForTakeMessage",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:CreateAssetsForTakeMessage:9a15003f",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:CreateAssetsForTakeMessage:9a15003f",
+        "jp_sha256": "256c464f29697723cbac0931a8675d815273fdde3751e580cef5cfe913635f7f",
+        "official_en_sha256": "ce18fae96c0c9e2a7944e17abc1b6e0718fdd57c81640c1caccfd96234c756de"
+      },
+      "text": {
+        "jp": "{2} に対するアセット ({0}/{1}) を作成しています",
+        "official_en": "Creating assets ({0} of {1}) for {2}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:CreateAssetsTask:88e9c7e2",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "CreateAssetsTask",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:CreateAssetsTask:88e9c7e2",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:CreateAssetsTask:88e9c7e2",
+        "jp_sha256": "2941ea74a748638e08e0d73d78d0f9783ceb8d27eb2f4f9eafbcf3b655aa286c",
+        "official_en_sha256": "2093e7b8420754ac32fd49bf0707cc4e17e40fb220afd5a66c0bceda4c132d33"
+      },
+      "text": {
+        "jp": "取り込んだテイクのアセットを作成しています",
+        "official_en": "Creating assets for ingested takes",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:AssetCreationError_DepthSequenceNotLinked:8b61d48f",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "AssetCreationError_DepthSequenceNotLinked",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:AssetCreationError_DepthSequenceNotLinked:8b61d48f",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:AssetCreationError_DepthSequenceNotLinked:8b61d48f",
+        "jp_sha256": "53302af305a7180b8f9c834d617c72486d38f375239eb564e4d37fbfd0147541",
+        "official_en_sha256": "07a73aef7ffaa4501b559878d9ac70980c224ef814f4edcecb1ec60d10c57803"
+      },
+      "text": {
+        "jp": "深度シーケンス アセットがテイクにリンクされていません",
+        "official_en": "Depth Sequence asset not linked to the take",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:CheckCreatedTakeAssets_DepthDirNotFound:b78b0440",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "CheckCreatedTakeAssets_DepthDirNotFound",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:CheckCreatedTakeAssets_DepthDirNotFound:b78b0440",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:CheckCreatedTakeAssets_DepthDirNotFound:b78b0440",
+        "jp_sha256": "fda142322d1910faab9b62d73ece8bb0aa276267fe5375c9bac10c3978b70026",
+        "official_en_sha256": "9d10f73045d61fc17daefdbbea537d2031aa2d830d4d0e9a09867ba7fa7d155e"
+      },
+      "text": {
+        "jp": "深度シーケンス ディレクトリが存在しません",
+        "official_en": "Depth Sequence directory doesn't exist",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:AssetCreationError_ImportingAudioAssetsFailed:96271c42",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "AssetCreationError_ImportingAudioAssetsFailed",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:AssetCreationError_ImportingAudioAssetsFailed:96271c42",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:AssetCreationError_ImportingAudioAssetsFailed:96271c42",
+        "jp_sha256": "f66e7e3ea8c9228256047f41f06631e05361ef110e584e212ccc96a4307300e0",
+        "official_en_sha256": "e4a0211eb383f39de53f121468a8474b3f95708112bbd6cb06884eb3458cf8c9"
+      },
+      "text": {
+        "jp": "オーディオ アセットのインポート中にエラーが発生しました",
+        "official_en": "Error importing audio assets",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_Initialize_ImportingAudioAssetsFailed:723cc096",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "IngestError_Initialize_ImportingAudioAssetsFailed",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_Initialize_ImportingAudioAssetsFailed:723cc096",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_Initialize_ImportingAudioAssetsFailed:723cc096",
+        "jp_sha256": "f66e7e3ea8c9228256047f41f06631e05361ef110e584e212ccc96a4307300e0",
+        "official_en_sha256": "e4a0211eb383f39de53f121468a8474b3f95708112bbd6cb06884eb3458cf8c9"
+      },
+      "text": {
+        "jp": "オーディオ アセットのインポート中にエラーが発生しました",
+        "official_en": "Error importing audio assets",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_AudioImport:9493435e",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "IngestError_AudioImport",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_AudioImport:9493435e",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_AudioImport:9493435e",
+        "jp_sha256": "6ff7e5ab22f0523b1407c2d1d2069c645f62c8715b9859a8c93f590855f312f0",
+        "official_en_sha256": "16c9c65965c33a178e1d10d3729b00a6364cc81a7c8f9c4185d7db3a119172d1"
+      },
+      "text": {
+        "jp": "オーディオ クリップのインポート中にエラーが発生しました",
+        "official_en": "Error importing audio clip",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_Initialized_ImportCalibrationAssetFailed:86188017",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "IngestError_Initialized_ImportCalibrationAssetFailed",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_Initialized_ImportCalibrationAssetFailed:86188017",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_Initialized_ImportCalibrationAssetFailed:86188017",
+        "jp_sha256": "5093f47c787e4f35f7b8fb72633fe5425a9b5f5d50138be6fe82411d709a3235",
+        "official_en_sha256": "4cf82a595e31311d6835156e0a5dc0144528ab7f2e3aa35a2e6b1716a02858b8"
+      },
+      "text": {
+        "jp": "キャリブレーション アセットのインポート中にエラーが発生しました",
+        "official_en": "Error importing calibration assets",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_CalibrationImport:f4596466",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "IngestError_CalibrationImport",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_CalibrationImport:f4596466",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_CalibrationImport:f4596466",
+        "jp_sha256": "09caa33d948d83fcd72c81c97dad72d622352f241f59a2ae4422d93de5ff0fe3",
+        "official_en_sha256": "7801981560dbceff6e998b1338815271889d074db416ebb26d20b402874f195d"
+      },
+      "text": {
+        "jp": "カメラのキャリブレーションのインポート中にエラーが発生しました",
+        "official_en": "Error importing camera calibration",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:IngestAssetCreatorError_CamreaCalibrationAlreadyExists:969aff61",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "IngestAssetCreatorError_CamreaCalibrationAlreadyExists",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:IngestAssetCreatorError_CamreaCalibrationAlreadyExists:969aff61",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:IngestAssetCreatorError_CamreaCalibrationAlreadyExists:969aff61",
+        "jp_sha256": "03159b12425276e9a19d80d845567246f1c5fcda0cb9a9c215cd28cdb371a713",
+        "official_en_sha256": "a58c8698ce2f560788a2e58f1f0cd7d1941471e82ef0a7990d329f70ad825756"
+      },
+      "text": {
+        "jp": "UCameraCalibration「{0}」を作成できません。名前が「{1}」のアセットは、すでにパッケージ パス「{2}」に存在します",
+        "official_en": "Failed to create UCameraCalibration '{0}'. Asset with name '{1}' already exists at package path '{2}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:IngestAssetCreatorError_FailedToCreateImgMedia:02df086e",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "IngestAssetCreatorError_FailedToCreateImgMedia",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:IngestAssetCreatorError_FailedToCreateImgMedia:02df086e",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:IngestAssetCreatorError_FailedToCreateImgMedia:02df086e",
+        "jp_sha256": "a7bda846b85bc5d8310915fafc429f4582c14b5300c613ebf0fdee984fcc0bb4",
+        "official_en_sha256": "f51b021591ac627dcd4059cc36d12048cc8ea4fa62e3624e530e436c3a5dd6d6"
+      },
+      "text": {
+        "jp": "UImgMediaSource「{0}」を作成できません",
+        "official_en": "Failed to create UImgMediaSource '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:IngestAssetCreatorError_ImgMediaAlreadyExists:8c77923c",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "IngestAssetCreatorError_ImgMediaAlreadyExists",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:IngestAssetCreatorError_ImgMediaAlreadyExists:8c77923c",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:IngestAssetCreatorError_ImgMediaAlreadyExists:8c77923c",
+        "jp_sha256": "b0bd8c66c1212b03051d258de02dfa59d6458b3ae3d1ee96dd69b40647b3aa51",
+        "official_en_sha256": "4a309c1cca01c0d59bb48947a920e124793b7091e7c4b5e7f7091049e2979bda"
+      },
+      "text": {
+        "jp": "UImgMediaSource「{0}」を作成できません。名前が「{1}」のアセットは、すでにパッケージ パス「{2}」に存在します",
+        "official_en": "Failed to create UImgMediaSource '{0}'. Asset with name '{1}' already exists at package path '{2}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:IngestAssetCreatorError_SoundWaveAlreadyExists:fa199333",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "IngestAssetCreatorError_SoundWaveAlreadyExists",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:IngestAssetCreatorError_SoundWaveAlreadyExists:fa199333",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:IngestAssetCreatorError_SoundWaveAlreadyExists:fa199333",
+        "jp_sha256": "6afe9a00458b2dda4bf4fd9d8ffbf5ed4222bfff7dc4026e5ae727ada46b7ac3",
+        "official_en_sha256": "5164757fcb867d37d2d29d7ff9364cd767b425ea9328149831c55c7bfe5cdb82"
+      },
+      "text": {
+        "jp": "USoundWave「{0}」を作成できません。名前が「{1}」のアセットは、すでにパッケージ パス「{2}」に存在します",
+        "official_en": "Failed to create USoundWave '{0}'. Asset with name '{1}' already exists at package path '{2}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_ViewsCreation:8f9f6ef3",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "IngestError_ViewsCreation",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_ViewsCreation:8f9f6ef3",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_ViewsCreation:8f9f6ef3",
+        "jp_sha256": "d7c4d63c7a2aafb54eca99b4bf4ff710c580a98d15fea1189dcb12d14077ade5",
+        "official_en_sha256": "de35331ac9977f78fd3bcc2cd4777224cb09dca41e1c1bc3f8da96b42e0e8d91"
+      },
+      "text": {
+        "jp": "アセットのビューを作成できませんでした",
+        "official_en": "Failed to create views for assets",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:AssetCreationError_ImageSequenceNotLinked:5bc7490a",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "AssetCreationError_ImageSequenceNotLinked",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:AssetCreationError_ImageSequenceNotLinked:5bc7490a",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:AssetCreationError_ImageSequenceNotLinked:5bc7490a",
+        "jp_sha256": "2a2ffa1fbed5c970b8977dcb5ad794da3e081cc6504bc14783261081145be257",
+        "official_en_sha256": "d7478f44c5ecbc4bea3bf1d2fa6c5fcb4196dcde761de744567a80eca351bde2"
+      },
+      "text": {
+        "jp": "画像シーケンス アセットがテイクにリンクされていません",
+        "official_en": "Image Sequence asset not linked to the take",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:CheckCreatedTakeAssets_ImageDirNotFound:11149d01",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "CheckCreatedTakeAssets_ImageDirNotFound",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:CheckCreatedTakeAssets_ImageDirNotFound:11149d01",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:CheckCreatedTakeAssets_ImageDirNotFound:11149d01",
+        "jp_sha256": "9a7612101b988a15132cbecda82a027eb31f1d483a5cb4e9818facdba24e390f",
+        "official_en_sha256": "0fd9abccfebe90943289cb8b7d4b40c9b91978f564358a3196bde493c682a449"
+      },
+      "text": {
+        "jp": "画像シーケンス ディレクトリが存在しません",
+        "official_en": "Image Sequence directory doesn't exist",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:CheckCreatedTakeAssets_MissingDepthFiles:807092ef",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "CheckCreatedTakeAssets_MissingDepthFiles",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:CheckCreatedTakeAssets_MissingDepthFiles:807092ef",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:CheckCreatedTakeAssets_MissingDepthFiles:807092ef",
+        "jp_sha256": "76eb9ce62b5459dc93921fe51639fed57ff823e6158c11ad6db65b6137842fdd",
+        "official_en_sha256": "eddd1d5779f694a102d9e640688fb847603a6e0e53bcc8c327183ada31457533"
+      },
+      "text": {
+        "jp": "サポート深度ファイルが見つかりません",
+        "official_en": "No supported depth files could be found",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:CheckCreatedTakeAssets_MissingImageFiles:3b7fc624",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "CheckCreatedTakeAssets_MissingImageFiles",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:CheckCreatedTakeAssets_MissingImageFiles:3b7fc624",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:CheckCreatedTakeAssets_MissingImageFiles:3b7fc624",
+        "jp_sha256": "2123a673c56f163565b6f1a5d115e18a2842bb871a992ccea8d594b01e1c857d",
+        "official_en_sha256": "03b2298be2fa29dac0d20c80210cd04022debb981631fa801678a0f6fe32d9c4"
+      },
+      "text": {
+        "jp": "サポート画像ファイルが見つかりません",
+        "official_en": "No supported image files could be found",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:AssetCreationError_SoundWaveNotLinked:0a8e5a8b",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "AssetCreationError_SoundWaveNotLinked",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:AssetCreationError_SoundWaveNotLinked:0a8e5a8b",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:AssetCreationError_SoundWaveNotLinked:0a8e5a8b",
+        "jp_sha256": "3e5c24755f75a40f98f9d95d5b94ee4e1e0fc020f73350287ade3b1aff5a459e",
+        "official_en_sha256": "9ae3b824aea972e281222eee086c081b6d1efa99b513b788cade0191d6285dc9"
+      },
+      "text": {
+        "jp": "Sound Wave アセットがテイクにリンクされていません",
+        "official_en": "Sound Wave asset not linked to the take",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_Validation_TakeStructure:c034aa3f",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "IngestError_Validation_TakeStructure",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_Validation_TakeStructure:c034aa3f",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_Validation_TakeStructure:c034aa3f",
+        "jp_sha256": "c156afaa4a7c673c16c089d9e7f76cb54c074fd3ec564dda3e81cc415af20013",
+        "official_en_sha256": "0bad6e3cf9393db873a8c80b56c2d735d00aa9b3a984183679028700ce6848f0"
+      },
+      "text": {
+        "jp": "作成されたテイク構造の検証に失敗しました",
+        "official_en": "Validation of created Take structure failed",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_Validation_TakeStructureMessage:34b188cc",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "IngestError_Validation_TakeStructureMessage",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_Validation_TakeStructureMessage:34b188cc",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_Validation_TakeStructureMessage:34b188cc",
+        "jp_sha256": "424364084e2cc7e6b4a01c43114e0c3218affa5f45ba4539635e3b6a8add4676",
+        "official_en_sha256": "03e2859709d60cc060d0a476a173b6b98bb28f1bf47153512c45db18c00ba3e3"
+      },
+      "text": {
+        "jp": "作成されたテイク構造の検証に失敗しました：{0}",
+        "official_en": "Validation of created Take structure failed: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_Validation_IngestedFiles:b0d7fcbc",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "IngestError_Validation_IngestedFiles",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_Validation_IngestedFiles:b0d7fcbc",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_Validation_IngestedFiles:b0d7fcbc",
+        "jp_sha256": "3cecdf2794f4e0cbfe17056d280b240c974bd6bf8a2297c747a57af4eb69eee8",
+        "official_en_sha256": "1e4fdf25b5f65c046c9edbf5aef6dc980161f3215da8445519b3ee27022663cb"
+      },
+      "text": {
+        "jp": "取り込み済みファイルの検証に失敗しました",
+        "official_en": "Validation of ingested files failed",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_Validation_IngestedFilesMessage:f1d84213",
+      "source": {
+        "set": "set-02",
+        "namespace": "IngestAssetCreator",
+        "key": "IngestError_Validation_IngestedFilesMessage",
+        "jp_record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_Validation_IngestedFilesMessage:f1d84213",
+        "official_en_record_id": "switch:locres:set-01:IngestAssetCreator:IngestError_Validation_IngestedFilesMessage:f1d84213",
+        "jp_sha256": "e0c40358160a803c60ee3cc8207741d24a2506f9141d54d9b55bc3f7b2d78987",
+        "official_en_sha256": "ff60f61d4311f7a1455a5a3865108b4335c87b2900a55ca50568d83ed85477d3"
+      },
+      "text": {
+        "jp": "取り込み済みファイルの検証が失敗しました：{0}",
+        "official_en": "Validation of ingested files failed: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

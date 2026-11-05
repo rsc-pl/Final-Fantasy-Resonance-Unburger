@@ -1,0 +1,493 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UnsavedAssetsTracker",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UnsavedAssetsTracker:All_Saved:889dc515",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnsavedAssetsTracker",
+        "key": "All_Saved",
+        "jp_record_id": "switch:locres:set-01:UnsavedAssetsTracker:All_Saved:889dc515",
+        "official_en_record_id": "switch:locres:set-01:UnsavedAssetsTracker:All_Saved:889dc515",
+        "jp_sha256": "4f7690123a82b8f368e322d1ed974e370418b56b1867b65399225c3e1b470b3a",
+        "official_en_sha256": "7491bafa9d42da8a8206f015bfc2e461f46fe4faa486bb26018671ac53ca8e87"
+      },
+      "text": {
+        "jp": "すべて保存済み",
+        "official_en": "All Saved",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnsavedAssetsTracker:Assets_All_Saved_Tooltip:06e4d268",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnsavedAssetsTracker",
+        "key": "Assets_All_Saved_Tooltip",
+        "jp_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Assets_All_Saved_Tooltip:06e4d268",
+        "official_en_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Assets_All_Saved_Tooltip:06e4d268",
+        "jp_sha256": "ac11f9bbd565725aee4cdcb9dbc8629758ca76dd0cb33efc8c4a9e26eca882e6",
+        "official_en_sha256": "c59a7ddfef533648a8d58152f62d44513448b7e6e08ed0ffb763e3caf298252e"
+      },
+      "text": {
+        "jp": "プロジェクト内のすべてのアセットが保存済みです",
+        "official_en": "All assets in the project have been saved.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnsavedAssetsTracker:Write_Permission_Warning:38fbecb8",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnsavedAssetsTracker",
+        "key": "Write_Permission_Warning",
+        "jp_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Write_Permission_Warning:38fbecb8",
+        "official_en_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Write_Permission_Warning:38fbecb8",
+        "jp_sha256": "b1816c5463112ea0c1c93f035b873aabae0836f961be117f5d34044ea637dfbf",
+        "official_en_sha256": "734d18619c420b1cfacb1e9b10cd50bba6ef18f1b102f759747e7b0967cacd08"
+      },
+      "text": {
+        "jp": "{0}を保存するための書き込み権限が不十分です",
+        "official_en": "Insufficient writing permission to save {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnsavedAssetsTracker:Asset_Unsaved_Tooltip:d2d1d7e1",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnsavedAssetsTracker",
+        "key": "Asset_Unsaved_Tooltip",
+        "jp_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Asset_Unsaved_Tooltip:d2d1d7e1",
+        "official_en_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Asset_Unsaved_Tooltip:d2d1d7e1",
+        "jp_sha256": "8c337bfda122755c75c216a483d1c7c4b45fdf78ae5f2b8c86de253493e73ae8",
+        "official_en_sha256": "3e5888d0a9deb15f28bc39d4046f99cd4a92737625385462de15fdfb29114852"
+      },
+      "text": {
+        "jp": "現在 {0} 個のアセットがこのプロジェクトで未保存です。これを押すと保存が開始されます",
+        "official_en": "There are currently {0} assets that are unsaved in this project. Press to initiate save.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnsavedAssetsTracker:Single_Asset_Unsaved_Tooltip:350237de",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnsavedAssetsTracker",
+        "key": "Single_Asset_Unsaved_Tooltip",
+        "jp_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Single_Asset_Unsaved_Tooltip:350237de",
+        "official_en_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Single_Asset_Unsaved_Tooltip:350237de",
+        "jp_sha256": "982a64529f2b2038047d20759125e0ba1aaa6638c2aa71d4e5e7419c9eaa7d82",
+        "official_en_sha256": "dcd039905d72a05a1fb356902c5d62cc0c962d938462cb3454879290cf8098ce"
+      },
+      "text": {
+        "jp": "このプロジェクトで、現在 {0} 個のアセットが保存されていません。これを押すと保存が開始されます",
+        "official_en": "There is currently {0} asset that is unsaved in this project. Press to initiate save.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnsavedAssetsTracker:Checked_Out_In_Other_Branch_Warning:1dca3c6e",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnsavedAssetsTracker",
+        "key": "Checked_Out_In_Other_Branch_Warning",
+        "jp_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Checked_Out_In_Other_Branch_Warning:1dca3c6e",
+        "official_en_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Checked_Out_In_Other_Branch_Warning:1dca3c6e",
+        "jp_sha256": "838acefadb2798e69563acd8f94be9c94ffed7ff12065da7ee4767430ec65670",
+        "official_en_sha256": "a2165216e020b77fd8d29b1334134212719dfc80a5b51059ef309f9fa583eea9"
+      },
+      "text": {
+        "jp": "警告：編集したアセットが別のブランチでチェックアウトされています",
+        "official_en": "Warning: Assets you have edited are checked out in another branch.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnsavedAssetsTracker:Locked_by_Other_Warning:ed0318f1",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnsavedAssetsTracker",
+        "key": "Locked_by_Other_Warning",
+        "jp_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Locked_by_Other_Warning:ed0318f1",
+        "official_en_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Locked_by_Other_Warning:ed0318f1",
+        "jp_sha256": "e92ebe18e1d98b809bc9f3cb129b49e5012ac5e690e6d6643dc1b12c39cabf11",
+        "official_en_sha256": "533e76fabdba67f42f60d53f75c3d05dbe7e8aaf5ccaacbe16bd8cc143a674b3"
+      },
+      "text": {
+        "jp": "警告：編集したアセットは別のユーザーによってロックされています",
+        "official_en": "Warning: Assets you have edited are locked by another user.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnsavedAssetsTracker:Modified_In_Other_Branch_Warning:32ea69a6",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnsavedAssetsTracker",
+        "key": "Modified_In_Other_Branch_Warning",
+        "jp_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Modified_In_Other_Branch_Warning:32ea69a6",
+        "official_en_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Modified_In_Other_Branch_Warning:32ea69a6",
+        "jp_sha256": "29b8a65e7a422a3e431765977a0fb8e5354e873095e71c45685959af34e6f73d",
+        "official_en_sha256": "de505dfefc073b216dead76c9e71bddb7c80fd90c37938045c4aa88e0e04b099"
+      },
+      "text": {
+        "jp": "警告：編集したアセットは別のブランチで変更されています",
+        "official_en": "Warning: Assets you have edited are modified in another branch.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnsavedAssetsTracker:Out_of_Date_Warning:7459c366",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnsavedAssetsTracker",
+        "key": "Out_of_Date_Warning",
+        "jp_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Out_of_Date_Warning:7459c366",
+        "official_en_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Out_of_Date_Warning:7459c366",
+        "jp_sha256": "68197b1e18d253f085bea226a1f4ccc3a8c21b1a0eaea78c57867b1d7d6ae645",
+        "official_en_sha256": "99db0e63cc157e62852b2ff030ca13700b5998c09a500ce3822de56e66f34466"
+      },
+      "text": {
+        "jp": "警告：編集したアセットは最新ではありません",
+        "official_en": "Warning: Assets you have edited are out of date.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnsavedAssetsTracker:Conflicted_Warning:60cc5c08",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnsavedAssetsTracker",
+        "key": "Conflicted_Warning",
+        "jp_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Conflicted_Warning:60cc5c08",
+        "official_en_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Conflicted_Warning:60cc5c08",
+        "jp_sha256": "97215af750151eb4131448c0d678b8a8065c839859114af07019e080a2386d30",
+        "official_en_sha256": "1de95e7e24c220366fc5774b14b8cedf33ea950a2f839a75e3292433ba48f0cf"
+      },
+      "text": {
+        "jp": "警告：編集したアセットで競合が発生しています",
+        "official_en": "Warning: Assets you have edited have conflict(s).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnsavedAssetsTracker:Generic_Warning:f55d1acc",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnsavedAssetsTracker",
+        "key": "Generic_Warning",
+        "jp_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Generic_Warning:f55d1acc",
+        "official_en_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Generic_Warning:f55d1acc",
+        "jp_sha256": "58567cd15596944849d31c7d5fcf9a6287db364f732186f157358a0246831fd7",
+        "official_en_sha256": "a0e9766d0cf149d6298ed2dd807a1994908056edb55c5549aabcec827885aef4"
+      },
+      "text": {
+        "jp": "警告：編集したアセットで警告が出ています",
+        "official_en": "Warning: Assets you have edited have warnings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnsavedAssetsTracker:Asset_Unsaved_Warning_Tooltip:41c484b5",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnsavedAssetsTracker",
+        "key": "Asset_Unsaved_Warning_Tooltip",
+        "jp_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Asset_Unsaved_Warning_Tooltip:41c484b5",
+        "official_en_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Asset_Unsaved_Warning_Tooltip:41c484b5",
+        "jp_sha256": "ce06fa5a2ba7254debf3b14b67553fae63a925212d01b7b9f24c00f5d97e81f5",
+        "official_en_sha256": "d0b779c84caa185d002cd58fa475e2ebe572c843a9fb5b81da9a9867f80d707d"
+      },
+      "text": {
+        "jp": "Warning: リビジョン コントロールで競合が発生している、現在未保存のアセットがあります",
+        "official_en": "Warning: There are currently unsaved assets that have a conflict in Revision Control",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnsavedAssetsTracker:Unsaved-Assets:478154e0",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnsavedAssetsTracker",
+        "key": "Unsaved",
+        "jp_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Unsaved-Assets:478154e0",
+        "official_en_record_id": "switch:locres:set-01:UnsavedAssetsTracker:Unsaved-Assets:478154e0",
+        "jp_sha256": "62d80964fee1c83c9f8e6fd2abe2b037fb9f3f47a5bff60e017ca775cb1cd96d",
+        "official_en_sha256": "dfee4e5983532481a2198333ff7ae580ba6b49c9865e3a9f3daf7cdac5f28a15"
+      },
+      "text": {
+        "jp": "{0}個が未保存です",
+        "official_en": "{0} Unsaved",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

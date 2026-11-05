@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UnrealEd.GeomModifier_Pen",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UnrealEd.GeomModifier_Pen:Split_Tooltip:b031e8d7",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealEd.GeomModifier_Pen",
+        "key": "Split_Tooltip",
+        "jp_record_id": "switch:locres:set-01:UnrealEd.GeomModifier_Pen:Split_Tooltip:b031e8d7",
+        "official_en_record_id": "switch:locres:set-01:UnrealEd.GeomModifier_Pen:Split_Tooltip:b031e8d7",
+        "jp_sha256": "483ccb5aebef00ed5f196f2fa8c8917953664f1c90d26b8642610e5c284d4d5f",
+        "official_en_sha256": "022398a48b186213fa06e0f6fa4d907f596b1afe149cd7a23aae162a5862df14"
+      },
+      "text": {
+        "jp": "一連のアンカー ポイントを作成することでブロッキング ボリュームまたはフリーフォームのジオメトリを作成しますペン ツールを使用するにはフォーカスした 2D ビューポート内にいる必要があることに注意してください。正投影ビューポートに少なくとも 3 つのアンカー ポイントを作成し、スペース キーを使用してアンカー ポイントをコミットします。最初のアンカーの上にアンカーを作成して形状を完了します。3D 形状を作成するには bAutoExtrude を ExtrudeDepth と一緒に使用します。",
+        "official_en": "Create blocking volumes or freeform geometry by creating a series of anchor points.  Note, you must be in a 2D viewport with focus to use the pen tool.  Create at least 3 anchor points in an orthographic viewport using the spacebar to commit an anchor point.  Complete the shape by creating an anchor on top of the first one.  Use bAutoExtrude with ExtrudeDepth to create a 3D shape.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UnrealEd.GeomModifier_Pen:Tooltip:da84ddb1",
+      "source": {
+        "set": "set-02",
+        "namespace": "UnrealEd.GeomModifier_Pen",
+        "key": "Tooltip",
+        "jp_record_id": "switch:locres:set-01:UnrealEd.GeomModifier_Pen:Tooltip:da84ddb1",
+        "official_en_record_id": "switch:locres:set-01:UnrealEd.GeomModifier_Pen:Tooltip:da84ddb1",
+        "jp_sha256": "486c8efa3968a638cd6fb621ec8e055ca45c878d018828f9032f7c1bcdd14278",
+        "official_en_sha256": "411c92d9972d18146d9e1798e29b47b3ddfce4eaaf8ebe56dc13f107dd4c823b"
+      },
+      "text": {
+        "jp": "正投影ビューポートに直接頂点を描画して新しいジオメトリを作成します。頂点を配置するにはスペース キーを、ポリゴンを閉じるには Enter キーを押します。",
+        "official_en": "Create new geometry by drawing the vertices directly into an orthographic viewport. Press space bar to place a vertex, and Enter to close the polygon.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

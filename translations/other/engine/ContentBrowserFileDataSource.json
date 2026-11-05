@@ -1,0 +1,678 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ContentBrowserFileDataSource",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_DirectoryExists:41b0458a",
+      "source": {
+        "set": "set-02",
+        "namespace": "ContentBrowserFileDataSource",
+        "key": "Error_DirectoryExists",
+        "jp_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_DirectoryExists:41b0458a",
+        "official_en_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_DirectoryExists:41b0458a",
+        "jp_sha256": "ff89bb417c78c2c6a34e5e4668e5d3eb4b6d5d9d6cd394f0ea77ff22ae3a29d1",
+        "official_en_sha256": "7fb7ad2850ba1c9a317a7e8a822e5b8bf2c78788a02abfd0ab2d22eb47f6dd45"
+      },
+      "text": {
+        "jp": "この名前のディレクトリはすでに存在します",
+        "official_en": "A directory already exists with this name",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FileExists:941a3d18",
+      "source": {
+        "set": "set-02",
+        "namespace": "ContentBrowserFileDataSource",
+        "key": "Error_FileExists",
+        "jp_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FileExists:941a3d18",
+        "official_en_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FileExists:941a3d18",
+        "jp_sha256": "9e91b14885c88466983f95741773c24c783b06e8fe55129ec802de9d0ea5a8db",
+        "official_en_sha256": "cbbd6ef9c1cc00cc53a831770ba4bebccc953f13ca350260386938026d68fa75"
+      },
+      "text": {
+        "jp": "この名前のファイルはすでに存在します",
+        "official_en": "A file already exists with this name",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ContentBrowserFileDataSource:CopyError_ItemInsideItself:ce624ffa",
+      "source": {
+        "set": "set-02",
+        "namespace": "ContentBrowserFileDataSource",
+        "key": "CopyError_ItemInsideItself",
+        "jp_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:CopyError_ItemInsideItself:ce624ffa",
+        "official_en_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:CopyError_ItemInsideItself:ce624ffa",
+        "jp_sha256": "9ead548e7d5aa9eb27d1266ee80f2b565bf066c956beb68460401971a0303635",
+        "official_en_sha256": "b3aa762f91caacdbe10d250d9286cb5b2831e9df0783be6164ae824b78eb145c"
+      },
+      "text": {
+        "jp": "フォルダをそれ自体の中にコピーすることはできません",
+        "official_en": "Can't copy folder inside itself",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ContentBrowserFileDataSource:MoveError_ItemInsideItself:306aaceb",
+      "source": {
+        "set": "set-02",
+        "namespace": "ContentBrowserFileDataSource",
+        "key": "MoveError_ItemInsideItself",
+        "jp_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:MoveError_ItemInsideItself:306aaceb",
+        "official_en_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:MoveError_ItemInsideItself:306aaceb",
+        "jp_sha256": "17d0b1fcdef9adc9cf57d192b4d8191075b0deb6f877556aa9bbe4e0049473ff",
+        "official_en_sha256": "cfc634b238929539f119e997461b1ff41bbedcc4c5e18f324a3eb094053a902b"
+      },
+      "text": {
+        "jp": "項目をそれ自体の中に移動することはできません",
+        "official_en": "Can't move Item inside itself",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ContentBrowserFileDataSource:MoveError_ItemInsideSamePath:d069aa50",
+      "source": {
+        "set": "set-02",
+        "namespace": "ContentBrowserFileDataSource",
+        "key": "MoveError_ItemInsideSamePath",
+        "jp_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:MoveError_ItemInsideSamePath:d069aa50",
+        "official_en_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:MoveError_ItemInsideSamePath:d069aa50",
+        "jp_sha256": "35cb9b0db74cf9862e84f1e683eb1a9105dc71046a450c376d70807f76207ebc",
+        "official_en_sha256": "867474be96937c2ad6e7cc6a09b341e629aa3dc4bf8502140588c2aae325f053"
+      },
+      "text": {
+        "jp": "項目を同じ位置の中に移動することはできません",
+        "official_en": "Can't move Item inside the same location",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ContentBrowserFileDataSource:CreateFileMenuHeading:aaae44e8",
+      "source": {
+        "set": "set-02",
+        "namespace": "ContentBrowserFileDataSource",
+        "key": "CreateFileMenuHeading",
+        "jp_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:CreateFileMenuHeading:aaae44e8",
+        "official_en_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:CreateFileMenuHeading:aaae44e8",
+        "jp_sha256": "254ab61531c3dea3da89c42a6e6964b20358c7ffcc0661fb43984c016e71a1c8",
+        "official_en_sha256": "f1eb5a8241e4bf269e7d3053421196aefed49fc9be46fcc5e283e11d7006a8a8"
+      },
+      "text": {
+        "jp": "ファイルを作成",
+        "official_en": "Create File",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ContentBrowserFileDataSource:CreateFileWithDesc:9d633f28",
+      "source": {
+        "set": "set-02",
+        "namespace": "ContentBrowserFileDataSource",
+        "key": "CreateFileWithDesc",
+        "jp_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:CreateFileWithDesc:9d633f28",
+        "official_en_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:CreateFileWithDesc:9d633f28",
+        "jp_sha256": "39e1f1767a7aa0fbe09e5dc67f86ddeba69778b310a002b0b8f86f5906837f8a",
+        "official_en_sha256": "cfeb41a828533d36351b15c96d6586283addacaf2de3c48cf16c289b189267de"
+      },
+      "text": {
+        "jp": "{0} を作成",
+        "official_en": "Create {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ContentBrowserFileDataSource:CreateFileWithName:0065d4c7",
+      "source": {
+        "set": "set-02",
+        "namespace": "ContentBrowserFileDataSource",
+        "key": "CreateFileWithName",
+        "jp_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:CreateFileWithName:0065d4c7",
+        "official_en_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:CreateFileWithName:0065d4c7",
+        "jp_sha256": "6bc9462d988c039dab03ca92c11a7155f846fcd40ab625818be8b815be9269a9",
+        "official_en_sha256": "c3f63033bcd95a7d37561133661a9779fe8aa7dc2285d49d733599ecca670b34"
+      },
+      "text": {
+        "jp": "{0} ファイルを作成",
+        "official_en": "Create {0} file",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_DirectoryReadOnly:07b720f0",
+      "source": {
+        "set": "set-02",
+        "namespace": "ContentBrowserFileDataSource",
+        "key": "Error_DirectoryReadOnly",
+        "jp_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_DirectoryReadOnly:07b720f0",
+        "official_en_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_DirectoryReadOnly:07b720f0",
+        "jp_sha256": "c843c405e39be3888793f567806d3376c2db015fe9fce2202320d279960510fb",
+        "official_en_sha256": "66aa8132e5da579d1b45b1e7f7b7f1aed6e65b09d95f767911ade728463c83c1"
+      },
+      "text": {
+        "jp": "ディレクトリは読み取り専用です",
+        "official_en": "Directory is read-only",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ContentBrowserFileDataSource:DiscoveringFileTypes:cc82f386",
+      "source": {
+        "set": "set-02",
+        "namespace": "ContentBrowserFileDataSource",
+        "key": "DiscoveringFileTypes",
+        "jp_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:DiscoveringFileTypes:cc82f386",
+        "official_en_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:DiscoveringFileTypes:cc82f386",
+        "jp_sha256": "7bbee200970a80034e18070b8953ae88a1563a2a43676ee6aa4254baaab5d8f1",
+        "official_en_sha256": "c2cdec3ea9fa294c8b0e4aac2ada87bee69cb4ab1ba5f9be59a657714ef96dde"
+      },
+      "text": {
+        "jp": "{0} (および {1} その他の) ファイルを検出しています...",
+        "official_en": "Discovering {0} (and {1} other) files...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ContentBrowserFileDataSource:DiscoveringFileType:58cff72d",
+      "source": {
+        "set": "set-02",
+        "namespace": "ContentBrowserFileDataSource",
+        "key": "DiscoveringFileType",
+        "jp_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:DiscoveringFileType:58cff72d",
+        "official_en_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:DiscoveringFileType:58cff72d",
+        "jp_sha256": "7cd89be816dbb3f52e54cc431eed29e6a07e918aca4af31290ed9f9c8245d9ab",
+        "official_en_sha256": "7b1e0563fc241238d3c3e225cdc327db4228f735bcb3381798b4d299f7f86e83"
+      },
+      "text": {
+        "jp": "{0} ファイルを検出しています...",
+        "official_en": "Discovering {0} files...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FailedToCreateFile:3b60275a",
+      "source": {
+        "set": "set-02",
+        "namespace": "ContentBrowserFileDataSource",
+        "key": "Error_FailedToCreateFile",
+        "jp_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FailedToCreateFile:3b60275a",
+        "official_en_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FailedToCreateFile:3b60275a",
+        "jp_sha256": "d926a1e5fc16ac9134499972c2fe98ef037bfb6a9f589a636d848ded84e8b9dc",
+        "official_en_sha256": "fd7ee8c9b7653064edde98a624ad26c04310438534c23032e479f6ed6e4dfe90"
+      },
+      "text": {
+        "jp": "ファイルの作成に失敗しました",
+        "official_en": "Failed to create file",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FailedToCreateFolder:5add1a05",
+      "source": {
+        "set": "set-02",
+        "namespace": "ContentBrowserFileDataSource",
+        "key": "Error_FailedToCreateFolder",
+        "jp_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FailedToCreateFolder:5add1a05",
+        "official_en_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FailedToCreateFolder:5add1a05",
+        "jp_sha256": "bb610ee50d6affea2284d2d203fc14624ba1aadf3edf71b79b8b5c1ff16a2c3c",
+        "official_en_sha256": "6e99e5419d22ff25cbba8c05de3d68d062aa30e9c58572bef78430804fe81ca0"
+      },
+      "text": {
+        "jp": "フォルダの作成に失敗しました",
+        "official_en": "Failed to create folder",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FileReadOnly:f182b501",
+      "source": {
+        "set": "set-02",
+        "namespace": "ContentBrowserFileDataSource",
+        "key": "Error_FileReadOnly",
+        "jp_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FileReadOnly:f182b501",
+        "official_en_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FileReadOnly:f182b501",
+        "jp_sha256": "50a5e3bb621574ab4127fcb9f46b846801daadaae06460735907969d968f9c91",
+        "official_en_sha256": "c058548bf16ee37ec2eeaa0ae02fbf921d23ed474cc83cf0894908949e3c63ae"
+      },
+      "text": {
+        "jp": "ファイルは読み取り専用です",
+        "official_en": "File is read-only",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FolderIsFileRoot:3a0db4bd",
+      "source": {
+        "set": "set-02",
+        "namespace": "ContentBrowserFileDataSource",
+        "key": "Error_FolderIsFileRoot",
+        "jp_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FolderIsFileRoot:3a0db4bd",
+        "official_en_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FolderIsFileRoot:3a0db4bd",
+        "jp_sha256": "ff29a51b635ccd538d3f5e86f28aa9caae3978aaf297803c1c648f6c2b28502b",
+        "official_en_sha256": "537da0589c84c502dd8e2028c884ffde1d4beed2d868cd2c3c40f71dba6c7013"
+      },
+      "text": {
+        "jp": "フォルダ「{0}」はルート ファイルパスであり、名前を変更することはできません",
+        "official_en": "Folder '{0}' is a root file path and cannot be renamed",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FolderIsNotFilePath:1bc2419b",
+      "source": {
+        "set": "set-02",
+        "namespace": "ContentBrowserFileDataSource",
+        "key": "Error_FolderIsNotFilePath",
+        "jp_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FolderIsNotFilePath:1bc2419b",
+        "official_en_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FolderIsNotFilePath:1bc2419b",
+        "jp_sha256": "0a4a3a4ee9cb4f92da4cea199ff93f213609e4240cb73307aa916e6a79a4876c",
+        "official_en_sha256": "8e17b383cb6015a25c6b3b1ec64496b9ada977ee1c3941fb4e4e258a0a6e4b54"
+      },
+      "text": {
+        "jp": "フォルダ「{0}」は既知のファイル パスではありません",
+        "official_en": "Folder '{0}' is not a known file path",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FolderIsUnknown:69a313c0",
+      "source": {
+        "set": "set-02",
+        "namespace": "ContentBrowserFileDataSource",
+        "key": "Error_FolderIsUnknown",
+        "jp_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FolderIsUnknown:69a313c0",
+        "official_en_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:Error_FolderIsUnknown:69a313c0",
+        "jp_sha256": "4e5ff207f6cbe6dffe1ea0292a9aed97a8c5def1c1aac0402b85e7675fe92f1a",
+        "official_en_sha256": "c11adcf4e8d662b8de062248cf90778897572c78f468976ad7d291f5b75daadb"
+      },
+      "text": {
+        "jp": "フォルダ'{0}'はこのデータソースのマウントルートの外にあります",
+        "official_en": "Folder '{0}' is outside the mount roots of this data source",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ContentBrowserFileDataSource:MigrateDirectoryContents:2090fd33",
+      "source": {
+        "set": "set-02",
+        "namespace": "ContentBrowserFileDataSource",
+        "key": "MigrateDirectoryContents",
+        "jp_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:MigrateDirectoryContents:2090fd33",
+        "official_en_record_id": "switch:locres:set-01:ContentBrowserFileDataSource:MigrateDirectoryContents:2090fd33",
+        "jp_sha256": "5b51ca12481a949690de3fab385c5b3fd423f86f24740af580ed849e1fea6e09",
+        "official_en_sha256": "63ec65d8a0091b515f5ba76c657a817a7a79da77f2945b7f8194e8b1ef4f9eda"
+      },
+      "text": {
+        "jp": "ディレクトリ コンテンツを移行しています...",
+        "official_en": "Migrating Directory Contents...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

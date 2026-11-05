@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MetaHumanDepthGenerator",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MetaHumanDepthGenerator:Generating_Depth:cd365c22",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanDepthGenerator",
+        "key": "Generating_Depth",
+        "jp_record_id": "switch:locres:set-01:MetaHumanDepthGenerator:Generating_Depth:cd365c22",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanDepthGenerator:Generating_Depth:cd365c22",
+        "jp_sha256": "d271fc24364b0d79031848b56fb12b1cdb8d3ed1d7273b7dcd599afcfe83eb17",
+        "official_en_sha256": "1ef48481f92cad1663ae2ab6772bffb040f260cdea4774e9672c14a03818b73e"
+      },
+      "text": {
+        "jp": "深度を生成しています...",
+        "official_en": "Generating Depth...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetaHumanDepthGenerator:LowDepthResWarning:2e09eecb",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanDepthGenerator",
+        "key": "LowDepthResWarning",
+        "jp_record_id": "switch:locres:set-01:MetaHumanDepthGenerator:LowDepthResWarning:2e09eecb",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanDepthGenerator:LowDepthResWarning:2e09eecb",
+        "jp_sha256": "9ce1577b987437f8bee307cc737701fd1a1492d3c1a1d48a3caa4c3fd110102f",
+        "official_en_sha256": "b2050dfba9c90da419a41f0133ff4372272261d8214f3d4966b5c9f467c9227d"
+      },
+      "text": {
+        "jp": "サイズ変更後の深度画像が低い解像度 {0}x{1} になっています",
+        "official_en": "Resized depth image has low resolution {0}x{1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

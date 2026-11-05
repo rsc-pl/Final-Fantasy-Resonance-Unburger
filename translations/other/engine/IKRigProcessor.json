@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "IKRigProcessor",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:IKRigProcessor:InvalidParent:76f25793",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRigProcessor",
+        "key": "InvalidParent",
+        "jp_record_id": "switch:locres:set-01:IKRigProcessor:InvalidParent:76f25793",
+        "official_en_record_id": "switch:locres:set-01:IKRigProcessor:InvalidParent:76f25793",
+        "jp_sha256": "6d5e00a76054f93320ebed28bd19682b8d7915f372c3ad43ca2eaa617c73edb9",
+        "official_en_sha256": "42ac66105611a3a0efc404bded9945fb16c521b03007b885bd5d9e96b3d3efd1"
+      },
+      "text": {
+        "jp": "IK リグが、有効な親を持つことが想定されている必須ボーン「{0}」があるスケルトン上で実行されています。想定されている親は「{1}」でした",
+        "official_en": "IK Rig is running on a skeleton with a required bone, '{0}', that expected to have a valid parent. The expected parent was, '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRigProcessor:UnexpectedParent:fefb035b",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRigProcessor",
+        "key": "UnexpectedParent",
+        "jp_record_id": "switch:locres:set-01:IKRigProcessor:UnexpectedParent:fefb035b",
+        "official_en_record_id": "switch:locres:set-01:IKRigProcessor:UnexpectedParent:fefb035b",
+        "jp_sha256": "2450a67a7da42ce91b5ad953f73f211cd145ccc17bd8e09ab9ca98e0fa23b6d6",
+        "official_en_sha256": "bae6b1f210ae3a6b87eb282bc989414f60207ad3e04298d6aa20e6276bdf67c2"
+      },
+      "text": {
+        "jp": "IK リグが、異なる親「{1}」を持つ必須ボーン「{0}」があるスケルトン上で実行されています。想定されている親は「{2}」でした",
+        "official_en": "IK Rig is running on a skeleton with a required bone, '{0}', that has a different parent '{1}'. The expected parent was, '{2}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRigProcessor:DisconnectedGoal:49c5c375",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRigProcessor",
+        "key": "DisconnectedGoal",
+        "jp_record_id": "switch:locres:set-01:IKRigProcessor:DisconnectedGoal:49c5c375",
+        "official_en_record_id": "switch:locres:set-01:IKRigProcessor:DisconnectedGoal:49c5c375",
+        "jp_sha256": "149bafda1c77b87ce9f3b119362516d3cfe2ab125c7639f3f707afd79a8f2f31",
+        "official_en_sha256": "0c3963fb357968ec1584cdb9949a4f1ff5661b72f9d29034ce1a1d39aa49de80"
+      },
+      "text": {
+        "jp": "IK リグ、「{0}」にはどのソルバにもつながっていない目標、「{1}」があります。エフェクトはありません",
+        "official_en": "IK Rig, '{0}' has a Goal, '{1}' that is not connected to any solvers. It will have no effect.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRigProcessor:MissingGoalBone:42c96261",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRigProcessor",
+        "key": "MissingGoalBone",
+        "jp_record_id": "switch:locres:set-01:IKRigProcessor:MissingGoalBone:42c96261",
+        "official_en_record_id": "switch:locres:set-01:IKRigProcessor:MissingGoalBone:42c96261",
+        "jp_sha256": "10eaaa34debc9f4998cbf65b45ec59554f138441791a73f3ccd6d3774697d90a",
+        "official_en_sha256": "d3c84c7f3ec7defffc113c99b9ef3ef6fa51e6fecfbe1b6cb0d1fe55bd83b881"
+      },
+      "text": {
+        "jp": "IK リグ「{0}」に、不明なボーン「{2}」を参照している目標「{1}」があるため、評価することができません",
+        "official_en": "IK Rig, '{0}' has a Goal, '{1}' that references an unknown bone, '{2}'. Cannot evaluate.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRigProcessor:DuplicateGoal:e18e7a09",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRigProcessor",
+        "key": "DuplicateGoal",
+        "jp_record_id": "switch:locres:set-01:IKRigProcessor:DuplicateGoal:e18e7a09",
+        "official_en_record_id": "switch:locres:set-01:IKRigProcessor:DuplicateGoal:e18e7a09",
+        "jp_sha256": "65bf64ea742b401aaf4baae275f77c777dd987f63605d8acf33e18db62dfdbec",
+        "official_en_sha256": "13c494fcf27d1fb561cb6f9b8f11050d913daa6565e9dd9e5664278f506c8179"
+      },
+      "text": {
+        "jp": "IK リグ「{0}」に、異なるソルバにある異なるボーン「{2}」と「{3}」を参照している目標「{1}」があるため、評価することができません",
+        "official_en": "IK Rig, '{0}' has a Goal, '{1}' that references different bones in different solvers, '{2}' and '{3}'. Cannot evaluate.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRigProcessor:UnknownSolver:7f8fb252",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRigProcessor",
+        "key": "UnknownSolver",
+        "jp_record_id": "switch:locres:set-01:IKRigProcessor:UnknownSolver:7f8fb252",
+        "official_en_record_id": "switch:locres:set-01:IKRigProcessor:UnknownSolver:7f8fb252",
+        "jp_sha256": "d21ce0d6a0a79d5a9ff5de3c9a47a087a1d0986054a353593a8e57ddb2bff49f",
+        "official_en_sha256": "235a13aebc79096c835ec7a7a030b148439c46750b59e41ef6b62b47062b9f93"
+      },
+      "text": {
+        "jp": "IK リグ「{0}」に null または不明のソルバがあります。それを取り除いてください",
+        "official_en": "IK Rig, '{0}' has null/unknown solver in it. Please remove it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRigProcessor:MissingBone:d17cb358",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRigProcessor",
+        "key": "MissingBone",
+        "jp_record_id": "switch:locres:set-01:IKRigProcessor:MissingBone:d17cb358",
+        "official_en_record_id": "switch:locres:set-01:IKRigProcessor:MissingBone:d17cb358",
+        "jp_sha256": "ea3a599234a69bd7e14cf75e7c30df551d58ac7f757ddf4ef451590301043201",
+        "official_en_sha256": "59b6e7a3ecd714cb20223528b1d9e49899ed8da88f491aefa2e9ba47217e8ddd"
+      },
+      "text": {
+        "jp": "IK リグ「{0}」に、スケルタル メッシュにある必須ボーン「{1}」がありません",
+        "official_en": "IK Rig, '{0}' is missing a required bone, '{1}' in the Skeletal Mesh.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRigProcessor:SuccessfulInit:07a53e51",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRigProcessor",
+        "key": "SuccessfulInit",
+        "jp_record_id": "switch:locres:set-01:IKRigProcessor:SuccessfulInit:07a53e51",
+        "official_en_record_id": "switch:locres:set-01:IKRigProcessor:SuccessfulInit:07a53e51",
+        "jp_sha256": "5d65a32270a458cc20d3b4b6f9ca3d142f87573f9aa749da8e0b4f02d8f669c8",
+        "official_en_sha256": "ec2a2bcc4499886e9e0021c91bcac6b84c5d66eb8d8f1d86d169e3422f13f952"
+      },
+      "text": {
+        "jp": "IK リグ「{0}」は{1}で実行できる状態になっています",
+        "official_en": "IK Rig, '{0}' ready to run on {1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRigProcessor:InvalidRetargetChain:eb703158",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRigProcessor",
+        "key": "InvalidRetargetChain",
+        "jp_record_id": "switch:locres:set-01:IKRigProcessor:InvalidRetargetChain:eb703158",
+        "official_en_record_id": "switch:locres:set-01:IKRigProcessor:InvalidRetargetChain:eb703158",
+        "jp_sha256": "77ddffb8327e3da25c89fc182e8ee0895f958a38bb395119a4eea6c6be407485",
+        "official_en_sha256": "d0f675b2d55db3acfd9326dacdcccb4b8d7c3160188dabfcaffe8ddf13210699"
+      },
+      "text": {
+        "jp": "無効なリターゲット チェーン：'{0}'.終了ボーンが、スケルタルメッシュの開始ボーン「{1}」の子ではありませんでした",
+        "official_en": "Invalid Retarget Chain: '{0}'. End bone is not a child of the start bone in Skeletal Mesh, '{1}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRigProcessor:NoSkeleton:93855d57",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRigProcessor",
+        "key": "NoSkeleton",
+        "jp_record_id": "switch:locres:set-01:IKRigProcessor:NoSkeleton:93855d57",
+        "official_en_record_id": "switch:locres:set-01:IKRigProcessor:NoSkeleton:93855d57",
+        "jp_sha256": "fa60c54f646a8e94fa57357433556daa203aa44636347e2da77d43b9c0c45110",
+        "official_en_sha256": "9280285fa3735a0d33e24ec99367a185e8f9a3658e495e6b510a19af6be8635d"
+      },
+      "text": {
+        "jp": "スケルトンがない IK リグ「{0}」を初期化しようとしています",
+        "official_en": "Trying to initialize IK Rig, '{0}' that has no skeleton.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:IKRigProcessor:SkeletonMissingRequiredBones:960aa138",
+      "source": {
+        "set": "set-02",
+        "namespace": "IKRigProcessor",
+        "key": "SkeletonMissingRequiredBones",
+        "jp_record_id": "switch:locres:set-01:IKRigProcessor:SkeletonMissingRequiredBones:960aa138",
+        "official_en_record_id": "switch:locres:set-01:IKRigProcessor:SkeletonMissingRequiredBones:960aa138",
+        "jp_sha256": "b75435f48488defe5c92805ce44037b7d28626de97b9b3519b7ac4457c9a4110",
+        "official_en_sha256": "c0fe8ff75517763acdfd9c395b51ce406f063f78dc9e98dd7a3c2df29edae113"
+      },
+      "text": {
+        "jp": "必須ボーンがないスケルトンを使用して IK リグ「{0}」を初期化しようとしています。前の警告を参照してください",
+        "official_en": "Trying to initialize IKRig, '{0}' with a Skeleton that is missing required bones. See prior warnings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

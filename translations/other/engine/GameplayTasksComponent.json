@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "GameplayTasksComponent",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:GameplayTasksComponent:RunNullGameplayTask:b0dfe0c3",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTasksComponent",
+        "key": "RunNullGameplayTask",
+        "jp_record_id": "switch:locres:set-01:GameplayTasksComponent:RunNullGameplayTask:b0dfe0c3",
+        "official_en_record_id": "switch:locres:set-01:GameplayTasksComponent:RunNullGameplayTask:b0dfe0c3",
+        "jp_sha256": "a970d34f4462c3cc6dec47035a4aba70c3686b67cc1eb093ddc2aa98a6d926cd",
+        "official_en_sha256": "d46709a587ecfedb4a4972c1981b649a6bd33d83fb8385ba9324084c740de4b2"
+      },
+      "text": {
+        "jp": "{0} のNoneタスクの実行を試みました",
+        "official_en": "Tried running a None task for {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:GameplayTasksComponent:RunGameplayTaskNullOwner:6efcfb91",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayTasksComponent",
+        "key": "RunGameplayTaskNullOwner",
+        "jp_record_id": "switch:locres:set-01:GameplayTasksComponent:RunGameplayTaskNullOwner:6efcfb91",
+        "official_en_record_id": "switch:locres:set-01:GameplayTasksComponent:RunGameplayTaskNullOwner:6efcfb91",
+        "jp_sha256": "3e62b9e0f6895e3c88654fa0c92121895ee18228bba9b44dbf9f3e27909b49df",
+        "official_en_sha256": "9b3bc55c864f84ca80642c68191e174fbd8cc6df95400b0c1a2a91408f18a189"
+      },
+      "text": {
+        "jp": "所有者がNoneの状態でゲームプレイタスク {0} の実行を試みました!",
+        "official_en": "Tried running a gameplay task {0} while owner is None!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

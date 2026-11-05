@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PyGenUtil",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PyGenUtil:InvalidName_RestrictedCharacter:3ebff7bc",
+      "source": {
+        "set": "set-02",
+        "namespace": "PyGenUtil",
+        "key": "InvalidName_RestrictedCharacter",
+        "jp_record_id": "switch:locres:set-01:PyGenUtil:InvalidName_RestrictedCharacter:3ebff7bc",
+        "official_en_record_id": "switch:locres:set-01:PyGenUtil:InvalidName_RestrictedCharacter:3ebff7bc",
+        "jp_sha256": "939428628aa7a5db8317db3317a44ed4fa70de7aeb4cea60dae91b71fcaf92b4",
+        "official_en_sha256": "8fa561277f53e81ca44759e1fa8803f134cf2700cd8610b2ab0aec740fde2a95"
+      },
+      "text": {
+        "jp": "名前に含まれる '{0}' はPythonで無効です",
+        "official_en": "Name contains '{0}' which is invalid for Python",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PyGenUtil:InvalidName_EmptyName:a7ca5a88",
+      "source": {
+        "set": "set-02",
+        "namespace": "PyGenUtil",
+        "key": "InvalidName_EmptyName",
+        "jp_record_id": "switch:locres:set-01:PyGenUtil:InvalidName_EmptyName:a7ca5a88",
+        "official_en_record_id": "switch:locres:set-01:PyGenUtil:InvalidName_EmptyName:a7ca5a88",
+        "jp_sha256": "5a158d738f875b9beb0652e60654581236ec0560b3af214c6226ba4aaec935bf",
+        "official_en_sha256": "50d5b93466121f91dc51afbd0ceddcb3eca1ebac32f44753b72f0ade1bdab426"
+      },
+      "text": {
+        "jp": "名前が入力されていません",
+        "official_en": "Name is empty",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PyGenUtil:InvalidName_LeadingDigit:2811f85b",
+      "source": {
+        "set": "set-02",
+        "namespace": "PyGenUtil",
+        "key": "InvalidName_LeadingDigit",
+        "jp_record_id": "switch:locres:set-01:PyGenUtil:InvalidName_LeadingDigit:2811f85b",
+        "official_en_record_id": "switch:locres:set-01:PyGenUtil:InvalidName_LeadingDigit:2811f85b",
+        "jp_sha256": "cdbe433078750ed199c0b8ffe0fbfe2127006913c982d42577c08522d2fff0a8",
+        "official_en_sha256": "46d30c950a109876162c77bf18356103b6710cca5b625596581ab4b1c1ec6899"
+      },
+      "text": {
+        "jp": "名前の先頭が数字で、これはPythonでは無効です",
+        "official_en": "Name starts with a digit which is invalid for Python",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

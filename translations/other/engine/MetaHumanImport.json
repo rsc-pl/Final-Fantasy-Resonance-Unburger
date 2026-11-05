@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MetaHumanImport",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MetaHumanImport:ArchiveFile:4ab6b03a",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanImport",
+        "key": "ArchiveFile",
+        "jp_record_id": "switch:locres:set-01:MetaHumanImport:ArchiveFile:4ab6b03a",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanImport:ArchiveFile:4ab6b03a",
+        "jp_sha256": "588e02e597baea25336eaef59030dc1beda35aab44fef49079668de44030b225",
+        "official_en_sha256": "602dc5aee0bcfdf2af466edeccf94c64326ab44f75a565957a39143e91be34a4"
+      },
+      "text": {
+        "jp": "アーカイブファイル",
+        "official_en": "Archive File",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetaHumanImport:InvalidImportRootError:0a3a362e",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanImport",
+        "key": "InvalidImportRootError",
+        "jp_record_id": "switch:locres:set-01:MetaHumanImport:InvalidImportRootError:0a3a362e",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanImport:InvalidImportRootError:0a3a362e",
+        "jp_sha256": "26be0c98e900c4e429c2ac55b8ed1c7204bbdfb88fef16b618e3bba3f3265f03",
+        "official_en_sha256": "52196e1aaa5b7661f19bffea9741fa1a753ba69cde709982f0d3917f30faaf5e"
+      },
+      "text": {
+        "jp": "無効なルート位置にインポートしようとしています。MetaHuman SDK のプロジェクト設定でインポート パスを確認してください。\n 共通ファイルのインポート ルート：「{DestinationCommonAssetPath}」、キャラクター ファイルのインポート ルート：「{CharactersRootImportPath}」",
+        "official_en": "Attempting to import to an invalid root location. Please check your Import Paths in the MetaHuman SDK Project Settings.\n Common files import root: \"{DestinationCommonAssetPath}\", character files import root: \"{CharactersRootImportPath}\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetaHumanImport:FileCopyFailureError:5ed8bcd8",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanImport",
+        "key": "FileCopyFailureError",
+        "jp_record_id": "switch:locres:set-01:MetaHumanImport:FileCopyFailureError:5ed8bcd8",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanImport:FileCopyFailureError:5ed8bcd8",
+        "jp_sha256": "ad80f509faf49ea9a2f21a78898e54ca3170008c1534c79cf2e7af392d39deda",
+        "official_en_sha256": "a9b820e277bf8e677c0e8eeefd9a7c21a45fbbcd09ef3d18ff741a275a23da91"
+      },
+      "text": {
+        "jp": "ファイル「{0}」を「{1}」にコピーできませんでした",
+        "official_en": "Failed to copy file {0} to {1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetaHumanImport:FileCopyNotFoundWarning:1f15d9e9",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanImport",
+        "key": "FileCopyNotFoundWarning",
+        "jp_record_id": "switch:locres:set-01:MetaHumanImport:FileCopyNotFoundWarning:1f15d9e9",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanImport:FileCopyNotFoundWarning:1f15d9e9",
+        "jp_sha256": "a70067b9aa796afddecbac5e8ff74306fa287cf4daca1669f16ed8889ce995ad",
+        "official_en_sha256": "ef5ffd473d549874a56b688fca9b6c9251a8a203770973d58ac37f6611faf889"
+      },
+      "text": {
+        "jp": "想定されているファイル「{0}」が見つかりませんでした",
+        "official_en": "Failed to find expected file {0}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetaHumanImport:ImportFinalizingProgress:bce0e824",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanImport",
+        "key": "ImportFinalizingProgress",
+        "jp_record_id": "switch:locres:set-01:MetaHumanImport:ImportFinalizingProgress:bce0e824",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanImport:ImportFinalizingProgress:bce0e824",
+        "jp_sha256": "004dad03930c550ddb1700d60d6cd3d1c7a6add95bf8beaa8dd0316ee60d13cb",
+        "official_en_sha256": "bad784f9d9c325921ca5bd4010a91fca41ccfb513b5d5d6ac87a56a126f53ee5"
+      },
+      "text": {
+        "jp": "インポート済みアセットをファイナライズしています",
+        "official_en": "Finalizing imported assets",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetaHumanImport:AssetGroupImportProgressMessage:2b3bf4f3",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanImport",
+        "key": "AssetGroupImportProgressMessage",
+        "jp_record_id": "switch:locres:set-01:MetaHumanImport:AssetGroupImportProgressMessage:2b3bf4f3",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanImport:AssetGroupImportProgressMessage:2b3bf4f3",
+        "jp_sha256": "c0f721733ca32fb729e33579c31cc2a59c73f260eda43b6355249a438b009866",
+        "official_en_sha256": "e611adbbba28b34e7131e817ad0c66dc62406f6d70ee1dd3be28107aa0230916"
+      },
+      "text": {
+        "jp": "MetaHuman アセットをインポートしています...",
+        "official_en": "Importing MetaHuman Assets ...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetaHumanImport:ImportOperationSummary:caaddc43",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanImport",
+        "key": "ImportOperationSummary",
+        "jp_record_id": "switch:locres:set-01:MetaHumanImport:ImportOperationSummary:caaddc43",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanImport:ImportOperationSummary:caaddc43",
+        "jp_sha256": "57ca307942e09a15be0a2216557848c8c6c92fdbf2a184989c6ce15e621b9deb",
+        "official_en_sha256": "05109d72dbe59ac6a2e8865f7ef932e879c0443b3b614ad235ab889c64029c8e"
+      },
+      "text": {
+        "jp": "{MetaHumanName} を「{ImportCharacterPath}」から「{DestinationCommonAssetPath}」および「{CharactersRootImportPath}」にインポート中",
+        "official_en": "Importing {MetaHumanName} from {ImportCharacterPath} to \"{DestinationCommonAssetPath}\", and \"{CharactersRootImportPath}\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetaHumanImport:AssetOperationsSummary:acbc5e3c",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanImport",
+        "key": "AssetOperationsSummary",
+        "jp_record_id": "switch:locres:set-01:MetaHumanImport:AssetOperationsSummary:acbc5e3c",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanImport:AssetOperationsSummary:acbc5e3c",
+        "jp_sha256": "3c898161ff0d0b7e75b3cb9c8f2234c725fe61cbc7e9f7f042bac58dc6353032",
+        "official_en_sha256": "1cc3c25e97e635663e0b6fdc2445df688aff82d8bd7bd086134cb60c0bafe93f"
+      },
+      "text": {
+        "jp": "プロジェクトにあるアセットのバージョンに基づいて、{NumAddOperations} 個の新しいファイルが追加され、{NumUpdateOperations} 個の既存ファイルが更新され、{NumSkipOperations} 個のファイルがスキップされる、{MetaHumanName} をインポート中",
+        "official_en": "Importing {MetaHumanName} with {NumAddOperations} new files added, {NumUpdateOperations} existing files updated, and {NumSkipOperations} files skipped based on the version of the assets present in the project.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetaHumanImport:ReloadingPackagesProgress:34d960f8",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanImport",
+        "key": "ReloadingPackagesProgress",
+        "jp_record_id": "switch:locres:set-01:MetaHumanImport:ReloadingPackagesProgress:34d960f8",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanImport:ReloadingPackagesProgress:34d960f8",
+        "jp_sha256": "4515dcabe895f8dc63c7137f9d530fbf8c388b9ccb43c8167d6caa19b35594f8",
+        "official_en_sha256": "e670d25274aaba527e1a79a421bc100c46790cfac39850f27310206d5e6a0ab6"
+      },
+      "text": {
+        "jp": "パッケージをリロードしています",
+        "official_en": "Reloading packages.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetaHumanImport:ReferenceFixupMessage:adb5c620",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanImport",
+        "key": "ReferenceFixupMessage",
+        "jp_record_id": "switch:locres:set-01:MetaHumanImport:ReferenceFixupMessage:adb5c620",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanImport:ReferenceFixupMessage:adb5c620",
+        "jp_sha256": "7916fae4391c78ff6a74c420089302a75e034aabf0f817566687311ae03ad3a5",
+        "official_en_sha256": "42606e564bbc45bb9095f9e8b4e0dbb882510ade8015b684fb4406632208ad7d"
+      },
+      "text": {
+        "jp": "MetaHuman インポートのプロジェクト パスが、インポートされたアセットの元の場所と異なっているため、参照が新しいアセット パスに更新されました",
+        "official_en": "The MetaHuman import project path differs from the imported assets' original location and so references were updated to the new asset paths.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetaHumanImport:NoArchiveVersionInfo:069db802",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanImport",
+        "key": "NoArchiveVersionInfo",
+        "jp_record_id": "switch:locres:set-01:MetaHumanImport:NoArchiveVersionInfo:069db802",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanImport:NoArchiveVersionInfo:069db802",
+        "jp_sha256": "48ebed2fc44bc43786c0daeeca8eb9908dd522e55aa8a9d06858fdcfa8541e6e",
+        "official_en_sha256": "bed4ca5513078cba1c051bf1ecda8abf9fb0a5aab846f15db041479abab2cb9f"
+      },
+      "text": {
+        "jp": "アーカイブに有効なコンテンツ リスティングがなく、インポートできません",
+        "official_en": "The archive does not have a valid contents listing and can not be imported",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetaHumanImport:OperationCancelledOverride:30743b85",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanImport",
+        "key": "OperationCancelledOverride",
+        "jp_record_id": "switch:locres:set-01:MetaHumanImport:OperationCancelledOverride:30743b85",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanImport:OperationCancelledOverride:30743b85",
+        "jp_sha256": "538f3575e295542d013e96c48bdc3d760d900d8943ed886f1212ffd5869c3136",
+        "official_en_sha256": "bc0bc338ad58db828dfd6c5c926c69aa3a736071609d3209424e2dc96fdadcdd"
+      },
+      "text": {
+        "jp": "インポート操作がキャンセルされました",
+        "official_en": "The import operation was cancelled",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetaHumanImport:OperationCancelled:d8729990",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanImport",
+        "key": "OperationCancelled",
+        "jp_record_id": "switch:locres:set-01:MetaHumanImport:OperationCancelled:d8729990",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanImport:OperationCancelled:d8729990",
+        "jp_sha256": "c42ce5b35f76fc01e27e8dc7dd051477dd9db8bd0199623bf5bc48766cca1e5f",
+        "official_en_sha256": "635f0a76041a7ddc8d4e1ffe8cd908aef7e620d57469b0fd4ada7b2d70bf17d0"
+      },
+      "text": {
+        "jp": "インポート操作がユーザーによってキャンセルされました",
+        "official_en": "The import operation was cancelled by the user",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetaHumanImport:OperationReplacedWithBulkImport:b6bbd219",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanImport",
+        "key": "OperationReplacedWithBulkImport",
+        "jp_record_id": "switch:locres:set-01:MetaHumanImport:OperationReplacedWithBulkImport:b6bbd219",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanImport:OperationReplacedWithBulkImport:b6bbd219",
+        "jp_sha256": "3cb0aaf3eb55171b93e76e5749785d7b5f969f91933e961db066f66d5eb2c406",
+        "official_en_sha256": "8118b890a0c05e60c613010a913cfa0c021b5fc7ac7621983c3f44388e5693bf"
+      },
+      "text": {
+        "jp": "インポート操作が、シーンにあるすべての MetaHuman を更新するための一括インポートに置き換えられました",
+        "official_en": "The import operation was replaced with a bulk import to update all MetaHumans in the scene",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetaHumanImport:ImportPathLengthError:b4b07b53",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanImport",
+        "key": "ImportPathLengthError",
+        "jp_record_id": "switch:locres:set-01:MetaHumanImport:ImportPathLengthError:b4b07b53",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanImport:ImportPathLengthError:b4b07b53",
+        "jp_sha256": "23a3bb56c65a8a1cdfd6e3db6c643f9f47e2450b5aaedf886df9163735d9ae8f",
+        "official_en_sha256": "261bf8e17909bccdec1f188369d8f384a70f1ea0e822b71b7dbef5c9ee1c9c8e"
+      },
+      "text": {
+        "jp": "リクエストされたインポート パス「{DestinationCharacterFilePath}」は {MaxImportPathLength} 文字を超えています。MetaHuman SDK のプロジェクト設定でインポート パスをもっと短いパスに設定するか、パスがもっと短いファイル位置にプロジェクトを移動してください",
+        "official_en": "The requested import path {DestinationCharacterFilePath} is longer than {MaxImportPathLength} characters. Please set the Import Path in the MetaHuman SDK Project Settings to a shorter path, or move your project to a file location with a shorter path.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetaHumanImport:ImportEndedSuccess:0f0e87fa",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanImport",
+        "key": "ImportEndedSuccess",
+        "jp_record_id": "switch:locres:set-01:MetaHumanImport:ImportEndedSuccess:0f0e87fa",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanImport:ImportEndedSuccess:0f0e87fa",
+        "jp_sha256": "6df89644f6a234c74998172bd1f2fa8909978d1ef3158aeb2bbeab58d56cf005",
+        "official_en_sha256": "cfb00f40689801ad7d12c9f039b90b96cd5c15c8444d2e3282c72e464837400e"
+      },
+      "text": {
+        "jp": "{MetaHumanName} が正常にインポートされました",
+        "official_en": "{MetaHumanName} has been imported successfully.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetaHumanImport:ImportEndedError:0c050b26",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanImport",
+        "key": "ImportEndedError",
+        "jp_record_id": "switch:locres:set-01:MetaHumanImport:ImportEndedError:0c050b26",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanImport:ImportEndedError:0c050b26",
+        "jp_sha256": "3e2a2e59bf7f5e7b00990fe82ea5a390d2c29f42c6b04461538e6f4cc162936d",
+        "official_en_sha256": "be7103eac6b74d5c3503bd89c3b88da0bd0207ac3f35459cb26be4f534442c79"
+      },
+      "text": {
+        "jp": "{MetaHumanName} は正常にインポートされませんでした",
+        "official_en": "{MetaHumanName} has not been imported successfully.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

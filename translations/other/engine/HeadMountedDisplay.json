@@ -1,0 +1,493 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "HeadMountedDisplay",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_SpectatorScreenMode:18b53829",
+      "source": {
+        "set": "set-02",
+        "namespace": "HeadMountedDisplay",
+        "key": "CVarText_SpectatorScreenMode",
+        "jp_record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_SpectatorScreenMode:18b53829",
+        "official_en_record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_SpectatorScreenMode:18b53829",
+        "jp_sha256": "43d754c93a6bc29306bd5600949f2c674c75892ac77c0a9fef73c986fee2f76f",
+        "official_en_sha256": "eed7ffdd5c6ee77eaf83845b39df5e8de183dc630fecc5a32247443eed7cda35"
+      },
+      "text": {
+        "jp": "HMD プラグインでサポートされていれば、観戦者の外観を変更します。\n 0：ミラーリングを無効にします\n 1：単眼\n 2：ステレオ ペア\n2 より大きい数値では、HMD プラグイン特有のバリエーションを指定できます。\n負の値は、0 と同じように扱われます。",
+        "official_en": "Changes the look of the spectator if supported by the HMD plugin.\n 0: disable mirroring\n 1: single eye\n 2: stereo pair\nNumbers larger than 2 may be possible and specify HMD plugin-specific variations.\nNegative values are treated the same as 0.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_HiddenAreaMask:4d7f8450",
+      "source": {
+        "set": "set-02",
+        "namespace": "HeadMountedDisplay",
+        "key": "CVarText_HiddenAreaMask",
+        "jp_record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_HiddenAreaMask:4d7f8450",
+        "official_en_record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_HiddenAreaMask:4d7f8450",
+        "jp_sha256": "c9444eae12c0ecbc954a058f88df849e9d79e58465abd839402d36cd2d1fea6a",
+        "official_en_sha256": "c7e0537092da3bc4fcd01582daea0529d7e9df7a90b001bfb6a1914135a4af4c"
+      },
+      "text": {
+        "jp": "非表示領域のマスクを有効または無効にします\n0:無効化\n1:有効",
+        "official_en": "Enable or disable hidden area mask\n0: disabled\n1: enabled",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:HeadMountedDisplay:CCommandText_EnableHMD:f3f45019",
+      "source": {
+        "set": "set-02",
+        "namespace": "HeadMountedDisplay",
+        "key": "CCommandText_EnableHMD",
+        "jp_record_id": "switch:locres:set-01:HeadMountedDisplay:CCommandText_EnableHMD:f3f45019",
+        "official_en_record_id": "switch:locres:set-01:HeadMountedDisplay:CCommandText_EnableHMD:f3f45019",
+        "jp_sha256": "cd78edab589be30fed474b08846cf97f698c66513fc827368cad1b5197d928ac",
+        "official_en_sha256": "10ca11d8172d80f99a9030f85381507cb56938272ff52287e39d000766b226e3"
+      },
+      "text": {
+        "jp": "HMDデバイスを有効または無効にします。有効にする場合は「1」、[True]、または[はい]を使用し、無効にする場合は「0」、[False]、または[いいえ]を使用します。",
+        "official_en": "Enables or disables the HMD device. Use 1, True, or Yes to enable, 0, False or No to disable.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:HeadMountedDisplay:CCommandText_EnableStereo:d956394a",
+      "source": {
+        "set": "set-02",
+        "namespace": "HeadMountedDisplay",
+        "key": "CCommandText_EnableStereo",
+        "jp_record_id": "switch:locres:set-01:HeadMountedDisplay:CCommandText_EnableStereo:d956394a",
+        "official_en_record_id": "switch:locres:set-01:HeadMountedDisplay:CCommandText_EnableStereo:d956394a",
+        "jp_sha256": "8c098fff66affbcaf63875c5438bbc9ed09a41b7db5296476ca57ec3966bcece",
+        "official_en_sha256": "3ffe9aa858c904317e202879ef30a80c601060a25a27c0910a307e2b79ad460d"
+      },
+      "text": {
+        "jp": "ステレオレンダリングを有効または無効にします。有効にする場合は「1」、[True]、または[はい]を使用し、無効にする場合は「0」、[False]、または[いいえ]を使用します。",
+        "official_en": "Enables or disables the stereo rendering. Use 1, True, or Yes to enable, 0, False or No to disable.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:HeadMountedDisplay:CCommandText_TrackingOrigin:b7f10214",
+      "source": {
+        "set": "set-02",
+        "namespace": "HeadMountedDisplay",
+        "key": "CCommandText_TrackingOrigin",
+        "jp_record_id": "switch:locres:set-01:HeadMountedDisplay:CCommandText_TrackingOrigin:b7f10214",
+        "official_en_record_id": "switch:locres:set-01:HeadMountedDisplay:CCommandText_TrackingOrigin:b7f10214",
+        "jp_sha256": "4668e2301f049cc71ed935ff4f366c71dbba2975200025845207bfe020e786c9",
+        "official_en_sha256": "dd88e21ac052023025ad4ae0261106a14f0816f1e6ec196982dda5497ca7321a"
+      },
+      "text": {
+        "jp": "Floorもしく0 - トラッキング原点は床, Eyeもしくは1 - トラッキング原点はアイレベル",
+        "official_en": "Floor or 0 - tracking origin is at the floor, Eye or 1 - tracking origin is at the eye level.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:HeadMountedDisplay:CCommandText_WorldToMeters:288b67b6",
+      "source": {
+        "set": "set-02",
+        "namespace": "HeadMountedDisplay",
+        "key": "CCommandText_WorldToMeters",
+        "jp_record_id": "switch:locres:set-01:HeadMountedDisplay:CCommandText_WorldToMeters:288b67b6",
+        "official_en_record_id": "switch:locres:set-01:HeadMountedDisplay:CCommandText_WorldToMeters:288b67b6",
+        "jp_sha256": "8f4839269a8d4a9bdd24d4aa694d96fde06056103753320d921a2fe3ff50f405",
+        "official_en_sha256": "519ff8eab39118b069d70389729640d69c76bbf05772d5cffad2345fb9a30634"
+      },
+      "text": {
+        "jp": "スケールを測定する現在のワールドを取得または設定します。",
+        "official_en": "Get or set the current world to meters scale.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:HeadMountedDisplay:CCommandText_ForceTracking:ae3a3c25",
+      "source": {
+        "set": "set-02",
+        "namespace": "HeadMountedDisplay",
+        "key": "CCommandText_ForceTracking",
+        "jp_record_id": "switch:locres:set-01:HeadMountedDisplay:CCommandText_ForceTracking:ae3a3c25",
+        "official_en_record_id": "switch:locres:set-01:HeadMountedDisplay:CCommandText_ForceTracking:ae3a3c25",
+        "jp_sha256": "c26cf35ee9e996ae9a3928373b2f85ad7a620632d02dd10808f35d0d6a0fa55e",
+        "official_en_sha256": "67275117d1b0d87cdfc0e230fbe002081add6cca6c8c94f66fd42d3d2f0c398b"
+      },
+      "text": {
+        "jp": "設定されている場合、ヘッドトラッキングは、ステレオレンダリングが無効になっていても有効です。\nすべてのXR実装でサポートされているわけではありません。",
+        "official_en": "If set, head tracking is enabled even when stereo rendering is disabled.\nMay not be supported by all XR implementations.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:HeadMountedDisplay:CCommandText_HMDVersion:5197b1c2",
+      "source": {
+        "set": "set-02",
+        "namespace": "HeadMountedDisplay",
+        "key": "CCommandText_HMDVersion",
+        "jp_record_id": "switch:locres:set-01:HeadMountedDisplay:CCommandText_HMDVersion:5197b1c2",
+        "official_en_record_id": "switch:locres:set-01:HeadMountedDisplay:CCommandText_HMDVersion:5197b1c2",
+        "jp_sha256": "82332add206e92f7eecf7f27e0daba52d51b1bb21f0dd8a8db06fb304e8db3dd",
+        "official_en_sha256": "c53b6b29c093cbbf902638c97e7d203ea63d7a544c5007696bb1b18dd0b8d3c8"
+      },
+      "text": {
+        "jp": "現在のHMDデバイスのバージョン情報を出力します",
+        "official_en": "Prints version information for the current HMD device.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_HMDStatus:ba8565f6",
+      "source": {
+        "set": "set-02",
+        "namespace": "HeadMountedDisplay",
+        "key": "CVarText_HMDStatus",
+        "jp_record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_HMDStatus:ba8565f6",
+        "official_en_record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_HMDStatus:ba8565f6",
+        "jp_sha256": "a3ca935ae5b6ef07baac35afe9701b9cac0754d3ffaf14c726362f38cd0695f3",
+        "official_en_sha256": "73d72ad517113df179fac8a3d822f6cd37039b7bf6277c3332d47d2cc2e13061"
+      },
+      "text": {
+        "jp": "ヘッドトラッキングの現在のステータスを報告します。",
+        "official_en": "Reports the current status of the head tracking.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_HMDResetPosition:bc0f1b73",
+      "source": {
+        "set": "set-02",
+        "namespace": "HeadMountedDisplay",
+        "key": "CVarText_HMDResetPosition",
+        "jp_record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_HMDResetPosition:bc0f1b73",
+        "official_en_record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_HMDResetPosition:bc0f1b73",
+        "jp_sha256": "f76caec0409e70c328e56d14baeac70bb87e8a14b5858b8f450d46a5f411da6b",
+        "official_en_sha256": "ce80e7aa95d2376351139057fc98e74506f89fb594e9707091659721767bf073"
+      },
+      "text": {
+        "jp": "ヘッドマウントディスプレイの位置をリセットします。",
+        "official_en": "Reset the position of the head mounted display.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_HMDReset:673ab0c1",
+      "source": {
+        "set": "set-02",
+        "namespace": "HeadMountedDisplay",
+        "key": "CVarText_HMDReset",
+        "jp_record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_HMDReset:673ab0c1",
+        "official_en_record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_HMDReset:673ab0c1",
+        "jp_sha256": "3cd23a4a41561a96fc68294d9f3a5d4c62c4463a2accdf2740a6d04cbc1d0497",
+        "official_en_sha256": "47fa33916cd942f8904cdca2d4c7bc9ed36983773905d7603beef44ac581209a"
+      },
+      "text": {
+        "jp": "ヘッドマウントディスプレイの回転と位置をリセットします。\nオプションとして新しいyawを角度指定することができます。",
+        "official_en": "Reset the rotation and position of the head mounted display.\nPass in an optional yaw for the new rotation in degrees.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_HMDResetOrientation:59f8ae03",
+      "source": {
+        "set": "set-02",
+        "namespace": "HeadMountedDisplay",
+        "key": "CVarText_HMDResetOrientation",
+        "jp_record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_HMDResetOrientation:59f8ae03",
+        "official_en_record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_HMDResetOrientation:59f8ae03",
+        "jp_sha256": "361391c973a2aa8076948e390d6ff3ab3287cd6acef448680ccc8d8cac4dc198",
+        "official_en_sha256": "03369cf5d8aa30b0dc16ed73b18d957806ece98f9f70405e9fd99a967ec66435"
+      },
+      "text": {
+        "jp": "ヘッドマウントディスプレイの回転をリセットします。\nオプションとして新しいyawを角度指定することができます。",
+        "official_en": "Reset the rotation of the head mounted display.\nPass in an optional yaw for the new rotation in degrees .",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_ShowTrackingSensors:15dce415",
+      "source": {
+        "set": "set-02",
+        "namespace": "HeadMountedDisplay",
+        "key": "CVarText_ShowTrackingSensors",
+        "jp_record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_ShowTrackingSensors:15dce415",
+        "official_en_record_id": "switch:locres:set-01:HeadMountedDisplay:CVarText_ShowTrackingSensors:15dce415",
+        "jp_sha256": "f2bb53ba2ceba73edb3bfcedc2cca75b05257d94ca892a57867cddf7c0564929",
+        "official_en_sha256": "c3458a01adaa5557225c6003bf5a354223e7cd31545e042fa2c3d9efadb34dfe"
+      },
+      "text": {
+        "jp": "トラッキングセンサーの位置とカバーするエリアの表示もしくは非表示\n1、True、Yesで有効、0、False、Noで無効",
+        "official_en": "Show or hide the location and coverage area of the tracking sensors\nUse 1, True, or Yes to enable, 0, False or No to disable.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "WindowsDynamicRHI",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:WindowsDynamicRHI:RHIOptionsError:865fa117",
+      "source": {
+        "set": "set-02",
+        "namespace": "WindowsDynamicRHI",
+        "key": "RHIOptionsError",
+        "jp_record_id": "switch:locres:set-01:WindowsDynamicRHI:RHIOptionsError:865fa117",
+        "official_en_record_id": "switch:locres:set-01:WindowsDynamicRHI:RHIOptionsError:865fa117",
+        "jp_sha256": "bb101fe0528eddb2ecb702409b2a8738841c2b12b4924d6c3b3906cdd6be34fc",
+        "official_en_sha256": "2a249e2b9a58511b4e5aec24d28521482e9c9afd21121f30b8a6c6b499566262"
+      },
+      "text": {
+        "jp": "-d3d12/dx12、-d3d11/dx11、-vulkan、-opengl、-platformrhi は、同時には使用できないオプションですが、コマンドラインで複数個が指定されていました",
+        "official_en": "-d3d12/dx12, -d3d11/dx11, -vulkan, -opengl, and -platformrhi are mutually exclusive options, but more than one was specified on the command-line.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WindowsDynamicRHI:UnknownRHI:60accbec",
+      "source": {
+        "set": "set-02",
+        "namespace": "WindowsDynamicRHI",
+        "key": "UnknownRHI",
+        "jp_record_id": "switch:locres:set-01:WindowsDynamicRHI:UnknownRHI:60accbec",
+        "official_en_record_id": "switch:locres:set-01:WindowsDynamicRHI:UnknownRHI:60accbec",
+        "jp_sha256": "86be15ffcb5f4e713004e37895eb960732df80cc4a592b85c48c70e574013a34",
+        "official_en_sha256": "3ecfddbeaf264606aca6a31ecd53caa9ae5da9c48e3349304a9038cbd3fc07cf"
+      },
+      "text": {
+        "jp": "<不明>",
+        "official_en": "<Unknown>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WindowsDynamicRHI:FeatureLevelUnknown:7c37dfca",
+      "source": {
+        "set": "set-02",
+        "namespace": "WindowsDynamicRHI",
+        "key": "FeatureLevelUnknown",
+        "jp_record_id": "switch:locres:set-01:WindowsDynamicRHI:FeatureLevelUnknown:7c37dfca",
+        "official_en_record_id": "switch:locres:set-01:WindowsDynamicRHI:FeatureLevelUnknown:7c37dfca",
+        "jp_sha256": "86be15ffcb5f4e713004e37895eb960732df80cc4a592b85c48c70e574013a34",
+        "official_en_sha256": "6cb6ae23f71cf88a75af31eebf4d77659518ae7c9d93585e18bc58ee98d27caf"
+      },
+      "text": {
+        "jp": "<不明>",
+        "official_en": "<unknown>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WindowsDynamicRHI:RequiredDX11Feature_11_SM5:de9073e9",
+      "source": {
+        "set": "set-02",
+        "namespace": "WindowsDynamicRHI",
+        "key": "RequiredDX11Feature_11_SM5",
+        "jp_record_id": "switch:locres:set-01:WindowsDynamicRHI:RequiredDX11Feature_11_SM5:de9073e9",
+        "official_en_record_id": "switch:locres:set-01:WindowsDynamicRHI:RequiredDX11Feature_11_SM5:de9073e9",
+        "jp_sha256": "478f8f905ccad9605046d9c5f8f3fc1b3bec49c73afe9dc3edaec0737eef04f9",
+        "official_en_sha256": "0ad02b9e5345200b0772be5ef7c1a208f86e93b922464ab1f11c30a543e3da03"
+      },
+      "text": {
+        "jp": "D3D11 互換の GPU (機能レベル 11.0、シェーダモデル 5.0) がエンジンを動作させるために必要です。",
+        "official_en": "A D3D11-compatible GPU (Feature Level 11.0, Shader Model 5.0) is required to run the engine.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WindowsDynamicRHI:RequiredVulkan:9f6e569b",
+      "source": {
+        "set": "set-02",
+        "namespace": "WindowsDynamicRHI",
+        "key": "RequiredVulkan",
+        "jp_record_id": "switch:locres:set-01:WindowsDynamicRHI:RequiredVulkan:9f6e569b",
+        "official_en_record_id": "switch:locres:set-01:WindowsDynamicRHI:RequiredVulkan:9f6e569b",
+        "jp_sha256": "26e039226c3120b2ad20917221e6bd0419be5648ee57e2186592a8a2f5367a0e",
+        "official_en_sha256": "0a17b74d4d2a903b24eccfa2146ba3c63ed842c474818a153b67109f6e558da5"
+      },
+      "text": {
+        "jp": "エンジンを実行するには、互換性のある Vulkan ドライバーが必要です",
+        "official_en": "A compatible Vulkan Driver is required to run the engine.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WindowsDynamicRHI:D3D11:8ce5def4",
+      "source": {
+        "set": "set-02",
+        "namespace": "WindowsDynamicRHI",
+        "key": "D3D11",
+        "jp_record_id": "switch:locres:set-01:WindowsDynamicRHI:D3D11:8ce5def4",
+        "official_en_record_id": "switch:locres:set-01:WindowsDynamicRHI:D3D11:8ce5def4",
+        "jp_sha256": "1eed6087cb3850a53a5bda801bf56ddd70ef0af84211492da2e6f1a5def1bc78",
+        "official_en_sha256": "1eed6087cb3850a53a5bda801bf56ddd70ef0af84211492da2e6f1a5def1bc78"
+      },
+      "text": {
+        "jp": "DirectX 11",
+        "official_en": "DirectX 11",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WindowsDynamicRHI:D3D12:4d11f7cf",
+      "source": {
+        "set": "set-02",
+        "namespace": "WindowsDynamicRHI",
+        "key": "D3D12",
+        "jp_record_id": "switch:locres:set-01:WindowsDynamicRHI:D3D12:4d11f7cf",
+        "official_en_record_id": "switch:locres:set-01:WindowsDynamicRHI:D3D12:4d11f7cf",
+        "jp_sha256": "05b30c4c9253a34986ceaff3a0eb6fd57d84811c2d5a55d5832a496711b88999",
+        "official_en_sha256": "05b30c4c9253a34986ceaff3a0eb6fd57d84811c2d5a55d5832a496711b88999"
+      },
+      "text": {
+        "jp": "DirectX 12",
+        "official_en": "DirectX 12",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WindowsDynamicRHI:RequiredDX12:15fa76f6",
+      "source": {
+        "set": "set-02",
+        "namespace": "WindowsDynamicRHI",
+        "key": "RequiredDX12",
+        "jp_record_id": "switch:locres:set-01:WindowsDynamicRHI:RequiredDX12:15fa76f6",
+        "official_en_record_id": "switch:locres:set-01:WindowsDynamicRHI:RequiredDX12:15fa76f6",
+        "jp_sha256": "37af692c00b0f2869be6dfe8e008e4532ceb5af3331d9212d861576294fd322e",
+        "official_en_sha256": "83b44f31dbf8d6920eb3c333004f350d14fd0030248b18871a367a6e09ee6df0"
+      },
+      "text": {
+        "jp": "DirectX 12 は、お使いのシステムではサポートされていません。-dx12 または -d3d12 コマンドライン引数なしで実行してみてください",
+        "official_en": "DirectX 12 is not supported on your system. Try running without the -dx12 or -d3d12 command line argument.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WindowsDynamicRHI:RequiredDX12SM6:2f232b52",
+      "source": {
+        "set": "set-02",
+        "namespace": "WindowsDynamicRHI",
+        "key": "RequiredDX12SM6",
+        "jp_record_id": "switch:locres:set-01:WindowsDynamicRHI:RequiredDX12SM6:2f232b52",
+        "official_en_record_id": "switch:locres:set-01:WindowsDynamicRHI:RequiredDX12SM6:2f232b52",
+        "jp_sha256": "2568bb49abf54fa66e480de5d3a69735cb8aa9872301c1b680f2291e72a1eef4",
+        "official_en_sha256": "371aa1d3462669d8a291458b9759fc7f0c83a0e728cedaa4513dc196ee25ff6a"
+      },
+      "text": {
+        "jp": "SM6 機能レベルを備えた DirectX 12 は、お使いのシステムではサポートされていません。-sm6 コマンドライン引数なしで実行してみてください",
+        "official_en": "DirectX 12 with Feature Level SM6 is not supported on your system. Try running without the -sm6 command line argument.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WindowsDynamicRHI:FeatureLevelES31:c04f5f91",
+      "source": {
+        "set": "set-02",
+        "namespace": "WindowsDynamicRHI",
+        "key": "FeatureLevelES31",
+        "jp_record_id": "switch:locres:set-01:WindowsDynamicRHI:FeatureLevelES31:c04f5f91",
+        "official_en_record_id": "switch:locres:set-01:WindowsDynamicRHI:FeatureLevelES31:c04f5f91",
+        "jp_sha256": "2c94bdd6252c210fe0ab0b4b3eec12e943496225faef929f066fab5d7dbc8bf5",
+        "official_en_sha256": "2c94bdd6252c210fe0ab0b4b3eec12e943496225faef929f066fab5d7dbc8bf5"
+      },
+      "text": {
+        "jp": "ES3_1",
+        "official_en": "ES3_1",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WindowsDynamicRHI:OpenGL:0816e36d",
+      "source": {
+        "set": "set-02",
+        "namespace": "WindowsDynamicRHI",
+        "key": "OpenGL",
+        "jp_record_id": "switch:locres:set-01:WindowsDynamicRHI:OpenGL:0816e36d",
+        "official_en_record_id": "switch:locres:set-01:WindowsDynamicRHI:OpenGL:0816e36d",
+        "jp_sha256": "28a0ec0b7b0fd31b4681eb4f73035509013404bf62783a948b330cc3f42576b4",
+        "official_en_sha256": "28a0ec0b7b0fd31b4681eb4f73035509013404bf62783a948b330cc3f42576b4"
+      },
+      "text": {
+        "jp": "OpenGL",
+        "official_en": "OpenGL",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WindowsDynamicRHI:RequiredOpenGL:d61e0ca0",
+      "source": {
+        "set": "set-02",
+        "namespace": "WindowsDynamicRHI",
+        "key": "RequiredOpenGL",
+        "jp_record_id": "switch:locres:set-01:WindowsDynamicRHI:RequiredOpenGL:d61e0ca0",
+        "official_en_record_id": "switch:locres:set-01:WindowsDynamicRHI:RequiredOpenGL:d61e0ca0",
+        "jp_sha256": "377a725b981cfa0c71b64847bff53ebbd8804894ad4eef769413d785c303d937",
+        "official_en_sha256": "ee083d4a0aee1bffb493253cda4c765e27c955ef5e01ce56bd29051f32db8312"
+      },
+      "text": {
+        "jp": "エンジンを実行にするには、OpenGL 4.3 が必要です。",
+        "official_en": "OpenGL 4.3 is required to run the engine.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WindowsDynamicRHI:FeatureLevelSM4:c79f2133",
+      "source": {
+        "set": "set-02",
+        "namespace": "WindowsDynamicRHI",
+        "key": "FeatureLevelSM4",
+        "jp_record_id": "switch:locres:set-01:WindowsDynamicRHI:FeatureLevelSM4:c79f2133",
+        "official_en_record_id": "switch:locres:set-01:WindowsDynamicRHI:FeatureLevelSM4:c79f2133",
+        "jp_sha256": "0c23c138b45f35ff72f7f4c978f36177436dffd7ee3408a4be303d817cb68be7",
+        "official_en_sha256": "0c23c138b45f35ff72f7f4c978f36177436dffd7ee3408a4be303d817cb68be7"
+      },
+      "text": {
+        "jp": "SM5",
+        "official_en": "SM5",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WindowsDynamicRHI:FeatureLevelSM6:19d44491",
+      "source": {
+        "set": "set-02",
+        "namespace": "WindowsDynamicRHI",
+        "key": "FeatureLevelSM6",
+        "jp_record_id": "switch:locres:set-01:WindowsDynamicRHI:FeatureLevelSM6:19d44491",
+        "official_en_record_id": "switch:locres:set-01:WindowsDynamicRHI:FeatureLevelSM6:19d44491",
+        "jp_sha256": "019d4d68f440dd600f77b78b98695967c4fd0ef9f8b5afb548d2e9d157f4b2e3",
+        "official_en_sha256": "019d4d68f440dd600f77b78b98695967c4fd0ef9f8b5afb548d2e9d157f4b2e3"
+      },
+      "text": {
+        "jp": "SM6",
+        "official_en": "SM6",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WindowsDynamicRHI:MissingTargetedShaderFormats:3392f0aa",
+      "source": {
+        "set": "set-02",
+        "namespace": "WindowsDynamicRHI",
+        "key": "MissingTargetedShaderFormats",
+        "jp_record_id": "switch:locres:set-01:WindowsDynamicRHI:MissingTargetedShaderFormats:3392f0aa",
+        "official_en_record_id": "switch:locres:set-01:WindowsDynamicRHI:MissingTargetedShaderFormats:3392f0aa",
+        "jp_sha256": "0c21f42f2510dae0c5ff89c19cd4545d8634831c785afb4e3043b7cd91c45243",
+        "official_en_sha256": "5833bc352d7e6142f4066290f32fef2e1efd9140079e7ebbd770b881b2586e6e"
+      },
+      "text": {
+        "jp": "プロジェクトでサポートするように設定されていないため、RHI「{0}」で起動できません",
+        "official_en": "Unable to launch with RHI '{0}' since the project is not configured to support it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WindowsDynamicRHI:Vulkan:512cf9d3",
+      "source": {
+        "set": "set-02",
+        "namespace": "WindowsDynamicRHI",
+        "key": "Vulkan",
+        "jp_record_id": "switch:locres:set-01:WindowsDynamicRHI:Vulkan:512cf9d3",
+        "official_en_record_id": "switch:locres:set-01:WindowsDynamicRHI:Vulkan:512cf9d3",
+        "jp_sha256": "705cf66058dbc5f928db85fa069818070963d5429712aad9a43700138fb52371",
+        "official_en_sha256": "705cf66058dbc5f928db85fa069818070963d5429712aad9a43700138fb52371"
+      },
+      "text": {
+        "jp": "Vulkan",
+        "official_en": "Vulkan",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WindowsDynamicRHI:RHINotSupported:c002d87e",
+      "source": {
+        "set": "set-02",
+        "namespace": "WindowsDynamicRHI",
+        "key": "RHINotSupported",
+        "jp_record_id": "switch:locres:set-01:WindowsDynamicRHI:RHINotSupported:c002d87e",
+        "official_en_record_id": "switch:locres:set-01:WindowsDynamicRHI:RHINotSupported:c002d87e",
+        "jp_sha256": "3b9e07faa1b289161925bbf49f326eae83ead6466a36ba7b6c01e9882e17d872",
+        "official_en_sha256": "8cd609200e7e108d0567ea62342fd7f93b5b3a36f089a1ad5575c9c44055ae73"
+      },
+      "text": {
+        "jp": "{0} は {1} をサポートしません",
+        "official_en": "{0} does not support {1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

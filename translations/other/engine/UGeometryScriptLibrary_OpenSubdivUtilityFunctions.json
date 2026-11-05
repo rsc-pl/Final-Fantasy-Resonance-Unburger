@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UGeometryScriptLibrary_OpenSubdivUtilityFunctions",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyPolygroupCatmullClarkSubD_MaxSubdivisions:a9192161",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_OpenSubdivUtilityFunctions",
+        "key": "ApplyPolygroupCatmullClarkSubD_MaxSubdivisions",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyPolygroupCatmullClarkSubD_MaxSubdivisions:a9192161",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyPolygroupCatmullClarkSubD_MaxSubdivisions:a9192161",
+        "jp_sha256": "1193724a1dc4e3bcdd28367a7e23bb1ed1262df8acf0c636d760fce2ddd2fbbb",
+        "official_en_sha256": "641faa88af3197e7bf4e1be60db8828b7cf64b223d64435290924770beee932d"
+      },
+      "text": {
+        "jp": "ApplyPolygroupCatmullClarkSubD:サブディビジョンを6レベルに制限すると破壊的なメモリ消費を回避します。高いレベルが必要な場合は、反復サブディビジョンを使用します。",
+        "official_en": "ApplyPolygroupCatmullClarkSubD: Clamping Subdivision to 6 levels to avoid catastrophic memory usage. Use repeated Subdivisions if higher levels are necessary.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyPolygroupCatmullClarkSubD_Failed:c3a9c6d1",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_OpenSubdivUtilityFunctions",
+        "key": "ApplyPolygroupCatmullClarkSubD_Failed",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyPolygroupCatmullClarkSubD_Failed:c3a9c6d1",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyPolygroupCatmullClarkSubD_Failed:c3a9c6d1",
+        "jp_sha256": "9012917aa12ecfd5645120fca2d5d14d562f622a1cbde9673a32adbcbe2124cf",
+        "official_en_sha256": "b442d7216eb54cd97dd73be41df63090d727879b679b41e3c4300de341e7fac3"
+      },
+      "text": {
+        "jp": "ApplyPolygroupCatmullClarkSubD:サブディビジョンに失敗しました",
+        "official_en": "ApplyPolygroupCatmullClarkSubD: Subdivision Failed",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyPolygroupCatmullClarkSubD_NoPolygons:9db0faf5",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_OpenSubdivUtilityFunctions",
+        "key": "ApplyPolygroupCatmullClarkSubD_NoPolygons",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyPolygroupCatmullClarkSubD_NoPolygons:9db0faf5",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyPolygroupCatmullClarkSubD_NoPolygons:9db0faf5",
+        "jp_sha256": "8b16aa7707473f2d79f57a77ed2b5084a93531280b6bfe03a37c90a0745993f5",
+        "official_en_sha256": "0ac6ffa6ecab20400275c52a03a8ef7c385a8ebf0a48ac084b2b424f72edb79b"
+      },
+      "text": {
+        "jp": "ApplyPolygroupCatmullClarkSubD:ターゲットポリグループ レイヤーにサブディビジョンに有効なポリゴンが定義されていません",
+        "official_en": "ApplyPolygroupCatmullClarkSubD: Target Polygroup Layer does not define valid Polygons for Subdivision",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyPolygroupCatmullClarkSubD_MissingGroups:3f586120",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_OpenSubdivUtilityFunctions",
+        "key": "ApplyPolygroupCatmullClarkSubD_MissingGroups",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyPolygroupCatmullClarkSubD_MissingGroups:3f586120",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyPolygroupCatmullClarkSubD_MissingGroups:3f586120",
+        "jp_sha256": "27d5e6bd976dd0d600bb03ddb768474918ced7ee60174680b6cf07ff4c609b79",
+        "official_en_sha256": "f38464671ba15f5d7ec12791047ab11847d5e6a1079144164068a3944d483a96"
+      },
+      "text": {
+        "jp": "ApplyPolygroupCatmullClarkSubD:ターゲットポリグループ レイヤーが存在しません",
+        "official_en": "ApplyPolygroupCatmullClarkSubD: Target Polygroup Layer does not exist",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyPolygroupCatmullClarkSubD_InvalidInput:65a928c4",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_OpenSubdivUtilityFunctions",
+        "key": "ApplyPolygroupCatmullClarkSubD_InvalidInput",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyPolygroupCatmullClarkSubD_InvalidInput:65a928c4",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyPolygroupCatmullClarkSubD_InvalidInput:65a928c4",
+        "jp_sha256": "ca1185e97cde2cb2d977a914bae8f6d4e75c9aa5978d1ff87225d723fe2bf95c",
+        "official_en_sha256": "4a716decb805c084a0360bb28f453117acb87e52cee9b84f707b7728e2912e92"
+      },
+      "text": {
+        "jp": "ApplyPolygroupCatmullClarkSubD:TargetMeshはNullです",
+        "official_en": "ApplyPolygroupCatmullClarkSubD: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyTriangleLoopSubD_MaxSubdivisions:ddd360cd",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_OpenSubdivUtilityFunctions",
+        "key": "ApplyTriangleLoopSubD_MaxSubdivisions",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyTriangleLoopSubD_MaxSubdivisions:ddd360cd",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyTriangleLoopSubD_MaxSubdivisions:ddd360cd",
+        "jp_sha256": "0b50a9c88f662b82ebf698077408c4447e86be5857aecf7548c9e81ac56b0c62",
+        "official_en_sha256": "ce7bdc73359821ef83ab2befe0fabb4ca6d1ac63e42e710ecfeca369bd58a8b2"
+      },
+      "text": {
+        "jp": "ApplyTriangleLoopSubD:サブディビジョンを6レベルに制限すると破壊的なメモリ消費を回避します。高いレベルが必要な場合は、反復サブディビジョンを使用します。",
+        "official_en": "ApplyTriangleLoopSubD: Clamping Subdivision to 6 levels to avoid catastrophic memory usage. Use repeated Subdivisions if higher levels are necessary.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyTriangleLoopSubD_Failed:657a45ac",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_OpenSubdivUtilityFunctions",
+        "key": "ApplyTriangleLoopSubD_Failed",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyTriangleLoopSubD_Failed:657a45ac",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyTriangleLoopSubD_Failed:657a45ac",
+        "jp_sha256": "ad24d7abafab414a64282706704ad0e934174e9a41d21f73acf1f96bb89d92d2",
+        "official_en_sha256": "c39ec570fefb81072095bf09bce015a1508703aadffe618513407cfc0d13ae28"
+      },
+      "text": {
+        "jp": "ApplyTriangleLoopSubD:サブディビジョンに失敗しました",
+        "official_en": "ApplyTriangleLoopSubD: Subdivision Failed",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyTriangleLoopSubD_InvalidInput:1b0e2e3e",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_OpenSubdivUtilityFunctions",
+        "key": "ApplyTriangleLoopSubD_InvalidInput",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyTriangleLoopSubD_InvalidInput:1b0e2e3e",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_OpenSubdivUtilityFunctions:ApplyTriangleLoopSubD_InvalidInput:1b0e2e3e",
+        "jp_sha256": "7f189fddf10a1d54cc49091feb11443d0d050b6cda0cd64e46474a8c8ac5dd75",
+        "official_en_sha256": "4184cba8449acf2b3196ca90e4252aa4c99dae371f0d08c0955c4151ff376855"
+      },
+      "text": {
+        "jp": "ApplyTriangleLoopSubD:TargetMeshはNullです",
+        "official_en": "ApplyTriangleLoopSubD: TargetMesh is Null",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

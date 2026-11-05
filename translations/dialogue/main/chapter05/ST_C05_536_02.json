@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_C05_536_02",
+    "scene_id": "ST_C05_536_02",
+    "chapter": "chapter05",
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_C05_536_02:536_02_001:a898b09a",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_C05_536_02",
+        "key": "536_02_001",
+        "jp_record_id": "switch:locres:set-02:ST_C05_536_02:536_02_001:a898b09a",
+        "official_en_record_id": "switch:locres:set-02:ST_C05_536_02:536_02_001:a898b09a",
+        "jp_sha256": "c4d1608cf9af8f9f6a23b00752081219413e024d673dd317e6921de8256df7c7",
+        "official_en_sha256": "2e71d72e92ed6b589a11c8a68f04dd77dd4a7fd83a14fbc2e0d3a196d6fe862a"
+      },
+      "text": {
+        "jp": "（ここが最終決戦の地か……）",
+        "official_en": "(So this is where that decisive battle happened.)",
+        "real_en": null
+      },
+      "review": {
+        "status": "KEEP"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_C05_536_02",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "レイン",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0002",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_C05_536_02/536_02_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_C05_536_02:536_02_002:1bf9f8eb",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_C05_536_02",
+        "key": "536_02_002",
+        "jp_record_id": "switch:locres:set-02:ST_C05_536_02:536_02_002:1bf9f8eb",
+        "official_en_record_id": "switch:locres:set-02:ST_C05_536_02:536_02_002:1bf9f8eb",
+        "jp_sha256": "d1d2f9a35cebb609ef8f5e58cbf4afa05c4ba719bc9b040dd3aeea62303e9284",
+        "official_en_sha256": "adb062d5445c1d3e31df66b74de09586236d95c21409181c0707331e3c02a677"
+      },
+      "text": {
+        "jp": "（この先に、きっとフィーナがいるはずだ。）",
+        "official_en": "(Fina should be here, somewhere.)",
+        "real_en": "(Fina must be somewhere ahead.)"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_C05_536_02",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "レイン",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0002",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_C05_536_02/536_02_002"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

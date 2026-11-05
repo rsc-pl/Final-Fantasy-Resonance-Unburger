@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ChaosClothAssetMergeClothCollectionsNode",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ChaosClothAssetMergeClothCollectionsNode:IncompatibleSkeletalMeshesLoadFailureDetails:697ddc7e",
+      "source": {
+        "set": "set-02",
+        "namespace": "ChaosClothAssetMergeClothCollectionsNode",
+        "key": "IncompatibleSkeletalMeshesLoadFailureDetails",
+        "jp_record_id": "switch:locres:set-01:ChaosClothAssetMergeClothCollectionsNode:IncompatibleSkeletalMeshesLoadFailureDetails:697ddc7e",
+        "official_en_record_id": "switch:locres:set-01:ChaosClothAssetMergeClothCollectionsNode:IncompatibleSkeletalMeshesLoadFailureDetails:697ddc7e",
+        "jp_sha256": "354029d87e8f7dd6fb959b7bd1f632510b01e39527ea994034dec74e9be5095c",
+        "official_en_sha256": "daf081a3ef2118bde259f73331579a025058463d792db28275a9458cb6973132"
+      },
+      "text": {
+        "jp": "互換性チェックのためのスケルタルメッシュ「{0}」のロードに失敗したため、クロス コレクションがマージに失敗しました",
+        "official_en": "Cloth collections failed to merge due to failing to load SkeletalMesh \"{0}\" to check compatibility.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ChaosClothAssetMergeClothCollectionsNode:IncompatibleSkeletalMeshesRefBoneInfoDetails:48a00b2e",
+      "source": {
+        "set": "set-02",
+        "namespace": "ChaosClothAssetMergeClothCollectionsNode",
+        "key": "IncompatibleSkeletalMeshesRefBoneInfoDetails",
+        "jp_record_id": "switch:locres:set-01:ChaosClothAssetMergeClothCollectionsNode:IncompatibleSkeletalMeshesRefBoneInfoDetails:48a00b2e",
+        "official_en_record_id": "switch:locres:set-01:ChaosClothAssetMergeClothCollectionsNode:IncompatibleSkeletalMeshesRefBoneInfoDetails:48a00b2e",
+        "jp_sha256": "b66842127ec53b22a1249a35278a128b3ee71d77e768e520477312308eaa51b0",
+        "official_en_sha256": "2969920767bde0e2039bf1b38b7bfc0e53067894106be57991efc958de4f1ef1"
+      },
+      "text": {
+        "jp": "スケルタルメッシュ「{0}」と「{1}」に互換性がないため、クロス コレクションのマージに失敗しました。「{3}」にボーン「{2}」が見つかりませんでした",
+        "official_en": "Cloth collections failed to merge due to incompatible Skeletal Meshes, \"{0}\" and \"{1}\". Could not find bone \"{2}\" in \"{3}\".",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ChaosClothAssetMergeClothCollectionsNode:IncompatibleSkeletalMeshesRefBonePoseDetails:5fe31f9a",
+      "source": {
+        "set": "set-02",
+        "namespace": "ChaosClothAssetMergeClothCollectionsNode",
+        "key": "IncompatibleSkeletalMeshesRefBonePoseDetails",
+        "jp_record_id": "switch:locres:set-01:ChaosClothAssetMergeClothCollectionsNode:IncompatibleSkeletalMeshesRefBonePoseDetails:5fe31f9a",
+        "official_en_record_id": "switch:locres:set-01:ChaosClothAssetMergeClothCollectionsNode:IncompatibleSkeletalMeshesRefBonePoseDetails:5fe31f9a",
+        "jp_sha256": "c01058480880ce89fca6c7ffbb96c8a58dd2b764a72ae8c3b7384b61eec1feec",
+        "official_en_sha256": "c63ed3609a040d0cf9f138e7262ac73c0467c4befdb48038180f8aa6feae4681"
+      },
+      "text": {
+        "jp": "スケルタルメッシュ「{0}」と「{1}」に互換性がないため、クロス コレクションのマージに失敗しました。ボーン「{2}」の RefBonePoses が一致していません",
+        "official_en": "Cloth collections failed to merge due to incompatible Skeletal Meshes, \"{0}\" and \"{1}\". RefBonePoses are mismatched for bone \"{2}\".",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ChaosClothAssetMergeClothCollectionsNode:DifferentWeightMapNamesHeadline:0a58053a",
+      "source": {
+        "set": "set-02",
+        "namespace": "ChaosClothAssetMergeClothCollectionsNode",
+        "key": "DifferentWeightMapNamesHeadline",
+        "jp_record_id": "switch:locres:set-01:ChaosClothAssetMergeClothCollectionsNode:DifferentWeightMapNamesHeadline:0a58053a",
+        "official_en_record_id": "switch:locres:set-01:ChaosClothAssetMergeClothCollectionsNode:DifferentWeightMapNamesHeadline:0a58053a",
+        "jp_sha256": "f0d9e6f1dc3ead65f5082287a3f15df0781615d3bab3087c47b3327489fa3261",
+        "official_en_sha256": "da62cd69ec2e804f187acbaf611f761a84bff82d9311ac1242cad85bfdf0afcb"
+      },
+      "text": {
+        "jp": "異なるウェイト マップ名です",
+        "official_en": "Different weight map names.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ChaosClothAssetMergeClothCollectionsNode:IncompatibleSkeletalMeshesHeadline:aa51ee09",
+      "source": {
+        "set": "set-02",
+        "namespace": "ChaosClothAssetMergeClothCollectionsNode",
+        "key": "IncompatibleSkeletalMeshesHeadline",
+        "jp_record_id": "switch:locres:set-01:ChaosClothAssetMergeClothCollectionsNode:IncompatibleSkeletalMeshesHeadline:aa51ee09",
+        "official_en_record_id": "switch:locres:set-01:ChaosClothAssetMergeClothCollectionsNode:IncompatibleSkeletalMeshesHeadline:aa51ee09",
+        "jp_sha256": "a9178db82363ef95b5b8f51d3503a72ae49b0e7188a0579b131a8d2987e58828",
+        "official_en_sha256": "8308ec32d7031e5ef484118d156c9fcce045c6588a471fffea09f780f6b4785d"
+      },
+      "text": {
+        "jp": "互換性のないスケルタルメッシュ",
+        "official_en": "Incompatible Skeletal Meshes.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:ChaosClothAssetMergeClothCollectionsNode:DifferentWeightMapNamesDetails:d18c8e62",
+      "source": {
+        "set": "set-02",
+        "namespace": "ChaosClothAssetMergeClothCollectionsNode",
+        "key": "DifferentWeightMapNamesDetails",
+        "jp_record_id": "switch:locres:set-01:ChaosClothAssetMergeClothCollectionsNode:DifferentWeightMapNamesDetails:d18c8e62",
+        "official_en_record_id": "switch:locres:set-01:ChaosClothAssetMergeClothCollectionsNode:DifferentWeightMapNamesDetails:d18c8e62",
+        "jp_sha256": "3ada3c20167f59aa704d6e9c9460d88ccc5fb6c1c214085ce1b70906a5ee366e",
+        "official_en_sha256": "89437dedf4458c900256e6211c4f8411e73772ed7e2d46d3cd2e8db4d403e29c"
+      },
+      "text": {
+        "jp": "2 つの同一のクロス コレクション プロパティ「{0}」はマージされますが、異なるウェイト マップ名「{1}」および「{2}」を持っています。「{3}」という名前のウェイト マップが結果のマージで使用されます",
+        "official_en": "Two identical Cloth Collection properties '{0}' are being merged but have different weight map names '{1}' and '{2}'. The weight map named '{3}' will be used in the resulting merge.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

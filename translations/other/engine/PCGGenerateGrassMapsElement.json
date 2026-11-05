@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGGenerateGrassMapsElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:TextureInitFailed:835a1fc4",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGenerateGrassMapsElement",
+        "key": "TextureInitFailed",
+        "jp_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:TextureInitFailed:835a1fc4",
+        "official_en_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:TextureInitFailed:835a1fc4",
+        "jp_sha256": "ddac8d09e16b884bafdcf9bccb1c562e75fdfe910d434e2a866cef2cc3b13f8f",
+        "official_en_sha256": "7baa5aa17520130a9557a862ed94a106a1199068f5141e6156da6a8612368059"
+      },
+      "text": {
+        "jp": "このテクスチャ用のデータを取得できないため、初期化に失敗しました",
+        "official_en": "Data could not be retrieved for this texture, initialization failed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:LandscapeOverrideMaterialMismatch:959e23c1",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGenerateGrassMapsElement",
+        "key": "LandscapeOverrideMaterialMismatch",
+        "jp_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:LandscapeOverrideMaterialMismatch:959e23c1",
+        "official_en_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:LandscapeOverrideMaterialMismatch:959e23c1",
+        "jp_sha256": "841025333e63475a1468eff68f13f1fdeb53039a3b62a74322dda49b7973ec72",
+        "official_en_sha256": "074af2e2569abce28cc5a9e969ce2090be385cf0b41871628c87fff622520e23"
+      },
+      "text": {
+        "jp": "ランドスケープ プロキシ マテリアル {2} と一致しなかったオーバーライド マテリアル {1} があるランドスケープ コンポーネント {0} が発生しました。現時点でサポートされているのは、ランドスケープごとに 1 つのランドスケープ マテリアルだけです",
+        "official_en": "Encountered landscape component {0} with override material {1} that did not match the landscape proxy material {2}. Only one landscape material per landscape is supported at this time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:LandscapeMaterialMismatch:32dcc77f",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGenerateGrassMapsElement",
+        "key": "LandscapeMaterialMismatch",
+        "jp_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:LandscapeMaterialMismatch:32dcc77f",
+        "official_en_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:LandscapeMaterialMismatch:32dcc77f",
+        "jp_sha256": "8088a6882f52f924288247b50356f31d38b556fd3c477d0071516c0a94b8d6c9",
+        "official_en_sha256": "b801680b022c366a0e35c425720531003d8757f3ef1056d2441be567d21af171"
+      },
+      "text": {
+        "jp": "同じランドスケープ上に複数のランドスケープ マテリアルが見つかりました。現時点でサポートされているのは、ランドスケープごとに 1 つのランドスケープ マテリアルだけです",
+        "official_en": "Encountered multiple landscape materials on the same landscape. Only one landscape material per landscape is supported at this time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:FailExtractGrassTypeOverrides:ac645a18",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGenerateGrassMapsElement",
+        "key": "FailExtractGrassTypeOverrides",
+        "jp_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:FailExtractGrassTypeOverrides:ac645a18",
+        "official_en_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:FailExtractGrassTypeOverrides:ac645a18",
+        "jp_sha256": "2e0420f0beeeeb8e2be8250257a7112a0da9215926fe698e99cfa32ab89197f8",
+        "official_en_sha256": "8b77da3bc71204f5ad0d9db89ba7e98fe4b261cf8f6694adbf1d7c871d0a9120"
+      },
+      "text": {
+        "jp": "草のタイプ オーバーライドを抽出できませんでした",
+        "official_en": "Failed to extract grass type overrides.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:NodeTitle:53fbccc5",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGenerateGrassMapsElement",
+        "key": "NodeTitle",
+        "jp_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:NodeTitle:53fbccc5",
+        "official_en_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:NodeTitle:53fbccc5",
+        "jp_sha256": "9182a557456f71d756276f42736aad923dfeac23d1075ef9e26cf2bcf580379c",
+        "official_en_sha256": "ef9f8b9218f718662a5e720924587665db8546852217581173748c73b1604467"
+      },
+      "text": {
+        "jp": "草マップを生成",
+        "official_en": "Generate Grass Maps",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:NodeTooltip:fe9cd412",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGenerateGrassMapsElement",
+        "key": "NodeTooltip",
+        "jp_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:NodeTooltip:fe9cd412",
+        "official_en_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:NodeTooltip:fe9cd412",
+        "jp_sha256": "58cd9272e50c9e0f8d8e07112eca6b1920871deff71017f368ca212611dd3a38",
+        "official_en_sha256": "79c5231b61893a4453129b57663a4bd16d470ce24501a2ac2298abd7f38e7a85"
+      },
+      "text": {
+        "jp": "ランドスケープ草マップを GPU で生成します",
+        "official_en": "Generates landscape grass maps on the GPU.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:MissingGrassName:580b5cf0",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGenerateGrassMapsElement",
+        "key": "MissingGrassName",
+        "jp_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:MissingGrassName:580b5cf0",
+        "official_en_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:MissingGrassName:580b5cf0",
+        "jp_sha256": "fd5a07f81ba526a599376976ee73dfbce84c360a81051d3ddff37c7a235202cf",
+        "official_en_sha256": "7814c05b46e0b5521d6351b436c9af8e2b058c014a2e740cb3f90507eb89d8cb"
+      },
+      "text": {
+        "jp": "草タイプ名がないため、データにラベル付けできませんでした。ランドスケープ マテリアルにあるすべての GrassTypes にアセットが関連付けられるようにします",
+        "official_en": "Grass type name was missing, data could not be labeled. Make sure all GrassTypes in your landscape material have an asset associated.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:MultipleLandscapesNotSpported:7c47248f",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGenerateGrassMapsElement",
+        "key": "MultipleLandscapesNotSpported",
+        "jp_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:MultipleLandscapesNotSpported:7c47248f",
+        "official_en_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:MultipleLandscapesNotSpported:7c47248f",
+        "jp_sha256": "12318e8ceac104cf3692c12e4860f571f7a60f3052953cd2449d8725a880fb02",
+        "official_en_sha256": "978532682ab9b884ed9796be8ba141f2db4b4610f59f92835dc03dd616ba3245"
+      },
+      "text": {
+        "jp": "複数のランドスケープ データ入力は現時点ではサポートされていないため、最初のものだけが使用されます",
+        "official_en": "Multiple landscape data inputs not currently supported, only first will be used.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:LandscapeProxyLost:d400a10c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGenerateGrassMapsElement",
+        "key": "LandscapeProxyLost",
+        "jp_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:LandscapeProxyLost:d400a10c",
+        "official_en_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:LandscapeProxyLost:d400a10c",
+        "jp_sha256": "b0b3234c55e8d0ef668077708ece2b045b5d1118dce729bb12b0e808e893e99a",
+        "official_en_sha256": "e7ef4ec1b45b36e0786669a89bd1eac71c2756f176479a255e48347c567516c6"
+      },
+      "text": {
+        "jp": "ランドスケープ プロキシ アクタへの参照が失われたため、草マップは生成されません",
+        "official_en": "Reference to landscape proxy actor lost, grass maps will not be generated.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:LandscapeComponentLost:2992e6c7",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGenerateGrassMapsElement",
+        "key": "LandscapeComponentLost",
+        "jp_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:LandscapeComponentLost:2992e6c7",
+        "official_en_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:LandscapeComponentLost:2992e6c7",
+        "jp_sha256": "f8cad09908086e5fd92b5226a480b42c034172a92a1b7840877b0629e179921d",
+        "official_en_sha256": "3132aebaae01e630f1aeae7c484d833d84bbd1739bde4b09d3d4d44b9fab0496"
+      },
+      "text": {
+        "jp": "1 つまたは複数のランドスケープ コンポーネントへの参照が失われたため、草マップは生成されません",
+        "official_en": "Reference to one or more landscape components lost, grass maps will not be generated.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:MaxLandscapeComponentsExceeded:a129b0f8",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGenerateGrassMapsElement",
+        "key": "MaxLandscapeComponentsExceeded",
+        "jp_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:MaxLandscapeComponentsExceeded:a129b0f8",
+        "official_en_record_id": "switch:locres:set-01:PCGGenerateGrassMapsElement:MaxLandscapeComponentsExceeded:a129b0f8",
+        "jp_sha256": "c21b311f8b09d2e247b2bbadb32ed2972e8e66559c23c1fa8b6379967c2cdeb3",
+        "official_en_sha256": "7b281b595c0ec299c155ac075addc2fd1bd7b462266f69fc85e2a3b7261812a1"
+      },
+      "text": {
+        "jp": "生成ドメインがオーバーラップしているランドスケープ コンポーネントが多すぎます。それらのコンポーネントを小さいグリッド サイズで分割することを検討してください",
+        "official_en": "Too many landscape components overlap the generation domain. Consider partitioning the component onto a smaller grid size.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

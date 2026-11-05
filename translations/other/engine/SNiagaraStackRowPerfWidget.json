@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SNiagaraStackRowPerfWidget",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:GroupHeaderUpdateGPUTooltip:01e6da8b",
+      "source": {
+        "set": "set-02",
+        "namespace": "SNiagaraStackRowPerfWidget",
+        "key": "GroupHeaderUpdateGPUTooltip",
+        "jp_record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:GroupHeaderUpdateGPUTooltip:01e6da8b",
+        "official_en_record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:GroupHeaderUpdateGPUTooltip:01e6da8b",
+        "jp_sha256": "f9c21157fd92a5ea118eb15f163f6f18fa200583d3864039251d0c592907dc1c",
+        "official_en_sha256": "899bf3288d48a151b5a506329c26ab1976f711ece5bd6f4209bedbf29822ef94"
+      },
+      "text": {
+        "jp": "これは、スポーン スクリプト呼び出しと更新スクリプト呼び出しを組み合わせた GPU ランタイム コストの合計です。\nGPU 統計はそのレベルで測定できないため、個々のモジュールにかかるコストはありません。",
+        "official_en": "This is the total GPU runtime cost of the combined spawn and update script call.\nThere are no individual module costs because the gpu stats cannot be measured on that level.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:GroupHeaderSimStageGPUTooltip:d1948b45",
+      "source": {
+        "set": "set-02",
+        "namespace": "SNiagaraStackRowPerfWidget",
+        "key": "GroupHeaderSimStageGPUTooltip",
+        "jp_record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:GroupHeaderSimStageGPUTooltip:d1948b45",
+        "official_en_record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:GroupHeaderSimStageGPUTooltip:d1948b45",
+        "jp_sha256": "d19697ca20f00113ba03604208cd649697f583b0ae17fa2a0cce5b7dd2c9d3f1",
+        "official_en_sha256": "5eb14bdd97f244795996a775e3647125a8aa3ebc98c16cb1bdfb030d8ddae272"
+      },
+      "text": {
+        "jp": "これは、シミュレーション ステージ スクリプトにかかる GPU ランタイム コストの合計です。\nシミュレーション ステージに複数のイテレーションがある場合、このコストはイテレーションすべての合計に対するものとなります。",
+        "official_en": "This is the total GPU runtime cost of the simulation stage script.\nIf the simulation stage has more than one iteration then this is the combined sum of all iterations.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:GroupHeaderEmitterTooltip:8a5a3a7d",
+      "source": {
+        "set": "set-02",
+        "namespace": "SNiagaraStackRowPerfWidget",
+        "key": "GroupHeaderEmitterTooltip",
+        "jp_record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:GroupHeaderEmitterTooltip:8a5a3a7d",
+        "official_en_record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:GroupHeaderEmitterTooltip:8a5a3a7d",
+        "jp_sha256": "b8c4b8adb90f30315c04db7899e7bf21b04cbd0c96b69590c92c9944be32178b",
+        "official_en_sha256": "120049a04c46ccfdfb92191a0dca62498814515eef76d1a84135341f346f1d43"
+      },
+      "text": {
+        "jp": "これは、エミッタ スクリプトとそのモジュール呼び出しにかかるランタイム コストの合計です。\nスクリプト自体にもオーバーヘッドがあるため、モジュール呼び出しの合計が 100% にならないことに注意してください。",
+        "official_en": "This is the total runtime cost of the emitter script and its module calls.\nNote that the module calls do not add up to 100% because the script itself has some overhead as well.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:GroupHeaderTooltip:d98e346a",
+      "source": {
+        "set": "set-02",
+        "namespace": "SNiagaraStackRowPerfWidget",
+        "key": "GroupHeaderTooltip",
+        "jp_record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:GroupHeaderTooltip:d98e346a",
+        "official_en_record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:GroupHeaderTooltip:d98e346a",
+        "jp_sha256": "e9c8093fc16cd2c19c11654ceb80145a4d2c7ac1612f391a6088ede390910f9f",
+        "official_en_sha256": "8a3cc277729186370ff69693375f2cd7337496c6a6d310a6139d90448fc2451f"
+      },
+      "text": {
+        "jp": "これは スクリプトとそのモジュール呼び出しにかかるランタイム コストの合計です。\nスクリプト自体にもオーバーヘッドがあるため、モジュール呼び出しの合計が 100% にならないことに注意してください。",
+        "official_en": "This is the total runtime cost of the script and its module calls.\nNote that the module calls do not add up to 100% because the script itself has some overhead as well.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:GroupHeaderSpawnTooltip:1d96ac86",
+      "source": {
+        "set": "set-02",
+        "namespace": "SNiagaraStackRowPerfWidget",
+        "key": "GroupHeaderSpawnTooltip",
+        "jp_record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:GroupHeaderSpawnTooltip:1d96ac86",
+        "official_en_record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:GroupHeaderSpawnTooltip:1d96ac86",
+        "jp_sha256": "3ade08ce2e1d8b1db9a7cbb91ea4721df0652c1b0b60cf857c32a1de750ffed9",
+        "official_en_sha256": "8df2f18db0e932d2f4e1b90923f56ef86162f1fc04b3cb1ea1bc589114eb7810"
+      },
+      "text": {
+        "jp": "これは、スポーン スクリプトとそのモジュール呼び出しにかかるランタイム コストの合計です。\nスクリプト自体にもオーバーヘッドがあるため、モジュール呼び出しの合計が 100% にならないことに注意してください。\n補間スポーンが有効になっている場合、これにはスポーンされたパーティクルで更新スクリプトを実行した際のコストも含まれます",
+        "official_en": "This is the total runtime cost of the spawn script and its module calls.\nNote that the module calls do not add up to 100% because the script itself has some overhead as well.\nWhen interpolated spawn is enabled, this also includes the cost of running the update script on the spawned particles.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:GroupHeaderSystemTooltip:1c9df9d8",
+      "source": {
+        "set": "set-02",
+        "namespace": "SNiagaraStackRowPerfWidget",
+        "key": "GroupHeaderSystemTooltip",
+        "jp_record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:GroupHeaderSystemTooltip:1c9df9d8",
+        "official_en_record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:GroupHeaderSystemTooltip:1c9df9d8",
+        "jp_sha256": "503352aff208c4cbfecbc0af362c526749ea6ef798561c89f503619fe6fdf1db",
+        "official_en_sha256": "5a318efd368b6aa23f2cc48dab35b974349072c383d012fe646b3f48adc9841f"
+      },
+      "text": {
+        "jp": "これは、システム スクリプトとそのモジュール呼び出しにかかるランタイム コストの合計です。\nエミッタ スクリプトはシステム スクリプトに埋め込まれているため、これらもこのコストに含まれており、異なる色で表示されます。\nシステム スクリプト自体にもオーバーヘッドがあるため、モジュール呼び出しの合計が 100% にならないことに注意してください。",
+        "official_en": "This is the total runtime cost of the system script and its module calls.\nSince the emitter scripts are embedded in the system scripts, they are part of this cost as well and visualized in a different color.\nNote that the module calls do not add up to 100% because the system script itself has some overhead as well.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:ModuleEntryTooltip:7d967ba5",
+      "source": {
+        "set": "set-02",
+        "namespace": "SNiagaraStackRowPerfWidget",
+        "key": "ModuleEntryTooltip",
+        "jp_record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:ModuleEntryTooltip:7d967ba5",
+        "official_en_record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:ModuleEntryTooltip:7d967ba5",
+        "jp_sha256": "070aae8189d880892fd3d7ff02d74c9fdf89c6299b91fa59e3b6c5444935dd27",
+        "official_en_sha256": "e94251a1044cead16961e24842523e752d4bb13881427026a71b0ef94f28cd0c"
+      },
+      "text": {
+        "jp": "これは、モジュールのランタイム コストをパーセントで表示します。\n表示されるパーセンテージは、エミッタ全体に対するものではなく、親スクリプトのみに対するものです。\nモジュール コストには、非同期コリジョン トレースなど、DI 呼び出しから他のスレッドへの作業は含まれません。",
+        "official_en": "This shows the module runtime cost in percent.\nThe displayed percentage relates only to the parent script, not the whole emitter.\nThe module cost does not include work from DI calls to other threads, e.g. async collision traces.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:EmitterEntryTooltip:9e6fe6f1",
+      "source": {
+        "set": "set-02",
+        "namespace": "SNiagaraStackRowPerfWidget",
+        "key": "EmitterEntryTooltip",
+        "jp_record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:EmitterEntryTooltip:9e6fe6f1",
+        "official_en_record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:EmitterEntryTooltip:9e6fe6f1",
+        "jp_sha256": "2d007b4b495939e51d1a8b7efb21643c8ee4d4d1914ed753b4e55b00287dae3b",
+        "official_en_sha256": "7e256f83601403cc657859a68c97986d23997ad118a2cd74a4cdff4fb0716b5e"
+      },
+      "text": {
+        "jp": "これは、モジュールのランタイム コストをパーセントで表示しています。\n表示されるパーセンテージは、システム スクリプト全体に対するものではなく、親エミッタ スクリプトのみに対するものです。\nエミッタ スクリプト自体にもオーバーヘッドがあるため、モジュール呼び出しの合計が 100% にならないことに注意してください。",
+        "official_en": "This shows the module runtime cost in percent.\nThe displayed percentages relate only to the parent emitter script, not the whole system script.\nNote that the module calls do not add up to 100% because the emitter script itself has some overhead as well.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:SystemEntryTooltip:116a8497",
+      "source": {
+        "set": "set-02",
+        "namespace": "SNiagaraStackRowPerfWidget",
+        "key": "SystemEntryTooltip",
+        "jp_record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:SystemEntryTooltip:116a8497",
+        "official_en_record_id": "switch:locres:set-01:SNiagaraStackRowPerfWidget:SystemEntryTooltip:116a8497",
+        "jp_sha256": "dfd5b025a7e293c18e7d102e8dfe9dda2dd8d6aca681974b83d1eb2d3a323464",
+        "official_en_sha256": "1cc2e51a70a761c1a3796dfaca6162c874e583b255032cdf0f65de6827c2cf6a"
+      },
+      "text": {
+        "jp": "これは、モジュールのランタイム コストをパーセントで表示します。\n表示されるパーセンテージは、エミッタ スクリプトが埋め込まれているシステム スクリプト全体に対するものです。\nエミッタ コストがなくても、システム スクリプト自体にもオーバーヘッドがあるため、モジュール呼び出しの合計が 100% にならないことに注意してください。",
+        "official_en": "This shows the module runtime cost in percent.\nThe displayed percentages relate to the full system script, which has the emitter scripts embedded.\nNote that even without emitter cost, the module calls do not add up to 100% because the system script itself has some overhead as well.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

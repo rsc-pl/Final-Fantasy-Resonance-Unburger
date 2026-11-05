@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_C07_700_01",
+    "scene_id": "ST_C07_700_01",
+    "chapter": "chapter07",
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_C07_700_01:700_01_001:2de480b5",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_C07_700_01",
+        "key": "700_01_001",
+        "jp_record_id": "switch:locres:set-02:ST_C07_700_01:700_01_001:2de480b5",
+        "official_en_record_id": "switch:locres:set-02:ST_C07_700_01:700_01_001:2de480b5",
+        "jp_sha256": "e560a9b45fbff80a6a3381b216ffe1e7a00597675807096245cddc5bce74f12a",
+        "official_en_sha256": "6e21c86fff3cb86581284773cf5c66dcf3683585753941f018357f9263963c58"
+      },
+      "text": {
+        "jp": "ん……？\r\nあの竜巻はなんだ？",
+        "official_en": "Huh? Anyone else see that tornado?",
+        "real_en": "Huh...? What's that tornado?"
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_C07_700_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "レイン",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0002",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_C07_700_01/700_01_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

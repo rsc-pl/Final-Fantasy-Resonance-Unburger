@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "USDShadeConversion",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:USDShadeConversion:MissingPrimvar:9ac1d846",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDShadeConversion",
+        "key": "MissingPrimvar",
+        "jp_record_id": "switch:locres:set-01:USDShadeConversion:MissingPrimvar:9ac1d846",
+        "official_en_record_id": "switch:locres:set-01:USDShadeConversion:MissingPrimvar:9ac1d846",
+        "jp_sha256": "d007a0bf78f3dae80a89013ccf162ec94997da237c9d39d48516578acd09b01a",
+        "official_en_sha256": "a8d6a5e44eb6194f7d4a1c49326d99f9b5220e456f9d0c15ef87305afbdcc4f8"
+      },
+      "text": {
+        "jp": "マテリアル「{2}」でマテリアル パラメータ「{1}」の設定時に primvar「{0}」が見つかりませんでした。利用可能な primvar および UV インデックス：{3}.{4}",
+        "official_en": "Failed to find primvar '{0}' when setting material parameter '{1}' on material '{2}'. Available primvars and UV indices: {3}.{4}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDShadeConversion:FailedToParseTexture:f919b9d0",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDShadeConversion",
+        "key": "FailedToParseTexture",
+        "jp_record_id": "switch:locres:set-01:USDShadeConversion:FailedToParseTexture:f919b9d0",
+        "official_en_record_id": "switch:locres:set-01:USDShadeConversion:FailedToParseTexture:f919b9d0",
+        "jp_sha256": "c16fe2008dcf3145414a9705b6003173800275c1df9770daadb697f21979f84a",
+        "official_en_sha256": "96ea30aa1c6c61484a769575270ca4889367a7d484636ac130003eb99a9c98d5"
+      },
+      "text": {
+        "jp": "パス「{0}」でテクスチャの解析できませんでした。",
+        "official_en": "Failed to parse texture at path '{0}'",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:USDShadeConversion:DisabledVirtualTexturing:ac7687e6",
+      "source": {
+        "set": "set-02",
+        "namespace": "USDShadeConversion",
+        "key": "DisabledVirtualTexturing",
+        "jp_record_id": "switch:locres:set-01:USDShadeConversion:DisabledVirtualTexturing:ac7687e6",
+        "official_en_record_id": "switch:locres:set-01:USDShadeConversion:DisabledVirtualTexturing:ac7687e6",
+        "jp_sha256": "4c5a54cfe3c549a7d913240d1a76ad874726b85a78ebfc804cab7eb38f5d09fa",
+        "official_en_sha256": "949c47e92e4bf769a1085856bc842f8b8cf1a9fce95d710adb4b1051c416b5ea"
+      },
+      "text": {
+        "jp": "テクスチャ「{0}」 (プリミティブ「{1}」から) では仮想テクスチャが必要ですが、この機能はプロジェクトで無効になっています",
+        "official_en": "Texture '{0}' (from prim '{1}') requires Virtual Textures, but the feature is disabled for this project",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

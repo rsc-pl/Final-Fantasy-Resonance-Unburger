@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MetaHumanVerificationRuleCollection",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MetaHumanVerificationRuleCollection:AssetNotLoadable:b485432f",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanVerificationRuleCollection",
+        "key": "AssetNotLoadable",
+        "jp_record_id": "switch:locres:set-01:MetaHumanVerificationRuleCollection:AssetNotLoadable:b485432f",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanVerificationRuleCollection:AssetNotLoadable:b485432f",
+        "jp_sha256": "8f86b8c854c4b895c351768ab6751f61a39cea349084b96baf0deb510a175b9a",
+        "official_en_sha256": "ccb63166329d235773aea79deb4394e46f2590878404e6ee37a457c3d0768d0c"
+      },
+      "text": {
+        "jp": "検証用のアセットを読み込めません。プラグイン マネージャーに必要なプラグインがすべてロードされていることを確認してください",
+        "official_en": "Unable to load asset for verification. Please ensure all required plugins are loaded in the plugin manager",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MetaHumanVerificationRuleCollection:ModuleNotLoaded:323e3eb7",
+      "source": {
+        "set": "set-02",
+        "namespace": "MetaHumanVerificationRuleCollection",
+        "key": "ModuleNotLoaded",
+        "jp_record_id": "switch:locres:set-01:MetaHumanVerificationRuleCollection:ModuleNotLoaded:323e3eb7",
+        "official_en_record_id": "switch:locres:set-01:MetaHumanVerificationRuleCollection:ModuleNotLoaded:323e3eb7",
+        "jp_sha256": "6b85fef3aed4b25702bb88e5fd65ac9912e4037187297ca42f3d91eeccd98b48",
+        "official_en_sha256": "452340cb76910597f1e9b21b124838573fddc20dc0789b2f659df605ed42079f"
+      },
+      "text": {
+        "jp": "検証用のアセットを読み込めません。MetaHumanCharacter プラグインがプラグイン マネージャーにロードされていることを確認してください",
+        "official_en": "Unable to load asset for verification. Please ensure the MetaHumanCharacter plugin is loaded in the plugin manager",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "dialogue_line",
+    "namespace": "ST_C01_015_01",
+    "scene_id": "ST_C01_015_01",
+    "chapter": "chapter01",
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-02:ST_C01_015_01:015_01_002:6bab1d82",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_C01_015_01",
+        "key": "015_01_002",
+        "jp_record_id": "switch:locres:set-02:ST_C01_015_01:015_01_002:6bab1d82",
+        "official_en_record_id": "switch:locres:set-02:ST_C01_015_01:015_01_002:6bab1d82",
+        "jp_sha256": "3ee6099a33f18829e3a82db7cffe62250b4c875d4a7f9bf16979c5daf7847471",
+        "official_en_sha256": "586694811a5c17778d872d867bdaa3e962e93fb5175370e7dc9100bc9924e8b5"
+      },
+      "text": {
+        "jp": "ああ。\r\n陛下に土の神殿でのことを\r\n報告しないと。",
+        "official_en": "Yeah, let’s get back to Grandshelt Castle. We need to tell His Majesty about what happened at the Earth Shrine.",
+        "real_en": "Yeah. We need to report what happened at the Earth Shrine to His Majesty."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_C01_015_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "レイン",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0002",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_C01_015_01/015_01_002"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-02:ST_C01_015_01:015_01_001:914b508b",
+      "source": {
+        "set": "set-02",
+        "namespace": "ST_C01_015_01",
+        "key": "015_01_001",
+        "jp_record_id": "switch:locres:set-02:ST_C01_015_01:015_01_001:914b508b",
+        "official_en_record_id": "switch:locres:set-02:ST_C01_015_01:015_01_001:914b508b",
+        "jp_sha256": "8a88c5ec496300bfdbb55b7c006411520867cca76ae7b0d1c111bc716275f6b7",
+        "official_en_sha256": "43f8867efdf97601bbd657d2b8c841863e112d7873970818a2c2be02ff104340"
+      },
+      "text": {
+        "jp": "準備できたようだな。",
+        "official_en": "Are we ready to head out?",
+        "real_en": "Looks like we're ready."
+      },
+      "review": {
+        "status": "CHANGE"
+      },
+      "function": "dialogue_line",
+      "context": {
+        "scene_ref": "ST_C01_015_01",
+        "sequence": null,
+        "speaker": {
+          "applicability": "REQUIRED",
+          "label_jp": "ラスウェル",
+          "label_status": "VERIFIED",
+          "name_entry": "CharaName0003",
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": [
+            "key-identities:ST_C01_015_01/015_01_001"
+          ]
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

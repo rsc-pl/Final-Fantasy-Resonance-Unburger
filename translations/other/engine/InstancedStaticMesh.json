@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "InstancedStaticMesh",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:InstancedStaticMesh:UniqueStaticLightingForLODWarning:105b8420",
+      "source": {
+        "set": "set-02",
+        "namespace": "InstancedStaticMesh",
+        "key": "UniqueStaticLightingForLODWarning",
+        "jp_record_id": "switch:locres:set-01:InstancedStaticMesh:UniqueStaticLightingForLODWarning:105b8420",
+        "official_en_record_id": "switch:locres:set-01:InstancedStaticMesh:UniqueStaticLightingForLODWarning:105b8420",
+        "jp_sha256": "9c511a67a1a07d50ea0d6d49f7f12f3e69d7e7cb07a6b6d43109cecba4648b9a",
+        "official_en_sha256": "31b8286abf5706a588ad22cd2ab9ccaf5236268981c64bcad73cf521c1e99e86"
+      },
+      "text": {
+        "jp": "インスタンス化されたメッシュでは、各LODに固有の静的ライティングをまだサポートしていません。ライトマップUVがすべてのLODで同じでない限り、LOD 1+のライティングが正しくない可能性があります。",
+        "official_en": "Instanced meshes don't yet support unique static lighting for each LOD. Lighting on LOD 1+ may be incorrect unless lightmap UVs are the same for all LODs.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InstancedStaticMesh:LargeStaticLightingWarning:3c6951d3",
+      "source": {
+        "set": "set-02",
+        "namespace": "InstancedStaticMesh",
+        "key": "LargeStaticLightingWarning",
+        "jp_record_id": "switch:locres:set-01:InstancedStaticMesh:LargeStaticLightingWarning:3c6951d3",
+        "official_en_record_id": "switch:locres:set-01:InstancedStaticMesh:LargeStaticLightingWarning:3c6951d3",
+        "jp_sha256": "5c863c39fde8911b7bc1a4c940dd72c7c02a6aa2ae494cf4c1091606ded01a6e",
+        "official_en_sha256": "f0430333d9219ef54f152898723006101882c15d4a33ffb49459b5a107a122d1"
+      },
+      "text": {
+        "jp": "このInstancedStaticMeshComponentの合計ライトマップサイズが大きすぎます。コンポーネントのライトマップ解像度、またはこのコンポーネントのメッシュインスタンス数の削減を検討してください。",
+        "official_en": "The total lightmap size for this InstancedStaticMeshComponent is large, consider reducing the component's lightmap resolution or number of mesh instances in this component",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InstancedStaticMesh:FailedStaticLightingWarning:9dadc061",
+      "source": {
+        "set": "set-02",
+        "namespace": "InstancedStaticMesh",
+        "key": "FailedStaticLightingWarning",
+        "jp_record_id": "switch:locres:set-01:InstancedStaticMesh:FailedStaticLightingWarning:9dadc061",
+        "official_en_record_id": "switch:locres:set-01:InstancedStaticMesh:FailedStaticLightingWarning:9dadc061",
+        "jp_sha256": "ab37c6fcfd5252431f461ba32278b69a167a44a7f44a789c647bb0f015d33110",
+        "official_en_sha256": "f3412f175674e062a1d85f1a597940d055e9948c34e7a4d5f79294b9de499299"
+      },
+      "text": {
+        "jp": "インスタンス毎にサイズを抑えていますが、それでも InstancedStaticMeshComponent のライトマップのトータルサイズが大きすぎます。このコンポーネントに含まれるメッシュインスタンスの数を減らしてください。",
+        "official_en": "The total lightmap size for this InstancedStaticMeshComponent is too big no matter how much we reduce the per-instance size, the number of mesh instances in this component must be reduced",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:InstancedStaticMesh:ReducedStaticLightingWarning:94de9559",
+      "source": {
+        "set": "set-02",
+        "namespace": "InstancedStaticMesh",
+        "key": "ReducedStaticLightingWarning",
+        "jp_record_id": "switch:locres:set-01:InstancedStaticMesh:ReducedStaticLightingWarning:94de9559",
+        "official_en_record_id": "switch:locres:set-01:InstancedStaticMesh:ReducedStaticLightingWarning:94de9559",
+        "jp_sha256": "4dcca756b43aa405f70dcecb459f3aa55fc1899cc8d51db5a475a33d33c10cfb",
+        "official_en_sha256": "4fb82d445ded4c57941d3a8b3a0996b8bb4d0b2b0d314b4ac8ff63a46490646e"
+      },
+      "text": {
+        "jp": "InstancedStaticMeshComponent のライトマップのトータルサイズが大きすぎるため自動的に減らされました。コンポーネントのライトマップの解像度を下げるか、メッシュインスタンスの数を少なくしてはいかがでしょうか。",
+        "official_en": "The total lightmap size for this InstancedStaticMeshComponent was too big and it was automatically reduced. Consider reducing the component's lightmap resolution or number of mesh instances in this component",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SExportTrajectoriesWindow",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SExportTrajectoriesWindow:ExportButton:7dc21478",
+      "source": {
+        "set": "set-02",
+        "namespace": "SExportTrajectoriesWindow",
+        "key": "ExportButton",
+        "jp_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:ExportButton:7dc21478",
+        "official_en_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:ExportButton:7dc21478",
+        "jp_sha256": "a662b0b4ed5c5a6c3c5ee0d685e3c1fa0be2df26df29055fc284ef8f1cd1b133",
+        "official_en_sha256": "73ad571b0abb8d181051488745867f9a2c8c022a713b7fe9ec6f86e83688647f"
+      },
+      "text": {
+        "jp": "ベイク",
+        "official_en": "Bake Out",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SExportTrajectoriesWindow:BakeTrajectoryButtonToolTip:34e70ca5",
+      "source": {
+        "set": "set-02",
+        "namespace": "SExportTrajectoriesWindow",
+        "key": "BakeTrajectoryButtonToolTip",
+        "jp_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:BakeTrajectoryButtonToolTip:34e70ca5",
+        "official_en_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:BakeTrajectoryButtonToolTip:34e70ca5",
+        "jp_sha256": "79db7bca10ac70ad5a25b63df28a566e434e4743f2b91e0ab836df1c9f464018",
+        "official_en_sha256": "e3ceba62fc11fcc27cbb8fd15d85fa4d49222fab5b894611d5ee143d03eeb4db"
+      },
+      "text": {
+        "jp": "軌道をターゲット アセットにベイクします",
+        "official_en": "Bake out trajectory to the target asset",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SExportTrajectoriesWindow:InvalidTrajectoryTooltip:3aadfc85",
+      "source": {
+        "set": "set-02",
+        "namespace": "SExportTrajectoriesWindow",
+        "key": "InvalidTrajectoryTooltip",
+        "jp_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:InvalidTrajectoryTooltip:3aadfc85",
+        "official_en_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:InvalidTrajectoryTooltip:3aadfc85",
+        "jp_sha256": "8f70f7140be613ad36f02f304326d0f8a236ab7d3dea20273c6520c090564229",
+        "official_en_sha256": "3b457bbc3cf90564a61b42105f2e79958005bc1b135aa3781f7feb70b49b23b2"
+      },
+      "text": {
+        "jp": "無効です。軌道データが空であるか、ポーズとサンプル間に不一致があります",
+        "official_en": "Invalid. Trajectory data is empty or there is a mistmatch between poses and samples.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SExportTrajectoriesWindow:NoTrajectoryInTimelineLabel:7857973e",
+      "source": {
+        "set": "set-02",
+        "namespace": "SExportTrajectoriesWindow",
+        "key": "NoTrajectoryInTimelineLabel",
+        "jp_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:NoTrajectoryInTimelineLabel:7857973e",
+        "official_en_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:NoTrajectoryInTimelineLabel:7857973e",
+        "jp_sha256": "be1c9be1c58835967499ff006e19c497ee121ddcedd124ce86aa239c122c780a",
+        "official_en_sha256": "22ecd22d93ddae45ad48955da2a834a9bbb01197a0b2caddc4b46a5f63d91313"
+      },
+      "text": {
+        "jp": "選択されているか利用可能な軌道がありません",
+        "official_en": "No trajectory selected or available",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SExportTrajectoriesWindow:SetExportRangeMaxLabel:962b3cf4",
+      "source": {
+        "set": "set-02",
+        "namespace": "SExportTrajectoriesWindow",
+        "key": "SetExportRangeMaxLabel",
+        "jp_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:SetExportRangeMaxLabel:962b3cf4",
+        "official_en_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:SetExportRangeMaxLabel:962b3cf4",
+        "jp_sha256": "0f7b847a9b5d92c4b9283670a7ae9b3eab9d58d59fd13e88bcaba1b7e1b4d7da",
+        "official_en_sha256": "983080b96f0bde52345a6882110c541a45b8c5e8f146558cd015509453aa0370"
+      },
+      "text": {
+        "jp": "エクスポート範囲の最大をフレーム {0}* ({1}s) で設定",
+        "official_en": "Set export range max at frame {0}* ({1}s)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SExportTrajectoriesWindow:SetExportRangeMinLabel:223f90ed",
+      "source": {
+        "set": "set-02",
+        "namespace": "SExportTrajectoriesWindow",
+        "key": "SetExportRangeMinLabel",
+        "jp_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:SetExportRangeMinLabel:223f90ed",
+        "official_en_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:SetExportRangeMinLabel:223f90ed",
+        "jp_sha256": "950188b9f5f3745332b52e73a597bd9be21a62904d5d7d1366b1fe1cf9a26f8b",
+        "official_en_sha256": "bab4aeb2e71e69a4b403de6a6646bcb04610750d1f80ae1f536fef14c0fa679b"
+      },
+      "text": {
+        "jp": "エクスポート範囲の最小をフレーム {0}* ({1}s) で設定",
+        "official_en": "Set export range min at frame {0}* ({1}s)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SExportTrajectoriesWindow:SetThisFrameAsTheOriginLabel:653a977e",
+      "source": {
+        "set": "set-02",
+        "namespace": "SExportTrajectoriesWindow",
+        "key": "SetThisFrameAsTheOriginLabel",
+        "jp_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:SetThisFrameAsTheOriginLabel:653a977e",
+        "official_en_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:SetThisFrameAsTheOriginLabel:653a977e",
+        "jp_sha256": "6c58eb30ce9b93d226b6d78410843b1d42be59298e89880c2f4ccf891d549fb5",
+        "official_en_sha256": "8626741de619c74ec987eaa30c1584c8edf3195185decfe3ccdf3b0842593b72"
+      },
+      "text": {
+        "jp": "原点をフレーム {0}* ({1}s) で設定",
+        "official_en": "Set origin at frame {0}* ({1}s)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SExportTrajectoriesWindow:SetExportRangeMaxToolTip:4711974a",
+      "source": {
+        "set": "set-02",
+        "namespace": "SExportTrajectoriesWindow",
+        "key": "SetExportRangeMaxToolTip",
+        "jp_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:SetExportRangeMaxToolTip:4711974a",
+        "official_en_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:SetExportRangeMaxToolTip:4711974a",
+        "jp_sha256": "cc73ab6e9786364efaab5be068cc0565a4c6256eec1888041a70114ceacb656e",
+        "official_en_sha256": "b98ed6851593e8b547c7ba75017d8b66d4a0a462a8bb8eb14c75d199303355a2"
+      },
+      "text": {
+        "jp": "現在のスクラブ フレームの時間を使用して ExportRange の最大値を設定します",
+        "official_en": "Sets the ExportRange's Max value using the current scrub frame's time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SExportTrajectoriesWindow:SetExportRangeMinToolTip:f2dee79f",
+      "source": {
+        "set": "set-02",
+        "namespace": "SExportTrajectoriesWindow",
+        "key": "SetExportRangeMinToolTip",
+        "jp_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:SetExportRangeMinToolTip:f2dee79f",
+        "official_en_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:SetExportRangeMinToolTip:f2dee79f",
+        "jp_sha256": "d5eeeef66f480216dcc7c05733bbdbe8982f2269ef52d7898ee3f5b4c5ac9e8a",
+        "official_en_sha256": "678226eea8881c6b6938fe0d52ec44f62079c85d197e07117e3006374cc086fe"
+      },
+      "text": {
+        "jp": "現在のスクラブ フレームの時間を使用して ExportRange の最小値を設定します",
+        "official_en": "Sets the ExportRange's Min value using the current scrub frame's time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SExportTrajectoriesWindow:SetExportOriginToolTip:c027c809",
+      "source": {
+        "set": "set-02",
+        "namespace": "SExportTrajectoriesWindow",
+        "key": "SetExportOriginToolTip",
+        "jp_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:SetExportOriginToolTip:c027c809",
+        "official_en_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:SetExportOriginToolTip:c027c809",
+        "jp_sha256": "5755d65186edd8e96195c9cedaa2d0c805acd4e423b133bfe0b04612954e39cb",
+        "official_en_sha256": "b9fa4944352e8571e0acf2b0c23b5ee6131f6166d919ed2193bc565b35d9194f"
+      },
+      "text": {
+        "jp": "ベイクされたアセットの原点で現在のスクラブ フレームを設定します",
+        "official_en": "Sets the current scrub frame at the origin in baked out asset.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SExportTrajectoriesWindow:TrajectyPickerLabel:9c172d63",
+      "source": {
+        "set": "set-02",
+        "namespace": "SExportTrajectoriesWindow",
+        "key": "TrajectyPickerLabel",
+        "jp_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:TrajectyPickerLabel:9c172d63",
+        "official_en_record_id": "switch:locres:set-01:SExportTrajectoriesWindow:TrajectyPickerLabel:9c172d63",
+        "jp_sha256": "677b69513eec91bba9d8d42df2a84de1e36014277cfadca4319351bea17717bd",
+        "official_en_sha256": "d4ddcb0b7125da961ce6a475ae0e503c6c3c2a5cce7c7fe469bbe7945b7561ff"
+      },
+      "text": {
+        "jp": "エクスポートする軌道",
+        "official_en": "Trajectory to export",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

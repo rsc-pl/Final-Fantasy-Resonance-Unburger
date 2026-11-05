@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "FTraceControls",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:FTraceControls:Reason.AlreadyRunning:44ddbf28",
+      "source": {
+        "set": "set-02",
+        "namespace": "FTraceControls",
+        "key": "Reason.AlreadyRunning",
+        "jp_record_id": "switch:locres:set-01:FTraceControls:Reason.AlreadyRunning:44ddbf28",
+        "official_en_record_id": "switch:locres:set-01:FTraceControls:Reason.AlreadyRunning:44ddbf28",
+        "jp_sha256": "54062709b4a1dfec704c205a4b67a9c60e2f9182f2a9e6994d6937c6564e00ed",
+        "official_en_sha256": "c3aa371b167c066577598b2a3f7dd458d14dd1103edf1b417671043de4cb7b33"
+      },
+      "text": {
+        "jp": "トレースはすでに進行中です",
+        "official_en": "A trace is already in progress",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FTraceControls:Reason.FailedToStart:dfb47cbf",
+      "source": {
+        "set": "set-02",
+        "namespace": "FTraceControls",
+        "key": "Reason.FailedToStart",
+        "jp_record_id": "switch:locres:set-01:FTraceControls:Reason.FailedToStart:dfb47cbf",
+        "official_en_record_id": "switch:locres:set-01:FTraceControls:Reason.FailedToStart:dfb47cbf",
+        "jp_sha256": "6509684aaa0f96e3228421acaed0eceaed5356fcdbb4919e06bc13b6eefd2158",
+        "official_en_sha256": "9d7efc9bafe1890dd271b0bdc4bfdfd82dab699c9933bda1697d72109b8cfc43"
+      },
+      "text": {
+        "jp": "ローカル トレースを開始できませんでした。ログを確認してください",
+        "official_en": "Failed to start local trace. See log.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

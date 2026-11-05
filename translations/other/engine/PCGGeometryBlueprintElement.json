@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "PCGGeometryBlueprintElement",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:PCGGeometryBlueprintElement:SettingsDifferent:77a6905c",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGeometryBlueprintElement",
+        "key": "SettingsDifferent",
+        "jp_record_id": "switch:locres:set-01:PCGGeometryBlueprintElement:SettingsDifferent:77a6905c",
+        "official_en_record_id": "switch:locres:set-01:PCGGeometryBlueprintElement:SettingsDifferent:77a6905c",
+        "jp_sha256": "5e23d779e9e466788176b23243aec3f9e5b5678e44b15f6656a84db1081a2725",
+        "official_en_sha256": "e4ad6aa25fef6304238f6b42625505ee8702e0142d2aa8368649759bb614eeb5"
+      },
+      "text": {
+        "jp": "PCG Geometry Blueprint Element で、デフォルト設定が変更されました (キャッシュ可能ではなく、複数回使用される出力を検証しない)。この動作を望む場合は、通常の BP 要素を使用します。常にコピーし、スティールすることはありません",
+        "official_en": "In PCG Geometry Blueprint Element, the default settings were changed (not cacheable and not verifying outputs used multiple times).Use the normal BP element if you want this behavior. Will always copy and never steal.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:PCGGeometryBlueprintElement:DynMeshOverridenButNotCalled:a26c5165",
+      "source": {
+        "set": "set-02",
+        "namespace": "PCGGeometryBlueprintElement",
+        "key": "DynMeshOverridenButNotCalled",
+        "jp_record_id": "switch:locres:set-01:PCGGeometryBlueprintElement:DynMeshOverridenButNotCalled:a26c5165",
+        "official_en_record_id": "switch:locres:set-01:PCGGeometryBlueprintElement:DynMeshOverridenButNotCalled:a26c5165",
+        "jp_sha256": "a8f96aadfb78f72d817c8af65e5b35c37845d581e0ec5b5c84ddc1866ad2ccb1",
+        "official_en_sha256": "228e4f930a6c0dcf46df4bd81fc27c58e85e1905ed91baf89b369ead55a3e6b9"
+      },
+      "text": {
+        "jp": "Process Dynamic Mesh がオーバーライドされていましたが、想定されているセットアップ (1 つの入力および出力ピン) が行われていないか、Execute もオーバーライドされています。Process Dynamic Mesh は呼び出されません",
+        "official_en": "Process Dynamic Mesh was overridden, but we don't have the expected setup (single input and output pin) or Execute is also overriden. Process Dynamic Mesh won't be called.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

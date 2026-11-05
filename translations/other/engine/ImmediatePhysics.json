@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "ImmediatePhysics",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:ImmediatePhysics:WorldCollisionComponentSpace:302d7b74",
+      "source": {
+        "set": "set-02",
+        "namespace": "ImmediatePhysics",
+        "key": "WorldCollisionComponentSpace",
+        "jp_record_id": "switch:locres:set-01:ImmediatePhysics:WorldCollisionComponentSpace:302d7b74",
+        "official_en_record_id": "switch:locres:set-01:ImmediatePhysics:WorldCollisionComponentSpace:302d7b74",
+        "jp_sha256": "4535c93c94d8ff99b1017657111c9fcfa9ac9d2d28eaeee063fd5055cc8a2f7f",
+        "official_en_sha256": "dc131d2322953443cb56b9137ed3fc100e147954f8909e13929e2771d7762bec"
+      },
+      "text": {
+        "jp": "''{0}''のワールド空間シミュレーションを行わずにワールドコリジョンの使用を試みました。この操作はサポートされていません。SimulationSpaceをWorldSpaceに変更してください",
+        "official_en": "Trying to use world collision without world space simulation for scaled ''{0}''. This is not supported, please change SimulationSpace to WorldSpace",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

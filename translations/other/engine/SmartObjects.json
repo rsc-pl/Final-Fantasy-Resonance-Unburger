@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "SmartObjects",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:SmartObjects:BuildCollections:9d48ea2c",
+      "source": {
+        "set": "set-02",
+        "namespace": "SmartObjects",
+        "key": "BuildCollections",
+        "jp_record_id": "switch:locres:set-01:SmartObjects:BuildCollections:9d48ea2c",
+        "official_en_record_id": "switch:locres:set-01:SmartObjects:BuildCollections:9d48ea2c",
+        "jp_sha256": "56191ce612f935d0824a6750cf357ceb97900240db80011331e5c93220a2db0e",
+        "official_en_sha256": "9706be6e7d94799a6d6c31465c83f2e6f430fafe3865a26fa5b84ea2ebdb5aae"
+      },
+      "text": {
+        "jp": "スマートオブジェクトコレクションをビルドする",
+        "official_en": "Build Smart Object Collections",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SmartObjects:WorldPartitionBuildSmartObjectCollectionCancelled:320e03b2",
+      "source": {
+        "set": "set-02",
+        "namespace": "SmartObjects",
+        "key": "WorldPartitionBuildSmartObjectCollectionCancelled",
+        "jp_record_id": "switch:locres:set-01:SmartObjects:WorldPartitionBuildSmartObjectCollectionCancelled:320e03b2",
+        "official_en_record_id": "switch:locres:set-01:SmartObjects:WorldPartitionBuildSmartObjectCollectionCancelled:320e03b2",
+        "jp_sha256": "379a070e0394822930f23f55cfb9c52add5a7f593bbd43e445724a9404578593",
+        "official_en_sha256": "b26b28046a0a34562f9693df7c81e06bcc10c9b339509b8fef0e6ebb41c7347c"
+      },
+      "text": {
+        "jp": "スマート オブジェクト コレクションのビルドがキャンセルされました",
+        "official_en": "Building smart object collections cancelled!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SmartObjects:WorldPartitionBuildSmartObjectCollectionProgress:8fcbf527",
+      "source": {
+        "set": "set-02",
+        "namespace": "SmartObjects",
+        "key": "WorldPartitionBuildSmartObjectCollectionProgress",
+        "jp_record_id": "switch:locres:set-01:SmartObjects:WorldPartitionBuildSmartObjectCollectionProgress:8fcbf527",
+        "official_en_record_id": "switch:locres:set-01:SmartObjects:WorldPartitionBuildSmartObjectCollectionProgress:8fcbf527",
+        "jp_sha256": "eebc531288f2b11a914bd7d80ecb990d3aa249f95a42c34b6e463141a07b1c10",
+        "official_en_sha256": "95a969bb7fea3a112ff614640aa56abd44db4f49bdb097d9a888b3cd89916716"
+      },
+      "text": {
+        "jp": "スマート オブジェクト コレクションをビルドしています...",
+        "official_en": "Building smart object collections...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SmartObjects:WorldPartitionBuildSmartObjectCollectionFailed:4cbe6e55",
+      "source": {
+        "set": "set-02",
+        "namespace": "SmartObjects",
+        "key": "WorldPartitionBuildSmartObjectCollectionFailed",
+        "jp_record_id": "switch:locres:set-01:SmartObjects:WorldPartitionBuildSmartObjectCollectionFailed:4cbe6e55",
+        "official_en_record_id": "switch:locres:set-01:SmartObjects:WorldPartitionBuildSmartObjectCollectionFailed:4cbe6e55",
+        "jp_sha256": "f3cc715975fd35beaa338334f0d12c02fe57a0074289fa44df5c99389cfff88a",
+        "official_en_sha256": "880da5178846844627a33f4ce13cc9247979361837ecc2a383805efb3dd87348"
+      },
+      "text": {
+        "jp": "ビルド プロセス中にエラーが発生しました。ログ ('WPSmartObjectCollectionBuilderLog.txt') を参照してください",
+        "official_en": "Errors occured during the build process, please refer to the logs ('WPSmartObjectCollectionBuilderLog.txt').",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SmartObjects:Gameplay:5c9c882a",
+      "source": {
+        "set": "set-02",
+        "namespace": "SmartObjects",
+        "key": "Gameplay",
+        "jp_record_id": "switch:locres:set-01:SmartObjects:Gameplay:5c9c882a",
+        "official_en_record_id": "switch:locres:set-01:SmartObjects:Gameplay:5c9c882a",
+        "jp_sha256": "8f26a3c1d9bcb6da7774d2d2c09bb9f9a91d708041e296fa096e1c12ae41b20f",
+        "official_en_sha256": "31bcb8940fffb7d1328e4d989be6708a48e564d490a873652d6ea64f58156711"
+      },
+      "text": {
+        "jp": "ゲームプレイ",
+        "official_en": "Gameplay",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SmartObjects:ObjectTagQueryDesc:2bcd8b66",
+      "source": {
+        "set": "set-02",
+        "namespace": "SmartObjects",
+        "key": "ObjectTagQueryDesc",
+        "jp_record_id": "switch:locres:set-01:SmartObjects:ObjectTagQueryDesc:2bcd8b66",
+        "official_en_record_id": "switch:locres:set-01:SmartObjects:ObjectTagQueryDesc:2bcd8b66",
+        "jp_sha256": "f983f607b9ff2072adbdb62f2f54e96dcb75450a9d7194d63eda5093134d1547",
+        "official_en_sha256": "4d4153335cf07cd6911eca6f8026a294d50144e78b71cab7272fa71b9f82976f"
+      },
+      "text": {
+        "jp": "実行オブジェクトタグと一致",
+        "official_en": "Match Runtime Object Tags",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SmartObjects:SlotTagQueryDesc:8cd96aa7",
+      "source": {
+        "set": "set-02",
+        "namespace": "SmartObjects",
+        "key": "SlotTagQueryDesc",
+        "jp_record_id": "switch:locres:set-01:SmartObjects:SlotTagQueryDesc:8cd96aa7",
+        "official_en_record_id": "switch:locres:set-01:SmartObjects:SlotTagQueryDesc:8cd96aa7",
+        "jp_sha256": "aac49ca91a1aa56775c6159ca3d4b14759cf98f645794d7961c4e4e70b896f34",
+        "official_en_sha256": "d03a4cc2652172660e5edcecf7bd65657295288bd233378346f6a58a8403cebe"
+      },
+      "text": {
+        "jp": "実行スロットタグと一致",
+        "official_en": "Match Runtime Slot Tags",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SmartObjects:ActorTagQueryDesc:2d209176",
+      "source": {
+        "set": "set-02",
+        "namespace": "SmartObjects",
+        "key": "ActorTagQueryDesc",
+        "jp_record_id": "switch:locres:set-01:SmartObjects:ActorTagQueryDesc:2d209176",
+        "official_en_record_id": "switch:locres:set-01:SmartObjects:ActorTagQueryDesc:2d209176",
+        "jp_sha256": "4fb1d4e4a9dedda83b7afe28db595aa62ad85d94d551c830077258557f5a2757",
+        "official_en_sha256": "9e5789335c080a661fa3edec7bc522075e9481b41ee3bc743df83f572ceb6ff3"
+      },
+      "text": {
+        "jp": "SmartObjectアクタタグを照合",
+        "official_en": "Match SmartObject Actor Tags",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:SmartObjects:ShowSmartObjects:9601fc86",
+      "source": {
+        "set": "set-02",
+        "namespace": "SmartObjects",
+        "key": "ShowSmartObjects",
+        "jp_record_id": "switch:locres:set-01:SmartObjects:ShowSmartObjects:9601fc86",
+        "official_en_record_id": "switch:locres:set-01:SmartObjects:ShowSmartObjects:9601fc86",
+        "jp_sha256": "3722223909d1e56b41ddc9ea97a46d10d82388fd0ddf8b08e464d729c0bfcda5",
+        "official_en_sha256": "a3c55ac243211e717838410cf9dd087a8c092e1135c915188b870ecccdf8c51f"
+      },
+      "text": {
+        "jp": "スマートオブジェクト",
+        "official_en": "Smart Objects",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

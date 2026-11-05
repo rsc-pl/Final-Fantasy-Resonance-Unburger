@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "GameplayCueNotify_Actor",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:GameplayCueNotify_Actor:OnActiveAndOnRemove:38d7a596",
+      "source": {
+        "set": "set-02",
+        "namespace": "GameplayCueNotify_Actor",
+        "key": "OnActiveAndOnRemove",
+        "jp_record_id": "switch:locres:set-01:GameplayCueNotify_Actor:OnActiveAndOnRemove:38d7a596",
+        "official_en_record_id": "switch:locres:set-01:GameplayCueNotify_Actor:OnActiveAndOnRemove:38d7a596",
+        "jp_sha256": "53a286211f28d365dc10365788c8ff93ddc2cb26dbd123370626024a976ba880",
+        "official_en_sha256": "d7d5ef0ba54a34046eb6eaaedcac87e74eef8894c73b0e2acb6757775729434c"
+      },
+      "text": {
+        "jp": "OnCeaseRelevant が OnBecomeRelevant なしで実装されています。OnBurst はおそらく間違いです (そうでなければ、空の OnBecomeRelevant を実装します)",
+        "official_en": "OnCeaseRelevant implemented without OnBecomeRelevant. OnBurst is likely a mistake (if not, implement a blank OnBecomeRelevant).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

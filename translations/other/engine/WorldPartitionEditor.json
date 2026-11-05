@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "WorldPartitionEditor",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:WorldPartitionEditor:MapCheck_Message_MinimapWorldUnitsPerPixel:b52a3910",
+      "source": {
+        "set": "set-02",
+        "namespace": "WorldPartitionEditor",
+        "key": "MapCheck_Message_MinimapWorldUnitsPerPixel",
+        "jp_record_id": "switch:locres:set-01:WorldPartitionEditor:MapCheck_Message_MinimapWorldUnitsPerPixel:b52a3910",
+        "official_en_record_id": "switch:locres:set-01:WorldPartitionEditor:MapCheck_Message_MinimapWorldUnitsPerPixel:b52a3910",
+        "jp_sha256": "0726486108403d3783ab1a9b2e354b7a6c080e61e58287390f3a69d8ce5e9623",
+        "official_en_sha256": "83010adcc6fb5dd9737e8ac51a44c27fa5fd7fd9a011a436a3cd6661de74d71f"
+      },
+      "text": {
+        "jp": "{0} :低品質のミニマップが想定されています。ピクセルあたりの実効ワールド単位が大きくなっています ({1})",
+        "official_en": "{0} : Expect a low quality minimap : effective world units per pixel is high ({1}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:WorldPartitionEditor:MapCheck_Message_MinimapTextureSize:1493399d",
+      "source": {
+        "set": "set-02",
+        "namespace": "WorldPartitionEditor",
+        "key": "MapCheck_Message_MinimapTextureSize",
+        "jp_record_id": "switch:locres:set-01:WorldPartitionEditor:MapCheck_Message_MinimapTextureSize:1493399d",
+        "official_en_record_id": "switch:locres:set-01:WorldPartitionEditor:MapCheck_Message_MinimapTextureSize:1493399d",
+        "jp_sha256": "47c2c05245be4e1975ada5742329d6fda2698bc71cbc56f6ec0960b6aff88603",
+        "official_en_sha256": "b631317cf974b3619f3b4db73e18ea3aaf6503a1d7936532f05394fe194de91e"
+      },
+      "text": {
+        "jp": "{ActorName} :テクスチャサイズが大きすぎます。ミニマップはレンダリングされません。MiniMapTileSize プロパティを下げるか、バーチャルテクスチャサポートをプロジェクトに有効にします。",
+        "official_en": "{ActorName} : Texture size is too big, minimap won't be rendered. Reduce the MiniMapTileSize property or enable Virtual Texture Support for your project.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

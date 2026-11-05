@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UGeometryScriptLibrary_EditorTextureMapFunctions",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_TexReadFailed_A:a9b053b8",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_EditorTextureMapFunctions",
+        "key": "ChannelPack_TexReadFailed_A",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_TexReadFailed_A:a9b053b8",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_TexReadFailed_A:a9b053b8",
+        "jp_sha256": "dc3a82a0136057804132a93fa5c37219d015951728054af9850a7fd76ca6ff2c",
+        "official_en_sha256": "52a3222e71e1a989cd70c407b50d7aede5d42bb26a1c88b8e8b8f247c1ab2f91"
+      },
+      "text": {
+        "jp": "ChannelPack：AChannelSource テクスチャを読み込むことができませんでした",
+        "official_en": "ChannelPack: AChannelSource Texture could not be read.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_InvalidChannelError_A:99aecf34",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_EditorTextureMapFunctions",
+        "key": "ChannelPack_InvalidChannelError_A",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_InvalidChannelError_A:99aecf34",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_InvalidChannelError_A:99aecf34",
+        "jp_sha256": "92d61c8c353008128546b82eef9374150ec08285c9c63bfeb406f41851fb18c0",
+        "official_en_sha256": "40ea9b7ea24474002a7e0714d29e2a7401aee23204c8fbe0f31baa29976dc566"
+      },
+      "text": {
+        "jp": "ChannelPack：テクスチャのピクセル形式との互換性を持たない Channel を AChannelSource に指定しています",
+        "official_en": "ChannelPack: AChannelSource given a Channel incompatible with the Texture's pixel format",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_NoValidChannelError_A:90d87ab6",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_EditorTextureMapFunctions",
+        "key": "ChannelPack_NoValidChannelError_A",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_NoValidChannelError_A:90d87ab6",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_NoValidChannelError_A:90d87ab6",
+        "jp_sha256": "e7a70519204b762e583952f56c2f0dd84aa3b74451ed723080945fcdf98ff047",
+        "official_en_sha256": "80fed186fcb4f19557489d597d17d479b193c5bc59314f4fb7c34764bcc21df3"
+      },
+      "text": {
+        "jp": "ChannelPack：読み出し可能なソース チャンネルを持たないテクスチャを AChannelSource に指定しています",
+        "official_en": "ChannelPack: AChannelSource given a Texture which has no readable source Channel",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_AllInputTexturesNull:d5c6fcf4",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_EditorTextureMapFunctions",
+        "key": "ChannelPack_AllInputTexturesNull",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_AllInputTexturesNull:d5c6fcf4",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_AllInputTexturesNull:d5c6fcf4",
+        "jp_sha256": "0fb444f1e051bc0538a95fea73d48e3b9a0c31cf6a03a2bfc9d9f478efc863e7",
+        "official_en_sha256": "5ede3a631b39cc341b7c55adc087e8e1d75d86b80d97249125be9182e97aa69e"
+      },
+      "text": {
+        "jp": "ChannelPack：すべての入力テクスチャが NULL です。このノードには、1 つ以上の非 NULL 入力テクスチャが必要です",
+        "official_en": "ChannelPack: All input textures were null, this node requires at least one non-null input texture",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_MismatchingResolution:c5453d85",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_EditorTextureMapFunctions",
+        "key": "ChannelPack_MismatchingResolution",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_MismatchingResolution:c5453d85",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_MismatchingResolution:c5453d85",
+        "jp_sha256": "aba94d172e5b3d18c251dedfe05f675dfe7f0f8b207ef07ddcc89073bd71ecde",
+        "official_en_sha256": "567e88d2631fac0d0edbbd47d0c1786c5eb98ad75e9a288adbe7b50dc206c579"
+      },
+      "text": {
+        "jp": "ChannelPack：すべての非 NULL ソース テクスチャが、一致するサイズ/解像度を持つ必要があります",
+        "official_en": "ChannelPack: All non-null source textures must have matching sizes/resolutions",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_TexReadFailed_B:daa8f533",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_EditorTextureMapFunctions",
+        "key": "ChannelPack_TexReadFailed_B",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_TexReadFailed_B:daa8f533",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_TexReadFailed_B:daa8f533",
+        "jp_sha256": "872cb54a1c86630ba5550827fca3c5233bbbc93ee11798fd31c47bdf748428f2",
+        "official_en_sha256": "e969db83700dd1860947f93d09975a9af9a0b54d7b9bd548b823cc16f90c1326"
+      },
+      "text": {
+        "jp": "ChannelPack：BChannelSource テクスチャを読み込むことができませんでした",
+        "official_en": "ChannelPack: BChannelSource Texture could not be read.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_InvalidChannelError_B:705729c4",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_EditorTextureMapFunctions",
+        "key": "ChannelPack_InvalidChannelError_B",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_InvalidChannelError_B:705729c4",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_InvalidChannelError_B:705729c4",
+        "jp_sha256": "28385a1b5a322f8fb750abe7dbd34305f1f5fb32f26c56a53501ced6fad1ac79",
+        "official_en_sha256": "0f6588a5adc17f27b6b109714420ffbce2c7eb2d0a4c2c4f236bc24b5bf1e962"
+      },
+      "text": {
+        "jp": "ChannelPack：テクスチャのピクセル形式との互換性を持たない Channel を BChannelSource に指定しています",
+        "official_en": "ChannelPack: BChannelSource given a Channel incompatible with the Texture's pixel format",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_NoValidChannelError_B:6ea6d7d2",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_EditorTextureMapFunctions",
+        "key": "ChannelPack_NoValidChannelError_B",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_NoValidChannelError_B:6ea6d7d2",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_NoValidChannelError_B:6ea6d7d2",
+        "jp_sha256": "02723273983c409b56682a5205feb41828f1b9a5809aa2ad55c1ae184305c739",
+        "official_en_sha256": "1ad6a01e79513c7c05bee89d3bf985586c0145fa93ea5a91b7ad208dbd357752"
+      },
+      "text": {
+        "jp": "ChannelPack：読み出し可能なソース チャンネルを持たないテクスチャを BChannelSource に指定しています",
+        "official_en": "ChannelPack: BChannelSource given a Texture which has no readable source Channel",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_CouldNotCopyDataToOutput:0592f6bf",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_EditorTextureMapFunctions",
+        "key": "ChannelPack_CouldNotCopyDataToOutput",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_CouldNotCopyDataToOutput:0592f6bf",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_CouldNotCopyDataToOutput:0592f6bf",
+        "jp_sha256": "628342d7a66867594cddd23a14c193713b3fd25a0dd54bb57eac729d83dbb071",
+        "official_en_sha256": "88a111b969909f792a80022b9ba747dc9492bd7d0059e138ed421f912cab7f8e"
+      },
+      "text": {
+        "jp": "ChannelPack：プラットフォーム データを出力テクスチャのソース データにコピーできませんでした",
+        "official_en": "ChannelPack: Could not copy platform data to source data in the output texture",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_CouldNotCreateOutput:6b2043ff",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_EditorTextureMapFunctions",
+        "key": "ChannelPack_CouldNotCreateOutput",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_CouldNotCreateOutput:6b2043ff",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_CouldNotCreateOutput:6b2043ff",
+        "jp_sha256": "421db59b75257551b768f859e00ab3e37e6ae6857f34d2847dc69fa011ee2739",
+        "official_en_sha256": "6f71d72af32ced6b7a4554166e3ff9f2ea935b02ec9e4bf72b5c8b188b335c2f"
+      },
+      "text": {
+        "jp": "ChannelPack：出力テクスチャを作成できませんでした",
+        "official_en": "ChannelPack: Could not create output texture",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_NoValidChannelsForOutput:9ce7c8ee",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_EditorTextureMapFunctions",
+        "key": "ChannelPack_NoValidChannelsForOutput",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_NoValidChannelsForOutput:9ce7c8ee",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_NoValidChannelsForOutput:9ce7c8ee",
+        "jp_sha256": "a4bdd328165a2bb2b74012095a1cd98b2c6b36a8f4176a18ef61e6a9ceec3c0c",
+        "official_en_sha256": "614da6e1e083bf3594f433a4e9764e7f69faef69bf2ee3caa235811fc8e01a60"
+      },
+      "text": {
+        "jp": "ChannelPack：有効なチャンネルのない出力テクスチャを推測しました",
+        "official_en": "ChannelPack: Deduced an output texture which has no valid channels",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_TexReadFailed_G:3816e520",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_EditorTextureMapFunctions",
+        "key": "ChannelPack_TexReadFailed_G",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_TexReadFailed_G:3816e520",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_TexReadFailed_G:3816e520",
+        "jp_sha256": "f648d243a93a399d8f1da4453e7639a771b1fe9895d289285a2c8f3e49b68e2e",
+        "official_en_sha256": "7ac35e69ac525b676894888fce30f17cf84e4c8dfd9349f13f5a593975de4ffb"
+      },
+      "text": {
+        "jp": "ChannelPack：GChannelSource テクスチャを読み込むことができませんでした",
+        "official_en": "ChannelPack: GChannelSource Texture could not be read.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_InvalidChannelError_G:78013bc2",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_EditorTextureMapFunctions",
+        "key": "ChannelPack_InvalidChannelError_G",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_InvalidChannelError_G:78013bc2",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_InvalidChannelError_G:78013bc2",
+        "jp_sha256": "271360f93a95f70a7f907390241129df1ae1af623ba51ed070c7a34097495e32",
+        "official_en_sha256": "574a63b3e4d9f2080c47d06adf3af0535eede1f0d8d937f8e39bbb5c93f474a5"
+      },
+      "text": {
+        "jp": "ChannelPack：テクスチャのピクセル形式との互換性を持たない Channel を GChannelSource に指定しています",
+        "official_en": "ChannelPack: GChannelSource given a Channel incompatible with the Texture's pixel format",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_NoValidChannelError_G:660f9965",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_EditorTextureMapFunctions",
+        "key": "ChannelPack_NoValidChannelError_G",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_NoValidChannelError_G:660f9965",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_NoValidChannelError_G:660f9965",
+        "jp_sha256": "0bd98d4200199dbe368b0a78e4781cdb30405ac6f8f9afba142375b8bf729d2e",
+        "official_en_sha256": "349ae4d8277b3cedc387a56a64f13f4d4822a5efe1768eb025d080ce4b8116d1"
+      },
+      "text": {
+        "jp": "ChannelPack：読み出し可能なソース チャンネルを持たないテクスチャを GChannelSource に指定しています",
+        "official_en": "ChannelPack: GChannelSource given a Texture which has no readable source Channel",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_TexReadFailed_R:dcd87b29",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_EditorTextureMapFunctions",
+        "key": "ChannelPack_TexReadFailed_R",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_TexReadFailed_R:dcd87b29",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_TexReadFailed_R:dcd87b29",
+        "jp_sha256": "9b7be12b088fcf53d4d881f2183a93d2caf083912c50038620142ce9a939afde",
+        "official_en_sha256": "26f1bfc266e3af96bcb6751d6a8de0a6bb70174330bb340ec474352d58fd1ba5"
+      },
+      "text": {
+        "jp": "ChannelPack：RChannelSource テクスチャを読み込むことができませんでした",
+        "official_en": "ChannelPack: RChannelSource Texture could not be read.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_InvalidChannelError_R:88c94994",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_EditorTextureMapFunctions",
+        "key": "ChannelPack_InvalidChannelError_R",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_InvalidChannelError_R:88c94994",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_InvalidChannelError_R:88c94994",
+        "jp_sha256": "f10eca97d3c1114b3863e8dc3c37aa6efa7aadc9815adcde0a91e0eb2b5fc351",
+        "official_en_sha256": "bb6fc5bce988eaab109e60ff42bd1346b585b8de87ad48b23637a9a5fc90057c"
+      },
+      "text": {
+        "jp": "ChannelPack：テクスチャのピクセル形式との互換性を持たない Channel を RChannelSource に指定しています",
+        "official_en": "ChannelPack: RChannelSource given a Channel incompatible with the Texture's pixel format",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_NoValidChannelError_R:6514ebf8",
+      "source": {
+        "set": "set-02",
+        "namespace": "UGeometryScriptLibrary_EditorTextureMapFunctions",
+        "key": "ChannelPack_NoValidChannelError_R",
+        "jp_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_NoValidChannelError_R:6514ebf8",
+        "official_en_record_id": "switch:locres:set-01:UGeometryScriptLibrary_EditorTextureMapFunctions:ChannelPack_NoValidChannelError_R:6514ebf8",
+        "jp_sha256": "8b57dfd8d9f6ecaa0c5f40a62f9d7fbe8e111c1efab0ef81682820627d572f9f",
+        "official_en_sha256": "253b1979e18ac929e22640ded80b87ae29c5a85773bfe376fcf066b1a7500134"
+      },
+      "text": {
+        "jp": "ChannelPack：読み出し可能なソース チャンネルを持たないテクスチャを RChannelSource に指定しています",
+        "official_en": "ChannelPack: RChannelSource given a Texture which has no readable source Channel",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

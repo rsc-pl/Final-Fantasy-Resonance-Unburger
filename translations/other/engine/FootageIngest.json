@@ -1,0 +1,493 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "FootageIngest",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:FootageIngest:IngestError_PipelineError:c354fb1c",
+      "source": {
+        "set": "set-02",
+        "namespace": "FootageIngest",
+        "key": "IngestError_PipelineError",
+        "jp_record_id": "switch:locres:set-01:FootageIngest:IngestError_PipelineError:c354fb1c",
+        "official_en_record_id": "switch:locres:set-01:FootageIngest:IngestError_PipelineError:c354fb1c",
+        "jp_sha256": "785229ed0681bcf87e949c4bfe7b765cbc49d70a0cbad7567870b083b098afbd",
+        "official_en_sha256": "684f56e29508cdbdf4fbd437b469dfba59e66fb39daec8aefe4f09c73ebfa303"
+      },
+      "text": {
+        "jp": "取り込みパイプラインでエラーが発生しました：{0}",
+        "official_en": "An error occurred in the ingest pipeline: {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FootageIngest:IngestError_ResolutionValidationFailed:b13809a0",
+      "source": {
+        "set": "set-02",
+        "namespace": "FootageIngest",
+        "key": "IngestError_ResolutionValidationFailed",
+        "jp_record_id": "switch:locres:set-01:FootageIngest:IngestError_ResolutionValidationFailed:b13809a0",
+        "official_en_record_id": "switch:locres:set-01:FootageIngest:IngestError_ResolutionValidationFailed:b13809a0",
+        "jp_sha256": "eee123225cea4b4065956311ae971f2b9e6458e0b29a62b573d35fe79fc25132",
+        "official_en_sha256": "3b1ff63afb4a614ca2ddb639d221b2f6fcaa28767dec5386d1ae022855b1ad8c"
+      },
+      "text": {
+        "jp": "キャリブレーションと画像解像度に違いがあります",
+        "official_en": "Calibration and Image resolution differ",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FootageIngest:FileFootageIngest_IngestError:2ed2ed7e",
+      "source": {
+        "set": "set-02",
+        "namespace": "FootageIngest",
+        "key": "FileFootageIngest_IngestError",
+        "jp_record_id": "switch:locres:set-01:FootageIngest:FileFootageIngest_IngestError:2ed2ed7e",
+        "official_en_record_id": "switch:locres:set-01:FootageIngest:FileFootageIngest_IngestError:2ed2ed7e",
+        "jp_sha256": "89ac2115449e0570879ca83be34ca910f0ecfd036ae42b5d523ddb395e9e20ab",
+        "official_en_sha256": "a270d96f3f1ce12f2d249781abeb74c5ab1b09c6e42ab281e13977a02512ac1d"
+      },
+      "text": {
+        "jp": "テイク {0} の取り込み中にエラーが発生しました：{1}",
+        "official_en": "Error occurred while ingesting take {0}: {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FootageIngest:TakeMetadataReadFailed:77c3f864",
+      "source": {
+        "set": "set-02",
+        "namespace": "FootageIngest",
+        "key": "TakeMetadataReadFailed",
+        "jp_record_id": "switch:locres:set-01:FootageIngest:TakeMetadataReadFailed:77c3f864",
+        "official_en_record_id": "switch:locres:set-01:FootageIngest:TakeMetadataReadFailed:77c3f864",
+        "jp_sha256": "94b83d5b66a7f65279e21a1939fb511521c1ca034ecc02f8932165d381b8e319",
+        "official_en_sha256": "649a114b54f4d052983ff2ba6b0617476b6a8fb00b38089098edea86b5568a61"
+      },
+      "text": {
+        "jp": "メタデータのロードに失敗しました (形式を確認してください)：{0}",
+        "official_en": "Failed to load metadata (check format): {0}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FootageIngest:IngestFailed_InvalidImageFiles:67853c64",
+      "source": {
+        "set": "set-02",
+        "namespace": "FootageIngest",
+        "key": "IngestFailed_InvalidImageFiles",
+        "jp_record_id": "switch:locres:set-01:FootageIngest:IngestFailed_InvalidImageFiles:67853c64",
+        "official_en_record_id": "switch:locres:set-01:FootageIngest:IngestFailed_InvalidImageFiles:67853c64",
+        "jp_sha256": "30de7181ea1122840ca3157e0906fb25e8e45f3c592a0d7eb4a52151b013fc9d",
+        "official_en_sha256": "7c6a0986302a8009e52bb3babfdd7c2d91ca5b50acea04908e764f0ce82a5ae5"
+      },
+      "text": {
+        "jp": "{0} のフレーム数が「take.json」の情報と一致しません",
+        "official_en": "Number of frames in {0} doesn't match the information in `take.json`",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FootageIngest:ProgressBarPendingCaption:00405c3b",
+      "source": {
+        "set": "set-02",
+        "namespace": "FootageIngest",
+        "key": "ProgressBarPendingCaption",
+        "jp_record_id": "switch:locres:set-01:FootageIngest:ProgressBarPendingCaption:00405c3b",
+        "official_en_record_id": "switch:locres:set-01:FootageIngest:ProgressBarPendingCaption:00405c3b",
+        "jp_sha256": "3f6b9944aa6ef2f0d0996ad7ff4e0bde39420115c71957ef3638cf57949e352e",
+        "official_en_sha256": "e2018b95eb90b15a0e6d47ce394bd70d19cf4e8c68d58e4f2c81e616763f9670"
+      },
+      "text": {
+        "jp": "保留中...",
+        "official_en": "Pending...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FootageIngest:ProgressBarProcessingCaption:78c0b5f0",
+      "source": {
+        "set": "set-02",
+        "namespace": "FootageIngest",
+        "key": "ProgressBarProcessingCaption",
+        "jp_record_id": "switch:locres:set-01:FootageIngest:ProgressBarProcessingCaption:78c0b5f0",
+        "official_en_record_id": "switch:locres:set-01:FootageIngest:ProgressBarProcessingCaption:78c0b5f0",
+        "jp_sha256": "e5031694b36837e672099aed91b9481f53a40180cd6a8e67042d1723bb127f66",
+        "official_en_sha256": "f40a853e58a18759e1f7321d266d63494e320e9651af27d9373ec16380e414b6"
+      },
+      "text": {
+        "jp": "処理中...",
+        "official_en": "Processing...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FootageIngest:LowDepthResWarning:b6ca7488",
+      "source": {
+        "set": "set-02",
+        "namespace": "FootageIngest",
+        "key": "LowDepthResWarning",
+        "jp_record_id": "switch:locres:set-01:FootageIngest:LowDepthResWarning:b6ca7488",
+        "official_en_record_id": "switch:locres:set-01:FootageIngest:LowDepthResWarning:b6ca7488",
+        "jp_sha256": "9ce1577b987437f8bee307cc737701fd1a1492d3c1a1d48a3caa4c3fd110102f",
+        "official_en_sha256": "b2050dfba9c90da419a41f0133ff4372272261d8214f3d4966b5c9f467c9227d"
+      },
+      "text": {
+        "jp": "サイズ変更後の深度画像が低い解像度 {0}x{1} になっています",
+        "official_en": "Resized depth image has low resolution {0}x{1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FootageIngest:IngestError_AudioFileSpecifiedNotFound:69362730",
+      "source": {
+        "set": "set-02",
+        "namespace": "FootageIngest",
+        "key": "IngestError_AudioFileSpecifiedNotFound",
+        "jp_record_id": "switch:locres:set-01:FootageIngest:IngestError_AudioFileSpecifiedNotFound:69362730",
+        "official_en_record_id": "switch:locres:set-01:FootageIngest:IngestError_AudioFileSpecifiedNotFound:69362730",
+        "jp_sha256": "4fe0b5cc7c42a48cf17604fed1044a924c8740ab12ea014b97a63c30b5d0a4bc",
+        "official_en_sha256": "0a5fa5dd3dfd38d4121121b561d304ff1841154e8783e08da5f55a412eeadbc4"
+      },
+      "text": {
+        "jp": "テイク {1} 用の指定されたオーディオ ファイル {0} が存在しません",
+        "official_en": "Specified audio file {0} doesn't exist for take {1}.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FootageIngest:IngestError_TakeDurationExceedsLimit:ee4e6ee6",
+      "source": {
+        "set": "set-02",
+        "namespace": "FootageIngest",
+        "key": "IngestError_TakeDurationExceedsLimit",
+        "jp_record_id": "switch:locres:set-01:FootageIngest:IngestError_TakeDurationExceedsLimit:ee4e6ee6",
+        "official_en_record_id": "switch:locres:set-01:FootageIngest:IngestError_TakeDurationExceedsLimit:ee4e6ee6",
+        "jp_sha256": "b6ee9e7edcaafcb9cee56151ba1bb40ad46c44ee2f45a6aa50071396ac9c63cc",
+        "official_en_sha256": "85861317d7d5061eb5ef81f4822ea35b6cd10c406bcaeebd988e8972bbb8afbd"
+      },
+      "text": {
+        "jp": "テイク期間 ({0} 秒) が許可された制限 ({1} 秒) を超えました",
+        "official_en": "Take duration ({0} seconds) exceeds allowed limit ({1} seconds).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FootageIngest:IngestError_Cancellation:0ac80de3",
+      "source": {
+        "set": "set-02",
+        "namespace": "FootageIngest",
+        "key": "IngestError_Cancellation",
+        "jp_record_id": "switch:locres:set-01:FootageIngest:IngestError_Cancellation:0ac80de3",
+        "official_en_record_id": "switch:locres:set-01:FootageIngest:IngestError_Cancellation:0ac80de3",
+        "jp_sha256": "bd178a730170738dffd9a89442f2ae46eb3c6a77905b03098d3e6bfe436b44e6",
+        "official_en_sha256": "c14bb02f839d35b9510c97859c31728608d402bfc1d5ad547ccff49982e90a3d"
+      },
+      "text": {
+        "jp": "取り込みがユーザーによって中止されました",
+        "official_en": "The ingest was aborted by the user",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FootageIngest:TakeNameUnknown:c31b6a84",
+      "source": {
+        "set": "set-02",
+        "namespace": "FootageIngest",
+        "key": "TakeNameUnknown",
+        "jp_record_id": "switch:locres:set-01:FootageIngest:TakeNameUnknown:c31b6a84",
+        "official_en_record_id": "switch:locres:set-01:FootageIngest:TakeNameUnknown:c31b6a84",
+        "jp_sha256": "bd5a8814a3635ecb4ebc9785cbc8223ae32444a5a07329a811526c29cd45f77c",
+        "official_en_sha256": "b764cdc0eab7137467211272fa539f1260d1bf2e71bcf6ff3bdc960f5c16aa14"
+      },
+      "text": {
+        "jp": "不明",
+        "official_en": "Unknown",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:FootageIngest:FileFootageIngest_IngestWarning:bb1979da",
+      "source": {
+        "set": "set-02",
+        "namespace": "FootageIngest",
+        "key": "FileFootageIngest_IngestWarning",
+        "jp_record_id": "switch:locres:set-01:FootageIngest:FileFootageIngest_IngestWarning:bb1979da",
+        "official_en_record_id": "switch:locres:set-01:FootageIngest:FileFootageIngest_IngestWarning:bb1979da",
+        "jp_sha256": "c889afb4639fd90acf054075250614bdd868b0545db4d77e4b3283856cc7b503",
+        "official_en_sha256": "263edc3757cb14dc7e67062a5c294df42851a6546304681b5b3a443b1a80adee"
+      },
+      "text": {
+        "jp": "テイク {0} の取り込み中に警告が発生しました：{1}",
+        "official_en": "Warning occurred while ingesting take {0}: {1}",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

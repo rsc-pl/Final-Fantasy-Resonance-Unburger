@@ -1,0 +1,530 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "LocTextHelper",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:LocTextHelper:Error_LoadArchive_MissingArchive:5871d619",
+      "source": {
+        "set": "set-02",
+        "namespace": "LocTextHelper",
+        "key": "Error_LoadArchive_MissingArchive",
+        "jp_record_id": "switch:locres:set-01:LocTextHelper:Error_LoadArchive_MissingArchive:5871d619",
+        "official_en_record_id": "switch:locres:set-01:LocTextHelper:Error_LoadArchive_MissingArchive:5871d619",
+        "jp_sha256": "a033c165d55a133d8a3d7fd3b2201433037e5458f2874d325ea40a42316864d5",
+        "official_en_sha256": "d9a53f5de5740e31aa6547ab3b5ea9cf434f88d5e780deda48b2c3f628ed9832"
+      },
+      "text": {
+        "jp": "アーカイブ「{0}」が存在しません",
+        "official_en": "Archive '{0}' does not exist.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LocTextHelper:Error_LoadManifest_CallerDidNotSpecifyLoadOrCreate:70cd2843",
+      "source": {
+        "set": "set-02",
+        "namespace": "LocTextHelper",
+        "key": "Error_LoadManifest_CallerDidNotSpecifyLoadOrCreate",
+        "jp_record_id": "switch:locres:set-01:LocTextHelper:Error_LoadManifest_CallerDidNotSpecifyLoadOrCreate:70cd2843",
+        "official_en_record_id": "switch:locres:set-01:LocTextHelper:Error_LoadManifest_CallerDidNotSpecifyLoadOrCreate:70cd2843",
+        "jp_sha256": "e0d47fcfd0d9ac0a7379dd763c7ddfa64074749bc21a15b445218328224f71fd",
+        "official_en_sha256": "ecd19a5ad19b552300401b4395fc38e2c23cdd796cd2915de362e619e68f286e"
+      },
+      "text": {
+        "jp": "呼び出し元が、[ロード] と [作成] のどちらも指定していませんでした",
+        "official_en": "Caller did not specify either Load or Create.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LocTextHelper:Error_LoadArchive_DeserializeFile:f6771513",
+      "source": {
+        "set": "set-02",
+        "namespace": "LocTextHelper",
+        "key": "Error_LoadArchive_DeserializeFile",
+        "jp_record_id": "switch:locres:set-01:LocTextHelper:Error_LoadArchive_DeserializeFile:f6771513",
+        "official_en_record_id": "switch:locres:set-01:LocTextHelper:Error_LoadArchive_DeserializeFile:f6771513",
+        "jp_sha256": "c316181d652659775a13dc8dde835302c423d79d2d77871655470832e4a21571",
+        "official_en_sha256": "b0de4daad644a7d4f67db696561d6c3b271f25f812c7d8b6f5b8cd756a7ddc95"
+      },
+      "text": {
+        "jp": "アーカイブ '{0}' のシリアル化を解除できませんでした。",
+        "official_en": "Failed to deserialize archive '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LocTextHelper:Error_LoadManifest_DeserializeFile:0eb99acf",
+      "source": {
+        "set": "set-02",
+        "namespace": "LocTextHelper",
+        "key": "Error_LoadManifest_DeserializeFile",
+        "jp_record_id": "switch:locres:set-01:LocTextHelper:Error_LoadManifest_DeserializeFile:0eb99acf",
+        "official_en_record_id": "switch:locres:set-01:LocTextHelper:Error_LoadManifest_DeserializeFile:0eb99acf",
+        "jp_sha256": "13cd550acfdc95a2351e29d659bbbf352905db4f42dc5dff2027385b262e74bf",
+        "official_en_sha256": "8b057f6a777133e5be3acdfa5c7a6105bd16b4aa083f8655678f78fa09310ed4"
+      },
+      "text": {
+        "jp": "マニフェスト '{0}' のシリアル化を解除できませんでした。",
+        "official_en": "Failed to deserialize manifest '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LocTextHelper:Error_UnsupportedConflictReportFormat:0935ee7b",
+      "source": {
+        "set": "set-02",
+        "namespace": "LocTextHelper",
+        "key": "Error_UnsupportedConflictReportFormat",
+        "jp_record_id": "switch:locres:set-01:LocTextHelper:Error_UnsupportedConflictReportFormat:0935ee7b",
+        "official_en_record_id": "switch:locres:set-01:LocTextHelper:Error_UnsupportedConflictReportFormat:0935ee7b",
+        "jp_sha256": "71a313fdd3fc7f69e2f06186de61b4d1f6edd3ef456ce76b450be13b5c069a6a",
+        "official_en_sha256": "5a1f30128a94d78259948a7292747edb1fc38acdaf979b78b71fafaff11f696f"
+      },
+      "text": {
+        "jp": "競合レポート「{0}」を生成できませんでした。サポートされていない競合レポート形式が指定されました。サポートされている形式は EConflictReportFormat に列挙されています",
+        "official_en": "Failed to generate conflict report '{0}'. An unsupported conflict report format was specified. Supported formats can be found in EConflictReportFormat.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LocTextHelper:Error_WordCountsFromCSV_TooFewRows:4d3f5692",
+      "source": {
+        "set": "set-02",
+        "namespace": "LocTextHelper",
+        "key": "Error_WordCountsFromCSV_TooFewRows",
+        "jp_record_id": "switch:locres:set-01:LocTextHelper:Error_WordCountsFromCSV_TooFewRows:4d3f5692",
+        "official_en_record_id": "switch:locres:set-01:LocTextHelper:Error_WordCountsFromCSV_TooFewRows:4d3f5692",
+        "jp_sha256": "530e2723db879fa46895db4f0d0ce4e2de6730a767438d41f19ee44ad13cd8b0",
+        "official_en_sha256": "88ddddfbc628a8c53936d9eb0a594ba36334cbe1b3e3b5d666d59ce91911fe17"
+      },
+      "text": {
+        "jp": "含まれている行数が少なすぎるため、CSV文字列を解析できませんでした(2行以上必要ですが、{0} を取得しました)。",
+        "official_en": "Failed to parse the CSV string as it contained too few rows (expected at least 2, got {0}).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LocTextHelper:Error_WordCountsFromCSV_InvalidHeader:edd4de13",
+      "source": {
+        "set": "set-02",
+        "namespace": "LocTextHelper",
+        "key": "Error_WordCountsFromCSV_InvalidHeader",
+        "jp_record_id": "switch:locres:set-01:LocTextHelper:Error_WordCountsFromCSV_InvalidHeader:edd4de13",
+        "official_en_record_id": "switch:locres:set-01:LocTextHelper:Error_WordCountsFromCSV_InvalidHeader:edd4de13",
+        "jp_sha256": "3195f2a480dae4c3e4b3641495d7aeaf2041d75071bf647b7bc1deacef80a655",
+        "official_en_sha256": "21504cd2667dd9dd272a3da2f25ca96b168db2d61857b1877152660e6c5588de"
+      },
+      "text": {
+        "jp": "ヘッダに必要な行の1つ('{0}' または '{1}')がないため、CSV文字列を解析できませんでした。",
+        "official_en": "Failed to parse the CSV string as the header was missing one of the required rows (either '{0}' or '{1}').",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LocTextHelper:Error_SaveConflictReport_SaveStringToFile:23901ae0",
+      "source": {
+        "set": "set-02",
+        "namespace": "LocTextHelper",
+        "key": "Error_SaveConflictReport_SaveStringToFile",
+        "jp_record_id": "switch:locres:set-01:LocTextHelper:Error_SaveConflictReport_SaveStringToFile:23901ae0",
+        "official_en_record_id": "switch:locres:set-01:LocTextHelper:Error_SaveConflictReport_SaveStringToFile:23901ae0",
+        "jp_sha256": "4bce55b8a781339248068b228cf22b17f352dde9d765e828f726b29e312ce71b",
+        "official_en_sha256": "3ff503abe5d62c594ed6b14208575ba5adc3409f0324d1b55cf7c0e5f09c4604"
+      },
+      "text": {
+        "jp": "コンフリクトレポート'{0}' の保存に失敗しました",
+        "official_en": "Failed to save conflict report '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LocTextHelper:Error_SaveArchive_NoArchive:8c72bfeb",
+      "source": {
+        "set": "set-02",
+        "namespace": "LocTextHelper",
+        "key": "Error_SaveArchive_NoArchive",
+        "jp_record_id": "switch:locres:set-01:LocTextHelper:Error_SaveArchive_NoArchive:8c72bfeb",
+        "official_en_record_id": "switch:locres:set-01:LocTextHelper:Error_SaveArchive_NoArchive:8c72bfeb",
+        "jp_sha256": "a4b3903718654e966f5216e60e75e7b3a879d90111958a49bc32118674cfcef9",
+        "official_en_sha256": "a1c4e44dbae285ba01ae34bb4805a9579d7d8b3430310004acc2b0920f1ed29e"
+      },
+      "text": {
+        "jp": "保存対象のアーカイブインスタンスがないため、ファイル「'{0}'」を保存できませんでした。",
+        "official_en": "Failed to save file '{0}' as there is no archive instance to save.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LocTextHelper:Error_SaveManifest_NoManifest:2a2219d6",
+      "source": {
+        "set": "set-02",
+        "namespace": "LocTextHelper",
+        "key": "Error_SaveManifest_NoManifest",
+        "jp_record_id": "switch:locres:set-01:LocTextHelper:Error_SaveManifest_NoManifest:2a2219d6",
+        "official_en_record_id": "switch:locres:set-01:LocTextHelper:Error_SaveManifest_NoManifest:2a2219d6",
+        "jp_sha256": "df0c68ad640b3111f1b3ad1191b9a0fe8145b76b181e239e26d6a3c5bb560d6d",
+        "official_en_sha256": "08f7afbde2f229383bb832ab84052199d994010589cd604f3372e251c5d552c5"
+      },
+      "text": {
+        "jp": "保存対象のマニフェストインスタンスがないため、ファイル「'{0}'」を保存できませんでした。",
+        "official_en": "Failed to save file '{0}' as there is no manifest instance to save.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LocTextHelper:Error_SaveWordCountReport_SaveStringToFile:6853d554",
+      "source": {
+        "set": "set-02",
+        "namespace": "LocTextHelper",
+        "key": "Error_SaveWordCountReport_SaveStringToFile",
+        "jp_record_id": "switch:locres:set-01:LocTextHelper:Error_SaveWordCountReport_SaveStringToFile:6853d554",
+        "official_en_record_id": "switch:locres:set-01:LocTextHelper:Error_SaveWordCountReport_SaveStringToFile:6853d554",
+        "jp_sha256": "570de432ebedf6cbe4dc6c274c4680cccb4fe936bc522d2b654166d60c03f77f",
+        "official_en_sha256": "856426d2000d2cad52aa051f9e643ac134eb2c22e40a60f267216a4faa1f751d"
+      },
+      "text": {
+        "jp": "ワード数レポート'{0}' の保存に失敗しました",
+        "official_en": "Failed to save word count report '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LocTextHelper:Error_SaveArchive_SerializeFile:e5734106",
+      "source": {
+        "set": "set-02",
+        "namespace": "LocTextHelper",
+        "key": "Error_SaveArchive_SerializeFile",
+        "jp_record_id": "switch:locres:set-01:LocTextHelper:Error_SaveArchive_SerializeFile:e5734106",
+        "official_en_record_id": "switch:locres:set-01:LocTextHelper:Error_SaveArchive_SerializeFile:e5734106",
+        "jp_sha256": "c9d8a5a764d4d06bb275149a43f549f0cd094ccaa96856b49fe2dab667890c1c",
+        "official_en_sha256": "45a3cd9f61cdf89a1d40a85374697cd5515a5894ca02d63e89dfe53033fac02e"
+      },
+      "text": {
+        "jp": "アーカイブ '{0}' をシリアル化できませんでした。",
+        "official_en": "Failed to serialize archive '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LocTextHelper:Error_SaveManifest_SerializeFile:33f8959a",
+      "source": {
+        "set": "set-02",
+        "namespace": "LocTextHelper",
+        "key": "Error_SaveManifest_SerializeFile",
+        "jp_record_id": "switch:locres:set-01:LocTextHelper:Error_SaveManifest_SerializeFile:33f8959a",
+        "official_en_record_id": "switch:locres:set-01:LocTextHelper:Error_SaveManifest_SerializeFile:33f8959a",
+        "jp_sha256": "cfce43f9ed10f8dd14e295ce9afa3bb26e357f03f6e47498809886085a82b837",
+        "official_en_sha256": "8e4d363e62056b1398bc342aaedcd789bc8b9eb3551a58442bf38237e418ddba"
+      },
+      "text": {
+        "jp": "マニフェスト '{0}' をシリアル化できませんでした。",
+        "official_en": "Failed to serialize manifest '{0}'.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:LocTextHelper:Error_LoadManifest_MissingManifest:d77870c8",
+      "source": {
+        "set": "set-02",
+        "namespace": "LocTextHelper",
+        "key": "Error_LoadManifest_MissingManifest",
+        "jp_record_id": "switch:locres:set-01:LocTextHelper:Error_LoadManifest_MissingManifest:d77870c8",
+        "official_en_record_id": "switch:locres:set-01:LocTextHelper:Error_LoadManifest_MissingManifest:d77870c8",
+        "jp_sha256": "66298cf082f5af05a881014e10e4e9f6b148cd55f3eac7d0b3dec99ce634402f",
+        "official_en_sha256": "6b1570e065fa2e3fc63e1edc32bd1c1b48b5b1be1eb856f88abd8f6233ca9450"
+      },
+      "text": {
+        "jp": "マニフェスト「{0}」が存在しません",
+        "official_en": "Manifest '{0}' does not exist.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "MeshTranslationImpl",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:MeshTranslationImpl:NotAMaterial:170e9e14",
+      "source": {
+        "set": "set-02",
+        "namespace": "MeshTranslationImpl",
+        "key": "NotAMaterial",
+        "jp_record_id": "switch:locres:set-01:MeshTranslationImpl:NotAMaterial:170e9e14",
+        "official_en_record_id": "switch:locres:set-01:MeshTranslationImpl:NotAMaterial:170e9e14",
+        "jp_sha256": "8c7b3124580a6f02041cc9e493c7ca75f6df2ea5f81a2d22a2745ce107e24d5a",
+        "official_en_sha256": "abbcb358e28592f7c112bcd292c5e4ffe54b706c8a4446dd70e2484cd0d4774e"
+      },
+      "text": {
+        "jp": "プリミティブ「{1}」に Unreal マテリアルとして割り当てられたオブジェクト「{0}」は、実際はマテリアルではなく (「{2}」であり)、使用されません",
+        "official_en": "Object '{0}' assigned as an Unreal Material for prim '{1}' is not actually a material (but instead a '{2}') and will not be used",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:MeshTranslationImpl:FailToLoadMaterial:c6b659fc",
+      "source": {
+        "set": "set-02",
+        "namespace": "MeshTranslationImpl",
+        "key": "FailToLoadMaterial",
+        "jp_record_id": "switch:locres:set-01:MeshTranslationImpl:FailToLoadMaterial:c6b659fc",
+        "official_en_record_id": "switch:locres:set-01:MeshTranslationImpl:FailToLoadMaterial:c6b659fc",
+        "jp_sha256": "56b0ee07d2bd8739745a20fa4032b1322b1bef4146ea53f9e2c0d3c8c5c9bc2c",
+        "official_en_sha256": "2143656c15ffab43bfeebc86e7da69b4f4a5c6884794a56b5d799b54b4b084e2"
+      },
+      "text": {
+        "jp": "プリミティブ「{1}」の UE マテリアル「{0}」は、ロードできないか、見つけることができませんでした",
+        "official_en": "UE material '{0}' for prim '{1}' could not be loaded or was not found.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "UAssetDefinition_Redirector",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_Redirector:Redirector_FindTarget:660cecb0",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_Redirector",
+        "key": "Redirector_FindTarget",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_Redirector:Redirector_FindTarget:660cecb0",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_Redirector:Redirector_FindTarget:660cecb0",
+        "jp_sha256": "ad517b51f99dc00c776e11b954cbc13d82d95ab67df03c08655b0c165fb0c4ab",
+        "official_en_sha256": "9e97c23cb044c26c4e39bf34e96f9ca3b1cb0fd3335c4816155ebac2660032cb"
+      },
+      "text": {
+        "jp": "ターゲットを検索",
+        "official_en": "Find Target",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_Redirector:Redirector_FixUpTooltip:dbf2a41f",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_Redirector",
+        "key": "Redirector_FixUpTooltip",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_Redirector:Redirector_FixUpTooltip:dbf2a41f",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_Redirector:Redirector_FixUpTooltip:dbf2a41f",
+        "jp_sha256": "812c1abc8c8052eaaab8f6af584a2ccc5fe31701243d8a1a8458e3d2fef187a7",
+        "official_en_sha256": "da52bfdb2346f86e531c8d2bc9928b49faf96da294e50fc0addfd01da2e3c2f1"
+      },
+      "text": {
+        "jp": "選択されているリダイレクタの参照元を見つけ、可能であれば参照元アセットを再保存します。これにより、代わりに直接リダイレクタのターゲットを参照します",
+        "official_en": "Finds references to selected redirectors and resaves the referencing assets if possible, so that they reference the target of the redirector directly instead.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_Redirector:Redirector_FindTargetTooltip:be30f85f",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_Redirector",
+        "key": "Redirector_FindTargetTooltip",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_Redirector:Redirector_FindTargetTooltip:be30f85f",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_Redirector:Redirector_FindTargetTooltip:be30f85f",
+        "jp_sha256": "9d52d0fdefc9c5f74c87ba4f53a3bc1f286c9b54f54a9689d39cbf36082426aa",
+        "official_en_sha256": "78831ca9709e5d3626f89cbfdce0d9b3d68b54edb6d9fccb5db074f053e0544d"
+      },
+      "text": {
+        "jp": "アセットツリー上でこのリダイレクタがターゲットとするアセットを検索する",
+        "official_en": "Finds the asset that this redirector targets in the asset tree.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_Redirector:FixupRedirectorsSlowTask:62c7674b",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_Redirector",
+        "key": "FixupRedirectorsSlowTask",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_Redirector:FixupRedirectorsSlowTask:62c7674b",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_Redirector:FixupRedirectorsSlowTask:62c7674b",
+        "jp_sha256": "429df113826712fb726031c0f75729493c4445972860dfb1e315033b0ee04d0f",
+        "official_en_sha256": "bf5085ff9d70ea98057c79c8f6111434043f7e6757d7ec5a2b60b067f0e930c1"
+      },
+      "text": {
+        "jp": "リダイレクタを修正しています",
+        "official_en": "Fixing up redirectors",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_Redirector:FixupRedirectors_FixupReferencers:a3585166",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_Redirector",
+        "key": "FixupRedirectors_FixupReferencers",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_Redirector:FixupRedirectors_FixupReferencers:a3585166",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_Redirector:FixupRedirectors_FixupReferencers:a3585166",
+        "jp_sha256": "1bbb04d38f8165c97dbf6531e7260891c207495bdc154b76f2e0d419d318e197",
+        "official_en_sha256": "c74a62bf1b94b54ec9f236ffbc161aa40f54c43eadd4e0361493cb9482d0df28"
+      },
+      "text": {
+        "jp": "参照を修正...",
+        "official_en": "Fixing up referencers...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_Redirector:FixupRedirectors_LoadAssets:8cd994aa",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_Redirector",
+        "key": "FixupRedirectors_LoadAssets",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_Redirector:FixupRedirectors_LoadAssets:8cd994aa",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_Redirector:FixupRedirectors_LoadAssets:8cd994aa",
+        "jp_sha256": "6a9d4406547ad9e1e3c4f4866c5f72deb8dd6b07e544299a185c0cad9fcf480b",
+        "official_en_sha256": "cc2ba7443f23c827261dabf8bc8bb6932e8759ca147dde9792313c95bddb195e"
+      },
+      "text": {
+        "jp": "アセットをロードしています...",
+        "official_en": "Loading Assets...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:UAssetDefinition_Redirector:Redirector_UpdateReferencers:fcb7a156",
+      "source": {
+        "set": "set-02",
+        "namespace": "UAssetDefinition_Redirector",
+        "key": "Redirector_UpdateReferencers",
+        "jp_record_id": "switch:locres:set-01:UAssetDefinition_Redirector:Redirector_UpdateReferencers:fcb7a156",
+        "official_en_record_id": "switch:locres:set-01:UAssetDefinition_Redirector:Redirector_UpdateReferencers:fcb7a156",
+        "jp_sha256": "f2646500a8eceec905876bd33fc12608d51b1e392aabcdccc3484849aa5ddfe8",
+        "official_en_sha256": "e3a3d81c38b874c8956f1b110b35f0cca9ffd23202c6b50f29dcad67ac3611df"
+      },
+      "text": {
+        "jp": "リダイレクタ参照を更新",
+        "official_en": "Update Redirector References",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}

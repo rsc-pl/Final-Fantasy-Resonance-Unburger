@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "group": {
+    "type": "engine_or_editor",
+    "namespace": "VirtualShadowMapCacheManager",
+    "scene_id": null,
+    "chapter": null,
+    "order_verified": false
+  },
+  "records": [
+    {
+      "record_id": "switch:locres:set-01:VirtualShadowMapCacheManager:VSM_MarkingJobQueueOverflow:92d19902",
+      "source": {
+        "set": "set-02",
+        "namespace": "VirtualShadowMapCacheManager",
+        "key": "VSM_MarkingJobQueueOverflow",
+        "jp_record_id": "switch:locres:set-01:VirtualShadowMapCacheManager:VSM_MarkingJobQueueOverflow:92d19902",
+        "official_en_record_id": "switch:locres:set-01:VirtualShadowMapCacheManager:VSM_MarkingJobQueueOverflow:92d19902",
+        "jp_sha256": "e5e0715a2c4e347ff69ecc305b41b634561db2b97f48d36c9471063d3dd57574",
+        "official_en_sha256": "0beb1533c23407a6ef1b8bc33d6cf21529433b4722bc2303619590c410123bb0"
+      },
+      "text": {
+        "jp": "[VSM] 非 Nanite マーキング ジョブ キュー オーバーフロー。パフォーマンスに影響が及ぶ場合があります。これは、多くの非 Nanite メッシュがシャドウ マップの広範囲をカバーする場合に起こります",
+        "official_en": "[VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VirtualShadowMapCacheManager:VSM_VisibleInstancesOverflow:822e8236",
+      "source": {
+        "set": "set-02",
+        "namespace": "VirtualShadowMapCacheManager",
+        "key": "VSM_VisibleInstancesOverflow",
+        "jp_record_id": "switch:locres:set-01:VirtualShadowMapCacheManager:VSM_VisibleInstancesOverflow:822e8236",
+        "official_en_record_id": "switch:locres:set-01:VirtualShadowMapCacheManager:VSM_VisibleInstancesOverflow:822e8236",
+        "jp_sha256": "9ae6594ad1e7bd4c88c1fcf9935329abf4ab909af037003cc60b13109c52f937",
+        "official_en_sha256": "e2647c022e75b498a0ee117987982391d2657b0ea7ee0f185a67cbfcab21082c"
+      },
+      "text": {
+        "jp": "[VSM] 非 Nanite 表示インスタンス バッファ オーバーフローを検知しました。これは、ビジュアル アーティファクト (シャドウの欠落) を生成します",
+        "official_en": "[VSM] Non-Nanite visible instances buffer overflow detected, this will produce visual artifacts (missing shadow).",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VirtualShadowMapCacheManager:VSM_OPPMaxLightsOverflow:6d361958",
+      "source": {
+        "set": "set-02",
+        "namespace": "VirtualShadowMapCacheManager",
+        "key": "VSM_OPPMaxLightsOverflow",
+        "jp_record_id": "switch:locres:set-01:VirtualShadowMapCacheManager:VSM_OPPMaxLightsOverflow:6d361958",
+        "official_en_record_id": "switch:locres:set-01:VirtualShadowMapCacheManager:VSM_OPPMaxLightsOverflow:6d361958",
+        "jp_sha256": "de6d4289449b914f6d41b9d971009a3fe1c692f15a83a56273f098e98d974505",
+        "official_en_sha256": "9cc3e8d8619ff21c6d7871394e7c679a8c85d6992301d886e05e70a857f1f330"
+      },
+      "text": {
+        "jp": "[VSM] ワンパス投影最大ライト オーバーフロー。シャドウ アーティファクトが見える場合、ピクセルあたりのローカル ライト量を減らすか r.Shadow.Virtual.OnePassProjection.MaxLightsPerPixel を増やします",
+        "official_en": "[VSM] One Pass Projection max lights overflow. If you see shadow artifacts, decrease the amount of local lights per pixel, or increase r.Shadow.Virtual.OnePassProjection.MaxLightsPerPixel.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VirtualShadowMapCacheManager:VSM_PagePoolOverflow:aa05b394",
+      "source": {
+        "set": "set-02",
+        "namespace": "VirtualShadowMapCacheManager",
+        "key": "VSM_PagePoolOverflow",
+        "jp_record_id": "switch:locres:set-01:VirtualShadowMapCacheManager:VSM_PagePoolOverflow:aa05b394",
+        "official_en_record_id": "switch:locres:set-01:VirtualShadowMapCacheManager:VSM_PagePoolOverflow:aa05b394",
+        "jp_sha256": "64531577ac02d9016cf464c6a6f8cacc0da5c6a87f65c206587c255f06929200",
+        "official_en_sha256": "e0f7f3f69b95b8d878a903b79da9c6fca526f89a989ed6f112874f84b63eb2ac"
+      },
+      "text": {
+        "jp": "[VSM] ページ プール オーバーフローを検知しました。これは、ビジュアル アーティファクト (シャドウの欠落) を生成します。回避するには、ページ プールの制限を増やすか解像度バイアスを減らします",
+        "official_en": "[VSM] Page Pool overflow detected, this will produce visual artifacts (missing shadow). Increase the page pool limit or reduce resolution bias to avoid.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    },
+    {
+      "record_id": "switch:locres:set-01:VirtualShadowMapCacheManager:VSM_UnknownOverflow:c33eb2be",
+      "source": {
+        "set": "set-02",
+        "namespace": "VirtualShadowMapCacheManager",
+        "key": "VSM_UnknownOverflow",
+        "jp_record_id": "switch:locres:set-01:VirtualShadowMapCacheManager:VSM_UnknownOverflow:c33eb2be",
+        "official_en_record_id": "switch:locres:set-01:VirtualShadowMapCacheManager:VSM_UnknownOverflow:c33eb2be",
+        "jp_sha256": "b2bc2e5fe87c4c99e310d593b6417f394a493d4fa7ea5cd4e1f167a9905fec4f",
+        "official_en_sha256": "f477dad51330097526a856f50163ebadf6723bad2f0ad655e5ce6995ee7a0b68"
+      },
+      "text": {
+        "jp": "[VSM] 不明なオーバーフロー",
+        "official_en": "[VSM] Unknown overflow",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      },
+      "function": "engine_or_editor",
+      "context": {
+        "scene_ref": null,
+        "sequence": null,
+        "speaker": {
+          "applicability": "NOT_APPLICABLE",
+          "label_jp": null,
+          "label_status": "NOT_APPLICABLE",
+          "name_entry": null,
+          "identity": null,
+          "runtime_character_id": null,
+          "evidence_refs": []
+        },
+        "addressee": null,
+        "branch_ref": null,
+        "voice_ref": null
+      }
+    }
+  ]
+}
