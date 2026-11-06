@@ -170,10 +170,10 @@
       "text": {
         "jp": "スロウの時、魔法ダメージを一定以上受けると反撃する",
         "official_en": "When inflicted with Slow, counterattacks after taking a fixed amount of magic damage.",
-        "real_en": null
+        "real_en": "While affected by Slow, counterattacks after taking at least a certain amount of magic damage."
       },
       "review": {
-        "status": "KEEP"
+        "status": "CHANGE"
       },
       "function": "game_text_unclassified",
       "context": {
@@ -1095,10 +1095,10 @@
       "text": {
         "jp": "次の行動までに受けた攻撃回数に応じて、被ダメージが減少する",
         "official_en": "Takes less damage based on number of attacks taken before the next turn.",
-        "real_en": null
+        "real_en": "Takes less damage depending on how many attacks it receives before its next action."
       },
       "review": {
-        "status": "KEEP"
+        "status": "CHANGE"
       },
       "function": "game_text_unclassified",
       "context": {
