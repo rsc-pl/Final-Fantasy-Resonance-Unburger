@@ -24,10 +24,10 @@
       "text": {
         "jp": "1回の行動で「流剣の舞」と、選択したオニオンナイトの技を連続で使用できる",
         "official_en": "Grant use of both Blade Torrent and selected Onion Knight skill in a single turn.",
-        "real_en": null
+        "real_en": "Use Flowing Blade Dance and the selected Onion Knight skill consecutively in a single action."
       },
       "review": {
-        "status": "KEEP"
+        "status": "CHANGE"
       },
       "function": "skill_text",
       "context": {
@@ -61,7 +61,7 @@
       "text": {
         "jp": "1回の行動でコマンドを2つ使用できる",
         "official_en": "Grant use of 2 actions in a single turn.",
-        "real_en": "Use two commands in a single turn."
+        "real_en": "Use two commands in a single action."
       },
       "review": {
         "status": "CHANGE"
@@ -98,7 +98,7 @@
       "text": {
         "jp": "1回の行動で黒魔法・白魔法を\n2つ連続で使用できる",
         "official_en": "Grant use of 2 consecutive black or white magic spells in a single turn.",
-        "real_en": "Use two black or white magic spells in succession during a single turn."
+        "real_en": "Use two black or white magic spells consecutively in a single action."
       },
       "review": {
         "status": "CHANGE"
@@ -135,10 +135,10 @@
       "text": {
         "jp": "1回の行動で黒魔法・白魔法以外の攻撃技を2つ連続で使用できる",
         "official_en": "Grant use of 2 consecutive attack skills in a single turn. Cannot be used with black or white magic.",
-        "real_en": null
+        "real_en": "Use two attack skills other than black or white magic consecutively in a single action."
       },
       "review": {
-        "status": "KEEP"
+        "status": "CHANGE"
       },
       "function": "skill_text",
       "context": {
@@ -12197,10 +12197,10 @@
       "text": {
         "jp": "味方全体に、行動時にLBゲージが増加する効果を付与する\n{Effect1Turn}回行動すると効果は消える",
         "official_en": "Fill allies’ LB gauges when they act. Effect expires for each ally after they perform {Effect1Turn} {Effect1Turn}|plural(one=action, other=actions).",
-        "real_en": null
+        "real_en": "Increase all allies' LB gauges when they act. Effect expires for each ally after {Effect1Turn} {Effect1Turn}|plural(one=action, other=actions)."
       },
       "review": {
-        "status": "KEEP"
+        "status": "CHANGE"
       },
       "function": "skill_text",
       "context": {
